@@ -1194,7 +1194,10 @@ def handle_roundup():
         lines.append(SEP)
     lines += ["", footer()]
     card = make_card(re.sub(r"^\W+", "", title), sd_date(), theme="news") if cfg.get("card", True) else None
-    fb_post("\n".join(lines), photo=card)
+    if fb_post("\n".join(lines), photo=card):
+        links = [f"{NUM[i] if i < len(NUM) else '🔹'} {s['link']}" for i, s in enumerate(stories) if s.get("link")]
+        if links:
+            link_comment(LBL.get("links_comment", "🔗 مڪمل خبرون:") + "\n" + "\n".join(links))
 
 
 def sindh_candidates(cfg):
@@ -1233,6 +1236,7 @@ def sindh_candidates(cfg):
                 continue
             keys.add(k)
             raw.append({"ts": ts, "title": title, "text": body[:1200], "source": fname or st or domain,
+                        "link": e.get("link", ""),
                         "rich": len(body) > 120})
     raw.sort(key=lambda r: (r["rich"], r["ts"]), reverse=True)  # matn wali khabrein pehle
     return raw
@@ -1263,10 +1267,10 @@ def sindh_stories(cfg):
                 continue
             t, bdy = clean_text(it.get("title", "")), clean_text(it.get("body", ""))
             if len(t) > 5 and len(bdy) > 20 and not blocked_reason(t + " " + bdy):
-                stories.append({"title": t, "body": bdy, "source": r["source"]})
+                stories.append({"title": t, "body": bdy, "source": r["source"], "link": r.get("link", "")})
         if stories:
             return stories[:want]
-    return [{"title": r["title"], "body": r["text"][:300] or r["title"], "source": r["source"]}
+    return [{"title": r["title"], "body": r["text"][:300] or r["title"], "source": r["source"], "link": r.get("link", "")}
             for r in cand[:want] if r["rich"]]
 
 
@@ -1316,8 +1320,36 @@ def handle_sindh_single():
            f"\n\n{footer()}")
     card = make_card(title, cfg.get("card_sub", "سنڌ جون خبرون"), theme="news") if cfg.get("card", True) else None
     if fb_post(msg, photo=card):
+        if r.get("link"):
+            link_comment(f"{LBL.get('link_comment', '🔗 مڪمل خبر:')} {r['link']}")
         day["count"] += 1
         mark_shareable(title)
+
+
+def link_comment(text):
+    """Abhi lagi post par page ki taraf se pehla comment (mukammal khabar ka link).
+    Comment lag jaye to post mein 'link comment mein' ki line jori jati hai. Facebook API se pin mumkin nahi."""
+    pid = S.get("last_post_id")
+    if not pid or DRY_RUN or not CONFIG.get("link_in_comment", True):
+        return False
+    try:
+        r = requests.post(f"{GRAPH}/{pid}/comments", timeout=30, data={"message": text, "access_token": FB_TOKEN})
+        if r.status_code != 200:
+            log("link comment error:", r.text[:150])
+            return False
+        note = LBL.get("link_note", "🔗 مڪمل خبر جو لنڪ ڪمينٽ ۾")
+        g = requests.get(f"{GRAPH}/{pid}", timeout=30, params={"fields": "message", "access_token": FB_TOKEN}).json()
+        msg = g.get("message", "")
+        if msg and note not in msg:
+            parts = msg.rsplit("\n\n📲", 1)  # footer se pehle
+            new = parts[0] + f"\n\n{note}" + ("\n\n📲" + parts[1] if len(parts) == 2 else "")
+            e = requests.post(f"{GRAPH}/{pid}", timeout=30, data={"message": new, "access_token": FB_TOKEN})
+            if e.status_code != 200:
+                log("post edit error:", e.text[:150])
+        return True
+    except Exception as ex:
+        log("link comment error:", ex)
+        return False
 
 
 def mark_shareable(text):
