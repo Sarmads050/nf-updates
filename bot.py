@@ -1621,13 +1621,17 @@ def cricket_matches():
             continue
         a, b = title.split(" v ", 1)
         sa, sb = parse_side(a), parse_side(b)
-        if team not in (sa["name"] + sb["name"]).lower():
+        # sirf qaumi teamein: "Pakistan" aur "Pakistan Women"; Pakistan A/U19/Shaheens nahi
+        names = {sa["name"].strip().lower(), sb["name"].strip().lower()}
+        ok = {team, team + " women"} if cfg.get("include_women", True) else {team}
+        if not names & ok:
             continue
+        women = any(n.endswith(" women") for n in names)
         key = re.sub(r"\W+", "", (e.get("link") or e.get("id") or title).lower())[-60:]
         rival = cfg.get("rival", "India").lower()
+        rivals = {rival + " women"} if women else {rival}
         out.append({"key": key, "title": title, "a": sa, "b": sb, "link": e.get("link", ""),
-                    "live": sa["batting"] or sb["batting"],
-                    "rival": rival in sa["name"].lower() or rival in sb["name"].lower()})
+                    "live": sa["batting"] or sb["batting"], "rival": bool(names & rivals)})
     return out
 
 
@@ -1798,7 +1802,9 @@ def handle_cricket_news():
     for it in items[:6]:
         S["seen"][it["key"]] = time.time()
         prompt = ("Headline: " + it["title"] + "\nReturn JSON only: {\"cricket\": bool, \"blocked\": bool, \"post\": string}\n"
-                  "- cricket: true only if it is about Pakistan cricket, the PCB or a Pakistani cricketer.\n"
+                  "- cricket: true ONLY if it is about the Pakistan national cricket team, men's or women's (its matches, "
+                  "squad, captain, coach, selection) or a player of those national teams. false for other countries' cricket, "
+                  "domestic/franchise leagues (PSL etc.), Pakistan A/Shaheens/U19, or non-cricket news.\n"
                   "- blocked: true if it involves religion controversy, abuse, or the Pakistani military.\n"
                   "- post: rewrite ONLY the headline's facts as a 1-2 sentence Facebook post in Sindhi (Arabic script), "
                   "no hashtags, no full stop at the end.")
