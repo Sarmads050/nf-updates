@@ -370,6 +370,10 @@ def handle_news():
             if res.get("relevant") is False:
                 log("relevant nahi:", it["title"][:60])
                 continue
+        elif not word_match(it["title"], CONFIG["district_towns"]):
+            # bina AI ke sirf woh khabar jis ki headline mein district/shehar ka naam ho
+            log("headline mein district ka naam nahi, skip:", it["title"][:60])
+            continue
         text = res["post"].strip() if res else f"{LBL['news_icon']} {it['title']}"
         message = compose(it, text)
         sensitive = word_match(it["title"], CONFIG["sensitive_words"]) or bool(res and res.get("sensitive"))
