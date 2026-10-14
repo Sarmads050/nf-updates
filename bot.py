@@ -1181,6 +1181,40 @@ def handle_engagement():
         S["last_question"] = today()
 
 
+PRAISE_WORDS = [
+    "zabardast", "zbrdst", "shabash", "shabaash", "mashallah", "masha allah", "mashaallah", "subhanallah",
+    "behtareen", "bohat acha", "bohat achi", "bht acha", "acha kaam", "achi khabar", "great", "nice", "good job",
+    "excellent", "awesome", "well done", "keep it up", "thanks", "thank you", "shukriya", "jazakallah", "wah",
+    "زبردست", "شاباش", "شاباس", "ماشاءالله", "ماشاء الله", "ماشاالله", "سبحان الله", "بہترین", "بهترين", "شاندار",
+    "بہت اچھا", "بہت اچھی", "اچھا کام", "سٺو", "تمام سٺو", "ڏاڍو سٺو", "سهڻو", "مهرباني", "شڪريو", "شکریہ", "جزاک الله",
+    "👍", "❤", "❤️", "🔥", "👏", "💯", "🌹", "😍", "🥰", "💐", "✅"]
+
+
+def praise_ids(items):
+    """Kaun se comments post/page ki tareef ya shukriya hain. AI se, warna alfaaz se."""
+    if not items:
+        return set()
+    if GEMINI_KEY or GROQ_KEY:
+        prompt = ("These are comments on a local news Facebook page from Sindh, Pakistan. For each, decide if it is "
+                  "praise or thanks for the post or the page (e.g. 'great work', 'mashallah', 'shabash', only heart/"
+                  "thumbs emojis). Questions, complaints, criticism, requests, opinions about the news itself, sad "
+                  "condolence comments, or anything else are NOT praise.\n"
+                  "Return JSON: {\"praise\": [ids]}\n\n" + "\n".join(f"{cid}: {m[:200]}" for cid, m in items))
+        out = ask_gemini(prompt) if GEMINI_KEY else None
+        if not out and GROQ_KEY:
+            out = ask_groq(prompt)
+        if isinstance(out, dict) and isinstance(out.get("praise"), list):
+            return {str(x) for x in out["praise"]} & {cid for cid, _ in items}
+    found = set()
+    for cid, m in items:
+        low = (m or "").lower()
+        if "?" in low or "؟" in low:
+            continue  # sawal: tareef nahi
+        if any(w.lower() in low for w in PRAISE_WORDS):
+            found.add(cid)
+    return found
+
+
 def handle_auto_reply():
     """Page ki posts par aaye comments ka jawab, har comment ke 1-10 minute baad (random), taake insaani lage.
     Is ke liye token mein pages_read_user_content aur pages_manage_engagement chahiye."""
@@ -1221,8 +1255,13 @@ def handle_auto_reply():
                 continue
             due = created + random.Random(cid).randint(lo, hi)  # har comment ka apna random waqt
             if due <= started + window:
-                todo.append((due, cid))
-    todo.sort()
+                todo.append((due, cid, c.get("message", "")))
+    # Sirf tareef wale comments ka jawab; baqi (sawal, shikayat, waghera) admin khud dekhega
+    praise = praise_ids([(cid, msg) for _, cid, msg in todo]) if cfg.get("only_praise", True) else {t[1] for t in todo}
+    for _, cid, _m in todo:
+        if cid not in praise:
+            replied.append(cid)  # chhor diya: manual jawab ke liye
+    todo = sorted((d, cid) for d, cid, _m in todo if cid in praise)
     done = 0
     for due, cid in todo[: cfg.get("max_per_run", 10)]:
         wait = due - time.time()
