@@ -140,7 +140,15 @@
     "pcb.com.pk",
     "icc-cricket.com",
     "cricbuzz.com",
-    "geosuper.tv"
+    "geosuper.tv",
+    "agriculture.gov.pk",
+    "parc.gov.pk",
+    "sindhagri.gov.pk",
+    "agripunjab.gov.pk",
+    "mnfsr.gov.pk",
+    "businessrecorder.com",
+    "profit.pakistantoday.com.pk",
+    "pakistantoday.com.pk"
   ],
   "sensitive_words": [
     "murder",
@@ -547,5 +555,27 @@
     },
     "include_women": true
   },
-  "cricket_tags": "#PakistanCricket #Cricket #NaushahroFeroze"
+  "cricket_tags": "#PakistanCricket #Cricket #NaushahroFeroze",
+  "agriculture": {
+    "enabled": true,
+    "max_per_day": 4,
+    "gap_minutes": 120,
+    "start_hour": 8,
+    "end_hour": 22,
+    "max_age_hours": 24,
+    "queries": [
+      "Pakistan agriculture",
+      "wheat price Pakistan",
+      "cotton crop Pakistan",
+      "Sindh growers",
+      "urea DAP price Pakistan",
+      "sugarcane price Sindh",
+      "زراعت پاکستان",
+      "کسان پیکج",
+      "گندم کی قیمت",
+      "کپاس کی فصل",
+      "کھاد کی قیمت",
+      "سندھ آبادگار"
+    ]
+  }
 }

@@ -1763,19 +1763,19 @@ def handle_cricket_live():
         state.pop(k, None)
 
 
-def handle_cricket_news():
-    """Pakistan cricket aur cricketers ki khabrein (district se alag), din mein hadd ke saath."""
-    cfg = CONFIG.get("cricket", {}).get("news", {})
+def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12):
+    """Kisi ek mauzoo (cricket, zarat) ki mulk bhar ki khabrein, din mein hadd ke saath."""
     if not cfg.get("enabled", True):
         return
-    day = S.setdefault("cricket_news", {"date": "", "count": 0, "last": 0})
+    day = S.setdefault(state_key, {"date": "", "count": 0, "last": 0})
     if day["date"] != today():
         day.update(date=today(), count=0)
+    hour = now().hour
     if (day["count"] >= cfg.get("max_per_day", 4) or time.time() - day.get("last", 0) < cfg.get("gap_minutes", 90) * 60
-            or S["queue"] or not can_post()):
+            or not cfg.get("start_hour", 0) <= hour < cfg.get("end_hour", 24) or S["queue"] or not can_post()):
         return
     items = []
-    for q in cfg.get("queries", ["Pakistan cricket"]):
+    for q in cfg.get("queries", default_queries):
         for lang in ("ur", "en"):
             try:
                 feed = feedparser.parse(requests.get(gnews_url(q, lang), timeout=25, headers=UA).content)
@@ -1792,31 +1792,53 @@ def handle_cricket_news():
                 href = (src.get("href") if hasattr(src, "get") else "") or e.get("link", "")
                 domain = urlparse(href).netloc.lower().removeprefix("www.")
                 k = item_key(title)
-                if (k in S["seen"] or time.time() - ts > 12 * 3600 or not is_trusted(domain) or blocked_reason(title)
-                        or keyword_sensitive(title)):
+                if (k in S["seen"] or time.time() - ts > max_age_h * 3600 or not is_trusted(domain)
+                        or blocked_reason(title) or keyword_sensitive(title)):
                     continue
                 items.append({"key": k, "title": title, "link": e.get("link", ""), "source": st_ or domain, "ts": ts})
     if not items:
         return
     items.sort(key=lambda x: x["ts"], reverse=True)
+    done = set()
     for it in items[:6]:
+        if it["key"] in done:
+            continue
+        done.add(it["key"])
         S["seen"][it["key"]] = time.time()
-        prompt = ("Headline: " + it["title"] + "\nReturn JSON only: {\"cricket\": bool, \"blocked\": bool, \"post\": string}\n"
-                  "- cricket: true ONLY if it is about the Pakistan national cricket team, men's or women's (its matches, "
-                  "squad, captain, coach, selection) or a player of those national teams. false for other countries' cricket, "
-                  "domestic/franchise leagues (PSL etc.), Pakistan A/Shaheens/U19, or non-cricket news.\n"
+        prompt = ("Headline: " + it["title"] + "\nReturn JSON only: {\"relevant\": bool, \"blocked\": bool, \"post\": string}\n"
+                  "- relevant: " + check_rule + "\n"
                   "- blocked: true if it involves religion controversy, abuse, or the Pakistani military.\n"
                   "- post: rewrite ONLY the headline's facts as a 1-2 sentence Facebook post in Sindhi (Arabic script), "
                   "no hashtags, no full stop at the end.")
         res = ask_gemini(prompt) if GEMINI_KEY else (ask_groq(prompt) if GROQ_KEY else None)
-        if not res or not res.get("cricket") or res.get("blocked") or not str(res.get("post", "")).strip():
+        if not res or not res.get("relevant") or res.get("blocked") or not str(res.get("post", "")).strip():
             continue
-        msg = f"🏏 {finish(res['post'])}\n\n📌 {LBL['source']}: {it['source']}\n\n{footer()}"
+        msg = f"{icon} {finish(res['post'])}\n\n📌 {LBL['source']}: {it['source']}\n\n{footer()}"
         if fb_post(msg, link=it["link"], count=False):
             day["count"] += 1
             day["last"] = time.time()
             mark_shareable(res["post"])
         break
+
+
+def handle_cricket_news():
+    """Pakistan ki qaumi cricket teamon (mard/khawateen) ki khabrein."""
+    topic_news("cricket_news", CONFIG.get("cricket", {}).get("news", {}), "🏏",
+               "true ONLY if it is about the Pakistan national cricket team, men's or women's (its matches, "
+               "squad, captain, coach, selection) or a player of those national teams. false for other countries' "
+               "cricket, domestic/franchise leagues (PSL etc.), Pakistan A/Shaheens/U19, or non-cricket news.",
+               ["Pakistan cricket"])
+
+
+def handle_agri_news():
+    """Poore Pakistan ki zarat (kheti-baari) ki khabrein: fasal, qeemat, khaad, paani, kisan."""
+    topic_news("agri_news", CONFIG.get("agriculture", {}), "🌾",
+               "true ONLY if it is agriculture news useful for Pakistani farmers or the public: crops (wheat, "
+               "cotton, rice, sugarcane, mango, vegetables), crop prices or support price, fertilizer/urea/DAP, "
+               "seeds, irrigation water and canals, pests and crop diseases, weather affecting crops, livestock and "
+               "dairy, farmer packages or government agriculture policy in Pakistan. false for news outside "
+               "Pakistan, stock-market-only items, or non-agriculture news.",
+               ["Pakistan agriculture"], max_age_h=CONFIG.get("agriculture", {}).get("max_age_hours", 24))
 
 
 def handle_promo():
@@ -1895,6 +1917,7 @@ def main():
         handle_sindh_single()
         handle_share_helper()
         handle_cricket_news()
+        handle_agri_news()
         handle_cricket_live()
         handle_auto_reply()
     except Exception:
