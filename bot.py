@@ -1109,8 +1109,8 @@ def fb_post(message, link=None, photo=None, video=None, count=True, card=True, c
     orig_link = link
     if CONFIG.get("news_cards", True):
         if card and not photo and not video:
-            title = card_title_of(message)
-            made = make_card(title, card_label or TOPIC_SD.get("district", ""), theme="news") if title else None
+            title, body = card_parts(message)
+            made = make_card(title, card_label or TOPIC_SD.get("district", ""), body, theme="news") if title else None
             if made:
                 photo = made
         if link and (photo or video) and CONFIG.get("link_in_comment", True):
@@ -1428,6 +1428,45 @@ def sd_date():
     return f"{n.day} {SD_MONTHS[n.month - 1]} {n.year}"
 
 
+def cut_words(text, limit=90):
+    text = (text or "").strip()
+    return text if len(text) <= limit else text[:limit].rsplit(" ", 1)[0]
+
+
+def trim_sentences(text, limit):
+    """Poore jumle rakho jab tak hadd na guzre (adhoora jumla nahi)."""
+    text = re.sub(r"\s+", " ", text or "").strip()
+    if len(text) <= limit:
+        return text
+    parts = re.split(r"(?<=[!۔.؟?])\s", text)
+    out = ""
+    for p_ in parts:
+        if len(out) + len(p_) + 1 > limit:
+            break
+        out = (out + " " + p_).strip()
+    return out or text[:limit].rsplit(" ", 1)[0] + "…"
+
+
+def card_parts(message):
+    """Post ke text se card ki sarkhi aur khabar ka asal hissa (source/footer/hashtag ke baghair)."""
+    lines = []
+    for line in (message or "").splitlines():
+        t = line.strip()
+        if not t or t[:1] in ("#",) or t.startswith(("📌", "📲", "🔗", "✍️", "⚠️")):
+            continue
+        lines.append(re.sub(r"^[^\w\u0600-\u06FF]+", "", t).strip())
+    lines = [x for x in lines if len(x) >= 3]
+    if not lines:
+        return "", ""
+    first = lines[0]
+    sents = re.split(r"(?<=[!۔.؟?])\s", first)
+    if len(lines) > 1 and len(first) <= 90:  # pehli line hi sarkhi hai
+        return first, trim_sentences(" ".join(lines[1:]), 300)
+    title = cut_words(sents[0], 90)
+    rest = " ".join(sents[1:] + lines[1:])
+    return title, trim_sentences(rest, 300)
+
+
 def make_card(title, subtitle="", body="", theme="news"):
     """Page ke rang (Ajrak) wali tasveer banana: Chrome headless se HTML ka screenshot. Na bane to None."""
     import html as H
@@ -1443,7 +1482,13 @@ def make_card(title, subtitle="", body="", theme="news"):
     accent = "#B3261E" if theme == "news" else "#1F6F5C"
     font_css = os.getenv("CARD_FONT_CSS", "") or \
         "@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@700&display=swap');"
-    big = 92 if len(title) < 22 else 74 if len(title) < 40 else 58
+    body = trim_sentences(body, 300) if body else ""
+    if body:  # sarkhi + khabar: dono card mein samayein
+        big = 68 if len(title) < 30 else 58 if len(title) < 55 else 50
+        small = 46 if len(body) < 120 else 41 if len(body) < 210 else 37
+    else:
+        big = 92 if len(title) < 22 else 74 if len(title) < 40 else 58
+        small = 40
     page = f"""<!doctype html><html><head><meta charset="utf-8"><style>{font_css}
     html,body{{margin:0;width:1080px;height:1080px;overflow:hidden}}
     body{{background:#14213D;font-family:'Noto Naskh Arabic','Noto Naskh',serif;color:#F4EFE6;position:relative}}
@@ -1456,7 +1501,8 @@ def make_card(title, subtitle="", body="", theme="news"):
     .tag{{background:{accent};color:#fff;font-size:34px;padding:8px 30px;border-radius:6px;letter-spacing:1px;
       font-family:Arial,sans-serif;font-weight:700;direction:ltr}}
     h1{{margin:0;font-size:{big}px;line-height:1.45;font-weight:700}}
-    .sub{{font-size:44px;opacity:.9;font-family:'Noto Naskh Arabic','Noto Naskh',serif;font-weight:700}} .body{{font-size:40px;line-height:1.6;opacity:.95;max-width:900px}}
+    .sub{{font-size:44px;opacity:.9;font-family:'Noto Naskh Arabic','Noto Naskh',serif;font-weight:700}} .body{{font-size:{small}px;line-height:1.65;opacity:.97;max-width:920px;
+      border-top:3px solid rgba(244,239,230,.35);padding-top:22px;direction:rtl}}
     .brand{{font-family:Arial,sans-serif;font-weight:700;font-size:30px;letter-spacing:3px;opacity:.85;direction:ltr}}
     </style></head><body><div class="band top"></div><div class="band bot"></div><div class="wrap">
     <div class="tag">NAUSHAHRO FEROZE UPDATES</div><h1>{H.escape(title)}</h1>
@@ -1634,7 +1680,7 @@ def handle_sindh_single():
         return
     msg = (f"{cfg.get('label', '📰 سنڌ')} | {title}\n\n{finish(body)}\n\n📌 {LBL['source']}: {r['source']}"
            f"\n\n{footer()}")
-    card = make_card(title, cfg.get("card_sub", "سنڌ جون خبرون"), theme="news") if cfg.get("card", True) else None
+    card = make_card(title, cfg.get("card_sub", "سنڌ جون خبرون"), finish(body), theme="news") if cfg.get("card", True) else None
     if fb_post(msg, photo=card, count=False):
         perf_record("sindh_single", "sindh")
         if r.get("link"):
@@ -2176,13 +2222,14 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
     if icons and cat not in icons:
         cat = guess_cat(it["title"] + " " + post)
     ic = (icons or {}).get(cat, icon)
-    head = clean_text(str(res.get("headline", "")))[:90]
+    head = cut_words(clean_text(str(res.get("headline", ""))), 90)
     if len(head) < 6 or blocked_reason(head):
         head = ""
     label = TOPIC_SD.get(cat if icons else state_key, "")
     msg = (f"{ic} {head}\n\n" if head else f"{ic} ") + \
         f"{finish(post)}\n\n📌 {LBL['source']}: {clean_source(it['source'])}\n\n{footer()}"
-    if news_card_post(msg, head or post[:90], label, it["link"]):
+    if news_card_post(msg, head or card_parts(post)[0], label, it["link"],
+                      body=finish(post) if head else card_parts(post)[1]):
         perf_record(state_key, cat if icons else state_key)
         day["count"] += 1
         day["last"] = time.time()
@@ -2205,9 +2252,9 @@ def clean_source(src):
     return re.sub(r"[\s|•\-–—:]+$", "", re.sub(r"^[\s|•\-–—:]+", "", src or "")).strip() or src
 
 
-def news_card_post(msg, card_title, label, link, count=False):
+def news_card_post(msg, card_title, label, link, count=False, body=""):
     """Khabar design wale card ke saath; mukammal khabar ka link pehle comment mein (fb_post khud karta hai)."""
-    card = make_card(card_title, label, theme="news") if CONFIG.get("news_cards", True) else None
+    card = make_card(card_title, label, body, theme="news") if CONFIG.get("news_cards", True) else None
     return fb_post(msg, link=link, photo=card, count=count, card=False)
 
 
