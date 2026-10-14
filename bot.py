@@ -9,6 +9,7 @@ import hashlib
 import html
 import json
 import os
+import random
 import re
 import time
 import traceback
@@ -993,20 +994,76 @@ def record_title(text):
 
 
 def handle_roundup():
-    """Raat ko (peak time) din bhar ki ahem khabron ki list: share hone wali post."""
-    cfg = CONFIG.get("roundup", {})
-    t = S.get("today_titles", {})
-    if (not cfg.get("enabled", True) or now().hour < cfg.get("hour", 21) or S.get("last_roundup") == today()
-            or t.get("date") != today()):
+    """Din mein do dafa (subah 6, shaam 6) poore Sindh ki ahem khabron ki list, alag post."""
+    cfg = CONFIG.get("sindh_roundup", {})
+    if not cfg.get("enabled", True):
         return
-    items = t.get("items", [])[: cfg.get("max_items", 8)]
-    S["last_roundup"] = today()
-    if len(items) < cfg.get("min_items", 3):
+    slot = None
+    for name, hour in (("am", cfg.get("morning_hour", 6)), ("pm", cfg.get("evening_hour", 18))):
+        start = hour if name == "am" else hour
+        end = 12 if name == "am" else 24
+        if start <= now().hour < end and S.get("roundup_" + name) != today():
+            slot = name
+    if not slot:
         return
-    lines = [cfg.get("title", "📋 اڄ جون اهم خبرون"), ""]
-    lines += [f"{n}️⃣ {x}" if n < 10 else f"{n}. {x}" for n, x in enumerate(items, 1)]
-    lines += ["", cfg.get("closing", "سڀ خبرون تفصيل سان پيج تي موجود آهن!"), "", footer()]
+    S["roundup_" + slot] = today()
+    items = sindh_headlines(cfg)
+    if len(items) < cfg.get("min_items", 4):
+        log("sindh roundup: kaafi khabrein nahi mili", len(items))
+        return
+    lines = [cfg.get("title_am" if slot == "am" else "title_pm", "📋 سنڌ جون اهم خبرون"), ""]
+    lines += [f"🔹 {finish(x)}" for x in items]
+    lines += ["", footer()]
     fb_post("\n".join(lines))
+
+
+def sindh_headlines(cfg):
+    """Pichle 12 ghante ki Sindh ki khabrein: bharosemand, bina pabandi aur bina jurm wali, Sindhi mein ek line."""
+    max_age = cfg.get("max_age_hours", 12) * 3600
+    urls = [gnews_url(q, lang) for q in cfg.get("queries", ["Sindh"]) for lang in ("ur", "en")]
+    urls += cfg.get("feeds", [])
+    seen_keys, raw = set(), []
+    for u in urls:
+        try:
+            feed = feedparser.parse(requests.get(u, timeout=25, headers=UA).content)
+        except Exception as e:
+            log("roundup feed error:", u, e)
+            continue
+        for e in feed.entries:
+            title = clean_text(e.get("title", ""))
+            src = e.get("source") or {}
+            st = src.get("title", "") if hasattr(src, "get") else ""
+            if st and title.endswith(" - " + st):
+                title = title[: -(len(st) + 3)].strip()
+            pub = e.get("published_parsed") or e.get("updated_parsed")
+            ts = calendar.timegm(pub) if pub else time.time()
+            domain = urlparse((src.get("href") if hasattr(src, "get") else "") or e.get("link", "")).netloc.lower().removeprefix("www.")
+            k = item_key(title)
+            if (len(title) < 15 or k in seen_keys or time.time() - ts > max_age or not is_trusted(domain)
+                    or blocked_reason(title) or keyword_sensitive(title)):
+                continue
+            seen_keys.add(k)
+            raw.append((ts, title))
+    raw.sort(reverse=True)
+    titles = [t for _, t in raw[:25]]
+    if not titles:
+        return []
+    want = cfg.get("max_items", 8)
+    if GEMINI_KEY or GROQ_KEY:
+        prompt = ("Below are recent news headlines from Sindh, Pakistan. Pick the " + str(want) + " most important "
+                  "for people of Sindh (public interest: government decisions, education, health, weather, prices, "
+                  "development, jobs, sports). Skip duplicates, crime, violence, politics fights, anything about "
+                  "religion controversy, abusive content or the military. Write each as ONE short line in Sindhi "
+                  "(Arabic script), only facts from the headline, no full stop at the end.\n"
+                  "Return JSON: {\"items\": [string]}\n\nHEADLINES:\n" + "\n".join(f"- {t}" for t in titles))
+        out = ask_gemini(prompt) if GEMINI_KEY else None
+        if not out and GROQ_KEY:
+            out = ask_groq(prompt)
+        items = [clean_text(x) for x in (out or {}).get("items", []) if isinstance(x, str)]
+        items = [x for x in items if len(x) > 8 and not blocked_reason(x)]
+        if items:
+            return items[:want]
+    return titles[:want]
 
 
 def handle_engagement():
@@ -1023,7 +1080,7 @@ def handle_engagement():
 
 
 def handle_auto_reply():
-    """Page ki posts par aaye comments ka jawab (shukriya + follow ki dawat).
+    """Page ki posts par aaye comments ka jawab, har comment ke 1-10 minute baad (random), taake insaani lage.
     Is ke liye token mein pages_read_user_content aur pages_manage_engagement chahiye."""
     cfg = CONFIG.get("auto_reply", {})
     if not cfg.get("enabled") or DRY_RUN or not (FB_PAGE_ID and FB_TOKEN) or not cfg.get("replies"):
@@ -1031,44 +1088,61 @@ def handle_auto_reply():
     replied = S.setdefault("replied", [])
     try:
         r = requests.get(f"{GRAPH}/{FB_PAGE_ID}/posts", timeout=30, params={
-            "access_token": FB_TOKEN, "limit": 6,
-            "fields": "id,comments.limit(30){id,message,from,comments.limit(10){from}}"})
-        posts = r.json().get("data", [])
+            "access_token": FB_TOKEN, "limit": 8,
+            "fields": "id,comments.limit(40){id,message,from,created_time,comments.limit(10){from}}"})
         if r.status_code != 200:
             log("auto reply read error:", r.text[:200])
             return
+        posts = r.json().get("data", [])
     except Exception as e:
         log("auto reply error:", e)
         return
-    done = 0
+    lo, hi = cfg.get("delay_min_minutes", 1) * 60, cfg.get("delay_max_minutes", 10) * 60
+    window = cfg.get("wait_window_minutes", 9) * 60  # is run mein zyada se zyada itna intezar
+    started = time.time()
+    todo = []
     for p in posts:
         for c in (p.get("comments") or {}).get("data", []):
-            if done >= cfg.get("max_per_run", 10):
-                return
             cid, frm = c.get("id"), (c.get("from") or {}).get("id")
             if not cid or cid in replied or frm == FB_PAGE_ID:
                 continue
             kids = (c.get("comments") or {}).get("data", [])
-            if any((k.get("from") or {}).get("id") == FB_PAGE_ID for k in kids):
-                replied.append(cid)
+            if any((k.get("from") or {}).get("id") == FB_PAGE_ID for k in kids) or blocked_reason(c.get("message", "")):
+                replied.append(cid)  # pehle se jawab hai, ya gaali/pabandi wala comment: chhor do
                 continue
-            replied.append(cid)
-            if blocked_reason(c.get("message", "")):  # gaali/fauj/mazhab wale comment ka jawab nahi
-                continue
-            msg = cfg["replies"][len(replied) % len(cfg["replies"])]
             try:
-                rr = requests.post(f"{GRAPH}/{cid}/comments", timeout=30,
-                                   data={"message": msg, "access_token": FB_TOKEN})
-                if rr.status_code == 200:
-                    done += 1
-                    stat("replies")
-                else:
-                    log("reply error:", rr.text[:150])
-                    if "permission" in rr.text.lower():
-                        alert("Comments ka jawab nahi diya ja saka: token mein pages_manage_engagement ijazat chahiye.")
-                        return
-            except Exception as e:
-                log("reply error:", e)
+                created = dt.datetime.strptime(c.get("created_time", ""), "%Y-%m-%dT%H:%M:%S%z").timestamp()
+            except ValueError:
+                created = started
+            if started - created > 2 * 24 * 3600:
+                replied.append(cid)  # bohat purana comment
+                continue
+            due = created + random.Random(cid).randint(lo, hi)  # har comment ka apna random waqt
+            if due <= started + window:
+                todo.append((due, cid))
+    todo.sort()
+    done = 0
+    for due, cid in todo[: cfg.get("max_per_run", 10)]:
+        wait = due - time.time()
+        if wait > 0:
+            if time.time() + wait - started > window:
+                break  # agle run mein
+            time.sleep(wait)
+        msg = random.choice(cfg["replies"])
+        try:
+            rr = requests.post(f"{GRAPH}/{cid}/comments", timeout=30, data={"message": msg, "access_token": FB_TOKEN})
+            replied.append(cid)
+            if rr.status_code == 200:
+                done += 1
+                stat("replies")
+            else:
+                log("reply error:", rr.text[:150])
+                if "permission" in rr.text.lower():
+                    alert("Comments ka jawab nahi diya ja saka: token mein pages_manage_engagement ijazat chahiye.")
+                    return
+        except Exception as e:
+            log("reply error:", e)
+    log("comment replies:", done)
     del replied[:-1500]
 
 

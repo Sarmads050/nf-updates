@@ -138,9 +138,9 @@ Bot commands (sirf aap ke liye): `/status`, `/sahafi` (list), `/add ID Naam`, `/
 
 - **Roz subah 7 baje "نوشهروفيروز جو اڄ"**: tareekh (Hijri bhi), namaz ke auqaat aur mausam. `config.json` → `daily_post` mein waqt (`hour`) badal sakte hain, ya `enabled: false` se band.
 - **Har post ke neeche Follow/Share ki dawat**: `follow_line` mein text badal sakte hain.
-- **Raat 9 baje "اڄ جون اهم خبرون"**: din bhar ki khabron ki list (kam se kam 3 khabrein hon to). `roundup` mein waqt badal sakte hain.
+- **Subah 6 aur shaam 6 baje "سنڌ جون اهم خبرون"**: poore Sindh ki ahem khabrein, har ek Sindhi mein ek line, alag post. Jurm aur pabandi wali khabrein shamil nahi hoti. `sindh_roundup` mein waqt aur alfaaz badal sakte hain.
 - **Peer, Budh, Jumma shaam 8 baje sawal wali post** (maslan "ڪهڙي شهر مان آهيو؟"). `engagement` → `questions` mein apne sawal jor/badal sakte hain.
-- **Comments ka khud jawab** (shuru mein band): Graph API Explorer mein token banate waqt `pages_read_user_content` aur `pages_manage_engagement` bhi add karein, naya page token `FB_PAGE_TOKEN` secret mein dalein, phir `auto_reply` → `enabled: true`.
+- **Comments ka khud jawab** (shuru mein band): Graph API Explorer mein token banate waqt `pages_read_user_content` aur `pages_manage_engagement` bhi add karein, naya page token `FB_PAGE_TOKEN` secret mein dalein, phir `auto_reply` → `enabled: true`. Har comment ka jawab 1 se 10 minute ke beech kisi random waqt par jata hai (`delay_min_minutes`, `delay_max_minutes`).
 - **Telegram channel par bhi post**: Telegram mein ek public channel banayen (maslan @nf_updates), apne bot ko us channel ka **admin** banayen, aur `config.json` mein `"telegram_channel": "@nf_updates"` likh dein. Har post wahan bhi jayegi.
 
 ## Pakki pabandiyan (ye kabhi post nahi hongi)

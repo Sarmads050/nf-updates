@@ -420,14 +420,6 @@
     "closing": "اوهان سڀني جو ڏينهن سٺو گذري!"
   },
   "telegram_channel": "",
-  "roundup": {
-    "enabled": true,
-    "hour": 21,
-    "min_items": 3,
-    "max_items": 8,
-    "title": "📋 اڄ جون اهم خبرون",
-    "closing": "سڀ خبرون تفصيل سان پيج تي موجود آهن!"
-  },
   "engagement": {
     "enabled": true,
     "hour": 20,
@@ -455,6 +447,33 @@
       "اوهان جي راءِ جو مهرباني! 🌹",
       "شڪريو! پيج کي دوستن سان Share ضرور ڪريو 🙏",
       "مهرباني! نوشهروفيروز جون خبرون سڀ کان پهرين هتي ڏسو 🌹"
+    ],
+    "delay_min_minutes": 1,
+    "delay_max_minutes": 10,
+    "wait_window_minutes": 9
+  },
+  "sindh_roundup": {
+    "enabled": true,
+    "morning_hour": 6,
+    "evening_hour": 18,
+    "min_items": 4,
+    "max_items": 8,
+    "max_age_hours": 12,
+    "title_am": "🌅 صبح جون سنڌ جون اهم خبرون",
+    "title_pm": "🌆 شام جون سنڌ جون اهم خبرون",
+    "queries": [
+      "Sindh",
+      "سندھ",
+      "سنڌ",
+      "Karachi Sindh government",
+      "Hyderabad Sindh",
+      "Sukkur",
+      "Larkana",
+      "Nawabshah"
+    ],
+    "feeds": [
+      "https://www.awamiawaz.pk/feed/",
+      "https://www.ktnnews.tv/feed/"
     ]
   }
 }
