@@ -196,3 +196,10 @@ Aur `hashtags` mein naye tags. Code badalne ki zaroorat nahi.
 | Ghalat area ki khabar | `news_queries` mein us lafz ko zyada wazeh karein |
 
 **Note:** Khabar ka text sirf headline se banta hai, AI ko apni taraf se koi baat jorne ki ijazat nahi. Har post mein asal source ka naam aur link hota hai.
+
+## Mulk bhar ki khabrein, hifazat aur seekhna
+
+- **Zarat (🌾)** aur **awami khabrein**: petrol ⛽, bijli/gas 💡, mehngai 🛒, paani 💧, budget/IMF 💰, taleem/naukri 🎓, sehat 🏥, mausam 🌦️, transport 🚆, dollar/sona 💵, technology 📱. Settings: `config.json` mein `agriculture` aur `public_news`.
+- **24 ghante**: ye khabrein din raat lagti hain; raat (12 se 7 baje) ko waqfa lamba hota hai.
+- **Page ki hifazat** (`safety`): din mein kul zyada se zyada 40 posts, har nai khabar ke beech kam az kam 15 minute (raat ko 45).
+- **Seekhna** (`learning`): har post ke ~20 ghante baad us ke likes, comments aur shares gine jaate hain. Jo hissa/mauzoo zyada pasand ho, us ki posts aur search khud badh jaati hain (2 guna tak), kam pasand wale kam (aadhe tak). Telegram par `/likes` likh kar dekhein.

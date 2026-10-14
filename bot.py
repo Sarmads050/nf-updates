@@ -248,7 +248,8 @@ def handle_message(m):
                 f"Jobs jama: {len(S['jobs'])} | Followers: {S.get('followers')}\n"
                 f"Sahafi: {len(contributors)}\n\n"
                 "Khabar post karne ke liye uska text (ya photo + text) mujhe bhej dein.\n"
-                "Sahafi jorne ke liye: /add ID Naam   hatane ke liye: /remove ID   list: /sahafi")
+                "Sahafi jorne ke liye: /add ID Naam   hatane ke liye: /remove ID   list: /sahafi\n"
+                "Kaunsi khabrein pasand ho rahi hain: /likes")
         return
     if owner and cmd == "/add":
         parts = text.split(maxsplit=2)
@@ -264,6 +265,9 @@ def handle_message(m):
         parts = text.split()
         name = contributors.pop(parts[1], None) if len(parts) > 1 else None
         tg_send(f"Hata diya: {name}" if name else "Ye ID list mein nahi. /sahafi se list dekhein.")
+        return
+    if owner and cmd == "/likes":
+        tg_send(likes_report())
         return
     if owner and cmd == "/token":
         tg_send(token_report(check_token()))
@@ -844,6 +848,103 @@ def tg_download(file_id):
     return r.content if r.status_code == 200 else None
 
 
+# ---------------------------------------------------------------- hifazat aur seekhna
+def note_post():
+    a = S.setdefault("all_posts", {"date": "", "count": 0, "last": 0})
+    if a["date"] != today():
+        a.update(date=today(), count=0)
+    a["count"] += 1
+    a["last"] = time.time()
+
+
+def is_night():
+    n0, n1 = CONFIG.get("safety", {}).get("night_hours", [0, 7])
+    return n0 <= now().hour < n1
+
+
+def pace_ok():
+    """Page ki hifazat: din bhar ki kul hadd aur har nai post ke beech kam az kam waqfa (raat ko lamba)."""
+    cfg = CONFIG.get("safety", {})
+    a = S.setdefault("all_posts", {"date": "", "count": 0, "last": 0})
+    if a["date"] != today():
+        a.update(date=today(), count=0)
+    gap = cfg.get("night_gap_minutes", 45) if is_night() else cfg.get("min_gap_minutes", 15)
+    return a["count"] < cfg.get("max_total_per_day", 40) and time.time() - a.get("last", 0) >= gap * 60
+
+
+def perf_record(section, category=""):
+    """Post ka hisaab rakho taake baad mein dekh sakein log kaunsi khabrein pasand karte hain."""
+    pid = S.get("last_post_id")
+    if not pid or DRY_RUN:
+        return
+    P = S.setdefault("perf", {"posts": []})
+    P["posts"].append({"id": pid, "sec": section, "cat": category or section, "t": int(time.time())})
+    P["posts"] = P["posts"][-400:]
+
+
+def handle_perf():
+    """Kam az kam ek din purani posts ke likes/comments/shares parho (har run mein thodi)."""
+    P = S.setdefault("perf", {"posts": []})
+    if DRY_RUN or not FB_TOKEN:
+        return
+    wait = CONFIG.get("learning", {}).get("measure_after_hours", 20) * 3600
+    todo = [x for x in P["posts"] if "score" not in x and time.time() - x["t"] >= wait][:15]
+    for x in todo:
+        try:
+            r = requests.get(f"{GRAPH}/{x['id']}", timeout=20, params={
+                "fields": "reactions.summary(total_count).limit(0),comments.summary(total_count).limit(0),shares",
+                "access_token": FB_TOKEN}).json()
+        except Exception as e:
+            log("perf error:", e)
+            break
+        if "error" in r:
+            x["score"] = None  # post mit gayi ya parh nahi saka
+            continue
+        rc = ((r.get("reactions") or {}).get("summary") or {}).get("total_count", 0)
+        cc = ((r.get("comments") or {}).get("summary") or {}).get("total_count", 0)
+        sc = (r.get("shares") or {}).get("count", 0)
+        x.update(likes=rc, comments=cc, shares=sc, score=rc + 2 * cc + 3 * sc)
+
+
+def _avg(rows):
+    return sum(r["score"] for r in rows) / len(rows) if rows else 0
+
+
+def learn_weight(key, value):
+    """Kisi hisse/mauzoo ki pasandeedgi: 1 = aam, 2 = do guna pasand, 0.5 = aadhi. Kam data ho to 1 ke qareeb."""
+    cfg = CONFIG.get("learning", {})
+    if not cfg.get("enabled", True):
+        return 1.0
+    rows = [x for x in S.get("perf", {}).get("posts", []) if isinstance(x.get("score"), (int, float))]
+    if len(rows) < cfg.get("min_posts", 15):
+        return 1.0
+    overall = _avg(rows) or 1
+    mine = [x for x in rows if x.get(key) == value]
+    k = cfg.get("smoothing", 5)  # thode data par zyada bharosa nahi
+    w = (sum(x["score"] for x in mine) + k * overall) / (len(mine) + k) / overall
+    lo, hi = cfg.get("min_weight", 0.5), cfg.get("max_weight", 2.0)
+    return max(lo, min(hi, w))
+
+
+def learned_cap(section, base):
+    return max(1, round(base * learn_weight("sec", section)))
+
+
+def likes_report():
+    rows = [x for x in S.get("perf", {}).get("posts", []) if isinstance(x.get("score"), (int, float))]
+    if not rows:
+        return "📊 Abhi koi post naapi nahi gayi (post ke ~20 ghante baad likes gine jaate hain)."
+    lines = [f"📊 Kaunsi khabrein pasand ho rahi hain ({len(rows)} posts naapi gayin)\n"]
+    for key, name in (("sec", "Hisse"), ("cat", "Mauzoo")):
+        groups = {}
+        for x in rows:
+            groups.setdefault(x.get(key) or "-", []).append(x)
+        ranked = sorted(groups.items(), key=lambda g: _avg(g[1]), reverse=True)
+        lines.append(f"{name}:")
+        lines += [f"  {g}: avg {_avg(v):.1f} ({len(v)} posts) x{learn_weight(key, g):.1f}" for g, v in ranked[:12]]
+    return "\n".join(lines)
+
+
 def fb_post(message, link=None, photo=None, video=None, count=True):
     ok = _fb_post(message, link, photo, video, count)
     if ok and not DRY_RUN and not blocked_reason(message):
@@ -877,6 +978,8 @@ def _fb_post(message, link=None, photo=None, video=None, count=True):
                                       files={"source": ("video.mp4", f, "video/mp4")}, timeout=900)
                 if r.status_code == 200:
                     log("video posted:", r.json().get("id"))
+                    S["last_post_id"] = r.json().get("id")
+                    note_post()
                     stat("posted")
                     if count:
                         S["daily"]["count"] += 1
@@ -920,6 +1023,7 @@ def _fb_post(message, link=None, photo=None, video=None, count=True):
     if r.status_code == 200:
         log("posted:", r.json().get("id"))
         S["last_post_id"] = r.json().get("post_id") or r.json().get("id")
+        note_post()
         stat("posted")
         if count:
             S["daily"]["count"] += 1
@@ -943,6 +1047,7 @@ def publish_queue():
         if not fb_post(q["message"], q.get("link"), q.get("photo"), q.get("video")):
             break
         S["queue"].pop(0)
+        perf_record("district")
         record_title(q["message"])
         mark_shareable(q["message"])
         posted += 1
@@ -1287,9 +1392,10 @@ def handle_sindh_single():
     day = S.setdefault("sindh_single", {"date": "", "count": 0, "last": 0, "used": []})
     if day["date"] != today():
         day.update(date=today(), count=0, used=day.get("used", [])[-200:])
-    if (not (cfg.get("from_hour", 9) <= h < cfg.get("to_hour", 22)) or day["count"] >= cfg.get("max_per_day", 4)
+    if (not (cfg.get("from_hour", 9) <= h < cfg.get("to_hour", 22))
+            or day["count"] >= learned_cap("sindh_single", cfg.get("max_per_day", 4))
             or S["queue"] or S["pending"] or time.time() - day["last"] < cfg.get("gap_minutes", 150) * 60
-            or not can_post()):
+            or not can_post() or not pace_ok()):
         return
     cand = [r for r in sindh_candidates(CONFIG.get("sindh_roundup", {})) if item_key(r["title"]) not in day["used"]
             and item_key(r["title"]) not in S["seen"]][:15]
@@ -1323,6 +1429,7 @@ def handle_sindh_single():
            f"\n\n{footer()}")
     card = make_card(title, cfg.get("card_sub", "سنڌ جون خبرون"), theme="news") if cfg.get("card", True) else None
     if fb_post(msg, photo=card):
+        perf_record("sindh_single", "sindh")
         if r.get("link"):
             link_comment(f"{LBL.get('link_comment', '🔗 مڪمل خبر:')} {r['link']}")
         day["count"] += 1
@@ -1763,7 +1870,7 @@ def handle_cricket_live():
         state.pop(k, None)
 
 
-def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12):
+def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, icons=None):
     """Kisi ek mauzoo (cricket, zarat) ki mulk bhar ki khabrein, din mein hadd ke saath."""
     if not cfg.get("enabled", True):
         return
@@ -1771,11 +1878,27 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12):
     if day["date"] != today():
         day.update(date=today(), count=0)
     hour = now().hour
-    if (day["count"] >= cfg.get("max_per_day", 4) or time.time() - day.get("last", 0) < cfg.get("gap_minutes", 90) * 60
-            or not cfg.get("start_hour", 0) <= hour < cfg.get("end_hour", 24) or S["queue"] or not can_post()):
+    gap = cfg.get("night_gap_minutes", cfg.get("gap_minutes", 90) * 2) if is_night() else cfg.get("gap_minutes", 90)
+    if (day["count"] >= learned_cap(state_key, cfg.get("max_per_day", 4)) or time.time() - day.get("last", 0) < gap * 60
+            or not cfg.get("start_hour", 0) <= hour < cfg.get("end_hour", 24) or S["queue"] or not can_post()
+            or not pace_ok()):
         return
     items = []
-    for q in cfg.get("queries", default_queries):
+    queries = cfg.get("queries", default_queries)
+    per_run = cfg.get("queries_per_run")
+    if isinstance(queries, dict):  # mauzoo -> search lafz; jo mauzoo zyada pasand ho wo zyada baar dhoondo
+        cats = [c for c in queries if queries[c]]
+        picks = []
+        while cats and len(picks) < (per_run or len(cats)):
+            c = random.choices(cats, weights=[learn_weight("cat", c) for c in cats])[0]
+            cats.remove(c)
+            picks.append(random.choice(queries[c]))
+        queries = picks
+    elif per_run and len(queries) > per_run:  # har run mein kuch mauzoo, baari baari
+        start = day.get("rot", 0) % len(queries)
+        queries = (queries[start:] + queries[:start])[:per_run]
+        day["rot"] = start + per_run
+    for q in queries:
         for lang in ("ur", "en"):
             try:
                 feed = feedparser.parse(requests.get(gnews_url(q, lang), timeout=25, headers=UA).content)
@@ -1805,7 +1928,9 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12):
             continue
         done.add(it["key"])
         S["seen"][it["key"]] = time.time()
-        prompt = ("Headline: " + it["title"] + "\nReturn JSON only: {\"relevant\": bool, \"blocked\": bool, \"post\": string}\n"
+        cat_field = (", \"category\": one of " + json.dumps(list(icons)) if icons else "")
+        prompt = ("Headline: " + it["title"] + "\nReturn JSON only: {\"relevant\": bool, \"blocked\": bool, "
+                  "\"post\": string" + cat_field + "}\n"
                   "- relevant: " + check_rule + "\n"
                   "- blocked: true if it involves religion controversy, abuse, or the Pakistani military.\n"
                   "- post: rewrite ONLY the headline's facts as a 1-2 sentence Facebook post in Sindhi (Arabic script), "
@@ -1813,8 +1938,10 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12):
         res = ask_gemini(prompt) if GEMINI_KEY else (ask_groq(prompt) if GROQ_KEY else None)
         if not res or not res.get("relevant") or res.get("blocked") or not str(res.get("post", "")).strip():
             continue
-        msg = f"{icon} {finish(res['post'])}\n\n📌 {LBL['source']}: {it['source']}\n\n{footer()}"
+        ic = (icons or {}).get(str(res.get("category", "")), icon)
+        msg = f"{ic} {finish(res['post'])}\n\n📌 {LBL['source']}: {it['source']}\n\n{footer()}"
         if fb_post(msg, link=it["link"], count=False):
+            perf_record(state_key, str(res.get("category") or state_key) if icons else state_key)
             day["count"] += 1
             day["last"] = time.time()
             mark_shareable(res["post"])
@@ -1839,6 +1966,27 @@ def handle_agri_news():
                "dairy, farmer packages or government agriculture policy in Pakistan. false for news outside "
                "Pakistan, stock-market-only items, or non-agriculture news.",
                ["Pakistan agriculture"], max_age_h=CONFIG.get("agriculture", {}).get("max_age_hours", 24))
+
+
+PUBLIC_ICONS = {"fuel": "⛽", "electricity_gas": "💡", "inflation": "🛒", "water": "💧", "budget_tax_imf": "💰",
+                "education_jobs": "🎓", "health": "🏥", "weather_disaster": "🌦️", "transport_trade": "🚆",
+                "dollar_gold_business": "💵", "technology": "📱", "other": "📰"}
+
+
+def handle_public_news():
+    """Mulk bhar ki awami dilchaspi ki khabrein: petrol, bijli/gas, mehngai, paani, budget/IMF, taleem,
+    sehat, mausam, transport, dollar/sona, technology."""
+    topic_news("public_news", CONFIG.get("public_news", {}), "📰",
+               "true ONLY if it is a factual Pakistan news item that affects ordinary people in one of these topics: "
+               "petrol/diesel/fuel prices; electricity or gas rates and load-shedding; inflation and prices of daily-use "
+               "items (flour, sugar, ghee, milk); water, dams and irrigation; government budget, taxes, IMF; education, "
+               "exams, admissions, scholarships and government jobs; health, hospitals, medicines and their prices; "
+               "weather, rain, heatwave, floods, earthquakes and climate change; transport, railways, roads, trade and "
+               "national infrastructure; dollar rate, gold rate and business; technology, internet and mobile. "
+               "false for political statements or party fights, crime, court cases about politicians, news outside "
+               "Pakistan, rumours, or anything not in these topics.",
+               ["petrol price Pakistan"], max_age_h=CONFIG.get("public_news", {}).get("max_age_hours", 12),
+               icons=PUBLIC_ICONS)
 
 
 def handle_promo():
@@ -1918,6 +2066,8 @@ def main():
         handle_share_helper()
         handle_cricket_news()
         handle_agri_news()
+        handle_public_news()
+        handle_perf()
         handle_cricket_live()
         handle_auto_reply()
     except Exception:

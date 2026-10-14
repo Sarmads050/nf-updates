@@ -148,7 +148,15 @@
     "mnfsr.gov.pk",
     "businessrecorder.com",
     "profit.pakistantoday.com.pk",
-    "pakistantoday.com.pk"
+    "pakistantoday.com.pk",
+    "pmd.gov.pk",
+    "ndma.gov.pk",
+    "nepra.org.pk",
+    "ogra.org.pk",
+    "pta.gov.pk",
+    "finance.gov.pk",
+    "pbs.gov.pk",
+    "sbp.org.pk"
   ],
   "sensitive_words": [
     "murder",
@@ -324,7 +332,7 @@
   "max_age_hours": 48,
   "max_new_per_run": 6,
   "max_posts_per_run": 2,
-  "max_posts_per_day": 10,
+  "max_posts_per_day": 15,
   "review_expire_hours": 24,
   "jobs_digest_hour": 9,
   "jobs_per_digest": 8,
@@ -507,10 +515,10 @@
   },
   "sindh_single": {
     "enabled": true,
-    "max_per_day": 4,
-    "from_hour": 9,
-    "to_hour": 22,
-    "gap_minutes": 150,
+    "max_per_day": 6,
+    "from_hour": 7,
+    "to_hour": 23,
+    "gap_minutes": 120,
     "card": true,
     "label": "📰 سنڌ",
     "card_sub": "سنڌ جون خبرون"
@@ -539,8 +547,8 @@
     "card": true,
     "news": {
       "enabled": true,
-      "max_per_day": 4,
-      "gap_minutes": 90,
+      "max_per_day": 6,
+      "gap_minutes": 60,
       "queries": [
         "Pakistan cricket",
         "PCB cricket",
@@ -551,17 +559,18 @@
         "قومی ٹیم کرکٹ",
         "Pakistan women cricket",
         "پاکستان ویمنز کرکٹ"
-      ]
+      ],
+      "night_gap_minutes": 180
     },
     "include_women": true
   },
   "cricket_tags": "#PakistanCricket #Cricket #NaushahroFeroze",
   "agriculture": {
     "enabled": true,
-    "max_per_day": 4,
-    "gap_minutes": 120,
-    "start_hour": 8,
-    "end_hour": 22,
+    "max_per_day": 6,
+    "gap_minutes": 90,
+    "start_hour": 0,
+    "end_hour": 24,
     "max_age_hours": 24,
     "queries": [
       "Pakistan agriculture",
@@ -576,6 +585,81 @@
       "کپاس کی فصل",
       "کھاد کی قیمت",
       "سندھ آبادگار"
-    ]
+    ],
+    "night_gap_minutes": 240
+  },
+  "public_news": {
+    "enabled": true,
+    "max_per_day": 14,
+    "gap_minutes": 40,
+    "start_hour": 0,
+    "end_hour": 24,
+    "max_age_hours": 12,
+    "queries_per_run": 4,
+    "queries": {
+      "fuel": [
+        "petrol price Pakistan",
+        "پیٹرول ڈیزل قیمت"
+      ],
+      "electricity_gas": [
+        "electricity tariff Pakistan",
+        "بجلی گیس نرخ",
+        "load shedding Sindh"
+      ],
+      "inflation": [
+        "inflation Pakistan prices",
+        "آٹا چینی گھی قیمت"
+      ],
+      "water": [
+        "IRSA water dams Pakistan",
+        "پانی ڈیم نہری"
+      ],
+      "budget_tax_imf": [
+        "IMF Pakistan budget tax",
+        "بجٹ ٹیکس آئی ایم ایف"
+      ],
+      "education_jobs": [
+        "Sindh exams admissions scholarship",
+        "سرکاری نوکریاں بھرتیاں"
+      ],
+      "health": [
+        "medicine prices DRAP Pakistan",
+        "ہسپتال صحت دوائیں"
+      ],
+      "weather_disaster": [
+        "PMD weather Pakistan rain",
+        "سیلاب بارش ہیٹ ویو"
+      ],
+      "transport_trade": [
+        "Pakistan railways motorway",
+        "Pakistan exports trade"
+      ],
+      "dollar_gold_business": [
+        "dollar rate gold price Pakistan",
+        "ڈالر سونا قیمت"
+      ],
+      "technology": [
+        "PTA internet Pakistan",
+        "ٹیکنالوجی انٹرنیٹ پاکستان"
+      ]
+    },
+    "night_gap_minutes": 90
+  },
+  "safety": {
+    "max_total_per_day": 40,
+    "min_gap_minutes": 15,
+    "night_hours": [
+      0,
+      7
+    ],
+    "night_gap_minutes": 45
+  },
+  "learning": {
+    "enabled": true,
+    "measure_after_hours": 20,
+    "min_posts": 15,
+    "smoothing": 5,
+    "min_weight": 0.5,
+    "max_weight": 2.0
   }
 }
