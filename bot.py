@@ -95,7 +95,10 @@ def tg(method, **data):
         return {}
     try:
         r = requests.post(f"https://api.telegram.org/bot{TG_TOKEN}/{method}", json=data, timeout=30)
-        return r.json()
+        res = r.json()
+        if not res.get("ok"):
+            log(f"TELEGRAM ERROR ({method}):", res.get("error_code"), res.get("description"))
+        return res
     except Exception as e:
         log("telegram error:", e)
         return {}
@@ -403,6 +406,15 @@ def main():
     global S
     S = load_state()
     log("start", "(TEST MODE)" if DRY_RUN else "")
+    for name, val in (("FB_PAGE_ID", FB_PAGE_ID), ("FB_PAGE_TOKEN", FB_TOKEN), ("GEMINI_API_KEY", GEMINI_KEY),
+                      ("TELEGRAM_BOT_TOKEN", TG_TOKEN), ("TELEGRAM_CHAT_ID", TG_CHAT)):
+        log(f"secret {name}:", "OK" if val else "MISSING (khaali hai)")
+    if TG_TOKEN and ":" not in TG_TOKEN:
+        log("TELEGRAM_BOT_TOKEN ghalat lagta hai: is mein ':' hona chahiye")
+    if TG_CHAT and not TG_CHAT.lstrip("-").isdigit():
+        log("TELEGRAM_CHAT_ID ghalat lagta hai: sirf number hona chahiye")
+    if DRY_RUN:
+        tg_send("🧪 Test run shuru ho gaya. Agar ye message mila to Telegram sahi juda hua hai.")
     try:
         process_telegram()
         expire_old()
