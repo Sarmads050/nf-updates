@@ -371,6 +371,8 @@ def handle_message(m):
         if video:
             tg_send("⏳ Video upload ho rahi hai…")
         ok = fb_post(message, link=link, photo=photo, video=video, count=False)
+        if ok and raw.strip():
+            record_title(raw)
         if ok:
             note = ""
             if link and not video:
@@ -828,6 +830,7 @@ def publish_queue():
         if not fb_post(q["message"], q.get("link"), q.get("photo"), q.get("video")):
             break
         S["queue"].pop(0)
+        record_title(q["message"])
         posted += 1
 
 
@@ -883,7 +886,7 @@ def handle_news():
                     [{"text": "✅ Post karo", "callback_data": "ok:" + it["key"]},
                      {"text": "❌ Reject", "callback_data": "no:" + it["key"]}])
         else:
-            S["queue"].append({"message": message, "link": it["link"], "added": time.time()})
+            S["queue"].append({"message": message, "link": it["link"], "added": time.time(), "title": it["title"]})
             stat("queued")
 
 
@@ -978,6 +981,97 @@ def crosspost(message, link=None, photo=None, video=None):
         tg("sendMessage", chat_id=ch, text=text[:4000])
 
 
+def record_title(text):
+    """Aaj post hui khabron ki list (raat ki roundup post ke liye)."""
+    t = S.setdefault("today_titles", {"date": "", "items": []})
+    if t["date"] != today():
+        t.update(date=today(), items=[])
+    line = re.sub(r"^[^\w\u0600-\u06FF]+", "", (text or "").strip().splitlines()[0] if text else "")
+    line = re.sub(r"[\s.۔!]+$", "", line)[:110]
+    if len(line) > 10 and line not in t["items"]:
+        t["items"].append(line)
+
+
+def handle_roundup():
+    """Raat ko (peak time) din bhar ki ahem khabron ki list: share hone wali post."""
+    cfg = CONFIG.get("roundup", {})
+    t = S.get("today_titles", {})
+    if (not cfg.get("enabled", True) or now().hour < cfg.get("hour", 21) or S.get("last_roundup") == today()
+            or t.get("date") != today()):
+        return
+    items = t.get("items", [])[: cfg.get("max_items", 8)]
+    S["last_roundup"] = today()
+    if len(items) < cfg.get("min_items", 3):
+        return
+    lines = [cfg.get("title", "📋 اڄ جون اهم خبرون"), ""]
+    lines += [f"{n}️⃣ {x}" if n < 10 else f"{n}. {x}" for n, x in enumerate(items, 1)]
+    lines += ["", cfg.get("closing", "سڀ خبرون تفصيل سان پيج تي موجود آهن!"), "", footer()]
+    fb_post("\n".join(lines))
+
+
+def handle_engagement():
+    """Hafte mein kuch din shaam ko sawal wali post: comments se reach barhti hai."""
+    cfg = CONFIG.get("engagement", {})
+    qs = cfg.get("questions", [])
+    if (not cfg.get("enabled", True) or not qs or now().weekday() not in cfg.get("days", [0, 2, 4])
+            or now().hour < cfg.get("hour", 20) or S.get("last_question") == today()):
+        return
+    i = S.get("q_index", 0) % len(qs)
+    if fb_post(f"💬 {qs[i]}\n\n{footer()}"):
+        S["q_index"] = i + 1
+        S["last_question"] = today()
+
+
+def handle_auto_reply():
+    """Page ki posts par aaye comments ka jawab (shukriya + follow ki dawat).
+    Is ke liye token mein pages_read_user_content aur pages_manage_engagement chahiye."""
+    cfg = CONFIG.get("auto_reply", {})
+    if not cfg.get("enabled") or DRY_RUN or not (FB_PAGE_ID and FB_TOKEN) or not cfg.get("replies"):
+        return
+    replied = S.setdefault("replied", [])
+    try:
+        r = requests.get(f"{GRAPH}/{FB_PAGE_ID}/posts", timeout=30, params={
+            "access_token": FB_TOKEN, "limit": 6,
+            "fields": "id,comments.limit(30){id,message,from,comments.limit(10){from}}"})
+        posts = r.json().get("data", [])
+        if r.status_code != 200:
+            log("auto reply read error:", r.text[:200])
+            return
+    except Exception as e:
+        log("auto reply error:", e)
+        return
+    done = 0
+    for p in posts:
+        for c in (p.get("comments") or {}).get("data", []):
+            if done >= cfg.get("max_per_run", 10):
+                return
+            cid, frm = c.get("id"), (c.get("from") or {}).get("id")
+            if not cid or cid in replied or frm == FB_PAGE_ID:
+                continue
+            kids = (c.get("comments") or {}).get("data", [])
+            if any((k.get("from") or {}).get("id") == FB_PAGE_ID for k in kids):
+                replied.append(cid)
+                continue
+            replied.append(cid)
+            if blocked_reason(c.get("message", "")):  # gaali/fauj/mazhab wale comment ka jawab nahi
+                continue
+            msg = cfg["replies"][len(replied) % len(cfg["replies"])]
+            try:
+                rr = requests.post(f"{GRAPH}/{cid}/comments", timeout=30,
+                                   data={"message": msg, "access_token": FB_TOKEN})
+                if rr.status_code == 200:
+                    done += 1
+                    stat("replies")
+                else:
+                    log("reply error:", rr.text[:150])
+                    if "permission" in rr.text.lower():
+                        alert("Comments ka jawab nahi diya ja saka: token mein pages_manage_engagement ijazat chahiye.")
+                        return
+            except Exception as e:
+                log("reply error:", e)
+    del replied[:-1500]
+
+
 def handle_promo():
     p = S["promo"]
     if p.get("last_check") == today() or DRY_RUN or not (FB_PAGE_ID and FB_TOKEN):
@@ -1047,6 +1141,9 @@ def main():
         publish_queue()
         handle_promo()
         handle_daily()
+        handle_engagement()
+        handle_roundup()
+        handle_auto_reply()
     except Exception:
         err = traceback.format_exc()
         log(err)
