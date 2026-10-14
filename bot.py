@@ -224,21 +224,57 @@ def build_prompt(item):
     )
 
 
+GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta/models"
+_discovered = False
+_dead_models = set()
+
+
+def discover_gemini_models():
+    """Google ki list se abhi chalne wale Flash models khud dhoondna."""
+    try:
+        r = requests.get(GEMINI_BASE, headers={"x-goog-api-key": GEMINI_KEY}, params={"pageSize": 200}, timeout=30)
+        found = []
+        for m in r.json().get("models", []):
+            name = m.get("name", "").split("/")[-1]
+            if ("generateContent" in m.get("supportedGenerationMethods", []) and "flash" in name
+                    and not any(x in name for x in ("image", "tts", "live", "audio", "embed", "native", "thinking"))):
+                found.append(name)
+        found.sort(key=lambda n: ("preview" in n or "exp" in n, [-int(x) for x in re.findall(r"\d+", n)][:2]))
+        log("gemini models mile:", found[:5])
+        return found[:4]
+    except Exception as e:
+        log("gemini model list error:", e)
+        return []
+
+
 def ask_gemini(prompt):
-    for model in CONFIG["gemini_models"]:
-        try:
-            r = requests.post(
-                f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
-                headers={"x-goog-api-key": GEMINI_KEY},
-                json={"contents": [{"parts": [{"text": prompt}]}],
-                      "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3}},
-                timeout=60)
-            if r.status_code == 200:
-                return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
-            log("gemini", model, r.status_code, r.text[:150])
-        except Exception as e:
-            log("gemini error", model, e)
-    return None
+    global _discovered
+    models = [S.get("gemini_model")] + CONFIG["gemini_models"]
+    tried = set()
+    while True:
+        for model in models:
+            if not model or model in tried or model in _dead_models:
+                continue
+            tried.add(model)
+            try:
+                r = requests.post(
+                    f"{GEMINI_BASE}/{model}:generateContent",
+                    headers={"x-goog-api-key": GEMINI_KEY},
+                    json={"contents": [{"parts": [{"text": prompt}]}],
+                          "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3}},
+                    timeout=60)
+                if r.status_code == 200:
+                    S["gemini_model"] = model
+                    return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
+                log("gemini", model, r.status_code, r.text[:120].replace("\n", " "))
+                if r.status_code in (400, 404):
+                    _dead_models.add(model)
+            except Exception as e:
+                log("gemini error", model, e)
+        if _discovered:
+            return None
+        _discovered = True
+        models = discover_gemini_models()
 
 
 def ask_groq(prompt):
