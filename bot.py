@@ -171,7 +171,7 @@ def process_telegram():
                 answer = "Ye khabar pehle hi handle ho chuki hai"
             elif action == "ok":
                 S["queue"].insert(0, {"message": p["message"], "link": p.get("link"), "photo": p.get("photo"), "video": p.get("video"),
-                                      "added": time.time()})
+                                      "added": time.time(), "priority": True})
                 answer = "✅ Approved - agle round mein post hogi"
             else:
                 answer = "❌ Reject kar di"
@@ -1242,7 +1242,8 @@ def compose(item, text):
 
 def publish_queue():
     posted = 0
-    while S["queue"] and posted < CONFIG["max_posts_per_run"] and can_post():
+    S["queue"].sort(key=lambda q: not q.get("priority"))  # Telegram se manzoor ki hui khabrein sab se pehle
+    while S["queue"] and (S["queue"][0].get("priority") or (posted < CONFIG["max_posts_per_run"] and can_post())):
         q = S["queue"][0]
         ok = fb_post(q["message"], q.get("link"), q.get("photo"), q.get("video"))
         if not ok:
@@ -2184,6 +2185,11 @@ def handle_cricket_live():
         if not DRY_RUN:
             save_state()  # beech mein bhi yaaddasht mehfooz
         time.sleep(step)
+        try:  # lambe match loop mein bhi aap ki Telegram khabrein foran
+            process_telegram()
+            publish_queue()
+        except Exception as e:
+            log("telegram (cricket loop) error:", e)
     for k in list(state)[:-20]:  # purane match hatao
         state.pop(k, None)
 
