@@ -148,6 +148,14 @@ Bot commands (sirf aap ke liye): `/status`, `/sahafi` (list), `/add ID Naam`, `/
 - **Sindh ki khabrein alag post (`sindh_single`)**: din mein zyada se zyada 4, sirf wohi jo Naushahro Feroze ke logon par asar karein (sarkari faisle, taleem/sehat, naukriyan, mausam, qeematein, paani, bijli/gas). District ki khabrein hamesha pehle; do posts ke beech kam se kam 2.5 ghante.
 - **Groups mein share (`share_helper`)**: Facebook groups mein software se share ki ijazat nahi deta. Is liye dopahar 1 aur raat 8 baje bot Telegram par 2-3 achhi posts ke **Share** link bhejta hai; link dabayen → "Share to a group" → group chunein. `groups` mein apne groups ke naam likhen, maslan `[{"name": "Padidan Group"}, {"name": "Moro Online"}]`, to bot har post ke liye baari baari group batayega.
 
+## Cricket
+
+- **Live score**: Pakistan ka match shuru hote hi ek "🔴 LIVE" post lagti hai jo khud badalti rehti hai: aam match mein har 5 minute, Pakistan vs India mein har 1 minute.
+- **Wicket**: har wicket par alag post (current score ke saath), ek match mein zyada se zyada 12 (`max_wicket_posts`).
+- **Innings ka waqfa** aur **nateeja** alag posts mein; nateeja khabron ki sarkhi se Sindhi mein.
+- **Cricket ki khabrein**: Pakistan cricket aur cricketers ki khabrein, din mein zyada se zyada 4 (`cricket.news`).
+- Score ESPNcricinfo ki free live feed se aata hai. Khilari ka naam is free feed mein nahi hota.
+
 ## Pakki pabandiyan (ye kabhi post nahi hongi)
 
 Neeche wali khabrein **na post hongi, na review ke liye Telegram par aayengi**, seedha rad:

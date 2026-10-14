@@ -133,7 +133,14 @@
     "bolnews.com",
     "publicnews.com",
     "nayadaur.tv",
-    "propakistani.pk"
+    "propakistani.pk",
+    "espncricinfo.com",
+    "cricinfo.com",
+    "cricketpakistan.com.pk",
+    "pcb.com.pk",
+    "icc-cricket.com",
+    "cricbuzz.com",
+    "geosuper.tv"
   ],
   "sensitive_words": [
     "murder",
@@ -322,7 +329,9 @@
     "jobs_warning": "⚠️ نوڪري لاءِ ڪنهن کي به پئسا نه ڏيو. رڳو سرڪاري اشتهار تي ڀروسو ڪريو ۽ آخري تاريخ ضرور ڏسو!",
     "link_note": "🔗 مڪمل خبر جو لنڪ ڪمينٽ ۾",
     "link_comment": "🔗 مڪمل خبر:",
-    "links_comment": "🔗 مڪمل خبرون:"
+    "links_comment": "🔗 مڪمل خبرون:",
+    "updated": "تازو",
+    "live_note": "هي پوسٽ پاڻمرادو اپڊيٽ ٿيندي رهندي"
   },
   "promo": {
     "min_followers": 5000,
@@ -508,5 +517,32 @@
     "groups_per_post": 2,
     "groups": []
   },
-  "link_in_comment": true
+  "link_in_comment": true,
+  "cricket": {
+    "enabled": true,
+    "feed": "https://static.cricinfo.com/rss/livescores.xml",
+    "team": "Pakistan",
+    "rival": "India",
+    "normal_minutes": 5,
+    "rival_minutes": 1,
+    "max_loop_minutes": 8,
+    "wicket_posts": true,
+    "max_wicket_posts": 12,
+    "card": true,
+    "news": {
+      "enabled": true,
+      "max_per_day": 4,
+      "gap_minutes": 90,
+      "queries": [
+        "Pakistan cricket",
+        "PCB cricket",
+        "Babar Azam",
+        "Shaheen Afridi",
+        "Mohammad Rizwan",
+        "پاکستان کرکٹ",
+        "قومی ٹیم کرکٹ"
+      ]
+    }
+  },
+  "cricket_tags": "#PakistanCricket #Cricket #NaushahroFeroze"
 }

@@ -1568,6 +1568,251 @@ def token_report(res):
     return "\n".join(lines)
 
 
+# ---------------------------------------------------------------- cricket
+TEAM_SD = {"pakistan": "پاڪستان", "india": "ڀارت", "australia": "آسٽريليا", "england": "انگلينڊ",
+           "south africa": "ڏکڻ آفريڪا", "new zealand": "نيوزيلينڊ", "sri lanka": "سري لنڪا",
+           "bangladesh": "بنگلاديش", "afghanistan": "افغانستان", "west indies": "ويسٽ انڊيز",
+           "zimbabwe": "زمبابوي", "ireland": "آئرلينڊ", "netherlands": "هالينڊ", "scotland": "اسڪاٽلينڊ",
+           "nepal": "نيپال", "oman": "عمان", "uae": "يو اي اي", "united arab emirates": "يو اي اي",
+           "usa": "آمريڪا", "united states of america": "آمريڪا", "canada": "ڪئناڊا", "hong kong": "هانگ ڪانگ"}
+
+
+def team_sd(name):
+    n = name.strip()
+    low = n.lower()
+    for suffix, sd in ((" women", " وومين"), (" a", " اي"), (" u19", " انڊر 19"), (" shaheens", " شاهين")):
+        if low.endswith(suffix):
+            base = TEAM_SD.get(low[: -len(suffix)])
+            return (base + sd) if base else n
+    return TEAM_SD.get(low, n)
+
+
+def parse_side(s):
+    """'Pakistan 145/3 *' -> {'name','score','runs','wkts','batting'}"""
+    s = html.unescape(s).strip()
+    batting = s.endswith("*")
+    s = s.rstrip("* ").strip()
+    m = re.match(r"^(.*?)\s+((?:\d+(?:/\d+)?d?\s*&\s*)?\d+(?:/\d+)?d?)$", s)
+    if not m:
+        return {"name": s, "score": "", "runs": None, "wkts": 0, "batting": batting}
+    last = m.group(2).split("&")[-1].strip().rstrip("d")
+    runs, _, wk = last.partition("/")
+    wkts = int(wk) if wk else 10
+    innings = m.group(2).count("&") + 1
+    return {"name": m.group(1).strip(), "score": m.group(2).strip(), "runs": int(runs), "wkts": wkts,
+            "innings": innings, "batting": batting}
+
+
+def cricket_matches():
+    cfg = CONFIG.get("cricket", {})
+    team = cfg.get("team", "Pakistan").lower()
+    try:
+        feed = feedparser.parse(requests.get(cfg.get("feed", "https://static.cricinfo.com/rss/livescores.xml"),
+                                             timeout=20, headers=UA).content)
+    except Exception as e:
+        log("cricket feed error:", e)
+        return []
+    out = []
+    S["cricket_feed"] = {"time": now().strftime("%Y-%m-%d %H:%M"), "items": len(feed.entries),
+                         "sample": [clean_text(x.get("title", "")) for x in feed.entries[:3]]}
+    for e in feed.entries:
+        title = clean_text(e.get("title", ""))
+        if " v " not in title or team not in title.lower():
+            continue
+        a, b = title.split(" v ", 1)
+        sa, sb = parse_side(a), parse_side(b)
+        if team not in (sa["name"] + sb["name"]).lower():
+            continue
+        key = re.sub(r"\W+", "", (e.get("link") or e.get("id") or title).lower())[-60:]
+        rival = cfg.get("rival", "India").lower()
+        out.append({"key": key, "title": title, "a": sa, "b": sb, "link": e.get("link", ""),
+                    "live": sa["batting"] or sb["batting"],
+                    "rival": rival in sa["name"].lower() or rival in sb["name"].lower()})
+    return out
+
+
+def score_line(m):
+    def side(s):
+        txt = f"{team_sd(s['name'])}"
+        if s["score"]:
+            txt += f" {s['score'].replace('/', '/')}"
+        return txt + (" 🏏" if s["batting"] else "")
+    return f"{side(m['a'])}\n{side(m['b'])}"
+
+
+def cricket_fb_edit(post_id, message):
+    if DRY_RUN or not post_id:
+        log("DRY/no id: live edit skipped")
+        return False
+    try:
+        r = requests.post(f"{GRAPH}/{post_id}", timeout=30, data={"message": message, "access_token": FB_TOKEN})
+        if r.status_code != 200:
+            log("live edit error:", r.text[:150])
+        return r.status_code == 200
+    except Exception as e:
+        log("live edit error:", e)
+        return False
+
+
+def cricket_tick(state, m, cfg):
+    """Ek match ki ek jhalak: live post banana/badalna, wicket aur innings ki posts."""
+    st = state.setdefault(m["key"], {"post": None, "wkts": {}, "wicket_posts": 0, "break_done": False,
+                                     "last_edit": 0, "batting": None, "done": False})
+    if st["done"]:
+        return
+    head = f"🔴 LIVE | {team_sd(m['a']['name'])} بمقابلي {team_sd(m['b']['name'])}"
+    live_msg = (f"{head}\n\n{score_line(m)}\n\n⏱️ {LBL.get('updated', 'تازو')}: {now().strftime('%I:%M %p')}\n"
+                f"{LBL.get('live_note', 'هي پوسٽ پاڻمرادو اپڊيٽ ٿيندي رهندي')}\n\n{CONFIG.get('cricket_tags', '#PAKvsIND #Cricket')}")
+    if m["live"] and not st["post"]:
+        if fb_post(live_msg, count=False):
+            st["post"] = S.get("last_post_id")
+            st["last_edit"] = time.time()
+            tg_send("🏏 Live score post shuru: " + m["title"])
+    elif m["live"]:
+        gap = (cfg.get("rival_minutes", 1) if m["rival"] else cfg.get("normal_minutes", 5)) * 60
+        if time.time() - st["last_edit"] >= gap - 20:
+            if cricket_fb_edit(st["post"], live_msg):
+                st["last_edit"] = time.time()
+    # wickets
+    for s in (m["a"], m["b"]):
+        if s["runs"] is None:
+            continue
+        k = f"{s['name']}|{s.get('innings', 1)}"
+        prev = st["wkts"].get(k)
+        st["wkts"][k] = s["wkts"]
+        if (prev is not None and s["wkts"] > prev and s["batting"] and cfg.get("wicket_posts", True)
+                and st["wicket_posts"] < cfg.get("max_wicket_posts", 12)):
+            n = s["wkts"]
+            msg = (f"☝️ وڪيٽ! {team_sd(s['name'])} جو رانديگر آئوٽ، {n} وڪيٽون ڪري پيون\n\n🏏 هاڻوڪو اسڪور:\n{score_line(m)}"
+                   f"\n\n{footer()}")
+            card = make_card(f"وڪيٽ! {team_sd(s['name'])} {s['score']}", "Live Cricket", theme="news") \
+                if cfg.get("card", True) else None
+            if fb_post(msg, photo=card, count=False):
+                st["wicket_posts"] += 1
+    # innings break: batting side badli
+    bat = m["a"]["name"] if m["a"]["batting"] else m["b"]["name"] if m["b"]["batting"] else None
+    if st["batting"] and bat and bat != st["batting"] and not st["break_done"]:
+        fb_post(f"🔄 اننگز جو وقفو\n\n{score_line(m)}\n\n{footer()}", count=False)
+        st["break_done"] = True
+    if bat:
+        st["batting"] = bat
+    # match khatam: live tha, ab koi batting nahi
+    if st["post"] and not m["live"] and st.get("seen_live"):
+        st["done"] = True
+        res = cricket_result_line(m)
+        final = f"🏆 مئچ ختم | {team_sd(m['a']['name'])} بمقابلي {team_sd(m['b']['name'])}\n\n{score_line(m)}"
+        if res:
+            final += f"\n\n{res}"
+        cricket_fb_edit(st["post"], final + f"\n\n{CONFIG.get('cricket_tags', '#Cricket')}")
+        card = make_card(res or "مئچ ختم", f"{team_sd(m['a']['name'])} - {team_sd(m['b']['name'])}",
+                         theme="news") if cfg.get("card", True) else None
+        fb_post(final + "\n\n" + footer(), photo=card, count=False)
+    if m["live"]:
+        st["seen_live"] = True
+
+
+def cricket_result_line(m):
+    """Nateeja: Google News ki taaza sarkhi se (AI Sindhi mein), warna khaali."""
+    if not (GEMINI_KEY or GROQ_KEY):
+        return ""
+    try:
+        q = f"{m['a']['name']} {m['b']['name']} cricket"
+        feed = feedparser.parse(requests.get(gnews_url(q, "en"), timeout=20, headers=UA).content)
+        heads = [clean_text(e.get("title", "")) for e in feed.entries[:8]]
+    except Exception:
+        return ""
+    heads = [h for h in heads if re.search(r"\b(beat|beats|won|win|wins|defeat|defeats|lost|lose|draw|tie)\b", h, re.I)]
+    if not heads:
+        return ""
+    prompt = ("Final scores: " + m["title"] + "\nRecent headlines:\n" + "\n".join(heads[:5]) +
+              "\nIf the headlines clearly state the result of THIS match, write one short Sindhi line with the "
+              "result (who won and by how much). If Pakistan won add 'مبارڪون پاڪستان! 🇵🇰'. If unsure return "
+              "empty. Return JSON: {\"line\": string}")
+    out = ask_gemini(prompt) if GEMINI_KEY else ask_groq(prompt)
+    line = clean_text((out or {}).get("line", ""))
+    return "" if blocked_reason(line) else line
+
+
+def handle_cricket_live():
+    cfg = CONFIG.get("cricket", {})
+    if not cfg.get("enabled", True):
+        return
+    state = S.setdefault("cricket", {})
+    budget = cfg.get("max_loop_minutes", 8) * 60
+    start = time.time()
+    while True:
+        matches = cricket_matches()
+        if not matches:
+            return
+        for m in matches:
+            cricket_tick(state, m, cfg)
+        live = [m for m in matches if m["live"]]
+        if not live:
+            break
+        step = (cfg.get("rival_minutes", 1) if any(m["rival"] for m in live) else cfg.get("normal_minutes", 5)) * 60
+        if time.time() - start + step > budget:
+            break
+        if not DRY_RUN:
+            save_state()  # beech mein bhi yaaddasht mehfooz
+        time.sleep(step)
+    for k in list(state)[:-20]:  # purane match hatao
+        state.pop(k, None)
+
+
+def handle_cricket_news():
+    """Pakistan cricket aur cricketers ki khabrein (district se alag), din mein hadd ke saath."""
+    cfg = CONFIG.get("cricket", {}).get("news", {})
+    if not cfg.get("enabled", True):
+        return
+    day = S.setdefault("cricket_news", {"date": "", "count": 0, "last": 0})
+    if day["date"] != today():
+        day.update(date=today(), count=0)
+    if (day["count"] >= cfg.get("max_per_day", 4) or time.time() - day.get("last", 0) < cfg.get("gap_minutes", 90) * 60
+            or S["queue"] or not can_post()):
+        return
+    items = []
+    for q in cfg.get("queries", ["Pakistan cricket"]):
+        for lang in ("ur", "en"):
+            try:
+                feed = feedparser.parse(requests.get(gnews_url(q, lang), timeout=25, headers=UA).content)
+            except Exception:
+                continue
+            for e in feed.entries:
+                title = clean_text(e.get("title", ""))
+                src = e.get("source") or {}
+                st_ = src.get("title", "") if hasattr(src, "get") else ""
+                if st_ and title.endswith(" - " + st_):
+                    title = title[: -(len(st_) + 3)].strip()
+                pub = e.get("published_parsed")
+                ts = calendar.timegm(pub) if pub else time.time()
+                href = (src.get("href") if hasattr(src, "get") else "") or e.get("link", "")
+                domain = urlparse(href).netloc.lower().removeprefix("www.")
+                k = item_key(title)
+                if (k in S["seen"] or time.time() - ts > 12 * 3600 or not is_trusted(domain) or blocked_reason(title)
+                        or keyword_sensitive(title)):
+                    continue
+                items.append({"key": k, "title": title, "link": e.get("link", ""), "source": st_ or domain, "ts": ts})
+    if not items:
+        return
+    items.sort(key=lambda x: x["ts"], reverse=True)
+    for it in items[:6]:
+        S["seen"][it["key"]] = time.time()
+        prompt = ("Headline: " + it["title"] + "\nReturn JSON only: {\"cricket\": bool, \"blocked\": bool, \"post\": string}\n"
+                  "- cricket: true only if it is about Pakistan cricket, the PCB or a Pakistani cricketer.\n"
+                  "- blocked: true if it involves religion controversy, abuse, or the Pakistani military.\n"
+                  "- post: rewrite ONLY the headline's facts as a 1-2 sentence Facebook post in Sindhi (Arabic script), "
+                  "no hashtags, no full stop at the end.")
+        res = ask_gemini(prompt) if GEMINI_KEY else (ask_groq(prompt) if GROQ_KEY else None)
+        if not res or not res.get("cricket") or res.get("blocked") or not str(res.get("post", "")).strip():
+            continue
+        msg = f"🏏 {finish(res['post'])}\n\n📌 {LBL['source']}: {it['source']}\n\n{footer()}"
+        if fb_post(msg, link=it["link"], count=False):
+            day["count"] += 1
+            day["last"] = time.time()
+            mark_shareable(res["post"])
+        break
+
+
 def handle_promo():
     p = S["promo"]
     if p.get("last_check") == today() or DRY_RUN or not (FB_PAGE_ID and FB_TOKEN):
@@ -1643,6 +1888,8 @@ def main():
         handle_roundup()
         handle_sindh_single()
         handle_share_helper()
+        handle_cricket_news()
+        handle_cricket_live()
         handle_auto_reply()
     except Exception:
         err = traceback.format_exc()
