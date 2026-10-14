@@ -26,7 +26,7 @@
    "local": false
   }
  ],
- "tg_offset": 661216935,
+ "tg_offset": 661216936,
  "daily": {
   "date": "2026-10-14",
   "count": 5
@@ -112,5 +112,20 @@
  "share_done": [
   "1444130002106066_122106477999503839"
  ],
- "group_index": 0
+ "group_index": 0,
+ "token_check": {
+  "time": "2026-10-14 21:51",
+  "valid": true,
+  "scopes": [
+   "pages_show_list",
+   "pages_read_engagement",
+   "pages_read_user_content",
+   "pages_manage_posts",
+   "pages_manage_engagement",
+   "public_profile"
+  ],
+  "missing": [],
+  "expires": 0,
+  "data_expires": 1799762892
+ }
 }
