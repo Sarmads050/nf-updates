@@ -1194,7 +1194,14 @@ def publish_queue():
     posted = 0
     while S["queue"] and posted < CONFIG["max_posts_per_run"] and can_post():
         q = S["queue"][0]
-        if not fb_post(q["message"], q.get("link"), q.get("photo"), q.get("video")):
+        link = q.get("link") or ""
+        if link and not q.get("photo") and not q.get("video") and not any(d in link for d in SOCIAL_DOMAINS):
+            first = re.sub(r"^[^\w\u0600-\u06FF]+", "", q["message"].strip().splitlines()[0])
+            title = re.split(r"(?<=[!۔.؟?])\s", first)[0][:90]
+            ok = news_card_post(q["message"], title, TOPIC_SD["district"], link, count=True)
+        else:
+            ok = fb_post(q["message"], q.get("link"), q.get("photo"), q.get("video"))
+        if not ok:
             break
         S["queue"].pop(0)
         perf_record("district")
@@ -2098,9 +2105,10 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
               "\nNever pick anything about religion controversy, abuse, or the Pakistani military."
               "\nPick the ONE most important suitable item that is not a repeat (or -1 if none). List the indexes "
               "of items that are clearly unsuitable or repeats in \"reject\"."
-              "\nFor the pick, write \"post\": its facts only, as a 1-2 sentence Facebook post in Sindhi (Arabic "
-              "script), no hashtags, no full stop at the end."
-              "\nReturn JSON only: {\"pick\": number, \"reject\": [numbers], \"post\": string" + cat_field + "}")
+              "\nFor the pick, write \"headline\": a short Sindhi headline (max 8 words, no emoji) and \"post\": its "
+              "facts only, as a 1-2 sentence Facebook post in Sindhi (Arabic script), no hashtags, no full stop at the end."
+              "\nReturn JSON only: {\"pick\": number, \"reject\": [numbers], \"headline\": string, \"post\": string"
+              + cat_field + "}")
     res = ask_gemini(prompt) if GEMINI_KEY else None
     if not isinstance(res, dict) and GROQ_KEY:
         res = ask_groq(prompt)
@@ -2125,8 +2133,13 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
     if icons and cat not in icons:
         cat = guess_cat(it["title"] + " " + post)
     ic = (icons or {}).get(cat, icon)
-    msg = f"{ic} {finish(post)}\n\n📌 {LBL['source']}: {it['source']}\n\n{footer()}"
-    if fb_post(msg, link=it["link"], count=False):
+    head = clean_text(str(res.get("headline", "")))[:90]
+    if len(head) < 6 or blocked_reason(head):
+        head = ""
+    label = TOPIC_SD.get(cat if icons else state_key, "")
+    msg = (f"{ic} {head}\n\n" if head else f"{ic} ") + \
+        f"{finish(post)}\n\n📌 {LBL['source']}: {clean_source(it['source'])}\n\n{footer()}"
+    if news_card_post(msg, head or post[:90], label, it["link"]):
         perf_record(state_key, cat if icons else state_key)
         day["count"] += 1
         day["last"] = time.time()
@@ -2134,6 +2147,31 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
         ph = S.setdefault("posted_heads", [])
         ph.append({"h": it["title"][:140], "t": int(time.time())})
         S["posted_heads"] = ph[-80:]
+
+
+TOPIC_SD = {"fuel": "پيٽرول ۽ ڊيزل", "electricity_gas": "بجلي ۽ گئس", "inflation": "مهانگائي",
+            "water": "پاڻي ۽ ڊيم", "budget_tax_imf": "بجيٽ ۽ ٽيڪس", "education_jobs": "تعليم ۽ نوڪريون",
+            "health": "صحت", "weather_disaster": "موسم", "transport_trade": "ٽرانسپورٽ ۽ واپار",
+            "dollar_gold_business": "ڊالر ۽ سون", "technology": "ٽيڪنالاجي", "other": "پاڪستان جون خبرون",
+            "public_news": "پاڪستان جون خبرون", "agri_news": "زراعت", "cricket_news": "پاڪستان ڪرڪيٽ",
+            "district": "نوشهروفيروز جون خبرون"}
+SOCIAL_DOMAINS = ("facebook.com", "fb.watch", "tiktok.com", "instagram.com", "youtube.com", "youtu.be", "t.me")
+
+
+def clean_source(src):
+    return re.sub(r"[\s|•\-–—:]+$", "", re.sub(r"^[\s|•\-–—:]+", "", src or "")).strip() or src
+
+
+def news_card_post(msg, card_title, label, link, count=False):
+    """Khabar ko design wale card ke saath post karo; mukammal khabar ka link pehle comment mein
+    (comment lag jaye to post mein 'link comment mein' ki line khud jur jati hai)."""
+    card = make_card(card_title, label, theme="news") if CONFIG.get("news_cards", True) else None
+    if not fb_post(msg, photo=card, count=count):
+        return False
+    if link:
+        link = link.replace("news.google.com/rss/articles/", "news.google.com/articles/")  # web wala link
+        link_comment(f"{LBL.get('link_comment', '🔗 مڪمل خبر:')} {link}")
+    return True
 
 
 def handle_cricket_news():
