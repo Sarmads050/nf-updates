@@ -896,13 +896,19 @@ def perf_record(section, category=""):
     P["posts"] = P["posts"][-400:]
 
 
+def learning_active():
+    """Likes se seekhna config ki 'start_date' (YYYY-MM-DD) se pehle band."""
+    start = CONFIG.get("learning", {}).get("start_date", "")
+    return CONFIG.get("learning", {}).get("enabled", True) and (not start or today() >= start)
+
+
 def handle_perf():
     """Kam az kam ek din purani posts ke likes/comments/shares parho (har run mein thodi)."""
     P = S.setdefault("perf", {"posts": []})
-    if DRY_RUN or not FB_TOKEN:
+    if DRY_RUN or not FB_TOKEN or not learning_active():
         return
     wait = CONFIG.get("learning", {}).get("measure_after_hours", 20) * 3600
-    todo = [x for x in P["posts"] if "score" not in x and time.time() - x["t"] >= wait][:15]
+    todo = [x for x in P["posts"] if "score" not in x and wait <= time.time() - x["t"] <= 7 * 86400][:15]
     for x in todo:
         try:
             r = requests.get(f"{GRAPH}/{x['id']}", timeout=20, params={
@@ -931,7 +937,7 @@ def _window_secs():
 def like_weight(key, value):
     """Pichle 7 din ki posts ki pasandeedgi: 1 = aam, 2 = do guna pasand, 0.5 = aadhi. Kam data ho to 1 ke qareeb."""
     cfg = CONFIG.get("learning", {})
-    if not cfg.get("enabled", True):
+    if not learning_active():
         return 1.0
     cut = time.time() - _window_secs()
     rows = [x for x in S.get("perf", {}).get("posts", []) if isinstance(x.get("score"), (int, float)) and x["t"] >= cut]
