@@ -1748,14 +1748,21 @@ def handle_share_helper():
     picks = fresh[-cfg.get("per_message", 3):]
     groups = cfg.get("groups", [])
     gi = S.get("group_index", 0)
-    lines = ["📤 Ye posts groups mein share karein (har post ka link dabayen → Share to a group):", ""]
+    lines = ["📤 Ye posts in groups mein share karein:",
+             "Tareeqa: 📎 Share link dabayen → \"Share to a group\" → neeche diya group chunen → Post.",
+             "(Ya 👥 group khol kar post ka 🔗 link paste kar dein.)", ""]
     for n, p in enumerate(picks, 1):
         url = "https://www.facebook.com/" + p["id"]
-        lines += [f"{n}. {p['title']}", "https://www.facebook.com/sharer/sharer.php?u=" + quote_plus(url)]
+        lines += [f"{n}. {p['title']}", "📎 Share: https://www.facebook.com/sharer/sharer.php?u=" + quote_plus(url),
+                  "🔗 Post: " + url]
         if groups:
             g = [groups[(gi + k) % len(groups)] for k in range(min(cfg.get("groups_per_post", 2), len(groups)))]
             gi += len(g)
-            lines.append("👥 " + " | ".join(x.get("name", x) if isinstance(x, dict) else str(x) for x in g))
+            for x in g:
+                if isinstance(x, dict):
+                    lines.append(f"👥 {x.get('name', 'Group')}: {x.get('url', '')}".rstrip(": "))
+                else:
+                    lines.append(f"👥 {x}")
         lines.append("")
         sent_ids.append(p["id"])
     if not groups:
