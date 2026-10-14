@@ -380,6 +380,7 @@ def handle_message(m):
                 note = "\n(Ye doosre ki video thi, is liye asal video ke link ke saath lagayi, copyright se bachne ke liye.)"
             tg_send("✅ Page par post ho gayi." + note)
         else:
+            S["seen"].pop(key, None)  # dobara bhejne par phir koshish ho
             tg_send("⚠️ Post nahi ho saki, thori der baad dobara bhejein.")
         return
     S["pending"][key] = {"message": message, "link": link, "photo": photo, "video": video, "added": time.time()}
@@ -803,6 +804,11 @@ def _fb_post(message, link=None, photo=None, video=None, count=True):
             if link:
                 data["link"] = link
             r = requests.post(f"{GRAPH}/{FB_PAGE_ID}/feed", data=data, timeout=30)
+            if r.status_code != 200 and link and ("1500" in r.text or "url" in r.text.lower()):
+                # Facebook kuch links (maslan apne share links) qubool nahi karta: link text mein likh do
+                log("link qubool nahi hua, text mein likh kar post:", r.text[:120])
+                r = requests.post(f"{GRAPH}/{FB_PAGE_ID}/feed", timeout=30,
+                                  data={"message": f"{message}\n\n🔗 {link}", "access_token": FB_TOKEN})
     except Exception as e:
         log("FB error:", e)
         return False
