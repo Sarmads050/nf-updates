@@ -951,6 +951,7 @@ def handle_trends():
     except Exception as e:
         log("trends error:", e)
         return
+    T["terms"] = [x for x in T["terms"] if "sindh" in x]  # jo pehle pehchane nahi gaye, dobara check hon
     known = {x["term"] for x in T["terms"]}
     new = []
     for e in feed.entries:
@@ -967,8 +968,14 @@ def handle_trends():
                   ". Use \"cricket\" only for Pakistan national team cricket. Use \"none\" for foreign news, "
                   "celebrities, politics, crime, religion or the military. Also set sindh=true if it is about Sindh."
                   "\nReturn JSON: {\"items\": [{\"i\": number, \"cat\": string, \"sindh\": bool}]}\n\n" + listing)
-        out = ask_gemini(prompt) if GEMINI_KEY else ask_groq(prompt)
-        for r in (out or {}).get("items", []) if isinstance(out, dict) else []:
+        out = ask_gemini(prompt) if GEMINI_KEY else None
+        if not (isinstance(out, dict) and out.get("items")) and GROQ_KEY:
+            out = ask_groq(prompt)
+        if not (isinstance(out, dict) and isinstance(out.get("items"), list) and out["items"]):
+            log("trends: AI ka jawab nahi aaya, agle run mein dobara")
+            T["last"] = 0
+            return
+        for r in out["items"]:
             try:
                 x = new[int(r.get("i"))]
             except (TypeError, ValueError, IndexError):
@@ -976,8 +983,8 @@ def handle_trends():
             x["cat"] = r.get("cat") if r.get("cat") in TREND_CATS else "none"
             x["sindh"] = bool(r.get("sindh"))
         for x in new[:25]:
-            x.setdefault("cat", "none")
-            T["terms"].append(x)
+            if "cat" in x:  # sirf pehchane gaye trend rakho; baqi agli baar
+                T["terms"].append(x)
     cut = time.time() - _window_secs()
     T["terms"] = [x for x in T["terms"] if x["t"] >= cut][-600:]
     log("trends:", len(new), "naye,", len(T["terms"]), "kul (7 din)")
