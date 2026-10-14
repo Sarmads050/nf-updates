@@ -1,0 +1,103 @@
+{
+  "graph_version": "v23.0",
+  "gemini_models": ["gemini-3.6-flash", "gemini-3.5-flash-lite", "gemini-3.8-flash", "gemini-3.1-flash-lite"],
+  "groq_model": "llama-3.3-70b-versatile",
+
+  "news_queries": [
+    "\"Naushahro Feroze\"",
+    "\"Naushehro Feroze\"",
+    "Padidan",
+    "\"نوشہرو فیروز\"",
+    "پڈعیدن",
+    "نوشهروفيروز",
+    "پڊعيدن",
+    "Kandiaro",
+    "\"Moro\" Sindh",
+    "Bhiria Sindh",
+    "Mehrabpur Sindh"
+  ],
+  "district_towns": [
+    "Naushahro Feroze", "Naushehro Feroze", "Nausheroferoz", "Padidan", "Moro", "Kandiaro", "Bhiria", "Mehrabpur",
+    "نوشہرو فیروز", "نوشہروفیروز", "پڈعیدن", "مورو", "کنڈیارو", "بھریا", "محراب پور",
+    "نوشهروفيروز", "نوشهرو فيروز", "پڊعيدن", "ڪنڊيارو", "ڀريا شهر", "ڀريا روڊ", "ڀرياروڊ", "مهراب پور"
+  ],
+  "job_queries": [
+    "\"Naushahro Feroze\" jobs",
+    "نوشہرو فیروز نوکریاں",
+    "Sindh government jobs",
+    "SPSC jobs",
+    "سندھ سرکاری نوکریاں"
+  ],
+  "extra_feeds": [
+    {"url": "https://www.awamiawaz.pk/feed/", "type": "news", "name": "Awami Awaz"},
+    {"url": "https://www.ktnnews.tv/feed/", "type": "news", "name": "KTN News"},
+    {"url": "https://www.express.pk/feed/", "type": "news", "name": "Express News"},
+    {"url": "https://urdu.arynews.tv/feed/", "type": "news", "name": "ARY News Urdu"}
+  ],
+  "job_pages": [
+    {"url": "https://www.ilmkidunya.com/jobs/city-wise/jobs-in-naushahro-feroze",
+     "link_pattern": "/jobs/[a-z0-9-]+-jobs-in-[a-z0-9-]+-[0-9]+/?$", "name": "ilmkidunya"}
+  ],
+  "telegram_channels": [],
+
+  "trusted_domains": [
+    "dawn.com", "thenews.com.pk", "jang.com.pk", "express.pk", "tribune.com.pk", "geo.tv",
+    "arynews.tv", "dunyanews.tv", "samaa.tv", "aaj.tv", "humnews.pk", "92newshd.tv", "bbc.com",
+    "independenturdu.com", "nawaiwaqt.com.pk", "nation.com.pk", "brecorder.com", "pakobserver.net",
+    "app.com.pk", "radio.gov.pk", "ptv.com.pk", "urdupoint.com",
+    "kawish", "awamiawaz", "sindhexpress", "ibrat", "ktnnews", "ilmkidunya.com", "t.me",
+    "sindh.gov.pk", "spsc.gov.pk", "nts.org.pk", "iba-suk.edu.pk"
+  ],
+
+  "sensitive_words": [
+    "murder", "killed", "kill", "shot", "firing", "dead", "death", "died", "body", "accident", "injured",
+    "kidnap", "kidnapped", "abduct", "abducted", "rape", "assault", "clash", "attack", "robbery", "robbed",
+    "dacoit", "dacoits", "suicide", "karo kari", "honour", "honor", "arrested", "encounter", "protest",
+    "qatal", "qatl", "zakhmi", "hadsa", "agwa", "jhagra", "dakaiti",
+    "قتل", "ہلاک", "جاں بحق", "جاںبحق", "فائرنگ", "زخمی", "حادثہ", "حادثے", "اغوا", "زیادتی", "ڈکیتی", "ڈاکو",
+    "خودکشی", "لاش", "تصادم", "جھگڑا", "کاروکاری", "کارو کاری", "مقابلہ", "گرفتار", "احتجاج",
+    "زخمي", "حادثو", "حادثي", "ڌاڙيل", "ڦرلٽ", "خودڪشي", "جهيڙو", "جهيڙي", "ڪاروڪاري", "مارجي", "مارايو"
+  ],
+  "blocked_words": {
+    "mazhab": [
+      "blasphemy", "blasphemous", "desecration", "desecrated", "sacrilege", "sectarian", "apostate", "infidel",
+      "توہین", "گستاخ", "گستاخی", "بے حرمتی", "بےحرمتی", "فرقہ وارانہ", "فرقہ واریت", "کافر", "مرتد",
+      "توهين", "گستاخي", "بي حرمتي", "بيحرمتي", "فرقيوارانه", "فرقيواريت", "ڪافر"
+    ],
+    "gaali": [
+      "abusive", "abuse", "abused", "slur", "slurs", "obscene", "gaali", "gaaliyan", "galiyaan",
+      "گالی", "گالیاں", "گالم گلوچ", "بدزبانی", "بد زبانی", "نازیبا", "گاريون", "گارين", "بدزباني", "گار گند"
+    ],
+    "fauj": [
+      "army", "military", "ispr", "coas", "army chief", "rangers", "frontier corps", "navy", "air force", "paf",
+      "cantonment", "corps commander", "soldier", "soldiers", "fauj", "faouj",
+      "فوج", "فوجی", "پاک فوج", "آئی ایس پی آر", "آرمی", "رینجرز", "ایف سی", "بحریہ", "فضائیہ", "کور کمانڈر",
+      "فوجي", "پاڪ فوج", "آئي ايس پي آر", "آرمي", "رينجرز", "بحري فوج", "هوائي فوج"
+    ]
+  },
+  "block_exceptions": ["فوجداری", "فوجداري", "توہین عدالت", "توهين عدالت", "contempt of court"],
+  "job_scam_words": ["fee required", "registration fee", "processing fee", "پیسے جمع", "فیس جمع", "واٹس ایپ کریں"],
+
+  "max_age_hours": 24,
+  "max_new_per_run": 6,
+  "max_posts_per_run": 2,
+  "max_posts_per_day": 10,
+  "review_expire_hours": 24,
+  "jobs_digest_hour": 9,
+  "jobs_per_digest": 8,
+
+  "hashtags": "#NaushahroFeroze #Padidan #نوشهروفيروز #پڊعيدن",
+
+  "labels": {
+    "source": "ذريعو",
+    "news_icon": "📰",
+    "jobs_header": "📢 اڄ جون نوڪريون (نوشهروفيروز ۽ سنڌ)",
+    "jobs_warning": "⚠️ نوڪري لاءِ ڪنهن کي به پئسا نه ڏيو. رڳو سرڪاري اشتهار تي ڀروسو ڪريو ۽ آخري تاريخ ضرور ڏسو."
+  },
+
+  "promo": {
+    "min_followers": 5000,
+    "weekday": 4,
+    "text": "📢 خوشخبري! نوشهروفيروز اپڊيٽس جا {followers}+ فالوورز ٿي ويا آهن. اوهان سڀني جو شڪريو! 🙏\n\nجيڪڏهن اوهان نوشهروفيروز ضلعي ۾ پنهنجو ڪاروبار، دڪان يا ڪا شيءِ پروموٽ ڪرائڻ چاهيو ٿا ته اسان جي پيج کي ميسيج ڪريو. اوهان جو پيغام هزارين مقامي ماڻهن تائين پهچائينداسين.\n\n#NaushahroFeroze #Padidan"
+  }
+}
