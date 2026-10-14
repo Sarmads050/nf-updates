@@ -1503,12 +1503,15 @@ def make_card(title, subtitle="", body="", theme="news"):
     h1{{margin:0;font-size:{big}px;line-height:1.45;font-weight:700}}
     .sub{{font-size:44px;opacity:.9;font-family:'Noto Naskh Arabic','Noto Naskh',serif;font-weight:700}} .body{{font-size:{small}px;line-height:1.65;opacity:.97;max-width:920px;
       border-top:3px solid rgba(244,239,230,.35);padding-top:22px;direction:rtl}}
-    .brand{{font-family:Arial,sans-serif;font-weight:700;font-size:30px;letter-spacing:3px;opacity:.85;direction:ltr}}
+    .brand{{font-family:Arial,sans-serif;font-weight:700;font-size:30px;direction:ltr;display:flex;align-items:center;
+      background:#F4EFE6;color:#14213D;border-radius:40px;padding:10px 14px 10px 28px;gap:14px}}
+    .brand .f{{background:#1877F2;color:#fff;border-radius:30px;padding:6px 20px;font-size:28px;letter-spacing:1px}}
     </style></head><body><div class="band top"></div><div class="band bot"></div><div class="wrap">
     <div class="tag">NAUSHAHRO FEROZE UPDATES</div><h1>{H.escape(title)}</h1>
     {f'<div class="sub">{H.escape(subtitle)}</div>' if subtitle else ''}
     {f'<div class="body">{H.escape(body)}</div>' if body else ''}
-    <div class="brand">Follow • Share</div></div></body></html>"""
+    <div class="brand"><span>{H.escape(CONFIG.get("page_name", "Naushahro Feroze Updates"))}</span><span class="f">+ Follow</span></div>
+    </div></body></html>"""
     hp, out = os.path.join(d, "card.html"), os.path.join(d, "card.png")
     with open(hp, "w", encoding="utf-8") as f:
         f.write(page)
