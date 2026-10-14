@@ -1095,14 +1095,58 @@ def likes_report():
     return "\n".join(lines)
 
 
-def fb_post(message, link=None, photo=None, video=None, count=True):
+def card_title_of(message):
+    """Post ki pehli line se card ki sarkhi (emoji/nishan hata kar, pehla jumla, 90 harf tak)."""
+    for line in (message or "").splitlines():
+        line = re.sub(r"^[^\w\u0600-\u06FF]+", "", line).strip()
+        if len(line) >= 4:
+            return re.split(r"(?<=[!۔.؟?])\s", line)[0][:90]
+    return ""
+
+
+def fb_post(message, link=None, photo=None, video=None, count=True, card=True, card_label=None, comment=None):
+    """Har post: photo/video na ho to design wala card khud lagao; link hamesha pehle comment mein."""
+    orig_link = link
+    if CONFIG.get("news_cards", True):
+        if card and not photo and not video:
+            title = card_title_of(message)
+            made = make_card(title, card_label or TOPIC_SD.get("district", ""), theme="news") if title else None
+            if made:
+                photo = made
+        if link and (photo or video) and CONFIG.get("link_in_comment", True):
+            link = None  # photo/video post mein link preview nahi lagta: comment mein jayega
+    auto_card = photo if (card and photo and photo.endswith("card.png")) else None
     ok = _fb_post(message, link, photo, video, count)
+    if not ok and auto_card:  # card upload na hua: purane tareeqe se (text + link) koshish
+        photo, link = None, orig_link
+        ok = _fb_post(message, link, None, video, count)
+    if ok and orig_link and link is None:
+        web = orig_link.replace("news.google.com/rss/articles/", "news.google.com/articles/")
+        if not link_comment(f"{LBL.get('link_comment', '🔗 مڪمل خبر:')} {web}") and not DRY_RUN:
+            append_to_post(f"🔗 {web}")  # comment na lage to link post ke andar hi
+    if ok and comment:
+        link_comment(comment)
     if ok and not DRY_RUN and not blocked_reason(message):
         try:
-            crosspost(message, link, photo, video)
+            crosspost(message, orig_link, photo, video)
         except Exception as e:
             log("telegram channel error:", e)
     return ok
+
+
+def append_to_post(extra):
+    pid = S.get("last_post_id")
+    if not pid:
+        return
+    try:
+        g = requests.get(f"{GRAPH}/{pid}", timeout=30, params={"fields": "message", "access_token": FB_TOKEN}).json()
+        msg = g.get("message", "")
+        if msg:
+            parts = msg.rsplit("\n\n📲", 1)
+            new = parts[0] + f"\n\n{extra}" + ("\n\n📲" + parts[1] if len(parts) == 2 else "")
+            requests.post(f"{GRAPH}/{pid}", timeout=30, data={"message": new, "access_token": FB_TOKEN})
+    except Exception as e:
+        log("post edit error:", e)
 
 
 def _fb_post(message, link=None, photo=None, video=None, count=True):
@@ -1194,13 +1238,7 @@ def publish_queue():
     posted = 0
     while S["queue"] and posted < CONFIG["max_posts_per_run"] and can_post():
         q = S["queue"][0]
-        link = q.get("link") or ""
-        if link and not q.get("photo") and not q.get("video") and not any(d in link for d in SOCIAL_DOMAINS):
-            first = re.sub(r"^[^\w\u0600-\u06FF]+", "", q["message"].strip().splitlines()[0])
-            title = re.split(r"(?<=[!۔.؟?])\s", first)[0][:90]
-            ok = news_card_post(q["message"], title, TOPIC_SD["district"], link, count=True)
-        else:
-            ok = fb_post(q["message"], q.get("link"), q.get("photo"), q.get("video"))
+        ok = fb_post(q["message"], q.get("link"), q.get("photo"), q.get("video"))
         if not ok:
             break
         S["queue"].pop(0)
@@ -1294,10 +1332,15 @@ def handle_jobs():
         return
     jobs = sorted(S["jobs"], key=lambda j: (j.get("local", False), j["ts"]), reverse=True)[:CONFIG["jobs_per_digest"]]
     lines = [LBL["jobs_header"], ""]
+    links = []
     for n, j in enumerate(jobs, 1):
-        lines += [f"{n}. {j['title']} ({j['source']})", f"🔗 {j['link']}", ""]
-    lines += [LBL["jobs_warning"], "", footer()]
-    if fb_post("\n".join(lines)):
+        lines += [f"{n}. {j['title']} ({j['source']})", ""]
+        links.append(f"{n}. {j['link'].replace('news.google.com/rss/articles/', 'news.google.com/articles/')}")
+    lines += [LBL.get("link_note", "🔗 مڪمل خبر جو لنڪ ڪمينٽ ۾"), "", LBL["jobs_warning"], "", footer()]
+    card = make_card(re.sub(r"^[^\w\u0600-\u06FF]+", "", LBL["jobs_header"]), "", theme="jobs") \
+        if CONFIG.get("news_cards", True) else None
+    if fb_post("\n".join(lines), photo=card, card=False,
+               comment=LBL.get("links_comment", "🔗 مڪمل خبرون:") + "\n" + "\n".join(links)):
         S["jobs"] = []
 
 
@@ -1939,7 +1982,7 @@ def cricket_tick(state, m, cfg):
     live_msg = (f"{head}\n\n{score_line(m)}\n\n⏱️ {LBL.get('updated', 'تازو')}: {now().strftime('%I:%M %p')}\n"
                 f"{LBL.get('live_note', 'هي پوسٽ پاڻمرادو اپڊيٽ ٿيندي رهندي')}\n\n{CONFIG.get('cricket_tags', '#PAKvsIND #Cricket')}")
     if m["live"] and not st["post"]:
-        if fb_post(live_msg, count=False):
+        if fb_post(live_msg, count=False, card=False):
             st["post"] = S.get("last_post_id")
             st["last_edit"] = time.time()
             tg_send("🏏 Live score post shuru: " + m["title"])
@@ -1967,7 +2010,7 @@ def cricket_tick(state, m, cfg):
     # innings break: batting side badli
     bat = m["a"]["name"] if m["a"]["batting"] else m["b"]["name"] if m["b"]["batting"] else None
     if st["batting"] and bat and bat != st["batting"] and not st["break_done"]:
-        fb_post(f"🔄 اننگز جو وقفو\n\n{score_line(m)}\n\n{footer()}", count=False)
+        fb_post(f"🔄 اننگز جو وقفو\n\n{score_line(m)}\n\n{footer()}", count=False, card_label="پاڪستان ڪرڪيٽ")
         st["break_done"] = True
     if bat:
         st["batting"] = bat
@@ -2163,15 +2206,9 @@ def clean_source(src):
 
 
 def news_card_post(msg, card_title, label, link, count=False):
-    """Khabar ko design wale card ke saath post karo; mukammal khabar ka link pehle comment mein
-    (comment lag jaye to post mein 'link comment mein' ki line khud jur jati hai)."""
+    """Khabar design wale card ke saath; mukammal khabar ka link pehle comment mein (fb_post khud karta hai)."""
     card = make_card(card_title, label, theme="news") if CONFIG.get("news_cards", True) else None
-    if not fb_post(msg, photo=card, count=count):
-        return False
-    if link:
-        link = link.replace("news.google.com/rss/articles/", "news.google.com/articles/")  # web wala link
-        link_comment(f"{LBL.get('link_comment', '🔗 مڪمل خبر:')} {link}")
-    return True
+    return fb_post(msg, link=link, photo=card, count=count, card=False)
 
 
 def handle_cricket_news():
