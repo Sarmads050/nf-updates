@@ -660,6 +660,12 @@
     "min_posts": 15,
     "smoothing": 5,
     "min_weight": 0.5,
-    "max_weight": 2.0
+    "max_weight": 2.5,
+    "window_days": 7
+  },
+  "trends": {
+    "enabled": true,
+    "feed": "https://trends.google.com/trending/rss?geo=PK",
+    "refresh_hours": 3
   }
 }

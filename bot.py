@@ -8,6 +8,7 @@ import datetime as dt
 import hashlib
 import html
 import json
+import math
 import os
 import random
 import re
@@ -910,38 +911,157 @@ def _avg(rows):
     return sum(r["score"] for r in rows) / len(rows) if rows else 0
 
 
-def learn_weight(key, value):
-    """Kisi hisse/mauzoo ki pasandeedgi: 1 = aam, 2 = do guna pasand, 0.5 = aadhi. Kam data ho to 1 ke qareeb."""
+def _window_secs():
+    return CONFIG.get("learning", {}).get("window_days", 7) * 86400
+
+
+def like_weight(key, value):
+    """Pichle 7 din ki posts ki pasandeedgi: 1 = aam, 2 = do guna pasand, 0.5 = aadhi. Kam data ho to 1 ke qareeb."""
     cfg = CONFIG.get("learning", {})
     if not cfg.get("enabled", True):
         return 1.0
-    rows = [x for x in S.get("perf", {}).get("posts", []) if isinstance(x.get("score"), (int, float))]
+    cut = time.time() - _window_secs()
+    rows = [x for x in S.get("perf", {}).get("posts", []) if isinstance(x.get("score"), (int, float)) and x["t"] >= cut]
     if len(rows) < cfg.get("min_posts", 15):
         return 1.0
     overall = _avg(rows) or 1
     mine = [x for x in rows if x.get(key) == value]
     k = cfg.get("smoothing", 5)  # thode data par zyada bharosa nahi
-    w = (sum(x["score"] for x in mine) + k * overall) / (len(mine) + k) / overall
-    lo, hi = cfg.get("min_weight", 0.5), cfg.get("max_weight", 2.0)
-    return max(lo, min(hi, w))
+    return (sum(x["score"] for x in mine) + k * overall) / (len(mine) + k) / overall
+
+
+# ---- Pakistan ke trends (Google Trends, pichle 7 din)
+TREND_CATS = ["fuel", "electricity_gas", "inflation", "water", "budget_tax_imf", "education_jobs", "health",
+              "weather_disaster", "transport_trade", "dollar_gold_business", "technology", "agriculture", "cricket"]
+CAT_SECTION = {"agriculture": "agri_news", "cricket": "cricket_news"}  # baqi sab public_news
+
+
+def handle_trends():
+    """Har kuch ghante baad Pakistan ke Google trends parho aur AI se un ka mauzoo pehchano."""
+    cfg = CONFIG.get("trends", {})
+    T = S.setdefault("trends", {"last": 0, "terms": []})
+    if not cfg.get("enabled", True) or not (GEMINI_KEY or GROQ_KEY):
+        return
+    if time.time() - T.get("last", 0) < cfg.get("refresh_hours", 3) * 3600:
+        return
+    T["last"] = time.time()
+    try:
+        feed = feedparser.parse(requests.get(cfg.get("feed", "https://trends.google.com/trending/rss?geo=PK"),
+                                             timeout=25, headers=UA).content)
+    except Exception as e:
+        log("trends error:", e)
+        return
+    known = {x["term"] for x in T["terms"]}
+    new = []
+    for e in feed.entries:
+        term = clean_text(e.get("title", ""))
+        if not term or term.lower() in known:
+            continue
+        traffic = int(re.sub(r"\D", "", e.get("ht_approx_traffic", "") or "") or 100)
+        news = clean_text(e.get("ht_news_item_title", "") or "")
+        new.append({"term": term.lower(), "traffic": traffic, "news": news, "t": int(time.time())})
+    if new:
+        listing = "\n".join(f"[{i}] {x['term']} | {x['news']}" for i, x in enumerate(new[:25]))
+        prompt = ("These are trending Google searches in Pakistan with a related headline. For each, give its topic "
+                  "category from this list or \"none\": " + json.dumps(TREND_CATS) +
+                  ". Use \"cricket\" only for Pakistan national team cricket. Use \"none\" for foreign news, "
+                  "celebrities, politics, crime, religion or the military. Also set sindh=true if it is about Sindh."
+                  "\nReturn JSON: {\"items\": [{\"i\": number, \"cat\": string, \"sindh\": bool}]}\n\n" + listing)
+        out = ask_gemini(prompt) if GEMINI_KEY else ask_groq(prompt)
+        for r in (out or {}).get("items", []) if isinstance(out, dict) else []:
+            try:
+                x = new[int(r.get("i"))]
+            except (TypeError, ValueError, IndexError):
+                continue
+            x["cat"] = r.get("cat") if r.get("cat") in TREND_CATS else "none"
+            x["sindh"] = bool(r.get("sindh"))
+        for x in new[:25]:
+            x.setdefault("cat", "none")
+            T["terms"].append(x)
+    cut = time.time() - _window_secs()
+    T["terms"] = [x for x in T["terms"] if x["t"] >= cut][-600:]
+    log("trends:", len(new), "naye,", len(T["terms"]), "kul (7 din)")
+
+
+def trend_scores():
+    """Har mauzoo ka 7 din ka trend zor (Sindh wale trend do guna)."""
+    cut = time.time() - _window_secs()
+    sc = {c: 0.0 for c in TREND_CATS}
+    for x in S.get("trends", {}).get("terms", []):
+        if x["t"] >= cut and x.get("cat") in sc:
+            sc[x["cat"]] += math.log10(max(x.get("traffic", 100), 10)) * (2 if x.get("sindh") else 1)
+    return sc
+
+
+def trend_weight(cat):
+    if not CONFIG.get("trends", {}).get("enabled", True):
+        return 1.0
+    sc = trend_scores()
+    total = sum(sc.values())
+    if total <= 0:
+        return 1.0
+    avg = total / len(sc)
+    return (sc.get(cat, 0) + avg) / (2 * avg)  # koi trend nahi = 0.5, aam = 1, garam mauzoo = zyada
+
+
+def section_trend_weight(section):
+    cats = [c for c in TREND_CATS if CAT_SECTION.get(c, "public_news") == section]
+    if not cats:
+        return 1.0
+    return max(trend_weight(c) for c in cats) if section == "public_news" else trend_weight(cats[0])
+
+
+def trend_queries(cat, days=2, n=2):
+    """Taaza trend wale lafz (us mauzoo ke) taake bot wohi khabar dhoonde."""
+    cut = time.time() - days * 86400
+    rows = [x for x in S.get("trends", {}).get("terms", []) if x.get("cat") == cat and x["t"] >= cut]
+    rows.sort(key=lambda x: x.get("traffic", 0), reverse=True)
+    return [x["term"] for x in rows[:n]]
+
+
+def _clamp(w):
+    cfg = CONFIG.get("learning", {})
+    return max(cfg.get("min_weight", 0.5), min(cfg.get("max_weight", 2.5), w))
+
+
+def learn_weight(key, value):
+    """Aakhri zor = (log kitna pasand kar rahe hain) x (Pakistan mein kitna trend ho raha hai), dono pichle 7 din."""
+    if key == "cat":
+        tw = trend_weight({"agri_news": "agriculture", "cricket_news": "cricket"}.get(value, value))
+    else:
+        tw = section_trend_weight(value)
+    return _clamp(like_weight(key, value) * tw)
 
 
 def learned_cap(section, base):
     return max(1, round(base * learn_weight("sec", section)))
 
 
+def section_order():
+    """Jo hissa is hafte zyada pasand/trend ho, wo pehle chance le (posting order)."""
+    secs = ["public_news", "agri_news", "cricket_news", "sindh_single"]
+    return sorted(secs, key=lambda x: learn_weight("sec", x), reverse=True)
+
+
 def likes_report():
-    rows = [x for x in S.get("perf", {}).get("posts", []) if isinstance(x.get("score"), (int, float))]
-    if not rows:
-        return "📊 Abhi koi post naapi nahi gayi (post ke ~20 ghante baad likes gine jaate hain)."
-    lines = [f"📊 Kaunsi khabrein pasand ho rahi hain ({len(rows)} posts naapi gayin)\n"]
-    for key, name in (("sec", "Hisse"), ("cat", "Mauzoo")):
-        groups = {}
-        for x in rows:
-            groups.setdefault(x.get(key) or "-", []).append(x)
-        ranked = sorted(groups.items(), key=lambda g: _avg(g[1]), reverse=True)
-        lines.append(f"{name}:")
-        lines += [f"  {g}: avg {_avg(v):.1f} ({len(v)} posts) x{learn_weight(key, g):.1f}" for g, v in ranked[:12]]
+    cut = time.time() - _window_secs()
+    rows = [x for x in S.get("perf", {}).get("posts", []) if isinstance(x.get("score"), (int, float)) and x["t"] >= cut]
+    lines = ["📊 Pichle 7 din ka hisaab\n", "Posting order: " + " > ".join(section_order()), ""]
+    if rows:
+        lines.append(f"👍 Pasand ({len(rows)} posts naapi gayin):")
+        for key, name in (("sec", "Hisse"), ("cat", "Mauzoo")):
+            groups = {}
+            for x in rows:
+                groups.setdefault(x.get(key) or "-", []).append(x)
+            ranked = sorted(groups.items(), key=lambda g: _avg(g[1]), reverse=True)
+            lines.append(f"{name}:")
+            lines += [f"  {g}: avg {_avg(v):.1f} ({len(v)} posts) x{learn_weight(key, g):.1f}" for g, v in ranked[:12]]
+    else:
+        lines.append("👍 Abhi koi post naapi nahi gayi (post ke ~20 ghante baad likes gine jaate hain).")
+    sc = sorted(trend_scores().items(), key=lambda kv: kv[1], reverse=True)
+    lines.append("\n🔥 Pakistan trends (mauzoo):")
+    lines += [f"  {c}: {v:.1f} x{_clamp(trend_weight(c)):.1f}" + (f" ({', '.join(trend_queries(c, 7, 3))})" if v else "")
+              for c, v in sc if v][:8] or ["  abhi data nahi"]
     return "\n".join(lines)
 
 
@@ -1886,18 +2006,21 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
     items = []
     queries = cfg.get("queries", default_queries)
     per_run = cfg.get("queries_per_run")
-    if isinstance(queries, dict):  # mauzoo -> search lafz; jo mauzoo zyada pasand ho wo zyada baar dhoondo
+    if isinstance(queries, dict):  # mauzoo -> search lafz; jo mauzoo zyada pasand/trend ho wo zyada baar dhoondo
         cats = [c for c in queries if queries[c]]
         picks = []
         while cats and len(picks) < (per_run or len(cats)):
             c = random.choices(cats, weights=[learn_weight("cat", c) for c in cats])[0]
             cats.remove(c)
-            picks.append(random.choice(queries[c]))
+            picks.append(random.choice(trend_queries(c) + queries[c]))
         queries = picks
     elif per_run and len(queries) > per_run:  # har run mein kuch mauzoo, baari baari
         start = day.get("rot", 0) % len(queries)
         queries = (queries[start:] + queries[:start])[:per_run]
         day["rot"] = start + per_run
+    tq = trend_queries({"agri_news": "agriculture", "cricket_news": "cricket"}.get(state_key, ""))
+    if tq and not isinstance(cfg.get("queries"), dict):
+        queries = tq[:1] + list(queries)  # trend wala lafz bhi dhoondo
     for q in queries:
         for lang in ("ur", "en"):
             try:
@@ -2062,11 +2185,12 @@ def main():
         handle_daily()
         handle_engagement()
         handle_roundup()
-        handle_sindh_single()
+        handle_trends()
+        sections = {"sindh_single": handle_sindh_single, "cricket_news": handle_cricket_news,
+                    "agri_news": handle_agri_news, "public_news": handle_public_news}
+        for sec in section_order():  # is hafte jo zyada pasand/trend, wo pehle
+            sections[sec]()
         handle_share_helper()
-        handle_cricket_news()
-        handle_agri_news()
-        handle_public_news()
         handle_perf()
         handle_cricket_live()
         handle_auto_reply()
