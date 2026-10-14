@@ -247,7 +247,11 @@ def handle_message(m):
         tg_send(f"✅ System chal raha hai\nAaj ki posts: {S['daily']['count']}\n"
                 f"Queue: {len(S['queue'])} | Review baqi: {len(S['pending'])}\n"
                 f"Jobs jama: {len(S['jobs'])} | Followers: {S.get('followers')}\n"
-                f"Sahafi: {len(contributors)}\n\n"
+                f"Sahafi: {len(contributors)}\n"
+                f"Aaj kul posts: {S.get('all_posts', {}).get('count', 0)}/{CONFIG.get('safety', {}).get('max_total_per_day', 50)}"
+                f" | AI: {S.get('ai_usage', {}).get('ok', 0)} theek, {S.get('ai_usage', {}).get('limit', 0)} hadd,"
+                f" {S.get('ai_usage', {}).get('fail', 0)} fail\n"
+                f"Pichle run ke errors: {', '.join(S.get('last_errors', {}).get('steps', [])) or 'koi nahi'}\n\n"
                 "Khabar post karne ke liye uska text (ya photo + text) mujhe bhej dein.\n"
                 "Sahafi jorne ke liye: /add ID Naam   hatane ke liye: /remove ID   list: /sahafi\n"
                 "Kaunsi khabrein pasand ho rahi hain: /likes")
@@ -772,6 +776,13 @@ def discover_gemini_models():
         return []
 
 
+def ai_count(kind):
+    u = S.setdefault("ai_usage", {"date": "", "ok": 0, "fail": 0, "limit": 0})
+    if u["date"] != today():
+        u.update(date=today(), ok=0, fail=0, limit=0)
+    u[kind] = u.get(kind, 0) + 1
+
+
 def ask_gemini(prompt, image=None, mime="image/jpeg"):
     global _discovered
     parts = [{"text": prompt}]
@@ -793,7 +804,9 @@ def ask_gemini(prompt, image=None, mime="image/jpeg"):
                     timeout=60)
                 if r.status_code == 200:
                     S["gemini_model"] = model
+                    ai_count("ok")
                     return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
+                ai_count("fail" if r.status_code != 429 else "limit")
                 log("gemini", model, r.status_code, r.text[:120].replace("\n", " "))
                 if r.status_code == 404 or "no longer available" in r.text or "not found" in r.text.lower():
                     _dead_models.add(model)
@@ -1246,6 +1259,11 @@ def handle_news():
             stat("queued")
 
 
+def job_like(title):
+    t = title.lower()
+    return any(w in t for w in CONFIG.get("job_words", []))
+
+
 def handle_jobs():
     for it in fetch("jobs"):
         if it["key"] in S["seen"]:
@@ -1253,13 +1271,15 @@ def handle_jobs():
         S["seen"][it["key"]] = time.time()
         if not is_trusted(it["domain"]) or word_match(it["title"], CONFIG["job_scam_words"]):
             continue
+        if not it.get("local") and not job_like(it["title"]):  # aam khabar, naukri ka ishtihar nahi
+            continue
         reason = blocked_reason(it["title"])
         if reason:
             log(f"BLOCKED job ({reason}):", it["title"][:60])
             continue
         it["local"] = it.get("local") or word_match(it["title"], CONFIG["district_towns"])
         S["jobs"].append(it)
-    S["jobs"] = S["jobs"][-40:]
+    S["jobs"] = [j for j in S["jobs"] if j.get("local") or job_like(j["title"])][-40:]
     if now().hour < CONFIG["jobs_digest_hour"] or S["last_digest"] == today():
         return
     S["last_digest"] = today()
@@ -1531,8 +1551,8 @@ def handle_sindh_single():
         day.update(date=today(), count=0, used=day.get("used", [])[-200:])
     if (not (cfg.get("from_hour", 9) <= h < cfg.get("to_hour", 22))
             or day["count"] >= learned_cap("sindh_single", cfg.get("max_per_day", 4))
-            or S["queue"] or S["pending"] or time.time() - day["last"] < cfg.get("gap_minutes", 150) * 60
-            or not can_post() or not pace_ok()):
+            or (S["queue"] and can_post()) or time.time() - day["last"] < cfg.get("gap_minutes", 150) * 60
+            or not pace_ok()):
         return
     cand = [r for r in sindh_candidates(CONFIG.get("sindh_roundup", {})) if item_key(r["title"]) not in day["used"]
             and item_key(r["title"]) not in S["seen"]][:15]
@@ -1565,7 +1585,7 @@ def handle_sindh_single():
     msg = (f"{cfg.get('label', '📰 سنڌ')} | {title}\n\n{finish(body)}\n\n📌 {LBL['source']}: {r['source']}"
            f"\n\n{footer()}")
     card = make_card(title, cfg.get("card_sub", "سنڌ جون خبرون"), theme="news") if cfg.get("card", True) else None
-    if fb_post(msg, photo=card):
+    if fb_post(msg, photo=card, count=False):
         perf_record("sindh_single", "sindh")
         if r.get("link"):
             link_comment(f"{LBL.get('link_comment', '🔗 مڪمل خبر:')} {r['link']}")
@@ -2017,7 +2037,7 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
     hour = now().hour
     gap = cfg.get("night_gap_minutes", cfg.get("gap_minutes", 90) * 2) if is_night() else cfg.get("gap_minutes", 90)
     if (day["count"] >= learned_cap(state_key, cfg.get("max_per_day", 4)) or time.time() - day.get("last", 0) < gap * 60
-            or not cfg.get("start_hour", 0) <= hour < cfg.get("end_hour", 24) or S["queue"] or not can_post()
+            or not cfg.get("start_hour", 0) <= hour < cfg.get("end_hour", 24) or (S["queue"] and can_post())
             or not pace_ok()):
         return
     items = []
@@ -2062,33 +2082,58 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
     if not items:
         return
     items.sort(key=lambda x: x["ts"], reverse=True)
-    done = set()
-    for it in items[:6]:
-        if it["key"] in done:
-            continue
-        done.add(it["key"])
-        S["seen"][it["key"]] = time.time()
-        cat_field = (", \"category\": (required) one of " + json.dumps(list(icons)) if icons else "")
-        prompt = ("Headline: " + it["title"] + "\nReturn JSON only: {\"relevant\": bool, \"blocked\": bool, "
-                  "\"post\": string" + cat_field + "}\n"
-                  "- relevant: " + check_rule + "\n"
-                  "- blocked: true if it involves religion controversy, abuse, or the Pakistani military.\n"
-                  "- post: rewrite ONLY the headline's facts as a 1-2 sentence Facebook post in Sindhi (Arabic script), "
-                  "no hashtags, no full stop at the end.")
-        res = ask_gemini(prompt) if GEMINI_KEY else (ask_groq(prompt) if GROQ_KEY else None)
-        if not res or not res.get("relevant") or res.get("blocked") or not str(res.get("post", "")).strip():
-            continue
-        cat = str(res.get("category") or "")
-        if icons and cat not in icons:
-            cat = guess_cat(it["title"] + " " + str(res.get("post", "")))
-        ic = (icons or {}).get(cat, icon)
-        msg = f"{ic} {finish(res['post'])}\n\n📌 {LBL['source']}: {it['source']}\n\n{footer()}"
-        if fb_post(msg, link=it["link"], count=False):
-            perf_record(state_key, cat if icons else state_key)
-            day["count"] += 1
-            day["last"] = time.time()
-            mark_shareable(res["post"])
-        break
+    uniq, keys = [], set()
+    for it in items:
+        if it["key"] not in keys:
+            keys.add(it["key"])
+            uniq.append(it)
+    cand = uniq[:10]
+    recent = [x["h"] for x in S.get("posted_heads", []) if time.time() - x["t"] < 36 * 3600][-25:]
+    cat_field = (", \"category\": one of " + json.dumps(list(icons)) if icons else "")
+    listing = "\n".join(f"[{i}] {it['title']}" for i, it in enumerate(cand))
+    prompt = ("You pick news for a Sindhi Facebook news page. Candidate headlines:\n" + listing +
+              "\n\nAlready posted recently (do NOT pick the same story again, even if worded differently or in "
+              "another language):\n" + ("\n".join("- " + h for h in recent) or "- none") +
+              "\n\nRule for a suitable item: " + check_rule +
+              "\nNever pick anything about religion controversy, abuse, or the Pakistani military."
+              "\nPick the ONE most important suitable item that is not a repeat (or -1 if none). List the indexes "
+              "of items that are clearly unsuitable or repeats in \"reject\"."
+              "\nFor the pick, write \"post\": its facts only, as a 1-2 sentence Facebook post in Sindhi (Arabic "
+              "script), no hashtags, no full stop at the end."
+              "\nReturn JSON only: {\"pick\": number, \"reject\": [numbers], \"post\": string" + cat_field + "}")
+    res = ask_gemini(prompt) if GEMINI_KEY else None
+    if not isinstance(res, dict) and GROQ_KEY:
+        res = ask_groq(prompt)
+    if not isinstance(res, dict):
+        log(state_key, ": AI ka jawab nahi aaya, khabrein agli baar")  # seen mark nahi, dobara koshish
+        return
+    for i in res.get("reject") or []:
+        try:
+            S["seen"][cand[int(i)]["key"]] = time.time()
+        except (TypeError, ValueError, IndexError):
+            pass
+    try:
+        pick = int(res.get("pick", -1))
+    except (TypeError, ValueError):
+        pick = -1
+    post = clean_text(str(res.get("post", "")))
+    if not 0 <= pick < len(cand) or len(post) < 10 or blocked_reason(post):
+        return
+    it = cand[pick]
+    S["seen"][it["key"]] = time.time()
+    cat = str(res.get("category") or "")
+    if icons and cat not in icons:
+        cat = guess_cat(it["title"] + " " + post)
+    ic = (icons or {}).get(cat, icon)
+    msg = f"{ic} {finish(post)}\n\n📌 {LBL['source']}: {it['source']}\n\n{footer()}"
+    if fb_post(msg, link=it["link"], count=False):
+        perf_record(state_key, cat if icons else state_key)
+        day["count"] += 1
+        day["last"] = time.time()
+        mark_shareable(post)
+        ph = S.setdefault("posted_heads", [])
+        ph.append({"h": it["title"][:140], "t": int(time.time())})
+        S["posted_heads"] = ph[-80:]
 
 
 def handle_cricket_news():
@@ -2225,29 +2270,29 @@ def main():
         log("TELEGRAM_CHAT_ID ghalat lagta hai: sirf number hona chahiye")
     if DRY_RUN:
         tg_send("🧪 Test run shuru ho gaya. Agar ye message mila to Telegram sahi juda hua hai.")
+    def step(fn):  # har hissa alag: ek mein error aaye to baqi phir bhi chalein
+        try:
+            fn()
+        except Exception:
+            err = traceback.format_exc()
+            log(err)
+            STATS.setdefault("errors", []).append(fn.__name__)
+            alert(f"System mein error aaya ({fn.__name__}):\n" + err[-600:])
+
+    for fn in (process_telegram, expire_old, handle_news, handle_jobs, publish_queue, handle_promo, handle_daily,
+               handle_engagement, handle_roundup, handle_trends):
+        step(fn)
+    sections = {"sindh_single": handle_sindh_single, "cricket_news": handle_cricket_news,
+                "agri_news": handle_agri_news, "public_news": handle_public_news}
     try:
-        process_telegram()
-        expire_old()
-        handle_news()
-        handle_jobs()
-        publish_queue()
-        handle_promo()
-        handle_daily()
-        handle_engagement()
-        handle_roundup()
-        handle_trends()
-        sections = {"sindh_single": handle_sindh_single, "cricket_news": handle_cricket_news,
-                    "agri_news": handle_agri_news, "public_news": handle_public_news}
-        for sec in section_order():  # is hafte jo zyada pasand/trend, wo pehle
-            sections[sec]()
-        handle_share_helper()
-        handle_perf()
-        handle_cricket_live()
-        handle_auto_reply()
+        order = section_order()
     except Exception:
-        err = traceback.format_exc()
-        log(err)
-        alert("System mein error aaya:\n" + err[-600:])
+        order = list(sections)
+    for sec in order:  # is hafte jo zyada pasand/trend, wo pehle
+        step(sections[sec])
+    for fn in (handle_share_helper, handle_perf, handle_cricket_live, handle_auto_reply):
+        step(fn)
+    S["last_errors"] = {"time": now().strftime("%Y-%m-%d %H:%M"), "steps": STATS.get("errors", [])}
     send_report()
     if DRY_RUN:
         log("test mode: state save nahi kiya")
