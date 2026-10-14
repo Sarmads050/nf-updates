@@ -13,7 +13,7 @@ import random
 import re
 import time
 import traceback
-from urllib.parse import quote_plus, urljoin, urlparse
+from urllib.parse import parse_qs, quote_plus, unquote, urljoin, urlparse
 
 import feedparser
 import requests
@@ -280,6 +280,8 @@ def handle_message(m):
         return  # anjaan log
 
     screenshot, link, video = None, None, None
+    share_only = False
+    source_credit = ""  # doosre ki post: asal banane wale ka naam
     own_video = False
     tg_video = m.get("video") or (m.get("document") if str((m.get("document") or {}).get("mime_type", "")).startswith("video") else None)
     sv = SOCIAL_LINK.search(text)
@@ -303,42 +305,47 @@ def handle_message(m):
         if is_own_account(info):
             video, own_video = {"url": sv.group(0)}, True
         else:
-            link = sv.group(0)  # doosre ki video: link ke saath share (copyright se bachao)
+            link = info.get("webpage_url") or sv.group(0)  # doosre ki video: link ke saath share
+            source_credit = credit_line(info, "TikTok" if "tiktok" in sv.group(0).lower() else "Instagram")
     elif fb:  # Facebook post share kiya gaya: us link ka preview (text + photo) parhna
         ptext, pimg = fetch_fb_preview(fb.group(0))
         extra = FB_LINK.sub(" ", text).strip()
         is_video = bool(FB_VIDEO_HINT.search(fb.group(0)))
-        if len(ptext) < 20:  # preview band mila: public video/reel ki tafseel doosre tareeqe se
+        info = None
+        if len(ptext) < 20 or is_video:  # video/reel ya band preview: tafseel aur naam doosre tareeqe se
             info = video_info(fb.group(0))
             if info:
                 desc = clean_text(info.get("description") or "")
                 title = clean_text(info.get("title") or "")
                 cand = desc if len(desc) >= len(title) else title
-                if len(cand) >= 20 and not re.match(r"^(video|reel|facebook)\b", cand, re.I):
+                if len(ptext) < 20 and len(cand) >= 20 and not re.match(r"^(video|reel|facebook)\b", cand, re.I):
                     ptext = cand
                     is_video = is_video or bool(info.get("duration") or info.get("formats"))
                     if not pimg:
                         pimg = info.get("thumbnail") or ""
-        if len(ptext) < 20 and len(extra) < 15:
-            reply(chat_id, "Facebook ne is post ka text nahi diya (shayad post band/private hai). "
-                           "Post ka screenshot bhej dein, main us se khabar parh lunga.")
-            return
+        share_only = len(ptext) < 20 and len(extra) < 15
         text = (ptext + "\n" + extra).strip()
-        if is_video:
-            link = fb.group(0)  # video wali post: asal video ka link lagega
-        elif not photo and pimg:
-            photo = pimg
+        # Facebook post ko share ki tarah lagao: asal post ka pakka link (preview/video ke saath), credit ke saath.
+        # Doosre ki photo/video dobara upload nahi hoti.
+        link = canonical_fb_link(fb.group(0), info)
+        source_credit = credit_line(info, "Facebook") if info else ""
+        if share_only:
+            # Text na mila: post ko share ki tarah lagao, Facebook khud asal post ka preview dikhayega
+            text = ""
+            if FB_LINK.search(link) and "/share/" in link:
+                reply(chat_id, "Is post ka text ya asal link nahi mil saka. Post ka screenshot bhej dein.")
+                return
     elif photo and len(text) < 15:  # sirf photo bina text: screenshot samjho, us se khabar parho
         screenshot = tg_download(photo)
         photo = None
         if not screenshot or not GEMINI_KEY:
             reply(chat_id, "Screenshot parh nahi saka. Khabar ka text bhej dein.")
             return
-    if len(text) < 15 and not screenshot and not own_video:
+    if len(text) < 15 and not screenshot and not own_video and not share_only and not (sv and link):
         reply(chat_id, "Khabar ka text, Facebook post ka share link, ya screenshot bhejein.")
         return
 
-    key = item_key((text or str(video) or str(len(screenshot or b"")))[:200])
+    key = item_key((text or link or (video or {}).get("tg") or (video or {}).get("url") or str(len(screenshot or b"")))[:200])
     if key in S["seen"]:
         reply(chat_id, "Ye khabar pehle hi aa chuki hai.")
         return
@@ -346,7 +353,19 @@ def handle_message(m):
 
     reason = blocked_reason(text)
     res = None
-    if len(text) >= 15 or screenshot:
+    vid_url = link if (link and (sv or (fb and FB_VIDEO_HINT.search(fb.group(0))) or (fb and share_only))) else None
+    if vid_url and not is_sindhi(text) and GEMINI_KEY and not reason:
+        tr = transcribe_video(vid_url)  # video ki awaz sun kar Sindhi khabar
+        if tr and tr.get("has_speech") and isinstance(tr.get("post"), str) and len(tr["post"].strip()) > 15:
+            res, share_only = tr, False
+    if res is not None:
+        if res.get("blocked"):
+            reason = "AI"
+    elif share_only:
+        pass  # sirf share: Facebook asal post ka preview dikhayega
+    elif is_sindhi(text) and not screenshot:
+        res = {"post": text}  # post pehle se Sindhi mein hai: bilkul wahi text
+    elif len(text) >= 15 or screenshot:
         res = rewrite_forwarded(text, screenshot, own_video) if (GEMINI_KEY or GROQ_KEY) else None
         if screenshot and not res:
             reply(chat_id, "Screenshot se khabar parh nahi saka. Khabar ka text bhej dein.")
@@ -360,9 +379,11 @@ def handle_message(m):
         stat("blocked")
         reply(chat_id, "⛔ Ye post nahi hogi: is mein mazhab, gaali-galoch ya fauj ka zikr hai.")
         return
-    raw = res["post"] if res else text
+    raw = res["post"] if res else ("" if share_only else text)
     body = finish(raw) + "\n\n" if raw.strip() else ""
     credit = f"✍️ {LBL.get('reporter', 'رپورٽ')}: {contributors[chat_id]}\n\n" if chat_id in contributors else ""
+    if source_credit:
+        credit = source_credit + "\n\n" + credit
     message = f"{body}{credit}{footer()}"
     if blocked_reason(message):
         reply(chat_id, "⛔ Ye post nahi hogi: is mein mazhab, gaali-galoch ya fauj ka zikr hai.")
@@ -390,6 +411,81 @@ def handle_message(m):
     preview = "🟠 SAHAFI KI KHABAR (" + contributors[chat_id] + ")" + kind + "\n\n" + message + (f"\n{link}" if link else "")
     tg_send(preview, [{"text": "✅ Post karo", "callback_data": "ok:" + key},
                       {"text": "❌ Reject", "callback_data": "no:" + key}])
+
+
+SINDHI_LETTERS = set("ڪڏٿٽڄڃڳڱٻڀڻڦڙڌڊڍڇڪ")
+
+
+def is_sindhi(text):
+    """Sindhi ke khaas huroof hon to text Sindhi samjha jaye."""
+    return sum(ch in SINDHI_LETTERS for ch in (text or "")) >= 3
+
+
+def transcribe_video(url):
+    """Video ki sirf awaz (audio) la kar Gemini se sunwana aur Sindhi khabar banwana. Video upload nahi hoti."""
+    import tempfile
+    d = tempfile.mkdtemp()
+    try:
+        import yt_dlp
+        opts = {"quiet": True, "no_warnings": True, "noplaylist": True, "outtmpl": d + "/a.%(ext)s",
+                "format": "bestaudio[filesize<15M]/bestaudio/worst[filesize<15M]/worst", "max_filesize": 18 * 1024 * 1024}
+        with yt_dlp.YoutubeDL(opts) as y:
+            info = y.extract_info(url, download=True)
+            path = y.prepare_filename(info)
+    except Exception as e:
+        log("transcribe download error:", str(e)[:150])
+        return None
+    if not os.path.exists(path) or os.path.getsize(path) > 19 * 1024 * 1024:
+        return None
+    ext = path.rsplit(".", 1)[-1].lower()
+    mime = {"m4a": "audio/mp4", "mp3": "audio/mpeg", "webm": "audio/webm", "ogg": "audio/ogg", "opus": "audio/ogg",
+            "wav": "audio/wav", "aac": "audio/aac", "mp4": "video/mp4"}.get(ext, "audio/mp4")
+    prompt = (
+        "This is the audio of a local news video from Sindh, Pakistan (speech may be Sindhi, Urdu or English).\n"
+        "Return JSON only: {\"has_speech\": bool, \"blocked\": bool, \"post\": string}\n"
+        "- has_speech: false if there is no clear spoken news (only music, noise, songs).\n"
+        "- blocked: true if it insults any religion/sect/religious figure, involves blasphemy or sectarian hatred, "
+        "contains abuse/gaali, or mentions the Pakistani military in any way. When in doubt, true.\n"
+        "- post: write the news told in the video as a clear Facebook post in Sindhi (Arabic script), 2-5 sentences, "
+        "only facts actually said in the video, neutral tone, no phone numbers, no hashtags, no full stop at the end.")
+    with open(path, "rb") as f:
+        return ask_gemini(prompt, f.read(), mime)
+
+
+def credit_line(info, platform):
+    """Asal banane wale ka credit, maslan: 📹 ذريعو: Ali Reporter (TikTok)"""
+    name = ""
+    if info:
+        name = clean_text(str(info.get("uploader") or info.get("channel") or info.get("creator") or ""))
+    return f"📹 {LBL.get('source', 'ذريعو')}: {name} ({platform})" if name else f"📹 {LBL.get('source', 'ذريعو')}: {platform}"
+
+
+def canonical_fb_link(url, info=None):
+    """facebook.com/share/... jaise links ko asal post ke link mein badalna (Facebook share links rad karta hai)."""
+    def clean(u):
+        p = urlparse(u)
+        if not p.netloc.endswith("facebook.com") or "/share/" in p.path or "login" in p.path:
+            return None
+        keep = p.query if p.path.rstrip("/").split("/")[-1] in ("permalink.php", "story.php", "watch", "photo.php") else ""
+        return f"https://www.facebook.com{p.path}" + (f"?{keep}" if keep else "")
+    if info:
+        for k in ("webpage_url", "original_url"):
+            c = clean(str(info.get(k) or ""))
+            if c:
+                return c
+    try:
+        r = requests.get(url, headers=BROWSER_UA, timeout=20, allow_redirects=True)
+        final = r.url
+        if "login" in final:
+            nxt = parse_qs(urlparse(final).query).get("next")
+            if nxt:
+                final = unquote(nxt[0])
+        c = clean(final)
+        if c:
+            return c
+    except Exception as e:
+        log("fb link resolve error:", e)
+    return url
 
 
 SOCIAL_LINK = re.compile(r"https?://(?:[a-z]+\.)?(?:tiktok\.com|instagram\.com|instagr\.am)/\S+", re.I)
@@ -666,11 +762,11 @@ def discover_gemini_models():
         return []
 
 
-def ask_gemini(prompt, image=None):
+def ask_gemini(prompt, image=None, mime="image/jpeg"):
     global _discovered
     parts = [{"text": prompt}]
     if image:
-        parts.append({"inline_data": {"mime_type": "image/jpeg", "data": base64.b64encode(image).decode()}})
+        parts.append({"inline_data": {"mime_type": mime, "data": base64.b64encode(image).decode()}})
     models = [S.get("gemini_model")] + CONFIG["gemini_models"]
     tried = set()
     while True:
