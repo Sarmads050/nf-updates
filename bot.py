@@ -879,7 +879,10 @@ def _fb_post(message, link=None, photo=None, video=None, count=True):
                 log("video upload error:", r.text[:200])
             tg_send("⚠️ Video upload nahi ho saki, sirf text post kar raha hoon.")
         img = None
-        if photo and not photo.startswith("http"):
+        if photo and os.path.isfile(photo):  # khud bani tasveer (card)
+            with open(photo, "rb") as f:
+                img = f.read()
+        elif photo and not photo.startswith("http"):
             img = tg_download(photo)
             if not img:
                 log("photo download nahi hui, sirf text post")
@@ -894,7 +897,8 @@ def _fb_post(message, link=None, photo=None, video=None, count=True):
         elif photo:
             r = requests.post(f"{GRAPH}/{FB_PAGE_ID}/photos", timeout=90,
                               data={"caption": message, "access_token": FB_TOKEN},
-                              files={"source": ("photo.jpg", img, "image/jpeg")})
+                              files={"source": ("photo.png" if photo.endswith(".png") else "photo.jpg", img,
+                                                "image/png" if photo.endswith(".png") else "image/jpeg")})
         else:
             data = {"message": message, "access_token": FB_TOKEN}
             if link:
@@ -1076,7 +1080,7 @@ def crosspost(message, link=None, photo=None, video=None):
     if not ch or not TG_TOKEN:
         return
     text = message + (f"\n\n{link}" if link else "")
-    if photo and len(message) <= 1000:
+    if photo and not os.path.isfile(photo) and len(message) <= 1000:
         tg("sendPhoto", chat_id=ch, photo=photo, caption=text)
     elif video and video.get("tg") and len(message) <= 1000:
         tg("sendVideo", chat_id=ch, video=video["tg"], caption=text)
@@ -1095,42 +1099,115 @@ def record_title(text):
         t["items"].append(line)
 
 
+SD_MONTHS = ["جنوري", "فيبروري", "مارچ", "اپريل", "مئي", "جون", "جولاءِ", "آگسٽ", "سيپٽمبر", "آڪٽوبر", "نومبر", "ڊسمبر"]
+SEP = "━━━━━━━━━━━━━━"
+NUM = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
+
+
+def sd_date():
+    n = now()
+    return f"{n.day} {SD_MONTHS[n.month - 1]} {n.year}"
+
+
+def make_card(title, subtitle="", body="", theme="news"):
+    """Page ke rang (Ajrak) wali tasveer banana: Chrome headless se HTML ka screenshot. Na bane to None."""
+    import html as H
+    import shutil
+    import subprocess
+    import tempfile
+    chrome = next((p for p in (shutil.which(x) for x in ("google-chrome", "google-chrome-stable", "chromium",
+                                                         "chromium-browser")) if p), None) or os.getenv("CHROME_BIN")
+    if not chrome:
+        log("card: chrome nahi mila")
+        return None
+    d = tempfile.mkdtemp()
+    accent = "#B3261E" if theme == "news" else "#1F6F5C"
+    font_css = os.getenv("CARD_FONT_CSS", "") or \
+        "@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@700&display=swap');"
+    big = 92 if len(title) < 22 else 74 if len(title) < 40 else 58
+    page = f"""<!doctype html><html><head><meta charset="utf-8"><style>{font_css}
+    html,body{{margin:0;width:1080px;height:1080px;overflow:hidden}}
+    body{{background:#14213D;font-family:'Noto Naskh Arabic','Noto Naskh',serif;color:#F4EFE6;position:relative}}
+    .band{{position:absolute;left:0;right:0;height:84px;background-color:#7A1B1B;box-sizing:content-box;
+      background-image:radial-gradient(circle at 42px 42px,#F4EFE6 6px,transparent 7px),
+      radial-gradient(circle at 42px 42px,#14213D 22px,transparent 23px);background-size:84px 84px}}
+    .top{{top:0;border-bottom:8px solid #F4EFE6}} .bot{{top:988px;border-top:8px solid #F4EFE6}}
+    .wrap{{position:absolute;top:92px;bottom:92px;left:70px;right:70px;display:flex;flex-direction:column;
+      align-items:center;justify-content:center;text-align:center;gap:26px;direction:rtl}}
+    .tag{{background:{accent};color:#fff;font-size:34px;padding:8px 30px;border-radius:6px;letter-spacing:1px;
+      font-family:Arial,sans-serif;font-weight:700;direction:ltr}}
+    h1{{margin:0;font-size:{big}px;line-height:1.45;font-weight:700}}
+    .sub{{font-size:44px;opacity:.9;font-family:'Noto Naskh Arabic','Noto Naskh',serif;font-weight:700}} .body{{font-size:40px;line-height:1.6;opacity:.95;max-width:900px}}
+    .brand{{font-family:Arial,sans-serif;font-weight:700;font-size:30px;letter-spacing:3px;opacity:.85;direction:ltr}}
+    </style></head><body><div class="band top"></div><div class="band bot"></div><div class="wrap">
+    <div class="tag">NAUSHAHRO FEROZE UPDATES</div><h1>{H.escape(title)}</h1>
+    {f'<div class="sub">{H.escape(subtitle)}</div>' if subtitle else ''}
+    {f'<div class="body">{H.escape(body)}</div>' if body else ''}
+    <div class="brand">Follow • Share</div></div></body></html>"""
+    hp, out = os.path.join(d, "card.html"), os.path.join(d, "card.png")
+    with open(hp, "w", encoding="utf-8") as f:
+        f.write(page)
+    try:
+        subprocess.run([chrome, "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars",
+                        "--force-device-scale-factor=1", "--window-size=1080,1167", "--virtual-time-budget=8000",
+                        f"--screenshot={out}", "file://" + hp], capture_output=True, timeout=90)
+    except Exception as e:
+        log("card error:", e)
+        return None
+    if not (os.path.isfile(out) and os.path.getsize(out) > 5000):
+        return None
+    try:  # headless Chrome window viewport se bari hoti hai: sirf upar ka 1080x1080 hissa rakho
+        from PIL import Image
+        with Image.open(out) as im:
+            im.crop((0, 0, 1080, 1080)).save(out)
+    except Exception as e:
+        log("card crop error:", e)
+    return out
+
+
 def handle_roundup():
-    """Din mein do dafa (subah 6, shaam 6) poore Sindh ki ahem khabron ki list, alag post."""
+    """Din mein do dafa (subah 6, shaam 6) poore Sindh ki ahem khabrein: har khabar alag hissay mein poori, card ke saath."""
     cfg = CONFIG.get("sindh_roundup", {})
     if not cfg.get("enabled", True):
         return
     slot = None
-    for name, hour in (("am", cfg.get("morning_hour", 6)), ("pm", cfg.get("evening_hour", 18))):
-        start = hour if name == "am" else hour
-        end = 12 if name == "am" else 24
-        if start <= now().hour < end and S.get("roundup_" + name) != today():
+    for name, hour, end in (("am", cfg.get("morning_hour", 6), 12), ("pm", cfg.get("evening_hour", 18), 24)):
+        if hour <= now().hour < end and S.get("roundup_" + name) != today():
             slot = name
     if not slot:
         return
     S["roundup_" + slot] = today()
-    items = sindh_headlines(cfg)
-    if len(items) < cfg.get("min_items", 4):
-        log("sindh roundup: kaafi khabrein nahi mili", len(items))
+    stories = sindh_stories(cfg)
+    if len(stories) < cfg.get("min_items", 3):
+        log("sindh roundup: kaafi khabrein nahi mili", len(stories))
         return
-    lines = [cfg.get("title_am" if slot == "am" else "title_pm", "📋 سنڌ جون اهم خبرون"), ""]
-    lines += [f"🔹 {finish(x)}" for x in items]
+    title = cfg.get("title_am" if slot == "am" else "title_pm", "سنڌ جون اهم خبرون")
+    lines = [title, f"📅 {sd_date()}", SEP]
+    for i, s in enumerate(stories):
+        lines += [f"{NUM[i] if i < len(NUM) else '🔹'} {s['title']}", "", finish(s["body"])]
+        if s.get("source"):
+            lines.append(f"📌 {LBL['source']}: {s['source']}")
+        lines.append(SEP)
     lines += ["", footer()]
-    fb_post("\n".join(lines))
+    card = make_card(re.sub(r"^\W+", "", title), sd_date(), theme="news") if cfg.get("card", True) else None
+    fb_post("\n".join(lines), photo=card)
 
 
-def sindh_headlines(cfg):
-    """Pichle 12 ghante ki Sindh ki khabrein: bharosemand, bina pabandi aur bina jurm wali, Sindhi mein ek line."""
+def sindh_stories(cfg):
+    """Pichle 12 ghante ki Sindh ki khabrein, matn ke saath; AI har ek ko Sindhi mein sarkhi + 2-3 jumlay banata hai."""
     max_age = cfg.get("max_age_hours", 12) * 3600
-    urls = [gnews_url(q, lang) for q in cfg.get("queries", ["Sindh"]) for lang in ("ur", "en")]
-    urls += cfg.get("feeds", [])
-    seen_keys, raw = set(), []
-    for u in urls:
+    want = cfg.get("max_items", 5)
+    feeds = cfg.get("story_feeds", []) + cfg.get("feeds", [])
+    urls = [(u, True) for u in dict.fromkeys(feeds)]
+    urls += [(gnews_url(q, lang), False) for q in cfg.get("queries", ["Sindh"]) for lang in ("ur", "en")]
+    keys, raw = set(), []
+    for u, from_feed in urls:
         try:
             feed = feedparser.parse(requests.get(u, timeout=25, headers=UA).content)
         except Exception as e:
             log("roundup feed error:", u, e)
             continue
+        fname = clean_text(feed.feed.get("title", "")) if from_feed else ""
         for e in feed.entries:
             title = clean_text(e.get("title", ""))
             src = e.get("source") or {}
@@ -1139,44 +1216,63 @@ def sindh_headlines(cfg):
                 title = title[: -(len(st) + 3)].strip()
             pub = e.get("published_parsed") or e.get("updated_parsed")
             ts = calendar.timegm(pub) if pub else time.time()
-            domain = urlparse((src.get("href") if hasattr(src, "get") else "") or e.get("link", "")).netloc.lower().removeprefix("www.")
+            href = (src.get("href") if hasattr(src, "get") else "") or e.get("link", "")
+            domain = urlparse(href).netloc.lower().removeprefix("www.")
+            body = ""
+            for c in (e.get("content") or []):
+                body = clean_text(c.get("value", "")) or body
+            body = body or clean_text(e.get("summary", ""))
+            if body.startswith(title):
+                body = body[len(title):].strip()
             k = item_key(title)
-            if (len(title) < 15 or k in seen_keys or time.time() - ts > max_age or not is_trusted(domain)
-                    or blocked_reason(title) or keyword_sensitive(title)):
+            if (len(title) < 15 or k in keys or time.time() - ts > max_age or not is_trusted(domain)
+                    or blocked_reason(title + " " + body[:600]) or keyword_sensitive(title)):
                 continue
-            seen_keys.add(k)
-            raw.append((ts, title))
-    raw.sort(reverse=True)
-    titles = [t for _, t in raw[:25]]
-    if not titles:
+            keys.add(k)
+            raw.append({"ts": ts, "title": title, "text": body[:1200], "source": fname or st or domain,
+                        "rich": len(body) > 120})
+    raw.sort(key=lambda r: (r["rich"], r["ts"]), reverse=True)  # matn wali khabrein pehle
+    cand = raw[:20]
+    if not cand:
         return []
-    want = cfg.get("max_items", 8)
     if GEMINI_KEY or GROQ_KEY:
-        prompt = ("Below are recent news headlines from Sindh, Pakistan. Pick the " + str(want) + " most important "
-                  "for people of Sindh (public interest: government decisions, education, health, weather, prices, "
-                  "development, jobs, sports). Skip duplicates, crime, violence, politics fights, anything about "
-                  "religion controversy, abusive content or the military. Write each as ONE short line in Sindhi "
-                  "(Arabic script), only facts from the headline, no full stop at the end.\n"
-                  "Return JSON: {\"items\": [string]}\n\nHEADLINES:\n" + "\n".join(f"- {t}" for t in titles))
+        listing = "\n\n".join(f"[{i}] {r['title']}\n{r['text']}" for i, r in enumerate(cand))
+        prompt = ("Below are recent news items from Sindh, Pakistan (headline + text). Pick the " + str(want) +
+                  " most important for people of Sindh (government decisions, education, health, weather, prices, "
+                  "development, jobs, sports). Skip duplicates, crime, violence, political fights, religion "
+                  "controversy, abuse and anything about the military. For each write in Sindhi (Arabic script): "
+                  "a short headline and a 2-3 sentence summary using ONLY facts in that item, in your own words, "
+                  "no full stop at the end.\n"
+                  "Return JSON: {\"items\": [{\"i\": number, \"title\": string, \"body\": string}]}\n\n" + listing)
         out = ask_gemini(prompt) if GEMINI_KEY else None
         if not out and GROQ_KEY:
             out = ask_groq(prompt)
-        items = [clean_text(x) for x in (out or {}).get("items", []) if isinstance(x, str)]
-        items = [x for x in items if len(x) > 8 and not blocked_reason(x)]
-        if items:
-            return items[:want]
-    return titles[:want]
+        stories = []
+        for it in (out or {}).get("items", []):
+            try:
+                r = cand[int(it.get("i"))]
+            except (TypeError, ValueError, IndexError):
+                continue
+            t, bdy = clean_text(it.get("title", "")), clean_text(it.get("body", ""))
+            if len(t) > 5 and len(bdy) > 20 and not blocked_reason(t + " " + bdy):
+                stories.append({"title": t, "body": bdy, "source": r["source"]})
+        if stories:
+            return stories[:want]
+    return [{"title": r["title"], "body": r["text"][:300] or r["title"], "source": r["source"]}
+            for r in cand[:want] if r["rich"]]
 
 
 def handle_engagement():
-    """Hafte mein kuch din shaam ko sawal wali post: comments se reach barhti hai."""
+    """Hafte mein kuch din shaam ko sawal wali post (card ke saath): comments se reach barhti hai."""
     cfg = CONFIG.get("engagement", {})
     qs = cfg.get("questions", [])
     if (not cfg.get("enabled", True) or not qs or now().weekday() not in cfg.get("days", [0, 2, 4])
             or now().hour < cfg.get("hour", 20) or S.get("last_question") == today()):
         return
     i = S.get("q_index", 0) % len(qs)
-    if fb_post(f"💬 {qs[i]}\n\n{footer()}"):
+    card = make_card(qs[i], "ڪمينٽ ۾ جواب ڏيو", theme="question") if cfg.get("card", True) else None
+    text = f"💬 {qs[i]}\n\n👇 پنهنجو جواب ڪمينٽ ۾ لکو، ۽ دوستن کي به ٽيگ ڪريو!\n\n{footer()}"
+    if fb_post(text, photo=card):
         S["q_index"] = i + 1
         S["last_question"] = today()
 

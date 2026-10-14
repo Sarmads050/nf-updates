@@ -437,7 +437,8 @@
       "اوهان وٽ پاڻي ۽ بجلي جي صورتحال ڪيئن آهي؟",
       "اوهان جي علائقي جي اسڪولن ۾ ڪهڙي سهولت جي کوٽ آهي؟",
       "اوهان جي علائقي جي ڪا خبر اسان تائين پهچائڻ گهرو ٿا؟ ڪمينٽ يا ميسيج ڪريو!"
-    ]
+    ],
+    "card": true
   },
   "auto_reply": {
     "enabled": true,
@@ -457,8 +458,8 @@
     "enabled": true,
     "morning_hour": 6,
     "evening_hour": 18,
-    "min_items": 4,
-    "max_items": 8,
+    "min_items": 3,
+    "max_items": 5,
     "max_age_hours": 12,
     "title_am": "🌅 صبح جون سنڌ جون اهم خبرون",
     "title_pm": "🌆 شام جون سنڌ جون اهم خبرون",
@@ -475,6 +476,13 @@
     "feeds": [
       "https://www.awamiawaz.pk/feed/",
       "https://www.ktnnews.tv/feed/"
+    ],
+    "card": true,
+    "story_feeds": [
+      "https://www.awamiawaz.pk/feed/",
+      "https://www.ktnnews.tv/feed/",
+      "https://www.express.pk/feed/",
+      "https://urdu.arynews.tv/feed/"
     ]
   }
 }
