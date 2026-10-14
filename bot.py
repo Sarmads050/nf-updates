@@ -136,12 +136,12 @@ def tg(method, **data):
         return {}
 
 
-def tg_send(text, buttons=None):
+def tg_send(text, buttons=None, rows=None):
     if not (TG_TOKEN and TG_CHAT):
         return
-    d = {"chat_id": TG_CHAT, "text": text[:4000]}
-    if buttons:
-        d["reply_markup"] = {"inline_keyboard": [buttons]}
+    d = {"chat_id": TG_CHAT, "text": text[:4000], "disable_web_page_preview": True}
+    if buttons or rows:
+        d["reply_markup"] = {"inline_keyboard": rows or [buttons]}
     tg("sendMessage", **d)
 
 
@@ -1341,6 +1341,7 @@ def handle_jobs():
         if CONFIG.get("news_cards", True) else None
     if fb_post("\n".join(lines), photo=card, card=False,
                comment=LBL.get("links_comment", "🔗 مڪمل خبرون:") + "\n" + "\n".join(links)):
+        mark_shareable("\n".join(lines), "jobs")
         S["jobs"] = []
 
 
@@ -1689,7 +1690,7 @@ def handle_sindh_single():
         if r.get("link"):
             link_comment(f"{LBL.get('link_comment', '🔗 مڪمل خبر:')} {r['link']}")
         day["count"] += 1
-        mark_shareable(title)
+        mark_shareable(title + " " + body, "sindh")
 
 
 def link_comment(text):
@@ -1718,25 +1719,62 @@ def link_comment(text):
         return False
 
 
-def mark_shareable(text):
+TOPIC_TAGS = {"district": ["local"], "sindh": ["sindh", "general"], "jobs": ["jobs"], "agri": ["agri", "general"],
+              "cricket": ["cricket"], "education_jobs": ["education", "jobs", "general"],
+              "dollar_gold_business": ["business", "general"], "weather_disaster": ["general", "local"]}
+PADIDAN_WORDS = ["پڊعيدن", "پڈعیدن", "padidan"]
+TEACHER_WORDS = ["استاد", "استادن", "ٽيچر", "ٹیچر", "teacher", "pst", "jst", "ايڪسپائري", "test"]
+
+
+def post_tags(topic, text):
+    tags = set(TOPIC_TAGS.get(topic, ["general"]))
+    low = (text or "").lower()
+    if any(w in low for w in PADIDAN_WORDS):
+        tags |= {"padidan", "local"}
+    if any(w in low for w in ("نوشهروفيروز", "نوشہرو فیروز", "naushahro", "noushahro")):
+        tags.add("local")
+    if "jobs" in tags and any(w in low for w in TEACHER_WORDS):
+        tags.add("teachers")
+    return sorted(tags)
+
+
+def mark_shareable(text, topic="district"):
     """Abhi lagi post ko 'share karne layak' list mein rakhna (groups mein share ke mashware ke liye)."""
     pid = S.get("last_post_id")
     if not pid or DRY_RUN:
         return
-    first = re.sub(r"^\W+", "", (text or "").strip().splitlines()[0] if text else "")[:90]
+    first = card_parts(text)[0] or re.sub(r"^\W+", "", (text or "").strip().splitlines()[0] if text else "")[:90]
     sh = S.setdefault("shareable", [])
     if pid not in [x["id"] for x in sh]:
-        sh.append({"id": pid, "title": first, "t": time.time()})
+        sh.append({"id": pid, "title": first[:90], "t": time.time(), "tags": post_tags(topic, text)})
     del sh[:-30]
 
 
+def pick_groups(tags, n):
+    """Post ke mauzoo se milte groups; har group din mein hadd tak, jo sab se pehle istemal hua wo pehle."""
+    groups = CONFIG.get("share_helper", {}).get("groups", [])
+    used = S.setdefault("group_shares", {})
+    out = []
+    for i, g in enumerate(groups):
+        if not isinstance(g, dict) or not set(g.get("tags", ["general"])) & set(tags):
+            continue
+        u = used.get(str(i), {})
+        cnt = u.get("count", 0) if u.get("date") == today() else 0
+        if cnt >= g.get("daily_max", 1):
+            continue
+        special = len((set(g.get("tags", [])) & set(tags)) - {"general", "local", "sindh"})
+        out.append(((-special, u.get("last", 0)), i, g))  # khaas mauzoo wala group pehle, phir jo kam istemal hua
+    out.sort(key=lambda x: x[0])
+    return [(i, g) for _, i, g in out[:n]]
+
+
 def handle_share_helper():
-    """Din mein do dafa Telegram par sab se achhi posts + 'Share' link + kis group mein share karna hai.
-    Facebook groups mein software se share ki ijazat nahi deta, is liye share aap 2 tap mein khud karte hain."""
+    """Din mein kuch dafa Telegram par taaza posts, har post ke saath 📤 Share button aur sahi groups ke buttons.
+    Facebook groups mein software se share ki ijazat nahi deta, is liye share aap khud 3-4 tap mein karte hain."""
     cfg = CONFIG.get("share_helper", {})
     if not cfg.get("enabled", True) or not (TG_TOKEN and TG_CHAT):
         return
-    slots = [str(h) for h in cfg.get("hours", [13, 20]) if now().hour >= h]
+    slots = [str(h) for h in cfg.get("hours", [11, 16, 21]) if now().hour >= h]
     slot = slots[-1] if slots else None
     if not slot or S.get("share_sent", {}).get(slot) == today():
         return
@@ -1745,33 +1783,33 @@ def handle_share_helper():
     fresh = [x for x in S.get("shareable", []) if x["id"] not in sent_ids and time.time() - x["t"] < 12 * 3600]
     if not fresh:
         return
-    picks = fresh[-cfg.get("per_message", 3):]
-    groups = cfg.get("groups", [])
-    gi = S.get("group_index", 0)
-    lines = ["📤 Ye posts in groups mein share karein:",
-             "Tareeqa: 📎 Share link dabayen → \"Share to a group\" → neeche diya group chunen → Post.",
-             "(Ya 👥 group khol kar post ka 🔗 link paste kar dein.)", ""]
-    for n, p in enumerate(picks, 1):
+    plan = []
+    for p in reversed(fresh):  # taaza pehle
+        gs = pick_groups(p.get("tags", ["general"]), cfg.get("groups_per_post", 3))
+        if gs:
+            plan.append((p, gs))
+            for i, _ in gs:  # abhi se gin lo taake agli post doosre group le
+                u = S["group_shares"].setdefault(str(i), {})
+                if u.get("date") != today():
+                    u.update(date=today(), count=0)
+                u["count"] += 1
+                u["last"] = time.time()
+        if len(plan) >= cfg.get("per_message", 4):
+            break
+    if not plan:
+        return
+    tg_send(f"📤 {len(plan)} posts groups mein share karne ke liye.\n"
+            "Har post ke neeche: 📤 Share dabayen → \"Share to a group\" → button wala group chunen → Post.\n"
+            "Share karte waqt upar apna PAGE chunein (personal account nahi).")
+    for n, (p, gs) in enumerate(plan, 1):
         url = "https://www.facebook.com/" + p["id"]
-        lines += [f"{n}. {p['title']}", "📎 Share: https://www.facebook.com/sharer/sharer.php?u=" + quote_plus(url),
-                  "🔗 Post: " + url]
-        if groups:
-            g = [groups[(gi + k) % len(groups)] for k in range(min(cfg.get("groups_per_post", 2), len(groups)))]
-            gi += len(g)
-            for x in g:
-                if isinstance(x, dict):
-                    lines.append(f"👥 {x.get('name', 'Group')}: {x.get('url', '')}".rstrip(": "))
-                else:
-                    lines.append(f"👥 {x}")
-        lines.append("")
+        rows = [[{"text": "📤 Share", "url": "https://www.facebook.com/sharer/sharer.php?u=" + quote_plus(url)},
+                 {"text": "👁️ Post dekhein", "url": url}]]
+        rows += [[{"text": f"👥 {g.get('name', 'Group')}", "url": g.get("url", url)}] for _, g in gs]
+        names = "\n".join(f"   • {g.get('name')}" for _, g in gs)
+        tg_send(f"{n}. {p['title']}\n\nIn groups mein share karein:\n{names}", rows=rows)
         sent_ids.append(p["id"])
-    if not groups:
-        lines.append("(config.json mein \"share_helper\" → \"groups\" mein apne groups ke naam likhen to bot har post "
-                     "ke liye baari baari group bhi batayega.)")
-    lines.append("⚠️ Ek group mein din mein 1-2 se zyada share na karein, warna admin spam samjhenge.")
-    S["group_index"] = gi
     del sent_ids[:-100]
-    tg_send("\n".join(lines))
 
 
 def handle_engagement():
@@ -2243,7 +2281,7 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
         perf_record(state_key, cat if icons else state_key)
         day["count"] += 1
         day["last"] = time.time()
-        mark_shareable(post)
+        mark_shareable(post, {"agri_news": "agri", "cricket_news": "cricket"}.get(state_key, cat if icons else "general"))
         ph = S.setdefault("posted_heads", [])
         ph.append({"h": it["title"][:140], "t": int(time.time())})
         S["posted_heads"] = ph[-80:]
