@@ -32,6 +32,11 @@ DRY_RUN = os.getenv("DRY_RUN", "false").strip().lower() == "true"
 GRAPH = "https://graph.facebook.com/" + CONFIG.get("graph_version", "v23.0")
 LBL = CONFIG["labels"]
 S = {}  # state
+STATS = {}  # is run ki ginti (report ke liye)
+
+
+def stat(key, n=1):
+    STATS[key] = STATS.get(key, 0) + n
 
 
 # ---------------------------------------------------------------- helpers
@@ -464,9 +469,12 @@ def fb_post(message, link=None):
         return False
     if r.status_code == 200:
         log("posted:", r.json().get("id"))
+        stat("posted")
         S["daily"]["count"] += 1
         return True
     log("FB error:", r.text[:300])
+    stat("fb_error")
+    STATS["fb_error_text"] = r.text[:200]
     alert("Facebook par post nahi hua. Token ya permission check karein:\n" + r.text[:300])
     return False
 
@@ -487,7 +495,10 @@ def publish_queue():
 
 # ---------------------------------------------------------------- steps
 def handle_news():
-    items = [i for i in fetch("news") if i["key"] not in S["seen"]]
+    allitems = fetch("news")
+    items = [i for i in allitems if i["key"] not in S["seen"]]
+    stat("news_found", len(allitems))
+    stat("news_old", len(allitems) - len(items))
     items.sort(key=lambda i: i["ts"], reverse=True)
     done = 0
     for it in items:
@@ -496,25 +507,30 @@ def handle_news():
         S["seen"][it["key"]] = time.time()
         if not is_trusted(it["domain"]):
             log("untrusted source, skip:", it["domain"])
+            stat("untrusted")
             continue
         reason = blocked_reason(it["title"])
         if reason:
             log(f"BLOCKED ({reason}), kabhi post nahi hogi:", it["title"][:60])
+            stat("blocked")
             continue
         done += 1
         res = ask_ai(it) if (GEMINI_KEY or GROQ_KEY) else None
         if res is not None and (res.get("blocked") or blocked_reason(str(res.get("post", "")))):
             log("BLOCKED (AI: mazhab / gaali / fauj), kabhi post nahi hogi:", it["title"][:60])
+            stat("blocked")
             time.sleep(4)
             continue
         if res is not None:
             time.sleep(4)  # free limit ke liye
             if res.get("relevant") is False:
                 log("relevant nahi:", it["title"][:60])
+                stat("irrelevant")
                 continue
         elif not word_match(it["title"], CONFIG["district_towns"]):
             # bina AI ke sirf woh khabar jis ki headline mein district/shehar ka naam ho
             log("headline mein district ka naam nahi, skip:", it["title"][:60])
+            stat("irrelevant")
             continue
         text = res["post"].strip() if res else f"{LBL['news_icon']} {it['title']}"
         message = compose(it, text)
@@ -524,11 +540,13 @@ def handle_news():
                 log("sensitive aur Telegram nahi, skip:", it["title"][:60])
                 continue
             S["pending"][it["key"]] = {"message": message, "link": it["link"], "added": time.time()}
+            stat("review")
             tg_send("🟠 REVIEW: ye khabar sensitive hai. Post karni hai?\n\n" + message + "\n\n🔗 " + it["link"],
                     [{"text": "✅ Post karo", "callback_data": "ok:" + it["key"]},
                      {"text": "❌ Reject", "callback_data": "no:" + it["key"]}])
         else:
             S["queue"].append({"message": message, "link": it["link"], "added": time.time()})
+            stat("queued")
 
 
 def handle_jobs():
@@ -588,6 +606,25 @@ def handle_promo():
             p["last_week"] = week
 
 
+def send_report():
+    """Jab aap khud 'Run workflow' dabayen, Telegram par is run ki report."""
+    if os.getenv("GITHUB_EVENT_NAME") != "workflow_dispatch":
+        return
+    g = STATS.get
+    lines = ["📋 Run report" + (" (TEST)" if DRY_RUN else ""),
+             f"Khabrein mili: {g('news_found', 0)} (pehle dekhi hui: {g('news_old', 0)})",
+             f"✅ Post hui: {g('posted', 0)} | Queue mein (agle runs): {len(S['queue'])}",
+             f"🟠 Review ke liye bheji: {g('review', 0)}",
+             f"⛔ Pabandi (mazhab/gaali/fauj): {g('blocked', 0)}",
+             f"➖ District ki nahi: {g('irrelevant', 0)} | Ghair-bharosemand website: {g('untrusted', 0)}",
+             f"💼 Naukriyan jama: {len(S['jobs'])} | Aaj ki posts: {S['daily']['count']}"]
+    if g("fb_error"):
+        lines.append("⚠️ Facebook error: " + g("fb_error_text", ""))
+    if not g("news_found"):
+        lines.append("Is waqt district ki koi nayi khabar online nahi mili.")
+    tg_send("\n".join(lines))
+
+
 def main():
     global S
     S = load_state()
@@ -612,6 +649,7 @@ def main():
         err = traceback.format_exc()
         log(err)
         alert("System mein error aaya:\n" + err[-600:])
+    send_report()
     if DRY_RUN:
         log("test mode: state save nahi kiya")
     else:
