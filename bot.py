@@ -942,7 +942,8 @@ def handle_trends():
     T = S.setdefault("trends", {"last": 0, "terms": []})
     if not cfg.get("enabled", True) or not (GEMINI_KEY or GROQ_KEY):
         return
-    if time.time() - T.get("last", 0) < cfg.get("refresh_hours", 3) * 3600:
+    unclassified = any("sindh" not in x for x in T["terms"])
+    if time.time() - T.get("last", 0) < cfg.get("refresh_hours", 3) * 3600 and not unclassified:
         return
     T["last"] = time.time()
     try:
@@ -968,16 +969,25 @@ def handle_trends():
                   ". Use \"cricket\" only for Pakistan national team cricket. Use \"none\" for foreign news, "
                   "celebrities, politics, crime, religion or the military. Also set sindh=true if it is about Sindh."
                   "\nReturn JSON: {\"items\": [{\"i\": number, \"cat\": string, \"sindh\": bool}]}\n\n" + listing)
-        out = ask_gemini(prompt) if GEMINI_KEY else None
-        if not (isinstance(out, dict) and out.get("items")) and GROQ_KEY:
-            out = ask_groq(prompt)
-        if not (isinstance(out, dict) and isinstance(out.get("items"), list) and out["items"]):
+        def norm(o):  # AI kabhi seedhi list ya doosre naam deta hai
+            if isinstance(o, list):
+                o = {"items": o}
+            if isinstance(o, dict) and not isinstance(o.get("items"), list):
+                o = {"items": next((v for v in o.values() if isinstance(v, list)), [])}
+            return o if isinstance(o, dict) and o["items"] else None
+        out = norm(ask_gemini(prompt)) if GEMINI_KEY else None
+        if not out and GROQ_KEY:
+            out = norm(ask_groq(prompt))
+        T["ai_ok"] = bool(out)
+        if not out:
             log("trends: AI ka jawab nahi aaya, agle run mein dobara")
             T["last"] = 0
             return
-        for r in out["items"]:
+        for n_, r in enumerate(out["items"]):
+            if not isinstance(r, dict):
+                continue
             try:
-                x = new[int(r.get("i"))]
+                x = new[int(r.get("i", r.get("index", n_)))]
             except (TypeError, ValueError, IndexError):
                 continue
             x["cat"] = r.get("cat") if r.get("cat") in TREND_CATS else "none"
