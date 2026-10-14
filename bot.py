@@ -2068,7 +2068,7 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
             continue
         done.add(it["key"])
         S["seen"][it["key"]] = time.time()
-        cat_field = (", \"category\": one of " + json.dumps(list(icons)) if icons else "")
+        cat_field = (", \"category\": (required) one of " + json.dumps(list(icons)) if icons else "")
         prompt = ("Headline: " + it["title"] + "\nReturn JSON only: {\"relevant\": bool, \"blocked\": bool, "
                   "\"post\": string" + cat_field + "}\n"
                   "- relevant: " + check_rule + "\n"
@@ -2078,10 +2078,13 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
         res = ask_gemini(prompt) if GEMINI_KEY else (ask_groq(prompt) if GROQ_KEY else None)
         if not res or not res.get("relevant") or res.get("blocked") or not str(res.get("post", "")).strip():
             continue
-        ic = (icons or {}).get(str(res.get("category", "")), icon)
+        cat = str(res.get("category") or "")
+        if icons and cat not in icons:
+            cat = guess_cat(it["title"] + " " + str(res.get("post", "")))
+        ic = (icons or {}).get(cat, icon)
         msg = f"{ic} {finish(res['post'])}\n\n📌 {LBL['source']}: {it['source']}\n\n{footer()}"
         if fb_post(msg, link=it["link"], count=False):
-            perf_record(state_key, str(res.get("category") or state_key) if icons else state_key)
+            perf_record(state_key, cat if icons else state_key)
             day["count"] += 1
             day["last"] = time.time()
             mark_shareable(res["post"])
@@ -2111,6 +2114,36 @@ def handle_agri_news():
 PUBLIC_ICONS = {"fuel": "⛽", "electricity_gas": "💡", "inflation": "🛒", "water": "💧", "budget_tax_imf": "💰",
                 "education_jobs": "🎓", "health": "🏥", "weather_disaster": "🌦️", "transport_trade": "🚆",
                 "dollar_gold_business": "💵", "technology": "📱", "other": "📰"}
+
+
+CAT_WORDS = {
+    "fuel": ["petrol", "diesel", "fuel", "lpg", "cng", "پیٹرول", "ڈیزل", "پيٽرول", "ڊيزل"],
+    "electricity_gas": ["electricity", "power tariff", "load shedding", "loadshedding", "gas price", "sui", "nepra",
+                        "بجلی", "لوڈشیڈنگ", "گیس", "بجلي", "گئس"],
+    "inflation": ["inflation", "cpi", "flour", "sugar", "ghee", "milk", "mehngai", "مہنگائی", "آٹا", "چینی", "گھی", "مهانگائي"],
+    "water": ["water", "dam", "barrage", "canal", "irsa", "پانی", "ڈیم", "بیراج", "نہر", "پاڻي", "بئراج"],
+    "budget_tax_imf": ["imf", "budget", "tax", "fbr", "آئی ایم ایف", "بجٹ", "ٹیکس", "ٽيڪس"],
+    "education_jobs": ["exam", "admission", "school", "university", "scholarship", "recruitment", "jobs", "result",
+                       "امتحان", "داخلے", "اسکول", "نوکری", "بھرتی", "امتحان", "نوڪري"],
+    "health": ["health", "hospital", "medicine", "drap", "polio", "dengue", "ہسپتال", "دوا", "صحت", "اسپتال", "دوائون"],
+    "weather_disaster": ["weather", "rain", "heatwave", "flood", "earthquake", "pmd", "ndma", "cold wave", "fog",
+                         "بارش", "سیلاب", "زلزلہ", "موسم", "گرمی", "مينهن", "ٻوڏ"],
+    "transport_trade": ["railway", "train", "motorway", "highway", "port", "export", "import", "trade", "airline", "pia",
+                        "ریلوے", "موٹروے", "برآمد", "ٽرين"],
+    "dollar_gold_business": ["dollar", "rupee", "gold", "stock", "psx", "sbp", "interest rate", "ڈالر", "سونا", "روپیہ", "ڊالر", "سون"],
+    "technology": ["internet", "mobile", "pta", "5g", "app", "technology", "ai ", "انٹرنیٹ", "موبائل", "ٽيڪنالاجي"],
+}
+
+
+def guess_cat(text):
+    """AI mauzoo na bataye to lafzon se pehchano."""
+    t = " " + text.lower() + " "
+    best, hits = "other", 0
+    for cat, words in CAT_WORDS.items():
+        n = sum(1 for w in words if (re.search(r"\b" + re.escape(w.strip()) + r"\b", t) if w.isascii() else w in t))
+        if n > hits:
+            best, hits = cat, n
+    return best
 
 
 def handle_public_news():

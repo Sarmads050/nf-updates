@@ -200,7 +200,7 @@ Aur `hashtags` mein naye tags. Code badalne ki zaroorat nahi.
 ## Mulk bhar ki khabrein, hifazat aur seekhna
 
 - **Zarat (🌾)** aur **awami khabrein**: petrol ⛽, bijli/gas 💡, mehngai 🛒, paani 💧, budget/IMF 💰, taleem/naukri 🎓, sehat 🏥, mausam 🌦️, transport 🚆, dollar/sona 💵, technology 📱. Settings: `config.json` mein `agriculture` aur `public_news`.
-- **24 ghante**: ye khabrein din raat lagti hain; raat (12 se 7 baje) ko waqfa lamba hota hai.
-- **Page ki hifazat** (`safety`): din mein kul zyada se zyada 40 posts, har nai khabar ke beech kam az kam 15 minute (raat ko 45).
+- **24 ghante**: ye khabrein din raat lagti hain; raat (1 se 6 baje) ko waqfa lamba hota hai.
+- **Page ki hifazat** (`safety`): din mein kul zyada se zyada 50 posts, har nai khabar ke beech kam az kam 10 minute (raat 1 se 6 baje 30 minute).
 - **Seekhna** (`learning`): har post ke ~20 ghante baad us ke likes, comments aur shares gine jaate hain. Jo hissa/mauzoo zyada pasand ho, us ki posts aur search khud badh jaati hain (2 guna tak), kam pasand wale kam (aadhe tak). Telegram par `/likes` likh kar dekhein.
 - **Pakistan trends** (`trends`): har 3 ghante Google Trends (Pakistan) parhe jaate hain, AI un ka mauzoo pehchanta hai (Sindh wale trend do guna). Har mauzoo ka zor = pichle 7 din ki pasand x pichle 7 din ka trend. Garam mauzoo ki posts 2.5 guna tak, thande ki aadhi tak; trend wale lafz bhi search hote hain. Jo hissa zyada garam ho wo pehle post karta hai (posting order). `/likes` mein order aur trends dikhte hain.

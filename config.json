@@ -548,7 +548,7 @@
     "news": {
       "enabled": true,
       "max_per_day": 6,
-      "gap_minutes": 60,
+      "gap_minutes": 45,
       "queries": [
         "Pakistan cricket",
         "PCB cricket",
@@ -560,7 +560,7 @@
         "Pakistan women cricket",
         "پاکستان ویمنز کرکٹ"
       ],
-      "night_gap_minutes": 180
+      "night_gap_minutes": 120
     },
     "include_women": true
   },
@@ -568,7 +568,7 @@
   "agriculture": {
     "enabled": true,
     "max_per_day": 6,
-    "gap_minutes": 90,
+    "gap_minutes": 60,
     "start_hour": 0,
     "end_hour": 24,
     "max_age_hours": 24,
@@ -586,12 +586,12 @@
       "کھاد کی قیمت",
       "سندھ آبادگار"
     ],
-    "night_gap_minutes": 240
+    "night_gap_minutes": 120
   },
   "public_news": {
     "enabled": true,
     "max_per_day": 14,
-    "gap_minutes": 40,
+    "gap_minutes": 20,
     "start_hour": 0,
     "end_hour": 24,
     "max_age_hours": 12,
@@ -643,16 +643,16 @@
         "ٹیکنالوجی انٹرنیٹ پاکستان"
       ]
     },
-    "night_gap_minutes": 90
+    "night_gap_minutes": 40
   },
   "safety": {
-    "max_total_per_day": 40,
-    "min_gap_minutes": 15,
+    "max_total_per_day": 50,
+    "min_gap_minutes": 10,
     "night_hours": [
-      0,
-      7
+      1,
+      6
     ],
-    "night_gap_minutes": 45
+    "night_gap_minutes": 30
   },
   "learning": {
     "enabled": true,
