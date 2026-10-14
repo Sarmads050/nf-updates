@@ -1750,22 +1750,33 @@ def mark_shareable(text, topic="district"):
     del sh[:-30]
 
 
+def group_caps(groups):
+    """Bade groups (zyada members) ko din mein zyada shares: upar ki tihai 3, beech 2, neeche 1 (config se badal sakte)."""
+    order = sorted(range(len(groups)), key=lambda i: -int(groups[i].get("members", 0) or 0)) \
+        if any(g.get("members") for g in groups) else list(range(len(groups)))
+    caps = CONFIG.get("share_helper", {}).get("caps_by_size", [3, 2, 1])
+    n = len(order)
+    out = {}
+    for rank, i in enumerate(order):
+        tier = min(len(caps) - 1, rank * len(caps) // max(n, 1))
+        out[i] = groups[i].get("daily_max", caps[tier])
+    return order, out
+
+
 def pick_groups(tags, n):
-    """Post ke mauzoo se milte groups; har group din mein hadd tak, jo sab se pehle istemal hua wo pehle."""
-    groups = CONFIG.get("share_helper", {}).get("groups", [])
+    """Sab se zyada members wale group se shuru, kam wale tak; har group din mein apni hadd tak."""
+    groups = [g for g in CONFIG.get("share_helper", {}).get("groups", []) if isinstance(g, dict)]
     used = S.setdefault("group_shares", {})
+    order, caps = group_caps(groups)
     out = []
-    for i, g in enumerate(groups):
-        if not isinstance(g, dict) or not set(g.get("tags", ["general"])) & set(tags):
-            continue
+    for i in order:
         u = used.get(str(i), {})
         cnt = u.get("count", 0) if u.get("date") == today() else 0
-        if cnt >= g.get("daily_max", 1):
-            continue
-        special = len((set(g.get("tags", [])) & set(tags)) - {"general", "local", "sindh"})
-        out.append(((-special, u.get("last", 0)), i, g))  # khaas mauzoo wala group pehle, phir jo kam istemal hua
-    out.sort(key=lambda x: x[0])
-    return [(i, g) for _, i, g in out[:n]]
+        if cnt < caps[i]:
+            out.append((i, groups[i]))
+        if len(out) >= n:
+            break
+    return out
 
 
 def handle_share_helper():
