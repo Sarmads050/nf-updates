@@ -396,6 +396,8 @@ def handle_message(m):
         if ok and raw.strip():
             record_title(raw)
         if ok:
+            mark_shareable(raw or message)
+        if ok:
             note = ""
             if link and not video:
                 note = "\n(Ye doosre ki video thi, is liye asal video ke link ke saath lagayi, copyright se bachne ke liye.)"
@@ -914,6 +916,7 @@ def _fb_post(message, link=None, photo=None, video=None, count=True):
         return False
     if r.status_code == 200:
         log("posted:", r.json().get("id"))
+        S["last_post_id"] = r.json().get("post_id") or r.json().get("id")
         stat("posted")
         if count:
             S["daily"]["count"] += 1
@@ -938,6 +941,7 @@ def publish_queue():
             break
         S["queue"].pop(0)
         record_title(q["message"])
+        mark_shareable(q["message"])
         posted += 1
 
 
@@ -1193,10 +1197,9 @@ def handle_roundup():
     fb_post("\n".join(lines), photo=card)
 
 
-def sindh_stories(cfg):
-    """Pichle 12 ghante ki Sindh ki khabrein, matn ke saath; AI har ek ko Sindhi mein sarkhi + 2-3 jumlay banata hai."""
+def sindh_candidates(cfg):
+    """Pichle 12 ghante ki Sindh ki bharosemand khabrein (matn ke saath), bina jurm/pabandi wali."""
     max_age = cfg.get("max_age_hours", 12) * 3600
-    want = cfg.get("max_items", 5)
     feeds = cfg.get("story_feeds", []) + cfg.get("feeds", [])
     urls = [(u, True) for u in dict.fromkeys(feeds)]
     urls += [(gnews_url(q, lang), False) for q in cfg.get("queries", ["Sindh"]) for lang in ("ur", "en")]
@@ -1232,7 +1235,12 @@ def sindh_stories(cfg):
             raw.append({"ts": ts, "title": title, "text": body[:1200], "source": fname or st or domain,
                         "rich": len(body) > 120})
     raw.sort(key=lambda r: (r["rich"], r["ts"]), reverse=True)  # matn wali khabrein pehle
-    cand = raw[:20]
+    return raw
+
+
+def sindh_stories(cfg):
+    want = cfg.get("max_items", 5)
+    cand = sindh_candidates(cfg)[:20]
     if not cand:
         return []
     if GEMINI_KEY or GROQ_KEY:
@@ -1260,6 +1268,105 @@ def sindh_stories(cfg):
             return stories[:want]
     return [{"title": r["title"], "body": r["text"][:300] or r["title"], "source": r["source"]}
             for r in cand[:want] if r["rich"]]
+
+
+def handle_sindh_single():
+    """Din mein kuch (default 4) Sindh ki khabrein alag post: sirf wohi jo Naushahro Feroze ke logon par asar karein.
+    District ki khabron ke baad: jab queue khaali ho, aur do posts ke beech waqfa."""
+    cfg = CONFIG.get("sindh_single", {})
+    if not cfg.get("enabled", True) or not (GEMINI_KEY or GROQ_KEY):
+        return
+    h = now().hour
+    day = S.setdefault("sindh_single", {"date": "", "count": 0, "last": 0, "used": []})
+    if day["date"] != today():
+        day.update(date=today(), count=0, used=day.get("used", [])[-200:])
+    if (not (cfg.get("from_hour", 9) <= h < cfg.get("to_hour", 22)) or day["count"] >= cfg.get("max_per_day", 4)
+            or S["queue"] or S["pending"] or time.time() - day["last"] < cfg.get("gap_minutes", 150) * 60
+            or not can_post()):
+        return
+    cand = [r for r in sindh_candidates(CONFIG.get("sindh_roundup", {})) if item_key(r["title"]) not in day["used"]
+            and item_key(r["title"]) not in S["seen"]][:15]
+    day["last"] = time.time()  # khabar na mile tab bhi agli koshish waqfe ke baad
+    if not cand:
+        return
+    listing = "\n\n".join(f"[{i}] {r['title']}\n{r['text']}" for i, r in enumerate(cand))
+    prompt = ("You choose news for a Facebook page whose audience is the people of Naushahro Feroze district, Sindh. "
+              "From the items below pick at most ONE that directly affects them: Sindh government decisions for all "
+              "districts, education or health policy, jobs/recruitment, weather or flood warnings, wheat/fertilizer/"
+              "fuel prices, canals/barrage water, electricity/gas, exams and results. If none clearly affects them, "
+              "return pick -1. Never pick crime, violence, political fights, religion controversy, abuse or anything "
+              "about the military. Write in Sindhi (Arabic script) a short headline and a 3-4 sentence post using "
+              "ONLY facts in that item, in your own words, no full stop at the end.\n"
+              "Return JSON: {\"pick\": number, \"title\": string, \"body\": string}\n\n" + listing)
+    out = ask_gemini(prompt) if GEMINI_KEY else None
+    if not out and GROQ_KEY:
+        out = ask_groq(prompt)
+    try:
+        r = cand[int((out or {}).get("pick", -1))]
+    except (TypeError, ValueError, IndexError):
+        return
+    if int(out.get("pick", -1)) < 0:
+        return
+    title, body = clean_text(out.get("title", "")), clean_text(out.get("body", ""))
+    day["used"].append(item_key(r["title"]))
+    S["seen"][item_key(r["title"])] = time.time()
+    if len(title) < 5 or len(body) < 30 or blocked_reason(title + " " + body):
+        return
+    msg = (f"{cfg.get('label', '📰 سنڌ')} | {title}\n\n{finish(body)}\n\n📌 {LBL['source']}: {r['source']}"
+           f"\n\n{footer()}")
+    card = make_card(title, cfg.get("card_sub", "سنڌ جون خبرون"), theme="news") if cfg.get("card", True) else None
+    if fb_post(msg, photo=card):
+        day["count"] += 1
+        mark_shareable(title)
+
+
+def mark_shareable(text):
+    """Abhi lagi post ko 'share karne layak' list mein rakhna (groups mein share ke mashware ke liye)."""
+    pid = S.get("last_post_id")
+    if not pid or DRY_RUN:
+        return
+    first = re.sub(r"^\W+", "", (text or "").strip().splitlines()[0] if text else "")[:90]
+    sh = S.setdefault("shareable", [])
+    if pid not in [x["id"] for x in sh]:
+        sh.append({"id": pid, "title": first, "t": time.time()})
+    del sh[:-30]
+
+
+def handle_share_helper():
+    """Din mein do dafa Telegram par sab se achhi posts + 'Share' link + kis group mein share karna hai.
+    Facebook groups mein software se share ki ijazat nahi deta, is liye share aap 2 tap mein khud karte hain."""
+    cfg = CONFIG.get("share_helper", {})
+    if not cfg.get("enabled", True) or not (TG_TOKEN and TG_CHAT):
+        return
+    slots = [str(h) for h in cfg.get("hours", [13, 20]) if now().hour >= h]
+    slot = slots[-1] if slots else None
+    if not slot or S.get("share_sent", {}).get(slot) == today():
+        return
+    S.setdefault("share_sent", {})[slot] = today()
+    sent_ids = S.setdefault("share_done", [])
+    fresh = [x for x in S.get("shareable", []) if x["id"] not in sent_ids and time.time() - x["t"] < 12 * 3600]
+    if not fresh:
+        return
+    picks = fresh[-cfg.get("per_message", 3):]
+    groups = cfg.get("groups", [])
+    gi = S.get("group_index", 0)
+    lines = ["📤 Ye posts groups mein share karein (har post ka link dabayen → Share to a group):", ""]
+    for n, p in enumerate(picks, 1):
+        url = "https://www.facebook.com/" + p["id"]
+        lines += [f"{n}. {p['title']}", "https://www.facebook.com/sharer/sharer.php?u=" + quote_plus(url)]
+        if groups:
+            g = [groups[(gi + k) % len(groups)] for k in range(min(cfg.get("groups_per_post", 2), len(groups)))]
+            gi += len(g)
+            lines.append("👥 " + " | ".join(x.get("name", x) if isinstance(x, dict) else str(x) for x in g))
+        lines.append("")
+        sent_ids.append(p["id"])
+    if not groups:
+        lines.append("(config.json mein \"share_helper\" → \"groups\" mein apne groups ke naam likhen to bot har post "
+                     "ke liye baari baari group bhi batayega.)")
+    lines.append("⚠️ Ek group mein din mein 1-2 se zyada share na karein, warna admin spam samjhenge.")
+    S["group_index"] = gi
+    del sent_ids[:-100]
+    tg_send("\n".join(lines))
 
 
 def handle_engagement():
@@ -1454,6 +1561,8 @@ def main():
         handle_daily()
         handle_engagement()
         handle_roundup()
+        handle_sindh_single()
+        handle_share_helper()
         handle_auto_reply()
     except Exception:
         err = traceback.format_exc()

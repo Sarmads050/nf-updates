@@ -143,6 +143,11 @@ Bot commands (sirf aap ke liye): `/status`, `/sahafi` (list), `/add ID Naam`, `/
 - **Comments ka khud jawab** (shuru mein band): Graph API Explorer mein token banate waqt `pages_read_user_content` aur `pages_manage_engagement` bhi add karein, naya page token `FB_PAGE_TOKEN` secret mein dalein, phir `auto_reply` → `enabled: true`. Har comment ka jawab 1 se 10 minute ke beech kisi random waqt par jata hai (`delay_min_minutes`, `delay_max_minutes`).
 - **Telegram channel par bhi post**: Telegram mein ek public channel banayen (maslan @nf_updates), apne bot ko us channel ka **admin** banayen, aur `config.json` mein `"telegram_channel": "@nf_updates"` likh dein. Har post wahan bhi jayegi.
 
+## Sindh ki chuni hui khabrein aur groups mein share
+
+- **Sindh ki khabrein alag post (`sindh_single`)**: din mein zyada se zyada 4, sirf wohi jo Naushahro Feroze ke logon par asar karein (sarkari faisle, taleem/sehat, naukriyan, mausam, qeematein, paani, bijli/gas). District ki khabrein hamesha pehle; do posts ke beech kam se kam 2.5 ghante.
+- **Groups mein share (`share_helper`)**: Facebook groups mein software se share ki ijazat nahi deta. Is liye dopahar 1 aur raat 8 baje bot Telegram par 2-3 achhi posts ke **Share** link bhejta hai; link dabayen → "Share to a group" → group chunein. `groups` mein apne groups ke naam likhen, maslan `[{"name": "Padidan Group"}, {"name": "Moro Online"}]`, to bot har post ke liye baari baari group batayega.
+
 ## Pakki pabandiyan (ye kabhi post nahi hongi)
 
 Neeche wali khabrein **na post hongi, na review ke liye Telegram par aayengi**, seedha rad:

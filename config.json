@@ -484,5 +484,25 @@
       "https://www.express.pk/feed/",
       "https://urdu.arynews.tv/feed/"
     ]
+  },
+  "sindh_single": {
+    "enabled": true,
+    "max_per_day": 4,
+    "from_hour": 9,
+    "to_hour": 22,
+    "gap_minutes": 150,
+    "card": true,
+    "label": "📰 سنڌ",
+    "card_sub": "سنڌ جون خبرون"
+  },
+  "share_helper": {
+    "enabled": true,
+    "hours": [
+      13,
+      20
+    ],
+    "per_message": 3,
+    "groups_per_post": 2,
+    "groups": []
   }
 }
