@@ -362,7 +362,7 @@ def handle_message(m):
     raw = res["post"] if res else text
     body = finish(raw) + "\n\n" if raw.strip() else ""
     credit = f"✍️ {LBL.get('reporter', 'رپورٽ')}: {contributors[chat_id]}\n\n" if chat_id in contributors else ""
-    message = f"{body}{credit}{CONFIG['hashtags']}"
+    message = f"{body}{credit}{footer()}"
     if blocked_reason(message):
         reply(chat_id, "⛔ Ye post nahi hogi: is mein mazhab, gaali-galoch ya fauj ka zikr hai.")
         return
@@ -740,6 +740,16 @@ def tg_download(file_id):
 
 
 def fb_post(message, link=None, photo=None, video=None, count=True):
+    ok = _fb_post(message, link, photo, video, count)
+    if ok and not DRY_RUN and not blocked_reason(message):
+        try:
+            crosspost(message, link, photo, video)
+        except Exception as e:
+            log("telegram channel error:", e)
+    return ok
+
+
+def _fb_post(message, link=None, photo=None, video=None, count=True):
     reason = blocked_reason(message)
     if reason:  # aakhri hifazat: koi bhi post jo pabandi wale alfaaz rakhti ho, kabhi nahi jayegi
         log(f"BLOCKED at posting ({reason}):", message[:60])
@@ -808,7 +818,7 @@ def fb_post(message, link=None, photo=None, video=None, count=True):
 
 def compose(item, text):
     text = finish(text)
-    return f"{text}\n\n📌 {LBL['source']}: {item['source']}\n\n{CONFIG['hashtags']}"
+    return f"{text}\n\n📌 {LBL['source']}: {item['source']}\n\n{footer()}"
 
 
 def publish_queue():
@@ -900,9 +910,72 @@ def handle_jobs():
     lines = [LBL["jobs_header"], ""]
     for n, j in enumerate(jobs, 1):
         lines += [f"{n}. {j['title']} ({j['source']})", f"🔗 {j['link']}", ""]
-    lines += [LBL["jobs_warning"], "", CONFIG["hashtags"]]
+    lines += [LBL["jobs_warning"], "", footer()]
     if fb_post("\n".join(lines)):
         S["jobs"] = []
+
+
+def footer():
+    """Har post ke neeche: follow/share ki dawat + hashtags."""
+    line = CONFIG.get("follow_line", "").strip()
+    return (line + "\n\n" if line else "") + CONFIG["hashtags"]
+
+
+WEATHER_SD = [((0,), "☀️ صاف آسمان"), ((1, 2, 3), "⛅ ڪجهه ڪڪر"), ((45, 48), "🌫️ ڪوهيڙو"),
+              ((51, 53, 55, 56, 57, 61, 63, 65, 66, 67, 80, 81, 82), "🌧️ مينهن جو امڪان"),
+              ((95, 96, 99), "⛈️ طوفاني مينهن جو امڪان")]
+
+
+def handle_daily():
+    """Roz subah: Naushahro Feroze ka mausam, namaz ke auqaat aur tareekh. Followers ki roz ki aadat."""
+    d = CONFIG.get("daily_post", {})
+    if not d.get("enabled", True) or now().hour < d.get("hour", 7) or S.get("last_daily") == today():
+        return
+    lat, lon = d.get("lat", 26.84), d.get("lon", 68.12)
+    lines = [f"🌅 {d.get('title', 'نوشهروفيروز جو اڄ')} | {now().strftime('%d-%m-%Y')}"]
+    try:
+        p = requests.get("https://api.aladhan.com/v1/timings", timeout=25,
+                         params={"latitude": lat, "longitude": lon, "method": 1, "school": 1}).json()["data"]
+        hj = p["date"]["hijri"]
+        lines.append(f"🗓️ {hj['day']} {hj['month']['ar']} {hj['year']}ھ")
+        t = p["timings"]
+        lines += ["", "🕌 نماز جا وقت:",
+                  f"فجر {t['Fajr']} | ظهر {t['Dhuhr']} | عصر {t['Asr']}",
+                  f"مغرب {t['Maghrib']} | عشا {t['Isha']}", f"🌄 سج اڀرڻ {t['Sunrise']}"]
+    except Exception as e:
+        log("namaz times error:", e)
+    try:
+        w = requests.get("https://api.open-meteo.com/v1/forecast", timeout=25, params={
+            "latitude": lat, "longitude": lon, "timezone": "Asia/Karachi", "forecast_days": 1,
+            "daily": "temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code"}).json()["daily"]
+        code = w["weather_code"][0]
+        sky = next((s for codes, s in WEATHER_SD if code in codes), "")
+        lines += ["", "🌡️ اڄ جو موسم:", sky,
+                  f"وڌ ۾ وڌ گرمي پد {round(w['temperature_2m_max'][0])}° | گهٽ ۾ گهٽ {round(w['temperature_2m_min'][0])}°"]
+        rain = w.get("precipitation_probability_max", [None])[0]
+        if rain:
+            lines.append(f"مينهن جو امڪان {rain}%")
+    except Exception as e:
+        log("weather error:", e)
+    if len(lines) < 4:  # dono API na chalein to post na karo
+        return
+    lines += ["", d.get("closing", "اوهان سڀني جو ڏينهن سٺو گذري!"), "", footer()]
+    if fb_post("\n".join(lines)):
+        S["last_daily"] = today()
+
+
+def crosspost(message, link=None, photo=None, video=None):
+    """Telegram public channel par bhi post (agar config mein channel likha ho)."""
+    ch = CONFIG.get("telegram_channel", "").strip()
+    if not ch or not TG_TOKEN:
+        return
+    text = message + (f"\n\n{link}" if link else "")
+    if photo and len(message) <= 1000:
+        tg("sendPhoto", chat_id=ch, photo=photo, caption=text)
+    elif video and video.get("tg") and len(message) <= 1000:
+        tg("sendVideo", chat_id=ch, video=video["tg"], caption=text)
+    else:
+        tg("sendMessage", chat_id=ch, text=text[:4000])
 
 
 def handle_promo():
@@ -973,6 +1046,7 @@ def main():
         handle_jobs()
         publish_queue()
         handle_promo()
+        handle_daily()
     except Exception:
         err = traceback.format_exc()
         log(err)

@@ -134,6 +134,12 @@ Bot agle round (10 minute ke andar) mein:
 
 Bot commands (sirf aap ke liye): `/status`, `/sahafi` (list), `/add ID Naam`, `/remove ID`
 
+## Page barhane wale automatic features
+
+- **Roz subah 7 baje "نوشهروفيروز جو اڄ"**: tareekh (Hijri bhi), namaz ke auqaat aur mausam. `config.json` → `daily_post` mein waqt (`hour`) badal sakte hain, ya `enabled: false` se band.
+- **Har post ke neeche Follow/Share ki dawat**: `follow_line` mein text badal sakte hain.
+- **Telegram channel par bhi post**: Telegram mein ek public channel banayen (maslan @nf_updates), apne bot ko us channel ka **admin** banayen, aur `config.json` mein `"telegram_channel": "@nf_updates"` likh dein. Har post wahan bhi jayegi.
+
 ## Pakki pabandiyan (ye kabhi post nahi hongi)
 
 Neeche wali khabrein **na post hongi, na review ke liye Telegram par aayengi**, seedha rad:
