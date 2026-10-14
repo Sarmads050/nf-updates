@@ -47,5 +47,12 @@ jobs:
           git config user.email "nf-updates-bot@users.noreply.github.com"
           if [ -f state.json ]; then
             git add state.json
-            git diff --cached --quiet || (git commit -m "state update [skip ci]" && git push)
+            if ! git diff --cached --quiet; then
+              git commit -m "state update [skip ci]"
+              # Doosra run pehle save kar chuka ho to us ke upar apni state rakho (ye run zyada nayi hai)
+              for i in 1 2 3; do
+                git pull --rebase -X theirs origin main && git push && break
+                sleep $((i * 5))
+              done
+            fi
           fi
