@@ -265,6 +265,9 @@ def handle_message(m):
         name = contributors.pop(parts[1], None) if len(parts) > 1 else None
         tg_send(f"Hata diya: {name}" if name else "Ye ID list mein nahi. /sahafi se list dekhein.")
         return
+    if owner and cmd == "/token":
+        tg_send(token_report(check_token()))
+        return
     if owner and cmd == "/sahafi":
         tg_send("Sahafi:\n" + ("\n".join(f"{k} - {v}" for k, v in contributors.items()) or "abhi koi nahi"))
         return
@@ -1522,6 +1525,49 @@ def handle_auto_reply():
     del replied[:-1500]
 
 
+NEEDED_SCOPES = ["pages_manage_posts", "pages_read_engagement", "pages_read_user_content", "pages_manage_engagement"]
+
+
+def check_token():
+    """FB token mein kaun si ijazatein hain. Nateeja state mein bhi (taake bahar se dekha ja sake)."""
+    res = {"time": now().strftime("%Y-%m-%d %H:%M"), "valid": False, "scopes": [], "missing": [], "expires": None}
+    if not FB_TOKEN:
+        res["error"] = "FB_PAGE_TOKEN khaali"
+    else:
+        try:
+            d = requests.get(f"{GRAPH}/debug_token", timeout=30,
+                             params={"input_token": FB_TOKEN, "access_token": FB_TOKEN}).json().get("data", {})
+            if d:
+                res.update(valid=bool(d.get("is_valid")), scopes=d.get("scopes", []),
+                           expires=d.get("expires_at"), data_expires=d.get("data_access_expires_at"))
+            else:  # debug na chale to comments parh kar dekh lo
+                r = requests.get(f"{GRAPH}/{FB_PAGE_ID}/posts", timeout=30, params={
+                    "access_token": FB_TOKEN, "limit": 1, "fields": "id,comments.limit(1){id}"})
+                res["valid"] = r.status_code == 200
+                res["scopes"] = ["pages_read_user_content"] if r.status_code == 200 else []
+                if r.status_code != 200:
+                    res["error"] = r.text[:150]
+        except Exception as e:
+            res["error"] = str(e)[:150]
+    res["missing"] = [s for s in NEEDED_SCOPES if s not in res["scopes"]] if res["scopes"] else NEEDED_SCOPES[2:]
+    S["token_check"] = res
+    return res
+
+
+def token_report(res):
+    if not res["valid"]:
+        return "❌ Facebook token kaam nahi kar raha. " + res.get("error", "")
+    lines = ["✅ Facebook token theek hai."]
+    if res.get("expires") == 0:
+        lines.append("⏳ Expires: Never")
+    if res["missing"]:
+        lines.append("❌ Ye ijazatein nahi hain: " + ", ".join(res["missing"]))
+        lines.append("Comments ke jawab aur link wala comment ke liye naya token dalein (README dekhein).")
+    else:
+        lines.append("✅ Comments wali ijazatein bhi hain (jawab aur link wala comment chalega).")
+    return "\n".join(lines)
+
+
 def handle_promo():
     p = S["promo"]
     if p.get("last_check") == today() or DRY_RUN or not (FB_PAGE_ID and FB_TOKEN):
@@ -1555,6 +1601,8 @@ def send_report():
     """Jab aap khud 'Run workflow' dabayen, Telegram par is run ki report."""
     if os.getenv("GITHUB_EVENT_NAME") != "workflow_dispatch":
         return
+    if S.get("token_check", {}).get("time", "")[:10] != today():  # din mein ek dafa token check
+        check_token()
     g = STATS.get
     lines = ["📋 Run report" + (" (TEST)" if DRY_RUN else ""),
              f"Khabrein mili: {g('news_found', 0)} (pehle dekhi hui: {g('news_old', 0)})",
