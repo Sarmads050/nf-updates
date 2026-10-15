@@ -167,7 +167,10 @@
   "9fa02d49fbdd7fed": 1792050050.069085,
   "a353f819ad1ddd73": 1792050050.0690863,
   "33aa90cd6fca7c66": 1792050050.0690873,
-  "afe787c73ac57f40": 1792050065.3083024
+  "afe787c73ac57f40": 1792050065.3083024,
+  "0c19f801eeca2484": 1792051868.4838266,
+  "4d329c7699ff1737": 1792051868.483831,
+  "16216f4825cb4d53": 1792051868.4841673
  },
  "pending": {},
  "queue": [],
@@ -195,7 +198,7 @@
   "last_week": "",
   "last_check": "2026-10-15"
  },
- "gemini_model": "gemini-3.1-flash-lite",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -257,13 +260,8 @@
    "afe787c73ac57f40"
   ]
  },
- "last_post_id": "1444130002106066_122106981615503839",
+ "last_post_id": "1444130002106066_122107002087503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122106477999503839",
-   "title": "وفاقي وزير پاران ڪڻڪ جي ٻج جي قيمتن ۾ گهٽتائي جي هدايت",
-   "t": 1791995537.8639252
-  },
   {
    "id": "1444130002106066_122106518871503839",
    "title": "پاڪستان، سری لنڪا ۽ انگلينڊ جي ترطرفی ون ڈے سیریز جي لاءِ ٽڪيٽون وڪري لاء پيش ڪيون ويو آھن",
@@ -491,6 +489,15 @@
     "general",
     "sindh"
    ]
+  },
+  {
+   "id": "1444130002106066_122107002087503839",
+   "title": "حڪومت هائوسنگ، زراعت ۽ ايس ايم اي شعبي لاءِ 3.7 ترين رپين جي قرضن جو هدف مقرر ڪري ڇڏيو آهي",
+   "t": 1792051889.509278,
+   "tags": [
+    "agri",
+    "general"
+   ]
   }
  ],
  "share_sent": {
@@ -527,21 +534,21 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-15 13:01",
+  "time": "2026-10-15 13:11",
   "items": 1,
   "sample": [
-   "Oman v Canada 172/5 *"
+   "Oman v Canada 188/5 *"
   ]
  },
  "agri_news": {
   "date": "2026-10-15",
-  "count": 8,
-  "last": 1792047692.5681407
+  "count": 9,
+  "last": 1792051889.5089405
  },
  "all_posts": {
   "date": "2026-10-15",
-  "count": 28,
-  "last": 1792050086.1826642
+  "count": 29,
+  "last": 1792051883.768784
  },
  "perf": {
   "posts": [
@@ -712,6 +719,12 @@
     "sec": "sindh_single",
     "cat": "sindh",
     "t": 1792050086
+   },
+   {
+    "id": "1444130002106066_122107002087503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1792051889
    }
   ]
  },
@@ -1080,8 +1093,8 @@
  },
  "ai_usage": {
   "date": "2026-10-15",
-  "ok": 38,
-  "fail": 1,
+  "ok": 39,
+  "fail": 2,
   "limit": 0
  },
  "posted_heads": [
@@ -1172,10 +1185,14 @@
   {
    "h": "Seven Pakistan players join squad ahead of ODI tri-series",
    "t": 1792048876
+  },
+  {
+   "h": "Govt targets Rs3.7 trillion in housing, farm, SME loans",
+   "t": 1792051889
   }
  ],
  "last_errors": {
-  "time": "2026-10-15 13:01",
+  "time": "2026-10-15 13:11",
   "steps": []
  },
  "roundup_am": "2026-10-15",
