@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ur">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Facebook mein kholen</title>
+<style>
+  :root { --bg:#14213D; --fg:#F4EFE6; --btn:#1877F2; --alt:#7A1B1B; }
+  body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center;
+         background:var(--bg); color:var(--fg); font-family:Arial, sans-serif; text-align:center; }
+  .box { padding:24px 16px; max-width:420px; width:100%; }
+  h1 { font-size:20px; margin:0 0 8px; }
+  p { opacity:.85; font-size:15px; line-height:1.5; margin:0 0 20px; }
+  a.b { display:block; padding:16px; margin:12px 0; border-radius:12px; color:#fff; text-decoration:none;
+        font-weight:bold; font-size:17px; background:var(--btn); }
+  a.b.alt { background:var(--alt); }
+  .err { color:#ffb4a8; }
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>Naushahro Feroze Updates</h1>
+  <p id="msg">Facebook app khul rahi hai…</p>
+  <a class="b" id="app" href="#">📱 Facebook app mein kholen</a>
+  <a class="b alt" id="web" href="#">🌐 Browser mein kholen</a>
+</div>
+<script>
+(function () {
+  var u = new URLSearchParams(location.search).get("u") || "";
+  var ok = /^https:\/\/(www\.|m\.|web\.)?facebook\.com\//i.test(u);
+  var msg = document.getElementById("msg");
+  if (!ok) {
+    msg.textContent = "Ye link sahi nahi hai.";
+    msg.className = "err";
+    document.getElementById("app").style.display = "none";
+    document.getElementById("web").style.display = "none";
+    return;
+  }
+  // fb://facewebmodal: Facebook app ko seedha isi page par kholta hai (home par nahi)
+  var app = "fb://facewebmodal/f?href=" + encodeURIComponent(u);
+  document.getElementById("app").href = app;
+  document.getElementById("web").href = u.replace("://www.facebook.com/", "://m.facebook.com/");
+  setTimeout(function () { location.href = app; }, 150);
+  setTimeout(function () {
+    msg.textContent = "Agar app na khuli ho to neeche wala button dabayen.";
+  }, 1800);
+})();
+</script>
+</body>
+</html>

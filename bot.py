@@ -1745,6 +1745,25 @@ def post_tags(topic, text):
     return sorted(tags)
 
 
+def post_permalink(pid):
+    """Post ka asli Facebook link (app mein sahi post khule). Na mile to page/posts wala link."""
+    try:
+        r = requests.get(f"{GRAPH}/{pid}", timeout=20,
+                         params={"fields": "permalink_url", "access_token": FB_TOKEN}).json()
+        if str(r.get("permalink_url", "")).startswith("http"):
+            return r["permalink_url"]
+    except Exception as e:
+        log("permalink error:", e)
+    page, _, post = str(pid).partition("_")
+    return f"https://www.facebook.com/{page}/posts/{post}" if post else f"https://www.facebook.com/{pid}"
+
+
+def open_link(url):
+    """Telegram se Facebook app mein seedha wahi page/post/group kholne wala link (GitHub Pages ka go.html)."""
+    go = CONFIG.get("share_helper", {}).get("open_page", "https://sarmads050.github.io/nf-updates/go.html")
+    return f"{go}?u={quote_plus(url)}" if go else url
+
+
 def mark_shareable(text, topic="district"):
     """Abhi lagi post ko 'share karne layak' list mein rakhna (groups mein share ke mashware ke liye)."""
     pid = S.get("last_post_id")
@@ -1753,7 +1772,8 @@ def mark_shareable(text, topic="district"):
     first = card_parts(text)[0] or re.sub(r"^\W+", "", (text or "").strip().splitlines()[0] if text else "")[:90]
     sh = S.setdefault("shareable", [])
     if pid not in [x["id"] for x in sh]:
-        sh.append({"id": pid, "title": first[:90], "t": time.time(), "tags": post_tags(topic, text)})
+        sh.append({"id": pid, "title": first[:90], "t": time.time(), "tags": post_tags(topic, text),
+                   "url": post_permalink(pid)})
     del sh[:-30]
 
 
@@ -1820,12 +1840,12 @@ def handle_share_helper():
             "Har post ke neeche: 📤 Share dabayen → \"Share to a group\" → button wala group chunen → Post.\n"
             "Share karte waqt upar apna PAGE chunein (personal account nahi).")
     for n, (p, gs) in enumerate(plan, 1):
-        url = "https://www.facebook.com/" + p["id"]
-        rows = [[{"text": "📤 Share", "url": "https://www.facebook.com/sharer/sharer.php?u=" + quote_plus(url)},
-                 {"text": "👁️ Post dekhein", "url": url}]]
-        rows += [[{"text": f"👥 {g.get('name', 'Group')}", "url": g.get("url", url)}] for _, g in gs]
+        url = p.get("url") or post_permalink(p["id"])
+        rows = [[{"text": "📤 Share", "url": open_link("https://www.facebook.com/sharer/sharer.php?u=" + quote_plus(url))},
+                 {"text": "👁️ Post dekhein", "url": open_link(url)}]]
+        rows += [[{"text": f"👥 {g.get('name', 'Group')}", "url": open_link(g.get("url", url))}] for _, g in gs]
         names = "\n".join(f"   • {g.get('name')}" for _, g in gs)
-        tg_send(f"{n}. {p['title']}\n\nIn groups mein share karein:\n{names}", rows=rows)
+        tg_send(f"{n}. {p['title']}\n\nIn groups mein share karein:\n{names}\n\n🔗 Post ka link (copy kar ke group mein paste bhi kar sakte hain):\n{url}", rows=rows)
         sent_ids.append(p["id"])
     del sent_ids[:-100]
 
