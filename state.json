@@ -305,7 +305,12 @@
   "3cda18004bad1a60": 1792096250.749818,
   "d4acf835fbd7c21c": 1792098649.481982,
   "5601419d5f594f9c": 1792098659.5159497,
-  "9686c4f171ce17c9": 1792098659.516372
+  "9686c4f171ce17c9": 1792098659.516372,
+  "58012d053d7dd772": 1792101054.1030436,
+  "dd6aecd2fea64428": 1792101054.1030467,
+  "ee6a2e7794adea5e": 1792101054.1030478,
+  "137a78a6cccffbd6": 1792101054.1030488,
+  "34658ee283b4ab6c": 1792101054.1034982
  },
  "pending": {},
  "queue": [],
@@ -333,7 +338,7 @@
   "last_week": "",
   "last_check": "2026-10-16"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-3.5-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -397,16 +402,8 @@
    "6c5471bdad68c980"
   ]
  },
- "last_post_id": "1444130002106066_122107734645503839",
+ "last_post_id": "1444130002106066_122107770165503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122106937671503839",
-   "title": "وفاقي ناڻي واري وزير محمد اورنگزيب آءِ ايم ايف جي سربراهه کي ملڪي معاشي سڌارن جي ايجنڊا",
-   "t": 1792046494.083997,
-   "tags": [
-    "general"
-   ]
-  },
   {
    "id": "1444130002106066_122106950265503839",
    "title": "پاڪستان جي زرعي معيشت ۾ عورتن جي اهم ڪردار ۽ کين درپيش مسئلن تي هڪ تجزياتي رپورٽ سامهون",
@@ -672,6 +669,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122107734645503839"
+  },
+  {
+   "id": "1444130002106066_122107770165503839",
+   "title": "پاکستان ڪرڪيٽ ٽيم زمبابوي ۽ ڏکڻ افريقا خلاف هوم ٽاءِ سيريز لاءِ تيارين جو آغاز ڪري ڇڏيو",
+   "t": 1792101065.547424,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122107770165503839"
   }
  ],
  "share_sent": {
@@ -713,12 +719,12 @@
  },
  "cricket_news": {
   "date": "2026-10-16",
-  "count": 1,
-  "last": 1792090903.651572
+  "count": 2,
+  "last": 1792101065.5470324
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 02:40",
+  "time": "2026-10-16 02:51",
   "items": 2,
   "sample": [
    "Australian Capital Territory Women v Brisbane Heat Women",
@@ -732,8 +738,8 @@
  },
  "all_posts": {
   "date": "2026-10-16",
-  "count": 5,
-  "last": 1792098674.2723799
+  "count": 6,
+  "last": 1792101060.1726334
  },
  "perf": {
   "posts": [
@@ -1060,6 +1066,12 @@
     "sec": "public_news",
     "cat": "technology",
     "t": 1792098678
+   },
+   {
+    "id": "1444130002106066_122107770165503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792101065
    }
   ]
  },
@@ -1740,8 +1752,8 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 7,
-  "fail": 2,
+  "ok": 8,
+  "fail": 3,
   "limit": 0
  },
  "posted_heads": [
@@ -1928,10 +1940,14 @@
   {
    "h": "Pakistan seeks Alibaba cooperation for cashless economy, SME exports",
    "t": 1792098678
+  },
+  {
+   "h": "Pakistan ODI squad begins preparations for tri-series",
+   "t": 1792101066
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 02:40",
+  "time": "2026-10-16 02:51",
   "steps": []
  },
  "roundup_am": "2026-10-15",
