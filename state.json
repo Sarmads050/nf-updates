@@ -424,7 +424,8 @@
   "742a8c8b461568a5": 1792142491.4404073,
   "85ad4a638e43d059": 1792142491.4406188,
   "8e50e56b83a9b68f": 1792143777.5687165,
-  "64c86f3730d8aba5": 1792144885.914881
+  "64c86f3730d8aba5": 1792144885.914881,
+  "2b7c69b2a4bf4731": 1792146738.0974395
  },
  "pending": {},
  "queue": [],
@@ -508,18 +509,8 @@
    "d14e975f0feafc8b"
   ]
  },
- "last_post_id": "1444130002106066_122108201709503839",
+ "last_post_id": "1444130002106066_122108230761503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122107680591503839",
-   "title": "ايس اي سي پي هارين کي مناسب اگهه ڏيڻ ۽ فصلن جو نقصان روڪڻ لاءِ قومي زراعي اسپاٽ مارڪيٽ",
-   "t": 1792093286.1637316,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122107680591503839"
-  },
   {
    "id": "1444130002106066_122107703883503839",
    "title": "پاڪستان ايم ايل-1 ريلوي منصوبي جي تيزي سان اڳڀرائي لاءِ اسلامي ترقياتي بئنڪ کان وڌيڪ",
@@ -794,6 +785,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108201709503839"
+  },
+  {
+   "id": "1444130002106066_122108230761503839",
+   "title": "پاڪستان ڪرڪيٽ بورڊ فخر زمان کي غلط طريقي سان آئوٽ قرار ڏيڻ واري معاملي تي امپائر خلاف",
+   "t": 1792146801.6673667,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108230761503839"
   }
  ],
  "share_sent": {
@@ -839,12 +839,12 @@
  },
  "cricket_news": {
   "date": "2026-10-16",
-  "count": 7,
-  "last": 1792143846.7454116
+  "count": 8,
+  "last": 1792146801.667107
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 15:21",
+  "time": "2026-10-16 15:33",
   "items": 5,
   "sample": [
    "Australian Capital Territory Women 83/10 v Brisbane Heat Women 86/4 *",
@@ -859,8 +859,8 @@
  },
  "all_posts": {
   "date": "2026-10-16",
-  "count": 34,
-  "last": 1792144914.5229127
+  "count": 35,
+  "last": 1792146795.7479682
  },
  "perf": {
   "posts": [
@@ -1343,6 +1343,12 @@
     "sec": "public_news",
     "cat": "electricity_gas",
     "t": 1792144921
+   },
+   {
+    "id": "1444130002106066_122108230761503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792146801
    }
   ]
  },
@@ -2143,9 +2149,9 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 56,
-  "fail": 28,
-  "limit": 0
+  "ok": 58,
+  "fail": 29,
+  "limit": 2
  },
  "posted_heads": [
   {
@@ -2427,10 +2433,14 @@
   {
    "h": "KE reports 1,935 power outages from excavation damage in FY26",
    "t": 1792144922
+  },
+  {
+   "h": "PCB files official complaint against Umpire over Fakhar Zaman’s unfair out",
+   "t": 1792146801
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 15:21",
+  "time": "2026-10-16 15:33",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2518,12 +2528,12 @@
  },
  "article_diag": {
   "date": "2026-10-16",
-  "tried": 4,
-  "decoded": 4,
-  "text": 4,
-  "story": 4
+  "tried": 5,
+  "decoded": 5,
+  "text": 5,
+  "story": 5
  },
- "ai_last_error": "15:21 gemini-3.8-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "15:32 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-16",
   "models": [
