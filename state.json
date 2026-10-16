@@ -432,7 +432,11 @@
   "6861dea60dbdf0c7": 1792147872.4953368,
   "bf13fd532c9a170c": 1792147872.4953377,
   "2f7085976977132b": 1792147872.4953384,
-  "4d263a481c25f760": 1792147872.4955187
+  "4d263a481c25f760": 1792147872.4955187,
+  "8f63d7366a8c56d5": 1792149699.5402496,
+  "2140a8588fcc6a8c": 1792149699.540253,
+  "35a4ce35d5fe4fcd": 1792149699.5402539,
+  "6f5b189be25b51b7": 1792149699.5402544
  },
  "pending": {},
  "queue": [],
@@ -450,7 +454,7 @@
   "last_week": "",
   "last_check": "2026-10-16"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-3.8-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -855,12 +859,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 16:10",
+  "time": "2026-10-16 16:21",
   "items": 5,
   "sample": [
    "Australian Capital Territory Women 83/10 v Brisbane Heat Women 86/4 *",
    "Bangladesh Women Under-19s 154/7 * v Sri Lanka Women Under-19s 158/6",
-   "Limpopo v Border 24 *"
+   "Limpopo v Border 48 *"
   ]
  },
  "agri_news": {
@@ -1375,7 +1379,7 @@
   "last": 1792147991.4866335
  },
  "trends": {
-  "last": 1792138250.9625304,
+  "last": 1792149649.6092386,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -2160,15 +2164,79 @@
     "t": 1792138251,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "international monetary fund (imf)",
+    "traffic": 100,
+    "news": "ECB's Wunsch: Further rate hikes may be needed",
+    "t": 1792149650,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "governor rule khyber pakhtunkhwa federal decision",
+    "traffic": 2000,
+    "news": "KP moving towards peace and progress, says Kundi",
+    "t": 1792149650,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "world bank group",
+    "traffic": 200,
+    "news": "Borrowers’ Platform enters new phase with first Governing Council meeting in Bangkok",
+    "t": 1792149650,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "drought",
+    "traffic": 200,
+    "news": "Severe drought declared in parts of southern England",
+    "t": 1792149650,
+    "cat": "weather_disaster",
+    "sindh": false
+   },
+   {
+    "term": "school building",
+    "traffic": 200,
+    "news": "Classrooms of neglect",
+    "t": 1792149650,
+    "cat": "education_jobs",
+    "sindh": false
+   },
+   {
+    "term": "protest",
+    "traffic": 100,
+    "news": "Police claim situation in Khyber under control",
+    "t": 1792149650,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "imran khan official x account petition",
+    "traffic": 500,
+    "news": "PTI disowns Imran's X account in IHC",
+    "t": 1792149650,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "hunger",
+    "traffic": 200,
+    "news": "UNICEF: Over Four Million Children in Afghanistan to Need Malnutrition Treatment in 2027",
+    "t": 1792149650,
+    "cat": "health",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 60,
-  "fail": 32,
-  "limit": 6
+  "ok": 62,
+  "fail": 35,
+  "limit": 9
  },
  "posted_heads": [
   {
@@ -2461,7 +2529,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 16:10",
+  "time": "2026-10-16 16:21",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2554,7 +2622,7 @@
   "text": 6,
   "story": 6
  },
- "ai_last_error": "15:51 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "16:21 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-16",
   "models": [
