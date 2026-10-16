@@ -415,7 +415,10 @@
   "c2968aa82d614740": 1792138859.63463,
   "558e0362e0df62cc": 1792138859.6349633,
   "514105913fd48a8d": 1792140063.3637936,
-  "671b27f70a0fd656": 1792140063.3640344
+  "671b27f70a0fd656": 1792140063.3640344,
+  "dcc08dd1f355b9dd": 1792141260.9096315,
+  "8d67979c89d92827": 1792141277.618556,
+  "359c9832c0bf1811": 1792141277.6185584
  },
  "pending": {},
  "queue": [],
@@ -834,11 +837,11 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 13:50",
+  "time": "2026-10-16 14:01",
   "items": 5,
   "sample": [
    "Australian Capital Territory Women 83/10 v Brisbane Heat Women 86/4 *",
-   "Bangladesh Women Under-19s 103/4 * v Sri Lanka Women Under-19s 158/6",
+   "Bangladesh Women Under-19s 111/5 * v Sri Lanka Women Under-19s 158/6",
    "Limpopo v Border"
   ]
  },
@@ -2115,8 +2118,8 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 47,
-  "fail": 14,
+  "ok": 48,
+  "fail": 15,
   "limit": 0
  },
  "posted_heads": [
@@ -2390,7 +2393,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 13:50",
+  "time": "2026-10-16 14:01",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2482,5 +2485,6 @@
   "decoded": 1,
   "text": 1,
   "story": 1
- }
+ },
+ "ai_last_error": "14:01 gemini-3.6-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later"
 }
