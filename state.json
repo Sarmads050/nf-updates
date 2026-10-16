@@ -518,7 +518,17 @@
   "4492e78e90151954": 1792182055.8461537,
   "5ea8174d8c6bbc97": 1792182055.8461547,
   "a0636bf9836e6597": 1792182055.8463583,
-  "c02beb253ef59a79": 1792185076.0669637
+  "c02beb253ef59a79": 1792185076.0669637,
+  "1b0d15a29f1d24ac": 1792187464.0591774,
+  "3d248959fcf60784": 1792187464.0591812,
+  "9d071e82d196f7a8": 1792187464.0591826,
+  "3a0b08aec5062391": 1792187464.059184,
+  "36627caaff3da5bc": 1792187464.0591848,
+  "0e4494e9b9b2a795": 1792187464.0591857,
+  "a3d294567d53712a": 1792187464.0591862,
+  "e111a4c845891832": 1792187464.0591874,
+  "cd4747fb8ccf3e65": 1792187464.059188,
+  "bb9a160c3c240890": 1792187464.059454
  },
  "pending": {},
  "queue": [],
@@ -536,7 +546,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-3.5-flash",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -602,17 +612,8 @@
    "4b9e07303ba052ff"
   ]
  },
- "last_post_id": "1444130002106066_122108821029503839",
+ "last_post_id": "1444130002106066_122108839173503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108037375503839",
-   "title": "پاڪستان ۽ اسلامي ترقياتي بئنڪ وچ ۾ 5.6 ارب ڊالرن جي سهڪار جو نئون قدم کنيو ويو آهي",
-   "t": 1792130508.6859727,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108037375503839"
-  },
   {
    "id": "1444130002106066_122108055909503839",
    "title": "فيڊرل بورڊ آف روينيو انڪم ٽيڪس جي تڪرارن سان لاڳاپيل قاعدن ۾ اهم ترميمون ڪري ڇڏيون آهن",
@@ -886,6 +887,15 @@
     "jobs"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108821029503839"
+  },
+  {
+   "id": "1444130002106066_122108839173503839",
+   "title": "پاڪستان ڪرڪيٽ ٽيم جي بيٽنگ ڪոչ مائیکل سمٿ ميچن کان اڳ رانديگرن تي زور ڏنو آهي تہ هو مختلف",
+   "t": 1792187478.1481073,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108839173503839"
   }
  ],
  "share_sent": {
@@ -939,12 +949,12 @@
  },
  "cricket_news": {
   "date": "2026-10-17",
-  "count": 1,
-  "last": 1792177562.1423585
+  "count": 2,
+  "last": 1792187478.1477232
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 02:40",
+  "time": "2026-10-17 02:51",
   "items": 10,
   "sample": [
    "Limpopo 163/9 * v Border 166/3",
@@ -959,8 +969,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 5,
-  "last": 1792185083.3058217
+  "count": 6,
+  "last": 1792187470.99205
  },
  "perf": {
   "posts": [
@@ -1551,6 +1561,12 @@
     "sec": "public_news",
     "cat": "education_jobs",
     "t": 1792185091
+   },
+   {
+    "id": "1444130002106066_122108839173503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792187478
    }
   ]
  },
@@ -2599,15 +2615,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 12,
+  "ok": 13,
   "fail": 2,
-  "limit": 44
+  "limit": 49
  },
  "posted_heads": [
-  {
-   "h": "Filing of Income Tax returns: FBR chairman urged to further extend deadline to Nov 15",
-   "t": 1792022956
-  },
   {
    "h": "Kissan Ittehad urges govt to declare ‘agri emergency’",
    "t": 1792025510
@@ -2923,10 +2935,14 @@
   {
    "h": "Pakistan, China universities deepen academic ties at 6th CPEC consortium conference",
    "t": 1792185091
+  },
+  {
+   "h": "Batting coach Michael Smith lays down the marker for Pakistan batters ahead of busy ODI season",
+   "t": 1792187478
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 02:40",
+  "time": "2026-10-17 02:51",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -3014,12 +3030,12 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 5,
-  "decoded": 4,
+  "tried": 6,
+  "decoded": 5,
   "text": 2,
   "story": 2
  },
- "ai_last_error": "02:11 gemini-3.6-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "02:51 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
