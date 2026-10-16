@@ -491,7 +491,13 @@
   "b533bae690b163b2": 1792170076.843057,
   "3d45c25c177c17ac": 1792172572.438819,
   "a1e740514c620c56": 1792172594.3462331,
-  "1aa0c477b499e37f": 1792174262.8401482
+  "1aa0c477b499e37f": 1792174262.8401482,
+  "230fd68bacf576a6": 1792174856.7397082,
+  "fd9c3b94b4737f25": 1792174856.7397113,
+  "bd5a54948d3b7a95": 1792174856.7397125,
+  "0a6032f6b53c1d30": 1792174856.7397134,
+  "a6d979b7fd72f44c": 1792174856.7397146,
+  "97467d4d8b7531cf": 1792174856.739865
  },
  "pending": {},
  "queue": [],
@@ -575,19 +581,8 @@
    "4b9e07303ba052ff"
   ]
  },
- "last_post_id": "1444130002106066_122108677971503839",
+ "last_post_id": "1444130002106066_122108705949503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122107981821503839",
-   "title": "اڄ جون نوڪريون (نوشهروفيروز ۽ سنڌ)",
-   "t": 1792123268.7577748,
-   "tags": [
-    "jobs",
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122107981821503839"
-  },
   {
    "id": "1444130002106066_122107989927503839",
    "title": "پاڪستان ٽيلي ڪميونيڪيشن اٿارٽي شهرين لاءِ ڪالز ۽ انٽرنيٽ جي معيار کي بهتر بڻائڻ لاءِ اهم",
@@ -860,6 +855,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108677971503839"
+  },
+  {
+   "id": "1444130002106066_122108705949503839",
+   "title": "پي ٽي اي ملڪ ۾ نيٽ ورڪ جي مسئلن کي فوري طور حل ڪرڻ جا حڪم جاري ڪري ڇڏيا آهن",
+   "t": 1792174911.071081,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108705949503839"
   }
  ],
  "share_sent": {
@@ -918,7 +922,7 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 23:11",
+  "time": "2026-10-16 23:21",
   "items": 9,
   "sample": [
    "Bangladesh Women Under-19s 154/7 * v Sri Lanka Women Under-19s 158/6",
@@ -933,8 +937,8 @@
  },
  "all_posts": {
   "date": "2026-10-16",
-  "count": 49,
-  "last": 1792172528.4179692
+  "count": 50,
+  "last": 1792174902.9025679
  },
  "perf": {
   "posts": [
@@ -1489,13 +1493,19 @@
     "sec": "public_news",
     "cat": "dollar_gold_business",
     "t": 1792172534
+   },
+   {
+    "id": "1444130002106066_122108705949503839",
+    "sec": "public_news",
+    "cat": "technology",
+    "t": 1792174911
    }
   ]
  },
  "public_news": {
   "date": "2026-10-16",
-  "count": 26,
-  "last": 1792172534.9386623
+  "count": 27,
+  "last": 1792174911.0707932
  },
  "trends": {
   "last": 1792171857.8059924,
@@ -2465,15 +2475,11 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 91,
+  "ok": 94,
   "fail": 43,
-  "limit": 139
+  "limit": 154
  },
  "posted_heads": [
-  {
-   "h": "Kissan Ittehad welcomes proposed wheat price of Rs4,500 per 40kg",
-   "t": 1792007486
-  },
   {
    "h": "Govt raises petrol price by Rs1.20 per litre, reduces high-speed diesel rate by Re0.17 per litre",
    "t": 1792009886
@@ -2789,10 +2795,14 @@
   {
    "h": "Pakistan posts $356m current account deficit in Sept 2026",
    "t": 1792172535
+  },
+  {
+   "h": "PTA Orders Telcos to Fix Network Issues",
+   "t": 1792174911
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 23:11",
+  "time": "2026-10-16 23:21",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2880,12 +2890,12 @@
  },
  "article_diag": {
   "date": "2026-10-16",
-  "tried": 15,
-  "decoded": 15,
-  "text": 14,
-  "story": 14
+  "tried": 16,
+  "decoded": 16,
+  "text": 15,
+  "story": 15
  },
- "ai_last_error": "23:10 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "23:21 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-16",
   "models": [
