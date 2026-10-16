@@ -451,7 +451,17 @@
   "d9da2cef02020158": 1792153252.277096,
   "47009015c6787b6c": 1792153872.7405326,
   "56026ed2e05f4354": 1792153872.7405355,
-  "e3cabfd01542d42b": 1792156876.9994662
+  "e3cabfd01542d42b": 1792156876.9994662,
+  "61aa0cd3f9482030": 1792158711.3210967,
+  "d242742d0ab9d5d3": 1792158711.3210995,
+  "6050e53bd60afb5c": 1792158711.321101,
+  "693e37e05f63f688": 1792158711.321102,
+  "425dd54b40ba2e37": 1792158711.3211029,
+  "81a8bcb46748486f": 1792158711.3211036,
+  "aeed6315ef2ae250": 1792158711.321104,
+  "d50e6e64b9c5eaf1": 1792158711.3211045,
+  "b99d642a695d5237": 1792158711.3211052,
+  "f27ac043d2a01a16": 1792158711.321268
  },
  "pending": {},
  "queue": [],
@@ -469,7 +479,7 @@
   "last_week": "",
   "last_check": "2026-10-16"
  },
- "gemini_model": "gemini-3.7-flash",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -534,18 +544,8 @@
    "d14e975f0feafc8b"
   ]
  },
- "last_post_id": "1444130002106066_122108419491503839",
+ "last_post_id": "1444130002106066_122108445603503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122107813869503839",
-   "title": "پنجاب جي مارڪيٽن ۾ چار لک کان وڌيڪ ڪڻڪ جون ٻوريون پهچايون ويون آهن",
-   "t": 1792105879.297699,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122107813869503839"
-  },
   {
    "id": "1444130002106066_122107836393503839",
    "title": "حڪومت پيٽرل جي قيمت ۾ ٽي رپيا ٽيٺاھين پئسا ڪٽوتي ڪري ڇڏي آهي جڏهن ته هاءِ اسپيڊ ډيزل جي",
@@ -817,6 +817,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108419491503839"
+  },
+  {
+   "id": "1444130002106066_122108445603503839",
+   "title": "عدالت يا لاڳاپيل اختيارين ايف بي آر کي شهرين جي بئنڪ رڪارڊ تائين سڌي پهچ حاصل ڪرڻ کان",
+   "t": 1792158731.7518075,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108445603503839"
   }
  ],
  "share_sent": {
@@ -871,11 +880,11 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 18:40",
+  "time": "2026-10-16 18:52",
   "items": 9,
   "sample": [
    "Bangladesh Women Under-19s 154/7 * v Sri Lanka Women Under-19s 158/6",
-   "Limpopo 84/5 * v Border 166/3",
+   "Limpopo 116/6 * v Border 166/3",
    "South Western Districts 68/10 v Warriors 70/1 *"
   ]
  },
@@ -886,8 +895,8 @@
  },
  "all_posts": {
   "date": "2026-10-16",
-  "count": 40,
-  "last": 1792156935.5297122
+  "count": 41,
+  "last": 1792158723.4727378
  },
  "perf": {
   "posts": [
@@ -1394,13 +1403,19 @@
     "sec": "public_news",
     "cat": "electricity_gas",
     "t": 1792156941
+   },
+   {
+    "id": "1444130002106066_122108445603503839",
+    "sec": "public_news",
+    "cat": "budget_tax_imf",
+    "t": 1792158731
    }
   ]
  },
  "public_news": {
   "date": "2026-10-16",
-  "count": 19,
-  "last": 1792156941.5744944
+  "count": 20,
+  "last": 1792158731.7515287
  },
  "trends": {
   "last": 1792149649.6092386,
@@ -2258,9 +2273,9 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 73,
-  "fail": 38,
-  "limit": 45
+  "ok": 75,
+  "fail": 39,
+  "limit": 54
  },
  "posted_heads": [
   {
@@ -2558,10 +2573,14 @@
   {
    "h": "Here’s How High Electricity Bills You Will Pay in November",
    "t": 1792156941
+  },
+  {
+   "h": "FBR Stopped From Accessing Bank Records",
+   "t": 1792158732
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 18:40",
+  "time": "2026-10-16 18:52",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2649,12 +2668,12 @@
  },
  "article_diag": {
   "date": "2026-10-16",
-  "tried": 8,
-  "decoded": 8,
-  "text": 8,
-  "story": 8
+  "tried": 9,
+  "decoded": 9,
+  "text": 9,
+  "story": 9
  },
- "ai_last_error": "18:21 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "18:51 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-16",
   "models": [
