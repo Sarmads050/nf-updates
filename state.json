@@ -505,7 +505,11 @@
   "e2f9b8dfd15067cd": 1792177419.3908408,
   "076e34c5cf5076e8": 1792177419.3908415,
   "9419e6f53c2a265c": 1792177419.3908422,
-  "9147a1368afcf78e": 1792177419.3910859
+  "9147a1368afcf78e": 1792177419.3910859,
+  "f8c81e299ae82b84": 1792178478.1285143,
+  "d71f5e71022a1641": 1792178478.1285167,
+  "5f31d8a90faece7b": 1792178478.1285176,
+  "7731f1bf393e0968": 1792178478.1286798
  },
  "pending": {},
  "queue": [],
@@ -589,17 +593,8 @@
    "4b9e07303ba052ff"
   ]
  },
- "last_post_id": "1444130002106066_122108737479503839",
+ "last_post_id": "1444130002106066_122108746059503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122107999965503839",
-   "title": "تز رفتار بالر نسيم شاھ اوڊيائي ٽاءِ سيريز ۾ بهترين پرفارمنس ڏيڻ لاءِ پراميد آهي",
-   "t": 1792125673.3471234,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122107999965503839"
-  },
   {
    "id": "1444130002106066_122108008947503839",
    "title": "کے پی کے اسکولوں کا سیفٹی سروے خیبرپختونخوا حکومت نے سرکاری اسکولوں کی عمارتوں کی ساختی",
@@ -872,6 +867,15 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108737479503839"
+  },
+  {
+   "id": "1444130002106066_122108746059503839",
+   "title": "پاڪستان ۽ لبنان اهم شعبن ۾ ٻطرفو سهڪار وڌائڻ ۽ لاڳاپا وڌيڪ مظبوط ڪرڻ تي اتفاق ڪيو آهي",
+   "t": 1792178498.0964112,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108746059503839"
   }
  ],
  "share_sent": {
@@ -930,7 +934,7 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 00:10",
+  "time": "2026-10-17 00:21",
   "items": 9,
   "sample": [
    "Limpopo 163/9 * v Border 166/3",
@@ -945,8 +949,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 1,
-  "last": 1792177554.957251
+  "count": 2,
+  "last": 1792178491.5519292
  },
  "perf": {
   "posts": [
@@ -1513,13 +1517,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792177562
+   },
+   {
+    "id": "1444130002106066_122108746059503839",
+    "sec": "public_news",
+    "cat": "transport_trade",
+    "t": 1792178498
    }
   ]
  },
  "public_news": {
   "date": "2026-10-17",
-  "count": 0,
-  "last": 1792174911.0707932
+  "count": 1,
+  "last": 1792178498.0961378
  },
  "trends": {
   "last": 1792171857.8059924,
@@ -2489,15 +2499,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 5,
+  "ok": 6,
   "fail": 2,
-  "limit": 18
+  "limit": 23
  },
  "posted_heads": [
-  {
-   "h": "Rain-wind, thunderstorm occur across various parts of country; cause drop in temperature: PMD",
-   "t": 1792012890
-  },
   {
    "h": "Shaheen, Babar join Pakistan squad for ODI tri-series",
    "t": 1792015300
@@ -2813,10 +2819,14 @@
   {
    "h": "Pakistan begin preparations for ODI tri-series under Shaheen Afridi",
    "t": 1792177562
+  },
+  {
+   "h": "Pakistan, Lebanon seek deeper cooperation in key sectors",
+   "t": 1792178498
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 00:10",
+  "time": "2026-10-17 00:21",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2904,12 +2914,12 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 1,
+  "tried": 2,
   "decoded": 1,
   "text": 1,
   "story": 1
  },
- "ai_last_error": "00:05 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "00:21 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
