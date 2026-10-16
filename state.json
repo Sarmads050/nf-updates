@@ -400,7 +400,8 @@
   "5736e09748176dd4": 1792132260.2963881,
   "d961388eab47d25a": 1792132260.2966452,
   "cb5421ea7c903d85": 1792133464.2963438,
-  "c905a893d887d929": 1792134078.644535
+  "c905a893d887d929": 1792134078.644535,
+  "d14e975f0feafc8b": 1792135160.1447687
  },
  "pending": {},
  "queue": [],
@@ -418,7 +419,7 @@
   "last_week": "",
   "last_check": "2026-10-16"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -471,8 +472,8 @@
  "last_question": "2026-10-14",
  "sindh_single": {
   "date": "2026-10-16",
-  "count": 1,
-  "last": 1792126877.7017536,
+  "count": 2,
+  "last": 1792135147.0557797,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -480,23 +481,12 @@
    "afe787c73ac57f40",
    "7e7618fe31dd28f7",
    "6c5471bdad68c980",
-   "5b8674ee554058c8"
+   "5b8674ee554058c8",
+   "d14e975f0feafc8b"
   ]
  },
- "last_post_id": "1444130002106066_122108080257503839",
+ "last_post_id": "1444130002106066_122108091297503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122107471377503839",
-   "title": "پشاور ۾ اسڪول جي ڇت πεndي پون سبب هڪ استاد ۽ 32 ٻارڙا فوت ٿي ويا آهن",
-   "t": 1792074678.5044553,
-   "tags": [
-    "education",
-    "general",
-    "jobs",
-    "teachers"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122107471377503839"
-  },
   {
    "id": "1444130002106066_122107481013503839",
    "title": "ايس پي ايس سي خلاف شاگردن جو احتجاج سنڌ پبلڪ سروس ڪميشن خلاف احتجاج ڪندڙ نوجوانن سان سنڌ",
@@ -768,6 +758,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108080257503839"
+  },
+  {
+   "id": "1444130002106066_122108091297503839",
+   "title": "سنڌ جي سمورين ڊويزنن ۾ سالڊ ويسٽ مئنيجمينٽ بورڊ قائم ڪرڻ جو حڪم پبلڪ اڪائونٽس ڪميٽي سنڌ",
+   "t": 1792135173.8241763,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108091297503839"
   }
  ],
  "share_sent": {
@@ -818,11 +818,11 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 12:01",
+  "time": "2026-10-16 12:19",
   "items": 5,
   "sample": [
    "Australian Capital Territory Women 83/10 v Brisbane Heat Women 86/4 *",
-   "Bangladesh Women Under-19s v Sri Lanka Women Under-19s 104/2 *",
+   "Bangladesh Women Under-19s v Sri Lanka Women Under-19s 130/4 *",
    "Limpopo v Border"
   ]
  },
@@ -833,8 +833,8 @@
  },
  "all_posts": {
   "date": "2026-10-16",
-  "count": 26,
-  "last": 1792134094.0503862
+  "count": 27,
+  "last": 1792135165.73104
  },
  "perf": {
   "posts": [
@@ -1269,6 +1269,12 @@
     "sec": "public_news",
     "cat": "budget_tax_imf",
     "t": 1792134099
+   },
+   {
+    "id": "1444130002106066_122108091297503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1792135165
    }
   ]
  },
@@ -2013,8 +2019,8 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 37,
-  "fail": 10,
+  "ok": 38,
+  "fail": 11,
   "limit": 0
  },
  "posted_heads": [
@@ -2272,7 +2278,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 12:01",
+  "time": "2026-10-16 12:19",
   "steps": []
  },
  "roundup_am": "2026-10-16",
