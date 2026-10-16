@@ -420,7 +420,9 @@
   "8d67979c89d92827": 1792141277.618556,
   "359c9832c0bf1811": 1792141277.6185584,
   "933ccd9722140345": 1792141871.3062954,
-  "68a1f43042c0d2b9": 1792141871.306299
+  "68a1f43042c0d2b9": 1792141871.306299,
+  "742a8c8b461568a5": 1792142491.4404073,
+  "85ad4a638e43d059": 1792142491.4406188
  },
  "pending": {},
  "queue": [],
@@ -438,7 +440,7 @@
   "last_week": "",
   "last_check": "2026-10-16"
  },
- "gemini_model": "gemini-3.1-flash-lite",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -504,17 +506,8 @@
    "d14e975f0feafc8b"
   ]
  },
- "last_post_id": "1444130002106066_122108142207503839",
+ "last_post_id": "1444130002106066_122108165799503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122107569165503839",
-   "title": "پاڪستاني ڪرڪيٽ ٽيم هوم او ڊي آءِ ٽري سيريز لاءِ پنهنجي پهرين ٽريننگ سيشن ۾ حصو ورتو آهي",
-   "t": 1792082481.0901568,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122107569165503839"
-  },
   {
    "id": "1444130002106066_122107661139503839",
    "title": "پاڪستاني ڪرڪيٽر معاذ صداقت ٽي ٽوئنٽي ۾ شاندار ڪارڪردگي کانپوءِ ايندڙ سال ٿيندڙ ون ڊي ورلڊ",
@@ -789,6 +782,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108142207503839"
+  },
+  {
+   "id": "1444130002106066_122108165799503839",
+   "title": "ملڪ اندر اڄ اوپن مارڪيٽ ۽ انٽر بئنڪ ۾ آمريڪي ڊالر سميت مختلف ملڪن جي پرڏيهي ڪرنسين جا",
+   "t": 1792142547.7157032,
+   "tags": [
+    "business",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108165799503839"
   }
  ],
  "share_sent": {
@@ -839,11 +842,11 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 14:11",
+  "time": "2026-10-16 14:22",
   "items": 5,
   "sample": [
    "Australian Capital Territory Women 83/10 v Brisbane Heat Women 86/4 *",
-   "Bangladesh Women Under-19s 140/6 * v Sri Lanka Women Under-19s 158/6",
+   "Bangladesh Women Under-19s 154/7 * v Sri Lanka Women Under-19s 158/6",
    "Limpopo v Border"
   ]
  },
@@ -854,8 +857,8 @@
  },
  "all_posts": {
   "date": "2026-10-16",
-  "count": 31,
-  "last": 1792140083.398589
+  "count": 32,
+  "last": 1792142541.8840299
  },
  "perf": {
   "posts": [
@@ -1320,13 +1323,19 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1792140088
+   },
+   {
+    "id": "1444130002106066_122108165799503839",
+    "sec": "public_news",
+    "cat": "dollar_gold_business",
+    "t": 1792142547
    }
   ]
  },
  "public_news": {
   "date": "2026-10-16",
-  "count": 15,
-  "last": 1792138883.4541073
+  "count": 16,
+  "last": 1792142547.7153757
  },
  "trends": {
   "last": 1792138250.9625304,
@@ -2120,8 +2129,8 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 49,
-  "fail": 22,
+  "ok": 51,
+  "fail": 25,
   "limit": 0
  },
  "posted_heads": [
@@ -2392,10 +2401,14 @@
   {
    "h": "Sindh’s wheat stocks rot in Landhi warehouses, flour millers refuse to lift grain",
    "t": 1792140088
+  },
+  {
+   "h": "Currency exchange rates in Pakistan today – 16 October 2026",
+   "t": 1792142547
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 14:11",
+  "time": "2026-10-16 14:22",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2483,12 +2496,12 @@
  },
  "article_diag": {
   "date": "2026-10-16",
-  "tried": 1,
-  "decoded": 1,
-  "text": 1,
-  "story": 1
+  "tried": 2,
+  "decoded": 2,
+  "text": 2,
+  "story": 2
  },
- "ai_last_error": "14:11 gemini-3.5-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "14:21 gemini-3.7-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-10-16",
   "models": [
