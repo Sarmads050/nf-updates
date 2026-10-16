@@ -436,12 +436,13 @@
   "8f63d7366a8c56d5": 1792149699.5402496,
   "2140a8588fcc6a8c": 1792149699.540253,
   "35a4ce35d5fe4fcd": 1792149699.5402539,
-  "6f5b189be25b51b7": 1792149699.5402544
+  "6f5b189be25b51b7": 1792149699.5402544,
+  "295b7afa2cb28f1b": 1792150241.1083486
  },
  "pending": {},
  "queue": [],
  "jobs": [],
- "tg_offset": 661216944,
+ "tg_offset": 661216945,
  "daily": {
   "date": "2026-10-16",
   "count": 1
@@ -454,7 +455,7 @@
   "last_week": "",
   "last_check": "2026-10-16"
  },
- "gemini_model": "gemini-3.8-flash",
+ "gemini_model": "gemini-3.5-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -494,10 +495,9 @@
  ],
  "contributors": {},
  "today_titles": {
-  "date": "2026-10-14",
+  "date": "2026-10-16",
   "items": [
-   "ضلعي نوشهروفيروز ۾ سنڌ حڪومت جي ممتا پروگرام تحت 32451 ماڻهن کي شامل ڪيو ويو آهي، جنهن سلسلي ۾ ڊپٽي ڪمشنر مستق",
-   "ڪراچي ۾ خالد خان جکراڻي جي بنگلي تي پوليس پاران چڙهائي ڪئي وئي آهي، جتي اهلخاني موجب سندس ڀيڻن کي کڻڻ جي ڪوشش "
+   "سنڌي ٻولي دنيا جي قديم ترين ٻولين مان هڪ آهي، جيڪا ڪنهن هڪ شخص يا گروهه ناهي ٺاهي پر قديم سنڌ جي ماڻهن جي روائ"
   ]
  },
  "last_daily": "2026-10-16",
@@ -520,17 +520,8 @@
    "d14e975f0feafc8b"
   ]
  },
- "last_post_id": "1444130002106066_122108244699503839",
+ "last_post_id": "1444130002106066_122108276115503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122107734645503839",
-   "title": "پاڪستان اليبابا سان ڪيش ليس معيشت کي فروغ ڏيڻ ۽ ننڍن توڙي وچين درجي جي ڪاروبارن جون",
-   "t": 1792098678.7334576,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122107734645503839"
-  },
   {
    "id": "1444130002106066_122107770165503839",
    "title": "پاکستان ڪرڪيٽ ٽيم زمبابوي ۽ ڏکڻ افريقا خلاف هوم ٽاءِ سيريز لاءِ تيارين جو آغاز ڪري ڇڏيو",
@@ -805,6 +796,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108244699503839"
+  },
+  {
+   "id": "1444130002106066_122108276115503839",
+   "title": "سنڌي ٻولي دنيا جي قديم ترين ٻولين مان هڪ آهي، جيڪا ڪنهن هڪ شخص يا گروهه ناهي ٺاهي پر قديم",
+   "t": 1792150273.9120805,
+   "tags": [
+    "local"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108276115503839"
   }
  ],
  "share_sent": {
@@ -859,12 +859,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 16:21",
+  "time": "2026-10-16 16:31",
   "items": 5,
   "sample": [
    "Australian Capital Territory Women 83/10 v Brisbane Heat Women 86/4 *",
    "Bangladesh Women Under-19s 154/7 * v Sri Lanka Women Under-19s 158/6",
-   "Limpopo v Border 48 *"
+   "Limpopo v Border 75 *"
   ]
  },
  "agri_news": {
@@ -874,8 +874,8 @@
  },
  "all_posts": {
   "date": "2026-10-16",
-  "count": 36,
-  "last": 1792147984.9578815
+  "count": 37,
+  "last": 1792150270.0072727
  },
  "perf": {
   "posts": [
@@ -2234,9 +2234,9 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 62,
-  "fail": 35,
-  "limit": 9
+  "ok": 63,
+  "fail": 36,
+  "limit": 12
  },
  "posted_heads": [
   {
@@ -2529,7 +2529,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 16:21",
+  "time": "2026-10-16 16:31",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2622,7 +2622,7 @@
   "text": 6,
   "story": 6
  },
- "ai_last_error": "16:21 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "16:30 gemini-3.6-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-16",
   "models": [
