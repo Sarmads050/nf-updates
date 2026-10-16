@@ -842,6 +842,7 @@ def _ask_gemini(prompt, image=None, mime="image/jpeg"):
                     ai_count("ok")
                     return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
                 ai_count("fail" if r.status_code != 429 else "limit")
+                S["ai_last_error"] = f"{now().strftime('%H:%M')} {model} {r.status_code} {r.text[:160]}"
                 log("gemini", model, r.status_code, r.text[:120].replace("\n", " "))
                 if r.status_code == 404 or "no longer available" in r.text or "not found" in r.text.lower():
                     _dead_models.add(model)
