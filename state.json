@@ -413,7 +413,9 @@
   "f4d66fd7106e9698": 1792137666.6135948,
   "58bac1ca8747f0fd": 1792137677.4713366,
   "c2968aa82d614740": 1792138859.63463,
-  "558e0362e0df62cc": 1792138859.6349633
+  "558e0362e0df62cc": 1792138859.6349633,
+  "514105913fd48a8d": 1792140063.3637936,
+  "671b27f70a0fd656": 1792140063.3640344
  },
  "pending": {},
  "queue": [],
@@ -497,18 +499,8 @@
    "d14e975f0feafc8b"
   ]
  },
- "last_post_id": "1444130002106066_122108129247503839",
+ "last_post_id": "1444130002106066_122108142207503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122107557213503839",
-   "title": "پاڪستان ۾ اڄ اوپن مارڪيٽ ۽ انٽر بئنڪ ۾ آمريڪي ڊالر، برطانوي پائونڊ ۽ يورو جي قيمتن ۾",
-   "t": 1792081268.7743647,
-   "tags": [
-    "business",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122107557213503839"
-  },
   {
    "id": "1444130002106066_122107569165503839",
    "title": "پاڪستاني ڪرڪيٽ ٽيم هوم او ڊي آءِ ٽري سيريز لاءِ پنهنجي پهرين ٽريننگ سيشن ۾ حصو ورتو آهي",
@@ -782,6 +774,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108129247503839"
+  },
+  {
+   "id": "1444130002106066_122108142207503839",
+   "title": "لينضي جي گودامن ۾ ڪڻڪ جو جنس سڙڻ لڳو آهي، جنهن کانپوءِ فلور ملز وارن اناج کڻڻ کان انڪار",
+   "t": 1792140088.66925,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108142207503839"
   }
  ],
  "share_sent": {
@@ -832,23 +834,23 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 13:30",
+  "time": "2026-10-16 13:41",
   "items": 5,
   "sample": [
    "Australian Capital Territory Women 83/10 v Brisbane Heat Women 86/4 *",
-   "Bangladesh Women Under-19s 56/3 * v Sri Lanka Women Under-19s 158/6",
+   "Bangladesh Women Under-19s 84/3 * v Sri Lanka Women Under-19s 158/6",
    "Limpopo v Border"
   ]
  },
  "agri_news": {
   "date": "2026-10-16",
-  "count": 4,
-  "last": 1792129274.3585634
+  "count": 5,
+  "last": 1792140088.6687803
  },
  "all_posts": {
   "date": "2026-10-16",
-  "count": 30,
-  "last": 1792138878.235847
+  "count": 31,
+  "last": 1792140083.398589
  },
  "perf": {
   "posts": [
@@ -1307,6 +1309,12 @@
     "sec": "public_news",
     "cat": "transport_trade",
     "t": 1792138883
+   },
+   {
+    "id": "1444130002106066_122108142207503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1792140088
    }
   ]
  },
@@ -2107,8 +2115,8 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 45,
-  "fail": 12,
+  "ok": 47,
+  "fail": 14,
   "limit": 0
  },
  "posted_heads": [
@@ -2375,10 +2383,14 @@
   {
    "h": "Pakistan's textile exports rise 5.26% to $5.03 billion in first quarter of FY27",
    "t": 1792138883
+  },
+  {
+   "h": "Sindh’s wheat stocks rot in Landhi warehouses, flour millers refuse to lift grain",
+   "t": 1792140088
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 13:30",
+  "time": "2026-10-16 13:41",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2463,5 +2475,12 @@
    "count": 1,
    "last": 1792080066.353269
   }
+ },
+ "article_diag": {
+  "date": "2026-10-16",
+  "tried": 1,
+  "decoded": 1,
+  "text": 1,
+  "story": 1
  }
 }
