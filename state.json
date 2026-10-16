@@ -476,7 +476,12 @@
   "3618fe5934cf5f3f": 1792164676.1176178,
   "74164b2161afa77e": 1792164676.1178203,
   "ffbf9465c0c54aae": 1792166498.8017335,
-  "7d4e225c025ea726": 1792166498.8017352
+  "7d4e225c025ea726": 1792166498.8017352,
+  "d85e07030e774219": 1792167069.9124525,
+  "5e7b9e450729cc12": 1792167069.9124548,
+  "677fd58a8d766a54": 1792167069.9124563,
+  "602b6def863d10e0": 1792167069.9124613,
+  "94a9d26fdb8bca38": 1792167069.912618
  },
  "pending": {},
  "queue": [],
@@ -559,18 +564,8 @@
    "d14e975f0feafc8b"
   ]
  },
- "last_post_id": "1444130002106066_122108572287503839",
+ "last_post_id": "1444130002106066_122108601381503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122107901073503839",
-   "title": "وزيراعظم کاڌي جي تحفظ کي يقيني بڻائڻ لاءِ زرعي شعبي ۾ نواي ايجادن ۽ جديد ترقي جي ضرورت تي",
-   "t": 1792114870.3896792,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122107901073503839"
-  },
   {
    "id": "1444130002106066_122107926417503839",
    "title": "فيڊرل بورڊ آف روينيو انوائس ۽ ٽيڪس گوشوارا جمع ڪرائڻ جي آخري تاريخ ۾ آڪٽوبر جي اکين تائين",
@@ -843,6 +838,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108572287503839"
+  },
+  {
+   "id": "1444130002106066_122108601381503839",
+   "title": "کاڌي پيتي جي شين جي اگهن ۾ واڌ سبب ملڪ ۾ شارٽ ٽرم انفليشن وڌي ڪري 11.38 سيڪڙو ٿي وئي آهي",
+   "t": 1792167135.1615388,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108601381503839"
   }
  ],
  "share_sent": {
@@ -901,7 +905,7 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 21:01",
+  "time": "2026-10-16 21:12",
   "items": 9,
   "sample": [
    "Bangladesh Women Under-19s 154/7 * v Sri Lanka Women Under-19s 158/6",
@@ -916,8 +920,8 @@
  },
  "all_posts": {
   "date": "2026-10-16",
-  "count": 45,
-  "last": 1792164682.0061104
+  "count": 46,
+  "last": 1792167129.8235898
  },
  "perf": {
   "posts": [
@@ -1448,13 +1452,19 @@
     "sec": "public_news",
     "cat": "transport_trade",
     "t": 1792164687
+   },
+   {
+    "id": "1444130002106066_122108601381503839",
+    "sec": "public_news",
+    "cat": "inflation",
+    "t": 1792167135
    }
   ]
  },
  "public_news": {
   "date": "2026-10-16",
-  "count": 23,
-  "last": 1792164687.7804477
+  "count": 24,
+  "last": 1792167135.1612675
  },
  "trends": {
   "last": 1792160452.6342895,
@@ -2384,9 +2394,9 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 83,
+  "ok": 85,
   "fail": 41,
-  "limit": 94
+  "limit": 104
  },
  "posted_heads": [
   {
@@ -2700,10 +2710,14 @@
   {
    "h": "PIDE sets out six-point roadmap to unlock Pakistan’s export potential",
    "t": 1792164688
+  },
+  {
+   "h": "Short-term inflation surges to 11.38pc due to costly food",
+   "t": 1792167135
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 21:01",
+  "time": "2026-10-16 21:12",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2791,12 +2805,12 @@
  },
  "article_diag": {
   "date": "2026-10-16",
-  "tried": 12,
-  "decoded": 12,
-  "text": 11,
-  "story": 11
+  "tried": 13,
+  "decoded": 13,
+  "text": 12,
+  "story": 12
  },
- "ai_last_error": "21:01 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "21:11 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-16",
   "models": [
