@@ -535,7 +535,10 @@
   "637742298a0b5397": 1792189902.8465157,
   "9ed15b345ccc302f": 1792189902.8465173,
   "e0e9fda7d68f2229": 1792189902.8467329,
-  "4c7244e1ab69816e": 1792190930.2812247
+  "4c7244e1ab69816e": 1792190930.2812247,
+  "e40117fb7fd40c2e": 1792194667.3769696,
+  "8d9e10e469ef0834": 1792194667.3769724,
+  "d58a9dae49ee9994": 1792194667.3769746
  },
  "pending": {},
  "queue": [],
@@ -563,7 +566,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-flash-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -972,7 +975,7 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 04:40",
+  "time": "2026-10-17 04:51",
   "items": 9,
   "sample": [
    "Sydney Thunder Women v Melbourne Renegades Women",
@@ -1600,7 +1603,7 @@
   "last": 1792185091.405477
  },
  "trends": {
-  "last": 1792183250.9792585,
+  "last": 1792194647.0064852,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -2633,15 +2636,39 @@
     "t": 1792183251,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "mohsin naqvi",
+    "traffic": 500,
+    "news": "Mohsin Naqvi Says Federal Government Tried Until Last Moment to Avert Emergency in KP",
+    "t": 1792194647,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "roadies rebirth",
+    "traffic": 100,
+    "news": "MTV Roadies Rebirth Season 21: Everything You Need to Know About the Premiere",
+    "t": 1792194647,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "street fighter 2026",
+    "traffic": 100,
+    "news": "Street Fighter cast say movie 'for the fans' - will they show up?",
+    "t": 1792194647,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 16,
+  "ok": 18,
   "fail": 2,
-  "limit": 61
+  "limit": 63
  },
  "posted_heads": [
   {
@@ -2966,7 +2993,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 04:40",
+  "time": "2026-10-17 04:51",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -3059,7 +3086,7 @@
   "text": 3,
   "story": 3
  },
- "ai_last_error": "03:31 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "04:50 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
