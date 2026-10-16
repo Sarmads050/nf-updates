@@ -481,7 +481,9 @@
   "5e7b9e450729cc12": 1792167069.9124548,
   "677fd58a8d766a54": 1792167069.9124563,
   "602b6def863d10e0": 1792167069.9124613,
-  "94a9d26fdb8bca38": 1792167069.912618
+  "94a9d26fdb8bca38": 1792167069.912618,
+  "2b2a6c871ed39b58": 1792168851.20575,
+  "4b9e07303ba052ff": 1792168954.9649224
  },
  "pending": {},
  "queue": [],
@@ -551,8 +553,8 @@
  "last_question": "2026-10-16",
  "sindh_single": {
   "date": "2026-10-16",
-  "count": 2,
-  "last": 1792161672.3797276,
+  "count": 3,
+  "last": 1792168944.4804955,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -561,20 +563,12 @@
    "7e7618fe31dd28f7",
    "6c5471bdad68c980",
    "5b8674ee554058c8",
-   "d14e975f0feafc8b"
+   "d14e975f0feafc8b",
+   "4b9e07303ba052ff"
   ]
  },
- "last_post_id": "1444130002106066_122108601381503839",
+ "last_post_id": "1444130002106066_122108622765503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122107926417503839",
-   "title": "فيڊرل بورڊ آف روينيو انوائس ۽ ٽيڪس گوشوارا جمع ڪرائڻ جي آخري تاريخ ۾ آڪٽوبر جي اکين تائين",
-   "t": 1792117262.0466583,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122107926417503839"
-  },
   {
    "id": "1444130002106066_122107945485503839",
    "title": "پاڪستان ۽ علي بابا جي نمائندن وچ ۾ اي ڪامرس ٽيڪس سڌارن، ڊجيٽل ادائيگين ۽ برآمدات ۾ واڌ",
@@ -847,6 +841,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108601381503839"
+  },
+  {
+   "id": "1444130002106066_122108622765503839",
+   "title": "پيٹرول جي قيمت ۾ گهٽ جو امڪان اوگرا پاران ايندڙ ٽن ڏينهن لاءِ پيٹروليم شين جون قيمتون طئي",
+   "t": 1792168967.9145656,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108622765503839"
   }
  ],
  "share_sent": {
@@ -905,7 +909,7 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 21:30",
+  "time": "2026-10-16 21:42",
   "items": 9,
   "sample": [
    "Bangladesh Women Under-19s 154/7 * v Sri Lanka Women Under-19s 158/6",
@@ -920,8 +924,8 @@
  },
  "all_posts": {
   "date": "2026-10-16",
-  "count": 46,
-  "last": 1792167129.8235898
+  "count": 47,
+  "last": 1792168960.6435275
  },
  "perf": {
   "posts": [
@@ -1458,6 +1462,12 @@
     "sec": "public_news",
     "cat": "inflation",
     "t": 1792167135
+   },
+   {
+    "id": "1444130002106066_122108622765503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1792168960
    }
   ]
  },
@@ -2394,9 +2404,9 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 85,
-  "fail": 41,
-  "limit": 104
+  "ok": 86,
+  "fail": 43,
+  "limit": 114
  },
  "posted_heads": [
   {
@@ -2717,7 +2727,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 21:30",
+  "time": "2026-10-16 21:42",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2810,7 +2820,7 @@
   "text": 12,
   "story": 12
  },
- "ai_last_error": "21:11 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "21:42 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-16",
   "models": [
