@@ -448,7 +448,9 @@
   "b06eb1d07c2d8fd4": 1792152686.2481182,
   "65e3039c754ffd15": 1792152686.2481213,
   "1bed01417f9bad7c": 1792152686.2481232,
-  "d9da2cef02020158": 1792153252.277096
+  "d9da2cef02020158": 1792153252.277096,
+  "47009015c6787b6c": 1792153872.7405326,
+  "56026ed2e05f4354": 1792153872.7405355
  },
  "pending": {},
  "queue": [],
@@ -519,7 +521,7 @@
  "sindh_single": {
   "date": "2026-10-16",
   "count": 2,
-  "last": 1792146065.0739112,
+  "last": 1792153885.0453844,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -870,12 +872,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 17:20",
+  "time": "2026-10-16 17:31",
   "items": 5,
   "sample": [
    "Australian Capital Territory Women 83/10 v Brisbane Heat Women 86/4 *",
    "Bangladesh Women Under-19s 154/7 * v Sri Lanka Women Under-19s 158/6",
-   "Limpopo v Border 155/3 *"
+   "Limpopo v Border 166/3 *"
   ]
  },
  "agri_news": {
@@ -2251,9 +2253,9 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 68,
+  "ok": 70,
   "fail": 37,
-  "limit": 27
+  "limit": 37
  },
  "posted_heads": [
   {
@@ -2550,7 +2552,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 17:20",
+  "time": "2026-10-16 17:31",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2643,7 +2645,7 @@
   "text": 7,
   "story": 7
  },
- "ai_last_error": "17:11 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "17:31 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-16",
   "models": [
