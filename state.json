@@ -425,7 +425,14 @@
   "85ad4a638e43d059": 1792142491.4406188,
   "8e50e56b83a9b68f": 1792143777.5687165,
   "64c86f3730d8aba5": 1792144885.914881,
-  "2b7c69b2a4bf4731": 1792146738.0974395
+  "2b7c69b2a4bf4731": 1792146738.0974395,
+  "49886f85a2f074d3": 1792147872.4953327,
+  "1268329e39c07a25": 1792147872.4953346,
+  "2d460054ef278e64": 1792147872.4953358,
+  "6861dea60dbdf0c7": 1792147872.4953368,
+  "bf13fd532c9a170c": 1792147872.4953377,
+  "2f7085976977132b": 1792147872.4953384,
+  "4d263a481c25f760": 1792147872.4955187
  },
  "pending": {},
  "queue": [],
@@ -443,7 +450,7 @@
   "last_week": "",
   "last_check": "2026-10-16"
  },
- "gemini_model": "gemini-3.7-flash",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -509,17 +516,8 @@
    "d14e975f0feafc8b"
   ]
  },
- "last_post_id": "1444130002106066_122108230761503839",
+ "last_post_id": "1444130002106066_122108244699503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122107703883503839",
-   "title": "پاڪستان ايم ايل-1 ريلوي منصوبي جي تيزي سان اڳڀرائي لاءِ اسلامي ترقياتي بئنڪ کان وڌيڪ",
-   "t": 1792095681.1391869,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122107703883503839"
-  },
   {
    "id": "1444130002106066_122107734645503839",
    "title": "پاڪستان اليبابا سان ڪيش ليس معيشت کي فروغ ڏيڻ ۽ ننڍن توڙي وچين درجي جي ڪاروبارن جون",
@@ -794,6 +792,15 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108230761503839"
+  },
+  {
+   "id": "1444130002106066_122108244699503839",
+   "title": "نائب وزيراعظم ۽ پرڏيهي وزير اسحاق ڊار پرڏيهي وزارت جي اهم اختيارين سان ملاقات ڪئي",
+   "t": 1792147991.4869726,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108244699503839"
   }
  ],
  "share_sent": {
@@ -844,7 +851,7 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 15:40",
+  "time": "2026-10-16 15:53",
   "items": 5,
   "sample": [
    "Australian Capital Territory Women 83/10 v Brisbane Heat Women 86/4 *",
@@ -859,8 +866,8 @@
  },
  "all_posts": {
   "date": "2026-10-16",
-  "count": 35,
-  "last": 1792146795.7479682
+  "count": 36,
+  "last": 1792147984.9578815
  },
  "perf": {
   "posts": [
@@ -1349,13 +1356,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792146801
+   },
+   {
+    "id": "1444130002106066_122108244699503839",
+    "sec": "public_news",
+    "cat": "transport_trade",
+    "t": 1792147991
    }
   ]
  },
  "public_news": {
   "date": "2026-10-16",
-  "count": 17,
-  "last": 1792144921.7600803
+  "count": 18,
+  "last": 1792147991.4866335
  },
  "trends": {
   "last": 1792138250.9625304,
@@ -2149,9 +2162,9 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 58,
-  "fail": 29,
-  "limit": 2
+  "ok": 60,
+  "fail": 32,
+  "limit": 6
  },
  "posted_heads": [
   {
@@ -2437,10 +2450,14 @@
   {
    "h": "PCB files official complaint against Umpire over Fakhar Zaman’s unfair out",
    "t": 1792146801
+  },
+  {
+   "h": "Dar meets MoFA officials",
+   "t": 1792147991
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 15:40",
+  "time": "2026-10-16 15:53",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2528,12 +2545,12 @@
  },
  "article_diag": {
   "date": "2026-10-16",
-  "tried": 5,
-  "decoded": 5,
-  "text": 5,
-  "story": 5
+  "tried": 6,
+  "decoded": 6,
+  "text": 6,
+  "story": 6
  },
- "ai_last_error": "15:32 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "15:51 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-16",
   "models": [
