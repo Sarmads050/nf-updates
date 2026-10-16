@@ -783,12 +783,47 @@ def ai_count(kind):
     u[kind] = u.get(kind, 0) + 1
 
 
+BAD_SCRIPT = re.compile(r"[\u0250-\u02AF\u0370-\u03FF\u0400-\u04FF\u0900-\u0DFF\u1D00-\u1DBF\u0E00-\u0FFF]")
+MIXED_WORD = re.compile(r"[\u0600-\u06FF][A-Za-z]|[A-Za-z][\u0600-\u06FF]")
+SCRIPT_GUARD = ("\n\nIMPORTANT: Write Sindhi ONLY in correct Sindhi Arabic-script letters (e.g. ڀ ٻ ڄ ڃ ڇ ڊ ڌ ڍ ڏ ڙ ڦ ڪ ڳ ڱ ڻ). "
+                "Never put Greek, Hindi/Devanagari, Cyrillic or English letters inside a Sindhi word. "
+                "If unsure of a word, use a simpler correct Sindhi word.")
+
+
+def bad_script(text):
+    """Sindhi mein ghalat huroof (Greek, Hindi, ajeeb nishan, ya lafz ke andar English harf)."""
+    t = re.sub(r"https?://\S+", "", str(text or ""))
+    return bool(BAD_SCRIPT.search(t) or MIXED_WORD.search(t))
+
+
+def _has_bad(obj):
+    if isinstance(obj, str):
+        return bad_script(obj)
+    if isinstance(obj, dict):
+        return any(_has_bad(v) for v in obj.values())
+    if isinstance(obj, list):
+        return any(_has_bad(v) for v in obj)
+    return False
+
+
 def ask_gemini(prompt, image=None, mime="image/jpeg"):
+    """Gemini se jawab; agar Sindhi mein ghalat huroof aayen to 2 dafa dobara likhwao."""
+    res = None
+    for attempt in range(3):
+        res = _ask_gemini(prompt + (SCRIPT_GUARD if attempt else ""), image, mime)
+        if not _has_bad(res):
+            return res
+        log("AI ne ghalat huroof likhe, dobara koshish", attempt + 1)
+        STATS["bad_script"] = STATS.get("bad_script", 0) + 1
+    return res
+
+
+def _ask_gemini(prompt, image=None, mime="image/jpeg"):
     global _discovered
     parts = [{"text": prompt}]
     if image:
         parts.append({"inline_data": {"mime_type": mime, "data": base64.b64encode(image).decode()}})
-    models = [S.get("gemini_model")] + CONFIG["gemini_models"]
+    models = list(CONFIG["gemini_models"]) + [S.get("gemini_model")]  # mazboot model pehle
     tried = set()
     while True:
         for model in models:
@@ -819,6 +854,15 @@ def ask_gemini(prompt, image=None, mime="image/jpeg"):
 
 
 def ask_groq(prompt):
+    res = None
+    for attempt in range(2):
+        res = _ask_groq(prompt + (SCRIPT_GUARD if attempt else ""))
+        if not _has_bad(res):
+            return res
+    return res
+
+
+def _ask_groq(prompt):
     try:
         r = requests.post(
             "https://api.groq.com/openai/v1/chat/completions",
@@ -1112,6 +1156,13 @@ def card_title_of(message):
 
 def fb_post(message, link=None, photo=None, video=None, count=True, card=True, card_label=None, comment=None):
     """Har post: photo/video na ho to design wala card khud lagao; link hamesha pehle comment mein."""
+    if bad_script(message):
+        fixed = fix_script(message)
+        if not fixed:
+            log("ghalat huroof wali post roki:", message[:80])
+            tg_send("⚠️ Ek khabar mein AI ne ghalat huroof likhe the, is liye post NAHI ki:\n\n" + message[:600])
+            return True  # queue se hata do, page par ghalat post na jaye
+        message = fixed
     orig_link = link
     if CONFIG.get("news_cards", True):
         if card and not photo and not video:
@@ -1138,6 +1189,18 @@ def fb_post(message, link=None, photo=None, video=None, count=True, card=True, c
         except Exception as e:
             log("telegram channel error:", e)
     return ok
+
+
+def fix_script(text):
+    """Ghalat huroof wali Sindhi ko AI se theek karwao; na ho sake to None."""
+    if not (GEMINI_KEY or GROQ_KEY):
+        return None
+    prompt = ("This Sindhi Facebook post has some corrupted words (wrong Greek/Hindi/English letters inside Sindhi "
+              "words). Rewrite it exactly, keeping every line, emoji, hashtag, link and meaning, but fix those words "
+              "into correct Sindhi Arabic script.\nReturn JSON: {\"text\": string}\n\n" + text)
+    out = ask_gemini(prompt) if GEMINI_KEY else ask_groq(prompt)
+    t = str((out or {}).get("text", "")) if isinstance(out, dict) else ""
+    return t if t.strip() and not bad_script(t) and not blocked_reason(t) else None
 
 
 def append_to_post(extra):
@@ -1295,6 +1358,14 @@ def handle_news():
             stat("irrelevant")
             continue
         text = res["post"].strip() if res else f"{LBL['news_icon']} {it['title']}"
+        if res:
+            art, real = article_text(it["link"])
+            story = full_story(it["title"], art) if art else None
+            if story:
+                first = re.split(r"(?<=[!۔.؟?])\s", text)[0]  # AI wali pehli line sarkhi ban jaye
+                text = f"{first}\n\n{finish(story)}"
+            if real and real != it["link"]:
+                it["link"] = real
         message = compose(it, text)
         sensitive = keyword_sensitive(it["title"]) or bool(res and res.get("sensitive"))
         if sensitive:
@@ -2214,6 +2285,86 @@ def handle_cricket_live():
         state.pop(k, None)
 
 
+def _diag(key):
+    d = S.setdefault("article_diag", {"date": "", "tried": 0, "decoded": 0, "text": 0, "story": 0})
+    if d["date"] != today():
+        d.update(date=today(), tried=0, decoded=0, text=0, story=0)
+    d[key] = d.get(key, 0) + 1
+
+
+def resolve_gnews(link):
+    """Google News ka link -> asal akhbar ka link (Google ka apna 'batchexecute' tareeqa). Na ho to None."""
+    if "news.google.com" not in (link or ""):
+        return link
+    m = re.search(r"/articles/([^/?#]+)", link)
+    if not m:
+        return None
+    gid = m.group(1)
+    try:
+        page = requests.get(f"https://news.google.com/articles/{gid}", headers=UA, timeout=20).text
+        sg = re.search(r'data-n-a-sg="([^"]+)"', page)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+        if not (sg and ts):
+            return None
+        inner = json.dumps(["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1, None, None,
+                                              None, None, None, 0, 1], "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0,
+                                             None, 0], gid, int(ts.group(1)), sg.group(1)])
+        r = requests.post("https://news.google.com/_/DotsSplashUi/data/batchexecute", timeout=20,
+                          headers={**UA, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
+                          data={"f.req": json.dumps([[["Fbv4je", inner, None, "generic"]]])})
+        body = r.text.split("\n\n", 1)[1] if "\n\n" in r.text else r.text
+        arr = json.loads(body)
+        url = json.loads(arr[0][2])[1]
+        return url if str(url).startswith("http") else None
+    except Exception as e:
+        log("gnews decode error:", str(e)[:100])
+        return None
+
+
+def article_text(link):
+    """Asal khabar ka text (akhbar ki website se). Wapas: (text ya None, asal link)."""
+    _diag("tried")
+    url = resolve_gnews(link)
+    if not url:
+        return None, link
+    _diag("decoded")
+    try:
+        html_ = requests.get(url, headers=UA, timeout=25).text
+        try:
+            import trafilatura
+            text = trafilatura.extract(html_, include_comments=False, include_tables=False) or ""
+        except ImportError:
+            text = " ".join(clean_text(x) for x in re.findall(r"<p[^>]*>(.*?)</p>", html_, re.S))
+        text = re.sub(r"\s+", " ", text).strip()
+        if len(text) < 200:
+            return None, url
+        _diag("text")
+        return text[:6000], url
+    except Exception as e:
+        log("article fetch error:", str(e)[:100])
+        return None, url
+
+
+def full_story(title, text):
+    """Poori khabar Sindhi mein (sirf article ke haqaiq se)."""
+    if not text or not (GEMINI_KEY or GROQ_KEY):
+        return None
+    prompt = ("Headline: " + title + "\n\nArticle:\n" + text +
+              "\n\nWrite this as a complete Facebook news post in Sindhi (Arabic script) for ordinary readers: "
+              "5-8 short sentences (about 80-160 words) covering who, what, where, when, why and any numbers, "
+              "using ONLY facts from the article, neutral tone, no opinion, no hashtags, no emoji, "
+              "no full stop at the very end. If the article is about religion controversy, abuse or the Pakistani "
+              "military, set blocked true.\nReturn JSON: {\"story\": string, \"blocked\": bool}")
+    out = ask_gemini(prompt) if GEMINI_KEY else ask_groq(prompt)
+    if not isinstance(out, dict) or out.get("blocked"):
+        return None
+    story = clean_text(str(out.get("story", "")))
+    if len(story) < 60 or bad_script(story) or blocked_reason(story):
+        return None
+    _diag("story")
+    return story
+
+
 def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, icons=None):
     """Kisi ek mauzoo (cricket, zarat) ki mulk bhar ki khabrein, din mein hadd ke saath."""
     if not cfg.get("enabled", True):
@@ -2317,9 +2468,11 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
     if len(head) < 6 or blocked_reason(head):
         head = ""
     label = TOPIC_SD.get(cat if icons else state_key, "")
+    art, real_link = article_text(it["link"])
+    story = full_story(it["title"], art) if art else None
     msg = (f"{ic} {head}\n\n" if head else f"{ic} ") + \
-        f"{finish(post)}\n\n📌 {LBL['source']}: {clean_source(it['source'])}\n\n{footer()}"
-    if news_card_post(msg, head or card_parts(post)[0], label, it["link"],
+        f"{finish(story or post)}\n\n📌 {LBL['source']}: {clean_source(it['source'])}\n\n{footer()}"
+    if news_card_post(msg, head or card_parts(post)[0], label, real_link or it["link"],
                       body=finish(post) if head else card_parts(post)[1]):
         perf_record(state_key, cat if icons else state_key)
         day["count"] += 1
