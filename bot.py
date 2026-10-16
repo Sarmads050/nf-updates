@@ -846,12 +846,17 @@ def _ask_gemini(prompt, image=None, mime="image/jpeg"):
                 continue
             tried.add(model)
             try:
-                r = requests.post(
-                    f"{GEMINI_BASE}/{model}:generateContent",
-                    headers={"x-goog-api-key": GEMINI_KEY},
-                    json={"contents": [{"parts": parts}],
-                          "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3}},
-                    timeout=60)
+                for wait in (0, 4, 8):  # 503 (rush) par thoda ruk kar isi mazboot model se dobara
+                    if wait:
+                        time.sleep(wait)
+                    r = requests.post(
+                        f"{GEMINI_BASE}/{model}:generateContent",
+                        headers={"x-goog-api-key": GEMINI_KEY},
+                        json={"contents": [{"parts": parts}],
+                              "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3}},
+                        timeout=60)
+                    if r.status_code not in (500, 503):
+                        break
                 if r.status_code == 200:
                     S["gemini_model"] = model
                     ai_count("ok")
