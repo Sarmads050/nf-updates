@@ -846,7 +846,7 @@ def _ask_gemini(prompt, image=None, mime="image/jpeg"):
                 continue
             tried.add(model)
             try:
-                for wait in (0, 4, 8):  # 503 (rush) par thoda ruk kar isi mazboot model se dobara
+                for wait in (0, 5):  # 503 (rush) par thoda ruk kar isi mazboot model se ek dafa dobara
                     if wait:
                         time.sleep(wait)
                     r = requests.post(
