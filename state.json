@@ -444,7 +444,10 @@
   "6a5b747d33d5ba44": 1792151505.4473913,
   "249f5ca58edb5c70": 1792151524.0977256,
   "64dc3897d1d2323f": 1792151524.0977285,
-  "b4288af294289cb1": 1792151524.0979524
+  "b4288af294289cb1": 1792151524.0979524,
+  "b06eb1d07c2d8fd4": 1792152686.2481182,
+  "65e3039c754ffd15": 1792152686.2481213,
+  "1bed01417f9bad7c": 1792152686.2481232
  },
  "pending": {},
  "queue": [],
@@ -462,7 +465,7 @@
   "last_week": "",
   "last_check": "2026-10-16"
  },
- "gemini_model": "gemini-3.7-flash",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -866,12 +869,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 17:01",
+  "time": "2026-10-16 17:11",
   "items": 5,
   "sample": [
    "Australian Capital Territory Women 83/10 v Brisbane Heat Women 86/4 *",
    "Bangladesh Women Under-19s 154/7 * v Sri Lanka Women Under-19s 158/6",
-   "Limpopo v Border 101/3 *"
+   "Limpopo v Border 133/3 *"
   ]
  },
  "agri_news": {
@@ -2247,9 +2250,9 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 67,
+  "ok": 68,
   "fail": 37,
-  "limit": 22
+  "limit": 27
  },
  "posted_heads": [
   {
@@ -2546,7 +2549,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 17:01",
+  "time": "2026-10-16 17:11",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2639,7 +2642,7 @@
   "text": 7,
   "story": 7
  },
- "ai_last_error": "16:52 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "17:11 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-16",
   "models": [
