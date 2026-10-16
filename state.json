@@ -437,7 +437,14 @@
   "2140a8588fcc6a8c": 1792149699.540253,
   "35a4ce35d5fe4fcd": 1792149699.5402539,
   "6f5b189be25b51b7": 1792149699.5402544,
-  "295b7afa2cb28f1b": 1792150241.1083486
+  "295b7afa2cb28f1b": 1792150241.1083486,
+  "f5017ddc51381e12": 1792151505.4473858,
+  "6480e9d01e32baff": 1792151505.4473891,
+  "a718e1f9184e9d3c": 1792151505.4473903,
+  "6a5b747d33d5ba44": 1792151505.4473913,
+  "249f5ca58edb5c70": 1792151524.0977256,
+  "64dc3897d1d2323f": 1792151524.0977285,
+  "b4288af294289cb1": 1792151524.0979524
  },
  "pending": {},
  "queue": [],
@@ -455,7 +462,7 @@
   "last_week": "",
   "last_check": "2026-10-16"
  },
- "gemini_model": "gemini-3.5-flash",
+ "gemini_model": "gemini-3.7-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -520,17 +527,8 @@
    "d14e975f0feafc8b"
   ]
  },
- "last_post_id": "1444130002106066_122108276115503839",
+ "last_post_id": "1444130002106066_122108297193503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122107770165503839",
-   "title": "پاکستان ڪرڪيٽ ٽيم زمبابوي ۽ ڏکڻ افريقا خلاف هوم ٽاءِ سيريز لاءِ تيارين جو آغاز ڪري ڇڏيو",
-   "t": 1792101065.547424,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122107770165503839"
-  },
   {
    "id": "1444130002106066_122107790523503839",
    "title": "پشاور ۾ ڇت πε ڪرڻ جي حادثي کان پوءِ ڪي پي حڪومت خانگي اسڪولن جي عمارتن جي چڪاس لاءِ ضلعي",
@@ -805,6 +803,15 @@
     "local"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108276115503839"
+  },
+  {
+   "id": "1444130002106066_122108297193503839",
+   "title": "بابر اعظم کي پاڪستان جي ٽيسٽ ڪرڪيٽ ٽيم جو نئون ڪپتان مقرر ڪيو ويو آهي، جنهن کانپوءِ هو",
+   "t": 1792151570.3466446,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108297193503839"
   }
  ],
  "share_sent": {
@@ -854,17 +861,17 @@
  },
  "cricket_news": {
   "date": "2026-10-16",
-  "count": 8,
-  "last": 1792146801.667107
+  "count": 9,
+  "last": 1792151570.3461719
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 16:40",
+  "time": "2026-10-16 16:52",
   "items": 5,
   "sample": [
    "Australian Capital Territory Women 83/10 v Brisbane Heat Women 86/4 *",
    "Bangladesh Women Under-19s 154/7 * v Sri Lanka Women Under-19s 158/6",
-   "Limpopo v Border 79 *"
+   "Limpopo v Border 89/3 *"
   ]
  },
  "agri_news": {
@@ -874,8 +881,8 @@
  },
  "all_posts": {
   "date": "2026-10-16",
-  "count": 37,
-  "last": 1792150270.0072727
+  "count": 38,
+  "last": 1792151562.2918098
  },
  "perf": {
   "posts": [
@@ -1370,6 +1377,12 @@
     "sec": "public_news",
     "cat": "transport_trade",
     "t": 1792147991
+   },
+   {
+    "id": "1444130002106066_122108297193503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792151570
    }
   ]
  },
@@ -2234,9 +2247,9 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 63,
-  "fail": 36,
-  "limit": 12
+  "ok": 67,
+  "fail": 37,
+  "limit": 22
  },
  "posted_heads": [
   {
@@ -2526,10 +2539,14 @@
   {
    "h": "Dar meets MoFA officials",
    "t": 1792147991
+  },
+  {
+   "h": "Babar Azam has been named captain of the Pakistan Test side too Getty Images",
+   "t": 1792151570
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 16:40",
+  "time": "2026-10-16 16:52",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2617,12 +2634,12 @@
  },
  "article_diag": {
   "date": "2026-10-16",
-  "tried": 6,
-  "decoded": 6,
-  "text": 6,
-  "story": 6
+  "tried": 7,
+  "decoded": 7,
+  "text": 7,
+  "story": 7
  },
- "ai_last_error": "16:30 gemini-3.6-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "16:52 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-16",
   "models": [
