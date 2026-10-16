@@ -497,7 +497,15 @@
   "bd5a54948d3b7a95": 1792174856.7397125,
   "0a6032f6b53c1d30": 1792174856.7397134,
   "a6d979b7fd72f44c": 1792174856.7397146,
-  "97467d4d8b7531cf": 1792174856.739865
+  "97467d4d8b7531cf": 1792174856.739865,
+  "ee8136c4fdc1655c": 1792177351.8648937,
+  "3bb95533bd0f3786": 1792177351.8648963,
+  "c9b26ed929461396": 1792177419.3908377,
+  "70f14cb5a1070267": 1792177419.39084,
+  "e2f9b8dfd15067cd": 1792177419.3908408,
+  "076e34c5cf5076e8": 1792177419.3908415,
+  "9419e6f53c2a265c": 1792177419.3908422,
+  "9147a1368afcf78e": 1792177419.3910859
  },
  "pending": {},
  "queue": [],
@@ -509,11 +517,11 @@
  },
  "last_digest": "2026-10-16",
  "alert_day": "2026-10-14",
- "followers": 1,
+ "followers": 2,
  "promo": {
   "announced": false,
   "last_week": "",
-  "last_check": "2026-10-16"
+  "last_check": "2026-10-17"
  },
  "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
@@ -566,8 +574,8 @@
  "q_index": 2,
  "last_question": "2026-10-16",
  "sindh_single": {
-  "date": "2026-10-16",
-  "count": 3,
+  "date": "2026-10-17",
+  "count": 0,
   "last": 1792168944.4804955,
   "used": [
    "f0e315bbf5358e4c",
@@ -581,17 +589,8 @@
    "4b9e07303ba052ff"
   ]
  },
- "last_post_id": "1444130002106066_122108705949503839",
+ "last_post_id": "1444130002106066_122108737479503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122107989927503839",
-   "title": "پاڪستان ٽيلي ڪميونيڪيشن اٿارٽي شهرين لاءِ ڪالز ۽ انٽرنيٽ جي معيار کي بهتر بڻائڻ لاءِ اهم",
-   "t": 1792124474.972338,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122107989927503839"
-  },
   {
    "id": "1444130002106066_122107999965503839",
    "title": "تز رفتار بالر نسيم شاھ اوڊيائي ٽاءِ سيريز ۾ بهترين پرفارمنس ڏيڻ لاءِ پراميد آهي",
@@ -864,6 +863,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108705949503839"
+  },
+  {
+   "id": "1444130002106066_122108737479503839",
+   "title": "شاهين شاهه آفريدي جي قيادت ۾ پاڪستان ڪرڪيٽ ٽيم گهرو ون ڊي ٽري سيريز لاءِ راولپنڊي ۾",
+   "t": 1792177562.142681,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108737479503839"
   }
  ],
  "share_sent": {
@@ -901,7 +909,7 @@
  ],
  "group_index": 0,
  "token_check": {
-  "time": "2026-10-16 00:01",
+  "time": "2026-10-17 00:06",
   "valid": true,
   "scopes": [
    "pages_show_list",
@@ -916,13 +924,13 @@
   "data_expires": 1799762892
  },
  "cricket_news": {
-  "date": "2026-10-16",
-  "count": 9,
-  "last": 1792151570.3461719
+  "date": "2026-10-17",
+  "count": 1,
+  "last": 1792177562.1423585
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 23:50",
+  "time": "2026-10-17 00:06",
   "items": 10,
   "sample": [
    "Bangladesh Women Under-19s 154/7 * v Sri Lanka Women Under-19s 158/6",
@@ -931,14 +939,14 @@
   ]
  },
  "agri_news": {
-  "date": "2026-10-16",
-  "count": 5,
+  "date": "2026-10-17",
+  "count": 0,
   "last": 1792140088.6687803
  },
  "all_posts": {
-  "date": "2026-10-16",
-  "count": 50,
-  "last": 1792174902.9025679
+  "date": "2026-10-17",
+  "count": 1,
+  "last": 1792177554.957251
  },
  "perf": {
   "posts": [
@@ -1499,12 +1507,18 @@
     "sec": "public_news",
     "cat": "technology",
     "t": 1792174911
+   },
+   {
+    "id": "1444130002106066_122108737479503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792177562
    }
   ]
  },
  "public_news": {
-  "date": "2026-10-16",
-  "count": 27,
+  "date": "2026-10-17",
+  "count": 0,
   "last": 1792174911.0707932
  },
  "trends": {
@@ -2474,16 +2488,12 @@
   "ai_ok": true
  },
  "ai_usage": {
-  "date": "2026-10-16",
-  "ok": 94,
-  "fail": 43,
-  "limit": 154
+  "date": "2026-10-17",
+  "ok": 5,
+  "fail": 2,
+  "limit": 18
  },
  "posted_heads": [
-  {
-   "h": "Govt raises petrol price by Rs1.20 per litre, reduces high-speed diesel rate by Re0.17 per litre",
-   "t": 1792009886
-  },
   {
    "h": "Rain-wind, thunderstorm occur across various parts of country; cause drop in temperature: PMD",
    "t": 1792012890
@@ -2799,10 +2809,14 @@
   {
    "h": "PTA Orders Telcos to Fix Network Issues",
    "t": 1792174911
+  },
+  {
+   "h": "Pakistan begin preparations for ODI tri-series under Shaheen Afridi",
+   "t": 1792177562
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 23:50",
+  "time": "2026-10-17 00:06",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2889,15 +2903,15 @@
   }
  },
  "article_diag": {
-  "date": "2026-10-16",
-  "tried": 16,
-  "decoded": 16,
-  "text": 15,
-  "story": 15
+  "date": "2026-10-17",
+  "tried": 1,
+  "decoded": 1,
+  "text": 1,
+  "story": 1
  },
- "ai_last_error": "23:21 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "00:05 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "models": [
    "gemini-flash-latest",
    "gemini-flash-lite-latest",
