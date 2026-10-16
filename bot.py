@@ -770,10 +770,25 @@ def discover_gemini_models():
                 found.append(name)
         found.sort(key=lambda n: ("preview" in n or "exp" in n, [-int(x) for x in re.findall(r"\d+", n)][:2]))
         log("gemini models mile:", found[:5])
-        return found[:4]
+        return found[:6]
     except Exception as e:
         log("gemini model list error:", e)
         return []
+
+
+def preferred_models():
+    """Roz ek dafa Google se chalne wale models ki list; behtar (flash, lite nahi) pehle, phir lite."""
+    d = S.setdefault("gemini_disc", {"date": "", "models": []})
+    if d["date"] != today() and GEMINI_KEY:
+        d["date"] = today()
+        found = discover_gemini_models()
+        if found:
+            d["models"] = found
+    pool = []
+    for m in list(d.get("models", [])) + list(CONFIG["gemini_models"]) + [S.get("gemini_model")]:
+        if m and m not in pool:
+            pool.append(m)
+    return sorted(pool, key=lambda n: "lite" in n)  # stable: lite aakhir mein
 
 
 def ai_count(kind):
@@ -823,7 +838,7 @@ def _ask_gemini(prompt, image=None, mime="image/jpeg"):
     parts = [{"text": prompt}]
     if image:
         parts.append({"inline_data": {"mime_type": mime, "data": base64.b64encode(image).decode()}})
-    models = list(CONFIG["gemini_models"]) + [S.get("gemini_model")]  # mazboot model pehle
+    models = preferred_models()  # mazboot (non-lite) model pehle
     tried = set()
     while True:
         for model in models:
