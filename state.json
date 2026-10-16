@@ -509,7 +509,10 @@
   "f8c81e299ae82b84": 1792178478.1285143,
   "d71f5e71022a1641": 1792178478.1285167,
   "5f31d8a90faece7b": 1792178478.1285176,
-  "7731f1bf393e0968": 1792178478.1286798
+  "7731f1bf393e0968": 1792178478.1286798,
+  "2051c7f5ec0fbd06": 1792179675.496618,
+  "2fe647c4209ca8d8": 1792179675.4966207,
+  "f5c8c6530e24c622": 1792179675.4968235
  },
  "pending": {},
  "queue": [],
@@ -527,7 +530,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-flash-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -593,18 +596,8 @@
    "4b9e07303ba052ff"
   ]
  },
- "last_post_id": "1444130002106066_122108746059503839",
+ "last_post_id": "1444130002106066_122108761737503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108008947503839",
-   "title": "کے پی کے اسکولوں کا سیفٹی سروے خیبرپختونخوا حکومت نے سرکاری اسکولوں کی عمارتوں کی ساختی",
-   "t": 1792126908.8855424,
-   "tags": [
-    "general",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108008947503839"
-  },
   {
    "id": "1444130002106066_122108018985503839",
    "title": "پراائيوٽائيزيشن کان اڳ آئي ايس سي او يونٽ 43 روپيا 54 پئسا تائين مهانگو ڪرڻ جي درخواست",
@@ -876,6 +869,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108746059503839"
+  },
+  {
+   "id": "1444130002106066_122108761737503839",
+   "title": "حڪومت طرفان زراعت ۽ ليو اسٽاڪ شعبي ۾ سڌارن بعد پاڪستان 70 ڪروڙ ڊالر گوشت برآمد ڪرڻ جو هدف",
+   "t": 1792179770.029533,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108761737503839"
   }
  ],
  "share_sent": {
@@ -934,7 +937,7 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 00:30",
+  "time": "2026-10-17 00:42",
   "items": 9,
   "sample": [
    "Limpopo 163/9 * v Border 166/3",
@@ -944,13 +947,13 @@
  },
  "agri_news": {
   "date": "2026-10-17",
-  "count": 0,
-  "last": 1792140088.6687803
+  "count": 1,
+  "last": 1792179770.0291631
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 2,
-  "last": 1792178491.5519292
+  "count": 3,
+  "last": 1792179761.3541248
  },
  "perf": {
   "posts": [
@@ -1523,6 +1526,12 @@
     "sec": "public_news",
     "cat": "transport_trade",
     "t": 1792178498
+   },
+   {
+    "id": "1444130002106066_122108761737503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1792179770
    }
   ]
  },
@@ -2499,15 +2508,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 6,
+  "ok": 9,
   "fail": 2,
-  "limit": 23
+  "limit": 33
  },
  "posted_heads": [
-  {
-   "h": "Shaheen, Babar join Pakistan squad for ODI tri-series",
-   "t": 1792015300
-  },
   {
    "h": "Govt to Announce Fair Wheat Prices Soon",
    "t": 1792017679
@@ -2823,10 +2828,14 @@
   {
    "h": "Pakistan, Lebanon seek deeper cooperation in key sectors",
    "t": 1792178498
+  },
+  {
+   "h": "Pakistan eyes $700 million meat export target as government launches sector overhaul",
+   "t": 1792179770
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 00:30",
+  "time": "2026-10-17 00:42",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2914,12 +2923,12 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 2,
-  "decoded": 1,
-  "text": 1,
-  "story": 1
+  "tried": 3,
+  "decoded": 2,
+  "text": 2,
+  "story": 2
  },
- "ai_last_error": "00:21 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "00:41 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
