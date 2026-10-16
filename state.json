@@ -450,7 +450,8 @@
   "1bed01417f9bad7c": 1792152686.2481232,
   "d9da2cef02020158": 1792153252.277096,
   "47009015c6787b6c": 1792153872.7405326,
-  "56026ed2e05f4354": 1792153872.7405355
+  "56026ed2e05f4354": 1792153872.7405355,
+  "e3cabfd01542d42b": 1792156876.9994662
  },
  "pending": {},
  "queue": [],
@@ -468,7 +469,7 @@
   "last_week": "",
   "last_check": "2026-10-16"
  },
- "gemini_model": "gemini-3.8-flash",
+ "gemini_model": "gemini-3.7-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -533,19 +534,8 @@
    "d14e975f0feafc8b"
   ]
  },
- "last_post_id": "1444130002106066_122108382333503839",
+ "last_post_id": "1444130002106066_122108419491503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122107790523503839",
-   "title": "پشاور ۾ ڇت πε ڪرڻ جي حادثي کان پوءِ ڪي پي حڪومت خانگي اسڪولن جي عمارتن جي چڪاس لاءِ ضلعي",
-   "t": 1792103496.997668,
-   "tags": [
-    "education",
-    "general",
-    "jobs"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122107790523503839"
-  },
   {
    "id": "1444130002106066_122107813869503839",
    "title": "پنجاب جي مارڪيٽن ۾ چار لک کان وڌيڪ ڪڻڪ جون ٻوريون پهچايون ويون آهن",
@@ -818,6 +808,15 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108297193503839"
+  },
+  {
+   "id": "1444130002106066_122108419491503839",
+   "title": "نومبر جي مهيني ۾ بجلي جي وڌيل اگهن سبب صارفين کي وڏا بل ادا ڪرڻا پوندا",
+   "t": 1792156941.5749645,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108419491503839"
   }
  ],
  "share_sent": {
@@ -872,12 +871,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-16 18:10",
+  "time": "2026-10-16 18:22",
   "items": 8,
   "sample": [
    "Bangladesh Women Under-19s 154/7 * v Sri Lanka Women Under-19s 158/6",
-   "Limpopo 31/3 * v Border 166/3",
-   "South Western Districts 68/10 v Warriors 27/1 *"
+   "Limpopo 45/4 * v Border 166/3",
+   "South Western Districts 68/10 v Warriors 56/1 *"
   ]
  },
  "agri_news": {
@@ -887,8 +886,8 @@
  },
  "all_posts": {
   "date": "2026-10-16",
-  "count": 39,
-  "last": 1792155722.7862422
+  "count": 40,
+  "last": 1792156935.5297122
  },
  "perf": {
   "posts": [
@@ -1389,13 +1388,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792151570
+   },
+   {
+    "id": "1444130002106066_122108419491503839",
+    "sec": "public_news",
+    "cat": "electricity_gas",
+    "t": 1792156941
    }
   ]
  },
  "public_news": {
   "date": "2026-10-16",
-  "count": 18,
-  "last": 1792147991.4866335
+  "count": 19,
+  "last": 1792156941.5744944
  },
  "trends": {
   "last": 1792149649.6092386,
@@ -2253,9 +2258,9 @@
  },
  "ai_usage": {
   "date": "2026-10-16",
-  "ok": 71,
-  "fail": 37,
-  "limit": 38
+  "ok": 73,
+  "fail": 38,
+  "limit": 45
  },
  "posted_heads": [
   {
@@ -2549,10 +2554,14 @@
   {
    "h": "Babar Azam has been named captain of the Pakistan Test side too Getty Images",
    "t": 1792151570
+  },
+  {
+   "h": "Here’s How High Electricity Bills You Will Pay in November",
+   "t": 1792156941
   }
  ],
  "last_errors": {
-  "time": "2026-10-16 18:10",
+  "time": "2026-10-16 18:22",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -2640,12 +2649,12 @@
  },
  "article_diag": {
   "date": "2026-10-16",
-  "tried": 7,
-  "decoded": 7,
-  "text": 7,
-  "story": 7
+  "tried": 8,
+  "decoded": 8,
+  "text": 8,
+  "story": 8
  },
- "ai_last_error": "18:01 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "18:21 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-16",
   "models": [
