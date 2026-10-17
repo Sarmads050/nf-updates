@@ -635,7 +635,8 @@
   "90d97e0aac57a5c4": 1792235449.2072563,
   "d432117291ffb83e": 1792236660.8418603,
   "333e3f4b7027376e": 1792236660.8420775,
-  "822e526a896357d1": 1792239656.263269
+  "822e526a896357d1": 1792239656.263269,
+  "1d498818dc67fc60": 1792240262.7005877
  },
  "pending": {},
  "queue": [],
@@ -663,7 +664,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-3.7-flash",
+ "gemini_model": "gemini-flash-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -730,17 +731,8 @@
    "d5b12ad3565907b8"
   ]
  },
- "last_post_id": "1444130002106066_122109332661503839",
+ "last_post_id": "1444130002106066_122109390741503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108839173503839",
-   "title": "پاڪستان ڪرڪيٽ ٽيم جي بيٽنگ ڪոչ مائیکل سمٿ ميچن کان اڳ رانديگرن تي زور ڏنو آهي تہ هو مختلف",
-   "t": 1792187478.1481073,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108839173503839"
-  },
   {
    "id": "1444130002106066_122108863797503839",
    "title": "پاڪستان ۾ ڪڻڪ جي پيداوار وڌائڻ ۽ زرعي شعبي کي بهتر ڪرڻ لاءِ اداري سان ويجهڙا لاڳاپا قائم",
@@ -1013,6 +1005,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109332661503839"
+  },
+  {
+   "id": "1444130002106066_122109390741503839",
+   "title": "بئنڪنگ پابندين ۽ مالي ڏکياين سبب ايران مان پاڪستان ڏانهن مختلف شين جي روانگي بند ٿيڻ جو",
+   "t": 1792240298.1636124,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109390741503839"
   }
  ],
  "share_sent": {
@@ -1079,12 +1080,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 17:20",
+  "time": "2026-10-17 17:31",
   "items": 6,
   "sample": [
    "South Australia 397/7 v Queensland 271/10 *",
-   "Canada 256/10 v Nepal 195/6 *",
-   "Afghanistan Under-19s 132/5 * v Bangladesh Under-19s 250/8"
+   "Canada 256/10 v Nepal 216/7 *",
+   "Afghanistan Under-19s 139/5 * v Bangladesh Under-19s 250/8"
   ]
  },
  "agri_news": {
@@ -1094,8 +1095,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 37,
-  "last": 1792236685.4197118
+  "count": 38,
+  "last": 1792240288.4397514
  },
  "perf": {
   "posts": [
@@ -1860,13 +1861,19 @@
     "sec": "public_news",
     "cat": "dollar_gold_business",
     "t": 1792236688
+   },
+   {
+    "id": "1444130002106066_122109390741503839",
+    "sec": "public_news",
+    "cat": "transport_trade",
+    "t": 1792240298
    }
   ]
  },
  "public_news": {
   "date": "2026-10-17",
-  "count": 19,
-  "last": 1792236688.7712524
+  "count": 20,
+  "last": 1792240298.163168
  },
  "trends": {
   "last": 1792238461.1819074,
@@ -3108,15 +3115,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 88,
+  "ok": 90,
   "fail": 7,
   "limit": 158
  },
  "posted_heads": [
-  {
-   "h": "Pathum Nissanka ruled out of ODI tri-series featuring Pakistan, England",
-   "t": 1792073482
-  },
   {
    "h": "Teacher, 32 students killed in Peshawar school roof collapse",
    "t": 1792074678
@@ -3432,10 +3435,14 @@
   {
    "h": "Per Tola Gold Price drops to Rs439,036 amid Weak Global Trends",
    "t": 1792236688
+  },
+  {
+   "h": "Iran’s exports to Pakistan face possible halt over banking sanctions",
+   "t": 1792240298
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 17:20",
+  "time": "2026-10-17 17:31",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3523,10 +3530,10 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 33,
-  "decoded": 32,
-  "text": 27,
-  "story": 27
+  "tried": 34,
+  "decoded": 33,
+  "text": 28,
+  "story": 28
  },
  "ai_last_error": "17:20 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
