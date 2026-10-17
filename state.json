@@ -632,7 +632,9 @@
   "229355eb6957fa12": 1792234874.0514696,
   "ef5995ec5a6e38f8": 1792234874.05147,
   "2f12a8eb78425e6f": 1792234874.0516162,
-  "90d97e0aac57a5c4": 1792235449.2072563
+  "90d97e0aac57a5c4": 1792235449.2072563,
+  "d432117291ffb83e": 1792236660.8418603,
+  "333e3f4b7027376e": 1792236660.8420775
  },
  "pending": {},
  "queue": [],
@@ -660,7 +662,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-3.7-flash",
+ "gemini_model": "gemini-flash-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -727,19 +729,8 @@
    "d5b12ad3565907b8"
   ]
  },
- "last_post_id": "1444130002106066_122109310281503839",
+ "last_post_id": "1444130002106066_122109332661503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108821029503839",
-   "title": "ڇهين سيپيڪ ڪنسورشيم ڪانفرنس ۾ پاڪستان ۽ چين جي يونيورسٽين تعليمي ۽ علمي تعاون کي وڌيڪ هٿي",
-   "t": 1792185091.4058273,
-   "tags": [
-    "education",
-    "general",
-    "jobs"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108821029503839"
-  },
   {
    "id": "1444130002106066_122108839173503839",
    "title": "پاڪستان ڪرڪيٽ ٽيم جي بيٽنگ ڪոչ مائیکل سمٿ ميچن کان اڳ رانديگرن تي زور ڏنو آهي تہ هو مختلف",
@@ -1011,6 +1002,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109310281503839"
+  },
+  {
+   "id": "1444130002106066_122109332661503839",
+   "title": "عالمي مارڪيٽ ۾ لاٿ بعد پاڪستان ۾ في تولو سون جي قيمت ۾ گهٽتائي رڪارڊ ڪئي وئي آهي",
+   "t": 1792236688.7715652,
+   "tags": [
+    "business",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109332661503839"
   }
  ],
  "share_sent": {
@@ -1077,12 +1078,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 16:20",
+  "time": "2026-10-17 16:31",
   "items": 6,
   "sample": [
    "South Australia 397/7 v Queensland 271/10 *",
-   "Canada 256/10 v Nepal 130/3 *",
-   "Afghanistan Under-19s 80/2 * v Bangladesh Under-19s 250/8"
+   "Canada 256/10 v Nepal 137/4 *",
+   "Afghanistan Under-19s 91/2 * v Bangladesh Under-19s 250/8"
   ]
  },
  "agri_news": {
@@ -1092,8 +1093,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 36,
-  "last": 1792234902.7137203
+  "count": 37,
+  "last": 1792236685.4197118
  },
  "perf": {
   "posts": [
@@ -1852,13 +1853,19 @@
     "sec": "public_news",
     "cat": "electricity_gas",
     "t": 1792234908
+   },
+   {
+    "id": "1444130002106066_122109332661503839",
+    "sec": "public_news",
+    "cat": "dollar_gold_business",
+    "t": 1792236688
    }
   ]
  },
  "public_news": {
   "date": "2026-10-17",
-  "count": 18,
-  "last": 1792234908.2238197
+  "count": 19,
+  "last": 1792236688.7712524
  },
  "trends": {
   "last": 1792227659.6094563,
@@ -3028,15 +3035,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 83,
+  "ok": 85,
   "fail": 7,
   "limit": 154
  },
  "posted_heads": [
-  {
-   "h": "Pakistan tightens net on Fake Drugs with Mandatory 2D Barcodes",
-   "t": 1792071681
-  },
   {
    "h": "Pathum Nissanka ruled out of ODI tri-series featuring Pakistan, England",
    "t": 1792073482
@@ -3352,10 +3355,14 @@
   {
    "h": "Pakistan has enough energy supplies to last through November, planning for winter spike: Aurangzeb",
    "t": 1792234908
+  },
+  {
+   "h": "Per Tola Gold Price drops to Rs439,036 amid Weak Global Trends",
+   "t": 1792236688
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 16:20",
+  "time": "2026-10-17 16:31",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3443,10 +3450,10 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 32,
-  "decoded": 31,
-  "text": 26,
-  "story": 26
+  "tried": 33,
+  "decoded": 32,
+  "text": 27,
+  "story": 27
  },
  "ai_last_error": "16:01 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
