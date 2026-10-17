@@ -696,7 +696,17 @@
   "56b59581a5d55891": 1792272056.922889,
   "4187f883f181af71": 1792272056.9228897,
   "5244a66ef9b8f6d8": 1792272056.922891,
-  "04286fa66f872a17": 1792272056.92308
+  "04286fa66f872a17": 1792272056.92308,
+  "28d98c69589ca2b5": 1792274473.0376253,
+  "d46375c160513ccb": 1792274473.037628,
+  "bbbbce4195754791": 1792274473.0376291,
+  "7565ef91c0860ef7": 1792274473.0376296,
+  "7f35fd962fd1f547": 1792274473.0376306,
+  "58f46060336341c2": 1792274473.0376315,
+  "99df11d4da930d32": 1792274473.0376325,
+  "dca9c771e99eace2": 1792274473.037633,
+  "3900fdaaf6306e23": 1792274473.0376344,
+  "cf868772d5f48a0e": 1792274473.0377529
  },
  "pending": {},
  "queue": [],
@@ -724,7 +734,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-3.7-flash",
+ "gemini_model": "gemini-3.5-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -792,18 +802,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122109750219503839",
+ "last_post_id": "1444130002106066_122109774087503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109083955503839",
-   "title": "ملڪ ۾ بجلي 2 رپيا 56 پئسا في يونٽ وڌيڪ مھانگي ٿيڻ جو امڪان سي پي پي اي پاران سيپٽمبر جي",
-   "t": 1792213609.2936795,
-   "tags": [
-    "general",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109083955503839"
-  },
   {
    "id": "1444130002106066_122109091317503839",
    "title": "موسميات کاتي موجب پنجاب جي شهر ليہ ۽ ان جي آسپاس جي علائقن ۾ 5.0 شدت جو زلزلو رڪارڊ ڪيو",
@@ -1076,6 +1076,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109750219503839"
+  },
+  {
+   "id": "1444130002106066_122109774087503839",
+   "title": "پاڪستان ڪرڪيٽ ٽيم شري لنڪا خلاف شروعاتي ميچ ۾ سٺي ڪارڪردگي ڏيکارڻ لاءِ پراميد آهي",
+   "t": 1792274506.7783399,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109774087503839"
   }
  ],
  "share_sent": {
@@ -1141,8 +1150,8 @@
  },
  "cricket_news": {
   "date": "2026-10-18",
-  "count": 1,
-  "last": 1792264297.5661843
+  "count": 2,
+  "last": 1792274506.7780304
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -1156,7 +1165,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 02:50",
+  "time": "2026-10-18 03:01",
   "items": 26,
   "sample": [
    "Bangladesh 172/10 * v Zimbabwe 271/8",
@@ -1171,8 +1180,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 5,
-  "last": 1792272113.6640015
+  "count": 6,
+  "last": 1792274501.0214558
  },
  "perf": {
   "posts": [
@@ -2015,6 +2024,12 @@
     "sec": "public_news",
     "cat": "transport_trade",
     "t": 1792272119
+   },
+   {
+    "id": "1444130002106066_122109774087503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792274506
    }
   ]
  },
@@ -3495,15 +3510,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 11,
+  "ok": 14,
   "fail": 0,
-  "limit": 22
+  "limit": 36
  },
  "posted_heads": [
-  {
-   "h": "KP Forms District Committees to Inspect Private School Buildings After Peshawar Roof Collapse",
-   "t": 1792103497
-  },
   {
    "h": "Punjab markets receive 471,319 flour bags",
    "t": 1792105879
@@ -3819,10 +3830,14 @@
   {
    "h": "Pakistan suspends Iran trade corridors of Gabd-Rimdan, Taftan",
    "t": 1792272120
+  },
+  {
+   "h": "Pakistan seek solid start against Sri Lanka",
+   "t": 1792274507
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 02:50",
+  "time": "2026-10-18 03:01",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3910,12 +3925,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 5,
-  "decoded": 5,
-  "text": 5,
-  "story": 5
+  "tried": 6,
+  "decoded": 6,
+  "text": 6,
+  "story": 6
  },
- "ai_last_error": "02:20 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "03:01 gemini-3.6-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
