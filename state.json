@@ -686,7 +686,17 @@
   "988d7b80d71c03e5": 1792266659.542965,
   "c25ca2e532181af5": 1792266659.5431426,
   "141e2452bf5bc5ea": 1792269057.9520664,
-  "1ce5adb0fa4ad895": 1792269057.9523072
+  "1ce5adb0fa4ad895": 1792269057.9523072,
+  "572d80866208e959": 1792272056.9228818,
+  "5cd4213d1d7afb77": 1792272056.9228852,
+  "1978294f7546638b": 1792272056.9228861,
+  "4850ae557af814cb": 1792272056.9228868,
+  "b061fcb12a2b4df0": 1792272056.9228876,
+  "12ac4bb752696a4e": 1792272056.9228885,
+  "56b59581a5d55891": 1792272056.922889,
+  "4187f883f181af71": 1792272056.9228897,
+  "5244a66ef9b8f6d8": 1792272056.922891,
+  "04286fa66f872a17": 1792272056.92308
  },
  "pending": {},
  "queue": [],
@@ -714,7 +724,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-3.8-flash",
+ "gemini_model": "gemini-3.7-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -782,18 +792,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122109723141503839",
+ "last_post_id": "1444130002106066_122109750219503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109070197503839",
-   "title": "موسميات کاتي پاران ڪراچي سميت سنڌ جي مختلف ضلعن ۾ برسات جو امڪان ظاهر ڪيو ويو آهي، جنهن",
-   "t": 1792212680.3406997,
-   "tags": [
-    "general",
-    "local"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109070197503839"
-  },
   {
    "id": "1444130002106066_122109083955503839",
    "title": "ملڪ ۾ بجلي 2 رپيا 56 پئسا في يونٽ وڌيڪ مھانگي ٿيڻ جو امڪان سي پي پي اي پاران سيپٽمبر جي",
@@ -1067,6 +1067,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109723141503839"
+  },
+  {
+   "id": "1444130002106066_122109750219503839",
+   "title": "پاڪستان ايران سان گبد رمدان ۽ تفتاڻ واريون سرحدي تجارتي راهداريون معطل ڪري ڇڏيون آهن",
+   "t": 1792272119.931737,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109750219503839"
   }
  ],
  "share_sent": {
@@ -1147,7 +1156,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 02:10",
+  "time": "2026-10-18 02:22",
   "items": 27,
   "sample": [
    "Bangladesh 172/10 * v Zimbabwe 271/8",
@@ -1162,8 +1171,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 4,
-  "last": 1792269104.9043958
+  "count": 5,
+  "last": 1792272113.6640015
  },
  "perf": {
   "posts": [
@@ -2000,13 +2009,19 @@
     "sec": "public_news",
     "cat": "dollar_gold_business",
     "t": 1792269110
+   },
+   {
+    "id": "1444130002106066_122109750219503839",
+    "sec": "public_news",
+    "cat": "transport_trade",
+    "t": 1792272119
    }
   ]
  },
  "public_news": {
   "date": "2026-10-18",
-  "count": 2,
-  "last": 1792269110.54303
+  "count": 3,
+  "last": 1792272119.931368
  },
  "trends": {
   "last": 1792271449.918901,
@@ -3480,15 +3495,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 9,
+  "ok": 11,
   "fail": 0,
-  "limit": 17
+  "limit": 22
  },
  "posted_heads": [
-  {
-   "h": "Pakistan ODI squad begins preparations for tri-series",
-   "t": 1792101066
-  },
   {
    "h": "KP Forms District Committees to Inspect Private School Buildings After Peshawar Roof Collapse",
    "t": 1792103497
@@ -3804,10 +3815,14 @@
   {
    "h": "Cement and steel rates stabilize in Pakistan amid rising inflation",
    "t": 1792269110
+  },
+  {
+   "h": "Pakistan suspends Iran trade corridors of Gabd-Rimdan, Taftan",
+   "t": 1792272120
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 02:10",
+  "time": "2026-10-18 02:22",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3895,12 +3910,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 4,
-  "decoded": 4,
-  "text": 4,
-  "story": 4
+  "tried": 5,
+  "decoded": 5,
+  "text": 5,
+  "story": 5
  },
- "ai_last_error": "02:10 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "02:20 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
