@@ -654,7 +654,9 @@
   "adb6dc5464e2e2c5": 1792249268.4020972,
   "ab8cba435e775f30": 1792249268.4021003,
   "22c295b7d20981c1": 1792249268.4023209,
-  "6e7f36a52f7653f1": 1792254046.385838
+  "6e7f36a52f7653f1": 1792254046.385838,
+  "88d75250eb688a8f": 1792255254.4323797,
+  "693e2b0aed48a9af": 1792255282.5031962
  },
  "pending": {},
  "queue": [],
@@ -682,7 +684,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-flash-latest",
+ "gemini_model": "gemini-3.7-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -734,8 +736,8 @@
  "last_question": "2026-10-16",
  "sindh_single": {
   "date": "2026-10-17",
-  "count": 1,
-  "last": 1792247464.593242,
+  "count": 2,
+  "last": 1792255267.725888,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -746,20 +748,12 @@
    "5b8674ee554058c8",
    "d14e975f0feafc8b",
    "4b9e07303ba052ff",
-   "d5b12ad3565907b8"
+   "d5b12ad3565907b8",
+   "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122109500031503839",
+ "last_post_id": "1444130002106066_122109570237503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108958621503839",
-   "title": "پاڪستان ٽيلي ڪميونيڪيشن اٿارٽي (پي ٽي اي) گوگل ڪروم واپرائيندڙن کي سنگين سيڪيورٽي خطرن",
-   "t": 1792200087.2293553,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108958621503839"
-  },
   {
    "id": "1444130002106066_122108970981503839",
    "title": "پاڪستان ۽ آسٽريليا وچ ۾ رٿيل ٽيسٽ سيريز جي ميچن جو شيڊول باضابطا طور جاري ڪيو ويو آهي",
@@ -1032,6 +1026,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109500031503839"
+  },
+  {
+   "id": "1444130002106066_122109570237503839",
+   "title": "شاهه عبداللطيف يونيورسٽي پاران نوشهرو فيروز ۽ مورو سميت لاڳاپيل ڪاليجن جون سوين ايل ايل",
+   "t": 1792255295.1616175,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109570237503839"
   }
  ],
  "share_sent": {
@@ -1102,12 +1106,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 21:30",
+  "time": "2026-10-17 21:41",
   "items": 8,
   "sample": [
    "Canada 256/10 v Nepal 232/10 *",
    "Afghanistan Under-19s 217/10 * v Bangladesh Under-19s 250/8",
-   "Bangladesh 48/1 * v Zimbabwe 271/8"
+   "Bangladesh 55/1 * v Zimbabwe 271/8"
   ]
  },
  "agri_news": {
@@ -1117,8 +1121,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 42,
-  "last": 1792249294.0637844
+  "count": 43,
+  "last": 1792255288.39605
  },
  "perf": {
   "posts": [
@@ -1907,6 +1911,12 @@
     "sec": "public_news",
     "cat": "electricity_gas",
     "t": 1792249298
+   },
+   {
+    "id": "1444130002106066_122109570237503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1792255288
    }
   ]
  },
@@ -3235,9 +3245,9 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 99,
+  "ok": 101,
   "fail": 7,
-  "limit": 164
+  "limit": 166
  },
  "posted_heads": [
   {
@@ -3562,7 +3572,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 21:30",
+  "time": "2026-10-17 21:41",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3655,7 +3665,7 @@
   "text": 30,
   "story": 30
  },
- "ai_last_error": "19:31 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "21:41 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
