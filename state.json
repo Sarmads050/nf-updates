@@ -588,7 +588,10 @@
   "cfcde520d2965906": 1792218671.1326828,
   "c8a108b2b675a940": 1792218671.1326854,
   "5e7b361e7def8ca3": 1792219256.1479113,
-  "f0e5b1e6fb6f0249": 1792219256.1481023
+  "f0e5b1e6fb6f0249": 1792219256.1481023,
+  "0f286d14e3af2390": 1792220478.9405262,
+  "45961e75c1d72044": 1792220478.9405286,
+  "4287da779ac85c36": 1792220478.9406767
  },
  "pending": {},
  "queue": [],
@@ -606,7 +609,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-flash-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -673,18 +676,8 @@
    "d5b12ad3565907b8"
   ]
  },
- "last_post_id": "1444130002106066_122109136707503839",
+ "last_post_id": "1444130002106066_122109153879503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108489091503839",
-   "title": "پاڪستان ۾ سون جي قيمت چواليهه لک هزار روپين کان مٿي پهچي وئي جڏهن ته چاندي پڻ نئون رڪارڊ",
-   "t": 1792162302.1399434,
-   "tags": [
-    "business",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108489091503839"
-  },
   {
    "id": "1444130002106066_122108572287503839",
    "title": "پاڪستان جي برآمدي صلاحيت کي وڌائڻ ۽ هٿي ڏيڻ لاءِ پائڊ پاران ڇهن نڪتن تي ٻڌل نئون روڊ ميپ",
@@ -958,6 +951,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109136707503839"
+  },
+  {
+   "id": "1444130002106066_122109153879503839",
+   "title": "عورتن جي ٽي ٽوئنٽي ورلڊ ڪپ جي ميچ ۾ آسٽريليا پاڪستان کي 9 وڪيٽن تان هارائي ڇڏيو آهي جڏهن",
+   "t": 1792220509.9214728,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109153879503839"
   }
  ],
  "share_sent": {
@@ -1015,17 +1017,17 @@
  },
  "cricket_news": {
   "date": "2026-10-17",
-  "count": 6,
-  "last": 1792217489.8176868
+  "count": 7,
+  "last": 1792220509.9212065
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 11:50",
+  "time": "2026-10-17 12:01",
   "items": 6,
   "sample": [
-   "South Australia 397/7 v Queensland 248/8 *",
-   "Canada 93/1 * v Nepal",
-   "Afghanistan Under-19s v Bangladesh Under-19s 77/2 *"
+   "South Australia 397/7 v Queensland 268/9 *",
+   "Canada 104/1 * v Nepal",
+   "Afghanistan Under-19s v Bangladesh Under-19s 92/2 *"
   ]
  },
  "agri_news": {
@@ -1035,8 +1037,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 25,
-  "last": 1792219294.6032054
+  "count": 26,
+  "last": 1792220504.8237028
  },
  "perf": {
   "posts": [
@@ -1729,6 +1731,12 @@
     "sec": "public_news",
     "cat": "dollar_gold_business",
     "t": 1792219302
+   },
+   {
+    "id": "1444130002106066_122109153879503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792220509
    }
   ]
  },
@@ -2881,15 +2889,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 58,
+  "ok": 60,
   "fail": 2,
   "limit": 139
  },
  "posted_heads": [
-  {
-   "h": "Economic instability, food inflation and climate shocks worsen hunger in Pakistan, ranks 106th globally",
-   "t": 1792054275
-  },
   {
    "h": "Cricket match squads | PAKW vs BANW, Bronze Medal Match, Women's Asian Games 2026",
    "t": 1792055468
@@ -3205,10 +3209,14 @@
   {
    "h": "Gold Price in Pakistan Increases by Rs. 2,200 on Saturday",
    "t": 1792219302
+  },
+  {
+   "h": "Women T20 World Cup: Australia Defeats Pakistan by 9 Wickets",
+   "t": 1792220510
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 11:50",
+  "time": "2026-10-17 12:01",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3296,10 +3304,10 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 21,
-  "decoded": 20,
-  "text": 17,
-  "story": 17
+  "tried": 22,
+  "decoded": 21,
+  "text": 18,
+  "story": 18
  },
  "ai_last_error": "11:40 gemini-3.7-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
