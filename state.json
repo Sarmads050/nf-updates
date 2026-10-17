@@ -568,7 +568,13 @@
   "fd0c9996babb5909": 1792209058.606575,
   "17c7be4389a5e285": 1792209058.606576,
   "1a8a336c7992bc87": 1792209058.6065764,
-  "d9d92b4d3249808b": 1792209058.606831
+  "d9d92b4d3249808b": 1792209058.606831,
+  "4197f0ce3cf3ad5b": 1792210856.4705493,
+  "029203729f274b0d": 1792210856.4705527,
+  "a19be07f21c68efc": 1792210856.470554,
+  "5582f788567cc00f": 1792210856.4705553,
+  "434e2fb646328f1c": 1792210856.4705565,
+  "4804aaa3d2197538": 1792210856.470777
  },
  "pending": {},
  "queue": [],
@@ -652,17 +658,8 @@
    "4b9e07303ba052ff"
   ]
  },
- "last_post_id": "1444130002106066_122109041649503839",
+ "last_post_id": "1444130002106066_122109049977503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108230761503839",
-   "title": "پاڪستان ڪرڪيٽ بورڊ فخر زمان کي غلط طريقي سان آئوٽ قرار ڏيڻ واري معاملي تي امپائر خلاف",
-   "t": 1792146801.6673667,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108230761503839"
-  },
   {
    "id": "1444130002106066_122108244699503839",
    "title": "نائب وزيراعظم ۽ پرڏيهي وزير اسحاق ڊار پرڏيهي وزارت جي اهم اختيارين سان ملاقات ڪئي",
@@ -934,6 +931,15 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109041649503839"
+  },
+  {
+   "id": "1444130002106066_122109049977503839",
+   "title": "حڪومت ايم ايل ون ريلوي رٿا ۽ آرٽيفيشل انٽيليجنس پروگرام جي مالي مدد لاءِ ورلڊ بئنڪ گروپ",
+   "t": 1792210892.4149907,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109049977503839"
   }
  ],
  "share_sent": {
@@ -992,10 +998,10 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 09:10",
+  "time": "2026-10-17 09:21",
   "items": 6,
   "sample": [
-   "South Australia 397/7 * v Queensland",
+   "South Australia 397/7 v Queensland 4 *",
    "Canada v Nepal",
    "Afghanistan Under-19s v Bangladesh Under-19s"
   ]
@@ -1007,8 +1013,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 18,
-  "last": 1792209677.2944794
+  "count": 19,
+  "last": 1792210886.9929934
  },
  "perf": {
   "posts": [
@@ -1659,13 +1665,19 @@
     "sec": "public_news",
     "cat": "budget_tax_imf",
     "t": 1792209092
+   },
+   {
+    "id": "1444130002106066_122109049977503839",
+    "sec": "public_news",
+    "cat": "transport_trade",
+    "t": 1792210892
    }
   ]
  },
  "public_news": {
   "date": "2026-10-17",
-  "count": 7,
-  "last": 1792209092.0305068
+  "count": 8,
+  "last": 1792210892.4145777
  },
  "trends": {
   "last": 1792205453.0524569,
@@ -2771,15 +2783,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 40,
+  "ok": 42,
   "fail": 2,
   "limit": 109
  },
  "posted_heads": [
-  {
-   "h": "Pakistan water woes offer a test for startup Paani+",
-   "t": 1792043460
-  },
   {
    "h": "DISCOs tariffs: Export industries oppose proposed hike",
    "t": 1792044675
@@ -3095,10 +3103,14 @@
   {
    "h": "Pakistan to chair IMF, World Bank boards of governors after 74 years",
    "t": 1792209092
+  },
+  {
+   "h": "Govt seeks WBG funds for ML-1, AI programme",
+   "t": 1792210892
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 09:10",
+  "time": "2026-10-17 09:21",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3186,10 +3198,10 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 15,
-  "decoded": 14,
-  "text": 11,
-  "story": 11
+  "tried": 16,
+  "decoded": 15,
+  "text": 12,
+  "story": 12
  },
  "ai_last_error": "08:40 gemini-3.7-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
