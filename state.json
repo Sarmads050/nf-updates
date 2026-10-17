@@ -578,7 +578,8 @@
   "7444d553e44f7d87": 1792212058.780716,
   "83ca43387e26c76b": 1792212071.5165193,
   "e5716ae997ba2655": 1792212653.4106061,
-  "a19e1b8527549279": 1792212653.4107618
+  "a19e1b8527549279": 1792212653.4107618,
+  "d5b12ad3565907b8": 1792213592.0164642
  },
  "pending": {},
  "queue": [],
@@ -596,7 +597,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-3.8-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -648,8 +649,8 @@
  "last_question": "2026-10-16",
  "sindh_single": {
   "date": "2026-10-17",
-  "count": 0,
-  "last": 1792204874.0520048,
+  "count": 1,
+  "last": 1792213580.5169857,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -659,20 +660,12 @@
    "6c5471bdad68c980",
    "5b8674ee554058c8",
    "d14e975f0feafc8b",
-   "4b9e07303ba052ff"
+   "4b9e07303ba052ff",
+   "d5b12ad3565907b8"
   ]
  },
- "last_post_id": "1444130002106066_122109070197503839",
+ "last_post_id": "1444130002106066_122109083955503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108276115503839",
-   "title": "سنڌي ٻولي دنيا جي قديم ترين ٻولين مان هڪ آهي، جيڪا ڪنهن هڪ شخص يا گروهه ناهي ٺاهي پر قديم",
-   "t": 1792150273.9120805,
-   "tags": [
-    "local"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108276115503839"
-  },
   {
    "id": "1444130002106066_122108297193503839",
    "title": "بابر اعظم کي پاڪستان جي ٽيسٽ ڪرڪيٽ ٽيم جو نئون ڪپتان مقرر ڪيو ويو آهي، جنهن کانپوءِ هو",
@@ -945,6 +938,16 @@
     "local"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109070197503839"
+  },
+  {
+   "id": "1444130002106066_122109083955503839",
+   "title": "ملڪ ۾ بجلي 2 رپيا 56 پئسا في يونٽ وڌيڪ مھانگي ٿيڻ جو امڪان سي پي پي اي پاران سيپٽمبر جي",
+   "t": 1792213609.2936795,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109083955503839"
   }
  ],
  "share_sent": {
@@ -1003,10 +1006,10 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 10:01",
+  "time": "2026-10-17 10:06",
   "items": 6,
   "sample": [
-   "South Australia 397/7 v Queensland 72/3 *",
+   "South Australia 397/7 v Queensland 78/4 *",
    "Canada v Nepal",
    "Afghanistan Under-19s v Bangladesh Under-19s"
   ]
@@ -1018,8 +1021,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 20,
-  "last": 1792212671.0815954
+  "count": 21,
+  "last": 1792213605.3016334
  },
  "perf": {
   "posts": [
@@ -1682,6 +1685,12 @@
     "sec": "public_news",
     "cat": "weather_disaster",
     "t": 1792212680
+   },
+   {
+    "id": "1444130002106066_122109083955503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1792213605
    }
   ]
  },
@@ -2794,9 +2803,9 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 47,
+  "ok": 48,
   "fail": 2,
-  "limit": 125
+  "limit": 126
  },
  "posted_heads": [
   {
@@ -3121,7 +3130,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 10:01",
+  "time": "2026-10-17 10:06",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3214,7 +3223,7 @@
   "text": 13,
   "story": 13
  },
- "ai_last_error": "09:50 gemini-3.7-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "10:06 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
