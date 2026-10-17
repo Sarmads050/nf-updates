@@ -558,7 +558,17 @@
   "ca6f33085f3578bc": 1792206661.6618369,
   "cb124f410030722d": 1792207241.9401212,
   "fd2f0f1be4482ece": 1792208453.4819083,
-  "95e1609ef8b57582": 1792208453.4819107
+  "95e1609ef8b57582": 1792208453.4819107,
+  "e58262fd79365fd5": 1792209058.6065671,
+  "846185897328b284": 1792209058.6065698,
+  "0342d5f51c8229ad": 1792209058.606571,
+  "964617797753a46f": 1792209058.6065717,
+  "1e08b140f3b89b5a": 1792209058.6065729,
+  "5fead0f1973195c5": 1792209058.606574,
+  "fd0c9996babb5909": 1792209058.606575,
+  "17c7be4389a5e285": 1792209058.606576,
+  "1a8a336c7992bc87": 1792209058.6065764,
+  "d9d92b4d3249808b": 1792209058.606831
  },
  "pending": {},
  "queue": [],
@@ -586,7 +596,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-flash-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -652,17 +662,8 @@
    "4b9e07303ba052ff"
   ]
  },
- "last_post_id": "1444130002106066_122109012081503839",
+ "last_post_id": "1444130002106066_122109033957503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108188383503839",
-   "title": "پاڪستاني ڪرڪيٽر بابر اعظم پنهنجي 32 هين سالگرهه خاندان ۽ ويجهن دوستن سان گڏ ملهائي آهي",
-   "t": 1792143846.7457933,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108188383503839"
-  },
   {
    "id": "1444130002106066_122108201709503839",
    "title": "ڪي اليڪٽرڪ مالي سال 2026 دوران ترقياتي ڪمن لاءِ کوٽائي سبب تارن ۽ گرڊ کي پهچندڙ نقصان جي",
@@ -932,6 +933,15 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109012081503839"
+  },
+  {
+   "id": "1444130002106066_122109033957503839",
+   "title": "پاڪستان کي 74 سالن کانپوءِ آءِ ايم ايف ۽ عالمي بينڪ جي بورڊ آف گورنرز جو چيئرمين چونڊيو",
+   "t": 1792209092.0308418,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109033957503839"
   }
  ],
  "share_sent": {
@@ -990,10 +1000,10 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 08:40",
+  "time": "2026-10-17 08:51",
   "items": 6,
   "sample": [
-   "South Australia 394/7 * v Queensland",
+   "South Australia 397/7 * v Queensland",
    "Canada v Nepal",
    "Afghanistan Under-19s v Bangladesh Under-19s"
   ]
@@ -1005,8 +1015,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 16,
-  "last": 1792206683.7011962
+  "count": 17,
+  "last": 1792209084.912777
  },
  "perf": {
   "posts": [
@@ -1651,13 +1661,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792206689
+   },
+   {
+    "id": "1444130002106066_122109033957503839",
+    "sec": "public_news",
+    "cat": "budget_tax_imf",
+    "t": 1792209092
    }
   ]
  },
  "public_news": {
   "date": "2026-10-17",
-  "count": 6,
-  "last": 1792203683.9344242
+  "count": 7,
+  "last": 1792209092.0305068
  },
  "trends": {
   "last": 1792205453.0524569,
@@ -2763,15 +2779,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 38,
+  "ok": 40,
   "fail": 2,
   "limit": 109
  },
  "posted_heads": [
-  {
-   "h": "Aurangzeb meets IMF chief, briefs investors on Pakistan’s economy",
-   "t": 1792042265
-  },
   {
    "h": "Pakistan water woes offer a test for startup Paani+",
    "t": 1792043460
@@ -3087,10 +3099,14 @@
   {
    "h": "Shaheen Afridi and Ansha Celebrate First Nikkah Anniversary",
    "t": 1792206691
+  },
+  {
+   "h": "Pakistan to chair IMF, World Bank boards of governors after 74 years",
+   "t": 1792209092
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 08:40",
+  "time": "2026-10-17 08:51",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3178,10 +3194,10 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 14,
-  "decoded": 13,
-  "text": 10,
-  "story": 10
+  "tried": 15,
+  "decoded": 14,
+  "text": 11,
+  "story": 11
  },
  "ai_last_error": "08:40 gemini-3.7-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
