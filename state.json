@@ -603,7 +603,10 @@
   "e90853ac47244c03": 1792223460.5542305,
   "13a55ab938d4e1f1": 1792223460.554468,
   "c71aa7151d9dd619": 1792224665.744058,
-  "efeb26270a03c257": 1792224665.7442706
+  "efeb26270a03c257": 1792224665.7442706,
+  "70693d08032f9512": 1792225864.6522894,
+  "e89af9d8d583f6f6": 1792225914.3287513,
+  "f7a4e7f943aa8d58": 1792225914.3289542
  },
  "pending": {},
  "queue": [],
@@ -621,7 +624,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-3.8-flash",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -688,17 +691,8 @@
    "d5b12ad3565907b8"
   ]
  },
- "last_post_id": "1444130002106066_122109187617503839",
+ "last_post_id": "1444130002106066_122109209181503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108649141503839",
-   "title": "پيپلز پارٽي ۽ حڪومت وچ ۾ ايندڙ بجيٽ معاملن تي ڳالهيون بي نتيجا ختم ٿي ويون آهن ۽ ڪوبهڻ",
-   "t": 1792170101.1274195,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108649141503839"
-  },
   {
    "id": "1444130002106066_122108677971503839",
    "title": "پاڪستان کي سيپٽمبر 2026 ۾ 356 ملين ڊالرن جو موجوده حساب جو خسارو برداشت ڪرڻو پيو",
@@ -972,6 +966,16 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109187617503839"
+  },
+  {
+   "id": "1444130002106066_122109209181503839",
+   "title": "پاڪستان ۾ ڊئري شعبي جي سڌارن ذريعي برآمدات ٻه ارب ڊالر تائين پهچائڻ جو منصوبو تيار ڪيو",
+   "t": 1792225932.739714,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109209181503839"
   }
  ],
  "share_sent": {
@@ -1034,23 +1038,23 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 13:20",
+  "time": "2026-10-17 13:32",
   "items": 6,
   "sample": [
    "South Australia 397/7 v Queensland 271/10 *",
-   "Canada 219/4 * v Nepal",
-   "Afghanistan Under-19s v Bangladesh Under-19s 154/5 *"
+   "Canada 232/5 * v Nepal",
+   "Afghanistan Under-19s v Bangladesh Under-19s 169/5 *"
   ]
  },
  "agri_news": {
   "date": "2026-10-17",
-  "count": 3,
-  "last": 1792204933.1812756
+  "count": 4,
+  "last": 1792225932.7392735
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 29,
-  "last": 1792224697.4172678
+  "count": 30,
+  "last": 1792225927.740709
  },
  "perf": {
   "posts": [
@@ -1767,6 +1771,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792224704
+   },
+   {
+    "id": "1444130002106066_122109209181503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1792225932
    }
   ]
  },
@@ -2919,15 +2929,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 67,
-  "fail": 3,
-  "limit": 139
+  "ok": 69,
+  "fail": 7,
+  "limit": 141
  },
  "posted_heads": [
-  {
-   "h": "Naseem returns in Pakistan colours with hunger and wisdom in his stride",
-   "t": 1792060271
-  },
   {
    "h": "Peshawar school roof collapse kills 29, including 28 students",
    "t": 1792061468
@@ -3243,10 +3249,14 @@
   {
    "h": "PCB central contracts delayed",
    "t": 1792224704
+  },
+  {
+   "h": "Pakistan plans dairy reforms to boost exports to $2 billion",
+   "t": 1792225932
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 13:20",
+  "time": "2026-10-17 13:32",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3334,12 +3344,12 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 25,
-  "decoded": 24,
+  "tried": 26,
+  "decoded": 25,
   "text": 20,
   "story": 20
  },
- "ai_last_error": "13:11 gemini-flash-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "13:31 gemini-3.5-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
