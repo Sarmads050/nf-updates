@@ -580,7 +580,8 @@
   "e5716ae997ba2655": 1792212653.4106061,
   "a19e1b8527549279": 1792212653.4107618,
   "d5b12ad3565907b8": 1792213592.0164642,
-  "18aff71edd9bdf1f": 1792214476.9263902
+  "18aff71edd9bdf1f": 1792214476.9263902,
+  "813f818cd3db61ef": 1792216283.6612456
  },
  "pending": {},
  "queue": [],
@@ -598,7 +599,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-3.7-flash",
+ "gemini_model": "gemini-3.8-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -665,17 +666,8 @@
    "d5b12ad3565907b8"
   ]
  },
- "last_post_id": "1444130002106066_122109091317503839",
+ "last_post_id": "1444130002106066_122109106857503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108419491503839",
-   "title": "نومبر جي مهيني ۾ بجلي جي وڌيل اگهن سبب صارفين کي وڏا بل ادا ڪرڻا پوندا",
-   "t": 1792156941.5749645,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108419491503839"
-  },
   {
    "id": "1444130002106066_122108445603503839",
    "title": "عدالت يا لاڳاپيل اختيارين ايف بي آر کي شهرين جي بئنڪ رڪارڊ تائين سڌي پهچ حاصل ڪرڻ کان",
@@ -950,6 +942,15 @@
     "local"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109091317503839"
+  },
+  {
+   "id": "1444130002106066_122109106857503839",
+   "title": "عالمي رپورٽ موجب پاڪستان شديد بک ۽ غذائي کوٽ کي منهن ڏيندڙ دنيا جي ڏهن اهم ملڪن ۾ شامل ٿي",
+   "t": 1792216336.229479,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109106857503839"
   }
  ],
  "share_sent": {
@@ -1008,12 +1009,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 10:41",
+  "time": "2026-10-17 10:52",
   "items": 6,
   "sample": [
-   "South Australia 397/7 v Queensland 132/5 *",
-   "Canada 13 * v Nepal",
-   "Afghanistan Under-19s v Bangladesh Under-19s 5/1 *"
+   "South Australia 397/7 v Queensland 159/5 *",
+   "Canada 28 * v Nepal",
+   "Afghanistan Under-19s v Bangladesh Under-19s 13/1 *"
   ]
  },
  "agri_news": {
@@ -1023,8 +1024,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 22,
-  "last": 1792214499.7163522
+  "count": 23,
+  "last": 1792216330.1457472
  },
  "perf": {
   "posts": [
@@ -1699,13 +1700,19 @@
     "sec": "public_news",
     "cat": "weather_disaster",
     "t": 1792214505
+   },
+   {
+    "id": "1444130002106066_122109106857503839",
+    "sec": "public_news",
+    "cat": "health",
+    "t": 1792216336
    }
   ]
  },
  "public_news": {
   "date": "2026-10-17",
-  "count": 10,
-  "last": 1792214505.550744
+  "count": 11,
+  "last": 1792216336.2291155
  },
  "trends": {
   "last": 1792205453.0524569,
@@ -2811,15 +2818,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 50,
+  "ok": 52,
   "fail": 2,
-  "limit": 133
+  "limit": 134
  },
  "posted_heads": [
-  {
-   "h": "The Paradox of Women in Pakistan’s Agriculture",
-   "t": 1792047692
-  },
   {
    "h": "Seven Pakistan players join squad ahead of ODI tri-series",
    "t": 1792048876
@@ -3135,10 +3138,14 @@
   {
    "h": "5.0 Magnitude Earthquake Jolts Layyah, Punjab: PMD",
    "t": 1792214505
+  },
+  {
+   "h": "‘Pakistan among 10 states bearing brunt of hunger crisis’",
+   "t": 1792216336
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 10:41",
+  "time": "2026-10-17 10:52",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3226,12 +3233,12 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 18,
-  "decoded": 17,
-  "text": 14,
-  "story": 14
+  "tried": 19,
+  "decoded": 18,
+  "text": 15,
+  "story": 15
  },
- "ai_last_error": "10:21 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "10:51 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
