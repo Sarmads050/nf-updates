@@ -684,7 +684,9 @@
   "9df44f55c34a9936": 1792266659.5429537,
   "12b6dadaaf861a17": 1792266659.5429559,
   "988d7b80d71c03e5": 1792266659.542965,
-  "c25ca2e532181af5": 1792266659.5431426
+  "c25ca2e532181af5": 1792266659.5431426,
+  "141e2452bf5bc5ea": 1792269057.9520664,
+  "1ce5adb0fa4ad895": 1792269057.9523072
  },
  "pending": {},
  "queue": [],
@@ -712,7 +714,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-3.7-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -780,17 +782,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122109699855503839",
+ "last_post_id": "1444130002106066_122109723141503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109049977503839",
-   "title": "حڪومت ايم ايل ون ريلوي رٿا ۽ آرٽيفيشل انٽيليجنس پروگرام جي مالي مدد لاءِ ورلڊ بئنڪ گروپ",
-   "t": 1792210892.4149907,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109049977503839"
-  },
   {
    "id": "1444130002106066_122109070197503839",
    "title": "موسميات کاتي پاران ڪراچي سميت سنڌ جي مختلف ضلعن ۾ برسات جو امڪان ظاهر ڪيو ويو آهي، جنهن",
@@ -1064,6 +1057,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109699855503839"
+  },
+  {
+   "id": "1444130002106066_122109723141503839",
+   "title": "ملڪ ۾ هلندڙ مهانگائي دوران تعميراتي شعبي سان لاڳاپيل سيمنٽ ۽ اسٽيل جي قيمتن ۾ استحڪام ڏسڻ",
+   "t": 1792269110.5434556,
+   "tags": [
+    "business",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109723141503839"
   }
  ],
  "share_sent": {
@@ -1144,7 +1147,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 01:20",
+  "time": "2026-10-18 01:31",
   "items": 27,
   "sample": [
    "Bangladesh 172/10 * v Zimbabwe 271/8",
@@ -1159,8 +1162,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 3,
-  "last": 1792266682.010042
+  "count": 4,
+  "last": 1792269104.9043958
  },
  "perf": {
   "posts": [
@@ -1991,13 +1994,19 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1792266688
+   },
+   {
+    "id": "1444130002106066_122109723141503839",
+    "sec": "public_news",
+    "cat": "dollar_gold_business",
+    "t": 1792269110
    }
   ]
  },
  "public_news": {
   "date": "2026-10-18",
-  "count": 1,
-  "last": 1792265627.4748645
+  "count": 2,
+  "last": 1792269110.54303
  },
  "trends": {
   "last": 1792260644.8362465,
@@ -3391,15 +3400,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 6,
+  "ok": 8,
   "fail": 0,
-  "limit": 14
+  "limit": 16
  },
  "posted_heads": [
-  {
-   "h": "Pakistan seeks Alibaba cooperation for cashless economy, SME exports",
-   "t": 1792098678
-  },
   {
    "h": "Pakistan ODI squad begins preparations for tri-series",
    "t": 1792101066
@@ -3715,10 +3720,14 @@
   {
    "h": "Timely sowing key to higher chickpea yield in Punjab",
    "t": 1792266688
+  },
+  {
+   "h": "Cement and steel rates stabilize in Pakistan amid rising inflation",
+   "t": 1792269110
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 01:20",
+  "time": "2026-10-18 01:31",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3806,12 +3815,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 3,
-  "decoded": 3,
-  "text": 3,
-  "story": 3
+  "tried": 4,
+  "decoded": 4,
+  "text": 4,
+  "story": 4
  },
- "ai_last_error": "00:51 gemini-3.7-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "01:30 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
