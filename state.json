@@ -606,7 +606,8 @@
   "efeb26270a03c257": 1792224665.7442706,
   "70693d08032f9512": 1792225864.6522894,
   "e89af9d8d583f6f6": 1792225914.3287513,
-  "f7a4e7f943aa8d58": 1792225914.3289542
+  "f7a4e7f943aa8d58": 1792225914.3289542,
+  "bf43b8ff2766fff9": 1792227674.5904722
  },
  "pending": {},
  "queue": [],
@@ -624,7 +625,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-flash-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -691,18 +692,8 @@
    "d5b12ad3565907b8"
   ]
  },
- "last_post_id": "1444130002106066_122109209181503839",
+ "last_post_id": "1444130002106066_122109226977503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108677971503839",
-   "title": "پاڪستان کي سيپٽمبر 2026 ۾ 356 ملين ڊالرن جو موجوده حساب جو خسارو برداشت ڪرڻو پيو",
-   "t": 1792172534.9390712,
-   "tags": [
-    "business",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108677971503839"
-  },
   {
    "id": "1444130002106066_122108705949503839",
    "title": "پي ٽي اي ملڪ ۾ نيٽ ورڪ جي مسئلن کي فوري طور حل ڪرڻ جا حڪم جاري ڪري ڇڏيا آهن",
@@ -976,6 +967,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109209181503839"
+  },
+  {
+   "id": "1444130002106066_122109226977503839",
+   "title": "مالي سال جي پهرين ٽماهي دوران پاڪستان جي آءِ ٽي برآمدات 18 سيڪڙو واڌ سان 1.246 ارب ڊالر",
+   "t": 1792227708.3811047,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109226977503839"
   }
  ],
  "share_sent": {
@@ -1038,12 +1038,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 13:50",
+  "time": "2026-10-17 14:01",
   "items": 6,
   "sample": [
    "South Australia 397/7 v Queensland 271/10 *",
-   "Canada 256/9 * v Nepal",
-   "Afghanistan Under-19s v Bangladesh Under-19s 194/5 *"
+   "Canada 256/10 * v Nepal",
+   "Afghanistan Under-19s v Bangladesh Under-19s 208/5 *"
   ]
  },
  "agri_news": {
@@ -1053,8 +1053,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 30,
-  "last": 1792225927.740709
+  "count": 31,
+  "last": 1792227702.6635356
  },
  "perf": {
   "posts": [
@@ -1777,16 +1777,22 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1792225932
+   },
+   {
+    "id": "1444130002106066_122109226977503839",
+    "sec": "public_news",
+    "cat": "technology",
+    "t": 1792227708
    }
   ]
  },
  "public_news": {
   "date": "2026-10-17",
-  "count": 14,
-  "last": 1792223479.1043947
+  "count": 15,
+  "last": 1792227708.3807178
  },
  "trends": {
-  "last": 1792216858.3383613,
+  "last": 1792227659.6094563,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -2923,21 +2929,41 @@
     "t": 1792216858,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "dawn",
+    "traffic": 1000,
+    "news": "Pakistan, Malaysia vow to deepen trade, investment ties",
+    "t": 1792227659,
+    "cat": "transport_trade",
+    "sindh": false
+   },
+   {
+    "term": "matt reeves",
+    "traffic": 200,
+    "news": "Robert Pattinson Confirms Filming for The Batman Sequel Is ‘Pausing for a Little Bit’ After Director Stepped Away",
+    "t": 1792227659,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "high speed diesel price unchanged",
+    "traffic": 100,
+    "news": "Diesel marks third week of price cuts, spot freight rates stable",
+    "t": 1792227659,
+    "cat": "fuel",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 69,
+  "ok": 72,
   "fail": 7,
   "limit": 141
  },
  "posted_heads": [
-  {
-   "h": "Peshawar school roof collapse kills 29, including 28 students",
-   "t": 1792061468
-  },
   {
    "h": "Rupee records gain against US dollar",
    "t": 1792063260
@@ -3253,10 +3279,14 @@
   {
    "h": "Pakistan plans dairy reforms to boost exports to $2 billion",
    "t": 1792225932
+  },
+  {
+   "h": "Pakistan’s IT Exports Jump 18% to $1.246 Billion in First Quarter of FY2026-27",
+   "t": 1792227708
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 13:50",
+  "time": "2026-10-17 14:01",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3344,10 +3374,10 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 26,
-  "decoded": 25,
-  "text": 20,
-  "story": 20
+  "tried": 27,
+  "decoded": 26,
+  "text": 21,
+  "story": 21
  },
  "ai_last_error": "13:31 gemini-3.5-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
