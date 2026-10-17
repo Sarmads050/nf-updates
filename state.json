@@ -636,7 +636,17 @@
   "d432117291ffb83e": 1792236660.8418603,
   "333e3f4b7027376e": 1792236660.8420775,
   "822e526a896357d1": 1792239656.263269,
-  "1d498818dc67fc60": 1792240262.7005877
+  "1d498818dc67fc60": 1792240262.7005877,
+  "b6aa5e76c6dd0171": 1792243257.5167966,
+  "f8f79b34c6612f5f": 1792243257.516799,
+  "796aa0f342466393": 1792243257.5168014,
+  "efdfc132990580f8": 1792243257.516802,
+  "46e23cdfbf88c699": 1792243257.516803,
+  "d534ef27e3116594": 1792243257.5168045,
+  "751de5ab67ff43dd": 1792243257.516805,
+  "a9c4a804cdd48a16": 1792243257.516806,
+  "3c5690a32c32e5c9": 1792243257.5168066,
+  "84691c181d85a177": 1792243257.5170393
  },
  "pending": {},
  "queue": [],
@@ -731,18 +741,8 @@
    "d5b12ad3565907b8"
   ]
  },
- "last_post_id": "1444130002106066_122109413343503839",
+ "last_post_id": "1444130002106066_122109424269503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108863797503839",
-   "title": "پاڪستان ۾ ڪڻڪ جي پيداوار وڌائڻ ۽ زرعي شعبي کي بهتر ڪرڻ لاءِ اداري سان ويجهڙا لاڳاپا قائم",
-   "t": 1792189930.0171142,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108863797503839"
-  },
   {
    "id": "1444130002106066_122108915277503839",
    "title": "شماريات کاتي موجب ملڪ ۾ هفتيوار بنيادن تي مهانگائي جي شرح ۾ 0.04 سيڪڙو معمولي لاٿ رڪارڊ",
@@ -1014,6 +1014,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109390741503839"
+  },
+  {
+   "id": "1444130002106066_122109424269503839",
+   "title": "بلوچستان جي ضلعي خضدار ۽ ڀرپاسي وارن علائقن ۾ 5.9 شدت جا زلزلي جا لوڏا محسوس ڪيا ويا آهن،",
+   "t": 1792243288.310176,
+   "tags": [
+    "general",
+    "local"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109424269503839"
   }
  ],
  "share_sent": {
@@ -1080,12 +1090,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 18:10",
+  "time": "2026-10-17 18:21",
   "items": 8,
   "sample": [
    "South Australia 397/7 v Queensland 271/10 *",
    "Canada 256/10 v Nepal 232/10 *",
-   "Afghanistan Under-19s 183/6 * v Bangladesh Under-19s 250/8"
+   "Afghanistan Under-19s 199/6 * v Bangladesh Under-19s 250/8"
   ]
  },
  "agri_news": {
@@ -1095,8 +1105,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 39,
-  "last": 1792242121.297192
+  "count": 40,
+  "last": 1792243283.4390254
  },
  "perf": {
   "posts": [
@@ -1867,13 +1877,19 @@
     "sec": "public_news",
     "cat": "transport_trade",
     "t": 1792240298
+   },
+   {
+    "id": "1444130002106066_122109424269503839",
+    "sec": "public_news",
+    "cat": "weather_disaster",
+    "t": 1792243288
    }
   ]
  },
  "public_news": {
   "date": "2026-10-17",
-  "count": 20,
-  "last": 1792240298.163168
+  "count": 21,
+  "last": 1792243288.3097687
  },
  "trends": {
   "last": 1792238461.1819074,
@@ -3115,15 +3131,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 91,
+  "ok": 93,
   "fail": 7,
-  "limit": 160
+  "limit": 162
  },
  "posted_heads": [
-  {
-   "h": "Teacher, 32 students killed in Peshawar school roof collapse",
-   "t": 1792074678
-  },
   {
    "h": "Pakistan Pharma Industry | Medicine Prices | Pharma Policy | PPMA",
    "t": 1792077083
@@ -3439,10 +3451,14 @@
   {
    "h": "Iran’s exports to Pakistan face possible halt over banking sanctions",
    "t": 1792240298
+  },
+  {
+   "h": "5.9-magnitude earthquake jolts Balochistan's Khuzdar",
+   "t": 1792243288
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 18:10",
+  "time": "2026-10-17 18:21",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3530,12 +3546,12 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 34,
-  "decoded": 33,
-  "text": 28,
-  "story": 28
+  "tried": 35,
+  "decoded": 34,
+  "text": 29,
+  "story": 29
  },
- "ai_last_error": "18:01 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "18:20 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
