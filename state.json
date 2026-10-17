@@ -634,7 +634,8 @@
   "2f12a8eb78425e6f": 1792234874.0516162,
   "90d97e0aac57a5c4": 1792235449.2072563,
   "d432117291ffb83e": 1792236660.8418603,
-  "333e3f4b7027376e": 1792236660.8420775
+  "333e3f4b7027376e": 1792236660.8420775,
+  "822e526a896357d1": 1792239656.263269
  },
  "pending": {},
  "queue": [],
@@ -662,7 +663,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-flash-latest",
+ "gemini_model": "gemini-3.7-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1078,12 +1079,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 17:10",
+  "time": "2026-10-17 17:20",
   "items": 6,
   "sample": [
    "South Australia 397/7 v Queensland 271/10 *",
-   "Canada 256/10 v Nepal 185/5 *",
-   "Afghanistan Under-19s 120/4 * v Bangladesh Under-19s 250/8"
+   "Canada 256/10 v Nepal 195/6 *",
+   "Afghanistan Under-19s 132/5 * v Bangladesh Under-19s 250/8"
   ]
  },
  "agri_news": {
@@ -3107,9 +3108,9 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 87,
+  "ok": 88,
   "fail": 7,
-  "limit": 156
+  "limit": 158
  },
  "posted_heads": [
   {
@@ -3434,7 +3435,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 17:10",
+  "time": "2026-10-17 17:20",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3527,7 +3528,7 @@
   "text": 27,
   "story": 27
  },
- "ai_last_error": "17:01 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "17:20 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
