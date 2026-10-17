@@ -538,7 +538,9 @@
   "4c7244e1ab69816e": 1792190930.2812247,
   "e40117fb7fd40c2e": 1792194667.3769696,
   "8d9e10e469ef0834": 1792194667.3769724,
-  "d58a9dae49ee9994": 1792194667.3769746
+  "d58a9dae49ee9994": 1792194667.3769746,
+  "deea01f1d1ec591e": 1792195277.0188391,
+  "310b73ea02a56979": 1792195277.0189974
  },
  "pending": {},
  "queue": [],
@@ -566,7 +568,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-flash-latest",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -632,17 +634,8 @@
    "4b9e07303ba052ff"
   ]
  },
- "last_post_id": "1444130002106066_122108863797503839",
+ "last_post_id": "1444130002106066_122108915277503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108080257503839",
-   "title": "ايف بي آر جي نئين سر جوڙجڪ جي حوالي سان حڪومت نئين ٽيڪس ڪليڪشن ايجنسي قائم ڪرڻ تي غور ڪري",
-   "t": 1792134099.6757772,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108080257503839"
-  },
   {
    "id": "1444130002106066_122108091297503839",
    "title": "سنڌ جي سمورين ڊويزنن ۾ سالڊ ويسٽ مئنيجمينٽ بورڊ قائم ڪرڻ جو حڪم پبلڪ اڪائونٽس ڪميٽي سنڌ",
@@ -917,6 +910,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108863797503839"
+  },
+  {
+   "id": "1444130002106066_122108915277503839",
+   "title": "شماريات کاتي موجب ملڪ ۾ هفتيوار بنيادن تي مهانگائي جي شرح ۾ 0.04 سيڪڙو معمولي لاٿ رڪارڊ",
+   "t": 1792195311.0184662,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108915277503839"
   }
  ],
  "share_sent": {
@@ -975,7 +977,7 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 04:51",
+  "time": "2026-10-17 05:01",
   "items": 9,
   "sample": [
    "Sydney Thunder Women v Melbourne Renegades Women",
@@ -990,8 +992,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 7,
-  "last": 1792189921.7975688
+  "count": 8,
+  "last": 1792195306.8897097
  },
  "perf": {
   "posts": [
@@ -1594,13 +1596,19 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1792189930
+   },
+   {
+    "id": "1444130002106066_122108915277503839",
+    "sec": "public_news",
+    "cat": "inflation",
+    "t": 1792195311
    }
   ]
  },
  "public_news": {
   "date": "2026-10-17",
-  "count": 3,
-  "last": 1792185091.405477
+  "count": 4,
+  "last": 1792195311.0181634
  },
  "trends": {
   "last": 1792194647.0064852,
@@ -2666,15 +2674,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 18,
+  "ok": 20,
   "fail": 2,
-  "limit": 63
+  "limit": 68
  },
  "posted_heads": [
-  {
-   "h": "Fixtures, Schedule | Pakistan Women v England Women T20I Series",
-   "t": 1792027276
-  },
   {
    "h": "Rabi season: Wheat seed availability stands at 0.612MTs",
    "t": 1792030978
@@ -2990,10 +2994,14 @@
   {
    "h": "Pakistan seeks closer ties with CIMMYT to boost wheat production",
    "t": 1792189930
+  },
+  {
+   "h": "Weekly SPI inflation down 0.04pc",
+   "t": 1792195311
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 04:51",
+  "time": "2026-10-17 05:01",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -3081,12 +3089,12 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 7,
-  "decoded": 6,
-  "text": 3,
-  "story": 3
+  "tried": 8,
+  "decoded": 7,
+  "text": 4,
+  "story": 4
  },
- "ai_last_error": "04:50 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "05:01 gemini-3.7-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
