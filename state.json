@@ -544,7 +544,8 @@
   "d5d5a83703cda98f": 1792197674.181244,
   "92172992077395a3": 1792197674.1814284,
   "6b500e7cbae4ce87": 1792199445.7331595,
-  "b16b5b596c983c50": 1792200052.5714152
+  "b16b5b596c983c50": 1792200052.5714152,
+  "d794fb6ec5d8aaa4": 1792201264.8415725
  },
  "pending": {},
  "queue": [],
@@ -572,7 +573,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-3.8-flash",
+ "gemini_model": "gemini-3.7-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -638,17 +639,8 @@
    "4b9e07303ba052ff"
   ]
  },
- "last_post_id": "1444130002106066_122108958621503839",
+ "last_post_id": "1444130002106066_122108970981503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108118357503839",
-   "title": "انگلينڊ ڪرڪيٽ ٽيم پاڪستان ۾ کيڏجندڙ ون ڊي مثلث سيريز لاءِ پاڪستان پهچي وئي آهي",
-   "t": 1792137694.1007798,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108118357503839"
-  },
   {
    "id": "1444130002106066_122108129247503839",
    "title": "پاڪستان جي ٽեքسٽائل برآمدات ۾ مالي سال جي پهرين چوماهي دوران پنج سيڪڙو کان وڌيڪ واڌ رڪارڊ",
@@ -919,6 +911,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108958621503839"
+  },
+  {
+   "id": "1444130002106066_122108970981503839",
+   "title": "پاڪستان ۽ آسٽريليا وچ ۾ رٿيل ٽيسٽ سيريز جي ميچن جو شيڊول باضابطا طور جاري ڪيو ويو آهي",
+   "t": 1792201311.5870163,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108970981503839"
   }
  ],
  "share_sent": {
@@ -972,17 +973,17 @@
  },
  "cricket_news": {
   "date": "2026-10-17",
-  "count": 3,
-  "last": 1792197711.142046
+  "count": 4,
+  "last": 1792201311.5867758
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 06:30",
+  "time": "2026-10-17 06:41",
   "items": 9,
   "sample": [
    "Sydney Thunder Women v Melbourne Renegades Women",
    "Hobart Hurricanes Women v Perth Scorchers Women",
-   "South Australia 194/1 * v Queensland"
+   "South Australia 201/2 * v Queensland"
   ]
  },
  "agri_news": {
@@ -992,8 +993,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 11,
-  "last": 1792200081.7066529
+  "count": 12,
+  "last": 1792201300.7007895
  },
  "perf": {
   "posts": [
@@ -1614,6 +1615,12 @@
     "sec": "public_news",
     "cat": "technology",
     "t": 1792200087
+   },
+   {
+    "id": "1444130002106066_122108970981503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792201311
    }
   ]
  },
@@ -2686,15 +2693,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 25,
+  "ok": 27,
   "fail": 2,
-  "limit": 75
+  "limit": 78
  },
  "posted_heads": [
-  {
-   "h": "Murad seeks Chinese help with hybrid rice, farm mechanisation and cold-chain logistics",
-   "t": 1792035083
-  },
   {
    "h": "NADRA verification made mandatory for BRT cards",
    "t": 1792036259
@@ -3010,10 +3013,14 @@
   {
    "h": "PTA alerts users about severe Google Chrome security risks",
    "t": 1792200087
+  },
+  {
+   "h": "Fixtures, Schedule | Pakistan in Australia Test Match",
+   "t": 1792201311
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 06:30",
+  "time": "2026-10-17 06:41",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3101,12 +3108,12 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 10,
-  "decoded": 9,
-  "text": 6,
-  "story": 6
+  "tried": 11,
+  "decoded": 10,
+  "text": 7,
+  "story": 7
  },
- "ai_last_error": "06:20 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "06:41 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
