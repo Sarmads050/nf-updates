@@ -599,7 +599,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-3.8-flash",
+ "gemini_model": "gemini-3.7-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -955,7 +955,7 @@
  ],
  "share_sent": {
   "20": "2026-10-14",
-  "11": "2026-10-16",
+  "11": "2026-10-17",
   "16": "2026-10-16",
   "21": "2026-10-16"
  },
@@ -984,7 +984,11 @@
   "1444130002106066_122108572287503839",
   "1444130002106066_122108489091503839",
   "1444130002106066_122108468787503839",
-  "1444130002106066_122108445603503839"
+  "1444130002106066_122108445603503839",
+  "1444130002106066_122109106857503839",
+  "1444130002106066_122109091317503839",
+  "1444130002106066_122109083955503839",
+  "1444130002106066_122109070197503839"
  ],
  "group_index": 0,
  "token_check": {
@@ -1009,12 +1013,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 10:52",
+  "time": "2026-10-17 11:01",
   "items": 6,
   "sample": [
-   "South Australia 397/7 v Queensland 159/5 *",
-   "Canada 28 * v Nepal",
-   "Afghanistan Under-19s v Bangladesh Under-19s 13/1 *"
+   "South Australia 397/7 v Queensland 173/5 *",
+   "Canada 32 * v Nepal",
+   "Afghanistan Under-19s v Bangladesh Under-19s 18/1 *"
   ]
  },
  "agri_news": {
@@ -1715,7 +1719,7 @@
   "last": 1792216336.2291155
  },
  "trends": {
-  "last": 1792205453.0524569,
+  "last": 1792216858.3383613,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -2812,15 +2816,55 @@
     "t": 1792205453,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "fakhar zaman 2027 world cup",
+    "traffic": 1000,
+    "news": "Smith calls for batting depth as Pakistan begin WC preparations",
+    "t": 1792216858,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "canada vs nepal",
+    "traffic": 2000,
+    "news": "Canada’s Victory Prolongs Nepal’s Wait",
+    "t": 1792216858,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "samsung galaxy s27 ultra",
+    "traffic": 500,
+    "news": "Galaxy S27+ could lose a feature Samsung has offered for years",
+    "t": 1792216858,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "court",
+    "traffic": 200,
+    "news": "Do Americans own the president's papers? Appeals court to weigh in",
+    "t": 1792216858,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "tiger",
+    "traffic": 200,
+    "news": "Woman tried to pull back tiger victim before he jumped into enclosure",
+    "t": 1792216858,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 52,
+  "ok": 53,
   "fail": 2,
-  "limit": 134
+  "limit": 136
  },
  "posted_heads": [
   {
@@ -3145,40 +3189,40 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 10:52",
+  "time": "2026-10-17 11:01",
   "steps": []
  },
  "roundup_am": "2026-10-17",
  "group_shares": {
   "1": {
-   "date": "2026-10-16",
+   "date": "2026-10-17",
    "count": 3,
-   "last": 1792130509.053368
+   "last": 1792216862.6910212
   },
   "14": {
-   "date": "2026-10-16",
+   "date": "2026-10-17",
    "count": 3,
-   "last": 1792130509.0533698
+   "last": 1792216862.6910238
   },
   "0": {
-   "date": "2026-10-16",
+   "date": "2026-10-17",
    "count": 3,
-   "last": 1792130509.0533717
+   "last": 1792216862.691027
   },
   "5": {
-   "date": "2026-10-16",
-   "count": 3,
-   "last": 1792148472.8122914
+   "date": "2026-10-17",
+   "count": 1,
+   "last": 1792216862.6910644
   },
   "10": {
-   "date": "2026-10-16",
-   "count": 3,
-   "last": 1792148472.812295
+   "date": "2026-10-17",
+   "count": 1,
+   "last": 1792216862.691071
   },
   "13": {
-   "date": "2026-10-16",
-   "count": 3,
-   "last": 1792148472.8122985
+   "date": "2026-10-17",
+   "count": 1,
+   "last": 1792216862.6910763
   },
   "4": {
    "date": "2026-10-16",
@@ -3238,7 +3282,7 @@
   "text": 15,
   "story": 15
  },
- "ai_last_error": "10:51 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "11:00 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
