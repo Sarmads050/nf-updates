@@ -707,7 +707,10 @@
   "dca9c771e99eace2": 1792274473.037633,
   "3900fdaaf6306e23": 1792274473.0376344,
   "cf868772d5f48a0e": 1792274473.0377529,
-  "512ccf5132365c78": 1792275651.639637
+  "512ccf5132365c78": 1792275651.639637,
+  "8224c46b053dd786": 1792276866.9799385,
+  "21fd59f014b61cf8": 1792276866.9799416,
+  "6d738385e94c8711": 1792276925.731416
  },
  "pending": {},
  "queue": [],
@@ -803,18 +806,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122109774087503839",
+ "last_post_id": "1444130002106066_122109794151503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109091317503839",
-   "title": "موسميات کاتي موجب پنجاب جي شهر ليہ ۽ ان جي آسپاس جي علائقن ۾ 5.0 شدت جو زلزلو رڪارڊ ڪيو",
-   "t": 1792214505.551033,
-   "tags": [
-    "general",
-    "local"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109091317503839"
-  },
   {
    "id": "1444130002106066_122109106857503839",
    "title": "عالمي رپورٽ موجب پاڪستان شديد بک ۽ غذائي کوٽ کي منهن ڏيندڙ دنيا جي ڏهن اهم ملڪن ۾ شامل ٿي",
@@ -1086,6 +1079,16 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109774087503839"
+  },
+  {
+   "id": "1444130002106066_122109794151503839",
+   "title": "پاڪستان هنگري جي شهر بوڊاپسٽ ۾ مقامي خريدارن کي اعليٰ معيار جا باسمتي چانور متعارف ڪرائڻ",
+   "t": 1792276948.8393776,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109794151503839"
   }
  ],
  "share_sent": {
@@ -1166,7 +1169,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 03:30",
+  "time": "2026-10-18 03:42",
   "items": 28,
   "sample": [
    "Bangladesh 172/10 * v Zimbabwe 271/8",
@@ -1176,13 +1179,13 @@
  },
  "agri_news": {
   "date": "2026-10-18",
-  "count": 1,
-  "last": 1792266688.4275146
+  "count": 2,
+  "last": 1792276948.8390312
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 6,
-  "last": 1792274501.0214558
+  "count": 7,
+  "last": 1792276942.8476982
  },
  "perf": {
   "posts": [
@@ -2031,6 +2034,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792274506
+   },
+   {
+    "id": "1444130002106066_122109794151503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1792276948
    }
   ]
  },
@@ -3511,15 +3520,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 14,
+  "ok": 17,
   "fail": 0,
-  "limit": 36
+  "limit": 45
  },
  "posted_heads": [
-  {
-   "h": "Punjab markets receive 471,319 flour bags",
-   "t": 1792105879
-  },
   {
    "h": "Govt cuts petrol price by Rs3.63 per litre, raises diesel by Re0.31",
    "t": 1792108264
@@ -3835,10 +3840,14 @@
   {
    "h": "Pakistan seek solid start against Sri Lanka",
    "t": 1792274507
+  },
+  {
+   "h": "Pakistan takes basmati to Budapest buyers",
+   "t": 1792276949
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 03:30",
+  "time": "2026-10-18 03:42",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3926,12 +3935,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 6,
-  "decoded": 6,
-  "text": 6,
-  "story": 6
+  "tried": 7,
+  "decoded": 7,
+  "text": 7,
+  "story": 7
  },
- "ai_last_error": "03:01 gemini-3.6-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "03:42 gemini-3.6-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
