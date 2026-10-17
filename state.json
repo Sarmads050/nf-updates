@@ -678,7 +678,8 @@
   "742284a90b738476": 1792264263.800295,
   "7a6cb0724b2129e6": 1792264263.8002958,
   "e6815b619492a8a0": 1792264263.800297,
-  "ae1ed8be55517227": 1792264263.800497
+  "ae1ed8be55517227": 1792264263.800497,
+  "4b244b2bcaa3982d": 1792265522.6057782
  },
  "pending": {},
  "queue": [],
@@ -706,7 +707,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-3.7-flash",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -774,17 +775,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122109674931503839",
+ "last_post_id": "1444130002106066_122109689505503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109033957503839",
-   "title": "پاڪستان کي 74 سالن کانپوءِ آءِ ايم ايف ۽ عالمي بينڪ جي بورڊ آف گورنرز جو چيئرمين چونڊيو",
-   "t": 1792209092.0308418,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109033957503839"
-  },
   {
    "id": "1444130002106066_122109041649503839",
    "title": "اڄ جون نوڪريون (نوشهروفيروز ۽ سنڌ)",
@@ -1058,6 +1050,16 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109674931503839"
+  },
+  {
+   "id": "1444130002106066_122109689505503839",
+   "title": "پاڪستان ۾ سون جي قيمت ۾ في توله 1600 رپيا گهٽتائي ٿي وئي آهي",
+   "t": 1792265627.4751275,
+   "tags": [
+    "business",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109689505503839"
   }
  ],
  "share_sent": {
@@ -1138,7 +1140,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 00:20",
+  "time": "2026-10-18 00:33",
   "items": 29,
   "sample": [
    "Canada 256/10 v Nepal 232/10 *",
@@ -1153,8 +1155,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 1,
-  "last": 1792264292.0578175
+  "count": 2,
+  "last": 1792265612.1561916
  },
  "perf": {
   "posts": [
@@ -1973,13 +1975,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792264297
+   },
+   {
+    "id": "1444130002106066_122109689505503839",
+    "sec": "public_news",
+    "cat": "dollar_gold_business",
+    "t": 1792265627
    }
   ]
  },
  "public_news": {
   "date": "2026-10-18",
-  "count": 0,
-  "last": 1792263189.3627186
+  "count": 1,
+  "last": 1792265627.4748645
  },
  "trends": {
   "last": 1792260644.8362465,
@@ -3373,15 +3381,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 2,
+  "ok": 4,
   "fail": 0,
-  "limit": 4
+  "limit": 8
  },
  "posted_heads": [
-  {
-   "h": "SECP proposes national agricultural spot market to improve farm prices, cut crop losses",
-   "t": 1792093286
-  },
   {
    "h": "Pakistan seeks enhanced IDB’s support for ML-1 railway project",
    "t": 1792095681
@@ -3697,10 +3701,14 @@
   {
    "h": "Skipper Shaheen defends Agha, Saim ahead of home ODI tri-series",
    "t": 1792264297
+  },
+  {
+   "h": "Gold price per tola fall by Rs1,600 in Pakistan",
+   "t": 1792265627
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 00:20",
+  "time": "2026-10-18 00:33",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3788,12 +3796,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 1,
-  "decoded": 1,
-  "text": 1,
-  "story": 1
+  "tried": 2,
+  "decoded": 2,
+  "text": 2,
+  "story": 2
  },
- "ai_last_error": "00:11 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "00:32 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
