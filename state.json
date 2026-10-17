@@ -607,7 +607,10 @@
   "70693d08032f9512": 1792225864.6522894,
   "e89af9d8d583f6f6": 1792225914.3287513,
   "f7a4e7f943aa8d58": 1792225914.3289542,
-  "bf43b8ff2766fff9": 1792227674.5904722
+  "bf43b8ff2766fff9": 1792227674.5904722,
+  "7af1ae1b08924f6b": 1792228711.6859102,
+  "4547c85384758b90": 1792228711.6859126,
+  "f38e74346d933c2e": 1792228711.6861386
  },
  "pending": {},
  "queue": [],
@@ -692,17 +695,8 @@
    "d5b12ad3565907b8"
   ]
  },
- "last_post_id": "1444130002106066_122109226977503839",
+ "last_post_id": "1444130002106066_122109237543503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108705949503839",
-   "title": "پي ٽي اي ملڪ ۾ نيٽ ورڪ جي مسئلن کي فوري طور حل ڪرڻ جا حڪم جاري ڪري ڇڏيا آهن",
-   "t": 1792174911.071081,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108705949503839"
-  },
   {
    "id": "1444130002106066_122108737479503839",
    "title": "شاهين شاهه آفريدي جي قيادت ۾ پاڪستان ڪرڪيٽ ٽيم گهرو ون ڊي ٽري سيريز لاءِ راولپنڊي ۾",
@@ -976,6 +970,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109226977503839"
+  },
+  {
+   "id": "1444130002106066_122109237543503839",
+   "title": "پاڪستاني قومي ڪرڪيٽ ٽيم جي رانديگرن ون ڊي ڪرڪيٽ جي چئلينجن ۽ لاھين چاڙھين کي زبردست قرار",
+   "t": 1792228738.4146981,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109237543503839"
   }
  ],
  "share_sent": {
@@ -1033,17 +1036,17 @@
  },
  "cricket_news": {
   "date": "2026-10-17",
-  "count": 8,
-  "last": 1792224704.2368057
+  "count": 9,
+  "last": 1792228738.4142559
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 14:10",
+  "time": "2026-10-17 14:18",
   "items": 6,
   "sample": [
    "South Australia 397/7 v Queensland 271/10 *",
    "Canada 256/10 * v Nepal",
-   "Afghanistan Under-19s v Bangladesh Under-19s 223/5 *"
+   "Afghanistan Under-19s v Bangladesh Under-19s 237/6 *"
   ]
  },
  "agri_news": {
@@ -1053,8 +1056,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 31,
-  "last": 1792227702.6635356
+  "count": 32,
+  "last": 1792228732.491481
  },
  "perf": {
   "posts": [
@@ -1783,6 +1786,12 @@
     "sec": "public_news",
     "cat": "technology",
     "t": 1792227708
+   },
+   {
+    "id": "1444130002106066_122109237543503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792228738
    }
   ]
  },
@@ -2959,15 +2968,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 72,
+  "ok": 74,
   "fail": 7,
   "limit": 141
  },
  "posted_heads": [
-  {
-   "h": "Rupee records gain against US dollar",
-   "t": 1792063260
-  },
   {
    "h": "Textile Factories Seek Cheap Electricity from Punjab Govt",
    "t": 1792065098
@@ -3283,10 +3288,14 @@
   {
    "h": "Pakistan’s IT Exports Jump 18% to $1.246 Billion in First Quarter of FY2026-27",
    "t": 1792227708
+  },
+  {
+   "h": "Pakistan stars relish ODI cricket’s twists and turns",
+   "t": 1792228738
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 14:10",
+  "time": "2026-10-17 14:18",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3374,10 +3383,10 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 27,
-  "decoded": 26,
-  "text": 21,
-  "story": 21
+  "tried": 28,
+  "decoded": 27,
+  "text": 22,
+  "story": 22
  },
  "ai_last_error": "13:31 gemini-3.5-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
