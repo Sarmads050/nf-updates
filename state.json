@@ -579,7 +579,8 @@
   "83ca43387e26c76b": 1792212071.5165193,
   "e5716ae997ba2655": 1792212653.4106061,
   "a19e1b8527549279": 1792212653.4107618,
-  "d5b12ad3565907b8": 1792213592.0164642
+  "d5b12ad3565907b8": 1792213592.0164642,
+  "18aff71edd9bdf1f": 1792214476.9263902
  },
  "pending": {},
  "queue": [],
@@ -597,7 +598,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-3.8-flash",
+ "gemini_model": "gemini-3.7-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -664,17 +665,8 @@
    "d5b12ad3565907b8"
   ]
  },
- "last_post_id": "1444130002106066_122109083955503839",
+ "last_post_id": "1444130002106066_122109091317503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108297193503839",
-   "title": "بابر اعظم کي پاڪستان جي ٽيسٽ ڪرڪيٽ ٽيم جو نئون ڪپتان مقرر ڪيو ويو آهي، جنهن کانپوءِ هو",
-   "t": 1792151570.3466446,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108297193503839"
-  },
   {
    "id": "1444130002106066_122108419491503839",
    "title": "نومبر جي مهيني ۾ بجلي جي وڌيل اگهن سبب صارفين کي وڏا بل ادا ڪرڻا پوندا",
@@ -948,6 +940,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109083955503839"
+  },
+  {
+   "id": "1444130002106066_122109091317503839",
+   "title": "موسميات کاتي موجب پنجاب جي شهر ليہ ۽ ان جي آسپاس جي علائقن ۾ 5.0 شدت جو زلزلو رڪارڊ ڪيو",
+   "t": 1792214505.551033,
+   "tags": [
+    "general",
+    "local"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109091317503839"
   }
  ],
  "share_sent": {
@@ -1006,10 +1008,10 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 10:10",
+  "time": "2026-10-17 10:21",
   "items": 6,
   "sample": [
-   "South Australia 397/7 v Queensland 83/4 *",
+   "South Australia 397/7 v Queensland 109/4 *",
    "Canada v Nepal",
    "Afghanistan Under-19s v Bangladesh Under-19s"
   ]
@@ -1021,8 +1023,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 21,
-  "last": 1792213605.3016334
+  "count": 22,
+  "last": 1792214499.7163522
  },
  "perf": {
   "posts": [
@@ -1691,13 +1693,19 @@
     "sec": "sindh_single",
     "cat": "sindh",
     "t": 1792213605
+   },
+   {
+    "id": "1444130002106066_122109091317503839",
+    "sec": "public_news",
+    "cat": "weather_disaster",
+    "t": 1792214505
    }
   ]
  },
  "public_news": {
   "date": "2026-10-17",
-  "count": 9,
-  "last": 1792212680.3403878
+  "count": 10,
+  "last": 1792214505.550744
  },
  "trends": {
   "last": 1792205453.0524569,
@@ -2803,15 +2811,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 48,
+  "ok": 50,
   "fail": 2,
-  "limit": 126
+  "limit": 133
  },
  "posted_heads": [
-  {
-   "h": "Pakistan pressing ahead with economic reforms agenda, Aurangzeb briefs IMF chief",
-   "t": 1792046494
-  },
   {
    "h": "The Paradox of Women in Pakistan’s Agriculture",
    "t": 1792047692
@@ -3127,10 +3131,14 @@
   {
    "h": "Rain Expected in Karachi & Areas of Sindh",
    "t": 1792212680
+  },
+  {
+   "h": "5.0 Magnitude Earthquake Jolts Layyah, Punjab: PMD",
+   "t": 1792214505
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 10:10",
+  "time": "2026-10-17 10:21",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3218,12 +3226,12 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 17,
-  "decoded": 16,
-  "text": 13,
-  "story": 13
+  "tried": 18,
+  "decoded": 17,
+  "text": 14,
+  "story": 14
  },
- "ai_last_error": "10:06 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "10:21 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
