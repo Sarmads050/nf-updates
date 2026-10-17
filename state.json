@@ -665,7 +665,8 @@
   "9e0f159bd5357392": 1792260108.5022223,
   "882d11868656521e": 1792260791.163753,
   "b5a79f01733e4bf1": 1792260791.1637561,
-  "db4f07436c3102da": 1792260791.1639073
+  "db4f07436c3102da": 1792260791.1639073,
+  "42209645b81ea064": 1792262459.052736
  },
  "pending": {},
  "queue": [],
@@ -1115,12 +1116,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 23:30",
-  "items": 8,
+  "time": "2026-10-17 23:40",
+  "items": 28,
   "sample": [
    "Canada 256/10 v Nepal 232/10 *",
    "Afghanistan Under-19s 217/10 * v Bangladesh Under-19s 250/8",
-   "Bangladesh 167/9 * v Zimbabwe 271/8"
+   "Bangladesh 172/10 * v Zimbabwe 271/8"
   ]
  },
  "agri_news": {
@@ -3338,9 +3339,9 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 107,
+  "ok": 108,
   "fail": 8,
-  "limit": 175
+  "limit": 178
  },
  "posted_heads": [
   {
@@ -3665,7 +3666,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 23:30",
+  "time": "2026-10-17 23:41",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3758,7 +3759,7 @@
   "text": 30,
   "story": 30
  },
- "ai_last_error": "23:11 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "23:40 gemini-3.7-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
