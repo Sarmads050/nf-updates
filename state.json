@@ -710,7 +710,12 @@
   "512ccf5132365c78": 1792275651.639637,
   "8224c46b053dd786": 1792276866.9799385,
   "21fd59f014b61cf8": 1792276866.9799416,
-  "6d738385e94c8711": 1792276925.731416
+  "6d738385e94c8711": 1792276925.731416,
+  "0b67f9a0c3e6b473": 1792279854.1262884,
+  "42fb0baa51bafccd": 1792279854.1262903,
+  "26a318c6253d3739": 1792279854.1262915,
+  "dd0f6807490dd2fc": 1792279854.1262925,
+  "fcdb06de6f1ede77": 1792279854.1264088
  },
  "pending": {},
  "queue": [],
@@ -738,7 +743,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-3.5-flash",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -806,17 +811,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122109794151503839",
+ "last_post_id": "1444130002106066_122109822771503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109106857503839",
-   "title": "عالمي رپورٽ موجب پاڪستان شديد بک ۽ غذائي کوٽ کي منهن ڏيندڙ دنيا جي ڏهن اهم ملڪن ۾ شامل ٿي",
-   "t": 1792216336.229479,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109106857503839"
-  },
   {
    "id": "1444130002106066_122109118713503839",
    "title": "پاڪستاني ڪرڪيٽ ٽيم جي فاسٽ بالر شاهين آفريدي ڪپتاني بابت هلندڙ بحث تي ردعمل ڏيندي چيو آهي",
@@ -1089,6 +1085,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109794151503839"
+  },
+  {
+   "id": "1444130002106066_122109822771503839",
+   "title": "ملڪ ۾ وڌندڙ مهانگائي سبب عام ماڻهو جو گذر سفر انتهائي مشڪل ٿي ويو آهي",
+   "t": 1792279870.6829295,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109822771503839"
   }
  ],
  "share_sent": {
@@ -1169,7 +1174,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 04:20",
+  "time": "2026-10-18 04:31",
   "items": 28,
   "sample": [
    "Bangladesh 172/10 * v Zimbabwe 271/8",
@@ -1184,8 +1189,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 7,
-  "last": 1792276942.8476982
+  "count": 8,
+  "last": 1792279862.8365543
  },
  "perf": {
   "posts": [
@@ -2040,13 +2045,19 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1792276948
+   },
+   {
+    "id": "1444130002106066_122109822771503839",
+    "sec": "public_news",
+    "cat": "inflation",
+    "t": 1792279870
    }
   ]
  },
  "public_news": {
   "date": "2026-10-18",
-  "count": 3,
-  "last": 1792272119.931368
+  "count": 4,
+  "last": 1792279870.6827006
  },
  "trends": {
   "last": 1792271449.918901,
@@ -3520,15 +3531,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 17,
+  "ok": 19,
   "fail": 0,
-  "limit": 45
+  "limit": 55
  },
  "posted_heads": [
-  {
-   "h": "Govt cuts petrol price by Rs3.63 per litre, raises diesel by Re0.31",
-   "t": 1792108264
-  },
   {
    "h": "PCB seeks ICC’s response on India’s Champions Trophy participation",
    "t": 1792110670
@@ -3844,10 +3851,14 @@
   {
    "h": "Pakistan takes basmati to Budapest buyers",
    "t": 1792276949
+  },
+  {
+   "h": "Prices Keep Rising, Life Gets Harder for Pakistan’s Common Man - Awaz",
+   "t": 1792279870
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 04:20",
+  "time": "2026-10-18 04:31",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3935,12 +3946,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 7,
-  "decoded": 7,
-  "text": 7,
-  "story": 7
+  "tried": 8,
+  "decoded": 8,
+  "text": 8,
+  "story": 8
  },
- "ai_last_error": "03:42 gemini-3.6-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "04:30 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
