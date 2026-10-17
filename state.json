@@ -610,7 +610,8 @@
   "bf43b8ff2766fff9": 1792227674.5904722,
   "7af1ae1b08924f6b": 1792228711.6859102,
   "4547c85384758b90": 1792228711.6859126,
-  "f38e74346d933c2e": 1792228711.6861386
+  "f38e74346d933c2e": 1792228711.6861386,
+  "ad4c64698a576dfe": 1792229469.1006029
  },
  "pending": {},
  "queue": [],
@@ -628,7 +629,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-flash-latest",
+ "gemini_model": "gemini-3.8-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -695,17 +696,8 @@
    "d5b12ad3565907b8"
   ]
  },
- "last_post_id": "1444130002106066_122109237543503839",
+ "last_post_id": "1444130002106066_122109245259503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108737479503839",
-   "title": "شاهين شاهه آفريدي جي قيادت ۾ پاڪستان ڪرڪيٽ ٽيم گهرو ون ڊي ٽري سيريز لاءِ راولپنڊي ۾",
-   "t": 1792177562.142681,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108737479503839"
-  },
   {
    "id": "1444130002106066_122108746059503839",
    "title": "پاڪستان ۽ لبنان اهم شعبن ۾ ٻطرفو سهڪار وڌائڻ ۽ لاڳاپا وڌيڪ مظبوط ڪرڻ تي اتفاق ڪيو آهي",
@@ -979,6 +971,15 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109237543503839"
+  },
+  {
+   "id": "1444130002106066_122109245259503839",
+   "title": "ناڻي واري وفاقي وزير محمد اورنگزيب آءِ ايم ايف ۽ ورلڊ بئنڪ جي سالياني گڏجاڻين دوران عالمي",
+   "t": 1792229493.1243649,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109245259503839"
   }
  ],
  "share_sent": {
@@ -1041,12 +1042,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 14:20",
+  "time": "2026-10-17 14:31",
   "items": 6,
   "sample": [
    "South Australia 397/7 v Queensland 271/10 *",
-   "Canada 256/10 * v Nepal",
-   "Afghanistan Under-19s v Bangladesh Under-19s 237/6 *"
+   "Canada 256/10 v Nepal 16 *",
+   "Afghanistan Under-19s v Bangladesh Under-19s 250/8 *"
   ]
  },
  "agri_news": {
@@ -1056,8 +1057,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 32,
-  "last": 1792228732.491481
+  "count": 33,
+  "last": 1792229487.6009507
  },
  "perf": {
   "posts": [
@@ -1792,13 +1793,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792228738
+   },
+   {
+    "id": "1444130002106066_122109245259503839",
+    "sec": "public_news",
+    "cat": "budget_tax_imf",
+    "t": 1792229493
    }
   ]
  },
  "public_news": {
   "date": "2026-10-17",
-  "count": 15,
-  "last": 1792227708.3807178
+  "count": 16,
+  "last": 1792229493.12413
  },
  "trends": {
   "last": 1792227659.6094563,
@@ -2968,15 +2975,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 74,
+  "ok": 76,
   "fail": 7,
-  "limit": 141
+  "limit": 144
  },
  "posted_heads": [
-  {
-   "h": "Textile Factories Seek Cheap Electricity from Punjab Govt",
-   "t": 1792065098
-  },
   {
    "h": "Finance Minister discusses M6 motorway financing with OPEC fund president",
    "t": 1792066873
@@ -3292,10 +3295,14 @@
   {
    "h": "Pakistan stars relish ODI cricket’s twists and turns",
    "t": 1792228738
+  },
+  {
+   "h": "Aurangzeb holds financing talks with banks, UNDP on sidelines of IMF-World Bank meetings",
+   "t": 1792229493
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 14:20",
+  "time": "2026-10-17 14:31",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3383,12 +3390,12 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 28,
-  "decoded": 27,
-  "text": 22,
-  "story": 22
+  "tried": 29,
+  "decoded": 28,
+  "text": 23,
+  "story": 23
  },
- "ai_last_error": "13:31 gemini-3.5-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "14:31 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
