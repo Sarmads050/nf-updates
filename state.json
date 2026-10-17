@@ -540,7 +540,9 @@
   "8d9e10e469ef0834": 1792194667.3769724,
   "d58a9dae49ee9994": 1792194667.3769746,
   "deea01f1d1ec591e": 1792195277.0188391,
-  "310b73ea02a56979": 1792195277.0189974
+  "310b73ea02a56979": 1792195277.0189974,
+  "d5d5a83703cda98f": 1792197674.181244,
+  "92172992077395a3": 1792197674.1814284
  },
  "pending": {},
  "queue": [],
@@ -568,7 +570,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-3.7-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -634,18 +636,8 @@
    "4b9e07303ba052ff"
   ]
  },
- "last_post_id": "1444130002106066_122108915277503839",
+ "last_post_id": "1444130002106066_122108935545503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108091297503839",
-   "title": "سنڌ جي سمورين ڊويزنن ۾ سالڊ ويسٽ مئنيجمينٽ بورڊ قائم ڪرڻ جو حڪم پبلڪ اڪائونٽس ڪميٽي سنڌ",
-   "t": 1792135173.8241763,
-   "tags": [
-    "general",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108091297503839"
-  },
   {
    "id": "1444130002106066_122108099103503839",
    "title": "پشاور ۾ اسڪول جي ڇت πεр πεрڻ سبب 35 شاگرد ۽ 2 استاد فوت ٿي ويا آهن",
@@ -919,6 +911,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122108915277503839"
+  },
+  {
+   "id": "1444130002106066_122108935545503839",
+   "title": "پاڪستان ۽ انگلينڊ وچ ۾ ٽيسٽ ميچن جي تياري لاءِ قومي ڪرڪيٽ ٽيم جي خصوصي ٽريننگ ڪيمپ لڳائڻ",
+   "t": 1792197711.1423464,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122108935545503839"
   }
  ],
  "share_sent": {
@@ -972,17 +973,17 @@
  },
  "cricket_news": {
   "date": "2026-10-17",
-  "count": 2,
-  "last": 1792187478.1477232
+  "count": 3,
+  "last": 1792197711.142046
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 05:30",
+  "time": "2026-10-17 05:41",
   "items": 9,
   "sample": [
    "Sydney Thunder Women v Melbourne Renegades Women",
    "Hobart Hurricanes Women v Perth Scorchers Women",
-   "South Australia 89 * v Queensland"
+   "South Australia 114 * v Queensland"
   ]
  },
  "agri_news": {
@@ -992,8 +993,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 8,
-  "last": 1792195306.8897097
+  "count": 9,
+  "last": 1792197702.2169642
  },
  "perf": {
   "posts": [
@@ -1602,6 +1603,12 @@
     "sec": "public_news",
     "cat": "inflation",
     "t": 1792195311
+   },
+   {
+    "id": "1444130002106066_122108935545503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792197711
    }
   ]
  },
@@ -2674,15 +2681,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 20,
+  "ok": 22,
   "fail": 2,
-  "limit": 68
+  "limit": 70
  },
  "posted_heads": [
-  {
-   "h": "Rabi season: Wheat seed availability stands at 0.612MTs",
-   "t": 1792030978
-  },
   {
    "h": "Hot, dry weather to prevail across Pakistan",
    "t": 1792033887
@@ -2998,10 +3001,14 @@
   {
    "h": "Weekly SPI inflation down 0.04pc",
    "t": 1792195311
+  },
+  {
+   "h": "Pakistan vs England: Team to Hold Training Camp for Test Matches",
+   "t": 1792197711
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 05:30",
+  "time": "2026-10-17 05:41",
   "steps": []
  },
  "roundup_am": "2026-10-16",
@@ -3089,12 +3096,12 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 8,
-  "decoded": 7,
-  "text": 4,
-  "story": 4
+  "tried": 9,
+  "decoded": 8,
+  "text": 5,
+  "story": 5
  },
- "ai_last_error": "05:01 gemini-3.7-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "05:41 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
