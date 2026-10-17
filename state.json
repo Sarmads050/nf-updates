@@ -650,7 +650,10 @@
   "117d33a16a935773": 1792245053.4310188,
   "e944ee0f072816fa": 1792246261.0020106,
   "fe3614d6bc5474ba": 1792246261.0020132,
-  "34c79e6264c85750": 1792246261.002175
+  "34c79e6264c85750": 1792246261.002175,
+  "adb6dc5464e2e2c5": 1792249268.4020972,
+  "ab8cba435e775f30": 1792249268.4021003,
+  "22c295b7d20981c1": 1792249268.4023209
  },
  "pending": {},
  "queue": [],
@@ -678,7 +681,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-3.7-flash",
+ "gemini_model": "gemini-flash-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -745,17 +748,8 @@
    "d5b12ad3565907b8"
   ]
  },
- "last_post_id": "1444130002106066_122109464163503839",
+ "last_post_id": "1444130002106066_122109500031503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108935545503839",
-   "title": "پاڪستان ۽ انگلينڊ وچ ۾ ٽيسٽ ميچن جي تياري لاءِ قومي ڪرڪيٽ ٽيم جي خصوصي ٽريننگ ڪيمپ لڳائڻ",
-   "t": 1792197711.1423464,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108935545503839"
-  },
   {
    "id": "1444130002106066_122108958621503839",
    "title": "پاڪستان ٽيلي ڪميونيڪيشن اٿارٽي (پي ٽي اي) گوگل ڪروم واپرائيندڙن کي سنگين سيڪيورٽي خطرن",
@@ -1028,6 +1022,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109464163503839"
+  },
+  {
+   "id": "1444130002106066_122109500031503839",
+   "title": "سي پي پي اي فيول پرائس ايڊجسٽمينٽ تحت بجلي 2 رپيا 56 پئسا في يونٽ مھانگي ڪرڻ لاءِ نيپرا",
+   "t": 1792249298.6988235,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109500031503839"
   }
  ],
  "share_sent": {
@@ -1094,12 +1097,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 19:50",
+  "time": "2026-10-17 20:01",
   "items": 6,
   "sample": [
    "Canada 256/10 v Nepal 232/10 *",
    "Afghanistan Under-19s 217/10 * v Bangladesh Under-19s 250/8",
-   "Bangladesh v Zimbabwe 214/5 *"
+   "Bangladesh v Zimbabwe 227/7 *"
   ]
  },
  "agri_news": {
@@ -1109,8 +1112,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 41,
-  "last": 1792246297.7659771
+  "count": 42,
+  "last": 1792249294.0637844
  },
  "perf": {
   "posts": [
@@ -1893,13 +1896,19 @@
     "sec": "public_news",
     "cat": "budget_tax_imf",
     "t": 1792246302
+   },
+   {
+    "id": "1444130002106066_122109500031503839",
+    "sec": "public_news",
+    "cat": "electricity_gas",
+    "t": 1792249298
    }
   ]
  },
  "public_news": {
   "date": "2026-10-17",
-  "count": 22,
-  "last": 1792246302.010697
+  "count": 23,
+  "last": 1792249298.698339
  },
  "trends": {
   "last": 1792238461.1819074,
@@ -3141,15 +3150,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 96,
+  "ok": 98,
   "fail": 7,
   "limit": 164
  },
  "posted_heads": [
-  {
-   "h": "Pakistan gear up for ODI tri-series",
-   "t": 1792078290
-  },
   {
    "h": "Pakistan Forex Rates Today: US Dollar, Pound Sterling and Euro Prices in Open Market and Interbank",
    "t": 1792081268
@@ -3465,10 +3470,14 @@
   {
    "h": "FBR implements faceless tax audit and assessment system from October 15",
    "t": 1792246302
+  },
+  {
+   "h": "CPPA seeks Rs2.56 per unit increase in electricity tariff",
+   "t": 1792249298
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 19:50",
+  "time": "2026-10-17 20:01",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3556,10 +3565,10 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 36,
-  "decoded": 35,
-  "text": 29,
-  "story": 29
+  "tried": 37,
+  "decoded": 36,
+  "text": 30,
+  "story": 30
  },
  "ai_last_error": "19:31 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
