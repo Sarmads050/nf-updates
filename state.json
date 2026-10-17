@@ -586,7 +586,9 @@
   "8e6882d2f09dd355": 1792217458.715817,
   "2d488ffd4b7e587a": 1792217458.7160356,
   "cfcde520d2965906": 1792218671.1326828,
-  "c8a108b2b675a940": 1792218671.1326854
+  "c8a108b2b675a940": 1792218671.1326854,
+  "5e7b361e7def8ca3": 1792219256.1479113,
+  "f0e5b1e6fb6f0249": 1792219256.1481023
  },
  "pending": {},
  "queue": [],
@@ -604,7 +606,7 @@
   "last_week": "",
   "last_check": "2026-10-17"
  },
- "gemini_model": "gemini-flash-latest",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -671,18 +673,8 @@
    "d5b12ad3565907b8"
   ]
  },
- "last_post_id": "1444130002106066_122109118713503839",
+ "last_post_id": "1444130002106066_122109136707503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122108468787503839",
-   "title": "پاکستان ۾ گذريل ستن سالن جو سڀ کان گرم مون سون موسم رڪارڊ ڪيو ويو آهي جنهن سبب گرميءَ جو",
-   "t": 1792160506.659236,
-   "tags": [
-    "general",
-    "local"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122108468787503839"
-  },
   {
    "id": "1444130002106066_122108489091503839",
    "title": "پاڪستان ۾ سون جي قيمت چواليهه لک هزار روپين کان مٿي پهچي وئي جڏهن ته چاندي پڻ نئون رڪارڊ",
@@ -956,6 +948,16 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109118713503839"
+  },
+  {
+   "id": "1444130002106066_122109136707503839",
+   "title": "پاڪستان ۾ في تولو سون جي قيمت 2200 رپيا واڌ کانپوءِ وڌي وئي آھي",
+   "t": 1792219302.3866835,
+   "tags": [
+    "business",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109136707503839"
   }
  ],
  "share_sent": {
@@ -1018,12 +1020,12 @@
  },
  "cricket": {},
  "cricket_feed": {
-  "time": "2026-10-17 11:31",
+  "time": "2026-10-17 11:41",
   "items": 6,
   "sample": [
-   "South Australia 397/7 v Queensland 228/6 *",
-   "Canada 72/1 * v Nepal",
-   "Afghanistan Under-19s v Bangladesh Under-19s 60/1 *"
+   "South Australia 397/7 v Queensland 236/7 *",
+   "Canada 92/1 * v Nepal",
+   "Afghanistan Under-19s v Bangladesh Under-19s 74/2 *"
   ]
  },
  "agri_news": {
@@ -1033,8 +1035,8 @@
  },
  "all_posts": {
   "date": "2026-10-17",
-  "count": 24,
-  "last": 1792217483.2267444
+  "count": 25,
+  "last": 1792219294.6032054
  },
  "perf": {
   "posts": [
@@ -1721,13 +1723,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792217489
+   },
+   {
+    "id": "1444130002106066_122109136707503839",
+    "sec": "public_news",
+    "cat": "dollar_gold_business",
+    "t": 1792219302
    }
   ]
  },
  "public_news": {
   "date": "2026-10-17",
-  "count": 11,
-  "last": 1792216336.2291155
+  "count": 12,
+  "last": 1792219302.3862455
  },
  "trends": {
   "last": 1792216858.3383613,
@@ -2873,15 +2881,11 @@
  },
  "ai_usage": {
   "date": "2026-10-17",
-  "ok": 56,
+  "ok": 58,
   "fail": 2,
-  "limit": 136
+  "limit": 139
  },
  "posted_heads": [
-  {
-   "h": "Govt targets Rs3.7 trillion in housing, farm, SME loans",
-   "t": 1792051889
-  },
   {
    "h": "Economic instability, food inflation and climate shocks worsen hunger in Pakistan, ranks 106th globally",
    "t": 1792054275
@@ -3197,10 +3201,14 @@
   {
    "h": "\"Don’t test my patience,\" says Shaheen Afridi following Pakistan’s captaincy chaos",
    "t": 1792217489
+  },
+  {
+   "h": "Gold Price in Pakistan Increases by Rs. 2,200 on Saturday",
+   "t": 1792219302
   }
  ],
  "last_errors": {
-  "time": "2026-10-17 11:31",
+  "time": "2026-10-17 11:41",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3288,12 +3296,12 @@
  },
  "article_diag": {
   "date": "2026-10-17",
-  "tried": 20,
-  "decoded": 19,
-  "text": 16,
-  "story": 16
+  "tried": 21,
+  "decoded": 20,
+  "text": 17,
+  "story": 17
  },
- "ai_last_error": "11:00 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "11:40 gemini-3.7-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-17",
   "models": [
