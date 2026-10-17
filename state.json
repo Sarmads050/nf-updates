@@ -679,7 +679,12 @@
   "7a6cb0724b2129e6": 1792264263.8002958,
   "e6815b619492a8a0": 1792264263.800297,
   "ae1ed8be55517227": 1792264263.800497,
-  "4b244b2bcaa3982d": 1792265522.6057782
+  "4b244b2bcaa3982d": 1792265522.6057782,
+  "f21cbcc7a39cba35": 1792266659.5429513,
+  "9df44f55c34a9936": 1792266659.5429537,
+  "12b6dadaaf861a17": 1792266659.5429559,
+  "988d7b80d71c03e5": 1792266659.542965,
+  "c25ca2e532181af5": 1792266659.5431426
  },
  "pending": {},
  "queue": [],
@@ -775,19 +780,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122109689505503839",
+ "last_post_id": "1444130002106066_122109699855503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109041649503839",
-   "title": "اڄ جون نوڪريون (نوشهروفيروز ۽ سنڌ)",
-   "t": 1792209681.3156722,
-   "tags": [
-    "jobs",
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109041649503839"
-  },
   {
    "id": "1444130002106066_122109049977503839",
    "title": "حڪومت ايم ايل ون ريلوي رٿا ۽ آرٽيفيشل انٽيليجنس پروگرام جي مالي مدد لاءِ ورلڊ بئنڪ گروپ",
@@ -1060,6 +1054,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109689505503839"
+  },
+  {
+   "id": "1444130002106066_122109699855503839",
+   "title": "زرعي ماهرن موجب پنجاب ۾ ڇولن جي بيمارين کان بچاءُ ۽ بهتر پيداوار حاصل ڪرڻ لاءِ وقت تي",
+   "t": 1792266688.4278476,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109699855503839"
   }
  ],
  "share_sent": {
@@ -1140,7 +1144,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 00:40",
+  "time": "2026-10-18 00:51",
   "items": 29,
   "sample": [
    "Canada 256/10 v Nepal 232/10 *",
@@ -1150,13 +1154,13 @@
  },
  "agri_news": {
   "date": "2026-10-18",
-  "count": 0,
-  "last": 1792225932.7392735
+  "count": 1,
+  "last": 1792266688.4275146
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 2,
-  "last": 1792265612.1561916
+  "count": 3,
+  "last": 1792266682.010042
  },
  "perf": {
   "posts": [
@@ -1981,6 +1985,12 @@
     "sec": "public_news",
     "cat": "dollar_gold_business",
     "t": 1792265627
+   },
+   {
+    "id": "1444130002106066_122109699855503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1792266688
    }
   ]
  },
@@ -3381,15 +3391,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 4,
+  "ok": 6,
   "fail": 0,
-  "limit": 8
+  "limit": 14
  },
  "posted_heads": [
-  {
-   "h": "Pakistan seeks enhanced IDB’s support for ML-1 railway project",
-   "t": 1792095681
-  },
   {
    "h": "Pakistan seeks Alibaba cooperation for cashless economy, SME exports",
    "t": 1792098678
@@ -3705,10 +3711,14 @@
   {
    "h": "Gold price per tola fall by Rs1,600 in Pakistan",
    "t": 1792265627
+  },
+  {
+   "h": "Timely sowing key to higher chickpea yield in Punjab",
+   "t": 1792266688
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 00:40",
+  "time": "2026-10-18 00:51",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3796,12 +3806,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 2,
-  "decoded": 2,
-  "text": 2,
-  "story": 2
+  "tried": 3,
+  "decoded": 3,
+  "text": 3,
+  "story": 3
  },
- "ai_last_error": "00:32 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "00:51 gemini-3.7-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
