@@ -668,7 +668,17 @@
   "db4f07436c3102da": 1792260791.1639073,
   "42209645b81ea064": 1792262459.052736,
   "a5c3e28f09232dee": 1792263055.3831284,
-  "2f70b69d77bb0328": 1792263657.1804008
+  "2f70b69d77bb0328": 1792263657.1804008,
+  "05adbafc136a1abc": 1792264263.8002865,
+  "5edf2d0cd2d053e0": 1792264263.8002896,
+  "1982520861a1b7f2": 1792264263.8002908,
+  "a2af8ad8251b9e2b": 1792264263.800292,
+  "7aad459ce8f64981": 1792264263.800293,
+  "27f18e8811d09368": 1792264263.8002942,
+  "742284a90b738476": 1792264263.800295,
+  "7a6cb0724b2129e6": 1792264263.8002958,
+  "e6815b619492a8a0": 1792264263.800297,
+  "ae1ed8be55517227": 1792264263.800497
  },
  "pending": {},
  "queue": [],
@@ -696,7 +706,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.7-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -764,17 +774,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122109664263503839",
+ "last_post_id": "1444130002106066_122109674931503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109012081503839",
-   "title": "پاڪستاني فاسٽ بالر شاهين شاهه آفريڊي ۽ سندس گهرواري انشا آفريدي پنهنجي نڪاح جي پهرين",
-   "t": 1792206689.8578334,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109012081503839"
-  },
   {
    "id": "1444130002106066_122109033957503839",
    "title": "پاڪستان کي 74 سالن کانپوءِ آءِ ايم ايف ۽ عالمي بينڪ جي بورڊ آف گورنرز جو چيئرمين چونڊيو",
@@ -1048,6 +1049,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109664263503839"
+  },
+  {
+   "id": "1444130002106066_122109674931503839",
+   "title": "پاڪستاني ڪپتان شاهين آفريدي گهر ۾ شيڊول ٽري سيريز کان اڳ صائم ايوب ۽ سلمان علي آغا تي",
+   "t": 1792264297.566539,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109674931503839"
   }
  ],
  "share_sent": {
@@ -1113,13 +1123,23 @@
  },
  "cricket_news": {
   "date": "2026-10-18",
-  "count": 0,
-  "last": 1792232489.9675708
+  "count": 1,
+  "last": 1792264297.5661843
  },
- "cricket": {},
+ "cricket": {
+  "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
+   "post": null,
+   "wkts": {},
+   "wicket_posts": 0,
+   "break_done": false,
+   "last_edit": 0,
+   "batting": null,
+   "done": false
+  }
+ },
  "cricket_feed": {
-  "time": "2026-10-18 00:01",
-  "items": 28,
+  "time": "2026-10-18 00:11",
+  "items": 29,
   "sample": [
    "Canada 256/10 v Nepal 232/10 *",
    "Afghanistan Under-19s 217/10 * v Bangladesh Under-19s 250/8",
@@ -1133,8 +1153,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 0,
-  "last": 1792263182.700027
+  "count": 1,
+  "last": 1792264292.0578175
  },
  "perf": {
   "posts": [
@@ -1947,6 +1967,12 @@
     "sec": "public_news",
     "cat": "dollar_gold_business",
     "t": 1792263189
+   },
+   {
+    "id": "1444130002106066_122109674931503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792264297
    }
   ]
  },
@@ -3346,16 +3372,12 @@
   "ai_ok": true
  },
  "ai_usage": {
-  "date": "2026-10-17",
-  "ok": 110,
-  "fail": 10,
-  "limit": 180
+  "date": "2026-10-18",
+  "ok": 2,
+  "fail": 0,
+  "limit": 4
  },
  "posted_heads": [
-  {
-   "h": "Notification Issued On Changes In Petroleum Product Prices",
-   "t": 1792092104
-  },
   {
    "h": "SECP proposes national agricultural spot market to improve farm prices, cut crop losses",
    "t": 1792093286
@@ -3671,10 +3693,14 @@
   {
    "h": "Gold prices fall in Pakistan as global market loses ground",
    "t": 1792263189
+  },
+  {
+   "h": "Skipper Shaheen defends Agha, Saim ahead of home ODI tri-series",
+   "t": 1792264297
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 00:01",
+  "time": "2026-10-18 00:11",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3761,15 +3787,15 @@
   }
  },
  "article_diag": {
-  "date": "2026-10-17",
-  "tried": 40,
-  "decoded": 39,
-  "text": 31,
-  "story": 31
+  "date": "2026-10-18",
+  "tried": 1,
+  "decoded": 1,
+  "text": 1,
+  "story": 1
  },
- "ai_last_error": "23:52 gemini-3.5-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "00:11 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "models": [
    "gemini-flash-latest",
    "gemini-flash-lite-latest",
