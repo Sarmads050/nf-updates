@@ -54,14 +54,34 @@
   ],
   "extra_feeds": [
     {
+      "url": "https://pahenjiakhbar.com/feed/",
+      "type": "news",
+      "name": "پنھنجي اخبار",
+      "lang_gate": "sindhi"
+    },
+    {
+      "url": "https://wtnsindhi.com/feed/",
+      "type": "news",
+      "name": "WTN سنڌي",
+      "lang_gate": "sindhi"
+    },
+    {
+      "url": "https://sindhvoice.com/feed/",
+      "type": "news",
+      "name": "سنڌ وائيس",
+      "lang_gate": "sindhi"
+    },
+    {
       "url": "https://www.awamiawaz.pk/feed/",
       "type": "news",
-      "name": "Awami Awaz"
+      "name": "Awami Awaz",
+      "lang_gate": "sindhi"
     },
     {
       "url": "https://www.ktnnews.tv/feed/",
       "type": "news",
-      "name": "KTN News"
+      "name": "KTN News",
+      "lang_gate": "sindhi"
     },
     {
       "url": "https://www.express.pk/feed/",
@@ -156,7 +176,10 @@
     "pta.gov.pk",
     "finance.gov.pk",
     "pbs.gov.pk",
-    "sbp.org.pk"
+    "sbp.org.pk",
+    "pahenjiakhbar.com",
+    "wtnsindhi.com",
+    "sindhvoice.com"
   ],
   "sensitive_words": [
     "murder",
@@ -507,7 +530,10 @@
     ],
     "card": true,
     "story_feeds": [
+      "https://pahenjiakhbar.com/feed/",
       "https://www.awamiawaz.pk/feed/",
+      "https://wtnsindhi.com/feed/",
+      "https://sindhvoice.com/feed/",
       "https://www.ktnnews.tv/feed/",
       "https://www.express.pk/feed/",
       "https://urdu.arynews.tv/feed/"
@@ -848,5 +874,83 @@
     "google/gemma-4-31b-it:free",
     "google/gemma-4-26b-a4b-it:free"
   ],
-  "metricool_note": "Waqt Metricool (Asia/Karachi, Oct 2026) ke best-time data aur Sindh audience ke mutabiq: peak 9-12 aur 16-20, raat 0-6 kam."
+  "metricool_note": "Waqt Metricool (Asia/Karachi, Oct 2026) ke best-time data aur Sindh audience ke mutabiq: peak 9-12 aur 16-20, raat 0-6 kam.",
+  "culture": {
+    "enabled": true,
+    "weekday": 4,
+    "hour": 9,
+    "review": true,
+    "bank": [
+      {
+        "type": "bait",
+        "sur": "سُر سارنگ",
+        "text": "سائينم سدائين، ڪرين مٿي سنڌ سُڪار / دوست مٺا دلدار، عالَمَ سڀ آباد ڪرين"
+      },
+      {
+        "type": "pahako",
+        "text": "ٻه ته ٻارهن",
+        "meaning": "اتحاد ۾ طاقت"
+      },
+      {
+        "type": "bait",
+        "sur": "سُر يمن ڪلياڻ",
+        "text": "پتنگن پهه ڪيو، مڙيا مٿي مچ"
+      },
+      {
+        "type": "pahako",
+        "text": "تاڙي هڪ هٿ سان نه وڄي",
+        "meaning": "ٻنهي ڌرين جو سهڪار لازمي"
+      },
+      {
+        "type": "bait",
+        "sur": "سُر ڪلياڻ",
+        "text": "سنئين سپرين جي، ونگي ڀانءِ مَ واٽَ / ڇڏ جهوري، ڏي جهات، ته هوندي راتِ هُت مِڙُون"
+      },
+      {
+        "type": "pahako",
+        "text": "تڪڙ ڪم شيطان جو",
+        "meaning": "تڪڙ ۾ ڪم خراب ٿئي"
+      },
+      {
+        "type": "bait",
+        "sur": "سُر سهڻي",
+        "text": "جي تو بيتَ ڀانئيا، سي آيَتُون آهِينِ / نِئو مَنُ لائِينِ، پِريان سندي پارَ ڏي"
+      },
+      {
+        "type": "pahako",
+        "text": "ڦڙي ڦڙيءَ تلاءُ",
+        "meaning": "ٿورو ٿورو گڏ ڪري وڏو"
+      },
+      {
+        "type": "bait",
+        "sur": "سُر ڪلياڻ",
+        "text": "کڻي نيڻ خمار مان، ناز ڪيائون نظر / سورج شاخون جهڪيون ڪوماڻو قمر"
+      },
+      {
+        "type": "pahako",
+        "text": "جيئن دير، تيئن خير",
+        "meaning": "صبر جو نتيجو چڱو"
+      },
+      {
+        "type": "pahako",
+        "text": "تلوار جو ڦٽ ڇٽي وڃي، زبان جو ڦٽ نه ڇٽي",
+        "meaning": "لفظن جو زخم ناهي ڀرندو"
+      },
+      {
+        "type": "pahako",
+        "text": "پنهنجي گهر ٻلي به شينهن",
+        "meaning": "پنهنجي ميدان ۾ ڪمزور به طاقتور"
+      },
+      {
+        "type": "pahako",
+        "text": "اُستاد جي مار، ٻار-سنوار",
+        "meaning": "استاد جي سختي سنواري"
+      },
+      {
+        "type": "pahako",
+        "text": "ٿوري کٽئي گهڻي برڪت",
+        "meaning": "حلال ٿوري ۾ وڏي برڪت"
+      }
+    ]
+  }
 }

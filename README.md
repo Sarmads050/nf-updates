@@ -208,3 +208,7 @@ Aur `hashtags` mein naye tags. Code badalne ki zaroorat nahi.
 - **AI tasveer** (`news_images`): khabar ke card par us ke mutabiq illustration (asli photo jaisi nahi) (kone mein "AI تصوير" ka nishan chahiye ho to `news_images` → `ai_label: true`). Pehle Gemini image model, na chale to Pollinations (free). Jurm, maut, hadse, mazhab, siyasi shakhsiyat aur fauj wali khabron par tasveer nahi banti.
 - **Posting ka waqt** (`safety.hour_gaps`): har ghante ka waqfa Metricool ke best-time data aur Sindh audience ke mutabiq — subah 9-12 aur shaam 4-8 sab se zyada posts (10 minute waqfa), raat 12-6 kam (45 minute), Juma ki namaz (12-2) ke waqt kam. Subah ka Sindh roundup 8 baje, groups share helper 10, 5 aur 8 baje.
 - **OpenRouter backup** (`OPENROUTER_API_KEY` secret, optional): mazboot Gemini busy ho to kamzor model se pehle OpenRouter ka free Gemma model.
+- **Sindhi akhbar** (`extra_feeds`, `lang_gate: sindhi`): Pahenji Akhbar, Awami Awaz, WTN Sindhi, Sindh Voice, KTN — in se sirf Sindhi khabrein (Urdu wali nahi). Har feed ki sehat `state.json` → `source_health` mein.
+- **Urdu ki pakad**: AI Sindhi ki jagah Urdu likhe to dobara Sindhi mein likhwaya jata hai.
+- **Khabron ke qanooni qaide**: nabaligh ka naam nahi, ilzaam par "مبينا", koi khaufnaak tafseel nahi, kisi mazhab/firqay/qaum par ilzaam nahi.
+- **Juma culture post** (`culture`): har Juma subah 9 baje Shah Latif ka bait ya Sindhi pahako + roz marra se ta'aluq + sawal. Pehle Telegram par review (✅/❌) — alfaaz check kar ke hi post karein.

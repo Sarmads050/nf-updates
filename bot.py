@@ -172,7 +172,7 @@ def process_telegram():
                 answer = "Ye khabar pehle hi handle ho chuki hai"
             elif action == "ok":
                 S["queue"].insert(0, {"message": p["message"], "link": p.get("link"), "photo": p.get("photo"), "video": p.get("video"),
-                                      "added": time.time(), "priority": True})
+                                      "card": p.get("card"), "added": time.time(), "priority": True})
                 answer = "✅ Approved - agle round mein post hogi"
             else:
                 answer = "❌ Reject kar di"
@@ -607,12 +607,30 @@ def mentions_district(text):
     return word_match(text, CONFIG["district_towns"])
 
 
+def source_health(url, status, items):
+    """Har feed ki sehat: aaj kitni dafa chali/fail hui (/status mein dikhti hai)."""
+    h = S.setdefault("source_health", {})
+    d = h.setdefault(url, {})
+    if d.get("date") != today():
+        d.update(date=today(), ok=0, fail=0)
+    if status == 200 and items:
+        d["ok"] += 1
+        d["items"] = items
+        d["fail_streak"] = 0
+    else:
+        d["fail"] += 1
+        d["fail_streak"] = d.get("fail_streak", 0) + 1
+        d["last_status"] = status
+
+
 def fetch(kind):
     """kind = news ya jobs. Google News + akhbaaron ke feeds + naukri pages + Telegram channels."""
     queries = CONFIG["news_queries"] if kind == "news" else CONFIG["job_queries"]
     sources = [(gnews_url(q, lang), None, False) for q in queries for lang in ("ur", "en")]
     # akhbaaron ke aam feeds: in mein sab khabrein hoti hain, is liye sirf district wali li jayengi
-    sources += [(f["url"], f.get("name"), True) for f in CONFIG.get("extra_feeds", []) if f.get("type", "news") == kind]
+    feeds = [f for f in CONFIG.get("extra_feeds", []) if f.get("type", "news") == kind]
+    sources += [(f["url"], f.get("name"), True) for f in feeds]
+    gate = {f["url"] for f in feeds if f.get("lang_gate") == "sindhi"}
     max_age = CONFIG["max_age_hours"] * 3600
     items, keys = [], set()
 
@@ -628,8 +646,12 @@ def fetch(kind):
         try:
             r = requests.get(u, timeout=25, headers=UA)
             feed = feedparser.parse(r.content)
+            if need_district:
+                source_health(u, r.status_code, len(feed.entries))
         except Exception as e:
             log("feed error:", u, e)
+            if need_district:
+                source_health(u, 0, 0)
             continue
         for e in feed.entries:
             title = clean_text(e.get("title", ""))
@@ -646,6 +668,10 @@ def fetch(kind):
             if need_district and not (mentions_district(title) or
                                       mentions_district(clean_text(e.get("summary", ""))[:250])):
                 continue
+            if u in gate:  # Sindhi akhbar: sirf Sindhi khabrein (Urdu wali nahi)
+                sd, ur = lang_counts(title + " " + clean_text(e.get("summary", ""))[:400])
+                if sd < ur:
+                    continue
             domain = urlparse(src_href or link).netloc.lower().removeprefix("www.")
             add(title, link, domain, src_title or name or feed.feed.get("title"), ts, need_district)
 
@@ -807,6 +833,26 @@ SCRIPT_GUARD = ("\n\nIMPORTANT: Write Sindhi ONLY in correct Sindhi Arabic-scrip
                 "If unsure of a word, use a simpler correct Sindhi word.")
 
 
+SINDHI_ONLY = re.compile("[\u067A\u067B\u067D\u067F\u0680\u0683\u0684\u0687\u068A\u068C\u068D\u068F\u0699"
+                         "\u06A6\u06AA\u06B1\u06B3\u06BB]")  # ٺ ٻ ٽ ٿ ڀ ڃ ڄ ڇ ڊ ڌ ڍ ڏ ڙ ڦ ڪ ڱ ڳ ڻ (sirf Sindhi)
+URDU_ONLY = re.compile("[\u0679\u0688\u0691\u06BA\u06C1\u06C2\u06CC\u06D2\u06D3]")  # ٹ ڈ ڑ ں ہ ۂ ی ے ۓ
+LEGAL_RULES = ("\n\nNEWS RULES (always): never name or identify a minor (under 18) who is a victim or accused in any "
+               "crime or abuse case; for accusations not proven in court write 'مبينا' (alleged); no graphic or "
+               "gory details; never blame a religion, sect, caste or ethnic group; quote people only word-for-word, "
+               "otherwise write indirectly (چيو ته...).")
+
+
+def lang_counts(text):
+    t = str(text or "")
+    return len(SINDHI_ONLY.findall(t)), len(URDU_ONLY.findall(t))
+
+
+def looks_urdu(text):
+    """Sindhi ki jagah Urdu likha gaya? (Urdu ke khaas huroof Sindhi walon se zyada)"""
+    sd, ur = lang_counts(text)
+    return ur >= 4 and ur > sd
+
+
 def bad_script(text):
     """Sindhi mein ghalat huroof (Greek, Hindi, ajeeb nishan, ya lafz ke andar English harf)."""
     t = re.sub(r"https?://\S+", "", str(text or ""))
@@ -823,13 +869,38 @@ def _has_bad(obj):
     return False
 
 
+def _wants_sindhi(prompt):
+    return "sindhi" in prompt.lower()
+
+
+def _has_urdu(obj):
+    if isinstance(obj, str):
+        return looks_urdu(obj)
+    if isinstance(obj, dict):
+        return any(_has_urdu(v) for v in obj.values())
+    if isinstance(obj, list):
+        return any(_has_urdu(v) for v in obj)
+    return False
+
+
+URDU_GUARD = ("\n\nIMPORTANT: Your previous answer was written in URDU. Write it in SINDHI (Sindhi words and Sindhi "
+              "letters like ڀ ٻ ڄ ڪ ڻ ڳ, use ي not ی, use ه not ہ/ے), not Urdu.")
+
+
 def ask_gemini(prompt, image=None, mime="image/jpeg"):
-    """Gemini se jawab; agar Sindhi mein ghalat huroof aayen to 2 dafa dobara likhwao."""
+    """Gemini se jawab; agar Sindhi mein ghalat huroof (ya Urdu) aayen to 2 dafa dobara likhwao."""
     res = None
+    if _wants_sindhi(prompt):
+        prompt = prompt + LEGAL_RULES
     for attempt in range(3):
-        res = _ask_gemini(prompt + (SCRIPT_GUARD if attempt else ""), image, mime)
-        if not _has_bad(res):
+        extra = ""
+        if attempt:
+            extra = URDU_GUARD if (_wants_sindhi(prompt) and _has_urdu(res) and not _has_bad(res)) else SCRIPT_GUARD
+        res = _ask_gemini(prompt + extra, image, mime)
+        if not _has_bad(res) and not (_wants_sindhi(prompt) and _has_urdu(res)):
             return res
+        if not _has_bad(res) and attempt == 2:
+            return res  # Urdu hi sahi (page Urdu bhi qubool karta hai)
         log("AI ne ghalat huroof likhe, dobara koshish", attempt + 1)
         STATS["bad_script"] = STATS.get("bad_script", 0) + 1
     return res
@@ -924,6 +995,8 @@ def groq_model():
 
 def ask_groq(prompt):
     res = None
+    if _wants_sindhi(prompt):
+        prompt = prompt + LEGAL_RULES
     for attempt in range(2):
         res = _ask_groq(prompt + (SCRIPT_GUARD if attempt else ""))
         if not _has_bad(res):
@@ -1383,7 +1456,12 @@ def publish_queue():
     S["queue"].sort(key=lambda q: not q.get("priority"))  # Telegram se manzoor ki hui khabrein sab se pehle
     while S["queue"] and (S["queue"][0].get("priority") or (posted < CONFIG["max_posts_per_run"] and can_post())):
         q = S["queue"][0]
-        ok = fb_post(q["message"], q.get("link"), q.get("photo"), q.get("video"))
+        if q.get("card") and not q.get("photo"):
+            spec = q["card"]
+            card = make_card(spec.get("title", ""), spec.get("sub", ""), spec.get("body", ""), theme=spec.get("theme", "culture"))
+            ok = fb_post(q["message"], q.get("link"), card, q.get("video"), card=False)
+        else:
+            ok = fb_post(q["message"], q.get("link"), q.get("photo"), q.get("video"))
         if not ok:
             break
         S["queue"].pop(0)
@@ -2756,6 +2834,45 @@ def handle_public_news():
                icons=PUBLIC_ICONS)
 
 
+def handle_culture():
+    """Juma ki subah: Shah Latif ka bait ya Sindhi pahako + roz marra se ta'aluq + sawal. Pehle Telegram par review."""
+    cfg = CONFIG.get("culture", {})
+    bank = cfg.get("bank", [])
+    st = S.setdefault("culture", {"last": "", "idx": 0})
+    if (not cfg.get("enabled", True) or not bank or now().weekday() != cfg.get("weekday", 4)
+            or now().hour < cfg.get("hour", 9) or st.get("last") == today() or not (TG_TOKEN and TG_CHAT)):
+        return
+    st["last"] = today()
+    item = bank[st.get("idx", 0) % len(bank)]
+    st["idx"] = st.get("idx", 0) + 1
+    is_bait = item.get("type") == "bait"
+    verse = item["text"].replace(" / ", "\n")
+    head = f"📜 شاهه جو بيت | {item.get('sur', '')}" if is_bait else "📜 سنڌي پهاڪو"
+    prompt = ("Sindhi " + ("verse of Shah Abdul Latif Bhittai" if is_bait else "proverb") + ":\n" + item["text"] +
+              (f"\nMeaning: {item['meaning']}" if item.get("meaning") else "") +
+              "\n\nIn Sindhi (Arabic script) write 3-4 simple lines connecting its message to everyday life in Sindh "
+              "today (family, work, honesty, unity, patience), then one open question for readers. Do NOT rewrite or "
+              "quote the verse/proverb itself, no religion debate, no politics.\n"
+              "Return JSON: {\"lines\": string, \"question\": string}")
+    out = ask_gemini(prompt) if GEMINI_KEY else (ask_groq(prompt) if GROQ_KEY else None)
+    if not isinstance(out, dict) or not out.get("lines"):
+        st["last"] = ""  # agli run mein dobara
+        st["idx"] -= 1
+        return
+    lines, q = clean_text(out["lines"]), clean_text(str(out.get("question", "")))
+    meaning = f"\n({item['meaning']})" if item.get("meaning") else ""
+    msg = f"{head}\n\n«{verse}»{meaning}\n\n{lines}\n\n💬 {q}\n\n{footer()}"
+    if bad_script(msg) or blocked_reason(msg):
+        return
+    key = "culture" + today()
+    S["pending"][key] = {"message": msg, "added": time.time(),
+                         "card": {"title": item["text"].split(" / ")[0], "body": " / ".join(item["text"].split(" / ")[1:]),
+                                  "sub": ("شاهه عبداللطيف ڀٽائي — " + item.get("sur", "")) if is_bait else "سنڌي پهاڪو",
+                                  "theme": "culture"}}
+    tg_send("📜 JUMA CULTURE POST (review): bait/pahako ke alfaaz ek dafa zaroor check karein — ghalti ho to ❌ dabayen.\n\n"
+            + msg, [{"text": "✅ Post karo", "callback_data": "ok:" + key}, {"text": "❌ Reject", "callback_data": "no:" + key}])
+
+
 def handle_promo():
     p = S["promo"]
     if p.get("last_check") == today() or DRY_RUN or not (FB_PAGE_ID and FB_TOKEN):
@@ -2832,7 +2949,7 @@ def main():
             alert(f"System mein error aaya ({fn.__name__}):\n" + err[-600:])
 
     for fn in (process_telegram, expire_old, handle_news, handle_jobs, publish_queue, handle_promo, handle_daily,
-               handle_engagement, handle_roundup, handle_trends):
+               handle_engagement, handle_culture, handle_roundup, handle_trends):
         step(fn)
     sections = {"sindh_single": handle_sindh_single, "cricket_news": handle_cricket_news,
                 "agri_news": handle_agri_news, "public_news": handle_public_news}
