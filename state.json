@@ -730,7 +730,10 @@
   "7e2d33d41235043b": 1792284680.3298826,
   "2ea61e13055d115b": 1792284680.3298838,
   "fa98bf42c835afbd": 1792284711.1692858,
-  "1cda2ed60246ce9e": 1792284711.1695285
+  "1cda2ed60246ce9e": 1792284711.1695285,
+  "904688fab21e80a8": 1792286456.6315658,
+  "39282bea46115c08": 1792286456.6315677,
+  "b55a79b588f9b91b": 1792286456.6317103
  },
  "pending": {},
  "queue": [],
@@ -758,7 +761,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -826,17 +829,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122109867717503839",
+ "last_post_id": "1444130002106066_122109878067503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109153879503839",
-   "title": "عورتن جي ٽي ٽوئنٽي ورلڊ ڪپ جي ميچ ۾ آسٽريليا پاڪستان کي 9 وڪيٽن تان هارائي ڇڏيو آهي جڏهن",
-   "t": 1792220509.9214728,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109153879503839"
-  },
   {
    "id": "1444130002106066_122109163707503839",
    "title": "موسميات کاتي پشاور سميت خيبرپختونخواهه جي مختلف علائقن ۾ وڌيڪ برساتن جي اڳڪٿي ڪئي آهي",
@@ -1109,6 +1103,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109862995503839"
+  },
+  {
+   "id": "1444130002106066_122109878067503839",
+   "title": "پاڪستاني ڪريٽ ٽيم جي ايندڙ ون ڊيٽرائي سيريز جي تيارين دوران شاهين آفريدي بابر اعظم، آغا",
+   "t": 1792286478.6874692,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109878067503839"
   }
  ],
  "share_sent": {
@@ -1174,8 +1177,8 @@
  },
  "cricket_news": {
   "date": "2026-10-18",
-  "count": 3,
-  "last": 1792282280.3876057
+  "count": 4,
+  "last": 1792286478.6872394
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -1189,7 +1192,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 06:10",
+  "time": "2026-10-18 06:21",
   "items": 28,
   "sample": [
    "Bangladesh 172/10 * v Zimbabwe 271/8",
@@ -1204,8 +1207,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 11,
-  "last": 1792285363.9552536
+  "count": 12,
+  "last": 1792286467.0442882
  },
  "perf": {
   "posts": [
@@ -2078,6 +2081,12 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1792284756
+   },
+   {
+    "id": "1444130002106066_122109878067503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792286478
    }
   ]
  },
@@ -3598,15 +3607,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 29,
+  "ok": 31,
   "fail": 0,
-  "limit": 88
+  "limit": 98
  },
  "posted_heads": [
-  {
-   "h": "PM calls for agricultural innovation to ensure food security",
-   "t": 1792114870
-  },
   {
    "h": "FBR extends tax returns deadline until Oct 31",
    "t": 1792117262
@@ -3922,10 +3927,14 @@
   {
    "h": "HCSTSI for ensuring availability of wheat flour at affordable prices",
    "t": 1792284756
+  },
+  {
+   "h": "Shaheen backs Babar, Agha and Saim as Pakistan gear up for ODI Tri-Series",
+   "t": 1792286479
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 06:10",
+  "time": "2026-10-18 06:21",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4013,12 +4022,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 10,
-  "decoded": 10,
-  "text": 10,
-  "story": 10
+  "tried": 11,
+  "decoded": 11,
+  "text": 11,
+  "story": 11
  },
- "ai_last_error": "06:02 gemini-3.7-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "06:20 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
