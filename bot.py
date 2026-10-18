@@ -2838,10 +2838,11 @@ def probe_sources():
     """Naye source ki jaanch (din mein ek dafa): feed / WordPress / homepage par Sindhi text hai ya nahi."""
     targets = CONFIG.get("probe_sources", [])
     pr = S.setdefault("probe", {})
-    if not targets or pr.get("date") == today():
+    if not targets or (pr.get("date") == today() and pr.get("targets") == targets):
         return
     pr.clear()
     pr["date"] = today()
+    pr["targets"] = list(targets)
     for base in targets:
         res = {}
         for path in ("/feed/", "/rss", "/wp-json/wp/v2/posts?per_page=3&_fields=title,link", "/"):
@@ -2857,6 +2858,8 @@ def probe_sources():
                     info["sample"] = [clean_text(e.get("title", ""))[:60] for e in f.entries[:2]]
                 if path == "/":
                     info["final_url"] = r.url
+                    info["img_src"] = re.findall(r'<img[^>]+src="([^"]+)"', body)[:12]
+                    info["hrefs"] = list(dict.fromkeys(re.findall(r'href="([^"#]+)"', body)))[:25]
                     info["links"] = len(re.findall(r'href="[^"]+/(?:news|story|detail|20\d\d)/[^"]*"', body))
                 res[path] = info
             except Exception as e:
