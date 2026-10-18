@@ -755,7 +755,17 @@
   "b47234dcdbb1c38f": 1792293707.3599784,
   "151579d9f3d947ca": 1792293707.3599792,
   "7297bbddcfad5635": 1792293707.3599799,
-  "2f9464236a54f3b5": 1792293707.3599803
+  "2f9464236a54f3b5": 1792293707.3599803,
+  "ef7995f19e9d94ba": 1792294257.3490076,
+  "c73fe367e9d8dc54": 1792294257.3490105,
+  "cfeadc382b8171bf": 1792294257.3490114,
+  "5bc63b0543123c16": 1792294257.3490121,
+  "b1f8a30bf3af80a1": 1792294257.349013,
+  "595ea99e5156b5b8": 1792294257.349014,
+  "ed2091aac9943cfa": 1792294257.3490148,
+  "1b70111c548f66af": 1792294257.3490152,
+  "68d92f609c2e0ce9": 1792294257.349016,
+  "c04db5f1e761fb69": 1792294257.3492074
  },
  "pending": {},
  "queue": [],
@@ -783,7 +793,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-flash-latest",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -851,17 +861,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122109919203503839",
+ "last_post_id": "1444130002106066_122109932907503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109176691503839",
-   "title": "ايف بي آر جي چيئرمين انڪم ٽيڪس ريفنڊز جي ادائيگي تيز ڪرڻ لاءِ وقت جي پابندي وارو طريقيڪار",
-   "t": 1792223479.1047156,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109176691503839"
-  },
   {
    "id": "1444130002106066_122109187617503839",
    "title": "پاڪستان ڪرڪيٽ بورڊ قومي رانديگرن لاءِ سينٽرل ڪانٽريڪٽس جي اعلان ۾ دير ڪري ڇڏي آهي، جنهن",
@@ -1134,6 +1135,16 @@
     "local"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109919203503839"
+  },
+  {
+   "id": "1444130002106066_122109932907503839",
+   "title": "گورنر اسٽيٽ بئنڪ جو چوڻ آھي ته ملڪي معيشت ھاڻي مختلف اقتصادي جھٽڪن کي منھن ڏيڻ جيتري",
+   "t": 1792294280.2768285,
+   "tags": [
+    "business",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109932907503839"
   }
  ],
  "share_sent": {
@@ -1214,7 +1225,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 08:21",
+  "time": "2026-10-18 08:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1229,8 +1240,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 14,
-  "last": 1792291897.2600586
+  "count": 15,
+  "last": 1792294273.379141
  },
  "perf": {
   "posts": [
@@ -2115,13 +2126,19 @@
     "sec": "public_news",
     "cat": "weather_disaster",
     "t": 1792291904
+   },
+   {
+    "id": "1444130002106066_122109932907503839",
+    "sec": "public_news",
+    "cat": "dollar_gold_business",
+    "t": 1792294280
    }
   ]
  },
  "public_news": {
   "date": "2026-10-18",
-  "count": 5,
-  "last": 1792291904.9851024
+  "count": 6,
+  "last": 1792294280.2765024
  },
  "trends": {
   "last": 1792293647.629428,
@@ -3643,15 +3660,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 42,
+  "ok": 44,
   "fail": 3,
-  "limit": 131
+  "limit": 141
  },
  "posted_heads": [
-  {
-   "h": "Pakistan, Alibaba discuss e-commerce tax reforms, digital payments and export growth",
-   "t": 1792119060
-  },
   {
    "h": "1QFY27 textile exports grow 5.26pc YoY",
    "t": 1792120873
@@ -3967,10 +3980,14 @@
   {
    "h": "More monsoon rains and heavy falls likely in Lahore, Punjab",
    "t": 1792291905
+  },
+  {
+   "h": "Economy more shock-resistant, says SBP chief",
+   "t": 1792294280
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 08:21",
+  "time": "2026-10-18 08:31",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4058,12 +4075,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 12,
-  "decoded": 12,
-  "text": 12,
-  "story": 12
+  "tried": 13,
+  "decoded": 13,
+  "text": 13,
+  "story": 13
  },
- "ai_last_error": "08:21 gemini-3.7-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "08:30 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
