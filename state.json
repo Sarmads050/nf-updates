@@ -848,7 +848,7 @@
   "count": 1
  },
  "last_digest": "2026-10-18",
- "alert_day": "2026-10-14",
+ "alert_day": "2026-10-18",
  "followers": 5,
  "promo": {
   "announced": false,
@@ -908,7 +908,7 @@
  "sindh_single": {
   "date": "2026-10-18",
   "count": 0,
-  "last": 1792314666.4017084,
+  "last": 1792322476.5719097,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1298,7 +1298,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 16:11",
+  "time": "2026-10-18 16:21",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -3940,7 +3940,7 @@
  "ai_usage": {
   "date": "2026-10-18",
   "ok": 83,
-  "fail": 79,
+  "fail": 111,
   "limit": 227
  },
  "posted_heads": [
@@ -4266,8 +4266,10 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 16:11",
-  "steps": []
+  "time": "2026-10-18 16:21",
+  "steps": [
+   "handle_sindh_single"
+  ]
  },
  "roundup_am": "2026-10-18",
  "group_shares": {
@@ -4359,7 +4361,7 @@
   "text": 25,
   "story": 25
  },
- "ai_last_error": "16:11 gemini-3.1-flash-lite 402 {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your projec",
+ "ai_last_error": "16:21 gemini-3.1-flash-lite 402 {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your projec",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
