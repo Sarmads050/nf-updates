@@ -2867,6 +2867,71 @@ def probe_sources():
         pr[base] = res
 
 
+def kawish_pages():
+    """Kawish e-paper ke aaj (ya kal) ke safhon ki tasveerein: [(safha, url, bytes)]."""
+    cfg = CONFIG.get("kawish", {})
+    base = cfg.get("base", "http://www.thekawish.com/beta/images")
+    out = []
+    for back in (0, 1):
+        d = now() - dt.timedelta(days=back)
+        folder = f"{base}/{d.year}/{d.strftime('%B')}/{d.strftime('%d-%m-%Y')}"
+        for n in range(1, cfg.get("pages", 8) + 1):
+            url = f"{folder}/{n:02d}.jpg"
+            try:
+                r = requests.get(url, headers=UA, timeout=40)
+                if r.status_code == 200 and r.headers.get("content-type", "").startswith("image") and len(r.content) > 20000:
+                    out.append((n, url, r.content))
+            except Exception as e:
+                log("kawish page error:", url, e)
+        if out:
+            return out, d.strftime("%d-%m-%Y")
+    return [], ""
+
+
+def kawish_read(page_no, img):
+    towns = ", ".join(CONFIG.get("district_towns", [])[:25])
+    prompt = ("This is page " + str(page_no) + " of today's Daily Kawish, a Sindhi newspaper. Read it carefully. "
+              "List the news stories on this page about Naushahro Feroze district or its towns (" + towns + "), "
+              "and also at most 2 of the most important Sindh-wide stories. For each story write in Sindhi "
+              "(Arabic script): a short headline and a 3-5 sentence summary using ONLY what is printed. If a name "
+              "or number is not clearly readable, leave it out instead of guessing. Skip advertisements, "
+              "religion controversy, and anything about the military.\n"
+              "Return JSON: {\"items\": [{\"headline\": string, \"summary\": string, \"district\": bool, "
+              "\"place\": string, \"confidence\": \"high\"|\"medium\"|\"low\"}]}")
+    out = ask_gemini(prompt, image=img, mime="image/jpeg")
+    return [x for x in (out or {}).get("items", []) if isinstance(x, dict)] if isinstance(out, dict) else []
+
+
+def handle_kawish():
+    """Kawish e-paper se khabrein. mode=test: sirf Telegram preview + state mein (Facebook par nahi)."""
+    cfg = CONFIG.get("kawish", {})
+    if not cfg.get("enabled") or not GEMINI_KEY:
+        return
+    st = S.setdefault("kawish", {})
+    if st.get("date") == today() and st.get("mode") == cfg.get("mode"):
+        return
+    pages, pdate = kawish_pages()
+    st.update(date=today(), mode=cfg.get("mode"), paper_date=pdate, pages=len(pages), posts=[])
+    if not pages:
+        tg_send("🧪 KAWISH TEST: aaj/kal ka e-paper nahi mila.")
+        return
+    for n, url, img in pages:
+        for it in kawish_read(n, img):
+            head, summ = clean_text(it.get("headline", "")), clean_text(it.get("summary", ""))
+            if len(head) < 5 or len(summ) < 30 or blocked_reason(head + " " + summ):
+                continue
+            msg = (f"📰 {head}\n\n{finish(summ)}\n\n📌 {LBL['source']}: روزاني ڪاوش (صفحو {n})\n\n{footer()}")
+            st["posts"].append({"page": n, "url": url, "district": bool(it.get("district")),
+                                "confidence": it.get("confidence", ""), "place": it.get("place", ""), "message": msg})
+    if cfg.get("mode") == "test":
+        posts = sorted(st["posts"], key=lambda x: not x["district"])
+        tg_send(f"🧪 KAWISH TEST ({pdate}) — {len(pages)} safhe parhe, {len(posts)} khabrein mili. "
+                "Ye Facebook par POST NAHI hui, sirf namoona hai:")
+        for x in posts[:12]:
+            tag = ("🏠 District" if x["district"] else "🌍 Sindh") + f" | safha {x['page']} | yaqeen: {x['confidence']}"
+            tg_send(tag + "\n\n" + x["message"])
+
+
 def handle_culture():
     """Juma ki subah: Shah Latif ka bait ya Sindhi pahako + roz marra se ta'aluq + sawal. Pehle Telegram par review."""
     cfg = CONFIG.get("culture", {})
@@ -2982,7 +3047,7 @@ def main():
             alert(f"System mein error aaya ({fn.__name__}):\n" + err[-600:])
 
     for fn in (process_telegram, expire_old, handle_news, handle_jobs, publish_queue, handle_promo, handle_daily,
-               handle_engagement, handle_culture, handle_roundup, handle_trends, probe_sources):
+               handle_engagement, handle_culture, handle_roundup, handle_trends, probe_sources, handle_kawish):
         step(fn)
     sections = {"sindh_single": handle_sindh_single, "cricket_news": handle_cricket_news,
                 "agri_news": handle_agri_news, "public_news": handle_public_news}
