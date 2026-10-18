@@ -715,7 +715,17 @@
   "42fb0baa51bafccd": 1792279854.1262903,
   "26a318c6253d3739": 1792279854.1262915,
   "dd0f6807490dd2fc": 1792279854.1262925,
-  "fcdb06de6f1ede77": 1792279854.1264088
+  "fcdb06de6f1ede77": 1792279854.1264088,
+  "36dbe9b3a583a489": 1792282253.3798454,
+  "dfc1a44209a58044": 1792282253.379847,
+  "17054545c5bc7d63": 1792282253.3798485,
+  "c387575b08d17181": 1792282253.3798494,
+  "6ac3a3f3caa1bbf5": 1792282253.3798501,
+  "9e4cf7f8c4d2c1dd": 1792282253.3798513,
+  "e2ec1371d81af08b": 1792282253.3798518,
+  "d58f084ce62a0a17": 1792282253.379852,
+  "97b4c80eacd9fcef": 1792282253.379853,
+  "7158f5e60b6f370f": 1792282253.3799732
  },
  "pending": {},
  "queue": [],
@@ -811,17 +821,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122109822771503839",
+ "last_post_id": "1444130002106066_122109843165503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109118713503839",
-   "title": "پاڪستاني ڪرڪيٽ ٽيم جي فاسٽ بالر شاهين آفريدي ڪپتاني بابت هلندڙ بحث تي ردعمل ڏيندي چيو آهي",
-   "t": 1792217489.8181233,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109118713503839"
-  },
   {
    "id": "1444130002106066_122109136707503839",
    "title": "پاڪستان ۾ في تولو سون جي قيمت 2200 رپيا واڌ کانپوءِ وڌي وئي آھي",
@@ -1094,6 +1095,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109822771503839"
+  },
+  {
+   "id": "1444130002106066_122109843165503839",
+   "title": "قومي ڪرڪيٽ ٽيم جي فاسٽ بولر شاهين شاهه آفريدي بابر اعظم کي پاڪستاني ڪرڪيٽ جونگھه قرار ڏئي",
+   "t": 1792282280.387848,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109843165503839"
   }
  ],
  "share_sent": {
@@ -1159,8 +1169,8 @@
  },
  "cricket_news": {
   "date": "2026-10-18",
-  "count": 2,
-  "last": 1792274506.7780304
+  "count": 3,
+  "last": 1792282280.3876057
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -1174,7 +1184,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 05:00",
+  "time": "2026-10-18 05:11",
   "items": 28,
   "sample": [
    "Bangladesh 172/10 * v Zimbabwe 271/8",
@@ -1189,8 +1199,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 8,
-  "last": 1792279862.8365543
+  "count": 9,
+  "last": 1792282274.40046
  },
  "perf": {
   "posts": [
@@ -2051,6 +2061,12 @@
     "sec": "public_news",
     "cat": "inflation",
     "t": 1792279870
+   },
+   {
+    "id": "1444130002106066_122109843165503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792282280
    }
   ]
  },
@@ -3531,15 +3547,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 19,
+  "ok": 21,
   "fail": 0,
-  "limit": 55
+  "limit": 65
  },
  "posted_heads": [
-  {
-   "h": "PCB seeks ICC’s response on India’s Champions Trophy participation",
-   "t": 1792110670
-  },
   {
    "h": "Fixtures, Schedule | Pakistan in South Africa",
    "t": 1792113706
@@ -3855,10 +3867,14 @@
   {
    "h": "Prices Keep Rising, Life Gets Harder for Pakistan’s Common Man - Awaz",
    "t": 1792279870
+  },
+  {
+   "h": "Shaheen Shah Afridi hails Babar Azam as backbone of Pakistan Cricket",
+   "t": 1792282280
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 05:00",
+  "time": "2026-10-18 05:11",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -3946,12 +3962,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 8,
-  "decoded": 8,
-  "text": 8,
-  "story": 8
+  "tried": 9,
+  "decoded": 9,
+  "text": 9,
+  "story": 9
  },
- "ai_last_error": "04:30 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "05:11 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
