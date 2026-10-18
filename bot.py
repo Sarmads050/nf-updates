@@ -3108,6 +3108,27 @@ def send_report():
         return
     if S.get("token_check", {}).get("time", "")[:10] != today():  # din mein ek dafa token check
         check_token()
+    acc = S.setdefault("report_acc", {"posted": 0, "found": 0, "old": 0, "irrelevant": 0, "blocked": 0, "errors": []})
+    for k, sk in (("posted", "posted"), ("found", "news_found"), ("old", "news_old"), ("irrelevant", "irrelevant"),
+                  ("blocked", "blocked")):
+        acc[k] = acc.get(k, 0) + STATS.get(sk, 0)
+    acc["errors"] = sorted(set(acc.get("errors", []) + STATS.get("errors", [])))
+    hour_key = now().strftime("%Y-%m-%d %H")
+    every = CONFIG.get("report_every_hours", 1)
+    last = S.get("report_hour", "")
+    if last and not DRY_RUN:
+        try:
+            gone = (now() - dt.datetime.strptime(last, "%Y-%m-%d %H")).total_seconds() / 3600
+        except ValueError:
+            gone = 99
+        if gone < every:
+            return  # ghante mein sirf ek report
+    S["report_hour"] = hour_key
+    STATS.update(posted=acc["posted"], news_found=acc["found"], news_old=acc["old"], irrelevant=acc["irrelevant"],
+                 blocked=acc["blocked"])
+    if acc["errors"]:
+        STATS["errors"] = acc["errors"]
+    S["report_acc"] = {"posted": 0, "found": 0, "old": 0, "irrelevant": 0, "blocked": 0, "errors": []}
     g = STATS.get
     ap = S.get("all_posts", {})
     total = ap.get("count", 0) if ap.get("date") == today() else 0
@@ -3117,14 +3138,14 @@ def send_report():
         d = S.get(key, {})
         return d.get("count", 0) if d.get("date") == today() else 0
     lines = ["📋 Run report " + now().strftime("%I:%M %p") + (" (TEST)" if DRY_RUN else ""),
-             f"✅ Is run mein post hui: {g('posted', 0)}",
+             f"✅ Pichle ghante mein post hui: {g('posted', 0)}",
              f"📊 Aaj kul posts: {total}/{CONFIG.get('safety', {}).get('max_total_per_day', 50)}",
              f"   📍 District: {rc['district']} | Sindh: {rc['sindh']} | Pakistan: {rc['pakistan']}",
              f"   Awami: {cnt('public_news')} | Zarat: {cnt('agri_news')} | Cricket: {cnt('cricket_news')} | "
              f"Sindh alag: {cnt('sindh_single')} | Kawish: {cnt('kawish_post')}",
              f"⏳ Qatar mein: district {len(S['queue'])} + Kawish {len(S.get('kawish_queue', []))} | "
              f"🟠 Review baqi: {len(S['pending'])}",
-             f"🔎 District search: {g('news_found', 0)} khabrein mili (pehle dekhi hui {g('news_old', 0)}, "
+             f"🔎 District search (pichla ghanta): {g('news_found', 0)} khabrein mili (pehle dekhi hui {g('news_old', 0)}, "
              f"district ki nahi {g('irrelevant', 0)}, pabandi {g('blocked', 0)})"]
     if g("fb_error"):
         lines.append("⚠️ Facebook error: " + g("fb_error_text", ""))
