@@ -725,7 +725,12 @@
   "e2ec1371d81af08b": 1792282253.3798518,
   "d58f084ce62a0a17": 1792282253.379852,
   "97b4c80eacd9fcef": 1792282253.379853,
-  "7158f5e60b6f370f": 1792282253.3799732
+  "7158f5e60b6f370f": 1792282253.3799732,
+  "afbc25b193d00460": 1792284680.3298798,
+  "7e2d33d41235043b": 1792284680.3298826,
+  "2ea61e13055d115b": 1792284680.3298838,
+  "fa98bf42c835afbd": 1792284711.1692858,
+  "1cda2ed60246ce9e": 1792284711.1695285
  },
  "pending": {},
  "queue": [],
@@ -753,7 +758,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.8-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -821,18 +826,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122109843165503839",
+ "last_post_id": "1444130002106066_122109862995503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109136707503839",
-   "title": "پاڪستان ۾ في تولو سون جي قيمت 2200 رپيا واڌ کانپوءِ وڌي وئي آھي",
-   "t": 1792219302.3866835,
-   "tags": [
-    "business",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109136707503839"
-  },
   {
    "id": "1444130002106066_122109153879503839",
    "title": "عورتن جي ٽي ٽوئنٽي ورلڊ ڪپ جي ميچ ۾ آسٽريليا پاڪستان کي 9 وڪيٽن تان هارائي ڇڏيو آهي جڏهن",
@@ -1104,6 +1099,16 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109843165503839"
+  },
+  {
+   "id": "1444130002106066_122109862995503839",
+   "title": "حيدرآباد چيمبر آف سمال ٽريڊرز اينڊ سمال انڊسٽري حڪومت کان عوام کي مناسب اگھن تي اٽي جي",
+   "t": 1792284756.1236935,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109862995503839"
   }
  ],
  "share_sent": {
@@ -1184,7 +1189,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 05:40",
+  "time": "2026-10-18 05:52",
   "items": 28,
   "sample": [
    "Bangladesh 172/10 * v Zimbabwe 271/8",
@@ -1194,13 +1199,13 @@
  },
  "agri_news": {
   "date": "2026-10-18",
-  "count": 2,
-  "last": 1792276948.8390312
+  "count": 3,
+  "last": 1792284756.123373
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 9,
-  "last": 1792282274.40046
+  "count": 10,
+  "last": 1792284750.3604078
  },
  "perf": {
   "posts": [
@@ -2067,6 +2072,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792282280
+   },
+   {
+    "id": "1444130002106066_122109862995503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1792284756
    }
   ]
  },
@@ -3587,15 +3598,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 22,
+  "ok": 25,
   "fail": 0,
-  "limit": 70
+  "limit": 71
  },
  "posted_heads": [
-  {
-   "h": "Fixtures, Schedule | Pakistan in South Africa",
-   "t": 1792113706
-  },
   {
    "h": "PM calls for agricultural innovation to ensure food security",
    "t": 1792114870
@@ -3911,10 +3918,14 @@
   {
    "h": "Shaheen Shah Afridi hails Babar Azam as backbone of Pakistan Cricket",
    "t": 1792282280
+  },
+  {
+   "h": "HCSTSI for ensuring availability of wheat flour at affordable prices",
+   "t": 1792284756
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 05:40",
+  "time": "2026-10-18 05:52",
   "steps": []
  },
  "roundup_am": "2026-10-17",
@@ -4002,12 +4013,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 9,
-  "decoded": 9,
-  "text": 9,
-  "story": 9
+  "tried": 10,
+  "decoded": 10,
+  "text": 10,
+  "story": 10
  },
- "ai_last_error": "05:20 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "05:51 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
