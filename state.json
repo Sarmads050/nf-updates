@@ -798,7 +798,9 @@
   "a0888a18d60c4b01": 1792306918.9913821,
   "11eabac1806dfd0b": 1792308667.840298,
   "0ab6002a949d6797": 1792308667.8403,
-  "fb25350cea6c6513": 1792308667.8403013
+  "fb25350cea6c6513": 1792308667.8403013,
+  "90cde13c9c142346": 1792309266.9437358,
+  "263c15035711449f": 1792309266.9439726
  },
  "pending": {},
  "queue": [],
@@ -884,17 +886,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110017135503839",
+ "last_post_id": "1444130002106066_122110031037503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109390741503839",
-   "title": "بئنڪنگ پابندين ۽ مالي ڏکياين سبب ايران مان پاڪستان ڏانهن مختلف شين جي روانگي بند ٿيڻ جو",
-   "t": 1792240298.1636124,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109390741503839"
-  },
   {
    "id": "1444130002106066_122109424269503839",
    "title": "بلوچستان جي ضلعي خضدار ۽ ڀرپاسي وارن علائقن ۾ 5.9 شدت جا زلزلي جا لوڏا محسوس ڪيا ويا آهن،",
@@ -1171,6 +1164,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110017135503839"
+  },
+  {
+   "id": "1444130002106066_122110031037503839",
+   "title": "ون ڊي ٽرائي سيريز جي پهرين ميچ ۾ سريلنڪا پاڪستان خلاف ٽاس کٽي پهريان فيلڊنگ ڪرڻ جو فيصلو",
+   "t": 1792309302.9215708,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110031037503839"
   }
  ],
  "share_sent": {
@@ -1240,8 +1242,8 @@
  },
  "cricket_news": {
   "date": "2026-10-18",
-  "count": 8,
-  "last": 1792305686.897152
+  "count": 9,
+  "last": 1792309302.921195
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -1255,7 +1257,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 12:31",
+  "time": "2026-10-18 12:41",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1270,8 +1272,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 24,
-  "last": 1792306943.2953017
+  "count": 25,
+  "last": 1792309296.3409069
  },
  "perf": {
   "posts": [
@@ -2210,6 +2212,12 @@
     "sec": "public_news",
     "cat": "health",
     "t": 1792306950
+   },
+   {
+    "id": "1444130002106066_122110031037503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792309302
    }
   ]
  },
@@ -3794,15 +3802,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 66,
+  "ok": 68,
   "fail": 4,
   "limit": 222
  },
  "posted_heads": [
-  {
-   "h": "Peshawar school roof collapse kills 35 students, 2 teachers",
-   "t": 1792135879
-  },
   {
    "h": "England cricket team arrive in Pakistan for ODI tri-series",
    "t": 1792137694
@@ -4118,10 +4122,14 @@
   {
    "h": "Kundi moves to curb dengue as cases surge",
    "t": 1792306950
+  },
+  {
+   "h": "Sri Lanka win toss, opt to field first against Pakistan in ODI tri-series opener",
+   "t": 1792309303
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 12:31",
+  "time": "2026-10-18 12:41",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4209,10 +4217,10 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 21,
-  "decoded": 21,
-  "text": 20,
-  "story": 20
+  "tried": 22,
+  "decoded": 22,
+  "text": 21,
+  "story": 21
  },
  "ai_last_error": "11:58 gemini-3.7-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
