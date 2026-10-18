@@ -1713,7 +1713,7 @@ def make_card(title, subtitle="", body="", theme="news", image=None):
       background:#F4EFE6;color:#14213D;border-radius:40px;padding:10px 14px 10px 28px;gap:14px}}
     .brand .f{{background:#1877F2;color:#fff;border-radius:30px;padding:6px 20px;font-size:28px;letter-spacing:1px}}
     </style></head><body><div class="band top"></div><div class="band bot"></div>
-    {f'<div class="pic"><img src="file://{image}"></div><div class="ai">AI تصوير</div>' if image else ''}
+    {f'<div class="pic"><img src="file://{image}"></div>' if image else ''}{'<div class="ai">AI تصوير</div>' if image and CONFIG.get("news_images", {}).get("ai_label", False) else ''}
     <div class="wrap{' withpic' if image else ''}">
     {'' if image else '<div class="tag">NAUSHAHRO FEROZE UPDATES</div>'}<h1>{H.escape(title)}</h1>
     {f'<div class="sub">{H.escape(subtitle)}</div>' if subtitle else ''}
