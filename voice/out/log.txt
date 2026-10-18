@@ -1,15 +1,15 @@
-mms FAILED: ath_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/transformers/utils/hub.py", line 569, in cached_files
-    raise OSError(
-OSError: facebook/mms-tts-snd is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
-If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `hf auth login` or by passing `token=<your_token>`
+HF mms-tts-snd search: [] | sindhi tts search: []
+mms FAILED: Traceback (most recent call last):
+  File "/home/runner/work/nf-updates/nf-updates/voice/voice_sample.py", line 110, in <module>
+    fn()
+  File "/home/runner/work/nf-updates/nf-updates/voice/voice_sample.py", line 32, in mms
+    raise RuntimeError("Sindhi MMS model nahi mila")
+RuntimeError: Sindhi MMS model nahi mila
 
 Gemini TTS models: ['gemini-2.5-flash-preview-tts', 'gemini-2.5-pro-preview-tts', 'gemini-3.1-flash-tts-preview', 'gemini-3.8-flash-tts', 'gemini-3.8-flash-lite-tts']
-gemini FAILED: Traceback (most recent call last):
-  File "/home/runner/work/nf-updates/nf-updates/voice/voice_sample.py", line 97, in <module>
-    fn()
-  File "/home/runner/work/nf-updates/nf-updates/voice/voice_sample.py", line 67, in gemini
-    part = resp.json()["candidates"][0]["content"]["parts"][0]
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
-KeyError: 'content'
+Gemini gemini-2.5-flash-preview-tts no audio; finish: OTHER {"candidates": [{"finishReason": "OTHER", "index": 0}], "usageMetadata": {"promptTokenCount": 564, "totalTokenCount": 564, "promptTokensDetails": [{"modality": "TEXT", "tokenCount": 564}], "serviceTier": "standard"}, "modelVersion": "gemini-2.5-flash-preview-tts", "responseId": "APnUauCOBdeS39IP2Yzc
+Gemini gemini-2.5-pro-preview-tts 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a
+B done with gemini-3.1-flash-tts-preview
