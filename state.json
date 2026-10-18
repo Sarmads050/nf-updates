@@ -794,7 +794,8 @@
   "6e851b59d33dce1d": 1792305659.2281501,
   "c3e66eee9688a19c": 1792305659.2281508,
   "46a6a57dc381ec9f": 1792305659.2281518,
-  "faa65eba4712d936": 1792305659.2283309
+  "faa65eba4712d936": 1792305659.2283309,
+  "a0888a18d60c4b01": 1792306918.9913821
  },
  "pending": {},
  "queue": [],
@@ -812,7 +813,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-flash-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -880,18 +881,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110008975503839",
+ "last_post_id": "1444130002106066_122110017135503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109332661503839",
-   "title": "عالمي مارڪيٽ ۾ لاٿ بعد پاڪستان ۾ في تولو سون جي قيمت ۾ گهٽتائي رڪارڊ ڪئي وئي آهي",
-   "t": 1792236688.7715652,
-   "tags": [
-    "business",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109332661503839"
-  },
   {
    "id": "1444130002106066_122109390741503839",
    "title": "بئنڪنگ پابندين ۽ مالي ڏکياين سبب ايران مان پاڪستان ڏانهن مختلف شين جي روانگي بند ٿيڻ جو",
@@ -1168,6 +1159,15 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110008975503839"
+  },
+  {
+   "id": "1444130002106066_122110017135503839",
+   "title": "ڊينگي جي وڌندڙ ڪيسن کي نظر ۾ رکندي اختيارين مريضن کي بهتر طبي سهولتون ڏيڻ ۽ بيماري تي",
+   "t": 1792306950.1448615,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110017135503839"
   }
  ],
  "share_sent": {
@@ -1252,7 +1252,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 12:01",
+  "time": "2026-10-18 12:02",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1267,8 +1267,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 23,
-  "last": 1792305678.1296628
+  "count": 24,
+  "last": 1792306943.2953017
  },
  "perf": {
   "posts": [
@@ -2201,13 +2201,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792305686
+   },
+   {
+    "id": "1444130002106066_122110017135503839",
+    "sec": "public_news",
+    "cat": "health",
+    "t": 1792306950
    }
   ]
  },
  "public_news": {
   "date": "2026-10-18",
-  "count": 9,
-  "last": 1792304473.7570767
+  "count": 10,
+  "last": 1792306950.1446042
  },
  "trends": {
   "last": 1792304449.387058,
@@ -3785,15 +3791,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 64,
+  "ok": 65,
   "fail": 4,
   "limit": 222
  },
  "posted_heads": [
-  {
-   "h": "Govt weighs new tax collection agency as FBR faces further restructuring",
-   "t": 1792134099
-  },
   {
    "h": "Peshawar school roof collapse kills 35 students, 2 teachers",
    "t": 1792135879
@@ -4109,10 +4111,14 @@
   {
    "h": "Pakistan face Sri Lanka in tri-series opener today",
    "t": 1792305687
+  },
+  {
+   "h": "Kundi moves to curb dengue as cases surge",
+   "t": 1792306950
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 12:01",
+  "time": "2026-10-18 12:02",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4200,10 +4206,10 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 20,
-  "decoded": 20,
-  "text": 19,
-  "story": 19
+  "tried": 21,
+  "decoded": 21,
+  "text": 20,
+  "story": 20
  },
  "ai_last_error": "11:58 gemini-3.7-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
