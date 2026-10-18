@@ -886,7 +886,10 @@
   "49c3e88b6a4ce0dc": 1792339609.4175854,
   "27b2a68835f8245d": 1792339609.4175868,
   "6d4be998c1f9d094": 1792339609.4175875,
-  "09c449bcf225e4cd": 1792339609.4177759
+  "09c449bcf225e4cd": 1792339609.4177759,
+  "e596cac7d664996a": 1792340456.186029,
+  "a71c8053daac36a0": 1792340456.1860316,
+  "736b4f2f40c90e49": 1792340466.6526577
  },
  "pending": {},
  "queue": [],
@@ -972,18 +975,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110282461503839",
+ "last_post_id": "1444130002106066_122110288815503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109689505503839",
-   "title": "پاڪستان ۾ سون جي قيمت ۾ في توله 1600 رپيا گهٽتائي ٿي وئي آهي",
-   "t": 1792265627.4751275,
-   "tags": [
-    "business",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109689505503839"
-  },
   {
    "id": "1444130002106066_122109699855503839",
    "title": "زرعي ماهرن موجب پنجاب ۾ ڇولن جي بيمارين کان بچاءُ ۽ بهتر پيداوار حاصل ڪرڻ لاءِ وقت تي",
@@ -1260,6 +1253,16 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110282461503839"
+  },
+  {
+   "id": "1444130002106066_122110288815503839",
+   "title": "ڪسان اتحاد جي صدر ملڪ ۾ زرعي بحران کي نظر ۾ رکندي حڪومت کان پاڪستان ۾ فوري طور تي زرعي",
+   "t": 1792340504.4838617,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110288815503839"
   }
  ],
  "share_sent": {
@@ -1354,7 +1357,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 21:10",
+  "time": "2026-10-18 21:21",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1364,13 +1367,13 @@
  },
  "agri_news": {
   "date": "2026-10-18",
-  "count": 3,
-  "last": 1792284756.123373
+  "count": 4,
+  "last": 1792340504.4836166
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 34,
-  "last": 1792339660.5121574
+  "count": 35,
+  "last": 1792340497.5552056
  },
  "perf": {
   "posts": [
@@ -2363,6 +2366,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792339670
+   },
+   {
+    "id": "1444130002106066_122110288815503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1792340504
    }
   ]
  },
@@ -4099,15 +4108,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 105,
+  "ok": 109,
   "fail": 682,
   "limit": 333
  },
  "posted_heads": [
-  {
-   "h": "Babar Azam has been named captain of the Pakistan Test side too Getty Images",
-   "t": 1792151570
-  },
   {
    "h": "Here’s How High Electricity Bills You Will Pay in November",
    "t": 1792156941
@@ -4423,10 +4428,14 @@
   {
    "h": "Babar Azam makes history with 16,000 international runs across all three formats",
    "t": 1792339670
+  },
+  {
+   "h": "‘Impose agricultural emergency in Pakistan,’ urges Kissan Ittehad president",
+   "t": 1792340504
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 21:10",
+  "time": "2026-10-18 21:21",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4529,10 +4538,10 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 30,
-  "decoded": 30,
-  "text": 29,
-  "story": 26
+  "tried": 31,
+  "decoded": 31,
+  "text": 30,
+  "story": 27
  },
  "ai_last_error": "20:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
@@ -4548,9 +4557,9 @@
  },
  "img_diag": {
   "date": "2026-10-18",
-  "tried": 7,
+  "tried": 8,
   "gemini": 0,
-  "pollinations": 3,
+  "pollinations": 4,
   "skip": 4,
   "fail": 4,
   "last_note": "gemini gemini-2.5-flash-image 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your p"
@@ -4574,14 +4583,14 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-18",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-18",
-   "ok": 21,
+   "ok": 22,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -4589,7 +4598,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-18",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -4597,35 +4606,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-18",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-18",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-18",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-18",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-18",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
