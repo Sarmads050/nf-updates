@@ -2834,6 +2834,36 @@ def handle_public_news():
                icons=PUBLIC_ICONS)
 
 
+def probe_sources():
+    """Naye source ki jaanch (din mein ek dafa): feed / WordPress / homepage par Sindhi text hai ya nahi."""
+    targets = CONFIG.get("probe_sources", [])
+    pr = S.setdefault("probe", {})
+    if not targets or pr.get("date") == today():
+        return
+    pr.clear()
+    pr["date"] = today()
+    for base in targets:
+        res = {}
+        for path in ("/feed/", "/rss", "/wp-json/wp/v2/posts?per_page=3&_fields=title,link", "/"):
+            try:
+                r = requests.get(base.rstrip("/") + path, headers=UA, timeout=20)
+                body = r.text[:200000]
+                sd, ur = lang_counts(body)
+                info = {"status": r.status_code, "type": r.headers.get("content-type", "")[:40], "len": len(r.text),
+                        "sindhi": sd, "urdu": ur, "pdf": body.lower().count(".pdf"), "img": body.lower().count("<img")}
+                if path == "/feed/" or path == "/rss":
+                    f = feedparser.parse(r.content)
+                    info["items"] = len(f.entries)
+                    info["sample"] = [clean_text(e.get("title", ""))[:60] for e in f.entries[:2]]
+                if path == "/":
+                    info["final_url"] = r.url
+                    info["links"] = len(re.findall(r'href="[^"]+/(?:news|story|detail|20\d\d)/[^"]*"', body))
+                res[path] = info
+            except Exception as e:
+                res[path] = {"error": str(e)[:80]}
+        pr[base] = res
+
+
 def handle_culture():
     """Juma ki subah: Shah Latif ka bait ya Sindhi pahako + roz marra se ta'aluq + sawal. Pehle Telegram par review."""
     cfg = CONFIG.get("culture", {})
@@ -2949,7 +2979,7 @@ def main():
             alert(f"System mein error aaya ({fn.__name__}):\n" + err[-600:])
 
     for fn in (process_telegram, expire_old, handle_news, handle_jobs, publish_queue, handle_promo, handle_daily,
-               handle_engagement, handle_culture, handle_roundup, handle_trends):
+               handle_engagement, handle_culture, handle_roundup, handle_trends, probe_sources):
         step(fn)
     sections = {"sindh_single": handle_sindh_single, "cricket_news": handle_cricket_news,
                 "agri_news": handle_agri_news, "public_news": handle_public_news}
