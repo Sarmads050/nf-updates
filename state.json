@@ -847,7 +847,7 @@
  "tg_offset": 661216946,
  "daily": {
   "date": "2026-10-18",
-  "count": 1
+  "count": 2
  },
  "last_digest": "2026-10-18",
  "alert_day": "2026-10-18",
@@ -903,7 +903,7 @@
   ]
  },
  "last_daily": "2026-10-18",
- "roundup_pm": "2026-10-17",
+ "roundup_pm": "2026-10-18",
  "replied": [],
  "q_index": 2,
  "last_question": "2026-10-16",
@@ -925,7 +925,7 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110152561503839",
+ "last_post_id": "1444130002106066_122110164369503839",
  "shareable": [
   {
    "id": "1444130002106066_122109636363503839",
@@ -1305,7 +1305,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 17:51",
+  "time": "2026-10-18 18:01",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1320,8 +1320,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 30,
-  "last": 1792327278.0151434
+  "count": 31,
+  "last": 1792328494.261817
  },
  "perf": {
   "posts": [
@@ -3953,8 +3953,8 @@
  "ai_usage": {
   "date": "2026-10-18",
   "ok": 84,
-  "fail": 300,
-  "limit": 250
+  "fail": 316,
+  "limit": 254
  },
  "posted_heads": [
   {
@@ -4279,7 +4279,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 17:51",
+  "time": "2026-10-18 18:01",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4372,7 +4372,7 @@
   "text": 26,
   "story": 25
  },
- "ai_last_error": "17:51 gemini-3.1-flash-lite 402 {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your projec",
+ "ai_last_error": "18:01 gemini-3.1-flash-lite 402 {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your projec",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
@@ -4412,57 +4412,57 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-18",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-18",
-   "ok": 1,
+   "ok": 2,
    "fail": 1,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 403
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-18",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-18",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-18",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-18",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-18",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-18",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -4475,7 +4475,10 @@
  "ai_last_model": "google/gemma-4-26b-a4b-it:free",
  "probe": {
   "date": "2026-10-18",
-  "https://www.thekawish.com": {
+  "targets": [
+   "http://www.thekawish.com/beta/"
+  ],
+  "http://www.thekawish.com/beta/": {
    "/feed/": {
     "status": 404,
     "type": "text/html; charset=iso-8859-1",
@@ -4516,79 +4519,39 @@
     "pdf": 0,
     "img": 17,
     "final_url": "http://www.thekawish.com/beta/",
+    "img_src": [
+     "images/Kawish-e-abdullah.png",
+     "img/GFS728.jpg",
+     "http://www.thekawish.com/beta/images/2026/October/17-10-2026/01.jpg",
+     "http://www.thekawish.com/beta/images/2026/October/17-10-2026/02.jpg",
+     "http://www.thekawish.com/beta/images/2026/October/17-10-2026/03.jpg",
+     "http://www.thekawish.com/beta/images/2026/October/17-10-2026/04.jpg",
+     "http://www.thekawish.com/beta/images/2026/October/17-10-2026/05.jpg",
+     "http://www.thekawish.com/beta/images/2026/October/17-10-2026/06.jpg",
+     "http://www.thekawish.com/beta/images/2026/October/17-10-2026/07.jpg",
+     "http://www.thekawish.com/beta/images/2026/October/17-10-2026/08.jpg",
+     "img/ktn.png",
+     "img/ktn2.png"
+    ],
+    "hrefs": [
+     "https://gmpg.org/xfn/11",
+     "https://demo.athemes.com/fashionista/xmlrpc.php",
+     "https://www.thekawish.com/feed",
+     "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css",
+     "index.php",
+     "https://www.abdullahgroup.com.pk/",
+     "https://gfsbuilders.com.pk",
+     "index.php?date=2026-10-17&pageno=2",
+     "index.php?date=2026-10-17&pageno=3",
+     "index.php?date=2026-10-17&pageno=4",
+     "index.php?date=2026-10-17&pageno=5",
+     "index.php?date=2026-10-17&pageno=6",
+     "index.php?date=2026-10-17&pageno=7",
+     "index.php?date=2026-10-17&pageno=8",
+     "https://www.youtube.com/channel/UCRGzK5yQvhJD9-ZYGP436JQ",
+     "https://www.thekawish.com/beta/open-link.php"
+    ],
     "links": 0
-   }
-  },
-  "https://thekawish.com": {
-   "/feed/": {
-    "status": 404,
-    "type": "text/html; charset=iso-8859-1",
-    "len": 315,
-    "sindhi": 0,
-    "urdu": 0,
-    "pdf": 0,
-    "img": 0,
-    "items": 0,
-    "sample": []
-   },
-   "/rss": {
-    "status": 404,
-    "type": "text/html; charset=iso-8859-1",
-    "len": 315,
-    "sindhi": 0,
-    "urdu": 0,
-    "pdf": 0,
-    "img": 0,
-    "items": 0,
-    "sample": []
-   },
-   "/wp-json/wp/v2/posts?per_page=3&_fields=title,link": {
-    "status": 404,
-    "type": "text/html; charset=iso-8859-1",
-    "len": 315,
-    "sindhi": 0,
-    "urdu": 0,
-    "pdf": 0,
-    "img": 0
-   },
-   "/": {
-    "status": 200,
-    "type": "text/html; charset=UTF-8",
-    "len": 11817,
-    "sindhi": 0,
-    "urdu": 0,
-    "pdf": 0,
-    "img": 17,
-    "final_url": "http://www.thekawish.com/beta/",
-    "links": 0
-   }
-  },
-  "https://www.dailykawish.com": {
-   "/feed/": {
-    "error": "HTTPSConnectionPool(host='www.dailykawish.com', port=443): Max retries exceeded "
-   },
-   "/rss": {
-    "error": "HTTPSConnectionPool(host='www.dailykawish.com', port=443): Max retries exceeded "
-   },
-   "/wp-json/wp/v2/posts?per_page=3&_fields=title,link": {
-    "error": "HTTPSConnectionPool(host='www.dailykawish.com', port=443): Max retries exceeded "
-   },
-   "/": {
-    "error": "HTTPSConnectionPool(host='www.dailykawish.com', port=443): Max retries exceeded "
-   }
-  },
-  "https://kawish.com.pk": {
-   "/feed/": {
-    "error": "HTTPSConnectionPool(host='kawish.com.pk', port=443): Max retries exceeded with u"
-   },
-   "/rss": {
-    "error": "HTTPSConnectionPool(host='kawish.com.pk', port=443): Max retries exceeded with u"
-   },
-   "/wp-json/wp/v2/posts?per_page=3&_fields=title,link": {
-    "error": "HTTPSConnectionPool(host='kawish.com.pk', port=443): Max retries exceeded with u"
-   },
-   "/": {
-    "error": "HTTPSConnectionPool(host='kawish.com.pk', port=443): Max retries exceeded with u"
    }
   }
  }
