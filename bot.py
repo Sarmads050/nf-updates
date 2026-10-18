@@ -908,6 +908,8 @@ def ask_gemini(prompt, image=None, mime="image/jpeg"):
 
 def _ask_gemini(prompt, image=None, mime="image/jpeg"):
     global _discovered
+    if S.get("gemini_off") == today():  # credits/billing masla: aaj Gemini bilkul nahi, seedha backup
+        return ask_openrouter(prompt) if (OPENROUTER_KEY and not image) else None
     parts = [{"text": prompt}]
     if image:
         parts.append({"inline_data": {"mime_type": mime, "data": base64.b64encode(image).decode()}})
@@ -942,6 +944,15 @@ def _ask_gemini(prompt, image=None, mime="image/jpeg"):
                     return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
                 ai_count("fail" if r.status_code != 429 else "limit")
                 S["ai_last_error"] = f"{now().strftime('%H:%M')} {model} {r.status_code} {r.text[:160]}"
+                if r.status_code in (402, 403) or "credits" in r.text.lower() or "billing" in r.text.lower():
+                    S["gemini_off"] = today()  # paisa/billing ka masla: aaj dobara mat bhejo
+                    if S.get("gemini_off_alert") != today():
+                        S["gemini_off_alert"] = today()
+                        tg_send("⚠️ Gemini ne kaha: credits khatam / billing masla. Aaj Gemini band, backup (OpenRouter) "
+                                "se kaam chalega. AI Studio mein project ki billing check karein.")
+                    return ask_openrouter(prompt) if (OPENROUTER_KEY and not image) else None
+                if r.status_code == 429:
+                    _dead_models.add(model)  # is run mein is model ko dobara mat aazmao
                 log("gemini", model, r.status_code, r.text[:120].replace("\n", " "))
                 if r.status_code == 404 or "no longer available" in r.text or "not found" in r.text.lower():
                     _dead_models.add(model)
