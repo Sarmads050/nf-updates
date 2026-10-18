@@ -252,7 +252,8 @@ def handle_message(m):
                 f"Aaj kul posts: {S.get('all_posts', {}).get('count', 0)}/{CONFIG.get('safety', {}).get('max_total_per_day', 50)}"
                 f" | AI: {S.get('ai_usage', {}).get('ok', 0)} theek, {S.get('ai_usage', {}).get('limit', 0)} hadd,"
                 f" {S.get('ai_usage', {}).get('fail', 0)} fail\n"
-                f"Pichle run ke errors: {', '.join(S.get('last_errors', {}).get('steps', [])) or 'koi nahi'}\n\n"
+                f"Pichle run ke errors: {', '.join(S.get('last_errors', {}).get('steps', [])) or 'koi nahi'}\n"
+                f"Keys: {', '.join(k + (' ✅' if v else ' ❌') for k, v in S.get('keys_present', {}).items())}\n\n"
                 "Khabar post karne ke liye uska text (ya photo + text) mujhe bhej dein.\n"
                 "Sahafi jorne ke liye: /add ID Naam   hatane ke liye: /remove ID   list: /sahafi\n"
                 "Kaunsi khabrein pasand ho rahi hain: /likes")
@@ -2818,6 +2819,9 @@ def main():
         log("TELEGRAM_CHAT_ID ghalat lagta hai: sirf number hona chahiye")
     if DRY_RUN:
         tg_send("🧪 Test run shuru ho gaya. Agar ye message mila to Telegram sahi juda hua hai.")
+    S["keys_present"] = {"gemini": bool(GEMINI_KEY), "groq": bool(GROQ_KEY), "openrouter": bool(OPENROUTER_KEY),
+                         "telegram": bool(TG_TOKEN and TG_CHAT), "facebook": bool(FB_PAGE_ID and FB_TOKEN)}
+
     def step(fn):  # har hissa alag: ek mein error aaye to baqi phir bhi chalein
         try:
             fn()
