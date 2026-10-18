@@ -212,4 +212,5 @@ Aur `hashtags` mein naye tags. Code badalne ki zaroorat nahi.
 - **Urdu ki pakad**: AI Sindhi ki jagah Urdu likhe to dobara Sindhi mein likhwaya jata hai.
 - **Khabron ke qanooni qaide**: nabaligh ka naam nahi, ilzaam par "مبينا", koi khaufnaak tafseel nahi, kisi mazhab/firqay/qaum par ilzaam nahi.
 - **Juma culture post** (`culture`): har Juma subah 9 baje Shah Latif ka bait ya Sindhi pahako + roz marra se ta'aluq + sawal. Pehle Telegram par review (✅/❌) — alfaaz check kar ke hi post karein.
-- **Kawish e-paper** (`kawish`): roz subah 7 baje ke baad aaj ka Kawish e-paper (8 safhe) Gemini se parha jata hai. Idariya, kaalam aur ishtihar chhoD kar baqi khabrein — district wali pehle — din mein zyada se zyada 15, har 20 minute ek, card ke saath ("ذريعو: روزاني ڪاوش (صفحو N)", comment mein e-paper ka link). Jurm ya kam-yaqeen wali khabrein pehle Telegram review mein.
+- **Kawish e-paper** (`kawish`): roz subah aaj ka e-paper Gemini se parha jata hai; idariya, kaalam aur ishtihar chhoD kar baqi khabrein, district wali pehle, har 12 minute ek. Jurm ya kam-yaqeen wali khabrein pehle Telegram review mein.
+- **Region ki tarteeb** (`regions`): pehle Padidan/Naushahro Feroze district (30 tak), phir Sindh (zyada se zyada 20), aakhir mein Pakistan ki khabrein (zyada se zyada 10, aur sirf jab district/Sindh ki koi khabar qatar mein na ho). Kul hadd 50.

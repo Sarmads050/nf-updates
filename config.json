@@ -355,7 +355,7 @@
   "max_age_hours": 48,
   "max_new_per_run": 6,
   "max_posts_per_run": 2,
-  "max_posts_per_day": 15,
+  "max_posts_per_day": 30,
   "review_expire_hours": 24,
   "jobs_digest_hour": 9,
   "jobs_per_digest": 8,
@@ -961,7 +961,12 @@
     "pages": 8,
     "from_hour": 7,
     "until_hour": 16,
-    "max_per_day": 15,
-    "gap_minutes": 20
+    "max_per_day": 30,
+    "gap_minutes": 12
+  },
+  "regions": {
+    "district_target": 30,
+    "sindh_max": 20,
+    "pakistan_max": 10
   }
 }

@@ -253,7 +253,9 @@ def handle_message(m):
                 f" | AI: {S.get('ai_usage', {}).get('ok', 0)} theek, {S.get('ai_usage', {}).get('limit', 0)} hadd,"
                 f" {S.get('ai_usage', {}).get('fail', 0)} fail\n"
                 f"Pichle run ke errors: {', '.join(S.get('last_errors', {}).get('steps', [])) or 'koi nahi'}\n"
-                f"Keys: {', '.join(k + (' ✅' if v else ' ❌') for k, v in S.get('keys_present', {}).items())}\n\n"
+                f"Keys: {', '.join(k + (' ✅' if v else ' ❌') for k, v in S.get('keys_present', {}).items())}\n"
+                f"Aaj: District {region_count()['district']} | Sindh {region_count()['sindh']} | "
+                f"Pakistan {region_count()['pakistan']}\n\n"
                 "Khabar post karne ke liye uska text (ya photo + text) mujhe bhej dein.\n"
                 "Sahafi jorne ke liye: /add ID Naam   hatane ke liye: /remove ID   list: /sahafi\n"
                 "Kaunsi khabrein pasand ho rahi hain: /likes")
@@ -1094,6 +1096,29 @@ def pace_ok():
     return a["count"] < cfg.get("max_total_per_day", 40) and time.time() - a.get("last", 0) >= gap * 60
 
 
+REGION_OF = {"district": "district", "kawish_district": "district", "sindh_single": "sindh", "kawish_sindh": "sindh",
+             "roundup": "sindh", "public_news": "pakistan", "agri_news": "pakistan", "cricket_news": "pakistan"}
+
+
+def region_count():
+    r = S.setdefault("region_posts", {"date": "", "district": 0, "sindh": 0, "pakistan": 0})
+    if r["date"] != today():
+        r.update(date=today(), district=0, sindh=0, pakistan=0)
+    return r
+
+
+def note_region(region):
+    region_count()[region] = region_count().get(region, 0) + 1
+
+
+def local_backlog(min_region="sindh"):
+    """Kya pehle lagne wali (district/Sindh) khabrein qatar mein hain?"""
+    q = S.get("kawish_queue", [])
+    if any(x.get("district") for x in q):
+        return True
+    return min_region == "pakistan" and bool(q)
+
+
 def perf_record(section, category=""):
     """Post ka hisaab rakho taake baad mein dekh sakein log kaunsi khabrein pasand karte hain."""
     pid = S.get("last_post_id")
@@ -1481,6 +1506,7 @@ def publish_queue():
         if not ok:
             break
         S["queue"].pop(0)
+        note_region("district")
         perf_record("district")
         record_title(q["message"])
         mark_shareable(q["message"])
@@ -1915,6 +1941,7 @@ def handle_roundup():
     lines += ["", footer()]
     card = make_card(re.sub(r"^\W+", "", title), sd_date(), theme="news") if cfg.get("card", True) else None
     if fb_post("\n".join(lines), photo=card):
+        note_region("sindh")
         links = [f"{NUM[i] if i < len(NUM) else '🔹'} {s['link']}" for i, s in enumerate(stories) if s.get("link")]
         if links:
             link_comment(LBL.get("links_comment", "🔗 مڪمل خبرون:") + "\n" + "\n".join(links))
@@ -2007,7 +2034,7 @@ def handle_sindh_single():
     if (not (cfg.get("from_hour", 9) <= h < cfg.get("to_hour", 22))
             or day["count"] >= learned_cap("sindh_single", cfg.get("max_per_day", 4))
             or (S["queue"] and can_post()) or time.time() - day["last"] < cfg.get("gap_minutes", 150) * 60
-            or not pace_ok()):
+            or local_backlog("sindh") or not pace_ok()):
         return
     cand = [r for r in sindh_candidates(CONFIG.get("sindh_roundup", {})) if item_key(r["title"]) not in day["used"]
             and item_key(r["title"]) not in S["seen"]][:15]
@@ -2041,6 +2068,7 @@ def handle_sindh_single():
            f"\n\n{footer()}")
     card = make_card(title, cfg.get("card_sub", "سنڌ جون خبرون"), finish(body), theme="news") if cfg.get("card", True) else None
     if fb_post(msg, photo=card, count=False):
+        note_region("sindh")
         perf_record("sindh_single", "sindh")
         if r.get("link"):
             link_comment(f"{LBL.get('link_comment', '🔗 مڪمل خبر:')} {r['link']}")
@@ -2653,8 +2681,9 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
     gap = cfg.get("night_gap_minutes", cfg.get("gap_minutes", 90) * 2) if is_night() else cfg.get("gap_minutes", 90)
     if (day["count"] >= learned_cap(state_key, cfg.get("max_per_day", 4)) or time.time() - day.get("last", 0) < gap * 60
             or not cfg.get("start_hour", 0) <= hour < cfg.get("end_hour", 24) or (S["queue"] and can_post())
-            or not pace_ok()):
-        return
+            or region_count()["pakistan"] >= CONFIG.get("regions", {}).get("pakistan_max", 10)
+            or local_backlog("pakistan") or not pace_ok()):
+        return  # pehle district aur Sindh; Pakistan ki khabrein hadd ke andar aur baad mein
     items = []
     queries = cfg.get("queries", default_queries)
     per_run = cfg.get("queries_per_run")
@@ -2752,6 +2781,7 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
     if news_card_post(msg, head or card_parts(post)[0], label, real_link or it["link"],
                       body=finish(post) if head else card_parts(post)[1]):
         perf_record(state_key, cat if icons else state_key)
+        note_region("pakistan")
         day["count"] += 1
         day["last"] = time.time()
         mark_shareable(post, {"agri_news": "agri", "cricket_news": "cricket"}.get(state_key, cat if icons else "general"))
@@ -2990,8 +3020,12 @@ def handle_kawish_post():
     if (day["count"] >= cfg.get("max_per_day", 15) or time.time() - day.get("last", 0) < gap
             or (S["queue"] and can_post()) or not pace_ok()):
         return
+    q.sort(key=lambda x: not x.get("district"))  # district pehle
+    if not q[0].get("district") and region_count()["sindh"] >= CONFIG.get("regions", {}).get("sindh_max", 20):
+        return
     x = q.pop(0)
     if news_card_post(x["message"], x["head"], "روزاني ڪاوش", x["link"], body=x["summary"]):
+        note_region("district" if x["district"] else "sindh")
         day["count"] += 1
         day["last"] = time.time()
         perf_record("kawish", "district" if x["district"] else "sindh")
@@ -3123,9 +3157,9 @@ def main():
         order = section_order()
     except Exception:
         order = list(sections)
+    step(handle_kawish_post)  # district/Sindh pehle
     for sec in order:  # is hafte jo zyada pasand/trend, wo pehle
         step(sections[sec])
-    step(handle_kawish_post)
     for fn in (handle_share_helper, handle_perf, handle_cricket_live, handle_auto_reply):
         step(fn)
     S["last_errors"] = {"time": now().strftime("%Y-%m-%d %H:%M"), "steps": STATS.get("errors", [])}
