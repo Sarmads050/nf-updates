@@ -23,7 +23,13 @@ def to_mp3(src, dst, raw_args=None):
 def mms():
     import numpy as np, torch, scipy.io.wavfile as wav
     from transformers import VitsModel, AutoTokenizer
-    name = "facebook/mms-tts-snd"
+    found = requests.get("https://huggingface.co/api/models", params={"search": "mms-tts-snd", "limit": 20}, timeout=30).json()
+    names = [m.get("id") for m in found if isinstance(m, dict)]
+    alt = requests.get("https://huggingface.co/api/models", params={"search": "sindhi tts", "limit": 20}, timeout=30).json()
+    log("HF mms-tts-snd search:", names, "| sindhi tts search:", [m.get("id") for m in alt if isinstance(m, dict)])
+    name = next((n for n in names if n.startswith("facebook/")), names[0] if names else "")
+    if not name:
+        raise RuntimeError("Sindhi MMS model nahi mila")
     tok = AutoTokenizer.from_pretrained(name)
     model = VitsModel.from_pretrained(name)
     rate = model.config.sampling_rate
@@ -64,8 +70,14 @@ def gemini():
         if resp.status_code != 200:
             log("Gemini", m, resp.status_code, resp.text[:200])
             continue
-        part = resp.json()["candidates"][0]["content"]["parts"][0]
-        data = (part.get("inlineData") or part.get("inline_data"))
+        js = resp.json()
+        cand = (js.get("candidates") or [{}])[0]
+        parts = (cand.get("content") or {}).get("parts") or []
+        data = next(((p.get("inlineData") or p.get("inline_data")) for p in parts
+                     if (p.get("inlineData") or p.get("inline_data"))), None)
+        if not data:
+            log("Gemini", m, "no audio; finish:", cand.get("finishReason"), json.dumps(js)[:300])
+            continue
         raw = os.path.join(OUT, "B.pcm")
         with open(raw, "wb") as f:
             f.write(base64.b64decode(data["data"]))
@@ -76,7 +88,8 @@ def gemini():
         to_mp3(raw, os.path.join(OUT, "B_gemini_sindhi.mp3"), ["-f", "s16le", "-ar", rate, "-ac", "1"])
         os.remove(raw)
         log("B done with", m)
-        return
+        if os.path.getsize(os.path.join(OUT, "B_gemini_sindhi.mp3")) > 20000:
+            return
 
 
 def telegram():
