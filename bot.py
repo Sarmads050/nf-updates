@@ -3118,7 +3118,7 @@ def send_report():
     last = S.get("report_hour", "")
     if last and not DRY_RUN:
         try:
-            gone = (now() - dt.datetime.strptime(last, "%Y-%m-%d %H")).total_seconds() / 3600
+            gone = (now().replace(tzinfo=None) - dt.datetime.strptime(last, "%Y-%m-%d %H")).total_seconds() / 3600
         except ValueError:
             gone = 99
         if gone < every:
@@ -3194,7 +3194,7 @@ def main():
     for fn in (handle_share_helper, handle_perf, handle_cricket_live, handle_auto_reply):
         step(fn)
     S["last_errors"] = {"time": now().strftime("%Y-%m-%d %H:%M"), "steps": STATS.get("errors", [])}
-    send_report()
+    step(send_report)  # report fail ho to bhi state zaroor save ho
     if DRY_RUN:
         log("test mode: state save nahi kiya")
     else:
@@ -3203,4 +3203,11 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    finally:  # kuch bhi ho jaye, yaaddasht (Telegram offset, posts) save ho — warna wohi khabar dobara lagti
+        if not DRY_RUN and S:
+            try:
+                save_state()
+            except Exception as e:
+                log("final save error:", e)

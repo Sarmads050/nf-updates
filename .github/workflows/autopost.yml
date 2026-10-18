@@ -43,6 +43,7 @@ jobs:
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
 
       - name: Save state
+        if: always()  # bot crash ho to bhi yaaddasht save ho (warna Telegram message dobara post hota)
         run: |
           git config user.name "nf-updates-bot"
           git config user.email "nf-updates-bot@users.noreply.github.com"
