@@ -857,7 +857,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-3.7-flash",
+ "gemini_model": "gemini-3.8-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1305,7 +1305,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 18:53",
+  "time": "2026-10-18 19:01",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2305,7 +2305,7 @@
   "last": 1792327284.4835815
  },
  "trends": {
-  "last": 0,
+  "last": 1792332061.646763,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -3946,15 +3946,95 @@
     "t": 1792315853,
     "cat": "cricket",
     "sindh": false
+   },
+   {
+    "term": "basant",
+    "traffic": 100,
+    "news": "Pakistan Post tightens restrictions on kite deliveries",
+    "t": 1792332061,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "پاکستان قومی کرکٹ ٹیم",
+    "traffic": 100,
+    "news": "بابر اعظم کا بین الاقوامی کرکٹ میں اہم سنگ میل، 16 ہزار رنز مکمل کرنے والے پانچویں پاکستانی بلے باز بن گئے",
+    "t": 1792332061,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "bilawal bhutto zardari",
+    "traffic": 500,
+    "news": "Bilawal urges PTI to end confrontational politics and return to Parliament",
+    "t": 1792332061,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "kusal mendis",
+    "traffic": 2000,
+    "news": "Pakistan's room for improvement in T20Is has not shrunk in size after Sri Lanka series win",
+    "t": 1792332061,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "bournemouth vs sunderland",
+    "traffic": 100,
+    "news": "\"It's up to us to prove it\" — Rose urges Cherries to maintain momentum",
+    "t": 1792332061,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "zimbabwe women's national cricket team vs india women's national cricket team match scorecard",
+    "traffic": 1000,
+    "news": "India vs Zimbabwe Women Highlights: Deepti Sharma, Niki pull India out of trouble to seal four-wicket win",
+    "t": 1792332061,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "naseem shah",
+    "traffic": 1000,
+    "news": "Naseem Shah says his best cricket is yet to come after injuries",
+    "t": 1792332061,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "rajinikanth",
+    "traffic": 200,
+    "news": "Rajinikanth’s ‘Jailer 2’ grosses Rs 321 crore worldwide in three days",
+    "t": 1792332061,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "leeds vs man utd",
+    "traffic": 2000,
+    "news": "Man Utd Issue Injury Update As Michael Carrick Confirms Kobbie Mainoo Latest",
+    "t": 1792332061,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "student",
+    "traffic": 200,
+    "news": "Prosecutors: FIT student dead after being drugged, raped in dorm",
+    "t": 1792332061,
+    "cat": "none",
+    "sindh": false
    }
   ],
-  "ai_ok": false
+  "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 85,
-  "fail": 457,
-  "limit": 288
+  "ok": 86,
+  "fail": 482,
+  "limit": 294
  },
  "posted_heads": [
   {
@@ -4279,7 +4359,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 18:53",
+  "time": "2026-10-18 19:01",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4372,7 +4452,7 @@
   "text": 26,
   "story": 25
  },
- "ai_last_error": "18:53 gemini-3.1-flash-lite 402 {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your projec",
+ "ai_last_error": "19:01 gemini-3.1-flash-lite 402 {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your projec",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
@@ -4412,58 +4492,58 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-18",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-18",
-   "ok": 7,
+   "ok": 8,
    "fail": 1,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-18",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-18",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-18",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-18",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-18",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-18",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
