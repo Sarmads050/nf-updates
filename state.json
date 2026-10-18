@@ -1303,7 +1303,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 17:11",
+  "time": "2026-10-18 17:21",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -3945,8 +3945,8 @@
  "ai_usage": {
   "date": "2026-10-18",
   "ok": 83,
-  "fail": 207,
-  "limit": 227
+  "fail": 223,
+  "limit": 231
  },
  "posted_heads": [
   {
@@ -4271,7 +4271,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 17:11",
+  "time": "2026-10-18 17:21",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4364,7 +4364,7 @@
   "text": 25,
   "story": 25
  },
- "ai_last_error": "17:11 gemini-3.1-flash-lite 402 {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your projec",
+ "ai_last_error": "17:21 gemini-3.1-flash-lite 402 {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your projec",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
@@ -4393,5 +4393,12 @@
    "gemini-3-pro-image"
   ],
   "quota_off": "2026-10-18"
+ },
+ "keys_present": {
+  "gemini": true,
+  "groq": false,
+  "openrouter": true,
+  "telegram": true,
+  "facebook": true
  }
 }
