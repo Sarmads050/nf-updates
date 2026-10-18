@@ -810,7 +810,17 @@
   "a5b95a3b7459e7da": 1792312278.3180807,
   "a4e27a845045fa7b": 1792312278.3180816,
   "bb16cdaa1798d36b": 1792312278.318082,
-  "19aca7ef443fbbb0": 1792312278.318337
+  "19aca7ef443fbbb0": 1792312278.318337,
+  "78673b348288cd71": 1792313472.165224,
+  "057657e66f36f4a9": 1792313472.1652272,
+  "052e9aef1f0feb6d": 1792313472.165229,
+  "3a45ba9784a1ac19": 1792313472.1652305,
+  "c81fa4d422be29fc": 1792313472.1652315,
+  "0e43bffc24da078b": 1792313472.1652324,
+  "ab3e1cec6124220d": 1792313472.1652334,
+  "b9efc67d1fc03e98": 1792313472.1652348,
+  "badbb4b033b1a894": 1792313472.1652355,
+  "273e0b7e72eca096": 1792313472.1654615
  },
  "pending": {},
  "queue": [],
@@ -896,17 +906,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110047273503839",
+ "last_post_id": "1444130002106066_122110054161503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109464163503839",
-   "title": "ايف بي آر ملڪ ۾ شفافيت آڻڻ لاءِ 15 آڪٽوبر کان فيس ليس ٽيڪس آڊٽ ۽ اسيسمينٽ نظام لاڳو ڪري",
-   "t": 1792246302.010967,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109464163503839"
-  },
   {
    "id": "1444130002106066_122109500031503839",
    "title": "سي پي پي اي فيول پرائس ايڊجسٽمينٽ تحت بجلي 2 رپيا 56 پئسا في يونٽ مھانگي ڪرڻ لاءِ نيپرا",
@@ -1182,6 +1183,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110047273503839"
+  },
+  {
+   "id": "1444130002106066_122110054161503839",
+   "title": "پاڪستان ۽ انگلينڊ وچ ۾ کيڏي ويندڙ ون ڊي ميچ کي بريسٽ ڪينسر بابت آگاهي لاءِ وقف ڪيو ويو آهي",
+   "t": 1792313520.2692873,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110054161503839"
   }
  ],
  "share_sent": {
@@ -1251,8 +1261,8 @@
  },
  "cricket_news": {
   "date": "2026-10-18",
-  "count": 9,
-  "last": 1792309302.921195
+  "count": 10,
+  "last": 1792313520.2689393
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -1266,7 +1276,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 13:40",
+  "time": "2026-10-18 13:52",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1281,8 +1291,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 26,
-  "last": 1792312296.3966491
+  "count": 27,
+  "last": 1792313512.0394535
  },
  "perf": {
   "posts": [
@@ -2233,6 +2243,12 @@
     "sec": "public_news",
     "cat": "electricity_gas",
     "t": 1792312302
+   },
+   {
+    "id": "1444130002106066_122110054161503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792313520
    }
   ]
  },
@@ -3817,15 +3833,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 70,
-  "fail": 6,
+  "ok": 73,
+  "fail": 7,
   "limit": 222
  },
  "posted_heads": [
-  {
-   "h": "Pakistan's textile exports rise 5.26% to $5.03 billion in first quarter of FY27",
-   "t": 1792138883
-  },
   {
    "h": "Sindh’s wheat stocks rot in Landhi warehouses, flour millers refuse to lift grain",
    "t": 1792140088
@@ -4141,10 +4153,14 @@
   {
    "h": "Digging in Karachi for Red Line damages gas pipeline, disrupts supply",
    "t": 1792312302
+  },
+  {
+   "h": "Pakistan-England ODI dedicated to breast cancer awareness",
+   "t": 1792313520
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 13:40",
+  "time": "2026-10-18 13:52",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4232,12 +4248,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 23,
-  "decoded": 23,
-  "text": 22,
-  "story": 22
+  "tried": 24,
+  "decoded": 24,
+  "text": 23,
+  "story": 23
  },
- "ai_last_error": "13:31 gemini-3.8-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "13:50 gemini-flash-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
@@ -4247,6 +4263,23 @@
    "gemini-3.7-flash",
    "gemini-3.6-flash",
    "gemini-3.5-flash"
+  ]
+ },
+ "img_diag": {
+  "date": "2026-10-18",
+  "tried": 1,
+  "gemini": 0,
+  "pollinations": 1,
+  "skip": 0,
+  "fail": 3,
+  "last_note": "gemini gemini-3-pro-image 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your p"
+ },
+ "gemini_img": {
+  "date": "2026-10-18",
+  "models": [
+   "gemini-2.5-flash-image",
+   "gemini-3-pro-image-preview",
+   "gemini-3-pro-image"
   ]
  }
 }
