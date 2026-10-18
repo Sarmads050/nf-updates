@@ -906,7 +906,7 @@
  "promo": {
   "announced": false,
   "last_week": "",
-  "last_check": "2026-10-18"
+  "last_check": "2026-10-19"
  },
  "gemini_model": "gemini-flash-latest",
  "job_links": [
@@ -959,7 +959,7 @@
  "q_index": 2,
  "last_question": "2026-10-16",
  "sindh_single": {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "count": 0,
   "last": 1792338686.813969,
   "used": [
@@ -1327,7 +1327,7 @@
  ],
  "group_index": 0,
  "token_check": {
-  "time": "2026-10-18 00:01",
+  "time": "2026-10-19 00:01",
   "valid": true,
   "scopes": [
    "pages_show_list",
@@ -1342,8 +1342,8 @@
   "data_expires": 1799762892
  },
  "cricket_news": {
-  "date": "2026-10-18",
-  "count": 13,
+  "date": "2026-10-19",
+  "count": 0,
   "last": 1792339670.4196193
  },
  "cricket": {
@@ -1358,7 +1358,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 23:50",
+  "time": "2026-10-19 00:01",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1367,13 +1367,13 @@
   ]
  },
  "agri_news": {
-  "date": "2026-10-18",
-  "count": 4,
+  "date": "2026-10-19",
+  "count": 0,
   "last": 1792340504.4836166
  },
  "all_posts": {
-  "date": "2026-10-18",
-  "count": 36,
+  "date": "2026-10-19",
+  "count": 0,
   "last": 1792348253.2372088
  },
  "perf": {
@@ -2377,12 +2377,12 @@
   ]
  },
  "public_news": {
-  "date": "2026-10-18",
-  "count": 14,
+  "date": "2026-10-19",
+  "count": 0,
   "last": 1792337499.33021
  },
  "trends": {
-  "last": 0,
+  "last": 1792350064.6271431,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -4103,15 +4103,95 @@
     "t": 1792332061,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "fluminense vs santos",
+    "traffic": 200,
+    "news": "Fluminense vs Santos Prediction, Betting Tips, Lineups & Odds | 18 Oct 2026",
+    "t": 1792350065,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "juventus vs lazio",
+    "traffic": 200,
+    "news": "Juventus squad: Boga returns",
+    "t": 1792350065,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "real madrid vs sevilla",
+    "traffic": 5000,
+    "news": "Real Madrid line-up: Mourinho surprises his in-form player, and a change of position for Valverde",
+    "t": 1792350065,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "serie a",
+    "traffic": 100,
+    "news": "Fiorentina-Como, Vanoli arrabbiato “per i tanti gol subiti. Ma questa squadra va sostenuta”",
+    "t": 1792350065,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "ab de villiers",
+    "traffic": 200,
+    "news": "Why AB de Villiers Initially Found Kohli 'Arrogant and Cocky'",
+    "t": 1792350065,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "azerbaijan",
+    "traffic": 200,
+    "news": "Washington hosts exhibition-concert marking anniversary of restoration of Azerbaijan’s independence",
+    "t": 1792350065,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "pakistan cricket board",
+    "traffic": 1000,
+    "news": "PCB provides major update on Shadab Khan, Sufiyan Muqeem",
+    "t": 1792350065,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "bangladesh national cricket team",
+    "traffic": 200,
+    "news": "Wickham earns maiden Test call-up as West Indies name squad to finish World Test Championship cycle in Bangladesh",
+    "t": 1792350065,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "tiger shroff",
+    "traffic": 1000,
+    "news": "Tiger Shroff Unhurt In Shooting: Father Jackie Shroff",
+    "t": 1792350065,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "milan vs atalanta",
+    "traffic": 1000,
+    "news": "Tuttosport: Why Cisse is not guaranteed to start against Atalanta despite hat-trick",
+    "t": 1792350065,
+    "cat": "none",
+    "sindh": false
    }
   ],
-  "ai_ok": false
+  "ai_ok": true
  },
  "ai_usage": {
-  "date": "2026-10-18",
-  "ok": 109,
-  "fail": 682,
-  "limit": 346
+  "date": "2026-10-19",
+  "ok": 1,
+  "fail": 0,
+  "limit": 0
  },
  "posted_heads": [
   {
@@ -4436,7 +4516,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 23:50",
+  "time": "2026-10-19 00:01",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4546,7 +4626,7 @@
  },
  "ai_last_error": "23:50 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "models": [
    "gemini-flash-latest",
    "gemini-flash-lite-latest",
@@ -4583,59 +4663,59 @@
  },
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
-   "date": "2026-10-18",
-   "ok": 29,
+   "date": "2026-10-19",
+   "ok": 1,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://wtnsindhi.com/feed/": {
-   "date": "2026-10-18",
-   "ok": 28,
+   "date": "2026-10-19",
+   "ok": 0,
    "fail": 1,
    "items": 10,
-   "fail_streak": 0,
-   "last_status": 0
+   "fail_streak": 1,
+   "last_status": 403
   },
   "https://sindhvoice.com/feed/": {
-   "date": "2026-10-18",
-   "ok": 29,
+   "date": "2026-10-19",
+   "ok": 1,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
-   "date": "2026-10-18",
-   "ok": 29,
+   "date": "2026-10-19",
+   "ok": 1,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
-   "date": "2026-10-18",
-   "ok": 29,
+   "date": "2026-10-19",
+   "ok": 1,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
-   "date": "2026-10-18",
-   "ok": 29,
+   "date": "2026-10-19",
+   "ok": 1,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
-   "date": "2026-10-18",
-   "ok": 29,
+   "date": "2026-10-19",
+   "ok": 1,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
-   "date": "2026-10-18",
-   "ok": 29,
+   "date": "2026-10-19",
+   "ok": 1,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -4907,18 +4987,18 @@
  "gemini_off": "2026-10-18|0b7a238b",
  "gemini_off_alert": "2026-10-18",
  "region_posts": {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "district": 0,
   "sindh": 0,
   "pakistan": 0
  },
  "report_acc": {
   "posted": 0,
-  "found": 4,
-  "old": 4,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-18 23"
+ "report_hour": "2026-10-19 00"
 }
