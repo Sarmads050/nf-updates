@@ -1,0 +1,43 @@
+name: News bulletin video
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "voice/news_video.py"
+
+permissions:
+  contents: write
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install --quiet numpy requests pillow
+      - name: Make video
+        run: python voice/news_video.py
+        env:
+          TZ: Asia/Karachi
+      - name: Send to Telegram
+        env:
+          TG: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s -F chat_id="$CHAT" -F caption="📺 Namoona: Sindhi news bulletin video (Facebook par post NAHI hui)" \
+            -F supports_streaming=true -F video=@voice/out/Sindhi_News_Bulletin.mp4 \
+            "https://api.telegram.org/bot$TG/sendVideo" | head -c 200
+      - name: Save video
+        run: |
+          git config user.name "nf-updates-bot"
+          git config user.email "nf-updates-bot@users.noreply.github.com"
+          git add voice/out/Sindhi_News_Bulletin.mp4
+          git commit -m "news video sample [skip ci]" || exit 0
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 5; done
