@@ -1584,7 +1584,8 @@ def news_image(title, body):
     full = ip + ", flat digital illustration, no text, no letters"
     import tempfile
     out = os.path.join(tempfile.mkdtemp(), "news.jpg")
-    if cfg.get("gemini", True):
+    gi = S.setdefault("gemini_img", {"date": "", "models": []})
+    if cfg.get("gemini", True) and gi.get("quota_off") != today():
         for m in _image_models():
             try:
                 r = requests.post(f"{GEMINI_BASE}/{m}:generateContent", headers={"x-goog-api-key": GEMINI_KEY},
@@ -1600,6 +1601,9 @@ def news_image(title, body):
                             return out
                 else:
                     _img_diag("fail", f"gemini {m} {r.status_code} {r.text[:100]}")
+                    if r.status_code == 429:  # free plan mein image quota nahi: aaj dobara mat aazmao
+                        gi["quota_off"] = today()
+                        break
             except Exception as e:
                 _img_diag("fail", f"gemini {m} {e}")
     if cfg.get("pollinations", True):
