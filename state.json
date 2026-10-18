@@ -837,7 +837,9 @@
   "b7b9ba8d3a8a5947": 1792317206.5462792,
   "4e18be12178c8199": 1792317206.5462801,
   "03227661e5552c7f": 1792317206.5462816,
-  "63ee2203bc851240": 1792317206.5464506
+  "63ee2203bc851240": 1792317206.5464506,
+  "2a1a9c16be0d5808": 1792327268.06476,
+  "4084ca8836923030": 1792327268.0650253
  },
  "pending": {},
  "queue": [],
@@ -923,17 +925,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110073883503839",
+ "last_post_id": "1444130002106066_122110152561503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109591915503839",
-   "title": "ڊرگ ريگيوليٽري اٿارٽي پاڪستان ۾ نقلي ۽ غير معياري دوائن جي روڪٿام لاءِ سمورين دوائن تي 2D",
-   "t": 1792256530.461366,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109591915503839"
-  },
   {
    "id": "1444130002106066_122109636363503839",
    "title": "پاکستان ۾ وڌندڙ مهانگائي سبب عام واهپي جي شين جا اگھ مسلسل وڌي رهيا آهن جنهن سان عوام جي",
@@ -1210,6 +1203,15 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110073883503839"
+  },
+  {
+   "id": "1444130002106066_122110152561503839",
+   "title": "پاڪستان ۾ مهانگائو وڌڻ سان گڏ پٹرول جي قيمتن ۾ تبديلي سبب مارڪيٽ ۾ روزاني استعمال جي شين",
+   "t": 1792327284.4839258,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110152561503839"
   }
  ],
  "share_sent": {
@@ -1303,7 +1305,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 17:31",
+  "time": "2026-10-18 17:41",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1318,8 +1320,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 29,
-  "last": 1792317360.072674
+  "count": 30,
+  "last": 1792327278.0151434
  },
  "perf": {
   "posts": [
@@ -2288,16 +2290,22 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792317366
+   },
+   {
+    "id": "1444130002106066_122110152561503839",
+    "sec": "public_news",
+    "cat": "inflation",
+    "t": 1792327284
    }
   ]
  },
  "public_news": {
   "date": "2026-10-18",
-  "count": 12,
-  "last": 1792315915.987829
+  "count": 13,
+  "last": 1792327284.4835815
  },
  "trends": {
-  "last": 1792315852.743768,
+  "last": 0,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -3940,19 +3948,15 @@
     "sindh": false
    }
   ],
-  "ai_ok": true
+  "ai_ok": false
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 83,
-  "fail": 239,
-  "limit": 235
+  "ok": 84,
+  "fail": 276,
+  "limit": 244
  },
  "posted_heads": [
-  {
-   "h": "Babar Azam celebrates 32nd birthday with family and close friends",
-   "t": 1792143846
-  },
   {
    "h": "KE reports 1,935 power outages from excavation damage in FY26",
    "t": 1792144922
@@ -4268,10 +4272,14 @@
   {
    "h": "Mohammad Rizwan cleared to play domestic cricket",
    "t": 1792317367
+  },
+  {
+   "h": "Pakistan Inflation | Petrol Price Impact | Market Price Hike - Aaj News",
+   "t": 1792327284
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 17:31",
+  "time": "2026-10-18 17:41",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4359,12 +4367,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 26,
-  "decoded": 26,
-  "text": 25,
+  "tried": 27,
+  "decoded": 27,
+  "text": 26,
   "story": 25
  },
- "ai_last_error": "17:31 gemini-3.1-flash-lite 402 {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your projec",
+ "ai_last_error": "17:41 gemini-3.1-flash-lite 402 {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your projec",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
@@ -4378,10 +4386,10 @@
  },
  "img_diag": {
   "date": "2026-10-18",
-  "tried": 3,
+  "tried": 4,
   "gemini": 0,
   "pollinations": 2,
-  "skip": 1,
+  "skip": 2,
   "fail": 4,
   "last_note": "gemini gemini-2.5-flash-image 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your p"
  },
@@ -4400,5 +4408,68 @@
   "openrouter": true,
   "telegram": true,
   "facebook": true
- }
+ },
+ "source_health": {
+  "https://pahenjiakhbar.com/feed/": {
+   "date": "2026-10-18",
+   "ok": 1,
+   "fail": 0,
+   "items": 10,
+   "fail_streak": 0
+  },
+  "https://wtnsindhi.com/feed/": {
+   "date": "2026-10-18",
+   "ok": 1,
+   "fail": 0,
+   "items": 10,
+   "fail_streak": 0
+  },
+  "https://sindhvoice.com/feed/": {
+   "date": "2026-10-18",
+   "ok": 1,
+   "fail": 0,
+   "items": 10,
+   "fail_streak": 0
+  },
+  "https://www.awamiawaz.pk/feed/": {
+   "date": "2026-10-18",
+   "ok": 1,
+   "fail": 0,
+   "items": 10,
+   "fail_streak": 0
+  },
+  "https://www.ktnnews.tv/feed/": {
+   "date": "2026-10-18",
+   "ok": 1,
+   "fail": 0,
+   "items": 10,
+   "fail_streak": 0
+  },
+  "https://www.express.pk/feed/": {
+   "date": "2026-10-18",
+   "ok": 1,
+   "fail": 0,
+   "items": 50,
+   "fail_streak": 0
+  },
+  "https://urdu.arynews.tv/feed/": {
+   "date": "2026-10-18",
+   "ok": 1,
+   "fail": 0,
+   "items": 10,
+   "fail_streak": 0
+  },
+  "https://arynews.tv/tag/naushahro-feroze/feed/": {
+   "date": "2026-10-18",
+   "ok": 1,
+   "fail": 0,
+   "items": 15,
+   "fail_streak": 0
+  }
+ },
+ "culture": {
+  "last": "",
+  "idx": 0
+ },
+ "ai_last_model": "google/gemma-4-26b-a4b-it:free"
 }
