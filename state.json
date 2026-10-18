@@ -736,7 +736,15 @@
   "b55a79b588f9b91b": 1792286456.6317103,
   "e1cd5dfc2dcbc11a": 1792287644.8807755,
   "7b9fcf54e1ea2d6d": 1792288257.0000794,
-  "fc8f74c34d9e60a7": 1792289445.0890138
+  "fc8f74c34d9e60a7": 1792289445.0890138,
+  "643bf1a0ed26020f": 1792290110.9769478,
+  "9dc8a373d0b78a22": 1792290110.9769506,
+  "3f7802650e9919af": 1792290110.9769518,
+  "d4f6136827042bd8": 1792290110.9769526,
+  "5a1e2c352a14c931": 1792290110.9769533,
+  "4867f289216b5c12": 1792290110.9769542,
+  "ce186d68a3288fb3": 1792290110.976955,
+  "18fa3ca40f48326e": 1792290139.829995
  },
  "pending": {},
  "queue": [],
@@ -764,7 +772,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-flash-latest",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -817,7 +825,7 @@
  "sindh_single": {
   "date": "2026-10-18",
   "count": 0,
-  "last": 1792255267.725888,
+  "last": 1792290124.5465324,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1195,7 +1203,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 07:10",
+  "time": "2026-10-18 07:22",
   "items": 28,
   "sample": [
    "Bangladesh 172/10 * v Zimbabwe 271/8",
@@ -3610,9 +3618,9 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 32,
+  "ok": 35,
   "fail": 0,
-  "limit": 98
+  "limit": 108
  },
  "posted_heads": [
   {
@@ -3937,7 +3945,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 07:10",
+  "time": "2026-10-18 07:22",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4030,7 +4038,7 @@
   "text": 11,
   "story": 11
  },
- "ai_last_error": "06:20 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "07:22 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
