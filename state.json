@@ -775,7 +775,10 @@
   "fc2e247ac3043c78": 1792298452.4462187,
   "90af9a1525f59982": 1792298466.9675026,
   "6ab1131cf95dbdd8": 1792298466.9677033,
-  "8b2b692f502bf0da": 1792299671.14063
+  "8b2b692f502bf0da": 1792299671.14063,
+  "5526294bafd9d7c2": 1792300258.544938,
+  "830172086a444be0": 1792300258.5449407,
+  "70fa818d89ea26d7": 1792300258.5450778
  },
  "pending": {},
  "queue": [],
@@ -793,7 +796,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-3.5-flash",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -861,17 +864,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122109956553503839",
+ "last_post_id": "1444130002106066_122109973761503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109237543503839",
-   "title": "پاڪستاني قومي ڪرڪيٽ ٽيم جي رانديگرن ون ڊي ڪرڪيٽ جي چئلينجن ۽ لاھين چاڙھين کي زبردست قرار",
-   "t": 1792228738.4146981,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109237543503839"
-  },
   {
    "id": "1444130002106066_122109245259503839",
    "title": "ناڻي واري وفاقي وزير محمد اورنگزيب آءِ ايم ايف ۽ ورلڊ بئنڪ جي سالياني گڏجاڻين دوران عالمي",
@@ -1146,6 +1140,16 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109956553503839"
+  },
+  {
+   "id": "1444130002106066_122109973761503839",
+   "title": "وفاقي وزير محمد اورنگزیب وچ اوڀر جي بئنڪن جي عهديدارن سان ملاقات ڪئي جنهن ۾ پاڪستان ۾",
+   "t": 1792300286.7591834,
+   "tags": [
+    "business",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109973761503839"
   }
  ],
  "share_sent": {
@@ -1226,7 +1230,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 10:01",
+  "time": "2026-10-18 10:11",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1241,8 +1245,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 18,
-  "last": 1792298483.940889
+  "count": 19,
+  "last": 1792300279.2561498
  },
  "perf": {
   "posts": [
@@ -2145,13 +2149,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792298491
+   },
+   {
+    "id": "1444130002106066_122109973761503839",
+    "sec": "public_news",
+    "cat": "dollar_gold_business",
+    "t": 1792300286
    }
   ]
  },
  "public_news": {
   "date": "2026-10-18",
-  "count": 6,
-  "last": 1792294280.2765024
+  "count": 7,
+  "last": 1792300286.7588964
  },
  "trends": {
   "last": 1792293647.629428,
@@ -3673,15 +3683,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 51,
+  "ok": 53,
   "fail": 4,
-  "limit": 164
+  "limit": 174
  },
  "posted_heads": [
-  {
-   "h": "Revitalised Naseem seeks to shine in ODI tri-series following comeback",
-   "t": 1792125673
-  },
   {
    "h": "IESCO seeks 54% tariff hike to Rs43.54 per unit ahead of privatisation",
    "t": 1792128063
@@ -3997,10 +4003,14 @@
   {
    "h": "Fixtures, Schedule | Pakistan tour of Ireland",
    "t": 1792298492
+  },
+  {
+   "h": "Aurangzeb takes up investment & digital finance with ME banks",
+   "t": 1792300286
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 10:01",
+  "time": "2026-10-18 10:11",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4088,12 +4098,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 15,
-  "decoded": 15,
-  "text": 15,
-  "story": 15
+  "tried": 16,
+  "decoded": 16,
+  "text": 16,
+  "story": 16
  },
- "ai_last_error": "10:01 gemini-3.6-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "10:11 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
