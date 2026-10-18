@@ -1,15 +1,6 @@
-HF mms-tts-snd search: [] | sindhi tts search: []
-mms FAILED: Traceback (most recent call last):
-  File "/home/runner/work/nf-updates/nf-updates/voice/voice_sample.py", line 110, in <module>
-    fn()
-  File "/home/runner/work/nf-updates/nf-updates/voice/voice_sample.py", line 32, in mms
-    raise RuntimeError("Sindhi MMS model nahi mila")
-RuntimeError: Sindhi MMS model nahi mila
-
-Gemini TTS models: ['gemini-2.5-flash-preview-tts', 'gemini-2.5-pro-preview-tts', 'gemini-3.1-flash-tts-preview', 'gemini-3.8-flash-tts', 'gemini-3.8-flash-lite-tts']
-Gemini gemini-2.5-flash-preview-tts no audio; finish: OTHER {"candidates": [{"finishReason": "OTHER", "index": 0}], "usageMetadata": {"promptTokenCount": 564, "totalTokenCount": 564, "promptTokensDetails": [{"modality": "TEXT", "tokenCount": 564}], "serviceTier": "standard"}, "modelVersion": "gemini-2.5-flash-preview-tts", "responseId": "APnUauCOBdeS39IP2Yzc
-Gemini gemini-2.5-pro-preview-tts 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a
-B done with gemini-3.1-flash-tts-preview
+models ['gemini-3.1-flash-tts-preview', 'gemini-2.5-flash-preview-tts', 'gemini-3.8-flash-tts', 'gemini-3.8-flash-lite-tts', 'gemini-2.5-pro-preview-tts']
+tts ok gemini-3.1-flash-tts-preview 93.0 s
+tts ok gemini-3.1-flash-tts-preview 99.2 s
+tts ok gemini-3.1-flash-tts-preview 68.5 s
+tts ok gemini-3.1-flash-tts-preview 36.6 s
+bulletin seconds: 308.8
