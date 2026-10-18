@@ -906,9 +906,14 @@ def ask_gemini(prompt, image=None, mime="image/jpeg"):
     return res
 
 
+def gemini_off_tag():
+    """Aaj ki tareekh + key ka nishan: nayi key lagte hi Gemini foran dobara aazmaya jaye."""
+    return today() + "|" + hashlib.sha256(GEMINI_KEY.encode()).hexdigest()[:8]
+
+
 def _ask_gemini(prompt, image=None, mime="image/jpeg"):
     global _discovered
-    if S.get("gemini_off") == today():  # credits/billing masla: aaj Gemini bilkul nahi, seedha backup
+    if S.get("gemini_off") == gemini_off_tag():  # credits/billing masla: aaj (isi key par) Gemini nahi, seedha backup
         return ask_openrouter(prompt) if (OPENROUTER_KEY and not image) else None
     parts = [{"text": prompt}]
     if image:
@@ -945,7 +950,7 @@ def _ask_gemini(prompt, image=None, mime="image/jpeg"):
                 ai_count("fail" if r.status_code != 429 else "limit")
                 S["ai_last_error"] = f"{now().strftime('%H:%M')} {model} {r.status_code} {r.text[:160]}"
                 if r.status_code in (402, 403) or "credits" in r.text.lower() or "billing" in r.text.lower():
-                    S["gemini_off"] = today()  # paisa/billing ka masla: aaj dobara mat bhejo
+                    S["gemini_off"] = gemini_off_tag()  # paisa/billing ka masla: aaj isi key se dobara mat bhejo
                     if S.get("gemini_off_alert") != today():
                         S["gemini_off_alert"] = today()
                         tg_send("⚠️ Gemini ne kaha: credits khatam / billing masla. Aaj Gemini band, backup (OpenRouter) "
