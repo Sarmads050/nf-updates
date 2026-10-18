@@ -2883,14 +2883,14 @@ def probe_sources():
         pr[base] = res
 
 
-def kawish_pages():
-    """Kawish e-paper ke aaj (ya kal) ke safhon ki tasveerein: [(safha, url, bytes)]."""
+def kawish_pages(days_back=(0, 1)):
+    """Kawish e-paper ke safhon ki tasveerein: ([(safha, url, bytes)], tareekh)."""
     cfg = CONFIG.get("kawish", {})
     base = cfg.get("base", "http://www.thekawish.com/beta/images")
-    out = []
-    for back in (0, 1):
+    for back in days_back:
         d = now() - dt.timedelta(days=back)
         folder = f"{base}/{d.year}/{d.strftime('%B')}/{d.strftime('%d-%m-%Y')}"
+        out = []
         for n in range(1, cfg.get("pages", 8) + 1):
             url = f"{folder}/{n:02d}.jpg"
             try:
@@ -2900,52 +2900,104 @@ def kawish_pages():
             except Exception as e:
                 log("kawish page error:", url, e)
         if out:
-            return out, d.strftime("%d-%m-%Y")
-    return [], ""
+            return out, d
+    return [], None
 
 
 def kawish_read(page_no, img):
     towns = ", ".join(CONFIG.get("district_towns", [])[:25])
-    prompt = ("This is page " + str(page_no) + " of today's Daily Kawish, a Sindhi newspaper. Read it carefully. "
-              "List the news stories on this page about Naushahro Feroze district or its towns (" + towns + "), "
-              "and also at most 2 of the most important Sindh-wide stories. For each story write in Sindhi "
-              "(Arabic script): a short headline and a 3-5 sentence summary using ONLY what is printed. If a name "
-              "or number is not clearly readable, leave it out instead of guessing. Skip advertisements, "
-              "religion controversy, and anything about the military.\n"
-              "Return JSON: {\"items\": [{\"headline\": string, \"summary\": string, \"district\": bool, "
-              "\"place\": string, \"confidence\": \"high\"|\"medium\"|\"low\"}]}")
+    prompt = ("This is page " + str(page_no) + " of today's Daily Kawish, a Sindhi newspaper. Read it carefully and "
+              "list EVERY separate item on the page. For each item give its type: \"news\" for a news report, "
+              "\"editorial\" for the newspaper's own editorial (اداريو), \"column\" for an opinion column/article, "
+              "\"ad\" for an advertisement or notice. For each item write in Sindhi (Arabic script): a short "
+              "headline and a 3-5 sentence summary using ONLY what is printed. If a name or number is not clearly "
+              "readable, leave it out instead of guessing. district=true if it is about Naushahro Feroze district or "
+              "its towns (" + towns + "). sensitive=true for murder, firing, robbery, rape/abuse, kidnapping, "
+              "violent clashes or other crime (road accidents and drowning are NOT sensitive).\n"
+              "Return JSON: {\"items\": [{\"type\": string, \"headline\": string, \"summary\": string, "
+              "\"district\": bool, \"sensitive\": bool, \"place\": string, \"confidence\": \"high\"|\"medium\"|\"low\"}]}")
     out = ask_gemini(prompt, image=img, mime="image/jpeg")
     return [x for x in (out or {}).get("items", []) if isinstance(x, dict)] if isinstance(out, dict) else []
 
 
 def handle_kawish():
-    """Kawish e-paper se khabrein. mode=test: sirf Telegram preview + state mein (Facebook par nahi)."""
+    """Kawish e-paper: roz subah ek dafa parho (idariya/kaalam/ishtihar chhoD kar), khabrein qatar mein rakho;
+    jurm wali khabrein review mein. mode=test: sirf Telegram namoona."""
     cfg = CONFIG.get("kawish", {})
     if not cfg.get("enabled") or not GEMINI_KEY:
         return
     st = S.setdefault("kawish", {})
+    test = str(cfg.get("mode", "")).startswith("test")
     if st.get("date") == today() and st.get("mode") == cfg.get("mode"):
         return
-    pages, pdate = kawish_pages()
-    st.update(date=today(), mode=cfg.get("mode"), paper_date=pdate, pages=len(pages), posts=[])
-    if not pages:
-        tg_send("🧪 KAWISH TEST: aaj/kal ka e-paper nahi mila.")
+    if not test and not (cfg.get("from_hour", 7) <= now().hour < cfg.get("until_hour", 16)):
         return
+    pages, pdate = kawish_pages((0, 1) if test else (0,))
+    if not pages:
+        return  # aaj ka e-paper abhi nahi aaya: agli run mein dobara
+    st.update(date=today(), mode=cfg.get("mode"), paper_date=pdate.strftime("%d-%m-%Y"), pages=len(pages), posts=[])
+    found, skipped = [], 0
     for n, url, img in pages:
         for it in kawish_read(n, img):
             head, summ = clean_text(it.get("headline", "")), clean_text(it.get("summary", ""))
-            if len(head) < 5 or len(summ) < 30 or blocked_reason(head + " " + summ):
+            if str(it.get("type", "news")).lower() != "news":
+                skipped += 1  # idariya, kaalam, ishtihar
                 continue
-            msg = (f"📰 {head}\n\n{finish(summ)}\n\n📌 {LBL['source']}: روزاني ڪاوش (صفحو {n})\n\n{footer()}")
-            st["posts"].append({"page": n, "url": url, "district": bool(it.get("district")),
-                                "confidence": it.get("confidence", ""), "place": it.get("place", ""), "message": msg})
-    if str(cfg.get("mode", "")).startswith("test"):
-        posts = sorted(st["posts"], key=lambda x: not x["district"])
-        tg_send(f"🧪 KAWISH TEST ({pdate}) — {len(pages)} safhe parhe, {len(posts)} khabrein mili. "
-                "Ye Facebook par POST NAHI hui, sirf namoona hai:")
-        for x in posts[:12]:
-            tag = ("🏠 District" if x["district"] else "🌍 Sindh") + f" | safha {x['page']} | yaqeen: {x['confidence']}"
-            tg_send(tag + "\n\n" + x["message"])
+            if len(head) < 5 or len(summ) < 30 or blocked_reason(head + " " + summ) or bad_script(head + summ):
+                continue
+            k = item_key(head)
+            if k in S["seen"]:
+                continue
+            S["seen"][k] = time.time()
+            page_link = f"https://www.thekawish.com/beta/index.php?date={pdate.strftime('%Y-%m-%d')}&pageno={n}"
+            msg = f"📰 {head}\n\n{finish(summ)}\n\n📌 {LBL['source']}: روزاني ڪاوش (صفحو {n})\n\n{footer()}"
+            found.append({"key": k, "page": n, "head": head, "summary": summ, "district": bool(it.get("district")),
+                          "sensitive": bool(it.get("sensitive")) or keyword_sensitive(head + " " + summ),
+                          "confidence": it.get("confidence", ""), "link": page_link, "message": msg})
+    st["posts"] = found
+    st["skipped"] = skipped
+    if test:
+        tg_send(f"🧪 KAWISH TEST ({st['paper_date']}) — {len(pages)} safhe, {len(found)} khabrein "
+                f"({skipped} idariya/kaalam/ishtihar chhoDe). Facebook par POST NAHI:")
+        for x in sorted(found, key=lambda x: not x["district"])[:12]:
+            tg_send(("🏠 District" if x["district"] else "🌍 Sindh") + f" | safha {x['page']}\n\n" + x["message"])
+        return
+    q = S.setdefault("kawish_queue", [])
+    for x in sorted(found, key=lambda x: (not x["district"], x["page"])):  # district pehle
+        if x["sensitive"] or x["confidence"] == "low":
+            S["pending"][x["key"]] = {"message": x["message"], "link": x["link"], "added": time.time(),
+                                      "card": {"title": x["head"], "sub": "روزاني ڪاوش", "body": x["summary"], "theme": "news"}}
+            tg_send("🟠 REVIEW (Kawish, safha " + str(x["page"]) + "): post karni hai?\n\n" + x["message"],
+                    [{"text": "✅ Post karo", "callback_data": "ok:" + x["key"]},
+                     {"text": "❌ Reject", "callback_data": "no:" + x["key"]}])
+        else:
+            x["added_day"] = today()
+            q.append(x)
+    log("kawish:", len(found), "khabrein,", skipped, "idariya/kaalam chhoDe")
+
+
+def handle_kawish_post():
+    """Kawish ki qatar se ek khabar (waqfe aur din ki hadd ke saath)."""
+    cfg = CONFIG.get("kawish", {})
+    q = S.get("kawish_queue", [])
+    if not cfg.get("enabled") or not q:
+        return
+    day = S.setdefault("kawish_post", {"date": "", "count": 0, "last": 0})
+    if day["date"] != today():
+        day.update(date=today(), count=0)
+        S["kawish_queue"] = q = [x for x in q if x.get("added_day", today()) == today()] or q[:0]
+    gap = cfg.get("gap_minutes", 20) * 60
+    if (day["count"] >= cfg.get("max_per_day", 15) or time.time() - day.get("last", 0) < gap
+            or (S["queue"] and can_post()) or not pace_ok()):
+        return
+    x = q.pop(0)
+    if news_card_post(x["message"], x["head"], "روزاني ڪاوش", x["link"], body=x["summary"]):
+        day["count"] += 1
+        day["last"] = time.time()
+        perf_record("kawish", "district" if x["district"] else "sindh")
+        mark_shareable(x["message"], "district" if x["district"] else "sindh")
+        ph = S.setdefault("posted_heads", [])
+        ph.append({"h": x["head"][:140], "t": int(time.time())})
 
 
 def handle_culture():
@@ -3073,6 +3125,7 @@ def main():
         order = list(sections)
     for sec in order:  # is hafte jo zyada pasand/trend, wo pehle
         step(sections[sec])
+    step(handle_kawish_post)
     for fn in (handle_share_helper, handle_perf, handle_cricket_live, handle_auto_reply):
         step(fn)
     S["last_errors"] = {"time": now().strftime("%Y-%m-%d %H:%M"), "steps": STATS.get("errors", [])}

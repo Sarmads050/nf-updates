@@ -955,9 +955,13 @@
   },
   "probe_sources": [],
   "kawish": {
-    "enabled": false,
-    "mode": "test2",
+    "enabled": true,
+    "mode": "live",
     "base": "http://www.thekawish.com/beta/images",
-    "pages": 8
+    "pages": 8,
+    "from_hour": 7,
+    "until_hour": 16,
+    "max_per_day": 15,
+    "gap_minutes": 20
   }
 }
