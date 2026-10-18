@@ -49,19 +49,61 @@ def png(html_body, w, h, name, transparent=True):
     return out
 
 
+def silences(x, min_len=0.25):
+    """Awaz mein khamoshi ke tukre: [(beech ka waqt, lambai)]."""
+    f = int(0.02 * RATE)
+    n = len(x) // f
+    rms = np.sqrt((x[:n * f].reshape(n, f) ** 2).mean(1))
+    thr = max(0.012, np.percentile(rms, 20) * 1.6)
+    quiet = rms < thr
+    out, i = [], 0
+    while i < n:
+        if quiet[i]:
+            j = i
+            while j < n and quiet[j]:
+                j += 1
+            if (j - i) * 0.02 >= min_len:
+                out.append(((i + j) / 2 * 0.02, (j - i) * 0.02, i * 0.02))
+            i = j
+        else:
+            i += 1
+    return out
+
+
+def boundaries(x, paras):
+    """Ek hisse (chunk) mein khabron ke shuru ka asal waqt: anchor 'ٻي خبر' se pehle rukta hai, phir 'X خبر' keh kar
+    dobara rukta hai — is jodi ki pehli khamoshi hi naya hissa. Na mile to andaze ke qareeb sab se lambi khamoshi."""
+    dur = len(x) / RATE
+    tot = sum(len(p) for p in paras)
+    est, c = [], 0.0
+    for p in paras[:-1]:
+        c += dur * len(p) / tot
+        est.append(c)
+    sil = [s for s in silences(x) if s[1] >= 0.4]
+    pairs = [(s1[0], s1[1]) for s1, s2 in zip(sil, sil[1:]) if 0.6 <= s2[0] - s1[0] <= 2.6]
+    picks, last = [], 0.0
+    for e in est:
+        win = max(6.0, dur / len(paras) * 0.6)
+        cand = [p for p in pairs if p[0] > last + 2 and abs(p[0] - e) <= win]
+        if not cand:
+            cand = [(s[0], s[1]) for s in sil if s[0] > last + 2 and abs(s[0] - e) <= win]
+        t = min(cand, key=lambda p: abs(p[0] - e) - p[1])[0] if cand else e
+        picks.append(t)
+        last = t
+    return [0.0] + picks + [dur]
+
+
 def timing(paras):
-    """Har paragraph (intro, 10 khabrein, aakhir) kab shuru/khatam: chunk ki lambai ko harfon ke hisaab se baanto."""
+    """Har paragraph (intro, 10 khabrein, aakhir) ka asal shuru/khatam waqt, awaz ki khamoshi se."""
     z = np.load(os.path.join(OUT, "voice_cache.npz"), allow_pickle=True)
-    lens = [len(p) / RATE for p in z["parts"]]
+    parts = list(z["parts"])
     groups = [paras[0:4], paras[4:7], paras[7:10], paras[10:]]
     spans, t = [], LEAD
-    for g, L in zip(groups, lens):
-        tot = sum(len(p) for p in g)
-        for p in g:
-            d = L * len(p) / tot
-            spans.append((t, t + d))
-            t += d
-        t += PAUSE
+    for g, x in zip(groups, parts):
+        b = boundaries(x, g)
+        for k in range(len(g)):
+            spans.append((t + b[k], t + b[k + 1]))
+        t += len(x) / RATE + PAUSE
     return spans
 
 
@@ -173,8 +215,12 @@ def main():
     from PIL import Image
     with Image.open(ticker) as im:  # khaali hissa kaat do
         bbox = im.getbbox()
-        im.crop((bbox[0] - 20, 0, bbox[2] + 20, 56)).save(ticker)
-        tw = bbox[2] - bbox[0] + 40
+        one = im.crop((bbox[0] - 20, 0, bbox[2] + 20, 56))
+        tw = one.width
+        two = Image.new("RGBA", (tw * 2, 56), (0, 0, 0, 0))  # do dafa jor kar patti kabhi khaali na ho
+        two.paste(one, (0, 0))
+        two.paste(one, (tw, 0))
+        two.save(ticker)
     lowers = []
     for i, s in enumerate(stories):
         lowers.append(png(f"""
@@ -202,7 +248,7 @@ def main():
     speed = 95
     fc.append(f"[{last}]drawbox=x=0:y={H - 56}:w={W}:h=56:color=0x14213D@1:t=fill:"
               f"enable='between(t,{scenes[0][1]:.2f},{scenes[-1][0]:.2f})'[band]")
-    fc.append(f"[band][3:v]overlay=x='-{tw}+mod(t*{speed}\\,{W}+{tw})':y={H - 56}:"
+    fc.append(f"[band][3:v]overlay=x='-{tw}+mod(t*{speed}\\,{tw})':y={H - 56}:"
               f"enable='between(t,{scenes[0][1]:.2f},{scenes[-1][0]:.2f})'[tk]")
     fc.append(f"[tk][2:v]overlay=0:0:enable='between(t,{scenes[0][1]:.2f},{scenes[-1][0]:.2f})'[fr]")
     fc.append(f"[fr]{clock}:enable='between(t,{scenes[0][1]:.2f},{scenes[-1][0]:.2f})',format=yuv420p[vout]")
