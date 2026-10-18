@@ -849,7 +849,17 @@
   "be432a6761246d9b": 1792335064.4153907,
   "d28125b326c278cb": 1792335064.4153914,
   "5cbbbf16e36bdda7": 1792335064.4153922,
-  "639df911dd4a4bfd": 1792335064.415579
+  "639df911dd4a4bfd": 1792335064.415579,
+  "c21b7dcbbf4b48e1": 1792337466.6911643,
+  "b7498d916fd0c6be": 1792337466.6911666,
+  "5035452951c8c086": 1792337466.6911678,
+  "7e413115162cbe0f": 1792337466.6911685,
+  "7747e0ad1cdfee1f": 1792337466.6911693,
+  "ae5e790ba2b24ce8": 1792337466.6911697,
+  "70c014faca5bba1e": 1792337466.6911712,
+  "79cad2a602a0da75": 1792337466.691172,
+  "d7f9984ea90f837d": 1792337466.6911724,
+  "782e6a6c13969e77": 1792337466.6913276
  },
  "pending": {},
  "queue": [],
@@ -935,18 +945,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110218129503839",
+ "last_post_id": "1444130002106066_122110269033503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109664263503839",
-   "title": "عالمي مارڪيٽ ۾ لاٿ بعد پاڪستان ۾ پڻ سون جي قيمت ۾ گهٽتائي رڪارڊ ڪئي وئي آهي جنهن سان في",
-   "t": 1792263189.362994,
-   "tags": [
-    "business",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109664263503839"
-  },
   {
    "id": "1444130002106066_122109674931503839",
    "title": "پاڪستاني ڪپتان شاهين آفريدي گهر ۾ شيڊول ٽري سيريز کان اڳ صائم ايوب ۽ سلمان علي آغا تي",
@@ -1222,6 +1222,17 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110218129503839"
+  },
+  {
+   "id": "1444130002106066_122110269033503839",
+   "title": "وزير اعظم شيباز شيڪ ڀٽا اسلام آباد ۾ دانيش اسڪول جو افتتاح ڪندي تعليمي موقعن ۾ برابري تي",
+   "t": 1792337499.330484,
+   "tags": [
+    "education",
+    "general",
+    "jobs"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110269033503839"
   }
  ],
  "share_sent": {
@@ -1316,7 +1327,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 20:21",
+  "time": "2026-10-18 20:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1331,8 +1342,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 32,
-  "last": 1792335074.64745
+  "count": 33,
+  "last": 1792337490.4121032
  },
  "perf": {
   "posts": [
@@ -2313,13 +2324,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792335080
+   },
+   {
+    "id": "1444130002106066_122110269033503839",
+    "sec": "public_news",
+    "cat": "education_jobs",
+    "t": 1792337499
    }
   ]
  },
  "public_news": {
   "date": "2026-10-18",
-  "count": 13,
-  "last": 1792327284.4835815
+  "count": 14,
+  "last": 1792337499.33021
  },
  "trends": {
   "last": 1792332061.646763,
@@ -4049,15 +4066,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 90,
+  "ok": 91,
   "fail": 682,
-  "limit": 328
+  "limit": 333
  },
  "posted_heads": [
-  {
-   "h": "PCB files official complaint against Umpire over Fakhar Zaman’s unfair out",
-   "t": 1792146801
-  },
   {
    "h": "Dar meets MoFA officials",
    "t": 1792147991
@@ -4373,10 +4386,14 @@
   {
    "h": "Salman Ali Agha’s century powers Pakistan to 305 against Sri Lanka in Tri-Nation ODI opener",
    "t": 1792335080
+  },
+  {
+   "h": "PM Shehbaz inaugurates Daanish School in Islamabad, stresses equal academic opportunities",
+   "t": 1792337499
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 20:21",
+  "time": "2026-10-18 20:31",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4479,12 +4496,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 28,
-  "decoded": 28,
-  "text": 27,
+  "tried": 29,
+  "decoded": 29,
+  "text": 28,
   "story": 25
  },
- "ai_last_error": "20:20 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "20:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
@@ -4498,10 +4515,10 @@
  },
  "img_diag": {
   "date": "2026-10-18",
-  "tried": 5,
+  "tried": 6,
   "gemini": 0,
   "pollinations": 2,
-  "skip": 3,
+  "skip": 4,
   "fail": 4,
   "last_note": "gemini gemini-2.5-flash-image 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your p"
  },
@@ -4524,14 +4541,14 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-18",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-18",
-   "ok": 16,
+   "ok": 17,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -4539,7 +4556,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-18",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -4547,35 +4564,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-18",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-18",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-18",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-18",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-18",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -4585,7 +4602,7 @@
   "last": "",
   "idx": 0
  },
- "ai_last_model": "google/gemma-4-31b-it:free",
+ "ai_last_model": "google/gemma-4-26b-a4b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
