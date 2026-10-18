@@ -1528,6 +1528,96 @@ def sd_date():
     return f"{n.day} {SD_MONTHS[n.month - 1]} {n.year}"
 
 
+def _img_diag(key, note=None):
+    d = S.setdefault("img_diag", {"date": "", "tried": 0, "gemini": 0, "pollinations": 0, "skip": 0, "fail": 0})
+    if d["date"] != today():
+        d.update(date=today(), tried=0, gemini=0, pollinations=0, skip=0, fail=0)
+    d[key] = d.get(key, 0) + 1
+    if note:
+        d["last_note"] = note[:160]
+
+
+def image_prompt_for(title, body):
+    """AI se khabar ke mutabiq ek mehfooz illustration ka English prompt; sensitive khabar par skip."""
+    if not (GEMINI_KEY or GROQ_KEY):
+        return None
+    prompt = ("News (Sindhi): " + title + "\n" + body[:600] +
+              "\n\nWrite a short English prompt (max 40 words) for an illustration that helps readers picture this "
+              "news: the setting, objects and mood (e.g. a canal with farmers, a school classroom, a fuel station, "
+              "a cricket stadium, a rice field). Style: flat digital illustration, warm colors, Sindh/Pakistan setting. "
+              "No text, no letters, no logos, no flags, no real or famous people, no faces in close-up, no weapons, "
+              "no blood. Set skip=true if the news is about crime, death, accident, violence, disaster victims, "
+              "religion, politics of a named person or the military.\nReturn JSON: {\"prompt\": string, \"skip\": bool}")
+    out = ask_gemini(prompt) if GEMINI_KEY else ask_groq(prompt)
+    if not isinstance(out, dict) or out.get("skip"):
+        return None
+    p_ = clean_text(str(out.get("prompt", "")))
+    return p_ if len(p_) > 10 else None
+
+
+def _image_models():
+    d = S.setdefault("gemini_img", {"date": "", "models": []})
+    if d["date"] != today() and GEMINI_KEY:
+        d["date"] = today()
+        try:
+            r = requests.get(GEMINI_BASE, headers={"x-goog-api-key": GEMINI_KEY}, params={"pageSize": 200}, timeout=30)
+            d["models"] = [m["name"].split("/")[-1] for m in r.json().get("models", [])
+                           if "image" in m.get("name", "") and "generateContent" in m.get("supportedGenerationMethods", [])][:3]
+        except Exception as e:
+            log("image models error:", e)
+    return d.get("models", [])
+
+
+def news_image(title, body):
+    """Khabar ke mutabiq AI tasveer (free): pehle Gemini image model, phir Pollinations. Na bane to None."""
+    cfg = CONFIG.get("news_images", {})
+    if not cfg.get("enabled", True) or DRY_RUN:
+        return None
+    _img_diag("tried")
+    if blocked_reason(title + " " + body) or keyword_sensitive(title + " " + body):
+        _img_diag("skip")
+        return None
+    ip = image_prompt_for(title, body)
+    if not ip:
+        _img_diag("skip")
+        return None
+    full = ip + ", flat digital illustration, no text, no letters"
+    import tempfile
+    out = os.path.join(tempfile.mkdtemp(), "news.jpg")
+    if cfg.get("gemini", True):
+        for m in _image_models():
+            try:
+                r = requests.post(f"{GEMINI_BASE}/{m}:generateContent", headers={"x-goog-api-key": GEMINI_KEY},
+                                  timeout=90, json={"contents": [{"parts": [{"text": "Generate an image: " + full}]}],
+                                                    "generationConfig": {"responseModalities": ["IMAGE", "TEXT"]}})
+                if r.status_code == 200:
+                    for part in r.json()["candidates"][0]["content"]["parts"]:
+                        data = (part.get("inlineData") or part.get("inline_data") or {}).get("data")
+                        if data:
+                            with open(out, "wb") as f:
+                                f.write(base64.b64decode(data))
+                            _img_diag("gemini")
+                            return out
+                else:
+                    _img_diag("fail", f"gemini {m} {r.status_code} {r.text[:100]}")
+            except Exception as e:
+                _img_diag("fail", f"gemini {m} {e}")
+    if cfg.get("pollinations", True):
+        try:
+            url = "https://image.pollinations.ai/prompt/" + quote_plus(full)
+            r = requests.get(url, timeout=90, headers=UA, params={"width": 1080, "height": 640, "nologo": "true",
+                                                                 "seed": random.randint(1, 99999)})
+            if r.status_code == 200 and r.headers.get("content-type", "").startswith("image") and len(r.content) > 8000:
+                with open(out, "wb") as f:
+                    f.write(r.content)
+                _img_diag("pollinations")
+                return out
+            _img_diag("fail", f"pollinations {r.status_code} {r.headers.get('content-type', '')} {len(r.content)}")
+        except Exception as e:
+            _img_diag("fail", f"pollinations {e}")
+    return None
+
+
 def cut_words(text, limit=90):
     text = (text or "").strip()
     return text if len(text) <= limit else text[:limit].rsplit(" ", 1)[0]
@@ -1567,7 +1657,7 @@ def card_parts(message):
     return title, trim_sentences(rest, 300)
 
 
-def make_card(title, subtitle="", body="", theme="news"):
+def make_card(title, subtitle="", body="", theme="news", image=None):
     """Page ke rang (Ajrak) wali tasveer banana: Chrome headless se HTML ka screenshot. Na bane to None."""
     import html as H
     import shutil
@@ -1582,8 +1672,13 @@ def make_card(title, subtitle="", body="", theme="news"):
     accent = "#B3261E" if theme == "news" else "#1F6F5C"
     font_css = os.getenv("CARD_FONT_CSS", "") or \
         "@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@700&display=swap');"
-    body = trim_sentences(body, 300) if body else ""
-    if body:  # sarkhi + khabar: dono card mein samayein
+    if image is None and theme == "news" and body:
+        image = news_image(title, body)
+    body = trim_sentences(body, 190 if image else 300) if body else ""
+    if image:  # tasveer upar: likhai thodi chhoti
+        big = 52 if len(title) < 40 else 44
+        small = 36 if len(body) < 120 else 33
+    elif body:  # sarkhi + khabar: dono card mein samayein
         big = 68 if len(title) < 30 else 58 if len(title) < 55 else 50
         small = 46 if len(body) < 120 else 41 if len(body) < 210 else 37
     else:
@@ -1596,6 +1691,13 @@ def make_card(title, subtitle="", body="", theme="news"):
       background-image:radial-gradient(circle at 42px 42px,#F4EFE6 6px,transparent 7px),
       radial-gradient(circle at 42px 42px,#14213D 22px,transparent 23px);background-size:84px 84px}}
     .top{{top:0;border-bottom:8px solid #F4EFE6}} .bot{{top:988px;border-top:8px solid #F4EFE6}}
+    .pic{{position:absolute;top:92px;left:0;right:0;height:430px;overflow:hidden}}
+    .pic img{{width:100%;height:100%;object-fit:cover;display:block}}
+    .pic:after{{content:"";position:absolute;left:0;right:0;bottom:0;height:120px;
+      background:linear-gradient(to bottom,rgba(20,33,61,0),#14213D)}}
+    .ai{{position:absolute;top:108px;left:18px;z-index:2;background:rgba(0,0,0,.55);color:#fff;font-size:24px;
+      padding:4px 14px;border-radius:20px;font-family:'Noto Naskh Arabic',serif}}
+    .wrap.withpic{{top:505px;gap:14px}}
     .wrap{{position:absolute;top:92px;bottom:92px;left:70px;right:70px;display:flex;flex-direction:column;
       align-items:center;justify-content:center;text-align:center;gap:26px;direction:rtl}}
     .tag{{background:{accent};color:#fff;font-size:34px;padding:8px 30px;border-radius:6px;letter-spacing:1px;
@@ -1606,8 +1708,10 @@ def make_card(title, subtitle="", body="", theme="news"):
     .brand{{font-family:Arial,sans-serif;font-weight:700;font-size:30px;direction:ltr;display:flex;align-items:center;
       background:#F4EFE6;color:#14213D;border-radius:40px;padding:10px 14px 10px 28px;gap:14px}}
     .brand .f{{background:#1877F2;color:#fff;border-radius:30px;padding:6px 20px;font-size:28px;letter-spacing:1px}}
-    </style></head><body><div class="band top"></div><div class="band bot"></div><div class="wrap">
-    <div class="tag">NAUSHAHRO FEROZE UPDATES</div><h1>{H.escape(title)}</h1>
+    </style></head><body><div class="band top"></div><div class="band bot"></div>
+    {f'<div class="pic"><img src="file://{image}"></div><div class="ai">AI تصوير</div>' if image else ''}
+    <div class="wrap{' withpic' if image else ''}">
+    {'' if image else '<div class="tag">NAUSHAHRO FEROZE UPDATES</div>'}<h1>{H.escape(title)}</h1>
     {f'<div class="sub">{H.escape(subtitle)}</div>' if subtitle else ''}
     {f'<div class="body">{H.escape(body)}</div>' if body else ''}
     <div class="brand"><span>{H.escape(CONFIG.get("page_name", "Naushahro Feroze Updates"))}</span><span class="f">+ Follow</span></div>
