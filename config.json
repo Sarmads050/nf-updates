@@ -484,7 +484,7 @@
   },
   "sindh_roundup": {
     "enabled": true,
-    "morning_hour": 6,
+    "morning_hour": 8,
     "evening_hour": 18,
     "min_items": 3,
     "max_items": 5,
@@ -516,7 +516,7 @@
   "sindh_single": {
     "enabled": true,
     "max_per_day": 6,
-    "from_hour": 7,
+    "from_hour": 8,
     "to_hour": 23,
     "gap_minutes": 120,
     "card": true,
@@ -526,9 +526,9 @@
   "share_helper": {
     "enabled": true,
     "hours": [
-      11,
-      16,
-      21
+      10,
+      17,
+      20
     ],
     "per_message": 4,
     "groups_per_post": 3,
@@ -752,10 +752,37 @@
     "max_total_per_day": 50,
     "min_gap_minutes": 10,
     "night_hours": [
-      1,
+      0,
       6
     ],
-    "night_gap_minutes": 30
+    "night_gap_minutes": 45,
+    "jumma_gap_minutes": 25,
+    "hour_gaps": [
+      45,
+      45,
+      45,
+      45,
+      45,
+      45,
+      25,
+      15,
+      12,
+      10,
+      10,
+      10,
+      10,
+      12,
+      12,
+      12,
+      10,
+      10,
+      10,
+      10,
+      10,
+      12,
+      15,
+      25
+    ]
   },
   "learning": {
     "enabled": true,
@@ -816,5 +843,10 @@
     "gemini": true,
     "pollinations": true,
     "ai_label": false
-  }
+  },
+  "openrouter_models": [
+    "google/gemma-4-31b-it:free",
+    "google/gemma-4-26b-a4b-it:free"
+  ],
+  "metricool_note": "Waqt Metricool (Asia/Karachi, Oct 2026) ke best-time data aur Sindh audience ke mutabiq: peak 9-12 aur 16-20, raat 0-6 kam."
 }

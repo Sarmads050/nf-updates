@@ -29,6 +29,7 @@ FB_PAGE_ID = os.getenv("FB_PAGE_ID", "").strip()
 FB_TOKEN = os.getenv("FB_PAGE_TOKEN", "").strip()
 GEMINI_KEY = os.getenv("GEMINI_API_KEY", "").strip()
 GROQ_KEY = os.getenv("GROQ_API_KEY", "").strip()
+OPENROUTER_KEY = os.getenv("OPENROUTER_API_KEY", "").strip()
 TG_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
 TG_CHAT = os.getenv("TELEGRAM_CHAT_ID", "").strip()
 DRY_RUN = os.getenv("DRY_RUN", "false").strip().lower() == "true"
@@ -839,11 +840,17 @@ def _ask_gemini(prompt, image=None, mime="image/jpeg"):
     if image:
         parts.append({"inline_data": {"mime_type": mime, "data": base64.b64encode(image).decode()}})
     models = preferred_models()  # mazboot (non-lite) model pehle
+    or_tried = False
     tried = set()
     while True:
         for model in models:
             if not model or model in tried or model in _dead_models:
                 continue
+            if "lite" in model and not or_tried and OPENROUTER_KEY and not image:
+                or_tried = True  # mazboot Gemini na mila: kamzor (lite) se pehle OpenRouter ka mazboot model
+                res = ask_openrouter(prompt)
+                if res is not None:
+                    return res
             tried.add(model)
             try:
                 for wait in (0, 5):  # 503 (rush) par thoda ruk kar isi mazboot model se ek dafa dobara
@@ -874,6 +881,46 @@ def _ask_gemini(prompt, image=None, mime="image/jpeg"):
         models = discover_gemini_models()
 
 
+def ask_openrouter(prompt):
+    """OpenRouter ke free models (Gemma); JSON jawab. Na mile to None."""
+    for model in CONFIG.get("openrouter_models", ["google/gemma-4-31b-it:free", "google/gemma-4-26b-a4b-it:free"]):
+        try:
+            r = requests.post("https://openrouter.ai/api/v1/chat/completions", timeout=90,
+                              headers={"Authorization": f"Bearer {OPENROUTER_KEY}",
+                                       "HTTP-Referer": "https://github.com/Sarmads050/nf-updates",
+                                       "X-Title": "NF Updates"},
+                              json={"model": model, "temperature": 0.3,
+                                    "response_format": {"type": "json_object"},
+                                    "messages": [{"role": "user", "content": prompt + "\nReturn only valid JSON."}]})
+            if r.status_code == 200:
+                txt = r.json()["choices"][0]["message"]["content"]
+                txt = txt[txt.find("{"): txt.rfind("}") + 1]
+                ai_count("ok")
+                S["ai_last_model"] = model
+                return json.loads(txt)
+            ai_count("limit" if r.status_code == 429 else "fail")
+            S["ai_last_error"] = f"{now().strftime('%H:%M')} openrouter {model} {r.status_code} {r.text[:120]}"
+        except Exception as e:
+            log("openrouter error", model, e)
+    return None
+
+
+def groq_model():
+    """Groq ka chalne wala model (purana naam band ho jaye to khud naya chuno)."""
+    d = S.setdefault("groq_disc", {"date": "", "model": ""})
+    if d["date"] != today() and GROQ_KEY:
+        d["date"] = today()
+        try:
+            r = requests.get("https://api.groq.com/openai/v1/models", timeout=20,
+                             headers={"Authorization": f"Bearer {GROQ_KEY}"}).json()
+            ids = [m["id"] for m in r.get("data", [])]
+            want = CONFIG.get("groq_model", "")
+            d["model"] = want if want in ids else next((i for i in ids if "70b" in i or "120b" in i), ids[0] if ids else "")
+        except Exception as e:
+            log("groq models error:", e)
+    return d.get("model") or CONFIG.get("groq_model")
+
+
 def ask_groq(prompt):
     res = None
     for attempt in range(2):
@@ -888,7 +935,7 @@ def _ask_groq(prompt):
         r = requests.post(
             "https://api.groq.com/openai/v1/chat/completions",
             headers={"Authorization": f"Bearer {GROQ_KEY}"},
-            json={"model": CONFIG["groq_model"], "temperature": 0.3,
+            json={"model": groq_model(), "temperature": 0.3,
                   "response_format": {"type": "json_object"},
                   "messages": [{"role": "user", "content": prompt}]},
             timeout=60)
@@ -947,7 +994,13 @@ def pace_ok():
     a = S.setdefault("all_posts", {"date": "", "count": 0, "last": 0})
     if a["date"] != today():
         a.update(date=today(), count=0)
-    gap = cfg.get("night_gap_minutes", 45) if is_night() else cfg.get("min_gap_minutes", 15)
+    hg = cfg.get("hour_gaps")  # har ghante ka waqfa (Metricool + Sindh audience ke mutabiq)
+    if isinstance(hg, list) and len(hg) == 24:
+        gap = hg[now().hour]
+        if now().weekday() == 4 and 12 <= now().hour < 14:  # Juma ki namaz ke waqt kam posts
+            gap = max(gap, cfg.get("jumma_gap_minutes", 25))
+    else:
+        gap = cfg.get("night_gap_minutes", 45) if is_night() else cfg.get("min_gap_minutes", 15)
     return a["count"] < cfg.get("max_total_per_day", 40) and time.time() - a.get("last", 0) >= gap * 60
 
 
