@@ -901,7 +901,9 @@
   "66260489b1a80927": 1792354264.4480793,
   "359b3ae8c0de4ccd": 1792354264.4480824,
   "e2e8e40df9722570": 1792354264.4480839,
-  "8b696dcb85e203fc": 1792354264.4480848
+  "8b696dcb85e203fc": 1792354264.4480848,
+  "2d23096b8567403a": 1792356064.7473786,
+  "6d1b3107b9d5b03f": 1792356064.7475424
  },
  "pending": {},
  "queue": [],
@@ -987,17 +989,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110362879503839",
+ "last_post_id": "1444130002106066_122110396839503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109750219503839",
-   "title": "پاڪستان ايران سان گبد رمدان ۽ تفتاڻ واريون سرحدي تجارتي راهداريون معطل ڪري ڇڏيون آهن",
-   "t": 1792272119.931737,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109750219503839"
-  },
   {
    "id": "1444130002106066_122109774087503839",
    "title": "پاڪستان ڪرڪيٽ ٽيم شري لنڪا خلاف شروعاتي ميچ ۾ سٺي ڪارڪردگي ڏيکارڻ لاءِ پراميد آهي",
@@ -1274,6 +1267,15 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110362879503839"
+  },
+  {
+   "id": "1444130002106066_122110396839503839",
+   "title": "حڪومت پاران پيٽرول جي قيمت ۾ لاٿ ۽ ڊيزل جي قيمت ۾ واڌ ڪئي وئي آهي، نيون قيمتون فوري طور",
+   "t": 1792356089.4912558,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110396839503839"
   }
  ],
  "share_sent": {
@@ -1368,7 +1370,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 01:31",
+  "time": "2026-10-19 01:41",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1383,8 +1385,8 @@
  },
  "all_posts": {
   "date": "2026-10-19",
-  "count": 1,
-  "last": 1792351302.5090718
+  "count": 2,
+  "last": 1792356080.7315795
  },
  "perf": {
   "posts": [
@@ -2389,13 +2391,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792351306
+   },
+   {
+    "id": "1444130002106066_122110396839503839",
+    "sec": "public_news",
+    "cat": "fuel",
+    "t": 1792356089
    }
   ]
  },
  "public_news": {
   "date": "2026-10-19",
-  "count": 0,
-  "last": 1792337499.33021
+  "count": 1,
+  "last": 1792356089.4909782
  },
  "trends": {
   "last": 1792350064.6271431,
@@ -4205,15 +4213,11 @@
  },
  "ai_usage": {
   "date": "2026-10-19",
-  "ok": 4,
+  "ok": 5,
   "fail": 0,
-  "limit": 0
+  "limit": 5
  },
  "posted_heads": [
-  {
-   "h": "FBR Stopped From Accessing Bank Records",
-   "t": 1792158732
-  },
   {
    "h": "Pakistan Records Hottest Monsoon Season in 7 Years",
    "t": 1792160506
@@ -4529,10 +4533,14 @@
   {
    "h": "Salman hits century, Pacers restrict Sri Lanka as Pakistan begin tri-series on winning note",
    "t": 1792351307
+  },
+  {
+   "h": "KP Governor Rule Latest Updates | Petrol Rate Reduced | Diesel Price Increased | 12AM HEADLINES",
+   "t": 1792356089
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 01:31",
+  "time": "2026-10-19 01:41",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4635,12 +4643,12 @@
  },
  "article_diag": {
   "date": "2026-10-19",
-  "tried": 1,
-  "decoded": 1,
-  "text": 0,
+  "tried": 2,
+  "decoded": 2,
+  "text": 1,
   "story": 0
  },
- "ai_last_error": "23:50 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "01:41 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-19",
   "models": [
@@ -4654,10 +4662,10 @@
  },
  "img_diag": {
   "date": "2026-10-19",
-  "tried": 1,
+  "tried": 2,
   "gemini": 0,
   "pollinations": 1,
-  "skip": 0,
+  "skip": 1,
   "fail": 0,
   "last_note": "gemini gemini-2.5-flash-image 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your p"
  },
@@ -4680,14 +4688,14 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 9,
+   "ok": 10,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -4695,7 +4703,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 10,
+   "ok": 11,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -4703,35 +4711,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -5000,18 +5008,18 @@
    }
   ]
  },
- "gemini_off": "2026-10-18|0b7a238b",
- "gemini_off_alert": "2026-10-18",
+ "gemini_off": "2026-10-19|0b7a238b",
+ "gemini_off_alert": "2026-10-19",
  "region_posts": {
   "date": "2026-10-19",
   "district": 0,
   "sindh": 0,
-  "pakistan": 1
+  "pakistan": 2
  },
  "report_acc": {
-  "posted": 0,
-  "found": 3,
-  "old": 3,
+  "posted": 1,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
