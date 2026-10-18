@@ -747,7 +747,15 @@
   "18fa3ca40f48326e": 1792290139.829995,
   "114b9fc9902171d0": 1792290669.79398,
   "a30f9d17b05e0ab4": 1792291865.527631,
-  "183a3dc136becf6e": 1792293055.7462382
+  "183a3dc136becf6e": 1792293055.7462382,
+  "59f00b2dd61e4846": 1792293707.3599722,
+  "c214df80a7627f1c": 1792293707.3599746,
+  "fa315fc269567304": 1792293707.3599768,
+  "91153b4676ef4851": 1792293707.3599777,
+  "b47234dcdbb1c38f": 1792293707.3599784,
+  "151579d9f3d947ca": 1792293707.3599792,
+  "7297bbddcfad5635": 1792293707.3599799,
+  "2f9464236a54f3b5": 1792293707.3599803
  },
  "pending": {},
  "queue": [],
@@ -775,7 +783,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-flash-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1206,7 +1214,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 08:11",
+  "time": "2026-10-18 08:21",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2116,7 +2124,7 @@
   "last": 1792291904.9851024
  },
  "trends": {
-  "last": 1792282847.534233,
+  "last": 1792293647.629428,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -3621,15 +3629,23 @@
     "t": 1792282847,
     "cat": "transport_trade",
     "sindh": false
+   },
+   {
+    "term": "as roma vs genoa cfc standings",
+    "traffic": 200,
+    "news": "LIVE/FREE:TCS Amsterdam Marathon LIVE STREA.Ms 18. 10. 2026",
+    "t": 1792293647,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 40,
-  "fail": 1,
-  "limit": 130
+  "ok": 42,
+  "fail": 3,
+  "limit": 131
  },
  "posted_heads": [
   {
@@ -3954,7 +3970,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 08:11",
+  "time": "2026-10-18 08:21",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4047,7 +4063,7 @@
   "text": 12,
   "story": 12
  },
- "ai_last_error": "08:10 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "08:21 gemini-3.7-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
