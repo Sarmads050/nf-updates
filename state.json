@@ -890,7 +890,14 @@
   "e596cac7d664996a": 1792340456.186029,
   "a71c8053daac36a0": 1792340456.1860316,
   "736b4f2f40c90e49": 1792340466.6526577,
-  "f2701bb6e48cbf33": 1792348240.364948
+  "f2701bb6e48cbf33": 1792348240.364948,
+  "422ab27b97f77301": 1792351287.7566462,
+  "fc0a946046998717": 1792351287.756649,
+  "b829023ee4b2a1f7": 1792351287.7566497,
+  "0041c7ccb9c76a9a": 1792351287.7566507,
+  "84a2fe527ef301ad": 1792351287.7566519,
+  "a6113271e85392be": 1792351287.7566526,
+  "28cacc5eb199be44": 1792351287.7568517
  },
  "pending": {},
  "queue": [],
@@ -976,18 +983,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110340871503839",
+ "last_post_id": "1444130002106066_122110362879503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109723141503839",
-   "title": "ملڪ ۾ هلندڙ مهانگائي دوران تعميراتي شعبي سان لاڳاپيل سيمنٽ ۽ اسٽيل جي قيمتن ۾ استحڪام ڏسڻ",
-   "t": 1792269110.5434556,
-   "tags": [
-    "business",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109723141503839"
-  },
   {
    "id": "1444130002106066_122109750219503839",
    "title": "پاڪستان ايران سان گبد رمدان ۽ تفتاڻ واريون سرحدي تجارتي راهداريون معطل ڪري ڇڏيون آهن",
@@ -1264,6 +1261,15 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110340871503839"
+  },
+  {
+   "id": "1444130002106066_122110362879503839",
+   "title": "ٽري نيشَن او ڊي آءِ سيريز جي افتتاحي ميچ ۾ پاڪستان سري لنڪا کي شڪست ڏئي ڇڏي آهي، جتي",
+   "t": 1792351306.7361376,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110362879503839"
   }
  ],
  "share_sent": {
@@ -1343,8 +1349,8 @@
  },
  "cricket_news": {
   "date": "2026-10-19",
-  "count": 0,
-  "last": 1792339670.4196193
+  "count": 1,
+  "last": 1792351306.735847
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -1358,7 +1364,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 00:12",
+  "time": "2026-10-19 00:21",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1373,8 +1379,8 @@
  },
  "all_posts": {
   "date": "2026-10-19",
-  "count": 0,
-  "last": 1792348253.2372088
+  "count": 1,
+  "last": 1792351302.5090718
  },
  "perf": {
   "posts": [
@@ -2373,6 +2379,12 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1792340504
+   },
+   {
+    "id": "1444130002106066_122110362879503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792351306
    }
   ]
  },
@@ -4189,15 +4201,11 @@
  },
  "ai_usage": {
   "date": "2026-10-19",
-  "ok": 1,
+  "ok": 3,
   "fail": 0,
   "limit": 0
  },
  "posted_heads": [
-  {
-   "h": "Here’s How High Electricity Bills You Will Pay in November",
-   "t": 1792156941
-  },
   {
    "h": "FBR Stopped From Accessing Bank Records",
    "t": 1792158732
@@ -4513,10 +4521,14 @@
   {
    "h": "‘Impose agricultural emergency in Pakistan,’ urges Kissan Ittehad president",
    "t": 1792340504
+  },
+  {
+   "h": "Salman hits century, Pacers restrict Sri Lanka as Pakistan begin tri-series on winning note",
+   "t": 1792351307
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 00:12",
+  "time": "2026-10-19 00:21",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4618,11 +4630,11 @@
   }
  },
  "article_diag": {
-  "date": "2026-10-18",
-  "tried": 31,
-  "decoded": 31,
-  "text": 30,
-  "story": 27
+  "date": "2026-10-19",
+  "tried": 1,
+  "decoded": 1,
+  "text": 0,
+  "story": 0
  },
  "ai_last_error": "23:50 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
@@ -4637,12 +4649,12 @@
   ]
  },
  "img_diag": {
-  "date": "2026-10-18",
-  "tried": 9,
+  "date": "2026-10-19",
+  "tried": 1,
   "gemini": 0,
-  "pollinations": 4,
-  "skip": 5,
-  "fail": 4,
+  "pollinations": 1,
+  "skip": 0,
+  "fail": 0,
   "last_note": "gemini gemini-2.5-flash-image 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your p"
  },
  "gemini_img": {
@@ -4664,58 +4676,58 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 0,
+   "ok": 1,
    "fail": 2,
    "items": 10,
-   "fail_streak": 2,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 1,
+   "ok": 2,
    "fail": 1,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -4990,12 +5002,12 @@
   "date": "2026-10-19",
   "district": 0,
   "sindh": 0,
-  "pakistan": 0
+  "pakistan": 1
  },
  "report_acc": {
-  "posted": 0,
-  "found": 2,
-  "old": 2,
+  "posted": 1,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
