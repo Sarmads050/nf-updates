@@ -2939,7 +2939,7 @@ def handle_kawish():
             msg = (f"📰 {head}\n\n{finish(summ)}\n\n📌 {LBL['source']}: روزاني ڪاوش (صفحو {n})\n\n{footer()}")
             st["posts"].append({"page": n, "url": url, "district": bool(it.get("district")),
                                 "confidence": it.get("confidence", ""), "place": it.get("place", ""), "message": msg})
-    if cfg.get("mode") == "test":
+    if str(cfg.get("mode", "")).startswith("test"):
         posts = sorted(st["posts"], key=lambda x: not x["district"])
         tg_send(f"🧪 KAWISH TEST ({pdate}) — {len(pages)} safhe parhe, {len(posts)} khabrein mili. "
                 "Ye Facebook par POST NAHI hui, sirf namoona hai:")
