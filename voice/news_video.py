@@ -35,7 +35,7 @@ def png(html_body, w, h, name, transparent=True):
     page = f"""<!doctype html><html><head><meta charset="utf-8"><style>{FONT_CSS}
     html,body{{margin:0;width:{w}px;height:{h}px;overflow:hidden;background:{'transparent' if transparent else '#14213D'}}}
     *{{box-sizing:border-box}} body{{font-family:'Noto Naskh Arabic',serif;color:#fff}}
-    </style></head><body>{html_body}</body></html>"""
+    </style></head><body><div style="position:relative;width:{w}px;height:{h}px;overflow:hidden">{html_body}</div></body></html>"""
     hp = os.path.join(TMP, name + ".html")
     out = os.path.join(TMP, name + ".png")
     open(hp, "w", encoding="utf-8").write(page)
@@ -66,17 +66,23 @@ def timing(paras):
 
 
 def image_for(prompt, i):
+    import time
     path = os.path.join(TMP, f"img{i}.jpg")
-    try:
-        url = "https://image.pollinations.ai/prompt/" + quote(prompt + ", news photo style illustration, Sindh Pakistan, "
-                                                                     "no text, no letters, cinematic light")
-        r = requests.get(url, params={"width": 1280, "height": 720, "nologo": "true", "seed": 100 + i}, timeout=120)
-        if r.status_code == 200 and r.headers.get("content-type", "").startswith("image") and len(r.content) > 8000:
-            open(path, "wb").write(r.content)
-            return path
-        log("image fail", i, r.status_code)
-    except Exception as e:
-        log("image error", i, e)
+    url = "https://image.pollinations.ai/prompt/" + quote(prompt + ", digital illustration, Sindh Pakistan, "
+                                                                 "no text, no letters, cinematic light")
+    for attempt in range(4):  # site busy ho to thoda ruk kar dobara
+        try:
+            r = requests.get(url, params={"width": 1280, "height": 720, "nologo": "true", "seed": 100 + i + attempt},
+                             timeout=150, headers={"User-Agent": "Mozilla/5.0 NFUpdatesBot"})
+            if r.status_code == 200 and r.headers.get("content-type", "").startswith("image") and len(r.content) > 8000:
+                open(path, "wb").write(r.content)
+                log("image ok", i, "try", attempt + 1)
+                time.sleep(3)
+                return path
+            log("image fail", i, r.status_code, r.headers.get("content-type", ""), len(r.content))
+        except Exception as e:
+            log("image error", i, str(e)[:120])
+        time.sleep(8 * (attempt + 1))
     from PIL import Image, ImageDraw, ImageFilter  # na mile to saada rangeen pas-manzar
     rng = np.random.default_rng(i)
     im = Image.new("RGB", (1280, 720), tuple(int(x) for x in rng.integers(30, 90, 3)))
