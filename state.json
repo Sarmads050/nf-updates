@@ -839,7 +839,17 @@
   "03227661e5552c7f": 1792317206.5462816,
   "63ee2203bc851240": 1792317206.5464506,
   "2a1a9c16be0d5808": 1792327268.06476,
-  "4084ca8836923030": 1792327268.0650253
+  "4084ca8836923030": 1792327268.0650253,
+  "a348b38be6303c7b": 1792335064.4153836,
+  "4d323a14b1459513": 1792335064.4153864,
+  "208b97f38aadd01c": 1792335064.4153874,
+  "48d8b3cfc1deaaf0": 1792335064.4153886,
+  "41ab9088fd3052a6": 1792335064.4153893,
+  "87643f2634348c17": 1792335064.41539,
+  "be432a6761246d9b": 1792335064.4153907,
+  "d28125b326c278cb": 1792335064.4153914,
+  "5cbbbf16e36bdda7": 1792335064.4153922,
+  "639df911dd4a4bfd": 1792335064.415579
  },
  "pending": {},
  "queue": [],
@@ -925,17 +935,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110164369503839",
+ "last_post_id": "1444130002106066_122110218129503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109636363503839",
-   "title": "پاکستان ۾ وڌندڙ مهانگائي سبب عام واهپي جي شين جا اگھ مسلسل وڌي رهيا آهن جنهن سان عوام جي",
-   "t": 1792260809.3513227,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109636363503839"
-  },
   {
    "id": "1444130002106066_122109664263503839",
    "title": "عالمي مارڪيٽ ۾ لاٿ بعد پاڪستان ۾ پڻ سون جي قيمت ۾ گهٽتائي رڪارڊ ڪئي وئي آهي جنهن سان في",
@@ -1212,6 +1213,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110152561503839"
+  },
+  {
+   "id": "1444130002106066_122110218129503839",
+   "title": "ٽرائي نيشن ODI جي پهرين ميچ ۾ سلمان علي آغا جي سينچري جي مدد سان پاڪستاني ٽيم Sri Lanka",
+   "t": 1792335080.7567358,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110218129503839"
   }
  ],
  "share_sent": {
@@ -1290,8 +1300,8 @@
  },
  "cricket_news": {
   "date": "2026-10-18",
-  "count": 11,
-  "last": 1792317366.9897735
+  "count": 12,
+  "last": 1792335080.7564044
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -1305,7 +1315,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 19:41",
+  "time": "2026-10-18 19:51",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1320,8 +1330,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 31,
-  "last": 1792328494.261817
+  "count": 32,
+  "last": 1792335074.64745
  },
  "perf": {
   "posts": [
@@ -2296,6 +2306,12 @@
     "sec": "public_news",
     "cat": "inflation",
     "t": 1792327284
+   },
+   {
+    "id": "1444130002106066_122110218129503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792335080
    }
   ]
  },
@@ -4032,15 +4048,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 89,
-  "fail": 580,
-  "limit": 316
+  "ok": 90,
+  "fail": 601,
+  "limit": 320
  },
  "posted_heads": [
-  {
-   "h": "KE reports 1,935 power outages from excavation damage in FY26",
-   "t": 1792144922
-  },
   {
    "h": "PCB files official complaint against Umpire over Fakhar Zaman’s unfair out",
    "t": 1792146801
@@ -4356,10 +4368,14 @@
   {
    "h": "Pakistan Inflation | Petrol Price Impact | Market Price Hike - Aaj News",
    "t": 1792327284
+  },
+  {
+   "h": "Salman Ali Agha’s century powers Pakistan to 305 against Sri Lanka in Tri-Nation ODI opener",
+   "t": 1792335080
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 19:41",
+  "time": "2026-10-18 19:51",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4447,12 +4463,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 27,
-  "decoded": 27,
-  "text": 26,
+  "tried": 28,
+  "decoded": 28,
+  "text": 27,
   "story": 25
  },
- "ai_last_error": "19:41 gemini-3.1-flash-lite 402 {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your projec",
+ "ai_last_error": "19:51 gemini-3.1-flash-lite 402 {\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your projec",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
@@ -4466,10 +4482,10 @@
  },
  "img_diag": {
   "date": "2026-10-18",
-  "tried": 4,
+  "tried": 5,
   "gemini": 0,
   "pollinations": 2,
-  "skip": 2,
+  "skip": 3,
   "fail": 4,
   "last_note": "gemini gemini-2.5-flash-image 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your p"
  },
@@ -4492,14 +4508,14 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-18",
-   "ok": 13,
+   "ok": 14,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-18",
-   "ok": 12,
+   "ok": 13,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -4507,7 +4523,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-18",
-   "ok": 13,
+   "ok": 14,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -4515,35 +4531,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-18",
-   "ok": 13,
+   "ok": 14,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-18",
-   "ok": 13,
+   "ok": 14,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-18",
-   "ok": 13,
+   "ok": 14,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-18",
-   "ok": 13,
+   "ok": 14,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-18",
-   "ok": 13,
+   "ok": 14,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -4553,7 +4569,7 @@
   "last": "",
   "idx": 0
  },
- "ai_last_model": "google/gemma-4-26b-a4b-it:free",
+ "ai_last_model": "google/gemma-4-31b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
