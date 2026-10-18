@@ -245,7 +245,7 @@ def handle_message(m):
     cmd = text.split()[0].lower() if text.startswith("/") else ""
 
     if owner and cmd in ("/status", "/start"):
-        tg_send(f"✅ System chal raha hai\nAaj ki posts: {S['daily']['count']}\n"
+        tg_send(f"✅ System chal raha hai\nAaj district queue ki posts: {S['daily']['count']}\n"
                 f"Queue: {len(S['queue'])} | Review baqi: {len(S['pending'])}\n"
                 f"Jobs jama: {len(S['jobs'])} | Followers: {S.get('followers')}\n"
                 f"Sahafi: {len(contributors)}\n"
@@ -3109,17 +3109,27 @@ def send_report():
     if S.get("token_check", {}).get("time", "")[:10] != today():  # din mein ek dafa token check
         check_token()
     g = STATS.get
-    lines = ["📋 Run report" + (" (TEST)" if DRY_RUN else ""),
-             f"Khabrein mili: {g('news_found', 0)} (pehle dekhi hui: {g('news_old', 0)})",
-             f"✅ Post hui: {g('posted', 0)} | Queue mein (agle runs): {len(S['queue'])}",
-             f"🟠 Review ke liye bheji: {g('review', 0)}",
-             f"⛔ Pabandi (mazhab/gaali/fauj): {g('blocked', 0)}",
-             f"➖ District ki nahi: {g('irrelevant', 0)} | Ghair-bharosemand website: {g('untrusted', 0)}",
-             f"💼 Naukriyan jama: {len(S['jobs'])} | Aaj ki posts: {S['daily']['count']}"]
+    ap = S.get("all_posts", {})
+    total = ap.get("count", 0) if ap.get("date") == today() else 0
+    rc = region_count()
+
+    def cnt(key):
+        d = S.get(key, {})
+        return d.get("count", 0) if d.get("date") == today() else 0
+    lines = ["📋 Run report " + now().strftime("%I:%M %p") + (" (TEST)" if DRY_RUN else ""),
+             f"✅ Is run mein post hui: {g('posted', 0)}",
+             f"📊 Aaj kul posts: {total}/{CONFIG.get('safety', {}).get('max_total_per_day', 50)}",
+             f"   📍 District: {rc['district']} | Sindh: {rc['sindh']} | Pakistan: {rc['pakistan']}",
+             f"   Awami: {cnt('public_news')} | Zarat: {cnt('agri_news')} | Cricket: {cnt('cricket_news')} | "
+             f"Sindh alag: {cnt('sindh_single')} | Kawish: {cnt('kawish_post')}",
+             f"⏳ Qatar mein: district {len(S['queue'])} + Kawish {len(S.get('kawish_queue', []))} | "
+             f"🟠 Review baqi: {len(S['pending'])}",
+             f"🔎 District search: {g('news_found', 0)} khabrein mili (pehle dekhi hui {g('news_old', 0)}, "
+             f"district ki nahi {g('irrelevant', 0)}, pabandi {g('blocked', 0)})"]
     if g("fb_error"):
         lines.append("⚠️ Facebook error: " + g("fb_error_text", ""))
-    if not g("news_found"):
-        lines.append("Is waqt district ki koi nayi khabar online nahi mili.")
+    if STATS.get("errors"):
+        lines.append("⚠️ Errors: " + ", ".join(STATS["errors"]))
     tg_send("\n".join(lines))
 
 
