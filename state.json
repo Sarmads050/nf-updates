@@ -827,7 +827,17 @@
   "9074c0608d615883": 1792315880.5971837,
   "4d48f3404ae94124": 1792315880.5971868,
   "8461f52daceaebc3": 1792315880.5973833,
-  "f158f3215d393405": 1792316449.1248386
+  "f158f3215d393405": 1792316449.1248386,
+  "7466415665ef6e91": 1792317206.5462732,
+  "49cf53cc1ff55874": 1792317206.5462751,
+  "9754e5f3dc3a2c12": 1792317206.5462763,
+  "0db02dc69fd96dd3": 1792317206.546277,
+  "430164566657a5f1": 1792317206.546278,
+  "4d4250d381062456": 1792317206.5462785,
+  "b7b9ba8d3a8a5947": 1792317206.5462792,
+  "4e18be12178c8199": 1792317206.5462801,
+  "03227661e5552c7f": 1792317206.5462816,
+  "63ee2203bc851240": 1792317206.5464506
  },
  "pending": {},
  "queue": [],
@@ -845,7 +855,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-flash-latest",
+ "gemini_model": "gemini-3.7-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -913,18 +923,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110065237503839",
+ "last_post_id": "1444130002106066_122110073883503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109570237503839",
-   "title": "شاهه عبداللطيف يونيورسٽي پاران نوشهرو فيروز ۽ مورو سميت لاڳاپيل ڪاليجن جون سوين ايل ايل",
-   "t": 1792255295.1616175,
-   "tags": [
-    "general",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109570237503839"
-  },
   {
    "id": "1444130002106066_122109591915503839",
    "title": "ڊرگ ريگيوليٽري اٿارٽي پاڪستان ۾ نقلي ۽ غير معياري دوائن جي روڪٿام لاءِ سمورين دوائن تي 2D",
@@ -1201,6 +1201,15 @@
     "jobs"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110065237503839"
+  },
+  {
+   "id": "1444130002106066_122110073883503839",
+   "title": "پاڪستان ڪرڪيٽ بورڊ قومي ٽيم جي وڪيٽ ڪيپر بيٽر محمد رضوان کي فٽ قرار ڏيندي ڊوميسٽڪ ڪرڪيٽ",
+   "t": 1792317366.9900386,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110073883503839"
   }
  ],
  "share_sent": {
@@ -1270,8 +1279,8 @@
  },
  "cricket_news": {
   "date": "2026-10-18",
-  "count": 10,
-  "last": 1792313520.2689393
+  "count": 11,
+  "last": 1792317366.9897735
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -1285,7 +1294,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 14:40",
+  "time": "2026-10-18 14:56",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1300,8 +1309,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 28,
-  "last": 1792315905.1378512
+  "count": 29,
+  "last": 1792317360.072674
  },
  "perf": {
   "posts": [
@@ -2264,6 +2273,12 @@
     "sec": "public_news",
     "cat": "education_jobs",
     "t": 1792315915
+   },
+   {
+    "id": "1444130002106066_122110073883503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792317366
    }
   ]
  },
@@ -3920,15 +3935,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 80,
+  "ok": 83,
   "fail": 7,
-  "limit": 223
+  "limit": 227
  },
  "posted_heads": [
-  {
-   "h": "Currency exchange rates in Pakistan today – 16 October 2026",
-   "t": 1792142547
-  },
   {
    "h": "Babar Azam celebrates 32nd birthday with family and close friends",
    "t": 1792143846
@@ -4244,10 +4255,14 @@
   {
    "h": "Several KP schools declared dilapidated after deadly Peshawar school collapse",
    "t": 1792315916
+  },
+  {
+   "h": "Mohammad Rizwan cleared to play domestic cricket",
+   "t": 1792317367
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 14:40",
+  "time": "2026-10-18 14:56",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4335,12 +4350,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 25,
-  "decoded": 25,
-  "text": 24,
-  "story": 24
+  "tried": 26,
+  "decoded": 26,
+  "text": 25,
+  "story": 25
  },
- "ai_last_error": "14:31 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "14:54 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
@@ -4354,12 +4369,12 @@
  },
  "img_diag": {
   "date": "2026-10-18",
-  "tried": 2,
+  "tried": 3,
   "gemini": 0,
-  "pollinations": 1,
+  "pollinations": 2,
   "skip": 1,
-  "fail": 3,
-  "last_note": "gemini gemini-3-pro-image 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your p"
+  "fail": 4,
+  "last_note": "gemini gemini-2.5-flash-image 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your p"
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -4367,6 +4382,7 @@
    "gemini-2.5-flash-image",
    "gemini-3-pro-image-preview",
    "gemini-3-pro-image"
-  ]
+  ],
+  "quota_off": "2026-10-18"
  }
 }
