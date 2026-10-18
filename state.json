@@ -765,7 +765,13 @@
   "ed2091aac9943cfa": 1792294257.3490148,
   "1b70111c548f66af": 1792294257.3490152,
   "68d92f609c2e0ce9": 1792294257.349016,
-  "c04db5f1e761fb69": 1792294257.3492074
+  "c04db5f1e761fb69": 1792294257.3492074,
+  "de6792ef9203a417": 1792295545.9379241,
+  "71f59b6120d2baaf": 1792295545.9379263,
+  "c88a651cf8e1f7b6": 1792295545.9379277,
+  "aa148d4f7823771c": 1792295545.937929,
+  "b8fbed0261a02b42": 1792295545.9379294,
+  "9b2a249c277f011c": 1792295545.9381263
  },
  "pending": {},
  "queue": [],
@@ -793,7 +799,7 @@
   "last_week": "",
   "last_check": "2026-10-18"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.5-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -861,17 +867,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122109932907503839",
+ "last_post_id": "1444130002106066_122109939531503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109187617503839",
-   "title": "پاڪستان ڪرڪيٽ بورڊ قومي رانديگرن لاءِ سينٽرل ڪانٽريڪٽس جي اعلان ۾ دير ڪري ڇڏي آهي، جنهن",
-   "t": 1792224704.2372024,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109187617503839"
-  },
   {
    "id": "1444130002106066_122109209181503839",
    "title": "پاڪستان ۾ ڊئري شعبي جي سڌارن ذريعي برآمدات ٻه ارب ڊالر تائين پهچائڻ جو منصوبو تيار ڪيو",
@@ -1145,6 +1142,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122109932907503839"
+  },
+  {
+   "id": "1444130002106066_122109939531503839",
+   "title": "پاڪستان ۽ شري لنڪا جي ٽي 20 سيريز بابت پاڪستاني ڪرڪيٽ ٽيم جا رڪارڊ ۽ انگ اکر سامھون اچي",
+   "t": 1792295589.2564998,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122109939531503839"
   }
  ],
  "share_sent": {
@@ -1210,8 +1216,8 @@
  },
  "cricket_news": {
   "date": "2026-10-18",
-  "count": 4,
-  "last": 1792286478.6872394
+  "count": 5,
+  "last": 1792295589.2561178
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -1225,7 +1231,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-18 08:40",
+  "time": "2026-10-18 08:53",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1240,8 +1246,8 @@
  },
  "all_posts": {
   "date": "2026-10-18",
-  "count": 15,
-  "last": 1792294273.379141
+  "count": 16,
+  "last": 1792295579.8212168
  },
  "perf": {
   "posts": [
@@ -2132,6 +2138,12 @@
     "sec": "public_news",
     "cat": "dollar_gold_business",
     "t": 1792294280
+   },
+   {
+    "id": "1444130002106066_122109939531503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792295589
    }
   ]
  },
@@ -3660,15 +3672,11 @@
  },
  "ai_usage": {
   "date": "2026-10-18",
-  "ok": 44,
-  "fail": 3,
-  "limit": 141
+  "ok": 46,
+  "fail": 4,
+  "limit": 147
  },
  "posted_heads": [
-  {
-   "h": "1QFY27 textile exports grow 5.26pc YoY",
-   "t": 1792120873
-  },
   {
    "h": "PTA shares tips to improve calls, internet quality",
    "t": 1792124475
@@ -3984,10 +3992,14 @@
   {
    "h": "Economy more shock-resistant, says SBP chief",
    "t": 1792294280
+  },
+  {
+   "h": "Sri Lanka in Pakistan T20I Series, 2026/27 - Pakistan Cricket Team Records & Stats",
+   "t": 1792295589
   }
  ],
  "last_errors": {
-  "time": "2026-10-18 08:40",
+  "time": "2026-10-18 08:53",
   "steps": []
  },
  "roundup_am": "2026-10-18",
@@ -4075,12 +4087,12 @@
  },
  "article_diag": {
   "date": "2026-10-18",
-  "tried": 13,
-  "decoded": 13,
-  "text": 13,
-  "story": 13
+  "tried": 14,
+  "decoded": 14,
+  "text": 14,
+  "story": 14
  },
- "ai_last_error": "08:30 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "08:52 gemini-3.6-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-18",
   "models": [
