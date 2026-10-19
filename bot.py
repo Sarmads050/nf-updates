@@ -2968,7 +2968,7 @@ def handle_kawish():
         if time.time() - st.get("last_try", 0) < cfg.get("check_minutes", 30) * 60:
             return
         st["last_try"] = time.time()
-        back = [b for b in (0, 1) if (now() - dt.timedelta(days=b)).strftime("%d-%m-%Y") not in done]
+        back = [0] if now().strftime("%d-%m-%Y") not in done else []  # sirf aaj ka edition (purani khabar nahi)
         if not back:
             return
         pages, pdate = kawish_pages(tuple(back))
