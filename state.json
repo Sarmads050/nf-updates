@@ -1465,18 +1465,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110778703503839",
+ "last_post_id": "1444130002106066_122110785879503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110288815503839",
-   "title": "ڪسان اتحاد جي صدر ملڪ ۾ زرعي بحران کي نظر ۾ رکندي حڪومت کان پاڪستان ۾ فوري طور تي زرعي",
-   "t": 1792340504.4838617,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110288815503839"
-  },
   {
    "id": "1444130002106066_122110340871503839",
    "title": "پڊعيدن جي صوفي بزرگ حضرت پير جمن شاھ جو 111ھون عرس مبارڪ ملھايو پيو وڃي ميلي ۾ پري پري",
@@ -1770,6 +1760,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110778703503839"
+  },
+  {
+   "id": "1444130002106066_122110785879503839",
+   "title": "حيدرآباد پريس ڪلب ۾ درجن واري قلم زن رهائشي اسڪيم تي نوٽيس، تصديق نه ٿي سگهي، رويو ڪاني",
+   "t": 1792425870.5731366,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110785879503839"
   }
  ],
  "share_sent": {
@@ -1876,7 +1878,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 20:51",
+  "time": "2026-10-19 21:04",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1891,8 +1893,8 @@
  },
  "all_posts": {
   "date": "2026-10-19",
-  "count": 32,
-  "last": 1792424742.4421496
+  "count": 33,
+  "last": 1792425866.1595113
  },
  "perf": {
   "posts": [
@@ -3059,6 +3061,12 @@
     "sec": "kawish",
     "cat": "sindh",
     "t": 1792424747
+   },
+   {
+    "id": "1444130002106066_122110785879503839",
+    "sec": "kawish",
+    "cat": "sindh",
+    "t": 1792425870
    }
   ]
  },
@@ -5075,9 +5083,9 @@
  },
  "ai_usage": {
   "date": "2026-10-19",
-  "ok": 129,
+  "ok": 130,
   "fail": 0,
-  "limit": 539
+  "limit": 541
  },
  "posted_heads": [
   {
@@ -5419,10 +5427,14 @@
   {
    "h": "آمريڪا طرفان هدايتون، پاڪستان اندرون ملڪ دهشتگردي ختم ڪرڻ لاءِ قدم کڻي رهيو آهي",
    "t": 1792424747
+  },
+  {
+   "h": "حيدرآباد پريس ڪلب ۾ درجن واري قلم زن رهائشي اسڪيم تي نوٽيس، تصديق نه ٿي سگهي، رويو ڪاني کان رڪارڊ ظاهر",
+   "t": 1792425870
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 20:51",
+  "time": "2026-10-19 21:04",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -5530,7 +5542,7 @@
   "text": 16,
   "story": 13
  },
- "ai_last_error": "20:40 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "21:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-19",
   "models": [
@@ -5544,12 +5556,12 @@
  },
  "img_diag": {
   "date": "2026-10-19",
-  "tried": 29,
+  "tried": 30,
   "gemini": 0,
   "pollinations": 15,
   "skip": 8,
-  "fail": 17,
-  "last_note": "pollinations HTTPSConnectionPool(host='image.pollinations.ai', port=443): Read timed out. (read timeout=90)",
+  "fail": 20,
+  "last_note": "pollinations 402 {\"status\":402,\"success\":false,\"error\":{\"code\":\"FREE_LIMIT\",\"message\":\"Free limit reached: 1 image every 45 seconds per I",
   "mismatch": 6
  },
  "gemini_img": {
@@ -5571,7 +5583,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 126,
+   "ok": 127,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -5579,7 +5591,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 121,
+   "ok": 122,
    "fail": 8,
    "items": 10,
    "fail_streak": 0,
@@ -5587,7 +5599,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 122,
+   "ok": 123,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -5595,35 +5607,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 129,
+   "ok": 130,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 129,
+   "ok": 130,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 129,
+   "ok": 130,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 129,
+   "ok": 130,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 129,
+   "ok": 130,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6279,18 +6291,18 @@
  "region_posts": {
   "date": "2026-10-19",
   "district": 6,
-  "sindh": 10,
+  "sindh": 11,
   "pakistan": 14
  },
  "report_acc": {
-  "posted": 3,
-  "found": 54,
-  "old": 54,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-19 20",
+ "report_hour": "2026-10-19 21",
  "kawish_upload_times": {
   "_date": "2026-10-19",
   "19-10-2026": "status 404",
@@ -6422,6 +6434,14 @@
    "t": 1792424747,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "a9b689160c26d4c3",
+   "h": "حيدرآباد پريس ڪلب ۾ درجن واري قلم زن رهائشي اسڪيم تي نوٽيس، تصديق نه ٿي سگهي، رويو ڪاني کان رڪارڊ ظاهر",
+   "x": "حيدرآباد ۾ درجن واري قلم زن رهائشي اسڪيم جي معاملن تي نوٽيس ورتو ويو آهي. اسڪيم جي حوالي سان کاتي پاران پڌرنامو جاري ڪيو ويو آهي جنهن ۾ دعويٰ ڪئي وئي آهي ته سمورا دستاويز چيڪ ڪيا پيا وڃن. غيرقانوني اڏاوتن خلاف پڻ ڪارروائي ڪئي ويندي!",
+   "t": 1792425870,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -6431,18 +6451,6 @@
   ]
  },
  "kawish_queue": [
-  {
-   "key": "a9b689160c26d4c3",
-   "page": 1,
-   "head": "حيدرآباد پريس ڪلب ۾ درجن واري قلم زن رهائشي اسڪيم تي نوٽيس، تصديق نه ٿي سگهي، رويو ڪاني کان رڪارڊ ظاهر",
-   "summary": "حيدرآباد ۾ درجن واري قلم زن رهائشي اسڪيم جي معاملن تي نوٽيس ورتو ويو آهي. اسڪيم جي حوالي سان کاتي پاران پڌرنامو جاري ڪيو ويو آهي جنهن ۾ دعويٰ ڪئي وئي آهي ته سمورا دستاويز چيڪ ڪيا پيا وڃن. غيرقانوني اڏاوتن خلاف پڻ ڪارروائي ڪئي ويندي.",
-   "district": false,
-   "sensitive": false,
-   "confidence": "high",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-10-19&pageno=1",
-   "message": "📰 حيدرآباد پريس ڪلب ۾ درجن واري قلم زن رهائشي اسڪيم تي نوٽيس، تصديق نه ٿي سگهي، رويو ڪاني کان رڪارڊ ظاهر\n\nحيدرآباد ۾ درجن واري قلم زن رهائشي اسڪيم جي معاملن تي نوٽيس ورتو ويو آهي. اسڪيم جي حوالي سان کاتي پاران پڌرنامو جاري ڪيو ويو آهي جنهن ۾ دعويٰ ڪئي وئي آهي ته سمورا دستاويز چيڪ ڪيا پيا وڃن. غيرقانوني اڏاوتن خلاف پڻ ڪارروائي ڪئي ويندي!\n\n📌 ذريعو: روزاني ڪاوش (صفحو 1)\n\n📲 نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFeroze #Padidan #نوشهروفيروز #پڊعيدن",
-   "added_day": "2026-10-19"
-  },
   {
    "key": "5c49b3fe8f16950f",
    "page": 2,
@@ -6638,8 +6646,8 @@
  ],
  "kawish_post": {
   "date": "2026-10-19",
-  "count": 5,
-  "last": 1792424747.404896
+  "count": 6,
+  "last": 1792425870.5729992
  },
  "tg_debug": [
   {
@@ -6660,6 +6668,13 @@
   },
   {
    "t": "10-19 20:51",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-19 21:00",
    "ok": true,
    "n": 0,
    "ids": [],
