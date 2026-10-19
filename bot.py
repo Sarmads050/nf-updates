@@ -1800,10 +1800,12 @@ def image_prompt_for(title, body):
 
 def image_matches(img_bytes, subject, title):
     """Bani hui tasveer khabar se milti hai? AI aankh se check. Check na ho sake to None."""
-    q = ("This picture will be printed on a news card. News headline: " + title + "\nThe picture must clearly show: "
-         + subject + ".\nLook at the picture. Does it clearly and mainly show that subject in a way that fits the "
-         "news (not an unrelated scene, not a woman/fashion/romantic image, no visible text)? Answer strictly.\n"
-         "Return JSON: {\"match\": bool, \"shows\": string}")
+    q = ("This picture will be printed on a news card. News headline: " + title + "\nIdeal subject: " + subject +
+         ".\nLook at the picture. match=true if an ordinary reader would clearly connect this picture with the news "
+         "topic: its main thing is visible (it does NOT need every object of the ideal subject; e.g. a wheat field is "
+         "fine for wheat-price news, a fuel pump or petrol station for fuel-price news). match=false if it shows an "
+         "unrelated scene, a woman/fashion/romantic image, a sunset/landscape with no link to the topic, distorted "
+         "nonsense, or visible text.\nReturn JSON: {\"match\": bool, \"shows\": string}")
     res = None
     if GEMINI_KEY:
         res = _ask_gemini(q, image=img_bytes, mime="image/jpeg")
