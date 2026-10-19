@@ -2880,6 +2880,30 @@ def handle_public_news():
                icons=PUBLIC_ICONS)
 
 
+def probe_kawish_times():
+    """Kawish e-paper kab upload hota hai: pichle dinon ke safha 1 ka 'Last-Modified' (ek dafa)."""
+    days = CONFIG.get("kawish", {}).get("probe_days", 0)
+    st = S.setdefault("kawish_upload_times", {})
+    if not days or st.get("_date") == today():
+        return
+    st["_date"] = today()
+    base = CONFIG.get("kawish", {}).get("base", "http://www.thekawish.com/beta/images")
+    from email.utils import parsedate_to_datetime
+    for back in range(days):
+        d = now() - dt.timedelta(days=back)
+        url = f"{base}/{d.year}/{d.strftime('%B')}/{d.strftime('%d-%m-%Y')}/01.jpg"
+        try:
+            r = requests.head(url, headers=UA, timeout=20, allow_redirects=True)
+            lm = r.headers.get("Last-Modified")
+            if r.status_code == 200 and lm:
+                t = parsedate_to_datetime(lm).astimezone(dt.timezone(dt.timedelta(hours=5)))
+                st[d.strftime("%d-%m-%Y")] = t.strftime("%Y-%m-%d %H:%M PKT")
+            else:
+                st[d.strftime("%d-%m-%Y")] = f"status {r.status_code}"
+        except Exception as e:
+            st[d.strftime("%d-%m-%Y")] = "error " + str(e)[:60]
+
+
 def probe_sources():
     """Naye source ki jaanch (din mein ek dafa): feed / WordPress / homepage par Sindhi text hai ya nahi."""
     targets = CONFIG.get("probe_sources", [])
@@ -3195,7 +3219,8 @@ def main():
             alert(f"System mein error aaya ({fn.__name__}):\n" + err[-600:])
 
     for fn in (process_telegram, expire_old, handle_news, handle_jobs, publish_queue, handle_promo, handle_daily,
-               handle_engagement, handle_culture, handle_roundup, handle_trends, probe_sources, handle_kawish):
+               handle_engagement, handle_culture, handle_roundup, handle_trends, probe_sources, handle_kawish,
+               probe_kawish_times):
         step(fn)
     sections = {"sindh_single": handle_sindh_single, "cricket_news": handle_cricket_news,
                 "agri_news": handle_agri_news, "public_news": handle_public_news}
