@@ -1701,7 +1701,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 00:10",
+  "time": "2026-10-20 00:20",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -3037,7 +3037,7 @@
   "last": 1792417948.7383332
  },
  "trends": {
-  "last": 1792426254.810417,
+  "last": 1792437655.6301744,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -5110,15 +5110,79 @@
     "t": 1792426255,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "saudi envoy meets asim munir",
+    "traffic": 200,
+    "news": "President Zardari receives credentials of French, Saudi ambassadors-designate",
+    "t": 1792437656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "spurs vs coventry",
+    "traffic": 500,
+    "news": "MFT 10 – 1000 Betting Challenge: Corner count for Spurs as Coventry arrive for Monday night football.",
+    "t": 1792437656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "al-hilal vs al-hazem",
+    "traffic": 500,
+    "news": "Getafe vs. Rayo (Oct 19, 2026) Team Stats",
+    "t": 1792437656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "trabzonspor vs beşiktaş",
+    "traffic": 200,
+    "news": "Thomas Reis derbi öncesi eksikler için konuştu",
+    "t": 1792437656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "trending",
+    "traffic": 100,
+    "news": "Stephen Jones' Delusional Comments After Cowboys' Week 6 Loss Leave No Hope For Change",
+    "t": 1792437656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "سعودی عرب",
+    "traffic": 100,
+    "news": "",
+    "t": 1792437656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "josh hazlewood",
+    "traffic": 200,
+    "news": "South Africa vs Australia: Hosts' batting issues exposed again as Scott Boland takes four",
+    "t": 1792437656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "mahrang baloch",
+    "traffic": 100,
+    "news": "SHC rejects state appeal challenging Mahrang's acquittal in terrorism, sedition case",
+    "t": 1792437656,
+    "cat": "none",
+    "sindh": true
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 4,
+  "ok": 5,
   "fail": 0,
-  "limit": 4
+  "limit": 6
  },
  "posted_heads": [
   {
@@ -5443,7 +5507,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 00:10",
+  "time": "2026-10-20 00:20",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -5551,7 +5615,7 @@
   "text": 16,
   "story": 13
  },
- "ai_last_error": "00:02 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "00:20 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -5592,7 +5656,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -5600,7 +5664,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -5608,7 +5672,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -5616,35 +5680,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6305,8 +6369,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 11,
-  "old": 11,
+  "found": 21,
+  "old": 21,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -6839,6 +6903,13 @@
   },
   {
    "t": "10-20 00:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 00:20",
    "ok": true,
    "n": 0,
    "ids": [],
