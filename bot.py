@@ -910,7 +910,7 @@ def ask_gemini(prompt, image=None, mime="image/jpeg"):
 
 def gemini_off_tag():
     """Aaj ki tareekh + key ka nishan: nayi key lagte hi Gemini foran dobara aazmaya jaye."""
-    return today() + "|" + hashlib.sha256(GEMINI_KEY.encode()).hexdigest()[:8]
+    return "v2|" + today() + "|" + hashlib.sha256(GEMINI_KEY.encode()).hexdigest()[:8]
 
 
 def _ask_gemini(prompt, image=None, mime="image/jpeg"):
@@ -951,7 +951,7 @@ def _ask_gemini(prompt, image=None, mime="image/jpeg"):
                     return json.loads(r.json()["candidates"][0]["content"]["parts"][0]["text"])
                 ai_count("fail" if r.status_code != 429 else "limit")
                 S["ai_last_error"] = f"{now().strftime('%H:%M')} {model} {r.status_code} {r.text[:160]}"
-                if r.status_code in (402, 403) or "credits" in r.text.lower() or "billing" in r.text.lower():
+                if r.status_code == 402 or "credits are depleted" in r.text.lower() or "prepayment" in r.text.lower():
                     S["gemini_off"] = gemini_off_tag()  # paisa/billing ka masla: aaj isi key se dobara mat bhejo
                     if S.get("gemini_off_alert") != today():
                         S["gemini_off_alert"] = today()
