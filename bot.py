@@ -1873,11 +1873,11 @@ def news_image(title, body):
             try:
                 url = "https://image.pollinations.ai/prompt/" + quote_plus(full)
                 r = requests.get(url, timeout=90, headers=UA, params={"width": 1080, "height": 640, "nologo": "true",
-                                                                     "model": cfg.get("model", "flux"),
+                                                                     **({"model": cfg["model"]} if cfg.get("model") else {}),
                                                                      "seed": random.randint(1, 99999)})
                 if not (r.status_code == 200 and r.headers.get("content-type", "").startswith("image")
                         and len(r.content) > 8000):
-                    _img_diag("fail", f"pollinations {r.status_code} {r.headers.get('content-type', '')} {len(r.content)}")
+                    _img_diag("fail", f"pollinations {r.status_code} {r.text[:120] if len(r.content) < 2000 else len(r.content)}")
                     continue
                 ok = image_matches(r.content, subject, title) if cfg.get("verify", True) else True
                 if ok is False:
