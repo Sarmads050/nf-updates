@@ -9,6 +9,9 @@ on:
       dry_run:
         description: "true = sirf Telegram par namoona, false = Facebook par Reel"
         default: "true"
+      force_panel:
+        description: "Test: is number ki khabar par tasveer ki jagah likhi khabar wala panel (0/1/2)"
+        default: ""
 
 permissions:
   contents: write
@@ -36,6 +39,7 @@ jobs:
           TZ: Asia/Karachi
           REEL_DRY: ${{ github.event.inputs.dry_run || 'true' }}
           REEL_SLOT: ${{ github.event.inputs.slot }}
+          REEL_FORCE_PANEL: ${{ github.event.inputs.force_panel }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}

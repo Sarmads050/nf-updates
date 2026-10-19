@@ -170,14 +170,71 @@ def fallback_bg(i):
     return p
 
 
-def story_image(s, i):
+_COVER = []
+
+
+def page_cover():
+    """Page ki cover photo (Facebook se, ek dafa); na mile to None."""
+    if _COVER:
+        return _COVER[0]
+    path = None
     try:
-        p = bot.news_image(s["h"], s["x"][:600], size=(W, IMG_H))
+        pid, tok = os.getenv("FB_PAGE_ID", ""), os.getenv("FB_PAGE_TOKEN", "")
+        G = f"https://graph.facebook.com/{bot.CONFIG.get('graph_version', 'v23.0')}"
+        src = (requests.get(f"{G}/{pid}", params={"fields": "cover", "access_token": tok}, timeout=30).json()
+               .get("cover") or {}).get("source")
+        if src:
+            r = requests.get(src, timeout=60)
+            if r.status_code == 200 and len(r.content) > 5000:
+                path = os.path.join(nv.TMP, "cover.jpg")
+                open(path, "wb").write(r.content)
     except Exception as e:
-        log("image error", e)
-        p = None
-    log("image", i, "ok" if p else "fallback")
-    return p or fallback_bg(i)
+        log("cover error", e)
+    if not path and os.path.exists(os.path.join(HERE, "assets", "cover.jpg")):
+        path = os.path.join(HERE, "assets", "cover.jpg")
+    _COVER.append(path)
+    log("cover", "ok" if path else "nahi mila")
+    return path
+
+
+def text_panel(it, i):
+    """Tasveer na bane to: page ka cover halka (transparent) pas-manzar mein, oopar khabar Sindhi mein likhi hui."""
+    cover = page_cover()
+    bg = (f'<img src="file://{cover}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;'
+          f'opacity:.30;filter:blur(1px)">') if cover else ""
+    logo = "file://" + os.path.join(HERE, "assets", "logo.png")
+    body = E(it.get("say") or it.get("line") or "")
+    out = nv.png(f"""
+      <div style="position:absolute;inset:0;background:linear-gradient(160deg,#14213D 0%,#1f2f57 60%,#5a1620 100%)"></div>
+      {bg}
+      <div style="position:absolute;inset:0;background:linear-gradient(to bottom,rgba(20,33,61,.35),rgba(20,33,61,.55))"></div>
+      <img src="{logo}" style="position:absolute;top:34px;right:40px;width:110px;height:110px;border-radius:50%;
+        border:4px solid #F4EFE6;opacity:.95">
+      <div style="position:absolute;left:60px;right:60px;top:170px;bottom:60px;direction:rtl;display:flex;
+        flex-direction:column;justify-content:center;gap:26px">
+        <div style="width:120px;height:8px;background:#B3261E;border-radius:4px"></div>
+        <div style="font-size:54px;font-weight:700;line-height:1.75;text-shadow:0 3px 10px rgba(0,0,0,.6);
+          display:-webkit-box;-webkit-line-clamp:7;-webkit-box-orient:vertical;overflow:hidden">{body}</div>
+      </div>""", W, IMG_H, f"r_panel{i}", False)
+    return out
+
+
+def story_image(s, it, i):
+    p = None
+    if not (DRY and os.getenv("REEL_FORCE_PANEL", "") == str(i)):
+        try:
+            p = bot.news_image(s["h"], s["x"][:600], size=(W, IMG_H))
+        except Exception as e:
+            log("image error", e)
+    if p:
+        log("image", i, "ok")
+        return p, True
+    log("image", i, "panel (Sindhi text + cover)")
+    try:
+        return text_panel(it, i), False
+    except Exception as e:
+        log("panel error", e)
+        return fallback_bg(i), False
 
 
 # ------------------------------------------------------------------ screen
@@ -261,6 +318,7 @@ def run(cmd):
 
 
 def build_video(items, imgs, audio, total, spans, now):
+    """imgs: [(path, zoom)] — asal tasveer par halka zoom, likhi khabar wala panel seedha (padhne mein aasan)."""
     n = len(items)
     intro, outro, frame, tick, tw, texts = screens(items, now, n)
     # scenes: intro (para 0), har khabar (para 1..n), outro (para n+1 tak aakhir)
@@ -275,10 +333,17 @@ def build_video(items, imgs, audio, total, spans, now):
                  "-vf", f"scale={W}:{H},format=yuv420p", "-r", str(FPS), "-c:v", "libx264", "-preset", "veryfast", seg])
         else:
             frames = int(d * FPS) + 1
+            path, zoom = imgs[kind]
+            if not zoom:
+                run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"color=c=0x14213D:s={W}x{H}:d={d:.3f}:r={FPS}", "-loop", "1",
+                     "-i", path, "-filter_complex", f"[1:v]scale={W}:{IMG_H}[z];[0:v][z]overlay=0:{IMG_Y}:shortest=1,format=yuv420p",
+                     "-frames:v", str(frames), "-c:v", "libx264", "-preset", "veryfast", seg])
+                segs.append(seg)
+                continue
             fc = (f"[1:v]scale={W * 2}:{IMG_H * 2}:force_original_aspect_ratio=increase,crop={W * 2}:{IMG_H * 2},"
                   f"zoompan=z='min(zoom+0.0008,1.2)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={frames}:"
                   f"s={W}x{IMG_H}:fps={FPS},eq=saturation=1.08[z];[0:v][z]overlay=0:{IMG_Y},format=yuv420p")
-            run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"color=c=0x14213D:s={W}x{H}:d={d:.3f}:r={FPS}", "-i", imgs[kind],
+            run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"color=c=0x14213D:s={W}x{H}:d={d:.3f}:r={FPS}", "-i", path,
                  "-filter_complex", fc, "-frames:v", str(frames), "-c:v", "libx264", "-preset", "veryfast", seg])
         segs.append(seg)
     lst = os.path.join(nv.TMP, "rlist.txt")
@@ -373,7 +438,7 @@ def main():
     log("audio seconds", round(total, 1))
     if total > 89:
         raise RuntimeError(f"reel lambi ho gayi ({total:.0f}s)")
-    imgs = [story_image(s, i) for i, s in enumerate(stories)]
+    imgs = [story_image(s, it, i) for i, (s, it) in enumerate(zip(stories, items))]
     out = build_video(items, imgs, audio, total, spans, now)
     log("video", out, round(os.path.getsize(out) / 1e6, 1), "MB")
     desc = (f"📺 {slot_name(now)} | {date_sd(now)}\n\n" +
