@@ -1,0 +1,31 @@
+name: Telegram message
+
+on:
+  workflow_dispatch:
+    inputs:
+      message:
+        description: "Telegram par bhejne wala message"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Send
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MSG: ${{ github.event.inputs.message }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          msg = os.environ["MSG"][:4000]
+          data = json.dumps({"chat_id": os.environ["CHAT"], "text": msg, "disable_web_page_preview": True}).encode()
+          req = urllib.request.Request(f"https://api.telegram.org/bot{os.environ['TOKEN']}/sendMessage", data=data,
+                                       headers={"Content-Type": "application/json"})
+          print(urllib.request.urlopen(req, timeout=30).status)
+          PY
