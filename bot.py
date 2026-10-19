@@ -157,10 +157,18 @@ def process_telegram():
     """Review buttons (✅/❌) aur /status command parhna."""
     if not (TG_TOKEN and TG_CHAT):
         return
-    res = tg("getUpdates", offset=S["tg_offset"], timeout=0,
-             allowed_updates=["callback_query", "message"])
-    for u in res.get("result", []):
-        S["tg_offset"] = u["update_id"] + 1
+    # Offset ke bina: Telegram ke saare unconfirmed updates (update_id kabhi chhota bhi ho jata hai, to offset se
+    # wo chupchap mit jate the). Jo pehle handle ho chuka (tg_done), wo dobara nahi.
+    res = tg("getUpdates", timeout=0, allowed_updates=["callback_query", "message"])
+    done = S.setdefault("tg_done", [])
+    items = res.get("result", [])
+    if items:
+        S["tg_offset"] = max(u["update_id"] for u in items) + 1
+    for u in items:
+        if u["update_id"] in done:
+            continue
+        done.append(u["update_id"])
+        S["tg_done"] = done = done[-300:]
         cq = u.get("callback_query")
         if cq:
             msg = cq.get("message") or {}
@@ -188,6 +196,8 @@ def process_telegram():
                 handle_message(m)
             except Exception:
                 log("message error:", traceback.format_exc()[-300:])
+    if items:  # Telegram ko batao ke ye parh liye (agle run mein dobara na aayein)
+        tg("getUpdates", offset=S["tg_offset"], timeout=0, limit=1, allowed_updates=["callback_query", "message"])
 
 
 def speaker_line(sp):
