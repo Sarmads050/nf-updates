@@ -1032,7 +1032,9 @@
   "efbad04c61841730": 1792415471.8345149,
   "6d217f0e4260534a": 1792415484.2765608,
   "a8a55af638ce7a85": 1792415484.2765634,
-  "974b8d105a11d222": 1792415484.2767444
+  "974b8d105a11d222": 1792415484.2767444,
+  "d7afc6b7df633c33": 1792416676.4447296,
+  "c294fb9d6a77e259": 1792416676.4447327
  },
  "pending": {},
  "queue": [],
@@ -1119,17 +1121,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110725921503839",
+ "last_post_id": "1444130002106066_122110735413503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110047273503839",
-   "title": "ڪراچي ۾ ريڊ لائين رٿا جي کوٽائي دوران مک گئس پائپ لائن کي نقصان پهچڻ سبب مختلف علائقن ۾",
-   "t": 1792312302.708024,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110047273503839"
-  },
   {
    "id": "1444130002106066_122110054161503839",
    "title": "پاڪستان ۽ انگلينڊ وچ ۾ کيڏي ويندڙ ون ڊي ميچ کي بريسٽ ڪينسر بابت آگاهي لاءِ وقف ڪيو ويو آهي",
@@ -1413,6 +1406,18 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110725921503839"
+  },
+  {
+   "id": "1444130002106066_122110735413503839",
+   "title": "بنا اڪائونٽ جي واٽس ايپ تي ڪال ڪرڻ جو نئون فيچر متعارف",
+   "t": 1792416861.4911277,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110735413503839"
   }
  ],
  "share_sent": {
@@ -1515,7 +1520,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 18:20",
+  "time": "2026-10-19 18:34",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1530,8 +1535,8 @@
  },
  "all_posts": {
   "date": "2026-10-19",
-  "count": 23,
-  "last": 1792415518.9232366
+  "count": 24,
+  "last": 1792416852.340852
  },
  "perf": {
   "posts": [
@@ -2650,6 +2655,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792415553
+   },
+   {
+    "id": "1444130002106066_122110735413503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1792416861
    }
   ]
  },
@@ -4666,15 +4677,11 @@
  },
  "ai_usage": {
   "date": "2026-10-19",
-  "ok": 100,
+  "ok": 102,
   "fail": 0,
-  "limit": 515
+  "limit": 519
  },
  "posted_heads": [
-  {
-   "h": "PTA alerts users about severe Google Chrome security risks",
-   "t": 1792200087
-  },
   {
    "h": "Fixtures, Schedule | Pakistan in Australia Test Match",
    "t": 1792201311
@@ -4990,10 +4997,14 @@
   {
    "h": "Pakistan face stern England test",
    "t": 1792415553
+  },
+  {
+   "h": "بنا اڪائونٽ جي واٽس ايپ ڪال! واٽس اپي گيسٽ فيچر جو انوکو اضافو",
+   "t": 1792416861
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 18:20",
+  "time": "2026-10-19 18:34",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -5101,7 +5112,7 @@
   "text": 15,
   "story": 13
  },
- "ai_last_error": "18:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "18:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-19",
   "models": [
@@ -5115,11 +5126,11 @@
  },
  "img_diag": {
   "date": "2026-10-19",
-  "tried": 21,
+  "tried": 22,
   "gemini": 0,
   "pollinations": 12,
   "skip": 6,
-  "fail": 7,
+  "fail": 10,
   "last_note": "pollinations 402 {\"status\":402,\"success\":false,\"error\":{\"code\":\"FREE_LIMIT\",\"message\":\"Free limit reached: 1 image every 45 seconds per I",
   "mismatch": 3
  },
@@ -5142,7 +5153,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 112,
+   "ok": 113,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -5150,7 +5161,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 107,
+   "ok": 108,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -5158,7 +5169,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 108,
+   "ok": 109,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -5166,35 +5177,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -5471,13 +5482,13 @@
  "region_posts": {
   "date": "2026-10-19",
   "district": 3,
-  "sindh": 6,
+  "sindh": 7,
   "pakistan": 13
  },
  "report_acc": {
-  "posted": 1,
-  "found": 24,
-  "old": 24,
+  "posted": 2,
+  "found": 35,
+  "old": 35,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -5498,9 +5509,9 @@
  },
  "sindh_stream": {
   "date": "2026-10-19",
-  "count": 5,
-  "last": 1792415470.5031173,
-  "city_i": 8,
+  "count": 6,
+  "last": 1792416674.7803855,
+  "city_i": 12,
   "dry": 1792415471.834517
  },
  "gemini_day_dead": {
@@ -5549,10 +5560,20 @@
    "t": 1792415553,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "54b6325e4306aaa9",
+   "h": "بنا اڪائونٽ جي واٽس ايپ تي ڪال ڪرڻ جو نئون فيچر متعارف",
+   "x": "واٽس ايپ پاران گيسٽ ڪالنگ نالي نئين سهولت آڻڻ جو اعلان ڪيو ويو آهي، جنهن تحت هاڻي واٽس ايپ اڪائونٽ نه رکندڙ ماڻهو به ڪال ۾ شامل ٿي سگهندا. واٽس ايپ جي هن نئين سهولت وسيلي واهپيدار ڪال ۾ شامل ٿيڻ لاءِ دعوتي لنڪ ٺاهي ڪنهن به ماڻهوءَ سان ونڊي سگهندا. سڏ جي مدي تي به ڪا پابندي نه هوندي، جڏهن ته ڳالهه ٻولهه کي هڪ ڇيڙي کان ٻئي ڇيڙي تائين ڳجهي رکڻ واري رٿا وسيلي محفوظ بڻايو ويندو. نئين سهولت ۾ ڪال ۾ شامل ٿيڻ لاءِ ايندڙ مهمان کي پهرين انتظار واري ڪمري ۾ رکيو ويندو ۽ ميزبان جي اجازت ملڻ کان پوءِ ئي هو ڪال جو حصو بڻجي سگهندو!",
+   "t": 1792416861,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
   "date": "2026-10-19",
-  "done": []
+  "done": [
+   "18:30"
+  ]
  }
 }
