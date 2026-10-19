@@ -987,7 +987,11 @@
   "e4b4a26d19f8436c": 1792405269.8930423,
   "fcdb5976840be2fd": 1792405269.8930433,
   "3f419ec259f1d7ec": 1792405269.8932633,
-  "2fb0c33b9a215f89": 1792407048.96459
+  "2fb0c33b9a215f89": 1792407048.96459,
+  "0aa220f8885086df": 1792407670.953356,
+  "fba3bf344f8cb622": 1792407686.3738844,
+  "268bc2ce202d60aa": 1792407686.3738873,
+  "e81b8891a0b134ec": 1792407686.3738902
  },
  "pending": {},
  "queue": [],
@@ -1074,17 +1078,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110670337503839",
+ "last_post_id": "1444130002106066_122110673673503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109985629503839",
-   "title": "آسٽريليا جي پاڪستان دوري جي پهرين ون ڊي ميچ لاءِ قومي ڪرڪيٽ ٽيم جي اسڪواڊ جو اعلان ڪيو",
-   "t": 1792301494.763042,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109985629503839"
-  },
   {
    "id": "1444130002106066_122109994611503839",
    "title": "پنجاب سرڪار طرفان خطرناڪ عمارتن ۽ جهڙن ڪلاسن ۾ تعليمي سرگرمին تي پابندي هڻي وئي آهي",
@@ -1364,6 +1359,16 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110670337503839"
+  },
+  {
+   "id": "1444130002106066_122110673673503839",
+   "title": "نوشہروفیروز ۾ نيشنل هاءِ وي تي ٽريفڪ جام",
+   "t": 1792407749.0752175,
+   "tags": [
+    "local",
+    "padidan"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110673673503839"
   }
  ],
  "share_sent": {
@@ -1462,7 +1467,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 15:52",
+  "time": "2026-10-19 16:02",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1477,8 +1482,8 @@
  },
  "all_posts": {
   "date": "2026-10-19",
-  "count": 16,
-  "last": 1792407124.250951
+  "count": 17,
+  "last": 1792407740.4459865
  },
  "perf": {
   "posts": [
@@ -2561,6 +2566,12 @@
     "sec": "district",
     "cat": "district",
     "t": 1792407130
+   },
+   {
+    "id": "1444130002106066_122110673673503839",
+    "sec": "sindh_stream",
+    "cat": "district",
+    "t": 1792407749
    }
   ]
  },
@@ -4513,15 +4524,11 @@
  },
  "ai_usage": {
   "date": "2026-10-19",
-  "ok": 51,
+  "ok": 57,
   "fail": 0,
-  "limit": 428
+  "limit": 438
  },
  "posted_heads": [
-  {
-   "h": "Govt cuts petrol price by Rs3.93 to Rs386.30 per litre, keeps diesel unchanged",
-   "t": 1792182077
-  },
   {
    "h": "Pakistan, China universities deepen academic ties at 6th CPEC consortium conference",
    "t": 1792185091
@@ -4837,10 +4844,14 @@
   {
    "h": "Agha, Shaheen star in Pakistan’s solid win",
    "t": 1792405396
+  },
+  {
+   "h": "National Highway gridlock at Naushahro Feroze jams traffic for hours - ARYnews.tv",
+   "t": 1792407749
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 15:52",
+  "time": "2026-10-19 16:02",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -4943,12 +4954,12 @@
  },
  "article_diag": {
   "date": "2026-10-19",
-  "tried": 11,
-  "decoded": 11,
-  "text": 10,
-  "story": 9
+  "tried": 12,
+  "decoded": 12,
+  "text": 11,
+  "story": 10
  },
- "ai_last_error": "15:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "16:02 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-19",
   "models": [
@@ -4962,9 +4973,9 @@
  },
  "img_diag": {
   "date": "2026-10-19",
-  "tried": 15,
+  "tried": 16,
   "gemini": 0,
-  "pollinations": 7,
+  "pollinations": 8,
   "skip": 6,
   "fail": 4,
   "last_note": "traffic jam on highway",
@@ -4989,7 +5000,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 97,
+   "ok": 98,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -4997,7 +5008,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 92,
+   "ok": 93,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -5005,7 +5016,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 93,
+   "ok": 94,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -5013,35 +5024,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -5317,19 +5328,19 @@
  "gemini_off_alert": "2026-10-19",
  "region_posts": {
   "date": "2026-10-19",
-  "district": 2,
+  "district": 3,
   "sindh": 3,
   "pakistan": 10
  },
  "report_acc": {
-  "posted": 3,
-  "found": 16,
-  "old": 15,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-19 15",
+ "report_hour": "2026-10-19 16",
  "kawish_upload_times": {
   "_date": "2026-10-19",
   "19-10-2026": "status 404",
@@ -5345,9 +5356,9 @@
  },
  "sindh_stream": {
   "date": "2026-10-19",
-  "count": 2,
-  "last": 1792402863.1891465,
-  "city_i": 24,
+  "count": 3,
+  "last": 1792407684.2236838,
+  "city_i": 6,
   "dry": 1792405259.6869533
  },
  "gemini_day_dead": {
