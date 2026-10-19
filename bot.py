@@ -1579,6 +1579,7 @@ def publish_queue():
         if not ok:
             break
         S["queue"].pop(0)
+        reel_add(q["message"], (q.get("card") or {}).get("title", ""))
         note_region("district")
         perf_record("district")
         record_title(q["message"])
@@ -1852,7 +1853,7 @@ def _image_models():
 _poll_last = 0.0
 
 
-def news_image(title, body):
+def news_image(title, body, size=(1080, 640)):
     """Khabar ke mutabiq AI tasveer (free): pehle Gemini image model, phir Pollinations. Na bane to None."""
     cfg = CONFIG.get("news_images", {})
     if not cfg.get("enabled", True) or DRY_RUN:
@@ -1900,7 +1901,7 @@ def news_image(title, body):
                     time.sleep(wait)
                 _poll_last = time.time()
                 url = "https://image.pollinations.ai/prompt/" + quote_plus(full)
-                r = requests.get(url, timeout=90, headers=UA, params={"width": 1080, "height": 640, "nologo": "true",
+                r = requests.get(url, timeout=90, headers=UA, params={"width": size[0], "height": size[1], "nologo": "true",
                                                                      **({"model": cfg["model"]} if cfg.get("model") else {}),
                                                                      "seed": random.randint(1, 99999)})
                 if not (r.status_code == 200 and r.headers.get("content-type", "").startswith("image")
@@ -2934,7 +2935,56 @@ def clean_source(src):
 def news_card_post(msg, card_title, label, link, count=False, body=""):
     """Khabar design wale card ke saath; mukammal khabar ka link pehle comment mein (fb_post khud karta hai)."""
     card = make_card(card_title, label, body, theme="news") if CONFIG.get("news_cards", True) else None
-    return fb_post(msg, link=link, photo=card, count=count, card=False)
+    ok = fb_post(msg, link=link, photo=card, count=count, card=False)
+    if ok:
+        reel_add(msg, card_title)
+    return ok
+
+
+def reel_add(msg, head=""):
+    """Post hui khabar reels ke liye jama karo (reel workflow state.json se uthata hai)."""
+    if DRY_RUN:
+        return
+    lines = []
+    for line in (msg or "").splitlines():
+        t = line.strip()
+        if not t or t.startswith(("#", "📌", "📲", "🔗", "✍️", "⚠️")):
+            continue
+        lines.append(re.sub(r"^[^\w\u0600-\u06FF]+", "", t).strip())
+    if not lines:
+        return
+    head = clean_text(head) or cut_words(lines[0], 90)
+    text = " ".join(lines[1:] if lines[0].startswith(head[:20]) else lines)
+    if len(text) < 40:
+        return
+    pool = [x for x in S.get("reel_pool", []) if time.time() - x["t"] < 48 * 3600]
+    pool.append({"k": item_key(head), "h": head, "x": text[:1500], "t": int(time.time()),
+                 "s": bool(keyword_sensitive(head + " " + text)), "r": city_rank(head + " " + text) or 0})
+    S["reel_pool"] = pool[-150:]
+
+
+def handle_reels():
+    """Din mein 5 reels: waqt aane par reel workflow (voice/reel.py) chalao."""
+    cfg = CONFIG.get("reels", {})
+    tok, repo = os.getenv("GITHUB_TOKEN", ""), os.getenv("GITHUB_REPOSITORY", "")
+    if not cfg.get("enabled") or DRY_RUN or not (tok and repo):
+        return
+    st = S.setdefault("reels", {"date": "", "done": []})
+    if st.get("date") != today():
+        st.update(date=today(), done=[])
+    n = now()
+    cur = n.hour * 60 + n.minute
+    for slot in cfg.get("slots", ["09:30", "12:30", "15:30", "18:30", "21:30"]):
+        hh, mm = map(int, slot.split(":"))
+        if slot in st["done"] or not (hh * 60 + mm <= cur < hh * 60 + mm + cfg.get("window_minutes", 90)):
+            continue
+        r = requests.post(f"https://api.github.com/repos/{repo}/actions/workflows/news-reel.yml/dispatches",
+                          headers={"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"},
+                          json={"ref": "main", "inputs": {"slot": slot, "dry_run": "false"}}, timeout=30)
+        log("reel dispatch", slot, r.status_code, r.text[:120])
+        if r.status_code in (200, 204):
+            st["done"].append(slot)
+        break
 
 
 def handle_cricket_news():
@@ -3544,6 +3594,7 @@ def main():
         order = section_order()
     except Exception:
         order = list(sections)
+    step(handle_reels)
     step(handle_kawish_post)  # district/Sindh pehle
     step(handle_sindh_stream)
     for sec in order:  # is hafte jo zyada pasand/trend, wo pehle
