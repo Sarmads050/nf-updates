@@ -1115,6 +1115,9 @@ def is_night():
     return n0 <= now().hour < n1
 
 
+TOL = 60  # waqfa naapne mein gunjaish (second)
+
+
 def pace_ok():
     """Page ki hifazat: din bhar ki kul hadd aur har nai post ke beech kam az kam waqfa (raat ko lamba)."""
     cfg = CONFIG.get("safety", {})
@@ -1128,7 +1131,8 @@ def pace_ok():
             gap = max(gap, cfg.get("jumma_gap_minutes", 25))
     else:
         gap = cfg.get("night_gap_minutes", 45) if is_night() else cfg.get("min_gap_minutes", 15)
-    return a["count"] < cfg.get("max_total_per_day", 40) and time.time() - a.get("last", 0) >= gap * 60
+    # run har ~10 minute (kabhi chand second pehle) chalta hai: 1 minute ki gunjaish, warna aadhe runs zaaya
+    return a["count"] < cfg.get("max_total_per_day", 40) and time.time() - a.get("last", 0) >= gap * 60 - TOL
 
 
 REGION_OF = {"district": "district", "kawish_district": "district", "sindh_single": "sindh", "kawish_sindh": "sindh",
@@ -2802,7 +2806,7 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
         day.update(date=today(), count=0)
     hour = now().hour
     gap = cfg.get("night_gap_minutes", cfg.get("gap_minutes", 90) * 2) if is_night() else cfg.get("gap_minutes", 90)
-    if (day["count"] >= learned_cap(state_key, cfg.get("max_per_day", 4)) or time.time() - day.get("last", 0) < gap * 60
+    if (day["count"] >= learned_cap(state_key, cfg.get("max_per_day", 4)) or time.time() - day.get("last", 0) < gap * 60 - TOL
             or not cfg.get("start_hour", 0) <= hour < cfg.get("end_hour", 24) or (S["queue"] and can_post())
             or not pakistan_turn()
             or local_backlog("pakistan") or not pace_ok()):
@@ -3281,7 +3285,7 @@ def handle_sindh_stream():
     if day["date"] != today():
         day.update(date=today(), count=0)
     gap = cfg.get("night_gap_minutes", 60) if is_night() else cfg.get("gap_minutes", 20)
-    if (time.time() - day.get("last", 0) < gap * 60 or (S["queue"] and can_post()) or local_backlog("sindh")
+    if (time.time() - day.get("last", 0) < gap * 60 - TOL or (S["queue"] and can_post()) or local_backlog("sindh")
             or not sindh_room() or not pace_ok()):
         return
     cand = sindh_stream_candidates(cfg)[:12]
@@ -3367,7 +3371,7 @@ def handle_kawish_post():
     if day["date"] != today():
         day.update(date=today(), count=0)
         S["kawish_queue"] = q = [x for x in q if x.get("added_day", today()) == today()] or q[:0]
-    gap = cfg.get("gap_minutes", 20) * 60
+    gap = cfg.get("gap_minutes", 20) * 60 - TOL
     if (day["count"] >= cfg.get("max_per_day", 15) or time.time() - day.get("last", 0) < gap
             or (S["queue"] and can_post()) or not pace_ok()):
         return
