@@ -1130,7 +1130,25 @@
   "1e001d033eaae9b1": 1792443713.2921126,
   "128a1764669bec4d": 1792443713.2921145,
   "8859f60053839f86": 1792445459.521817,
-  "9cb2ca5e8fdeb2d6": 1792446652.426402
+  "9cb2ca5e8fdeb2d6": 1792446652.426402,
+  "9055992e7dcf9c10": 1792447284.9065263,
+  "6a05adf587c42395": 1792447284.9065287,
+  "b749a475bb108914": 1792447284.906531,
+  "aee8be5230e6b143": 1792447284.9065318,
+  "0ada1e8cd56c55e3": 1792447284.9065328,
+  "7628ca5a5c7b6a69": 1792447284.9065347,
+  "c2ae3d4338dbe1d4": 1792447284.9065356,
+  "d951efc593bd23a7": 1792447284.9065373,
+  "d56249d4d20efd71": 1792447284.9065378,
+  "68ebd7d879709cfa": 1792447284.9065385,
+  "8bc311ae2a960e7d": 1792447289.4236314,
+  "f7641124e7199147": 1792447289.4236336,
+  "fb070721ebf80951": 1792447297.3257058,
+  "20efef4a40c72e61": 1792447297.3257089,
+  "6e4818eb326f03cf": 1792447297.3257105,
+  "2607a64263d85f4c": 1792447297.325712,
+  "2afd259b843d3e0c": 1792447297.325713,
+  "92208c49758e36eb": 1792447297.3258898
  },
  "pending": {
   "f23b0b6ba00324c6": {
@@ -1221,7 +1239,7 @@
   "last_week": "",
   "last_check": "2026-10-20"
  },
- "gemini_model": "gemini-3.1-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1312,18 +1330,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110882425503839",
+ "last_post_id": "1444130002106066_122110933269503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110755837503839",
-   "title": "محرابپور ويجهو ريل گاڏي جي ٽڪر ۾ نوجوان فوت",
-   "t": 1792420391.4727268,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110755837503839"
-  },
   {
    "id": "1444130002106066_122110762719503839",
    "title": "مواضلات وزارت ٻه 222 ارب روپين جي ماليت جا ضابطن جوڳا منصوبا منظور",
@@ -1627,6 +1635,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110882425503839"
+  },
+  {
+   "id": "1444130002106066_122110933269503839",
+   "title": "پاڪستان جي ڪڻڪ جي پاليسي کي يقيني بڻائڻ گهرجي ته فصل جي پيداوار ملڪ اندر برقرار رهي",
+   "t": 1792447324.4881778,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110933269503839"
   }
  ],
  "share_sent": {
@@ -1733,7 +1751,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 02:50",
+  "time": "2026-10-20 03:02",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1743,13 +1761,13 @@
  },
  "agri_news": {
   "date": "2026-10-20",
-  "count": 0,
-  "last": 1792404119.304339
+  "count": 1,
+  "last": 1792447324.4880035
  },
  "all_posts": {
   "date": "2026-10-20",
-  "count": 2,
-  "last": 1792440088.13829
+  "count": 3,
+  "last": 1792447319.394327
  },
  "perf": {
   "posts": [
@@ -3066,6 +3084,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1792440094
+   },
+   {
+    "id": "1444130002106066_122110933269503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1792447324
    }
   ]
  },
@@ -5218,15 +5242,11 @@
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 8,
+  "ok": 13,
   "fail": 2,
-  "limit": 12
+  "limit": 20
  },
  "posted_heads": [
-  {
-   "h": "Gold Price in Pakistan Increases by Rs. 2,200 on Saturday",
-   "t": 1792219302
-  },
   {
    "h": "Women T20 World Cup: Australia Defeats Pakistan by 9 Wickets",
    "t": 1792220510
@@ -5542,10 +5562,14 @@
   {
    "h": "ڪراچي واسين سان هائوسنگ ۽ ڪارفنانسنگ جي نالي ۾ ڪروڙن جو فراڊ: نيب ڊي جي طلب",
    "t": 1792440094
+  },
+  {
+   "h": "Pakistan’s wheat policy must sustain production",
+   "t": 1792447324
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 02:50",
+  "time": "2026-10-20 03:02",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -5647,13 +5671,13 @@
   }
  },
  "article_diag": {
-  "date": "2026-10-19",
-  "tried": 17,
-  "decoded": 17,
-  "text": 16,
-  "story": 13
+  "date": "2026-10-20",
+  "tried": 1,
+  "decoded": 1,
+  "text": 0,
+  "story": 0
  },
- "ai_last_error": "02:01 gemini-3.5-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "03:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -5667,9 +5691,9 @@
  },
  "img_diag": {
   "date": "2026-10-20",
-  "tried": 2,
+  "tried": 3,
   "gemini": 0,
-  "pollinations": 0,
+  "pollinations": 1,
   "skip": 1,
   "fail": 1,
   "last_note": "cricket trophy and bat",
@@ -5694,7 +5718,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -5702,7 +5726,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 18,
+   "ok": 19,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -5710,7 +5734,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 18,
+   "ok": 19,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -5718,35 +5742,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6403,17 +6427,17 @@
   "date": "2026-10-20",
   "district": 0,
   "sindh": 2,
-  "pakistan": 0
+  "pakistan": 1
  },
  "report_acc": {
   "posted": 0,
-  "found": 45,
-  "old": 45,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-20 02",
+ "report_hour": "2026-10-20 03",
  "kawish_upload_times": {
   "_date": "2026-10-20",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -6432,8 +6456,8 @@
   "date": "2026-10-20",
   "count": 2,
   "last": 1792443674.1565475,
-  "city_i": 6,
-  "dry": 1792415471.834517
+  "city_i": 10,
+  "dry": 1792447274.7956047
  },
  "gemini_day_dead": {
   "day": "2026-10-19",
@@ -6767,6 +6791,14 @@
    "t": 1792440094,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "c137903f55c6202c",
+   "h": "پاڪستان جي ڪڻڪ جي پاليسي جو جائزو",
+   "x": "پاڪستان جي ڪڻڪ جي پاليسي کي يقيني بڻائڻ گهرجي ته فصل جي پيداوار ملڪ اندر برقرار رهي!",
+   "t": 1792447324,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -6780,15 +6812,6 @@
   "last": 1792426953.7977092
  },
  "tg_debug": [
-  {
-   "t": "10-19 20:30",
-   "ok": true,
-   "n": 1,
-   "ids": [
-    661216976
-   ],
-   "err": null
-  },
   {
    "t": "10-19 20:40",
    "ok": true,
@@ -7068,6 +7091,13 @@
   },
   {
    "t": "10-20 02:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 03:00",
    "ok": true,
    "n": 0,
    "ids": [],
