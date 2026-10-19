@@ -1,0 +1,24 @@
+name: TG diag
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  count:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests
+      - run: python tools/tg_diag.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      - name: Nateeja branch par
+        run: |
+          git config user.name "nf-bot"; git config user.email "nf-bot@users.noreply.github.com"
+          export GIT_INDEX_FILE=/tmp/idx
+          git --work-tree=out add -A
+          git push -f origin $(git commit-tree $(git write-tree) -m "tg diag"):refs/heads/tg-diag
