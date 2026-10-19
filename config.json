@@ -959,12 +959,14 @@
     "mode": "live",
     "base": "http://www.thekawish.com/beta/images",
     "pages": 8,
-    "from_hour": 7,
+    "from_hour": 15,
     "until_hour": 23,
     "max_per_day": 30,
     "gap_minutes": 12,
     "check_minutes": 30,
-    "probe_days": 10
+    "probe_days": 10,
+    "store_pages": true,
+    "keep_days": 7
   },
   "regions": {
     "district_target": 30,

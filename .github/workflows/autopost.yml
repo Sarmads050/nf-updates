@@ -58,3 +58,26 @@ jobs:
               done
             fi
           fi
+
+      - name: Save Kawish e-paper (alag branch, aakhri 7 din)
+        if: always()
+        env:
+          KEEP_DAYS: "7"
+        run: |
+          git config user.name "nf-updates-bot"
+          git config user.email "nf-updates-bot@users.noreply.github.com"
+          set -e
+          if [ -d epaper ] && [ -n "$(ls -A epaper 2>/dev/null)" ]; then
+            rm -rf /tmp/ep && mkdir -p /tmp/ep
+            if git fetch -q origin kawish-epaper 2>/dev/null; then git archive FETCH_HEAD | tar -x -C /tmp/ep; fi
+            cp -r epaper/* /tmp/ep/
+            (cd /tmp/ep && ls -1d 20*/ 2>/dev/null | sort | head -n -${KEEP_DAYS:-7} | xargs -r rm -rf)
+            export GIT_INDEX_FILE=/tmp/ep.index
+            rm -f "$GIT_INDEX_FILE"
+            git --work-tree=/tmp/ep add -A .
+            TREE=$(git write-tree)
+            COMMIT=$(echo "Kawish e-paper (aakhri ${KEEP_DAYS:-7} din)" | git commit-tree "$TREE")
+            unset GIT_INDEX_FILE
+            git push -q -f origin "$COMMIT:refs/heads/kawish-epaper"
+            echo "e-paper saved: $(ls /tmp/ep)"
+          fi

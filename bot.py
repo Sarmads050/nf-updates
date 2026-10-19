@@ -2971,12 +2971,31 @@ def kawish_read(page_no, img):
               "Return JSON: {\"items\": [{\"type\": string, \"headline\": string, \"summary\": string, "
               "\"district\": bool, \"sensitive\": bool, \"place\": string, \"confidence\": \"high\"|\"medium\"|\"low\"}]}")
     out = ask_gemini(prompt, image=img, mime="image/jpeg")
-    return [x for x in (out or {}).get("items", []) if isinstance(x, dict)] if isinstance(out, dict) else []
+    if not isinstance(out, dict):
+        return None  # AI ne jawab nahi diya: safha baad mein dobara
+    return [x for x in out.get("items", []) if isinstance(x, dict)]
+
+
+def kawish_store(pdate, pages, items=None):
+    """E-paper ke safhe (aur nikali khabrein) epaper/ folder mein — workflow inhein alag branch par mehfooz karta hai."""
+    if DRY_RUN or not CONFIG.get("kawish", {}).get("store_pages", True):
+        return
+    folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "epaper", pdate.strftime("%Y-%m-%d"))
+    os.makedirs(folder, exist_ok=True)
+    for n, url, img in pages:
+        p = os.path.join(folder, f"{n:02d}.jpg")
+        if not os.path.exists(p):
+            with open(p, "wb") as f:
+                f.write(img)
+    if items:
+        p = os.path.join(folder, "items.json")
+        old = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else []
+        json.dump(old + items, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 
 def handle_kawish():
-    """Kawish e-paper: roz subah ek dafa parho (idariya/kaalam/ishtihar chhoD kar), khabrein qatar mein rakho;
-    jurm wali khabrein review mein. mode=test: sirf Telegram namoona."""
+    """Kawish e-paper (shaam ~4-7 baje upload hota hai): 3 baje se har 30 minute dekho; safhe store karo; har safha
+    parho (jo AI se reh jaye wo agli dafa); idariya/kaalam/ishtihar chhoD kar khabrein qatar mein; jurm review mein."""
     cfg = CONFIG.get("kawish", {})
     if not cfg.get("enabled") or not GEMINI_KEY:
         return
@@ -2984,30 +3003,36 @@ def handle_kawish():
     test = str(cfg.get("mode", "")).startswith("test")
     if test and st.get("date") == today() and st.get("mode") == cfg.get("mode"):
         return
-    if not test and not (cfg.get("from_hour", 7) <= now().hour < cfg.get("until_hour", 23)):
+    if not test and not (cfg.get("from_hour", 15) <= now().hour < cfg.get("until_hour", 23)):
         return
     done = st.setdefault("done_papers", [])
-    if not test:
-        # har 30 minute ek dafa dekho (e-paper der se aata hai); aaj ya kal ka jo naya edition mile wo parho
-        if time.time() - st.get("last_try", 0) < cfg.get("check_minutes", 30) * 60:
+    tday = now().strftime("%d-%m-%Y")
+    if test:
+        pages, pdate = kawish_pages((0, 1))
+        todo = [n for n, _, _ in pages]
+    else:
+        if tday in done or time.time() - st.get("last_try", 0) < cfg.get("check_minutes", 30) * 60:
             return
         st["last_try"] = time.time()
-        back = [0] if now().strftime("%d-%m-%Y") not in done else []  # sirf aaj ka edition (purani khabar nahi)
-        if not back:
-            return
-        pages, pdate = kawish_pages(tuple(back))
-        st["last_try_note"] = f"{now().strftime('%H:%M')} {'mila ' + pdate.strftime('%d-%m-%Y') if pages else 'abhi nahi mila'}"
-    else:
-        pages, pdate = kawish_pages((0, 1))
-    if not pages:
-        return  # e-paper abhi nahi aaya: thodi der baad dobara
-    st.update(date=today(), mode=cfg.get("mode"), paper_date=pdate.strftime("%d-%m-%Y"), pages=len(pages), posts=[])
-    if not test:
-        done.append(pdate.strftime("%d-%m-%Y"))
-        del done[:-10]
-    found, skipped = [], 0
+        pages, pdate = kawish_pages((0,))
+        st["last_try_note"] = f"{now().strftime('%H:%M')} {'mila' if pages else 'abhi nahi mila'}"
+        if not pages:
+            return  # e-paper abhi nahi aaya: 30 minute baad dobara
+        paper = st.get("paper") if (st.get("paper") or {}).get("date") == tday else None
+        if not paper:
+            paper = st["paper"] = {"date": tday, "read": [], "total": len(pages), "found": 0, "skipped": 0}
+        todo = [n for n, _, _ in pages if n not in paper["read"]]
+        kawish_store(pdate, pages)
+    st.update(date=today(), mode=cfg.get("mode"), paper_date=pdate.strftime("%d-%m-%Y"), pages=len(pages))
+    found, skipped, failed = [], 0, []
     for n, url, img in pages:
-        for it in kawish_read(n, img):
+        if n not in todo:
+            continue
+        items = kawish_read(n, img)
+        if items is None:
+            failed.append(n)
+            continue
+        for it in items:
             head, summ = clean_text(it.get("headline", "")), clean_text(it.get("summary", ""))
             if str(it.get("type", "news")).lower() != "news":
                 skipped += 1  # idariya, kaalam, ishtihar
@@ -3023,6 +3048,8 @@ def handle_kawish():
             found.append({"key": k, "page": n, "head": head, "summary": summ, "district": bool(it.get("district")),
                           "sensitive": bool(it.get("sensitive")) or keyword_sensitive(head + " " + summ),
                           "confidence": it.get("confidence", ""), "link": page_link, "message": msg})
+        if not test:
+            st["paper"]["read"].append(n)
     st["posts"] = found
     st["skipped"] = skipped
     if test:
@@ -3031,6 +3058,16 @@ def handle_kawish():
         for x in sorted(found, key=lambda x: not x["district"])[:12]:
             tg_send(("🏠 District" if x["district"] else "🌍 Sindh") + f" | safha {x['page']}\n\n" + x["message"])
         return
+    paper = st["paper"]
+    paper["found"] += len(found)
+    paper["skipped"] += skipped
+    paper["failed"] = failed
+    if not failed:
+        done.append(tday)  # saare safhe parhe gaye
+        del done[:-10]
+    else:
+        st["last_try"] = time.time() - cfg.get("check_minutes", 30) * 60 + 600  # reh gaye safhe 10 minute baad
+    kawish_store(pdate, [], [{k: v for k, v in x.items() if k != "message"} for x in found])
     q = S.setdefault("kawish_queue", [])
     for x in sorted(found, key=lambda x: (not x["district"], x["page"])):  # district pehle
         if x["sensitive"] or x["confidence"] == "low":
@@ -3042,7 +3079,7 @@ def handle_kawish():
         else:
             x["added_day"] = today()
             q.append(x)
-    log("kawish:", len(found), "khabrein,", skipped, "idariya/kaalam chhoDe")
+    log("kawish:", len(found), "khabrein,", skipped, "idariya/kaalam chhoDe, reh gaye safhe:", failed)
 
 
 def handle_kawish_post():
