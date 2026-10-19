@@ -953,7 +953,9 @@
   "80ac0327ee3bb514": 1792396915.658699,
   "f9ee0c448846e7b6": 1792396915.6586998,
   "3f78b2a6b14dc381": 1792396915.6587005,
-  "1182acc5ba4ad8af": 1792396915.6587021
+  "1182acc5ba4ad8af": 1792396915.6587021,
+  "4c88d0ccba099df6": 1792398237.957594,
+  "02ff07644bfc10c6": 1792398237.9578228
  },
  "pending": {},
  "queue": [],
@@ -1039,18 +1041,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110606605503839",
+ "last_post_id": "1444130002106066_122110616541503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109862995503839",
-   "title": "حيدرآباد چيمبر آف سمال ٽريڊرز اينڊ سمال انڊسٽري حڪومت کان عوام کي مناسب اگھن تي اٽي جي",
-   "t": 1792284756.1236935,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109862995503839"
-  },
   {
    "id": "1444130002106066_122109878067503839",
    "title": "پاڪستاني ڪريٽ ٽيم جي ايندڙ ون ڊيٽرائي سيريز جي تيارين دوران شاهين آفريدي بابر اعظم، آغا",
@@ -1329,6 +1321,15 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110606605503839"
+  },
+  {
+   "id": "1444130002106066_122110616541503839",
+   "title": "پاڪستاني ڪرڪيٽر سلمان علي آغا چيو آهي ته هن پنهنجي بيٽنگ فارم بحال ڪرڻ لاءِ ليگ الائنمينٽ",
+   "t": 1792398299.3871639,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110616541503839"
   }
  ],
  "share_sent": {
@@ -1412,8 +1413,8 @@
  },
  "cricket_news": {
   "date": "2026-10-19",
-  "count": 2,
-  "last": 1792394119.4720101
+  "count": 3,
+  "last": 1792398299.3867424
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -1427,7 +1428,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 13:10",
+  "time": "2026-10-19 13:25",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1442,8 +1443,8 @@
  },
  "all_posts": {
   "date": "2026-10-19",
-  "count": 8,
-  "last": 1792396937.0728674
+  "count": 9,
+  "last": 1792398293.2243807
  },
  "perf": {
   "posts": [
@@ -2478,6 +2479,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1792396945
+   },
+   {
+    "id": "1444130002106066_122110616541503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792398299
    }
   ]
  },
@@ -4366,15 +4373,11 @@
  },
  "ai_usage": {
   "date": "2026-10-19",
-  "ok": 19,
+  "ok": 22,
   "fail": 0,
   "limit": 387
  },
  "posted_heads": [
-  {
-   "h": "No breakthrough in PPP-government budget negotiations",
-   "t": 1792170101
-  },
   {
    "h": "Pakistan posts $356m current account deficit in Sept 2026",
    "t": 1792172535
@@ -4690,10 +4693,14 @@
   {
    "h": "اسان قائداعظم جي پاڪستان ۾ آيا هئاسين، ڪنهن اسان کي ڀٽو جي پاڪستان ۾ ڌڪي ڇڏيو: خالد مقبول",
    "t": 1792396945
+  },
+  {
+   "h": "Agha fixes leg alignment to rediscover scoring touch",
+   "t": 1792398299
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 13:10",
+  "time": "2026-10-19 13:25",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -4796,10 +4803,10 @@
  },
  "article_diag": {
   "date": "2026-10-19",
-  "tried": 5,
-  "decoded": 5,
-  "text": 4,
-  "story": 3
+  "tried": 6,
+  "decoded": 6,
+  "text": 5,
+  "story": 4
  },
  "ai_last_error": "11:52 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
@@ -4815,9 +4822,9 @@
  },
  "img_diag": {
   "date": "2026-10-19",
-  "tried": 7,
+  "tried": 8,
   "gemini": 0,
-  "pollinations": 4,
+  "pollinations": 5,
   "skip": 3,
   "fail": 0,
   "last_note": "gemini gemini-2.5-flash-image 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your p"
@@ -4842,58 +4849,58 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
    "ok": 82,
-   "fail": 1,
+   "fail": 2,
    "items": 10,
-   "fail_streak": 0,
-   "last_status": 0
+   "fail_streak": 1,
+   "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
    "ok": 77,
-   "fail": 6,
+   "fail": 7,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
    "ok": 78,
-   "fail": 5,
+   "fail": 6,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -5171,12 +5178,12 @@
   "date": "2026-10-19",
   "district": 0,
   "sindh": 2,
-  "pakistan": 5
+  "pakistan": 6
  },
  "report_acc": {
-  "posted": 0,
-  "found": 3,
-  "old": 3,
+  "posted": 1,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
