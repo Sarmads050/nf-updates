@@ -915,7 +915,22 @@
   "250eb9764e5cd344": 1792386649.2881222,
   "bcb86c128a02312b": 1792387249.7755413,
   "513bccfc9d0eaa1a": 1792389052.033223,
-  "669e03754264eec0": 1792389052.0332494
+  "669e03754264eec0": 1792389052.0332494,
+  "3d2a2873117c04f9": 1792392735.5060203,
+  "1551eb5c1b6673d6": 1792392735.506023,
+  "43437ad8fd1b6dbf": 1792392735.5060241,
+  "7008b6f8488825d8": 1792392735.506025,
+  "6370b13c88f2de78": 1792392735.5060256,
+  "d0d20315a0c9d992": 1792392735.5060263,
+  "418e504ce36f91a8": 1792392735.506027,
+  "b079e2290bca6557": 1792392735.5060277,
+  "aef9ee4559a98c13": 1792392735.506029,
+  "6326037ed21471f5": 1792392735.5060294,
+  "bdd3aa144eed59a3": 1792392787.7308152,
+  "0e5a53abc75945a7": 1792392787.730818,
+  "22269951bc97e5ae": 1792392787.730819,
+  "e839dac2fc73e695": 1792392787.73082,
+  "4e0a1296503b6dea": 1792392787.731042
  },
  "pending": {},
  "queue": [],
@@ -933,7 +948,7 @@
   "last_week": "",
   "last_check": "2026-10-19"
  },
- "gemini_model": "gemini-flash-latest",
+ "gemini_model": "gemini-3.7-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1001,17 +1016,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110499685503839",
+ "last_post_id": "1444130002106066_122110583151503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109774087503839",
-   "title": "پاڪستان ڪرڪيٽ ٽيم شري لنڪا خلاف شروعاتي ميچ ۾ سٺي ڪارڪردگي ڏيکارڻ لاءِ پراميد آهي",
-   "t": 1792274506.7783399,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109774087503839"
-  },
   {
    "id": "1444130002106066_122109794151503839",
    "title": "پاڪستان هنگري جي شهر بوڊاپسٽ ۾ مقامي خريدارن کي اعليٰ معيار جا باسمتي چانور متعارف ڪرائڻ",
@@ -1288,6 +1294,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110396839503839"
+  },
+  {
+   "id": "1444130002106066_122110583151503839",
+   "title": "هلندڙ سيزن دوران سنڌ ۾ ڪپهه جي پيداوار 40 لک ڳوڻين کان وڌي وئي آهي، جنهن بعد ملڪ ۾ ڪپهه",
+   "t": 1792392931.4665143,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110583151503839"
   }
  ],
  "share_sent": {
@@ -1386,7 +1402,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 11:41",
+  "time": "2026-10-19 11:55",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1396,13 +1412,13 @@
  },
  "agri_news": {
   "date": "2026-10-19",
-  "count": 0,
-  "last": 1792340504.4836166
+  "count": 1,
+  "last": 1792392931.466172
  },
  "all_posts": {
   "date": "2026-10-19",
-  "count": 4,
-  "last": 1792378982.8045938
+  "count": 5,
+  "last": 1792392925.008162
  },
  "perf": {
   "posts": [
@@ -2413,6 +2429,12 @@
     "sec": "public_news",
     "cat": "fuel",
     "t": 1792356089
+   },
+   {
+    "id": "1444130002106066_122110583151503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1792392931
    }
   ]
  },
@@ -2422,7 +2444,7 @@
   "last": 1792356089.4909782
  },
  "trends": {
-  "last": 0,
+  "last": 1792392654.7929578,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -4223,21 +4245,89 @@
     "t": 1792350065,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "england vs west indies",
+    "traffic": 2000,
+    "news": "WI Legends capture World Championship",
+    "t": 1792392655,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "france protests",
+    "traffic": 500,
+    "news": "Smashed storefronts, torched cars and graffiti — France protests and their aftermath in pictures",
+    "t": 1792392655,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "enc",
+    "traffic": 100,
+    "news": "Coastal Storm Threatens Mid-Atlantic With High Winds and Flooding",
+    "t": 1792392655,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "plra",
+    "traffic": 100,
+    "news": "Para ser opción, la oposición debe tener un proyecto que vaya más allá de peleas por espacios de poder, dicen",
+    "t": 1792392655,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "bribery",
+    "traffic": 200,
+    "news": "SC grants leave to appeal in former Deputy Minister’s Rs. 50,000 bribery case",
+    "t": 1792392655,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "terrorism",
+    "traffic": 500,
+    "news": "CM Sarfraz Bugti praises security forces for successful anti-terror operations in Balochistan",
+    "t": 1792392655,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "khyber pakhtunkhwa",
+    "traffic": 100,
+    "news": "It would've been criminal to let K-P burn: PM",
+    "t": 1792392655,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "amelia earhart",
+    "traffic": 200,
+    "news": "Airborne 10.16.26: Earhart Expedition, Disney’s Gulfstream, FAA Grounds Elixir",
+    "t": 1792392655,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "crude oil prices",
+    "traffic": 100,
+    "news": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+    "t": 1792392655,
+    "cat": "none",
+    "sindh": false
    }
   ],
-  "ai_ok": false
+  "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-19",
-  "ok": 5,
+  "ok": 10,
   "fail": 0,
-  "limit": 385
+  "limit": 387
  },
  "posted_heads": [
-  {
-   "h": "Pakistan Records Hottest Monsoon Season in 7 Years",
-   "t": 1792160506
-  },
   {
    "h": "Gold Price soars to Rs440,636 per Tola; Silver sets New Record",
    "t": 1792162302
@@ -4553,10 +4643,14 @@
   {
    "h": "KP Governor Rule Latest Updates | Petrol Rate Reduced | Diesel Price Increased | 12AM HEADLINES",
    "t": 1792356089
+  },
+  {
+   "h": "Sindh Stays Ahead as Cotton Production Crosses 4 Million Bales",
+   "t": 1792392931
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 11:41",
+  "time": "2026-10-19 11:55",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -4659,12 +4753,12 @@
  },
  "article_diag": {
   "date": "2026-10-19",
-  "tried": 2,
-  "decoded": 2,
-  "text": 1,
-  "story": 0
+  "tried": 3,
+  "decoded": 3,
+  "text": 2,
+  "story": 1
  },
- "ai_last_error": "11:41 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "11:52 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-19",
   "models": [
@@ -4678,9 +4772,9 @@
  },
  "img_diag": {
   "date": "2026-10-19",
-  "tried": 3,
+  "tried": 4,
   "gemini": 0,
-  "pollinations": 1,
+  "pollinations": 2,
   "skip": 2,
   "fail": 0,
   "last_note": "gemini gemini-2.5-flash-image 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your p"
@@ -4704,7 +4798,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 72,
+   "ok": 73,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -4712,7 +4806,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 67,
+   "ok": 68,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -4720,7 +4814,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 69,
+   "ok": 70,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -4728,35 +4822,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -5031,12 +5125,12 @@
   "date": "2026-10-19",
   "district": 0,
   "sindh": 1,
-  "pakistan": 2
+  "pakistan": 3
  },
  "report_acc": {
-  "posted": 0,
-  "found": 12,
-  "old": 12,
+  "posted": 1,
+  "found": 15,
+  "old": 15,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
