@@ -1829,6 +1829,9 @@ def _image_models():
     return d.get("models", [])
 
 
+_poll_last = 0.0
+
+
 def news_image(title, body):
     """Khabar ke mutabiq AI tasveer (free): pehle Gemini image model, phir Pollinations. Na bane to None."""
     cfg = CONFIG.get("news_images", {})
@@ -1869,8 +1872,13 @@ def news_image(title, body):
             except Exception as e:
                 _img_diag("fail", f"gemini {m} {e}")
     if cfg.get("pollinations", True):
-        for attempt in range(cfg.get("tries", 2)):
+        global _poll_last
+        for attempt in range(cfg.get("tries", 2) + 1):
             try:
+                wait = 47 - (time.time() - _poll_last)  # free had: 45 second mein 1 tasveer
+                if wait > 0:
+                    time.sleep(wait)
+                _poll_last = time.time()
                 url = "https://image.pollinations.ai/prompt/" + quote_plus(full)
                 r = requests.get(url, timeout=90, headers=UA, params={"width": 1080, "height": 640, "nologo": "true",
                                                                      **({"model": cfg["model"]} if cfg.get("model") else {}),
