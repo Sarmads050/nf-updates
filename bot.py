@@ -3427,12 +3427,14 @@ def handle_kawish_post():
     if day["date"] != today():
         day.update(date=today(), count=0)
         S["kawish_queue"] = q = [x for x in q if x.get("added_day", today()) == today()] or q[:0]
+        if not q:  # naye din par kal ki khabrein hat gayin aur qatar khaali: kuch post karne ko nahi
+            return
     gap = cfg.get("gap_minutes", 20) * 60 - TOL
     if (day["count"] >= cfg.get("max_per_day", 15) or time.time() - day.get("last", 0) < gap
             or (S["queue"] and can_post()) or not pace_ok()):
         return
     q.sort(key=lambda x: (not x.get("district"), city_rank(x.get("head", "") + " " + x.get("summary", "")) or 99))
-    if not sindh_room():
+    if not sindh_room() or not q:
         return
     x = q.pop(0)
     if news_card_post(x["message"], x["head"], "روزاني ڪاوش", x["link"], body=x["summary"]):
