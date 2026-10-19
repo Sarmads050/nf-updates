@@ -2958,14 +2958,29 @@ def handle_kawish():
         return
     st = S.setdefault("kawish", {})
     test = str(cfg.get("mode", "")).startswith("test")
-    if st.get("date") == today() and st.get("mode") == cfg.get("mode"):
+    if test and st.get("date") == today() and st.get("mode") == cfg.get("mode"):
         return
-    if not test and not (cfg.get("from_hour", 7) <= now().hour < cfg.get("until_hour", 16)):
+    if not test and not (cfg.get("from_hour", 7) <= now().hour < cfg.get("until_hour", 23)):
         return
-    pages, pdate = kawish_pages((0, 1) if test else (0,))
+    done = st.setdefault("done_papers", [])
+    if not test:
+        # har 30 minute ek dafa dekho (e-paper der se aata hai); aaj ya kal ka jo naya edition mile wo parho
+        if time.time() - st.get("last_try", 0) < cfg.get("check_minutes", 30) * 60:
+            return
+        st["last_try"] = time.time()
+        back = [b for b in (0, 1) if (now() - dt.timedelta(days=b)).strftime("%d-%m-%Y") not in done]
+        if not back:
+            return
+        pages, pdate = kawish_pages(tuple(back))
+        st["last_try_note"] = f"{now().strftime('%H:%M')} {'mila ' + pdate.strftime('%d-%m-%Y') if pages else 'abhi nahi mila'}"
+    else:
+        pages, pdate = kawish_pages((0, 1))
     if not pages:
-        return  # aaj ka e-paper abhi nahi aaya: agli run mein dobara
+        return  # e-paper abhi nahi aaya: thodi der baad dobara
     st.update(date=today(), mode=cfg.get("mode"), paper_date=pdate.strftime("%d-%m-%Y"), pages=len(pages), posts=[])
+    if not test:
+        done.append(pdate.strftime("%d-%m-%Y"))
+        del done[:-10]
     found, skipped = [], 0
     for n, url, img in pages:
         for it in kawish_read(n, img):
