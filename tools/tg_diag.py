@@ -7,7 +7,7 @@ out = {}
 for m, p in (("getMe", {}), ("getWebhookInfo", {}),
              ("getUpdates", {"offset": s.get("tg_offset"), "timeout": 0, "allowed_updates": json.dumps(["callback_query", "message"])}),
              ("getUpdates_all", {"timeout": 0}),
-             ("getUpdates_long", {"timeout": 50})):  # 409 Conflict here = another program is polling this bot
+             ("getUpdates_long", {"timeout": 5})):  # 409 Conflict here = another program is polling this bot
     try:
         r = requests.get(B + m.split("_")[0], params=p, timeout=70)
         j = r.json()
