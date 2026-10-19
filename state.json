@@ -912,7 +912,8 @@
   "5b63b94b462c242a": 1792384852.8610098,
   "f291a001081cf9d9": 1792385447.2065544,
   "94e1b76cad9ffded": 1792386063.0320947,
-  "250eb9764e5cd344": 1792386649.2881222
+  "250eb9764e5cd344": 1792386649.2881222,
+  "bcb86c128a02312b": 1792387249.7755413
  },
  "pending": {},
  "queue": [],
@@ -1383,7 +1384,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 10:11",
+  "time": "2026-10-19 10:21",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -4228,7 +4229,7 @@
   "date": "2026-10-19",
   "ok": 5,
   "fail": 0,
-  "limit": 325
+  "limit": 331
  },
  "posted_heads": [
   {
@@ -4553,7 +4554,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 10:11",
+  "time": "2026-10-19 10:21",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -4661,7 +4662,7 @@
   "text": 1,
   "story": 0
  },
- "ai_last_error": "10:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "10:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-19",
   "models": [
@@ -4701,7 +4702,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 63,
+   "ok": 64,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -4709,7 +4710,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 58,
+   "ok": 59,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -4717,7 +4718,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 60,
+   "ok": 61,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -4725,35 +4726,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -5032,8 +5033,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 2,
+  "found": 5,
+  "old": 4,
   "irrelevant": 1,
   "blocked": 0,
   "errors": []
