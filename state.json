@@ -1465,18 +1465,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110785879503839",
+ "last_post_id": "1444130002106066_122110790673503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110340871503839",
-   "title": "پڊعيدن جي صوفي بزرگ حضرت پير جمن شاھ جو 111ھون عرس مبارڪ ملھايو پيو وڃي ميلي ۾ پري پري",
-   "t": 1792348257.3689833,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110340871503839"
-  },
   {
    "id": "1444130002106066_122110362879503839",
    "title": "ٽري نيشَن او ڊي آءِ سيريز جي افتتاحي ميچ ۾ پاڪستان سري لنڪا کي شڪست ڏئي ڇڏي آهي، جتي",
@@ -1772,6 +1762,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110785879503839"
+  },
+  {
+   "id": "1444130002106066_122110790673503839",
+   "title": "سنڌي ٻوليءَ جي تاريخ ۽ ادب بابت تعارفي تقريب",
+   "t": 1792426953.7979298,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110790673503839"
   }
  ],
  "share_sent": {
@@ -1878,7 +1880,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 21:11",
+  "time": "2026-10-19 21:22",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1893,8 +1895,8 @@
  },
  "all_posts": {
   "date": "2026-10-19",
-  "count": 33,
-  "last": 1792425866.1595113
+  "count": 34,
+  "last": 1792426948.4939303
  },
  "perf": {
   "posts": [
@@ -3067,6 +3069,12 @@
     "sec": "kawish",
     "cat": "sindh",
     "t": 1792425870
+   },
+   {
+    "id": "1444130002106066_122110790673503839",
+    "sec": "kawish",
+    "cat": "sindh",
+    "t": 1792426953
    }
   ]
  },
@@ -5155,9 +5163,9 @@
  },
  "ai_usage": {
   "date": "2026-10-19",
-  "ok": 131,
+  "ok": 134,
   "fail": 0,
-  "limit": 543
+  "limit": 545
  },
  "posted_heads": [
   {
@@ -5503,10 +5511,14 @@
   {
    "h": "حيدرآباد پريس ڪلب ۾ درجن واري قلم زن رهائشي اسڪيم تي نوٽيس، تصديق نه ٿي سگهي، رويو ڪاني کان رڪارڊ ظاهر",
    "t": 1792425870
+  },
+  {
+   "h": "سنڌي ٻوليءَ جي تاريخ ۽ ادب بابت تعارفي تقريب",
+   "t": 1792426953
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 21:11",
+  "time": "2026-10-19 21:22",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -5614,7 +5626,7 @@
   "text": 16,
   "story": 13
  },
- "ai_last_error": "21:10 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "21:20 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-19",
   "models": [
@@ -5628,13 +5640,13 @@
  },
  "img_diag": {
   "date": "2026-10-19",
-  "tried": 30,
+  "tried": 31,
   "gemini": 0,
-  "pollinations": 15,
+  "pollinations": 16,
   "skip": 8,
   "fail": 20,
-  "last_note": "pollinations 402 {\"status\":402,\"success\":false,\"error\":{\"code\":\"FREE_LIMIT\",\"message\":\"Free limit reached: 1 image every 45 seconds per I",
-  "mismatch": 6
+  "last_note": "Sindhi books and ajrak",
+  "mismatch": 7
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -5655,7 +5667,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 128,
+   "ok": 129,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -5663,7 +5675,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 123,
+   "ok": 124,
    "fail": 8,
    "items": 10,
    "fail_streak": 0,
@@ -5671,7 +5683,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 124,
+   "ok": 125,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -5679,35 +5691,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 131,
+   "ok": 132,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 131,
+   "ok": 132,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 131,
+   "ok": 132,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 131,
+   "ok": 132,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 131,
+   "ok": 132,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6363,13 +6375,13 @@
  "region_posts": {
   "date": "2026-10-19",
   "district": 6,
-  "sindh": 11,
+  "sindh": 12,
   "pakistan": 14
  },
  "report_acc": {
-  "posted": 0,
-  "found": 9,
-  "old": 9,
+  "posted": 1,
+  "found": 19,
+  "old": 19,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -6514,6 +6526,14 @@
    "t": 1792425870,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "5c49b3fe8f16950f",
+   "h": "سنڌي ٻوليءَ جي تاريخ ۽ ادب بابت تعارفي تقريب",
+   "x": "سنڌي ٻوليءَ جي تاريخ، ادب ۽ ثقافت جي حوالي سان هڪ تعارفي تقريب منعقد ڪئي وئي. تقريب ۾ نامور اديبن، شاعرن ۽ محققن شرڪت ڪئي. مقررين سنڌي ٻوليءَ جي ترويج ۽ ترقي لاءِ وڌيڪ ڪم ڪرڻ تي زور ڏنو!",
+   "t": 1792426953,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -6523,18 +6543,6 @@
   ]
  },
  "kawish_queue": [
-  {
-   "key": "5c49b3fe8f16950f",
-   "page": 2,
-   "head": "سنڌي ٻوليءَ جي تاريخ ۽ ادب بابت تعارفي تقريب",
-   "summary": "سنڌي ٻوليءَ جي تاريخ، ادب ۽ ثقافت جي حوالي سان هڪ تعارفي تقريب منعقد ڪئي وئي. تقريب ۾ نامور اديبن، شاعرن ۽ محققن شرڪت ڪئي. مقررين سنڌي ٻوليءَ جي ترويج ۽ ترقي لاءِ وڌيڪ ڪم ڪرڻ تي زور ڏنو.",
-   "district": false,
-   "sensitive": false,
-   "confidence": "medium",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-10-19&pageno=2",
-   "message": "📰 سنڌي ٻوليءَ جي تاريخ ۽ ادب بابت تعارفي تقريب\n\nسنڌي ٻوليءَ جي تاريخ، ادب ۽ ثقافت جي حوالي سان هڪ تعارفي تقريب منعقد ڪئي وئي. تقريب ۾ نامور اديبن، شاعرن ۽ محققن شرڪت ڪئي. مقررين سنڌي ٻوليءَ جي ترويج ۽ ترقي لاءِ وڌيڪ ڪم ڪرڻ تي زور ڏنو!\n\n📌 ذريعو: روزاني ڪاوش (صفحو 2)\n\n📲 نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFeroze #Padidan #نوشهروفيروز #پڊعيدن",
-   "added_day": "2026-10-19"
-  },
   {
    "key": "b56823f5064e28cd",
    "page": 2,
@@ -6718,8 +6726,8 @@
  ],
  "kawish_post": {
   "date": "2026-10-19",
-  "count": 6,
-  "last": 1792425870.5729992
+  "count": 7,
+  "last": 1792426953.7977092
  },
  "tg_debug": [
   {
@@ -6754,6 +6762,13 @@
   },
   {
    "t": "10-19 21:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-19 21:20",
    "ok": true,
    "n": 0,
    "ids": [],
