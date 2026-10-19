@@ -6,9 +6,10 @@ B = f"https://api.telegram.org/bot{T}/"
 out = {}
 for m, p in (("getMe", {}), ("getWebhookInfo", {}),
              ("getUpdates", {"offset": s.get("tg_offset"), "timeout": 0, "allowed_updates": json.dumps(["callback_query", "message"])}),
-             ("getUpdates_all", {"timeout": 0})):
+             ("getUpdates_all", {"timeout": 0}),
+             ("getUpdates_long", {"timeout": 50})):  # 409 Conflict here = another program is polling this bot
     try:
-        r = requests.get(B + m.split("_")[0], params=p, timeout=30)
+        r = requests.get(B + m.split("_")[0], params=p, timeout=70)
         j = r.json()
         if m.startswith("getUpdates") and j.get("ok"):
             j = {"ok": True, "count": len(j["result"]),
