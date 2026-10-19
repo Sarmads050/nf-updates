@@ -1093,7 +1093,8 @@
   "22225f22bdbb5730": 1792421612.4971025,
   "ff77314016fb36f9": 1792422071.6303234,
   "fc5cea2575268995": 1792422071.630632,
-  "3bd153f31afc7fcd": 1792423857.9137301
+  "3bd153f31afc7fcd": 1792423857.9137301,
+  "eaa48bf55cba7b66": 1792429853.6197996
  },
  "pending": {
   "f23b0b6ba00324c6": {
@@ -1671,7 +1672,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 22:01",
+  "time": "2026-10-19 22:10",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -5435,7 +5436,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 22:01",
+  "time": "2026-10-19 22:10",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -5584,7 +5585,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 133,
+   "ok": 134,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -5592,7 +5593,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 128,
+   "ok": 129,
    "fail": 8,
    "items": 10,
    "fail_streak": 0,
@@ -5600,7 +5601,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 129,
+   "ok": 130,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -5608,35 +5609,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 136,
+   "ok": 137,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 136,
+   "ok": 137,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 136,
+   "ok": 137,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 136,
+   "ok": 137,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 136,
+   "ok": 137,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6297,8 +6298,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -6915,6 +6916,13 @@
   },
   {
    "t": "10-19 22:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-19 22:10",
    "ok": true,
    "n": 0,
    "ids": [],
