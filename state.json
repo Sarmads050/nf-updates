@@ -1474,17 +1474,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110764189503839",
+ "last_post_id": "1444130002106066_122110768323503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110218129503839",
-   "title": "ٽرائي نيشن ODI جي پهرين ميچ ۾ سلمان علي آغا جي سينچري جي مدد سان پاڪستاني ٽيم Sri Lanka",
-   "t": 1792335080.7567358,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110218129503839"
-  },
   {
    "id": "1444130002106066_122110269033503839",
    "title": "وزير اعظم شيباز شيڪ ڀٽا اسلام آباد ۾ دانيش اسڪول جو افتتاح ڪندي تعليمي موقعن ۾ برابري تي",
@@ -1774,6 +1765,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110762719503839"
+  },
+  {
+   "id": "1444130002106066_122110768323503839",
+   "title": "پ پ ايم پي اِي سدائين آئين موجب لڳائي، دهشتگردن جو مقابلو ڪنداسين، اتفاق راءِ آهي ته نوان",
+   "t": 1792422790.8864741,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110768323503839"
   }
  ],
  "share_sent": {
@@ -1880,7 +1883,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 20:01",
+  "time": "2026-10-19 20:13",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1895,8 +1898,8 @@
  },
  "all_posts": {
   "date": "2026-10-19",
-  "count": 29,
-  "last": 1792422085.3449051
+  "count": 30,
+  "last": 1792422783.4304595
  },
  "perf": {
   "posts": [
@@ -3045,6 +3048,12 @@
     "sec": "kawish",
     "cat": "sindh",
     "t": 1792421825
+   },
+   {
+    "id": "1444130002106066_122110768323503839",
+    "sec": "kawish",
+    "cat": "sindh",
+    "t": 1792422790
    }
   ]
  },
@@ -5061,9 +5070,9 @@
  },
  "ai_usage": {
   "date": "2026-10-19",
-  "ok": 125,
+  "ok": 128,
   "fail": 0,
-  "limit": 535
+  "limit": 537
  },
  "posted_heads": [
   {
@@ -5397,10 +5406,14 @@
   {
    "h": "مواضلات وزارت ٻه 222 ارب روپين جي ماليت جا ضابطن جوڳا منصوبا منظور",
    "t": 1792421826
+  },
+  {
+   "h": "پ پ ايم پي اِي سدائين آئين موجب لڳائي، دهشتگردن جو مقابلو ڪنداسين، اتفاق راءِ آهي ته نوان صوبا ناهن وڃڻ",
+   "t": 1792422791
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 20:01",
+  "time": "2026-10-19 20:13",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -5508,7 +5521,7 @@
   "text": 16,
   "story": 13
  },
- "ai_last_error": "19:53 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "20:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-19",
   "models": [
@@ -5522,13 +5535,13 @@
  },
  "img_diag": {
   "date": "2026-10-19",
-  "tried": 26,
+  "tried": 27,
   "gemini": 0,
   "pollinations": 15,
   "skip": 7,
-  "fail": 13,
-  "last_note": "pollinations HTTPSConnectionPool(host='image.pollinations.ai', port=443): Read timed out. (read timeout=90)",
-  "mismatch": 4
+  "fail": 14,
+  "last_note": "Pakistani constitutional books",
+  "mismatch": 6
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -5549,7 +5562,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 121,
+   "ok": 122,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -5557,7 +5570,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 116,
+   "ok": 117,
    "fail": 8,
    "items": 10,
    "fail_streak": 0,
@@ -5565,7 +5578,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 117,
+   "ok": 118,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -5573,35 +5586,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6257,13 +6270,13 @@
  "region_posts": {
   "date": "2026-10-19",
   "district": 5,
-  "sindh": 8,
+  "sindh": 9,
   "pakistan": 14
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 11,
+  "old": 11,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -6375,6 +6388,14 @@
    "t": 1792421825,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "ac02d9b04e551b62",
+   "h": "پ پ ايم پي اِي سدائين آئين موجب لڳائي، دهشتگردن جو مقابلو ڪنداسين، اتفاق راءِ آهي ته نوان صوبا ناهن وڃڻ",
+   "x": "پ پ ايم پي اِي سهيل آفريقي چيو آهي ته هنن هميشه آئين جي دفاع لاءِ جدوجهد ڪئي آهي. دهشتگردن سان هر سطح تي مقابلو ڪيو ويندو. هن چيو ته نوان صوبا ٺاهڻ بابت ڪو به اتفاق راءِ ناهի ۽ اهڙو ڪو ارادو ناهի! بيان: سهيل آفريقي (ايم پي اِي)",
+   "t": 1792422790,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -6384,18 +6405,6 @@
   ]
  },
  "kawish_queue": [
-  {
-   "key": "ac02d9b04e551b62",
-   "page": 1,
-   "head": "پ پ ايم پي اِي سدائين آئين موجب لڳائي، دهشتگردن جو مقابلو ڪنداسين، اتفاق راءِ آهي ته نوان صوبا ناهن وڃڻ",
-   "summary": "پ پ ايم پي اِي سهيل آفريقي چيو آهي ته هنن هميشه آئين جي دفاع لاءِ جدوجهد ڪئي آهي. دهشتگردن سان هر سطح تي مقابلو ڪيو ويندو. هن چيو ته نوان صوبا ٺاهڻ بابت ڪو به اتفاق راءِ ناهի ۽ اهڙو ڪو ارادو ناهի.",
-   "district": false,
-   "sensitive": false,
-   "confidence": "high",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-10-19&pageno=1",
-   "message": "📰 پ پ ايم پي اِي سدائين آئين موجب لڳائي، دهشتگردن جو مقابلو ڪنداسين، اتفاق راءِ آهي ته نوان صوبا ناهن وڃڻ\n\nپ پ ايم پي اِي سهيل آفريقي چيو آهي ته هنن هميشه آئين جي دفاع لاءِ جدوجهد ڪئي آهي. دهشتگردن سان هر سطح تي مقابلو ڪيو ويندو. هن چيو ته نوان صوبا ٺاهڻ بابت ڪو به اتفاق راءِ ناهի ۽ اهڙو ڪو ارادو ناهի!\n\n🗣️ بيان: سهيل آفريقي (ايم پي اِي)\n\n📌 ذريعو: روزاني ڪاوش (صفحو 1)\n\n📲 نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFeroze #Padidan #نوشهروفيروز #پڊعيدن",
-   "added_day": "2026-10-19"
-  },
   {
    "key": "4306eba4e52b02de",
    "page": 1,
@@ -6615,7 +6624,7 @@
  ],
  "kawish_post": {
   "date": "2026-10-19",
-  "count": 3,
-  "last": 1792421825.8038425
+  "count": 4,
+  "last": 1792422790.8862457
  }
 }
