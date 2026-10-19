@@ -992,8 +992,12 @@ def _ask_gemini(prompt, image=None, mime="image/jpeg"):
         models = discover_gemini_models()
 
 
-def ask_openrouter(prompt):
-    """OpenRouter ke free models (Gemma); JSON jawab. Na mile to None."""
+def ask_openrouter(prompt, image=None):
+    """OpenRouter ke free models (Gemma, tasveer bhi dekh sakta hai); JSON jawab. Na mile to None."""
+    content = prompt + "\nReturn only valid JSON."
+    if image:
+        content = [{"type": "text", "text": content},
+                   {"type": "image_url", "image_url": {"url": "data:image/jpeg;base64," + base64.b64encode(image).decode()}}]
     for model in CONFIG.get("openrouter_models", ["google/gemma-4-31b-it:free", "google/gemma-4-26b-a4b-it:free"]):
         try:
             r = requests.post("https://openrouter.ai/api/v1/chat/completions", timeout=90,
@@ -1002,7 +1006,7 @@ def ask_openrouter(prompt):
                                        "X-Title": "NF Updates"},
                               json={"model": model, "temperature": 0.3,
                                     "response_format": {"type": "json_object"},
-                                    "messages": [{"role": "user", "content": prompt + "\nReturn only valid JSON."}]})
+                                    "messages": [{"role": "user", "content": content}]})
             if r.status_code == 200:
                 txt = r.json()["choices"][0]["message"]["content"]
                 txt = txt[txt.find("{"): txt.rfind("}") + 1]
@@ -1767,21 +1771,49 @@ def _img_diag(key, note=None):
 
 
 def image_prompt_for(title, body):
-    """AI se khabar ke mutabiq ek mehfooz illustration ka English prompt; sensitive khabar par skip."""
-    if not (GEMINI_KEY or GROQ_KEY):
+    """AI se khabar ke mutabiq ek mehfooz, durust illustration ka English prompt + asal cheez (subject); sensitive par skip."""
+    if not (GEMINI_KEY or GROQ_KEY or OPENROUTER_KEY):
         return None
-    prompt = ("News (Sindhi): " + title + "\n" + body[:600] +
-              "\n\nWrite a short English prompt (max 40 words) for an illustration that helps readers picture this "
-              "news: the setting, objects and mood (e.g. a canal with farmers, a school classroom, a fuel station, "
-              "a cricket stadium, a rice field). Style: flat digital illustration, warm colors, Sindh/Pakistan setting. "
-              "No text, no letters, no logos, no flags, no real or famous people, no faces in close-up, no weapons, "
-              "no blood. Set skip=true if the news is about crime, death, accident, violence, disaster victims, "
-              "religion, politics of a named person or the military.\nReturn JSON: {\"prompt\": string, \"skip\": bool}")
-    out = ask_gemini(prompt) if GEMINI_KEY else ask_groq(prompt)
+    prompt = ("News (in Sindhi): " + title + "\n" + body[:700] +
+              "\n\nFirst understand exactly what this news is about. Then:\n"
+              "1) \"subject\": the ONE concrete thing a picture of this news must show, in 2-5 English words "
+              "(e.g. 'wheat crop and flour sacks', 'petrol pump fuel nozzle', 'cricket batsman', 'flooded village road', "
+              "'school classroom', 'electricity meter and bill', 'gold jewellery and rupee notes').\n"
+              "2) \"prompt\": an English image prompt (max 45 words) that STARTS with that subject, shown large and "
+              "clearly in the centre, then adds a few related objects and a real Sindh/Pakistan setting "
+              "(e.g. Sindh rural village, Karachi street, Sindhi farmer man in shalwar kameez and Sindhi topi). "
+              "Objects and places are better than people; if people appear, only small figures of men in local dress, "
+              "seen from a distance. Never a woman as the main subject, no romantic or fashion scenes, no sunsets "
+              "unless the news is about weather. No text, letters, logos, flags, real or famous people, weapons or blood.\n"
+              "Set skip=true if the news is about crime, death, accident, violence, disaster victims, religion, or "
+              "the military, or if no clear picture fits.\n"
+              "Return JSON: {\"subject\": string, \"prompt\": string, \"skip\": bool}")
+    out = ask_gemini(prompt) if GEMINI_KEY else (ask_openrouter(prompt) if OPENROUTER_KEY else ask_groq(prompt))
     if not isinstance(out, dict) or out.get("skip"):
         return None
     p_ = clean_text(str(out.get("prompt", "")))
-    return p_ if len(p_) > 10 else None
+    subj = clean_text(str(out.get("subject", "")))
+    if len(p_) < 10 or not p_.isascii():
+        return None
+    return {"prompt": p_, "subject": subj or p_[:60]}
+
+
+def image_matches(img_bytes, subject, title):
+    """Bani hui tasveer khabar se milti hai? AI aankh se check. Check na ho sake to None."""
+    q = ("This picture will be printed on a news card. News headline: " + title + "\nThe picture must clearly show: "
+         + subject + ".\nLook at the picture. Does it clearly and mainly show that subject in a way that fits the "
+         "news (not an unrelated scene, not a woman/fashion/romantic image, no visible text)? Answer strictly.\n"
+         "Return JSON: {\"match\": bool, \"shows\": string}")
+    res = None
+    if GEMINI_KEY:
+        res = _ask_gemini(q, image=img_bytes, mime="image/jpeg")
+    if not isinstance(res, dict) and OPENROUTER_KEY:
+        res = ask_openrouter(q, image=img_bytes)
+    if not isinstance(res, dict) or "match" not in res:
+        return None
+    if not res.get("match"):
+        log("tasveer khabar se nahi mili:", subject, "| dikhti hai:", str(res.get("shows", ""))[:80])
+    return bool(res.get("match"))
 
 
 def _image_models():
@@ -1806,11 +1838,12 @@ def news_image(title, body):
     if blocked_reason(title + " " + body) or keyword_sensitive(title + " " + body):
         _img_diag("skip")
         return None
-    ip = image_prompt_for(title, body)
-    if not ip:
+    ipd = image_prompt_for(title, body)
+    if not ipd:
         _img_diag("skip")
         return None
-    full = ip + ", flat digital illustration, no text, no letters"
+    ip, subject = ipd["prompt"], ipd["subject"]
+    full = ip + ", clear detailed digital illustration, news editorial style, no text, no letters"
     import tempfile
     out = os.path.join(tempfile.mkdtemp(), "news.jpg")
     gi = S.setdefault("gemini_img", {"date": "", "models": []})
@@ -1836,18 +1869,29 @@ def news_image(title, body):
             except Exception as e:
                 _img_diag("fail", f"gemini {m} {e}")
     if cfg.get("pollinations", True):
-        try:
-            url = "https://image.pollinations.ai/prompt/" + quote_plus(full)
-            r = requests.get(url, timeout=90, headers=UA, params={"width": 1080, "height": 640, "nologo": "true",
-                                                                 "seed": random.randint(1, 99999)})
-            if r.status_code == 200 and r.headers.get("content-type", "").startswith("image") and len(r.content) > 8000:
+        for attempt in range(cfg.get("tries", 2)):
+            try:
+                url = "https://image.pollinations.ai/prompt/" + quote_plus(full)
+                r = requests.get(url, timeout=90, headers=UA, params={"width": 1080, "height": 640, "nologo": "true",
+                                                                     "model": cfg.get("model", "flux"),
+                                                                     "seed": random.randint(1, 99999)})
+                if not (r.status_code == 200 and r.headers.get("content-type", "").startswith("image")
+                        and len(r.content) > 8000):
+                    _img_diag("fail", f"pollinations {r.status_code} {r.headers.get('content-type', '')} {len(r.content)}")
+                    continue
+                ok = image_matches(r.content, subject, title) if cfg.get("verify", True) else True
+                if ok is False:
+                    _img_diag("mismatch", subject)
+                    continue  # khabar se nahi mili: nayi tasveer
+                if ok is None and cfg.get("require_verify", True):
+                    _img_diag("unverified")
+                    return None  # check na ho saka: ghalat tasveer se behtar baghair tasveer
                 with open(out, "wb") as f:
                     f.write(r.content)
                 _img_diag("pollinations")
                 return out
-            _img_diag("fail", f"pollinations {r.status_code} {r.headers.get('content-type', '')} {len(r.content)}")
-        except Exception as e:
-            _img_diag("fail", f"pollinations {e}")
+            except Exception as e:
+                _img_diag("fail", f"pollinations {e}")
     return None
 
 

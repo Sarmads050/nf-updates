@@ -868,7 +868,11 @@
     "enabled": true,
     "gemini": false,
     "pollinations": true,
-    "ai_label": false
+    "ai_label": false,
+    "verify": true,
+    "require_verify": true,
+    "tries": 2,
+    "model": "flux"
   },
   "openrouter_models": [
     "google/gemma-4-31b-it:free",
