@@ -1782,9 +1782,8 @@ def image_prompt_for(title, body):
               "2) \"prompt\": an English image prompt (max 45 words) that STARTS with that subject, shown large and "
               "clearly in the centre, then adds a few related objects and a real Sindh/Pakistan setting "
               "(e.g. Sindh rural village, Karachi street, Sindhi farmer man in shalwar kameez and Sindhi topi). "
-              "Objects and places are better than people; if people appear, only small figures of men in local dress, "
-              "seen from a distance. Never a woman as the main subject, no romantic or fashion scenes, no sunsets "
-              "unless the news is about weather. No text, letters, logos, flags, real or famous people, weapons or blood.\n"
+              "Show ONLY objects and places, with NO people at all (write 'no people' in the prompt), except for sports "
+              "news where small distant players are fine. No sunsets unless the news is about weather. No text, letters, logos, flags, real or famous people, weapons or blood.\n"
               "Set skip=true if the news is about crime, death, accident, violence, disaster victims, religion, or "
               "the military, or if no clear picture fits.\n"
               "Return JSON: {\"subject\": string, \"prompt\": string, \"skip\": bool}")
@@ -1804,8 +1803,8 @@ def image_matches(img_bytes, subject, title):
          ".\nLook at the picture. match=true if an ordinary reader would clearly connect this picture with the news "
          "topic: its main thing is visible (it does NOT need every object of the ideal subject; e.g. a wheat field is "
          "fine for wheat-price news, a fuel pump or petrol station for fuel-price news). match=false if it shows an "
-         "unrelated scene, a woman/fashion/romantic image, a sunset/landscape with no link to the topic, distorted "
-         "nonsense, or visible text.\nReturn JSON: {\"match\": bool, \"shows\": string}")
+         "unrelated scene, a large human figure as the main element (unless it is sports news), a woman/fashion/romantic "
+         "image, a sunset/landscape with no link to the topic, distorted nonsense, or visible text.\nReturn JSON: {\"match\": bool, \"shows\": string}")
     res = None
     if GEMINI_KEY:
         res = _ask_gemini(q, image=img_bytes, mime="image/jpeg")
