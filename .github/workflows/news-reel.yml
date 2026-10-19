@@ -1,0 +1,60 @@
+name: News reel
+
+on:
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "Waqt ka naam (bot khud bharta hai)"
+        default: "manual"
+      dry_run:
+        description: "true = sirf Telegram par namoona, false = Facebook par Reel"
+        default: "true"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: news-reel
+  cancel-in-progress: false
+
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install --quiet -r requirements.txt numpy scipy pillow
+      - name: Make reel
+        run: python voice/reel.py
+        env:
+          TZ: Asia/Karachi
+          REEL_DRY: ${{ github.event.inputs.dry_run || 'true' }}
+          REEL_SLOT: ${{ github.event.inputs.slot }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - name: Istemal hui khabrein yaad rakho
+        if: ${{ github.event.inputs.dry_run == 'false' }}
+        run: |
+          git config user.name "nf-updates-bot"
+          git config user.email "nf-updates-bot@users.noreply.github.com"
+          git add voice/reels.json
+          git commit -m "reel used list [skip ci]" || exit 0
+          for i in 1 2 3 4; do git pull --rebase origin main && git push && break; sleep 7; done
+      - name: Frames check ke liye (reel-check branch)
+        if: always()
+        run: |
+          [ -f voice/out/reel.mp4 ] || exit 0
+          mkdir -p /tmp/rc && cp voice/out/frame*.jpg voice/out/reel.mp4 /tmp/rc/ 2>/dev/null || true
+          export GIT_INDEX_FILE=/tmp/rcidx
+          git --work-tree=/tmp/rc add -A
+          git push -f origin $(git commit-tree $(git write-tree) -m "reel check"):refs/heads/reel-check

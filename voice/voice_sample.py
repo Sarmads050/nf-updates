@@ -6,7 +6,8 @@ import requests
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "out")
 os.makedirs(OUT, exist_ok=True)
-PARAS = [p.strip() for p in open(os.path.join(HERE, "script_sd.txt"), encoding="utf-8").read().split("\n\n") if p.strip()]
+PARAS = [p.strip() for p in open(os.path.join(HERE, "script_sd.txt"), encoding="utf-8").read().split("\n\n") if p.strip()] \
+    if os.path.exists(os.path.join(HERE, "script_sd.txt")) else []
 LOG = []
 RATE = 24000
 STYLE = ("You are a professional Pakistani TV news anchor reading the Sindhi news bulletin on a Sindhi news channel "
@@ -251,8 +252,9 @@ def main():
                           files={"audio": ("Sindhi_News_Bulletin.mp3", f, "audio/mpeg")})
 
 
-try:
-    main()
-except Exception:
-    log("FAILED:", traceback.format_exc()[-800:])
-open(os.path.join(OUT, "log.txt"), "w", encoding="utf-8").write("\n".join(LOG))
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception:
+        log("FAILED:", traceback.format_exc()[-800:])
+    open(os.path.join(OUT, "log.txt"), "w", encoding="utf-8").write("\n".join(LOG))
