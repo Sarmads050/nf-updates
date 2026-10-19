@@ -955,7 +955,13 @@
   "3f78b2a6b14dc381": 1792396915.6587005,
   "1182acc5ba4ad8af": 1792396915.6587021,
   "4c88d0ccba099df6": 1792398237.957594,
-  "02ff07644bfc10c6": 1792398237.9578228
+  "02ff07644bfc10c6": 1792398237.9578228,
+  "8145adde3fa765c9": 1792399248.8306177,
+  "75a8737307d9f6c0": 1792399285.1271617,
+  "f3ce8cac5f9b25fa": 1792399285.1271648,
+  "845ab930cf1d916c": 1792399285.1271663,
+  "9d7aecf0cc937791": 1792399285.127167,
+  "0ff40e9455ca13e1": 1792399285.1271687
  },
  "pending": {},
  "queue": [],
@@ -1041,17 +1047,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110616541503839",
+ "last_post_id": "1444130002106066_122110621719503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109878067503839",
-   "title": "پاڪستاني ڪريٽ ٽيم جي ايندڙ ون ڊيٽرائي سيريز جي تيارين دوران شاهين آفريدي بابر اعظم، آغا",
-   "t": 1792286478.6874692,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109878067503839"
-  },
   {
    "id": "1444130002106066_122109919203503839",
    "title": "لاهور سميت پنجاب جي مختلف علائقن ۾ وڌيڪ برساتن ۽ برسات جو امڪان ظاهر ڪيو ويو آهي",
@@ -1330,6 +1327,18 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110616541503839"
+  },
+  {
+   "id": "1444130002106066_122110621719503839",
+   "title": "گهوٽڪي ويجهو مسافر بس ۽ ٽرالر ۾ ٽڪر، 34 ڄڻا زخمي",
+   "t": 1792399307.5801945,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110621719503839"
   }
  ],
  "share_sent": {
@@ -1428,7 +1437,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 13:30",
+  "time": "2026-10-19 13:41",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1443,8 +1452,8 @@
  },
  "all_posts": {
   "date": "2026-10-19",
-  "count": 9,
-  "last": 1792398293.2243807
+  "count": 10,
+  "last": 1792399301.0709012
  },
  "perf": {
   "posts": [
@@ -2485,6 +2494,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792398299
+   },
+   {
+    "id": "1444130002106066_122110621719503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1792399307
    }
   ]
  },
@@ -4373,15 +4388,11 @@
  },
  "ai_usage": {
   "date": "2026-10-19",
-  "ok": 22,
+  "ok": 24,
   "fail": 0,
   "limit": 387
  },
  "posted_heads": [
-  {
-   "h": "Pakistan posts $356m current account deficit in Sept 2026",
-   "t": 1792172535
-  },
   {
    "h": "PTA Orders Telcos to Fix Network Issues",
    "t": 1792174911
@@ -4697,10 +4708,14 @@
   {
    "h": "Agha fixes leg alignment to rediscover scoring touch",
    "t": 1792398299
+  },
+  {
+   "h": "گهوٽڪي: مسافر بس ۽ ٽرالر ۾ ٽڪر، 34 پانڌيئڙا زخمي، 4 ڄڻن جي حالت ڳڻتي جوڳي",
+   "t": 1792399307
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 13:31",
+  "time": "2026-10-19 13:41",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -4822,10 +4837,10 @@
  },
  "img_diag": {
   "date": "2026-10-19",
-  "tried": 8,
+  "tried": 9,
   "gemini": 0,
   "pollinations": 5,
-  "skip": 3,
+  "skip": 4,
   "fail": 0,
   "last_note": "gemini gemini-2.5-flash-image 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your p"
  },
@@ -4848,7 +4863,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 83,
+   "ok": 84,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -4856,7 +4871,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 78,
+   "ok": 79,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -4864,7 +4879,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 79,
+   "ok": 80,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -4872,35 +4887,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -5177,13 +5192,13 @@
  "region_posts": {
   "date": "2026-10-19",
   "district": 0,
-  "sindh": 2,
+  "sindh": 3,
   "pakistan": 6
  },
  "report_acc": {
-  "posted": 1,
-  "found": 9,
-  "old": 9,
+  "posted": 2,
+  "found": 12,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -5204,7 +5219,8 @@
  },
  "sindh_stream": {
   "date": "2026-10-19",
-  "count": 1,
-  "last": 1792396871.4826949
+  "count": 2,
+  "last": 1792399257.149129,
+  "city_i": 4
  }
 }
