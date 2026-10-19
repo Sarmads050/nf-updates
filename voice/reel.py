@@ -349,6 +349,9 @@ def main():
     n = cfg.get("stories_per_reel", 3)
     now = dt.datetime.now(TZ)
     stories, used = pick_stories(n)
+    if len(stories) < 2 and DRY:  # test: pool khaali ho to purani namoona khabrein
+        smp = json.load(open(os.path.join(HERE, "stories.json"), encoding="utf-8"))[:n]
+        stories = [{"k": bot.item_key(x["head"]), "h": x["head"], "x": x["summary"], "t": time.time()} for x in smp]
     log("stories", len(stories), [s["h"][:50] for s in stories])
     if len(stories) < 2:
         log("khabrein kam hain, reel nahi bani")
