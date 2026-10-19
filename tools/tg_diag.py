@@ -5,11 +5,12 @@ s = json.load(open("state.json"))
 B = f"https://api.telegram.org/bot{T}/"
 out = {}
 for m, p in (("getMe", {}), ("getWebhookInfo", {}),
-             ("getUpdates", {"offset": s.get("tg_offset"), "timeout": 0, "allowed_updates": json.dumps(["callback_query", "message"])})):
+             ("getUpdates", {"offset": s.get("tg_offset"), "timeout": 0, "allowed_updates": json.dumps(["callback_query", "message"])}),
+             ("getUpdates_all", {"timeout": 0})):
     try:
-        r = requests.get(B + m, params=p, timeout=30)
+        r = requests.get(B + m.split("_")[0], params=p, timeout=30)
         j = r.json()
-        if m == "getUpdates" and j.get("ok"):
+        if m.startswith("getUpdates") and j.get("ok"):
             j = {"ok": True, "count": len(j["result"]),
                  "items": [{"id": u["update_id"], "kind": [k for k in u if k != "update_id"],
                             "data": (u.get("callback_query") or {}).get("data")} for u in j["result"]]}
