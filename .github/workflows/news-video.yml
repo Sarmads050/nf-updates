@@ -2,9 +2,7 @@ name: News bulletin video
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - "voice/news_video.py"
+  # push trigger band: video plan backup mein hai (sirf haath se "Run workflow" se chalega)
 
 permissions:
   contents: write

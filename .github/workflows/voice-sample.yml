@@ -2,10 +2,7 @@ name: Voice sample (Sindhi news)
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - "voice/script_sd.txt"
-      - "voice/voice_sample.py"
+  # push trigger band: video plan backup mein hai (sirf haath se "Run workflow" se chalega)
 
 permissions:
   contents: write
