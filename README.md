@@ -220,3 +220,10 @@ Aur `hashtags` mein naye tags. Code badalne ki zaroorat nahi.
 - `priority_cities`: 22 shehar usi tarteeb se (Naushahro Feroze → ... → Jam Nawaz Ali). Sindh dhaara pehle list ke sab se oopar wale shehar ki khabar uthati hai; kisi shehar ki na ho to baqi Sindh.
 - Har run mein 4 shehron ki Google News (Urdu + English) talaash baari baari; Sindhi akhbaron ke saath.
 - Pakistan ki khabar sirf tab jab Sindh ki khabrein khatam hon (`sindh_dry_minutes`) ya Sindh ~2.3 guna aage ho.
+
+## Reels (din mein 5)
+- Waqt (PK): 09:30, 12:30, 15:30, 18:30, 21:30 — bot (autopost) waqt aane par `news-reel.yml` chalata hai.
+- Har reel: 3 taaza post hui khabrein (pehle tarjeehi shehar), Sindhi anchor awaz (Gemini TTS), apna news music,
+  check ki hui AI tasveer, 1080x1920 news screen, ~1 minute. Facebook Reels API se page par; Telegram par link.
+- Istemal hui khabrein `voice/reels.json` mein (dobara nahi). Test: workflow "News reel" haath se, dry_run=true.
+- Band karna: config.json `reels.enabled: false`.
