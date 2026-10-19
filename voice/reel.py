@@ -39,6 +39,8 @@ E = html.escape
 
 def log(*a):
     print(*a, flush=True)
+    with open(os.path.join(OUTD, "reel_log.txt"), "a", encoding="utf-8") as f:
+        f.write(" ".join(str(x) for x in a) + "\n")
 
 
 def tg(method, data=None, files=None):

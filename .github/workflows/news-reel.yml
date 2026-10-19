@@ -53,8 +53,8 @@ jobs:
       - name: Frames check ke liye (reel-check branch)
         if: always()
         run: |
-          [ -f voice/out/reel.mp4 ] || exit 0
-          mkdir -p /tmp/rc && cp voice/out/frame*.jpg voice/out/reel.mp4 /tmp/rc/ 2>/dev/null || true
+          mkdir -p /tmp/rc && cp voice/out/frame*.jpg voice/out/reel.mp4 voice/out/reel_log.txt /tmp/rc/ 2>/dev/null || true
+          ls /tmp/rc | grep -q . || exit 0
           export GIT_INDEX_FILE=/tmp/rcidx
           git --work-tree=/tmp/rc add -A
           git push -f origin $(git commit-tree $(git write-tree) -m "reel check"):refs/heads/reel-check
