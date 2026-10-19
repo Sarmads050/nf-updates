@@ -980,7 +980,13 @@
   "f9e371f21a77c16d": 1792404098.1097467,
   "abc0b55a11580cc7": 1792404098.109748,
   "105d09999c1cd23d": 1792404098.109749,
-  "6d8e53b31da806a9": 1792404098.1100514
+  "6d8e53b31da806a9": 1792404098.1100514,
+  "dec4844f043c2f88": 1792405269.8930376,
+  "46f190c625d7691d": 1792405269.8930407,
+  "b7837b63c59307d9": 1792405269.8930418,
+  "e4b4a26d19f8436c": 1792405269.8930423,
+  "fcdb5976840be2fd": 1792405269.8930433,
+  "3f419ec259f1d7ec": 1792405269.8932633
  },
  "pending": {
   "a7e1ddea0001f8de": {
@@ -1078,19 +1084,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110653711503839",
+ "last_post_id": "1444130002106066_122110660797503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109942195503839",
-   "title": "اڄ جون نوڪريون (نوشهروفيروز ۽ سنڌ)",
-   "t": 1792296081.4817612,
-   "tags": [
-    "jobs",
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109942195503839"
-  },
   {
    "id": "1444130002106066_122109956553503839",
    "title": "پاڪستان ڪرڪيٽ ٽيم جي آئرلينڊ دوري جا ميچز ۽ شيڊول سامهون اچي ويو آهي",
@@ -1369,6 +1364,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110653711503839"
+  },
+  {
+   "id": "1444130002106066_122110660797503839",
+   "title": "قومي ڪرڪيٽ ٽيم شاندار سوڀ ماڻيندي ميچ پنهنجي نالي ڪري ورتي جنهن ۾ سلمان آغا ۽ شاهين",
+   "t": 1792405396.054696,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110660797503839"
   }
  ],
  "share_sent": {
@@ -1452,8 +1456,8 @@
  },
  "cricket_news": {
   "date": "2026-10-19",
-  "count": 4,
-  "last": 1792401793.1398897
+  "count": 5,
+  "last": 1792405396.0543408
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -1467,7 +1471,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 15:10",
+  "time": "2026-10-19 15:23",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1482,8 +1486,8 @@
  },
  "all_posts": {
   "date": "2026-10-19",
-  "count": 13,
-  "last": 1792404113.268237
+  "count": 14,
+  "last": 1792405389.5893295
  },
  "perf": {
   "posts": [
@@ -2548,6 +2552,12 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1792404119
+   },
+   {
+    "id": "1444130002106066_122110660797503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792405396
    }
   ]
  },
@@ -4500,15 +4510,11 @@
  },
  "ai_usage": {
   "date": "2026-10-19",
-  "ok": 38,
+  "ok": 42,
   "fail": 0,
-  "limit": 409
+  "limit": 415
  },
  "posted_heads": [
-  {
-   "h": "Pakistan eyes $700 million meat export target as government launches sector overhaul",
-   "t": 1792179770
-  },
   {
    "h": "Govt cuts petrol price by Rs3.93 to Rs386.30 per litre, keeps diesel unchanged",
    "t": 1792182077
@@ -4824,10 +4830,14 @@
   {
    "h": "Farmers stage demos for higher wheat support price",
    "t": 1792404119
+  },
+  {
+   "h": "Agha, Shaheen star in Pakistan’s solid win",
+   "t": 1792405396
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 15:10",
+  "time": "2026-10-19 15:23",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -4930,12 +4940,12 @@
  },
  "article_diag": {
   "date": "2026-10-19",
-  "tried": 9,
-  "decoded": 9,
-  "text": 8,
-  "story": 7
+  "tried": 10,
+  "decoded": 10,
+  "text": 9,
+  "story": 8
  },
- "ai_last_error": "15:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "15:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-19",
   "models": [
@@ -4949,13 +4959,13 @@
  },
  "img_diag": {
   "date": "2026-10-19",
-  "tried": 12,
+  "tried": 13,
   "gemini": 0,
   "pollinations": 6,
   "skip": 5,
-  "fail": 2,
-  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
-  "mismatch": 1
+  "fail": 4,
+  "last_note": "cricket bat and ball",
+  "mismatch": 2
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -4976,7 +4986,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 93,
+   "ok": 94,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -4984,7 +4994,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 88,
+   "ok": 89,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -4992,7 +5002,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 89,
+   "ok": 90,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -5000,35 +5010,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -5306,12 +5316,12 @@
   "date": "2026-10-19",
   "district": 0,
   "sindh": 3,
-  "pakistan": 9
+  "pakistan": 10
  },
  "report_acc": {
-  "posted": 0,
-  "found": 3,
-  "old": 3,
+  "posted": 1,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -5334,8 +5344,8 @@
   "date": "2026-10-19",
   "count": 2,
   "last": 1792402863.1891465,
-  "city_i": 20,
-  "dry": 1792404076.294628
+  "city_i": 24,
+  "dry": 1792405259.6869533
  },
  "gemini_day_dead": {
   "day": "2026-10-19",
