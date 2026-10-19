@@ -162,6 +162,12 @@ def process_telegram():
     res = tg("getUpdates", timeout=0, allowed_updates=["callback_query", "message"])
     done = S.setdefault("tg_done", [])
     items = res.get("result", [])
+    # Har round ka record: Telegram ne kya diya (clicks gum hon to pata chale kahan)
+    dbg = S.setdefault("tg_debug", [])
+    dbg.append({"t": now().strftime("%m-%d %H:%M"), "ok": bool(res.get("ok")), "n": len(items),
+                "ids": [u.get("update_id") for u in items][:10],
+                "err": None if res.get("ok") else str(res.get("description") or res)[:120]})
+    S["tg_debug"] = dbg[-40:]
     if items:
         S["tg_offset"] = max(u["update_id"] for u in items) + 1
     for u in items:
