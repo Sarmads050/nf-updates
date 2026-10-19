@@ -1151,7 +1151,8 @@
   "92208c49758e36eb": 1792447297.3258898,
   "41460d469679c6be": 1792450281.8532736,
   "917e0328165deb66": 1792450281.853277,
-  "705502346a5e0e12": 1792450281.8534822
+  "705502346a5e0e12": 1792450281.8534822,
+  "806f266e359723cf": 1792453861.0014865
  },
  "pending": {
   "f23b0b6ba00324c6": {
@@ -1333,20 +1334,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110946577503839",
+ "last_post_id": "1444130002106066_122110959753503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110768323503839",
-   "title": "پ پ ايم پي اِي سدائين آئين موجب لڳائي، دهشتگردن جو مقابلو ڪنداسين، اتفاق راءِ آهي ته نوان",
-   "t": 1792422790.8864741,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110768323503839"
-  },
   {
    "id": "1444130002106066_122110773513503839",
    "title": "ٽنڊو محمد خان ۾ ڌاڙيلن جي فائرنگ، 2 پوليس اهلڪار زخمي",
@@ -1645,6 +1634,16 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110946577503839"
+  },
+  {
+   "id": "1444130002106066_122110959753503839",
+   "title": "عالمي مارڪيٽ ۾ اگهه لڙڪڻ باوجود ملڪ ۾ سون جو اگهه مستحڪم رهيو",
+   "t": 1792453985.2804778,
+   "tags": [
+    "business",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110959753503839"
   }
  ],
  "share_sent": {
@@ -1751,7 +1750,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 04:41",
+  "time": "2026-10-20 04:53",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1766,8 +1765,8 @@
  },
  "all_posts": {
   "date": "2026-10-20",
-  "count": 4,
-  "last": 1792450314.388229
+  "count": 5,
+  "last": 1792453977.6689525
  },
  "perf": {
   "posts": [
@@ -3096,13 +3095,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792450327
+   },
+   {
+    "id": "1444130002106066_122110959753503839",
+    "sec": "public_news",
+    "cat": "dollar_gold_business",
+    "t": 1792453985
    }
   ]
  },
  "public_news": {
   "date": "2026-10-20",
-  "count": 0,
-  "last": 1792417948.7383332
+  "count": 1,
+  "last": 1792453985.2802663
  },
  "trends": {
   "last": 1792449058.5729756,
@@ -5280,15 +5285,11 @@
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 20,
+  "ok": 26,
   "fail": 2,
-  "limit": 28
+  "limit": 34
  },
  "posted_heads": [
-  {
-   "h": "More rains likely in Peshawar, Khyber Pakhtunkhwa",
-   "t": 1792221715
-  },
   {
    "h": "FBR chairman orders time-bound procedure to expedite income tax refunds",
    "t": 1792223479
@@ -5604,10 +5605,14 @@
   {
    "h": "PAKISTAN AND SRI LANKA FINED FOR SLOW OVER-RATES",
    "t": 1792450327
+  },
+  {
+   "h": "Gold flat as international prices slip",
+   "t": 1792453985
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 04:41",
+  "time": "2026-10-20 04:53",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -5710,12 +5715,12 @@
  },
  "article_diag": {
   "date": "2026-10-20",
-  "tried": 2,
-  "decoded": 2,
-  "text": 1,
-  "story": 1
+  "tried": 3,
+  "decoded": 3,
+  "text": 2,
+  "story": 2
  },
- "ai_last_error": "03:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "04:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -5729,13 +5734,13 @@
  },
  "img_diag": {
   "date": "2026-10-20",
-  "tried": 4,
+  "tried": 5,
   "gemini": 0,
-  "pollinations": 2,
+  "pollinations": 3,
   "skip": 1,
   "fail": 1,
-  "last_note": "cricket trophy and bat",
-  "mismatch": 9
+  "last_note": "gold jewellery and currency notes",
+  "mismatch": 11
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -5756,7 +5761,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -5764,7 +5769,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 29,
+   "ok": 30,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -5772,7 +5777,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 29,
+   "ok": 30,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -5780,35 +5785,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6465,12 +6470,12 @@
   "date": "2026-10-20",
   "district": 0,
   "sindh": 2,
-  "pakistan": 2
+  "pakistan": 3
  },
  "report_acc": {
-  "posted": 0,
-  "found": 36,
-  "old": 36,
+  "posted": 1,
+  "found": 45,
+  "old": 45,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -6494,8 +6499,8 @@
   "date": "2026-10-20",
   "count": 2,
   "last": 1792443674.1565475,
-  "city_i": 18,
-  "dry": 1792453257.162986
+  "city_i": 22,
+  "dry": 1792453856.7071757
  },
  "gemini_day_dead": {
   "day": "2026-10-19",
@@ -6845,6 +6850,14 @@
    "t": 1792450327,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "db7256f4c0bf911f",
+   "h": "عالمي مارڪيٽ ۾ اگهه سست، سون برقرار",
+   "x": "ڪراچي ۾ سومر جي ڏينهن عالمي مارڪيٽ ۾ سون جي قيمتن ۾ گهٽ باوجود مقامي سطح تي سون جو اگھ مستحڪم رهيو. آل پاڪستان جيمز اينڊ جيويلرز سرافا ايسوسيئيشن موجب مقامي مارڪيٽ ۾ سون جو اگهه 439,036 روپيا في توله تي برقرار رهيو. عالمي مارڪيٽ ۾ اسپاٽ گولڊ 0.5 سيڪڙو گهٽجي 4,143.91 ڊالر في اونس ٿي ويو. آمريڪي ڊالر جي قيمت ۾ واڌ ۽ ٽريژري پيداوار وڌڻ سبب عالمي سطح تي سون تي دٻاءُ آيو. آمريڪي مرڪزي بئنڪ جي ايندڙ پاليسي فيصلي جي اڳيان سيڙپڪارن احتياط مان ڪم ورتو. ان دوران پاڪستاني رپئي جي مقابلي ۾ آمريڪي ڊالر جي سامهون معمولي بهتري آئي!",
+   "t": 1792453985,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -6858,13 +6871,6 @@
   "last": 1792426953.7977092
  },
  "tg_debug": [
-  {
-   "t": "10-19 22:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-19 22:30",
    "ok": true,
@@ -7133,6 +7139,13 @@
   },
   {
    "t": "10-20 04:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 04:50",
    "ok": true,
    "n": 0,
    "ids": [],
