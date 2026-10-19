@@ -1007,7 +1007,10 @@
   "204a5f1531c46993": 1792410083.8505387,
   "245de73ed95cdef7": 1792410647.6281776,
   "8e573bddad02ce7b": 1792410670.875659,
-  "c4e0fcd01e48b97a": 1792410670.875846
+  "c4e0fcd01e48b97a": 1792410670.875846,
+  "5a52d37c0603fd98": 1792411849.0490205,
+  "5b175ddad3bd0aab": 1792411871.528629,
+  "9e3f27dd0259ecf9": 1792411871.5286326
  },
  "pending": {},
  "queue": [],
@@ -1094,17 +1097,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110690983503839",
+ "last_post_id": "1444130002106066_122110697847503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110008975503839",
-   "title": "پاڪستان جي ڪرڪيٽ ٽيم اڄ ٽاءِ سيريز جي پهرين ميچ ۾ سري لنڪا خلاف ميدان تي لهندي",
-   "t": 1792305686.897491,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110008975503839"
-  },
   {
    "id": "1444130002106066_122110017135503839",
    "title": "ڊينگي جي وڌندڙ ڪيسن کي نظر ۾ رکندي اختيارين مريضن کي بهتر طبي سهولتون ڏيڻ ۽ بيماري تي",
@@ -1385,6 +1379,18 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110690983503839"
+  },
+  {
+   "id": "1444130002106066_122110697847503839",
+   "title": "سنڌ خلاف سموريون سازشون ناڪام ٿينديون: عامر نواز وڙائچ",
+   "t": 1792411898.458886,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110697847503839"
   }
  ],
  "share_sent": {
@@ -1487,7 +1493,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 17:01",
+  "time": "2026-10-19 17:11",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1502,8 +1508,8 @@
  },
  "all_posts": {
   "date": "2026-10-19",
-  "count": 19,
-  "last": 1792410817.2283382
+  "count": 20,
+  "last": 1792411887.8371346
  },
  "perf": {
   "posts": [
@@ -2604,6 +2610,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792410821
+   },
+   {
+    "id": "1444130002106066_122110697847503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1792411898
    }
   ]
  },
@@ -4556,15 +4568,11 @@
  },
  "ai_usage": {
   "date": "2026-10-19",
-  "ok": 77,
+  "ok": 81,
   "fail": 0,
-  "limit": 475
+  "limit": 481
  },
  "posted_heads": [
-  {
-   "h": "Pakistan seeks closer ties with CIMMYT to boost wheat production",
-   "t": 1792189930
-  },
   {
    "h": "Weekly SPI inflation down 0.04pc",
    "t": 1792195311
@@ -4880,10 +4888,14 @@
   {
    "h": "Pakistan women set for ICC Emerging Nations Trophy in Bangkok next month",
    "t": 1792410821
+  },
+  {
+   "h": "سنڌ خلاف سموريون سازشون ناڪام ٿينديون: عامر نواز وڙائچ",
+   "t": 1792411898
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 17:01",
+  "time": "2026-10-19 17:11",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -4991,7 +5003,7 @@
   "text": 13,
   "story": 12
  },
- "ai_last_error": "16:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "17:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-19",
   "models": [
@@ -5005,9 +5017,9 @@
  },
  "img_diag": {
   "date": "2026-10-19",
-  "tried": 18,
+  "tried": 19,
   "gemini": 0,
-  "pollinations": 9,
+  "pollinations": 10,
   "skip": 6,
   "fail": 7,
   "last_note": "pollinations 402 {\"status\":402,\"success\":false,\"error\":{\"code\":\"FREE_LIMIT\",\"message\":\"Free limit reached: 1 image every 45 seconds per I",
@@ -5032,7 +5044,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 104,
+   "ok": 105,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -5040,7 +5052,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 99,
+   "ok": 100,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -5048,7 +5060,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 100,
+   "ok": 101,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -5056,35 +5068,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -5361,14 +5373,14 @@
  "region_posts": {
   "date": "2026-10-19",
   "district": 3,
-  "sindh": 4,
+  "sindh": 5,
   "pakistan": 11
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
-  "irrelevant": 0,
+  "posted": 1,
+  "found": 12,
+  "old": 11,
+  "irrelevant": 1,
   "blocked": 0,
   "errors": []
  },
@@ -5388,9 +5400,9 @@
  },
  "sindh_stream": {
   "date": "2026-10-19",
-  "count": 4,
-  "last": 1792410061.6889498,
-  "city_i": 14,
+  "count": 5,
+  "last": 1792411870.2777267,
+  "city_i": 18,
   "dry": 1792410062.9877017
  },
  "gemini_day_dead": {
@@ -5415,6 +5427,18 @@
    "t": 1792410821,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "9e3f27dd0259ecf9",
+   "h": "سنڌ خلاف سموريون سازشون ناڪام ٿينديون: عامر نواز وڙائچ",
+   "x": "ڪراچي بار ايسوسيئيشن جي صدر عامر نواز وڙائچ چيو آهي ته ٻٻرلوءِ کان نڪتل ڌرتي مارچ ڪراچي پريس ڪلب پهچي ختم ٿي ويندو. هن حيدرآباد ۾ ڌرتي مارچ کي خطاب ڪندي چيو ته سنڌ خلاف ٿيندڙ سموريون سازشون ناڪام ٿينديون. هن وڌيڪ چيو ته ڌرتي مارچ ذريعي عوام کي آگاهي ڏيڻ ۾ ڪامياب ٿيا آهيون! بيان: ڪراچي بار ايسوسيئيشن جو صدر عامر نواز وڙائچ",
+   "t": 1792411898,
+   "s": false,
+   "r": 0
   }
- ]
+ ],
+ "reels": {
+  "date": "2026-10-19",
+  "done": []
+ }
 }
