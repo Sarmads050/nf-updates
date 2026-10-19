@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   test:
@@ -21,7 +21,10 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-      - uses: actions/upload-artifact@v4
-        with:
-          name: image-test
-          path: out/
+      - name: Nateeja alag branch par (image-test)
+        run: |
+          git config user.name "nf-bot"; git config user.email "nf-bot@users.noreply.github.com"
+          export GIT_INDEX_FILE=/tmp/idx
+          git --work-tree=out add -A
+          c=$(git commit-tree $(git write-tree) -m "image test")
+          git push -f origin $c:refs/heads/image-test
