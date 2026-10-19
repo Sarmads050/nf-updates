@@ -201,13 +201,13 @@ def text_panel(it, i):
     """Tasveer na bane to: page ka cover halka (transparent) pas-manzar mein, oopar khabar Sindhi mein likhi hui."""
     cover = page_cover()
     bg = (f'<img src="file://{cover}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;'
-          f'opacity:.30;filter:blur(1px)">') if cover else ""
+          f'opacity:.20;filter:blur(4px)">') if cover else ""
     logo = "file://" + os.path.join(HERE, "assets", "logo.png")
     body = E(it.get("say") or it.get("line") or "")
     out = nv.png(f"""
       <div style="position:absolute;inset:0;background:linear-gradient(160deg,#14213D 0%,#1f2f57 60%,#5a1620 100%)"></div>
       {bg}
-      <div style="position:absolute;inset:0;background:linear-gradient(to bottom,rgba(20,33,61,.35),rgba(20,33,61,.55))"></div>
+      <div style="position:absolute;inset:0;background:linear-gradient(to bottom,rgba(20,33,61,.45),rgba(20,33,61,.65))"></div>
       <img src="{logo}" style="position:absolute;top:34px;right:40px;width:110px;height:110px;border-radius:50%;
         border:4px solid #F4EFE6;opacity:.95">
       <div style="position:absolute;left:60px;right:60px;top:170px;bottom:60px;direction:rtl;display:flex;
