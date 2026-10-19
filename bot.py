@@ -190,6 +190,12 @@ def process_telegram():
                 log("message error:", traceback.format_exc()[-300:])
 
 
+def speaker_line(sp):
+    """Siyasi/sarkari bayan: aakhir mein hawala ke kis ne kaha."""
+    sp = cut_words(clean_text(str(sp or "")), 80)
+    return f"🗣️ بيان: {sp}\n\n" if len(sp) >= 3 and not blocked_reason(sp) else ""
+
+
 def finish(text):
     """Khabar ke aakhir mein dot (. ya ۔) ki jagah ! lagana."""
     t = (text or "").strip()
@@ -913,6 +919,19 @@ def gemini_off_tag():
     return "v2|" + today() + "|" + hashlib.sha256(GEMINI_KEY.encode()).hexdigest()[:8]
 
 
+def gemini_quota_day():
+    """Gemini ki free had Pacific waqt ki aadhi raat (PK dopahar 12 baje) par nayi hoti hai."""
+    from zoneinfo import ZoneInfo
+    return dt.datetime.now(ZoneInfo("America/Los_Angeles")).strftime("%Y-%m-%d")
+
+
+def gemini_day_dead():
+    d = S.setdefault("gemini_day_dead", {"day": "", "models": []})
+    if d.get("day") != gemini_quota_day():
+        d.update(day=gemini_quota_day(), models=[])
+    return d["models"]
+
+
 def _ask_gemini(prompt, image=None, mime="image/jpeg"):
     global _discovered
     if S.get("gemini_off") == gemini_off_tag():  # credits/billing masla: aaj (isi key par) Gemini nahi, seedha backup
@@ -925,7 +944,7 @@ def _ask_gemini(prompt, image=None, mime="image/jpeg"):
     tried = set()
     while True:
         for model in models:
-            if not model or model in tried or model in _dead_models:
+            if not model or model in tried or model in _dead_models or model in gemini_day_dead():
                 continue
             if "lite" in model and not or_tried and OPENROUTER_KEY and not image:
                 or_tried = True  # mazboot Gemini na mila: kamzor (lite) se pehle OpenRouter ka mazboot model
@@ -960,13 +979,15 @@ def _ask_gemini(prompt, image=None, mime="image/jpeg"):
                     return ask_openrouter(prompt) if (OPENROUTER_KEY and not image) else None
                 if r.status_code == 429:
                     _dead_models.add(model)  # is run mein is model ko dobara mat aazmao
+                    if "perday" in r.text.lower().replace("_", "") and model not in gemini_day_dead():
+                        gemini_day_dead().append(model)  # din ki had poori: reset (PK 12 baje dopahar) tak mat aazmao
                 log("gemini", model, r.status_code, r.text[:120].replace("\n", " "))
                 if r.status_code == 404 or "no longer available" in r.text or "not found" in r.text.lower():
                     _dead_models.add(model)
             except Exception as e:
                 log("gemini error", model, e)
-        if _discovered:
-            return None
+        if _discovered:  # koi Gemini model na chala: aakhri sahara OpenRouter
+            return ask_openrouter(prompt) if (OPENROUTER_KEY and not image and not or_tried) else None
         _discovered = True
         models = discover_gemini_models()
 
@@ -2778,7 +2799,8 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
               "of items that are clearly unsuitable or repeats in \"reject\"."
               "\nFor the pick, write \"headline\": a short Sindhi headline (max 8 words, no emoji) and \"post\": its "
               "facts only, as a 1-2 sentence Facebook post in Sindhi (Arabic script), no hashtags, no full stop at the end."
-              "\nReturn JSON only: {\"pick\": number, \"reject\": [numbers], \"headline\": string, \"post\": string"
+              "\nAlso give \"speaker\": if the item is mainly a statement, speech, claim or press conference by a person (politician, minister, official, leader), that person's name and position in Sindhi (e.g. \"سنڌ جو وزير اعليٰ مراد علي شاهه\"), otherwise an empty string."
+              "\nReturn JSON only: {\"pick\": number, \"reject\": [numbers], \"headline\": string, \"post\": string, \"speaker\": string"
               + cat_field + "}")
     res = ask_gemini(prompt) if GEMINI_KEY else None
     if not isinstance(res, dict) and GROQ_KEY:
@@ -2811,7 +2833,7 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
     art, real_link = article_text(it["link"])
     story = full_story(it["title"], art) if art else None
     msg = (f"{ic} {head}\n\n" if head else f"{ic} ") + \
-        f"{finish(story or post)}\n\n📌 {LBL['source']}: {clean_source(it['source'])}\n\n{footer()}"
+        f"{finish(story or post)}\n\n{speaker_line(res.get('speaker'))}📌 {LBL['source']}: {clean_source(it['source'])}\n\n{footer()}"
     if news_card_post(msg, head or card_parts(post)[0], label, real_link or it["link"],
                       body=finish(post) if head else card_parts(post)[1]):
         perf_record(state_key, cat if icons else state_key)
@@ -3000,10 +3022,11 @@ def kawish_read(page_no, img):
               "\"ad\" for an advertisement or notice. For each item write in Sindhi (Arabic script): a short "
               "headline and a 3-5 sentence summary using ONLY what is printed. If a name or number is not clearly "
               "readable, leave it out instead of guessing. district=true if it is about Naushahro Feroze district or "
-              "its towns (" + towns + "). sensitive=true for murder, firing, robbery, rape/abuse, kidnapping, "
+              "its towns (" + towns + "). speaker: if the item is mainly a statement, speech, claim or press conference by a "
+              "person (politician, minister, official), that person's name and position in Sindhi, else \"\". sensitive=true for murder, firing, robbery, rape/abuse, kidnapping, "
               "violent clashes or other crime (road accidents and drowning are NOT sensitive).\n"
               "Return JSON: {\"items\": [{\"type\": string, \"headline\": string, \"summary\": string, "
-              "\"district\": bool, \"sensitive\": bool, \"place\": string, \"confidence\": \"high\"|\"medium\"|\"low\"}]}")
+              "\"district\": bool, \"sensitive\": bool, \"place\": string, \"speaker\": string, \"confidence\": \"high\"|\"medium\"|\"low\"}]}")
     out = ask_gemini(prompt, image=img, mime="image/jpeg")
     if not isinstance(out, dict):
         return None  # AI ne jawab nahi diya: safha baad mein dobara
@@ -3078,7 +3101,8 @@ def handle_kawish():
                 continue
             S["seen"][k] = time.time()
             page_link = f"https://www.thekawish.com/beta/index.php?date={pdate.strftime('%Y-%m-%d')}&pageno={n}"
-            msg = f"📰 {head}\n\n{finish(summ)}\n\n📌 {LBL['source']}: روزاني ڪاوش (صفحو {n})\n\n{footer()}"
+            msg = (f"📰 {head}\n\n{finish(summ)}\n\n{speaker_line(it.get('speaker'))}"
+                   f"📌 {LBL['source']}: روزاني ڪاوش (صفحو {n})\n\n{footer()}")
             found.append({"key": k, "page": n, "head": head, "summary": summ, "district": bool(it.get("district")),
                           "sensitive": bool(it.get("sensitive")) or keyword_sensitive(head + " " + summ),
                           "confidence": it.get("confidence", ""), "link": page_link, "message": msg})
@@ -3212,8 +3236,9 @@ def handle_sindh_stream():
               "unsuitable items or repeats in \"reject\". For the pick write in Sindhi (Arabic script): \"headline\" "
               "(max 10 words) and \"post\": the full news in 4-7 sentences using ONLY facts from that item. "
               "sensitive=true for murder, firing, robbery, rape/abuse, kidnapping or other crime. district=true if it is "
-              "about Naushahro Feroze district or its towns (" + towns + ").\n"
-              "Return JSON: {\"pick\": number, \"reject\": [numbers], \"headline\": string, \"post\": string, "
+              "about Naushahro Feroze district or its towns (" + towns + "). Political statements are allowed (report them "
+              "neutrally as what the person said)." + " \"speaker\": if the item is mainly a statement, speech, claim or press conference by a person (politician, minister, official, leader), that person's name and position in Sindhi (e.g. \"سنڌ جو وزير اعليٰ مراد علي شاهه\"), otherwise an empty string." + "\n"
+              "Return JSON: {\"pick\": number, \"reject\": [numbers], \"headline\": string, \"post\": string, \"speaker\": string, "
               "\"sensitive\": bool, \"district\": bool}")
     res = ask_gemini(prompt) if GEMINI_KEY else (ask_groq(prompt) if GROQ_KEY else ask_openrouter(prompt))
     if not isinstance(res, dict):
@@ -3245,7 +3270,7 @@ def handle_sindh_stream():
             it["link"] = real
     rank = city_rank(it["title"] + " " + it["body"][:1500])
     district = bool(res.get("district")) or bool(rank and rank <= CONFIG.get("regions", {}).get("district_city_ranks", 6))
-    msg = f"📰 {head}\n\n{finish(post)}\n\n📌 {LBL['source']}: {it['source']}\n\n{footer()}"
+    msg = f"📰 {head}\n\n{finish(post)}\n\n{speaker_line(res.get('speaker'))}📌 {LBL['source']}: {it['source']}\n\n{footer()}"
     card_body = trim_sentences(post, 190)
     if res.get("sensitive") or keyword_sensitive(head + " " + post):
         S["pending"][it["key"]] = {"message": msg, "link": it["link"], "added": time.time(),
