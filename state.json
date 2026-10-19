@@ -1010,7 +1010,19 @@
   "c4e0fcd01e48b97a": 1792410670.875846,
   "5a52d37c0603fd98": 1792411849.0490205,
   "5b175ddad3bd0aab": 1792411871.528629,
-  "9e3f27dd0259ecf9": 1792411871.5286326
+  "9e3f27dd0259ecf9": 1792411871.5286326,
+  "6351b2d6344c6964": 1792413056.136288,
+  "db646f83bd8481e7": 1792413080.5306432,
+  "7ca8afdb6b49a8e8": 1792413085.7889445,
+  "1d44f7424fc60e26": 1792413085.7889516,
+  "5cd2e582114b37bc": 1792413085.7889533,
+  "26333eb07293cf1d": 1792413085.7889543,
+  "9e8aae7e3bbecf32": 1792413085.7889552,
+  "6c76f599a49c8024": 1792413085.788956,
+  "a6788ff82b8a2638": 1792413085.7889566,
+  "c0104e688be3087e": 1792413085.7889578,
+  "6d996e434eb42fb7": 1792413085.7889588,
+  "6d52d5e2573525e9": 1792413085.7892027
  },
  "pending": {},
  "queue": [],
@@ -1097,17 +1109,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110697847503839",
+ "last_post_id": "1444130002106066_122110708071503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110017135503839",
-   "title": "ڊينگي جي وڌندڙ ڪيسن کي نظر ۾ رکندي اختيارين مريضن کي بهتر طبي سهولتون ڏيڻ ۽ بيماري تي",
-   "t": 1792306950.1448615,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110017135503839"
-  },
   {
    "id": "1444130002106066_122110031037503839",
    "title": "ون ڊي ٽرائي سيريز جي پهرين ميچ ۾ سريلنڪا پاڪستان خلاف ٽاس کٽي پهريان فيلڊنگ ڪرڻ جو فيصلو",
@@ -1391,6 +1394,15 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110697847503839"
+  },
+  {
+   "id": "1444130002106066_122110708071503839",
+   "title": "هن سال سيپٽمبر جي مهيني ۾ پاڪستان جي چانورن جي برآمدات ۾ تقريبن ڏيڍ سئو سيڪڙو واڌ رڪارڊ",
+   "t": 1792413134.8938298,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110708071503839"
   }
  ],
  "share_sent": {
@@ -1493,7 +1505,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 17:21",
+  "time": "2026-10-19 17:32",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1508,8 +1520,8 @@
  },
  "all_posts": {
   "date": "2026-10-19",
-  "count": 20,
-  "last": 1792411887.8371346
+  "count": 21,
+  "last": 1792413123.9349275
  },
  "perf": {
   "posts": [
@@ -2616,13 +2628,19 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1792411898
+   },
+   {
+    "id": "1444130002106066_122110708071503839",
+    "sec": "public_news",
+    "cat": "transport_trade",
+    "t": 1792413134
    }
   ]
  },
  "public_news": {
   "date": "2026-10-19",
-  "count": 3,
-  "last": 1792402991.211776
+  "count": 4,
+  "last": 1792413134.893608
  },
  "trends": {
   "last": 1792403455.2314851,
@@ -4568,15 +4586,11 @@
  },
  "ai_usage": {
   "date": "2026-10-19",
-  "ok": 82,
+  "ok": 89,
   "fail": 0,
-  "limit": 483
+  "limit": 495
  },
  "posted_heads": [
-  {
-   "h": "Weekly SPI inflation down 0.04pc",
-   "t": 1792195311
-  },
   {
    "h": "Pakistan vs England: Team to Hold Training Camp for Test Matches",
    "t": 1792197711
@@ -4892,10 +4906,14 @@
   {
    "h": "سنڌ خلاف سموريون سازشون ناڪام ٿينديون: عامر نواز وڙائچ",
    "t": 1792411898
+  },
+  {
+   "h": "Pakistan rice exports jump nearly 150% in Sept 2026",
+   "t": 1792413135
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 17:21",
+  "time": "2026-10-19 17:32",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -4998,12 +5016,12 @@
  },
  "article_diag": {
   "date": "2026-10-19",
-  "tried": 14,
-  "decoded": 14,
-  "text": 13,
-  "story": 12
+  "tried": 15,
+  "decoded": 15,
+  "text": 14,
+  "story": 13
  },
- "ai_last_error": "17:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "17:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-19",
   "models": [
@@ -5017,9 +5035,9 @@
  },
  "img_diag": {
   "date": "2026-10-19",
-  "tried": 19,
+  "tried": 20,
   "gemini": 0,
-  "pollinations": 10,
+  "pollinations": 11,
   "skip": 6,
   "fail": 7,
   "last_note": "pollinations 402 {\"status\":402,\"success\":false,\"error\":{\"code\":\"FREE_LIMIT\",\"message\":\"Free limit reached: 1 image every 45 seconds per I",
@@ -5044,7 +5062,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 106,
+   "ok": 107,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -5052,7 +5070,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 101,
+   "ok": 102,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -5060,7 +5078,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 102,
+   "ok": 103,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -5068,35 +5086,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -5365,8 +5383,8 @@
    }
   ],
   "done_papers": [],
-  "last_try": 1792410656.118649,
-  "last_try_note": "16:50 abhi nahi mila"
+  "last_try": 1792413064.5839558,
+  "last_try_note": "17:31 abhi nahi mila"
  },
  "gemini_off": "2026-10-19|0b7a238b",
  "gemini_off_alert": "2026-10-19",
@@ -5374,13 +5392,13 @@
   "date": "2026-10-19",
   "district": 3,
   "sindh": 5,
-  "pakistan": 11
+  "pakistan": 12
  },
  "report_acc": {
-  "posted": 1,
-  "found": 25,
-  "old": 24,
-  "irrelevant": 1,
+  "posted": 2,
+  "found": 37,
+  "old": 35,
+  "irrelevant": 2,
   "blocked": 0,
   "errors": []
  },
@@ -5401,9 +5419,9 @@
  "sindh_stream": {
   "date": "2026-10-19",
   "count": 5,
-  "last": 1792411870.2777267,
-  "city_i": 18,
-  "dry": 1792410062.9877017
+  "last": 1792413079.4454298,
+  "city_i": 22,
+  "dry": 1792413080.5306463
  },
  "gemini_day_dead": {
   "day": "2026-10-19",
@@ -5433,6 +5451,14 @@
    "h": "سنڌ خلاف سموريون سازشون ناڪام ٿينديون: عامر نواز وڙائچ",
    "x": "ڪراچي بار ايسوسيئيشن جي صدر عامر نواز وڙائچ چيو آهي ته ٻٻرلوءِ کان نڪتل ڌرتي مارچ ڪراچي پريس ڪلب پهچي ختم ٿي ويندو. هن حيدرآباد ۾ ڌرتي مارچ کي خطاب ڪندي چيو ته سنڌ خلاف ٿيندڙ سموريون سازشون ناڪام ٿينديون. هن وڌيڪ چيو ته ڌرتي مارچ ذريعي عوام کي آگاهي ڏيڻ ۾ ڪامياب ٿيا آهيون! بيان: ڪراچي بار ايسوسيئيشن جو صدر عامر نواز وڙائچ",
    "t": 1792411898,
+   "s": false,
+   "r": 0
+  },
+  {
+   "k": "aa23d9f4be94a305",
+   "h": "سيپٽمبر ۾ پاڪستان جي چانورن جي برآمدات ۾ وڏو واڌارو",
+   "x": "پاڪستان جي چانورن جي برآمدات سيپٽمبر 2026 ۾ تقريبن ڏيڍ سئو سيڪڙو وڌي وئي آهي۔ فيڊريشن آف پاڪستان چيمبرز آف ڪامرس اينڊ انڊسٽري جي رافيق سليمان جي حوالي سان ٻڌايو ويو ته سيپٽمبر ۾ چانورن جو مقدار چار لک ويهه هزار ٻه سونت ستانوي ميٽرڪ ٹن رهيو۔ گذريل سال ساڳئي مهيني ۾ هڪ لک اٺٺ هزار ٽي سونت ٻاويهه ميٽرڪ ٹن چانور برآمد ٿيا هئا۔ باسمتي چانورن جي برآمد هڪ لک هڪ هزار ٻه سونت ستر ميٽرڪ ٹن تائين پهچي وئي۔ جڏهن ته جولاءِ کان سيپٽمبر جي عرصي دوران اڻهن لک ستانوي هزار ميٽرڪ ٹن چانور برآمد ڪيا ويا۔ رافيق سليمان چيو ته ملڪ ۾ ڏھ ملين ميٽرڪ ٹن چانورن جي شاندار فصل جي توقع آهي!",
+   "t": 1792413134,
    "s": false,
    "r": 0
   }
