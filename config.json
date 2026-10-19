@@ -973,5 +973,11 @@
     "sindh_max": 20,
     "pakistan_max": 10
   },
-  "report_every_hours": 1
+  "report_every_hours": 1,
+  "sindh_stream": {
+    "enabled": true,
+    "gap_minutes": 20,
+    "night_gap_minutes": 60,
+    "max_age_hours": 12
+  }
 }

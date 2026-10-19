@@ -3082,6 +3082,109 @@ def handle_kawish():
     log("kawish:", len(found), "khabrein,", skipped, "idariya/kaalam chhoDe, reh gaye safhe:", failed)
 
 
+def sindh_stream_candidates(cfg):
+    """Sindhi akhbaron (Pahenji Akhbar, Awami Awaz, WTN, Sindh Voice, KTN) ki taaza Sindhi khabrein, poore text ke saath."""
+    feeds = [f for f in CONFIG.get("extra_feeds", []) if f.get("lang_gate") == "sindhi"]
+    max_age = cfg.get("max_age_hours", 12) * 3600
+    out, keys = [], set()
+    for f in feeds:
+        try:
+            feed = feedparser.parse(requests.get(f["url"], timeout=25, headers=UA).content)
+        except Exception as e:
+            log("sindh stream feed error:", f["url"], e)
+            continue
+        for e in feed.entries:
+            title = clean_text(e.get("title", ""))
+            pub = e.get("published_parsed") or e.get("updated_parsed")
+            ts = calendar.timegm(pub) if pub else time.time()
+            link = e.get("link", "")
+            body = ""
+            for c in (e.get("content") or []):
+                body = clean_text(c.get("value", "")) or body
+            body = body or clean_text(e.get("summary", ""))
+            k = item_key(title)
+            if (len(title) < 15 or k in keys or k in S["seen"] or time.time() - ts > max_age
+                    or blocked_reason(title + " " + body[:800])):
+                continue
+            sd, ur = lang_counts(title + " " + body[:400])
+            if sd < ur:
+                continue
+            keys.add(k)
+            out.append({"key": k, "title": title, "body": body[:3000], "link": link, "source": f.get("name", ""), "ts": ts})
+    out.sort(key=lambda x: x["ts"], reverse=True)
+    return out
+
+
+def handle_sindh_stream():
+    """Sindh ki khabron ki lagataar dhaara: har ~20 minute ek ahem Sindh khabar (Sindh ki region hadd ke andar)."""
+    cfg = CONFIG.get("sindh_stream", {})
+    if not cfg.get("enabled", True) or not (GEMINI_KEY or GROQ_KEY or OPENROUTER_KEY):
+        return
+    day = S.setdefault("sindh_stream", {"date": "", "count": 0, "last": 0})
+    if day["date"] != today():
+        day.update(date=today(), count=0)
+    gap = cfg.get("night_gap_minutes", 60) if is_night() else cfg.get("gap_minutes", 20)
+    if (time.time() - day.get("last", 0) < gap * 60 or (S["queue"] and can_post()) or local_backlog("sindh")
+            or region_count()["sindh"] >= CONFIG.get("regions", {}).get("sindh_max", 20) or not pace_ok()):
+        return
+    cand = sindh_stream_candidates(cfg)[:12]
+    if not cand:
+        return
+    day["last"] = time.time()  # khabar na bhi mile to agli koshish waqfe ke baad
+    recent = [x["h"] for x in S.get("posted_heads", []) if time.time() - x["t"] < 36 * 3600][-25:]
+    towns = ", ".join(CONFIG.get("district_towns", [])[:25])
+    listing = "\n\n".join(f"[{i}] {c['title']}\n{c['body'][:500]}" for i, c in enumerate(cand))
+    prompt = ("You pick news for a Sindhi Facebook news page whose audience is the people of Sindh. Candidates "
+              "(already in Sindhi):\n" + listing +
+              "\n\nAlready posted recently (never pick the same story again):\n" + ("\n".join("- " + h for h in recent) or "- none") +
+              "\n\nPick the ONE most important item for people of Sindh. Do NOT pick editorials, opinion columns, "
+              "advertisements, or anything about religion controversy, abuse or the Pakistani military. List clearly "
+              "unsuitable items or repeats in \"reject\". For the pick write in Sindhi (Arabic script): \"headline\" "
+              "(max 10 words) and \"post\": the full news in 4-7 sentences using ONLY facts from that item. "
+              "sensitive=true for murder, firing, robbery, rape/abuse, kidnapping or other crime. district=true if it is "
+              "about Naushahro Feroze district or its towns (" + towns + ").\n"
+              "Return JSON: {\"pick\": number, \"reject\": [numbers], \"headline\": string, \"post\": string, "
+              "\"sensitive\": bool, \"district\": bool}")
+    res = ask_gemini(prompt) if GEMINI_KEY else (ask_groq(prompt) if GROQ_KEY else ask_openrouter(prompt))
+    if not isinstance(res, dict):
+        day["last"] = time.time() - gap * 60 + 300  # AI na mila: 5 minute baad dobara
+        return
+    for i in res.get("reject") or []:
+        try:
+            S["seen"][cand[int(i)]["key"]] = time.time()
+        except (TypeError, ValueError, IndexError):
+            pass
+    try:
+        it = cand[int(res.get("pick", -1))] if int(res.get("pick", -1)) >= 0 else None
+    except (TypeError, ValueError, IndexError):
+        it = None
+    if not it:
+        return
+    S["seen"][it["key"]] = time.time()
+    head = cut_words(clean_text(str(res.get("headline", ""))), 90) or cut_words(it["title"], 90)
+    post = clean_text(str(res.get("post", "")))
+    if len(post) < 40 or blocked_reason(head + " " + post) or bad_script(head + post):
+        return
+    district = bool(res.get("district"))
+    msg = f"📰 {head}\n\n{finish(post)}\n\n📌 {LBL['source']}: {it['source']}\n\n{footer()}"
+    card_body = trim_sentences(post, 190)
+    if res.get("sensitive") or keyword_sensitive(head + " " + post):
+        S["pending"][it["key"]] = {"message": msg, "link": it["link"], "added": time.time(),
+                                   "card": {"title": head, "sub": "سنڌ جون خبرون", "body": card_body, "theme": "news"}}
+        tg_send("🟠 REVIEW (Sindh): post karni hai?\n\n" + msg + "\n\n🔗 " + it["link"],
+                [{"text": "✅ Post karo", "callback_data": "ok:" + it["key"]},
+                 {"text": "❌ Reject", "callback_data": "no:" + it["key"]}])
+        return
+    if news_card_post(msg, head, "نوشهروفيروز جون خبرون" if district else "سنڌ جون خبرون", it["link"], body=card_body):
+        day["count"] += 1
+        note_region("district" if district else "sindh")
+        perf_record("sindh_stream", "district" if district else "sindh")
+        mark_shareable(msg, "district" if district else "sindh")
+        ph = S.setdefault("posted_heads", [])
+        ph.append({"h": it["title"][:140], "t": int(time.time())})
+        S["posted_heads"] = ph[-80:]
+
+
 def handle_kawish_post():
     """Kawish ki qatar se ek khabar (waqfe aur din ki hadd ke saath)."""
     cfg = CONFIG.get("kawish", {})
@@ -3218,7 +3321,7 @@ def send_report():
              f"📊 Aaj kul posts: {total}/{CONFIG.get('safety', {}).get('max_total_per_day', 50)}",
              f"   📍 District: {rc['district']} | Sindh: {rc['sindh']} | Pakistan: {rc['pakistan']}",
              f"   Awami: {cnt('public_news')} | Zarat: {cnt('agri_news')} | Cricket: {cnt('cricket_news')} | "
-             f"Sindh alag: {cnt('sindh_single')} | Kawish: {cnt('kawish_post')}",
+             f"Sindh alag: {cnt('sindh_single')} | Sindh dhaara: {cnt('sindh_stream')} | Kawish: {cnt('kawish_post')}",
              f"⏳ Qatar mein: district {len(S['queue'])} + Kawish {len(S.get('kawish_queue', []))} | "
              f"🟠 Review baqi: {len(S['pending'])}",
              f"🔎 District search (pichla ghanta): {g('news_found', 0)} khabrein mili (pehle dekhi hui {g('news_old', 0)}, "
@@ -3266,6 +3369,7 @@ def main():
     except Exception:
         order = list(sections)
     step(handle_kawish_post)  # district/Sindh pehle
+    step(handle_sindh_stream)
     for sec in order:  # is hafte jo zyada pasand/trend, wo pehle
         step(sections[sec])
     for fn in (handle_share_helper, handle_perf, handle_cricket_live, handle_auto_reply):
