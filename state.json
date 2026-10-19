@@ -1452,17 +1452,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110755837503839",
+ "last_post_id": "1444130002106066_122110761447503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110152561503839",
-   "title": "پاڪستان ۾ مهانگائو وڌڻ سان گڏ پٹرول جي قيمتن ۾ تبديلي سبب مارڪيٽ ۾ روزاني استعمال جي شين",
-   "t": 1792327284.4839258,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110152561503839"
-  },
   {
    "id": "1444130002106066_122110218129503839",
    "title": "ٽرائي نيشن ODI جي پهرين ميچ ۾ سلمان علي آغا جي سينچري جي مدد سان پاڪستاني ٽيم Sri Lanka",
@@ -1749,6 +1740,18 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110755837503839"
+  },
+  {
+   "id": "1444130002106066_122110761447503839",
+   "title": "مواضلات وزارت ٻه 222 ارب روپين جي ماليت جا ضابطن جوڳا منصوبا منظور",
+   "t": 1792421561.6989768,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110761447503839"
   }
  ],
  "share_sent": {
@@ -1851,7 +1854,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 19:41",
+  "time": "2026-10-19 19:52",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1866,8 +1869,8 @@
  },
  "all_posts": {
   "date": "2026-10-19",
-  "count": 27,
-  "last": 1792420380.6060562
+  "count": 28,
+  "last": 1792421552.4408786
  },
  "perf": {
   "posts": [
@@ -3010,6 +3013,12 @@
     "sec": "kawish",
     "cat": "district",
     "t": 1792420391
+   },
+   {
+    "id": "1444130002106066_122110761447503839",
+    "sec": "kawish",
+    "cat": "sindh",
+    "t": 1792421561
    }
   ]
  },
@@ -5026,9 +5035,9 @@
  },
  "ai_usage": {
   "date": "2026-10-19",
-  "ok": 124,
+  "ok": 126,
   "fail": 0,
-  "limit": 533
+  "limit": 535
  },
  "posted_heads": [
   {
@@ -5358,10 +5367,14 @@
   {
    "h": "محرابپور ويجهو ريل گاڏي جي ٽڪر ۾ نوجوان فوت",
    "t": 1792420391
+  },
+  {
+   "h": "مواضلات وزارت ٻه 222 ارب روپين جي ماليت جا ضابطن جوڳا منصوبا منظور",
+   "t": 1792421561
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 19:41",
+  "time": "2026-10-19 19:52",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -5469,7 +5482,7 @@
   "text": 16,
   "story": 13
  },
- "ai_last_error": "19:32 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "19:50 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-19",
   "models": [
@@ -5483,12 +5496,12 @@
  },
  "img_diag": {
   "date": "2026-10-19",
-  "tried": 25,
+  "tried": 26,
   "gemini": 0,
-  "pollinations": 14,
+  "pollinations": 15,
   "skip": 7,
-  "fail": 10,
-  "last_note": "stacked flour sacks",
+  "fail": 11,
+  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 4
  },
  "gemini_img": {
@@ -5510,7 +5523,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 119,
+   "ok": 120,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -5518,7 +5531,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 114,
+   "ok": 115,
    "fail": 8,
    "items": 10,
    "fail_streak": 0,
@@ -5526,7 +5539,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 115,
+   "ok": 116,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -5534,35 +5547,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 122,
+   "ok": 123,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 122,
+   "ok": 123,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 122,
+   "ok": 123,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 122,
+   "ok": 123,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 122,
+   "ok": 123,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6218,13 +6231,13 @@
  "region_posts": {
   "date": "2026-10-19",
   "district": 5,
-  "sindh": 7,
+  "sindh": 8,
   "pakistan": 14
  },
  "report_acc": {
-  "posted": 2,
-  "found": 39,
-  "old": 39,
+  "posted": 3,
+  "found": 50,
+  "old": 50,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -6328,6 +6341,14 @@
    "t": 1792420391,
    "s": false,
    "r": 5
+  },
+  {
+   "k": "a2f4bddeda4545ef",
+   "h": "مواضلات وزارت ٻه 222 ارب روپين جي ماليت جا ضابطن جوڳا منصوبا منظور",
+   "x": "مواضلات وزارت جي تحت ملڪ ۾ ٻه ارب روپين جي ماليت جا 88 ترقياتي منصوبا منظور ڪيا ويا آهن. پارليامينٽ پاران ان جي تصديق ڪئي وئي آهي. ان سلسلي ۾ اسلام آباد ۾ وزارت طرفان تفصيلي بريفنگ پڻ ڏني وئي!",
+   "t": 1792421561,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -6337,18 +6358,6 @@
   ]
  },
  "kawish_queue": [
-  {
-   "key": "a2f4bddeda4545ef",
-   "page": 1,
-   "head": "مواضلات وزارت ٻه 222 ارب روپين جي ماليت جا ضابطن جوڳا منصوبا منظور",
-   "summary": "مواضلات وزارت جي تحت ملڪ ۾ ٻه ارب روپين جي ماليت جا 88 ترقياتي منصوبا منظور ڪيا ويا آهن. پارليامينٽ پاران ان جي تصديق ڪئي وئي آهي. ان سلسلي ۾ اسلام آباد ۾ وزارت طرفان تفصيلي بريفنگ پڻ ڏني وئي.",
-   "district": false,
-   "sensitive": false,
-   "confidence": "high",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-10-19&pageno=1",
-   "message": "📰 مواضلات وزارت ٻه 222 ارب روپين جي ماليت جا ضابطن جوڳا منصوبا منظور\n\nمواضلات وزارت جي تحت ملڪ ۾ ٻه ارب روپين جي ماليت جا 88 ترقياتي منصوبا منظور ڪيا ويا آهن. پارليامينٽ پاران ان جي تصديق ڪئي وئي آهي. ان سلسلي ۾ اسلام آباد ۾ وزارت طرفان تفصيلي بريفنگ پڻ ڏني وئي!\n\n📌 ذريعو: روزاني ڪاوش (صفحو 1)\n\n📲 نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFeroze #Padidan #نوشهروفيروز #پڊعيدن",
-   "added_day": "2026-10-19"
-  },
   {
    "key": "ac02d9b04e551b62",
    "page": 1,
@@ -6580,7 +6589,7 @@
  ],
  "kawish_post": {
   "date": "2026-10-19",
-  "count": 2,
-  "last": 1792420391.472558
+  "count": 3,
+  "last": 1792421561.698935
  }
 }
