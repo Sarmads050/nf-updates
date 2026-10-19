@@ -1111,6 +1111,40 @@ def note_region(region):
     region_count()[region] = region_count().get(region, 0) + 1
 
 
+_AR = "\u0600-\u06FF\u0750-\u077F"
+
+
+def city_rank(text):
+    """Aap ki tarjeehi shehron ki list mein khabar ka number (1 = sab se pehle); koi shehar na mile to None."""
+    t = str(text or "")
+    low = t.lower()
+    for i, c in enumerate(CONFIG.get("priority_cities", []), 1):
+        for w in c.get("names", []):
+            if w.isascii():
+                if re.search(r"(?<![a-z])" + re.escape(w.lower()) + r"(?![a-z])", low):
+                    return i
+            elif re.search(r"(?<![" + _AR + r"])" + re.escape(w) + r"(?![" + _AR + r"])", t):
+                return i
+    return None
+
+
+def sindh_room():
+    """Sindh (district samet) ki din ki hadd baqi hai?"""
+    r = region_count()
+    return r["district"] + r["sindh"] < CONFIG.get("regions", {}).get("sindh_target", 35)
+
+
+def pakistan_turn():
+    """Pakistan ki khabar sirf tab jab: hadd baqi ho AUR (Sindh ki khabrein khatam hon ya Sindh pehle se aage ho)."""
+    r = region_count()
+    reg = CONFIG.get("regions", {})
+    if r["pakistan"] >= reg.get("pakistan_max", 15):
+        return False
+    sindh = r["district"] + r["sindh"]
+    dry = time.time() - S.get("sindh_stream", {}).get("dry", 0) < reg.get("sindh_dry_minutes", 40) * 60
+    return dry or not sindh_room() or sindh >= reg.get("sindh_per_pakistan", 2.3) * (r["pakistan"] + 1)
+
+
 def local_backlog(min_region="sindh"):
     """Kya pehle lagne wali (district/Sindh) khabrein qatar mein hain?"""
     q = S.get("kawish_queue", [])
@@ -2681,7 +2715,7 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
     gap = cfg.get("night_gap_minutes", cfg.get("gap_minutes", 90) * 2) if is_night() else cfg.get("gap_minutes", 90)
     if (day["count"] >= learned_cap(state_key, cfg.get("max_per_day", 4)) or time.time() - day.get("last", 0) < gap * 60
             or not cfg.get("start_hour", 0) <= hour < cfg.get("end_hour", 24) or (S["queue"] and can_post())
-            or region_count()["pakistan"] >= CONFIG.get("regions", {}).get("pakistan_max", 10)
+            or not pakistan_turn()
             or local_backlog("pakistan") or not pace_ok()):
         return  # pehle district aur Sindh; Pakistan ki khabrein hadd ke andar aur baad mein
     items = []
@@ -3111,7 +3145,38 @@ def sindh_stream_candidates(cfg):
                 continue
             keys.add(k)
             out.append({"key": k, "title": title, "body": body[:3000], "link": link, "source": f.get("name", ""), "ts": ts})
-    out.sort(key=lambda x: x["ts"], reverse=True)
+    # tarjeehi shehron ki Google News talaash (har run mein kuch shehar, baari baari)
+    cities = CONFIG.get("priority_cities", [])
+    per = cfg.get("city_queries_per_run", 4)
+    if cities and per:
+        st = S.setdefault("sindh_stream", {})
+        start = st.get("city_i", 0) % len(cities)
+        pick = [cities[(start + j) % len(cities)] for j in range(min(per, len(cities)))]
+        st["city_i"] = start + len(pick)
+        for c in pick:
+            for lang, q in (("ur", c.get("ur_query")), ("en", c.get("en_query"))):
+                if not q:
+                    continue
+                try:
+                    feed = feedparser.parse(requests.get(gnews_url(q, lang), timeout=25, headers=UA).content)
+                except Exception as e:
+                    log("sindh stream city error:", q, e)
+                    continue
+                for e in feed.entries[:8]:
+                    title = clean_text(e.get("title", ""))
+                    pub = e.get("published_parsed")
+                    ts = calendar.timegm(pub) if pub else time.time()
+                    k = item_key(title)
+                    src = clean_text((e.get("source") or {}).get("title", "")) or "Google News"
+                    if (len(title) < 15 or k in keys or k in S["seen"] or time.time() - ts > max_age
+                            or blocked_reason(title) or not city_rank(title)):
+                        continue
+                    keys.add(k)
+                    out.append({"key": k, "title": title, "body": clean_text(e.get("summary", ""))[:600],
+                                "link": e.get("link", ""), "source": src, "ts": ts, "gnews": True})
+    for x in out:
+        x["rank"] = city_rank(x["title"] + " " + x["body"][:1500])
+    out.sort(key=lambda x: (x["rank"] or 99, -x["ts"]))  # pehle aap ki list ke shehar (usi tarteeb se), phir baqi Sindh
     return out
 
 
@@ -3125,19 +3190,24 @@ def handle_sindh_stream():
         day.update(date=today(), count=0)
     gap = cfg.get("night_gap_minutes", 60) if is_night() else cfg.get("gap_minutes", 20)
     if (time.time() - day.get("last", 0) < gap * 60 or (S["queue"] and can_post()) or local_backlog("sindh")
-            or region_count()["sindh"] >= CONFIG.get("regions", {}).get("sindh_max", 20) or not pace_ok()):
+            or not sindh_room() or not pace_ok()):
         return
     cand = sindh_stream_candidates(cfg)[:12]
     if not cand:
+        day["dry"] = time.time()  # Sindh ki koi khabar nahi: ab Pakistan ki baari
         return
     day["last"] = time.time()  # khabar na bhi mile to agli koshish waqfe ke baad
     recent = [x["h"] for x in S.get("posted_heads", []) if time.time() - x["t"] < 36 * 3600][-25:]
     towns = ", ".join(CONFIG.get("district_towns", [])[:25])
-    listing = "\n\n".join(f"[{i}] {c['title']}\n{c['body'][:500]}" for i, c in enumerate(cand))
+    names = [c.get("en", "") for c in CONFIG.get("priority_cities", [])]
+    listing = "\n\n".join(f"[{i}] (city priority: {names[c['rank'] - 1] + ' #' + str(c['rank']) if c.get('rank') else 'none'}) "
+                            f"{c['title']}\n{c['body'][:500]}" for i, c in enumerate(cand))
     prompt = ("You pick news for a Sindhi Facebook news page whose audience is the people of Sindh. Candidates "
-              "(already in Sindhi):\n" + listing +
+              "(Sindhi, Urdu or English):\n" + listing +
               "\n\nAlready posted recently (never pick the same story again):\n" + ("\n".join("- " + h for h in recent) or "- none") +
-              "\n\nPick the ONE most important item for people of Sindh. Do NOT pick editorials, opinion columns, "
+              "\n\nPriority cities in order: " + ", ".join(names) + ". Pick the ONE item about the city with the LOWEST "
+              "priority number that is a real, useful news story; only if no priority-city item is suitable, pick the most "
+              "important news from anywhere in Sindh. If none is about Sindh at all, pick -1. Do NOT pick editorials, opinion columns, "
               "advertisements, or anything about religion controversy, abuse or the Pakistani military. List clearly "
               "unsuitable items or repeats in \"reject\". For the pick write in Sindhi (Arabic script): \"headline\" "
               "(max 10 words) and \"post\": the full news in 4-7 sentences using ONLY facts from that item. "
@@ -3159,13 +3229,22 @@ def handle_sindh_stream():
     except (TypeError, ValueError, IndexError):
         it = None
     if not it:
+        day["dry"] = time.time()
         return
     S["seen"][it["key"]] = time.time()
     head = cut_words(clean_text(str(res.get("headline", ""))), 90) or cut_words(it["title"], 90)
     post = clean_text(str(res.get("post", "")))
     if len(post) < 40 or blocked_reason(head + " " + post) or bad_script(head + post):
         return
-    district = bool(res.get("district"))
+    if it.get("gnews") or len(it["body"]) < 300:  # chhota snippet: poori khabar website se
+        art, real = article_text(it["link"])
+        story = full_story(it["title"], art) if art else None
+        if story:
+            post = story
+        if real:
+            it["link"] = real
+    rank = city_rank(it["title"] + " " + it["body"][:1500])
+    district = bool(res.get("district")) or bool(rank and rank <= CONFIG.get("regions", {}).get("district_city_ranks", 6))
     msg = f"📰 {head}\n\n{finish(post)}\n\n📌 {LBL['source']}: {it['source']}\n\n{footer()}"
     card_body = trim_sentences(post, 190)
     if res.get("sensitive") or keyword_sensitive(head + " " + post):
@@ -3199,8 +3278,8 @@ def handle_kawish_post():
     if (day["count"] >= cfg.get("max_per_day", 15) or time.time() - day.get("last", 0) < gap
             or (S["queue"] and can_post()) or not pace_ok()):
         return
-    q.sort(key=lambda x: not x.get("district"))  # district pehle
-    if not q[0].get("district") and region_count()["sindh"] >= CONFIG.get("regions", {}).get("sindh_max", 20):
+    q.sort(key=lambda x: (not x.get("district"), city_rank(x.get("head", "") + " " + x.get("summary", "")) or 99))
+    if not sindh_room():
         return
     x = q.pop(0)
     if news_card_post(x["message"], x["head"], "روزاني ڪاوش", x["link"], body=x["summary"]):
@@ -3319,7 +3398,7 @@ def send_report():
     lines = ["📋 Run report " + now().strftime("%I:%M %p") + (" (TEST)" if DRY_RUN else ""),
              f"✅ Pichle ghante mein post hui: {g('posted', 0)}",
              f"📊 Aaj kul posts: {total}/{CONFIG.get('safety', {}).get('max_total_per_day', 50)}",
-             f"   📍 District: {rc['district']} | Sindh: {rc['sindh']} | Pakistan: {rc['pakistan']}",
+             f"   📍 District: {rc['district']} | Sindh: {rc['sindh']} (Sindh kul {rc['district'] + rc['sindh']}/{CONFIG.get('regions', {}).get('sindh_target', 35)}) | Pakistan: {rc['pakistan']}/{CONFIG.get('regions', {}).get('pakistan_max', 15)}",
              f"   Awami: {cnt('public_news')} | Zarat: {cnt('agri_news')} | Cricket: {cnt('cricket_news')} | "
              f"Sindh alag: {cnt('sindh_single')} | Sindh dhaara: {cnt('sindh_stream')} | Kawish: {cnt('kawish_post')}",
              f"⏳ Qatar mein: district {len(S['queue'])} + Kawish {len(S.get('kawish_queue', []))} | "

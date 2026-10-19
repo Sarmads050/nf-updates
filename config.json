@@ -969,15 +969,250 @@
     "keep_days": 7
   },
   "regions": {
-    "district_target": 30,
-    "sindh_max": 20,
-    "pakistan_max": 10
+    "sindh_target": 35,
+    "pakistan_max": 15,
+    "district_city_ranks": 6,
+    "sindh_per_pakistan": 2.3,
+    "sindh_dry_minutes": 40,
+    "_note": "50 mein se 35 Sindh (district samet), priority_cities ki tarteeb se; Pakistan aakhir mein, 15 tak"
   },
   "report_every_hours": 1,
   "sindh_stream": {
     "enabled": true,
-    "gap_minutes": 20,
+    "gap_minutes": 15,
     "night_gap_minutes": 60,
-    "max_age_hours": 12
-  }
+    "max_age_hours": 12,
+    "city_queries_per_run": 4
+  },
+  "priority_cities": [
+    {
+      "en": "Naushahro Feroze",
+      "names": [
+        "Naushahro Feroze",
+        "Naushehro Feroze",
+        "Nausheroferoz",
+        "Naushahro Feroz",
+        "نوشہرو فیروز",
+        "نوشہروفیروز",
+        "نوشهروفيروز",
+        "نوشهرو فيروز"
+      ],
+      "ur_query": "نوشہرو فیروز",
+      "en_query": "Naushahro Feroze"
+    },
+    {
+      "en": "Padidan",
+      "names": [
+        "Padidan",
+        "پڈعیدن",
+        "پڊعيدن",
+        "پڊ عيدن"
+      ],
+      "ur_query": "پڈعیدن",
+      "en_query": "Padidan"
+    },
+    {
+      "en": "Moro",
+      "names": [
+        "Moro",
+        "مورو"
+      ],
+      "ur_query": "مورو سندھ",
+      "en_query": "Moro Sindh"
+    },
+    {
+      "en": "Kandiaro",
+      "names": [
+        "Kandiaro",
+        "کنڈیارو",
+        "ڪنڊيارو"
+      ],
+      "ur_query": "کنڈیارو",
+      "en_query": "Kandiaro"
+    },
+    {
+      "en": "Mehrabpur",
+      "names": [
+        "Mehrabpur",
+        "Mehrab Pur",
+        "محراب پور",
+        "محرابپور",
+        "مهراب پور",
+        "مهرابپور"
+      ],
+      "ur_query": "محراب پور",
+      "en_query": "Mehrabpur"
+    },
+    {
+      "en": "Bhiria",
+      "names": [
+        "Bhiria",
+        "بھریا",
+        "ڀريا"
+      ],
+      "ur_query": "بھریا",
+      "en_query": "Bhiria"
+    },
+    {
+      "en": "Shaheed Benazirabad District",
+      "names": [
+        "Shaheed Benazirabad",
+        "Benazirabad",
+        "شہید بینظیر آباد",
+        "بینظیر آباد",
+        "بینظیرآباد",
+        "شهيد بينظير آباد",
+        "بينظير آباد",
+        "بينظيرآباد"
+      ],
+      "ur_query": "شہید بینظیر آباد",
+      "en_query": "Shaheed Benazirabad"
+    },
+    {
+      "en": "Nawabshah",
+      "names": [
+        "Nawabshah",
+        "نوابشاہ",
+        "نواب شاہ",
+        "نوابشاهه",
+        "نوابشاه"
+      ],
+      "ur_query": "نوابشاہ",
+      "en_query": "Nawabshah"
+    },
+    {
+      "en": "Sakrand",
+      "names": [
+        "Sakrand",
+        "سکرنڈ",
+        "سڪرنڊ"
+      ],
+      "ur_query": "سکرنڈ",
+      "en_query": "Sakrand"
+    },
+    {
+      "en": "Qazi Ahmed",
+      "names": [
+        "Qazi Ahmed",
+        "Qazi Ahmad",
+        "قاضی احمد",
+        "قاضي احمد"
+      ],
+      "ur_query": "قاضی احمد",
+      "en_query": "Qazi Ahmed Sindh"
+    },
+    {
+      "en": "Daur",
+      "names": [
+        "Daur",
+        "دوڙ"
+      ],
+      "en_query": "Daur Sindh"
+    },
+    {
+      "en": "Bandhi",
+      "names": [
+        "Bandhi",
+        "باندهي"
+      ],
+      "en_query": "Bandhi Sindh"
+    },
+    {
+      "en": "Jam Sahib",
+      "names": [
+        "Jam Sahib",
+        "جام صاحب"
+      ],
+      "ur_query": "جام صاحب",
+      "en_query": "Jam Sahib Sindh"
+    },
+    {
+      "en": "Daulatpur",
+      "names": [
+        "Daulatpur",
+        "دولت پور",
+        "دولتپور"
+      ],
+      "ur_query": "دولت پور",
+      "en_query": "Daulatpur Sindh"
+    },
+    {
+      "en": "Sanghar District",
+      "names": [
+        "Sanghar District",
+        "ضلع سانگھڑ",
+        "سانگهڙ ضلعي"
+      ]
+    },
+    {
+      "en": "Sanghar",
+      "names": [
+        "Sanghar",
+        "سانگھڑ",
+        "سانگهڙ"
+      ],
+      "ur_query": "سانگھڑ",
+      "en_query": "Sanghar"
+    },
+    {
+      "en": "Tando Adam",
+      "names": [
+        "Tando Adam",
+        "ٹنڈو آدم",
+        "ٽنڊو آدم"
+      ],
+      "ur_query": "ٹنڈو آدم",
+      "en_query": "Tando Adam"
+    },
+    {
+      "en": "Shahdadpur",
+      "names": [
+        "Shahdadpur",
+        "شہدادپور",
+        "شهدادپور"
+      ],
+      "ur_query": "شہدادپور",
+      "en_query": "Shahdadpur"
+    },
+    {
+      "en": "Khipro",
+      "names": [
+        "Khipro",
+        "کھپرو",
+        "کپرو"
+      ],
+      "ur_query": "کھپرو",
+      "en_query": "Khipro"
+    },
+    {
+      "en": "Sinjhoro",
+      "names": [
+        "Sinjhoro",
+        "سنجھورو",
+        "سنجهورو"
+      ],
+      "ur_query": "سنجھورو",
+      "en_query": "Sinjhoro"
+    },
+    {
+      "en": "Shahpur Chakar",
+      "names": [
+        "Shahpur Chakar",
+        "شاہپور چاکر",
+        "شاهپور چاڪر"
+      ],
+      "ur_query": "شاہپور چاکر",
+      "en_query": "Shahpur Chakar"
+    },
+    {
+      "en": "Jam Nawaz Ali",
+      "names": [
+        "Jam Nawaz Ali",
+        "جام نواز علی",
+        "جام نواز علي"
+      ],
+      "ur_query": "جام نواز علی",
+      "en_query": "Jam Nawaz Ali"
+    }
+  ]
 }

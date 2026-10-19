@@ -214,3 +214,9 @@ Aur `hashtags` mein naye tags. Code badalne ki zaroorat nahi.
 - **Juma culture post** (`culture`): har Juma subah 9 baje Shah Latif ka bait ya Sindhi pahako + roz marra se ta'aluq + sawal. Pehle Telegram par review (✅/❌) — alfaaz check kar ke hi post karein.
 - **Kawish e-paper** (`kawish`): e-paper roz shaam ~4-7 baje upload hota hai; bot 3 baje se raat 11 tak har 30 minute dekhta hai, safhe `kawish-epaper` branch par 7 din tak mehfooz rakhta hai, aur jo safha AI se reh jaye use 10 minute baad dobara parhta hai; idariya, kaalam aur ishtihar chhoD kar baqi khabrein, district wali pehle, har 12 minute ek. Jurm ya kam-yaqeen wali khabrein pehle Telegram review mein.
 - **Region ki tarteeb** (`regions`): pehle Padidan/Naushahro Feroze district (30 tak), phir Sindh (zyada se zyada 20), aakhir mein Pakistan ki khabrein (zyada se zyada 10, aur sirf jab district/Sindh ki koi khabar qatar mein na ho). Kul hadd 50.
+
+## Sindh pehle: 50 mein se 35 (shehron ki tarteeb)
+- `regions.sindh_target: 35` (district samet), `pakistan_max: 15`.
+- `priority_cities`: 22 shehar usi tarteeb se (Naushahro Feroze → ... → Jam Nawaz Ali). Sindh dhaara pehle list ke sab se oopar wale shehar ki khabar uthati hai; kisi shehar ki na ho to baqi Sindh.
+- Har run mein 4 shehron ki Google News (Urdu + English) talaash baari baari; Sindhi akhbaron ke saath.
+- Pakistan ki khabar sirf tab jab Sindh ki khabrein khatam hon (`sindh_dry_minutes`) ya Sindh ~2.3 guna aage ho.
