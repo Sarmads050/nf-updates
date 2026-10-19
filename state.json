@@ -930,7 +930,11 @@
   "0e5a53abc75945a7": 1792392787.730818,
   "22269951bc97e5ae": 1792392787.730819,
   "e839dac2fc73e695": 1792392787.73082,
-  "4e0a1296503b6dea": 1792392787.731042
+  "4e0a1296503b6dea": 1792392787.731042,
+  "fa723e98a5e20a02": 1792393887.2625089,
+  "d97c9e272301462c": 1792393887.2625113,
+  "7454e94c9dc05ddb": 1792393887.2625124,
+  "93dee094c36d1124": 1792393887.262667
  },
  "pending": {},
  "queue": [],
@@ -1016,18 +1020,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110583151503839",
+ "last_post_id": "1444130002106066_122110588581503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122109794151503839",
-   "title": "پاڪستان هنگري جي شهر بوڊاپسٽ ۾ مقامي خريدارن کي اعليٰ معيار جا باسمتي چانور متعارف ڪرائڻ",
-   "t": 1792276948.8393776,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122109794151503839"
-  },
   {
    "id": "1444130002106066_122109822771503839",
    "title": "ملڪ ۾ وڌندڙ مهانگائي سبب عام ماڻهو جو گذر سفر انتهائي مشڪل ٿي ويو آهي",
@@ -1304,6 +1298,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110583151503839"
+  },
+  {
+   "id": "1444130002106066_122110588581503839",
+   "title": "قومي ٽيم جي بيٽر امام الحق کي محمد رضوان کانپوءِ ڊوميسٽڪ ڪرڪيٽ کيڏڻ لاءِ ڪليئر قرار ڏنو",
+   "t": 1792394119.4722948,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110588581503839"
   }
  ],
  "share_sent": {
@@ -1387,8 +1390,8 @@
  },
  "cricket_news": {
   "date": "2026-10-19",
-  "count": 1,
-  "last": 1792351306.735847
+  "count": 2,
+  "last": 1792394119.4720101
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -1402,7 +1405,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-19 12:01",
+  "time": "2026-10-19 12:15",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1417,8 +1420,8 @@
  },
  "all_posts": {
   "date": "2026-10-19",
-  "count": 5,
-  "last": 1792392925.008162
+  "count": 6,
+  "last": 1792394113.0588856
  },
  "perf": {
   "posts": [
@@ -2435,6 +2438,12 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1792392931
+   },
+   {
+    "id": "1444130002106066_122110588581503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792394119
    }
   ]
  },
@@ -4323,15 +4332,11 @@
  },
  "ai_usage": {
   "date": "2026-10-19",
-  "ok": 10,
+  "ok": 13,
   "fail": 0,
   "limit": 387
  },
  "posted_heads": [
-  {
-   "h": "Gold Price soars to Rs440,636 per Tola; Silver sets New Record",
-   "t": 1792162302
-  },
   {
    "h": "PIDE sets out six-point roadmap to unlock Pakistan’s export potential",
    "t": 1792164688
@@ -4647,10 +4652,14 @@
   {
    "h": "Sindh Stays Ahead as Cotton Production Crosses 4 Million Bales",
    "t": 1792392931
+  },
+  {
+   "h": "After Rizwan, Imam-ul-Haq cleared to play domestic cricket",
+   "t": 1792394119
   }
  ],
  "last_errors": {
-  "time": "2026-10-19 12:01",
+  "time": "2026-10-19 12:15",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -4753,10 +4762,10 @@
  },
  "article_diag": {
   "date": "2026-10-19",
-  "tried": 3,
-  "decoded": 3,
-  "text": 2,
-  "story": 1
+  "tried": 4,
+  "decoded": 4,
+  "text": 3,
+  "story": 2
  },
  "ai_last_error": "11:52 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
@@ -4772,9 +4781,9 @@
  },
  "img_diag": {
   "date": "2026-10-19",
-  "tried": 4,
+  "tried": 5,
   "gemini": 0,
-  "pollinations": 2,
+  "pollinations": 3,
   "skip": 2,
   "fail": 0,
   "last_note": "gemini gemini-2.5-flash-image 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your p"
@@ -4798,7 +4807,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-19",
-   "ok": 74,
+   "ok": 75,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -4806,7 +4815,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-19",
-   "ok": 69,
+   "ok": 70,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -4814,7 +4823,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-19",
-   "ok": 71,
+   "ok": 72,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -4822,35 +4831,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-19",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-19",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-19",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -5128,15 +5137,28 @@
   "date": "2026-10-19",
   "district": 0,
   "sindh": 1,
-  "pakistan": 3
+  "pakistan": 4
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-19 12"
+ "report_hour": "2026-10-19 12",
+ "kawish_upload_times": {
+  "_date": "2026-10-19",
+  "19-10-2026": "status 404",
+  "18-10-2026": "status 404",
+  "17-10-2026": "2026-10-17 18:58 PKT",
+  "16-10-2026": "2026-10-16 17:08 PKT",
+  "15-10-2026": "2026-10-15 16:00 PKT",
+  "14-10-2026": "2026-10-14 15:36 PKT",
+  "13-10-2026": "2026-10-13 16:15 PKT",
+  "12-10-2026": "2026-10-12 18:53 PKT",
+  "11-10-2026": "2026-10-11 16:36 PKT",
+  "10-10-2026": "2026-10-10 16:43 PKT"
+ }
 }
