@@ -1160,7 +1160,18 @@
   "9ed69b6a01a5a7a2": 1792460471.0994818,
   "cda0b0d29cc43d12": 1792460471.0994835,
   "97d8dc9c2459cf8e": 1792460471.0994842,
-  "287abd457d3dc2df": 1792460471.0997338
+  "287abd457d3dc2df": 1792460471.0997338,
+  "7dd5327e5dfd8f9e": 1792462868.702438,
+  "4f6373c02f5de831": 1792462873.1075816,
+  "7aa0b9216d463062": 1792462873.107584,
+  "0ac20b1cece17062": 1792462873.1075854,
+  "b3770410488f8c15": 1792462873.1075864,
+  "6ad433e524cfe1e6": 1792462873.107587,
+  "d9a7c1cd0cdcc9e7": 1792462873.1075878,
+  "0f9bca4abbee58dd": 1792462873.1075885,
+  "ead11908583b2b02": 1792462873.1075897,
+  "83f27a61caa81eed": 1792462873.1075907,
+  "1c61bd8bdd5566dd": 1792462873.1078029
  },
  "pending": {
   "f23b0b6ba00324c6": {
@@ -1342,20 +1353,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110997445503839",
+ "last_post_id": "1444130002106066_122111003721503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110790673503839",
-   "title": "سنڌي ٻوليءَ جي تاريخ ۽ ادب بابت تعارفي تقريب",
-   "t": 1792426953.7979298,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110790673503839"
-  },
   {
    "id": "1444130002106066_122110799343503839",
    "title": "نوشهروفيروز: زميني تڪرار تان ٻن ڌرين ۾ فائرنگ، هڪ ڄڻو زخمي",
@@ -1648,6 +1647,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110992369503839"
+  },
+  {
+   "id": "1444130002106066_122111003721503839",
+   "title": "حومت پيٽرول جي قيمت ۾ پنج روپيا سولها پئسا ۽ ڊيزل جي قيمت ۾ ست روپيا نناوٺي پئسا فی ليٽر",
+   "t": 1792462906.1173809,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111003721503839"
   }
  ],
  "share_sent": {
@@ -1754,7 +1762,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 07:10",
+  "time": "2026-10-20 07:21",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1769,8 +1777,8 @@
  },
  "all_posts": {
   "date": "2026-10-20",
-  "count": 9,
-  "last": 1792461741.1619048
+  "count": 10,
+  "last": 1792462901.1368403
  },
  "perf": {
   "posts": [
@@ -3123,13 +3131,19 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1792460491
+   },
+   {
+    "id": "1444130002106066_122111003721503839",
+    "sec": "public_news",
+    "cat": "fuel",
+    "t": 1792462906
    }
   ]
  },
  "public_news": {
   "date": "2026-10-20",
-  "count": 2,
-  "last": 1792456901.429271
+  "count": 3,
+  "last": 1792462906.1171353
  },
  "trends": {
   "last": 1792460450.5557148,
@@ -5347,15 +5361,11 @@
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 47,
+  "ok": 53,
   "fail": 2,
-  "limit": 66
+  "limit": 76
  },
  "posted_heads": [
-  {
-   "h": "Pakistan’s IT Exports Jump 18% to $1.246 Billion in First Quarter of FY2026-27",
-   "t": 1792227708
-  },
   {
    "h": "Pakistan stars relish ODI cricket’s twists and turns",
    "t": 1792228738
@@ -5671,10 +5681,14 @@
   {
    "h": "KP Food Deptt increases daily wheat release quota following PHC decision",
    "t": 1792460491
+  },
+  {
+   "h": "Govt cuts petrol price by Rs5.16 per litre, diesel by Rs7.69",
+   "t": 1792462906
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 07:10",
+  "time": "2026-10-20 07:21",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -5777,12 +5791,12 @@
  },
  "article_diag": {
   "date": "2026-10-20",
-  "tried": 6,
-  "decoded": 6,
-  "text": 4,
-  "story": 3
+  "tried": 7,
+  "decoded": 7,
+  "text": 5,
+  "story": 4
  },
- "ai_last_error": "07:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "07:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -5796,9 +5810,9 @@
  },
  "img_diag": {
   "date": "2026-10-20",
-  "tried": 9,
+  "tried": 10,
   "gemini": 0,
-  "pollinations": 7,
+  "pollinations": 8,
   "skip": 1,
   "fail": 1,
   "last_note": "sun and thermometer",
@@ -5823,7 +5837,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 44,
+   "ok": 45,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -5831,7 +5845,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 42,
+   "ok": 43,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -5839,7 +5853,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 42,
+   "ok": 43,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -5847,35 +5861,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6532,12 +6546,12 @@
   "date": "2026-10-20",
   "district": 0,
   "sindh": 2,
-  "pakistan": 6
+  "pakistan": 7
  },
  "report_acc": {
-  "posted": 0,
-  "found": 9,
-  "old": 9,
+  "posted": 1,
+  "found": 19,
+  "old": 19,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -6561,8 +6575,8 @@
   "date": "2026-10-20",
   "count": 2,
   "last": 1792443674.1565475,
-  "city_i": 12,
-  "dry": 1792460460.129368
+  "city_i": 16,
+  "dry": 1792462858.698383
  },
  "gemini_day_dead": {
   "day": "2026-10-19",
@@ -6944,6 +6958,14 @@
    "t": 1792460491,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "0533955ca6308140",
+   "h": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽاتائي",
+   "x": "وفاقي حڪومت عالمي مارڪيٽ ۾ لڏپلاڻ سبب پيٽرول جي قيمت ۾ پنج رپيا 16 پئسا ۽ هاءِ اسپڊڊيزل جي اگهه ۾ ست رپيا 69 پئسا گهٽتائي ڪري ڇڏي آهي. نئين واڌ کانپوءِ پيٽرول جو نئون اگهه 381 رپيا 14 پئسا ۽ هاءِ اسپيڊ ڊيزل جو اگهه 389 رپيا 27 پئسا فی ليٽر ٿي ويو آهي. پيٽروليم ڊويزن جي نوٽيفڪيشن موجب نوان اگهه 20 آڪٽوبر کان لاڳو ٿيندا. اوگرا پاران شفافيت بهتر بڻائڻ لاءِ پيٽروليم شين جا روزاني اگهه ويب سائيٽ تي شايع ڪرڻ شروع ڪيا ويا آهن. پيٽروليم وزير علي پرويز ملڪ چيو ته روزاني اگهه عالمي مارڪيٽ جي ستن ڏينهن جي اوسط تي ٻڌل آهن. عالمي مارڪيٽ ۾ تيل جي اگهن جي اگهن ۾ عدم استحڪام سبب حڪومت روزاني بنياد تي اگهن جو جائزو وٺڻ جو نئون ميکانيزم اختيار ڪيو آهي!",
+   "t": 1792462906,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -6957,13 +6979,6 @@
   "last": 1792426953.7977092
  },
  "tg_debug": [
-  {
-   "t": "10-20 00:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-20 01:00",
    "ok": true,
@@ -7232,6 +7247,13 @@
   },
   {
    "t": "10-20 07:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 07:20",
    "ok": true,
    "n": 0,
    "ids": [],
