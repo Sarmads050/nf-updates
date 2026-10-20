@@ -65,8 +65,12 @@ def pick_stories(n):
     # pehle aap ki shehron wali list (1 = Naushahro Feroze ...), phir baqi; har darje mein taaza pehle
     pool.sort(key=lambda x: (x.get("r") or 99, -x["t"]))
     out, seen = [], set()
+    used_heads = [bot._tokens(h) for e in used.get("log", [])[-10:] for h in e.get("heads", [])]
     for x in pool:
-        if x["k"] in seen:
+        tk = bot._tokens(x["h"])
+        similar = any(len(tk) >= 3 and len(o) >= 3 and len(tk & o) / min(len(tk), len(o)) >= 0.75
+                      for o in [bot._tokens(y["h"]) for y in out] + used_heads)
+        if x["k"] in seen or similar:  # ek jaisi khabar dobara nahi
             continue
         seen.add(x["k"])
         out.append(x)

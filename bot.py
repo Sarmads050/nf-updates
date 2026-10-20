@@ -1422,8 +1422,81 @@ def card_title_of(message):
     return ""
 
 
-def fb_post(message, link=None, photo=None, video=None, count=True, card=True, card_label=None, comment=None):
+_SD_STOP = set("جي ۾ ۽ کي جو آهي ڪيو ويو تي لاءِ لاء ته هن چيو کان سان جون ٿي ڪري ٿيو هو هئي آهن ويا وئي ڪئي جا "
+               "سڀ هڪ ٻه پر به ان اهو اها ڪنهن ٿيندي ٿيندو وڃي ويندي جنهن جڏهن ڏانهن ڪيا ڪيون ڏنو وارو واري "
+               "the and for with from will has have".split())
+_NORM = str.maketrans({"ی": "ي", "ک": "ڪ", "ہ": "ه", "ے": "ي", "ۃ": "ه", "ة": "ه", "أ": "ا", "إ": "ا", "آ": "ا"})
+
+
+def _tokens(text):
+    t = re.sub(r"[\u064B-\u065F\u0670]", "", str(text or "")).translate(_NORM).lower()
+    return {w for w in re.findall(r"[\w\u0600-\u06FF]+", t) if len(w) >= 3 and w not in _SD_STOP}
+
+
+def is_repeat(message):
+    """Pichle 24 ghante mein (kisi bhi hisse se) yahi khabar post ho chuki? Sarkhi ya poori khabar ke alfaz se."""
+    title, body = card_parts(message)
+    tt, bt = _tokens(title), _tokens(title + " " + body)
+    for r in S.get("recent_posts", []):
+        if time.time() - r["t"] > CONFIG.get("repeat_hours", 24) * 3600:
+            continue
+        a, b = set(r["tt"]), set(r["bt"])
+        if len(tt) >= 3 and len(a) >= 3 and len(tt & a) / min(len(tt), len(a)) >= 0.75:
+            return r
+        if len(bt) >= 8 and len(b) >= 8 and len(bt & b) / len(bt | b) >= 0.4:
+            return r
+    return None
+
+
+def remember_post(message):
+    title, body = card_parts(message)
+    rp = [r for r in S.get("recent_posts", []) if time.time() - r["t"] < 48 * 3600]
+    rp.append({"t": int(time.time()), "h": title[:80], "tt": sorted(_tokens(title)), "bt": sorted(_tokens(title + " " + body))})
+    S["recent_posts"] = rp[-200:]
+
+
+def seed_recent_posts():
+    """Pehli dafa (ya din mein ek dafa agar list khaali ho): page ki pichle 24 ghante ki posts se repeat-list bharo."""
+    if DRY_RUN or not FB_TOKEN or S.get("recent_seeded") == today():
+        return
+    S["recent_seeded"] = today()
+    try:
+        r = requests.get(f"{GRAPH}/{FB_PAGE_ID}/published_posts", timeout=40,
+                         params={"fields": "message,created_time", "limit": 80, "access_token": FB_TOKEN}).json()
+    except Exception as e:
+        log("seed recent error:", e)
+        return
+    have = {r_["h"] for r_ in S.get("recent_posts", [])}
+    for p in reversed(r.get("data", [])):
+        msg = p.get("message") or ""
+        try:
+            t = int(dt.datetime.strptime(p["created_time"][:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=dt.timezone.utc).timestamp())
+        except Exception:
+            continue
+        if not msg or time.time() - t > 24 * 3600 or card_parts(msg)[0][:80] in have:
+            continue
+        remember_post(msg)
+        S["recent_posts"][-1]["t"] = t
+    S["recent_posts"].sort(key=lambda x: x["t"]) if S.get("recent_posts") else None
+    log("repeat-list:", len(S.get("recent_posts", [])), "posts")
+
+
+def repeat_block(message):
+    """Repeat ho to log + nishan (_dup) lagao aur True do."""
+    r = is_repeat(message)
+    if r:
+        log("repeat khabar roki:", card_parts(message)[0][:60], "| pehle:", r.get("h", "")[:60])
+        STATS["repeat"] = STATS.get("repeat", 0) + 1
+        S["_dup"] = True
+    return bool(r)
+
+
+def fb_post(message, link=None, photo=None, video=None, count=True, card=True, card_label=None, comment=None,
+            dedupe=False):
     """Har post: photo/video na ho to design wala card khud lagao; link hamesha pehle comment mein."""
+    S.pop("_dup", None)
+    if dedupe and repeat_block(message):
+        return False
     if bad_script(message):
         fixed = fix_script(message)
         if not fixed:
@@ -1451,6 +1524,8 @@ def fb_post(message, link=None, photo=None, video=None, count=True, card=True, c
             append_to_post(f"🔗 {web}")  # comment na lage to link post ke andar hi
     if ok and comment:
         link_comment(comment)
+    if ok and not DRY_RUN:
+        remember_post(message)
     if ok and not DRY_RUN and not blocked_reason(message):
         try:
             crosspost(message, orig_link, photo, video)
@@ -1579,9 +1654,12 @@ def publish_queue():
         if q.get("card") and not q.get("photo"):
             spec = q["card"]
             card = make_card(spec.get("title", ""), spec.get("sub", ""), spec.get("body", ""), theme=spec.get("theme", "culture"))
-            ok = fb_post(q["message"], q.get("link"), card, q.get("video"), card=False)
+            ok = fb_post(q["message"], q.get("link"), card, q.get("video"), card=False, dedupe=not q.get("priority"))
         else:
-            ok = fb_post(q["message"], q.get("link"), q.get("photo"), q.get("video"))
+            ok = fb_post(q["message"], q.get("link"), q.get("photo"), q.get("video"), dedupe=not q.get("priority"))
+        if not ok and S.pop("_dup", None):
+            S["queue"].pop(0)  # repeat khabar: qatar se hata do
+            continue
         if not ok:
             break
         S["queue"].pop(0)
@@ -2200,6 +2278,8 @@ def handle_sindh_single():
         return
     msg = (f"{cfg.get('label', '📰 سنڌ')} | {title}\n\n{finish(body)}\n\n📌 {LBL['source']}: {r['source']}"
            f"\n\n{footer()}")
+    if repeat_block(msg):
+        return
     card = make_card(title, cfg.get("card_sub", "سنڌ جون خبرون"), finish(body), theme="news") if cfg.get("card", True) else None
     if fb_post(msg, photo=card, count=False):
         note_region("sindh")
@@ -2940,6 +3020,8 @@ def clean_source(src):
 
 def news_card_post(msg, card_title, label, link, count=False, body=""):
     """Khabar design wale card ke saath; mukammal khabar ka link pehle comment mein (fb_post khud karta hai)."""
+    if repeat_block(msg):  # card banane se pehle hi
+        return False
     card = make_card(card_title, label, body, theme="news") if CONFIG.get("news_cards", True) else None
     ok = fb_post(msg, link=link, photo=card, count=count, card=False)
     if ok:
@@ -3592,6 +3674,7 @@ def main():
             STATS.setdefault("errors", []).append(fn.__name__)
             alert(f"System mein error aaya ({fn.__name__}):\n" + err[-600:])
 
+    step(seed_recent_posts)  # repeat-check ki list sab posting se pehle
     for fn in (process_telegram, expire_old, handle_news, handle_jobs, publish_queue, handle_promo, handle_daily,
                handle_engagement, handle_culture, handle_roundup, handle_trends, probe_sources, handle_kawish,
                probe_kawish_times):
