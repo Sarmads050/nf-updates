@@ -1201,7 +1201,8 @@
   "59d1c9d5009f18d5": 1792472478.906058,
   "03782caa247395a4": 1792472478.906241,
   "e19cd8be7780e3cf": 1792474274.5734978,
-  "f225f6b71b19adda": 1792474274.5735013
+  "f225f6b71b19adda": 1792474274.5735013,
+  "1b95bcd216e33ecd": 1792475488.0575857
  },
  "pending": {
   "f23b0b6ba00324c6": {
@@ -1334,18 +1335,8 @@
    "774cf85a46e5c750"
   ]
  },
- "last_post_id": "1444130002106066_122111069679503839",
+ "last_post_id": "1444130002106066_122111073555503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110800531503839",
-   "title": "تندور واري ۽ گيس جي قيمتن ۾ واڌ خلاف احتجاج",
-   "t": 1792428176.1188784,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110800531503839"
-  },
   {
    "id": "1444130002106066_122110800819503839",
    "title": "لاڙڪاڻو: پوليس پرتشدد ڪارروائي",
@@ -1636,6 +1627,18 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111069679503839"
+  },
+  {
+   "id": "1444130002106066_122111073555503839",
+   "title": "ڇا پي ٽي آءِ رليف حاصل ڪرڻ جو موقعو وڃائي ڇڏيو؟",
+   "t": 1792475525.6646128,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111073555503839"
   }
  ],
  "share_sent": {
@@ -1746,7 +1749,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 10:41",
+  "time": "2026-10-20 10:52",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1761,8 +1764,8 @@
  },
  "all_posts": {
   "date": "2026-10-20",
-  "count": 18,
-  "last": 1792474860.806741
+  "count": 19,
+  "last": 1792475515.757755
  },
  "perf": {
   "posts": [
@@ -3157,6 +3160,12 @@
     "sec": "district",
     "cat": "district",
     "t": 1792474869
+   },
+   {
+    "id": "1444130002106066_122111073555503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1792475525
    }
   ]
  },
@@ -5421,15 +5430,11 @@
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 83,
+  "ok": 86,
   "fail": 2,
-  "limit": 122
+  "limit": 126
  },
  "posted_heads": [
-  {
-   "h": "Pakistan open ODI tri-series against Sri Lanka on Sunday",
-   "t": 1792232490
-  },
   {
    "h": "Pakistan has enough energy supplies to last through November, planning for winter spike: Aurangzeb",
    "t": 1792234908
@@ -5745,10 +5750,14 @@
   {
    "h": "Pakistan's power, gas circular debt rises in FY26",
    "t": 1792472600
+  },
+  {
+   "h": "ڇا پي ٽي آءِ عمران خان ۽ سندس خاندان لاءِ رليف حاصل ڪرڻ جو اهم موقعو وڃائي ڇڏيو؟",
+   "t": 1792475525
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 10:41",
+  "time": "2026-10-20 10:52",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -5856,7 +5865,7 @@
   "text": 7,
   "story": 6
  },
- "ai_last_error": "10:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "10:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -5870,9 +5879,9 @@
  },
  "img_diag": {
   "date": "2026-10-20",
-  "tried": 16,
+  "tried": 17,
   "gemini": 0,
-  "pollinations": 9,
+  "pollinations": 10,
   "skip": 3,
   "fail": 5,
   "last_note": "electricity meter and bill",
@@ -5897,7 +5906,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 66,
+   "ok": 67,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -5905,7 +5914,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 61,
+   "ok": 62,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -5913,7 +5922,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 61,
+   "ok": 62,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -5921,35 +5930,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6605,13 +6614,13 @@
  "region_posts": {
   "date": "2026-10-20",
   "district": 2,
-  "sindh": 4,
+  "sindh": 5,
   "pakistan": 10
  },
  "report_acc": {
-  "posted": 2,
-  "found": 40,
-  "old": 40,
+  "posted": 3,
+  "found": 50,
+  "old": 50,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -6633,9 +6642,9 @@
  },
  "sindh_stream": {
   "date": "2026-10-20",
-  "count": 2,
-  "last": 1792474272.6298728,
-  "city_i": 12,
+  "count": 3,
+  "last": 1792475486.0952094,
+  "city_i": 16,
   "dry": 1792471263.5276055
  },
  "gemini_day_dead": {
@@ -7068,6 +7077,14 @@
    "t": 1792474869,
    "s": true,
    "r": 0
+  },
+  {
+   "k": "7e8b73758bbf9f2f",
+   "h": "ڇا پي ٽي آءِ رليف حاصل ڪرڻ جو موقعو وڃائي ڇڏيو؟",
+   "x": "خيبرپختونخوا ۾ ايمرجنسي لاڳو ٿيڻ ۽ گورنر راڄ کانپوءِ پاڪستان تحريڪ انصاف پنهنجي جيل ۾ قيد باني عمران خان ۽ سندس خاندان لاءِ رليف حاصل ڪرڻ جون ڪوششون ٻيهر تيز ڪري ڇڏيون آهن. پارٽي ذريعن طرفان اهم موقعو وڃائڻ جو اعتراف پڻ ڪيو ويو آهي. باخبر ذريعن جو چوڻ آهي ته پي ٽي آءِ چيئرمين بيرسٽر گوهر خان حڪومتي اختيارين سان رابطو ڪري عمران خان جي ٽن ڀينرن جي آزادي جي درخواست ڪئي آهي. جن جي 30 ڏينهن واري نظربندي جو مدو پورو ٿي چڪو آهي. ذريعن موجب بيرسٽر گوهر خان ان حوالي سان وڌيڪ رابطا پڻ ڪري رهيو آهي! بيان: بيرسٽر گوهر خان (پي ٽي آءِ چيئرمين)",
+   "t": 1792475525,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -7083,13 +7100,6 @@
   "last": 1792426953.7977092
  },
  "tg_debug": [
-  {
-   "t": "10-20 04:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-20 04:30",
    "ok": true,
@@ -7365,6 +7375,13 @@
    "ids": [
     661217029
    ],
+   "err": null
+  },
+  {
+   "t": "10-20 10:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
    "err": null
   }
  ]
