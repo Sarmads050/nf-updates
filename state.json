@@ -1991,7 +1991,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 21:52",
+  "time": "2026-10-20 22:01",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -3573,7 +3573,7 @@
   "last": 1792487153.621571
  },
  "trends": {
-  "last": 1792504872.7419224,
+  "last": 1792515680.9967422,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -5990,15 +5990,79 @@
     "t": 1792504872,
     "cat": "technology",
     "sindh": false
+   },
+   {
+    "term": "sabah vs dortmund",
+    "traffic": 200,
+    "news": "Zum Geburtstag: Startelf-Debüt für ÖFB-Profi",
+    "t": 1792515681,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "diriyah vs al-riyadh",
+    "traffic": 100,
+    "news": "Al Diriyah vs Al Riyadh match lineup | Saudi Pro League · 20 Oct 2026",
+    "t": 1792515681,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "bbc",
+    "traffic": 200,
+    "news": "BBC News Slashing 100 Jobs As Cuts Continue At UK Broadcaster",
+    "t": 1792515681,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "erik ten hag",
+    "traffic": 100,
+    "news": "Man United have a 'toxic culture', sparked by the 'Madrid' trio of Cristiano Ronaldo, Raphael Varane and Casemiro, claims ex-boss Erik ten Hag in damning breakdown of player discipline",
+    "t": 1792515681,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "موسم",
+    "traffic": 500,
+    "news": "يسرا وأحمد مكي ومي عز الدين منهم .. نجوم مصر على مسارح موسم الرياض 2026",
+    "t": 1792515681,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "pakistan national cricket team vs england cricket team standings",
+    "traffic": 200000,
+    "news": "Pakistan vs England LIVE: ODI tri-series, Rawalpindi - cricket score, radio commentary & updates",
+    "t": 1792515681,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "harmanpreet kaur",
+    "traffic": 2000,
+    "news": "IND-W vs ZIM-W 2026, 1st T20I: Harmanpreet Kaur Wicket",
+    "t": 1792515681,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "sindh",
+    "traffic": 100,
+    "news": "SHC sets aside most of censor board’s excisions from film ‘Ghost School’",
+    "t": 1792515681,
+    "cat": "none",
+    "sindh": true
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 187,
+  "ok": 188,
   "fail": 5,
-  "limit": 240
+  "limit": 242
  },
  "posted_heads": [
   {
@@ -6347,7 +6411,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 21:52",
+  "time": "2026-10-20 22:01",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -6455,7 +6519,7 @@
   "text": 10,
   "story": 8
  },
- "ai_last_error": "21:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "22:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -6496,7 +6560,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 133,
+   "ok": 134,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -6504,7 +6568,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 126,
+   "ok": 127,
    "fail": 9,
    "items": 10,
    "fail_streak": 0,
@@ -6512,7 +6576,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 127,
+   "ok": 128,
    "fail": 8,
    "items": 10,
    "fail_streak": 0,
@@ -6520,14 +6584,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 134,
+   "ok": 135,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6535,21 +6599,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6981,14 +7045,14 @@
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 3,
-  "found": 55,
-  "old": 55,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-20 21",
+ "report_hour": "2026-10-20 22",
  "kawish_upload_times": {
   "_date": "2026-10-20",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -7763,13 +7827,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-20 15:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-20 15:30",
    "ok": true,
    "n": 0,
@@ -8053,6 +8110,13 @@
   },
   {
    "t": "10-20 21:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 22:00",
    "ok": true,
    "n": 0,
    "ids": [],
