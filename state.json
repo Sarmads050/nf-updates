@@ -1237,7 +1237,9 @@
   "7d1783fdfb6ea429": 1792487020.219506,
   "352dd402f15c20e9": 1792488050.461295,
   "ce2a348844c2750b": 1792490466.8162405,
-  "9c72144aa587bef5": 1792491344.1893215
+  "9c72144aa587bef5": 1792491344.1893215,
+  "cb63e839f2167919": 1792492861.6667793,
+  "d04fb127e388d91c": 1792492861.666783
  },
  "pending": {
   "f23b0b6ba00324c6": {
@@ -1409,18 +1411,8 @@
    "774cf85a46e5c750"
   ]
  },
- "last_post_id": "1444130002106066_122111144541503839",
+ "last_post_id": "1444130002106066_122111178765503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110802319503839",
-   "title": "لاهور ۾ گئس سلنڈر جوڌماڪو، 5 ڄڻا زخمي، ٻن جي حالت نازڪ",
-   "t": 1792428257.3521569,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110802319503839"
-  },
   {
    "id": "1444130002106066_122110802517503839",
    "title": "چانگ ۾ ٻه ڌريون جهيڙي پيون، هٿيارن جو کليءَ عام استعمال",
@@ -1712,6 +1704,18 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111144541503839"
+  },
+  {
+   "id": "1444130002106066_122111178765503839",
+   "title": "زين شاهه جي طلب: ايس يو پي جو وڪيلن کي موڪلڻ جو فيصلو",
+   "t": 1792492909.472279,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111178765503839"
   }
  ],
  "share_sent": {
@@ -1822,7 +1826,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 15:31",
+  "time": "2026-10-20 15:41",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1837,8 +1841,8 @@
  },
  "all_posts": {
   "date": "2026-10-20",
-  "count": 25,
-  "last": 1792487146.4130344
+  "count": 26,
+  "last": 1792492902.4700763
  },
  "perf": {
   "posts": [
@@ -3281,6 +3285,12 @@
     "sec": "public_news",
     "cat": "electricity_gas",
     "t": 1792487153
+   },
+   {
+    "id": "1444130002106066_122111178765503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1792492909
    }
   ]
  },
@@ -5585,15 +5595,11 @@
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 134,
+  "ok": 137,
   "fail": 5,
-  "limit": 187
+  "limit": 190
  },
  "posted_heads": [
-  {
-   "h": "2D barcodes mandatory on medicines to curb counterfeiting",
-   "t": 1792256530
-  },
   {
    "h": "Inflation in Pakistan | Rising Prices of Essential Items | Cost of Living Crisis",
    "t": 1792260809
@@ -5909,10 +5915,14 @@
   {
    "h": "Power purchase price may rise to Rs27.3 per unit in 2027: CPPA-G",
    "t": 1792487153
+  },
+  {
+   "h": "اين سي سي آءِ اي پاران ايس يو پي سربراهه سيد زين شاهه 22 آڪٽوبر تي طلب، پارٽي جو وڪيلن کي موڪلڻ جو فيصلو",
+   "t": 1792492909
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 15:31",
+  "time": "2026-10-20 15:41",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -6020,7 +6030,7 @@
   "text": 10,
   "story": 8
  },
- "ai_last_error": "15:15 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "15:41 openrouter google/gemma-4-31b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily ra",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -6034,9 +6044,9 @@
  },
  "img_diag": {
   "date": "2026-10-20",
-  "tried": 24,
+  "tried": 25,
   "gemini": 0,
-  "pollinations": 12,
+  "pollinations": 13,
   "skip": 4,
   "fail": 6,
   "last_note": "electricity meter and bill",
@@ -6061,7 +6071,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 96,
+   "ok": 97,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6069,7 +6079,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 90,
+   "ok": 91,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -6077,7 +6087,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 90,
+   "ok": 91,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -6085,35 +6095,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6744,8 +6754,8 @@
   "done_papers": [
    "19-10-2026"
   ],
-  "last_try": 1792490479.894808,
-  "last_try_note": "15:01 abhi nahi mila",
+  "last_try": 1792492848.958053,
+  "last_try_note": "15:40 abhi nahi mila",
   "paper": {
    "date": "19-10-2026",
    "read": [
@@ -6769,13 +6779,13 @@
  "region_posts": {
   "date": "2026-10-20",
   "district": 3,
-  "sindh": 6,
+  "sindh": 7,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 0,
-  "found": 26,
-  "old": 26,
+  "posted": 1,
+  "found": 38,
+  "old": 38,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -6797,9 +6807,9 @@
  },
  "sindh_stream": {
   "date": "2026-10-20",
-  "count": 4,
-  "last": 1792491342.3996534,
-  "city_i": 22,
+  "count": 5,
+  "last": 1792492859.718026,
+  "city_i": 4,
   "dry": 1792492273.28288
  },
  "gemini_day_dead": {
@@ -7297,6 +7307,14 @@
    "t": 1792487153,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "dc22988c75fb9558",
+   "h": "زين شاهه جي طلب: ايس يو پي جو وڪيلن کي موڪلڻ جو فيصلو",
+   "x": "نيشنل سائبر ڪرائيم انويسٽيگيشن ايجنسي (اين سي سي اي آءِ) ڪراچي پاران آن لائن بدناميءَ بابت شڪايت جي جاچ جي سلسلي ۾ سنڌ يونائيٽيڊ پارٽي جي سربراهه سيد زين شاهه کي 22 آڪٽوبر تي طلب ڪري نوٽيس جاري ڪيو ويو آهي. ٻئي طرف، سنڌ يونائيٽيڊ پارٽي فيصلو ڪيو آهي ته سيد زين شاهه اين سي سي اي آءِ آڏو ذاتي حيثيت ۾ پيش نه ٿيندو، پر سندس طرفان سنڌ يونائيٽيڊ لائيرز فورم جا وڪيل پيش ٿيندا. اهي وڪيل جاچ بابت پڇيل سوالن جا جواب ڏيڻ سان گڏ پنهنجو موقف پيش ڪندا. اهو فيصلو پارٽي سطح تي ڪيو ويو آهي جنهن جي تصديق لاڳاپيل رپورٽ ۾ ڪئي وئي آهي! بيان: سنڌ يونائيٽيڊ پارٽي جو سربراهه سيد زين شاهه",
+   "t": 1792492909,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -7314,13 +7332,6 @@
   "last": 1792426953.7977092
  },
  "tg_debug": [
-  {
-   "t": "10-20 09:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-20 09:20",
    "ok": true,
@@ -7595,6 +7606,13 @@
   },
   {
    "t": "10-20 15:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 15:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -10707,6 +10725,51 @@
     "ڄاڻ",
     "ڪان",
     "ڪيل"
+   ]
+  },
+  {
+   "t": 1792492909,
+   "h": "زين شاهه جي طلب: ايس يو پي جو وڪيلن کي موڪلڻ جو فيصلو",
+   "tt": [
+    "ايس",
+    "زين",
+    "شاهه",
+    "طلب",
+    "فيصلو",
+    "موڪلڻ",
+    "وڪيلن"
+   ],
+   "bt": [
+    "انويسٽيگيشن",
+    "اهي",
+    "ايجنسي",
+    "ايس",
+    "اين",
+    "اڪٽوبر",
+    "بابت",
+    "بدناميء",
+    "جاري",
+    "جاچ",
+    "زين",
+    "سائبر",
+    "سربراهه",
+    "سلسلي",
+    "سنڌ",
+    "سيد",
+    "شاهه",
+    "شڪايت",
+    "طلب",
+    "فيصلو",
+    "لائن",
+    "موڪلڻ",
+    "نوٽيس",
+    "نيشنل",
+    "وڪيلن",
+    "يونائيٽيڊ",
+    "پاران",
+    "پارٽي",
+    "ڪرائيم",
+    "ڪراچي"
    ]
   }
  ]
