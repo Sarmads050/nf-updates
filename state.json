@@ -1231,7 +1231,10 @@
   "90def2b3e28587a0": 1792484471.8858476,
   "93f27112ae17fb9d": 1792484601.855061,
   "e9118a2934dbe003": 1792485667.7556314,
-  "339b84886ad339c2": 1792485667.7556329
+  "339b84886ad339c2": 1792485667.7556329,
+  "cda8502de006eecf": 1792487020.2193549,
+  "034da651893d8eaf": 1792487020.2193577,
+  "7d1783fdfb6ea429": 1792487020.219506
  },
  "pending": {
   "f23b0b6ba00324c6": {
@@ -1387,18 +1390,8 @@
    "774cf85a46e5c750"
   ]
  },
- "last_post_id": "1444130002106066_122111131521503839",
+ "last_post_id": "1444130002106066_122111144541503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110802109503839",
-   "title": "مهرشا قتل ڪيس جي عدالت ۾ ٻڌڻي، 25 نومبر تي چين جي ماهرن اصل چهرن آهي جي چارجنگ چوڌاري",
-   "t": 1792428246.8821166,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110802109503839"
-  },
   {
    "id": "1444130002106066_122110802319503839",
    "title": "لاهور ۾ گئس سلنڈر جوڌماڪو، 5 ڄڻا زخمي، ٻن جي حالت نازڪ",
@@ -1691,6 +1684,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111131521503839"
+  },
+  {
+   "id": "1444130002106066_122111144541503839",
+   "title": "سي پي پي اي جي پاران سال 2027 تائين بجلي جو فی يونٽ خريداري اگهه 27 روپيا 3 پئسا تائين",
+   "t": 1792487153.6215868,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111144541503839"
   }
  ],
  "share_sent": {
@@ -1801,7 +1803,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 13:54",
+  "time": "2026-10-20 14:05",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1816,8 +1818,8 @@
  },
  "all_posts": {
   "date": "2026-10-20",
-  "count": 24,
-  "last": 1792484680.283701
+  "count": 25,
+  "last": 1792487146.4130344
  },
  "perf": {
   "posts": [
@@ -3254,13 +3256,19 @@
     "sec": "public_news",
     "cat": "fuel",
     "t": 1792484685
+   },
+   {
+    "id": "1444130002106066_122111144541503839",
+    "sec": "public_news",
+    "cat": "electricity_gas",
+    "t": 1792487153
    }
   ]
  },
  "public_news": {
   "date": "2026-10-20",
-  "count": 9,
-  "last": 1792484685.4851942
+  "count": 10,
+  "last": 1792487153.621571
  },
  "trends": {
   "last": 1792482296.8071804,
@@ -5558,15 +5566,11 @@
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 124,
+  "ok": 130,
   "fail": 5,
-  "limit": 171
+  "limit": 179
  },
  "posted_heads": [
-  {
-   "h": "CPPA seeks Rs2.56 per unit increase in electricity tariff",
-   "t": 1792249298
-  },
   {
    "h": "2D barcodes mandatory on medicines to curb counterfeiting",
    "t": 1792256530
@@ -5882,10 +5886,14 @@
   {
    "h": "Pakistan Petrol Price | Diesel Price Reduced | Fuel Prices Update",
    "t": 1792484685
+  },
+  {
+   "h": "Power purchase price may rise to Rs27.3 per unit in 2027: CPPA-G",
+   "t": 1792487153
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 13:54",
+  "time": "2026-10-20 14:05",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -5988,12 +5996,12 @@
  },
  "article_diag": {
   "date": "2026-10-20",
-  "tried": 15,
-  "decoded": 14,
-  "text": 8,
-  "story": 6
+  "tried": 16,
+  "decoded": 15,
+  "text": 9,
+  "story": 7
  },
- "ai_last_error": "13:41 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "14:03 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -6007,13 +6015,13 @@
  },
  "img_diag": {
   "date": "2026-10-20",
-  "tried": 23,
+  "tried": 24,
   "gemini": 0,
   "pollinations": 12,
   "skip": 4,
-  "fail": 5,
-  "last_note": "petrol pump fuel nozzle",
-  "mismatch": 28
+  "fail": 6,
+  "last_note": "electricity meter and bill",
+  "mismatch": 30
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -6034,7 +6042,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 86,
+   "ok": 87,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6043,50 +6051,50 @@
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
    "ok": 81,
-   "fail": 6,
+   "fail": 7,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
    "ok": 81,
-   "fail": 6,
+   "fail": 7,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 87,
+   "ok": 88,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 87,
+   "ok": 88,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 87,
+   "ok": 88,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 87,
+   "ok": 88,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 87,
+   "ok": 88,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6743,17 +6751,17 @@
   "date": "2026-10-20",
   "district": 3,
   "sindh": 6,
-  "pakistan": 14
+  "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 50,
-  "old": 50,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-20 13",
+ "report_hour": "2026-10-20 14",
  "kawish_upload_times": {
   "_date": "2026-10-20",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -6772,8 +6780,8 @@
   "date": "2026-10-20",
   "count": 4,
   "last": 1792482667.078125,
-  "city_i": 12,
-  "dry": 1792486479.394034
+  "city_i": 16,
+  "dry": 1792487016.0237465
  },
  "gemini_day_dead": {
   "day": "2026-10-20",
@@ -7262,6 +7270,14 @@
    "t": 1792484685,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "9ffdd94521e4b45c",
+   "h": "بجلي جي خريداري اگهه ۾ واڌ جو امڪان",
+   "x": "سنڌي عوام جي ڄاڻ لاءِ ته سينٽرل پاور پرچيزنگ ايجنسي موجب 2027 ۾ پاڪستان ۾ بجلي جي خريداري جو اگهه 27.309 روپين تائين پهچي سگهي ٿو۔ هي تجويز ڪيل اگهه سال 2027 جي پهرين جنوري کان لاڳو ٿيندڙ بجلي جي نئين ٽريف ريبيسنگ جو حصو آهي۔ بنيادي صورتحال تحت ڪل خرچ 3.55 ٽريلين روپيا ٿيڻ جو امڪان آهي، جنهن ۾ گنجائش جا چارجز 1.91 ٽريلين روپيا هوندا۔ نيشنل اليڪٽرڪ پاور رگيوليٽري اٿارٽي 3 نومبر 2026 تي هن تجويز تي ٻڌڻي ڪندي۔ مختلف منظرنامن ۾ بجلي جو اگهه 25.883 روپين کان 29.255 روپين تائين مختلف ٿي سگهي ٿو!",
+   "t": 1792487153,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -7278,13 +7294,6 @@
   "last": 1792426953.7977092
  },
  "tg_debug": [
-  {
-   "t": "10-20 07:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-20 07:50",
    "ok": true,
@@ -7559,6 +7568,13 @@
   },
   {
    "t": "10-20 13:54",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 14:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -10624,6 +10640,53 @@
     "ڇڏيو",
     "ڊيزل",
     "گهٽتائي"
+   ]
+  },
+  {
+   "t": 1792487153,
+   "h": "بجلي جي خريداري اگهه ۾ واڌ جو امڪان",
+   "tt": [
+    "امڪان",
+    "اگهه",
+    "بجلي",
+    "خريداري",
+    "واڌ"
+   ],
+   "bt": [
+    "2027",
+    "309",
+    "امڪان",
+    "اهي۔",
+    "ايجنسي",
+    "اگهه",
+    "بجلي",
+    "تائين",
+    "تجويز",
+    "جنوري",
+    "حصو",
+    "خريداري",
+    "روپين",
+    "ريبيسنگ",
+    "سال",
+    "سنڌي",
+    "سينٽرل",
+    "سگهي",
+    "عوام",
+    "لاڳو",
+    "موجب",
+    "نئين",
+    "واڌ",
+    "ٽريف",
+    "پاور",
+    "پاڪستان",
+    "پرچيزنگ",
+    "پهرين",
+    "پهچي",
+    "ٿو۔",
+    "ٿيندڙ",
+    "ڄاڻ",
+    "ڪان",
+    "ڪيل"
    ]
   }
  ]
