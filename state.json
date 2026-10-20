@@ -1155,7 +1155,12 @@
   "6fe23d5b8c6aef8a": 1792454036.727417,
   "806f266e359723cf": 1792456868.613113,
   "19062f951d3eb937": 1792458647.322794,
-  "9ec199b4cb963b33": 1792458675.561876
+  "9ec199b4cb963b33": 1792458675.561876,
+  "469ced31e22dca65": 1792460471.0994785,
+  "9ed69b6a01a5a7a2": 1792460471.0994818,
+  "cda0b0d29cc43d12": 1792460471.0994835,
+  "97d8dc9c2459cf8e": 1792460471.0994842,
+  "287abd457d3dc2df": 1792460471.0997338
  },
  "pending": {
   "f23b0b6ba00324c6": {
@@ -1337,20 +1342,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110982397503839",
+ "last_post_id": "1444130002106066_122110992369503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110785879503839",
-   "title": "حيدرآباد پريس ڪلب ۾ درجن واري قلم زن رهائشي اسڪيم تي نوٽيس، تصديق نه ٿي سگهي، رويو ڪاني",
-   "t": 1792425870.5731366,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110785879503839"
-  },
   {
    "id": "1444130002106066_122110790673503839",
    "title": "سنڌي ٻوليءَ جي تاريخ ۽ ادب بابت تعارفي تقريب",
@@ -1645,6 +1638,16 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110982397503839"
+  },
+  {
+   "id": "1444130002106066_122110992369503839",
+   "title": "پشاور هاءِ ڪورٽ جي فيصلي بعد خيبرپختونخوا فوڊ کاتي روزاني جي بنياد تي ڪڻڪ جو جاري ٿيندڙ",
+   "t": 1792460491.2853055,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110992369503839"
   }
  ],
  "share_sent": {
@@ -1751,7 +1754,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 06:30",
+  "time": "2026-10-20 06:41",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1761,13 +1764,13 @@
  },
  "agri_news": {
   "date": "2026-10-20",
-  "count": 1,
-  "last": 1792447324.4880035
+  "count": 2,
+  "last": 1792460491.2850537
  },
  "all_posts": {
   "date": "2026-10-20",
-  "count": 7,
-  "last": 1792458711.652674
+  "count": 8,
+  "last": 1792460486.3821476
  },
  "perf": {
   "posts": [
@@ -3114,6 +3117,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792458717
+   },
+   {
+    "id": "1444130002106066_122110992369503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1792460491
    }
   ]
  },
@@ -3123,7 +3132,7 @@
   "last": 1792456901.429271
  },
  "trends": {
-  "last": 1792449058.5729756,
+  "last": 1792460450.5557148,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -5292,21 +5301,57 @@
     "t": 1792449059,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "open",
+    "traffic": 100,
+    "news": "Russia proposes a Trump-Xi-Putin meeting in China next month",
+    "t": 1792460450,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "national cyber crimes investigation agency",
+    "traffic": 200,
+    "news": "NCCIA Islamabad forms special teams to tackle cybercrime, protect women & children",
+    "t": 1792460450,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "al hilal sfc vs al-hazem f.c. standings",
+    "traffic": 100,
+    "news": "Video: Is Salem Al-Dawsari turning into a substitute at Al-Hilal?",
+    "t": 1792460450,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "helen haines",
+    "traffic": 100,
+    "news": "Man arrested after Australian MP struck by car, premier says act appears deliberate",
+    "t": 1792460450,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "face",
+    "traffic": 200,
+    "news": "Graham Breaks With Trump Over Russia Sanctions Law Her Brother Championed",
+    "t": 1792460450,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 40,
+  "ok": 44,
   "fail": 2,
-  "limit": 58
+  "limit": 64
  },
  "posted_heads": [
-  {
-   "h": "Pakistan plans dairy reforms to boost exports to $2 billion",
-   "t": 1792225932
-  },
   {
    "h": "Pakistan’s IT Exports Jump 18% to $1.246 Billion in First Quarter of FY2026-27",
    "t": 1792227708
@@ -5622,10 +5667,14 @@
   {
    "h": "Cricket Coverage - PAK vs ENG, 2nd Match Analysis",
    "t": 1792458717
+  },
+  {
+   "h": "KP Food Deptt increases daily wheat release quota following PHC decision",
+   "t": 1792460491
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 06:30",
+  "time": "2026-10-20 06:41",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -5728,12 +5777,12 @@
  },
  "article_diag": {
   "date": "2026-10-20",
-  "tried": 5,
-  "decoded": 5,
+  "tried": 6,
+  "decoded": 6,
   "text": 4,
   "story": 3
  },
- "ai_last_error": "06:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "06:41 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -5747,9 +5796,9 @@
  },
  "img_diag": {
   "date": "2026-10-20",
-  "tried": 7,
+  "tried": 8,
   "gemini": 0,
-  "pollinations": 5,
+  "pollinations": 6,
   "skip": 1,
   "fail": 1,
   "last_note": "nursing textbooks and stethoscope",
@@ -5774,7 +5823,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 40,
+   "ok": 41,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -5782,7 +5831,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 38,
+   "ok": 39,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -5790,7 +5839,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 38,
+   "ok": 39,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -5798,35 +5847,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6483,12 +6532,12 @@
   "date": "2026-10-20",
   "district": 0,
   "sindh": 2,
-  "pakistan": 5
+  "pakistan": 6
  },
  "report_acc": {
-  "posted": 1,
-  "found": 29,
-  "old": 28,
+  "posted": 2,
+  "found": 39,
+  "old": 38,
   "irrelevant": 1,
   "blocked": 0,
   "errors": []
@@ -6512,8 +6561,8 @@
   "date": "2026-10-20",
   "count": 2,
   "last": 1792443674.1565475,
-  "city_i": 8,
-  "dry": 1792458666.2567332
+  "city_i": 12,
+  "dry": 1792460460.129368
  },
  "gemini_day_dead": {
   "day": "2026-10-19",
@@ -6887,6 +6936,14 @@
    "t": 1792458717,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "10248d87e747d759",
+   "h": "ڪي پي فوڊ کاتي ڪڻڪ جو کوٽو وڌائي ڇڏيو",
+   "x": "پشاور هاءِ ڪورٽ جي فيصلي بعد خيبرپختونخوا فوڊ کاتي روزاني جي بنياد تي ڪڻڪ جو جاري ٿيندڙ کوٽو وڌائي ڇڏيو آهي، جنهن سان مارڪيٽ ۾ ڪڻڪ ۽ اٽي جي دستياب کي يقيني بڻايو ويندو!",
+   "t": 1792460491,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -6900,13 +6957,6 @@
   "last": 1792426953.7977092
  },
  "tg_debug": [
-  {
-   "t": "10-20 00:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-20 00:20",
    "ok": true,
@@ -7175,6 +7225,13 @@
   },
   {
    "t": "10-20 06:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 06:40",
    "ok": true,
    "n": 0,
    "ids": [],
