@@ -1239,7 +1239,10 @@
   "ce2a348844c2750b": 1792490466.8162405,
   "9c72144aa587bef5": 1792491344.1893215,
   "cb63e839f2167919": 1792492861.6667793,
-  "d04fb127e388d91c": 1792492861.666783
+  "d04fb127e388d91c": 1792492861.666783,
+  "6ff899fe1d58a773": 1792494081.984981,
+  "23c25cadf5b84af1": 1792494081.984983,
+  "d8dbca140581ab61": 1792494081.9849854
  },
  "pending": {
   "f23b0b6ba00324c6": {
@@ -1401,18 +1404,8 @@
    "774cf85a46e5c750"
   ]
  },
- "last_post_id": "1444130002106066_122111183991503839",
+ "last_post_id": "1444130002106066_122111188077503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110802793503839",
-   "title": "ٺُل ويجهو هٿياربندن جي فائرنگ، هڪ نوجوان فوت",
-   "t": 1792428276.4518297,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110802793503839"
-  },
   {
    "id": "1444130002106066_122110802997503839",
    "title": "خيرپور: گهرو اڻبڻت تان جوابدار جي فائرنگ، زال ۽ سهرو قتل",
@@ -1706,6 +1699,18 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111183991503839"
+  },
+  {
+   "id": "1444130002106066_122111188077503839",
+   "title": "سنڌ پبلڪ سروس ڪميشن: عمر جي حد ۳۳ سال مقرر",
+   "t": 1792494236.833073,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111188077503839"
   }
  ],
  "share_sent": {
@@ -1816,7 +1821,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 15:51",
+  "time": "2026-10-20 16:03",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1831,8 +1836,8 @@
  },
  "all_posts": {
   "date": "2026-10-20",
-  "count": 27,
-  "last": 1792493460.6468306
+  "count": 28,
+  "last": 1792494226.8713782
  },
  "perf": {
   "posts": [
@@ -3287,6 +3292,12 @@
     "sec": "district",
     "cat": "district",
     "t": 1792493468
+   },
+   {
+    "id": "1444130002106066_122111188077503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1792494236
    }
   ]
  },
@@ -5663,15 +5674,11 @@
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 138,
+  "ok": 143,
   "fail": 5,
-  "limit": 192
+  "limit": 196
  },
  "posted_heads": [
-  {
-   "h": "Inflation in Pakistan | Rising Prices of Essential Items | Cost of Living Crisis",
-   "t": 1792260809
-  },
   {
    "h": "Gold prices fall in Pakistan as global market loses ground",
    "t": 1792263189
@@ -5987,10 +5994,14 @@
   {
    "h": "اين سي سي آءِ اي پاران ايس يو پي سربراهه سيد زين شاهه 22 آڪٽوبر تي طلب، پارٽي جو وڪيلن کي موڪلڻ جو فيصلو",
    "t": 1792492909
+  },
+  {
+   "h": "سنڌ پبلڪ سروس ڪميشن ۾ اهم سڌارا منظور، چٽاڀيٽي امتحان لاءِ عمر جي حد 33 سال مقرر",
+   "t": 1792494236
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 15:51",
+  "time": "2026-10-20 16:03",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -6098,7 +6109,7 @@
   "text": 10,
   "story": 8
  },
- "ai_last_error": "15:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "16:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -6112,13 +6123,13 @@
  },
  "img_diag": {
   "date": "2026-10-20",
-  "tried": 26,
+  "tried": 27,
   "gemini": 0,
   "pollinations": 13,
   "skip": 5,
   "fail": 6,
-  "last_note": "electricity meter and bill",
-  "mismatch": 30
+  "last_note": "open exam answer booklets",
+  "mismatch": 33
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -6139,7 +6150,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 98,
+   "ok": 99,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6147,7 +6158,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 92,
+   "ok": 93,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -6155,7 +6166,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 92,
+   "ok": 93,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -6163,35 +6174,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6847,18 +6858,18 @@
  "region_posts": {
   "date": "2026-10-20",
   "district": 4,
-  "sindh": 7,
+  "sindh": 8,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 2,
-  "found": 50,
-  "old": 50,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-20 15",
+ "report_hour": "2026-10-20 16",
  "kawish_upload_times": {
   "_date": "2026-10-20",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -6875,9 +6886,9 @@
  },
  "sindh_stream": {
   "date": "2026-10-20",
-  "count": 5,
-  "last": 1792492859.718026,
-  "city_i": 4,
+  "count": 6,
+  "last": 1792494079.389583,
+  "city_i": 8,
   "dry": 1792492273.28288
  },
  "gemini_day_dead": {
@@ -7392,6 +7403,14 @@
    "t": 1792493468,
    "s": true,
    "r": 0
+  },
+  {
+   "k": "17621403016113c4",
+   "h": "سنڌ پبلڪ سروس ڪميشن: عمر جي حد ۳۳ سال مقرر",
+   "x": "سنڌ ڪابينا سنڌ پبلڪ سروس ڪميشن جي چٽاڀيٽي امتحانن ۾ اهم سڌارن جي منظوري ڏئي ڇڏي آهي. نئين فيصلي تحت امتحان ۾ شرڪت لاءِ عمر جي حد ۳۰ سالن مان وڌائي ۳۳ سال مقرر ڪئي وئي آهي. اجلاس دوران چٽاڀيٽي امتحان ۾ شرڪت جا موقعا پڻ ٽن مان وڌائي پنج ڪرڻ جي منظوري پڻ ڏني وئي. ان کان علاوه سي سي اي ۲۰۲۶ع جي اسڪريننگ ٽيسٽ ۾ ڪاميابيءَ جو معيار ۴۰ سيڪڙو مان گهٽائي ۳۳ سيڪڙو ڪيو ويو آهي. اجلاس ۾ هڪ پرچي تي ٻڌل امتحان لاءِ ڪمپيوٽرائزڊ ٽيسٽنگ متعارف ڪرائڻ جو فيصلو پڻ ڪيو ويو!",
+   "t": 1792494236,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -7409,13 +7428,6 @@
   "last": 1792426953.7977092
  },
  "tg_debug": [
-  {
-   "t": "10-20 09:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-20 09:40",
    "ok": true,
@@ -7695,6 +7707,13 @@
    "ids": [
     661217048
    ],
+   "err": null
+  },
+  {
+   "t": "10-20 16:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
    "err": null
   }
  ],
@@ -10907,6 +10926,51 @@
     "چوڻ",
     "ڇڏيو",
     "گهر"
+   ]
+  },
+  {
+   "t": 1792494236,
+   "h": "سنڌ پبلڪ سروس ڪميشن: عمر جي حد ۳۳ سال مقرر",
+   "tt": [
+    "سال",
+    "سروس",
+    "سنڌ",
+    "عمر",
+    "مقرر",
+    "پبلڪ",
+    "ڪميشن"
+   ],
+   "bt": [
+    "اجلاس",
+    "امتحان",
+    "امتحانن",
+    "اهم",
+    "اهي",
+    "تحت",
+    "دوران",
+    "سال",
+    "سالن",
+    "سروس",
+    "سنڌ",
+    "سڌارن",
+    "شرڪت",
+    "عمر",
+    "فيصلي",
+    "مان",
+    "مقرر",
+    "منظوري",
+    "موقعا",
+    "نئين",
+    "وڌائي",
+    "پبلڪ",
+    "پنج",
+    "چٽاڀيٽي",
+    "ڇڏي",
+    "ڏئي",
+    "ڏني",
+    "ڪابينا",
+    "ڪرڻ",
+    "ڪميشن"
    ]
   }
  ]
