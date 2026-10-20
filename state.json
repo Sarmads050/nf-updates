@@ -1551,18 +1551,8 @@
    "fc0b08515c062b5b"
   ]
  },
- "last_post_id": "1444130002106066_122111300001503839",
+ "last_post_id": "1444130002106066_122111305653503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122111022243503839",
-   "title": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي جو اعلان وفاقي حڪومت عوام کي رليف ڏيندي پيٽروليم شين جون",
-   "t": 1792466504.9249103,
-   "tags": [
-    "general",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122111022243503839"
-  },
   {
    "id": "1444130002106066_122111038947503839",
    "title": "اڄ جون نوڪريون (نوشهروفيروز ۽ سنڌ)",
@@ -1871,6 +1861,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111300001503839"
+  },
+  {
+   "id": "1444130002106066_122111305653503839",
+   "title": "پيٽرول 5 روپيا 16 پيسا ۽ ڈیزل 7 روپيا 69 پيسا سستو",
+   "t": 1792514092.575099,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111305653503839"
   }
  ],
  "share_sent": {
@@ -1989,7 +1991,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 21:20",
+  "time": "2026-10-20 21:34",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2004,8 +2006,8 @@
  },
  "all_posts": {
   "date": "2026-10-20",
-  "count": 42,
-  "last": 1792512790.9853501
+  "count": 43,
+  "last": 1792514083.546119
  },
  "perf": {
   "posts": [
@@ -3550,6 +3552,12 @@
     "sec": "kawish",
     "cat": "sindh",
     "t": 1792512795
+   },
+   {
+    "id": "1444130002106066_122111305653503839",
+    "sec": "kawish",
+    "cat": "sindh",
+    "t": 1792514092
    }
   ]
  },
@@ -5982,9 +5990,9 @@
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 184,
+  "ok": 185,
   "fail": 5,
-  "limit": 236
+  "limit": 238
  },
  "posted_heads": [
   {
@@ -6322,10 +6330,14 @@
   {
    "h": "\"سنڌ جو ورثو، ناسطور، پيڙهو و ڪلن جو نقل جنتل مرجي تاريخ نائين مارچ عورتن",
    "t": 1792512796
+  },
+  {
+   "h": "پيٽرول 5 روپيا 16 پيسا ۽ ڈیزل 7 روپيا 69 پيسا سستو",
+   "t": 1792514093
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 21:21",
+  "time": "2026-10-20 21:34",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -6433,7 +6445,7 @@
   "text": 10,
   "story": 8
  },
- "ai_last_error": "21:10 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "21:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -6447,12 +6459,12 @@
  },
  "img_diag": {
   "date": "2026-10-20",
-  "tried": 41,
+  "tried": 42,
   "gemini": 0,
   "pollinations": 20,
   "skip": 11,
-  "fail": 9,
-  "last_note": "Pakistani passport and documents",
+  "fail": 12,
+  "last_note": "pollinations 402 {\"status\":402,\"success\":false,\"error\":{\"code\":\"FREE_LIMIT\",\"message\":\"Free limit reached: 1 image every 45 seconds per I",
   "mismatch": 37
  },
  "gemini_img": {
@@ -6474,15 +6486,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 130,
+   "ok": 131,
    "fail": 2,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 123,
+   "ok": 124,
    "fail": 9,
    "items": 10,
    "fail_streak": 0,
@@ -6490,7 +6502,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 124,
+   "ok": 125,
    "fail": 8,
    "items": 10,
    "fail_streak": 0,
@@ -6498,14 +6510,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 132,
+   "ok": 133,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 131,
+   "ok": 132,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6513,21 +6525,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 132,
+   "ok": 133,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 132,
+   "ok": 133,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 132,
+   "ok": 133,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6955,13 +6967,13 @@
  "region_posts": {
   "date": "2026-10-20",
   "district": 10,
-  "sindh": 16,
+  "sindh": 17,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 22,
-  "old": 22,
+  "posted": 2,
+  "found": 33,
+  "old": 33,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -7620,6 +7632,14 @@
    "t": 1792512795,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "3db4006b168f0e4a",
+   "h": "پيٽرول 5 روپيا 16 پيسا ۽ ڈیزل 7 روپيا 69 پيسا سستو",
+   "x": "حڪومت پيٽروليم شين جي قيمتن ۾ گهٽتائي جو اعلان ڪيو آهي. پيٽرول 5 روپيا 16 پيسا ۽ ڊيزل 7 روپيا 69 پيسا سستو ڪيو ويو آهي. نيون قيمتون رات جو 12 وڳي کان لاڳو ٿي ويون آهن!",
+   "t": 1792514092,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -7628,22 +7648,11 @@
    "09:30",
    "12:30",
    "15:30",
-   "18:30"
+   "18:30",
+   "21:30"
   ]
  },
  "kawish_queue": [
-  {
-   "key": "3db4006b168f0e4a",
-   "page": 1,
-   "head": "پيٽرول 5 روپيا 16 پيسا ۽ ڈیزل 7 روپيا 69 پيسا سستو",
-   "summary": "حڪومت پيٽروليم شين جي قيمتن ۾ گهٽتائي جو اعلان ڪيو آهي. پيٽرول 5 روپيا 16 پيسا ۽ ڊيزل 7 روپيا 69 پيسا سستو ڪيو ويو آهي. نيون قيمتون رات جو 12 وڳي کان لاڳو ٿي ويون آهن.",
-   "district": false,
-   "sensitive": false,
-   "confidence": "high",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-10-20&pageno=1",
-   "message": "📰 پيٽرول 5 روپيا 16 پيسا ۽ ڈیزل 7 روپيا 69 پيسا سستو\n\nحڪومت پيٽروليم شين جي قيمتن ۾ گهٽتائي جو اعلان ڪيو آهي. پيٽرول 5 روپيا 16 پيسا ۽ ڊيزل 7 روپيا 69 پيسا سستو ڪيو ويو آهي. نيون قيمتون رات جو 12 وڳي کان لاڳو ٿي ويون آهن!\n\n📌 ذريعو: روزاني ڪاوش (صفحو 1)\n\n📲 نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFeroze #Padidan #نوشهروفيروز #پڊعيدن",
-   "added_day": "2026-10-20"
-  },
   {
    "key": "6fea43b4fc8adf1a",
    "page": 1,
@@ -7743,17 +7752,10 @@
  ],
  "kawish_post": {
   "date": "2026-10-20",
-  "count": 4,
-  "last": 1792512795.9603653
+  "count": 5,
+  "last": 1792514092.5750585
  },
  "tg_debug": [
-  {
-   "t": "10-20 14:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-20 15:00",
    "ok": true,
@@ -8038,6 +8040,13 @@
   },
   {
    "t": "10-20 21:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 21:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -11989,6 +11998,40 @@
     "پيڙهو",
     "ڪلن",
     "ڪندڙن"
+   ]
+  },
+  {
+   "t": 1792514092,
+   "h": "پيٽرول 5 روپيا 16 پيسا ۽ ڈیزل 7 روپيا 69 پيسا سستو",
+   "tt": [
+    "روپيا",
+    "سستو",
+    "پيسا",
+    "پيٽرول",
+    "ڈيزل"
+   ],
+   "bt": [
+    "اعلان",
+    "اهن",
+    "اهي",
+    "حڪومت",
+    "رات",
+    "روپيا",
+    "سستو",
+    "شين",
+    "قيمتن",
+    "قيمتون",
+    "لاڳو",
+    "نيون",
+    "ويون",
+    "وڳي",
+    "پيسا",
+    "پيٽرول",
+    "پيٽروليم",
+    "ڈيزل",
+    "ڊيزل",
+    "ڪان",
+    "گهٽتائي"
    ]
   }
  ]
