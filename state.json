@@ -1822,7 +1822,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 15:20",
+  "time": "2026-10-20 15:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -5912,7 +5912,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 15:20",
+  "time": "2026-10-20 15:31",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -6061,7 +6061,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 95,
+   "ok": 96,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6069,7 +6069,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 89,
+   "ok": 90,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -6077,7 +6077,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 89,
+   "ok": 90,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -6085,35 +6085,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 96,
+   "ok": 97,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 96,
+   "ok": 97,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 96,
+   "ok": 97,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 96,
+   "ok": 97,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 96,
+   "ok": 97,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6774,8 +6774,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 14,
-  "old": 14,
+  "found": 26,
+  "old": 26,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -6799,8 +6799,8 @@
   "date": "2026-10-20",
   "count": 4,
   "last": 1792491342.3996534,
-  "city_i": 18,
-  "dry": 1792490494.1440086
+  "city_i": 22,
+  "dry": 1792492273.28288
  },
  "gemini_day_dead": {
   "day": "2026-10-20",
@@ -7303,7 +7303,8 @@
   "date": "2026-10-20",
   "done": [
    "09:30",
-   "12:30"
+   "12:30",
+   "15:30"
   ]
  },
  "kawish_queue": [],
@@ -7313,13 +7314,6 @@
   "last": 1792426953.7977092
  },
  "tg_debug": [
-  {
-   "t": "10-20 09:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-20 09:10",
    "ok": true,
@@ -7594,6 +7588,13 @@
   },
   {
    "t": "10-20 15:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 15:30",
    "ok": true,
    "n": 0,
    "ids": [],
