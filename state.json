@@ -1300,7 +1300,9 @@
   "9d9ac6421613baa7": 1792508198.8703778,
   "0d3d5b60bf074fe9": 1792508198.8707042,
   "50c2875f1207b574": 1792509061.3457153,
-  "33544be506e8f07f": 1792512084.8633022
+  "33544be506e8f07f": 1792512084.8633022,
+  "1ffe6cdf7909b850": 1792517464.925856,
+  "86cf542c06988062": 1792517464.9273016
  },
  "pending": {
   "128a1764669bec4d": {
@@ -1457,6 +1459,24 @@
    "source": "ProPakistani",
    "ts": 1792503675,
    "local": false
+  },
+  {
+   "key": "1ffe6cdf7909b850",
+   "title": "Public Service Commission raises Age Limit to 33 Years in Relief for Job Seekers",
+   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYmw3NlFRMW83SmFOV3JJVjhCcHdBOHZZNy1PTDRzQ3FYaXhPQWQ1X1ZPbnhvLXlQYkgzTFBIMmVxUkdSbmJHREhpLWdJVVpSMGdLakc3cnZOYTFGR3BROThaTE1XWVp2TS1kMmxhR0g1YmJEeXE4ZG9MWUJVaHRteklOMHg4SHQyT0JacEFSeEdDc1ZPMHItN0dCd3RwRXdrZ01tanBfN0wxMlBqcjFTSy16QndrUmNKZEE3SjFVdTk3UQ?oc=5",
+   "domain": "en.dailypakistan.com.pk",
+   "source": "Daily Pakistan",
+   "ts": 1792516409,
+   "local": false
+  },
+  {
+   "key": "86cf542c06988062",
+   "title": "NAB Chairman Announces Crackdown Against Power Plants",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMDF6VVg3RDlOV1JlZUg3OG5zUkh6R3RRcWE4TDVQVHVXcGxESHlTMjZWemc4dUVmZUVlNVZ6d3ctanh3SVRpNTVvemkzZ2VCWEFhQTR1YUt0V2M1Vm1DQmhvZ0QtS1BmQVNuOE9YQ191Ul9pSkdYSHg5WnhFUnhLY1kwb21Ic1ZQRnpic0hPODR2MzTSAZgBQVVfeXFMUGVFWE1vaEJmQ0ZFN2tLZGpUYmNQbDY1cHlrQ2pmbDBYU0dMQ3NqLVVyQURCdnYtYkVmRVd3dlgzOVhFYmRYaFk2Y0YwVVo2S3ZuNm04bmE4NlQ2YkFHUVZzVTJyV3VabER0VnNOQi0ya2hsVFI0cTRTeFE3aUFDY2J4czYwd19NaUtkZ2I0cHVMdXl0UnZWVEU?oc=5",
+   "domain": "propakistani.pk",
+   "source": "ProPakistani",
+   "ts": 1792432831,
+   "local": false
   }
  ],
  "tg_offset": 661217107,
@@ -1472,7 +1492,7 @@
   "last_week": "",
   "last_check": "2026-10-20"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1551,17 +1571,8 @@
    "fc0b08515c062b5b"
   ]
  },
- "last_post_id": "1444130002106066_122111318445503839",
+ "last_post_id": "1444130002106066_122111326809503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122111058885503839",
-   "title": "ملڪ ۾ هلندڙ مالي سال دوران بجلي ۽ گئس جي سرڪيولر قرض ۾ واղ رڪارڊ ڪئي وئي آهي",
-   "t": 1792472600.1396112,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122111058885503839"
-  },
   {
    "id": "1444130002106066_122111061267503839",
    "title": "دادو: مزمل ڪالوني ۾ فائرنگ، نوجوان قتل",
@@ -1876,6 +1887,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111318445503839"
+  },
+  {
+   "id": "1444130002106066_122111326809503839",
+   "title": "ايڇ دي اِي سکر وائيس چانسلر جو شڪار کين ان جو سپر سني سيشن جون اين او سيءَ سيٽل ڪري ڇڏيو",
+   "t": 1792517548.4950266,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111326809503839"
   }
  ],
  "share_sent": {
@@ -1994,7 +2017,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 22:21",
+  "time": "2026-10-20 22:32",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2009,8 +2032,8 @@
  },
  "all_posts": {
   "date": "2026-10-20",
-  "count": 45,
-  "last": 1792516373.6111364
+  "count": 46,
+  "last": 1792517543.903857
  },
  "perf": {
   "posts": [
@@ -3573,6 +3596,12 @@
     "sec": "kawish",
     "cat": "sindh",
     "t": 1792516379
+   },
+   {
+    "id": "1444130002106066_122111326809503839",
+    "sec": "kawish",
+    "cat": "sindh",
+    "t": 1792517548
    }
   ]
  },
@@ -6069,9 +6098,9 @@
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 190,
+  "ok": 192,
   "fail": 5,
-  "limit": 244
+  "limit": 246
  },
  "posted_heads": [
   {
@@ -6421,10 +6450,14 @@
   {
    "h": "ٽرانسپورٽرن کي سليسليڪشن لسٽ تي فوتي آفيسرن جي صحيح حصي جو قرار",
    "t": 1792516379
+  },
+  {
+   "h": "ايڇ دي اِي سکر وائيس چانسلر جو شڪار کين ان جو سپر سني سيشن جون اين او سيءَ سيٽل ڪري ڇڏيو",
+   "t": 1792517548
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 22:21",
+  "time": "2026-10-20 22:32",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -6532,7 +6565,7 @@
   "text": 10,
   "story": 8
  },
- "ai_last_error": "22:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "22:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -6546,9 +6579,9 @@
  },
  "img_diag": {
   "date": "2026-10-20",
-  "tried": 44,
+  "tried": 45,
   "gemini": 0,
-  "pollinations": 22,
+  "pollinations": 23,
   "skip": 11,
   "fail": 12,
   "last_note": "pollinations 402 {\"status\":402,\"success\":false,\"error\":{\"code\":\"FREE_LIMIT\",\"message\":\"Free limit reached: 1 image every 45 seconds per I",
@@ -6573,7 +6606,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 136,
+   "ok": 137,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -6581,7 +6614,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 129,
+   "ok": 130,
    "fail": 9,
    "items": 10,
    "fail_streak": 0,
@@ -6589,7 +6622,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 130,
+   "ok": 131,
    "fail": 8,
    "items": 10,
    "fail_streak": 0,
@@ -6597,14 +6630,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 138,
+   "ok": 139,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 137,
+   "ok": 138,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6612,21 +6645,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 138,
+   "ok": 139,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 138,
+   "ok": 139,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 138,
+   "ok": 139,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -7054,13 +7087,13 @@
  "region_posts": {
   "date": "2026-10-20",
   "district": 10,
-  "sindh": 19,
+  "sindh": 20,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 22,
-  "old": 22,
+  "posted": 2,
+  "found": 33,
+  "old": 33,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -7743,6 +7776,14 @@
    "t": 1792516379,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "f886aaf1ac727265",
+   "h": "ايڇ دي اِي سکر وائيس چانسلر جو شڪار کين ان جو سپر سني سيشن جون اين او سيءَ سيٽل ڪري ڇڏيو",
+   "x": "شاھ عبداللطيف يونيورسٽي سکر جي وائيس چانسلر مختلف کاتن جي سريلي سيشن جي منظوري ڏئي ڇڏي آهي. يونيورسٽي ۾ پڙھائي جو ماحول بهتر بڻائڻ لاءِ قدم کنيا پيا وڃن. شاگردن کي سموريون ضروري سهولتون فراهم ڪيون وينديون!",
+   "t": 1792517548,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -7756,18 +7797,6 @@
   ]
  },
  "kawish_queue": [
-  {
-   "key": "f886aaf1ac727265",
-   "page": 1,
-   "head": "ايڇ دي اِي سکر وائيس چانسلر جو شڪار کين ان جو سپر سني سيشن جون اين او سيءَ سيٽل ڪري ڇڏيو",
-   "summary": "شاھ عبداللطيف يونيورسٽي سکر جي وائيس چانسلر مختلف کاتن جي سريلي سيشن جي منظوري ڏئي ڇڏي آهي. يونيورسٽي ۾ پڙھائي جو ماحول بهتر بڻائڻ لاءِ قدم کنيا پيا وڃن. شاگردن کي سموريون ضروري سهولتون فراهم ڪيون وينديون.",
-   "district": false,
-   "sensitive": false,
-   "confidence": "medium",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-10-20&pageno=1",
-   "message": "📰 ايڇ دي اِي سکر وائيس چانسلر جو شڪار کين ان جو سپر سني سيشن جون اين او سيءَ سيٽل ڪري ڇڏيو\n\nشاھ عبداللطيف يونيورسٽي سکر جي وائيس چانسلر مختلف کاتن جي سريلي سيشن جي منظوري ڏئي ڇڏي آهي. يونيورسٽي ۾ پڙھائي جو ماحول بهتر بڻائڻ لاءِ قدم کنيا پيا وڃن. شاگردن کي سموريون ضروري سهولتون فراهم ڪيون وينديون!\n\n📌 ذريعو: روزاني ڪاوش (صفحو 1)\n\n📲 نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFeroze #Padidan #نوشهروفيروز #پڊعيدن",
-   "added_day": "2026-10-20"
-  },
   {
    "key": "97e65ca0bf37166d",
    "page": 1,
@@ -7831,19 +7860,10 @@
  ],
  "kawish_post": {
   "date": "2026-10-20",
-  "count": 7,
-  "last": 1792516379.7907414
+  "count": 8,
+  "last": 1792517548.4949977
  },
  "tg_debug": [
-  {
-   "t": "10-20 15:50",
-   "ok": true,
-   "n": 1,
-   "ids": [
-    661217048
-   ],
-   "err": null
-  },
   {
    "t": "10-20 16:00",
    "ok": true,
@@ -8126,6 +8146,13 @@
   },
   {
    "t": "10-20 22:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 22:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -12214,6 +12241,64 @@
     "ڪاتي",
     "ڪان",
     "گڏجاڻي"
+   ]
+  },
+  {
+   "t": 1792517548,
+   "h": "ايڇ دي اِي سکر وائيس چانسلر جو شڪار کين ان جو سپر سني سيشن جون اين او سيءَ سيٽل ",
+   "tt": [
+    "اين",
+    "ايڇ",
+    "سني",
+    "سيء",
+    "سيشن",
+    "سيٽل",
+    "سپر",
+    "سڪر",
+    "شڪار",
+    "وائيس",
+    "چانسلر",
+    "ڇڏيو",
+    "ڪين"
+   ],
+   "bt": [
+    "اهي",
+    "اين",
+    "ايڇ",
+    "بهتر",
+    "بڻائڻ",
+    "سريلي",
+    "سموريون",
+    "سني",
+    "سهولتون",
+    "سيء",
+    "سيشن",
+    "سيٽل",
+    "سپر",
+    "سڪر",
+    "شاگردن",
+    "شاھ",
+    "شڪار",
+    "ضروري",
+    "عبداللطيف",
+    "فراهم",
+    "قدم",
+    "ماحول",
+    "مختلف",
+    "منظوري",
+    "وائيس",
+    "وينديون",
+    "وڃن",
+    "يونيورسٽي",
+    "پيا",
+    "پڙھائي",
+    "چانسلر",
+    "ڇڏي",
+    "ڇڏيو",
+    "ڏئي",
+    "ڪاتن",
+    "ڪنيا",
+    "ڪين"
    ]
   }
  ]
