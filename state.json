@@ -1306,7 +1306,7 @@
   "last_week": "",
   "last_check": "2026-10-20"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1360,7 +1360,7 @@
  "sindh_single": {
   "date": "2026-10-20",
   "count": 1,
-  "last": 1792474293.5332172,
+  "last": 1792482437.059891,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1791,7 +1791,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 12:31",
+  "time": "2026-10-20 12:47",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -3235,7 +3235,7 @@
   "last": 1792480717.9590955
  },
  "trends": {
-  "last": 1792471253.0679355,
+  "last": 1792482296.8071804,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -5484,15 +5484,55 @@
     "t": 1792471253,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "petrol price pakistan",
+    "traffic": 2000,
+    "news": "Emergency in KP |Curfew in Pakistan | Security Situation | Government Preparations | 11PM HEADLINES",
+    "t": 1792482297,
+    "cat": "fuel",
+    "sindh": false
+   },
+   {
+    "term": "search",
+    "traffic": 1000,
+    "news": "Amelia Earhart researchers leave remote atoll empty-handed after ‘plane debris’ found to be a clump of trees",
+    "t": 1792482297,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "all of us are dead",
+    "traffic": 200,
+    "news": "Netflix’s Hit Zombie Series Officially Wraps Filming Ahead of Season 2 Return",
+    "t": 1792482297,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "redmi k100",
+    "traffic": 200,
+    "news": "10,000mAh battery, 200MP camera! Redmi's upcoming phone could be a game-changer",
+    "t": 1792482297,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "harry brook",
+    "traffic": 100,
+    "news": "'I've learnt a lot as a captain and a person' | Birmingham Mail - newspaper",
+    "t": 1792482297,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 104,
+  "ok": 106,
   "fail": 5,
-  "limit": 141
+  "limit": 145
  },
  "posted_heads": [
   {
@@ -5817,7 +5857,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 12:31",
+  "time": "2026-10-20 12:47",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -5925,7 +5965,7 @@
   "text": 7,
   "story": 6
  },
- "ai_last_error": "12:18 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "12:47 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -5966,7 +6006,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 77,
+   "ok": 78,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -5974,7 +6014,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 72,
+   "ok": 73,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -5982,7 +6022,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 72,
+   "ok": 73,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -5990,35 +6030,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6679,8 +6719,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 30,
-  "old": 30,
+  "found": 31,
+  "old": 31,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -6712,7 +6752,9 @@
   "models": [
    "gemini-3.8-flash",
    "gemini-3.7-flash",
-   "gemini-flash-latest"
+   "gemini-flash-latest",
+   "gemini-3.6-flash",
+   "gemini-3.5-flash"
   ]
  },
  "tg_done": [
@@ -7184,13 +7226,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-20 06:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-20 06:20",
    "ok": true,
    "n": 0,
@@ -7462,6 +7497,13 @@
   },
   {
    "t": "10-20 12:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 12:40",
    "ok": true,
    "n": 0,
    "ids": [],
