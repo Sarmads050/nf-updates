@@ -1224,7 +1224,12 @@
   "668408dcce0dcc5f": 1792481475.8965285,
   "00533e869e029ec9": 1792482669.296632,
   "18d4f833c0f69cb6": 1792482669.2966347,
-  "55b47a0b9dd4dd9e": 1792482669.2966375
+  "55b47a0b9dd4dd9e": 1792482669.2966375,
+  "885e2140ce5b9054": 1792484471.8855934,
+  "3e919b7d3fbf99d2": 1792484471.8855968,
+  "cf57f2f688ec504a": 1792484471.885598,
+  "90def2b3e28587a0": 1792484471.8858476,
+  "93f27112ae17fb9d": 1792484601.855061
  },
  "pending": {
   "f23b0b6ba00324c6": {
@@ -1380,18 +1385,8 @@
    "774cf85a46e5c750"
   ]
  },
- "last_post_id": "1444130002106066_122111118705503839",
+ "last_post_id": "1444130002106066_122111131521503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110801929503839",
-   "title": "مظاهرين ليسور شهر ۾ 143 سال پراڻي تاريخي هال کي باهه ڏئي ساري ڇڏي",
-   "t": 1792428237.4253924,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110801929503839"
-  },
   {
    "id": "1444130002106066_122110802109503839",
    "title": "مهرشا قتل ڪيس جي عدالت ۾ ٻڌڻي، 25 نومبر تي چين جي ماهرن اصل چهرن آهي جي چارجنگ چوڌاري",
@@ -1685,6 +1680,15 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111118705503839"
+  },
+  {
+   "id": "1444130002106066_122111131521503839",
+   "title": "حومت پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي جو اعلان ڪري ڇڏيو آهي",
+   "t": 1792484685.485212,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111131521503839"
   }
  ],
  "share_sent": {
@@ -1780,8 +1784,8 @@
  },
  "cricket_news": {
   "date": "2026-10-20",
-  "count": 2,
-  "last": 1792458717.1628146
+  "count": 3,
+  "last": 1792484598.2434664
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -1795,7 +1799,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 13:10",
+  "time": "2026-10-20 13:24",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1810,8 +1814,8 @@
  },
  "all_posts": {
   "date": "2026-10-20",
-  "count": 23,
-  "last": 1792483279.9016051
+  "count": 24,
+  "last": 1792484680.283701
  },
  "perf": {
   "posts": [
@@ -3236,13 +3240,25 @@
     "sec": "district",
     "cat": "district",
     "t": 1792483286
+   },
+   {
+    "id": "1444130002106066_122111118705503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792484598
+   },
+   {
+    "id": "1444130002106066_122111131521503839",
+    "sec": "public_news",
+    "cat": "fuel",
+    "t": 1792484685
    }
   ]
  },
  "public_news": {
   "date": "2026-10-20",
-  "count": 8,
-  "last": 1792480717.9590955
+  "count": 9,
+  "last": 1792484685.4851942
  },
  "trends": {
   "last": 1792482296.8071804,
@@ -5540,19 +5556,11 @@
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 107,
+  "ok": 123,
   "fail": 5,
-  "limit": 147
+  "limit": 169
  },
  "posted_heads": [
-  {
-   "h": "5.9-magnitude earthquake jolts Balochistan's Khuzdar",
-   "t": 1792243288
-  },
-  {
-   "h": "FBR implements faceless tax audit and assessment system from October 15",
-   "t": 1792246302
-  },
   {
    "h": "CPPA seeks Rs2.56 per unit increase in electricity tariff",
    "t": 1792249298
@@ -5864,10 +5872,18 @@
   {
    "h": "Pakistan's power purchase price projected at Rs27.309/unit in 2027, procurement cost at Rs3.55 trillion",
    "t": 1792480718
+  },
+  {
+   "h": "Pakistan bat first in second tri-nation ODI against England",
+   "t": 1792484598
+  },
+  {
+   "h": "Pakistan Petrol Price | Diesel Price Reduced | Fuel Prices Update",
+   "t": 1792484685
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 13:10",
+  "time": "2026-10-20 13:24",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -5970,12 +5986,12 @@
  },
  "article_diag": {
   "date": "2026-10-20",
-  "tried": 13,
-  "decoded": 13,
-  "text": 7,
+  "tried": 15,
+  "decoded": 14,
+  "text": 8,
   "story": 6
  },
- "ai_last_error": "12:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "13:23 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -5989,13 +6005,13 @@
  },
  "img_diag": {
   "date": "2026-10-20",
-  "tried": 21,
+  "tried": 23,
   "gemini": 0,
-  "pollinations": 11,
+  "pollinations": 12,
   "skip": 4,
   "fail": 5,
-  "last_note": "electric power meters",
-  "mismatch": 24
+  "last_note": "petrol pump fuel nozzle",
+  "mismatch": 28
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -6016,7 +6032,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 81,
+   "ok": 82,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6024,7 +6040,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 76,
+   "ok": 77,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -6032,7 +6048,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 76,
+   "ok": 77,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -6040,35 +6056,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6725,12 +6741,12 @@
   "date": "2026-10-20",
   "district": 3,
   "sindh": 6,
-  "pakistan": 12
+  "pakistan": 14
  },
  "report_acc": {
-  "posted": 0,
-  "found": 10,
-  "old": 10,
+  "posted": 1,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -6754,8 +6770,8 @@
   "date": "2026-10-20",
   "count": 4,
   "last": 1792482667.078125,
-  "city_i": 18,
-  "dry": 1792477863.7082262
+  "city_i": 22,
+  "dry": 1792484459.5539486
  },
  "gemini_day_dead": {
   "day": "2026-10-20",
@@ -7228,6 +7244,22 @@
    "t": 1792483286,
    "s": true,
    "r": 0
+  },
+  {
+   "k": "007f58275ccb3ca2",
+   "h": "پاڪستان جو انگلينڊ خلاف بيٽنگ جو فيصلو",
+   "x": "ٽاءِ سيریز جي दुसऱ्या ميچ ۾ پاڪستان ۽ انگلينڊ جون ٽيون آمهون سامهون آهن، جتي پاڪستاني ٽيم پهرين بيٽنگ ڪري رهي آهي!",
+   "t": 1792484598,
+   "s": false,
+   "r": 0
+  },
+  {
+   "k": "ff310a1b722cd967",
+   "h": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
+   "x": "حومت پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي جو اعلان ڪري ڇڏيو آهي!",
+   "t": 1792484685,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -7244,13 +7276,6 @@
   "last": 1792426953.7977092
  },
  "tg_debug": [
-  {
-   "t": "10-20 06:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-20 07:00",
    "ok": true,
@@ -7525,6 +7550,13 @@
   },
   {
    "t": "10-20 13:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 13:20",
    "ok": true,
    "n": 0,
    "ids": [],
