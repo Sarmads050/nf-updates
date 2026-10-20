@@ -1508,6 +1508,7 @@ def fb_post(message, link=None, photo=None, video=None, count=True, card=True, c
     if CONFIG.get("news_cards", True):
         if card and not photo and not video:
             title, body = card_parts(message)
+            body = card_story(message) or body
             made = make_card(title, card_label or TOPIC_SD.get("district", ""), body, theme="news") if title else None
             if made:
                 photo = made
@@ -2047,6 +2048,17 @@ def card_parts(message):
     return title, trim_sentences(rest, 300)
 
 
+def card_story(message):
+    """Card ke liye poori khabar (sarkhi alag line ho to us ke baghair; warna saara text)."""
+    title, body = card_parts(message)
+    lines = [re.sub(r"^[^\w\u0600-\u06FF]+", "", x.strip()).strip() for x in (message or "").splitlines()
+             if x.strip() and x.strip()[:1] != "#" and not x.strip().startswith(("📌", "📲", "🔗", "✍️", "⚠️"))]
+    lines = [x for x in lines if len(x) >= 3]
+    if len(lines) > 1 and lines[0] == title:  # pehli line sarkhi thi
+        return " ".join(lines[1:])
+    return " ".join(lines) or body
+
+
 def make_card(title, subtitle="", body="", theme="news", image=None):
     """Page ke rang (Ajrak) wali tasveer banana: Chrome headless se HTML ka screenshot. Na bane to None."""
     import html as H
@@ -2064,16 +2076,11 @@ def make_card(title, subtitle="", body="", theme="news", image=None):
         "@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@700&display=swap');"
     if image is None and theme == "news" and body:
         image = news_image(title, body)
-    body = trim_sentences(body, 190 if image else 300) if body else ""
-    if image:  # tasveer upar: likhai thodi chhoti
-        big = 52 if len(title) < 40 else 44
-        small = 36 if len(body) < 120 else 33
-    elif body:  # sarkhi + khabar: dono card mein samayein
-        big = 68 if len(title) < 30 else 58 if len(title) < 55 else 50
-        small = 46 if len(body) < 120 else 41 if len(body) < 210 else 37
-    else:
-        big = 92 if len(title) < 22 else 74 if len(title) < 40 else 58
-        small = 40
+    # Card par sarkhi (heading) nahi: sirf poori khabar. Khabar na ho (mausam, sawal waghera) to title hi likhai.
+    body = trim_sentences(body, 900) if body else ""
+    text = body or (title or "")
+    size = (38 if image else 50) if body else (60 if image else 72)
+    top = 452 if image else 92  # tasveer ke neeche ya upar wali patti ke neeche
     page = f"""<!doctype html><html><head><meta charset="utf-8"><style>{font_css}
     html,body{{margin:0;width:1080px;height:1080px;overflow:hidden}}
     body{{background:#14213D;font-family:'Noto Naskh Arabic','Noto Naskh',serif;color:#F4EFE6;position:relative}}
@@ -2081,31 +2088,42 @@ def make_card(title, subtitle="", body="", theme="news", image=None):
       background-image:radial-gradient(circle at 42px 42px,#F4EFE6 6px,transparent 7px),
       radial-gradient(circle at 42px 42px,#14213D 22px,transparent 23px);background-size:84px 84px}}
     .top{{top:0;border-bottom:8px solid #F4EFE6}} .bot{{top:988px;border-top:8px solid #F4EFE6}}
-    .pic{{position:absolute;top:92px;left:0;right:0;height:430px;overflow:hidden}}
+    .pic{{position:absolute;top:92px;left:0;right:0;height:360px;overflow:hidden}}
     .pic img{{width:100%;height:100%;object-fit:cover;display:block}}
     .pic:after{{content:"";position:absolute;left:0;right:0;bottom:0;height:120px;
       background:linear-gradient(to bottom,rgba(20,33,61,0),#14213D)}}
     .ai{{position:absolute;top:108px;left:18px;z-index:2;background:rgba(0,0,0,.55);color:#fff;font-size:24px;
       padding:4px 14px;border-radius:20px;font-family:'Noto Naskh Arabic',serif}}
-    .wrap.withpic{{top:505px;gap:14px}}
-    .wrap{{position:absolute;top:92px;bottom:92px;left:70px;right:70px;display:flex;flex-direction:column;
-      align-items:center;justify-content:center;text-align:center;gap:26px;direction:rtl}}
+    .head{{position:absolute;top:{top + 14}px;left:70px;right:70px;height:{70 if image else 150}px;display:flex;
+      flex-direction:column;align-items:center;justify-content:flex-end;gap:14px;
+      border-bottom:3px solid rgba(244,239,230,.35);padding-bottom:12px}}
     .tag{{background:{accent};color:#fff;font-size:34px;padding:8px 30px;border-radius:6px;letter-spacing:1px;
       font-family:Arial,sans-serif;font-weight:700;direction:ltr}}
-    h1{{margin:0;font-size:{big}px;line-height:1.45;font-weight:700}}
-    .sub{{font-size:44px;opacity:.9;font-family:'Noto Naskh Arabic','Noto Naskh',serif;font-weight:700}} .body{{font-size:{small}px;line-height:1.65;opacity:.97;max-width:920px;
-      border-top:3px solid rgba(244,239,230,.35);padding-top:22px;direction:rtl}}
-    .brand{{font-family:Arial,sans-serif;font-weight:700;font-size:30px;direction:ltr;display:flex;align-items:center;
-      background:#F4EFE6;color:#14213D;border-radius:40px;padding:10px 14px 10px 28px;gap:14px}}
+    .sub{{font-size:40px;line-height:1.2;opacity:.9;font-weight:700;direction:rtl;white-space:nowrap}}
+    .box{{position:absolute;top:{top + (112 if image else 192)}px;bottom:206px;left:70px;right:70px;overflow:hidden;
+      display:flex;align-items:center;justify-content:center}}
+    .txt{{margin:0;width:100%;text-align:center;direction:rtl;font-size:{size}px;line-height:1.65;font-weight:700}}
+    .brand{{position:absolute;top:900px;left:50%;transform:translateX(-50%);height:66px;box-sizing:border-box;
+      font-family:Arial,sans-serif;font-weight:700;font-size:30px;direction:ltr;display:flex;align-items:center;
+      white-space:nowrap;background:#F4EFE6;color:#14213D;border-radius:40px;padding:0 14px 0 28px;gap:14px}}
     .brand .f{{background:#1877F2;color:#fff;border-radius:30px;padding:6px 20px;font-size:28px;letter-spacing:1px}}
     </style></head><body><div class="band top"></div><div class="band bot"></div>
     {f'<div class="pic"><img src="file://{image}"></div>' if image else ''}{'<div class="ai">AI تصوير</div>' if image and CONFIG.get("news_images", {}).get("ai_label", False) else ''}
-    <div class="wrap{' withpic' if image else ''}">
-    {'' if image else '<div class="tag">NAUSHAHRO FEROZE UPDATES</div>'}<h1>{H.escape(title)}</h1>
-    {f'<div class="sub">{H.escape(subtitle)}</div>' if subtitle else ''}
-    {f'<div class="body">{H.escape(body)}</div>' if body else ''}
+    <div class="head">{'' if image else '<div class="tag">NAUSHAHRO FEROZE UPDATES</div>'}<div class="sub">{H.escape(subtitle or '')}</div></div>
+    <div class="box"><p class="txt" id="t">{H.escape(text)}</p></div>
     <div class="brand"><span>{H.escape(CONFIG.get("page_name", "Naushahro Feroze Updates"))}</span><span class="f">+ Follow</span></div>
-    </div></body></html>"""
+    <script>
+    function fit(){{  // khabar dabbe mein na samaye to aakhri jumla hatao; ek hi jumla bache to font chhota
+      var b=document.querySelector('.box'),t=document.getElementById('t');
+      var parts=t.textContent.split(/(?<=[!۔.؟?])\\s+/),fs={size},n=0;
+      while(t.scrollHeight>b.clientHeight&&n++<200){{  // pehle font thoda chhota (sab cards ek jaise rahein)
+        if(fs>{size - 6}||(parts.length<2&&fs>26)){{fs-=2;t.style.fontSize=fs+'px';}}
+        else if(parts.length>1){{parts.pop();t.textContent=parts.join(' ');}} else break;
+      }}
+    }}
+    (document.fonts?document.fonts.ready:Promise.resolve()).then(fit);
+    </script>
+    </body></html>"""
     hp, out = os.path.join(d, "card.html"), os.path.join(d, "card.png")
     with open(hp, "w", encoding="utf-8") as f:
         f.write(page)
@@ -2994,7 +3012,7 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
     msg = (f"{ic} {head}\n\n" if head else f"{ic} ") + \
         f"{finish(story or post)}\n\n{speaker_line(res.get('speaker'))}📌 {LBL['source']}: {clean_source(it['source'])}\n\n{footer()}"
     if news_card_post(msg, head or card_parts(post)[0], label, real_link or it["link"],
-                      body=finish(post) if head else card_parts(post)[1]):
+                      body=finish(post) if head else card_story(post)):
         perf_record(state_key, cat if icons else state_key)
         note_region("pakistan")
         day["count"] += 1
