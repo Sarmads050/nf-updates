@@ -1199,7 +1199,9 @@
   "86a8802a6c939adf": 1792471276.841262,
   "2b57577d7756d3b8": 1792471867.8879573,
   "59d1c9d5009f18d5": 1792472478.906058,
-  "03782caa247395a4": 1792472478.906241
+  "03782caa247395a4": 1792472478.906241,
+  "e19cd8be7780e3cf": 1792474274.5734978,
+  "f225f6b71b19adda": 1792474274.5735013
  },
  "pending": {
   "f23b0b6ba00324c6": {
@@ -1243,6 +1245,17 @@
     "title": "ڪمال ديرو: پاڻيءَ جي کوٽ خلاف آبادگارن جو احتجاج",
     "sub": "سنڌ جون خبرون",
     "body": "ڪمال ديرو ڀرسان آبادگارن بڪري مائنر ۾ پاڻيءَ جي کوٽ خلاف احتجاجي مظاهرو ڪيو آهي. آبادگارن جو چوڻ آهي ته پاڻي نه ملڻ سبب سندن فصلن جي پوک متاثر ٿي رهي آهي.",
+    "theme": "news"
+   }
+  },
+  "f225f6b71b19adda": {
+   "message": "📰 خيرپور جي علائقي هنڱورجا ۾ نوجوان گوليون هڻي قتل\n\nخيرپور جي هنڱورجا ٿاڻي جي حد ڳوٺ عبدالله سهتو ۾ نامعلوم هٿياربندن فائرنگ ڪري هڪ نوجوان کي قتل ڪري ڇڏيو. مقتول جي سڃاڻپ زوهيب احمد سهتو جي نالي سان ڪئي وئي آهي، جيڪو پنهنجي اوطاق تي ويٺل هو. واقعي جي اطلاع ملڻ تي هنڱورجا پوليس فوري طور واقعي واري هنڌ پهچي وئي. پوليس جو چوڻ آهي ته نوجوان جي قتل جا ڪارڻ فوري طور تي معلوم نه ٿي سگهيا آهن. واقعي بابت پوليس پاران وڌيڪ جاچ شروع ڪئي وئي آهي!\n\n📌 ذريعو: سنڌ وائيس\n\n📲 نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFeroze #Padidan #نوشهروفيروز #پڊعيدن",
+   "link": "https://sindhvoice.com/%d8%ae%d9%8a%d8%b1%d9%be%d9%88%d8%b1-%d9%87%d9%86%da%b1%d9%88%d8%b1%d8%ac%d8%a7-%da%80%d8%b1%d8%b3%d8%a7%d9%86-%d8%a7%d9%88%d8%b7%d8%a7%d9%82-%d8%aa%d9%8a-%d9%88%d9%8a%d9%ba%d9%84-%d9%86%d9%88%d8%ac/",
+   "added": 1792474278.0062187,
+   "card": {
+    "title": "خيرپور جي علائقي هنڱورجا ۾ نوجوان گوليون هڻي قتل",
+    "sub": "سنڌ جون خبرون",
+    "body": "خيرپور جي هنڱورجا ٿاڻي جي حد ڳوٺ عبدالله سهتو ۾ نامعلوم هٿياربندن فائرنگ ڪري هڪ نوجوان کي قتل ڪري ڇڏيو. مقتول جي سڃاڻپ زوهيب احمد سهتو جي نالي سان ڪئي وئي آهي، جيڪو پنهنجي اوطاق تي ويٺل هو.",
     "theme": "news"
    }
   }
@@ -1315,7 +1328,7 @@
  "sindh_single": {
   "date": "2026-10-20",
   "count": 1,
-  "last": 1792466482.7092783,
+  "last": 1792474293.5332172,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1743,7 +1756,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 10:20",
+  "time": "2026-10-20 10:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -5412,9 +5425,9 @@
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 79,
+  "ok": 83,
   "fail": 2,
-  "limit": 114
+  "limit": 122
  },
  "posted_heads": [
   {
@@ -5739,7 +5752,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 10:20",
+  "time": "2026-10-20 10:31",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -5842,12 +5855,12 @@
  },
  "article_diag": {
   "date": "2026-10-20",
-  "tried": 10,
-  "decoded": 10,
-  "text": 6,
-  "story": 5
+  "tried": 11,
+  "decoded": 11,
+  "text": 7,
+  "story": 6
  },
- "ai_last_error": "10:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "10:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -5888,7 +5901,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 64,
+   "ok": 65,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -5896,7 +5909,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 59,
+   "ok": 60,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -5904,7 +5917,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 59,
+   "ok": 60,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -5912,35 +5925,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6601,8 +6614,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 20,
-  "old": 20,
+  "found": 30,
+  "old": 30,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -6625,8 +6638,8 @@
  "sindh_stream": {
   "date": "2026-10-20",
   "count": 2,
-  "last": 1792471866.2575786,
-  "city_i": 8,
+  "last": 1792474272.6298728,
+  "city_i": 12,
   "dry": 1792471263.5276055
  },
  "gemini_day_dead": {
@@ -7066,13 +7079,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-20 04:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-20 04:10",
    "ok": true,
    "n": 0,
@@ -7342,6 +7348,13 @@
   },
   {
    "t": "10-20 10:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 10:30",
    "ok": true,
    "n": 0,
    "ids": [],
