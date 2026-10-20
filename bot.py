@@ -3238,13 +3238,23 @@ def kawish_pages(days_back=(0, 1)):
     return [], None
 
 
+# Kawish ke notice/ishtihar wale hisse (khabar nahi) — AI kabhi inhein "news" keh deta hai
+KAWISH_NOT_NEWS = re.compile(r"صفحي (?:تي|۾)|صفحے پر|عدالتي نوٽ|عدالتی نوٹ|عدالتن جا نوٽ|عدالتن جا نوٹ|عام اطلاع|"
+                             r"ٽينڊر نوٽ|ٹینڈر نوٹ|اشتهار|اشتہار")
+
+
 def kawish_read(page_no, img):
     towns = ", ".join(CONFIG.get("district_towns", [])[:25])
     prompt = ("This is page " + str(page_no) + " of today's Daily Kawish, a Sindhi newspaper. Read it carefully and "
               "list EVERY separate item on the page. For each item give its type: \"news\" for a news report, "
               "\"editorial\" for the newspaper's own editorial (اداريو), \"column\" for an opinion column/article, "
-              "\"ad\" for an advertisement or notice. For each item write in Sindhi (Arabic script): a short "
-              "headline and a 3-5 sentence summary using ONLY what is printed. If a name or number is not clearly "
+              "\"ad\" for an advertisement or notice (court/legal notices, public notices, tenders, proclamations, "
+              "obituaries, classifieds and any section that is just a collection of such notices are ALL \"ad\"). "
+              "For each item write in Sindhi (Arabic script): a short "
+              "headline and a 3-5 sentence summary using ONLY what is printed. The summary must be complete and clear on "
+              "its own: say WHO did WHAT, WHERE and WHEN, and the main detail, so a reader understands the news without "
+              "seeing the paper. Never describe the page itself (e.g. 'this page has...'); if you cannot say clearly what "
+              "happened, mark that item confidence \"low\". If a name or number is not clearly "
               "readable, leave it out instead of guessing. district=true if it is about Naushahro Feroze district or "
               "its towns (" + towns + "). speaker: if the item is mainly a statement, speech, claim or press conference by a "
               "person (politician, minister, official), that person's name and position in Sindhi, else \"\". sensitive=true for murder, firing, robbery, rape/abuse, kidnapping, "
@@ -3319,6 +3329,9 @@ def handle_kawish():
                 skipped += 1  # idariya, kaalam, ishtihar
                 continue
             if len(head) < 5 or len(summ) < 30 or blocked_reason(head + " " + summ) or bad_script(head + summ):
+                continue
+            if KAWISH_NOT_NEWS.search(head + " " + summ):  # notice/ishtihar ka hissa ya safhe ka bayan: khabar nahi
+                skipped += 1
                 continue
             k = item_key(head)
             if k in S["seen"]:
