@@ -1192,7 +1192,11 @@
   "3c6aa7db5b968010": 1792469465.1303637,
   "8388096efc340b7b": 1792469469.724141,
   "0ec92172c5eff905": 1792469469.7241433,
-  "bb525fec10383562": 1792469469.7243621
+  "bb525fec10383562": 1792469469.7243621,
+  "0221aa609348463d": 1792471253.067667,
+  "5873b6c10e575c33": 1792471272.3724382,
+  "0bfd9659bab945d2": 1792471276.8412597,
+  "86a8802a6c939adf": 1792471276.841262
  },
  "pending": {
   "f23b0b6ba00324c6": {
@@ -1756,7 +1760,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 09:31",
+  "time": "2026-10-20 09:41",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -3158,7 +3162,7 @@
   "last": 1792469633.7317204
  },
  "trends": {
-  "last": 1792460450.5557148,
+  "last": 1792471253.0679355,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -5367,15 +5371,55 @@
     "t": 1792460450,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "petrol",
+    "traffic": 200,
+    "news": "OGRA cuts petrol price by Rs5.16, diesel by Rs7.69 per litre",
+    "t": 1792471253,
+    "cat": "fuel",
+    "sindh": false
+   },
+   {
+    "term": "from",
+    "traffic": 100,
+    "news": "Opinion | The French Fantasy Is Coming to an End",
+    "t": 1792471253,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "petrol price today",
+    "traffic": 100,
+    "news": "Gold prices drop Rs1,600 per tola",
+    "t": 1792471253,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "today petrol price in pakistan",
+    "traffic": 500,
+    "news": "Silver price in Pakistan for today, October 15, 2026",
+    "t": 1792471253,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "joe root",
+    "traffic": 100,
+    "news": "Joe Root averages 52.18 against Pakistan in ODIs: Stats",
+    "t": 1792471253,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 71,
+  "ok": 74,
   "fail": 2,
-  "limit": 102
+  "limit": 108
  },
  "posted_heads": [
   {
@@ -5700,7 +5744,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 09:31",
+  "time": "2026-10-20 09:41",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -5808,7 +5852,7 @@
   "text": 6,
   "story": 5
  },
- "ai_last_error": "09:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "09:41 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -5849,7 +5893,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 59,
+   "ok": 60,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -5857,7 +5901,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 55,
+   "ok": 56,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -5865,7 +5909,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 55,
+   "ok": 56,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -5873,35 +5917,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6562,8 +6606,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 30,
-  "old": 30,
+  "found": 40,
+  "old": 40,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -6587,8 +6631,8 @@
   "date": "2026-10-20",
   "count": 2,
   "last": 1792443674.1565475,
-  "city_i": 22,
-  "dry": 1792470670.3549285
+  "city_i": 4,
+  "dry": 1792471263.5276055
  },
  "gemini_day_dead": {
   "day": "2026-10-19",
@@ -7010,13 +7054,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-20 03:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-20 03:20",
    "ok": true,
    "n": 0,
@@ -7284,6 +7321,13 @@
   },
   {
    "t": "10-20 09:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 09:40",
    "ok": true,
    "n": 0,
    "ids": [],
