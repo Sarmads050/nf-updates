@@ -1212,7 +1212,14 @@
   "e5b45d592177ee19": 1792478465.982636,
   "1f296373465351e0": 1792479794.064282,
   "efe67777d1f66139": 1792479794.064285,
-  "3c4437d23fcd3774": 1792480016.3812146
+  "3c4437d23fcd3774": 1792480016.3812146,
+  "1ced2d958e27eede": 1792480459.1669834,
+  "0690a29381cc7653": 1792480459.1669872,
+  "71b7e308b644b63b": 1792480459.166989,
+  "018c7a6349a81631": 1792480459.1669905,
+  "beed9926e87d949c": 1792480459.1669924,
+  "36775ddaa8637d11": 1792480459.166994,
+  "010888f9510930bc": 1792480459.1672733
  },
  "pending": {
   "f23b0b6ba00324c6": {
@@ -1286,7 +1293,7 @@
   "last_week": "",
   "last_check": "2026-10-20"
  },
- "gemini_model": "gemini-3.7-flash",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1356,18 +1363,8 @@
    "774cf85a46e5c750"
   ]
  },
- "last_post_id": "1444130002106066_122111091081503839",
+ "last_post_id": "1444130002106066_122111106567503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110801263503839",
-   "title": "شهر ۾ صفائي جي صورتحال خراب هجڻ تي احتجاج",
-   "t": 1792428206.4021306,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110801263503839"
-  },
   {
    "id": "1444130002106066_122110801587503839",
    "title": "پارس، مارسیل، تولوز، لیموج ۽ شهرن ۾ مظاهرين ۽ پوليس وچ ۾ سخت ڇڪتاڻ",
@@ -1662,6 +1659,15 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111091081503839"
+  },
+  {
+   "id": "1444130002106066_122111106567503839",
+   "title": "پاڪستان ۾ سال 2027 تائين بجلي جي خريداري قيمت 27.309 رپيا في يونٽ تائين پهچڻ جو امڪان",
+   "t": 1792480717.9592793,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111106567503839"
   }
  ],
  "share_sent": {
@@ -1772,7 +1778,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 12:06",
+  "time": "2026-10-20 12:18",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1787,8 +1793,8 @@
  },
  "all_posts": {
   "date": "2026-10-20",
-  "count": 21,
-  "last": 1792478501.124624
+  "count": 22,
+  "last": 1792480711.3773677
  },
  "perf": {
   "posts": [
@@ -3201,13 +3207,19 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1792478507
+   },
+   {
+    "id": "1444130002106066_122111106567503839",
+    "sec": "public_news",
+    "cat": "electricity_gas",
+    "t": 1792480717
    }
   ]
  },
  "public_news": {
   "date": "2026-10-20",
-  "count": 7,
-  "last": 1792476787.3565447
+  "count": 8,
+  "last": 1792480717.9590955
  },
  "trends": {
   "last": 1792471253.0679355,
@@ -5465,15 +5477,11 @@
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 98,
-  "fail": 2,
-  "limit": 138
+  "ok": 103,
+  "fail": 5,
+  "limit": 141
  },
  "posted_heads": [
-  {
-   "h": "Iran’s exports to Pakistan face possible halt over banking sanctions",
-   "t": 1792240298
-  },
   {
    "h": "5.9-magnitude earthquake jolts Balochistan's Khuzdar",
    "t": 1792243288
@@ -5789,10 +5797,14 @@
   {
    "h": "رياض ايئرپورٽ 10 ڏينهن کان بند، پاڪستان سميت ڪيترين ئي اڏامن ۾ ڪلاڪن جي دير",
    "t": 1792478508
+  },
+  {
+   "h": "Pakistan's power purchase price projected at Rs27.309/unit in 2027, procurement cost at Rs3.55 trillion",
+   "t": 1792480718
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 12:06",
+  "time": "2026-10-20 12:18",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -5895,12 +5907,12 @@
  },
  "article_diag": {
   "date": "2026-10-20",
-  "tried": 12,
-  "decoded": 12,
+  "tried": 13,
+  "decoded": 13,
   "text": 7,
   "story": 6
  },
- "ai_last_error": "11:41 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "12:18 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -5914,13 +5926,13 @@
  },
  "img_diag": {
   "date": "2026-10-20",
-  "tried": 19,
+  "tried": 20,
   "gemini": 0,
   "pollinations": 11,
   "skip": 3,
   "fail": 5,
-  "last_note": "gold jewellery and rupee notes",
-  "mismatch": 21
+  "last_note": "electric power meters",
+  "mismatch": 24
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -5941,7 +5953,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 74,
+   "ok": 75,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -5949,7 +5961,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 69,
+   "ok": 70,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -5957,7 +5969,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 69,
+   "ok": 70,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -5965,35 +5977,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6650,12 +6662,12 @@
   "date": "2026-10-20",
   "district": 2,
   "sindh": 6,
-  "pakistan": 11
+  "pakistan": 12
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -6684,7 +6696,11 @@
  },
  "gemini_day_dead": {
   "day": "2026-10-20",
-  "models": []
+  "models": [
+   "gemini-3.8-flash",
+   "gemini-3.7-flash",
+   "gemini-flash-latest"
+  ]
  },
  "tg_done": [
   661216949,
@@ -7130,6 +7146,14 @@
    "t": 1792478507,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "d393b3d09033f1bf",
+   "h": "2027 تائين بجلي جي خريداري قيمت 27.30 رپيا في يونٽ ٿيڻ جو امڪان",
+   "x": "پاڪستان ۾ سال 2027 تائين بجلي جي خريداري قيمت 27.309 رپيا في يونٽ تائين پهچڻ جو امڪان آهي، جڏهن ته ڪل خريداري لاڳت 3.55 ٽريلين رپيا ٿيڻ جي اڳڪٿي ڪئي وئي آهي!",
+   "t": 1792480717,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -7145,13 +7169,6 @@
   "last": 1792426953.7977092
  },
  "tg_debug": [
-  {
-   "t": "10-20 05:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-20 05:50",
    "ok": true,
@@ -7424,6 +7441,13 @@
   },
   {
    "t": "10-20 12:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 12:10",
    "ok": true,
    "n": 0,
    "ids": [],
