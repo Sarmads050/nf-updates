@@ -2080,7 +2080,7 @@ def make_card(title, subtitle="", body="", theme="news", image=None):
     body = trim_sentences(body, 900) if body else ""
     text = body or (title or "")
     size = (38 if image else 50) if body else (60 if image else 72)
-    top = 452 if image else 92  # tasveer ke neeche ya upar wali patti ke neeche
+    top = 452 if image else 110  # tarteeb: tasveer, khabar, zariya, phir Follow patti
     page = f"""<!doctype html><html><head><meta charset="utf-8"><style>{font_css}
     html,body{{margin:0;width:1080px;height:1080px;overflow:hidden}}
     body{{background:#14213D;font-family:'Noto Naskh Arabic','Noto Naskh',serif;color:#F4EFE6;position:relative}}
@@ -2094,13 +2094,9 @@ def make_card(title, subtitle="", body="", theme="news", image=None):
       background:linear-gradient(to bottom,rgba(20,33,61,0),#14213D)}}
     .ai{{position:absolute;top:108px;left:18px;z-index:2;background:rgba(0,0,0,.55);color:#fff;font-size:24px;
       padding:4px 14px;border-radius:20px;font-family:'Noto Naskh Arabic',serif}}
-    .head{{position:absolute;top:{top + 14}px;left:70px;right:70px;height:{70 if image else 150}px;display:flex;
-      flex-direction:column;align-items:center;justify-content:flex-end;gap:14px;
-      border-bottom:3px solid rgba(244,239,230,.35);padding-bottom:12px}}
-    .tag{{background:{accent};color:#fff;font-size:34px;padding:8px 30px;border-radius:6px;letter-spacing:1px;
-      font-family:Arial,sans-serif;font-weight:700;direction:ltr}}
-    .sub{{font-size:40px;line-height:1.2;opacity:.9;font-weight:700;direction:rtl;white-space:nowrap}}
-    .box{{position:absolute;top:{top + (112 if image else 192)}px;bottom:206px;left:70px;right:70px;overflow:hidden;
+    .src{{position:absolute;top:806px;left:70px;right:70px;height:70px;display:flex;align-items:center;
+      justify-content:center;font-size:36px;opacity:.85;font-weight:700;direction:rtl;white-space:nowrap;overflow:hidden}}
+    .box{{position:absolute;top:{top + 18}px;bottom:284px;left:70px;right:70px;overflow:hidden;
       display:flex;align-items:center;justify-content:center}}
     .txt{{margin:0;width:100%;text-align:center;direction:rtl;font-size:{size}px;line-height:1.65;font-weight:700}}
     .brand{{position:absolute;top:900px;left:50%;transform:translateX(-50%);height:66px;box-sizing:border-box;
@@ -2109,8 +2105,8 @@ def make_card(title, subtitle="", body="", theme="news", image=None):
     .brand .f{{background:#1877F2;color:#fff;border-radius:30px;padding:6px 20px;font-size:28px;letter-spacing:1px}}
     </style></head><body><div class="band top"></div><div class="band bot"></div>
     {f'<div class="pic"><img src="file://{image}"></div>' if image else ''}{'<div class="ai">AI تصوير</div>' if image and CONFIG.get("news_images", {}).get("ai_label", False) else ''}
-    <div class="head">{'' if image else '<div class="tag">NAUSHAHRO FEROZE UPDATES</div>'}<div class="sub">{H.escape(subtitle or '')}</div></div>
     <div class="box"><p class="txt" id="t">{H.escape(text)}</p></div>
+    <div class="src">{H.escape(subtitle or '')}</div>
     <div class="brand"><span>{H.escape(CONFIG.get("page_name", "Naushahro Feroze Updates"))}</span><span class="f">+ Follow</span></div>
     <script>
     function fit(){{  // khabar dabbe mein na samaye to aakhri jumla hatao; ek hi jumla bache to font chhota
