@@ -1153,7 +1153,9 @@
   "917e0328165deb66": 1792450281.853277,
   "705502346a5e0e12": 1792450281.8534822,
   "6fe23d5b8c6aef8a": 1792454036.727417,
-  "806f266e359723cf": 1792456868.613113
+  "806f266e359723cf": 1792456868.613113,
+  "19062f951d3eb937": 1792458647.322794,
+  "9ec199b4cb963b33": 1792458675.561876
  },
  "pending": {
   "f23b0b6ba00324c6": {
@@ -1335,20 +1337,8 @@
    "693e2b0aed48a9af"
   ]
  },
- "last_post_id": "1444130002106066_122110973109503839",
+ "last_post_id": "1444130002106066_122110982397503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122110778703503839",
-   "title": "آمريڪا طرفان هدايتون، پاڪستان اندرون ملڪ دهشتگردي ختم ڪرڻ لاءِ قدم کڻي رهيو آهي",
-   "t": 1792424747.4051392,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122110778703503839"
-  },
   {
    "id": "1444130002106066_122110785879503839",
    "title": "حيدرآباد پريس ڪلب ۾ درجن واري قلم زن رهائشي اسڪيم تي نوٽيس، تصديق نه ٿي سگهي، رويو ڪاني",
@@ -1646,6 +1636,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122110973109503839"
+  },
+  {
+   "id": "1444130002106066_122110982397503839",
+   "title": "پاڪستان ۽ انگلينڊ وچ ۾ کيڏجندڙ ٻئي ڪرڪيٽ ميچ جو تفصيلي جائزو ورتو پيو وڃي",
+   "t": 1792458717.1630318,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122110982397503839"
   }
  ],
  "share_sent": {
@@ -1737,8 +1736,8 @@
  },
  "cricket_news": {
   "date": "2026-10-20",
-  "count": 1,
-  "last": 1792450327.4838974
+  "count": 2,
+  "last": 1792458717.1628146
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -1752,7 +1751,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-20 06:01",
+  "time": "2026-10-20 06:11",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1767,8 +1766,8 @@
  },
  "all_posts": {
   "date": "2026-10-20",
-  "count": 6,
-  "last": 1792456896.8444028
+  "count": 7,
+  "last": 1792458711.652674
  },
  "perf": {
   "posts": [
@@ -3109,6 +3108,12 @@
     "sec": "public_news",
     "cat": "dollar_gold_business",
     "t": 1792456901
+   },
+   {
+    "id": "1444130002106066_122110982397503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792458717
    }
   ]
  },
@@ -5293,15 +5298,11 @@
  },
  "ai_usage": {
   "date": "2026-10-20",
-  "ok": 33,
+  "ok": 40,
   "fail": 2,
-  "limit": 46
+  "limit": 58
  },
  "posted_heads": [
-  {
-   "h": "PCB central contracts delayed",
-   "t": 1792224704
-  },
   {
    "h": "Pakistan plans dairy reforms to boost exports to $2 billion",
    "t": 1792225932
@@ -5617,10 +5618,14 @@
   {
    "h": "Gold flat as international prices slip",
    "t": 1792456901
+  },
+  {
+   "h": "Cricket Coverage - PAK vs ENG, 2nd Match Analysis",
+   "t": 1792458717
   }
  ],
  "last_errors": {
-  "time": "2026-10-20 06:01",
+  "time": "2026-10-20 06:11",
   "steps": []
  },
  "roundup_am": "2026-10-19",
@@ -5723,12 +5728,12 @@
  },
  "article_diag": {
   "date": "2026-10-20",
-  "tried": 4,
-  "decoded": 4,
-  "text": 3,
-  "story": 2
+  "tried": 5,
+  "decoded": 5,
+  "text": 4,
+  "story": 3
  },
- "ai_last_error": "05:41 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "06:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-20",
   "models": [
@@ -5742,9 +5747,9 @@
  },
  "img_diag": {
   "date": "2026-10-20",
-  "tried": 6,
+  "tried": 7,
   "gemini": 0,
-  "pollinations": 4,
+  "pollinations": 5,
   "skip": 1,
   "fail": 1,
   "last_note": "nursing textbooks and stethoscope",
@@ -5769,7 +5774,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-20",
-   "ok": 37,
+   "ok": 38,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -5777,7 +5782,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-20",
-   "ok": 36,
+   "ok": 37,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -5785,7 +5790,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-20",
-   "ok": 36,
+   "ok": 37,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -5793,35 +5798,35 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-20",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-20",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-20",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -6478,13 +6483,13 @@
   "date": "2026-10-20",
   "district": 0,
   "sindh": 2,
-  "pakistan": 4
+  "pakistan": 5
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
-  "irrelevant": 0,
+  "posted": 1,
+  "found": 10,
+  "old": 9,
+  "irrelevant": 1,
   "blocked": 0,
   "errors": []
  },
@@ -6507,8 +6512,8 @@
   "date": "2026-10-20",
   "count": 2,
   "last": 1792443674.1565475,
-  "city_i": 4,
-  "dry": 1792456858.1005437
+  "city_i": 8,
+  "dry": 1792458666.2567332
  },
  "gemini_day_dead": {
   "day": "2026-10-19",
@@ -6874,6 +6879,14 @@
    "t": 1792456901,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "898a7de0c360b3a1",
+   "h": "پاڪستان ۽ انگلينڊ جي ٻئي ميچ جو جائزو",
+   "x": "پاڪستان ۽ انگلينڊ جي وچ ۾ ڪرڪيٽ ميچ جي حوالي سان خبر سامهون آئي آهي. هي سلسلو پاڪستان اوڊيائي ٽرائ سيريز ٻه هزار ڇويهه کان ٻه هزار ست جو حصو آهي. اهو مامرو پاڪستان ۽ انگلينڊ جي ٻئي ميچ سان لاڳاپيل آهي. لاڳاپيل ويب سائيٽ تان رسائي رد ٿيڻ جو اشارو مليو آهي. ان سلسلي جو حوالو نمبر ارڙهه پوائنٽ اي اٺ ايف هڪ ٻه هڪ ست پوائنٽ هڪ ست ناؤ ٻه چار پنج اٺ ڇھ ست پوائنٽ اٺ ٻه اٺ چار ڏي ايس نائين آهي. ان حوالي سان وڌيڪ تفصيل ايجز سائيٽ جي لنڪ ذريعي مهيا ڪيا ويا آهن. استعمال ڪندڙن کي هن صفحي تائين پهچڻ جي اجازت نه هجڻ جي خبر ڏني وئي آهي!",
+   "t": 1792458717,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -6887,13 +6900,6 @@
   "last": 1792426953.7977092
  },
  "tg_debug": [
-  {
-   "t": "10-19 23:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-19 23:50",
    "ok": true,
@@ -7162,6 +7168,13 @@
   },
   {
    "t": "10-20 06:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-20 06:10",
    "ok": true,
    "n": 0,
    "ids": [],
