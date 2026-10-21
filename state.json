@@ -1379,7 +1379,9 @@
   "d7cc684af60d1aea": 1792546287.2316637,
   "ddd5b9d2c1452768": 1792546287.2317953,
   "1eca4ce74c2e49f2": 1792549273.8379574,
-  "0f5c145ad4e3249a": 1792549283.2583716
+  "0f5c145ad4e3249a": 1792549283.2583716,
+  "0f7663a2bf2a595e": 1792549858.0869458,
+  "140679b1212111be": 1792549889.4546824
  },
  "pending": {
   "55b47a0b9dd4dd9e": {
@@ -1551,6 +1553,15 @@
    "domain": "brecorder.com",
    "source": "Business Recorder",
    "ts": 1792531798,
+   "local": false
+  },
+  {
+   "key": "0f7663a2bf2a595e",
+   "title": "Sindh raises SPSC exam age limit to 33",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUVlQcFFzS0R3d3NmR2xLZERKOVIzZUVZVWtpcnRuRFFaNjF3MnMyV0ZKa1lwNlJ2WFNReVZSWjFiWEZ5NFcxVlVNNlBKbVRLem5KTjN2c3pfR3ZkUkU3Y3QzQUtLaUI4LXE0T1lOTHBkV3ZoOUREdmRRZU80WTUwLdIBiAFBVV95cUxOYzNQUUZGMWZZSVVVZmlaOUhDbTE4b1RQV0VWVzh4YmVfWnRBYmRVOXMwUDZ4QkZMdmRjRVQtXzZ0VTN2bTZ0cnJCYktHTTZyMzQ2ZTNNcnZPVExBSUFNY2ZOSDBuZ3pnMWJHUUJ5MzZWS0M4ZDZub1UyMkpYNW1jRWx5TWJzYndx?oc=5",
+   "domain": "tribune.com.pk",
+   "source": "The Express Tribune",
+   "ts": 1792549580,
    "local": false
   }
  ],
@@ -2092,7 +2103,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-21 07:21",
+  "time": "2026-10-21 07:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -3746,7 +3757,7 @@
   "last": 1792546412.1288383
  },
  "trends": {
-  "last": 1792538455.4136655,
+  "last": 1792549858.0885532,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -6355,15 +6366,55 @@
     "t": 1792538455,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "as roma vs slovan bratislava standings",
+    "traffic": 100,
+    "news": "The giallorossi squad for Roma-Slovan Bratislava",
+    "t": 1792549858,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "vfb stuttgart vs atlético madrid standings",
+    "traffic": 1000,
+    "news": "\"We showed character\" – Hoeneß and Führich proud of Stuttgart's efforts against Atlético Madrid",
+    "t": 1792549858,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "amazon",
+    "traffic": 100,
+    "news": "Amazon opening 1,500 positions in Rochester",
+    "t": 1792549858,
+    "cat": "education_jobs",
+    "sindh": false
+   },
+   {
+    "term": "nba",
+    "traffic": 200,
+    "news": "Knicks open NBA season with a chance to end the league’s longest drought without a repeat champion",
+    "t": 1792549858,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "al-nassr vs neom sc standings",
+    "traffic": 10000,
+    "news": "Cristiano Ronaldo is human after all",
+    "t": 1792549858,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-21",
-  "ok": 40,
+  "ok": 42,
   "fail": 0,
-  "limit": 54
+  "limit": 58
  },
  "posted_heads": [
   {
@@ -6688,7 +6739,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-21 07:21",
+  "time": "2026-10-21 07:31",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -6796,7 +6847,7 @@
   "text": 4,
   "story": 3
  },
- "ai_last_error": "07:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "07:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-21",
   "models": [
@@ -6837,7 +6888,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-21",
-   "ok": 45,
+   "ok": 46,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6845,7 +6896,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-21",
-   "ok": 45,
+   "ok": 46,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6853,7 +6904,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-21",
-   "ok": 45,
+   "ok": 46,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6861,14 +6912,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 46,
+   "ok": 47,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 46,
+   "ok": 47,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -6876,21 +6927,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 46,
+   "ok": 47,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 46,
+   "ok": 47,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-21",
-   "ok": 46,
+   "ok": 47,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -7323,8 +7374,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 15,
-  "old": 15,
+  "found": 23,
+  "old": 23,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -7349,8 +7400,8 @@
   "date": "2026-10-21",
   "count": 1,
   "last": 1792528860.1731474,
-  "city_i": 18,
-  "dry": 1792549260.530579
+  "city_i": 22,
+  "dry": 1792549870.4415526
  },
  "gemini_day_dead": {
   "day": "2026-10-20",
@@ -8110,13 +8161,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-21 01:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-21 01:10",
    "ok": true,
    "n": 0,
@@ -8384,6 +8428,13 @@
   },
   {
    "t": "10-21 07:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-21 07:30",
    "ok": true,
    "n": 0,
    "ids": [],
