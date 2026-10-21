@@ -1423,7 +1423,11 @@
   "ca9eeb449409d514": 1792567480.87162,
   "7a0d19e5a6ccd9c3": 1792567480.871621,
   "be54baced54bafc4": 1792567480.8716226,
-  "bb013449b17ddb57": 1792568462.6025498
+  "bb013449b17ddb57": 1792568462.6025498,
+  "d811dbfbcbf52999": 1792569774.682778,
+  "2472326bcaf0f4ef": 1792569774.6827807,
+  "32728a7fb85ba635": 1792569774.6827822,
+  "7d6860b3614fcbc9": 1792569774.6827843
  },
  "pending": {},
  "queue": [],
@@ -1460,7 +1464,7 @@
   "last_week": "",
   "last_check": "2026-10-21"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.5-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1544,17 +1548,8 @@
    "b88ef94f2484d29b"
   ]
  },
- "last_post_id": "1444130002106066_122111585415503839",
+ "last_post_id": "1444130002106066_122111590791503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122111435205503839",
-   "title": "حڪومت آڪٽوبر جي پهرين تاريخ لاءِ پيٽرول جي اگهه ۾ 88 پيسا ۽ ڊيزل جي اگهه ۾ 53 پيسا واڌ جو",
-   "t": 1792538547.3193827,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122111435205503839"
-  },
   {
    "id": "1444130002106066_122111449095503839",
    "title": "پاڪستاني رانديسر عرفات منھاس شاندار بيٽنگ ۽ بالنگ جو مظاهرو ڪندي انگلينڊ خلاف ميچ ۾ قومي",
@@ -1853,6 +1848,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111585415503839"
+  },
+  {
+   "id": "1444130002106066_122111590791503839",
+   "title": "مير رضا ڪيس: ڪوتاهي ثابت ٿيندڙن خلاف سخت ڪارروائي ٿيندي",
+   "t": 1792570023.2259176,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111590791503839"
   }
  ],
  "share_sent": {
@@ -1975,7 +1982,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-21 12:50",
+  "time": "2026-10-21 13:07",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -1990,8 +1997,8 @@
  },
  "all_posts": {
   "date": "2026-10-21",
-  "count": 34,
-  "last": 1792568593.8938415
+  "count": 35,
+  "last": 1792570016.6825464
  },
  "perf": {
   "posts": [
@@ -3770,6 +3777,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1792568600
+   },
+   {
+    "id": "1444130002106066_122111590791503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1792570023
    }
   ]
  },
@@ -6482,15 +6495,11 @@
  },
  "ai_usage": {
   "date": "2026-10-21",
-  "ok": 118,
-  "fail": 11,
-  "limit": 179
+  "ok": 123,
+  "fail": 12,
+  "limit": 185
  },
  "posted_heads": [
-  {
-   "h": "‘Impose agricultural emergency in Pakistan,’ urges Kissan Ittehad president",
-   "t": 1792340504
-  },
   {
    "h": "Salman hits century, Pacers restrict Sri Lanka as Pakistan begin tri-series on winning note",
    "t": 1792351307
@@ -6806,10 +6815,14 @@
   {
    "h": "ڀارت لاءِ ايران ۽ آمريڪا لاءِ پاڪستان جا لاڳاپا ڇو ضروري؟ مارڪو روبيو جو اھم بيان",
    "t": 1792568600
+  },
+  {
+   "h": "مير رضا ڪيس ۾ جنهن جي بہ ڪوتاهي ثابت ٿي، ان کي سزا ملندي: شرجيل ميمڻ",
+   "t": 1792570023
   }
  ],
  "last_errors": {
-  "time": "2026-10-21 12:50",
+  "time": "2026-10-21 13:07",
   "steps": []
  },
  "roundup_am": "2026-10-21",
@@ -6917,7 +6930,7 @@
   "text": 9,
   "story": 8
  },
- "ai_last_error": "12:41 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "13:06 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-10-21",
   "models": [
@@ -6931,13 +6944,13 @@
  },
  "img_diag": {
   "date": "2026-10-21",
-  "tried": 33,
+  "tried": 34,
   "gemini": 0,
-  "pollinations": 12,
+  "pollinations": 13,
   "skip": 15,
   "fail": 2,
-  "last_note": "American and Pakistani flags",
-  "mismatch": 54
+  "last_note": "courtroom gavel and documents",
+  "mismatch": 55
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -6958,7 +6971,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-21",
-   "ok": 79,
+   "ok": 80,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6966,7 +6979,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-21",
-   "ok": 79,
+   "ok": 80,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6974,7 +6987,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-21",
-   "ok": 79,
+   "ok": 80,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6982,14 +6995,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -6997,21 +7010,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-21",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -7439,18 +7452,18 @@
  "region_posts": {
   "date": "2026-10-21",
   "district": 14,
-  "sindh": 9,
+  "sindh": 10,
   "pakistan": 10
  },
  "report_acc": {
-  "posted": 2,
-  "found": 35,
-  "old": 35,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-21 12",
+ "report_hour": "2026-10-21 13",
  "kawish_upload_times": {
   "_date": "2026-10-21",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -7468,9 +7481,9 @@
  },
  "sindh_stream": {
   "date": "2026-10-21",
-  "count": 7,
-  "last": 1792568459.9285376,
-  "city_i": 24,
+  "count": 8,
+  "last": 1792569677.3667724,
+  "city_i": 6,
   "dry": 1792563057.1701405
  },
  "gemini_day_dead": {
@@ -8375,6 +8388,14 @@
    "t": 1792568600,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "fd633ff53a6769ed",
+   "h": "مير رضا ڪيس: ڪوتاهي ثابت ٿيندڙن خلاف سخت ڪارروائي ٿيندي",
+   "x": "سنڌ حڪومت مير رضا ڪيس ۾ عدالتي ڪميشن جي سفارشن تي عملدرآمد يقيني بڻائڻ جو اعلان ڪري ڇيو آهي. سنڌ جي سينيئر وزير شرجيل انعام ميمڻ چيو آهي ته ڪيس ۾ جنهن جي به ڪوتاهي ثابت ٿيندي، ان کي سخت سزا ڏني ويندي. هن واضح ڪيو ته ڪنهن هڪ شخص جي غلطيءَ جو ذميوار سڄي کاتي کي قرار ڏيڻ بلڪل مناسب نه هوندو. شرجيل انعام ميمڻ ٻڌايو ته مير رضا ڪيس بابت سنڌ ڪابينا جي فيصلي تحت ئي عدالتي ڪميشن قائم ڪئي وئي هئي. ڪميشن جي تيار ڪيل تفصيلي رپورٽ گذريل ڏينهن ڪابينا جي اجلاس ۾ پيش پڻ ڪئي وئي هئي! بيان: سنڌ جو سينيئر وزير شرجيل انعام ميمڻ",
+   "t": 1792570023,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8391,13 +8412,6 @@
   "last": 1792522427.1970737
  },
  "tg_debug": [
-  {
-   "t": "10-21 06:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-21 06:40",
    "ok": true,
@@ -8666,6 +8680,13 @@
   },
   {
    "t": "10-21 12:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-21 13:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14658,6 +14679,63 @@
     "پرڏيهي",
     "ڀارت",
     "ڊيسڪ"
+   ]
+  },
+  {
+   "t": 1792570023,
+   "h": "مير رضا ڪيس: ڪوتاهي ثابت ٿيندڙن خلاف سخت ڪارروائي ٿيندي",
+   "b": "سنڌ حڪومت مير رضا ڪيس ۾ عدالتي ڪميشن جي سفارشن تي عملدرآمد يقيني بڻائڻ جو اعلان ڪري ڇيو آهي. سنڌ جي سينيئر",
+   "tt": [
+    "ثابت",
+    "خلاف",
+    "رضا",
+    "سخت",
+    "مير",
+    "ٿيندڙن",
+    "ڪارروائي",
+    "ڪوتاهي",
+    "ڪيس"
+   ],
+   "bt": [
+    "اعلان",
+    "انعام",
+    "اهي",
+    "بلڪل",
+    "بڻائڻ",
+    "ثابت",
+    "حڪومت",
+    "خلاف",
+    "ذميوار",
+    "رضا",
+    "سخت",
+    "سزا",
+    "سفارشن",
+    "سنڌ",
+    "سينيئر",
+    "سڄي",
+    "شخص",
+    "شرجيل",
+    "عدالتي",
+    "عملدرامد",
+    "غلطيء",
+    "قرار",
+    "مناسب",
+    "مير",
+    "ميمڻ",
+    "هوندو",
+    "واضح",
+    "وزير",
+    "يقيني",
+    "ٿيندي،",
+    "ٿيندڙن",
+    "ڇيو",
+    "ڏني",
+    "ڏيڻ",
+    "ڪاتي",
+    "ڪارروائي",
+    "ڪميشن",
+    "ڪوتاهي",
+    "ڪيس"
    ]
   }
  ],
