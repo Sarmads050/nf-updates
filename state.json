@@ -2122,7 +2122,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-22 01:05",
+  "time": "2026-10-22 01:11",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7472,7 +7472,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-22 01:05",
+  "time": "2026-10-22 01:11",
   "steps": []
  },
  "roundup_am": "2026-10-21",
@@ -7621,7 +7621,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-22",
-   "ok": 9,
+   "ok": 10,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7629,7 +7629,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-22",
-   "ok": 8,
+   "ok": 9,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7637,7 +7637,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-22",
-   "ok": 8,
+   "ok": 9,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7645,14 +7645,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 9,
+   "ok": 10,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 9,
+   "ok": 10,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7660,21 +7660,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 9,
+   "ok": 10,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 9,
+   "ok": 10,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-22",
-   "ok": 9,
+   "ok": 10,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8419,8 +8419,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 5,
-  "old": 5,
+  "found": 9,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9511,18 +9511,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-21 19:51",
-   "ok": true,
-   "n": 4,
-   "ids": [
-    92058716,
-    92058717,
-    92058718,
-    92058719
-   ],
-   "err": null
-  },
-  {
    "t": "10-21 19:57",
    "ok": true,
    "n": 14,
@@ -9830,6 +9818,13 @@
    "ids": [
     92058774
    ],
+   "err": null
+  },
+  {
+   "t": "10-22 01:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
    "err": null
   }
  ],
