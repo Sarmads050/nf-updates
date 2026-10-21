@@ -1417,7 +1417,12 @@
   "d553b5458a4e1e43": 1792564852.2219381,
   "0752c4174ef7f5d5": 1792564863.0678616,
   "ef554653af9c975d": 1792566293.3724117,
-  "1af9c9f1d31cac20": 1792566293.3724144
+  "1af9c9f1d31cac20": 1792566293.3724144,
+  "1978a95094a67e31": 1792567480.8716168,
+  "57cf601160703067": 1792567480.8716187,
+  "ca9eeb449409d514": 1792567480.87162,
+  "7a0d19e5a6ccd9c3": 1792567480.871621,
+  "be54baced54bafc4": 1792567480.8716226
  },
  "pending": {
   "55b47a0b9dd4dd9e": {
@@ -1611,7 +1616,7 @@
   "last_week": "",
   "last_check": "2026-10-21"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-3.5-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1682,18 +1687,8 @@
    "b88ef94f2484d29b"
   ]
  },
- "last_post_id": "1444130002106066_122111575719503839",
+ "last_post_id": "1444130002106066_122111579379503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122111282997503839",
-   "title": "حيدرآباد ۾ گھر مان ناري جو لاش ھٿ، قتل جوڪيس داخل",
-   "t": 1792509082.685131,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122111282997503839"
-  },
   {
    "id": "1444130002106066_122111284911503839",
    "title": "مير رضا جو موت آپگهات نه پر قتل قرار",
@@ -2007,6 +2002,18 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111575719503839"
+  },
+  {
+   "id": "1444130002106066_122111579379503839",
+   "title": "ٿر کي فوري طور آفت سٽيل قرار ڏيڻ جو مطالبو",
+   "t": 1792567625.287358,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111579379503839"
   }
  ],
  "share_sent": {
@@ -2129,7 +2136,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-21 12:12",
+  "time": "2026-10-21 12:27",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2144,8 +2151,8 @@
  },
  "all_posts": {
   "date": "2026-10-21",
-  "count": 19,
-  "last": 1792566695.5058308
+  "count": 20,
+  "last": 1792567616.1529007
  },
  "perf": {
   "posts": [
@@ -3834,6 +3841,12 @@
     "sec": "district",
     "cat": "district",
     "t": 1792566702
+   },
+   {
+    "id": "1444130002106066_122111579379503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1792567625
    }
   ]
  },
@@ -6546,15 +6559,11 @@
  },
  "ai_usage": {
   "date": "2026-10-21",
-  "ok": 108,
-  "fail": 7,
-  "limit": 164
+  "ok": 111,
+  "fail": 11,
+  "limit": 170
  },
  "posted_heads": [
-  {
-   "h": "PM Shehbaz inaugurates Daanish School in Islamabad, stresses equal academic opportunities",
-   "t": 1792337499
-  },
   {
    "h": "Babar Azam makes history with 16,000 international runs across all three formats",
    "t": 1792339670
@@ -6870,10 +6879,14 @@
   {
    "h": "خيبرپختونخواھ ۾ معدنيات جي شعبي ۾ اربين رپين جي مبينا ڪرپشن جو انڪشاف",
    "t": 1792565069
+  },
+  {
+   "h": "ڏڪار سبب ٿر کي ترت آفت سٽيل علائقو قرار ڏنو وڃي",
+   "t": 1792567625
   }
  ],
  "last_errors": {
-  "time": "2026-10-21 12:12",
+  "time": "2026-10-21 12:27",
   "steps": []
  },
  "roundup_am": "2026-10-21",
@@ -6981,7 +6994,7 @@
   "text": 9,
   "story": 8
  },
- "ai_last_error": "12:10 gemini-3.7-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "12:26 gemini-3.6-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-10-21",
   "models": [
@@ -6995,10 +7008,10 @@
  },
  "img_diag": {
   "date": "2026-10-21",
-  "tried": 18,
+  "tried": 19,
   "gemini": 0,
   "pollinations": 12,
-  "skip": 1,
+  "skip": 2,
   "fail": 2,
   "last_note": "pollinations HTTPSConnectionPool(host='image.pollinations.ai', port=443): Read timed out. (read timeout=90)",
   "mismatch": 51
@@ -7022,7 +7035,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-21",
-   "ok": 75,
+   "ok": 76,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7030,7 +7043,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-21",
-   "ok": 75,
+   "ok": 76,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7038,7 +7051,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-21",
-   "ok": 75,
+   "ok": 76,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7046,14 +7059,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7061,21 +7074,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-21",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -7503,13 +7516,13 @@
  "region_posts": {
   "date": "2026-10-21",
   "district": 1,
-  "sindh": 7,
+  "sindh": 8,
   "pakistan": 10
  },
  "report_acc": {
-  "posted": 0,
-  "found": 7,
-  "old": 7,
+  "posted": 1,
+  "found": 14,
+  "old": 14,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -7532,14 +7545,19 @@
  },
  "sindh_stream": {
   "date": "2026-10-21",
-  "count": 5,
-  "last": 1792566081.944369,
-  "city_i": 16,
+  "count": 6,
+  "last": 1792567267.1886065,
+  "city_i": 20,
   "dry": 1792563057.1701405
  },
  "gemini_day_dead": {
   "day": "2026-10-21",
-  "models": []
+  "models": [
+   "gemini-3.7-flash",
+   "gemini-flash-latest",
+   "gemini-3.8-flash",
+   "gemini-3.6-flash"
+  ]
  },
  "tg_done": [
   92058696
@@ -8312,6 +8330,14 @@
    "t": 1792566702,
    "s": true,
    "r": 0
+  },
+  {
+   "k": "e8ad671f6cd85507",
+   "h": "ٿر کي فوري طور آفت سٽيل قرار ڏيڻ جو مطالبو",
+   "x": "هن وقت ٿر ۾ شديد ڏڪار، خوراڪ جي کوٽ ۽ چوپائي مال جي مرڻ واري صورتحال انتهائي ڳڻتيءَ جوڳي ٿي وئي آهي. معاشي بدحالي سبب ماڻهن جي بيراجي علائقن ڏانهن لڏپلاڻ به وڌي رهي آهي. اهڙي صورتحال ۾ سنڌ حڪومت جي ذميواري آهي ته روايتي بيانن کان اڳتي وڌي قدم کڻي. ٿر جي ڏڪار متاثر علائقن کي فوري طور آفت سٽيل قرار ڏنو وڃي. متاثر ماڻهن جي مدد لاءِ هنگامي بنيادن تي جامع قدم کڻڻ جي سخت ضرورت آهي!",
+   "t": 1792567625,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8327,13 +8353,6 @@
   "last": 1792522427.1970737
  },
  "tg_debug": [
-  {
-   "t": "10-21 05:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-21 06:00",
    "ok": true,
@@ -8602,6 +8621,13 @@
   },
   {
    "t": "10-21 12:12",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-21 12:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13840,6 +13866,61 @@
     "چيئرمين",
     "ڪرڻ",
     "گورنرس"
+   ]
+  },
+  {
+   "t": 1792567625,
+   "h": "ٿر کي فوري طور آفت سٽيل قرار ڏيڻ جو مطالبو",
+   "b": "هن وقت ٿر ۾ شديد ڏڪار، خوراڪ جي کوٽ ۽ چوپائي مال جي مرڻ واري صورتحال انتهائي ڳڻتيءَ جوڳي ٿي وئي آهي. معاشي",
+   "tt": [
+    "افت",
+    "سٽيل",
+    "طور",
+    "فوري",
+    "قرار",
+    "مطالبو",
+    "ڏيڻ"
+   ],
+   "bt": [
+    "افت",
+    "انتهائي",
+    "اهي",
+    "اهڙي",
+    "اڳتي",
+    "بدحالي",
+    "بيانن",
+    "بيراجي",
+    "جوڳي",
+    "حڪومت",
+    "خوراڪ",
+    "ذميواري",
+    "رهي",
+    "روايتي",
+    "سبب",
+    "سنڌ",
+    "سٽيل",
+    "شديد",
+    "صورتحال",
+    "طور",
+    "علائقن",
+    "فوري",
+    "قدم",
+    "قرار",
+    "لڏپلاڻ",
+    "مال",
+    "ماڻهن",
+    "مرڻ",
+    "مطالبو",
+    "معاشي",
+    "وقت",
+    "وڌي",
+    "چوپائي",
+    "ڏيڻ",
+    "ڏڪار،",
+    "ڪان",
+    "ڪوٽ",
+    "ڪڻي",
+    "ڳڻتيء"
    ]
   }
  ],
