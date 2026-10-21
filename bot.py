@@ -200,6 +200,23 @@ def resend_pending(reason):
                        {"text": "❌ Reject", "callback_data": "no:" + key}])
 
 
+def ensure_listener():
+    """Telegram listener (foran jawab) hamesha chalta rahe: band ho to dobara chalao."""
+    tok, repo = os.getenv("GITHUB_TOKEN", ""), os.getenv("GITHUB_REPOSITORY", "")
+    if DRY_RUN or not (tok and repo and TG_TOKEN) or not CONFIG.get("tg_listener", True):
+        return
+    h = {"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"}
+    base = f"https://api.github.com/repos/{repo}/actions/workflows/tg-listener.yml"
+    try:
+        for st in ("in_progress", "queued"):
+            if requests.get(f"{base}/runs", headers=h, params={"status": st, "per_page": 1}, timeout=30).json().get("total_count"):
+                return
+        r = requests.post(f"{base}/dispatches", headers=h, json={"ref": "main"}, timeout=30)
+        log("listener chalaya:", r.status_code)
+    except Exception as e:
+        log("listener error:", e)
+
+
 def check_bot_identity():
     """Bot (token) badla? To purani review khabrein naye bot se dobara bhejo — purane bot ke buttons ab kaam nahi karte.
     Webhook laga ho ya koi aur program isi bot ke messages parh raha ho to alert."""
@@ -253,9 +270,7 @@ def process_telegram():
             tg("answerCallbackQuery", callback_query_id=cq["id"], text=answer)
             tg("editMessageReplyMarkup", chat_id=TG_CHAT, message_id=msg.get("message_id"),
                reply_markup={"inline_keyboard": []})
-            if p:
-                tg_send(answer)
-            continue
+            continue  # foran jawab listener deta hai; post hone par "post ho gayi" ka message
         m = u.get("message") or {}
         if m:
             try:
@@ -326,6 +341,15 @@ def handle_message(m):
     contributors = S.setdefault("contributors", {})
     cmd = text.split()[0].lower() if text.startswith("/") else ""
 
+    ma = re.match(r"^\s*(ok|okay|post|haan|han|yes|no|nahi|nhi|reject)\s*(all|sab)\s*$", text, re.I)
+    if owner and ma:
+        yes = ma.group(1).lower() in ("ok", "okay", "post", "haan", "han", "yes")
+        keys = sorted(S["pending"], key=lambda k: S["pending"][k].get("added", 0))
+        for k in keys:
+            review_action(k, yes)
+        tg_send((f"✅ {len(keys)} khabrein manzoor — sab isi run mein post hongi." if yes else
+                 f"❌ {len(keys)} khabrein reject.") if keys else "Koi review khabar intezar mein nahi.")
+        return
     mm = re.match(r"^\s*(ok|okay|post|haan|han|yes|no|nahi|nhi|reject)\s*#?\s*(\d{1,3})\s*$", text, re.I)
     if owner and mm:
         key = S.get("rv_num", {}).get(str(int(mm.group(2))))
@@ -349,7 +373,8 @@ def handle_message(m):
                 f"Pakistan {region_count()['pakistan']}\n\n"
                 "Khabar post karne ke liye uska text (ya photo + text) mujhe bhej dein.\n"
                 "Sahafi jorne ke liye: /add ID Naam   hatane ke liye: /remove ID   list: /sahafi\n"
-                "Kaunsi khabrein pasand ho rahi hain: /likes")
+                "Kaunsi khabrein pasand ho rahi hain: /likes\n"
+                "Review: button, ya likh kar  ok 7 / no 7 / ok all / no all  —  list: /pending")
         return
     if owner and cmd == "/add":
         parts = text.split(maxsplit=2)
@@ -3808,6 +3833,7 @@ def main():
             STATS.setdefault("errors", []).append(fn.__name__)
             alert(f"System mein error aaya ({fn.__name__}):\n" + err[-600:])
 
+    step(ensure_listener)
     step(seed_recent_posts)  # repeat-check ki list sab posting se pehle
     for fn in (process_telegram, expire_old, handle_news, handle_jobs, publish_queue, handle_promo, handle_daily,
                handle_engagement, handle_culture, handle_roundup, handle_trends, probe_sources, handle_kawish,
