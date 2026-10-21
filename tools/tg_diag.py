@@ -20,7 +20,7 @@ for m, p in (("getMe", {}), ("getWebhookInfo", {}),
         out[m] = {"error": str(e)}
 import time as _t
 conf = []
-for i in range(4):  # lamba intezar: koi aur bhi sun raha ho to 409 Conflict
+for i in range(0):  # lamba intezar: koi aur bhi sun raha ho to 409 Conflict
     r = requests.get(B + "getUpdates", params={"timeout": 40}, timeout=60).json()
     conf.append({"ok": r.get("ok"), "code": r.get("error_code"), "desc": r.get("description"), "n": len(r.get("result") or [])})
     _t.sleep(1)
