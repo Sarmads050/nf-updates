@@ -1381,7 +1381,11 @@
   "1eca4ce74c2e49f2": 1792549273.8379574,
   "0f5c145ad4e3249a": 1792549283.2583716,
   "0f7663a2bf2a595e": 1792549858.0869458,
-  "140679b1212111be": 1792549889.4546824
+  "140679b1212111be": 1792549889.4546824,
+  "f9e71f622a88f6ce": 1792551084.9752169,
+  "2e6b4c7ffb6bf094": 1792551084.9752202,
+  "2860a5d1ab0333d0": 1792551084.9752212,
+  "fe1c034c274cdc14": 1792551084.9754217
  },
  "pending": {
   "55b47a0b9dd4dd9e": {
@@ -1657,18 +1661,8 @@
    "fc0b08515c062b5b"
   ]
  },
- "last_post_id": "1444130002106066_122111477865503839",
+ "last_post_id": "1444130002106066_122111489877503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122111183991503839",
-   "title": "بدين ۾ مسواڙ واري گهر مان هڪ جوابدار جو لاش هٿ",
-   "t": 1792493468.4479642,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122111183991503839"
-  },
   {
    "id": "1444130002106066_122111188077503839",
    "title": "سنڌ پبلڪ سروس ڪميشن: عمر جي حد ۳۳ سال مقرر",
@@ -1985,6 +1979,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111471001503839"
+  },
+  {
+   "id": "1444130002106066_122111489877503839",
+   "title": "حڪومت پيٽرول جي قيمت ۾ 88 پيسا ۽ ڊزل جي قيمت ۾ 53 پيسا فی ليٽر واڌ ڪري ڇڏي آهي",
+   "t": 1792551109.5181863,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111489877503839"
   }
  ],
  "share_sent": {
@@ -2103,7 +2106,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-21 07:41",
+  "time": "2026-10-21 07:51",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2118,8 +2121,8 @@
  },
  "all_posts": {
   "date": "2026-10-21",
-  "count": 8,
-  "last": 1792548093.3548956
+  "count": 9,
+  "last": 1792551103.794284
  },
  "perf": {
   "posts": [
@@ -3748,13 +3751,19 @@
     "sec": "public_news",
     "cat": "budget_tax_imf",
     "t": 1792546412
+   },
+   {
+    "id": "1444130002106066_122111489877503839",
+    "sec": "public_news",
+    "cat": "fuel",
+    "t": 1792551109
    }
   ]
  },
  "public_news": {
   "date": "2026-10-21",
-  "count": 3,
-  "last": 1792546412.1288383
+  "count": 4,
+  "last": 1792551109.5181668
  },
  "trends": {
   "last": 1792549858.0885532,
@@ -6412,15 +6421,11 @@
  },
  "ai_usage": {
   "date": "2026-10-21",
-  "ok": 42,
+  "ok": 46,
   "fail": 0,
-  "limit": 58
+  "limit": 64
  },
  "posted_heads": [
-  {
-   "h": "Kundi moves to curb dengue as cases surge",
-   "t": 1792306950
-  },
   {
    "h": "Sri Lanka win toss, opt to field first against Pakistan in ODI tri-series opener",
    "t": 1792309303
@@ -6736,10 +6741,14 @@
   {
    "h": "IMF warns Pakistan of global risks, urges deeper reforms for sustainable growth",
    "t": 1792546412
+  },
+  {
+   "h": "Govt hikes petrol price by Re0.88 per litre, diesel by Re0.53",
+   "t": 1792551109
   }
  ],
  "last_errors": {
-  "time": "2026-10-21 07:41",
+  "time": "2026-10-21 07:51",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -6842,12 +6851,12 @@
  },
  "article_diag": {
   "date": "2026-10-21",
-  "tried": 6,
-  "decoded": 6,
-  "text": 4,
-  "story": 3
+  "tried": 7,
+  "decoded": 7,
+  "text": 5,
+  "story": 4
  },
- "ai_last_error": "07:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "07:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-21",
   "models": [
@@ -6861,9 +6870,9 @@
  },
  "img_diag": {
   "date": "2026-10-21",
-  "tried": 8,
+  "tried": 9,
   "gemini": 0,
-  "pollinations": 5,
+  "pollinations": 6,
   "skip": 0,
   "fail": 1,
   "last_note": "finance graphs and currency",
@@ -6888,7 +6897,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-21",
-   "ok": 47,
+   "ok": 48,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6896,7 +6905,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-21",
-   "ok": 47,
+   "ok": 48,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6904,7 +6913,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-21",
-   "ok": 47,
+   "ok": 48,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6912,14 +6921,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -6927,21 +6936,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-21",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -7370,12 +7379,12 @@
   "date": "2026-10-21",
   "district": 0,
   "sindh": 1,
-  "pakistan": 6
+  "pakistan": 7
  },
  "report_acc": {
-  "posted": 0,
-  "found": 31,
-  "old": 31,
+  "posted": 1,
+  "found": 39,
+  "old": 39,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -7400,8 +7409,8 @@
   "date": "2026-10-21",
   "count": 1,
   "last": 1792528860.1731474,
-  "city_i": 4,
-  "dry": 1792550458.28297
+  "city_i": 8,
+  "dry": 1792551072.9632988
  },
  "gemini_day_dead": {
   "day": "2026-10-20",
@@ -8147,6 +8156,14 @@
    "t": 1792546412,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "881638050d4a32e9",
+   "h": "حڪومت پاران پيٽرول ۽ ڊزل جي قيمتن ۾ واڌ",
+   "x": "وفاقي حڪومت عالمي مارڪيٽ ۾ لڏپلاڻ سبب خميس ڏينهن پيٽرول جي قيمت ۾ 0.88 رپيا ۽ هاءِ اسپيڊ ڊيزل جي قيمت ۾ 0.53 رپيا اضافو ڪري ڇڏيو آهي. اسلام آباد مان جاري نوٽيفڪيشن موجب نئين واڌ کانپوءِ پيٽرول 382.02 رپيا ۽ هاءِ اسپيڊ ڊيزل 389.80 رپيا في ليٽر ملي رهيو آهي، جنهن جو اطلاق 21 آڪٽوبر کان ٿيو آهي. اوگرا پاران شفافيت بهتر بڻائڻ لاءِ روزانو جي بنياد تي پيٽروليم قيمتون پڻ جاري ڪيون پيون وڃن. پيٽروليم وزير علي پرويز ملڪ چيو ته روزاني قيمتون بين الاقوامي مارڪيٽ جي ستن ڏينهن جي اوسط تي ٻڌل آهن. وچ اوڀر ۾ نئين سر دشمني ۽ عالمي تيل جي اگهن ۾ عدم استحڪام سبب حڪومت روزاني بنياد تي فيول پرائس رويو ميکانيزم کي اختيار ڪرڻ جوفيصلو ڪيو!",
+   "t": 1792551109,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8160,13 +8177,6 @@
   "last": 1792522427.1970737
  },
  "tg_debug": [
-  {
-   "t": "10-21 01:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-21 01:30",
    "ok": true,
@@ -8435,6 +8445,13 @@
   },
   {
    "t": "10-21 07:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-21 07:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13167,6 +13184,58 @@
     "گذري",
     "گرمي",
     "گهٽ"
+   ]
+  },
+  {
+   "t": 1792551109,
+   "h": "حڪومت پاران پيٽرول ۽ ڊزل جي قيمتن ۾ واڌ",
+   "tt": [
+    "حڪومت",
+    "قيمتن",
+    "واڌ",
+    "پاران",
+    "پيٽرول",
+    "ڊزل"
+   ],
+   "bt": [
+    "382",
+    "389",
+    "اباد",
+    "اسلام",
+    "اسپيڊ",
+    "اضافو",
+    "اطلاق",
+    "اهي",
+    "اهي،",
+    "اڪٽوبر",
+    "جاري",
+    "حڪومت",
+    "خميس",
+    "رهيو",
+    "رپيا",
+    "سبب",
+    "عالمي",
+    "قيمت",
+    "قيمتن",
+    "ليٽر",
+    "لڏپلاڻ",
+    "مارڪيٽ",
+    "مان",
+    "ملي",
+    "موجب",
+    "نئين",
+    "نوٽيفڪيشن",
+    "هاء",
+    "واڌ",
+    "وفاقي",
+    "پاران",
+    "پيٽرول",
+    "ڇڏيو",
+    "ڊزل",
+    "ڊيزل",
+    "ڏينهن",
+    "ڪان",
+    "ڪانپوء"
    ]
   }
  ]
