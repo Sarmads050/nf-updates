@@ -1355,7 +1355,13 @@
   "8d5021f765fd9f28": 1792538483.141583,
   "de5d34306488213d": 1792538483.1415844,
   "eef20514f4faa758": 1792538483.1415854,
-  "ddc98cb6acaeba8c": 1792538483.1418242
+  "ddc98cb6acaeba8c": 1792538483.1418242,
+  "b03baf75d763b237": 1792541477.33881,
+  "f148cef48dbf0b8b": 1792541477.338812,
+  "f4290a19fed739e4": 1792541477.3388135,
+  "07a3dcf52cbcedfe": 1792541477.3388145,
+  "382d2dedf38f5b1f": 1792541477.3388155,
+  "7626a8bece820dd6": 1792541477.3390298
  },
  "pending": {
   "55b47a0b9dd4dd9e": {
@@ -1622,17 +1628,8 @@
    "fc0b08515c062b5b"
   ]
  },
- "last_post_id": "1444130002106066_122111435205503839",
+ "last_post_id": "1444130002106066_122111448213503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122111131521503839",
-   "title": "حومت پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي جو اعلان ڪري ڇڏيو آهي",
-   "t": 1792484685.485212,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122111131521503839"
-  },
   {
    "id": "1444130002106066_122111144541503839",
    "title": "سي پي پي اي جي پاران سال 2027 تائين بجلي جو فی يونٽ خريداري اگهه 27 روپيا 3 پئسا تائين",
@@ -1952,6 +1949,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111435205503839"
+  },
+  {
+   "id": "1444130002106066_122111448213503839",
+   "title": "قومي ڪرڪيٽ ٽيم جي راندگيرين امام الحق ۽ محمد رضوان ميدان تي واپسي ڪندي شاندار راند جو",
+   "t": 1792541606.9428833,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111448213503839"
   }
  ],
  "share_sent": {
@@ -2055,8 +2061,8 @@
  },
  "cricket_news": {
   "date": "2026-10-21",
-  "count": 1,
-  "last": 1792532596.694151
+  "count": 2,
+  "last": 1792541606.9428625
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -2070,7 +2076,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-21 05:01",
+  "time": "2026-10-21 05:13",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2085,8 +2091,8 @@
  },
  "all_posts": {
   "date": "2026-10-21",
-  "count": 4,
-  "last": 1792538537.8282635
+  "count": 5,
+  "last": 1792541596.3454387
  },
  "perf": {
   "posts": [
@@ -3697,6 +3703,12 @@
     "sec": "public_news",
     "cat": "fuel",
     "t": 1792538547
+   },
+   {
+    "id": "1444130002106066_122111448213503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1792541606
    }
   ]
  },
@@ -6321,15 +6333,11 @@
  },
  "ai_usage": {
   "date": "2026-10-21",
-  "ok": 22,
+  "ok": 28,
   "fail": 0,
-  "limit": 32
+  "limit": 38
  },
  "posted_heads": [
-  {
-   "h": "Ban Imposed On Educational Activities In Dangerous School Buildings And Dilapidated Classrooms Across Punjab",
-   "t": 1792302679
-  },
   {
    "h": "Today Gold Rates in Pakistan – 18, 21, 24Karat Gold Price – 18 October 2026",
    "t": 1792304473
@@ -6645,10 +6653,14 @@
   {
    "h": "Govt increases petrol by 88 paisas, diesel by 53 paisas per litre for Oct 21",
    "t": 1792538547
+  },
+  {
+   "h": "Imam, Rizwan shine on return",
+   "t": 1792541607
   }
  ],
  "last_errors": {
-  "time": "2026-10-21 05:01",
+  "time": "2026-10-21 05:13",
   "steps": []
  },
  "roundup_am": "2026-10-20",
@@ -6751,12 +6763,12 @@
  },
  "article_diag": {
   "date": "2026-10-21",
-  "tried": 3,
-  "decoded": 3,
-  "text": 2,
-  "story": 1
+  "tried": 4,
+  "decoded": 4,
+  "text": 3,
+  "story": 2
  },
- "ai_last_error": "04:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "05:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-21",
   "models": [
@@ -6770,13 +6782,13 @@
  },
  "img_diag": {
   "date": "2026-10-21",
-  "tried": 4,
+  "tried": 5,
   "gemini": 0,
   "pollinations": 3,
   "skip": 0,
   "fail": 0,
-  "last_note": "cricket bat and ball",
-  "mismatch": 40
+  "last_note": "cricket bats and kitbag",
+  "mismatch": 43
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -6797,7 +6809,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-21",
-   "ok": 31,
+   "ok": 32,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6805,7 +6817,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-21",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -6813,7 +6825,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-21",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -6821,14 +6833,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -6836,21 +6848,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-21",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -7279,12 +7291,12 @@
   "date": "2026-10-21",
   "district": 0,
   "sindh": 1,
-  "pakistan": 3
+  "pakistan": 4
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -7309,8 +7321,8 @@
   "date": "2026-10-21",
   "count": 1,
   "last": 1792528860.1731474,
-  "city_i": 24,
-  "dry": 1792538474.4283047
+  "city_i": 6,
+  "dry": 1792541467.2516541
  },
  "gemini_day_dead": {
   "day": "2026-10-20",
@@ -8032,6 +8044,14 @@
    "t": 1792538547,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "b47a1ace078567b4",
+   "h": "امام ۽ رضوان جي شاندار واپسي",
+   "x": "امام الحق ۽ محمد رضوان سومر ڏينهن صدرز ٽرافي گريڊ ون جي ستين راءِ جي ٻئي ڏينهن تي شاندار راند جو مظاهرو ڪيو. امام الحق اوڊي جي سي ايل طرفان غني خلاف رانديندي اڻ کٽ 118 رنسون بنايون، جنهن سان سندس ٽيم برتري حاصل ڪئي. محمد رضوان ايس اين جي پي ايل لاءِ کيڏندي 64 رنسون بنايون، جنهن سان سندس ٽيم خان ريسرچ ليبارٽريز خلاف پهرين اننگز جي برتري ورتي. اهي پرفارمنسون نيشنل سائيبر ڪرائيم انويسٽيگيشن ايجنسي جي جاچ دوران سامهون آيون. ٻنهي راندين جي هن ميچ ۾ ملڪي فرسٽ ڪلاس ڪرکٹ ۾ پنهنجي واپسي ڪئي. اوڊي جي سي ايل 277 رنسون 3 وڪيٽن جي نقصان تي ٺاهيون. ٻين ميچن ۾ به مختلف ٽيمن جي وچ ۾ مقابلا جاري رهيا!",
+   "t": 1792541606,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8045,13 +8065,6 @@
   "last": 1792522427.1970737
  },
  "tg_debug": [
-  {
-   "t": "10-20 22:51",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-20 23:00",
    "ok": true,
@@ -8320,6 +8333,13 @@
   },
   {
    "t": "10-21 05:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-21 05:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -12884,6 +12904,47 @@
     "ڇڏي",
     "ڇڏيو",
     "ڊيزل"
+   ]
+  },
+  {
+   "t": 1792541606,
+   "h": "امام ۽ رضوان جي شاندار واپسي",
+   "tt": [
+    "امام",
+    "رضوان",
+    "شاندار",
+    "واپسي"
+   ],
+   "bt": [
+    "118",
+    "الحق",
+    "امام",
+    "اوڊي",
+    "ايل",
+    "برتري",
+    "بنايون،",
+    "حاصل",
+    "خلاف",
+    "راء",
+    "راند",
+    "رانديندي",
+    "رضوان",
+    "رنسون",
+    "ستين",
+    "سندس",
+    "سومر",
+    "شاندار",
+    "صدرز",
+    "طرفان",
+    "غني",
+    "محمد",
+    "مظاهرو",
+    "واپسي",
+    "ٻئي",
+    "ٽرافي",
+    "ٽيم",
+    "ڏينهن",
+    "گريڊ"
    ]
   }
  ]
