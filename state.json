@@ -1394,7 +1394,9 @@
   "d7a03cce1bc95c36": 1792555886.3431342,
   "bd19457065d55544": 1792555886.3431356,
   "c6440a355a85ed8b": 1792555886.3431368,
-  "5c5f1897001bff63": 1792555886.343324
+  "5c5f1897001bff63": 1792555886.343324,
+  "5c5b36f61e111107": 1792557080.9580874,
+  "c5f1e454265fa923": 1792557094.1192868
  },
  "pending": {
   "55b47a0b9dd4dd9e": {
@@ -1625,20 +1627,8 @@
    "b88ef94f2484d29b"
   ]
  },
- "last_post_id": "1444130002106066_122111517783503839",
+ "last_post_id": "1444130002106066_122111523825503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122111220717503839",
-   "title": "خواجا آصف جو پي ٽي آءِ قيادت کي سياسي حڪمت عملي اختيار ڪرڻ جو مشورو",
-   "t": 1792499046.4006712,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122111220717503839"
-  },
   {
    "id": "1444130002106066_122111236233503839",
    "title": "هنڱورجا ويجهو نوجوان مبينا طور پسٽل جو فائر ڪري آپگهات ڪيو",
@@ -1950,6 +1940,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111517783503839"
+  },
+  {
+   "id": "1444130002106066_122111523825503839",
+   "title": "يونيورسٽي آف ايغريڪلچر فیصل آباد جي وائيس چانسلر چيو آهي ته هائبرڊ ٻج جي استعمال سان ڪڻڪ",
+   "t": 1792557130.7412078,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111523825503839"
   }
  ],
  "share_sent": {
@@ -2068,7 +2068,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-21 09:20",
+  "time": "2026-10-21 09:32",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2078,13 +2078,13 @@
  },
  "agri_news": {
   "date": "2026-10-21",
-  "count": 1,
-  "last": 1792544541.5064209
+  "count": 2,
+  "last": 1792557130.7411904
  },
  "all_posts": {
   "date": "2026-10-21",
-  "count": 13,
-  "last": 1792555916.591636
+  "count": 14,
+  "last": 1792557123.0733674
  },
  "perf": {
   "posts": [
@@ -3737,6 +3737,12 @@
     "sec": "public_news",
     "cat": "inflation",
     "t": 1792555921
+   },
+   {
+    "id": "1444130002106066_122111523825503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1792557130
    }
   ]
  },
@@ -6401,15 +6407,11 @@
  },
  "ai_usage": {
   "date": "2026-10-21",
-  "ok": 68,
+  "ok": 76,
   "fail": 0,
-  "limit": 100
+  "limit": 114
  },
  "posted_heads": [
-  {
-   "h": "Pakistan-England ODI dedicated to breast cancer awareness",
-   "t": 1792313520
-  },
   {
    "h": "Several KP schools declared dilapidated after deadly Peshawar school collapse",
    "t": 1792315916
@@ -6725,10 +6727,14 @@
   {
    "h": "LPG prices hit Rs600/kg, more than double official rate as regulators fail to enforce price controls",
    "t": 1792555922
+  },
+  {
+   "h": "Hybrid seed can take wheat production to 98 maunds per acre: UAF VC",
+   "t": 1792557130
   }
  ],
  "last_errors": {
-  "time": "2026-10-21 09:20",
+  "time": "2026-10-21 09:32",
   "steps": []
  },
  "roundup_am": "2026-10-21",
@@ -6831,12 +6837,12 @@
  },
  "article_diag": {
   "date": "2026-10-21",
-  "tried": 9,
-  "decoded": 9,
-  "text": 6,
-  "story": 5
+  "tried": 10,
+  "decoded": 10,
+  "text": 7,
+  "story": 6
  },
- "ai_last_error": "09:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "09:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-21",
   "models": [
@@ -6850,9 +6856,9 @@
  },
  "img_diag": {
   "date": "2026-10-21",
-  "tried": 12,
+  "tried": 13,
   "gemini": 0,
-  "pollinations": 9,
+  "pollinations": 10,
   "skip": 0,
   "fail": 1,
   "last_note": "US dollar and rupee notes",
@@ -6877,7 +6883,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-21",
-   "ok": 57,
+   "ok": 58,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6885,7 +6891,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-21",
-   "ok": 57,
+   "ok": 58,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6893,7 +6899,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-21",
-   "ok": 57,
+   "ok": 58,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6901,14 +6907,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -6916,21 +6922,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-21",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -7359,12 +7365,12 @@
   "date": "2026-10-21",
   "district": 0,
   "sindh": 3,
-  "pakistan": 9
+  "pakistan": 10
  },
  "report_acc": {
-  "posted": 1,
-  "found": 16,
-  "old": 16,
+  "posted": 2,
+  "found": 24,
+  "old": 24,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -7389,8 +7395,8 @@
   "date": "2026-10-21",
   "count": 1,
   "last": 1792528860.1731474,
-  "city_i": 24,
-  "dry": 1792555865.1305134
+  "city_i": 6,
+  "dry": 1792557068.4470317
  },
  "gemini_day_dead": {
   "day": "2026-10-20",
@@ -8160,11 +8166,21 @@
    "t": 1792555921,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "6a2fbf21b44865d9",
+   "h": "هائبرڊ ٻج سان ڪڻڪ جو اصرار",
+   "x": "فصل جي پيداوار وڌائڻ لاءِ زرعي يونيورسٽي فيصل آباد ۽ هڪ نجي زرعي ڪمپني هائبرڊ ڪڻڪ تيار ڪرڻ ۽ ان کي تجارتي سطح تي آڻڻ لاءِ هٿ ملايو آهي۔ هن حوالي سان ٻنهي ادارن جي وچ ۾ ٽن سالن جو هڪ سمجهوتو طئي پاتو آهي جنهن جو مقصد نئين ٻج جي ٽيڪنالاجي ذريعي في ايڪڙ پيداوار ۾ بيھه سيڪڙو واڌ ڪرڻ آهي۔ يونيورسٽي جي وائيس چانسلر ڊاڪٽر ذوالفقار علي چيو ته مناسب حالتن ۽ سٺن زرعي طريقن جي اپنائڻ سان ڪڻڪ جي پيداوار 98 مڻ في ايڪڙ تائين پهچي سگهي ٿي۔ گارڊ ايگريڪلچر جو چيف ايگزيڪيوٽو شهزاد علي ملڪ چيو ته هائبرڊ ڪڻڪ کي تجارتي مرحلي تائين پهچائڻ ۾ اڃا ٽن کان چار سال لڳي سگهن ٿا۔ هي گڏيل تحقيقي ڪم يونيورسٽي جي ليبارٽري، گرين هائوس ۽ ٻنن جي سطح تي ڪيو ويندو جنهن جي تقريب لاهور ۾ ٿي! بيان: يونيورسٽي آف ايغريڪلچر جو وائيس چانسلر",
+   "t": 1792557130,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
   "date": "2026-10-21",
-  "done": []
+  "done": [
+   "09:30"
+  ]
  },
  "kawish_queue": [],
  "kawish_post": {
@@ -8173,13 +8189,6 @@
   "last": 1792522427.1970737
  },
  "tg_debug": [
-  {
-   "t": "10-21 02:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-21 03:00",
    "ok": true,
@@ -8448,6 +8457,13 @@
   },
   {
    "t": "10-21 09:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-21 09:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13389,6 +13405,53 @@
     "وڌي",
     "پهچي",
     "ڪلو"
+   ]
+  },
+  {
+   "t": 1792557130,
+   "h": "هائبرڊ ٻج سان ڪڻڪ جو اصرار",
+   "b": "فصل جي پيداوار وڌائڻ لاءِ زرعي يونيورسٽي فيصل آباد ۽ هڪ نجي زرعي ڪمپني هائبرڊ ڪڻڪ تيار ڪرڻ ۽ ان کي تجارتي سطح",
+   "tt": [
+    "اصرار",
+    "هائبرڊ",
+    "ڪڻڪ"
+   ],
+   "bt": [
+    "اباد",
+    "ادارن",
+    "اصرار",
+    "اهي",
+    "اهي۔",
+    "ايڪڙ",
+    "اڻڻ",
+    "بيھه",
+    "تجارتي",
+    "تيار",
+    "حوالي",
+    "ذريعي",
+    "زرعي",
+    "سالن",
+    "سطح",
+    "سمجهوتو",
+    "سيڪڙو",
+    "طئي",
+    "فصل",
+    "فيصل",
+    "مقصد",
+    "ملايو",
+    "نئين",
+    "نجي",
+    "هائبرڊ",
+    "واڌ",
+    "وڌائڻ",
+    "يونيورسٽي",
+    "ٻنهي",
+    "ٽيڪنالاجي",
+    "پاتو",
+    "پيداوار",
+    "ڪرڻ",
+    "ڪمپني",
+    "ڪڻڪ"
    ]
   }
  ]
