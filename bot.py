@@ -1428,9 +1428,14 @@ _SD_STOP = set("جي ۾ ۽ کي جو آهي ڪيو ويو تي لاءِ لاء �
 _NORM = str.maketrans({"ی": "ي", "ک": "ڪ", "ہ": "ه", "ے": "ي", "ۃ": "ه", "ة": "ه", "أ": "ا", "إ": "ا", "آ": "ا"})
 
 
+_DIGITS = str.maketrans("۰۱۲۳۴۵۶۷۸۹٠١٢٣٤٥٦٧٨٩", "01234567890123456789")
+
+
 def _tokens(text):
-    t = re.sub(r"[\u064B-\u065F\u0670]", "", str(text or "")).translate(_NORM).lower()
-    return {w for w in re.findall(r"[\w\u0600-\u06FF]+", t) if len(w) >= 3 and w not in _SD_STOP}
+    t = re.sub(r"[\u064B-\u065F\u0670]", "", str(text or "")).translate(_NORM).translate(_DIGITS).lower()
+    words = {w for w in re.findall(r"[\w\u0600-\u06FF]+", t) if len(w) >= 3 and w not in _SD_STOP and not w.isdigit()}
+    return words | {"#" + n.lstrip("0") for n in re.findall(r"\d+(?:\.\d+)?", t) if len(n.replace(".", "")) >= 2
+                    and n not in ("2025", "2026", "2027")}
 
 
 def is_repeat(message):
@@ -1445,13 +1450,40 @@ def is_repeat(message):
             return r
         if len(bt) >= 8 and len(b) >= 8 and len(bt & b) / len(bt | b) >= 0.4:
             return r
+        nums = {w for w in bt & b if w.startswith("#")}
+        if len(nums) >= 2 and len((bt & b) - nums) >= 1:  # wohi khaas number (88 paisa, 53 paisa) = wohi khabar
+            return r
+    return ai_same_story(title, body)
+
+
+def ai_same_story(title, body):
+    """Alfaz alag hon par waqia wohi ho? AI pichle 24 ghante ki sarkhiyon se milata hai. AI na mile to None."""
+    if not CONFIG.get("repeat_ai", True) or not (GEMINI_KEY or OPENROUTER_KEY):
+        return None
+    recent = [r for r in S.get("recent_posts", []) if time.time() - r["t"] < CONFIG.get("repeat_hours", 24) * 3600][-70:]
+    if not recent or not title:
+        return None
+    listing = "\n".join(f"[{i}] {r['h']}" + (f" — {r['b']}" if r.get("b") else "") for i, r in enumerate(recent))
+    prompt = ("A news page must not post the same news twice. NEW item:\n" + title + " — " + body[:300] +
+              "\n\nAlready posted in the last 24 hours:\n" + listing +
+              "\n\nIs the NEW item about the SAME specific event, announcement or report as one of them (even if worded "
+              "differently, with spelling differences, or a different angle of the same report/statement)? Different "
+              "events on the same topic (e.g. today's gold price vs dollar rate, water shortage in two different towns) "
+              "are NOT the same. Return JSON: {\"same\": bool, \"match\": number}")
+    res = ask_gemini(prompt) if GEMINI_KEY else ask_openrouter(prompt)
+    if isinstance(res, dict) and res.get("same"):
+        try:
+            return recent[int(res.get("match", -1))]
+        except (TypeError, ValueError, IndexError):
+            return {"h": "?"}
     return None
 
 
 def remember_post(message):
     title, body = card_parts(message)
     rp = [r for r in S.get("recent_posts", []) if time.time() - r["t"] < 48 * 3600]
-    rp.append({"t": int(time.time()), "h": title[:80], "tt": sorted(_tokens(title)), "bt": sorted(_tokens(title + " " + body))})
+    rp.append({"t": int(time.time()), "h": title[:80], "b": cut_words(body, 110),
+               "tt": sorted(_tokens(title)), "bt": sorted(_tokens(title + " " + body))})
     S["recent_posts"] = rp[-200:]
 
 
@@ -1488,6 +1520,9 @@ def repeat_block(message):
         log("repeat khabar roki:", card_parts(message)[0][:60], "| pehle:", r.get("h", "")[:60])
         STATS["repeat"] = STATS.get("repeat", 0) + 1
         S["_dup"] = True
+        rl = S.setdefault("repeat_log", [])
+        rl.append({"t": now().strftime("%m-%d %H:%M"), "new": card_parts(message)[0][:70], "old": r.get("h", "")[:70]})
+        S["repeat_log"] = rl[-30:]
     return bool(r)
 
 
