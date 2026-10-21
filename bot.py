@@ -137,9 +137,29 @@ def tg(method, **data):
         return {}
 
 
+def review_num(key):
+    """Har review khabar ka chhota number (#7) — button na chale to 'ok 7' likh kar."""
+    nums = S.setdefault("rv_num", {})
+    for n, k in nums.items():
+        if k == key:
+            return int(n)
+    n = S.get("rv_seq", 0) % 999 + 1
+    S["rv_seq"] = n
+    nums[str(n)] = key
+    S["rv_num"] = {a: b for a, b in nums.items() if b in S.get("pending", {}) or b == key}
+    return n
+
+
 def tg_send(text, buttons=None, rows=None):
     if not (TG_TOKEN and TG_CHAT):
         return
+    key = next((b["callback_data"][3:] for b in (buttons or []) if str(b.get("callback_data", "")).startswith("ok:")), None)
+    if key:  # review khabar
+        if key in S.get("pending", {}):
+            S["pending"][key]["tg_text"] = text  # bot badle to dobara bhejne ke liye
+        n = review_num(key)
+        text = f"#{n} " + text
+        text = text[:3800] + f"\n\n✍️ Button na chale to likh kar bhejein:  ok {n}   ya   no {n}"
     d = {"chat_id": TG_CHAT, "text": text[:4000], "disable_web_page_preview": True}
     if buttons or rows:
         d["reply_markup"] = {"inline_keyboard": rows or [buttons]}
@@ -153,13 +173,59 @@ def alert(text):
         tg_send("⚠️ " + text)
 
 
+def review_action(key, ok):
+    """Review khabar manzoor/radd. Jawab ka text wapas."""
+    p = S["pending"].pop(key, None)
+    if not p:
+        return None
+    if ok:
+        S["queue"].insert(0, {"message": p["message"], "link": p.get("link"), "photo": p.get("photo"),
+                              "video": p.get("video"), "card": p.get("card"), "added": time.time(), "priority": True,
+                              "approved": True})
+        return "✅ Mil gaya! Ye khabar isi run mein (ya agle run mein, zyada se zyada 10 minute) post hogi."
+    return "❌ Reject kar di."
+
+
+def resend_pending(reason):
+    """Saari intezar wali review khabrein dobara bhejo (naye bot ke buttons ke saath)."""
+    items = sorted(S.get("pending", {}).items(), key=lambda kv: kv[1].get("added", 0))
+    if not items:
+        tg_send("✅ Koi review khabar intezar mein nahi.")
+        return
+    tg_send(f"🔁 {reason}: {len(items)} review khabrein dobara bhej raha hoon.")
+    for key, p in items:
+        text = p.get("tg_text") or ("🟠 REVIEW: post karni hai?\n\n" + p.get("message", "") +
+                                    (f"\n\n🔗 {p['link']}" if p.get("link") else ""))
+        tg_send(text, [{"text": "✅ Post karo", "callback_data": "ok:" + key},
+                       {"text": "❌ Reject", "callback_data": "no:" + key}])
+
+
+def check_bot_identity():
+    """Bot (token) badla? To purani review khabrein naye bot se dobara bhejo — purane bot ke buttons ab kaam nahi karte.
+    Webhook laga ho ya koi aur program isi bot ke messages parh raha ho to alert."""
+    me = tg("getMe").get("result") or {}
+    if me.get("id") and S.get("tg_bot_id") != me["id"]:
+        first = S.get("tg_bot_id") is None
+        S["tg_bot_id"] = me["id"]
+        S["tg_done"] = []
+        resend_pending(("Naya bot @" + me.get("username", "")) if not first else "Review buttons naye intezam ke saath")
+    wh = tg("getWebhookInfo").get("result") or {}
+    if wh.get("url"):
+        alert("Telegram bot par webhook laga hai (" + wh["url"][:60] + "), is liye bot ko aap ke clicks nahi mil rahe. "
+              "Kisi aur service se ye bot hatayein.")
+
+
 def process_telegram():
     """Review buttons (✅/❌) aur /status command parhna."""
     if not (TG_TOKEN and TG_CHAT):
         return
     # Offset ke bina: Telegram ke saare unconfirmed updates (update_id kabhi chhota bhi ho jata hai, to offset se
     # wo chupchap mit jate the). Jo pehle handle ho chuka (tg_done), wo dobara nahi.
+    check_bot_identity()
     res = tg("getUpdates", timeout=0, allowed_updates=["callback_query", "message"])
+    if res.get("error_code") == 409:
+        alert("Koi aur program bhi isi Telegram bot ke messages parh raha hai, is liye aap ke clicks bot tak nahi "
+              "pahunchte. Is bot ka token sirf GitHub (NF Updates) mein rakhein, kisi aur app/website mein nahi.")
     done = S.setdefault("tg_done", [])
     items = res.get("result", [])
     # Har round ka record: Telegram ne kya diya (clicks gum hon to pata chale kahan)
@@ -181,15 +247,9 @@ def process_telegram():
             if str(msg.get("chat", {}).get("id")) != TG_CHAT:
                 continue
             action, _, pid = cq.get("data", "").partition(":")
-            p = S["pending"].pop(pid, None)
-            if not p:
-                answer = "Ye khabar pehle hi handle ho chuki hai"
-            elif action == "ok":
-                S["queue"].insert(0, {"message": p["message"], "link": p.get("link"), "photo": p.get("photo"), "video": p.get("video"),
-                                      "card": p.get("card"), "added": time.time(), "priority": True})
-                answer = "✅ Approved - agle round mein post hogi"
-            else:
-                answer = "❌ Reject kar di"
+            res_ = review_action(pid, action == "ok")
+            p = res_ is not None
+            answer = res_ or "Ye khabar pehle hi handle ho chuki hai (ya 24 ghante purani ho kar hat gayi)"
             tg("answerCallbackQuery", callback_query_id=cq["id"], text=answer)
             tg("editMessageReplyMarkup", chat_id=TG_CHAT, message_id=msg.get("message_id"),
                reply_markup={"inline_keyboard": []})
@@ -266,6 +326,15 @@ def handle_message(m):
     contributors = S.setdefault("contributors", {})
     cmd = text.split()[0].lower() if text.startswith("/") else ""
 
+    mm = re.match(r"^\s*(ok|okay|post|haan|han|yes|no|nahi|nhi|reject)\s*#?\s*(\d{1,3})\s*$", text, re.I)
+    if owner and mm:
+        key = S.get("rv_num", {}).get(str(int(mm.group(2))))
+        res_ = review_action(key, mm.group(1).lower() in ("ok", "okay", "post", "haan", "han", "yes")) if key else None
+        tg_send(res_ or f"#{mm.group(2)} wali khabar nahi mili (shayad pehle handle ho chuki ya 24 ghante purani). /pending likh kar list mangwayein.")
+        return
+    if owner and cmd == "/pending":
+        resend_pending("Aap ne manga")
+        return
     if owner and cmd in ("/status", "/start"):
         tg_send(f"✅ System chal raha hai\nAaj district queue ki posts: {S['daily']['count']}\n"
                 f"Queue: {len(S['queue'])} | Review baqi: {len(S['pending'])}\n"
@@ -1699,6 +1768,9 @@ def publish_queue():
         if not ok:
             break
         S["queue"].pop(0)
+        if q.get("approved"):
+            link_ = post_permalink(S.get("last_post_id")) if S.get("last_post_id") else ""
+            tg_send("✅ Manzoor ki hui khabar post ho gayi:\n" + card_parts(q["message"])[0][:80] + (f"\n{link_}" if link_ else ""))
         reel_add(q["message"], (q.get("card") or {}).get("title", ""))
         note_region("district")
         perf_record("district")
