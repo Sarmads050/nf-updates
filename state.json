@@ -1388,7 +1388,13 @@
   "fe1c034c274cdc14": 1792551084.9754217,
   "b88ef94f2484d29b": 1792552320.6171594,
   "f447ed980c084b4f": 1792553479.0970826,
-  "2dc453885b52336d": 1792554684.3437176
+  "2dc453885b52336d": 1792554684.3437176,
+  "83769c0dd2a7c898": 1792555886.3431308,
+  "bdf47c31210ab300": 1792555886.3431334,
+  "d7a03cce1bc95c36": 1792555886.3431342,
+  "bd19457065d55544": 1792555886.3431356,
+  "c6440a355a85ed8b": 1792555886.3431368,
+  "5c5f1897001bff63": 1792555886.343324
  },
  "pending": {
   "55b47a0b9dd4dd9e": {
@@ -1619,18 +1625,8 @@
    "b88ef94f2484d29b"
   ]
  },
- "last_post_id": "1444130002106066_122111513007503839",
+ "last_post_id": "1444130002106066_122111517783503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122111208915503839",
-   "title": "سندھ ۾ سي سي اي امتحان جي عمر جي حد ٣٣ سال ڪرڻ جي منظوري سنڌ ڪاپرينگ سنڌ پبلڪ سروس ڪميشن",
-   "t": 1792497748.6000392,
-   "tags": [
-    "general",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122111208915503839"
-  },
   {
    "id": "1444130002106066_122111220717503839",
    "title": "خواجا آصف جو پي ٽي آءِ قيادت کي سياسي حڪمت عملي اختيار ڪرڻ جو مشورو",
@@ -1945,6 +1941,15 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111513007503839"
+  },
+  {
+   "id": "1444130002106066_122111517783503839",
+   "title": "ملڪ ۾ ايل پي جي جو اگھه وڌي 600 روپيا فی ڪلو تائين پهچي ويو آهي، جڏهن ته ريگيوليٽرز اگھه",
+   "t": 1792555921.9502683,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111517783503839"
   }
  ],
  "share_sent": {
@@ -2063,7 +2068,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-21 09:01",
+  "time": "2026-10-21 09:12",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2078,8 +2083,8 @@
  },
  "all_posts": {
   "date": "2026-10-21",
-  "count": 12,
-  "last": 1792555272.8600576
+  "count": 13,
+  "last": 1792555916.591636
  },
  "perf": {
   "posts": [
@@ -3726,13 +3731,19 @@
     "sec": "public_news",
     "cat": "dollar_gold_business",
     "t": 1792553558
+   },
+   {
+    "id": "1444130002106066_122111517783503839",
+    "sec": "public_news",
+    "cat": "inflation",
+    "t": 1792555921
    }
   ]
  },
  "public_news": {
   "date": "2026-10-21",
-  "count": 5,
-  "last": 1792553558.3278372
+  "count": 6,
+  "last": 1792555921.9502501
  },
  "trends": {
   "last": 1792549858.0885532,
@@ -6390,15 +6401,11 @@
  },
  "ai_usage": {
   "date": "2026-10-21",
-  "ok": 64,
+  "ok": 68,
   "fail": 0,
-  "limit": 94
+  "limit": 100
  },
  "posted_heads": [
-  {
-   "h": "Digging in Karachi for Red Line damages gas pipeline, disrupts supply",
-   "t": 1792312302
-  },
   {
    "h": "Pakistan-England ODI dedicated to breast cancer awareness",
    "t": 1792313520
@@ -6714,10 +6721,14 @@
   {
    "h": "Currency exchange rates in Pakistan today – 21 October 2026",
    "t": 1792553558
+  },
+  {
+   "h": "LPG prices hit Rs600/kg, more than double official rate as regulators fail to enforce price controls",
+   "t": 1792555922
   }
  ],
  "last_errors": {
-  "time": "2026-10-21 09:01",
+  "time": "2026-10-21 09:12",
   "steps": []
  },
  "roundup_am": "2026-10-21",
@@ -6820,12 +6831,12 @@
  },
  "article_diag": {
   "date": "2026-10-21",
-  "tried": 8,
-  "decoded": 8,
+  "tried": 9,
+  "decoded": 9,
   "text": 6,
   "story": 5
  },
- "ai_last_error": "08:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "09:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-21",
   "models": [
@@ -6839,9 +6850,9 @@
  },
  "img_diag": {
   "date": "2026-10-21",
-  "tried": 11,
+  "tried": 12,
   "gemini": 0,
-  "pollinations": 8,
+  "pollinations": 9,
   "skip": 0,
   "fail": 1,
   "last_note": "US dollar and rupee notes",
@@ -6866,7 +6877,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-21",
-   "ok": 55,
+   "ok": 56,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6874,7 +6885,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-21",
-   "ok": 55,
+   "ok": 56,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6882,7 +6893,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-21",
-   "ok": 55,
+   "ok": 56,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6890,14 +6901,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -6905,21 +6916,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-21",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -7348,12 +7359,12 @@
   "date": "2026-10-21",
   "district": 0,
   "sindh": 3,
-  "pakistan": 8
+  "pakistan": 9
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -7378,8 +7389,8 @@
   "date": "2026-10-21",
   "count": 1,
   "last": 1792528860.1731474,
-  "city_i": 20,
-  "dry": 1792554662.5416105
+  "city_i": 24,
+  "dry": 1792555865.1305134
  },
  "gemini_day_dead": {
   "day": "2026-10-20",
@@ -8141,6 +8152,14 @@
    "t": 1792553558,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "d5ea72084e9861d9",
+   "h": "ايل پي جي اگھه ۾ واڌ",
+   "x": "ملڪ ۾ ايل پي جي جو اگھه وڌي 600 روپيا فی ڪلو تائين پهچي ويو آهي، جڏهن ته ريگيوليٽرز اگھه تي ضابطو آڻڻ ۾ ناڪام رهيا آهن!",
+   "t": 1792555921,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8154,13 +8173,6 @@
   "last": 1792522427.1970737
  },
  "tg_debug": [
-  {
-   "t": "10-21 02:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-21 02:49",
    "ok": true,
@@ -8429,6 +8441,13 @@
   },
   {
    "t": "10-21 09:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-21 09:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13341,6 +13360,35 @@
     "سنڌ",
     "نوشهروفيروز",
     "نوڪريون"
+   ]
+  },
+  {
+   "t": 1792555921,
+   "h": "ايل پي جي اگھه ۾ واڌ",
+   "b": "ملڪ ۾ ايل پي جي جو اگھه وڌي 600 روپيا فی ڪلو تائين پهچي ويو آهي، جڏهن ته ريگيوليٽرز اگھه تي ضابطو آڻڻ ۾ ناڪام",
+   "tt": [
+    "ايل",
+    "اگھه",
+    "واڌ"
+   ],
+   "bt": [
+    "#600",
+    "اهن",
+    "اهي،",
+    "ايل",
+    "اگھه",
+    "اڻڻ",
+    "تائين",
+    "رهيا",
+    "روپيا",
+    "ريگيوليٽرز",
+    "ضابطو",
+    "ملڪ",
+    "ناڪام",
+    "واڌ",
+    "وڌي",
+    "پهچي",
+    "ڪلو"
    ]
   }
  ]
