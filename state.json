@@ -1385,7 +1385,8 @@
   "f9e71f622a88f6ce": 1792551084.9752169,
   "2e6b4c7ffb6bf094": 1792551084.9752202,
   "2860a5d1ab0333d0": 1792551084.9752212,
-  "fe1c034c274cdc14": 1792551084.9754217
+  "fe1c034c274cdc14": 1792551084.9754217,
+  "b88ef94f2484d29b": 1792552320.6171594
  },
  "pending": {
   "55b47a0b9dd4dd9e": {
@@ -1643,8 +1644,8 @@
  "last_question": "2026-10-19",
  "sindh_single": {
   "date": "2026-10-21",
-  "count": 0,
-  "last": 1792504909.2448928,
+  "count": 1,
+  "last": 1792552314.3585002,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1658,23 +1659,12 @@
    "d5b12ad3565907b8",
    "693e2b0aed48a9af",
    "774cf85a46e5c750",
-   "fc0b08515c062b5b"
+   "fc0b08515c062b5b",
+   "b88ef94f2484d29b"
   ]
  },
- "last_post_id": "1444130002106066_122111489877503839",
+ "last_post_id": "1444130002106066_122111495127503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122111188077503839",
-   "title": "سنڌ پبلڪ سروس ڪميشن: عمر جي حد ۳۳ سال مقرر",
-   "t": 1792494236.833073,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122111188077503839"
-  },
   {
    "id": "1444130002106066_122111190315503839",
    "title": "ٺاروشاهه ڀرسان نوجوان مٿان سالي کي مبينا اغوا ڪرڻ جو الزام لڳايو ويو آهي، جنهن بعد زال ۽",
@@ -1988,6 +1978,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111489877503839"
+  },
+  {
+   "id": "1444130002106066_122111495127503839",
+   "title": "پيٹرول ۽ ڈیزل جي قيمتن ۾ واڌ جو اعلان حکومت ايندڙ چोوي ڪلاڪن لاءِ پيٹرول ۽ ڈیزل جي قيمتن",
+   "t": 1792552356.355012,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111495127503839"
   }
  ],
  "share_sent": {
@@ -2106,7 +2106,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-21 08:02",
+  "time": "2026-10-21 08:12",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2121,8 +2121,8 @@
  },
  "all_posts": {
   "date": "2026-10-21",
-  "count": 9,
-  "last": 1792551103.794284
+  "count": 10,
+  "last": 1792552347.569084
  },
  "perf": {
   "posts": [
@@ -3757,6 +3757,12 @@
     "sec": "public_news",
     "cat": "fuel",
     "t": 1792551109
+   },
+   {
+    "id": "1444130002106066_122111495127503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1792552347
    }
   ]
  },
@@ -6421,9 +6427,9 @@
  },
  "ai_usage": {
   "date": "2026-10-21",
-  "ok": 52,
+  "ok": 58,
   "fail": 0,
-  "limit": 76
+  "limit": 86
  },
  "posted_heads": [
   {
@@ -6748,7 +6754,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-21 08:02",
+  "time": "2026-10-21 08:12",
   "steps": []
  },
  "roundup_am": "2026-10-21",
@@ -6856,7 +6862,7 @@
   "text": 5,
   "story": 4
  },
- "ai_last_error": "08:02 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "08:12 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-21",
   "models": [
@@ -6870,9 +6876,9 @@
  },
  "img_diag": {
   "date": "2026-10-21",
-  "tried": 9,
+  "tried": 10,
   "gemini": 0,
-  "pollinations": 6,
+  "pollinations": 7,
   "skip": 0,
   "fail": 1,
   "last_note": "finance graphs and currency",
@@ -6897,7 +6903,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-21",
-   "ok": 49,
+   "ok": 50,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6905,7 +6911,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-21",
-   "ok": 49,
+   "ok": 50,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6913,7 +6919,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-21",
-   "ok": 49,
+   "ok": 50,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6921,14 +6927,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -6936,21 +6942,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-21",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -7378,13 +7384,13 @@
  "region_posts": {
   "date": "2026-10-21",
   "district": 0,
-  "sindh": 2,
+  "sindh": 3,
   "pakistan": 7
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -7409,8 +7415,8 @@
   "date": "2026-10-21",
   "count": 1,
   "last": 1792528860.1731474,
-  "city_i": 8,
-  "dry": 1792551072.9632988
+  "city_i": 12,
+  "dry": 1792552272.943064
  },
  "gemini_day_dead": {
   "day": "2026-10-20",
@@ -8178,13 +8184,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-21 01:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-21 01:50",
    "ok": true,
    "n": 0,
@@ -8452,6 +8451,13 @@
   },
   {
    "t": "10-21 08:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-21 08:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13236,6 +13242,53 @@
     "ڏينهن",
     "ڪان",
     "ڪانپوء"
+   ]
+  },
+  {
+   "t": 1792552347,
+   "h": "سنڌ | پيٹرول ۽ ڈیزل جي قيمتن ۾ واڌ جو اعلان",
+   "tt": [
+    "اعلان",
+    "سنڌ",
+    "قيمتن",
+    "واڌ",
+    "پيٹرول",
+    "ڈيزل"
+   ],
+   "bt": [
+    "اسي",
+    "اعلان",
+    "اهن۔",
+    "اهي۔",
+    "اوگرا",
+    "ايندڙ",
+    "بعد",
+    "جاري",
+    "حڪومت",
+    "روپي",
+    "سنڌ",
+    "قيمت",
+    "قيمتن",
+    "قيمتون",
+    "ليٽر",
+    "مقرر",
+    "منظوري",
+    "مهانگو",
+    "نئين",
+    "نيون",
+    "واڌ",
+    "ٻانويں",
+    "پئسا",
+    "پيٹرول",
+    "پيٹروليم",
+    "ٿيڻ",
+    "چوويهه",
+    "ڇڏيو",
+    "ڈيزل",
+    "ڊويزن",
+    "ڪانپوء",
+    "ڪلاڪن",
+    "گئي"
    ]
   }
  ]
