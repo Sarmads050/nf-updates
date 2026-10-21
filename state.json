@@ -1386,7 +1386,8 @@
   "2e6b4c7ffb6bf094": 1792551084.9752202,
   "2860a5d1ab0333d0": 1792551084.9752212,
   "fe1c034c274cdc14": 1792551084.9754217,
-  "b88ef94f2484d29b": 1792552320.6171594
+  "b88ef94f2484d29b": 1792552320.6171594,
+  "f447ed980c084b4f": 1792553479.0970826
  },
  "pending": {
   "55b47a0b9dd4dd9e": {
@@ -1663,18 +1664,8 @@
    "b88ef94f2484d29b"
   ]
  },
- "last_post_id": "1444130002106066_122111495127503839",
+ "last_post_id": "1444130002106066_122111501205503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122111190315503839",
-   "title": "ٺاروشاهه ڀرسان نوجوان مٿان سالي کي مبينا اغوا ڪرڻ جو الزام لڳايو ويو آهي، جنهن بعد زال ۽",
-   "t": 1792494693.6028075,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122111190315503839"
-  },
   {
    "id": "1444130002106066_122111202411503839",
    "title": "ڪوٽڙي ۾ دڪان تي فائرنگ، هڪ ڀاءُ فوت ۽ ٻيو زخمي",
@@ -1988,6 +1979,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111495127503839"
+  },
+  {
+   "id": "1444130002106066_122111501205503839",
+   "title": "اڄ ملڪ ۾ مختلف پرڏيهي ڪرنسي جو مٽاساٽا اگهه جاري ڪيا ويا آهن، جنهن تحت آمريڪي ڊالر ۽ ٻيون",
+   "t": 1792553558.3278527,
+   "tags": [
+    "business",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111501205503839"
   }
  ],
  "share_sent": {
@@ -2106,7 +2107,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-21 08:20",
+  "time": "2026-10-21 08:32",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2121,8 +2122,8 @@
  },
  "all_posts": {
   "date": "2026-10-21",
-  "count": 10,
-  "last": 1792552347.569084
+  "count": 11,
+  "last": 1792553552.0560167
  },
  "perf": {
   "posts": [
@@ -3763,13 +3764,19 @@
     "sec": "sindh_single",
     "cat": "sindh",
     "t": 1792552347
+   },
+   {
+    "id": "1444130002106066_122111501205503839",
+    "sec": "public_news",
+    "cat": "dollar_gold_business",
+    "t": 1792553558
    }
   ]
  },
  "public_news": {
   "date": "2026-10-21",
-  "count": 4,
-  "last": 1792551109.5181668
+  "count": 5,
+  "last": 1792553558.3278372
  },
  "trends": {
   "last": 1792549858.0885532,
@@ -6427,15 +6434,11 @@
  },
  "ai_usage": {
   "date": "2026-10-21",
-  "ok": 58,
+  "ok": 63,
   "fail": 0,
-  "limit": 86
+  "limit": 92
  },
  "posted_heads": [
-  {
-   "h": "Sri Lanka win toss, opt to field first against Pakistan in ODI tri-series opener",
-   "t": 1792309303
-  },
   {
    "h": "Digging in Karachi for Red Line damages gas pipeline, disrupts supply",
    "t": 1792312302
@@ -6751,10 +6754,14 @@
   {
    "h": "Govt hikes petrol price by Re0.88 per litre, diesel by Re0.53",
    "t": 1792551109
+  },
+  {
+   "h": "Currency exchange rates in Pakistan today – 21 October 2026",
+   "t": 1792553558
   }
  ],
  "last_errors": {
-  "time": "2026-10-21 08:20",
+  "time": "2026-10-21 08:32",
   "steps": []
  },
  "roundup_am": "2026-10-21",
@@ -6857,12 +6864,12 @@
  },
  "article_diag": {
   "date": "2026-10-21",
-  "tried": 7,
-  "decoded": 7,
-  "text": 5,
-  "story": 4
+  "tried": 8,
+  "decoded": 8,
+  "text": 6,
+  "story": 5
  },
- "ai_last_error": "08:12 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "08:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-21",
   "models": [
@@ -6876,13 +6883,13 @@
  },
  "img_diag": {
   "date": "2026-10-21",
-  "tried": 10,
+  "tried": 11,
   "gemini": 0,
-  "pollinations": 7,
+  "pollinations": 8,
   "skip": 0,
   "fail": 1,
-  "last_note": "finance graphs and currency",
-  "mismatch": 45
+  "last_note": "US dollar and rupee notes",
+  "mismatch": 46
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -6903,7 +6910,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-21",
-   "ok": 51,
+   "ok": 52,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6911,7 +6918,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-21",
-   "ok": 51,
+   "ok": 52,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6919,7 +6926,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-21",
-   "ok": 51,
+   "ok": 52,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6927,14 +6934,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -6942,21 +6949,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-21",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -7385,12 +7392,12 @@
   "date": "2026-10-21",
   "district": 0,
   "sindh": 3,
-  "pakistan": 7
+  "pakistan": 8
  },
  "report_acc": {
-  "posted": 1,
-  "found": 16,
-  "old": 16,
+  "posted": 2,
+  "found": 24,
+  "old": 24,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -7415,8 +7422,8 @@
   "date": "2026-10-21",
   "count": 1,
   "last": 1792528860.1731474,
-  "city_i": 12,
-  "dry": 1792552272.943064
+  "city_i": 16,
+  "dry": 1792553466.622185
  },
  "gemini_day_dead": {
   "day": "2026-10-20",
@@ -8170,6 +8177,14 @@
    "t": 1792551109,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "a8f775268331d252",
+   "h": "اڄ پاڪستان ۾ پرڏيهي ڪرنسي جا اگهه",
+   "x": "پاڪستان ۾ اڄ 21 آڪٽوبر 2026 تي پرڏيهي ڪرنسي جا اگهه جاري ڪيا ويا آهن. آمريڪي ڊالر جو اگهه خريداري ۾ 277.45 ۽ وڪري ۾ 280.35 رپيا رهيو. اوپن مارڪيٽ ۾ يورو جي خريداري جو اگهه 311.08 ۽ وڪري جو اگهه 315.59 رپيا آهي. برطانوي پائونڊ اسٽرلنگ 369.45 تي خريد ۽ 373.46 رپين تي وڪرو ٿي رهيو آهي. متحده عرب امارات جو درهم 75.60 کان 76.35 رپين ۽ سعودي ريال 73.85 کان 74.55 رپين جي وچ ۾ موجود آهي. اهي واڌارا ملڪي معيشت، واپار ۽ پرڏيهي سيڙپڪاري تي اهم اثر وجهندا آهن!",
+   "t": 1792553558,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8183,13 +8198,6 @@
   "last": 1792522427.1970737
  },
  "tg_debug": [
-  {
-   "t": "10-21 02:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-21 02:10",
    "ok": true,
@@ -8458,6 +8466,13 @@
   },
   {
    "t": "10-21 08:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-21 08:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13289,6 +13304,48 @@
     "ڪانپوء",
     "ڪلاڪن",
     "گئي"
+   ]
+  },
+  {
+   "t": 1792553558,
+   "h": "اڄ پاڪستان ۾ پرڏيهي ڪرنسي جا اگهه",
+   "tt": [
+    "اگهه",
+    "پاڪستان",
+    "پرڏيهي",
+    "ڪرنسي"
+   ],
+   "bt": [
+    "2026",
+    "277",
+    "280",
+    "311",
+    "315",
+    "369",
+    "373",
+    "اسٽرلنگ",
+    "امريڪي",
+    "اهن",
+    "اهي",
+    "اوپن",
+    "اڪٽوبر",
+    "اگهه",
+    "برطانوي",
+    "جاري",
+    "خريد",
+    "خريداري",
+    "رهيو",
+    "رپيا",
+    "رپين",
+    "مارڪيٽ",
+    "وڪرو",
+    "وڪري",
+    "يورو",
+    "پائونڊ",
+    "پاڪستان",
+    "پرڏيهي",
+    "ڊالر",
+    "ڪرنسي"
    ]
   }
  ]
