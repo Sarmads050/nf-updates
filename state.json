@@ -1413,7 +1413,9 @@
   "5f49cfe0e9249c1b": 1792563084.9299471,
   "858795f2bf5152b2": 1792563084.9299498,
   "efa9abc863d3b311": 1792563084.9301927,
-  "7e75a1cd685e1b45": 1792563676.4333487
+  "7e75a1cd685e1b45": 1792563676.4333487,
+  "d553b5458a4e1e43": 1792564852.2219381,
+  "0752c4174ef7f5d5": 1792564863.0678616
  },
  "pending": {
   "55b47a0b9dd4dd9e": {
@@ -1687,20 +1689,8 @@
    "b88ef94f2484d29b"
   ]
  },
- "last_post_id": "1444130002106066_122111563893503839",
+ "last_post_id": "1444130002106066_122111568609503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122111278767503839",
-   "title": "سنڌ ۾ نوان صوبا ناهن، لا ڪنهن وت ٻہ اکثريت ناهي، هاڻي اهو معاملو دفن ٿين گهرجي: وزيراعظم",
-   "t": 1792508286.2706769,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122111278767503839"
-  },
   {
    "id": "1444130002106066_122111282883503839",
    "title": "پياري ۾ نوجوان گم، وارثن پاران پريس ڪلب اڳيان احتجاج",
@@ -2012,6 +2002,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122111563893503839"
+  },
+  {
+   "id": "1444130002106066_122111568609503839",
+   "title": "خيبرپختونخواھ جي معدنيات شعبي ۾ اربين روپين جي ڪرپشن جو انڪشاف",
+   "t": 1792565069.637568,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122111568609503839"
   }
  ],
  "share_sent": {
@@ -2134,7 +2136,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-21 11:31",
+  "time": "2026-10-21 11:44",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2149,8 +2151,8 @@
  },
  "all_posts": {
   "date": "2026-10-21",
-  "count": 17,
-  "last": 1792563825.9574327
+  "count": 18,
+  "last": 1792565065.2153103
  },
  "perf": {
   "posts": [
@@ -3827,6 +3829,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1792563832
+   },
+   {
+    "id": "1444130002106066_122111568609503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1792565069
    }
   ]
  },
@@ -6539,15 +6547,11 @@
  },
  "ai_usage": {
   "date": "2026-10-21",
-  "ok": 100,
+  "ok": 105,
   "fail": 0,
-  "limit": 154
+  "limit": 160
  },
  "posted_heads": [
-  {
-   "h": "Salman Ali Agha’s century powers Pakistan to 305 against Sri Lanka in Tri-Nation ODI opener",
-   "t": 1792335080
-  },
   {
    "h": "PM Shehbaz inaugurates Daanish School in Islamabad, stresses equal academic opportunities",
    "t": 1792337499
@@ -6863,10 +6867,14 @@
   {
    "h": "ڇا سيلفي مان ڪينسر جي مريض جي زندگي جا امڪان ڄاڻي سگهبا؟ نئين ٽيڪنالاجي تيار",
    "t": 1792563832
+  },
+  {
+   "h": "خيبرپختونخواھ ۾ معدنيات جي شعبي ۾ اربين رپين جي مبينا ڪرپشن جو انڪشاف",
+   "t": 1792565069
   }
  ],
  "last_errors": {
-  "time": "2026-10-21 11:31",
+  "time": "2026-10-21 11:44",
   "steps": []
  },
  "roundup_am": "2026-10-21",
@@ -6974,7 +6982,7 @@
   "text": 9,
   "story": 8
  },
- "ai_last_error": "11:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "11:41 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-21",
   "models": [
@@ -6988,13 +6996,13 @@
  },
  "img_diag": {
   "date": "2026-10-21",
-  "tried": 16,
+  "tried": 17,
   "gemini": 0,
   "pollinations": 11,
   "skip": 1,
-  "fail": 1,
-  "last_note": "smartphone displaying facial scan",
-  "mismatch": 49
+  "fail": 2,
+  "last_note": "pollinations HTTPSConnectionPool(host='image.pollinations.ai', port=443): Read timed out. (read timeout=90)",
+  "mismatch": 51
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -7015,7 +7023,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-21",
-   "ok": 71,
+   "ok": 72,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7023,7 +7031,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-21",
-   "ok": 71,
+   "ok": 72,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7031,7 +7039,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-21",
-   "ok": 71,
+   "ok": 72,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7039,14 +7047,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7054,21 +7062,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-21",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -7496,13 +7504,13 @@
  "region_posts": {
   "date": "2026-10-21",
   "district": 0,
-  "sindh": 6,
+  "sindh": 7,
   "pakistan": 10
  },
  "report_acc": {
-  "posted": 1,
-  "found": 21,
-  "old": 21,
+  "posted": 2,
+  "found": 28,
+  "old": 28,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -7525,9 +7533,9 @@
  },
  "sindh_stream": {
   "date": "2026-10-21",
-  "count": 4,
-  "last": 1792563670.5884101,
-  "city_i": 8,
+  "count": 5,
+  "last": 1792564861.0218253,
+  "city_i": 12,
   "dry": 1792563057.1701405
  },
  "gemini_day_dead": {
@@ -8293,6 +8301,14 @@
    "t": 1792563832,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "524f3244dadd5c29",
+   "h": "خيبرپختونخواھ جي معدنيات شعبي ۾ اربين روپين جي ڪرپشن جو انڪشاف",
+   "x": "پشاور ۾ پي ٽي آءِ جي حڪومتي دور دوران معدنيات جي شعبي ۾ وڏي پيماني تي مالي بي ضابطگين جو انڪشاف ٿيو آهي. سرڪاري آڊٽ رپورٽ موجب معدني وسيلن جي انتظام ۾ بي ضابطگين سبب صوبائي خزاني کي هڪ سال ۾ 16 ارب 94 ڪروڙ روپين کان وڌيڪ نقصان پهتو آهي. رپورٽ ۾ هن معاملي کي رڳو بدانتظامي نه پر منظم ڪرپشن قرار ڏنو ويو آهي. آڊٽ رپورٽ ۾ ڄاڻايو ويو آهي ته 2022ع ۽ 2023ع دوران غيرقانوني مائننگ ذريعي 8 ارب روپين کان وڌيڪ جي غيرقانوني آمدني جو معاملو سامهون آيو آهي!",
+   "t": 1792565069,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8308,13 +8324,6 @@
   "last": 1792522427.1970737
  },
  "tg_debug": [
-  {
-   "t": "10-21 05:13",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-21 05:20",
    "ok": true,
@@ -8583,6 +8592,13 @@
   },
   {
    "t": "10-21 11:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-21 11:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13727,6 +13743,57 @@
     "چوڻ",
     "ڊاڪٽرن",
     "ڪينسر"
+   ]
+  },
+  {
+   "t": 1792565069,
+   "h": "خيبرپختونخواھ جي معدنيات شعبي ۾ اربين روپين جي ڪرپشن جو انڪشاف",
+   "b": "پشاور ۾ پي ٽي آءِ جي حڪومتي دور دوران معدنيات جي شعبي ۾ وڏي پيماني تي مالي بي ضابطگين جو انڪشاف ٿيو آهي.",
+   "tt": [
+    "اربين",
+    "انڪشاف",
+    "خيبرپختونخواھ",
+    "روپين",
+    "شعبي",
+    "معدنيات",
+    "ڪرپشن"
+   ],
+   "bt": [
+    "#16",
+    "#94",
+    "ارب",
+    "اربين",
+    "انتظام",
+    "انڪشاف",
+    "اهي",
+    "اڊٽ",
+    "حڪومتي",
+    "خزاني",
+    "خيبرپختونخواھ",
+    "دور",
+    "دوران",
+    "روپين",
+    "رپورٽ",
+    "سال",
+    "سبب",
+    "سرڪاري",
+    "شعبي",
+    "صوبائي",
+    "ضابطگين",
+    "مالي",
+    "معدني",
+    "معدنيات",
+    "موجب",
+    "نقصان",
+    "وسيلن",
+    "وڌيڪ",
+    "وڏي",
+    "پشاور",
+    "پهتو",
+    "پيماني",
+    "ڪان",
+    "ڪروڙ",
+    "ڪرپشن"
    ]
   }
  ],
