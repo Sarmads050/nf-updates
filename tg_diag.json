@@ -1,0 +1,64 @@
+{
+ "getMe": {
+  "status": 200,
+  "body": {
+   "ok": true,
+   "result": {
+    "id": 8610497682,
+    "is_bot": true,
+    "first_name": "NF Updates Alerts",
+    "username": "nf_updates_alerts_bot",
+    "can_join_groups": true,
+    "can_read_all_group_messages": false,
+    "supports_inline_queries": false,
+    "supports_guest_queries": false,
+    "can_connect_to_business": false,
+    "has_main_web_app": false,
+    "has_topics_enabled": false,
+    "allows_users_to_create_topics": false,
+    "can_manage_bots": false,
+    "supports_join_request_queries": false
+   }
+  }
+ },
+ "getWebhookInfo": {
+  "status": 200,
+  "body": {
+   "ok": true,
+   "result": {
+    "url": "",
+    "has_custom_certificate": false,
+    "pending_update_count": 0,
+    "allowed_updates": [
+     "message",
+     "callback_query"
+    ]
+   }
+  }
+ },
+ "getUpdates": {
+  "status": 200,
+  "body": {
+   "ok": true,
+   "count": 0,
+   "items": []
+  }
+ },
+ "getUpdates_all": {
+  "status": 200,
+  "body": {
+   "ok": true,
+   "count": 0,
+   "items": []
+  }
+ },
+ "getUpdates_long": {
+  "status": 200,
+  "body": {
+   "ok": true,
+   "count": 0,
+   "items": []
+  }
+ },
+ "long_poll": []
+}
