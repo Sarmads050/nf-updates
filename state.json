@@ -1406,7 +1406,13 @@
   "2eb97b0dc21aff73": 1792560683.6650567,
   "0aaa5c353b26b26f": 1792561869.7065341,
   "6802e6e02b05785a": 1792562464.0544372,
-  "c7b59af396372309": 1792562464.05582
+  "c7b59af396372309": 1792562464.05582,
+  "10bef6fd9293f6d2": 1792563068.4322734,
+  "9d1db812f3c68ef2": 1792563068.4322758,
+  "23d525cac575380b": 1792563068.4324815,
+  "5f49cfe0e9249c1b": 1792563084.9299471,
+  "858795f2bf5152b2": 1792563084.9299498,
+  "efa9abc863d3b311": 1792563084.9301927
  },
  "pending": {
   "55b47a0b9dd4dd9e": {
@@ -2114,7 +2120,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-21 11:01",
+  "time": "2026-10-21 11:11",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -6513,9 +6519,9 @@
  },
  "ai_usage": {
   "date": "2026-10-21",
-  "ok": 88,
+  "ok": 94,
   "fail": 0,
-  "limit": 136
+  "limit": 148
  },
  "posted_heads": [
   {
@@ -6840,7 +6846,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-21 11:01",
+  "time": "2026-10-21 11:11",
   "steps": []
  },
  "roundup_am": "2026-10-21",
@@ -6943,12 +6949,12 @@
  },
  "article_diag": {
   "date": "2026-10-21",
-  "tried": 10,
-  "decoded": 10,
-  "text": 7,
-  "story": 6
+  "tried": 12,
+  "decoded": 12,
+  "text": 9,
+  "story": 8
  },
- "ai_last_error": "10:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "11:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-21",
   "models": [
@@ -6989,7 +6995,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-21",
-   "ok": 68,
+   "ok": 69,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -6997,7 +7003,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-21",
-   "ok": 68,
+   "ok": 69,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7005,7 +7011,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-21",
-   "ok": 68,
+   "ok": 69,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7013,14 +7019,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7028,21 +7034,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-21",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -7475,8 +7481,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 7,
+  "old": 7,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -7501,8 +7507,8 @@
   "date": "2026-10-21",
   "count": 3,
   "last": 1792561867.7644987,
-  "city_i": 22,
-  "dry": 1792558266.6908586
+  "city_i": 4,
+  "dry": 1792563057.1701405
  },
  "gemini_day_dead": {
   "day": "2026-10-20",
@@ -8312,13 +8318,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-21 04:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-21 04:50",
    "ok": true,
    "n": 0,
@@ -8586,6 +8585,13 @@
   },
   {
    "t": "10-21 11:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-21 11:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13675,6 +13681,19 @@
     "پيش",
     "ڄڻا"
    ]
+  }
+ ],
+ "_dup": true,
+ "repeat_log": [
+  {
+   "t": "10-21 11:11",
+   "new": "پاڪستان انگلينڊ کي شڪست ڏئي ڇڏي",
+   "old": "عارف منھاس جي شاندار ڪارڪردگي انگلينڊ کي شڪست ڏئي ڇڏي"
+  },
+  {
+   "t": "10-21 11:11",
+   "new": "سنڌ زرعي يونيورسٽي جو ڪڻڪ جي پيداوار تي اهم بيان",
+   "old": "هائبرڊ ٻج سان ڪڻڪ جو اصرار"
   }
  ]
 }
