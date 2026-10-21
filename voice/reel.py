@@ -420,6 +420,10 @@ def main():
     n = cfg.get("stories_per_reel", 3)
     now = dt.datetime.now(TZ)
     stories, used = pick_stories(n)
+    if not DRY and SLOT and SLOT not in ("manual", "test") and any(
+            e.get("slot") == SLOT and e.get("t", "").startswith(now.strftime("%Y-%m-%d")) for e in used.get("log", [])):
+        log("is waqt ki reel aaj pehle hi ban chuki:", SLOT)
+        return
     if len(stories) < 2 and DRY:  # test: pool khaali ho to purani namoona khabrein
         smp = json.load(open(os.path.join(HERE, "stories.json"), encoding="utf-8"))[:n]
         stories = [{"k": bot.item_key(x["head"]), "h": x["head"], "x": x["summary"], "t": time.time()} for x in smp]

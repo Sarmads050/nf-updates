@@ -3233,6 +3233,19 @@ def handle_reels():
         hh, mm = map(int, slot.split(":"))
         if slot in st["done"] or not (hh * 60 + mm <= cur < hh * 60 + mm + cfg.get("window_minutes", 90)):
             continue
+        try:  # do runs ek saath chalein to bhi reel ek hi dafa: pichle 45 minute mein koi reel run?
+            rr = requests.get(f"https://api.github.com/repos/{repo}/actions/workflows/news-reel.yml/runs",
+                              headers={"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"},
+                              params={"per_page": 3}, timeout=30).json().get("workflow_runs", [])
+            recent = [x for x in rr if time.time() - dt.datetime.strptime(x["created_at"], "%Y-%m-%dT%H:%M:%SZ")
+                      .replace(tzinfo=dt.timezone.utc).timestamp() < 45 * 60]
+        except Exception as e:
+            log("reel check error:", e)
+            recent = []
+        if recent:
+            log("reel pehle hi chal chuki/chal rahi hai:", slot)
+            st["done"].append(slot)
+            break
         r = requests.post(f"https://api.github.com/repos/{repo}/actions/workflows/news-reel.yml/dispatches",
                           headers={"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"},
                           json={"ref": "main", "inputs": {"slot": slot, "dry_run": "false"}}, timeout=30)
