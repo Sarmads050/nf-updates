@@ -1232,5 +1232,10 @@
     "max_age_hours": 14,
     "_note": "Din mein 5 reels (PK waqt). Har reel mein 3 taaza khabrein (pehle tarjeehi shehar), Sindhi anchor awaz, music, AI tasveer."
   },
-  "tg_listener": true
+  "tg_listener": true,
+  "approve_gap_seconds": [
+    60,
+    120
+  ],
+  "approve_wait_minutes": 8
 }

@@ -37,6 +37,7 @@ GRAPH = "https://graph.facebook.com/" + CONFIG.get("graph_version", "v23.0")
 LBL = CONFIG["labels"]
 S = {}  # state
 STATS = {}  # is run ki ginti (report ke liye)
+RUN_START = time.time()
 
 
 def stat(key, n=1):
@@ -179,10 +180,16 @@ def review_action(key, ok):
     if not p:
         return None
     if ok:
-        S["queue"].insert(0, {"message": p["message"], "link": p.get("link"), "photo": p.get("photo"),
-                              "video": p.get("video"), "card": p.get("card"), "added": time.time(), "priority": True,
-                              "approved": True})
-        return "✅ Mil gaya! Ye khabar isi run mein (ya agle run mein, zyada se zyada 10 minute) post hogi."
+        # manzoor khabrein ek saath nahi: har ek ke beech 1-2 minute ka random waqfa (page ki hifazat)
+        lo, hi = CONFIG.get("approve_gap_seconds", [60, 120])
+        when = max(time.time(), S.get("approve_next", 0))
+        S["approve_next"] = when + random.randint(lo, hi)
+        S["queue"].append({"message": p["message"], "link": p.get("link"), "photo": p.get("photo"),
+                           "video": p.get("video"), "card": p.get("card"), "added": time.time(), "priority": True,
+                           "approved": True, "not_before": when})
+        mins = max(0, round((when - time.time()) / 60))
+        return ("✅ Mil gaya! 1-2 minute mein post hogi." if mins < 1 else
+                f"✅ Mil gaya! Qatar mein hai, taqreeban {mins} minute mein post hogi.")
     return "❌ Reject kar di."
 
 
@@ -347,7 +354,8 @@ def handle_message(m):
         keys = sorted(S["pending"], key=lambda k: S["pending"][k].get("added", 0))
         for k in keys:
             review_action(k, yes)
-        tg_send((f"✅ {len(keys)} khabrein manzoor — sab isi run mein post hongi." if yes else
+        tg_send((f"✅ {len(keys)} khabrein manzoor — ek ek karke har 1-2 minute baad post hongi "
+                 f"(taqreeban {max(1, round((S.get('approve_next', time.time()) - time.time()) / 60))} minute mein sab)." if yes else
                  f"❌ {len(keys)} khabrein reject.") if keys else "Koi review khabar intezar mein nahi.")
         return
     mm = re.match(r"^\s*(ok|okay|post|haan|han|yes|no|nahi|nhi|reject)\s*#?\s*(\d{1,3})\s*$", text, re.I)
@@ -1778,9 +1786,21 @@ def compose(item, text):
 
 def publish_queue():
     posted = 0
-    S["queue"].sort(key=lambda q: not q.get("priority"))  # Telegram se manzoor ki hui khabrein sab se pehle
+    # Telegram se manzoor ki hui khabrein sab se pehle, apne waqt (not_before) ki tarteeb se
+    S["queue"].sort(key=lambda q: (not q.get("priority"), q.get("not_before", 0)))
+    budget = CONFIG.get("approve_wait_minutes", 8) * 60
     while S["queue"] and (S["queue"][0].get("priority") or (posted < CONFIG["max_posts_per_run"] and can_post())):
         q = S["queue"][0]
+        wait = q.get("not_before", 0) - time.time()
+        if q.get("approved"):  # pichli manzoor post se bhi 1-2 minute ka faasla (agle run mein bhi)
+            lo, hi = CONFIG.get("approve_gap_seconds", [60, 120])
+            q.setdefault("gap", random.randint(lo, hi))
+            wait = max(wait, S.get("approve_last", 0) + q["gap"] - time.time())
+        if wait > 0:
+            if DRY_RUN or time.time() + wait - RUN_START > budget:
+                break  # agla waqt is run ki hadd se bahar: agla run post karega
+            log(f"manzoor khabar: {int(wait)} second ruk kar")
+            time.sleep(wait)
         if q.get("card") and not q.get("photo"):
             spec = q["card"]
             card = make_card(spec.get("title", ""), spec.get("sub", ""), spec.get("body", ""), theme=spec.get("theme", "culture"))
@@ -1794,6 +1814,7 @@ def publish_queue():
             break
         S["queue"].pop(0)
         if q.get("approved"):
+            S["approve_last"] = time.time()
             link_ = post_permalink(S.get("last_post_id")) if S.get("last_post_id") else ""
             tg_send("✅ Manzoor ki hui khabar post ho gayi:\n" + card_parts(q["message"])[0][:80] + (f"\n{link_}" if link_ else ""))
         reel_add(q["message"], (q.get("card") or {}).get("title", ""))
