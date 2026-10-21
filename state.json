@@ -1,6 +1,5 @@
 {
  "seen": {
-  "e1ded05dfdee267f": 1791999649.6621625,
   "90d9640163eda63c": 1792002665.3102882,
   "62e1d1d1fd318fd9": 1792002666.1695244,
   "f65273349e2dd7d8": 1792003848.8792384,
@@ -2366,7 +2365,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-21 22:40",
+  "time": "2026-10-21 22:51",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -4362,7 +4361,7 @@
   "last": 1792577203.6701431
  },
  "trends": {
-  "last": 1792593657.5646503,
+  "last": 1792605055.943296,
   "terms": [
    {
     "term": "real madrid vs roma",
@@ -7203,15 +7202,87 @@
     "t": 1792593658,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "man utd",
+    "traffic": 5000,
+    "news": "New Como vs Man United update amid risk of European clash being postponed",
+    "t": 1792605056,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "bayern vs arsenal",
+    "traffic": 2000,
+    "news": "Harry Kane relishing chance to lock horns with Arsenal again",
+    "t": 1792605056,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "losc vs galatasaray",
+    "traffic": 200,
+    "news": "̳̳++[LIVESTREAMS]TV!$! Lille vs Galatasaray news Live Online Free",
+    "t": 1792605056,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "one day international",
+    "traffic": 200,
+    "news": "Pakistan overtake Australia in ICC ODI rankings after Arafat Minhas heroics",
+    "t": 1792605056,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "ibrahim zadran",
+    "traffic": 200,
+    "news": "Ahmadzai, Omarzai lay the foundation as Bangladesh fold for 160",
+    "t": 1792605056,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "como vs man utd",
+    "traffic": 5000,
+    "news": "Nico Paz, Lautaro Martínez y otros argentinos por la Champions League: toda la agenda del miércoles",
+    "t": 1792605056,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "dubai international airport",
+    "traffic": 100,
+    "news": "Missing cat found at Dubai airport after 10 days of searching: ‘Your mum is waiting’",
+    "t": 1792605056,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "iphone",
+    "traffic": 200,
+    "news": "The iPhone Duo is a messy, expensive, good time",
+    "t": 1792605056,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "rashid khan",
+    "traffic": 2000,
+    "news": "Rashid Khan retains top bowling rank as Sediqullah Atal climbs in ODI rankings",
+    "t": 1792605056,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-21",
-  "ok": 223,
+  "ok": 224,
   "fail": 12,
-  "limit": 310
+  "limit": 312
  },
  "posted_heads": [
   {
@@ -7536,7 +7607,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-21 22:40",
+  "time": "2026-10-21 22:51",
   "steps": []
  },
  "roundup_am": "2026-10-21",
@@ -7644,7 +7715,7 @@
   "text": 15,
   "story": 13
  },
- "ai_last_error": "19:56 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "22:50 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-21",
   "models": [
@@ -7685,7 +7756,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-21",
-   "ok": 142,
+   "ok": 143,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7693,7 +7764,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-21",
-   "ok": 142,
+   "ok": 143,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7701,7 +7772,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-21",
-   "ok": 141,
+   "ok": 142,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -7709,14 +7780,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 145,
+   "ok": 146,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 145,
+   "ok": 146,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7724,21 +7795,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-21",
-   "ok": 145,
+   "ok": 146,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-21",
-   "ok": 145,
+   "ok": 146,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-21",
-   "ok": 145,
+   "ok": 146,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8483,8 +8554,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 17,
-  "old": 17,
+  "found": 22,
+  "old": 22,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9783,13 +9854,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-21 17:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-21 17:30",
    "ok": true,
    "n": 0,
@@ -10083,6 +10147,13 @@
   },
   {
    "t": "10-21 22:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-21 22:50",
    "ok": true,
    "n": 0,
    "ids": [],
