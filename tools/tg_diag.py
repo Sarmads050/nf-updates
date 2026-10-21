@@ -18,5 +18,12 @@ for m, p in (("getMe", {}), ("getWebhookInfo", {}),
         out[m] = {"status": r.status_code, "body": j}
     except Exception as e:
         out[m] = {"error": str(e)}
+import time as _t
+conf = []
+for i in range(4):  # lamba intezar: koi aur bhi sun raha ho to 409 Conflict
+    r = requests.get(B + "getUpdates", params={"timeout": 40}, timeout=60).json()
+    conf.append({"ok": r.get("ok"), "code": r.get("error_code"), "desc": r.get("description"), "n": len(r.get("result") or [])})
+    _t.sleep(1)
+out["long_poll"] = conf
 txt = json.dumps(out, ensure_ascii=False, indent=1).replace(T, "***")
 os.makedirs("out", exist_ok=True); open("out/tg_diag.json", "w").write(txt); print(txt[:3000])
