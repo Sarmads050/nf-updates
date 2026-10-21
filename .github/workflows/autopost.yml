@@ -23,6 +23,8 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main  # hamesha taaza tareen state (qatar mein laga run purani state na parhe — warna post do dafa)
 
       - uses: actions/setup-python@v5
         with:
