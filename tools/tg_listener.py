@@ -32,12 +32,28 @@ def dispatch():
     r = requests.post(f"https://api.github.com/repos/{REPO}/actions/workflows/autopost.yml/dispatches",
                       headers={"Authorization": f"Bearer {GH}", "Accept": "application/vnd.github+json"},
                       json={"ref": "main", "inputs": {"dry_run": "false"}}, timeout=30)
-    print("dispatch autopost", r.status_code, flush=True)
+    note("dispatch autopost", r.status_code)
     last_dispatch, need_run = time.time(), False
+
+
+LOG = []
+
+
+def note(*a):
+    line = time.strftime("%H:%M:%S") + " " + " ".join(str(x) for x in a)
+    print(line, flush=True)
+    LOG.append(line)
+    try:
+        open("/tmp/listener_log.txt", "w").write("\n".join(LOG[-300:]))
+    except Exception:
+        pass
 
 
 def handle(u):
     global need_run
+    cq_ = u.get("callback_query") or {}
+    note("update", u["update_id"], "click:" + cq_.get("data", "")[:20] if cq_ else
+         "msg:" + ((u.get("message") or {}).get("text") or "")[:30])
     cq = u.get("callback_query")
     if cq:
         msg = cq.get("message") or {}
@@ -71,6 +87,7 @@ def handle(u):
 while time.time() < END:
     r = tg("getUpdates", timeout=50, allowed_updates=["callback_query", "message"])
     if r.get("error_code") == 409:  # autopost isi waqt parh raha hai: thoda ruko
+        note("409")
         time.sleep(5)
         continue
     items = r.get("result") or []
