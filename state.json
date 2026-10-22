@@ -1521,7 +1521,9 @@
   "9aba618a56929fdb": 1792702897.9723382,
   "efdf086a024675a4": 1792702897.9723392,
   "de1444255ad0e04b": 1792702897.9724886,
-  "3e8b60bf20cab899": 1792703458.2311647
+  "3e8b60bf20cab899": 1792703458.2311647,
+  "520b457f4c6dfc4d": 1792705869.357036,
+  "5b5d90edba230db2": 1792705869.3571866
  },
  "pending": {
   "427f3f23396d3ae3": {
@@ -2273,7 +2275,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-23 02:40",
+  "time": "2026-10-23 02:51",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -4635,80 +4637,8 @@
   "last": 1792703009.4157598
  },
  "trends": {
-  "last": 1792694460.7005785,
+  "last": 1792705849.9012313,
   "terms": [
-   {
-    "term": "celta vs juventus",
-    "traffic": 500,
-    "news": "Celta Vigo vs Juventus LIVE - Confirmed starting lineups & pre-match updates for Europa League 2026-27",
-    "t": 1792093246,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "kups vs trabzonspor",
-    "traffic": 100,
-    "news": "KuPS Coach Warns Players About Mohamed Salah: “One of the Best Players in the World”",
-    "t": 1792093246,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "torreense vs sunderland",
-    "traffic": 100,
-    "news": "Torreense Prepare for Historic Europa League Home Debut",
-    "t": 1792093246,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "union vs real sociedad",
-    "traffic": 100,
-    "news": "🚨 Real Sociedad XI in Leuven: plenty of quality on the bench",
-    "t": 1792093246,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "milwaukee brewers",
-    "traffic": 100,
-    "news": "What Dodgers’ Tarik Skubal said about Brice Turang’s improbable home run in NLCS Game 1",
-    "t": 1792093246,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "ol vs palace",
-    "traffic": 200,
-    "news": "Pohang Steelers vs Johor Darul Ta'zim: Where to watch, TV channel, live stream & kick-off time",
-    "t": 1792093246,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "fbr",
-    "traffic": 2000,
-    "news": "Pakistan tax advisers seek income tax return deadline extension to Nov. 15",
-    "t": 1792093246,
-    "cat": "budget_tax_imf",
-    "sindh": false
-   },
-   {
-    "term": "bhuvneshwar kumar",
-    "traffic": 200,
-    "news": "‘ Mohammed Shami bhi aa rahe hai piche piche’: Suresh Raina drops big hint on India pacer’s return",
-    "t": 1792093246,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "europa league",
-    "traffic": 500,
-    "news": "Bayer thrash Lech 4-0 in Europa League — Interia Sport",
-    "t": 1792093246,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "fbr tax return deadline extension",
     "traffic": 2000,
@@ -7420,15 +7350,47 @@
     "t": 1792694460,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "south africa",
+    "traffic": 200,
+    "news": "Foreign national beaten to death by a mob in South Africa",
+    "t": 1792705850,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "bournemouth vs milan",
+    "traffic": 1000,
+    "news": "Rose salutes Bournemouth's past heroes ahead of AC Milan clash",
+    "t": 1792705850,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "europa conference league",
+    "traffic": 100,
+    "news": "Netherlands Europa Conference League Soccer",
+    "t": 1792705850,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "prime minister youth",
+    "traffic": 1000,
+    "news": "Chairman Prime Minister's Youth Programme Rana Mashood Ahmed Khan witnesses the signing ceremony of the Letter of Intent (LOI) between the Prime Minister's Youth Programme (PMYP) and Physicians Revenue Group (PRG), Pakistan at the Prime Minis",
+    "t": 1792705850,
+    "cat": "education_jobs",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-23",
-  "ok": 20,
+  "ok": 24,
   "fail": 0,
-  "limit": 32
+  "limit": 40
  },
  "posted_heads": [
   {
@@ -7753,7 +7715,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-23 02:41",
+  "time": "2026-10-23 02:51",
   "steps": []
  },
  "roundup_am": "2026-10-22",
@@ -7856,12 +7818,12 @@
  },
  "article_diag": {
   "date": "2026-10-23",
-  "tried": 4,
-  "decoded": 4,
+  "tried": 5,
+  "decoded": 5,
   "text": 1,
   "story": 1
  },
- "ai_last_error": "02:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "02:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-23",
   "models": [
@@ -7902,7 +7864,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-23",
-   "ok": 17,
+   "ok": 18,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7910,7 +7872,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-23",
-   "ok": 17,
+   "ok": 18,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7918,7 +7880,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-23",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7926,14 +7888,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7941,21 +7903,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-23",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8342,8 +8304,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 8,
-  "old": 8,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8370,8 +8332,8 @@
   "date": "2026-10-23",
   "count": 1,
   "last": 1792695684.168352,
-  "city_i": 22,
-  "dry": 1792702883.4406714
+  "city_i": 4,
+  "dry": 1792705860.204123
  },
  "gemini_day_dead": {
   "day": "2026-10-22",
@@ -9434,13 +9396,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-22 20:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-22 20:40",
    "ok": true,
    "n": 1,
@@ -9710,6 +9665,13 @@
   },
   {
    "t": "10-23 02:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-23 02:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -16241,6 +16203,11 @@
    "t": "10-23 01:01",
    "new": "بولنگ ڪارڪردگيءَ تي راضي آهيون، شان طاهد",
    "old": "شان تائط جو پاڪستاني بالرز جو ساراهه"
+  },
+  {
+   "t": "10-23 02:51",
+   "new": "منداس جو انگلينڊ خلاف سوڀ بعد سنڌ جو جذبو ساراهيو",
+   "old": "سريلنڪا انگلينڊ خلاف 430 رنسن جو هدف حاصل ڪري ورتو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -16265,5 +16232,6 @@
  },
  "rv_seq": 77,
  "approve_next": 1792672105.5771914,
- "approve_last": 1792672024.975899
+ "approve_last": 1792672024.975899,
+ "_dup": true
 }
