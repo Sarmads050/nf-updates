@@ -1518,7 +1518,8 @@
   "02f728bc23c0a361": 1792637479.5053668,
   "6bf027e506725b07": 1792637479.5053675,
   "fca16c44ffa46a99": 1792637479.505592,
-  "08f2da05ad9cadf9": 1792639294.4051032
+  "08f2da05ad9cadf9": 1792639294.4051032,
+  "293dd2a697fa02c5": 1792642271.405308
  },
  "pending": {
   "a28b458c923f2145": {
@@ -2105,7 +2106,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-22 09:01",
+  "time": "2026-10-22 09:11",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7080,9 +7081,9 @@
  },
  "ai_usage": {
   "date": "2026-10-22",
-  "ok": 73,
+  "ok": 75,
   "fail": 0,
-  "limit": 122
+  "limit": 126
  },
  "posted_heads": [
   {
@@ -7407,7 +7408,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-22 09:01",
+  "time": "2026-10-22 09:11",
   "steps": []
  },
  "roundup_am": "2026-10-22",
@@ -7510,12 +7511,12 @@
  },
  "article_diag": {
   "date": "2026-10-22",
-  "tried": 9,
-  "decoded": 9,
+  "tried": 10,
+  "decoded": 10,
   "text": 9,
   "story": 8
  },
- "ai_last_error": "08:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "09:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-22",
   "models": [
@@ -7556,7 +7557,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-22",
-   "ok": 58,
+   "ok": 59,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7564,7 +7565,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-22",
-   "ok": 53,
+   "ok": 54,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -7572,7 +7573,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-22",
-   "ok": 55,
+   "ok": 56,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -7580,14 +7581,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7595,21 +7596,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-22",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8354,8 +8355,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8381,8 +8382,8 @@
   "date": "2026-10-22",
   "count": 3,
   "last": 1792621877.217011,
-  "city_i": 10,
-  "dry": 1792641068.7174191
+  "city_i": 14,
+  "dry": 1792642259.9599044
  },
  "gemini_day_dead": {
   "day": "2026-10-21",
@@ -9446,13 +9447,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-22 02:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-22 03:00",
    "ok": true,
    "n": 0,
@@ -9720,6 +9714,13 @@
   },
   {
    "t": "10-22 09:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-22 09:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -16126,6 +16127,11 @@
    "t": "10-22 08:21",
    "new": "سنڌ | پيٹرول ۽ گئس جي نئين قيمتن جو اعلان",
    "old": "پيٽرول اگهه ۾ گهٽات ۽ ڊيزل مهانگو"
+  },
+  {
+   "t": "10-22 09:11",
+   "new": "پاڪستان ۾ اڄ سون جي اگهه ۾ تبديلي",
+   "old": "پاڪستان ۾ سون جي قيمت ۾ گهٽتائي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -16139,5 +16145,6 @@
  },
  "rv_seq": 58,
  "approve_next": 1792613178.2342854,
- "approve_last": 1792613141.2857459
+ "approve_last": 1792613141.2857459,
+ "_dup": true
 }
