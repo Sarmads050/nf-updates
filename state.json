@@ -1,11 +1,5 @@
 {
  "seen": {
-  "349f18a17d6afaa4": 1792070460.7277944,
-  "a7adab34ee5e5d2a": 1792070460.7277975,
-  "cb4727f31692400e": 1792070460.7277985,
-  "23fb7c58aad8bdd0": 1792070460.7277997,
-  "498f2cd80aa11b1a": 1792070460.7278008,
-  "2546b97eef537ab2": 1792070460.728185,
   "0c110beb31201bfb": 1792071656.3185039,
   "c82c8af649d227b0": 1792071656.3185072,
   "9e389839fe703c7c": 1792071656.3185086,
@@ -1511,7 +1505,8 @@
   "c0bda41042e787ce": 1792671069.9529264,
   "00c3976a0b0832e0": 1792671069.9529276,
   "48cdd25e17877754": 1792671069.9529295,
-  "b60114d8ed3583ba": 1792672866.5644054
+  "b60114d8ed3583ba": 1792672866.5644054,
+  "fd6f6d20317ce244": 1792675995.830852
  },
  "pending": {
   "fc2ad102a608847b": {
@@ -1576,7 +1571,7 @@
   "last_week": "",
   "last_check": "2026-10-22"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.5-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2103,7 +2098,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-22 18:21",
+  "time": "2026-10-22 18:33",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7202,9 +7197,9 @@
  },
  "ai_usage": {
   "date": "2026-10-22",
-  "ok": 198,
+  "ok": 201,
   "fail": 5,
-  "limit": 304
+  "limit": 310
  },
  "posted_heads": [
   {
@@ -7529,7 +7524,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-22 18:21",
+  "time": "2026-10-22 18:33",
   "steps": []
  },
  "roundup_am": "2026-10-22",
@@ -7637,7 +7632,7 @@
   "text": 22,
   "story": 18
  },
- "ai_last_error": "18:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "18:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-22",
   "models": [
@@ -7678,7 +7673,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-22",
-   "ok": 120,
+   "ok": 121,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7686,7 +7681,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-22",
-   "ok": 113,
+   "ok": 114,
    "fail": 10,
    "items": 10,
    "fail_streak": 0,
@@ -7694,7 +7689,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-22",
-   "ok": 116,
+   "ok": 117,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -7702,14 +7697,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7717,21 +7712,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-22",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8476,8 +8471,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 4,
-  "old": 4,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8502,8 +8497,8 @@
  "sindh_stream": {
   "date": "2026-10-22",
   "count": 11,
-  "last": 1792672864.1379302,
-  "city_i": 24,
+  "last": 1792675871.2914963,
+  "city_i": 6,
   "dry": 1792675267.369794
  },
  "gemini_day_dead": {
@@ -9599,7 +9594,8 @@
   "done": [
    "09:30",
    "12:30",
-   "15:30"
+   "15:30",
+   "18:30"
   ]
  },
  "kawish_queue": [],
@@ -9609,13 +9605,6 @@
   "last": 1792522427.1970737
  },
  "tg_debug": [
-  {
-   "t": "10-22 12:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-22 12:45",
    "ok": true,
@@ -9892,6 +9881,13 @@
   },
   {
    "t": "10-22 18:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-22 18:30",
    "ok": true,
    "n": 0,
    "ids": [],
