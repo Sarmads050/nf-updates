@@ -1523,7 +1523,8 @@
   "16d566bded5bdfcb": 1792702897.9723377,
   "9aba618a56929fdb": 1792702897.9723382,
   "efdf086a024675a4": 1792702897.9723392,
-  "de1444255ad0e04b": 1792702897.9724886
+  "de1444255ad0e04b": 1792702897.9724886,
+  "3e8b60bf20cab899": 1792703458.2311647
  },
  "pending": {
   "427f3f23396d3ae3": {
@@ -1704,6 +1705,15 @@
    "domain": "english.aaj.tv",
    "source": "Aaj English TV",
    "ts": 1792627510,
+   "local": false
+  },
+  {
+   "key": "3e8b60bf20cab899",
+   "title": "Cell set up to facilitate Baloch youth get federal govt jobs",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObTJhdmoxTThMVzlERzBLNVZsMDJucUpHdnJMMDExRVh3VW9MWGlqN01kbFVZX1ZRaG5qX0tOYjdvaGNPcFQwWGdZSGgyRjBxekloMXJYendZRzVCSkVxdlplOHJYdHlsUDRQVVZ2eUFyQ3JOVVZIVXJQSDV3aE82UmRteElDRFNOVHlLSnBwdm1PU05X?oc=5",
+   "domain": "24newshd.tv",
+   "source": "24 News HD",
+   "ts": 1792659060,
    "local": false
   }
  ],
@@ -2266,7 +2276,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-23 02:03",
+  "time": "2026-10-23 02:10",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7746,7 +7756,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-23 02:03",
+  "time": "2026-10-23 02:10",
   "steps": []
  },
  "roundup_am": "2026-10-22",
@@ -7895,7 +7905,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-23",
-   "ok": 13,
+   "ok": 14,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7903,7 +7913,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-23",
-   "ok": 13,
+   "ok": 14,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7911,7 +7921,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-23",
-   "ok": 14,
+   "ok": 15,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7919,14 +7929,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 14,
+   "ok": 15,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 14,
+   "ok": 15,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7934,21 +7944,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 14,
+   "ok": 15,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 14,
+   "ok": 15,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-23",
-   "ok": 14,
+   "ok": 15,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8335,8 +8345,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9427,13 +9437,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-22 19:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-22 20:00",
    "ok": true,
    "n": 0,
@@ -9703,6 +9706,13 @@
   },
   {
    "t": "10-23 02:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-23 02:10",
    "ok": true,
    "n": 0,
    "ids": [],
