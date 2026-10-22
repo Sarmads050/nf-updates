@@ -1517,7 +1517,10 @@
   "381f54cbb2ab4fd0": 1792644079.6534328,
   "3fe6c6c87ab93661": 1792644079.6536713,
   "38cee8f4791d17c7": 1792645852.295098,
-  "1b9aaeb9d8734372": 1792645879.530092
+  "1b9aaeb9d8734372": 1792645879.530092,
+  "46d5b39fc829cd28": 1792646457.1568244,
+  "a104348049ed1848": 1792646457.1568267,
+  "02cef60ffff87135": 1792646457.1570473
  },
  "pending": {
   "a28b458c923f2145": {
@@ -2125,7 +2128,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-22 10:11",
+  "time": "2026-10-22 10:21",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7106,9 +7109,9 @@
  },
  "ai_usage": {
   "date": "2026-10-22",
-  "ok": 84,
+  "ok": 86,
   "fail": 0,
-  "limit": 142
+  "limit": 146
  },
  "posted_heads": [
   {
@@ -7433,7 +7436,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-22 10:11",
+  "time": "2026-10-22 10:21",
   "steps": []
  },
  "roundup_am": "2026-10-22",
@@ -7536,12 +7539,12 @@
  },
  "article_diag": {
   "date": "2026-10-22",
-  "tried": 12,
-  "decoded": 12,
-  "text": 11,
-  "story": 10
+  "tried": 13,
+  "decoded": 13,
+  "text": 12,
+  "story": 11
  },
- "ai_last_error": "10:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "10:20 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-22",
   "models": [
@@ -7582,7 +7585,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-22",
-   "ok": 65,
+   "ok": 66,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7590,7 +7593,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-22",
-   "ok": 59,
+   "ok": 60,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -7598,7 +7601,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-22",
-   "ok": 61,
+   "ok": 62,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -7606,14 +7609,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7621,21 +7624,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-22",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8380,8 +8383,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 5,
-  "old": 4,
+  "found": 10,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9474,13 +9477,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-22 03:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-22 04:00",
    "ok": true,
    "n": 0,
@@ -9748,6 +9744,13 @@
   },
   {
    "t": "10-22 10:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-22 10:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -16134,6 +16137,11 @@
    "t": "10-22 09:11",
    "new": "پاڪستان ۾ اڄ سون جي اگهه ۾ تبديلي",
    "old": "پاڪستان ۾ سون جي قيمت ۾ گهٽتائي"
+  },
+  {
+   "t": "10-22 10:20",
+   "new": "ملڪ ۾ دواسازي جي برآمدات ۾ گهٽتائي رڪارڊ",
+   "old": "افغان تجارت معطل ٿيڻ سبب فارما برآمدات متاثر"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -16148,5 +16156,6 @@
  },
  "rv_seq": 60,
  "approve_next": 1792613178.2342854,
- "approve_last": 1792613141.2857459
+ "approve_last": 1792613141.2857459,
+ "_dup": true
 }
