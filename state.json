@@ -1,14 +1,5 @@
 {
  "seen": {
-  "8e93794c0ff0206f": 1792048857.6964152,
-  "f24c9fc9bc9ee60e": 1792048857.696419,
-  "612e5712ad91848a": 1792048857.6964204,
-  "0cdc08d2e7fa12b2": 1792048857.6964214,
-  "cc966e606c810da9": 1792048857.696422,
-  "9c23d29bf87ae137": 1792048857.6964228,
-  "d2f7c50bd6ddd412": 1792048857.696424,
-  "13d2cba9839b44e3": 1792048857.696425,
-  "8dd5aa22c48efdbd": 1792048857.6967666,
   "79778aa07863c1ba": 1792050050.0690799,
   "a4d394f4281d614d": 1792050050.0690823,
   "97808be009ae33d6": 1792050050.0690842,
@@ -2113,7 +2104,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-22 12:26",
+  "time": "2026-10-22 12:30",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7457,7 +7448,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-22 12:26",
+  "time": "2026-10-22 12:30",
   "steps": []
  },
  "roundup_am": "2026-10-22",
@@ -7606,7 +7597,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-22",
-   "ok": 81,
+   "ok": 82,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7614,7 +7605,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-22",
-   "ok": 73,
+   "ok": 74,
    "fail": 9,
    "items": 10,
    "fail_streak": 0,
@@ -7622,7 +7613,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-22",
-   "ok": 76,
+   "ok": 77,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -7630,14 +7621,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7645,21 +7636,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-22",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8404,8 +8395,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 10,
-  "old": 10,
+  "found": 14,
+  "old": 14,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9479,7 +9470,8 @@
  "reels": {
   "date": "2026-10-22",
   "done": [
-   "09:30"
+   "09:30",
+   "12:30"
   ]
  },
  "kawish_queue": [],
@@ -9489,13 +9481,6 @@
   "last": 1792522427.1970737
  },
  "tg_debug": [
-  {
-   "t": "10-22 06:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-22 06:30",
    "ok": true,
@@ -9768,6 +9753,13 @@
   },
   {
    "t": "10-22 12:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-22 12:30",
    "ok": true,
    "n": 0,
    "ids": [],
