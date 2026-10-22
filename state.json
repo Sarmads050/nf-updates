@@ -1,12 +1,5 @@
 {
  "seen": {
-  "c34f190ea5f51aac": 1792065074.6709027,
-  "9e5e845c6619c0c2": 1792065074.6709063,
-  "74bb3ecd7c0b2a3d": 1792065074.6709082,
-  "774b55b48fdc9d4f": 1792065074.6709092,
-  "e39f0effe3f2134e": 1792065074.6709104,
-  "846cb870c8de5f5b": 1792065074.6709116,
-  "11c7db2bdfc8085b": 1792065074.6711965,
   "e57bd4fdd68e67dd": 1792066855.0890677,
   "91ff057d73dab058": 1792066855.0893798,
   "0bc14f795ccc894b": 1792068658.494955,
@@ -1519,7 +1512,8 @@
   "706c1b812b833f70": 1792669864.1469615,
   "f5bb9d72ab19d14a": 1792669874.2476883,
   "415d69ffa84557f4": 1792669874.247691,
-  "956b7fedbc3d63f0": 1792669874.2478259
+  "956b7fedbc3d63f0": 1792669874.2478259,
+  "45576458cf651115": 1792670475.3842263
  },
  "pending": {
   "fc2ad102a608847b": {
@@ -1560,7 +1554,17 @@
   }
  },
  "queue": [],
- "jobs": [],
+ "jobs": [
+  {
+   "key": "45576458cf651115",
+   "title": "Sindh Plans $40 Million Development Programme to Boost Rural Growth and Youth Jobs",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRUt2NzFWV0lNWGlPZ3JNUE0tTVdvZ1FmN2Y1bVV5U2lDWkNETGlDOWxhWldWTzM3LTlmalY1eGwzd1pzWTlla2lEc1F5dktENGJ2LU5xczFZcjVBajdTOW9ZTTNoUU0tcWJKS3V0bnpCdHZSUVdMbk04cHE1ZTRhU2hRZFR3Yl9Uc1I1OGp1eWxGaC1PTnVBOHhwMGVhYlFhakJnTWxkQmRwTk03MzRmWHR3dE5kdXNZZ0FwMHdmdWxZY2R4TlFv?oc=5",
+   "domain": "english.aaj.tv",
+   "source": "Aaj English TV",
+   "ts": 1792627510,
+   "local": false
+  }
+ ],
  "tg_offset": 92058780,
  "daily": {
   "date": "2026-10-22",
@@ -1971,7 +1975,7 @@
   "11": "2026-10-18",
   "16": "2026-10-18",
   "21": "2026-10-17",
-  "17": "2026-10-21",
+  "17": "2026-10-22",
   "10": "2026-10-22"
  },
  "share_done": [
@@ -2063,7 +2067,11 @@
   "1444130002106066_122112043545503839",
   "1444130002106066_122112030207503839",
   "1444130002106066_122112007689503839",
-  "1444130002106066_122112002121503839"
+  "1444130002106066_122112002121503839",
+  "1444130002106066_122112184881503839",
+  "1444130002106066_122112178851503839",
+  "1444130002106066_122112172077503839",
+  "1444130002106066_122112163923503839"
  ],
  "group_index": 0,
  "token_check": {
@@ -2098,7 +2106,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-22 16:53",
+  "time": "2026-10-22 17:01",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7526,7 +7534,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-22 16:53",
+  "time": "2026-10-22 17:01",
   "steps": []
  },
  "roundup_am": "2026-10-22",
@@ -7548,33 +7556,33 @@
   },
   "5": {
    "date": "2026-10-22",
-   "count": 1,
-   "last": 1792645426.6282136
+   "count": 3,
+   "last": 1792670478.5272298
   },
   "10": {
    "date": "2026-10-22",
-   "count": 1,
-   "last": 1792645426.628221
+   "count": 3,
+   "last": 1792670478.5272336
   },
   "13": {
    "date": "2026-10-22",
-   "count": 1,
-   "last": 1792645426.6282275
+   "count": 3,
+   "last": 1792670478.5272372
   },
   "4": {
-   "date": "2026-10-21",
-   "count": 3,
-   "last": 1792595060.384737
+   "date": "2026-10-22",
+   "count": 2,
+   "last": 1792670478.5273643
   },
   "2": {
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "count": 2,
-   "last": 1792584204.4496934
+   "last": 1792670478.5273678
   },
   "3": {
-   "date": "2026-10-21",
+   "date": "2026-10-22",
    "count": 2,
-   "last": 1792584204.4496968
+   "last": 1792670478.5273714
   },
   "6": {
    "date": "2026-10-21",
@@ -7675,7 +7683,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-22",
-   "ok": 110,
+   "ok": 111,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7683,7 +7691,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-22",
-   "ok": 103,
+   "ok": 104,
    "fail": 10,
    "items": 10,
    "fail_streak": 0,
@@ -7691,7 +7699,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-22",
-   "ok": 106,
+   "ok": 107,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -7699,14 +7707,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7714,21 +7722,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-22",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8442,8 +8450,8 @@
    "20-10-2026",
    "21-10-2026"
   ],
-  "last_try": 1792668054.6437414,
-  "last_try_note": "16:20 abhi nahi mila",
+  "last_try": 1792670475.3867433,
+  "last_try_note": "17:01 abhi nahi mila",
   "paper": {
    "date": "21-10-2026",
    "read": [
@@ -8472,14 +8480,14 @@
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 3,
-  "found": 12,
-  "old": 12,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-22 16",
+ "report_hour": "2026-10-22 17",
  "kawish_upload_times": {
   "_date": "2026-10-22",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9606,13 +9614,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-22 11:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-22 11:10",
    "ok": true,
    "n": 0,
@@ -9886,6 +9887,13 @@
   },
   {
    "t": "10-22 16:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-22 17:00",
    "ok": true,
    "n": 0,
    "ids": [],
