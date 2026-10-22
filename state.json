@@ -1,9 +1,5 @@
 {
  "seen": {
-  "887801bfb71bbdd0": 1792047674.9374638,
-  "4095f8ae49f54878": 1792047674.937467,
-  "02ca541a131de972": 1792047674.937468,
-  "aeadc7dafb443935": 1792047674.9378586,
   "8e93794c0ff0206f": 1792048857.6964152,
   "f24c9fc9bc9ee60e": 1792048857.696419,
   "612e5712ad91848a": 1792048857.6964204,
@@ -1518,7 +1514,10 @@
   "2eb3f0b502da6fa9": 1792650679.8515315,
   "d34142517e52b5db": 1792650683.8613832,
   "f1f9d429e1217c4b": 1792650683.8615053,
-  "c849a0b373658e6d": 1792652515.2933025
+  "c849a0b373658e6d": 1792652515.2933025,
+  "f4b5b7e453f2c90a": 1792653069.4095492,
+  "362dd33e99227070": 1792653069.4095516,
+  "dff529afe727f9e7": 1792653081.891541
  },
  "pending": {
   "a28b458c923f2145": {
@@ -1597,7 +1596,7 @@
   "last_week": "",
   "last_check": "2026-10-22"
  },
- "gemini_model": "gemini-3.7-flash",
+ "gemini_model": "gemini-flash-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2114,7 +2113,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-22 12:01",
+  "time": "2026-10-22 12:11",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7125,7 +7124,7 @@
  },
  "ai_usage": {
   "date": "2026-10-22",
-  "ok": 108,
+  "ok": 110,
   "fail": 2,
   "limit": 182
  },
@@ -7452,7 +7451,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-22 12:01",
+  "time": "2026-10-22 12:11",
   "steps": []
  },
  "roundup_am": "2026-10-22",
@@ -7601,7 +7600,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-22",
-   "ok": 79,
+   "ok": 80,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7609,7 +7608,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-22",
-   "ok": 71,
+   "ok": 72,
    "fail": 9,
    "items": 10,
    "fail_streak": 0,
@@ -7617,7 +7616,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-22",
-   "ok": 74,
+   "ok": 75,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -7625,14 +7624,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7640,21 +7639,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-22",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8399,8 +8398,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8425,9 +8424,9 @@
  "sindh_stream": {
   "date": "2026-10-22",
   "count": 5,
-  "last": 1792648883.951005,
-  "city_i": 18,
-  "dry": 1792652481.0399063
+  "last": 1792653061.2121894,
+  "city_i": 22,
+  "dry": 1792653069.4095533
  },
  "gemini_day_dead": {
   "day": "2026-10-22",
@@ -9489,13 +9488,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-22 06:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-22 06:10",
    "ok": true,
    "n": 0,
@@ -9767,6 +9759,13 @@
   },
   {
    "t": "10-22 12:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-22 12:10",
    "ok": true,
    "n": 0,
    "ids": [],
