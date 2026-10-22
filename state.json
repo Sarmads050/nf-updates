@@ -1,10 +1,5 @@
 {
  "seen": {
-  "58012d053d7dd772": 1792101054.1030436,
-  "dd6aecd2fea64428": 1792101054.1030467,
-  "ee6a2e7794adea5e": 1792101054.1030478,
-  "137a78a6cccffbd6": 1792101054.1030488,
-  "34658ee283b4ab6c": 1792101054.1034982,
   "d60e409a2752302d": 1792103457.2754045,
   "a10c153501e0eebc": 1792103457.2754076,
   "37d0ccf6ba39e1e0": 1792103457.2754087,
@@ -1523,7 +1518,11 @@
   "de1444255ad0e04b": 1792702897.9724886,
   "3e8b60bf20cab899": 1792703458.2311647,
   "520b457f4c6dfc4d": 1792705869.357036,
-  "5b5d90edba230db2": 1792705869.3571866
+  "5b5d90edba230db2": 1792705869.3571866,
+  "c82d70f0a609de90": 1792706492.085147,
+  "4b333325a5ebc170": 1792706498.1575494,
+  "f4965c3bdbfe2bb0": 1792706498.1575527,
+  "a308e937d16bf3f1": 1792706498.157818
  },
  "pending": {
   "427f3f23396d3ae3": {
@@ -2275,7 +2274,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-23 02:51",
+  "time": "2026-10-23 03:01",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7388,9 +7387,9 @@
  },
  "ai_usage": {
   "date": "2026-10-23",
-  "ok": 24,
+  "ok": 27,
   "fail": 0,
-  "limit": 40
+  "limit": 46
  },
  "posted_heads": [
   {
@@ -7715,7 +7714,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-23 02:51",
+  "time": "2026-10-23 03:01",
   "steps": []
  },
  "roundup_am": "2026-10-22",
@@ -7818,12 +7817,12 @@
  },
  "article_diag": {
   "date": "2026-10-23",
-  "tried": 5,
-  "decoded": 5,
-  "text": 1,
-  "story": 1
+  "tried": 6,
+  "decoded": 6,
+  "text": 2,
+  "story": 2
  },
- "ai_last_error": "02:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "03:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-23",
   "models": [
@@ -7864,7 +7863,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-23",
-   "ok": 18,
+   "ok": 19,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7872,7 +7871,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-23",
-   "ok": 18,
+   "ok": 19,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7880,7 +7879,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-23",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7888,14 +7887,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7903,21 +7902,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-23",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8304,13 +8303,13 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 10,
-  "old": 10,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-23 02",
+ "report_hour": "2026-10-23 03",
  "kawish_upload_times": {
   "_date": "2026-10-23",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8332,8 +8331,8 @@
   "date": "2026-10-23",
   "count": 1,
   "last": 1792695684.168352,
-  "city_i": 4,
-  "dry": 1792705860.204123
+  "city_i": 8,
+  "dry": 1792706483.4193552
  },
  "gemini_day_dead": {
   "day": "2026-10-22",
@@ -9396,15 +9395,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-22 20:40",
-   "ok": true,
-   "n": 1,
-   "ids": [
-    92058781
-   ],
-   "err": null
-  },
-  {
    "t": "10-22 20:43",
    "ok": true,
    "n": 0,
@@ -9672,6 +9662,13 @@
   },
   {
    "t": "10-23 02:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-23 03:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -16208,6 +16205,11 @@
    "t": "10-23 02:51",
    "new": "منداس جو انگلينڊ خلاف سوڀ بعد سنڌ جو جذبو ساراهيو",
    "old": "سريلنڪا انگلينڊ خلاف 430 رنسن جو هدف حاصل ڪري ورتو"
+  },
+  {
+   "t": "10-23 03:01",
+   "new": "پاڪستان ۾ سوني اگهن ۾ وڏي گهٽتائي",
+   "old": "نوشهروفيروز جو اڄ | 22-10-2026"
   }
  ],
  "tg_bot_id": 8610497682,
