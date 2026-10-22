@@ -1,10 +1,5 @@
 {
  "seen": {
-  "b24190d8757b7dcf": 1792078272.9514427,
-  "41609ea506d0d28d": 1792078272.9514468,
-  "10589e81aa64512f": 1792078272.9514477,
-  "d9adc9da069c0746": 1792078272.951449,
-  "fa182338ecee1c6d": 1792078272.9525063,
   "8778a30b15a1e910": 1792079451.8116329,
   "a37ef09e4b434625": 1792080698.2096498,
   "95185a5c81c8ef51": 1792080698.2096527,
@@ -1515,7 +1510,8 @@
   "68f0af977f6799c3": 1792679492.159452,
   "8ad7ca7120b6d6e2": 1792679492.1594527,
   "b4bcab36752af206": 1792679492.159454,
-  "73391a3a0c04de3f": 1792679492.159456
+  "73391a3a0c04de3f": 1792679492.159456,
+  "a2b3a31db114289b": 1792683645.7216568
  },
  "pending": {
   "427f3f23396d3ae3": {
@@ -1699,7 +1695,7 @@
    "local": false
   }
  ],
- "tg_offset": 92058781,
+ "tg_offset": 92058782,
  "daily": {
   "date": "2026-10-22",
   "count": 7
@@ -1712,7 +1708,7 @@
   "last_week": "",
   "last_check": "2026-10-22"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.5-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1759,7 +1755,8 @@
    "ڪيئو تي روسي ميزائل حملا، ڇهه ڄڻا زخمي",
    "ڪشمور جي مال پڙي ۾ هٿياربندن جي فائرنگ، مال واپاري قتل",
    "راڻيپور ۾ ٽائون ڪاميٽي جي ڪلارڪ تي چاڪو سان حملو",
-   "شهيد بشير خان قريشي قتل ڪيس جي پٽيشن تي ٻڌڻي ملتوي"
+   "شهيد بشير خان قريشي قتل ڪيس جي پٽيشن تي ٻڌڻي ملتوي",
+   "23K views · 1.9K reactions | جکراڻي خاندان بابت وڏي خبر! ڏوھ ڏنڊ؟ بلاول ۽ فريال جي مداخلت؟ #JakhraniFamily #Ja"
   ]
  },
  "last_daily": "2026-10-22",
@@ -1789,18 +1786,8 @@
    "08f2da05ad9cadf9"
   ]
  },
- "last_post_id": "1444130002106066_122112302703503839",
+ "last_post_id": "1444130002106066_122112305535503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122112002121503839",
-   "title": "حڪومت ملڪ ۾ ڪڻڪ جي دستيابي ۽ ان جي قيمتن ۾ استحڪام کي يقيني بڻائڻ لاءِ قدم کڻي رهي آهي",
-   "t": 1792636329.721036,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122112002121503839"
-  },
   {
    "id": "1444130002106066_122112007689503839",
    "title": "افغان تجارت معطل ٿيڻ سبب پاڪستان جون فارماسيٽيڪل برآمدات سخت متاثر ٿي ويون آهن، جنهن سان",
@@ -2108,6 +2095,15 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122112302703503839"
+  },
+  {
+   "id": "1444130002106066_122112305535503839",
+   "title": "23K views · 1.9K reactions | جکراڻي خاندان بابت وڏي خبر!",
+   "t": 1792683788.2482126,
+   "tags": [
+    "local"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122112305535503839"
   }
  ],
  "share_sent": {
@@ -2250,7 +2246,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-22 20:32",
+  "time": "2026-10-22 20:43",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2265,8 +2261,8 @@
  },
  "all_posts": {
   "date": "2026-10-22",
-  "count": 41,
-  "last": 1792683145.3809857
+  "count": 42,
+  "last": 1792683784.006989
  },
  "perf": {
   "posts": [
@@ -7363,9 +7359,9 @@
  },
  "ai_usage": {
   "date": "2026-10-22",
-  "ok": 236,
+  "ok": 238,
   "fail": 8,
-  "limit": 340
+  "limit": 342
  },
  "posted_heads": [
   {
@@ -7710,7 +7706,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-22 20:32",
+  "time": "2026-10-22 20:43",
   "steps": []
  },
  "roundup_am": "2026-10-22",
@@ -7818,7 +7814,7 @@
   "text": 22,
   "story": 18
  },
- "ai_last_error": "20:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "20:40 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-22",
   "models": [
@@ -7832,9 +7828,9 @@
  },
  "img_diag": {
   "date": "2026-10-22",
-  "tried": 38,
+  "tried": 39,
   "gemini": 0,
-  "pollinations": 25,
+  "pollinations": 26,
   "skip": 7,
   "fail": 15,
   "last_note": "pollinations 402 {\"status\":402,\"success\":false,\"error\":{\"code\":\"FREE_LIMIT\",\"message\":\"Free limit reached: 1 image every 45 seconds per I",
@@ -7859,7 +7855,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-22",
-   "ok": 133,
+   "ok": 134,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7867,7 +7863,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-22",
-   "ok": 126,
+   "ok": 127,
    "fail": 10,
    "items": 10,
    "fail_streak": 0,
@@ -7875,7 +7871,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-22",
-   "ok": 129,
+   "ok": 130,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -7883,14 +7879,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 136,
+   "ok": 137,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 136,
+   "ok": 137,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7898,21 +7894,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-22",
-   "ok": 136,
+   "ok": 137,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-22",
-   "ok": 136,
+   "ok": 137,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-22",
-   "ok": 136,
+   "ok": 137,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8298,9 +8294,9 @@
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 2,
-  "found": 6,
-  "old": 6,
+  "posted": 3,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8389,7 +8385,8 @@
   92058777,
   92058778,
   92058779,
-  92058780
+  92058780,
+  92058781
  ],
  "reel_pool": [
   {
@@ -9455,13 +9452,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-22 14:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-22 14:40",
    "ok": true,
    "n": 0,
@@ -9737,69 +9727,19 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "10-22 20:40",
+   "ok": true,
+   "n": 1,
+   "ids": [
+    92058781
+   ],
+   "err": null
   }
  ],
  "recent_seeded": "2026-10-22",
  "recent_posts": [
-  {
-   "t": 1792510411,
-   "h": "پاڻيپوتي ته خبر پختونخوا جو درد وزير ڪتي آهي! ايڪسٽني",
-   "tt": [
-    "اهي",
-    "ايڪسٽني",
-    "خبر",
-    "درد",
-    "وزير",
-    "پاڻيپوتي",
-    "پختونخوا",
-    "ڪتي"
-   ],
-   "bt": [
-    "اسان",
-    "اسمبلي",
-    "اصف",
-    "اهن",
-    "اهي",
-    "ايڪسٽني",
-    "بنيادي",
-    "بيان",
-    "خان",
-    "خبر",
-    "خلاف",
-    "خواجه",
-    "خيبرپختونخوا",
-    "درد",
-    "شفاف",
-    "صاف",
-    "ضرورتن",
-    "طور",
-    "عام",
-    "عمران",
-    "عوام",
-    "فيصلو",
-    "قومي",
-    "منصفانه",
-    "مين",
-    "ميگر",
-    "نئين",
-    "نتيجي",
-    "هتان",
-    "واڌ",
-    "وزير",
-    "وفاقي",
-    "پاڻيپوتي",
-    "پختونخوا",
-    "پيش",
-    "چوندڙن",
-    "چيئرو",
-    "ڏاڍين",
-    "ڪتي",
-    "ڪولڻ",
-    "ڪوٺائي",
-    "ڪيسن",
-    "گهرجي"
-   ]
-  },
   {
    "t": 1792511658,
    "h": "سينيٽرن پاران نادرا ۾ پاسپورٽ وين جي خبر، سينيٽ ۾ ماني پاسپورٽ ايڪٽ 1974 ۾ ترميم",
@@ -16164,6 +16104,56 @@
     "پوليس",
     "ڪامبينا",
     "ڪراچي"
+   ]
+  },
+  {
+   "t": 1792683788,
+   "h": "23K views · 1.9K reactions | جکراڻي خاندان بابت وڏي خبر!",
+   "b": "ڏوھ ڏنڊ؟ بلاول ۽ فريال جي مداخلت؟ #JakhraniFamily #JakhraniTribe #BilawalBhutto #FaryalTalpur #PPP",
+   "tt": [
+    "#1.9",
+    "#23",
+    "23k",
+    "reactions",
+    "views",
+    "بابت",
+    "جڪراڻي",
+    "خاندان",
+    "خبر",
+    "وڏي"
+   ],
+   "bt": [
+    "#1.9",
+    "#23",
+    "23k",
+    "bilawalbhutto",
+    "breakingnews",
+    "crimeandjustice",
+    "factnowsaraiki",
+    "factnowsindhi",
+    "factnowurdu",
+    "faryaltalpur",
+    "jakhranifamily",
+    "jakhranitribe",
+    "pakistannews",
+    "politicalintervention",
+    "ppp",
+    "reactions",
+    "sadamkolachi",
+    "sindhnews",
+    "sindhpolitics",
+    "tribaldispute",
+    "views",
+    "بابت",
+    "بلاول",
+    "جڪراڻي",
+    "خاندان",
+    "خبر",
+    "فريال",
+    "مداخلت؟",
+    "وڏي",
+    "ڏنڊ؟",
+    "ڏوھ"
    ]
   }
  ],
