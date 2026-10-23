@@ -1,8 +1,5 @@
 {
  "seen": {
-  "bf812395557e7b75": 1792120856.7381487,
-  "e00f3c222a51d230": 1792120856.7381525,
-  "32fba18821718ede": 1792120856.7386563,
   "00086aefdd9a3c78": 1792122057.4256787,
   "41a0e5cfadbfc2d8": 1792124445.1966915,
   "4363e60467ce8825": 1792124452.9064054,
@@ -2257,7 +2254,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-23 08:21",
+  "time": "2026-10-23 08:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7749,7 +7746,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-23 08:21",
+  "time": "2026-10-23 08:31",
   "steps": []
  },
  "roundup_am": "2026-10-23",
@@ -7898,7 +7895,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-23",
-   "ok": 49,
+   "ok": 50,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -7906,15 +7903,15 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-23",
-   "ok": 49,
+   "ok": 50,
    "fail": 5,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 403
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-23",
-   "ok": 51,
+   "ok": 52,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7922,14 +7919,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7937,21 +7934,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-23",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8338,8 +8335,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8366,8 +8363,8 @@
   "date": "2026-10-23",
   "count": 1,
   "last": 1792695684.168352,
-  "city_i": 8,
-  "dry": 1792725666.7678905
+  "city_i": 12,
+  "dry": 1792726276.4768546
  },
  "gemini_day_dead": {
   "day": "2026-10-22",
@@ -9430,13 +9427,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-23 02:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-23 02:20",
    "ok": true,
    "n": 0,
@@ -9704,6 +9694,13 @@
   },
   {
    "t": "10-23 08:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-23 08:30",
    "ok": true,
    "n": 0,
    "ids": [],
