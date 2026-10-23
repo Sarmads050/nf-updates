@@ -1,7 +1,5 @@
 {
  "seen": {
-  "07ed9aed30f7f21f": 1792131656.1933546,
-  "ec07a41cad64c7f2": 1792131656.1933572,
   "5736e09748176dd4": 1792132260.2963881,
   "d961388eab47d25a": 1792132260.2966452,
   "cb5421ea7c903d85": 1792133464.2963438,
@@ -1518,7 +1516,14 @@
   "cf92ce9af593aa02": 1792735265.537101,
   "393b8431df75e20a": 1792736463.5132453,
   "ed3119b9a131bf4b": 1792736471.11721,
-  "0b3232feed6b3eac": 1792736471.117213
+  "0b3232feed6b3eac": 1792736471.117213,
+  "c0c7b507dd3b9e67": 1792737074.255172,
+  "a760c30db99a84ea": 1792737074.2551756,
+  "ec7ee49783a52c8e": 1792737079.1959155,
+  "be539201950c67c7": 1792737079.1959176,
+  "80d2655c1fbef74d": 1792737079.1959183,
+  "957f930ecc43f042": 1792737079.1959193,
+  "e73ff128900d0928": 1792737079.196129
  },
  "pending": {
   "427f3f23396d3ae3": {
@@ -2254,7 +2259,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-23 11:21",
+  "time": "2026-10-23 11:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7449,9 +7454,9 @@
  },
  "ai_usage": {
   "date": "2026-10-23",
-  "ok": 108,
+  "ok": 114,
   "fail": 0,
-  "limit": 176
+  "limit": 188
  },
  "posted_heads": [
   {
@@ -7776,7 +7781,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-23 11:21",
+  "time": "2026-10-23 11:31",
   "steps": []
  },
  "roundup_am": "2026-10-23",
@@ -7879,12 +7884,12 @@
  },
  "article_diag": {
   "date": "2026-10-23",
-  "tried": 16,
-  "decoded": 16,
-  "text": 7,
+  "tried": 17,
+  "decoded": 17,
+  "text": 8,
   "story": 7
  },
- "ai_last_error": "11:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "11:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-23",
   "models": [
@@ -7925,7 +7930,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-23",
-   "ok": 69,
+   "ok": 70,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -7933,7 +7938,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-23",
-   "ok": 70,
+   "ok": 71,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -7941,7 +7946,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-23",
-   "ok": 72,
+   "ok": 73,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7949,14 +7954,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7964,21 +7969,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-23",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8365,8 +8370,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9468,13 +9473,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-23 05:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-23 05:40",
    "ok": true,
    "n": 0,
@@ -9744,6 +9742,13 @@
   },
   {
    "t": "10-23 11:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-23 11:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -16299,6 +16304,11 @@
    "t": "10-23 08:21",
    "new": "پاڪستان ۾ سوني جي اگهن ۾ واڌ",
    "old": "سنڌ پبلڪ سروس ڪميشن جي سي سي اي 2026ع اسڪريننگ ٽيسٽ ملتوي"
+  },
+  {
+   "t": "10-23 11:31",
+   "new": "ڪراچي ۾ ايل پي جي اگهه آسمان سان پئي ڳالھيون ڪري",
+   "old": "ڪراچي ۾ ايل پي جي قيمت وڌي وئي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -16321,5 +16331,6 @@
  },
  "rv_seq": 79,
  "approve_next": 1792729578.153263,
- "approve_last": 1792729506.296606
+ "approve_last": 1792729506.296606,
+ "_dup": true
 }
