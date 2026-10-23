@@ -1,0 +1,46 @@
+[
+ {
+  "title": "ڪڻڪ جو پيداواري خرچ 3761 رپيا في مڻ تي ويو",
+  "image": true
+ },
+ {
+  "checks": [
+   {
+    "try": 1,
+    "subject": "wheat crop and jute sacks",
+    "verdict": false,
+    "desc": {
+     "shows": "This picture shows an indoor space, potentially a storage area or granary, with light coming through the windows, where the wheat crop and jute sacks would typically be handled or stored."
+    }
+   },
+   {
+    "try": 2,
+    "subject": "wheat crop and jute sacks",
+    "verdict": false,
+    "desc": {
+     "shows": "A woman in a white dress stands in a large hall filled with piles of harvested wheat crop and jute sacks on the floor."
+    }
+   },
+   {
+    "try": 3,
+    "subject": "wheat crop and jute sacks",
+    "verdict": true,
+    "desc": {
+     "shows": "The image shows rows of stacked jute sacks in a dim, dusty warehouse, likely used for storing harvested wheat crop."
+    }
+   }
+  ]
+ },
+ {
+  "img_diag": {
+   "date": "2026-10-23",
+   "tried": 14,
+   "gemini": 0,
+   "pollinations": 13,
+   "skip": 0,
+   "fail": 2,
+   "last_note": "wheat crop and jute sacks",
+   "mismatch": 85
+  }
+ }
+]
