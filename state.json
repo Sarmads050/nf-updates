@@ -1512,7 +1512,10 @@
   "1bb42663e1e48c71": 1792726869.6683671,
   "08e087b08d302ac3": 1792726869.6683674,
   "7865e41b3aff71b3": 1792726869.6683674,
-  "620f909bc564748a": 1792726869.6684575
+  "620f909bc564748a": 1792726869.6684575,
+  "1223b7c59794d089": 1792728666.647936,
+  "4d966a04753f3a44": 1792728672.532002,
+  "9194a9e26012d7c1": 1792728672.532104
  },
  "pending": {
   "427f3f23396d3ae3": {
@@ -1788,20 +1791,8 @@
    "08f2da05ad9cadf9"
   ]
  },
- "last_post_id": "1444130002106066_122112513027503839",
+ "last_post_id": "1444130002106066_122112515235503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122112138213503839",
-   "title": "گمس انتظاميا پاران ٻئي هنڌ نوڪري ڪرڻ تي ڊاڪٽر جو ڪانٽريڪٽ ختم",
-   "t": 1792663326.8370345,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122112138213503839"
-  },
   {
    "id": "1444130002106066_122112145707503839",
    "title": "شاهه عبداللطيف يونيورسٽي ۾ مبينا غيرقانوني ڀرتين جي جاچ شروع",
@@ -2110,6 +2101,16 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122112513027503839"
+  },
+  {
+   "id": "1444130002106066_122112515235503839",
+   "title": "ملڪ ۾ اڄ سون جي اگهن ۾ واڌ ۽ گهٽتائي رڪارڊ ڪئي وئي آهي، جنهن کان پوءِ نوان اگهه جاري ڪيا",
+   "t": 1792728706.7070227,
+   "tags": [
+    "business",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122112515235503839"
   }
  ],
  "share_sent": {
@@ -2252,7 +2253,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-23 09:01",
+  "time": "2026-10-23 09:11",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2267,8 +2268,8 @@
  },
  "all_posts": {
   "date": "2026-10-23",
-  "count": 13,
-  "last": 1792728084.6772354
+  "count": 14,
+  "last": 1792728700.7714932
  },
  "perf": {
   "posts": [
@@ -4647,13 +4648,19 @@
     "sec": "public_news",
     "cat": "health",
     "t": 1792726940
+   },
+   {
+    "id": "1444130002106066_122112515235503839",
+    "sec": "public_news",
+    "cat": "dollar_gold_business",
+    "t": 1792728706
    }
   ]
  },
  "public_news": {
   "date": "2026-10-23",
-  "count": 5,
-  "last": 1792726940.7530684
+  "count": 6,
+  "last": 1792728706.7070076
  },
  "trends": {
   "last": 1792728092.562807,
@@ -7423,15 +7430,11 @@
  },
  "ai_usage": {
   "date": "2026-10-23",
-  "ok": 78,
+  "ok": 84,
   "fail": 0,
-  "limit": 128
+  "limit": 138
  },
  "posted_heads": [
-  {
-   "h": "ايڇ دي اِي سکر وائيس چانسلر جو شڪار کين ان جو سپر سني سيشن جون اين او سيءَ سيٽل ڪري ڇڏيو",
-   "t": 1792517548
-  },
   {
    "h": "دنيا جي 71 ملڪن ۽ 21647 پاڪستاني قيد پڃاڻ جوار",
    "t": 1792518723
@@ -7747,10 +7750,14 @@
   {
    "h": "Milk Adulteration Scandal | Chemicals in Milk | Public Health Concerns | TARGET EP#640 PROMO",
    "t": 1792726940
+  },
+  {
+   "h": "Gold price in Pakistan for today, October 23, 2026",
+   "t": 1792728706
   }
  ],
  "last_errors": {
-  "time": "2026-10-23 09:01",
+  "time": "2026-10-23 09:11",
   "steps": []
  },
  "roundup_am": "2026-10-23",
@@ -7853,12 +7860,12 @@
  },
  "article_diag": {
   "date": "2026-10-23",
-  "tried": 14,
-  "decoded": 14,
+  "tried": 15,
+  "decoded": 15,
   "text": 7,
   "story": 7
  },
- "ai_last_error": "09:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "09:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-23",
   "models": [
@@ -7872,9 +7879,9 @@
  },
  "img_diag": {
   "date": "2026-10-23",
-  "tried": 11,
+  "tried": 12,
   "gemini": 0,
-  "pollinations": 10,
+  "pollinations": 11,
   "skip": 0,
   "fail": 2,
   "last_note": "milk containers and chemical bottles",
@@ -7899,7 +7906,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-23",
-   "ok": 53,
+   "ok": 54,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -7907,7 +7914,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-23",
-   "ok": 53,
+   "ok": 54,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -7915,7 +7922,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-23",
-   "ok": 55,
+   "ok": 56,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7923,14 +7930,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7938,21 +7945,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-23",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8335,12 +8342,12 @@
   "date": "2026-10-23",
   "district": 0,
   "sindh": 2,
-  "pakistan": 9
+  "pakistan": 10
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 1,
+  "old": 1,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8367,8 +8374,8 @@
   "date": "2026-10-23",
   "count": 1,
   "last": 1792695684.168352,
-  "city_i": 16,
-  "dry": 1792726857.7294755
+  "city_i": 20,
+  "dry": 1792728657.4427638
  },
  "gemini_day_dead": {
   "day": "2026-10-22",
@@ -9409,6 +9416,14 @@
    "t": 1792726940,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "1d0982730d14eec3",
+   "h": "اڄ پاڪستان ۾ سون جي اگهه ۾ تبديلي",
+   "x": "ملڪ ۾ اڄ سون جي اگهن ۾ واڌ ۽ گهٽتائي رڪارڊ ڪئي وئي آهي، جنهن کان پوءِ نوان اگهه جاري ڪيا ويا آهن!",
+   "t": 1792728706,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9422,13 +9437,6 @@
   "last": 1792687371.2764268
  },
  "tg_debug": [
-  {
-   "t": "10-23 02:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-23 03:00",
    "ok": true,
@@ -9697,6 +9705,13 @@
   },
   {
    "t": "10-23 09:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-23 09:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -16126,6 +16141,34 @@
     "سنڌ",
     "نوشهروفيروز",
     "نوڪريون"
+   ]
+  },
+  {
+   "t": 1792728706,
+   "h": "اڄ پاڪستان ۾ سون جي اگهه ۾ تبديلي",
+   "b": "ملڪ ۾ اڄ سون جي اگهن ۾ واڌ ۽ گهٽتائي رڪارڊ ڪئي وئي آهي، جنهن کان پوءِ نوان اگهه جاري ڪيا ويا آهن!",
+   "tt": [
+    "اگهه",
+    "تبديلي",
+    "سون",
+    "پاڪستان"
+   ],
+   "bt": [
+    "اهن",
+    "اهي،",
+    "اگهن",
+    "اگهه",
+    "تبديلي",
+    "جاري",
+    "رڪارڊ",
+    "سون",
+    "ملڪ",
+    "نوان",
+    "واڌ",
+    "پاڪستان",
+    "پوء",
+    "ڪان",
+    "گهٽتائي"
    ]
   }
  ],
