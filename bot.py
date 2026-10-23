@@ -106,6 +106,11 @@ def blocked_reason(text):
     return None
 
 
+def crime_review():
+    """Jurm ki khabrein review mein bhejni hain? (config crime_review; ab band: sab seedha post, sirf fauj/mazhab mana)"""
+    return bool(CONFIG.get("crime_review", False))
+
+
 def keyword_sensitive(title):
     """Jurm wali khabar review mein jaye. Hadsay ki khabar (bina jurm ke) seedha post ho."""
     if not word_match(title, CONFIG["sensitive_words"]):
@@ -967,7 +972,8 @@ SINDHI_ONLY = re.compile("[\u067A\u067B\u067D\u067F\u0680\u0683\u0684\u0687\u068
                          "\u06A6\u06AA\u06B1\u06B3\u06BB]")  # ٺ ٻ ٽ ٿ ڀ ڃ ڄ ڇ ڊ ڌ ڍ ڏ ڙ ڦ ڪ ڱ ڳ ڻ (sirf Sindhi)
 URDU_ONLY = re.compile("[\u0679\u0688\u0691\u06BA\u06C1\u06C2\u06CC\u06D2\u06D3]")  # ٹ ڈ ڑ ں ہ ۂ ی ے ۓ
 LEGAL_RULES = ("\n\nNEWS RULES (always): never name or identify a minor (under 18) who is a victim or accused in any "
-               "crime or abuse case; for accusations not proven in court write 'مبينا' (alleged); no graphic or "
+               "crime or abuse case; never name or identify a victim of rape or sexual assault (any age); for suicide "
+               "never describe the method; for accusations not proven in court write 'مبينا' (alleged); no graphic or "
                "gory details; never blame a religion, sect, caste or ethnic group; quote people only word-for-word, "
                "otherwise write indirectly (چيو ته...).")
 
@@ -1889,7 +1895,7 @@ def handle_news():
             if real and real != it["link"]:
                 it["link"] = real
         message = compose(it, text)
-        sensitive = keyword_sensitive(it["title"]) or bool(res and res.get("sensitive"))
+        sensitive = crime_review() and (keyword_sensitive(it["title"]) or bool(res and res.get("sensitive")))
         if sensitive:
             if not (TG_TOKEN and TG_CHAT):
                 log("sensitive aur Telegram nahi, skip:", it["title"][:60])
@@ -2385,7 +2391,7 @@ def sindh_candidates(cfg):
                 body = body[len(title):].strip()
             k = item_key(title)
             if (len(title) < 15 or k in keys or time.time() - ts > max_age or not is_trusted(domain)
-                    or blocked_reason(title + " " + body[:600]) or keyword_sensitive(title)):
+                    or blocked_reason(title + " " + body[:600]) or (crime_review() and keyword_sensitive(title))):
                 continue
             keys.add(k)
             raw.append({"ts": ts, "title": title, "text": body[:1200], "source": fname or st or domain,
@@ -3179,7 +3185,7 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
                 domain = urlparse(href).netloc.lower().removeprefix("www.")
                 k = item_key(title)
                 if (k in S["seen"] or time.time() - ts > max_age_h * 3600 or not is_trusted(domain)
-                        or blocked_reason(title) or keyword_sensitive(title)):
+                        or blocked_reason(title) or (crime_review() and keyword_sensitive(title))):
                     continue
                 items.append({"key": k, "title": title, "link": e.get("link", ""), "source": st_ or domain, "ts": ts})
     if not items:
@@ -3620,7 +3626,7 @@ def handle_kawish():
     kawish_store(pdate, [], [{k: v for k, v in x.items() if k != "message"} for x in found])
     q = S.setdefault("kawish_queue", [])
     for x in sorted(found, key=lambda x: (not x["district"], x["page"])):  # district pehle
-        if x["sensitive"] or x["confidence"] == "low":
+        if (crime_review() and x["sensitive"]) or x["confidence"] == "low":
             S["pending"][x["key"]] = {"message": x["message"], "link": x["link"], "added": time.time(),
                                       "card": {"title": x["head"], "sub": "روزاني ڪاوش", "body": x.get("card") or x["summary"], "theme": "news"}}
             tg_send("🟠 REVIEW (Kawish, safha " + str(x["page"]) + "): post karni hai?\n\n" + x["message"],
@@ -3772,7 +3778,7 @@ def handle_sindh_stream():
     msg = f"📰 {head}\n\n{finish(post)}\n\n{speaker_line(res.get('speaker'))}📌 {LBL['source']}: {it['source']}\n\n{footer()}"
     cb = clean_text(str(res.get("card", "")))
     card_body = cb if len(cb) >= 60 and not bad_script(cb) and not blocked_reason(cb) else post
-    if res.get("sensitive") or keyword_sensitive(head + " " + post):
+    if crime_review() and (res.get("sensitive") or keyword_sensitive(head + " " + post)):
         S["pending"][it["key"]] = {"message": msg, "link": it["link"], "added": time.time(),
                                    "card": {"title": head, "sub": "سنڌ جون خبرون", "body": card_body, "theme": "news"}}
         tg_send("🟠 REVIEW (Sindh): post karni hai?\n\n" + msg + "\n\n🔗 " + it["link"],
