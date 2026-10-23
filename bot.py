@@ -897,7 +897,7 @@ def build_prompt(item):
         f"one of its towns: {', '.join(CONFIG['district_towns'])}. If the headline names another city or place "
         "(e.g. Karachi, Hyderabad, Lahore, Islamabad) or names no place, relevant is false.\n"
         "- sensitive: true if it involves crime: murder, firing/shooting, robbery, kidnapping, sexual violence, "
-        "torture, suicide, honour killing, theft/burglary, violent protest, or a fight or dispute between people or groups. "
+        "torture, suicide, honour killing or violent protest. Theft, burglary, mobile/bike snatching, and quarrels or fights without killing, firing or serious injury are NOT sensitive. "
         "Accidents (road, traffic, train, fire, drowning, building collapse, natural disaster) and the deaths or "
         "injuries caused by them are NOT sensitive: set false for those, unless a crime is also involved.\n"
         "- post: rewrite ONLY the information in the headline as a short Facebook post (1-2 sentences). "
@@ -3509,8 +3509,8 @@ def kawish_read(page_no, img):
               "happened, mark that item confidence \"low\". If a name or number is not clearly "
               "readable, leave it out instead of guessing. district=true if it is about Naushahro Feroze district or "
               "its towns (" + towns + "). speaker: if the item is mainly a statement, speech, claim or press conference by a "
-              "person (politician, minister, official), that person's name and position in Sindhi, else \"\". sensitive=true for murder, firing, robbery, rape/abuse, kidnapping, "
-              "violent clashes or other crime (road accidents and drowning are NOT sensitive).\n"
+              "person (politician, minister, official), that person's name and position in Sindhi, else \"\". sensitive=true for murder, firing, robbery, rape/abuse, kidnapping "
+              "(road accidents and drowning are NOT sensitive; Theft, burglary, mobile/bike snatching, and quarrels or fights without killing, firing or serious injury are NOT sensitive.).\n"
               "Return JSON: {\"items\": [{\"type\": string, \"headline\": string, \"summary\": string, \"card\": string, "
               "\"district\": bool, \"sensitive\": bool, \"place\": string, \"speaker\": string, \"confidence\": \"high\"|\"medium\"|\"low\"}]}")
     out = ask_gemini(prompt, image=img, mime="image/jpeg")
@@ -3729,7 +3729,7 @@ def handle_sindh_stream():
               "(max 10 words), \"post\": the COMPLETE news with ALL facts of that item (who, what, where, when, why, every "
               "number, name and what people said), usually 5-12 sentences, using ONLY facts from that item, and "
               "\"card\": ALL the key facts of the news packed into ONE dense Sindhi paragraph of at most 600 characters (who, what, where, when, numbers, names) — written for the picture card, so a reader of only the card knows the whole story. "
-              "sensitive=true for murder, firing, robbery, rape/abuse, kidnapping or other crime. district=true if it is "
+              "sensitive=true for murder, firing, robbery, rape/abuse or kidnapping (Theft, burglary, mobile/bike snatching, and quarrels or fights without killing, firing or serious injury are NOT sensitive.). district=true if it is "
               "about Naushahro Feroze district or its towns (" + towns + "). Political statements are allowed (report them "
               "neutrally as what the person said)." + " \"speaker\": if the item is mainly a statement, speech, claim or press conference by a person (politician, minister, official, leader), that person's name and position in Sindhi (e.g. \"سنڌ جو وزير اعليٰ مراد علي شاهه\"), otherwise an empty string." + "\n"
               "Return JSON: {\"pick\": number, \"reject\": [numbers], \"headline\": string, \"post\": string, \"card\": string, \"speaker\": string, "
