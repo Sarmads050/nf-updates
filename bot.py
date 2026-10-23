@@ -1871,6 +1871,7 @@ def handle_news():
             if story:
                 first = re.split(r"(?<=[!۔.؟?])\s", text)[0]  # AI wali pehli line sarkhi ban jaye
                 text = f"{first}\n\n{finish(story)}"
+                it["card_text"] = card_text(story)
             if real and real != it["link"]:
                 it["link"] = real
         message = compose(it, text)
@@ -1880,12 +1881,19 @@ def handle_news():
                 log("sensitive aur Telegram nahi, skip:", it["title"][:60])
                 continue
             S["pending"][it["key"]] = {"message": message, "link": it["link"], "added": time.time()}
+            if it.get("card_text"):
+                S["pending"][it["key"]]["card"] = {"title": card_parts(message)[0], "sub": TOPIC_SD.get("district", ""),
+                                                   "body": it["card_text"], "theme": "news"}
             stat("review")
             tg_send("🟠 REVIEW: ye khabar sensitive hai. Post karni hai?\n\n" + message + "\n\n🔗 " + it["link"],
                     [{"text": "✅ Post karo", "callback_data": "ok:" + it["key"]},
                      {"text": "❌ Reject", "callback_data": "no:" + it["key"]}])
         else:
-            S["queue"].append({"message": message, "link": it["link"], "added": time.time(), "title": it["title"]})
+            qi = {"message": message, "link": it["link"], "added": time.time(), "title": it["title"]}
+            if it.get("card_text"):
+                qi["card"] = {"title": card_parts(message)[0], "sub": TOPIC_SD.get("district", ""),
+                              "body": it["card_text"], "theme": "news"}
+            S["queue"].append(qi)
             stat("queued")
 
 
@@ -2230,29 +2238,34 @@ def make_card(title, subtitle="", body="", theme="news", image=None):
     if image is None and theme == "news" and body:
         image = news_image(title, body)
     # Card par sarkhi (heading) nahi: sirf poori khabar. Khabar na ho (mausam, sawal waghera) to title hi likhai.
-    body = trim_sentences(body, 900) if body else ""
+    body = trim_sentences(body, 1400) if body else ""
     text = body or (title or "")
-    size = (38 if image else 50) if body else (60 if image else 72)
-    top = 452 if image else 110  # tarteeb: tasveer, khabar, zariya, phir Follow patti
+    H_ = 1350  # Facebook ka sab se bara portrait (4:5): poori khabar ke liye jagah
+    L = len(text)
+    ih = (0 if not image else 420 if L <= 300 else 340 if L <= 550 else 260 if L <= 800 else 200 if L <= 1000 else 0)
+    if not ih:
+        image = None  # bohat lambi khabar: tasveer ki jagah bhi khabar ko
+    size = (44 if image else 48) if body else (64 if image else 76)
+    top = 92 + ih if image else 110  # tarteeb: tasveer, khabar, zariya, phir Follow patti
     page = f"""<!doctype html><html><head><meta charset="utf-8"><style>{font_css}
-    html,body{{margin:0;width:1080px;height:1080px;overflow:hidden}}
+    html,body{{margin:0;width:1080px;height:{H_}px;overflow:hidden}}
     body{{background:#14213D;font-family:'Noto Naskh Arabic','Noto Naskh',serif;color:#F4EFE6;position:relative}}
     .band{{position:absolute;left:0;right:0;height:84px;background-color:#7A1B1B;box-sizing:content-box;
       background-image:radial-gradient(circle at 42px 42px,#F4EFE6 6px,transparent 7px),
       radial-gradient(circle at 42px 42px,#14213D 22px,transparent 23px);background-size:84px 84px}}
-    .top{{top:0;border-bottom:8px solid #F4EFE6}} .bot{{top:988px;border-top:8px solid #F4EFE6}}
-    .pic{{position:absolute;top:92px;left:0;right:0;height:360px;overflow:hidden}}
+    .top{{top:0;border-bottom:8px solid #F4EFE6}} .bot{{top:{H_ - 92}px;border-top:8px solid #F4EFE6}}
+    .pic{{position:absolute;top:92px;left:0;right:0;height:{ih}px;overflow:hidden}}
     .pic img{{width:100%;height:100%;object-fit:cover;display:block}}
     .pic:after{{content:"";position:absolute;left:0;right:0;bottom:0;height:120px;
       background:linear-gradient(to bottom,rgba(20,33,61,0),#14213D)}}
     .ai{{position:absolute;top:108px;left:18px;z-index:2;background:rgba(0,0,0,.55);color:#fff;font-size:24px;
       padding:4px 14px;border-radius:20px;font-family:'Noto Naskh Arabic',serif}}
-    .src{{position:absolute;top:806px;left:70px;right:70px;height:70px;display:flex;align-items:center;
+    .src{{position:absolute;top:{H_ - 274}px;left:70px;right:70px;height:70px;display:flex;align-items:center;
       justify-content:center;font-size:36px;opacity:.85;font-weight:700;direction:rtl;white-space:nowrap;overflow:hidden}}
-    .box{{position:absolute;top:{top + 18}px;bottom:284px;left:70px;right:70px;overflow:hidden;
+    .box{{position:absolute;top:{top + 14}px;bottom:278px;left:56px;right:56px;overflow:hidden;
       display:flex;align-items:center;justify-content:center}}
     .txt{{margin:0;width:100%;text-align:center;direction:rtl;font-size:{size}px;line-height:1.65;font-weight:700}}
-    .brand{{position:absolute;top:900px;left:50%;transform:translateX(-50%);height:66px;box-sizing:border-box;
+    .brand{{position:absolute;top:{H_ - 180}px;left:50%;transform:translateX(-50%);height:66px;box-sizing:border-box;
       font-family:Arial,sans-serif;font-weight:700;font-size:30px;direction:ltr;display:flex;align-items:center;
       white-space:nowrap;background:#F4EFE6;color:#14213D;border-radius:40px;padding:0 14px 0 28px;gap:14px}}
     .brand .f{{background:#1877F2;color:#fff;border-radius:30px;padding:6px 20px;font-size:28px;letter-spacing:1px}}
@@ -2265,8 +2278,8 @@ def make_card(title, subtitle="", body="", theme="news", image=None):
     function fit(){{  // khabar dabbe mein na samaye to aakhri jumla hatao; ek hi jumla bache to font chhota
       var b=document.querySelector('.box'),t=document.getElementById('t');
       var parts=t.textContent.split(/(?<=[!۔.؟?])\\s+/),fs={size},n=0;
-      while(t.scrollHeight>b.clientHeight&&n++<200){{  // pehle font thoda chhota (sab cards ek jaise rahein)
-        if(fs>{size - 6}||(parts.length<2&&fs>26)){{fs-=2;t.style.fontSize=fs+'px';}}
+      while(t.scrollHeight>b.clientHeight&&n++<200){{  // pehle font chhota (poori khabar rahe), phir hi jumla kam
+        if(fs>28||(parts.length<2&&fs>24)){{fs-=2;t.style.fontSize=fs+'px';}}
         else if(parts.length>1){{parts.pop();t.textContent=parts.join(' ');}} else break;
       }}
     }}
@@ -2278,17 +2291,17 @@ def make_card(title, subtitle="", body="", theme="news", image=None):
         f.write(page)
     try:
         subprocess.run([chrome, "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars",
-                        "--force-device-scale-factor=1", "--window-size=1080,1167", "--virtual-time-budget=8000",
+                        "--force-device-scale-factor=1", f"--window-size=1080,{H_ + 87}", "--virtual-time-budget=8000",
                         f"--screenshot={out}", "file://" + hp], capture_output=True, timeout=90)
     except Exception as e:
         log("card error:", e)
         return None
     if not (os.path.isfile(out) and os.path.getsize(out) > 5000):
         return None
-    try:  # headless Chrome window viewport se bari hoti hai: sirf upar ka 1080x1080 hissa rakho
+    try:  # headless Chrome window viewport se bari hoti hai: sirf upar ka 1080xH hissa rakho
         from PIL import Image
         with Image.open(out) as im:
-            im.crop((0, 0, 1080, 1080)).save(out)
+            im.crop((0, 0, 1080, H_)).save(out)
     except Exception as e:
         log("card crop error:", e)
     return out
@@ -3036,19 +3049,32 @@ def full_story(title, text):
     if not text or not (GEMINI_KEY or GROQ_KEY):
         return None
     prompt = ("Headline: " + title + "\n\nArticle:\n" + text +
-              "\n\nWrite this as a complete Facebook news post in Sindhi (Arabic script) for ordinary readers: "
-              "5-8 short sentences (about 80-160 words) covering who, what, where, when, why and any numbers, "
-              "using ONLY facts from the article, neutral tone, no opinion, no hashtags, no emoji, "
-              "no full stop at the very end. If the article is about religion controversy, abuse or the Pakistani "
-              "military, set blocked true.\nReturn JSON: {\"story\": string, \"blocked\": bool}")
+              "\n\nWrite the COMPLETE news in Sindhi (Arabic script) for ordinary readers. \"story\": include ALL "
+              "the information and facts given in the article — who, what, where, when, why, how, every number, "
+              "name, place, date, amount and what officials/people said (indirectly), plus background given in the "
+              "article; usually 6-14 sentences (about 120-300 words). Use ONLY facts from the article, add nothing, "
+              "neutral tone, no opinion, no hashtags, no emoji, no full stop at the very end. "
+              "\"card\": ALL the key facts of the news packed into ONE dense Sindhi paragraph of at most 600 characters (who, what, where, when, numbers, names) — written for the picture card, so a reader of only the card knows the whole story. If the article is about religion controversy, abuse or the Pakistani "
+              "military, set blocked true.\nReturn JSON: {\"story\": string, \"card\": string, \"blocked\": bool}")
     out = ask_gemini(prompt) if GEMINI_KEY else ask_groq(prompt)
     if not isinstance(out, dict) or out.get("blocked"):
         return None
     story = clean_text(str(out.get("story", "")))
     if len(story) < 60 or bad_script(story) or blocked_reason(story):
         return None
+    card = clean_text(str(out.get("card", "")))
+    if 60 <= len(card) and not bad_script(card) and not blocked_reason(card):
+        CARD_TEXT[story] = card
     _diag("story")
     return story
+
+
+CARD_TEXT = {}  # poori khabar -> card ke liye saare facts wala paragraph (isi run mein)
+
+
+def card_text(story, fallback=""):
+    """Card par likhne ke liye: AI ka facts wala paragraph, warna poori khabar (card khud font chhota karega)."""
+    return CARD_TEXT.get(story) or story or fallback
 
 
 def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, icons=None):
@@ -3161,7 +3187,7 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
     msg = (f"{ic} {head}\n\n" if head else f"{ic} ") + \
         f"{finish(story or post)}\n\n{speaker_line(res.get('speaker'))}📌 {LBL['source']}: {clean_source(it['source'])}\n\n{footer()}"
     if news_card_post(msg, head or card_parts(post)[0], label, real_link or it["link"],
-                      body=finish(post) if head else card_story(post)):
+                      body=card_text(story, post) if story else (finish(post) if head else card_story(post))):
         perf_record(state_key, cat if icons else state_key)
         note_region("pakistan")
         day["count"] += 1
@@ -3417,7 +3443,9 @@ def kawish_read(page_no, img):
               "\"ad\" for an advertisement or notice (court/legal notices, public notices, tenders, proclamations, "
               "obituaries, classifieds and any section that is just a collection of such notices are ALL \"ad\"). "
               "For each item write in Sindhi (Arabic script): a short "
-              "headline and a 3-5 sentence summary using ONLY what is printed. The summary must be complete and clear on "
+              "headline, a \"summary\" that is the COMPLETE news with ALL facts printed (who, what, where, when, every number, "
+              "name and what people said; usually 4-10 sentences) using ONLY what is printed, and a \"card\": all key "
+              "facts in one dense paragraph of at most 600 characters. The summary must be complete and clear on "
               "its own: say WHO did WHAT, WHERE and WHEN, and the main detail, so a reader understands the news without "
               "seeing the paper. Never describe the page itself (e.g. 'this page has...'); if you cannot say clearly what "
               "happened, mark that item confidence \"low\". If a name or number is not clearly "
@@ -3425,7 +3453,7 @@ def kawish_read(page_no, img):
               "its towns (" + towns + "). speaker: if the item is mainly a statement, speech, claim or press conference by a "
               "person (politician, minister, official), that person's name and position in Sindhi, else \"\". sensitive=true for murder, firing, robbery, rape/abuse, kidnapping, "
               "violent clashes or other crime (road accidents and drowning are NOT sensitive).\n"
-              "Return JSON: {\"items\": [{\"type\": string, \"headline\": string, \"summary\": string, "
+              "Return JSON: {\"items\": [{\"type\": string, \"headline\": string, \"summary\": string, \"card\": string, "
               "\"district\": bool, \"sensitive\": bool, \"place\": string, \"speaker\": string, \"confidence\": \"high\"|\"medium\"|\"low\"}]}")
     out = ask_gemini(prompt, image=img, mime="image/jpeg")
     if not isinstance(out, dict):
@@ -3506,7 +3534,10 @@ def handle_kawish():
             page_link = f"https://www.thekawish.com/beta/index.php?date={pdate.strftime('%Y-%m-%d')}&pageno={n}"
             msg = (f"📰 {head}\n\n{finish(summ)}\n\n{speaker_line(it.get('speaker'))}"
                    f"📌 {LBL['source']}: روزاني ڪاوش (صفحو {n})\n\n{footer()}")
-            found.append({"key": k, "page": n, "head": head, "summary": summ, "district": bool(it.get("district")),
+            cardt = clean_text(it.get("card", ""))
+            if len(cardt) < 60 or bad_script(cardt) or blocked_reason(cardt):
+                cardt = summ
+            found.append({"key": k, "page": n, "head": head, "summary": summ, "card": cardt, "district": bool(it.get("district")),
                           "sensitive": bool(it.get("sensitive")) or keyword_sensitive(head + " " + summ),
                           "confidence": it.get("confidence", ""), "link": page_link, "message": msg})
         if not test:
@@ -3533,7 +3564,7 @@ def handle_kawish():
     for x in sorted(found, key=lambda x: (not x["district"], x["page"])):  # district pehle
         if x["sensitive"] or x["confidence"] == "low":
             S["pending"][x["key"]] = {"message": x["message"], "link": x["link"], "added": time.time(),
-                                      "card": {"title": x["head"], "sub": "روزاني ڪاوش", "body": x["summary"], "theme": "news"}}
+                                      "card": {"title": x["head"], "sub": "روزاني ڪاوش", "body": x.get("card") or x["summary"], "theme": "news"}}
             tg_send("🟠 REVIEW (Kawish, safha " + str(x["page"]) + "): post karni hai?\n\n" + x["message"],
                     [{"text": "✅ Post karo", "callback_data": "ok:" + x["key"]},
                      {"text": "❌ Reject", "callback_data": "no:" + x["key"]}])
@@ -3637,11 +3668,13 @@ def handle_sindh_stream():
               "important news from anywhere in Sindh. If none is about Sindh at all, pick -1. Do NOT pick editorials, opinion columns, "
               "advertisements, or anything about religion controversy, abuse or the Pakistani military. List clearly "
               "unsuitable items or repeats in \"reject\". For the pick write in Sindhi (Arabic script): \"headline\" "
-              "(max 10 words) and \"post\": the full news in 4-7 sentences using ONLY facts from that item. "
+              "(max 10 words), \"post\": the COMPLETE news with ALL facts of that item (who, what, where, when, why, every "
+              "number, name and what people said), usually 5-12 sentences, using ONLY facts from that item, and "
+              "\"card\": ALL the key facts of the news packed into ONE dense Sindhi paragraph of at most 600 characters (who, what, where, when, numbers, names) — written for the picture card, so a reader of only the card knows the whole story. "
               "sensitive=true for murder, firing, robbery, rape/abuse, kidnapping or other crime. district=true if it is "
               "about Naushahro Feroze district or its towns (" + towns + "). Political statements are allowed (report them "
               "neutrally as what the person said)." + " \"speaker\": if the item is mainly a statement, speech, claim or press conference by a person (politician, minister, official, leader), that person's name and position in Sindhi (e.g. \"سنڌ جو وزير اعليٰ مراد علي شاهه\"), otherwise an empty string." + "\n"
-              "Return JSON: {\"pick\": number, \"reject\": [numbers], \"headline\": string, \"post\": string, \"speaker\": string, "
+              "Return JSON: {\"pick\": number, \"reject\": [numbers], \"headline\": string, \"post\": string, \"card\": string, \"speaker\": string, "
               "\"sensitive\": bool, \"district\": bool}")
     res = ask_gemini(prompt) if GEMINI_KEY else (ask_groq(prompt) if GROQ_KEY else ask_openrouter(prompt))
     if not isinstance(res, dict):
@@ -3669,12 +3702,14 @@ def handle_sindh_stream():
         story = full_story(it["title"], art) if art else None
         if story:
             post = story
+            res["card"] = CARD_TEXT.get(story, "")
         if real:
             it["link"] = real
     rank = city_rank(it["title"] + " " + it["body"][:1500])
     district = bool(res.get("district")) or bool(rank and rank <= CONFIG.get("regions", {}).get("district_city_ranks", 6))
     msg = f"📰 {head}\n\n{finish(post)}\n\n{speaker_line(res.get('speaker'))}📌 {LBL['source']}: {it['source']}\n\n{footer()}"
-    card_body = trim_sentences(post, 190)
+    cb = clean_text(str(res.get("card", "")))
+    card_body = cb if len(cb) >= 60 and not bad_script(cb) and not blocked_reason(cb) else post
     if res.get("sensitive") or keyword_sensitive(head + " " + post):
         S["pending"][it["key"]] = {"message": msg, "link": it["link"], "added": time.time(),
                                    "card": {"title": head, "sub": "سنڌ جون خبرون", "body": card_body, "theme": "news"}}
@@ -3712,7 +3747,7 @@ def handle_kawish_post():
     if not sindh_room() or not q:
         return
     x = q.pop(0)
-    if news_card_post(x["message"], x["head"], "روزاني ڪاوش", x["link"], body=x["summary"]):
+    if news_card_post(x["message"], x["head"], "روزاني ڪاوش", x["link"], body=x.get("card") or x["summary"]):
         note_region("district" if x["district"] else "sindh")
         day["count"] += 1
         day["last"] = time.time()

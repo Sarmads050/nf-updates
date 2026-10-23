@@ -19,15 +19,17 @@ def _spy(img, subject, title):
     return v
 bot.image_matches = _spy
 tests = [
-    ("ڪڻڪ جو پيداواري خرچ 3761 رپيا في مڻ تي ويو", "ملڪ ۾ ڪڻڪ جو في مڻ پيداواري خرچ وڌي 3 هزار 761 رپين تائين پهچي ويو آهي، جنهن سبب هارين جي خرچن ۽ مارڪيٽ ۾ اٽي جي قيمتن تي سڌو سنئون اثر پوڻ جو امڪان آهي"),
-    ("پيٽرول جي قيمت ۾ 5 رپيا واڌ", "حڪومت پيٽرول جي في ليٽر قيمت ۾ 5 رپيا واڌ جو اعلان ڪيو آهي، نئين قيمت سڀاڻي کان لاڳو ٿيندي"),
+    ("ڪڻڪ جو پيداواري خرچ 3761 رپيا في مڻ تي ويو", "ملڪ ۾ ڪڻڪ جو في مڻ پيداواري خرچ وڌي 3 هزار 761 رپين تائين پهچي ويو آهي. ڪسان اتحاد جي چيئرمين خالد کوکر چيو ته ڀاڻ، ڊيزل ۽ ٻج جي قيمتن ۾ واڌ سبب هارين جو خرچ ٻيڻو ٿي ويو آهي. هن مطالبو ڪيو ته حڪومت ڪڻڪ جي امدادي قيمت 4 هزار 500 رپيا في مڻ مقرر ڪري. سنڌ حڪومت چيو آهي ته معاملي تي غور ڪيو پيو وڃي ۽ ايندڙ هفتي ڪابينا اجلاس ۾ فيصلو ٿيندو."),
 ]
 report = []
 for i, (t, b) in enumerate(tests, 1):
     p = bot.news_image(t, b)
+    card = bot.make_card(t, "زراعت", b, theme="news", image=p)
+    if card:
+        shutil.copy(card, f"out/card{i}.png")
     if p:
         shutil.copy(p, f"out/test{i}.jpg")
-        card = bot.make_card(t, "خبرون", b, theme="news", image=p) if hasattr(bot, "make_card") else None
+        card = bot.make_card(t, "زراعت", b, theme="news", image=p)
         if card:
             shutil.copy(card, f"out/card{i}.png")
     report.append({"title": t, "image": bool(p)})
