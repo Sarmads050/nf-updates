@@ -1546,7 +1546,8 @@
   "5afe64384eee8fdc": 1792776713.7245653,
   "b55291552ea240dc": 1792776713.7245688,
   "7d7432ef8080003a": 1792779649.4208934,
-  "eaeb0c319ac31496": 1792779680.1827962
+  "eaeb0c319ac31496": 1792779680.1827962,
+  "82c0dfa0423f89da": 1792781470.0943482
  },
  "pending": {
   "89d74fef1c39e4a0": {
@@ -2228,7 +2229,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-23 23:41",
+  "time": "2026-10-23 23:51",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7399,9 +7400,9 @@
  },
  "ai_usage": {
   "date": "2026-10-23",
-  "ok": 275,
+  "ok": 278,
   "fail": 3,
-  "limit": 415
+  "limit": 421
  },
  "posted_heads": [
   {
@@ -7726,7 +7727,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-23 23:41",
+  "time": "2026-10-23 23:51",
   "steps": []
  },
  "roundup_am": "2026-10-23",
@@ -7829,12 +7830,12 @@
  },
  "article_diag": {
   "date": "2026-10-23",
-  "tried": 33,
-  "decoded": 33,
-  "text": 20,
-  "story": 19
+  "tried": 34,
+  "decoded": 34,
+  "text": 21,
+  "story": 20
  },
- "ai_last_error": "23:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "23:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-23",
   "models": [
@@ -7875,7 +7876,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-23",
-   "ok": 149,
+   "ok": 150,
    "fail": 11,
    "items": 10,
    "fail_streak": 0,
@@ -7883,7 +7884,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-23",
-   "ok": 147,
+   "ok": 148,
    "fail": 13,
    "items": 10,
    "fail_streak": 0,
@@ -7891,7 +7892,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-23",
-   "ok": 151,
+   "ok": 152,
    "fail": 9,
    "items": 10,
    "fail_streak": 0,
@@ -7899,14 +7900,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 160,
+   "ok": 161,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 160,
+   "ok": 161,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7914,21 +7915,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 160,
+   "ok": 161,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 160,
+   "ok": 161,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-23",
-   "ok": 160,
+   "ok": 161,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8225,8 +8226,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 32,
-  "old": 31,
+  "found": 40,
+  "old": 39,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8252,8 +8253,8 @@
  "sindh_stream": {
   "date": "2026-10-23",
   "count": 12,
-  "last": 1792779677.8751135,
-  "city_i": 22,
+  "last": 1792781467.7944298,
+  "city_i": 4,
   "dry": 1792779066.0982144
  },
  "gemini_day_dead": {
@@ -9056,13 +9057,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-23 18:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-23 18:20",
    "ok": true,
    "n": 0,
@@ -9341,6 +9335,13 @@
   },
   {
    "t": "10-23 23:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-23 23:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14192,6 +14193,11 @@
    "t": "10-23 23:21",
    "new": "نوشہرو فیروز ۾ ملڪيت جي تڪرار تي هٿياربند چڪيءَ دوران چار ڄڻا فوت ٿي و",
    "old": "ڪنڊيارو ۾ زمين جي تڪرار تان ٿيل جهيڙي دوران چار ڄڻا قتل ۽ ٽي زخمي ٿي پ"
+  },
+  {
+   "t": "10-23 23:51",
+   "new": "نوشهروفيروز ۾ ملڪيت جي ترعو تان هٿياربندن ۾ مقابلو، 4 ڄڻا قتل",
+   "old": "ڪنڊيارو ۾ زمين جي تڪرار تان ٿيل جهيڙي دوران چار ڄڻا قتل ۽ ٽي زخمي ٿي پ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14210,5 +14216,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
