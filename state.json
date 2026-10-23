@@ -7873,14 +7873,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-23",
    "ok": 125,
-   "fail": 9,
+   "fail": 10,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-23",
-   "ok": 121,
+   "ok": 122,
    "fail": 13,
    "items": 10,
    "fail_streak": 0,
@@ -7888,7 +7888,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-23",
-   "ok": 125,
+   "ok": 126,
    "fail": 9,
    "items": 10,
    "fail_streak": 0,
@@ -7896,14 +7896,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7911,21 +7911,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-23",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8222,8 +8222,8 @@
  },
  "report_acc": {
   "posted": 3,
-  "found": 5,
-  "old": 5,
+  "found": 12,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9154,13 +9154,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-23 14:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-23 14:50",
    "ok": true,
    "n": 1,
@@ -9446,6 +9439,13 @@
     92058799,
     92058800
    ],
+   "err": null
+  },
+  {
+   "t": "10-23 20:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
    "err": null
   }
  ],
