@@ -1,7 +1,5 @@
 {
  "seen": {
-  "c2968aa82d614740": 1792138859.63463,
-  "558e0362e0df62cc": 1792138859.6349633,
   "514105913fd48a8d": 1792140063.3637936,
   "671b27f70a0fd656": 1792140063.3640344,
   "dcc08dd1f355b9dd": 1792141260.9096315,
@@ -1526,7 +1524,9 @@
   "311cb66e5b0aa7a1": 1792743651.2940753,
   "7dec5245ff0f4b6e": 1792743665.1505618,
   "a15bd2a49dd9fcc9": 1792743665.1505644,
-  "1fdf50ea0081ce08": 1792743675.2225866
+  "1fdf50ea0081ce08": 1792743675.2225866,
+  "5989c422cdd3507a": 1792744274.0713575,
+  "ff92c457518d3016": 1792744274.07136
  },
  "pending": {
   "427f3f23396d3ae3": {
@@ -1725,7 +1725,7 @@
   "last_week": "",
   "last_check": "2026-10-23"
  },
- "gemini_model": "gemini-3.5-flash",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2265,7 +2265,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-23 13:21",
+  "time": "2026-10-23 13:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7436,9 +7436,9 @@
  },
  "ai_usage": {
   "date": "2026-10-23",
-  "ok": 139,
+  "ok": 140,
   "fail": 1,
-  "limit": 206
+  "limit": 209
  },
  "posted_heads": [
   {
@@ -7763,7 +7763,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-23 13:21",
+  "time": "2026-10-23 13:31",
   "steps": []
  },
  "roundup_am": "2026-10-23",
@@ -7871,7 +7871,7 @@
   "text": 10,
   "story": 9
  },
- "ai_last_error": "12:51 gemini-3.6-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "13:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-23",
   "models": [
@@ -7912,7 +7912,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-23",
-   "ok": 79,
+   "ok": 80,
    "fail": 8,
    "items": 10,
    "fail_streak": 0,
@@ -7921,14 +7921,14 @@
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-23",
    "ok": 81,
-   "fail": 6,
+   "fail": 7,
    "items": 10,
-   "fail_streak": 0,
-   "last_status": 0
+   "fail_streak": 1,
+   "last_status": 403
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-23",
-   "ok": 83,
+   "ok": 84,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -7936,14 +7936,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 87,
+   "ok": 88,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 87,
+   "ok": 88,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7951,21 +7951,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-23",
-   "ok": 87,
+   "ok": 88,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-23",
-   "ok": 87,
+   "ok": 88,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-23",
-   "ok": 87,
+   "ok": 88,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8352,8 +8352,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8389,7 +8389,8 @@
    "gemini-3.7-flash",
    "gemini-flash-latest",
    "gemini-3.8-flash",
-   "gemini-3.6-flash"
+   "gemini-3.6-flash",
+   "gemini-3.5-flash"
   ]
  },
  "tg_done": [
@@ -9327,13 +9328,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-23 07:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-23 07:30",
    "ok": true,
    "n": 0,
@@ -9603,6 +9597,13 @@
   },
   {
    "t": "10-23 13:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-23 13:30",
    "ok": true,
    "n": 0,
    "ids": [],
