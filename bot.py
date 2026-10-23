@@ -893,14 +893,18 @@ def build_prompt(item):
         "  (b) anyone abusing, cursing or insulting someone (gaali, bad language, slurs), or the text itself contains abusive words;\n"
         "  (c) it mentions the Pakistani military in any way: Pakistan Army, ISPR, army chief, Rangers, FC, Navy, "
         "Air Force, intelligence agencies, or any soldier/military matter.\n"
-        f"- relevant: true only if the news is about Naushahro Feroze district or its towns: {', '.join(CONFIG['district_towns'])}.\n"
+        f"- relevant: true ONLY if the headline itself clearly says the event happened in Naushahro Feroze district or "
+        f"one of its towns: {', '.join(CONFIG['district_towns'])}. If the headline names another city or place "
+        "(e.g. Karachi, Hyderabad, Lahore, Islamabad) or names no place, relevant is false.\n"
         "- sensitive: true if it involves crime: murder, firing/shooting, robbery, kidnapping, sexual violence, "
-        "torture, suicide, honour killing, violent protest, or a fight or dispute between people or groups. "
+        "torture, suicide, honour killing, theft/burglary, violent protest, or a fight or dispute between people or groups. "
         "Accidents (road, traffic, train, fire, drowning, building collapse, natural disaster) and the deaths or "
         "injuries caused by them are NOT sensitive: set false for those, unless a crime is also involved.\n"
         "- post: rewrite ONLY the information in the headline as a short Facebook post (1-2 sentences). "
         "Write in Sindhi (Arabic script). If you cannot write correct Sindhi, write Urdu; Roman Urdu only as last option. "
-        "NEVER add any fact, name, number, place or detail that is not in the headline. No hashtags, no links, no emojis. "
+        "NEVER add any fact, name, number, place or detail that is not in the headline — especially never write "
+        "'Naushahro Feroze' or any town name unless the headline itself says it; keep the place exactly as in the "
+        "headline. No hashtags, no links, no emojis. "
         "Keep it neutral: no opinion, no blame, no insulting or emotional words. "
         "For accidents and deaths write respectfully and add one short line of condolence/prayer for the victims.\n"
         "- lang: sd, ur or roman."
@@ -1865,9 +1869,19 @@ def handle_news():
             stat("irrelevant")
             continue
         text = res["post"].strip() if res else f"{LBL['news_icon']} {it['title']}"
+        art, real = (article_text(it["link"]) if res else (None, None))
+        if not word_match(it["title"], CONFIG["district_towns"]) and not (art and word_match(art[:2500], CONFIG["district_towns"])):
+            log("district ka naam na headline mein na khabar mein (doosre shehar ki khabar), skip:", it["title"][:60])
+            stat("irrelevant")
+            continue
+        if not place_ok(text, it["title"] + " " + (art or "")):
+            log("AI ne ghalat jagah likhi, skip:", it["title"][:60])
+            stat("irrelevant")
+            continue
         if res:
-            art, real = article_text(it["link"])
             story = full_story(it["title"], art) if art else None
+            if story and not place_ok(story, it["title"] + " " + art):
+                story = None  # poori khabar mein ghalat jagah: sirf headline wali post
             if story:
                 first = re.split(r"(?<=[!۔.؟?])\s", text)[0]  # AI wali pehli line sarkhi ban jaye
                 text = f"{first}\n\n{finish(story)}"
@@ -3049,6 +3063,9 @@ def full_story(title, text):
     if not text or not (GEMINI_KEY or GROQ_KEY):
         return None
     prompt = ("Headline: " + title + "\n\nArticle:\n" + text +
+              "\n\nIMPORTANT: the article page may also contain OTHER unrelated news (related stories, live updates, "
+              "lists). Write ONLY about the ONE news described by the headline and ignore everything else. Keep every "
+              "place name exactly as in the article — never add or change a city, district or town."
               "\n\nWrite the COMPLETE news in Sindhi (Arabic script) for ordinary readers. \"story\": include ALL "
               "the information and facts given in the article — who, what, where, when, why, how, every number, "
               "name, place, date, amount and what officials/people said (indirectly), plus background given in the "
@@ -3070,6 +3087,41 @@ def full_story(title, text):
 
 
 CARD_TEXT = {}  # poori khabar -> card ke liye saare facts wala paragraph (isi run mein)
+
+
+def _place_names():
+    names = list(CONFIG.get("district_towns", []))
+    for c in CONFIG.get("priority_cities", []):
+        names += c.get("names", [])
+    return [n for n in dict.fromkeys(names) if len(n) >= 3]
+
+
+def places_in(text):
+    """Text mein aane wale (district/tarjeehi shehron ke) naam — Sindhi/Urdu/English mein, word boundary ke saath."""
+    t, low = str(text or ""), str(text or "").lower()
+    found = set()
+    known = {w for c in CONFIG.get("priority_cities", []) for w in c.get("names", [])}
+    groups = CONFIG.get("priority_cities", []) + [{"en": n, "names": [n]} for n in CONFIG.get("district_towns", [])
+                                                  if n not in known]
+    for c in groups:  # har shehar ke saare naam (English/Urdu/Sindhi) ek hi shehar
+        for w in c.get("names", []):
+            hit = (re.search(r"(?<![a-z])" + re.escape(w.lower()) + r"(?![a-z])", low) if w.isascii() else
+                   re.search(r"(?<![\u0600-\u06FF])" + re.escape(w) + r"(?![\u0600-\u06FF])", t))
+            if hit:
+                found.add(c.get("en", w))
+                break
+    return found
+
+
+def place_ok(written, source):
+    """Likhi hui khabar mein koi shehar ka naam aisa to nahi jo asal source mein hai hi nahi? (jagah ghalat likhna)"""
+    src = places_in(source)
+    for p_ in places_in(written):
+        if p_ not in src:
+            log("JAGAH GHALAT: likha", p_, "lekin source mein nahi")
+            STATS["wrong_place"] = STATS.get("wrong_place", 0) + 1
+            return False
+    return True
 
 
 def card_text(story, fallback=""):
@@ -3184,6 +3236,12 @@ def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, 
     label = TOPIC_SD.get(cat if icons else state_key, "")
     art, real_link = article_text(it["link"])
     story = full_story(it["title"], art) if art else None
+    src_ = it["title"] + " " + (art or "")
+    if story and not place_ok(story, src_):
+        story = None
+    if not place_ok(head + " " + post, src_):
+        log("ghalat jagah wali khabar roki:", it["title"][:60])
+        return
     msg = (f"{ic} {head}\n\n" if head else f"{ic} ") + \
         f"{finish(story or post)}\n\n{speaker_line(res.get('speaker'))}📌 {LBL['source']}: {clean_source(it['source'])}\n\n{footer()}"
     if news_card_post(msg, head or card_parts(post)[0], label, real_link or it["link"],
@@ -3697,6 +3755,7 @@ def handle_sindh_stream():
     post = clean_text(str(res.get("post", "")))
     if len(post) < 40 or blocked_reason(head + " " + post) or bad_script(head + post):
         return
+    art = None
     if it.get("gnews") or len(it["body"]) < 300:  # chhota snippet: poori khabar website se
         art, real = article_text(it["link"])
         story = full_story(it["title"], art) if art else None
@@ -3705,6 +3764,9 @@ def handle_sindh_stream():
             res["card"] = CARD_TEXT.get(story, "")
         if real:
             it["link"] = real
+    if not place_ok(head + " " + post + " " + str(res.get("card", "")), it["title"] + " " + it["body"] + " " + (art or "")):
+        log("ghalat jagah wali khabar roki:", it["title"][:60])
+        return
     rank = city_rank(it["title"] + " " + it["body"][:1500])
     district = bool(res.get("district")) or bool(rank and rank <= CONFIG.get("regions", {}).get("district_city_ranks", 6))
     msg = f"📰 {head}\n\n{finish(post)}\n\n{speaker_line(res.get('speaker'))}📌 {LBL['source']}: {it['source']}\n\n{footer()}"
