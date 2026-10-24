@@ -1580,7 +1580,16 @@
   "102a05e86ab0cc98": 1792884088.088594,
   "584c234e40bcc68c": 1792884088.0885954,
   "3ac20dfedf3f8232": 1792884088.0885968,
-  "3ec3c8f8692cb690": 1792884088.0887861
+  "3ec3c8f8692cb690": 1792884088.0887861,
+  "342c266bd0d6fd14": 1792884676.8234801,
+  "3badf525c37849e5": 1792884676.823483,
+  "fcc9cc88d0740c88": 1792884676.823484,
+  "1e37ad942ef66008": 1792884676.823485,
+  "18d308ec136fcfc5": 1792884676.8234859,
+  "e79770c39ba5773a": 1792884676.8234866,
+  "32ecfbcb81a27a6d": 1792884676.8234875,
+  "712ec0948b47f161": 1792884676.8234885,
+  "ebe75df65e25fcfe": 1792884676.823607
  },
  "pending": {},
  "queue": [],
@@ -2171,7 +2180,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-25 04:21",
+  "time": "2026-10-25 04:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7310,9 +7319,9 @@
  },
  "ai_usage": {
   "date": "2026-10-25",
-  "ok": 41,
+  "ok": 44,
   "fail": 0,
-  "limit": 70
+  "limit": 76
  },
  "posted_heads": [
   {
@@ -7637,7 +7646,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-25 04:21",
+  "time": "2026-10-25 04:31",
   "steps": []
  },
  "roundup_am": "2026-10-24",
@@ -7740,12 +7749,12 @@
  },
  "article_diag": {
   "date": "2026-10-25",
-  "tried": 7,
-  "decoded": 7,
+  "tried": 8,
+  "decoded": 8,
   "text": 5,
   "story": 4
  },
- "ai_last_error": "04:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "04:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-25",
   "models": [
@@ -7786,7 +7795,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-25",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7794,7 +7803,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-25",
-   "ok": 27,
+   "ok": 28,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7802,7 +7811,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-25",
-   "ok": 27,
+   "ok": 28,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7810,14 +7819,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-25",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-25",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7825,21 +7834,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-25",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-25",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-25",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8042,8 +8051,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 12,
-  "old": 12,
+  "found": 18,
+  "old": 18,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8072,8 +8081,8 @@
   "date": "2026-10-25",
   "count": 2,
   "last": 1792872072.0758343,
-  "city_i": 4,
-  "dry": 1792884075.9745152
+  "city_i": 8,
+  "dry": 1792884664.9388196
  },
  "gemini_day_dead": {
   "day": "2026-10-24",
@@ -8838,13 +8847,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-24 22:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-24 22:26",
    "ok": true,
    "n": 0,
@@ -9112,6 +9114,13 @@
   },
   {
    "t": "10-25 04:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-25 04:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13669,11 +13678,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-22 09:11",
-   "new": "پاڪستان ۾ اڄ سون جي اگهه ۾ تبديلي",
-   "old": "پاڪستان ۾ سون جي قيمت ۾ گهٽتائي"
-  },
-  {
    "t": "10-22 10:20",
    "new": "ملڪ ۾ دواسازي جي برآمدات ۾ گهٽتائي رڪارڊ",
    "old": "افغان تجارت معطل ٿيڻ سبب فارما برآمدات متاثر"
@@ -13817,6 +13821,11 @@
    "t": "10-25 04:21",
    "new": "بابراعظم کي پاڪستاني ٽيسٽ ٽيم جو ڪپتان مقرر ڪيو ويو",
    "old": "شام جون سنڌ جون اهم خبرون"
+  },
+  {
+   "t": "10-25 04:31",
+   "new": "پاڪستان ڪرڪيٽ ٽيم جو اعلان",
+   "old": "پاڪستان ڪرڪيٽ ٽيم جو تربيتي ڪيمپ شروع"
   }
  ],
  "tg_bot_id": 8610497682,
