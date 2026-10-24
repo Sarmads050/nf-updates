@@ -1,6 +1,5 @@
 {
  "seen": {
-  "6e7f36a52f7653f1": 1792254046.385838,
   "88d75250eb688a8f": 1792255254.4323797,
   "693e2b0aed48a9af": 1792255282.5031962,
   "3c4ed3b456df6fcc": 1792256515.324219,
@@ -1578,12 +1577,13 @@
   "5283d970f634b2b4": 1792855878.5700674,
   "54b29da08950b4bf": 1792857080.4094827,
   "1867d5d32c4c4135": 1792858271.6194587,
-  "c5e5a77f79c20d6c": 1792858926.5074677
+  "c5e5a77f79c20d6c": 1792858926.5074677,
+  "ae3b73aaefac1169": 1792859446.7964056
  },
  "pending": {},
  "queue": [],
  "jobs": [],
- "tg_offset": 92058803,
+ "tg_offset": 92058804,
  "daily": {
   "date": "2026-10-24",
   "count": 2
@@ -1658,7 +1658,7 @@
  "sindh_single": {
   "date": "2026-10-24",
   "count": 0,
-  "last": 1792850498.1553617,
+  "last": 1792859475.2983348,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2164,7 +2164,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-24 21:22",
+  "time": "2026-10-24 21:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7351,9 +7351,9 @@
  },
  "ai_usage": {
   "date": "2026-10-24",
-  "ok": 230,
+  "ok": 233,
   "fail": 1,
-  "limit": 339
+  "limit": 345
  },
  "posted_heads": [
   {
@@ -7678,7 +7678,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-24 21:22",
+  "time": "2026-10-24 21:31",
   "steps": []
  },
  "roundup_am": "2026-10-24",
@@ -7786,7 +7786,7 @@
   "text": 18,
   "story": 15
  },
- "ai_last_error": "21:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "21:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-24",
   "models": [
@@ -7827,7 +7827,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-24",
-   "ok": 133,
+   "ok": 134,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7835,30 +7835,30 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-24",
-   "ok": 131,
+   "ok": 132,
    "fail": 3,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-24",
-   "ok": 132,
+   "ok": 133,
    "fail": 2,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7866,21 +7866,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-24",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8083,8 +8083,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 12,
-  "old": 12,
+  "found": 18,
+  "old": 18,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8111,8 +8111,8 @@
  "sindh_stream": {
   "date": "2026-10-24",
   "count": 19,
-  "last": 1792858265.2703967,
-  "city_i": 20,
+  "last": 1792859439.1559477,
+  "city_i": 24,
   "dry": 1792855263.3697112
  },
  "gemini_day_dead": {
@@ -8189,7 +8189,8 @@
   92058799,
   92058800,
   92058801,
-  92058802
+  92058802,
+  92058803
  ],
  "reel_pool": [
   {
@@ -8863,7 +8864,8 @@
    "09:30",
    "12:30",
    "15:30",
-   "18:30"
+   "18:30",
+   "21:30"
   ]
  },
  "kawish_queue": [],
@@ -8873,13 +8875,6 @@
   "last": 1792841512.4800713
  },
  "tg_debug": [
-  {
-   "t": "10-24 15:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-24 15:20",
    "ok": true,
@@ -9151,6 +9146,15 @@
    "ok": true,
    "n": 0,
    "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-24 21:30",
+   "ok": true,
+   "n": 1,
+   "ids": [
+    92058803
+   ],
    "err": null
   }
  ],
@@ -13511,11 +13515,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-21 11:11",
-   "new": "سنڌ زرعي يونيورسٽي جو ڪڻڪ جي پيداوار تي اهم بيان",
-   "old": "هائبرڊ ٻج سان ڪڻڪ جو اصرار"
-  },
-  {
    "t": "10-22 06:02",
    "new": "پيٽرول سستو، ڊيزل جي قيمت ۾ واڌ",
    "old": "پيٽرول اگهه ۾ گهٽات ۽ ڊيزل مهانگو"
@@ -13659,6 +13658,11 @@
    "t": "10-24 16:01",
    "new": "شهدادپور ۾ پسند جي شادي ڪندڙ جوڙو قتل",
    "old": "شهدادپور: پسند جي شاديءَ تان نثار لاشاري ۽ زڪيه بليدي قتل"
+  },
+  {
+   "t": "10-24 21:31",
+   "new": "ڪراچي ۾ منڪي پاڪس وگهي ٻارڙو فوت، انگ ٻارهن ٿي ويو",
+   "old": "سنڌ | سنڌ ۾ منکی پاکس جا وڌيڪ ڪيس"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13677,5 +13681,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
