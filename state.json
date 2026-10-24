@@ -1,7 +1,5 @@
 {
  "seen": {
-  "7444d553e44f7d87": 1792212058.780716,
-  "83ca43387e26c76b": 1792212071.5165193,
   "e5716ae997ba2655": 1792212653.4106061,
   "a19e1b8527549279": 1792212653.4107618,
   "d5b12ad3565907b8": 1792213592.0164642,
@@ -1581,7 +1579,10 @@
   "f85dac8f5fcd2811": 1792815668.1408548,
   "b1c4ca2ad417a452": 1792816871.3567758,
   "9e739f7f86ccf357": 1792816871.3568442,
-  "b334c2d6a97a0640": 1792816871.3568485
+  "b334c2d6a97a0640": 1792816871.3568485,
+  "eb8f66f61eb4720c": 1792817460.796177,
+  "c2227856974726a2": 1792817460.7961793,
+  "76dcbe5cd3310cff": 1792817460.7964432
  },
  "pending": {
   "89d74fef1c39e4a0": {
@@ -2256,7 +2257,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-24 09:41",
+  "time": "2026-10-24 09:51",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7363,9 +7364,9 @@
  },
  "ai_usage": {
   "date": "2026-10-24",
-  "ok": 100,
+  "ok": 102,
   "fail": 0,
-  "limit": 160
+  "limit": 164
  },
  "posted_heads": [
   {
@@ -7690,7 +7691,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-24 09:41",
+  "time": "2026-10-24 09:51",
   "steps": []
  },
  "roundup_am": "2026-10-24",
@@ -7793,12 +7794,12 @@
  },
  "article_diag": {
   "date": "2026-10-24",
-  "tried": 16,
-  "decoded": 16,
-  "text": 12,
-  "story": 10
+  "tried": 17,
+  "decoded": 17,
+  "text": 13,
+  "story": 11
  },
- "ai_last_error": "09:41 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "09:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-24",
   "models": [
@@ -7839,7 +7840,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-24",
-   "ok": 61,
+   "ok": 62,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7847,7 +7848,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-24",
-   "ok": 61,
+   "ok": 62,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7855,7 +7856,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-24",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7863,14 +7864,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7878,21 +7879,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-24",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8189,8 +8190,8 @@
  },
  "report_acc": {
   "posted": 3,
-  "found": 28,
-  "old": 28,
+  "found": 35,
+  "old": 35,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9001,13 +9002,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-24 03:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-24 03:40",
    "ok": true,
    "n": 0,
@@ -9275,6 +9269,13 @@
   },
   {
    "t": "10-24 09:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-24 09:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14097,6 +14098,11 @@
    "t": "10-24 08:22",
    "new": "وزيراعظم پاران ڪڻڪ جو سهارو اگهه مقرر",
    "old": "پي ايم يوتھ ڪروم بڪ اسڪيم جو اعلان"
+  },
+  {
+   "t": "10-24 09:51",
+   "new": "لاهور ۾ مهانگائي جو طوفان، ڪڻڪ جو اָٽو مهانگو ٿي ويو",
+   "old": "نوشہروفیروز ۾ زمين جي تڪرار تان ٽي ماڻهو گم ۽ ڇھ زخمي ٿي پيا."
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14115,5 +14121,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
