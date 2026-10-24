@@ -2238,7 +2238,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-24 15:48",
+  "time": "2026-10-24 15:50",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -4666,32 +4666,8 @@
   "last": 1792832022.247851
  },
  "trends": {
-  "last": 1792828252.6587865,
+  "last": 1792839053.4715922,
   "terms": [
-   {
-    "term": "dawn",
-    "traffic": 1000,
-    "news": "Pakistan, Malaysia vow to deepen trade, investment ties",
-    "t": 1792227659,
-    "cat": "transport_trade",
-    "sindh": false
-   },
-   {
-    "term": "matt reeves",
-    "traffic": 200,
-    "news": "Robert Pattinson Confirms Filming for The Batman Sequel Is ‘Pausing for a Little Bit’ After Director Stepped Away",
-    "t": 1792227659,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "high speed diesel price unchanged",
-    "traffic": 100,
-    "news": "Diesel marks third week of price cuts, spot freight rates stable",
-    "t": 1792227659,
-    "cat": "fuel",
-    "sindh": false
-   },
    {
     "term": "drama",
     "traffic": 100,
@@ -7379,15 +7355,87 @@
     "t": 1792828252,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "naman dhir",
+    "traffic": 20000,
+    "news": "NZ vs IND 1st T20I Highlights: India Complete Record 226 Chase",
+    "t": 1792839053,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "tilak varma",
+    "traffic": 1000,
+    "news": "Tilak Varma sets calendar-year record for most catches by a fielder in T20Is",
+    "t": 1792839053,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "shreyas iyer",
+    "traffic": 500,
+    "news": "Zimbabwe's veterans lead 99-run rout of Bangladesh",
+    "t": 1792839053,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "ethan klein",
+    "traffic": 100,
+    "news": "Ethan Klein Cheating Scandal: What He Said About Infidelity in Resurfaced Clip",
+    "t": 1792839053,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "panic buying",
+    "traffic": 200,
+    "news": "JI launches 3rd phase of protest",
+    "t": 1792839053,
+    "cat": "inflation",
+    "sindh": false
+   },
+   {
+    "term": "islam makhachev",
+    "traffic": 500,
+    "news": "Islam Makhachev Fight Rumors Yield Interesting Response From Dana White",
+    "t": 1792839053,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "abhishek sharma",
+    "traffic": 1000,
+    "news": "Vaibhav Sooryavanshi-Abhishek Sharma selfie goes viral!",
+    "t": 1792839053,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "sanju samson",
+    "traffic": 500,
+    "news": "Kotak backs Dhir’s promise after stunning Christchurch knock",
+    "t": 1792839053,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "pak vs nz",
+    "traffic": 100,
+    "news": "Indian Become 2nd Team In The World After Pakistan To...",
+    "t": 1792839053,
+    "cat": "cricket",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-24",
-  "ok": 179,
+  "ok": 180,
   "fail": 1,
-  "limit": 267
+  "limit": 269
  },
  "posted_heads": [
   {
@@ -7720,7 +7768,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-24 15:48",
+  "time": "2026-10-24 15:50",
   "steps": []
  },
  "roundup_am": "2026-10-24",
@@ -7828,7 +7876,7 @@
   "text": 18,
   "story": 15
  },
- "ai_last_error": "15:47 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "15:50 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-24",
   "models": [
@@ -7869,7 +7917,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-24",
-   "ok": 98,
+   "ok": 99,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7877,7 +7925,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-24",
-   "ok": 97,
+   "ok": 98,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7885,7 +7933,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-24",
-   "ok": 98,
+   "ok": 99,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7893,14 +7941,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7908,21 +7956,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-24",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8125,8 +8173,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 24,
-  "old": 24,
+  "found": 30,
+  "old": 30,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8963,13 +9011,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-24 09:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-24 09:30",
    "ok": true,
    "n": 0,
@@ -9237,6 +9278,13 @@
   },
   {
    "t": "10-24 15:47",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-24 15:50",
    "ok": true,
    "n": 0,
    "ids": [],
