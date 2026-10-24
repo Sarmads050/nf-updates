@@ -1,6 +1,5 @@
 {
  "seen": {
-  "ca6f33085f3578bc": 1792206661.6618369,
   "cb124f410030722d": 1792207241.9401212,
   "fd2f0f1be4482ece": 1792208453.4819083,
   "95e1609ef8b57582": 1792208453.4819107,
@@ -1584,7 +1583,12 @@
   "e60c09d4b0afc02b": 1792808487.004943,
   "609a9e02690679e1": 1792808487.0051742,
   "7f0a79f7b6a00815": 1792809679.1413834,
-  "1f8a7586ddd88df8": 1792810273.0045462
+  "1f8a7586ddd88df8": 1792810273.0045462,
+  "f8e96e9eea2e0a25": 1792812097.4702356,
+  "6c8dbc2b5c923cfc": 1792812112.9200814,
+  "b3eed4a41389aa77": 1792812112.9200852,
+  "34dcf1203066a9de": 1792812112.9200869,
+  "8ad7122bf50c1b18": 1792812112.9203176
  },
  "pending": {
   "89d74fef1c39e4a0": {
@@ -1783,7 +1787,7 @@
  "sindh_single": {
   "date": "2026-10-24",
   "count": 0,
-  "last": 1792774950.5899928,
+  "last": 1792812092.2969706,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1802,7 +1806,8 @@
    "08f2da05ad9cadf9",
    "cf92ce9af593aa02",
    "3311e043c3533eeb",
-   "89dda901c2b1a631"
+   "89dda901c2b1a631",
+   "f8e96e9eea2e0a25"
   ]
  },
  "last_post_id": "1444130002106066_122112914211503839",
@@ -2274,7 +2279,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-24 08:10",
+  "time": "2026-10-24 08:22",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7405,9 +7410,9 @@
  },
  "ai_usage": {
   "date": "2026-10-24",
-  "ok": 72,
+  "ok": 76,
   "fail": 0,
-  "limit": 116
+  "limit": 124
  },
  "posted_heads": [
   {
@@ -7732,7 +7737,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-24 08:10",
+  "time": "2026-10-24 08:22",
   "steps": []
  },
  "roundup_am": "2026-10-24",
@@ -7835,12 +7840,12 @@
  },
  "article_diag": {
   "date": "2026-10-24",
-  "tried": 12,
-  "decoded": 12,
-  "text": 9,
-  "story": 7
+  "tried": 13,
+  "decoded": 13,
+  "text": 10,
+  "story": 8
  },
- "ai_last_error": "08:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "08:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-24",
   "models": [
@@ -7881,7 +7886,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-24",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7889,7 +7894,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-24",
-   "ok": 52,
+   "ok": 53,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7897,7 +7902,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-24",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7905,14 +7910,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7920,21 +7925,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-24",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8231,8 +8236,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 7,
-  "old": 7,
+  "found": 14,
+  "old": 14,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8260,8 +8265,8 @@
   "date": "2026-10-24",
   "count": 1,
   "last": 1792785356.1060324,
-  "city_i": 16,
-  "dry": 1792810259.846896
+  "city_i": 20,
+  "dry": 1792812068.546695
  },
  "gemini_day_dead": {
   "day": "2026-10-23",
@@ -9017,13 +9022,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-24 02:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-24 02:10",
    "ok": true,
    "n": 0,
@@ -9291,6 +9289,13 @@
   },
   {
    "t": "10-24 08:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-24 08:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13971,6 +13976,16 @@
    "t": "10-24 06:11",
    "new": "سنڌ لاءِ 4 ڪروڙ ڊالرن جو ترقياتي پروگرام",
    "old": "اڄ جون نوڪريون (نوشهروفيروز ۽ سنڌ)"
+  },
+  {
+   "t": "10-24 08:21",
+   "new": "سنڌ | پيٽرول ۽ ډيزل جي قيمتن ۾ تبديلي",
+   "old": "سنڌ | پيٹرول پمپ مالکان پاران روزاني جي بنياد تي قيمتن ۾ واڌ تي تحفظات"
+  },
+  {
+   "t": "10-24 08:22",
+   "new": "وزيراعظم پاران ڪڻڪ جو سهارو اگهه مقرر",
+   "old": "پي ايم يوتھ ڪروم بڪ اسڪيم جو اعلان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13989,5 +14004,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
