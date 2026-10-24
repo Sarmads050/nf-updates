@@ -1,6 +1,5 @@
 {
  "seen": {
-  "2f70b69d77bb0328": 1792263657.1804008,
   "05adbafc136a1abc": 1792264263.8002865,
   "5edf2d0cd2d053e0": 1792264263.8002896,
   "1982520861a1b7f2": 1792264263.8002908,
@@ -2168,7 +2167,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-25 00:03",
+  "time": "2026-10-25 00:10",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7682,7 +7681,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-25 00:03",
+  "time": "2026-10-25 00:10",
   "steps": []
  },
  "roundup_am": "2026-10-24",
@@ -7831,7 +7830,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-25",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7839,7 +7838,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-25",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7847,7 +7846,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-25",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7855,14 +7854,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-25",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-25",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7870,21 +7869,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-25",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-25",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-25",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8087,8 +8086,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 7,
+  "old": 7,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8875,13 +8874,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-24 18:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-24 18:10",
    "ok": true,
    "n": 0,
@@ -9151,6 +9143,13 @@
   },
   {
    "t": "10-25 00:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-25 00:10",
    "ok": true,
    "n": 0,
    "ids": [],
