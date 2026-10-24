@@ -1562,7 +1562,18 @@
   "6019070d48ffa44c": 1792798292.3357399,
   "4817abf28a933abd": 1792801268.6266813,
   "d4c7a994799792dd": 1792801268.6268258,
-  "d4acf835fbd7c21c": 1792801862.5934348
+  "d4acf835fbd7c21c": 1792801862.5934348,
+  "9b2313aa7b9e315d": 1792803690.6712656,
+  "997975efeecf326d": 1792803710.1466105,
+  "de395a04cd05022f": 1792803710.1466136,
+  "a1c401a13bd7966f": 1792803710.1466148,
+  "2022a3a0068d204e": 1792803710.1466157,
+  "901d385ee7ecb57c": 1792803710.1466165,
+  "f1ee7aaf0ab36bdc": 1792803710.1466174,
+  "358de19f8d66a6a7": 1792803710.1466186,
+  "6044b54da1ee668f": 1792803710.1466198,
+  "8c347e31e8becf7d": 1792803710.1466208,
+  "e26185e142d3f457": 1792803710.1467767
  },
  "pending": {
   "89d74fef1c39e4a0": {
@@ -2251,7 +2262,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-24 05:50",
+  "time": "2026-10-24 06:01",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7382,9 +7393,9 @@
  },
  "ai_usage": {
   "date": "2026-10-24",
-  "ok": 45,
+  "ok": 50,
   "fail": 0,
-  "limit": 70
+  "limit": 80
  },
  "posted_heads": [
   {
@@ -7709,7 +7720,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-24 05:50",
+  "time": "2026-10-24 06:01",
   "steps": []
  },
  "roundup_am": "2026-10-23",
@@ -7812,12 +7823,12 @@
  },
  "article_diag": {
   "date": "2026-10-24",
-  "tried": 6,
-  "decoded": 6,
-  "text": 5,
-  "story": 3
+  "tried": 8,
+  "decoded": 8,
+  "text": 7,
+  "story": 5
  },
- "ai_last_error": "05:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "06:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-24",
   "models": [
@@ -7858,7 +7869,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-24",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7866,7 +7877,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-24",
-   "ok": 37,
+   "ok": 38,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7874,7 +7885,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-24",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7882,14 +7893,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7897,21 +7908,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-24",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8207,14 +8218,14 @@
   "pakistan": 5
  },
  "report_acc": {
-  "posted": 1,
-  "found": 28,
-  "old": 28,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-24 05",
+ "report_hour": "2026-10-24 06",
  "kawish_upload_times": {
   "_date": "2026-10-24",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8237,8 +8248,8 @@
   "date": "2026-10-24",
   "count": 1,
   "last": 1792785356.1060324,
-  "city_i": 6,
-  "dry": 1792801261.9885225
+  "city_i": 10,
+  "dry": 1792803680.9319568
  },
  "gemini_day_dead": {
   "day": "2026-10-23",
@@ -8994,13 +9005,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-23 23:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-23 23:50",
    "ok": true,
    "n": 0,
@@ -9268,6 +9272,13 @@
   },
   {
    "t": "10-24 05:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-24 06:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13990,6 +14001,16 @@
    "t": "10-24 02:51",
    "new": "پيٽرول جي قيمت برقرار، ڊيزل مهانگو",
    "old": "پيٽرول اگهه ۾ گهٽ»، ڊيزل مهانگو"
+  },
+  {
+   "t": "10-24 06:01",
+   "new": "حارث رؤف جو ٽيسٽ ڪرڪيٽ کيڏڻ جو اظهار",
+   "old": "حارث رؤف جي ٽيسٽ ڪرٽ کيڏڻ لاءِ رضا مندي"
+  },
+  {
+   "t": "10-24 06:01",
+   "new": "سال 2027 لاءِ ڪڻڪ جو اگهه مقرر",
+   "old": "پي ايم سال 2027 لاءِ ڪڻڪ جو اگهه مقرر"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14008,5 +14029,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
