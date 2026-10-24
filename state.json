@@ -1573,7 +1573,17 @@
   "358de19f8d66a6a7": 1792803710.1466186,
   "6044b54da1ee668f": 1792803710.1466198,
   "8c347e31e8becf7d": 1792803710.1466208,
-  "e26185e142d3f457": 1792803710.1467767
+  "e26185e142d3f457": 1792803710.1467767,
+  "56002f4d51ec3912": 1792804278.0997334,
+  "6a83504807c61a67": 1792804278.0997353,
+  "57620c060c0765c1": 1792804278.099737,
+  "21e6c30b462ba9a5": 1792804278.099738,
+  "7ff9e51cad173ff2": 1792804278.0997384,
+  "6889b3341b7b8701": 1792804278.099739,
+  "bc995b1f68fa6e65": 1792804278.0997396,
+  "d0b8f6b4be0ea8c9": 1792804278.0997405,
+  "376c12f752ff88d4": 1792804278.0997412,
+  "7af67c8af538e125": 1792804278.099971
  },
  "pending": {
   "89d74fef1c39e4a0": {
@@ -2262,7 +2272,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-24 06:01",
+  "time": "2026-10-24 06:11",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7393,9 +7403,9 @@
  },
  "ai_usage": {
   "date": "2026-10-24",
-  "ok": 50,
+  "ok": 52,
   "fail": 0,
-  "limit": 80
+  "limit": 84
  },
  "posted_heads": [
   {
@@ -7720,7 +7730,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-24 06:01",
+  "time": "2026-10-24 06:11",
   "steps": []
  },
  "roundup_am": "2026-10-23",
@@ -7823,12 +7833,12 @@
  },
  "article_diag": {
   "date": "2026-10-24",
-  "tried": 8,
-  "decoded": 8,
+  "tried": 9,
+  "decoded": 9,
   "text": 7,
   "story": 5
  },
- "ai_last_error": "06:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "06:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-24",
   "models": [
@@ -7869,7 +7879,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-24",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7877,7 +7887,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-24",
-   "ok": 38,
+   "ok": 39,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7885,7 +7895,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-24",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7893,14 +7903,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7908,21 +7918,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-24",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8248,8 +8258,8 @@
   "date": "2026-10-24",
   "count": 1,
   "last": 1792785356.1060324,
-  "city_i": 10,
-  "dry": 1792803680.9319568
+  "city_i": 14,
+  "dry": 1792804259.8557608
  },
  "gemini_day_dead": {
   "day": "2026-10-23",
@@ -9005,13 +9015,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-23 23:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-24 00:00",
    "ok": true,
    "n": 0,
@@ -9279,6 +9282,13 @@
   },
   {
    "t": "10-24 06:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-24 06:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14011,6 +14021,11 @@
    "t": "10-24 06:01",
    "new": "سال 2027 لاءِ ڪڻڪ جو اگهه مقرر",
    "old": "پي ايم سال 2027 لاءِ ڪڻڪ جو اگهه مقرر"
+  },
+  {
+   "t": "10-24 06:11",
+   "new": "سنڌ لاءِ 4 ڪروڙ ڊالرن جو ترقياتي پروگرام",
+   "old": "اڄ جون نوڪريون (نوشهروفيروز ۽ سنڌ)"
   }
  ],
  "tg_bot_id": 8610497682,
