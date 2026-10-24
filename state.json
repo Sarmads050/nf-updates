@@ -1575,7 +1575,8 @@
   "2f8392e8f4b06816": 1792849267.47014,
   "395f2fca1dd61341": 1792852304.2843742,
   "385d5ec85ce8dac4": 1792853474.2827797,
-  "5283d970f634b2b4": 1792855878.5700674
+  "5283d970f634b2b4": 1792855878.5700674,
+  "54b29da08950b4bf": 1792857080.4094827
  },
  "pending": {},
  "queue": [],
@@ -1678,18 +1679,8 @@
    "f8e96e9eea2e0a25"
   ]
  },
- "last_post_id": "1444130002106066_122113168797503839",
+ "last_post_id": "1444130002106066_122113173327503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122112904749503839",
-   "title": "مريم نواز ضروري شين جي اگھن جي سخت نگراني ڪرڻ جو حڪم ڏنو آهي ته جيئن عوام کي سهولت ملي",
-   "t": 1792808534.817899,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122112904749503839"
-  },
   {
    "id": "1444130002106066_122112910815503839",
    "title": "مُلڪ ۾ عالمي مارڪيٽ جي حوالي سان تيل جي قيمتن ۾ واڌ ڪئي وئي آهي جنهن سان مهانگائي جو نئون",
@@ -2011,6 +2002,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122113168797503839"
+  },
+  {
+   "id": "1444130002106066_122113173327503839",
+   "title": "خيرپور ۾ نئين گئس کوهه مان پيداوار شروع",
+   "t": 1792857120.5431728,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122113173327503839"
   }
  ],
  "share_sent": {
@@ -2156,7 +2159,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-24 20:40",
+  "time": "2026-10-24 20:52",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2171,17 +2174,11 @@
  },
  "all_posts": {
   "date": "2026-10-24",
-  "count": 40,
-  "last": 1792856000.6484797
+  "count": 41,
+  "last": 1792857109.9407916
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122107999965503839",
-    "sec": "cricket_news",
-    "cat": "cricket_news",
-    "t": 1792125673
-   },
    {
     "id": "1444130002106066_122108008947503839",
     "sec": "sindh_single",
@@ -4575,6 +4572,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1792856008
+   },
+   {
+    "id": "1444130002106066_122113173327503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1792857120
    }
   ]
  },
@@ -7343,15 +7346,11 @@
  },
  "ai_usage": {
   "date": "2026-10-24",
-  "ok": 220,
+  "ok": 225,
   "fail": 1,
-  "limit": 326
+  "limit": 333
  },
  "posted_heads": [
-  {
-   "h": "سنڌ پبلڪ سروس ڪميشن جي سي سي اي 2026ع جي اسڪريننگ ٽيسٽ ملتوي",
-   "t": 1792667007
-  },
   {
    "h": "Dollar at Rs280.15 in Open Market: Check Pakistan’s Latest Currency Rates",
    "t": 1792668212
@@ -7667,10 +7666,14 @@
   {
    "h": "بانس، مستقبل ۾ پيٽرول، ڊيزل ۽ گهريلو گئس جي جاءِ واري سگهي ٿو!",
    "t": 1792856008
+  },
+  {
+   "h": "خيرپور ۾ نئين هٿ آيل کوهه مان روز 70 لک چورس فٽ گئس پيداوار شروع، پيداوار وڌڻ جا چِٽا امڪان",
+   "t": 1792857120
   }
  ],
  "last_errors": {
-  "time": "2026-10-24 20:40",
+  "time": "2026-10-24 20:52",
   "steps": []
  },
  "roundup_am": "2026-10-24",
@@ -7778,7 +7781,7 @@
   "text": 18,
   "story": 15
  },
- "ai_last_error": "20:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "20:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-24",
   "models": [
@@ -7792,9 +7795,9 @@
  },
  "img_diag": {
   "date": "2026-10-24",
-  "tried": 37,
+  "tried": 38,
   "gemini": 0,
-  "pollinations": 14,
+  "pollinations": 15,
   "skip": 14,
   "fail": 10,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
@@ -7819,7 +7822,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-24",
-   "ok": 129,
+   "ok": 130,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7827,7 +7830,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-24",
-   "ok": 128,
+   "ok": 129,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7835,7 +7838,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-24",
-   "ok": 129,
+   "ok": 130,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7843,14 +7846,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 130,
+   "ok": 131,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 130,
+   "ok": 131,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7858,21 +7861,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 130,
+   "ok": 131,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 130,
+   "ok": 131,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-24",
-   "ok": 130,
+   "ok": 131,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -7882,7 +7885,7 @@
   "last": "2026-10-23",
   "idx": 1
  },
- "ai_last_model": "google/gemma-4-31b-it:free",
+ "ai_last_model": "google/gemma-4-26b-a4b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8070,13 +8073,13 @@
  "region_posts": {
   "date": "2026-10-24",
   "district": 2,
-  "sindh": 21,
+  "sindh": 22,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 24,
-  "old": 24,
+  "posted": 2,
+  "found": 30,
+  "old": 30,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8102,9 +8105,9 @@
  },
  "sindh_stream": {
   "date": "2026-10-24",
-  "count": 17,
-  "last": 1792855866.06977,
-  "city_i": 12,
+  "count": 18,
+  "last": 1792857062.5771284,
+  "city_i": 16,
   "dry": 1792855263.3697112
  },
  "gemini_day_dead": {
@@ -8839,6 +8842,14 @@
    "t": 1792856008,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "2d4484bb839a22be",
+   "h": "خيرپور ۾ نئين گئس کوهه مان پيداوار شروع",
+   "x": "خيرپور ضلعي ۾ پيٽروليم ۽ گئس جي نئين برآمد ٿيل کوهه بتسر ايسٽ 1 مان باقاعده طور گئس جي پيداوار شروع ٿي وئي آهي، جنهن کانپوءِ روزانو تقريبن 70 لک چورس فٽ گئس قومي نظام ۾ شامل ڪئي پئي وڃي. هن اهم ڪاميابي سان ملڪ ۾ جاري توانائي جي بحران کي گھٽائڻ ۽ گئس جي طلب توڙي رسد جي وچ ۾ موجود فرق کي منهن ڏيڻ ۾ وڏي مدد ملندي. مقامي سطح تي توانائي جا نوان ذخيرا هٿ اچڻ سان پرڏيهه مان مهانگو ٻارڻ گھرائڻ جي ضرورت به گھٽجي ويندي، جنهن سان قومي خزانن تي پوندڙ بار گهٽائڻ ۾ مدد ملندي!",
+   "t": 1792857120,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8857,13 +8868,6 @@
   "last": 1792841512.4800713
  },
  "tg_debug": [
-  {
-   "t": "10-24 14:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-24 14:40",
    "ok": true,
@@ -9136,60 +9140,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "10-24 20:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-10-24",
  "recent_posts": [
-  {
-   "t": 1792683788,
-   "h": "23K views · 1.9K reactions | جکراڻي خاندان بابت وڏي خبر!",
-   "b": "ڏوھ ڏنڊ؟ بلاول ۽ فريال جي مداخلت؟ #JakhraniFamily #JakhraniTribe #BilawalBhutto #FaryalTalpur #PPP",
-   "tt": [
-    "#1.9",
-    "#23",
-    "23k",
-    "reactions",
-    "views",
-    "بابت",
-    "جڪراڻي",
-    "خاندان",
-    "خبر",
-    "وڏي"
-   ],
-   "bt": [
-    "#1.9",
-    "#23",
-    "23k",
-    "bilawalbhutto",
-    "breakingnews",
-    "crimeandjustice",
-    "factnowsaraiki",
-    "factnowsindhi",
-    "factnowurdu",
-    "faryaltalpur",
-    "jakhranifamily",
-    "jakhranitribe",
-    "pakistannews",
-    "politicalintervention",
-    "ppp",
-    "reactions",
-    "sadamkolachi",
-    "sindhnews",
-    "sindhpolitics",
-    "tribaldispute",
-    "views",
-    "بابت",
-    "بلاول",
-    "جڪراڻي",
-    "خاندان",
-    "خبر",
-    "فريال",
-    "مداخلت؟",
-    "وڏي",
-    "ڏنڊ؟",
-    "ڏوھ"
-   ]
-  },
   {
    "t": 1792685038,
    "h": "ميرپورخاص ڪشن پاران ڏجي وئي گهرائي هوندلي جي ڪا سرڪاري هلندڙ ميڊيا تائين سرٽيفڪي",
@@ -13513,6 +13474,47 @@
     "گهرن",
     "گهريلو",
     "ڳوٺن"
+   ]
+  },
+  {
+   "t": 1792857120,
+   "h": "خيرپور ۾ نئين گئس کوهه مان پيداوار شروع",
+   "b": "خيرپور ضلعي ۾ پيٽروليم ۽ گئس جي نئين برآمد ٿيل کوهه بتسر ايسٽ 1 مان باقاعده طور گئس جي پيداوار شروع ٿي وئي",
+   "tt": [
+    "خيرپور",
+    "شروع",
+    "مان",
+    "نئين",
+    "پيداوار",
+    "ڪوهه",
+    "گئس"
+   ],
+   "bt": [
+    "#70",
+    "اهي،",
+    "ايسٽ",
+    "باقاعده",
+    "بتسر",
+    "برامد",
+    "تقريبن",
+    "خيرپور",
+    "روزانو",
+    "شامل",
+    "شروع",
+    "ضلعي",
+    "طور",
+    "قومي",
+    "مان",
+    "نئين",
+    "نظام",
+    "پئي",
+    "پيداوار",
+    "پيٽروليم",
+    "ٿيل",
+    "چورس",
+    "ڪانپوء",
+    "ڪوهه",
+    "گئس"
    ]
   }
  ],
