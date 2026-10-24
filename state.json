@@ -1578,7 +1578,10 @@
   "a161c343b6e6621a": 1792815072.1225653,
   "64f4fbe6f237564c": 1792815082.897193,
   "0eeb2529ac0fbd4f": 1792815082.8973804,
-  "f85dac8f5fcd2811": 1792815668.1408548
+  "f85dac8f5fcd2811": 1792815668.1408548,
+  "b1c4ca2ad417a452": 1792816871.3567758,
+  "9e739f7f86ccf357": 1792816871.3568442,
+  "b334c2d6a97a0640": 1792816871.3568485
  },
  "pending": {
   "89d74fef1c39e4a0": {
@@ -1790,18 +1793,8 @@
    "f8e96e9eea2e0a25"
   ]
  },
- "last_post_id": "1444130002106066_122112943917503839",
+ "last_post_id": "1444130002106066_122112948309503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122112673965503839",
-   "title": "بلاول چئي چڪو آهي ته ڪي پي ۾ ايمرجنسي مجبوري هئي: شازيا مري",
-   "t": 1792759378.1644368,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122112673965503839"
-  },
   {
    "id": "1444130002106066_122112684279503839",
    "title": "وفاقي ڪابينا جو اجلاس، ترقياتي ڪمن جو جائزو",
@@ -2106,6 +2099,18 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122112943917503839"
+  },
+  {
+   "id": "1444130002106066_122112948309503839",
+   "title": "شهدادپور: پسند جي شاديءَ تان نثار لاشاري ۽ زڪيه بليدي قتل",
+   "t": 1792816889.5838675,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122112948309503839"
   }
  ],
  "share_sent": {
@@ -2251,7 +2256,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-24 09:31",
+  "time": "2026-10-24 09:41",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2266,17 +2271,11 @@
  },
  "all_posts": {
   "date": "2026-10-24",
-  "count": 15,
-  "last": 1792815737.841142
+  "count": 16,
+  "last": 1792816883.3971984
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122107436571503839",
-    "sec": "public_news",
-    "cat": "health",
-    "t": 1792071681
-   },
    {
     "id": "1444130002106066_122107458411503839",
     "sec": "cricket_news",
@@ -4670,6 +4669,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1792815744
+   },
+   {
+    "id": "1444130002106066_122112948309503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1792816889
    }
   ]
  },
@@ -4679,48 +4684,8 @@
   "last": 1792812829.7020354
  },
  "trends": {
-  "last": 1792806054.437108,
+  "last": 1792816856.7044988,
   "terms": [
-   {
-    "term": "bigg boss episode 40",
-    "traffic": 200,
-    "news": "Bigg Boss 20 Episode 40 Review: Scout Takes Captaincy As Qazi Opens Up About Ekta Kapoor",
-    "t": 1792205453,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "ilhan omar",
-    "traffic": 100,
-    "news": "Trump officials scrutinized Omar in 2019. They didn’t find citizenship issues.",
-    "t": 1792205453,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "h",
-    "traffic": 100,
-    "news": "Trump Administration Again Proposes Elimination of Deference to Prior Approvals of Immigration Petitions",
-    "t": 1792205453,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "2",
-    "traffic": 100,
-    "news": "Police Respond to Active Shooter at Silver Rail Elementary; Five People Dead, Including Three Children",
-    "t": 1792205453,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "the diplomat",
-    "traffic": 100,
-    "news": "'Atmanirbhar Bharat does not mean isolation', says Rajnath Singh at Tarang Shakti; stresses domestic...",
-    "t": 1792205453,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "fakhar zaman 2027 world cup",
     "traffic": 1000,
@@ -7376,21 +7341,33 @@
     "t": 1792806054,
     "cat": "fuel",
     "sindh": false
+   },
+   {
+    "term": "vincent kompany",
+    "traffic": 200,
+    "news": "Bayern Munich coach Kompany in hospital after collapsing",
+    "t": 1792816857,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "diesel fuel",
+    "traffic": 200,
+    "news": "First tanker of Russian diesel sets sail for the US in Trump’s controversial deal with Putin",
+    "t": 1792816857,
+    "cat": "fuel",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-24",
-  "ok": 97,
+  "ok": 100,
   "fail": 0,
-  "limit": 154
+  "limit": 160
  },
  "posted_heads": [
-  {
-   "h": "سنڌ تي آفت مڙهي پئي وڃي، مقابلو ڪنداسين ۽ ڪامياب ٿينداسين: ڊاڪٽر قادر مگسي",
-   "t": 1792591997
-  },
   {
    "h": "ٽنڊو آدم ۾ شاگردياڻين ۾ راندين جا مقابلا: والي بال ۾ سانگهڙ جي ٽيم پهرين پوزيشن ماڻي ورتي",
    "t": 1792610594
@@ -7706,10 +7683,14 @@
   {
    "h": "PCB School Cricket Talent Hunt players gain exposure at Pakistan men's team training session",
    "t": 1792815744
+  },
+  {
+   "h": "شهدادپور: پسند جي شاديءَ جي معاملي تان نثار لاشاري ۽ زڪيه بليدي قتل",
+   "t": 1792816889
   }
  ],
  "last_errors": {
-  "time": "2026-10-24 09:31",
+  "time": "2026-10-24 09:41",
   "steps": []
  },
  "roundup_am": "2026-10-24",
@@ -7817,7 +7798,7 @@
   "text": 12,
   "story": 10
  },
- "ai_last_error": "09:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "09:41 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-24",
   "models": [
@@ -7831,10 +7812,10 @@
  },
  "img_diag": {
   "date": "2026-10-24",
-  "tried": 13,
+  "tried": 14,
   "gemini": 0,
   "pollinations": 10,
-  "skip": 0,
+  "skip": 1,
   "fail": 0,
   "last_note": "cricket bat and ball",
   "mismatch": 110
@@ -7858,7 +7839,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-24",
-   "ok": 60,
+   "ok": 61,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7866,7 +7847,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-24",
-   "ok": 60,
+   "ok": 61,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7874,7 +7855,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-24",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7882,14 +7863,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7897,21 +7878,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-24",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-24",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-24",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8203,13 +8184,13 @@
  "region_posts": {
   "date": "2026-10-24",
   "district": 0,
-  "sindh": 2,
+  "sindh": 3,
   "pakistan": 11
  },
  "report_acc": {
-  "posted": 2,
-  "found": 21,
-  "old": 21,
+  "posted": 3,
+  "found": 28,
+  "old": 28,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8235,9 +8216,9 @@
  },
  "sindh_stream": {
   "date": "2026-10-24",
-  "count": 1,
-  "last": 1792785356.1060324,
-  "city_i": 14,
+  "count": 2,
+  "last": 1792816868.1890106,
+  "city_i": 18,
   "dry": 1792815659.943056
  },
  "gemini_day_dead": {
@@ -8996,6 +8977,14 @@
    "t": 1792815744,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "5519d7ff0f61ada5",
+   "h": "شهدادپور: پسند جي شاديءَ تان نثار لاشاري ۽ زڪيه بليدي قتل",
+   "x": "شهدادپور ويجهو ڳوٺ الاهي بخش خاصخيلي، بچل موري ۽ برهون روڊ واري علائقي ۾ ڪجهه ڏينهن اڳ پيش آيل واقعي ۾ نثار لاشاري ۽ زڪيه بليدي کي قتل ڪيو ويو. شروعاتي رپورٽن موجب واقعي جو تعلق مبينا طور پسند جي شاديءَ جي معاملي سان ٻڌايو پيو وڃي. واقعي کانپوءِ علائقي ۾ ڏک ۽ خوف جي فضا ڇانيل آهي. مقامي حلقن ۽ سماجي اڳواڻن جاني نقصان جو سبب بڻجندڙ اهڙن واقعن جي مذمت ڪئي آهي. واقعي بابت پوليس جي جاچ ۽ قانوني ڪارروائي جا وڌيڪ تفصيل سامهون اچڻا آهن!",
+   "t": 1792816889,
+   "s": true,
+   "r": 18
   }
  ],
  "reels": {
@@ -9011,13 +9000,6 @@
   "last": 1792765347.5419147
  },
  "tg_debug": [
-  {
-   "t": "10-24 03:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-24 03:30",
    "ok": true,
@@ -9290,41 +9272,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "10-24 09:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-10-24",
  "recent_posts": [
-  {
-   "t": 1792643643,
-   "h": "صبح جون خبرون | خميس، 22 آڪٽوبر 2026",
-   "b": "1️⃣ ڪنڊيارو: مريض عورت زنجيرن ۾ ٻڌل 2️⃣ ڪنڊيارو ۾ چوري جون وارداتون 3️⃣ محراب پور ۾ چوريون وڌي ويون",
-   "tt": [
-    "#22",
-    "اڪٽوبر",
-    "خبرون",
-    "خميس،",
-    "صبح"
-   ],
-   "bt": [
-    "#22",
-    "اڪٽوبر",
-    "خبرون",
-    "خميس،",
-    "زنجيرن",
-    "صبح",
-    "عورت",
-    "محراب",
-    "مريض",
-    "وارداتون",
-    "ويون",
-    "وڌي",
-    "ٻڌل",
-    "پور",
-    "چوري",
-    "چوريون",
-    "ڪنڊيارو"
-   ]
-  },
   {
    "t": 1792644238,
    "h": "پاڪستان آءِ سي سي رينڪنگ ۾ چوٿين نمبر تي پهچي ويو",
@@ -13945,6 +13903,62 @@
     "پاڪستان",
     "ڪرڪيٽ",
     "ڪرڪيٽرز"
+   ]
+  },
+  {
+   "t": 1792816889,
+   "h": "شهدادپور: پسند جي شاديءَ تان نثار لاشاري ۽ زڪيه بليدي قتل",
+   "b": "شهدادپور ويجهو ڳوٺ الاهي بخش خاصخيلي، بچل موري ۽ برهون روڊ واري علائقي ۾ ڪجهه ڏينهن اڳ پيش آيل واقعي ۾ نثار",
+   "tt": [
+    "بليدي",
+    "تان",
+    "زڪيه",
+    "شاديء",
+    "شهدادپور",
+    "قتل",
+    "لاشاري",
+    "نثار",
+    "پسند"
+   ],
+   "bt": [
+    "الاهي",
+    "اهي",
+    "ايل",
+    "بخش",
+    "برهون",
+    "بليدي",
+    "بچل",
+    "تان",
+    "تعلق",
+    "خاصخيلي،",
+    "خوف",
+    "روڊ",
+    "رپورٽن",
+    "زڪيه",
+    "شاديء",
+    "شروعاتي",
+    "شهدادپور",
+    "طور",
+    "علائقي",
+    "فضا",
+    "قتل",
+    "لاشاري",
+    "مبينا",
+    "معاملي",
+    "موجب",
+    "موري",
+    "نثار",
+    "واقعي",
+    "ويجهو",
+    "ٻڌايو",
+    "پسند",
+    "پيش",
+    "پيو",
+    "ڇانيل",
+    "ڏينهن",
+    "ڪانپوء",
+    "ڪجهه",
+    "ڳوٺ"
    ]
   }
  ],
