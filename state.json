@@ -1,8 +1,5 @@
 {
  "seen": {
-  "8224c46b053dd786": 1792276866.9799385,
-  "21fd59f014b61cf8": 1792276866.9799416,
-  "6d738385e94c8711": 1792276925.731416,
   "0b67f9a0c3e6b473": 1792279854.1262884,
   "42fb0baa51bafccd": 1792279854.1262903,
   "26a318c6253d3739": 1792279854.1262915,
@@ -1558,7 +1555,12 @@
   "5ac68720aa82ad76": 1792878819.6322427,
   "fc9e038b1beb8a14": 1792878819.6324549,
   "f8739c078adc015a": 1792881067.4319618,
-  "be548461a1d62e60": 1792881663.7988644
+  "be548461a1d62e60": 1792881663.7988644,
+  "d1cfb1ec8f54df8b": 1792882273.5693839,
+  "4c675baee10d4f5a": 1792882273.5693872,
+  "50472d90704c6dbb": 1792882273.5693884,
+  "9458007bec194c30": 1792882273.569389,
+  "ae41364ed8c7751f": 1792882273.569712
  },
  "pending": {},
  "queue": [],
@@ -2149,7 +2151,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-25 03:41",
+  "time": "2026-10-25 03:51",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2169,12 +2171,6 @@
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122108129247503839",
-    "sec": "public_news",
-    "cat": "transport_trade",
-    "t": 1792138883
-   },
    {
     "id": "1444130002106066_122108142207503839",
     "sec": "agri_news",
@@ -4568,13 +4564,19 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1792878843
+   },
+   {
+    "id": "1444130002106066_122113279389503839",
+    "sec": "public_news",
+    "cat": "weather_disaster",
+    "t": 1792882317
    }
   ]
  },
  "public_news": {
   "date": "2026-10-25",
-  "count": 0,
-  "last": 1792832022.247851
+  "count": 1,
+  "last": 1792882317.792397
  },
  "trends": {
   "last": 1792872650.3178487,
@@ -7320,15 +7322,11 @@
  },
  "ai_usage": {
   "date": "2026-10-25",
-  "ok": 26,
+  "ok": 33,
   "fail": 0,
-  "limit": 42
+  "limit": 54
  },
  "posted_heads": [
-  {
-   "h": "سکر ۾ اسپتال جي حالت تي ڳڻتي",
-   "t": 1792687371
-  },
   {
    "h": "هيري بروڪ جي ڊبل سينچري لڙهي وئي، سريلنڪا 430 رنز جو حدف حاصل ڪري ورتو",
    "t": 1792688729
@@ -7644,10 +7642,14 @@
   {
    "h": "Pakistan Raises Wheat Support Price by Rs. 1,000, But Farmers Want More",
    "t": 1792878843
+  },
+  {
+   "h": "Rain and hail offer Lahore residents reprieve, city’s global AQI ranking slips to 13",
+   "t": 1792882317
   }
  ],
  "last_errors": {
-  "time": "2026-10-25 03:41",
+  "time": "2026-10-25 03:51",
   "steps": []
  },
  "roundup_am": "2026-10-24",
@@ -7750,12 +7752,12 @@
  },
  "article_diag": {
   "date": "2026-10-25",
-  "tried": 4,
-  "decoded": 4,
+  "tried": 5,
+  "decoded": 5,
   "text": 3,
   "story": 2
  },
- "ai_last_error": "03:41 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "03:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-25",
   "models": [
@@ -7769,9 +7771,9 @@
  },
  "img_diag": {
   "date": "2026-10-25",
-  "tried": 4,
+  "tried": 5,
   "gemini": 0,
-  "pollinations": 3,
+  "pollinations": 4,
   "skip": 1,
   "fail": 0,
   "last_note": "cricket bat and ball",
@@ -7796,7 +7798,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-25",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7804,7 +7806,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-25",
-   "ok": 24,
+   "ok": 25,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7812,7 +7814,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-25",
-   "ok": 24,
+   "ok": 25,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7820,14 +7822,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-25",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-25",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7835,21 +7837,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-25",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-25",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-25",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8048,12 +8050,12 @@
   "date": "2026-10-25",
   "district": 0,
   "sindh": 2,
-  "pakistan": 2
+  "pakistan": 3
  },
  "report_acc": {
   "posted": 0,
-  "found": 24,
-  "old": 24,
+  "found": 30,
+  "old": 30,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8082,8 +8084,8 @@
   "date": "2026-10-25",
   "count": 2,
   "last": 1792872072.0758343,
-  "city_i": 10,
-  "dry": 1792881659.174239
+  "city_i": 14,
+  "dry": 1792882259.9517975
  },
  "gemini_day_dead": {
   "day": "2026-10-24",
@@ -8163,14 +8165,6 @@
   92058803
  ],
  "reel_pool": [
-  {
-   "k": "d25b7319f046b1f8",
-   "h": "ڊپٽي ڪمشنر پاران ايل پي جي اگهاڙين اگهن جو نوٽيس",
-   "x": "ڊپٽي ڪمشنر غيرقانوني طور تي ايل پي جي جا اگهه وڌائڻ جو سخت نوٽيس وٺنديڪارروائي جو حکم ڏنو آهي!",
-   "t": 1792707103,
-   "s": false,
-   "r": 0
-  },
   {
    "k": "1160b707834e8157",
    "h": "آم جو فصل وڌائڻ لاءِ 17 اسڪيمون جاري",
@@ -8834,6 +8828,14 @@
    "t": 1792878843,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "eb9d54560cb84b34",
+   "h": "لاهور ۾ برسات ۽ φύءَ سان هوا جو معيار بهتر ٿيو",
+   "x": "لاهور ۾ برسات ۽ φύءَ سبب شهرين کي سخت گرمي کان راحت ملي آهي، جڏهن ته شهر جو عالمي فضائي آلودگي جو درجو 13هين نمبر تي پهچي ويو آهي!",
+   "t": 1792882317,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8847,13 +8849,6 @@
   "last": 1792841512.4800713
  },
  "tg_debug": [
-  {
-   "t": "10-24 21:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-24 21:50",
    "ok": true,
@@ -9122,6 +9117,13 @@
   },
   {
    "t": "10-25 03:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-25 03:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13845,6 +13847,5 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606,
- "_dup": true
+ "approve_last": 1792771860.5720606
 }
