@@ -1,0 +1,345 @@
+{
+ "id": "ep002",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 2,
+ "title": "Mehman Aa Rahe Hain!",
+ "topic": "Guest arrives suddenly",
+ "music": "comic",
+ "lesson": "Mil kar kaam karo,<br>mushkil bhi aasan!",
+ "caption": "Mehman ka phone aaye to har ghar mein yahi emergency hoti hai na? 😄 Apni Ammi aur Bhabi ko tag karo!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#PakistaniFamily",
+  "#Nawabshah",
+  "#FunnyShorts",
+  "#UrduCartoon"
+ ],
+ "scenes": [
+  {
+   "set": "kitchen",
+   "time": "evening",
+   "label": "Nawabshah • Shaam",
+   "cast": {
+    "AMMI": "stove",
+    "SANA": "mid",
+    "MEHAK": "right"
+   },
+   "props": {
+    "AMMI": "phone",
+    "MEHAK": "book"
+   },
+   "lines": [
+    {
+     "who": "AMMI",
+     "to": "front",
+     "emo": "surprised",
+     "pose": "phone_look",
+     "shot": "close",
+     "how": "shocked and panicking on the phone, loud",
+     "before": [
+      {
+       "do": "sfx",
+       "name": "phone_ring",
+       "wait": 1.2
+      }
+     ],
+     "roman": "Kya?! Nimra apne *sasural walon* ke saath *aadhe ghante* mein aa rahi hai?!",
+     "urdu": "کیا؟! نمرہ اپنے سسرال والوں کے ساتھ آدھے گھنٹے میں آ رہی ہے؟!",
+     "react": {
+      "*": "surprised"
+     }
+    },
+    {
+     "who": "NIMRA",
+     "phone": true,
+     "to": "front",
+     "emo": "happy",
+     "shot": "auto",
+     "how": "cheerful, casual, speaking quickly on the phone",
+     "roman": "Haan Ammi! Bas *chai* aur kuch halka sa... zyada *takalluf* mat karna!",
+     "urdu": "ہاں امی! بس چائے اور کچھ ہلکا سا... زیادہ تکلف مت کرنا!",
+     "react": {
+      "AMMI": "worried",
+      "SANA": "surprised",
+      "MEHAK": "surprised"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "SANA",
+     "emo": "worried",
+     "pose": "head_hold",
+     "shot": "two:SANA",
+     "how": "worried and fast, a bit dramatic",
+     "before": [
+      {
+       "do": "prop",
+       "who": "AMMI",
+       "prop": null
+      }
+     ],
+     "roman": "Halka sa? *Sasural wale* hain! Ghar mein na *samosay*, na *mithai*!",
+     "urdu": "ہلکا سا؟ سسرال والے ہیں! گھر میں نہ سموسے، نہ مٹھائی!",
+     "react": {
+      "SANA": "calm",
+      "MEHAK": "worried"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "AMMI",
+     "emo": "calm",
+     "pose": "explain",
+     "shot": "close",
+     "how": "calm, confident and polite, reassuring",
+     "roman": "Ammi, ghabraiye mat. Aloo aur besan hai — *pakoray* aur chutney *das minute* mein!",
+     "urdu": "امی، گھبرائیے مت۔ آلو اور بیسن ہے، پکوڑے اور چٹنی دس منٹ میں!",
+     "react": {
+      "AMMI": "calm",
+      "MEHAK": "happy"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "SANA",
+     "emo": "teasing",
+     "pose": "wag",
+     "shot": "two:SANA",
+     "how": "playful kitchen rivalry, half smiling",
+     "before": [
+      {
+       "do": "prop",
+       "who": "AMMI",
+       "prop": "ladle"
+      }
+     ],
+     "roman": "Theek hai, lekin *chai meri* banegi. Tumhari wali *pheeki* chai nahi!",
+     "urdu": "ٹھیک ہے، لیکن چائے میری بنے گی۔ تمہاری والی پھیکی چائے نہیں!",
+     "react": {
+      "SANA": "laugh",
+      "MEHAK": "teasing"
+     }
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "AMMI",
+     "emo": [
+      [
+       0,
+       "tired"
+      ],
+      [
+       0.5,
+       "confused"
+      ]
+     ],
+     "pose": [
+      [
+       0,
+       "tired"
+      ],
+      [
+       0.5,
+       "scratch_head"
+      ]
+     ],
+     "shot": "auto",
+     "how": "tired after office, then curious",
+     "before": [
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.4
+      },
+      {
+       "do": "enter",
+       "who": "IMTIAZ",
+       "slot": "left"
+      }
+     ],
+     "roman": "Kya hua? Itna *shor*? Lagta hai koi *VIP* aa raha hai!",
+     "urdu": "کیا ہوا؟ اتنا شور؟ لگتا ہے کوئی وی آئی پی آ رہا ہے!",
+     "react": {
+      "*": "neutral"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "IMTIAZ",
+     "emo": "teasing",
+     "pose": "point_other",
+     "shot": "two:IMTIAZ",
+     "how": "excited, bossy little sister",
+     "roman": "Ada, *Nimra Baji* ke sasural wale! Aap jaldi se *mithai* le aayein!",
+     "urdu": "اَدا، نمرہ باجی کے سسرال والے! آپ جلدی سے مٹھائی لے آئیں!",
+     "react": {
+      "IMTIAZ": "surprised"
+     }
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "front",
+     "emo": [
+      [
+       0,
+       "proud"
+      ],
+      [
+       0.55,
+       "sheepish"
+      ]
+     ],
+     "pose": [
+      [
+       0,
+       "chest"
+      ],
+      [
+       0.55,
+       "shrug"
+      ]
+     ],
+     "shot": "punch",
+     "joke": true,
+     "how": "proudly saying Chinese words first, then embarrassed comic drop",
+     "roman": "*Hao de!* Chinese mein matlab 'zaroor'... lekin batua dekha to — *mei you!* Yaani paise nahi!",
+     "urdu": "ہاؤ دے! چائنیز میں مطلب ضرور... لیکن بٹوا دیکھا تو، مے یو! یعنی پیسے نہیں!",
+     "react": {
+      "*": "laugh"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "IMTIAZ",
+     "emo": "laugh",
+     "pose": "hold",
+     "shot": "two:IMTIAZ",
+     "how": "laughing, handing money, motherly",
+     "roman": "Yeh lo *Chinese sahab*, paise! Aur *jaldi* wapas aana!",
+     "urdu": "یہ لو چائنیز صاحب، پیسے! اور جلدی واپس آنا!",
+     "sfx": [
+      "cash"
+     ],
+     "react": {
+      "IMTIAZ": "happy",
+      "SANA": "laugh"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "AMMI",
+     "emo": "happy",
+     "pose": "hold",
+     "shot": "two:AMMI",
+     "how": "happy and proud, showing the plate",
+     "roman": "Ammi, *pakoray tayyar!* Aur aapki *chai* ki khushbu poore ghar mein!",
+     "urdu": "امی، پکوڑے تیار! اور آپ کی چائے کی خوشبو پورے گھر میں!",
+     "react": {
+      "AMMI": "proud",
+      "MEHAK": "happy"
+     },
+     "before": [
+      {
+       "do": "exit",
+       "who": "IMTIAZ"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.6
+      },
+      {
+       "do": "prop",
+       "who": "SANA",
+       "prop": "plate"
+      },
+      {
+       "do": "wait",
+       "sec": 0.6
+      }
+     ]
+    },
+    {
+     "who": "AMMI",
+     "to": "SANA",
+     "emo": "warm",
+     "pose": "clap",
+     "shot": "close",
+     "how": "warm and loving, praising her daughter-in-law",
+     "roman": "Shabash beti. Tumhare *pakoray*, meri *chai* — aaj to sab *khush* ho jayenge!",
+     "urdu": "شاباش بیٹی۔ تمہارے پکوڑے، میری چائے، آج تو سب خوش ہو جائیں گے!",
+     "react": {
+      "SANA": "happy",
+      "MEHAK": "happy"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": [
+      [
+       0,
+       "surprised"
+      ],
+      [
+       0.4,
+       "sheepish"
+      ]
+     ],
+     "pose": "phone_look",
+     "shot": "close",
+     "how": "reading a message slowly, then awkward",
+     "before": [
+      {
+       "do": "prop",
+       "who": "MEHAK",
+       "prop": "phone"
+      },
+      {
+       "do": "sfx",
+       "name": "notification",
+       "wait": 0.6
+      }
+     ],
+     "roman": "Ammi... Nimra Baji ka *message*: 'Traffic mein phans gaye, *kal* aayenge!'",
+     "urdu": "امی... نمرہ باجی کا میسج: ٹریفک میں پھنس گئے، کل آئیں گے!",
+     "react": {
+      "AMMI": "surprised",
+      "SANA": "surprised"
+     }
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "front",
+     "emo": "happy",
+     "pose": "arms_up",
+     "shot": "group",
+     "joke": true,
+     "how": "cheerful, cheeky and happy, big finish",
+     "before": [
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.3
+      },
+      {
+       "do": "enter",
+       "who": "IMTIAZ",
+       "slot": "left"
+      },
+      {
+       "do": "prop",
+       "who": "IMTIAZ",
+       "prop": "bag"
+      }
+     ],
+     "roman": "Koi baat nahi! Pakoray *thanday* hon, is se pehle... *hum hi* kha lete hain!",
+     "urdu": "کوئی بات نہیں! پکوڑے ٹھنڈے ہوں، اس سے پہلے... ہم ہی کھا لیتے ہیں!",
+     "react": {
+      "*": "laugh"
+     }
+    }
+   ]
+  }
+ ]
+}
