@@ -63,7 +63,7 @@ def main():
     ms = models(key)
     lines = [ln for sc in ep["scenes"] for ln in sc["lines"]]
     failed, source = [], {}
-    gem_dead = False
+    gem_dead = bool(ep.get("force_backup"))  # testing switch
     for i, ln in enumerate(lines, 1):
         f = os.path.join(out, f"{i:02d}.mp3")
         mx = max_len(ln)
