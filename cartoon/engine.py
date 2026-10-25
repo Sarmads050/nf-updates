@@ -271,7 +271,7 @@ POSES = {  # near(dx,dy), far(dx,dy), flags ; units relative to torso top, scale
     "phone_look": ((70, 60), (-70, 470), "prop"), "hands_hips": ((175, 400), (-175, 400), ""),
     "cross": ((-60, 250), (60, 262), ""), "shrug": ((200, 80), (-200, 80), ""),
     "facepalm": ((20, -110), (-70, 470), ""), "scratch_head": ((95, -240), (-70, 470), ""),
-    "objection": ((215, -120), (-70, 470), "finger"), "clap": ((30, 230), (-30, 230), "clap"),
+    "objection": ((150, -235), (-70, 470), "finger"), "clap": ((30, 230), (-30, 230), "clap"),
     "think": ((30, -40), (-40, 300), ""), "explain": ((185, 210), (-160, 240), "explain"),
     "point_up": ((150, -200), (-70, 470), "finger"), "tired": ((90, 470), (-90, 470), ""),
     "walk": ((120, 430), (-120, 430), "walk"), "tray": ((80, 175), (-80, 175), "tray"),
@@ -505,7 +505,10 @@ for fr in range(N):
         T, hy = geom(st, w)
         s = st["s"]
         phase = st["dist"] / (STEP * s / 0.75) * math.pi
-        emo = at(EMO, w, t, "calm")[0]
+        emo, _pe, tce = at(EMO, w, t, "calm")
+        if emo in ("surprised", "laugh", "angry") and 0 <= t - tce < 0.3:  # squash & stretch pop on strong reactions
+            T -= 16 * s * math.sin(math.pi * (t - tce) / 0.3)
+            hy -= 16 * s * math.sin(math.pi * (t - tce) / 0.3)
         lname = at(LOOK, w, t, "*")[0]
         if st["walking"]:
             tp = (st["x"] + 400 * st["dir"], hy)
@@ -874,6 +877,10 @@ def draw_char(cv, ox, oy, w, c):
     pants = C["pants"]
     seated = c["mode"] != "stand" and c["stand"] < 0.5
     hip = T + 500 * s
+    if not seated:  # contact shadow on the floor
+        sha = Image.new("RGBA", cv.size, 0)
+        ImageDraw.Draw(sha).ellipse([*q(x - 150 * s, c["foot"] + 4 * s), *q(x + 150 * s, c["foot"] + 44 * s)], fill=(0, 0, 0, 70))
+        cv.alpha_composite(sha.filter(ImageFilter.GaussianBlur(max(1, int(10 * s * K)))))
     if not seated:  # standing legs
         st = c["stand"] if c["mode"] != "stand" else 1
         for i, sd in enumerate((-1, 1)):

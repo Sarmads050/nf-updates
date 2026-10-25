@@ -245,7 +245,7 @@ def living_room(time):
     slots = {
         "sofa_l": dict(x=330, kind="sofa", seat=1185, foot=1360, s=0.66), "sofa_c": dict(x=540, kind="sofa", seat=1185, foot=1360, s=0.66),
         "sofa_r": dict(x=750, kind="sofa", seat=1185, foot=1360, s=0.66),
-        "stand_l": dict(x=175, kind="stand", foot=1600, s=0.7), "stand_r": dict(x=905, kind="stand", foot=1600, s=0.7),
+        "stand_l": dict(x=118, kind="stand", foot=1600, s=0.7), "stand_r": dict(x=962, kind="stand", foot=1600, s=0.7),
         "stand_cl": dict(x=330, kind="stand", foot=1660, s=0.72), "stand_cr": dict(x=760, kind="stand", foot=1660, s=0.72),
         "floor_l": dict(x=240, kind="stand", foot=1800, s=0.8), "floor_r": dict(x=850, kind="stand", foot=1800, s=0.8),
     }
@@ -419,7 +419,7 @@ def karachi_flat(time):
     slots = {
         "sofa_l": dict(x=330, kind="sofa", seat=1190, foot=1365, s=0.66), "sofa_c": dict(x=540, kind="sofa", seat=1190, foot=1365, s=0.66),
         "sofa_r": dict(x=750, kind="sofa", seat=1190, foot=1365, s=0.66),
-        "stand_l": dict(x=175, kind="stand", foot=1620, s=0.75), "stand_r": dict(x=905, kind="stand", foot=1620, s=0.75),
+        "stand_l": dict(x=118, kind="stand", foot=1620, s=0.72), "stand_r": dict(x=962, kind="stand", foot=1620, s=0.72),
         "stand_cl": dict(x=330, kind="stand", foot=1680, s=0.77), "stand_cr": dict(x=760, kind="stand", foot=1680, s=0.77),
         "floor_l": dict(x=240, kind="stand", foot=1800, s=0.8), "floor_r": dict(x=850, kind="stand", foot=1800, s=0.8),
     }

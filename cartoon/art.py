@@ -2,6 +2,7 @@
 All drawing is done in 'units' (a seated adult head is ~232 units wide) and super-sampled.
 Heads: base (cached per character) + expression features (cached per state)."""
 import math
+import numpy as np
 from collections import OrderedDict
 from PIL import Image, ImageDraw, ImageFilter
 
@@ -196,6 +197,12 @@ class Toon:
             d.chord(s(cx - fw - 6, cy - fh - 10, cx + fw + 6, cy + 30), 180, 360, fill=hc)
             d.line(s(cx, cy - fh - 6, cx + 4, cy - 96), fill=shade(hc, 1.8), width=int(4 * SS * K))
             d.ellipse(s(cx + 50, cy - fh + 4, cx + 84, cy - fh + 26), fill=(250, 120, 170))  # hair clip
+        mask = im.getchannel("A")
+        sh_ = Image.new("RGBA", im.size, 0)
+        ImageDraw.Draw(sh_).ellipse(s(cx + fw * 0.35, cy - fh, cx + fw * 1.6, cy + fh * 1.2), fill=(30, 10, 30, 34))
+        sh_ = sh_.filter(ImageFilter.GaussianBlur(int(18 * SS * K)))
+        sh_.putalpha(Image.fromarray((np.asarray(sh_.getchannel("A")).astype(np.uint16) * np.asarray(mask) // 255).astype(np.uint8)))
+        im.alpha_composite(sh_)
         return outline(im, int(6 * SS * K))
 
     def _blush(self):
@@ -374,8 +381,17 @@ class Toon:
             d.line(s(220, 44, 250, 250, 270, 250, 300, 44), fill=(30, 110, 200), width=W(6))
             d.rounded_rectangle(s(232, 246, 288, 320), W(6), fill=(250, 250, 250), outline=(80, 80, 90), width=W(3))
             d.rectangle(s(240, 256, 262, 282), fill=(150, 180, 220))
-        if tod:
-            pass
+        # cel shading: darker side + soft highlight, clipped to the clothes
+        mask = im.getchannel("A")
+        sh_ = Image.new("RGBA", im.size, 0)
+        ImageDraw.Draw(sh_).polygon(s(330, 0, 560, 0, 560, 600, 360, 600), fill=(20, 10, 30, 46))
+        sh_ = sh_.filter(ImageFilter.GaussianBlur(int(14 * SS * K)))
+        hl_ = Image.new("RGBA", im.size, 0)
+        ImageDraw.Draw(hl_).ellipse(s(120, 60, 230, 260), fill=(255, 255, 255, 30))
+        hl_ = hl_.filter(ImageFilter.GaussianBlur(int(20 * SS * K)))
+        for lay in (sh_, hl_):
+            lay.putalpha(Image.fromarray((np.asarray(lay.getchannel("A")).astype(np.uint16) * np.asarray(mask) // 255).astype(np.uint8)))
+            im.alpha_composite(lay)
         return outline(im, int(6 * SS * K)).resize((int(520 * K), int(600 * K)), Image.LANCZOS)
 
 
