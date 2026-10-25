@@ -33,8 +33,9 @@ def tts(prompt, voice, ms, key, max_sec=None):
                 if d:
                     pcm = np.frombuffer(base64.b64decode(d["data"]), dtype="<i2")
                     if max_sec and len(pcm) / RATE > max_sec:
-                        print("rejected: too long", m, round(len(pcm) / RATE, 1), "s (model rambled)", flush=True)
-                        break
+                        print("rejected: too long", m, round(len(pcm) / RATE, 1), "s (model rambled) - retrying", flush=True)
+                        time.sleep(8)
+                        continue
                     return pcm
                 print("no audio", m, flush=True)
                 break
