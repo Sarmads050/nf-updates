@@ -20,8 +20,8 @@
    "time": "evening",
    "label": "Nawabshah • Shaam",
    "cast": {
-    "AMMI": "stove",
-    "SANA": "mid",
+    "SANA": "stove",
+    "AMMI": "mid",
     "MEHAK": "right"
    },
    "props": {
@@ -147,11 +147,6 @@
      "how": "tired after office, then curious",
      "before": [
       {
-       "do": "sfx",
-       "name": "door",
-       "wait": 0.4
-      },
-      {
        "do": "enter",
        "who": "IMTIAZ",
        "slot": "left"
@@ -244,11 +239,6 @@
        "who": "IMTIAZ"
       },
       {
-       "do": "sfx",
-       "name": "door",
-       "wait": 0.6
-      },
-      {
        "do": "prop",
        "who": "SANA",
        "prop": "plate"
@@ -317,11 +307,6 @@
      "joke": true,
      "how": "cheerful, cheeky and happy, big finish",
      "before": [
-      {
-       "do": "sfx",
-       "name": "door",
-       "wait": 0.3
-      },
       {
        "do": "enter",
        "who": "IMTIAZ",

@@ -120,7 +120,7 @@ for si, scd in enumerate(EP["scenes"]):
 
     def do_action(a, t):
         kind = a["do"]
-        who = a["who"]
+        who = a.get("who")
         if kind == "prop":
             PROP.setdefault(who, []).append((t, a.get("prop")))
             return t + 0.1
@@ -990,6 +990,7 @@ def render(fr):
     if sc["set"].get("glow") is not None and sc["time"] == "loadshedding":
         world.alpha_composite(sc["set"]["glow"])
     cx, cy, z = F["cam"]
+    z = max(z, 1.0)  # never zoom out past the set edges
     w_, h_ = 1080 / z, 1920 / z
     x0, y0 = clamp(cx - w_ / 2, 0, 1080 - w_), clamp(cy - h_ / 2, 0, 1920 - h_)
     out = world.crop((int(x0 * K), int(y0 * K), int((x0 + w_) * K), int((y0 + h_) * K))).resize((OW, OH), Image.BICUBIC)
