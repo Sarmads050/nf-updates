@@ -1,15 +1,5 @@
 {
  "seen": {
-  "ef7995f19e9d94ba": 1792294257.3490076,
-  "c73fe367e9d8dc54": 1792294257.3490105,
-  "cfeadc382b8171bf": 1792294257.3490114,
-  "5bc63b0543123c16": 1792294257.3490121,
-  "b1f8a30bf3af80a1": 1792294257.349013,
-  "595ea99e5156b5b8": 1792294257.349014,
-  "ed2091aac9943cfa": 1792294257.3490148,
-  "1b70111c548f66af": 1792294257.3490152,
-  "68d92f609c2e0ce9": 1792294257.349016,
-  "c04db5f1e761fb69": 1792294257.3492074,
   "de6792ef9203a417": 1792295545.9379241,
   "71f59b6120d2baaf": 1792295545.9379263,
   "c88a651cf8e1f7b6": 1792295545.9379277,
@@ -1566,7 +1556,8 @@
   "19060cda87bbff98": 1792895488.857834,
   "541e6b36d0aaed67": 1792898468.5518374,
   "6124ff71294f501f": 1792898472.6004848,
-  "219d6b571a428c40": 1792898472.6006892
+  "219d6b571a428c40": 1792898472.6006892,
+  "13936a53bcd636e3": 1792899672.8845775
  },
  "pending": {},
  "queue": [],
@@ -1646,7 +1637,7 @@
  "sindh_single": {
   "date": "2026-10-25",
   "count": 0,
-  "last": 1792859475.2983348,
+  "last": 1792899688.7195573,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2149,7 +2140,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-25 08:31",
+  "time": "2026-10-25 08:41",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7264,9 +7255,9 @@
  },
  "ai_usage": {
   "date": "2026-10-25",
-  "ok": 79,
+  "ok": 81,
   "fail": 0,
-  "limit": 134
+  "limit": 138
  },
  "posted_heads": [
   {
@@ -7591,7 +7582,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-25 08:31",
+  "time": "2026-10-25 08:41",
   "steps": []
  },
  "roundup_am": "2026-10-25",
@@ -7699,7 +7690,7 @@
   "text": 10,
   "story": 8
  },
- "ai_last_error": "08:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "08:41 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-25",
   "models": [
@@ -7740,7 +7731,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-25",
-   "ok": 54,
+   "ok": 55,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7748,7 +7739,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-25",
-   "ok": 53,
+   "ok": 54,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7756,7 +7747,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-25",
-   "ok": 53,
+   "ok": 54,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7764,14 +7755,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-25",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-25",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7779,21 +7770,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-25",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-25",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-25",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -7996,8 +7987,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 18,
-  "old": 18,
+  "found": 24,
+  "old": 24,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8026,8 +8017,8 @@
   "date": "2026-10-25",
   "count": 2,
   "last": 1792872072.0758343,
-  "city_i": 10,
-  "dry": 1792898459.5190165
+  "city_i": 14,
+  "dry": 1792899663.5835054
  },
  "gemini_day_dead": {
   "day": "2026-10-24",
@@ -8776,13 +8767,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-25 02:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-25 02:30",
    "ok": true,
    "n": 0,
@@ -9050,6 +9034,13 @@
   },
   {
    "t": "10-25 08:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-25 08:40",
    "ok": true,
    "n": 0,
    "ids": [],
