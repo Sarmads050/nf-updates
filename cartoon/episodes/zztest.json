@@ -1,0 +1,87 @@
+{
+ "id": "zztest",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 1,
+ "title": "WiFi Ka Mujrim Kaun?",
+ "topic": "WiFi not working",
+ "music": "comic",
+ "lesson": "Har cheez apni jagah rakho,<br>masla khud hi khatam!",
+ "caption": "Ghar ka WiFi band ho jaye to sab se pehle shak kis par jata hai? 😄 Tag karo apne ghar ke 'tech support' ko!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#PakistaniFamily",
+  "#Nawabshah",
+  "#FunnyShorts",
+  "#UrduCartoon"
+ ],
+ "scenes": [
+  {
+   "set": "living_room",
+   "time": "evening",
+   "label": "Nawabshah • Shaam",
+   "cast": {
+    "ARSALAN": "sofa_l",
+    "ABBA": "sofa_c",
+    "MEHAK": "sofa_r"
+   },
+   "props": {
+    "ARSALAN": "phone",
+    "ABBA": "newspaper",
+    "MEHAK": "book"
+   },
+   "lines": [
+    {
+     "who": "ARSALAN",
+     "to": "front",
+     "emo": "angry",
+     "pose": "phone_look",
+     "shot": "close",
+     "how": "shouting loudly towards another room, frustrated",
+     "roman": "Ada Faraz! *WiFi* phir band ho gaya! Mera *match* beech mein atak gaya!",
+     "urdu": "اَدا فراز! وائی فائی پھر بند ہو گیا! میرا میچ بیچ میں اٹک گیا!",
+     "react": {
+      "*": "surprised"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ARSALAN",
+     "emo": [
+      [
+       0,
+       "teasing"
+      ]
+     ],
+     "pose": "point_other",
+     "shot": "two:ARSALAN",
+     "how": "teasing her brother, giggly",
+     "roman": "Match nahi, *game* atka hai. Saara din *mobile* pe!",
+     "urdu": "میچ نہیں، گیم اٹکا ہے۔ سارا دن موبائل پہ!",
+     "react": {
+      "ARSALAN": "angry",
+      "ABBA": "calm"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": [
+      [
+       0,
+       "proud"
+      ]
+     ],
+     "pose": "newspaper",
+     "shot": "close",
+     "how": "slow, nostalgic, a little proud",
+     "roman": "*Humare zamane main to* WiFi nahi tha, phir bhi hum khush thay!",
+     "urdu": "ہمارے زمانے میں تو وائی فائی نہیں تھا، پھر بھی ہم خوش تھے!",
+     "react": {
+      "MEHAK": "happy",
+      "ARSALAN": "sheepish"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -20,7 +20,7 @@ def models(key):
     return ms
 
 
-def tts(prompt, voice, ms, key):
+def tts(prompt, voice, ms, key, max_sec=None):
     body = {"contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {"responseModalities": ["AUDIO"],
                                  "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": voice}}}}}
@@ -31,7 +31,11 @@ def tts(prompt, voice, ms, key):
                 parts = ((r.json().get("candidates") or [{}])[0].get("content") or {}).get("parts") or []
                 d = next(((p.get("inlineData") or p.get("inline_data")) for p in parts if (p.get("inlineData") or p.get("inline_data"))), None)
                 if d:
-                    return np.frombuffer(base64.b64decode(d["data"]), dtype="<i2")
+                    pcm = np.frombuffer(base64.b64decode(d["data"]), dtype="<i2")
+                    if max_sec and len(pcm) / RATE > max_sec:
+                        print("rejected: too long", m, round(len(pcm) / RATE, 1), "s (model rambled)", flush=True)
+                        break
+                    return pcm
                 print("no audio", m, flush=True)
                 break
             print("tts", m, r.status_code, r.text[:300], flush=True)
@@ -58,11 +62,14 @@ def main():
     want = {int(x) for x in only.split(",") if x.strip()} if only else None
     ms = models(key)
     lines = [ln for sc in ep["scenes"] for ln in sc["lines"]]
-    failed = []
+    failed, source = [], {}
+    gem_dead = False
     for i, ln in enumerate(lines, 1):
+        f = os.path.join(out, f"{i:02d}.mp3")
+        mx = max_len(ln)
         if want is not None and i not in want:
             continue
-        if want is None and os.path.exists(os.path.join(out, f"{i:02d}.mp3")):
+        if want is None and os.path.exists(f) and dur(f) <= mx:
             continue  # already made in an earlier run (resume)
         c = CHARS[ln["who"]]
         extra = " This is a phone call." if ln.get("phone") else ""
@@ -77,27 +84,65 @@ def main():
             prompt = (f"You are voicing {c['who']} in a 2D family cartoon from Sindh, Pakistan. Speak in natural everyday Urdu "
                       f"with a light Sindhi accent, like a real person at home, not like a news reader.{extra} "
                       f"Emotion and delivery: {ln.get('how', 'natural')}. Say exactly this line and nothing else:\n\n{ln['urdu']}")
-        pcm = tts(prompt, c["voice"], ms, key)
-        if pcm is None and len(failed) >= 2 and not any(os.path.exists(os.path.join(out, f"{j:02d}.mp3")) for j in range(i, i + 1)):
-            failed.append(i)
-            failed += [j for j in range(i + 1, len(lines) + 1)]
-            print("stopping: quota looks finished, failed lines", failed, flush=True)
-            break
-        if pcm is None:
-            print("FAILED line", i, flush=True)
-            failed.append(i)
+        pcm = None if gem_dead else tts(prompt, c["voice"], ms, key, max_sec=mx)
+        if pcm is not None:
+            raw = f + ".raw"
+            pcm.tofile(raw)
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "s16le", "-ar", str(RATE), "-ac", "1", "-i", raw, "-b:a", "96k", f], check=True)
+            os.remove(raw)
+            source[i] = "gemini"
+            print("ok gemini", i, ln["who"], round(len(pcm) / RATE, 2), "s", flush=True)
+            time.sleep(21)
             continue
-        f = os.path.join(out, f"{i:02d}.mp3")
-        raw = f + ".raw"
-        pcm.tofile(raw)
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "s16le", "-ar", str(RATE), "-ac", "1", "-i", raw, "-b:a", "96k", f], check=True)
-        os.remove(raw)
-        print("ok", i, ln["who"], round(len(pcm) / RATE, 2), "s", flush=True)
-        time.sleep(21)
-    json.dump({"failed": failed}, open(os.path.join(out, "status.json"), "w"))
+        if not gem_dead:
+            g_fail = sum(1 for v in source.values() if v == "edge") + 1
+            if g_fail >= 2:
+                gem_dead = True  # Gemini quota is finished today: use the free backup voice for the rest
+                print("gemini looks finished for today -> backup voices", flush=True)
+        if edge_tts_line(ln, f) and dur(f) <= mx:
+            source[i] = "edge"
+            print("ok backup", i, ln["who"], round(dur(f), 2), "s", flush=True)
+        else:
+            failed.append(i)
+            print("FAILED line", i, flush=True)
+    json.dump({"failed": failed, "source": source}, open(os.path.join(out, "status.json"), "w"))
     if failed:
         print("SOME LINES FAILED", failed, flush=True)
 
+
+def dur(f):
+    try:
+        return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]))
+    except Exception:
+        return 1e9
+
+
+def max_len(ln):
+    words = len(ln["roman"].replace("*", "").split())
+    return max(9.0, words * 0.55 * 2.2 + 2.5)
+
+
+# Free backup voices (Microsoft Edge neural TTS, Urdu). Same character keeps the same voice every time.
+EDGE = {  # voice, rate, pitch
+    "ABBA": ("ur-PK-AsadNeural", "-8%", "-14Hz"), "AMMI": ("ur-PK-UzmaNeural", "+0%", "-8Hz"),
+    "IMTIAZ": ("ur-IN-SalmanNeural", "-4%", "-6Hz"), "SANA": ("ur-IN-GulNeural", "+0%", "+0Hz"),
+    "FARAZ": ("ur-PK-AsadNeural", "+4%", "+2Hz"), "DANIYAL": ("ur-IN-SalmanNeural", "+8%", "+8Hz"),
+    "ARSALAN": ("ur-PK-AsadNeural", "+6%", "+16Hz"), "NIMRA": ("ur-PK-UzmaNeural", "+4%", "+6Hz"),
+    "MEHAK": ("ur-IN-GulNeural", "+6%", "+24Hz"), "HAMZA": ("ur-IN-GulNeural", "-10%", "+40Hz"),
+    "HASHIR": ("ur-PK-UzmaNeural", "-10%", "+40Hz"), "NARRATOR": ("ur-IN-SalmanNeural", "-4%", "+0Hz"),
+}
+
+
+def edge_tts_line(ln, f):
+    try:
+        import asyncio
+        import edge_tts
+        v, rate, pitch = EDGE.get(ln["who"], ("ur-PK-AsadNeural", "+0%", "+0Hz"))
+        asyncio.run(edge_tts.Communicate(ln["urdu"], v, rate=rate, pitch=pitch).save(f))
+        return os.path.exists(f) and os.path.getsize(f) > 1000
+    except Exception as e:
+        print("backup voice error", repr(e)[:200], flush=True)
+        return False
 
 if __name__ == "__main__":
     main()
