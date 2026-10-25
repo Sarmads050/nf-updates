@@ -1537,7 +1537,17 @@
   "a9fbc53f87da66a4": 1792954902.531485,
   "09b8d293c57e5582": 1792954902.5314863,
   "5eb1b5283dd6da37": 1792954902.531739,
-  "ad0d9cdb981eedd8": 1792956655.9044044
+  "ad0d9cdb981eedd8": 1792956655.9044044,
+  "dd03ec06e1619b55": 1792957866.626758,
+  "1533111df3b7c7ab": 1792957866.6267595,
+  "a25a1a01c3201187": 1792957866.6267605,
+  "daf2787d54bf3dec": 1792957866.6267612,
+  "045cf573082e9807": 1792957866.6267614,
+  "dfb61ef84420c318": 1792957866.6267617,
+  "a84c2f7082a1f7af": 1792957866.626762,
+  "15bebc69c667e42c": 1792957866.6267622,
+  "f34b114f3765a465": 1792957866.6267629,
+  "643cc711f88b4f1c": 1792957866.626764
  },
  "pending": {},
  "queue": [],
@@ -2115,7 +2125,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-26 00:40",
+  "time": "2026-10-26 00:51",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7342,9 +7352,9 @@
  },
  "ai_usage": {
   "date": "2026-10-26",
-  "ok": 9,
+  "ok": 11,
   "fail": 0,
-  "limit": 16
+  "limit": 20
  },
  "posted_heads": [
   {
@@ -7669,7 +7679,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-26 00:40",
+  "time": "2026-10-26 00:51",
   "steps": []
  },
  "roundup_am": "2026-10-25",
@@ -7777,7 +7787,7 @@
   "text": 1,
   "story": 1
  },
- "ai_last_error": "00:30 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "00:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-26",
   "models": [
@@ -7818,7 +7828,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-26",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7826,7 +7836,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-26",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7834,7 +7844,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-26",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7842,14 +7852,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7857,21 +7867,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-26",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8258,8 +8268,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 10,
-  "old": 9,
+  "found": 13,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 1,
   "errors": []
@@ -8288,8 +8298,8 @@
  "sindh_stream": {
   "date": "2026-10-26",
   "count": 0,
-  "last": 1792950819.165643,
-  "city_i": 22,
+  "last": 1792957864.3149135,
+  "city_i": 4,
   "dry": 1792954884.6684728
  },
  "gemini_day_dead": {
@@ -9087,13 +9097,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-25 18:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-25 18:40",
    "ok": true,
    "n": 0,
@@ -9361,6 +9364,13 @@
   },
   {
    "t": "10-26 00:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-26 00:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13998,11 +14008,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-23 13:51",
-   "new": "آءِ ايم ايف پاران پاڪستان ۾ مهانگائي وڌڻ جو خدشو",
-   "old": "آءِ ايم ايف پاران پاڪستان کي ناڻي ۽ مهانگائي جي خطرن جي خبرداري"
-  },
-  {
    "t": "10-23 17:41",
    "new": "سنڌ | ڪڻڪ جي نئين قيمت مقرر",
    "old": "پنجاب حکومت ڪڻڪ جو اگهه مقرر ڪري ڇڏيو"
@@ -14146,6 +14151,11 @@
    "t": "10-26 00:01",
    "new": "شاداب خان جي شاندار سينچري",
    "old": "پاڪستان جو انگلينڊ خلاف شاندار سوڀ"
+  },
+  {
+   "t": "10-26 00:51",
+   "new": "ٽنڊي آدم ڀرسان خوفناڪ حادثو، زալ مڙس ۽ پٽ سميت 5 ڄڻا فوت",
+   "old": "سانگهڙ ۾ ڪار ۽ ڪاچ جي ٽڪر ۾ 5 ڄڻا فوت، 3 زخمي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14164,5 +14174,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
