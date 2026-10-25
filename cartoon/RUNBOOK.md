@@ -9,8 +9,21 @@ Total time budget ~60 min. Work in the scratchpad for big files; never commit vi
 2. Read `cartoon/MASTER_PROMPT.md` (the writer rules — STRICT RULES are mandatory), this file, and `cartoon/episodes/index.json`
    (episodes already made — never repeat a topic). Never read or print any secret/key.
 
+## 1a. Trend research (do this BEFORE choosing the topic, ~5 min)
+Sarmad wants stories people in Pakistan — especially Sindh — relate to *right now*. Do not rely on one trend; combine several sources:
+- WebSearch (standard; use today's date in queries): "Pakistan trending today", "Sindh news today", "Karachi news today",
+  "Pakistan Twitter X trends", "Pakistan TikTok trend", "YouTube trending Pakistan", "Google Trends Pakistan",
+  plus seasonal/life signals: weather (heat, rain, cold, smog), load shedding / gas / water shortage, petrol & electricity bill prices,
+  cricket matches/series, exams/results/admissions, weddings season, Eid/holidays, harvest/mango season, school events.
+- Optional (free tools only): vidIQ trending/outlier tools for Pakistan if they don't spend credits.
+Write 5–8 short trend notes with source links into `cartoon/episodes/epNNN.md` under `TRENDS:`, then pick the topic that
+(1) matches the most trends at once, (2) is an everyday family situation Sindhi middle-class viewers recognise, (3) obeys every
+MASTER_PROMPT strict rule. Turn news into a gentle home situation (e.g. petrol price up → family plans to save fuel; big cricket
+match → whole family fights over the TV). Never make comedy out of tragedies, accidents, deaths, crime, politics, religion or the army,
+never use real people's names, and keep facts in the story true (no invented statistics or news).
+
 ## 1. Write the script (as the MASTER_PROMPT head writer)
-- Pick a fresh everyday topic (topic bank or new). Rotate characters and sets; use 2–5 characters.
+- Use the topic chosen in 1a (never repeat a topic from index.json). Rotate characters and sets; use 2–5 characters.
 - **90–120 seconds = 24–32 lines in 2–3 scenes** (Sarmad wants ~2 minute episodes). Hook in line 1.
 - **The story must be easy to follow** (a viewer who has never seen the channel must understand it):
   1. Scene 1 (setup, ~25 s): open with a 1–2 line `NARRATOR` intro that says where we are and what the problem is
