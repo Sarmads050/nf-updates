@@ -1,11 +1,5 @@
 {
  "seen": {
-  "de6792ef9203a417": 1792295545.9379241,
-  "71f59b6120d2baaf": 1792295545.9379263,
-  "c88a651cf8e1f7b6": 1792295545.9379277,
-  "aa148d4f7823771c": 1792295545.937929,
-  "b8fbed0261a02b42": 1792295545.9379294,
-  "9b2a249c277f011c": 1792295545.9381263,
   "fc2e247ac3043c78": 1792298452.4462187,
   "90af9a1525f59982": 1792298466.9675026,
   "6ab1131cf95dbdd8": 1792298466.9677033,
@@ -1557,7 +1551,10 @@
   "541e6b36d0aaed67": 1792898468.5518374,
   "6124ff71294f501f": 1792898472.6004848,
   "219d6b571a428c40": 1792898472.6006892,
-  "13936a53bcd636e3": 1792899672.8845775
+  "13936a53bcd636e3": 1792899672.8845775,
+  "71f59b6120d2baaf": 1792901008.091282,
+  "d397f0103b0d0909": 1792901008.0912845,
+  "d709bd416e626534": 1792901018.7261853
  },
  "pending": {},
  "queue": [],
@@ -1567,7 +1564,7 @@
   "date": "2026-10-24",
   "count": 4
  },
- "last_digest": "2026-10-24",
+ "last_digest": "2026-10-25",
  "alert_day": "2026-10-20",
  "followers": 21,
  "promo": {
@@ -2140,7 +2137,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-25 09:02",
+  "time": "2026-10-25 09:03",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7255,9 +7252,9 @@
  },
  "ai_usage": {
   "date": "2026-10-25",
-  "ok": 81,
+  "ok": 83,
   "fail": 0,
-  "limit": 138
+  "limit": 142
  },
  "posted_heads": [
   {
@@ -7582,7 +7579,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-25 09:02",
+  "time": "2026-10-25 09:03",
   "steps": []
  },
  "roundup_am": "2026-10-25",
@@ -7690,7 +7687,7 @@
   "text": 10,
   "story": 8
  },
- "ai_last_error": "08:41 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "09:03 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-25",
   "models": [
@@ -7731,7 +7728,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-25",
-   "ok": 56,
+   "ok": 57,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7739,7 +7736,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-25",
-   "ok": 55,
+   "ok": 56,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7747,7 +7744,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-25",
-   "ok": 55,
+   "ok": 56,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7755,14 +7752,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-25",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-25",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7770,21 +7767,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-25",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-25",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-25",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -7987,8 +7984,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8017,8 +8014,8 @@
   "date": "2026-10-25",
   "count": 2,
   "last": 1792872072.0758343,
-  "city_i": 18,
-  "dry": 1792900542.261473
+  "city_i": 22,
+  "dry": 1792900999.0026503
  },
  "gemini_day_dead": {
   "day": "2026-10-24",
@@ -8767,13 +8764,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-25 02:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-25 02:50",
    "ok": true,
    "n": 0,
@@ -9041,6 +9031,13 @@
   },
   {
    "t": "10-25 08:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-25 09:02",
    "ok": true,
    "n": 0,
    "ids": [],
