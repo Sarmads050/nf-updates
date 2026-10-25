@@ -106,6 +106,16 @@ def main():
         else:
             failed.append(i)
             print("FAILED line", i, flush=True)
+    # one character must keep ONE voice inside an episode: if a character got a backup voice on any line,
+    # give all of that character's lines the backup voice
+    if want is None:
+        mixed = {lines[i - 1]["who"] for i, v in source.items() if v == "edge"}
+        for i, ln in enumerate(lines, 1):
+            if ln["who"] in mixed and source.get(i) == "gemini":
+                f = os.path.join(out, f"{i:02d}.mp3")
+                if edge_tts_line(ln, f):
+                    source[i] = "edge"
+                    print("made consistent (backup)", i, ln["who"], flush=True)
     json.dump({"failed": failed, "source": source}, open(os.path.join(out, "status.json"), "w"))
     if failed:
         print("SOME LINES FAILED", failed, flush=True)
