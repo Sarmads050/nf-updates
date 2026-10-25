@@ -1526,7 +1526,8 @@
   "05ec17b165443b3c": 1792948883.2011933,
   "d6c496edf9f2ae79": 1792948883.201194,
   "3aa7f01cdcb62437": 1792948883.2011945,
-  "78540d2889fcdff1": 1792948883.201196
+  "78540d2889fcdff1": 1792948883.201196,
+  "b9d90a075167fa19": 1792950821.2319148
  },
  "pending": {},
  "queue": [],
@@ -2107,7 +2108,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-25 22:41",
+  "time": "2026-10-25 22:53",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -4535,7 +4536,7 @@
   "last": 1792917747.1835423
  },
  "trends": {
-  "last": 1792939854.8332598,
+  "last": 1792950732.6697445,
   "terms": [
    {
     "term": "fluminense vs santos",
@@ -7248,15 +7249,95 @@
     "t": 1792939855,
     "cat": "cricket",
     "sindh": false
+   },
+   {
+    "term": "earthquake",
+    "traffic": 200,
+    "news": "Xi orders all-out rescue work in Xizang",
+    "t": 1792950733,
+    "cat": "weather_disaster",
+    "sindh": false
+   },
+   {
+    "term": "php",
+    "traffic": 500,
+    "news": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
+    "t": 1792950733,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "lecce vs juventus",
+    "traffic": 200,
+    "news": "Official Juventus team to face Lecce – Woltemade and Muani start",
+    "t": 1792950733,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "el clasico 2026",
+    "traffic": 100,
+    "news": "Movistar LaLiga TV EN DIRECTO — dónde televisan el clásico FC Barcelona — Real Madrid por Orange TV y Movistar Plus Online",
+    "t": 1792950733,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "odi ranking",
+    "traffic": 100,
+    "news": "2027 ODI World Cup: England Slip in ODI Rankings, but Qualification Remains Safe",
+    "t": 1792950733,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "sunderland vs leeds",
+    "traffic": 200,
+    "news": ">WATCHLIVE!*SUN vs LEE Li𝚟e STR𝚎AM Fr𝚎e 25 october 2026",
+    "t": 1792950733,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "storm boelo weather warnings",
+    "traffic": 200,
+    "news": "Met Office hour-by-hour forecast for Leeds as Storm Boelo weather warning in force",
+    "t": 1792950733,
+    "cat": "weather_disaster",
+    "sindh": false
+   },
+   {
+    "term": "شاداب خان",
+    "traffic": 200,
+    "news": "",
+    "t": 1792950733,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "liverpool f.c. vs brighton & hove albion f.c. standings",
+    "traffic": 500,
+    "news": "Team news: Confirmed Liverpool line-up v Brighton & Hove Albion",
+    "t": 1792950733,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "espncricinfo",
+    "traffic": 1000,
+    "news": "Nepal League Accuses Mohsin Naqvi's PCB Of Demanding $25,000 Each For Pakistani Players' NoCs",
+    "t": 1792950733,
+    "cat": "cricket",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-25",
-  "ok": 267,
+  "ok": 269,
   "fail": 1,
-  "limit": 373
+  "limit": 377
  },
  "posted_heads": [
   {
@@ -7581,7 +7662,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-25 22:41",
+  "time": "2026-10-25 22:53",
   "steps": []
  },
  "roundup_am": "2026-10-25",
@@ -7684,12 +7765,12 @@
  },
  "article_diag": {
   "date": "2026-10-25",
-  "tried": 28,
-  "decoded": 27,
+  "tried": 29,
+  "decoded": 28,
   "text": 21,
   "story": 19
  },
- "ai_last_error": "22:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "22:53 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-25",
   "models": [
@@ -7730,7 +7811,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-25",
-   "ok": 143,
+   "ok": 144,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7739,29 +7820,29 @@
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-25",
    "ok": 139,
-   "fail": 5,
+   "fail": 6,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-25",
    "ok": 141,
-   "fail": 3,
+   "fail": 4,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-25",
-   "ok": 144,
+   "ok": 145,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-25",
-   "ok": 143,
+   "ok": 144,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7769,21 +7850,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-25",
-   "ok": 144,
+   "ok": 145,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-25",
-   "ok": 144,
+   "ok": 145,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-25",
-   "ok": 144,
+   "ok": 145,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8170,8 +8251,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 8,
-  "old": 8,
+  "found": 9,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8199,8 +8280,8 @@
  "sindh_stream": {
   "date": "2026-10-25",
   "count": 11,
-  "last": 1792948880.7200599,
-  "city_i": 16,
+  "last": 1792950819.165643,
+  "city_i": 20,
   "dry": 1792950060.9809296
  },
  "gemini_day_dead": {
@@ -9004,13 +9085,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-25 16:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-25 16:40",
    "ok": true,
    "n": 0,
@@ -9278,6 +9352,13 @@
   },
   {
    "t": "10-25 22:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-25 22:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13746,11 +13827,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-23 08:21",
-   "new": "پاڪستان ۾ سوني جي اگهن ۾ واڌ",
-   "old": "سنڌ پبلڪ سروس ڪميشن جي سي سي اي 2026ع اسڪريننگ ٽيسٽ ملتوي"
-  },
-  {
    "t": "10-23 11:31",
    "new": "ڪراچي ۾ ايل پي جي اگهه آسمان سان پئي ڳالھيون ڪري",
    "old": "ڪراچي ۾ ايل پي جي قيمت وڌي وئي"
@@ -13894,6 +13970,11 @@
    "t": "10-25 19:10",
    "new": "اداڪاره ڪومل عزيز خان شوبز انڊسٽري کي باضابطه طور الوداع ڪري ڇڏيو",
    "old": "اداڪارا ڪومل عزيز خان فلمي دنيا کي خيرآباد چئي ڇڏيو"
+  },
+  {
+   "t": "10-25 22:53",
+   "new": "ٽنڊو آدم ويجهو بس ۽ ڪار ۾ ٽڪر، پنج ڄڻا فوت",
+   "old": "ٽنڊو آدم ويجهو ڪوچ ۽ ڪار ۾ ٽڪر، ٻار ۽ عورت سميت 4 فوت"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13912,5 +13993,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
