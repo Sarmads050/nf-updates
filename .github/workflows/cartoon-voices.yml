@@ -1,0 +1,44 @@
+name: Cartoon voices (Sindhi Ghar Ki Kahani)
+
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Episode id, e.g. ep001 (file cartoon/episodes/<id>.json)"
+        required: true
+      only:
+        description: "Sirf yeh lines dobara banao (jaise 3,7). Khaali = sab"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cartoon-voices
+  cancel-in-progress: false
+
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install --quiet requests numpy pillow
+      - name: Make voices
+        run: python cartoon/tts.py "cartoon/episodes/${{ inputs.episode }}.json"
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ONLY_LINES: ${{ inputs.only }}
+      - name: Save audio
+        run: |
+          git config user.name "nf-updates-bot"
+          git config user.email "nf-updates-bot@users.noreply.github.com"
+          git add cartoon/episodes/out
+          git commit -m "cartoon voices ${{ inputs.episode }} [skip ci]" || exit 0
+          for i in 1 2 3; do git pull --rebase -X theirs origin main && git push && break; sleep 5; done
