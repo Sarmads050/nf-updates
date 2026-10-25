@@ -21,6 +21,10 @@ Total time budget ~60 min. Work in the scratchpad for big files; never commit vi
   - Each line short (max ~14 words). Let reactions breathe (`gap` 0.5–0.8 after a joke). At least 2 jokes.
   - `NARRATOR` is an off-screen storyteller (not in cast); use it only at the start (and optionally one bridge line between scenes).
   - Every character's name and role is shown automatically the first time they speak.
+- **Logic check (mandatory, like a script editor):** read the script once more only for facts and cause → effect.
+  Every clue, problem and solution must be physically and logically possible in real life and must not contradict another line
+  (e.g. if the router plug is pulled out, its lights are OFF, not red; a gas stove can't light without gas; a phone at 0% can't play a match).
+  Also check continuity: who is in the room, who holds what, time of day, and that nobody knows something they could not know. Fix every mistake.
 - Run the MASTER_PROMPT safety check (religion, army, real public figures, politics, children safe, respect).
 - Run the MASTER_PROMPT safety check (religion, army, real public figures, politics, children safe, respect).
 - Save the human script as `cartoon/episodes/epNNN.md` (TITLE, HOOK, CHARACTERS, LOCATION, SCENES, JOKE, ENDING, CAPTION + 5 HASHTAGS).
