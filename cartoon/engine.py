@@ -480,6 +480,11 @@ def shot_at(t, states):
         who = shot.split(":")[1] if ":" in shot else sp
         cx, cy, z = frame([who], 2.2)
         z = min(z, 2.0)
+        me = states.get(who)
+        if me is not None:  # avoid a foreground character blocking the close-up
+            for o, so in states.items():
+                if o != who and so is not None and so["foot"] > me["foot"] + 20 and abs(so["x"] - me["x"]) < 330:
+                    cx += (1 if me["x"] > so["x"] else -1) * 90
         if shot.startswith("punch"):
             z = lerp(z * 0.85, z * 1.05, ease((t - a) / 0.35))
         else:
