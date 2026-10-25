@@ -434,5 +434,14 @@ def draw_prop(d, name, q, hx, hy, s, t):
             d.ellipse(P(hx - 40 * s + k * 26 * s, hy - 30 * s, hx - 14 * s + k * 26 * s, hy - 12 * s), fill=(210, 150, 70))
     elif name == "bag":
         d.rounded_rectangle(P(hx - 50 * s, hy, hx + 50 * s, hy + 90 * s), lw(10), fill=(150, 80, 120), outline=OUT, width=lw(4))
+    elif name == "money":
+        for k, c in enumerate(((70, 150, 90), (200, 90, 140), (70, 150, 90))):
+            ang = (k - 1) * 0.35
+            cx, cy = hx + 10 * s + 34 * s * math.sin(ang), hy - 40 * s
+            w, h = 34 * s, 58 * s
+            pts = []
+            for dx, dy in ((-w, -h), (w, -h), (w, h * 0.2), (-w, h * 0.2)):
+                pts += [cx + dx * math.cos(ang) - dy * math.sin(ang), cy + dx * math.sin(ang) + dy * math.cos(ang)]
+            d.polygon(P(*pts), fill=c, outline=OUT)
     elif name == "toy":
         d.ellipse(P(hx - 26 * s, hy - 52 * s, hx + 26 * s, hy), fill=(60, 160, 230), outline=OUT, width=lw(4))

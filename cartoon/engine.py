@@ -170,6 +170,25 @@ for si, scd in enumerate(EP["scenes"]):
             seg(who, t, "at", scene=si, slot=a["slot"])
             pos[who] = a["slot"]
             return t + 0.1
+        if kind == "approach":  # walk next to another character (e.g. to take something from them)
+            tgt = slot_pos(scene, pos[a["to"]])
+            src = slot_pos(scene, pos[who])
+            side = -1 if src["x"] < tgt["x"] else 1
+            name = f"near_{a['to']}_{side}"
+            scene["set"]["slots"][name] = dict(x=tgt["x"] + side * 235, kind="stand", foot=tgt.get("foot", 1650) - 6, s=tgt["s"])
+            a = dict(a, slot=name)
+            kind = "move"
+        if kind == "move" and a["slot"].startswith("near_"):
+            src, dest = slot_pos(scene, pos[who]), slot_pos(scene, a["slot"])
+            if src["kind"] != "stand":
+                seg(who, t, "rise", scene=si, slot=pos[who], dur=0.5)
+                t += 0.5
+            dur = abs(src["x"] - dest["x"]) / WALK_V + 0.2
+            seg(who, t, "walk", scene=si, x0=src["x"], x1=dest["x"], foot=dest["foot"], s=dest["s"], dur=dur)
+            t += dur
+            seg(who, t, "at", scene=si, slot=a["slot"])
+            pos[who] = a["slot"]
+            return t + 0.1
         if kind == "wait":
             return t + a.get("sec", 0.5)
         return t
@@ -186,7 +205,16 @@ for si, scd in enumerate(EP["scenes"]):
             EVT.append((t, nm))
         if ln.get("joke"):
             EVT.append((t + d + 0.05, "sting"))
-        t += d + ln.get("gap", 0.32)
+        if ln.get("give"):
+            g = ln["give"]
+            tg = t + d * g.get("at", 0.55)
+            PROP.setdefault(ln["who"], []).append((t - 0.01, g.get("prop", "money")))
+            PROP.setdefault(ln["who"], []).append((tg, None))
+            PROP.setdefault(g["to"], []).append((tg, g.get("prop", "money")))
+        gap = ln.get("gap", 0.32)
+        if ln.get("joke"):
+            gap = max(gap, 1.0)  # let the laugh land
+        t += d + gap
         for a in ln.get("after", []):
             t = do_action(a, t)
     t += 0.25
@@ -275,6 +303,7 @@ POSES = {  # near(dx,dy), far(dx,dy), flags ; units relative to torso top, scale
     "think": ((30, -40), (-40, 300), ""), "explain": ((185, 210), (-160, 240), "explain"),
     "point_up": ((150, -200), (-70, 470), "finger"), "tired": ((90, 470), (-90, 470), ""),
     "walk": ((120, 430), (-120, 430), "walk"), "tray": ((80, 175), (-80, 175), "tray"),
+    "give": ((175, 150), (-70, 470), "prop"), "take": ((175, 158), (-70, 470), ""),
 }
 ALIAS = {"rest": None}
 EMO_TILT = {"worried": -3, "sheepish": 5, "teasing": -6, "happy": 2.5, "laugh": 0, "warm": 4, "calm": 1.5, "surprised": 0,
@@ -307,18 +336,34 @@ for i, l in enumerate(LINES):
     for tt, v in keyed(l.get("pose", "rest"), a, d):
         add(POSE, sp, tt, v)
     add(LOOK, sp, a - 0.1, l.get("look", to or "*"))
-    react = l.get("react", {})
+    react = dict(l.get("react", {}))
+    if l.get("joke") and "*" not in react:
+        react["*"] = "laugh"
     for who in l["present"]:
         if who == sp:
             continue
         e = react.get(who, react.get("*"))
         if e:
-            for tt, v in keyed(e, a + 0.15, d):
-                add(EMO, who, tt, v)
+            if e == "laugh":  # listeners laugh when the punchline lands (end of the line), not before
+                add(EMO, who, a + 0.15, "happy")
+                add(EMO, who, b - 0.2, "laugh")
+                add(EMO, who, b + 1.3, "happy")
+            else:
+                for tt, v in keyed(e, a + 0.15, d):
+                    add(EMO, who, tt, v)
         lk = l.get("looks", {}).get(who, sp)
         add(LOOK, who, a + 0.12, lk)
         for tt, v in keyed(l.get("react_pose", {}).get(who), a + 0.1, d):
             add(POSE, who, tt, v)
+    if l.get("give"):  # hand-over: giver reaches out, receiver takes it
+        g = l["give"]
+        tg = a + d * g.get("at", 0.55)
+        add(POSE, sp, max(a, tg - 0.6), "give")
+        add(POSE, sp, tg + 0.45, "rest")
+        add(POSE, g["to"], tg - 0.35, "take")
+        add(POSE, g["to"], tg + 0.5, "hold")
+        add(LOOK, sp, a - 0.1, g["to"])
+        add(LOOK, g["to"], a + 0.1, sp)
 for tr in (EMO, POSE, LOOK):
     for w in tr:
         tr[w].sort(key=lambda e: e[0])
@@ -453,6 +498,8 @@ def shot_at(t, states):
     a, b = times[i]
     shot = l.get("shot", "auto")
     sp = l["who"]
+    if l.get("give") and shot == "auto":
+        shot = "two:" + l["give"]["to"]
     if states.get(sp) is None and not shot.startswith(("close:", "two:", "punch:")):
         shot = "wide"  # narrator / off-screen voice
     to = l.get("to")

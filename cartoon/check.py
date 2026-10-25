@@ -6,10 +6,10 @@ import sets as S
 
 POSES = ["rest", "read", "head_hold", "beckon", "wag", "plead", "point_down", "fist", "point_other", "thumb_back", "arms_up", "chest",
          "wave", "hold", "newspaper", "phone_look", "hands_hips", "cross", "shrug", "facepalm", "scratch_head", "objection", "clap",
-         "think", "explain", "point_up", "tired"]
+         "think", "explain", "point_up", "tired", "give", "take"]
 SFX = ["whoosh", "door", "ding", "phone_ring", "notification", "clink", "pressure_cooker", "bat_hit", "sting", "boing", "crash", "knock",
        "baby_giggle", "tv", "rain", "bike", "light_on", "cash"]
-PROPS = ["cup", "phone", "newspaper", "remote", "bat", "book", "ladle", "plate", "bag", "toy", "tray", None]
+PROPS = ["cup", "phone", "newspaper", "remote", "bat", "book", "ladle", "plate", "bag", "toy", "tray", "money", None]
 LOOKS = ["front", "down", "book", "phone", "up", "door", "*"]
 S.setK(0.2)
 ep = json.load(open(sys.argv[1], encoding="utf-8"))
@@ -58,6 +58,10 @@ for si, sc in enumerate(ep.get("scenes", [])):
                 if a["slot"] not in slots or a["slot"] in present.values():
                     err.append(f"{tag}: bad move slot {a['slot']}")
                 present[a["who"]] = a["slot"]
+            elif d == "approach":
+                if a.get("to") not in present or a.get("who") not in present:
+                    err.append(f"{tag}: approach needs both characters present")
+                present[a["who"]] = "near_" + a["to"]
             elif d == "prop":
                 if a.get("prop") not in PROPS:
                     err.append(f"{tag}: bad prop")
@@ -91,6 +95,12 @@ for si, sc in enumerate(ep.get("scenes", [])):
             err.append(f"{tag}: bad shot {sh}")
         if ":" in sh and sh.split(":")[1] not in present:
             err.append(f"{tag}: shot target not present")
+        if ln.get("give"):
+            g = ln["give"]
+            if g.get("to") not in present:
+                err.append(f"{tag}: give target {g.get('to')} not present")
+            if g.get("prop", "money") not in PROPS:
+                err.append(f"{tag}: bad give prop")
         for s_ in ln.get("sfx", []):
             if s_ not in SFX:
                 err.append(f"{tag}: bad sfx {s_}")

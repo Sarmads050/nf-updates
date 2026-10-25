@@ -31,6 +31,12 @@ never use real people's names, and keep facts in the story true (no invented sta
   2. Scene 2 (complication, ~40 s): a different set or a new character arrives; things get funnier/worse; the main joke builds here.
   3. Scene 3 (resolution, ~30 s): the problem is solved, the punchline lands (`"joke": true`), a warm small lesson, final laugh.
   - One clear problem per episode, cause → effect. Characters say each other's names/relations ("Abba", "Ada Faraz", "Ammi").
+  - **Complete natural sentences** — never drop the verb or helper words ("Ghar mein na samosay *hain*, na mithai *hai*",
+    "pakoray das minute mein *ban jayenge*", "sasural wale *aa rahe hain*"). Read every line aloud in your head: it must sound like
+    a real person, grammatically complete.
+  - **Show what is said:** if a line mentions an action (giving money, taking a cup, entering, leaving, phone call, cooking),
+    it must be visible: use `give`, `approach`, `enter`/`exit`, props and poses for it. Nobody hands something over off-screen.
+  - Laughs: put `"joke": true` on the punchline — listeners then laugh exactly when it lands and a 1 s laugh beat follows.
   - Each line short (max ~14 words). Let reactions breathe (`gap` 0.5–0.8 after a joke). At least 2 jokes.
   - `NARRATOR` is an off-screen storyteller (not in cast); use it only at the start (and optionally one bridge line between scenes).
   - Every character's name and role is shown automatically the first time they speak.
@@ -70,11 +76,13 @@ Line fields:
 - emotions: neutral calm happy worried surprised teasing sheepish laugh warm focused angry tired proud confused sad
 - poses: rest read head_hold beckon wag plead point_down fist point_other thumb_back arms_up chest wave hold newspaper phone_look
   hands_hips cross shrug facepalm scratch_head objection clap think explain point_up tired
-- props (hand): cup phone newspaper remote bat book ladle plate bag toy tray
+- props (hand): cup phone newspaper remote bat book ladle plate bag toy tray money
 - shots: auto | wide | group | close | close:CHAR | punch | two | two:CHAR   (first line usually close on hook speaker; jokes = punch; end = group)
 - sfx: whoosh door ding phone_ring notification clink pressure_cooker bat_hit sting boing crash knock baby_giggle tv rain bike light_on cash
 - actions: {"do":"enter","who":C,"slot":S} {"do":"exit","who":C} {"do":"move","who":C,"slot":S} {"do":"prop","who":C,"prop":P}
-  {"do":"sfx","name":N,"wait":sec} {"do":"wait","sec":s}
+  {"do":"sfx","name":N,"wait":sec} {"do":"wait","sec":s} {"do":"approach","who":C,"to":OTHER} (walk next to OTHER)
+- Hand-over on a line: `"give": {"to": RECEIVER, "prop": "money", "at": 0.5}` — the speaker reaches out and RECEIVER takes it.
+  Put `{"do":"approach","who":RECEIVER,"to":SPEAKER}` in `before` if they are not standing side by side.
 
 Validate: `python cartoon/check.py cartoon/episodes/epNNN.json` must print OK.
 

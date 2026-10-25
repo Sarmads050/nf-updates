@@ -56,8 +56,8 @@
      "emo": "happy",
      "shot": "auto",
      "how": "cheerful, casual, speaking quickly on the phone",
-     "roman": "Haan Ammi! Bas *chai* aur kuch halka sa... zyada *takalluf* mat karna!",
-     "urdu": "ہاں امی! بس چائے اور کچھ ہلکا سا... زیادہ تکلف مت کرنا!",
+     "roman": "Haan Ammi! Bas *chai* aur kuch halka sa bana lena... zyada *takalluf* mat karna!",
+     "urdu": "ہاں امی! بس چائے اور کچھ ہلکا سا بنا لینا... زیادہ تکلف مت کرنا!",
      "react": {
       "AMMI": "worried",
       "SANA": "surprised",
@@ -78,8 +78,8 @@
        "prop": null
       }
      ],
-     "roman": "Halka sa? *Sasural wale* hain! Ghar mein na *samosay*, na *mithai*!",
-     "urdu": "ہلکا سا؟ سسرال والے ہیں! گھر میں نہ سموسے، نہ مٹھائی!",
+     "roman": "Halka sa? *Sasural wale* aa rahe hain! Ghar mein na *samosay* hain, na *mithai* hai!",
+     "urdu": "ہلکا سا؟ سسرال والے آ رہے ہیں! گھر میں نہ سموسے ہیں، نہ مٹھائی ہے!",
      "react": {
       "SANA": "calm",
       "MEHAK": "worried"
@@ -92,8 +92,8 @@
      "pose": "explain",
      "shot": "close",
      "how": "calm, confident and polite, reassuring",
-     "roman": "Ammi, ghabraiye mat. Aloo aur besan hai — *pakoray* aur chutney *das minute* mein!",
-     "urdu": "امی، گھبرائیے مت۔ آلو اور بیسن ہے، پکوڑے اور چٹنی دس منٹ میں!",
+     "roman": "Ammi, ghabraiye mat. Aloo aur besan hai, *pakoray* aur chutney *das minute* mein ban jayenge!",
+     "urdu": "امی، گھبرائیے مت۔ آلو اور بیسن ہے، پکوڑے اور چٹنی دس منٹ میں بن جائیں گے!",
      "react": {
       "AMMI": "calm",
       "MEHAK": "happy"
@@ -165,8 +165,8 @@
      "pose": "point_other",
      "shot": "two:IMTIAZ",
      "how": "excited, bossy little sister",
-     "roman": "Ada, *Nimra Baji* ke sasural wale! Aap jaldi se *mithai* le aayein!",
-     "urdu": "اَدا، نمرہ باجی کے سسرال والے! آپ جلدی سے مٹھائی لے آئیں!",
+     "roman": "Ada, *Nimra Baji* ke sasural wale aa rahe hain! Aap jaldi se *mithai* le aayein!",
+     "urdu": "اَدا، نمرہ باجی کے سسرال والے آ رہے ہیں! آپ جلدی سے مٹھائی لے آئیں!",
      "react": {
       "IMTIAZ": "surprised"
      }
@@ -206,8 +206,16 @@
     {
      "who": "AMMI",
      "to": "IMTIAZ",
-     "emo": "laugh",
-     "pose": "hold",
+     "emo": [
+      [
+       0,
+       "laugh"
+      ],
+      [
+       0.5,
+       "happy"
+      ]
+     ],
      "shot": "two:IMTIAZ",
      "how": "laughing, handing money, motherly",
      "roman": "Yeh lo *Chinese sahab*, paise! Aur *jaldi* wapas aana!",
@@ -218,7 +226,19 @@
      "react": {
       "IMTIAZ": "happy",
       "SANA": "laugh"
-     }
+     },
+     "give": {
+      "to": "IMTIAZ",
+      "prop": "money",
+      "at": 0.5
+     },
+     "before": [
+      {
+       "do": "approach",
+       "who": "IMTIAZ",
+       "to": "AMMI"
+      }
+     ]
     },
     {
      "who": "SANA",
@@ -227,8 +247,8 @@
      "pose": "hold",
      "shot": "two:AMMI",
      "how": "happy and proud, showing the plate",
-     "roman": "Ammi, *pakoray tayyar!* Aur aapki *chai* ki khushbu poore ghar mein!",
-     "urdu": "امی، پکوڑے تیار! اور آپ کی چائے کی خوشبو پورے گھر میں!",
+     "roman": "Ammi, *pakoray tayyar* hain! Aur aapki *chai* ki khushbu poore ghar mein phail gayi hai!",
+     "urdu": "امی، پکوڑے تیار ہیں! اور آپ کی چائے کی خوشبو پورے گھر میں پھیل گئی ہے!",
      "react": {
       "AMMI": "proud",
       "MEHAK": "happy"
@@ -256,8 +276,8 @@
      "pose": "clap",
      "shot": "close",
      "how": "warm and loving, praising her daughter-in-law",
-     "roman": "Shabash beti. Tumhare *pakoray*, meri *chai* — aaj to sab *khush* ho jayenge!",
-     "urdu": "شاباش بیٹی۔ تمہارے پکوڑے، میری چائے، آج تو سب خوش ہو جائیں گے!",
+     "roman": "Shabash beti. Tumhare *pakoray* aur meri *chai*, aaj to sab *khush* ho jayenge!",
+     "urdu": "شاباش بیٹی۔ تمہارے پکوڑے اور میری چائے، آج تو سب خوش ہو جائیں گے!",
      "react": {
       "SANA": "happy",
       "MEHAK": "happy"
