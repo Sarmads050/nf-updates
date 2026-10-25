@@ -36,6 +36,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ONLY_LINES: ${{ inputs.only }}
       - name: Save audio
+        if: always()
         run: |
           git config user.name "nf-updates-bot"
           git config user.email "nf-updates-bot@users.noreply.github.com"

@@ -34,8 +34,11 @@ def tts(prompt, voice, ms, key):
                     return np.frombuffer(base64.b64decode(d["data"]), dtype="<i2")
                 print("no audio", m, flush=True)
                 break
-            print("tts", m, r.status_code, r.text[:150], flush=True)
+            print("tts", m, r.status_code, r.text[:300], flush=True)
             if r.status_code == 429:
+                if "PerDay" in r.text or "per day" in r.text.lower():
+                    print("daily quota finished for", m, flush=True)
+                    break  # try the next model; don't waste time waiting
                 time.sleep(65)
             elif r.status_code in (500, 503):
                 time.sleep(10)
@@ -59,6 +62,8 @@ def main():
     for i, ln in enumerate(lines, 1):
         if want is not None and i not in want:
             continue
+        if want is None and os.path.exists(os.path.join(out, f"{i:02d}.mp3")):
+            continue  # already made in an earlier run (resume)
         c = CHARS[ln["who"]]
         extra = " This is a phone call." if ln.get("phone") else ""
         if c.get("narrator"):
@@ -73,6 +78,11 @@ def main():
                       f"with a light Sindhi accent, like a real person at home, not like a news reader.{extra} "
                       f"Emotion and delivery: {ln.get('how', 'natural')}. Say exactly this line and nothing else:\n\n{ln['urdu']}")
         pcm = tts(prompt, c["voice"], ms, key)
+        if pcm is None and len(failed) >= 2 and not any(os.path.exists(os.path.join(out, f"{j:02d}.mp3")) for j in range(i, i + 1)):
+            failed.append(i)
+            failed += [j for j in range(i + 1, len(lines) + 1)]
+            print("stopping: quota looks finished, failed lines", failed, flush=True)
+            break
         if pcm is None:
             print("FAILED line", i, flush=True)
             failed.append(i)
