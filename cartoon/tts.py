@@ -61,7 +61,11 @@ def main():
             continue
         c = CHARS[ln["who"]]
         extra = " This is a phone call." if ln.get("phone") else ""
-        if c.get("toddler"):
+        if c.get("narrator"):
+            prompt = (f"You are the warm, friendly storyteller of a Pakistani family cartoon. Narrate in clear, simple Urdu, "
+                      f"engaging like telling a story to the family. Delivery: {ln.get('how', 'warm storytelling')}. "
+                      f"Say exactly this and nothing else:\n\n{ln['urdu']}")
+        elif c.get("toddler"):
             prompt = (f"You are voicing {c['who']} in a 2D cartoon. Speak like a real 2-year-old: tiny cute voice, "
                       f"slow, half words, giggles. Delivery: {ln.get('how', 'cute')}. Say exactly this and nothing else:\n\n{ln['urdu']}")
         else:

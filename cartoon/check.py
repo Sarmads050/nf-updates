@@ -66,7 +66,7 @@ for si, sc in enumerate(ep.get("scenes", [])):
                     err.append(f"{tag}: bad sfx {a.get('name')}")
             elif d != "wait":
                 err.append(f"{tag}: unknown action {d}")
-        if ln.get("who") not in present and not ln.get("offscreen") and not ln.get("phone"):
+        if ln.get("who") not in present and not ln.get("offscreen") and not ln.get("phone") and ln.get("who") != "NARRATOR":
             err.append(f"{tag}: speaker not present in scene (add to cast or 'enter' first, or set offscreen/phone)")
         for k in ("roman", "urdu", "how"):
             if not ln.get(k):

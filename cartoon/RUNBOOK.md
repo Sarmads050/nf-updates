@@ -11,13 +11,23 @@ Total time budget ~60 min. Work in the scratchpad for big files; never commit vi
 
 ## 1. Write the script (as the MASTER_PROMPT head writer)
 - Pick a fresh everyday topic (topic bank or new). Rotate characters and sets; use 2–5 characters.
-- 30–60 seconds = **9–14 short lines**. Hook in line 1. At least one clean joke (mark `"joke": true`). Warm ending, not preachy.
+- **90–120 seconds = 24–32 lines in 2–3 scenes** (Sarmad wants ~2 minute episodes). Hook in line 1.
+- **The story must be easy to follow** (a viewer who has never seen the channel must understand it):
+  1. Scene 1 (setup, ~25 s): open with a 1–2 line `NARRATOR` intro that says where we are and what the problem is
+     (e.g. "Nawabshah ke is ghar mein aaj subah se ek hi sawal hai... gas cylinder khatam!"), then the characters show the problem.
+  2. Scene 2 (complication, ~40 s): a different set or a new character arrives; things get funnier/worse; the main joke builds here.
+  3. Scene 3 (resolution, ~30 s): the problem is solved, the punchline lands (`"joke": true`), a warm small lesson, final laugh.
+  - One clear problem per episode, cause → effect. Characters say each other's names/relations ("Abba", "Ada Faraz", "Ammi").
+  - Each line short (max ~14 words). Let reactions breathe (`gap` 0.5–0.8 after a joke). At least 2 jokes.
+  - `NARRATOR` is an off-screen storyteller (not in cast); use it only at the start (and optionally one bridge line between scenes).
+  - Every character's name and role is shown automatically the first time they speak.
+- Run the MASTER_PROMPT safety check (religion, army, real public figures, politics, children safe, respect).
 - Run the MASTER_PROMPT safety check (religion, army, real public figures, politics, children safe, respect).
 - Save the human script as `cartoon/episodes/epNNN.md` (TITLE, HOOK, CHARACTERS, LOCATION, SCENES, JOKE, ENDING, CAPTION + 5 HASHTAGS).
 
 ## 2. Convert to `cartoon/episodes/epNNN.json` (copy the shape of `ep001.json`)
 Top: `id`, `series`, `episode` (number), `title`, `topic`, `music` (happy|comic|calm|tense), `lesson` (short, may use `<br>`),
-`caption`, `hashtags` (5), `scenes` (1–2 scenes; 1 is best for 30–60 s).
+`caption`, `hashtags` (5), `scenes` (2–3 scenes, each with a `label` like "Kitchen • Subah").
 
 Scene: `set`, `time` (day|evening|night|loadshedding), `label` (e.g. "Nawabshah • Subah"), `cast` {CHAR: slot}, `props` {CHAR: prop}, `lines`.
 
@@ -31,7 +41,8 @@ Sets and slots:
 Staging tips: speakers who talk to each other should be side by side. stand_cl/stand_cr/stand_c are in FRONT of the sofa —
 use them only when nobody sits right behind. Toddlers (HAMZA, HASHIR) go on floor_l/floor_r.
 
-Characters (keys): ABBA, AMMI, IMTIAZ (Ada Imtiaz), SANA (Bhabi), HAMZA, HASHIR (2-yr twins), FARAZ, NIMRA, DANIYAL, ARSALAN, MEHAK.
+Characters (keys): ABBA, AMMI, IMTIAZ (Ada Imtiaz), SANA (Bhabi), HAMZA, HASHIR (2-yr twins), FARAZ, NIMRA, DANIYAL, ARSALAN, MEHAK,
+plus NARRATOR (off-screen storyteller voice, never in `cast`).
 
 Line fields:
 - `who`, `to` (character addressed, or front/down/up/door), `roman` (caption, Roman Urdu; wrap 1–3 key words in `*stars*` for yellow highlight),
@@ -64,7 +75,8 @@ Preview first (fast): `PREVIEW=2,8,15,25 python cartoon/engine.py cartoon/episod
 Look at the PNGs in `<scratch>/epNNN_work/`. Check like a professional animator:
 speaker visible and not blocked in close-ups, nobody cut off at frame edge, caption matches speaker, title readable,
 gestures make sense, staging/eye-lines feel natural. Fix the JSON (slots, shots, poses) and re-preview.
-Then full render (~8–10 min, 2 processes): same command without PREVIEW. Check duration 30–75 s.
+Then full render (~15–20 min for 2 minutes, 2 processes; run it in the background and wait for it): same command without PREVIEW.
+Check duration 85–130 s. Voices for ~28 lines take ~15 min in the workflow (it waits between calls for the free quota).
 
 ## 5. Deliver
 1. Extract 6 frames across the video and look at them one last time.

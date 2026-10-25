@@ -453,6 +453,8 @@ def shot_at(t, states):
     a, b = times[i]
     shot = l.get("shot", "auto")
     sp = l["who"]
+    if states.get(sp) is None and not shot.startswith(("close:", "two:", "punch:")):
+        shot = "wide"  # narrator / off-screen voice
     to = l.get("to")
     if shot == "auto":
         k = sum(1 for j in range(i) if LINES[j]["scene"] == si)
@@ -633,9 +635,13 @@ with sync_playwright() as p:
         pg.evaluate("document.fonts.ready")
         pg.wait_for_timeout(150)
         pg.locator("#c").screenshot(path=out, omit_background=True)
+    seen = set()
     for i, l in enumerate(LINES):
         c = art.CHARS[l["who"]]
         nm = l.get("name", c["name"])
+        if l["who"] not in seen and c.get("role") and "name" not in l:
+            nm = f"{nm} &bull; {c['role']}"  # introduce each character the first time they speak
+        seen.add(l["who"])
         for j, ln in enumerate(CH[i]):
             png(f"<div id=c style='width:{OW}px;text-align:center;padding:16px 0'>"
                 f"<div style='font-family:P;font-size:32px;color:{c['color']};-webkit-text-stroke:7px #000;paint-order:stroke fill;text-shadow:0 3px 8px rgba(0,0,0,.8)'>{nm}</div>"
