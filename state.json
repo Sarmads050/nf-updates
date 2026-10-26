@@ -1619,7 +1619,9 @@
   "5d7eeb0b30b4eb82": 1792981293.0829437,
   "aae7ceb8518ca660": 1792981293.0829444,
   "7d7f3e1548adb5fd": 1792981293.0829453,
-  "1119209fbf53d1bc": 1792981293.0831947
+  "1119209fbf53d1bc": 1792981293.0831947,
+  "9ecee90099d9261b": 1792981884.2661266,
+  "2f7018c88b574fc6": 1792981901.6759303
  },
  "pending": {},
  "queue": [],
@@ -2200,7 +2202,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-26 07:21",
+  "time": "2026-10-26 07:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7475,9 +7477,9 @@
  },
  "ai_usage": {
   "date": "2026-10-26",
-  "ok": 88,
+  "ok": 91,
   "fail": 0,
-  "limit": 140
+  "limit": 146
  },
  "posted_heads": [
   {
@@ -7802,7 +7804,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-26 07:21",
+  "time": "2026-10-26 07:31",
   "steps": []
  },
  "roundup_am": "2026-10-25",
@@ -7905,12 +7907,12 @@
  },
  "article_diag": {
   "date": "2026-10-26",
-  "tried": 16,
-  "decoded": 16,
-  "text": 13,
-  "story": 10
+  "tried": 17,
+  "decoded": 17,
+  "text": 14,
+  "story": 11
  },
- "ai_last_error": "07:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "07:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-26",
   "models": [
@@ -7951,7 +7953,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-26",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7959,7 +7961,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-26",
-   "ok": 46,
+   "ok": 47,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7967,7 +7969,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-26",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7975,14 +7977,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7990,21 +7992,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-26",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8391,8 +8393,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 6,
-  "old": 6,
+  "found": 9,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8422,8 +8424,8 @@
   "date": "2026-10-26",
   "count": 1,
   "last": 1792974674.2359757,
-  "city_i": 4,
-  "dry": 1792981265.9719033
+  "city_i": 8,
+  "dry": 1792981870.9418755
  },
  "gemini_day_dead": {
   "day": "2026-10-25",
@@ -9220,13 +9222,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-26 01:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-26 01:20",
    "ok": true,
    "n": 0,
@@ -9494,6 +9489,13 @@
   },
   {
    "t": "10-26 07:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-26 07:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14122,11 +14124,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-24 06:01",
-   "new": "سال 2027 لاءِ ڪڻڪ جو اگهه مقرر",
-   "old": "پي ايم سال 2027 لاءِ ڪڻڪ جو اگهه مقرر"
-  },
-  {
    "t": "10-24 06:11",
    "new": "سنڌ لاءِ 4 ڪروڙ ڊالرن جو ترقياتي پروگرام",
    "old": "اڄ جون نوڪريون (نوشهروفيروز ۽ سنڌ)"
@@ -14270,6 +14267,11 @@
    "t": "10-26 07:21",
    "new": "ڪڻڪ جي نون اگهن بابت اهم اعلان",
    "old": "ڪڻڪ جو سهارو اگهه 4500 رپيا مقرر"
+  },
+  {
+   "t": "10-26 07:31",
+   "new": "غربت تعليم جي واهط ۾ رڪاوٽ نه بڻجڻ گهرجي: وزيراعظم",
+   "old": "پنج لک ڪروم بڪس ۽ ميفائي ڊيوائسز جي تقسيم"
   }
  ],
  "tg_bot_id": 8610497682,
