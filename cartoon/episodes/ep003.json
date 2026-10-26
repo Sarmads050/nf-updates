@@ -113,19 +113,6 @@
      }
     },
     {
-     "who": "ABBA",
-     "to": "AMMI",
-     "emo": "proud",
-     "pose": "wag",
-     "shot": "close",
-     "how": "proud old-school lecture tone",
-     "roman": "*Humare zamane* mein to log subah paanch baje uth kar *chulha* jala lete thay!",
-     "urdu": "ہمارے زمانے میں تو لوگ صبح پانچ بجے اٹھ کر چولہا جلا لیتے تھے!",
-     "react": {
-      "AMMI": "teasing"
-     }
-    },
-    {
      "who": "ARSALAN",
      "to": "AMMI",
      "emo": "sad",
@@ -176,19 +163,6 @@
      }
     },
     {
-     "who": "AMMI",
-     "to": "ARSALAN",
-     "emo": "angry",
-     "pose": "wag",
-     "shot": "auto",
-     "how": "mock scolding, loving mother",
-     "roman": "Zubaan kam chalao, aur *college* ki tayyari karo!",
-     "urdu": "زبان کم چلاؤ، اور کالج کی تیاری کرو!",
-     "react": {
-      "ARSALAN": "sheepish"
-     }
-    },
-    {
      "who": "ABBA",
      "to": "AMMI",
      "emo": "proud",
@@ -217,22 +191,6 @@
    "props": {},
    "lines": [
     {
-     "who": "NARRATOR",
-     "to": "front",
-     "emo": "calm",
-     "shot": "wide",
-     "how": "playful storyteller bridge",
-     "before": [
-      {
-       "do": "prop",
-       "who": "ABBA",
-       "prop": null
-      }
-     ],
-     "roman": "Aur ab... Abba ka *purana nuskha*!",
-     "urdu": "اور اب... ابا کا پرانا نسخہ!"
-    },
-    {
      "who": "ABBA",
      "to": "DANIYAL",
      "emo": "proud",
@@ -243,7 +201,14 @@
      "urdu": "دانیال، لکڑیاں لے آؤ۔ آج چائے ہمارے زمانے والے چولہے پر بنے گی!",
      "react": {
       "DANIYAL": "surprised"
-     }
+     },
+     "before": [
+      {
+       "do": "prop",
+       "who": "ABBA",
+       "prop": null
+      }
+     ]
     },
     {
      "who": "DANIYAL",
@@ -350,40 +315,6 @@
      "react": {
       "DANIYAL": "happy"
      }
-    },
-    {
-     "who": "DANIYAL",
-     "to": "SANA",
-     "emo": "proud",
-     "pose": "chest",
-     "shot": "close",
-     "how": "dramatic lawyer, saluting the order",
-     "roman": "Hukam ki *tameel* hogi, Bhabi! Daniyal abhi *hazir* hota hai!",
-     "urdu": "حکم کی تعمیل ہوگی، بھابی! دانیال ابھی حاضر ہوتا ہے!",
-     "react": {
-      "SANA": "laugh"
-     }
-    },
-    {
-     "who": "ABBA",
-     "to": "SANA",
-     "emo": "warm",
-     "pose": "clap",
-     "shot": "two:SANA",
-     "how": "pleased, warm praise",
-     "gap": 0.5,
-     "before": [
-      {
-       "do": "exit",
-       "who": "DANIYAL"
-      }
-     ],
-     "roman": "Shabash beti! Yeh hui na *samajhdari* wali baat!",
-     "urdu": "شاباش بیٹی! یہ ہوئی نا سمجھداری والی بات!",
-     "react": {
-      "SANA": "happy",
-      "ARSALAN": "happy"
-     }
     }
    ]
   },
@@ -472,27 +403,14 @@
      }
     },
     {
-     "who": "ABBA",
-     "to": "AMMI",
-     "emo": "happy",
-     "pose": "hold",
-     "shot": "close",
-     "how": "sipping, satisfied, relaxed",
-     "roman": "Waah! *Intezaar* ke baad chai ka maza hi *kuch aur* hai!",
-     "urdu": "واہ! انتظار کے بعد چائے کا مزہ ہی کچھ اور ہے!",
-     "react": {
-      "AMMI": "happy"
-     }
-    },
-    {
      "who": "SANA",
      "to": "AMMI",
      "emo": "calm",
      "pose": "explain",
      "shot": "two:AMMI",
-     "how": "polite, helpful suggestion",
-     "roman": "Ammi, raat der se *pressure* theek hota hai. Kal se *paani* aur *aata* raat ko hi tayyar kar lenge.",
-     "urdu": "امی، رات دیر سے پریشر ٹھیک ہوتا ہے۔ کل سے پانی اور آٹا رات کو ہی تیار کر لیں گے۔",
+     "how": "polite, quick and helpful, short and natural",
+     "roman": "Ammi, raat ko *pressure* theek hota hai. Kal se *paani* aur *aata* raat ko hi tayyar kar lenge.",
+     "urdu": "امی، رات کو پریشر ٹھیک ہوتا ہے۔ کل سے پانی اور آٹا رات کو ہی تیار کر لیں گے۔",
      "react": {
       "AMMI": "calm"
      }
@@ -551,34 +469,6 @@
      "react": {
       "*": "laugh",
       "ARSALAN": "sheepish"
-     }
-    },
-    {
-     "who": "DANIYAL",
-     "to": "ARSALAN",
-     "emo": "teasing",
-     "pose": "point_up",
-     "shot": "auto",
-     "how": "mock judge giving a verdict",
-     "roman": "Adalat ka faisla: Arsalan aaj *bina nahaye* college jayega!",
-     "urdu": "عدالت کا فیصلہ: ارسلان آج بنا نہائے کالج جائے گا!",
-     "react": {
-      "*": "laugh"
-     }
-    },
-    {
-     "who": "ARSALAN",
-     "to": "front",
-     "emo": "happy",
-     "pose": "arms_up",
-     "shot": "group",
-     "joke": true,
-     "gap": 0.8,
-     "how": "overjoyed, celebrating",
-     "roman": "Yeh hui na *insaaf* wali baat!",
-     "urdu": "یہ ہوئی نا انصاف والی بات!",
-     "react": {
-      "*": "laugh"
      }
     }
    ]
