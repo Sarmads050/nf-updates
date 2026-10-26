@@ -1616,7 +1616,8 @@
   "1a383de44fb4f874": 1793005269.5667894,
   "6bfd18208a53a005": 1793005850.8789954,
   "9f353450f3e0308b": 1793005850.8790143,
-  "531248b375e100cd": 1793005865.8993566
+  "531248b375e100cd": 1793005865.8993566,
+  "f38bac96cbc478e0": 1793006466.772424
  },
  "pending": {},
  "queue": [],
@@ -2177,7 +2178,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-26 14:11",
+  "time": "2026-10-26 14:21",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -4605,80 +4606,8 @@
   "last": 1792998888.7435148
  },
  "trends": {
-  "last": 1792995052.0030534,
+  "last": 1793006466.772563,
   "terms": [
-   {
-    "term": "england vs west indies",
-    "traffic": 2000,
-    "news": "WI Legends capture World Championship",
-    "t": 1792392655,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "france protests",
-    "traffic": 500,
-    "news": "Smashed storefronts, torched cars and graffiti — France protests and their aftermath in pictures",
-    "t": 1792392655,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "enc",
-    "traffic": 100,
-    "news": "Coastal Storm Threatens Mid-Atlantic With High Winds and Flooding",
-    "t": 1792392655,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "plra",
-    "traffic": 100,
-    "news": "Para ser opción, la oposición debe tener un proyecto que vaya más allá de peleas por espacios de poder, dicen",
-    "t": 1792392655,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "bribery",
-    "traffic": 200,
-    "news": "SC grants leave to appeal in former Deputy Minister’s Rs. 50,000 bribery case",
-    "t": 1792392655,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "terrorism",
-    "traffic": 500,
-    "news": "CM Sarfraz Bugti praises security forces for successful anti-terror operations in Balochistan",
-    "t": 1792392655,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "khyber pakhtunkhwa",
-    "traffic": 100,
-    "news": "It would've been criminal to let K-P burn: PM",
-    "t": 1792392655,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "amelia earhart",
-    "traffic": 200,
-    "news": "Airborne 10.16.26: Earhart Expedition, Disney’s Gulfstream, FAA Grounds Elixir",
-    "t": 1792392655,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "crude oil prices",
-    "traffic": 100,
-    "news": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-    "t": 1792392655,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "kylie jenner",
     "traffic": 100,
@@ -7518,15 +7447,71 @@
     "t": 1792995052,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "danyal zafar",
+    "traffic": 500,
+    "news": "Danyal Zafar announces major decision after reaching 'breaking point'",
+    "t": 1793006467,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "phantom blade zero",
+    "traffic": 200,
+    "news": "Phantom Blade Zero Review – One of the Best Action RPGs of The Generation and a Real GOTY 2026 Contender",
+    "t": 1793006467,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "abdul waheed kakar",
+    "traffic": 1000,
+    "news": "CM Maryam Nawaz condoles death of former army chief",
+    "t": 1793006467,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "poco x8s",
+    "traffic": 500,
+    "news": "POCO X8s, Redmi Pad 3 4G Receive NBTC Certification Ahead of Launch",
+    "t": 1793006467,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "nicki minaj",
+    "traffic": 100,
+    "news": "‘One hell of a beautiful ass’: President Trump praises Nicki Minaj",
+    "t": 1793006467,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "science",
+    "traffic": 100,
+    "news": "Can teaching people more about science increase public trust?",
+    "t": 1793006467,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "شاہ رخ خان",
+    "traffic": 200,
+    "news": "",
+    "t": 1793006467,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-26",
-  "ok": 180,
+  "ok": 181,
   "fail": 3,
-  "limit": 268
+  "limit": 270
  },
  "posted_heads": [
   {
@@ -7851,7 +7836,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-26 14:11",
+  "time": "2026-10-26 14:21",
   "steps": []
  },
  "roundup_am": "2026-10-26",
@@ -7959,7 +7944,7 @@
   "text": 19,
   "story": 14
  },
- "ai_last_error": "14:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "14:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-26",
   "models": [
@@ -8000,7 +7985,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-26",
-   "ok": 89,
+   "ok": 90,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8008,7 +7993,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-26",
-   "ok": 88,
+   "ok": 89,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8016,7 +8001,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-26",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8024,14 +8009,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8039,21 +8024,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-26",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8440,8 +8425,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 3,
-  "old": 3,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9264,13 +9249,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-26 07:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-26 08:00",
    "ok": true,
    "n": 0,
@@ -9538,6 +9516,13 @@
   },
   {
    "t": "10-26 14:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-26 14:20",
    "ok": true,
    "n": 0,
    "ids": [],
