@@ -1,0 +1,568 @@
+{
+ "id": "ep003",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 3,
+ "title": "Gas Gayab, Chai Late!",
+ "topic": "Winter morning gas low pressure",
+ "music": "comic",
+ "lesson": "Mil baith kar,<br>har mushkil aasan!",
+ "caption": "Sardiyon ki subah, gas ka pressure gayab aur sab ko chai chahiye! 😄 Aap ke ghar mein bhi yahi haal hai? Comment karein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#PakistaniFamily",
+  "#GasKaPressure",
+  "#Nawabshah",
+  "#UrduCartoon"
+ ],
+ "scenes": [
+  {
+   "set": "kitchen",
+   "time": "day",
+   "label": "Nawabshah • Subah Saat Baje",
+   "cast": {
+    "AMMI": "stove"
+   },
+   "props": {
+    "AMMI": "ladle"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "shot": "wide",
+     "how": "warm storyteller, slightly playful, slow and clear",
+     "roman": "Nawabshah mein *thand* aa gayi hai... aur thand ke saath, subah subah *gas ka pressure* gayab!",
+     "urdu": "نواب شاہ میں ٹھنڈ آ گئی ہے... اور ٹھنڈ کے ساتھ، صبح صبح گیس کا پریشر غائب!",
+     "gap": 0.4
+    },
+    {
+     "who": "AMMI",
+     "to": "down",
+     "emo": [
+      [
+       0,
+       "worried"
+      ],
+      [
+       0.6,
+       "teasing"
+      ]
+     ],
+     "pose": [
+      [
+       0,
+       "point_down"
+      ],
+      [
+       0.6,
+       "shrug"
+      ]
+     ],
+     "shot": "close",
+     "joke": true,
+     "gap": 0.6,
+     "how": "frustrated looking at the tiny flame, then sarcastic",
+     "roman": "Yeh dekho! Itni si *aag*... is par paratha nahi, sirf *intezaar* pakta hai!",
+     "urdu": "یہ دیکھو! اتنی سی آگ... اس پر پراٹھا نہیں، صرف انتظار پکتا ہے!",
+     "react": {
+      "*": "laugh"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "worried",
+     "pose": "point_up",
+     "shot": "auto",
+     "how": "in a hurry, serious, punctual man",
+     "before": [
+      {
+       "do": "enter",
+       "who": "ABBA",
+       "slot": "right"
+      },
+      {
+       "do": "prop",
+       "who": "ABBA",
+       "prop": "newspaper"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.3
+      }
+     ],
+     "roman": "Zaib-un-Nisa, *chai* tayyar hai? Mujhe *saade aath* baje office pahunchna hai!",
+     "urdu": "زیب النساء، چائے تیار ہے؟ مجھے ساڑھے آٹھ بجے آفس پہنچنا ہے!",
+     "react": {
+      "AMMI": "worried"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "tired",
+     "pose": "explain",
+     "shot": "two:ABBA",
+     "how": "tired and annoyed, explaining",
+     "roman": "Paani chulhe par *aadhe ghante* se rakha hai... abhi tak *neem garam* bhi nahi hua!",
+     "urdu": "پانی چولہے پر آدھے گھنٹے سے رکھا ہے... ابھی تک نیم گرم بھی نہیں ہوا!",
+     "react": {
+      "ABBA": "surprised"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "proud",
+     "pose": "wag",
+     "shot": "close",
+     "how": "proud old-school lecture tone",
+     "roman": "*Humare zamane* mein to log subah paanch baje uth kar *chulha* jala lete thay!",
+     "urdu": "ہمارے زمانے میں تو لوگ صبح پانچ بجے اٹھ کر چولہا جلا لیتے تھے!",
+     "react": {
+      "AMMI": "teasing"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "sad",
+     "pose": "cross",
+     "shot": "auto",
+     "how": "shivering, whiny teenager, teeth chattering",
+     "before": [
+      {
+       "do": "enter",
+       "who": "ARSALAN",
+       "slot": "left"
+      }
+     ],
+     "roman": "Ammi! *Geyser* ka paani *barf* jaisa thanda hai! Main aaj *nahaunga* hi nahi!",
+     "urdu": "امی! گیزر کا پانی برف جیسا ٹھنڈا ہے! میں آج نہاؤں گا ہی نہیں!",
+     "react": {
+      "AMMI": "surprised",
+      "ABBA": "angry"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "angry",
+     "pose": "wag",
+     "shot": "two:ARSALAN",
+     "how": "strict father, lecturing",
+     "roman": "Humare zamane mein hum *thande paani* se nahate thay, aur *shikayat* bhi nahi karte thay!",
+     "urdu": "ہمارے زمانے میں ہم ٹھنڈے پانی سے نہاتے تھے، اور شکایت بھی نہیں کرتے تھے!",
+     "react": {
+      "ARSALAN": "sheepish"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "teasing",
+     "pose": "shrug",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.7,
+     "how": "cheeky, innocent smart reply",
+     "roman": "Abba, aap ke zamane mein *geyser* tha hi nahi... to shikayat *kis se* karte?",
+     "urdu": "ابا، آپ کے زمانے میں گیزر تھا ہی نہیں... تو شکایت کس سے کرتے؟",
+     "react": {
+      "AMMI": "laugh",
+      "ABBA": "confused"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "angry",
+     "pose": "wag",
+     "shot": "auto",
+     "how": "mock scolding, loving mother",
+     "roman": "Zubaan kam chalao, aur *college* ki tayyari karo!",
+     "urdu": "زبان کم چلاؤ، اور کالج کی تیاری کرو!",
+     "react": {
+      "ARSALAN": "sheepish"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "proud",
+     "pose": "thumb_back",
+     "shot": "group",
+     "how": "confident, like a general with a plan",
+     "gap": 0.5,
+     "roman": "Fikar mat karo! Main *aangan* mein *lakdi ka chulha* jalata hoon. Chalo!",
+     "urdu": "فکر مت کرو! میں آنگن میں لکڑی کا چولہا جلاتا ہوں۔ چلو!",
+     "react": {
+      "AMMI": "confused",
+      "ARSALAN": "surprised"
+     }
+    }
+   ]
+  },
+  {
+   "set": "aangan",
+   "time": "day",
+   "label": "Aangan • Subah",
+   "cast": {
+    "ABBA": "stand_l",
+    "DANIYAL": "stand_c",
+    "ARSALAN": "charpai_r"
+   },
+   "props": {},
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "shot": "wide",
+     "how": "playful storyteller bridge",
+     "roman": "Aur ab... Abba ka *purana nuskha*!",
+     "urdu": "اور اب... ابا کا پرانا نسخہ!"
+    },
+    {
+     "who": "ABBA",
+     "to": "DANIYAL",
+     "emo": "proud",
+     "pose": "point_other",
+     "shot": "two:DANIYAL",
+     "how": "excited and proud",
+     "roman": "Daniyal, *lakdiyan* le aao. Aaj chai *humare zamane* wale chulhe par banegi!",
+     "urdu": "دانیال، لکڑیاں لے آؤ۔ آج چائے ہمارے زمانے والے چولہے پر بنے گی!",
+     "react": {
+      "DANIYAL": "surprised"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ABBA",
+     "emo": "teasing",
+     "pose": "objection",
+     "shot": "close",
+     "how": "dramatic courtroom style, loud",
+     "roman": "*Objection*, Abba! Ghar mein lakdi hai hi nahi... sirf aapki *purani kursi* hai!",
+     "urdu": "آبجیکشن، ابا! گھر میں لکڑی ہے ہی نہیں... صرف آپ کی پرانی کرسی ہے!",
+     "react": {
+      "ABBA": "surprised",
+      "ARSALAN": "laugh"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "DANIYAL",
+     "emo": "angry",
+     "pose": "wag",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.7,
+     "how": "shocked and protective, comic anger",
+     "roman": "Khabardar! Woh kursi mere *Abba* ki *nishani* hai!",
+     "urdu": "خبردار! وہ کرسی میرے ابا کی نشانی ہے!",
+     "react": {
+      "DANIYAL": "laugh",
+      "ARSALAN": "laugh"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "sad",
+     "pose": "cross",
+     "shot": "auto",
+     "how": "shivering, complaining, comic",
+     "roman": "Chai bhi nahi, paani bhi nahi... aur ab *kursi* bhi nahi! Main to *jam* jaunga!",
+     "urdu": "چائے بھی نہیں، پانی بھی نہیں... اور اب کرسی بھی نہیں! میں تو جم جاؤں گا!",
+     "react": {
+      "DANIYAL": "teasing",
+      "ABBA": "tired"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "ABBA",
+     "emo": "calm",
+     "pose": "phone_look",
+     "shot": "auto",
+     "how": "calm, smart and polite",
+     "before": [
+      {
+       "do": "enter",
+       "who": "SANA",
+       "slot": "stand_r"
+      },
+      {
+       "do": "prop",
+       "who": "SANA",
+       "prop": "phone"
+      }
+     ],
+     "roman": "Abba, pareshan na hon. Main ne gali ke *hotel* se *parathay* mangwa liye hain!",
+     "urdu": "ابا، پریشان نہ ہوں۔ میں نے گلی کے ہوٹل سے پراٹھے منگوا لیے ہیں!",
+     "react": {
+      "*": "happy"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "DANIYAL",
+     "emo": "happy",
+     "pose": "explain",
+     "shot": "two:DANIYAL",
+     "how": "friendly, quick instruction",
+     "before": [
+      {
+       "do": "prop",
+       "who": "SANA",
+       "prop": "money"
+      },
+      {
+       "do": "approach",
+       "who": "DANIYAL",
+       "to": "SANA"
+      }
+     ],
+     "give": {
+      "to": "DANIYAL",
+      "prop": "money",
+      "at": 0.5
+     },
+     "roman": "Daniyal, yeh lo paise. *Das parathay* tayyar hain, bas jaldi *utha* lao!",
+     "urdu": "دانیال، یہ لو پیسے۔ دس پراٹھے تیار ہیں، بس جلدی اٹھا لاؤ!",
+     "react": {
+      "DANIYAL": "happy"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "SANA",
+     "emo": "proud",
+     "pose": "chest",
+     "shot": "close",
+     "how": "dramatic lawyer, saluting the order",
+     "roman": "Hukam ki *tameel* hogi, Bhabi! Daniyal abhi *hazir* hota hai!",
+     "urdu": "حکم کی تعمیل ہوگی، بھابی! دانیال ابھی حاضر ہوتا ہے!",
+     "react": {
+      "SANA": "laugh"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "SANA",
+     "emo": "warm",
+     "pose": "clap",
+     "shot": "two:SANA",
+     "how": "pleased, warm praise",
+     "gap": 0.5,
+     "before": [
+      {
+       "do": "exit",
+       "who": "DANIYAL"
+      }
+     ],
+     "roman": "Shabash beti! Yeh hui na *samajhdari* wali baat!",
+     "urdu": "شاباش بیٹی! یہ ہوئی نا سمجھداری والی بات!",
+     "react": {
+      "SANA": "happy",
+      "ARSALAN": "happy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "aangan",
+   "time": "day",
+   "label": "Aangan • Thori Der Baad",
+   "cast": {
+    "ABBA": "charpai_l",
+    "ARSALAN": "charpai_c",
+    "SANA": "charpai_r"
+   },
+   "props": {},
+   "lines": [
+    {
+     "who": "DANIYAL",
+     "to": "SANA",
+     "emo": "happy",
+     "pose": "hold",
+     "shot": "auto",
+     "how": "energetic and grand announcement",
+     "before": [
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.4
+      },
+      {
+       "do": "enter",
+       "who": "DANIYAL",
+       "slot": "stand_r"
+      },
+      {
+       "do": "prop",
+       "who": "DANIYAL",
+       "prop": "bag"
+      }
+     ],
+     "give": {
+      "to": "SANA",
+      "prop": "bag",
+      "at": 0.6
+     },
+     "roman": "*Garma garam* parathay hazir hain! Adalat *nashta* shuru kare!",
+     "urdu": "گرما گرم پراٹھے حاضر ہیں! عدالت ناشتہ شروع کرے!",
+     "react": {
+      "*": "happy"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "proud",
+     "pose": "hold",
+     "shot": "auto",
+     "how": "proud and a bit sarcastic about the wait",
+     "before": [
+      {
+       "do": "enter",
+       "who": "AMMI",
+       "slot": "stand_l"
+      },
+      {
+       "do": "prop",
+       "who": "AMMI",
+       "prop": "cup"
+      }
+     ],
+     "give": {
+      "to": "ABBA",
+      "prop": "cup",
+      "at": 0.6
+     },
+     "sfx": [
+      "clink"
+     ],
+     "roman": "Aur meri *chai* bhi aakhir ubal gayi! Sirf *ek ghanta* laga!",
+     "urdu": "اور میری چائے بھی آخر ابل گئی! صرف ایک گھنٹہ لگا!",
+     "react": {
+      "*": "laugh"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "happy",
+     "pose": "hold",
+     "shot": "close",
+     "how": "sipping, satisfied, relaxed",
+     "roman": "Waah! *Intezaar* ke baad chai ka maza hi *kuch aur* hai!",
+     "urdu": "واہ! انتظار کے بعد چائے کا مزہ ہی کچھ اور ہے!",
+     "react": {
+      "AMMI": "happy"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "AMMI",
+     "emo": "calm",
+     "pose": "explain",
+     "shot": "two:AMMI",
+     "how": "polite, helpful suggestion",
+     "roman": "Ammi, raat der se *pressure* theek hota hai. Kal se *paani* aur *aata* raat ko hi tayyar kar lenge.",
+     "urdu": "امی، رات دیر سے پریشر ٹھیک ہوتا ہے۔ کل سے پانی اور آٹا رات کو ہی تیار کر لیں گے۔",
+     "react": {
+      "AMMI": "calm"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "SANA",
+     "emo": "warm",
+     "pose": "point_other",
+     "shot": "auto",
+     "how": "playful, admitting with a smile",
+     "roman": "Theek hai bahu... is dafa tumhari *tarkeeb* mere *totkay* se behtar hai!",
+     "urdu": "ٹھیک ہے بہو... اس دفعہ تمہاری ترکیب میرے ٹوٹکے سے بہتر ہے!",
+     "react": {
+      "SANA": "happy",
+      "DANIYAL": "surprised"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "front",
+     "emo": "warm",
+     "pose": "explain",
+     "shot": "group",
+     "how": "warm, wise and gentle",
+     "roman": "Gas kam ho ya zyada... *mil baith* kar har mushkil *aasan* ho jati hai.",
+     "urdu": "گیس کم ہو یا زیادہ... مل بیٹھ کر ہر مشکل آسان ہو جاتی ہے۔",
+     "react": {
+      "*": "warm"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "sad",
+     "pose": "plead",
+     "shot": "auto",
+     "how": "pleading, comic and innocent",
+     "roman": "Ammi, sab ka nashta ho gaya... aur mera *garam paani*?",
+     "urdu": "امی، سب کا ناشتہ ہو گیا... اور میرا گرم پانی؟",
+     "react": {
+      "AMMI": "teasing"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "pose": "wag",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.8,
+     "how": "deadpan then teasing, comic timing",
+     "roman": "Woh bhi chulhe par rakh diya hai... tumhari *shaadi* tak garam ho jayega!",
+     "urdu": "وہ بھی چولہے پر رکھ دیا ہے... تمہاری شادی تک گرم ہو جائے گا!",
+     "react": {
+      "*": "laugh",
+      "ARSALAN": "sheepish"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "pose": "point_up",
+     "shot": "auto",
+     "how": "mock judge giving a verdict",
+     "roman": "Adalat ka faisla: Arsalan aaj *bina nahaye* college jayega!",
+     "urdu": "عدالت کا فیصلہ: ارسلان آج بنا نہائے کالج جائے گا!",
+     "react": {
+      "*": "laugh"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "front",
+     "emo": "happy",
+     "pose": "arms_up",
+     "shot": "group",
+     "joke": true,
+     "gap": 0.8,
+     "how": "overjoyed, celebrating",
+     "roman": "Yeh hui na *insaaf* wali baat!",
+     "urdu": "یہ ہوئی نا انصاف والی بات!",
+     "react": {
+      "*": "laugh"
+     }
+    }
+   ]
+  }
+ ]
+}
