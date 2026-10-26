@@ -1063,7 +1063,7 @@ def gemini_day_dead():
 def _ask_gemini(prompt, image=None, mime="image/jpeg"):
     global _discovered
     if S.get("gemini_off") == gemini_off_tag():  # credits/billing masla: aaj (isi key par) Gemini nahi, seedha backup
-        return ask_openrouter(prompt) if (OPENROUTER_KEY and not image) else None
+        return ask_openrouter(prompt) if (OPENROUTER_KEY and not image and not _gemini_no_or) else None
     parts = [{"text": prompt}]
     if image:
         parts.append({"inline_data": {"mime_type": mime, "data": base64.b64encode(image).decode()}})
@@ -1074,7 +1074,7 @@ def _ask_gemini(prompt, image=None, mime="image/jpeg"):
         for model in models:
             if not model or model in tried or model in _dead_models or model in gemini_day_dead():
                 continue
-            if "lite" in model and not or_tried and OPENROUTER_KEY and not image:
+            if "lite" in model and not or_tried and OPENROUTER_KEY and not image and not _gemini_no_or:
                 or_tried = True  # mazboot Gemini na mila: kamzor (lite) se pehle OpenRouter ka mazboot model
                 res = ask_openrouter(prompt)
                 if res is not None:
@@ -1104,7 +1104,7 @@ def _ask_gemini(prompt, image=None, mime="image/jpeg"):
                         S["gemini_off_alert"] = today()
                         tg_send("⚠️ Gemini ne kaha: credits khatam / billing masla. Aaj Gemini band, backup (OpenRouter) "
                                 "se kaam chalega. AI Studio mein project ki billing check karein.")
-                    return ask_openrouter(prompt) if (OPENROUTER_KEY and not image) else None
+                    return ask_openrouter(prompt) if (OPENROUTER_KEY and not image and not _gemini_no_or) else None
                 if r.status_code == 429:
                     _dead_models.add(model)  # is run mein is model ko dobara mat aazmao
                     if "perday" in r.text.lower().replace("_", "") and model not in gemini_day_dead():
@@ -1115,7 +1115,7 @@ def _ask_gemini(prompt, image=None, mime="image/jpeg"):
             except Exception as e:
                 log("gemini error", model, e)
         if _discovered:  # koi Gemini model na chala: aakhri sahara OpenRouter
-            return ask_openrouter(prompt) if (OPENROUTER_KEY and not image and not or_tried) else None
+            return ask_openrouter(prompt) if (OPENROUTER_KEY and not image and not _gemini_no_or and not or_tried) else None
         _discovered = True
         models = discover_gemini_models()
 
@@ -1192,15 +1192,33 @@ def _ask_groq(prompt):
     return None
 
 
+_gemini_no_or = False  # Gemini ke andar OpenRouter ka backup band (order: Gemini -> Groq -> OpenRouter)
+
+
 def ask_ai(item):
+    global _gemini_no_or
     prompt = build_prompt(item)
-    for fn, key in ((ask_gemini, GEMINI_KEY), (ask_groq, GROQ_KEY)):
-        if not key:
-            continue
-        res = fn(prompt)
+    steps = []
+    if GEMINI_KEY:
+        steps.append(lambda: _gemini_only(prompt))
+    if GROQ_KEY:
+        steps.append(lambda: ask_groq(prompt))
+    if OPENROUTER_KEY:
+        steps.append(lambda: ask_openrouter(prompt))
+    for fn in steps:
+        res = fn()
         if isinstance(res, dict) and isinstance(res.get("post"), str) and res["post"].strip():
             return res
     return None  # layer 3: bina AI ke
+
+
+def _gemini_only(prompt):
+    global _gemini_no_or
+    _gemini_no_or = True
+    try:
+        return ask_gemini(prompt)
+    finally:
+        _gemini_no_or = False
 
 
 # ---------------------------------------------------------------- facebook
