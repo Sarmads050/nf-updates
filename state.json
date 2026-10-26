@@ -1,6 +1,5 @@
 {
  "seen": {
-  "3bd153f31afc7fcd": 1792423857.9137301,
   "eaa48bf55cba7b66": 1792429853.6197996,
   "4248401a79505fe0": 1792431648.0476127,
   "bc0601249854e9f4": 1792432247.6725366,
@@ -2117,7 +2116,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-26 20:31",
+  "time": "2026-10-26 20:41",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -4545,72 +4544,8 @@
   "last": 1792998888.7435148
  },
  "trends": {
-  "last": 1793017862.8773792,
+  "last": 1793029252.3602374,
   "terms": [
-   {
-    "term": "ziaur rahman",
-    "traffic": 100,
-    "news": "PM joins ZRF’s 27th founding anniversary programme",
-    "t": 1792414918,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "iran us news",
-    "traffic": 100,
-    "news": "Fighting intensifies in Yemen as humanitarian crisis deepens",
-    "t": 1792414918,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "mango jutt",
-    "traffic": 100,
-    "news": "Eagerly-awaited 'Mango Jutt' holds festive music launch",
-    "t": 1792414918,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "saudi arabia",
-    "traffic": 1000,
-    "news": "KSA executes 2 Bangladeshis for ‘immoral act’",
-    "t": 1792414918,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "gaza strip",
-    "traffic": 200,
-    "news": "Funding cuts force WFP to drastically reduce lifesaving assistance in Gaza",
-    "t": 1792414918,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "afghanistan vs zimbabwe",
-    "traffic": 20000,
-    "news": "Cricket: Zimbabwe have two games to book a place in the tri-series final · SNA",
-    "t": 1792414918,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "کرکٹ",
-    "traffic": 100,
-    "news": "بابراعظم نے ون ڈے میں نیا ریکارڈ قائم کر دیا",
-    "t": 1792414918,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "aberfan disaster",
-    "traffic": 200,
-    "news": "National Library of Wales opens Aberfan Disaster exhibition",
-    "t": 1792414918,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "barcelona vs psg",
     "traffic": 100,
@@ -7442,15 +7377,63 @@
     "t": 1793017863,
     "cat": "transport_trade",
     "sindh": false
+   },
+   {
+    "term": "islamabad traffic police",
+    "traffic": 100,
+    "news": "Islamabad Traffic Police Announces Diversions for Kashmir Chowk Underpass Construction",
+    "t": 1793029252,
+    "cat": "transport_trade",
+    "sindh": false
+   },
+   {
+    "term": "oxford street",
+    "traffic": 100,
+    "news": "Licensable video: London gives pedestrians more room on iconic Oxford Street",
+    "t": 1793029252,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "pakistan cricket team",
+    "traffic": 1000,
+    "news": "PCB releases Sufiyan Moqim from tri-series squad, adds Maaz Sadaqat as cover",
+    "t": 1793029252,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "videos",
+    "traffic": 1000,
+    "news": "NCCIA Traces Network Allegedly Trading Child Abuse Videos Through Telegram",
+    "t": 1793029252,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "federal investigation agency",
+    "traffic": 500,
+    "news": "Organ trade crackdown",
+    "t": 1793029252,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "ankara international military drone tournament",
+    "traffic": 200,
+    "news": "Licensable picture: Best International Military Drone Team Competition in Ankara",
+    "t": 1793029252,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-26",
-  "ok": 262,
-  "fail": 3,
-  "limit": 366
+  "ok": 263,
+  "fail": 5,
+  "limit": 368
  },
  "posted_heads": [
   {
@@ -7779,7 +7762,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-26 20:31",
+  "time": "2026-10-26 20:41",
   "steps": []
  },
  "roundup_am": "2026-10-26",
@@ -7887,7 +7870,7 @@
   "text": 20,
   "story": 15
  },
- "ai_last_error": "20:11 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "20:40 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-26",
   "models": [
@@ -7928,7 +7911,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-26",
-   "ok": 128,
+   "ok": 129,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7936,7 +7919,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-26",
-   "ok": 127,
+   "ok": 128,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7944,7 +7927,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-26",
-   "ok": 129,
+   "ok": 130,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7952,14 +7935,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 129,
+   "ok": 130,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 129,
+   "ok": 130,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7967,21 +7950,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 129,
+   "ok": 130,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 129,
+   "ok": 130,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-26",
-   "ok": 129,
+   "ok": 130,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8252,8 +8235,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 15,
-  "old": 15,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8283,8 +8266,8 @@
   "date": "2026-10-26",
   "count": 17,
   "last": 1793028062.814789,
-  "city_i": 20,
-  "dry": 1793028065.486597
+  "city_i": 24,
+  "dry": 1793029284.0770578
  },
  "gemini_day_dead": {
   "day": "2026-10-26",
@@ -9134,13 +9117,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-26 14:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-26 14:20",
    "ok": true,
    "n": 0,
@@ -9408,6 +9384,13 @@
   },
   {
    "t": "10-26 20:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-26 20:40",
    "ok": true,
    "n": 0,
    "ids": [],
