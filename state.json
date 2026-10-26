@@ -1,11 +1,5 @@
 {
  "seen": {
-  "dec4844f043c2f88": 1792405269.8930376,
-  "46f190c625d7691d": 1792405269.8930407,
-  "b7837b63c59307d9": 1792405269.8930418,
-  "e4b4a26d19f8436c": 1792405269.8930423,
-  "fcdb5976840be2fd": 1792405269.8930433,
-  "3f419ec259f1d7ec": 1792405269.8932633,
   "2fb0c33b9a215f89": 1792407048.96459,
   "0aa220f8885086df": 1792407670.953356,
   "fba3bf344f8cb622": 1792407686.3738844,
@@ -2172,7 +2166,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-26 15:21",
+  "time": "2026-10-26 15:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7830,7 +7824,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-26 15:21",
+  "time": "2026-10-26 15:31",
   "steps": []
  },
  "roundup_am": "2026-10-26",
@@ -7979,7 +7973,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-26",
-   "ok": 96,
+   "ok": 97,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7987,7 +7981,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-26",
-   "ok": 95,
+   "ok": 96,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7995,7 +7989,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-26",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8003,14 +7997,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8018,21 +8012,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-26",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8419,8 +8413,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 7,
-  "old": 6,
+  "found": 11,
+  "old": 10,
   "irrelevant": 1,
   "blocked": 0,
   "errors": []
@@ -9232,7 +9226,8 @@
   "date": "2026-10-26",
   "done": [
    "09:30",
-   "12:30"
+   "12:30",
+   "15:30"
   ]
  },
  "kawish_queue": [],
@@ -9242,13 +9237,6 @@
   "last": 1792945388.6279304
  },
  "tg_debug": [
-  {
-   "t": "10-26 09:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-26 09:10",
    "ok": true,
@@ -9517,6 +9505,13 @@
   },
   {
    "t": "10-26 15:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-26 15:30",
    "ok": true,
    "n": 0,
    "ids": [],
