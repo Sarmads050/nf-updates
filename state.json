@@ -1,10 +1,5 @@
 {
  "seen": {
-  "2fb0c33b9a215f89": 1792407048.96459,
-  "0aa220f8885086df": 1792407670.953356,
-  "fba3bf344f8cb622": 1792407686.3738844,
-  "268bc2ce202d60aa": 1792407686.3738873,
-  "e81b8891a0b134ec": 1792407686.3738902,
   "4f36ae0312c9c04f": 1792408247.8850427,
   "89a8964b2057a922": 1792408253.1940007,
   "8912e506b9784feb": 1792408258.3933666,
@@ -1610,7 +1605,8 @@
   "5330263eb1a51934": 1793010074.3274667,
   "888f85eca1b4ecab": 1793010074.3274696,
   "fe5c869a8ed621c7": 1793011272.1405818,
-  "e5fd38490e616f27": 1793011272.1405852
+  "e5fd38490e616f27": 1793011272.1405852,
+  "a684d47982888983": 1793012533.7037942
  },
  "pending": {},
  "queue": [],
@@ -1681,7 +1677,7 @@
  "sindh_single": {
   "date": "2026-10-26",
   "count": 0,
-  "last": 1793001087.461959,
+  "last": 1793012529.2714627,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1701,7 +1697,8 @@
    "cf92ce9af593aa02",
    "3311e043c3533eeb",
    "89dda901c2b1a631",
-   "f8e96e9eea2e0a25"
+   "f8e96e9eea2e0a25",
+   "a684d47982888983"
   ]
  },
  "last_post_id": "1444130002106066_122113917915503839",
@@ -2168,7 +2165,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-26 15:50",
+  "time": "2026-10-26 16:02",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7499,9 +7496,9 @@
  },
  "ai_usage": {
   "date": "2026-10-26",
-  "ok": 197,
+  "ok": 199,
   "fail": 3,
-  "limit": 295
+  "limit": 299
  },
  "posted_heads": [
   {
@@ -7826,7 +7823,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-26 15:50",
+  "time": "2026-10-26 16:02",
   "steps": []
  },
  "roundup_am": "2026-10-26",
@@ -7934,7 +7931,7 @@
   "text": 19,
   "story": 14
  },
- "ai_last_error": "15:41 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "16:02 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-26",
   "models": [
@@ -7975,7 +7972,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-26",
-   "ok": 99,
+   "ok": 100,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7983,7 +7980,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-26",
-   "ok": 98,
+   "ok": 99,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7991,7 +7988,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-26",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7999,14 +7996,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8014,21 +8011,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-26",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8414,14 +8411,14 @@
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 2,
-  "found": 19,
-  "old": 18,
-  "irrelevant": 1,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
+  "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-26 15",
+ "report_hour": "2026-10-26 16",
  "kawish_upload_times": {
   "_date": "2026-10-26",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8446,8 +8443,8 @@
   "date": "2026-10-26",
   "count": 12,
   "last": 1793011270.3847136,
-  "city_i": 10,
-  "dry": 1793008264.78629
+  "city_i": 14,
+  "dry": 1793012515.362368
  },
  "gemini_day_dead": {
   "day": "2026-10-26",
@@ -9240,13 +9237,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-26 09:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-26 09:40",
    "ok": true,
    "n": 0,
@@ -9514,6 +9504,13 @@
   },
   {
    "t": "10-26 15:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-26 16:01",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13862,11 +13859,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-24 08:22",
-   "new": "وزيراعظم پاران ڪڻڪ جو سهارو اگهه مقرر",
-   "old": "پي ايم يوتھ ڪروم بڪ اسڪيم جو اعلان"
-  },
-  {
    "t": "10-24 09:51",
    "new": "لاهور ۾ مهانگائي جو طوفان، ڪڻڪ جو اָٽو مهانگو ٿي ويو",
    "old": "نوشہروفیروز ۾ زمين جي تڪرار تان ٽي ماڻهو گم ۽ ڇھ زخمي ٿي پيا."
@@ -14010,6 +14002,11 @@
    "t": "10-26 11:11",
    "new": "عمان مان جهاز پهچڻ باوجود ايل پي جي اگهه نه گهٽيا",
    "old": "ايل پي جي جا ٻه جهاز پاڪستان پهچي ويا، اگهه گهٽجڻ جو امڪان"
+  },
+  {
+   "t": "10-26 16:02",
+   "new": "سنڌ | ڪراچي ۾ ايل پي جي سستي",
+   "old": "ايل پي جي جا ٻه جهاز پاڪستان پهچي ويا، اگهه گهٽجڻ جو امڪان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14028,5 +14025,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
