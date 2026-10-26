@@ -1528,7 +1528,21 @@
   "bd17b598251a9ce0": 1793041298.1437895,
   "4f635fedc1ec86de": 1793041298.1437905,
   "95e4e24921609f5b": 1793041298.1437914,
-  "c3e2b44cf74c9872": 1793041298.1439803
+  "c3e2b44cf74c9872": 1793041298.1439803,
+  "85868b55b3c44639": 1793044292.8887825,
+  "e53a753a57be782a": 1793044292.8887851,
+  "122f25f6702223e3": 1793044292.888786,
+  "9d2f2414b2b1355e": 1793044292.888787,
+  "a0db592f9504f96c": 1793044305.4022741,
+  "cd60244c92008c13": 1793044305.4022768,
+  "fa16f029c2d0aa4a": 1793044305.4022782,
+  "1dcceebb0eb18ede": 1793044305.4022794,
+  "0593498d39de5ee8": 1793044305.4022803,
+  "3ead87f830a9c862": 1793044305.4022815,
+  "65c812fb2085987d": 1793044305.4022822,
+  "eb6a1b4a133c11fe": 1793044305.4022832,
+  "3c00c91733a80dec": 1793044305.402285,
+  "02445150290182c2": 1793044305.402492
  },
  "pending": {},
  "queue": [],
@@ -2110,7 +2124,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 00:40",
+  "time": "2026-10-27 00:51",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7417,9 +7431,9 @@
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 6,
-  "fail": 6,
-  "limit": 6
+  "ok": 9,
+  "fail": 12,
+  "limit": 12
  },
  "posted_heads": [
   {
@@ -7744,7 +7758,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 00:40",
+  "time": "2026-10-27 00:51",
   "steps": []
  },
  "roundup_am": "2026-10-26",
@@ -7847,12 +7861,12 @@
  },
  "article_diag": {
   "date": "2026-10-27",
-  "tried": 1,
-  "decoded": 1,
-  "text": 0,
-  "story": 0
+  "tried": 2,
+  "decoded": 2,
+  "text": 1,
+  "story": 1
  },
- "ai_last_error": "00:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "00:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7893,7 +7907,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7901,7 +7915,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7909,7 +7923,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7917,14 +7931,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7932,21 +7946,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8217,8 +8231,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 20,
-  "old": 20,
+  "found": 25,
+  "old": 25,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8249,8 +8263,8 @@
   "date": "2026-10-27",
   "count": 0,
   "last": 1793028062.814789,
-  "city_i": 20,
-  "dry": 1793041280.3495464
+  "city_i": 24,
+  "dry": 1793044284.3772862
  },
  "gemini_day_dead": {
   "day": "2026-10-26",
@@ -9039,13 +9053,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-26 18:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-26 18:30",
    "ok": true,
    "n": 0,
@@ -9313,6 +9320,13 @@
   },
   {
    "t": "10-27 00:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 00:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13792,11 +13806,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-24 13:31",
-   "new": "نوابشاهه ۾ پسند جي شادي ڪندڙ جوڙي جا لاش وارثن حوالي",
-   "old": "شهدادپور: پسند جي شاديءَ تان نثار لاشاري ۽ زڪيه بليدي قتل"
-  },
-  {
    "t": "10-24 16:01",
    "new": "ملازمت ڏيڻ جي عոوض لکين روپيا رشوت وٺڻ خلاف احتجاج",
    "old": "مهانگائي ۽ بيروزگاري خلاف احتجاج"
@@ -13940,6 +13949,11 @@
    "t": "10-26 21:32",
    "new": "سنڌ | گندم جي قيمتن بابت اهم خبر",
    "old": "ڪڻڪ جو سهارو اگهه 4500 رپيا مقرر"
+  },
+  {
+   "t": "10-27 00:51",
+   "new": "ڪڻڪ جو امدادي اگھ مقرر",
+   "old": "پيٽرول اگهن ۽ ٽئڪسن بابت نيون خبرون"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13958,5 +13972,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
