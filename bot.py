@@ -1894,6 +1894,10 @@ def handle_news():
                 it["card_text"] = card_text(story)
             if real and real != it["link"]:
                 it["link"] = real
+        if not it.get("card_text"):  # poori khabar nahi mili: card sirf 1-2 line ka hota, is liye post nahi
+            log("poori khabar nahi mili, chhota card nahi banega, skip:", it["title"][:60])
+            stat("short")
+            continue
         message = compose(it, text)
         sensitive = crime_review() and (keyword_sensitive(it["title"]) or bool(res and res.get("sensitive")))
         if sensitive:
@@ -3132,7 +3136,10 @@ def place_ok(written, source):
 
 def card_text(story, fallback=""):
     """Card par likhne ke liye: AI ka facts wala paragraph, warna poori khabar (card khud font chhota karega)."""
-    return CARD_TEXT.get(story) or story or fallback
+    c = CARD_TEXT.get(story) or ""
+    if len(c) < 0.7 * len(story or ""):  # AI ka chhota card: card par poori khabar hi jaye (font khud chhota hoga)
+        c = story or ""
+    return c or fallback
 
 
 def topic_news(state_key, cfg, icon, check_rule, default_queries, max_age_h=12, icons=None):
@@ -3767,7 +3774,7 @@ def handle_sindh_stream():
         story = full_story(it["title"], art) if art else None
         if story:
             post = story
-            res["card"] = CARD_TEXT.get(story, "")
+            res["card"] = card_text(story)
         if real:
             it["link"] = real
     if not place_ok(head + " " + post + " " + str(res.get("card", "")), it["title"] + " " + it["body"] + " " + (art or "")):
@@ -3777,7 +3784,10 @@ def handle_sindh_stream():
     district = bool(res.get("district")) or bool(rank and rank <= CONFIG.get("regions", {}).get("district_city_ranks", 6))
     msg = f"📰 {head}\n\n{finish(post)}\n\n{speaker_line(res.get('speaker'))}📌 {LBL['source']}: {it['source']}\n\n{footer()}"
     cb = clean_text(str(res.get("card", "")))
-    card_body = cb if len(cb) >= 60 and not bad_script(cb) and not blocked_reason(cb) else post
+    if not (len(cb) >= 60 and not bad_script(cb) and not blocked_reason(cb)):  # poori khabar ka card nahi: chhota post nahi
+        log("poori khabar ka card nahi bana, skip:", head[:60])
+        return
+    card_body = cb
     if crime_review() and (res.get("sensitive") or keyword_sensitive(head + " " + post)):
         S["pending"][it["key"]] = {"message": msg, "link": it["link"], "added": time.time(),
                                    "card": {"title": head, "sub": "سنڌ جون خبرون", "body": card_body, "theme": "news"}}
