@@ -1,20 +1,5 @@
 {
  "seen": {
-  "3d2a2873117c04f9": 1792392735.5060203,
-  "1551eb5c1b6673d6": 1792392735.506023,
-  "43437ad8fd1b6dbf": 1792392735.5060241,
-  "7008b6f8488825d8": 1792392735.506025,
-  "6370b13c88f2de78": 1792392735.5060256,
-  "d0d20315a0c9d992": 1792392735.5060263,
-  "418e504ce36f91a8": 1792392735.506027,
-  "b079e2290bca6557": 1792392735.5060277,
-  "aef9ee4559a98c13": 1792392735.506029,
-  "6326037ed21471f5": 1792392735.5060294,
-  "bdd3aa144eed59a3": 1792392787.7308152,
-  "0e5a53abc75945a7": 1792392787.730818,
-  "22269951bc97e5ae": 1792392787.730819,
-  "e839dac2fc73e695": 1792392787.73082,
-  "4e0a1296503b6dea": 1792392787.731042,
   "fa723e98a5e20a02": 1792393887.2625089,
   "d97c9e272301462c": 1792393887.2625113,
   "7454e94c9dc05ddb": 1792393887.2625124,
@@ -1635,7 +1620,11 @@
   "541428313dcfdd75": 1792996279.0030863,
   "84bb0275f228ebb7": 1792996279.0032132,
   "de875ade283108ab": 1792997455.3080196,
-  "9c6c68fb90c82eff": 1792997467.5542686
+  "9c6c68fb90c82eff": 1792997467.5542686,
+  "36ffb9445449f34a": 1792998275.0779943,
+  "2ba0a08282bb46f4": 1792998275.0779965,
+  "2dd55eed98014b5e": 1792998275.0779977,
+  "fa07bc3588096b13": 1792998275.0781324
  },
  "pending": {},
  "queue": [],
@@ -1653,7 +1642,7 @@
   "last_week": "",
   "last_check": "2026-10-26"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1729,20 +1718,8 @@
    "f8e96e9eea2e0a25"
   ]
  },
- "last_post_id": "1444130002106066_122113854705503839",
+ "last_post_id": "1444130002106066_122113861401503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122113581387503839",
-   "title": "ڪنگھڙ رانديگرن کي شهرت ملي نه ٿي سگهي، سنڌي ڪرڪيٽ ۾ بي سيلو نوڪري ملندي: محسن نقوي",
-   "t": 1792936659.8829358,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122113581387503839"
-  },
   {
    "id": "1444130002106066_122113587915503839",
    "title": "ميرپور ساڪرو: جيجي زرينه بلوچ جي 21 هين ورسي ملهائي وئي",
@@ -2060,6 +2037,15 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122113854705503839"
+  },
+  {
+   "id": "1444130002106066_122113861401503839",
+   "title": "وزيراعظم شهباز شريف ملڪي برآمدات وڌائڻ ۽ صنعتن کي مضبوط ڪرڻ لاءِ لاھور چيمبر آف ڪامرس جون",
+   "t": 1792998888.7435296,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122113861401503839"
   }
  ],
  "share_sent": {
@@ -2205,7 +2191,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-26 11:51",
+  "time": "2026-10-26 12:14",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2220,17 +2206,11 @@
  },
  "all_posts": {
   "date": "2026-10-26",
-  "count": 19,
-  "last": 1792997491.2507296
+  "count": 20,
+  "last": 1792998884.6290703
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122109636363503839",
-    "sec": "public_news",
-    "cat": "inflation",
-    "t": 1792260809
-   },
    {
     "id": "1444130002106066_122109664263503839",
     "sec": "public_news",
@@ -4624,13 +4604,19 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1792997494
+   },
+   {
+    "id": "1444130002106066_122113861401503839",
+    "sec": "public_news",
+    "cat": "transport_trade",
+    "t": 1792998888
    }
   ]
  },
  "public_news": {
   "date": "2026-10-26",
-  "count": 5,
-  "last": 1792990413.5965164
+  "count": 6,
+  "last": 1792998888.7435148
  },
  "trends": {
   "last": 1792995052.0030534,
@@ -7552,15 +7538,11 @@
  },
  "ai_usage": {
   "date": "2026-10-26",
-  "ok": 146,
-  "fail": 0,
+  "ok": 150,
+  "fail": 3,
   "limit": 234
  },
  "posted_heads": [
-  {
-   "h": "شڪارپور: خانپور ۾ بيواهه عورت مبينا تشدد ۾ فوت، ويڳي پٽ تي قتل جو الزام",
-   "t": 1792833138
-  },
   {
    "h": "قتل ڪيسن ۾ سزا بابت لاهور هاءِ ڪورٽ جو اهم فيصلو",
    "t": 1792834313
@@ -7876,10 +7858,14 @@
   {
    "h": "گورنر راڄ کانپوءِ پي ٽي آءِ جو وفاق سان پهريون رابطو، ڇا ڳالهين جا در ٻيهر کلندا؟",
    "t": 1792997494
+  },
+  {
+   "h": "PM Shehbaz calls for stronger export-oriented industries, forms committee to review LCCI proposals",
+   "t": 1792998888
   }
  ],
  "last_errors": {
-  "time": "2026-10-26 11:51",
+  "time": "2026-10-26 12:14",
   "steps": []
  },
  "roundup_am": "2026-10-26",
@@ -7982,12 +7968,12 @@
  },
  "article_diag": {
   "date": "2026-10-26",
-  "tried": 22,
-  "decoded": 22,
+  "tried": 23,
+  "decoded": 23,
   "text": 17,
   "story": 13
  },
- "ai_last_error": "11:51 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "12:09 gemini-3.6-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-10-26",
   "models": [
@@ -8001,13 +7987,13 @@
  },
  "img_diag": {
   "date": "2026-10-26",
-  "tried": 18,
+  "tried": 19,
   "gemini": 0,
   "pollinations": 6,
   "skip": 3,
-  "fail": 8,
-  "last_note": "cricket bat and helmet",
-  "mismatch": 174
+  "fail": 10,
+  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
+  "mismatch": 175
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -8028,7 +8014,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-26",
-   "ok": 75,
+   "ok": 76,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8036,7 +8022,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-26",
-   "ok": 74,
+   "ok": 75,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8044,7 +8030,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-26",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8052,14 +8038,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8067,21 +8053,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-26",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8464,17 +8450,17 @@
   "date": "2026-10-26",
   "district": 1,
   "sindh": 5,
-  "pakistan": 11
+  "pakistan": 12
  },
  "report_acc": {
-  "posted": 2,
-  "found": 15,
-  "old": 15,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-26 11",
+ "report_hour": "2026-10-26 12",
  "kawish_upload_times": {
   "_date": "2026-10-26",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8503,14 +8489,8 @@
   "dry": 1792996266.4477434
  },
  "gemini_day_dead": {
-  "day": "2026-10-25",
-  "models": [
-   "gemini-flash-latest",
-   "gemini-3.8-flash",
-   "gemini-3.7-flash",
-   "gemini-3.6-flash",
-   "gemini-3.5-flash"
-  ]
+  "day": "2026-10-26",
+  "models": []
  },
  "tg_done": [
   92058696,
@@ -9267,6 +9247,14 @@
    "t": 1792997494,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "719ff8fd9f76bcb5",
+   "h": "وزيراعظم برآمدي صنعتن جي بهتري لاءِ ڪميٽي جوڙي ڇڏي",
+   "x": "وزيراعظم شهباز شريف ملڪي برآمدات وڌائڻ ۽ صنعتن کي مضبوط ڪرڻ لاءِ لاھور چيمبر آف ڪامرس جون تجويزون ڏسڻ لاءِ ڪميٽي جوڙي ڇڏي آهي! بيان: وزيراعظم شهباز شريف",
+   "t": 1792998888,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9282,13 +9270,6 @@
   "last": 1792945388.6279304
  },
  "tg_debug": [
-  {
-   "t": "10-26 05:34",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-26 05:40",
    "ok": true,
@@ -9557,6 +9538,13 @@
   },
   {
    "t": "10-26 11:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-26 12:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13981,6 +13969,43 @@
     "ٿيڻ",
     "ڪانپوء",
     "گورنر"
+   ]
+  },
+  {
+   "t": 1792998888,
+   "h": "وزيراعظم برآمدي صنعتن جي بهتري لاءِ ڪميٽي جوڙي ڇڏي",
+   "b": "وزيراعظم شهباز شريف ملڪي برآمدات وڌائڻ ۽ صنعتن کي مضبوط ڪرڻ لاءِ لاھور چيمبر آف ڪامرس جون تجويزون ڏسڻ لاءِ",
+   "tt": [
+    "برامدي",
+    "بهتري",
+    "جوڙي",
+    "صنعتن",
+    "وزيراعظم",
+    "ڇڏي",
+    "ڪميٽي"
+   ],
+   "bt": [
+    "اهي",
+    "برامدات",
+    "برامدي",
+    "بهتري",
+    "بيان",
+    "تجويزون",
+    "جوڙي",
+    "شريف",
+    "شهباز",
+    "صنعتن",
+    "لاھور",
+    "مضبوط",
+    "ملڪي",
+    "وزيراعظم",
+    "وڌائڻ",
+    "چيمبر",
+    "ڇڏي",
+    "ڏسڻ",
+    "ڪامرس",
+    "ڪرڻ",
+    "ڪميٽي"
    ]
   }
  ],
