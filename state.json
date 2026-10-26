@@ -1584,7 +1584,18 @@
   "8773654dd2e0ec9f": 1792969853.615932,
   "6581e2a7de4c6d57": 1792971074.7239769,
   "66035092031cd5ea": 1792971074.7239792,
-  "e7d04b6233fbeeba": 1792971074.7242217
+  "e7d04b6233fbeeba": 1792971074.7242217,
+  "24ae97d516a673a0": 1792974077.7897685,
+  "67768141305dd789": 1792974077.7897701,
+  "6c6e7247f6e2e776": 1792974077.7897713,
+  "887fa1c9888c3f49": 1792974077.7897716,
+  "83c36947b0fdebc8": 1792974077.7897723,
+  "1b918f5d847975dd": 1792974077.789773,
+  "6f5aee30c8b66a3f": 1792974077.7897732,
+  "f218c3a1614afec6": 1792974077.7897735,
+  "ffd547eb0828377b": 1792974077.7897742,
+  "eba19bd196ac6d0a": 1792974077.789952,
+  "bf9c35e3b2844758": 1792974092.3349552
  },
  "pending": {},
  "queue": [],
@@ -2172,7 +2183,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-26 05:10",
+  "time": "2026-10-26 05:21",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7447,9 +7458,9 @@
  },
  "ai_usage": {
   "date": "2026-10-26",
-  "ok": 49,
+  "ok": 56,
   "fail": 0,
-  "limit": 72
+  "limit": 86
  },
  "posted_heads": [
   {
@@ -7774,7 +7785,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-26 05:10",
+  "time": "2026-10-26 05:21",
   "steps": []
  },
  "roundup_am": "2026-10-25",
@@ -7877,12 +7888,12 @@
  },
  "article_diag": {
   "date": "2026-10-26",
-  "tried": 7,
-  "decoded": 7,
-  "text": 5,
-  "story": 2
+  "tried": 9,
+  "decoded": 9,
+  "text": 7,
+  "story": 4
  },
- "ai_last_error": "05:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "05:21 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-26",
   "models": [
@@ -7923,7 +7934,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-26",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7931,7 +7942,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-26",
-   "ok": 33,
+   "ok": 34,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7939,7 +7950,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-26",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7947,14 +7958,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7962,21 +7973,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-26",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8363,8 +8374,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8394,8 +8405,8 @@
   "date": "2026-10-26",
   "count": 0,
   "last": 1792957864.3149135,
-  "city_i": 24,
-  "dry": 1792971070.3464775
+  "city_i": 6,
+  "dry": 1792974066.7585144
  },
  "gemini_day_dead": {
   "day": "2026-10-25",
@@ -9192,13 +9203,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-25 23:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-25 23:10",
    "ok": true,
    "n": 0,
@@ -9466,6 +9470,13 @@
   },
   {
    "t": "10-26 05:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-26 05:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14076,16 +14087,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-23 22:02",
-   "new": "نوشہروفیروز ۾ زمين جي تپداس تان تڪرار، 3 ڄڻا گم ۽ 6 زخمي",
-   "old": "نوشہروفیروز ۾ زمين جي تڪرار تان ٽي ماڻهو گم ۽ ڇھ زخمي ٿي پيا."
-  },
-  {
-   "t": "10-23 22:32",
-   "new": "ڪنڊيارو ويجهو ڪلهڙا برادري ۾ هٿياربند چڪمائون، چار ڄڻا قتل",
-   "old": "ڪنڊيارو ۾ زمين جي تڪرار تان ٿيل جهيڙي دوران چار ڄڻا قتل ۽ ٽي زخمي ٿي پ"
-  },
-  {
    "t": "10-23 23:21",
    "new": "نوشہرو فیروز ۾ ملڪيت جي تڪرار تي هٿياربند چڪيءَ دوران چار ڄڻا فوت ٿي و",
    "old": "ڪنڊيارو ۾ زمين جي تڪرار تان ٿيل جهيڙي دوران چار ڄڻا قتل ۽ ٽي زخمي ٿي پ"
@@ -14224,6 +14225,16 @@
    "t": "10-26 01:51",
    "new": "شاداب خان جي شاندار سينچري",
    "old": "پاڪستان جو انگلينڊ خلاف شاندار سوڀ"
+  },
+  {
+   "t": "10-26 05:21",
+   "new": "شاداب خان جي شاندار سينچري",
+   "old": "پاڪستان جي انگلينڊ خلاف شاندار سوڀ"
+  },
+  {
+   "t": "10-26 05:21",
+   "new": "ريلوي کاتي ۾ ايمرجنسي جو اعلان",
+   "old": "پ ر جو ٽنهي مهينن جي ايمرجنسي جو اعلان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14242,5 +14253,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
