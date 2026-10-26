@@ -1605,7 +1605,9 @@
   "d3c28f377fa013c5": 1792976506.223614,
   "1bfd4cb266ada31f": 1792976506.223615,
   "604063c55ef2f91a": 1792976506.2236156,
-  "cbe948692fe4e343": 1792976506.2237492
+  "cbe948692fe4e343": 1792976506.2237492,
+  "d0089f5297b9ffc4": 1792978276.8618343,
+  "78675c1eb96f7b18": 1792978276.861993
  },
  "pending": {},
  "queue": [],
@@ -2189,7 +2191,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-26 06:20",
+  "time": "2026-10-26 06:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7464,9 +7466,9 @@
  },
  "ai_usage": {
   "date": "2026-10-26",
-  "ok": 69,
+  "ok": 72,
   "fail": 0,
-  "limit": 108
+  "limit": 114
  },
  "posted_heads": [
   {
@@ -7791,7 +7793,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-26 06:20",
+  "time": "2026-10-26 06:31",
   "steps": []
  },
  "roundup_am": "2026-10-25",
@@ -7894,12 +7896,12 @@
  },
  "article_diag": {
   "date": "2026-10-26",
-  "tried": 12,
-  "decoded": 12,
-  "text": 9,
-  "story": 6
+  "tried": 13,
+  "decoded": 13,
+  "text": 10,
+  "story": 7
  },
- "ai_last_error": "06:01 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
+ "ai_last_error": "06:31 openrouter google/gemma-4-26b-a4b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-26b-a4b-it:free is temporaril",
  "gemini_disc": {
   "date": "2026-10-26",
   "models": [
@@ -7940,7 +7942,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-26",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7948,7 +7950,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-26",
-   "ok": 40,
+   "ok": 41,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7956,7 +7958,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-26",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7964,14 +7966,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7979,21 +7981,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-26",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-26",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-26",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8380,8 +8382,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 6,
-  "old": 6,
+  "found": 9,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8411,8 +8413,8 @@
   "date": "2026-10-26",
   "count": 1,
   "last": 1792974674.2359757,
-  "city_i": 14,
-  "dry": 1792976477.3414881
+  "city_i": 18,
+  "dry": 1792978265.8186603
  },
  "gemini_day_dead": {
   "day": "2026-10-25",
@@ -9209,13 +9211,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-26 00:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-26 00:30",
    "ok": true,
    "n": 0,
@@ -9483,6 +9478,13 @@
   },
   {
    "t": "10-26 06:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-26 06:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14095,11 +14097,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-23 23:51",
-   "new": "نوشهروفيروز ۾ ملڪيت جي ترعو تان هٿياربندن ۾ مقابلو، 4 ڄڻا قتل",
-   "old": "ڪنڊيارو ۾ زمين جي تڪرار تان ٿيل جهيڙي دوران چار ڄڻا قتل ۽ ٽي زخمي ٿي پ"
-  },
-  {
    "t": "10-24 02:51",
    "new": "پيٽرول جي قيمت برقرار، ڊيزل مهانگو",
    "old": "پيٽرول اگهه ۾ گهٽ»، ڊيزل مهانگو"
@@ -14243,6 +14240,11 @@
    "t": "10-26 06:01",
    "new": "شاداب خان شاندار راند پيش ڪندي انگلينڊ کي شڪست ڏئي ڇڏي",
    "old": "پاڪستان جي انگلينڊ خلاف شاندار سوڀ"
+  },
+  {
+   "t": "10-26 06:31",
+   "new": "شاداب جي شاندار راند، پاڪستان تاريخ رقم ڪري ورتي",
+   "old": "پاڪستان جي انگلينڊ خلاف شاندار سوڀ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14261,5 +14263,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
