@@ -1,9 +1,5 @@
 {
  "seen": {
-  "9d16c03e5c9d21de": 1792467677.8544164,
-  "c88ffb1e97371cae": 1792467677.8544183,
-  "bd06a63d32cecc23": 1792467677.8544195,
-  "396c76a9bbce45e7": 1792468096.776784,
   "3c6aa7db5b968010": 1792469465.1303637,
   "8388096efc340b7b": 1792469469.724141,
   "0ec92172c5eff905": 1792469469.7241433,
@@ -1543,7 +1539,8 @@
   "7669eebae805ee07": 1793068874.280639,
   "ea3ce3611b6f5932": 1793068884.8957086,
   "2456aab22d2a6eed": 1793068884.895863,
-  "1dcd610dd3073626": 1793071266.108748
+  "1dcd610dd3073626": 1793071266.108748,
+  "38e21526fe872db6": 1793073067.5176919
  },
  "pending": {},
  "queue": [],
@@ -2113,7 +2110,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 08:41",
+  "time": "2026-10-27 08:51",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -4541,48 +4538,8 @@
   "last": 1793067709.481183
  },
  "trends": {
-  "last": 1793061660.2453957,
+  "last": 1793073053.072771,
   "terms": [
-   {
-    "term": "open",
-    "traffic": 100,
-    "news": "Russia proposes a Trump-Xi-Putin meeting in China next month",
-    "t": 1792460450,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "national cyber crimes investigation agency",
-    "traffic": 200,
-    "news": "NCCIA Islamabad forms special teams to tackle cybercrime, protect women & children",
-    "t": 1792460450,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "al hilal sfc vs al-hazem f.c. standings",
-    "traffic": 100,
-    "news": "Video: Is Salem Al-Dawsari turning into a substitute at Al-Hilal?",
-    "t": 1792460450,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "helen haines",
-    "traffic": 100,
-    "news": "Man arrested after Australian MP struck by car, premier says act appears deliberate",
-    "t": 1792460450,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "face",
-    "traffic": 200,
-    "news": "Graham Breaks With Trump Over Russia Sanctions Law Her Brother Championed",
-    "t": 1792460450,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "petrol",
     "traffic": 200,
@@ -7398,15 +7355,71 @@
     "t": 1793061660,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "gold rate in pakistan",
+    "traffic": 200,
+    "news": "Gold Prices Rise in Pakistan After Five Consecutive Days of Decline",
+    "t": 1793073053,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "pakistan national cricket team vs sri lanka national cricket team players",
+    "traffic": 100,
+    "news": "Pakistan bring in fresh batting talent for Sri Lanka Tests",
+    "t": 1793073053,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "kse 100 index",
+    "traffic": 200,
+    "news": "Stock market loses 814 points",
+    "t": 1793073053,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "27 october black day kashmir",
+    "traffic": 200,
+    "news": "Sindh to rally for Kashmir on Black Day",
+    "t": 1793073053,
+    "cat": "none",
+    "sindh": true
+   },
+   {
+    "term": "jailer 2 movie",
+    "traffic": 100,
+    "news": "Jailer 2 box office collection day 12: Rajinikanth film crosses ₹400 crore in India despite 63% drop on second Monday | Hindustan Times",
+    "t": 1793073053,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "petrol price in pakistan today",
+    "traffic": 500,
+    "news": "Jet fuel, light diesel oil and kerosene prices increased",
+    "t": 1793073053,
+    "cat": "fuel",
+    "sindh": false
+   },
+   {
+    "term": "gpt-6.1",
+    "traffic": 100,
+    "news": "OpenAI Launches GPT-6.1 Terra, Halving GPT-6.1 Sol’s API Price for Agent Work",
+    "t": 1793073053,
+    "cat": "technology",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 102,
-  "fail": 166,
-  "limit": 166
+  "ok": 104,
+  "fail": 170,
+  "limit": 170
  },
  "posted_heads": [
   {
@@ -7731,7 +7744,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 08:41",
+  "time": "2026-10-27 08:51",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7839,7 +7852,7 @@
   "text": 15,
   "story": 13
  },
- "ai_last_error": "08:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "08:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7880,7 +7893,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7888,7 +7901,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 54,
+   "ok": 55,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7896,7 +7909,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 54,
+   "ok": 55,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7904,14 +7917,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7919,21 +7932,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8204,8 +8217,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 19,
-  "old": 19,
+  "found": 24,
+  "old": 24,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8236,8 +8249,8 @@
   "date": "2026-10-27",
   "count": 1,
   "last": 1793060463.785879,
-  "city_i": 18,
-  "dry": 1793072464.751161
+  "city_i": 22,
+  "dry": 1793073063.8742425
  },
  "gemini_day_dead": {
   "day": "2026-10-26",
@@ -9050,13 +9063,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-27 02:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-27 02:40",
    "ok": true,
    "n": 0,
@@ -9324,6 +9330,13 @@
   },
   {
    "t": "10-27 08:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 08:50",
    "ok": true,
    "n": 0,
    "ids": [],
