@@ -1,7 +1,5 @@
 {
  "seen": {
-  "ead9a336c28a76a5": 1792478465.9826329,
-  "e5b45d592177ee19": 1792478465.982636,
   "1f296373465351e0": 1792479794.064282,
   "efe67777d1f66139": 1792479794.064285,
   "3c4437d23fcd3774": 1792480016.3812146,
@@ -1539,7 +1537,9 @@
   "9b8fd2b83e98e225": 1793080882.9359014,
   "17de1d31da635369": 1793081466.8955195,
   "9069f5da74bbfa8b": 1793081466.8955228,
-  "ac60155f535bf51d": 1793082674.0787008
+  "ac60155f535bf51d": 1793082674.0787008,
+  "0ba95484231b371c": 1793083867.318547,
+  "4c0f53fc022cc4cf": 1793083867.3185506
  },
  "pending": {},
  "queue": [],
@@ -1635,20 +1635,8 @@
    "0bbef6bc52a1b667"
   ]
  },
- "last_post_id": "1444130002106066_122114236371503839",
+ "last_post_id": "1444130002106066_122114252145503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122113931715503839",
-   "title": "اسٽيٽ بئنڪ وياج جي شرح 12 سيڪڙو ڪري ڇڏي",
-   "t": 1793014394.3131595,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122113931715503839"
-  },
   {
    "id": "1444130002106066_122113938135503839",
    "title": "سعودي عرب تي حوثين جا 10 ميزائل تباه ڪيا ويا",
@@ -1961,6 +1949,18 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122114236371503839"
+  },
+  {
+   "id": "1444130002106066_122114252145503839",
+   "title": "ڀان سيد آباد ۾ هزارين پکي هٿ، هڪ جوابدار گرفتار",
+   "t": 1793083999.9147975,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122114252145503839"
   }
  ],
  "share_sent": {
@@ -2106,7 +2106,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 11:40",
+  "time": "2026-10-27 11:53",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2121,17 +2121,11 @@
  },
  "all_posts": {
   "date": "2026-10-27",
-  "count": 19,
-  "last": 1793080914.7422671
+  "count": 20,
+  "last": 1793083993.9322703
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122110646061503839",
-    "sec": "public_news",
-    "cat": "technology",
-    "t": 1792402991
-   },
    {
     "id": "1444130002106066_122110653711503839",
     "sec": "agri_news",
@@ -4525,6 +4519,12 @@
     "sec": "public_news",
     "cat": "dollar_gold_business",
     "t": 1793080919
+   },
+   {
+    "id": "1444130002106066_122114252145503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1793083999
    }
   ]
  },
@@ -4534,48 +4534,8 @@
   "last": 1793080919.3422122
  },
  "trends": {
-  "last": 1793073053.072771,
+  "last": 1793083853.6893435,
   "terms": [
-   {
-    "term": "petrol",
-    "traffic": 200,
-    "news": "OGRA cuts petrol price by Rs5.16, diesel by Rs7.69 per litre",
-    "t": 1792471253,
-    "cat": "fuel",
-    "sindh": false
-   },
-   {
-    "term": "from",
-    "traffic": 100,
-    "news": "Opinion | The French Fantasy Is Coming to an End",
-    "t": 1792471253,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "petrol price today",
-    "traffic": 100,
-    "news": "Gold prices drop Rs1,600 per tola",
-    "t": 1792471253,
-    "cat": "dollar_gold_business",
-    "sindh": false
-   },
-   {
-    "term": "today petrol price in pakistan",
-    "traffic": 500,
-    "news": "Silver price in Pakistan for today, October 15, 2026",
-    "t": 1792471253,
-    "cat": "dollar_gold_business",
-    "sindh": false
-   },
-   {
-    "term": "joe root",
-    "traffic": 100,
-    "news": "Joe Root averages 52.18 against Pakistan in ODIs: Stats",
-    "t": 1792471253,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "petrol price pakistan",
     "traffic": 2000,
@@ -7407,21 +7367,65 @@
     "t": 1793073053,
     "cat": "technology",
     "sindh": false
+   },
+   {
+    "term": "loan",
+    "traffic": 100,
+    "news": "AirTrunk Secures A$4.25 Billion Green Loan For SYD3 Data Center Campus",
+    "t": 1793083854,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "new zealand national cricket team",
+    "traffic": 100,
+    "news": "New Zealand v India Third T20 Tips: Perfect time for Kiwi bowlers to hit back",
+    "t": 1793083854,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "apple iphone duo",
+    "traffic": 500,
+    "news": "iPhone Duo owners report cracks in Apple’s first foldable handset",
+    "t": 1793083854,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "netherlands vs oman",
+    "traffic": 2000,
+    "news": "Netherlands vs Oman: Live Streaming: When And Where To Watch ICC Cricket World Cup League 2 Match Live In India",
+    "t": 1793083854,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "rupee",
+    "traffic": 500,
+    "news": "Rupee's oil-linked losses meet key hurdle, RBI defence in focus",
+    "t": 1793083854,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "kashmir black day",
+    "traffic": 500,
+    "news": "Sindh to rally for Kashmir on Black Day",
+    "t": 1793083854,
+    "cat": "none",
+    "sindh": true
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 148,
-  "fail": 244,
-  "limit": 244
+  "ok": 155,
+  "fail": 252,
+  "limit": 252
  },
  "posted_heads": [
-  {
-   "h": "مورو: شهر ۾ صفائي سٿرائي جيترن مسئلن خلاف احتجاج",
-   "t": 1792926085
-  },
   {
    "h": "کنڊيارو: شهر ۾ امن امان جي صورتحال خلاف احتجاج",
    "t": 1792927275
@@ -7737,10 +7741,14 @@
   {
    "h": "Gold Price Today in Pakistan: Latest Per Tola, 10 Gram Rates – 27 October 2026",
    "t": 1793080919
+  },
+  {
+   "h": "ڀان سيد آباد ۾ هزارين ملڪي ۽ غير ملڪي پکي هٿ، هڪ جوابدار گرفتار",
+   "t": 1793084000
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 11:40",
+  "time": "2026-10-27 11:53",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7848,7 +7856,7 @@
   "text": 20,
   "story": 17
  },
- "ai_last_error": "11:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "11:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7862,13 +7870,13 @@
  },
  "img_diag": {
   "date": "2026-10-27",
-  "tried": 18,
+  "tried": 19,
   "gemini": 0,
   "pollinations": 14,
   "skip": 0,
   "fail": 6,
-  "last_note": "modern medical laboratory vial",
-  "mismatch": 199
+  "last_note": "caged wild birds",
+  "mismatch": 202
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -7889,7 +7897,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 73,
+   "ok": 74,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7897,7 +7905,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 71,
+   "ok": 72,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7905,7 +7913,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 72,
+   "ok": 73,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7913,14 +7921,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7928,21 +7936,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8208,13 +8216,13 @@
  "region_posts": {
   "date": "2026-10-27",
   "district": 0,
-  "sindh": 5,
+  "sindh": 6,
   "pakistan": 13
  },
  "report_acc": {
-  "posted": 0,
-  "found": 16,
-  "old": 16,
+  "posted": 1,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8243,9 +8251,9 @@
  },
  "sindh_stream": {
   "date": "2026-10-27",
-  "count": 4,
-  "last": 1793082671.4209442,
-  "city_i": 22,
+  "count": 5,
+  "last": 1793083864.973312,
+  "city_i": 4,
   "dry": 1793079662.6670218
  },
  "gemini_day_dead": {
@@ -8326,14 +8334,6 @@
   92058803
  ],
  "reel_pool": [
-  {
-   "k": "745326343b837e8e",
-   "h": "سنڌ ۽ ملڪ ۾ ڪڻڪ جو بحران",
-   "x": "ملتان ۾ پاڪستان ڪيسان اتحاد جي چيئرمين خالد محمود کھوکر اھداف ۽ خوراڪ جي سلامتي کي مضبوط ڪرڻ لاءِ زرعي ايمرجنسي لاڳو ڪرڻ، شفاف ڪڻڪ جي خريداري ۽ ننڍن پيماني تي ايگرو پروسيسنگ يونٽن قائم ڪرڻ جو مطالبو ڪيو آھي. ھُن ھفتي تي ھڪ پريس ڪفرنس کي خطاب ڪندي چيو ته حڪومت ۽ سيمڊا جي سھڪار سان ننڍا پروسيسنگ يونٽ قائم ڪري زراعت ۾ ويليو ايڊيشن کي فروغ ڏنو وڃي، جنھن سان آم، پٽاٽا، ٽماٽا، مٺا پٽاٽا ۽ مٽر جھڙين شين کي بچائي سگهجي ٿو. ھُن حڪومت تي زور ڏنو ته اھڙا پلانٽس لڳائڻ لاءِ کسانن کي بلاسود قرض ڏنا وڃن. خالد محمود کھوکر وفاقي حڪومت پاران ڪڻڪ جو اگهه 4500 روپيا في مڻ مقرر ڪرڻ جي فيصلي کي ساراهيو، پر ان ڳالهه تي زور ڏنو ته شفاف خريداري جو ميڪانيزم پڻ يقيني بڻايو وڃي، ۽ فوڊ کاتي سڌي طرح ڪڻڪ جي خريداري شروع ڪري. ھُن خبردار ڪيو ته خوراڪ جي سلامتي کي ايندڙ سال قومي ترجيح ڏني وڃي، ڇاڪاڻ ته آبادي ۾ اضافو، پاڻي جي کوٽ ۽ موسمياتي چئلينجز درپیش آهن. ھُن 10 سالا زرعي پاليسي جو پڻ تجويز ڏنو ۽ چيو ته حڪومت ڪڻڪ جو اگهه، پيداواري خرچ ۽ کاد جي قيمتن لاءِ اڳواٽ ضابطا تيار ڪري. کاد جي ڪارخانن کي بند نه ڪرڻ جو مطالبو ڪندي ھُن چيو ته تيل، بجلي جي وڌندڙ اگھن ۽ کنڊ جي پوک ڪندڙن کي به درپيش مشڪلاتن جو ازالو ڪيو وڃي، ۽ زرعي واپار کي هم آهنگ ڪرڻ لاءِ هڪ وقف درآمد ۽ برآمد اٿارٽي پڻ تجويز ڪئي وڃي!",
-   "t": 1792909326,
-   "s": false,
-   "r": 0
-  },
   {
    "k": "5931756dd6c9f053",
    "h": "نيپرا پاران ڏورانهن علائقن لاءِ الڳ بجلي سسٽم تجويز",
@@ -9053,6 +9053,14 @@
    "t": 1793080919,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "983821c6a77dd2c4",
+   "h": "ڀان سيد آباد ۾ هزارين پکي هٿ، هڪ جوابدار گرفتار",
+   "x": "حيدرآباد جي علائقي ڀان سيدآباد ۾ پوليس ڪارروائي ڪندي هزارين ملڪي ۽ غير ملڪي پکي هٿ ڪري ورتا آهن ۽ هڪ جوابدار کي گرفتار پڻ ڪيو ويو آهي. پوليس موجب، ايس ايڇ او ڀان سيدآباد ذوالفقار اوڍاڻو جي اسپيشل ٽاسڪ فورس کي ڳجهو اطلاع مليو هو، جنهن کان پوءِ خانگي بئنڪ ڀرسان قائم هڪ گودام تي ڇاپو هنيو ويو. ڇاپي دوران گودام مان مختلف نسلن جا هزارين پکي هٿ ڪيا ويا آهن. پوليس جو چوڻ آهي ته گودام ۾ مبينا طور پکين جون ٽنگون ۽ پَر ڀڃي، کين فريزر ۾ محفوظ ڪرڻ کانپوءِ وڪرو ڪيو ويندو هو. پوليس ڪارروائي دوران هڪ جوابدار کي گرفتار ڪري ورتو آهي، جڏهن ته هٿ آيل پکين بابت وڌيڪ جاچ پڻ جاري آهي!",
+   "t": 1793083999,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9068,13 +9076,6 @@
   "last": 1793027512.7362087
  },
  "tg_debug": [
-  {
-   "t": "10-27 05:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-27 05:40",
    "ok": true,
@@ -9347,54 +9348,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "10-27 11:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-10-27",
  "recent_posts": [
-  {
-   "t": 1792909326,
-   "h": "سنڌ ۽ ملڪ ۾ ڪڻڪ جو بحران",
-   "b": "ملتان ۾ پاڪستان ڪيسان اتحاد جي چيئرمين خالد محمود کھوکر اھداف ۽ خوراڪ جي سلامتي کي مضبوط ڪرڻ لاءِ زرعي",
-   "tt": [
-    "بحران",
-    "سنڌ",
-    "ملڪ",
-    "ڪڻڪ"
-   ],
-   "bt": [
-    "اتحاد",
-    "ايمرجنسي",
-    "ايگرو",
-    "اھداف",
-    "اھي",
-    "بحران",
-    "خالد",
-    "خريداري",
-    "خوراڪ",
-    "زرعي",
-    "سلامتي",
-    "سنڌ",
-    "شفاف",
-    "قائم",
-    "لاڳو",
-    "محمود",
-    "مضبوط",
-    "مطالبو",
-    "ملتان",
-    "ملڪ",
-    "ننڍن",
-    "يونٽن",
-    "پاڪستان",
-    "پروسيسنگ",
-    "پيماني",
-    "چيئرمين",
-    "ڪرڻ",
-    "ڪرڻ،",
-    "ڪيسان",
-    "ڪڻڪ",
-    "ڪھوڪر"
-   ]
-  },
   {
    "t": 1792912246,
    "h": "نيپرا پاران ڏورانهن علائقن لاءِ الڳ بجلي سسٽم تجويز",
@@ -13980,6 +13944,63 @@
     "ڪراچي",
     "ڪلي"
    ]
+  },
+  {
+   "t": 1793083999,
+   "h": "ڀان سيد آباد ۾ هزارين پکي هٿ، هڪ جوابدار گرفتار",
+   "b": "حيدرآباد جي علائقي ڀان سيدآباد ۾ پوليس ڪارروائي ڪندي هزارين ملڪي ۽ غير ملڪي پکي هٿ ڪري ورتا آهن ۽ هڪ جوابدار",
+   "tt": [
+    "اباد",
+    "جوابدار",
+    "سيد",
+    "هزارين",
+    "هٿ،",
+    "پڪي",
+    "ڀان",
+    "گرفتار"
+   ],
+   "bt": [
+    "اباد",
+    "اسپيشل",
+    "اطلاع",
+    "اهن",
+    "اهي",
+    "اوڍاڻو",
+    "ايس",
+    "ايڇ",
+    "بئنڪ",
+    "جوابدار",
+    "حيدراباد",
+    "خانگي",
+    "ذوالفقار",
+    "سيد",
+    "سيداباد",
+    "علائقي",
+    "غير",
+    "فورس",
+    "قائم",
+    "مليو",
+    "ملڪي",
+    "موجب،",
+    "هزارين",
+    "هنيو",
+    "هو،",
+    "هٿ،",
+    "ورتا",
+    "ٽاسڪ",
+    "پوء",
+    "پوليس",
+    "پڪي",
+    "ڀان",
+    "ڀرسان",
+    "ڇاپو",
+    "ڪارروائي",
+    "ڪان",
+    "ڪندي",
+    "گرفتار",
+    "گودام",
+    "ڳجهو"
+   ]
   }
  ],
  "repeat_log": [
@@ -14150,6 +14171,5 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606,
- "_dup": true
+ "approve_last": 1792771860.5720606
 }
