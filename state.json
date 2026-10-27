@@ -1534,7 +1534,19 @@
   "54459f84695773eb": 1793097741.2053905,
   "a998663df39bc84a": 1793097741.2062833,
   "a6648326e46d7a18": 1793097741.207249,
-  "0a1dff68e437e49b": 1793097764.0528507
+  "0a1dff68e437e49b": 1793097764.0528507,
+  "f452893bd35d3c74": 1793103079.7298696,
+  "dcbb5a7e68b0053d": 1793103079.7298722,
+  "988e7f89f8b088ba": 1793103079.7298734,
+  "e971390a418eb581": 1793103079.7298741,
+  "0cc702031521fbde": 1793103079.7298748,
+  "55a4462e1112f054": 1793103079.7298765,
+  "f788d462fc6f9dce": 1793103079.7298772,
+  "5d320f4af6dc9b8b": 1793103079.729878,
+  "06fe9d043685cd43": 1793103079.7298791,
+  "ded9b971d22ffcbf": 1793103079.7298806,
+  "cf70999094b46884": 1793103079.729881,
+  "0ff92eb17e3863fd": 1793103079.7298834
  },
  "pending": {},
  "queue": [],
@@ -2085,7 +2097,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 17:03",
+  "time": "2026-10-27 17:11",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7416,9 +7428,9 @@
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 213,
-  "fail": 303,
-  "limit": 308
+  "ok": 219,
+  "fail": 315,
+  "limit": 320
  },
  "posted_heads": [
   {
@@ -7763,7 +7775,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 17:03",
+  "time": "2026-10-27 17:11",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7866,12 +7878,12 @@
  },
  "article_diag": {
   "date": "2026-10-27",
-  "tried": 25,
-  "decoded": 24,
-  "text": 20,
+  "tried": 26,
+  "decoded": 25,
+  "text": 21,
   "story": 17
  },
- "ai_last_error": "17:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "17:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7912,7 +7924,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 106,
+   "ok": 107,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7920,7 +7932,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 101,
+   "ok": 102,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -7928,7 +7940,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 102,
+   "ok": 103,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -7936,14 +7948,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 107,
+   "ok": 108,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 107,
+   "ok": 108,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7951,21 +7963,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 107,
+   "ok": 108,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 107,
+   "ok": 108,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 107,
+   "ok": 108,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8224,8 +8236,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8255,8 +8267,8 @@
  "sindh_stream": {
   "date": "2026-10-27",
   "count": 8,
-  "last": 1793097071.0575893,
-  "city_i": 4,
+  "last": 1793103068.3553183,
+  "city_i": 8,
   "dry": 1793097072.4560044
  },
  "gemini_day_dead": {
@@ -9103,13 +9115,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-27 10:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-27 11:00",
    "ok": true,
    "n": 0,
@@ -9377,6 +9382,13 @@
   },
   {
    "t": "10-27 17:03",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 17:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13776,11 +13788,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-25 11:11",
-   "new": "سانگهڙ ۾ ڪوچ ۽ ڪار ۾ ٽڪر، چار ڄڻا فوت",
-   "old": "ٽنڊو آدم ويجهو ڪوچ ۽ ڪار ۾ ٽڪر، ٻار ۽ عورت سميت 4 فوت"
-  },
-  {
    "t": "10-25 11:31",
    "new": "قومي ٽيسٽ اسڪواڊ جو اعلان",
    "old": "شام جون سنڌ جون اهم خبرون"
@@ -13924,6 +13931,11 @@
    "t": "10-27 11:31",
    "new": "ملڪ ۾ ايل پي جي سستي نه ٿي سگهي",
    "old": "ملڪ جي مختلف شهرن ۾ ايل پي جي جا اگهه گهٽجي نه سگهيا"
+  },
+  {
+   "t": "10-27 17:11",
+   "new": "شهيد بينظيرآباد ۾ ڪشمير ڪاري ڏينهن حوالي سان ريلي",
+   "old": "نوابشاهه ۾ 27 آڪٽوبر تي ڪشمير ڪارو ڏينهن ريلي ڪڍندس"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13942,5 +13954,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
