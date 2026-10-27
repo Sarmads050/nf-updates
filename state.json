@@ -1552,7 +1552,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-10-26",
-  "count": 4
+  "count": 5
  },
  "last_digest": "2026-10-26",
  "alert_day": "2026-10-20",
@@ -1640,7 +1640,7 @@
    "0bbef6bc52a1b667"
   ]
  },
- "last_post_id": "1444130002106066_122114190159503839",
+ "last_post_id": "1444130002106066_122114196729503839",
  "shareable": [
   {
    "id": "1444130002106066_122113892631503839",
@@ -2117,7 +2117,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 07:50",
+  "time": "2026-10-27 08:01",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2132,8 +2132,8 @@
  },
  "all_posts": {
   "date": "2026-10-27",
-  "count": 11,
-  "last": 1793068924.2277882
+  "count": 12,
+  "last": 1793070105.156093
  },
  "perf": {
   "posts": [
@@ -7408,9 +7408,9 @@
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 94,
-  "fail": 152,
-  "limit": 152
+  "ok": 96,
+  "fail": 156,
+  "limit": 156
  },
  "posted_heads": [
   {
@@ -7735,10 +7735,10 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 07:50",
+  "time": "2026-10-27 08:01",
   "steps": []
  },
- "roundup_am": "2026-10-26",
+ "roundup_am": "2026-10-27",
  "group_shares": {
   "1": {
    "date": "2026-10-26",
@@ -7843,7 +7843,7 @@
   "text": 14,
   "story": 12
  },
- "ai_last_error": "07:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "08:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7884,7 +7884,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7892,7 +7892,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7900,7 +7900,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7908,14 +7908,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7923,21 +7923,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8203,18 +8203,18 @@
  "region_posts": {
   "date": "2026-10-27",
   "district": 0,
-  "sindh": 1,
+  "sindh": 2,
   "pakistan": 9
  },
  "report_acc": {
-  "posted": 2,
-  "found": 25,
-  "old": 25,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-27 07",
+ "report_hour": "2026-10-27 08",
  "kawish_upload_times": {
   "_date": "2026-10-27",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9054,13 +9054,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-27 01:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-27 01:50",
    "ok": true,
    "n": 0,
@@ -9328,6 +9321,13 @@
   },
   {
    "t": "10-27 07:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 08:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13974,6 +13974,52 @@
     "ڪينولا",
     "گهريلو",
     "گهٽ"
+   ]
+  },
+  {
+   "t": 1793070105,
+   "h": "صبح جون سنڌ جون اهم خبرون",
+   "b": "27 آڪٽوبر 2026 1️⃣ پاڪستان اسٽاڪ ايڪسچینج ۾ سرمایه کارن جي تعداد ۾ واڌ پاڪستان اسٽاڪ ايڪسچینج ۾ هلندڙ مالي",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "صبح"
+   ],
+   "bt": [
+    "#27",
+    "#55",
+    "#56",
+    "اسٽاڪ",
+    "اهم",
+    "اهي",
+    "ايف",
+    "ايم",
+    "ايڪسچينج",
+    "اڪٽوبر",
+    "تجاوز",
+    "تعداد",
+    "جائزي",
+    "خبرون",
+    "دوران",
+    "رپورٽ",
+    "رڪارڊ",
+    "سال",
+    "سرمايه",
+    "سنڌ",
+    "سيڪڙو",
+    "صبح",
+    "مالي",
+    "ماهي",
+    "مطابق",
+    "معيشت",
+    "هزار",
+    "هلندڙ",
+    "واڌ",
+    "پاڪستان",
+    "پهرين",
+    "ڪارن",
+    "ڪان"
    ]
   }
  ],
