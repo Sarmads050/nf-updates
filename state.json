@@ -1,17 +1,5 @@
 {
  "seen": {
-  "98c4871c1a0f2387": 1792532452.2073214,
-  "80f65b2b3bab6c16": 1792532470.3876383,
-  "07bf14e5b0539303": 1792532470.3876414,
-  "7a6cac51c16514e1": 1792532470.3876426,
-  "24b72ee56ea1c62b": 1792532470.3876445,
-  "481dfbc536ab49f9": 1792532470.387645,
-  "ce1e81ec279b9ef5": 1792532470.387646,
-  "969c5fa51115821c": 1792532470.3876464,
-  "e664d0d59af98f13": 1792532470.3876474,
-  "9606ff818e117d28": 1792532470.3876483,
-  "93744c6dedc09c1b": 1792532470.387853,
-  "b09409d4f2e7b15b": 1792532966.5920107,
   "432887e8ecb1d2ff": 1792535476.6506116,
   "5efea690b3dbc5f6": 1792535476.6506143,
   "62702c6d2cddc8fa": 1792535476.6506155,
@@ -1555,7 +1543,8 @@
   "381967c05b29bf73": 1793137284.5182164,
   "a4e1f9700abcdb3d": 1793137284.5182176,
   "ebdd75d1d1bea126": 1793137284.518218,
-  "ce4767e3ba908eb8": 1793137284.518395
+  "ce4767e3ba908eb8": 1793137284.518395,
+  "3f558061046dff8a": 1793137861.4106271
  },
  "pending": {},
  "queue": [],
@@ -1567,6 +1556,15 @@
    "domain": "propakistani.pk",
    "source": "ProPakistani",
    "ts": 1793021552,
+   "local": false
+  },
+  {
+   "key": "3f558061046dff8a",
+   "title": "Netherlands plans to cut 25,000 govt jobs in AI-led overhaul",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdGRzSHpsb1dWNW9oWWs4ZjF6X18wbDU5ZlRHdlI0QWVlRnRQRzFUY09nTXhMTENScS1PeDJNcE5ZejRqZl9QNF8xd1JPeUhnVjRJRmdDNXdEZllpaHJOTTlDb1lUQmxsdk5Tb2p0MzF5Z0lwQXdoMmxmUWxIMHBWREFFZFRvNEN4dnJHVEpMQzU4Nk85RHg5bFZ3?oc=5",
+   "domain": "bolnews.com",
+   "source": "Bol News",
+   "ts": 1793130375,
    "local": false
   }
  ],
@@ -2142,7 +2140,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 02:42",
+  "time": "2026-10-28 02:51",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7800,7 +7798,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 02:42",
+  "time": "2026-10-28 02:51",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7949,7 +7947,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7957,7 +7955,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7965,7 +7963,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7973,14 +7971,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7988,21 +7986,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8261,8 +8259,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 20,
-  "old": 20,
+  "found": 25,
+  "old": 25,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9076,13 +9074,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-27 20:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-27 20:30",
    "ok": true,
    "n": 0,
@@ -9350,6 +9341,13 @@
   },
   {
    "t": "10-28 02:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 02:50",
    "ok": true,
    "n": 0,
    "ids": [],
