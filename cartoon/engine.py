@@ -780,7 +780,7 @@ SFX = {
     "notification": lambda: np.concatenate([tone(1760, 0.12, 0.07, 10), tone(2350, 0.3, 0.07, 8)]),
     "clink": lambda: sum(tone(2600 * m, 0.5, 0.05 / m, 9 + 4 * m) for m in (1, 1.51, 2.24)),
     "pressure_cooker": lambda: lp(rng.standard_normal(int(1.4 * SR)), 2) * np.sin(np.linspace(0, np.pi, int(1.4 * SR))) * 0.12 + tone(2900, 1.4, 0.05, 0.5),
-    "bat_hit": lambda: lp(rng.standard_normal(int(0.08 * SR)), 2) * np.exp(-np.arange(int(0.08 * SR)) / SR * 60) * 0.6 + tone(900, 0.15, 0.2, 30),
+    "bat_hit": lambda: np.pad(lp(rng.standard_normal(int(0.08 * SR)), 2) * np.exp(-np.arange(int(0.08 * SR)) / SR * 60) * 0.6, (0, int(0.15 * SR) - int(0.08 * SR))) + tone(900, 0.15, 0.2, 30),
     "sting": lambda: np.concatenate([tone(180, 0.09, 0.25, 30), tone(220, 0.09, 0.25, 30), lp(rng.standard_normal(int(0.5 * SR)), 1) * np.exp(-np.arange(int(0.5 * SR)) / SR * 7) * 0.12]),
     "boing": lambda: np.sin(2 * np.pi * np.cumsum(220 + 180 * np.sin(np.linspace(0, 18, int(0.5 * SR)))) / SR) * np.exp(-np.linspace(0, 4, int(0.5 * SR))) * 0.15,
     "crash": lambda: lp(rng.standard_normal(int(0.6 * SR)), 2) * np.exp(-np.arange(int(0.6 * SR)) / SR * 6) * 0.3 + sum(tone(f, 0.6, 0.04, 6) for f in (1800, 2500, 3300)),

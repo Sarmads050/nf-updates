@@ -221,7 +221,7 @@
    "time": "night",
    "label": "Arsalan Ka Kamra • Raat",
    "cast": {
-    "ARSALAN": "desk"
+    "ARSALAN": "bed"
    },
    "props": {
     "ARSALAN": "book"
@@ -260,7 +260,7 @@
       {
        "do": "enter",
        "who": "AMMI",
-       "slot": "stand_r"
+       "slot": "stand_c"
       },
       {
        "do": "prop",
@@ -338,7 +338,7 @@
       {
        "do": "enter",
        "who": "MEHAK",
-       "slot": "stand_c"
+       "slot": "stand_r"
       }
      ],
      "react": {
@@ -408,7 +408,7 @@
       {
        "do": "enter",
        "who": "MEHAK",
-       "slot": "stand_l"
+       "slot": "sofa_r"
       },
       {
        "do": "sfx",
