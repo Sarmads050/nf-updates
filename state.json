@@ -1539,7 +1539,9 @@
   "38e21526fe872db6": 1793073067.5176919,
   "130406711b97b85c": 1793073675.588918,
   "43d8be0e4441c272": 1793073675.589119,
-  "5d249de92a060d25": 1793074269.2722614
+  "5d249de92a060d25": 1793074269.2722614,
+  "0ab07e31c4fd63df": 1793075472.0650566,
+  "ce9b11074d4b5f4a": 1793075472.0651608
  },
  "pending": {},
  "queue": [],
@@ -2106,7 +2108,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 09:20",
+  "time": "2026-10-27 09:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7413,9 +7415,9 @@
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 114,
-  "fail": 184,
-  "limit": 184
+  "ok": 117,
+  "fail": 190,
+  "limit": 190
  },
  "posted_heads": [
   {
@@ -7740,7 +7742,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 09:20",
+  "time": "2026-10-27 09:31",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7843,12 +7845,12 @@
  },
  "article_diag": {
   "date": "2026-10-27",
-  "tried": 19,
-  "decoded": 19,
-  "text": 16,
-  "story": 14
+  "tried": 20,
+  "decoded": 20,
+  "text": 17,
+  "story": 15
  },
- "ai_last_error": "09:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "09:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7889,7 +7891,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7897,7 +7899,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 58,
+   "ok": 59,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7905,7 +7907,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 58,
+   "ok": 59,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7913,14 +7915,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7928,21 +7930,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8213,8 +8215,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 10,
-  "old": 10,
+  "found": 15,
+  "old": 15,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8245,8 +8247,8 @@
   "date": "2026-10-27",
   "count": 1,
   "last": 1793060463.785879,
-  "city_i": 8,
-  "dry": 1793074259.4674659
+  "city_i": 12,
+  "dry": 1793075467.788497
  },
  "gemini_day_dead": {
   "day": "2026-10-26",
@@ -9065,7 +9067,9 @@
  ],
  "reels": {
   "date": "2026-10-27",
-  "done": []
+  "done": [
+   "09:30"
+  ]
  },
  "kawish_queue": [],
  "kawish_post": {
@@ -9074,13 +9078,6 @@
   "last": 1793027512.7362087
  },
  "tg_debug": [
-  {
-   "t": "10-27 03:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-27 03:10",
    "ok": true,
@@ -9349,6 +9346,13 @@
   },
   {
    "t": "10-27 09:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 09:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14059,11 +14063,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-25 04:21",
-   "new": "بابراعظم کي پاڪستاني ٽيسٽ ٽيم جو ڪپتان مقرر ڪيو ويو",
-   "old": "شام جون سنڌ جون اهم خبرون"
-  },
-  {
    "t": "10-25 04:31",
    "new": "پاڪستان ڪرڪيٽ ٽيم جو اعلان",
    "old": "پاڪستان ڪرڪيٽ ٽيم جو تربيتي ڪيمپ شروع"
@@ -14207,6 +14206,11 @@
    "t": "10-27 07:41",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ واڌ",
    "old": "صبح جون خبرون | سومر، 26 آڪٽوبر 2026"
+  },
+  {
+   "t": "10-27 09:31",
+   "new": "اڄ سون ۽ چانديءَ جا اگهه جاري",
+   "old": "پاڪستان ۾ سونهن جي اگهن ۾ واڌ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14225,5 +14229,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
