@@ -1,8 +1,5 @@
 {
  "seen": {
-  "1f296373465351e0": 1792479794.064282,
-  "efe67777d1f66139": 1792479794.064285,
-  "3c4437d23fcd3774": 1792480016.3812146,
   "1ced2d958e27eede": 1792480459.1669834,
   "0690a29381cc7653": 1792480459.1669872,
   "71b7e308b644b63b": 1792480459.166989,
@@ -1539,7 +1536,14 @@
   "9069f5da74bbfa8b": 1793081466.8955228,
   "ac60155f535bf51d": 1793082674.0787008,
   "0ba95484231b371c": 1793083867.318547,
-  "4c0f53fc022cc4cf": 1793083867.3185506
+  "4c0f53fc022cc4cf": 1793083867.3185506,
+  "5f5776d72d8caf3b": 1793085264.6293066,
+  "2f3767d70bf67982": 1793085419.998689,
+  "b9a6b516f6954009": 1793085665.6898236,
+  "eefb0911676d9fdf": 1793085665.6898267,
+  "f2af66c54430151a": 1793085665.6898284,
+  "e6cc6957b20e6781": 1793085665.6898289,
+  "a7af2a7c025186a2": 1793085665.6898296
  },
  "pending": {},
  "queue": [],
@@ -1557,7 +1561,7 @@
   "last_week": "",
   "last_check": "2026-10-27"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2106,7 +2110,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 12:01",
+  "time": "2026-10-27 12:21",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7421,8 +7425,8 @@
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 155,
-  "fail": 252,
+  "ok": 158,
+  "fail": 254,
   "limit": 252
  },
  "posted_heads": [
@@ -7748,7 +7752,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 12:01",
+  "time": "2026-10-27 12:21",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7856,7 +7860,7 @@
   "text": 20,
   "story": 17
  },
- "ai_last_error": "11:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "12:16 gemini-3.7-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7897,7 +7901,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 75,
+   "ok": 76,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7905,7 +7909,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 73,
+   "ok": 74,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7913,7 +7917,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 74,
+   "ok": 75,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7921,14 +7925,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7936,21 +7940,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8221,8 +8225,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8252,19 +8256,13 @@
  "sindh_stream": {
   "date": "2026-10-27",
   "count": 5,
-  "last": 1793083864.973312,
-  "city_i": 4,
-  "dry": 1793079662.6670218
+  "last": 1793085062.1304204,
+  "city_i": 8,
+  "dry": 1793085264.6293094
  },
  "gemini_day_dead": {
-  "day": "2026-10-26",
-  "models": [
-   "gemini-3.7-flash",
-   "gemini-3.8-flash",
-   "gemini-flash-latest",
-   "gemini-3.6-flash",
-   "gemini-3.5-flash"
-  ]
+  "day": "2026-10-27",
+  "models": []
  },
  "tg_done": [
   92058696,
@@ -9077,13 +9075,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-27 05:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-27 05:54",
    "ok": true,
    "n": 0,
@@ -9351,6 +9342,13 @@
   },
   {
    "t": "10-27 12:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 12:10",
    "ok": true,
    "n": 0,
    "ids": [],
