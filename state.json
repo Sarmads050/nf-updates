@@ -1527,7 +1527,9 @@
   "b9b3641bf46b7bed": 1793116890.7997882,
   "da009c03ae82f3b1": 1793118073.0191402,
   "3037436ba45277c5": 1793118073.0191436,
-  "4c2397434339f6a1": 1793118663.4611537
+  "4c2397434339f6a1": 1793118663.4611537,
+  "309339d728f968b2": 1793119874.904817,
+  "e9580cea574bc093": 1793119874.9048204
  },
  "pending": {},
  "queue": [],
@@ -2101,7 +2103,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 21:40",
+  "time": "2026-10-27 21:51",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7440,9 +7442,9 @@
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 279,
-  "fail": 397,
-  "limit": 404
+  "ok": 283,
+  "fail": 405,
+  "limit": 412
  },
  "posted_heads": [
   {
@@ -7767,7 +7769,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 21:40",
+  "time": "2026-10-27 21:51",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7870,12 +7872,12 @@
  },
  "article_diag": {
   "date": "2026-10-27",
-  "tried": 30,
-  "decoded": 29,
-  "text": 25,
-  "story": 20
+  "tried": 31,
+  "decoded": 30,
+  "text": 26,
+  "story": 21
  },
- "ai_last_error": "21:34 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "21:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7916,7 +7918,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 133,
+   "ok": 134,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7924,7 +7926,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 129,
+   "ok": 130,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -7932,7 +7934,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 130,
+   "ok": 131,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -7940,14 +7942,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7955,21 +7957,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8228,8 +8230,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 17,
-  "old": 16,
+  "found": 22,
+  "old": 21,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8259,8 +8261,8 @@
  "sindh_stream": {
   "date": "2026-10-27",
   "count": 15,
-  "last": 1793118070.0844882,
-  "city_i": 4,
+  "last": 1793119866.2992387,
+  "city_i": 8,
   "dry": 1793114492.1672537
  },
  "gemini_day_dead": {
@@ -9024,13 +9026,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-27 15:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-27 15:30",
    "ok": true,
    "n": 0,
@@ -9298,6 +9293,13 @@
   },
   {
    "t": "10-27 21:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 21:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13579,11 +13581,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-25 19:10",
-   "new": "اداڪاره ڪومل عزيز خان شوبز انڊسٽري کي باضابطه طور الوداع ڪري ڇڏيو",
-   "old": "اداڪارا ڪومل عزيز خان فلمي دنيا کي خيرآباد چئي ڇڏيو"
-  },
-  {
    "t": "10-25 22:53",
    "new": "ٽنڊو آدم ويجهو بس ۽ ڪار ۾ ٽڪر، پنج ڄڻا فوت",
    "old": "ٽنڊو آدم ويجهو ڪوچ ۽ ڪار ۾ ٽڪر، ٻار ۽ عورت سميت 4 فوت"
@@ -13727,6 +13724,11 @@
    "t": "10-27 21:21",
    "new": "ڪنڊيارو ۾ صفائي جا مسئلا ۽ ٽائون ڪميٽي جي ڪارڪردگي",
    "old": "ڪنڊيارو ۾ صفائي جي مسئلن ۽ ٽائون ڪميٽيءَ جي ڪارڪردگي بابت خبر سامهون آ"
+  },
+  {
+   "t": "10-27 21:51",
+   "new": "مہراب پور اسٽيشن تي شاليمار ايڪسپريس جي حوالي سان اپڊيٽ جاري",
+   "old": "محراب پور اسٽيشن تي شاليمار ايڪسپريس ريل گاڏي جي حوالي سان نئون اپڊيٽ "
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13745,5 +13747,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
