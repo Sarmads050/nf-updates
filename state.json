@@ -1,7 +1,5 @@
 {
  "seen": {
-  "e19cd8be7780e3cf": 1792474274.5734978,
-  "f225f6b71b19adda": 1792474274.5735013,
   "1b95bcd216e33ecd": 1792475488.0575857,
   "dc8637a86d0845d9": 1792476670.3214805,
   "540767503b925bbb": 1792476675.1747015,
@@ -1538,7 +1536,8 @@
   "e22d4a5c4ff12b30": 1793076655.25955,
   "06bb25ba4ee75dfd": 1793077272.925667,
   "5ce105ea4b315adc": 1793078015.0992587,
-  "a0d1e2509fafe903": 1793078459.3215477
+  "a0d1e2509fafe903": 1793078459.3215477,
+  "3da6e816cc922066": 1793079675.2977908
  },
  "pending": {},
  "queue": [],
@@ -2105,7 +2104,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 10:30",
+  "time": "2026-10-27 10:41",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7412,9 +7411,9 @@
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 132,
-  "fail": 218,
-  "limit": 218
+  "ok": 133,
+  "fail": 220,
+  "limit": 220
  },
  "posted_heads": [
   {
@@ -7739,7 +7738,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 10:31",
+  "time": "2026-10-27 10:41",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7847,7 +7846,7 @@
   "text": 19,
   "story": 16
  },
- "ai_last_error": "10:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "10:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7888,7 +7887,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 65,
+   "ok": 66,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7896,7 +7895,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 63,
+   "ok": 64,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7904,7 +7903,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 64,
+   "ok": 65,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7912,14 +7911,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7927,21 +7926,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8212,8 +8211,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 11,
-  "old": 11,
+  "found": 15,
+  "old": 15,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8244,8 +8243,8 @@
   "date": "2026-10-27",
   "count": 3,
   "last": 1793078457.1837664,
-  "city_i": 6,
-  "dry": 1793078005.7323456
+  "city_i": 10,
+  "dry": 1793079662.6670218
  },
  "gemini_day_dead": {
   "day": "2026-10-26",
@@ -9068,13 +9067,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-27 04:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-27 04:20",
    "ok": true,
    "n": 0,
@@ -9342,6 +9334,13 @@
   },
   {
    "t": "10-27 10:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 10:40",
    "ok": true,
    "n": 0,
    "ids": [],
