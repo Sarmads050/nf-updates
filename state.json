@@ -1536,7 +1536,17 @@
   "ce4767e3ba908eb8": 1793137284.518395,
   "3f558061046dff8a": 1793137861.4106271,
   "ba7971e114754690": 1793139052.6159463,
-  "d65dcda6b45de868": 1793139052.6163785
+  "d65dcda6b45de868": 1793139052.6163785,
+  "db78330ffebf51da": 1793141467.4205189,
+  "c6135bea6edf7e2e": 1793141467.4205225,
+  "4f6c85db8bc5ab47": 1793141467.4205234,
+  "9974ebeac530806e": 1793141467.4205248,
+  "727ca5e8b341aa19": 1793141467.4205256,
+  "306247f68a84e182": 1793141467.4205258,
+  "1b4e77f0ec05fbe8": 1793141467.4205267,
+  "4cbf5bb8a2ee3d28": 1793141467.420528,
+  "6ca947e9e7a6d5e4": 1793141467.4205287,
+  "f5498fb87412bcc9": 1793141467.4207413
  },
  "pending": {},
  "queue": [],
@@ -2132,7 +2142,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 03:41",
+  "time": "2026-10-28 03:51",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7423,9 +7433,9 @@
  },
  "ai_usage": {
   "date": "2026-10-28",
-  "ok": 17,
-  "fail": 28,
-  "limit": 28
+  "ok": 20,
+  "fail": 34,
+  "limit": 34
  },
  "posted_heads": [
   {
@@ -7750,7 +7760,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 03:41",
+  "time": "2026-10-28 03:51",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7853,12 +7863,12 @@
  },
  "article_diag": {
   "date": "2026-10-28",
-  "tried": 2,
-  "decoded": 2,
-  "text": 1,
-  "story": 1
+  "tried": 3,
+  "decoded": 3,
+  "text": 2,
+  "story": 2
  },
- "ai_last_error": "03:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "03:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-28",
   "models": [
@@ -7899,7 +7909,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7907,7 +7917,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7915,7 +7925,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7923,14 +7933,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7938,21 +7948,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8211,8 +8221,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 20,
-  "old": 20,
+  "found": 25,
+  "old": 25,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8244,8 +8254,8 @@
   "date": "2026-10-28",
   "count": 1,
   "last": 1793137266.6974535,
-  "city_i": 22,
-  "dry": 1793140864.3796916
+  "city_i": 4,
+  "dry": 1793141462.7517967
  },
  "gemini_day_dead": {
   "day": "2026-10-27",
@@ -9026,13 +9036,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-27 21:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-27 21:40",
    "ok": true,
    "n": 0,
@@ -9300,6 +9303,13 @@
   },
   {
    "t": "10-28 03:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 03:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13809,11 +13819,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-26 00:51",
-   "new": "ٽنڊي آدم ڀرسان خوفناڪ حادثو، زալ مڙس ۽ پٽ سميت 5 ڄڻا فوت",
-   "old": "سانگهڙ ۾ ڪار ۽ ڪاچ جي ٽڪر ۾ 5 ڄڻا فوت، 3 زخمي"
-  },
-  {
    "t": "10-26 01:51",
    "new": "شاداب خان جي شاندار سينچري",
    "old": "پاڪستان جو انگلينڊ خلاف شاندار سوڀ"
@@ -13957,6 +13962,11 @@
    "t": "10-27 23:51",
    "new": "ڪنڊيارو ۾ صفائي جا مسئلا، ٽائون ڪميٽي جي ڪارڪردگي سواليه نشان",
    "old": "ڪنڊيارو ۾ صفائي جي مسئلن ۽ ٽائون ڪميٽيءَ جي ڪارڪردگي بابت خبر سامهون آ"
+  },
+  {
+   "t": "10-28 03:51",
+   "new": "دواين جي قيمتن جو مامرو، ڊريپ کي ڪيس حل ڪرڻ جي هدايت",
+   "old": "حڪومت طرفان دوا جي قيمتن ۾ واڌ رد"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13975,5 +13985,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
