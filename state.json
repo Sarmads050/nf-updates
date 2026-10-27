@@ -2115,7 +2115,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 05:31",
+  "time": "2026-10-27 05:41",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -4543,40 +4543,8 @@
   "last": 1793051014.1156716
  },
  "trends": {
-  "last": 1793050853.7075803,
+  "last": 1793061660.2453957,
   "terms": [
-   {
-    "term": "dawood ibrahim",
-    "traffic": 1000,
-    "news": "Tiger Shroff's car targeted in Mumbai shooting, three arrested",
-    "t": 1792449059,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "kim jong un",
-    "traffic": 200,
-    "news": "(LEAD) Trump signals uncertainty about meeting N. Korean leader in China next month",
-    "t": 1792449059,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "getafe vs rayo",
-    "traffic": 200,
-    "news": "Getafe CF vs Rayo Vallecano - Where to Watch, Stream Info, TV Channel, and Live Updates (October 19, 2026)",
-    "t": 1792449059,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "ballon d'or",
-    "traffic": 100,
-    "news": "⭐ Ballon d'OF: our ninth pick is…",
-    "t": 1792449059,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "open",
     "traffic": 100,
@@ -7416,15 +7384,31 @@
     "t": 1793050853,
     "cat": "cricket",
     "sindh": false
+   },
+   {
+    "term": "alexia putellas",
+    "traffic": 500,
+    "news": "El Barcelona vuelve a ser elegido el mejor club del mundo en el Balón de Oro",
+    "t": 1793061660,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "psg vs olympique lyon standings",
+    "traffic": 1000,
+    "news": "Why is Ousmane Dembele Not Playing Today For PSG vs. Lyon?",
+    "t": 1793061660,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 60,
-  "fail": 96,
-  "limit": 96
+  "ok": 61,
+  "fail": 98,
+  "limit": 98
  },
  "posted_heads": [
   {
@@ -7749,7 +7733,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 05:31",
+  "time": "2026-10-27 05:41",
   "steps": []
  },
  "roundup_am": "2026-10-26",
@@ -7857,7 +7841,7 @@
   "text": 9,
   "story": 7
  },
- "ai_last_error": "05:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "05:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7898,7 +7882,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7906,7 +7890,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7914,7 +7898,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7922,14 +7906,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7937,21 +7921,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8222,8 +8206,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 15,
-  "old": 15,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9060,13 +9044,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-26 23:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-26 23:20",
    "ok": true,
    "n": 0,
@@ -9334,6 +9311,13 @@
   },
   {
    "t": "10-27 05:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 05:40",
    "ok": true,
    "n": 0,
    "ids": [],
