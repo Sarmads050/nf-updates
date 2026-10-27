@@ -1,7 +1,5 @@
 {
  "seen": {
-  "59d1c9d5009f18d5": 1792472478.906058,
-  "03782caa247395a4": 1792472478.906241,
   "e19cd8be7780e3cf": 1792474274.5734978,
   "f225f6b71b19adda": 1792474274.5735013,
   "1b95bcd216e33ecd": 1792475488.0575857,
@@ -1538,7 +1536,8 @@
   "0ab07e31c4fd63df": 1793075472.0650566,
   "ce9b11074d4b5f4a": 1793075472.0651608,
   "e22d4a5c4ff12b30": 1793076655.25955,
-  "06bb25ba4ee75dfd": 1793077272.925667
+  "06bb25ba4ee75dfd": 1793077272.925667,
+  "5ce105ea4b315adc": 1793078015.0992587
  },
  "pending": {},
  "queue": [],
@@ -2105,7 +2104,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 10:01",
+  "time": "2026-10-27 10:13",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7412,9 +7411,9 @@
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 125,
-  "fail": 204,
-  "limit": 204
+  "ok": 129,
+  "fail": 212,
+  "limit": 212
  },
  "posted_heads": [
   {
@@ -7739,7 +7738,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 10:01",
+  "time": "2026-10-27 10:13",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7842,12 +7841,12 @@
  },
  "article_diag": {
   "date": "2026-10-27",
-  "tried": 21,
-  "decoded": 21,
-  "text": 18,
+  "tried": 22,
+  "decoded": 22,
+  "text": 19,
   "story": 16
  },
- "ai_last_error": "10:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "10:13 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7889,37 +7888,37 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
    "ok": 63,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
    "ok": 61,
-   "fail": 2,
+   "fail": 3,
    "items": 10,
-   "fail_streak": 0,
-   "last_status": 504
+   "fail_streak": 1,
+   "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
    "ok": 62,
-   "fail": 1,
+   "fail": 2,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7927,21 +7926,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8212,8 +8211,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8244,8 +8243,8 @@
   "date": "2026-10-27",
   "count": 2,
   "last": 1793076652.9989448,
-  "city_i": 20,
-  "dry": 1793076056.5542967
+  "city_i": 24,
+  "dry": 1793078005.7323456
  },
  "gemini_day_dead": {
   "day": "2026-10-26",
@@ -9076,13 +9075,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-27 03:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-27 03:50",
    "ok": true,
    "n": 0,
@@ -9350,6 +9342,13 @@
   },
   {
    "t": "10-27 10:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 10:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14025,11 +14024,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-25 05:01",
-   "new": "ڪڻڪ جو نئون امدادي اگهه",
-   "old": "پي ايم يوتھ ڪروم بڪ اسڪيم جو اعلان"
-  },
-  {
    "t": "10-25 05:42",
    "new": "پاڪستان اسٽاڪ مارڪيٽ ۾ شديد مندي",
    "old": "مشرق وسطیٰ جنگ سبب اسٽاڪ ايڪسچينج ۾ موٽڙي گهٽتائي"
@@ -14173,6 +14167,11 @@
    "t": "10-27 10:01",
    "new": "منيبا علي پاڪستان وومين ايمرجنگ ٽيم جي ڪپتان مقرر",
    "old": "پاڪستان عورتن جي ڪرڪيٽ دستي جو اعلان"
+  },
+  {
+   "t": "10-27 10:13",
+   "new": "پاڪستان وومين ايمرجنگ نشنز ٽرافي اسڪواڊ جو اعلان",
+   "old": "پاڪستان جي وومين سپر 3 ٽي ٽوئنٽي جو اعلان"
   }
  ],
  "tg_bot_id": 8610497682,
