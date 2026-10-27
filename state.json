@@ -1536,7 +1536,23 @@
   "e5863e270f653f5a": 1793057478.8336778,
   "cd71b14ada35ec90": 1793057478.8336785,
   "dbc8da6f48919367": 1793057478.8338947,
-  "606801848f133cf7": 1793060466.4966283
+  "606801848f133cf7": 1793060466.4966283,
+  "5b8d8318d6d23a1d": 1793062886.6011374,
+  "c91c6becb43323ad": 1793062886.6011403,
+  "8fd5ce2b301280c3": 1793062891.2323,
+  "d432117291ffb83e": 1793062891.2323017,
+  "376bc5939997c0c1": 1793062891.232303,
+  "085a83009e14a9b9": 1793062891.2323036,
+  "469e20709fbf83e6": 1793062891.2323043,
+  "1b7157958c1b06d5": 1793062891.2323058,
+  "68b2e6687cca518f": 1793062891.2323065,
+  "41c8b012d776ba22": 1793062891.232307,
+  "48f599f8266b96f3": 1793062891.2323077,
+  "bf4cae3fd02ddfb9": 1793062891.2325156,
+  "a4ca3ee17aaaabe2": 1793062908.286715,
+  "062ab13c63ebeb0b": 1793062908.286717,
+  "9cfcfefc6de3912d": 1793062908.2867177,
+  "1c1056ff730be11f": 1793062908.286947
  },
  "pending": {},
  "queue": [],
@@ -2114,7 +2130,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 05:55",
+  "time": "2026-10-27 06:01",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7405,9 +7421,9 @@
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 61,
-  "fail": 98,
-  "limit": 98
+  "ok": 67,
+  "fail": 110,
+  "limit": 110
  },
  "posted_heads": [
   {
@@ -7732,7 +7748,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 05:55",
+  "time": "2026-10-27 06:01",
   "steps": []
  },
  "roundup_am": "2026-10-26",
@@ -7835,12 +7851,12 @@
  },
  "article_diag": {
   "date": "2026-10-27",
-  "tried": 10,
-  "decoded": 10,
-  "text": 9,
-  "story": 7
+  "tried": 12,
+  "decoded": 12,
+  "text": 11,
+  "story": 9
  },
- "ai_last_error": "05:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "06:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7881,7 +7897,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7889,7 +7905,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7897,7 +7913,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7905,14 +7921,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7920,21 +7936,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8204,14 +8220,14 @@
   "pakistan": 6
  },
  "report_acc": {
-  "posted": 1,
-  "found": 25,
-  "old": 25,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-27 05",
+ "report_hour": "2026-10-27 06",
  "kawish_upload_times": {
   "_date": "2026-10-27",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8237,8 +8253,8 @@
   "date": "2026-10-27",
   "count": 1,
   "last": 1793060463.785879,
-  "city_i": 8,
-  "dry": 1793057467.701681
+  "city_i": 12,
+  "dry": 1793062874.692212
  },
  "gemini_day_dead": {
   "day": "2026-10-26",
@@ -9043,13 +9059,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-26 23:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-26 23:50",
    "ok": true,
    "n": 0,
@@ -9317,6 +9326,13 @@
   },
   {
    "t": "10-27 05:54",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 06:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13929,16 +13945,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-24 21:31",
-   "new": "ڪراچي ۾ منڪي پاڪس وگهي ٻارڙو فوت، انگ ٻارهن ٿي ويو",
-   "old": "سنڌ | سنڌ ۾ منکی پاکس جا وڌيڪ ڪيس"
-  },
-  {
-   "t": "10-25 03:41",
-   "new": "پيٽرول جي قيمتن ۾ واڌ جو امڪان",
-   "old": "پيٽرول اگهه برقرار، هاءِ اسپيڊڊيزل مهانگو"
-  },
-  {
    "t": "10-25 04:13",
    "new": "بابراعظم سريلانڪا خلاف ٽيسٽ سيريز جي قيادت ڪندو",
    "old": "شام جون سنڌ جون اهم خبرون"
@@ -14077,6 +14083,16 @@
    "t": "10-27 02:41",
    "new": "شاداب ۽ رئوف تاريخي رڪارڊ قائم ڪري ورتو",
    "old": "وزيراعظم شهباز شريف جي پاڪستاني ڪرڪيٽ ٽيم کي واڌايون"
+  },
+  {
+   "t": "10-27 06:01",
+   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ واڌ",
+   "old": "پيٽرول اگهن ۽ ٽئڪسن بابت نيون خبرون"
+  },
+  {
+   "t": "10-27 06:01",
+   "new": "سنڌ ۽ ملڪ ۾ ڪپهه جي پيداوار ۾ گهٽتائي",
+   "old": "پاڪستان ۾ ڪپهه جي پيداوار ۾ گهٽتائي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14095,5 +14111,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
