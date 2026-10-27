@@ -1541,7 +1541,9 @@
   "9c2212102b1237a5": 1793080879.079092,
   "0c1c284ff761b962": 1793080879.079095,
   "0e9492c97e03fe19": 1793080882.9357145,
-  "9b8fd2b83e98e225": 1793080882.9359014
+  "9b8fd2b83e98e225": 1793080882.9359014,
+  "17de1d31da635369": 1793081466.8955195,
+  "9069f5da74bbfa8b": 1793081466.8955228
  },
  "pending": {},
  "queue": [],
@@ -1612,7 +1614,7 @@
  "sindh_single": {
   "date": "2026-10-27",
   "count": 0,
-  "last": 1793072484.0076692,
+  "last": 1793081491.6288755,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2108,7 +2110,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 11:02",
+  "time": "2026-10-27 11:11",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7415,9 +7417,9 @@
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 144,
-  "fail": 236,
-  "limit": 236
+  "ok": 147,
+  "fail": 242,
+  "limit": 242
  },
  "posted_heads": [
   {
@@ -7742,7 +7744,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 11:02",
+  "time": "2026-10-27 11:11",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7850,7 +7852,7 @@
   "text": 20,
   "story": 17
  },
- "ai_last_error": "11:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "11:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7891,7 +7893,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 69,
+   "ok": 70,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7899,7 +7901,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 67,
+   "ok": 68,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7907,7 +7909,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 68,
+   "ok": 69,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7915,14 +7917,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7930,21 +7932,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8215,8 +8217,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8246,8 +8248,8 @@
  "sindh_stream": {
   "date": "2026-10-27",
   "count": 4,
-  "last": 1793080259.5826385,
-  "city_i": 14,
+  "last": 1793081464.8499076,
+  "city_i": 18,
   "dry": 1793079662.6670218
  },
  "gemini_day_dead": {
@@ -9071,13 +9073,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-27 04:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-27 05:00",
    "ok": true,
    "n": 0,
@@ -9345,6 +9340,13 @@
   },
   {
    "t": "10-27 11:02",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 11:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13986,11 +13988,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-25 05:42",
-   "new": "پاڪستان اسٽاڪ مارڪيٽ ۾ شديد مندي",
-   "old": "مشرق وسطیٰ جنگ سبب اسٽاڪ ايڪسچينج ۾ موٽڙي گهٽتائي"
-  },
-  {
    "t": "10-25 10:11",
    "new": "ڏهنڪو ٻڌڻ تي ڪڻڪ جا اگهه روڪڻ جو حڪم",
    "old": "ڪڻڪ جا اگھ وڌڻ تي واڌارو، هنگامي قدم کڻڻ جو حڪم"
@@ -14134,6 +14131,11 @@
    "t": "10-27 10:13",
    "new": "پاڪستان وومين ايمرجنگ نشنز ٽرافي اسڪواڊ جو اعلان",
    "old": "پاڪستان جي وومين سپر 3 ٽي ٽوئنٽي جو اعلان"
+  },
+  {
+   "t": "10-27 11:11",
+   "new": "پيٽروليم ليوي ۾ گهٽتائي لاءِ حڪومت ۽ جماعت اسلامي ۾ اتفاق",
+   "old": "عوام کي رليف نه مليو ته فيصلا روڊن تي ٿيندا: حافظ نعيم"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14152,5 +14154,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
