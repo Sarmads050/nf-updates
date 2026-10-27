@@ -1521,7 +1521,8 @@
   "9fa1f651fc33084d": 1793113334.0345237,
   "394d4ab56fcbfb94": 1793113334.0345254,
   "086edd5b2cf8c0fb": 1793114492.1672475,
-  "31695790b132d47b": 1793114492.1672502
+  "31695790b132d47b": 1793114492.1672502,
+  "87b30565159a1c71": 1793115074.5551507
  },
  "pending": {},
  "queue": [],
@@ -2088,7 +2089,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 20:21",
+  "time": "2026-10-27 20:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7746,7 +7747,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 20:21",
+  "time": "2026-10-27 20:31",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7895,7 +7896,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 125,
+   "ok": 126,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7903,7 +7904,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 121,
+   "ok": 122,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -7911,7 +7912,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 122,
+   "ok": 123,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -7919,14 +7920,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7934,21 +7935,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8207,8 +8208,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 6,
-  "old": 6,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9018,13 +9019,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-27 14:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-27 14:10",
    "ok": true,
    "n": 0,
@@ -9292,6 +9286,13 @@
   },
   {
    "t": "10-27 20:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 20:30",
    "ok": true,
    "n": 0,
    "ids": [],
