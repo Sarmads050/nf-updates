@@ -1536,7 +1536,8 @@
   "463645bce5da96ac": 1793057478.8336766,
   "e5863e270f653f5a": 1793057478.8336778,
   "cd71b14ada35ec90": 1793057478.8336785,
-  "dbc8da6f48919367": 1793057478.8338947
+  "dbc8da6f48919367": 1793057478.8338947,
+  "606801848f133cf7": 1793060466.4966283
  },
  "pending": {},
  "queue": [],
@@ -1632,17 +1633,8 @@
    "0bbef6bc52a1b667"
   ]
  },
- "last_post_id": "1444130002106066_122114142087503839",
+ "last_post_id": "1444130002106066_122114154813503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122113865865503839",
-   "title": "ڇاتي جي ڪينسر بابت آگاهي مهم تحت پاڪستاني ڪرڪيٽ ٽيم انگلينڊ خلاف اڄ واري ميچ ۾ گلابي جرزي",
-   "t": 1793000245.1331837,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122113865865503839"
-  },
   {
    "id": "1444130002106066_122113874055503839",
    "title": "ٿر ۾ ڏڪار سبب صورتحال سنگين، تر جا ماڻهو سخت پريشان",
@@ -1966,6 +1958,18 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122114142087503839"
+  },
+  {
+   "id": "1444130002106066_122114154813503839",
+   "title": "نوابشاهه ۾ 27 آڪٽوبر تي ڪشمير ڪارو ڏينهن ريلي ڪڍندس",
+   "t": 1793060644.9020581,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122114154813503839"
   }
  ],
  "share_sent": {
@@ -2111,7 +2115,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 05:10",
+  "time": "2026-10-27 05:24",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2126,17 +2130,11 @@
  },
  "all_posts": {
   "date": "2026-10-27",
-  "count": 6,
-  "last": 1793057513.3030858
+  "count": 7,
+  "last": 1793060640.6253858
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122110282461503839",
-    "sec": "cricket_news",
-    "cat": "cricket_news",
-    "t": 1792339670
-   },
    {
     "id": "1444130002106066_122110288815503839",
     "sec": "agri_news",
@@ -4530,6 +4528,12 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1793057519
+   },
+   {
+    "id": "1444130002106066_122114154813503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1793060644
    }
   ]
  },
@@ -7418,15 +7422,11 @@
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 53,
-  "fail": 86,
-  "limit": 86
+  "ok": 60,
+  "fail": 96,
+  "limit": 96
  },
  "posted_heads": [
-  {
-   "h": "Cost-of-living crisis",
-   "t": 1792908107
-  },
   {
    "h": "Kissan Ittehad demands agricultural emergency, transparent wheat procurement",
    "t": 1792909327
@@ -7742,10 +7742,14 @@
   {
    "h": "Sindh pins hopes on oilseeds",
    "t": 1793057519
+  },
+  {
+   "h": "Nawabshah To Host Kashmir Black Day Rally On October 27 - UrduPoint",
+   "t": 1793060645
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 05:10",
+  "time": "2026-10-27 05:24",
   "steps": []
  },
  "roundup_am": "2026-10-26",
@@ -7848,12 +7852,12 @@
  },
  "article_diag": {
   "date": "2026-10-27",
-  "tried": 9,
-  "decoded": 9,
-  "text": 8,
+  "tried": 10,
+  "decoded": 10,
+  "text": 9,
   "story": 7
  },
- "ai_last_error": "04:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "05:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7867,13 +7871,13 @@
  },
  "img_diag": {
   "date": "2026-10-27",
-  "tried": 6,
+  "tried": 7,
   "gemini": 0,
   "pollinations": 5,
   "skip": 0,
-  "fail": 0,
-  "last_note": "traffic license card",
-  "mismatch": 192
+  "fail": 1,
+  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
+  "mismatch": 194
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -7894,7 +7898,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7902,7 +7906,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7910,7 +7914,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7918,14 +7922,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7933,21 +7937,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8213,13 +8217,13 @@
  "region_posts": {
   "date": "2026-10-27",
   "district": 0,
-  "sindh": 0,
+  "sindh": 1,
   "pakistan": 6
  },
  "report_acc": {
-  "posted": 0,
-  "found": 5,
-  "old": 5,
+  "posted": 1,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8248,9 +8252,9 @@
  },
  "sindh_stream": {
   "date": "2026-10-27",
-  "count": 0,
-  "last": 1793028062.814789,
-  "city_i": 4,
+  "count": 1,
+  "last": 1793060463.785879,
+  "city_i": 8,
   "dry": 1793057467.701681
  },
  "gemini_day_dead": {
@@ -9034,6 +9038,14 @@
    "t": 1793057519,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "f64654894b4e74d4",
+   "h": "نوابشاهه ۾ 27 آڪٽوبر تي ڪشمير ڪارو ڏينهن ريلي ڪڍندس",
+   "x": "نوابشاهه شهر ۾ 27 آڪٽوبر تي ڪشمير ڪارو ڏينهن ملهائڻ جي حوالي سان هڪ اهم ريلي ڪڍڻ جو اعلان ڪيو ويو آهي. ضلعي انتظاميا ۽ مقامي اختيارين جي سهڪار سان هيءَ ريلي نوابشاهه ۾ منعقد ڪئي ويندي. ريلي جو مقصد هندستان جي غير قانوني قبضي خلاف ۽ ڪشميرين جي حق خودارادت جي حمایت ۾ آواز بلند ڪرڻ آهي. هن تقريب ۽ ريلي ۾ شهرين، سماجي اڳوانن ۽ مختلف شعبن سان تعلق رکող ماڻهن جي وڏ تعداد ۾ شرڪت جو امڪان آهي. انتظاميا طرفان ريلي جي حوالي سان سموريون تياريون مڪمل ڪيون پيون وڃن!",
+   "t": 1793060644,
+   "s": false,
+   "r": 8
   }
  ],
  "reels": {
@@ -9047,13 +9059,6 @@
   "last": 1793027512.7362087
  },
  "tg_debug": [
-  {
-   "t": "10-26 22:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-26 23:00",
    "ok": true,
@@ -9322,6 +9327,13 @@
   },
   {
    "t": "10-27 05:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 05:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13878,6 +13890,57 @@
     "پوڪڻ",
     "ڏئي",
     "ڏيڻ"
+   ]
+  },
+  {
+   "t": 1793060644,
+   "h": "نوابشاهه ۾ 27 آڪٽوبر تي ڪشمير ڪارو ڏينهن ريلي ڪڍندس",
+   "b": "نوابشاهه شهر ۾ 27 آڪٽوبر تي ڪشمير ڪارو ڏينهن ملهائڻ جي حوالي سان هڪ اهم ريلي ڪڍڻ جو اعلان ڪيو ويو آهي. ضلعي",
+   "tt": [
+    "#27",
+    "اڪٽوبر",
+    "ريلي",
+    "نوابشاهه",
+    "ڏينهن",
+    "ڪارو",
+    "ڪشمير",
+    "ڪڍندس"
+   ],
+   "bt": [
+    "#27",
+    "اختيارين",
+    "اعلان",
+    "انتظاميا",
+    "اهم",
+    "اهي",
+    "اواز",
+    "اڪٽوبر",
+    "بلند",
+    "حمايت",
+    "حوالي",
+    "خلاف",
+    "خودارادت",
+    "ريلي",
+    "سهڪار",
+    "شهر",
+    "ضلعي",
+    "غير",
+    "قانوني",
+    "قبضي",
+    "مقامي",
+    "مقصد",
+    "ملهائڻ",
+    "منعقد",
+    "نوابشاهه",
+    "هندستان",
+    "هيء",
+    "ڏينهن",
+    "ڪارو",
+    "ڪرڻ",
+    "ڪشمير",
+    "ڪشميرين",
+    "ڪڍندس",
+    "ڪڍڻ"
    ]
   }
  ],
