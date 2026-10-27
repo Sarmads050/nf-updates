@@ -61,6 +61,8 @@ def load_line(i, who):
     f = f"{VO}/{i + 1:02d}.mp3"
     pitch = art.CHARS[who].get("toddler")
     af = "asetrate=24000*1.22,aresample=44100,atempo=0.86," if pitch else ""
+    if EP.get("tempo", 1.0) != 1.0:  # optional per-episode speed-up (e.g. slower fallback voices)
+        af += f"atempo={float(EP['tempo']):.3f},"
     raw = f"{WORK}/l{i}.raw"
     sh(f'ffmpeg -v error -y -i "{f}" -af "{af}aresample={SR}" -ac 1 -f s16le "{raw}"')
     x = np.fromfile(raw, "<i2").astype(np.float32) / 32768

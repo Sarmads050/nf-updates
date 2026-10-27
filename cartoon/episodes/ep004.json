@@ -89,19 +89,6 @@
      }
     },
     {
-     "who": "ARSALAN",
-     "to": "MEHAK",
-     "emo": "sheepish",
-     "shot": "two:MEHAK",
-     "how": "whispering, waving her away, eyes on phone",
-     "roman": "Shhh Mehak! Sirf *ek over* aur, phir parhai *pakki*!",
-     "urdu": "شش مہک! صرف ایک اوور اور، پھر پڑھائی پکی!",
-     "pose": "plead",
-     "react": {
-      "MEHAK": "confused"
-     }
-    },
-    {
      "who": "ABBA",
      "to": "ARSALAN",
      "emo": "angry",
@@ -245,7 +232,16 @@
      "how": "bored, frustrated sigh",
      "roman": "Formula yaad hi nahi ho raha... *kitab* yahan hai, *dimagh* stadium mein hai!",
      "urdu": "فارمولا یاد ہی نہیں ہو رہا... کتاب یہاں ہے، دماغ اسٹیڈیم میں ہے!",
-     "pose": "head_hold"
+     "pose": [
+      [
+       0,
+       "read"
+      ],
+      [
+       0.65,
+       "scratch_head"
+      ]
+     ]
     },
     {
      "who": "AMMI",
@@ -275,19 +271,6 @@
      ],
      "react": {
       "ARSALAN": "happy"
-     }
-    },
-    {
-     "who": "ARSALAN",
-     "to": "AMMI",
-     "emo": "sheepish",
-     "shot": "two:AMMI",
-     "how": "polite but cheeky, sad about the match",
-     "roman": "Shukriya Ammi! Badam to kha lunga, magar *score* kaun batayega?",
-     "urdu": "شکریہ امی! بادام تو کھا لوں گا، مگر اسکور کون بتائے گا؟",
-     "pose": "shrug",
-     "react": {
-      "AMMI": "angry"
      }
     },
     {
@@ -326,27 +309,6 @@
      }
     },
     {
-     "who": "MEHAK",
-     "to": "AMMI",
-     "emo": "surprised",
-     "shot": "auto",
-     "how": "running in with breaking news, giggling",
-     "roman": "Ammi! Abba Arsalan Bhai ke *phone* par match dekh rahe hain, aur unki *chai* bhi thandi ho gayi!",
-     "urdu": "امی! ابا ارسلان بھائی کے فون پر میچ دیکھ رہے ہیں، اور ان کی چائے بھی ٹھنڈی ہو گئی!",
-     "pose": "thumb_back",
-     "before": [
-      {
-       "do": "enter",
-       "who": "MEHAK",
-       "slot": "stand_r"
-      }
-     ],
-     "react": {
-      "AMMI": "angry",
-      "ARSALAN": "surprised"
-     }
-    },
-    {
      "who": "ARSALAN",
      "to": "front",
      "emo": "teasing",
@@ -354,7 +316,7 @@
      "how": "comic outrage, deadpan to camera",
      "roman": "Waah! Mujhe *chemistry*, aur Abba ko *chakke*!",
      "urdu": "واہ! مجھے کیمسٹری، اور ابا کو چھکے!",
-     "pose": "arms_up",
+     "pose": "shrug",
      "joke": true,
      "gap": 0.7,
      "react": {
@@ -406,6 +368,11 @@
        "slot": "sofa_l"
       },
       {
+       "do": "prop",
+       "who": "ARSALAN",
+       "prop": null
+      },
+      {
        "do": "enter",
        "who": "MEHAK",
        "slot": "sofa_r"
@@ -447,19 +414,6 @@
      "react": {
       "*": "laugh",
       "ABBA": "sheepish"
-     }
-    },
-    {
-     "who": "ABBA",
-     "to": "AMMI",
-     "emo": "laugh",
-     "shot": "auto",
-     "how": "laughing, giving up, warm",
-     "roman": "Achha baba, *maan gaya*. Match cheez hi aisi hai, *dil kheench* leti hai.",
-     "urdu": "اچھا بابا، مان گیا۔ میچ چیز ہی ایسی ہے، دل کھینچ لیتی ہے۔",
-     "pose": "shrug",
-     "react": {
-      "AMMI": "happy"
      }
     },
     {
@@ -591,12 +545,10 @@
      "gap": 1.0,
      "react": {
       "*": "laugh"
-     },
-     "sfx": [
-      "sting"
-     ]
+     }
     }
    ]
   }
- ]
+ ],
+ "tempo": 1.1
 }
