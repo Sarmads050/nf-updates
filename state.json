@@ -1542,7 +1542,8 @@
   "1dcd610dd3073626": 1793071266.108748,
   "38e21526fe872db6": 1793073067.5176919,
   "130406711b97b85c": 1793073675.588918,
-  "43d8be0e4441c272": 1793073675.589119
+  "43d8be0e4441c272": 1793073675.589119,
+  "5d249de92a060d25": 1793074269.2722614
  },
  "pending": {},
  "queue": [],
@@ -1638,20 +1639,8 @@
    "0bbef6bc52a1b667"
   ]
  },
- "last_post_id": "1444130002106066_122114209875503839",
+ "last_post_id": "1444130002106066_122114212359503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122113907367503839",
-   "title": "بگ بيش ليگ: حارث رئوف جو ايڊيليڊ اسٽرائڪرز سان معاهدو",
-   "t": 1793008905.6078854,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122113907367503839"
-  },
   {
    "id": "1444130002106066_122113912665503839",
    "title": "نوان جتوئي: شاديءَ جي تقريب دوران قتل ڪيس ۾ ٻه جوابدار گرفتار",
@@ -1967,6 +1956,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122114209875503839"
+  },
+  {
+   "id": "1444130002106066_122114212359503839",
+   "title": "آءِ سي سي وومينز ايمرجنگ نشنز لاءِ پاڪستاني دستي جو اعلان ڪيو ويو آهي",
+   "t": 1793074376.8990057,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122114212359503839"
   }
  ],
  "share_sent": {
@@ -2097,8 +2095,8 @@
  },
  "cricket_news": {
   "date": "2026-10-27",
-  "count": 3,
-  "last": 1793071385.994287
+  "count": 4,
+  "last": 1793074376.8989923
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -2112,7 +2110,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 09:01",
+  "time": "2026-10-27 09:12",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2127,17 +2125,11 @@
  },
  "all_posts": {
   "date": "2026-10-27",
-  "count": 14,
-  "last": 1793073693.8175406
+  "count": 15,
+  "last": 1793074371.5787275
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122110593561503839",
-    "sec": "public_news",
-    "cat": "inflation",
-    "t": 1792395144
-   },
    {
     "id": "1444130002106066_122110606605503839",
     "sec": "sindh_stream",
@@ -4531,6 +4523,12 @@
     "sec": "public_news",
     "cat": "transport_trade",
     "t": 1793073699
+   },
+   {
+    "id": "1444130002106066_122114212359503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1793074376
    }
   ]
  },
@@ -7419,15 +7417,11 @@
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 109,
-  "fail": 178,
-  "limit": 178
+  "ok": 114,
+  "fail": 184,
+  "limit": 184
  },
  "posted_heads": [
-  {
-   "h": "Pakistan Water Week 2026 To Focus On Water Security And Climate-resilient Food Systems",
-   "t": 1792918936
-  },
   {
    "h": "خيرپور: جوائننگ ڊيٽابيس ۽ استادن جي پگهارن بابت سوشل ميڊيا تي الزامن جي ترديد",
    "t": 1792921090
@@ -7743,10 +7737,14 @@
   {
    "h": "Regional trade deficit widens sharply",
    "t": 1793073699
+  },
+  {
+   "h": "Pakistan squad announced for ICC Women's Emerging Nations Trophy",
+   "t": 1793074377
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 09:01",
+  "time": "2026-10-27 09:12",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7849,12 +7847,12 @@
  },
  "article_diag": {
   "date": "2026-10-27",
-  "tried": 18,
-  "decoded": 18,
+  "tried": 19,
+  "decoded": 19,
   "text": 16,
   "story": 14
  },
- "ai_last_error": "09:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "09:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7868,13 +7866,13 @@
  },
  "img_diag": {
   "date": "2026-10-27",
-  "tried": 13,
+  "tried": 14,
   "gemini": 0,
-  "pollinations": 10,
+  "pollinations": 11,
   "skip": 0,
   "fail": 3,
-  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
-  "mismatch": 197
+  "last_note": "cricket bat and ball",
+  "mismatch": 198
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -7895,7 +7893,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7903,7 +7901,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 56,
+   "ok": 57,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7911,7 +7909,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 56,
+   "ok": 57,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7919,14 +7917,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7934,21 +7932,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8215,12 +8213,12 @@
   "date": "2026-10-27",
   "district": 0,
   "sindh": 2,
-  "pakistan": 11
+  "pakistan": 12
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8251,8 +8249,8 @@
   "date": "2026-10-27",
   "count": 1,
   "last": 1793060463.785879,
-  "city_i": 4,
-  "dry": 1793073670.3320293
+  "city_i": 8,
+  "dry": 1793074259.4674659
  },
  "gemini_day_dead": {
   "day": "2026-10-26",
@@ -9059,6 +9057,14 @@
    "t": 1793073699,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "8cd2c934ea08d08f",
+   "h": "پاڪستان عورتن جي ڪرڪيٽ دستي جو اعلان",
+   "x": "آءِ سي سي وومينز ايمرجنگ نشنز لاءِ پاڪستاني دستي جو اعلان ڪيو ويو آهي!",
+   "t": 1793074376,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9072,13 +9078,6 @@
   "last": 1793027512.7362087
  },
  "tg_debug": [
-  {
-   "t": "10-27 02:47",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-27 02:50",
    "ok": true,
@@ -9347,6 +9346,13 @@
   },
   {
    "t": "10-27 09:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 09:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14028,6 +14034,30 @@
     "ڊالر",
     "گذريل",
     "گھاٽو"
+   ]
+  },
+  {
+   "t": 1793074376,
+   "h": "پاڪستان عورتن جي ڪرڪيٽ دستي جو اعلان",
+   "b": "آءِ سي سي وومينز ايمرجنگ نشنز لاءِ پاڪستاني دستي جو اعلان ڪيو ويو آهي!",
+   "tt": [
+    "اعلان",
+    "دستي",
+    "عورتن",
+    "پاڪستان",
+    "ڪرڪيٽ"
+   ],
+   "bt": [
+    "اعلان",
+    "اهي",
+    "ايمرجنگ",
+    "دستي",
+    "عورتن",
+    "نشنز",
+    "وومينز",
+    "پاڪستان",
+    "پاڪستاني",
+    "ڪرڪيٽ"
    ]
   }
  ],
