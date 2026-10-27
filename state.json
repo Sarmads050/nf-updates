@@ -1,6 +1,5 @@
 {
  "seen": {
-  "50c2875f1207b574": 1792509061.3457153,
   "33544be506e8f07f": 1792512084.8633022,
   "1ffe6cdf7909b850": 1792517464.925856,
   "86cf542c06988062": 1792517464.9273016,
@@ -1520,7 +1519,9 @@
   "6c1650e6266bd6e8": 1793113334.0345204,
   "ed12fb2572c9dfff": 1793113334.0345223,
   "9fa1f651fc33084d": 1793113334.0345237,
-  "394d4ab56fcbfb94": 1793113334.0345254
+  "394d4ab56fcbfb94": 1793113334.0345254,
+  "086edd5b2cf8c0fb": 1793114492.1672475,
+  "31695790b132d47b": 1793114492.1672502
  },
  "pending": {},
  "queue": [],
@@ -1538,7 +1539,7 @@
   "last_week": "",
   "last_check": "2026-10-27"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2087,7 +2088,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 20:11",
+  "time": "2026-10-27 20:21",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7418,9 +7419,9 @@
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 261,
-  "fail": 367,
-  "limit": 374
+  "ok": 262,
+  "fail": 369,
+  "limit": 376
  },
  "posted_heads": [
   {
@@ -7745,7 +7746,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 20:11",
+  "time": "2026-10-27 20:21",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7853,7 +7854,7 @@
   "text": 22,
   "story": 18
  },
- "ai_last_error": "20:02 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "20:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7894,7 +7895,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 124,
+   "ok": 125,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7902,7 +7903,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 120,
+   "ok": 121,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -7910,7 +7911,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 121,
+   "ok": 122,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -7918,14 +7919,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7933,21 +7934,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8206,8 +8207,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8237,9 +8238,9 @@
  "sindh_stream": {
   "date": "2026-10-27",
   "count": 13,
-  "last": 1793113280.4281914,
-  "city_i": 10,
-  "dry": 1793109679.9552858
+  "last": 1793114473.935904,
+  "city_i": 14,
+  "dry": 1793114492.1672537
  },
  "gemini_day_dead": {
   "day": "2026-10-27",
@@ -9017,13 +9018,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-27 13:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-27 14:00",
    "ok": true,
    "n": 0,
@@ -9291,6 +9285,13 @@
   },
   {
    "t": "10-27 20:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 20:20",
    "ok": true,
    "n": 0,
    "ids": [],
