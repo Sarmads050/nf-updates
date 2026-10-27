@@ -1542,7 +1542,10 @@
   "b703e61bca5be781": 1793122301.7597404,
   "c0c4f7c8017aae57": 1793123495.0466719,
   "2bb9c888e02533ca": 1793125278.8834453,
-  "65e454da6bf56b84": 1793125278.883448
+  "65e454da6bf56b84": 1793125278.883448,
+  "210d58b6dfa9b9d5": 1793127073.274996,
+  "5f8aea44a5b42899": 1793127073.2749982,
+  "43759ff3076a81cc": 1793127073.2750006
  },
  "pending": {},
  "queue": [],
@@ -2122,7 +2125,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-27 23:41",
+  "time": "2026-10-27 23:51",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7461,9 +7464,9 @@
  },
  "ai_usage": {
   "date": "2026-10-27",
-  "ok": 296,
-  "fail": 425,
-  "limit": 432
+  "ok": 299,
+  "fail": 431,
+  "limit": 438
  },
  "posted_heads": [
   {
@@ -7788,7 +7791,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-27 23:41",
+  "time": "2026-10-27 23:51",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7891,12 +7894,12 @@
  },
  "article_diag": {
   "date": "2026-10-27",
-  "tried": 32,
-  "decoded": 31,
-  "text": 26,
-  "story": 21
+  "tried": 33,
+  "decoded": 32,
+  "text": 27,
+  "story": 22
  },
- "ai_last_error": "23:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "23:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-27",
   "models": [
@@ -7937,7 +7940,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-27",
-   "ok": 146,
+   "ok": 147,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7945,7 +7948,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-27",
-   "ok": 142,
+   "ok": 143,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -7953,7 +7956,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-27",
-   "ok": 143,
+   "ok": 144,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -7961,14 +7964,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 148,
+   "ok": 149,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 148,
+   "ok": 149,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7976,21 +7979,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-27",
-   "ok": 148,
+   "ok": 149,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-27",
-   "ok": 148,
+   "ok": 149,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-27",
-   "ok": 148,
+   "ok": 149,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8249,8 +8252,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 20,
-  "old": 20,
+  "found": 25,
+  "old": 25,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8280,8 +8283,8 @@
  "sindh_stream": {
   "date": "2026-10-27",
   "count": 18,
-  "last": 1793125271.4048293,
-  "city_i": 24,
+  "last": 1793127068.6219563,
+  "city_i": 6,
   "dry": 1793122301.7597423
  },
  "gemini_day_dead": {
@@ -9061,13 +9064,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-27 17:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-27 17:30",
    "ok": true,
    "n": 0,
@@ -9335,6 +9331,13 @@
   },
   {
    "t": "10-27 23:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-27 23:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13673,11 +13676,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-26 00:01",
-   "new": "شاداب خان جي شاندار سينچري",
-   "old": "پاڪستان جو انگلينڊ خلاف شاندار سوڀ"
-  },
-  {
    "t": "10-26 00:51",
    "new": "ٽنڊي آدم ڀرسان خوفناڪ حادثو، زալ مڙس ۽ پٽ سميت 5 ڄڻا فوت",
    "old": "سانگهڙ ۾ ڪار ۽ ڪاچ جي ٽڪر ۾ 5 ڄڻا فوت، 3 زخمي"
@@ -13821,6 +13819,11 @@
    "t": "10-27 22:21",
    "new": "ڪنڊيارو ۾ صفائي جي صورتحال ۽ ٽائون ڪميٽي جي ڪارڪردگي بابت خبر سامهون آ",
    "old": "ڪنڊيارو ۾ صفائي جي مسئلن ۽ ٽائون ڪميٽيءَ جي ڪارڪردگي بابت خبر سامهون آ"
+  },
+  {
+   "t": "10-27 23:51",
+   "new": "ڪنڊيارو ۾ صفائي جا مسئلا، ٽائون ڪميٽي جي ڪارڪردگي سواليه نشان",
+   "old": "ڪنڊيارو ۾ صفائي جي مسئلن ۽ ٽائون ڪميٽيءَ جي ڪارڪردگي بابت خبر سامهون آ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13839,5 +13842,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
