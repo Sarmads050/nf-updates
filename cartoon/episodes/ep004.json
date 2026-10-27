@@ -1,0 +1,602 @@
+{
+ "id": "ep004",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 4,
+ "title": "Match Ya Test?",
+ "topic": "Cricket match vs exam test",
+ "music": "comic",
+ "lesson": "Shauq bhi, parhai bhi,<br>bas waqt ki pabandi!",
+ "caption": "Ghar mein match bhi hai aur kal test bhi! 🏏📚 Aap ke ghar mein phone kis ke paas jaata hai? Comment karein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#PakistaniFamily",
+  "#CricketFever",
+  "#MatchYaTest",
+  "#UrduCartoon"
+ ],
+ "scenes": [
+  {
+   "set": "living_room",
+   "time": "evening",
+   "label": "Drawing Room • Shaam",
+   "cast": {
+    "ARSALAN": "sofa_l"
+   },
+   "props": {
+    "ARSALAN": "phone"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "shot": "wide",
+     "how": "warm storyteller, playful, slow and clear",
+     "roman": "Aaj shaam is ghar mein do cheezein hain... phone par *Pakistan ka match*, aur kal Arsalan ka *chemistry test*!",
+     "urdu": "آج شام اس گھر میں دو چیزیں ہیں... فون پر پاکستان کا میچ، اور کل ارسلان کا کیمسٹری ٹیسٹ!",
+     "gap": 0.4
+    },
+    {
+     "who": "ARSALAN",
+     "to": "phone",
+     "emo": "happy",
+     "shot": "close",
+     "how": "excited teen cheering at his phone, fist pump",
+     "roman": "Chalo *Pakistan*! Bas ek achi *partnership* chahiye!",
+     "urdu": "چلو پاکستان! بس ایک اچھی پارٹنرشپ چاہیے!",
+     "pose": [
+      [
+       0,
+       "phone_look"
+      ],
+      [
+       0.6,
+       "fist"
+      ]
+     ],
+     "sfx": [
+      "bat_hit"
+     ]
+    },
+    {
+     "who": "MEHAK",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "shot": "auto",
+     "how": "smart little sister, bossy and teasing",
+     "roman": "Arsalan Bhai, kal aap ka *test* hai. Ammi ne kaha hai *kitab kholo*!",
+     "urdu": "ارسلان بھائی، کل آپ کا ٹیسٹ ہے۔ امی نے کہا ہے کتاب کھولو!",
+     "pose": "wag",
+     "before": [
+      {
+       "do": "enter",
+       "who": "MEHAK",
+       "slot": "stand_l"
+      },
+      {
+       "do": "prop",
+       "who": "MEHAK",
+       "prop": "book"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.3
+      }
+     ],
+     "react": {
+      "ARSALAN": "sheepish"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "MEHAK",
+     "emo": "sheepish",
+     "shot": "two:MEHAK",
+     "how": "whispering, waving her away, eyes on phone",
+     "roman": "Shhh Mehak! Sirf *ek over* aur, phir parhai *pakki*!",
+     "urdu": "شش مہک! صرف ایک اوور اور، پھر پڑھائی پکی!",
+     "pose": "plead",
+     "react": {
+      "MEHAK": "confused"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "angry",
+     "shot": "auto",
+     "how": "strict father, surprised and stern",
+     "roman": "Arsalan! Kal *test* hai, aur tum phone par *match* dekh rahe ho?",
+     "urdu": "ارسلان! کل ٹیسٹ ہے، اور تم فون پر میچ دیکھ رہے ہو؟",
+     "pose": "hands_hips",
+     "before": [
+      {
+       "do": "enter",
+       "who": "ABBA",
+       "slot": "stand_r"
+      },
+      {
+       "do": "prop",
+       "who": "ABBA",
+       "prop": "newspaper"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.3
+      }
+     ],
+     "react": {
+      "ARSALAN": "surprised",
+      "MEHAK": "teasing"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "proud",
+     "shot": "auto",
+     "how": "dramatic, proud, trying to win the argument",
+     "roman": "Abba, Pakistan ka match hai! Yeh to *qaumi zimmedari* hai!",
+     "urdu": "ابا، پاکستان کا میچ ہے! یہ تو قومی ذمہ داری ہے!",
+     "pose": "chest",
+     "react": {
+      "ABBA": "confused"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "neutral",
+     "shot": "two:ARSALAN",
+     "how": "lecturing old-school father",
+     "roman": "Humare zamane mein hum pehle *parhai* karte thay, phir *radio* par score sunte thay!",
+     "urdu": "ہمارے زمانے میں ہم پہلے پڑھائی کرتے تھے، پھر ریڈیو پر اسکور سنتے تھے!",
+     "pose": "wag",
+     "react": {
+      "ARSALAN": "tired"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ABBA",
+     "emo": "teasing",
+     "shot": "punch",
+     "how": "cheeky, giggling, telling on her brother",
+     "roman": "Abba, Arsalan Bhai ka *ek over* poore *teen ghante* ka hota hai!",
+     "urdu": "ابا، ارسلان بھائی کا ایک اوور پورے تین گھنٹے کا ہوتا ہے!",
+     "pose": "point_other",
+     "joke": true,
+     "gap": 0.7,
+     "react": {
+      "*": "laugh",
+      "ARSALAN": "sheepish"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "angry",
+     "shot": "auto",
+     "how": "firm, holding out his hand",
+     "roman": "*Phone* mujhe do, aur seedha apne *kamre* mein jao!",
+     "urdu": "فون مجھے دو، اور سیدھا اپنے کمرے میں جاؤ!",
+     "pose": "point_other",
+     "react": {
+      "ARSALAN": "sad"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "sad",
+     "shot": "auto",
+     "how": "heartbroken, over-dramatic farewell",
+     "roman": "Yeh lijiye Abba... *alvida*, mera pyara *match*!",
+     "urdu": "یہ لیجیے ابا... الوداع، میرا پیارا میچ!",
+     "pose": "give",
+     "before": [
+      {
+       "do": "approach",
+       "who": "ABBA",
+       "to": "ARSALAN"
+      }
+     ],
+     "give": {
+      "to": "ABBA",
+      "prop": "phone",
+      "at": 0.4
+     },
+     "react": {
+      "MEHAK": "laugh",
+      "ABBA": "neutral"
+     },
+     "gap": 0.5
+    }
+   ]
+  },
+  {
+   "set": "bedroom",
+   "time": "night",
+   "label": "Arsalan Ka Kamra • Raat",
+   "cast": {
+    "ARSALAN": "desk"
+   },
+   "props": {
+    "ARSALAN": "book"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "shot": "wide",
+     "how": "storyteller bridge, light and playful",
+     "roman": "*Aadhe ghante* baad... Arsalan ke *kamre* mein.",
+     "urdu": "آدھے گھنٹے بعد... ارسلان کے کمرے میں۔",
+     "gap": 0.3
+    },
+    {
+     "who": "ARSALAN",
+     "to": "book",
+     "emo": "tired",
+     "shot": "close",
+     "how": "bored, frustrated sigh",
+     "roman": "Formula yaad hi nahi ho raha... *kitab* yahan hai, *dimagh* stadium mein hai!",
+     "urdu": "فارمولا یاد ہی نہیں ہو رہا... کتاب یہاں ہے، دماغ اسٹیڈیم میں ہے!",
+     "pose": "head_hold"
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "warm",
+     "shot": "auto",
+     "how": "loving mother sharing her totka, proud",
+     "roman": "Arsalan, yeh *badam* khao! Raat ko bhigoye thay, *dimagh tez* ho jayega.",
+     "urdu": "ارسلان، یہ بادام کھاؤ! رات کو بھگوئے تھے، دماغ تیز ہو جائے گا۔",
+     "pose": "hold",
+     "before": [
+      {
+       "do": "enter",
+       "who": "AMMI",
+       "slot": "stand_r"
+      },
+      {
+       "do": "prop",
+       "who": "AMMI",
+       "prop": "tray"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.3
+      }
+     ],
+     "react": {
+      "ARSALAN": "happy"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "shot": "two:AMMI",
+     "how": "polite but cheeky, sad about the match",
+     "roman": "Shukriya Ammi! Badam to kha lunga, magar *score* kaun batayega?",
+     "urdu": "شکریہ امی! بادام تو کھا لوں گا، مگر اسکور کون بتائے گا؟",
+     "pose": "shrug",
+     "react": {
+      "AMMI": "angry"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "door",
+     "emo": "happy",
+     "shot": "auto",
+     "how": "loud excited shout from the next room, cheering",
+     "roman": "Waah! *Chakka*! Kya shot mara hai!",
+     "urdu": "واہ! چھکا! کیا شاٹ مارا ہے!",
+     "offscreen": true,
+     "sfx": [
+      "bat_hit"
+     ],
+     "looks": {
+      "ARSALAN": "door",
+      "AMMI": "door"
+     },
+     "react": {
+      "ARSALAN": "surprised",
+      "AMMI": "surprised"
+     },
+     "gap": 0.4
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "surprised",
+     "shot": "auto",
+     "how": "shocked, eyebrows up",
+     "roman": "Yeh... yeh to *Arsalan ke Abba* ki awaaz hai!",
+     "urdu": "یہ... یہ تو ارسلان کے ابا کی آواز ہے!",
+     "pose": "point_other",
+     "react": {
+      "ARSALAN": "teasing"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "surprised",
+     "shot": "auto",
+     "how": "running in with breaking news, giggling",
+     "roman": "Ammi! Abba Arsalan Bhai ke *phone* par match dekh rahe hain, aur unki *chai* bhi thandi ho gayi!",
+     "urdu": "امی! ابا ارسلان بھائی کے فون پر میچ دیکھ رہے ہیں، اور ان کی چائے بھی ٹھنڈی ہو گئی!",
+     "pose": "thumb_back",
+     "before": [
+      {
+       "do": "enter",
+       "who": "MEHAK",
+       "slot": "stand_c"
+      }
+     ],
+     "react": {
+      "AMMI": "angry",
+      "ARSALAN": "surprised"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "front",
+     "emo": "teasing",
+     "shot": "punch",
+     "how": "comic outrage, deadpan to camera",
+     "roman": "Waah! Mujhe *chemistry*, aur Abba ko *chakke*!",
+     "urdu": "واہ! مجھے کیمسٹری، اور ابا کو چھکے!",
+     "pose": "arms_up",
+     "joke": true,
+     "gap": 0.7,
+     "react": {
+      "*": "laugh"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "door",
+     "emo": "teasing",
+     "shot": "group",
+     "how": "determined, playful mock anger, marching off",
+     "roman": "Chalo, zara dekhte hain yeh *qaumi zimmedari* kaun nibha raha hai!",
+     "urdu": "چلو، ذرا دیکھتے ہیں یہ قومی ذمہ داری کون نبھا رہا ہے!",
+     "pose": "beckon",
+     "gap": 0.3
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "night",
+   "label": "Drawing Room • Raat",
+   "cast": {
+    "ABBA": "sofa_c"
+   },
+   "props": {
+    "ABBA": "phone"
+   },
+   "lines": [
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "angry",
+     "shot": "two:ABBA",
+     "how": "caught-you tone, hands on hips, amused",
+     "roman": "Arsalan ke Abba! Bachay ka *phone* le kar, khud *match* dekh rahe hain?",
+     "urdu": "ارسلان کے ابا! بچے کا فون لے کر، خود میچ دیکھ رہے ہیں؟",
+     "pose": "hands_hips",
+     "before": [
+      {
+       "do": "enter",
+       "who": "AMMI",
+       "slot": "stand_r"
+      },
+      {
+       "do": "enter",
+       "who": "ARSALAN",
+       "slot": "sofa_l"
+      },
+      {
+       "do": "enter",
+       "who": "MEHAK",
+       "slot": "stand_l"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.4
+      }
+     ],
+     "react": {
+      "ABBA": "surprised"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "shot": "close",
+     "how": "caught red-handed, stammering, embarrassed",
+     "roman": "Main... main to sirf *battery check* kar raha tha!",
+     "urdu": "میں... میں تو صرف بیٹری چیک کر رہا تھا!",
+     "pose": "scratch_head",
+     "react": {
+      "AMMI": "teasing"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ABBA",
+     "emo": "teasing",
+     "shot": "punch",
+     "how": "innocent but sharp, giggling",
+     "roman": "Abba, battery check karte waqt *chakka* kaun bolta hai?",
+     "urdu": "ابا، بیٹری چیک کرتے وقت چھکا کون بولتا ہے؟",
+     "pose": "point_other",
+     "joke": true,
+     "gap": 0.7,
+     "react": {
+      "*": "laugh",
+      "ABBA": "sheepish"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "laugh",
+     "shot": "auto",
+     "how": "laughing, giving up, warm",
+     "roman": "Achha baba, *maan gaya*. Match cheez hi aisi hai, *dil kheench* leti hai.",
+     "urdu": "اچھا بابا، مان گیا۔ میچ چیز ہی ایسی ہے، دل کھینچ لیتی ہے۔",
+     "pose": "shrug",
+     "react": {
+      "AMMI": "happy"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "worried",
+     "shot": "two:ABBA",
+     "how": "hopeful, pleading puppy eyes",
+     "roman": "To Abba, ab main bhi *match* dekh sakta hoon?",
+     "urdu": "تو ابا، اب میں بھی میچ دیکھ سکتا ہوں؟",
+     "pose": "plead"
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "warm",
+     "shot": "auto",
+     "how": "wise father making a deal, handing the phone back",
+     "roman": "Ek *shart* par! Har over ke baad Mehak tum se *ek sawal* poochegi.",
+     "urdu": "ایک شرط پر! ہر اوور کے بعد مہک تم سے ایک سوال پوچھے گی۔",
+     "pose": "give",
+     "give": {
+      "to": "ARSALAN",
+      "prop": "phone",
+      "at": 0.5
+     },
+     "react": {
+      "ARSALAN": "happy",
+      "MEHAK": "proud"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "shot": "auto",
+     "how": "teacher voice, playful quiz master",
+     "roman": "Pehla sawal! *Paani* ka formula kya hai?",
+     "urdu": "پہلا سوال! پانی کا فارمولا کیا ہے؟",
+     "pose": "point_up",
+     "react": {
+      "ARSALAN": "focused"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "proud",
+     "shot": "auto",
+     "how": "proud quick answer, grinning",
+     "roman": "*H2O*! Dekha Ammi, *badam* ka asar shuru ho gaya!",
+     "urdu": "ایچ ٹو او! دیکھا امی، بادام کا اثر شروع ہو گیا!",
+     "pose": "chest",
+     "react": {
+      "AMMI": "proud",
+      "MEHAK": "surprised"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "front",
+     "emo": "proud",
+     "shot": "close",
+     "how": "very proud mother, triumphant",
+     "roman": "Dekha! Mera *totka* kabhi fail nahi hota!",
+     "urdu": "دیکھا! میرا ٹوٹکا کبھی فیل نہیں ہوتا!",
+     "pose": "clap"
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "warm",
+     "shot": "auto",
+     "how": "soft, warm advice, gentle smile",
+     "roman": "Shauq bhi zaroori hai, aur *parhai* bhi... bas *waqt ki pabandi* ho.",
+     "urdu": "شوق بھی ضروری ہے، اور پڑھائی بھی... بس وقت کی پابندی ہو۔",
+     "pose": "explain",
+     "react": {
+      "ARSALAN": "warm"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "teasing",
+     "shot": "auto",
+     "how": "sly, teasing grin",
+     "roman": "Abba, sach batayein... aap ke *zamane* mein aap kya karte thay?",
+     "urdu": "ابا، سچ بتائیں... آپ کے زمانے میں آپ کیا کرتے تھے؟",
+     "pose": "point_other",
+     "react": {
+      "ABBA": "sheepish"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "sheepish",
+     "shot": "punch",
+     "how": "confessing with a guilty laugh, whispery start",
+     "roman": "Humare zamane mein... hum bhi *chhup kar* radio par match sunte thay!",
+     "urdu": "ہمارے زمانے میں... ہم بھی چھپ کر ریڈیو پر میچ سنتے تھے!",
+     "pose": [
+      [
+       0,
+       "scratch_head"
+      ],
+      [
+       0.6,
+       "shrug"
+      ]
+     ],
+     "joke": true,
+     "gap": 0.5,
+     "react": {
+      "*": "laugh"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "laugh",
+     "shot": "group",
+     "how": "quick witty comeback, laughing",
+     "roman": "Aur aaj bhi *pakray* gaye!",
+     "urdu": "اور آج بھی پکڑے گئے!",
+     "pose": "point_other",
+     "joke": true,
+     "gap": 1.0,
+     "react": {
+      "*": "laugh"
+     },
+     "sfx": [
+      "sting"
+     ]
+    }
+   ]
+  }
+ ]
+}
