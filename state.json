@@ -1533,7 +1533,11 @@
   "cc1f3b7158ce9c8d": 1793208079.7917998,
   "2a140483ec1ea776": 1793208079.7918031,
   "445b4c83b72f7caa": 1793208656.9832325,
-  "d19543a10a86d0f4": 1793208683.8769612
+  "d19543a10a86d0f4": 1793208683.8769612,
+  "1e5a85d5000b8cf5": 1793209257.2228656,
+  "2a12b9b2c1cdefba": 1793209332.1613774,
+  "3f66178da0acdc3c": 1793209349.6035047,
+  "d426c8d829d6208b": 1793209367.2695656
  },
  "pending": {},
  "queue": [],
@@ -1687,7 +1691,7 @@
  "sindh_single": {
   "date": "2026-10-28",
   "count": 2,
-  "last": 1793199162.6954467,
+  "last": 1793209403.898606,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2192,10 +2196,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 22:31",
+  "time": "2026-10-28 22:43",
   "items": 29,
   "sample": [
-   "Sikkim 184/10 & 87/4 * v Nagaland 187/10 & 208/10",
+   "Sikkim 184/10 & 87/4 * v Nagaland 208/10 & 187/10",
    "Jharkhand 131/4 * v Delhi 515/5",
    "Odisha 194/10 v Services 13 *"
   ]
@@ -7555,9 +7559,9 @@
  },
  "ai_usage": {
   "date": "2026-10-28",
-  "ok": 261,
-  "fail": 385,
-  "limit": 385
+  "ok": 267,
+  "fail": 388,
+  "limit": 387
  },
  "posted_heads": [
   {
@@ -7882,7 +7886,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 22:31",
+  "time": "2026-10-28 22:43",
   "steps": []
  },
  "roundup_am": "2026-10-28",
@@ -7990,7 +7994,7 @@
   "text": 20,
   "story": 15
  },
- "ai_last_error": "22:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "22:43 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-28",
   "models": [
@@ -8031,7 +8035,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 139,
+   "ok": 140,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8039,7 +8043,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 137,
+   "ok": 138,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8047,7 +8051,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 137,
+   "ok": 138,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8055,14 +8059,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 140,
+   "ok": 141,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 140,
+   "ok": 141,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8070,21 +8074,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 140,
+   "ok": 141,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 140,
+   "ok": 141,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 140,
+   "ok": 141,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8318,9 +8322,9 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 34,
-  "old": 32,
-  "irrelevant": 2,
+  "found": 47,
+  "old": 41,
+  "irrelevant": 6,
   "blocked": 0,
   "errors": []
  },
@@ -8351,8 +8355,8 @@
   "date": "2026-10-28",
   "count": 14,
   "last": 1793208064.4720047,
-  "city_i": 12,
-  "dry": 1793204492.5060654
+  "city_i": 16,
+  "dry": 1793209389.0847626
  },
  "gemini_day_dead": {
   "day": "2026-10-28",
@@ -9075,13 +9079,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-28 16:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-28 16:20",
    "ok": true,
    "n": 0,
@@ -9349,6 +9346,13 @@
   },
   {
    "t": "10-28 22:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 22:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13573,5 +13577,9 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "groq_disc": {
+  "date": "2026-10-28",
+  "model": "openai/gpt-oss-120b"
+ }
 }
