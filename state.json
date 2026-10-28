@@ -1,6 +1,5 @@
 {
  "seen": {
-  "317cee6e08cf1d89": 1792600265.6034844,
   "7c40c28364997117": 1792610469.39618,
   "7ee29a081febdf2c": 1792610469.396183,
   "91fc22c6343c219d": 1792610469.3961852,
@@ -1513,7 +1512,13 @@
   "488968fe31fe1a7e": 1793203346.6371696,
   "fa3a7b0ba45a624f": 1793203346.6371725,
   "55d335cf58a6082d": 1793204492.5060616,
-  "42ae19951019c6ed": 1793204492.506064
+  "42ae19951019c6ed": 1793204492.506064,
+  "9dea430ecc6668c3": 1793205653.3898468,
+  "c898e37e5081c855": 1793205653.3900385,
+  "5676fa89b14cbb04": 1793205653.3900604,
+  "621e3fc92fa10257": 1793205709.4618325,
+  "e041fee6724f435c": 1793205709.461835,
+  "83993bfc0ea9273b": 1793205709.4618375
  },
  "pending": {},
  "queue": [],
@@ -2157,10 +2162,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 21:31",
+  "time": "2026-10-28 21:42",
   "items": 29,
   "sample": [
-   "Sikkim 87/4 & 184/10 * v Nagaland 187/10 & 208/10",
+   "Sikkim 87/4 & 184/10 * v Nagaland 208/10 & 187/10",
    "Jharkhand 131/4 * v Delhi 515/5",
    "Odisha 194/10 v Services 13 *"
   ]
@@ -7520,9 +7525,9 @@
  },
  "ai_usage": {
   "date": "2026-10-28",
-  "ok": 246,
-  "fail": 362,
-  "limit": 363
+  "ok": 250,
+  "fail": 370,
+  "limit": 371
  },
  "posted_heads": [
   {
@@ -7847,7 +7852,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 21:31",
+  "time": "2026-10-28 21:42",
   "steps": []
  },
  "roundup_am": "2026-10-28",
@@ -7950,12 +7955,12 @@
  },
  "article_diag": {
   "date": "2026-10-28",
-  "tried": 24,
-  "decoded": 24,
-  "text": 19,
+  "tried": 25,
+  "decoded": 25,
+  "text": 20,
   "story": 15
  },
- "ai_last_error": "21:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "21:42 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-28",
   "models": [
@@ -7996,7 +8001,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 133,
+   "ok": 134,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8004,7 +8009,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 131,
+   "ok": 132,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8012,7 +8017,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 131,
+   "ok": 132,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8020,14 +8025,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8035,21 +8040,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8283,8 +8288,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 27,
-  "old": 27,
+  "found": 36,
+  "old": 36,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8315,8 +8320,8 @@
  "sindh_stream": {
   "date": "2026-10-28",
   "count": 12,
-  "last": 1793204472.6910636,
-  "city_i": 22,
+  "last": 1793205662.603589,
+  "city_i": 4,
   "dry": 1793204492.5060654
  },
  "gemini_day_dead": {
@@ -9024,13 +9029,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-28 15:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-28 15:20",
    "ok": true,
    "n": 0,
@@ -9298,6 +9296,13 @@
   },
   {
    "t": "10-28 21:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 21:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13279,11 +13284,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-26 11:11",
-   "new": "عمان مان جهاز پهچڻ باوجود ايل پي جي اگهه نه گهٽيا",
-   "old": "ايل پي جي جا ٻه جهاز پاڪستان پهچي ويا، اگهه گهٽجڻ جو امڪان"
-  },
-  {
    "t": "10-26 16:02",
    "new": "سنڌ | ڪراچي ۾ ايل پي جي سستي",
    "old": "ايل پي جي جا ٻه جهاز پاڪستان پهچي ويا، اگهه گهٽجڻ جو امڪان"
@@ -13427,6 +13427,11 @@
    "t": "10-28 17:02",
    "new": "آفيس آف ايگزيڪيوٽو انجنيئر ٽنڊو محمد خان ۾ ڀرتيون",
    "old": "ميڊيڪل سپرنٽينڊنٽ جي مقرري"
+  },
+  {
+   "t": "10-28 21:42",
+   "new": "نوشهروفيروز جي ڳوٺ ۾ وڪيل حاجي محمد نواز گوندل سپرد خاک",
+   "old": "نوشہروفیروز جي ويجھو پنهنجي آبائي ڳوٺ ۾ ايوگيٽ حاجي محمد نواز گوندل کي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13445,5 +13450,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
