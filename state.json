@@ -1,9 +1,5 @@
 {
  "seen": {
-  "d7d2ee5f3e59953c": 1792590680.42903,
-  "363fc55ce390d9d0": 1792590680.4290328,
-  "7f733e6c3eb9468b": 1792590680.4290354,
-  "5dc23fd54ff9758b": 1792590822.6384773,
   "4954c50517ac97e7": 1792591924.398897,
   "ab1a87060c873116": 1792591924.3988998,
   "5bc53462fbecc4af": 1792593764.6619487,
@@ -1539,7 +1535,11 @@
   "b0fe66c7cabc3603": 1793192570.6100993,
   "4cd6952fb6b03c14": 1793193674.859888,
   "1e66fe00338f33d1": 1793194855.7520862,
-  "b7348293214437d6": 1793195452.6227899
+  "b7348293214437d6": 1793195452.6227899,
+  "98a91704427b771e": 1793196070.1239114,
+  "9485d93e6e38acbc": 1793196070.1257715,
+  "e46d0f4a3eedb19e": 1793196070.1258914,
+  "a3263d7e1f179cd6": 1793196070.1259298
  },
  "pending": {},
  "queue": [],
@@ -1578,6 +1578,24 @@
    "domain": "propakistani.pk",
    "source": "ProPakistani",
    "ts": 1793194510,
+   "local": false
+  },
+  {
+   "key": "98a91704427b771e",
+   "title": "Sindh Irrigation Department Announces Government Jobs",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYWtITUJ4bmt5a1NqX3hsV3o4QXNqSTR5bHZEeGFreGhTc3dDVmpGaE45dEIyWkNtNDVZYm1USl9aTkFyNDVHbGM4bTJ6MHU5aGZnRUVZMG8yRWtINjFyUzR1a2M1d0s4cEt5c2pEWVpVTVkxQ0VwRnU0QXpjYVNvYW1kODg3Z0ZIaE1iRkUwSUpoUWfSAZgBQVVfeXFMTXc2X0s2UVF3RVdWcmlIWnF1WUVYZ2lIZGJmTl81WjBFdzlGSjVUWENLTERSR00zS1lnOHE0UWxmeHFJbHBtOHFfdXhEcUV5Z1hSX24xS1VSNXpzanRyTkJ5WmVFb1ZJMC05a21yRWhmTHJKOXlpcVhwWmhuZ0c4bFF0ZTdXcUh5aVV0WVB4bVZTb2ZmX3U5Zno?oc=5",
+   "domain": "propakistani.pk",
+   "source": "ProPakistani",
+   "ts": 1793195407,
+   "local": false
+  },
+  {
+   "key": "9485d93e6e38acbc",
+   "title": "Karachi Services Hospital Announces Jobs",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeUczVU1LV0p6T05xTXR3MW5pN2FkRXpMZ2g5VjlEX0FiRzNROWJwWDROVzloUVBOb0hUdGhQdmNwckNiY3hpMGpDZ3UwZTVlaEtRRGhiVlBmYlVFaDZjRmppMWJfMUQ4ME9QNFM1cFpwVmkxYUhOT2s2dnhGaENfSVJR0gGHAUFVX3lxTE5mNmZlSUhkOTBzTnZwYjJLSjg5X2p1Yi1fVXFndUFvOXpZY3pfQnhVOGExOXZqRFFCc0lmNnR1cEk1VUxXd2NtVzlOTjdZT2JwcGhHcHR0cUJMaUhQZVdubXlPQjZPLTFYbG9BMU0yQXhoX0NoSVhidGhic1lvS29LWjlsZ1JQZw?oc=5",
+   "domain": "propakistani.pk",
+   "source": "ProPakistani",
+   "ts": 1793195407,
    "local": false
   }
  ],
@@ -2141,10 +2159,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 18:52",
+  "time": "2026-10-28 19:01",
   "items": 29,
   "sample": [
-   "Sikkim 184/10 & 87/4 * v Nagaland 208/10 & 187/10",
+   "Sikkim 87/4 & 184/10 * v Nagaland 187/10 & 208/10",
    "Jharkhand 131/4 * v Delhi 515/5",
    "Odisha 194/10 v Services 13 *"
   ]
@@ -7831,7 +7849,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 18:52",
+  "time": "2026-10-28 19:01",
   "steps": []
  },
  "roundup_am": "2026-10-28",
@@ -7980,7 +7998,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 117,
+   "ok": 118,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7988,7 +8006,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 115,
+   "ok": 116,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7996,7 +8014,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 115,
+   "ok": 116,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8004,14 +8022,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 118,
+   "ok": 119,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 118,
+   "ok": 119,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8019,21 +8037,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 118,
+   "ok": 119,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 118,
+   "ok": 119,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 118,
+   "ok": 119,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8266,14 +8284,14 @@
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 20,
-  "old": 20,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-28 18",
+ "report_hour": "2026-10-28 19",
  "kawish_upload_times": {
   "_date": "2026-10-28",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8300,8 +8318,8 @@
   "date": "2026-10-28",
   "count": 10,
   "last": 1793193666.8776362,
-  "city_i": 12,
-  "dry": 1793195533.855086
+  "city_i": 16,
+  "dry": 1793196079.8607242
  },
  "gemini_day_dead": {
   "day": "2026-10-28",
@@ -9031,13 +9049,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-28 12:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-28 12:40",
    "ok": true,
    "n": 0,
@@ -9305,6 +9316,13 @@
   },
   {
    "t": "10-28 18:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 19:00",
    "ok": true,
    "n": 0,
    "ids": [],
