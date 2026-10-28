@@ -1553,7 +1553,13 @@
   "17054545c5bc7d63": 1793163082.154228,
   "b5699efec267b536": 1793163688.663505,
   "c1abc6ea3092f318": 1793165473.8479483,
-  "5f13c17b5fd7d032": 1793165505.7118294
+  "5f13c17b5fd7d032": 1793165505.7118294,
+  "925fb04b67722af4": 1793166671.7474532,
+  "b2c719db38ec2a95": 1793166675.8253627,
+  "dbc9988fe50a5405": 1793166675.8253636,
+  "2ab9ffba1a56ca50": 1793166675.825364,
+  "ecb6e8f3302efeb5": 1793166675.8253648,
+  "16b4beef174eff88": 1793166675.8254657
  },
  "pending": {},
  "queue": [],
@@ -2118,7 +2124,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 10:40",
+  "time": "2026-10-28 10:51",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7401,9 +7407,9 @@
  },
  "ai_usage": {
   "date": "2026-10-28",
-  "ok": 113,
-  "fail": 194,
-  "limit": 194
+  "ok": 119,
+  "fail": 206,
+  "limit": 206
  },
  "posted_heads": [
   {
@@ -7728,7 +7734,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 10:40",
+  "time": "2026-10-28 10:51",
   "steps": []
  },
  "roundup_am": "2026-10-28",
@@ -7831,12 +7837,12 @@
  },
  "article_diag": {
   "date": "2026-10-28",
-  "tried": 17,
-  "decoded": 17,
-  "text": 14,
+  "tried": 18,
+  "decoded": 18,
+  "text": 15,
   "story": 12
  },
- "ai_last_error": "10:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "10:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-28",
   "models": [
@@ -7877,7 +7883,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 66,
+   "ok": 67,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7885,7 +7891,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 65,
+   "ok": 66,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7893,7 +7899,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 65,
+   "ok": 66,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7901,14 +7907,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7916,21 +7922,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8189,8 +8195,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 20,
-  "old": 20,
+  "found": 25,
+  "old": 25,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8222,8 +8228,8 @@
   "date": "2026-10-28",
   "count": 1,
   "last": 1793165472.301788,
-  "city_i": 18,
-  "dry": 1793165473.8479521
+  "city_i": 22,
+  "dry": 1793166662.6917632
  },
  "gemini_day_dead": {
   "day": "2026-10-27",
@@ -9006,13 +9012,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-28 04:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-28 04:30",
    "ok": true,
    "n": 0,
@@ -9280,6 +9279,13 @@
   },
   {
    "t": "10-28 10:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 10:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13722,11 +13728,6 @@
  "repeat_log": [
   {
    "t": "10-26 07:21",
-   "new": "پاڪستان انگلينڊ کي شڪست ڏئي ڇڏي",
-   "old": "پاڪستان جي انگلينڊ خلاف شاندار سوڀ"
-  },
-  {
-   "t": "10-26 07:21",
    "new": "ڪڻڪ جي نون اگهن بابت اهم اعلان",
    "old": "ڪڻڪ جو سهارو اگهه 4500 رپيا مقرر"
   },
@@ -13869,6 +13870,11 @@
    "t": "10-28 09:11",
    "new": "حڪومت پيٽرول اگهه ۾ گهٽاتائي ڪئي",
    "old": "حڪومت پاران پيٽرول سستو ۽ ڊيزل مهانگو"
+  },
+  {
+   "t": "10-28 10:51",
+   "new": "پاڻي جي فراهمي لاءِ 18 ارب ڊالرن جي سيڙپڪاري جو منصوبو",
+   "old": "پاڪستان پاران پاڻي جي بهتري لاءِ 18 ارب ڊالرن جي گهر"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13887,5 +13893,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
