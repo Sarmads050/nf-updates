@@ -1,10 +1,5 @@
 {
  "seen": {
-  "90baa3ac2f9530c4": 1792546287.231658,
-  "7ede55216a48457f": 1792546287.2316613,
-  "43d6472d4357c037": 1792546287.2316628,
-  "d7cc684af60d1aea": 1792546287.2316637,
-  "ddd5b9d2c1452768": 1792546287.2317953,
   "1eca4ce74c2e49f2": 1792549273.8379574,
   "0f5c145ad4e3249a": 1792549283.2583716,
   "0f7663a2bf2a595e": 1792549858.0869458,
@@ -1553,7 +1548,24 @@
   "ed85ba79edd6bc05": 1793149875.010395,
   "67b2d5f484624228": 1793149875.010396,
   "87235a63c3649fed": 1793149875.0103967,
-  "103463439048a8cd": 1793149875.0106778
+  "103463439048a8cd": 1793149875.0106778,
+  "50a91541e5be7580": 1793151650.9044309,
+  "4d5a6a4acf249b0c": 1793151672.5470903,
+  "a453d2787329179e": 1793151672.5470924,
+  "c577acd8ebaddd89": 1793151672.547094,
+  "cf2c83f75cf750ca": 1793151672.547095,
+  "b42ea9932d6c0ac8": 1793151672.5470958,
+  "1c06892cffd749bc": 1793151672.5470974,
+  "e07b560bba841287": 1793151672.547098,
+  "34f4b74a134ef487": 1793151672.54731,
+  "88863ba1c6cc0c8f": 1793151687.2699783,
+  "3dfcb3263c276e3b": 1793151687.2699802,
+  "9598effce777dd28": 1793151687.2699811,
+  "8fa0711c49864bf6": 1793151687.2699819,
+  "01e8c925ec458499": 1793151687.2699826,
+  "f65a25f6bd7cd359": 1793151687.269984,
+  "fa1e05aa7c6505b3": 1793151687.2699847,
+  "23f131059c4dfe25": 1793151687.2701771
  },
  "pending": {},
  "queue": [],
@@ -2152,7 +2164,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 06:31",
+  "time": "2026-10-28 06:41",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7403,9 +7415,9 @@
  },
  "ai_usage": {
   "date": "2026-10-28",
-  "ok": 50,
-  "fail": 86,
-  "limit": 86
+  "ok": 56,
+  "fail": 98,
+  "limit": 98
  },
  "posted_heads": [
   {
@@ -7730,7 +7742,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 06:31",
+  "time": "2026-10-28 06:41",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7833,12 +7845,12 @@
  },
  "article_diag": {
   "date": "2026-10-28",
-  "tried": 8,
-  "decoded": 8,
-  "text": 7,
-  "story": 6
+  "tried": 10,
+  "decoded": 10,
+  "text": 9,
+  "story": 8
  },
- "ai_last_error": "06:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "06:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-28",
   "models": [
@@ -7879,7 +7891,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7887,7 +7899,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7895,7 +7907,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7903,14 +7915,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7918,21 +7930,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8191,8 +8203,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 15,
-  "old": 15,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8224,8 +8236,8 @@
   "date": "2026-10-28",
   "count": 1,
   "last": 1793137266.6974535,
-  "city_i": 20,
-  "dry": 1793149860.8173451
+  "city_i": 24,
+  "dry": 1793151659.5648947
  },
  "gemini_day_dead": {
   "day": "2026-10-27",
@@ -8998,13 +9010,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-28 00:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-28 00:30",
    "ok": true,
    "n": 0,
@@ -9272,6 +9277,13 @@
   },
   {
    "t": "10-28 06:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 06:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13755,16 +13767,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-26 05:21",
-   "new": "شاداب خان جي شاندار سينچري",
-   "old": "پاڪستان جي انگلينڊ خلاف شاندار سوڀ"
-  },
-  {
-   "t": "10-26 05:21",
-   "new": "ريلوي کاتي ۾ ايمرجنسي جو اعلان",
-   "old": "پ ر جو ٽنهي مهينن جي ايمرجنسي جو اعلان"
-  },
-  {
    "t": "10-26 06:01",
    "new": "شاداب خان شاندار راند پيش ڪندي انگلينڊ کي شڪست ڏئي ڇڏي",
    "old": "پاڪستان جي انگلينڊ خلاف شاندار سوڀ"
@@ -13903,6 +13905,16 @@
    "t": "10-28 04:01",
    "new": "بابراعظم بئٽنگ دوران غلط لائن تي ويو",
    "old": "يوسف بابر اعظم جي بیٹنگ ۾ غلطي ٻڌائي"
+  },
+  {
+   "t": "10-28 06:41",
+   "new": "پيٽرول اگهه ۾ گهٽ جب ته ڊيزل مهانگو",
+   "old": "حڪومت پاران پيٽرول سستو ۽ ڊيزل مهانگو"
+  },
+  {
+   "t": "10-28 06:41",
+   "new": "سنڌ ۾ زرعي پيداوار وڌائڻ لاءِ عملي قدم",
+   "old": "سنڌ ۾ تيل وارن ٻج جو فصل وڌائڻ جو فيصلو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13921,5 +13933,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
