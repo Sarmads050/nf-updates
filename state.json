@@ -1,6 +1,5 @@
 {
  "seen": {
-  "7e75a1cd685e1b45": 1792563676.4333487,
   "d553b5458a4e1e43": 1792564852.2219381,
   "0752c4174ef7f5d5": 1792564863.0678616,
   "ef554653af9c975d": 1792566293.3724117,
@@ -1552,11 +1551,23 @@
   "ecb6e8f3302efeb5": 1793166675.8253648,
   "16b4beef174eff88": 1793166675.8254657,
   "bb7c3b3d41399366": 1793167275.257848,
-  "3c4e1265cab29ce3": 1793168471.408287
+  "3c4e1265cab29ce3": 1793168471.408287,
+  "cf26169cf8ac1d73": 1793169057.4515114,
+  "21b1031a1e5dc4f0": 1793169066.3688047
  },
  "pending": {},
  "queue": [],
- "jobs": [],
+ "jobs": [
+  {
+   "key": "cf26169cf8ac1d73",
+   "title": "Degrees in Hand, Jobs Nowhere: The Struggle of Young Pakistanis -Awaz",
+   "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TUk11LVdMemtOR0ZMMHlPT2R5STdhYlpKcl9OYXFHUC1wMV91LTA4SFhIRFRIVGhQSENiZ2Y0MU94cFdLZ3YwWTU2QXZ0QQ?oc=5",
+   "domain": "english.aaj.tv",
+   "source": "Aaj English TV",
+   "ts": 1793156081,
+   "local": false
+  }
+ ],
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-10-28",
@@ -2117,7 +2128,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 11:21",
+  "time": "2026-10-28 11:31",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7400,9 +7411,9 @@
  },
  "ai_usage": {
   "date": "2026-10-28",
-  "ok": 128,
-  "fail": 220,
-  "limit": 220
+  "ok": 129,
+  "fail": 222,
+  "limit": 222
  },
  "posted_heads": [
   {
@@ -7727,7 +7738,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 11:21",
+  "time": "2026-10-28 11:31",
   "steps": []
  },
  "roundup_am": "2026-10-28",
@@ -7835,7 +7846,7 @@
   "text": 15,
   "story": 12
  },
- "ai_last_error": "11:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "11:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-28",
   "models": [
@@ -7876,7 +7887,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 70,
+   "ok": 71,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7884,7 +7895,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 69,
+   "ok": 70,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7892,7 +7903,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 69,
+   "ok": 70,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7900,14 +7911,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 71,
+   "ok": 72,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 71,
+   "ok": 72,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7915,21 +7926,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 71,
+   "ok": 72,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 71,
+   "ok": 72,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 71,
+   "ok": 72,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8188,8 +8199,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 10,
-  "old": 10,
+  "found": 15,
+  "old": 15,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8989,13 +9000,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-28 05:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-28 05:10",
    "ok": true,
    "n": 0,
@@ -9263,6 +9267,13 @@
   },
   {
    "t": "10-28 11:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 11:30",
    "ok": true,
    "n": 0,
    "ids": [],
