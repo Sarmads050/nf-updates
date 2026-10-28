@@ -1564,7 +1564,9 @@
   "23f131059c4dfe25": 1793151687.2701771,
   "ff8ece0fce603c59": 1793152311.6104238,
   "57cd43c1c84d1eca": 1793154075.2986112,
-  "3e7cef633eba3494": 1793155271.0421586
+  "3e7cef633eba3494": 1793155271.0421586,
+  "6c3877af7733a197": 1793155871.5618746,
+  "1661fff96c532c5d": 1793155871.562066
  },
  "pending": {},
  "queue": [],
@@ -1690,20 +1692,8 @@
    "361772a71df0a229"
   ]
  },
- "last_post_id": "1444130002106066_122114565879503839",
+ "last_post_id": "1444130002106066_122114577303503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122114292237503839",
-   "title": "سياسي ڇڪتاڻ ۽ انتقامي ڪارروائيون عروج تي آهن: بيرسٽر گوھر",
-   "t": 1793092888.3559597,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122114292237503839"
-  },
   {
    "id": "1444130002106066_122114323929503839",
    "title": "نوشهروفيروز ۾ صفائي سٿرائي ۽ روڊن جي مرمت جو ڪم شروع",
@@ -2015,6 +2005,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122114565879503839"
+  },
+  {
+   "id": "1444130002106066_122114577303503839",
+   "title": "ڪراچي جا اتر سيهڙا سيڪڙو کان وڌيڪ فيڊر لوڊشيڊنگ کان آزاد ڪيا ويا آهن، جنهن سان شهرين کي",
+   "t": 1793156010.0193233,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122114577303503839"
   }
  ],
  "share_sent": {
@@ -2160,7 +2159,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 07:41",
+  "time": "2026-10-28 07:53",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2175,17 +2174,11 @@
  },
  "all_posts": {
   "date": "2026-10-28",
-  "count": 9,
-  "last": 1793154166.1698463
+  "count": 10,
+  "last": 1793155996.5257418
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122110802319503839",
-    "sec": "district",
-    "cat": "district",
-    "t": 1792428257
-   },
    {
     "id": "1444130002106066_122110802517503839",
     "sec": "district",
@@ -4579,13 +4572,19 @@
     "sec": "public_news",
     "cat": "electricity_gas",
     "t": 1793154174
+   },
+   {
+    "id": "1444130002106066_122114577303503839",
+    "sec": "public_news",
+    "cat": "electricity_gas",
+    "t": 1793156010
    }
   ]
  },
  "public_news": {
   "date": "2026-10-28",
-  "count": 5,
-  "last": 1793154174.43896
+  "count": 6,
+  "last": 1793156010.019301
  },
  "trends": {
   "last": 1793151062.532026,
@@ -7411,15 +7410,11 @@
  },
  "ai_usage": {
   "date": "2026-10-28",
-  "ok": 68,
-  "fail": 120,
-  "limit": 120
+  "ok": 77,
+  "fail": 132,
+  "limit": 132
  },
  "posted_heads": [
-  {
-   "h": "گمبٽ: شادي جي تقريب دوران فائرنگ، هڪ ڄڻو قتل، هڪ زخمي",
-   "t": 1792991484
-  },
   {
    "h": "England players celebrated the Pakistani batsman wicket (Babar Azam bowled by Gus Atkinson )during the one-day international (ODI) tri-serie",
    "t": 1792992093
@@ -7735,10 +7730,14 @@
   {
    "h": "Power tariff for 200 units to go: New targeted subsidy system being worked out: Leghari",
    "t": 1793154174
+  },
+  {
+   "h": "'72% of Karachi feeders free of loadshedding'",
+   "t": 1793156010
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 07:41",
+  "time": "2026-10-28 07:53",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7841,12 +7840,12 @@
  },
  "article_diag": {
   "date": "2026-10-28",
-  "tried": 12,
-  "decoded": 12,
-  "text": 11,
-  "story": 10
+  "tried": 13,
+  "decoded": 13,
+  "text": 12,
+  "story": 11
  },
- "ai_last_error": "07:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "07:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-28",
   "models": [
@@ -7860,13 +7859,13 @@
  },
  "img_diag": {
   "date": "2026-10-28",
-  "tried": 9,
+  "tried": 10,
   "gemini": 0,
-  "pollinations": 3,
+  "pollinations": 4,
   "skip": 1,
   "fail": 11,
-  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
-  "mismatch": 215
+  "last_note": "electricity meter and bill",
+  "mismatch": 217
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -7887,7 +7886,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7895,7 +7894,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7903,7 +7902,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7911,14 +7910,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7926,21 +7925,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8195,12 +8194,12 @@
   "date": "2026-10-28",
   "district": 0,
   "sindh": 1,
-  "pakistan": 7
+  "pakistan": 8
  },
  "report_acc": {
-  "posted": 1,
-  "found": 20,
-  "old": 20,
+  "posted": 2,
+  "found": 25,
+  "old": 25,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8232,8 +8231,8 @@
   "date": "2026-10-28",
   "count": 1,
   "last": 1793137266.6974535,
-  "city_i": 14,
-  "dry": 1793155261.1768248
+  "city_i": 18,
+  "dry": 1793155859.3477404
  },
  "gemini_day_dead": {
   "day": "2026-10-27",
@@ -8992,6 +8991,14 @@
    "t": 1793154174,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "920ef8e9a82f5eeb",
+   "h": "ڪراچي ۾ لوڊشيڊنگ جي صورتحال بهتر",
+   "x": "قومي اسيمبلي ۾ اڱاري جي ڏينھن توانائي واري پارلياماني سيڪريٽري عامر طلال سڏايو نوٽيس جو جواب ڏيندي ٻڌايو ته ڪراچي ۾ اٽڪل 72 سيڪڙو فيڊرز لوڊشيڊنگ کان آجو آهن، جن ۾ سڀ صنعتي فيڊرز پڻ شامل آهن. هن چيو ته باقي 28 سيڪڙو فيڊرز تي لوڊشيڊنگ بجليءَ جي چوري ۽ بلن جي ادائيگي نه ڪرڻ سبب ڪئي پئي وڃي، جيڪا قومي بجلي پاليسي 2021 جي مطابق سڄي ملڪ جي سمورين تقسيم ڪندڙ ڪمپنين ۾ لاڳو ڪئي پئي وڃي. پارلياماني سيڪريٽري بجلي جي پيداوار ۾ تازي خلل جو سبب آبتاب هرمز جي بندش سبب پيدا ٿيندڙ گيس جو بحران ٻڌايو، جتي 6 آڪٽوبر کان 12 آڪٽوبر جي وچ ۾ ايل اين جي ڪارگوز جي اڻهوند سبب بجلي جي پيداوار سخت متاثر ٿي هئي، پر ايل اين جي ڪارگوز جي اچڻ کان پوءِ ڪراچي ۾ بجلي جي سپلاءِ مڪمل طور تي نارمل ٿي وئي آهي. هن ڪراچي ۾ ترقياتي ڪمن دوران غير مجاز کوٽائي سبب ڪي اليڪٽرڪ جي زير زمين ڪيبل نيٽ ورڪ کي پهتل نقصان جو پڻ ذڪر ڪيو ۽ چيو ته اهڙو نقصان شهر ۾ غير اعلانيه بجلي جي تعطل جي مکيه سببن مان هڪ آهي. هن واضح ڪيو ته ڪندن ذريعي بجلي جا غير قانوني ڪنيڪشن ختم ڪرڻ ۽ عارضي ڪٽوتي بجلي چوري روڪڻ جا قدم آهن ۽ ان کي لوڊشيڊنگ نه سمجهيو وڃي، جڏهن ته حڪومت بجلي جي چوري ۽ بلن جي ارادي سان ادائيگي نه ڪرڻ کي جوابدار جرم بڻائڻ لاءِ قانوني فريم ورڪ آڻڻ تي پڻ غور ڪري رهي آهي. ان دوران قومي اسيمبلي اڱاري جي ڏينهن اڪثريتي ووٽ سان ست خانگي ميمبرن جا بل پڻ منظور ڪيا!",
+   "t": 1793156010,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9005,13 +9012,6 @@
   "last": 1793107884.5611491
  },
  "tg_debug": [
-  {
-   "t": "10-28 01:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-28 01:40",
    "ok": true,
@@ -9280,6 +9280,13 @@
   },
   {
    "t": "10-28 07:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 07:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13764,6 +13771,47 @@
     "ڪرڻ",
     "ھدف"
    ]
+  },
+  {
+   "t": 1793156010,
+   "h": "ڪراچي ۾ لوڊشيڊنگ جي صورتحال بهتر",
+   "b": "قومي اسيمبلي ۾ اڱاري جي ڏينھن توانائي واري پارلياماني سيڪريٽري عامر طلال سڏايو نوٽيس جو جواب ڏيندي ٻڌايو ته",
+   "tt": [
+    "بهتر",
+    "صورتحال",
+    "لوڊشيڊنگ",
+    "ڪراچي"
+   ],
+   "bt": [
+    "#72",
+    "اجو",
+    "اسيمبلي",
+    "اهن",
+    "اهن،",
+    "اٽڪل",
+    "اڱاري",
+    "بهتر",
+    "توانائي",
+    "جواب",
+    "سيڪريٽري",
+    "سيڪڙو",
+    "سڏايو",
+    "شامل",
+    "صنعتي",
+    "صورتحال",
+    "طلال",
+    "عامر",
+    "فيڊرز",
+    "قومي",
+    "لوڊشيڊنگ",
+    "نوٽيس",
+    "ٻڌايو",
+    "پارلياماني",
+    "ڏيندي",
+    "ڏينھن",
+    "ڪان",
+    "ڪراچي"
+   ]
   }
  ],
  "repeat_log": [
@@ -13934,6 +13982,5 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606,
- "_dup": true
+ "approve_last": 1792771860.5720606
 }
