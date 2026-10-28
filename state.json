@@ -1521,7 +1521,8 @@
   "83993bfc0ea9273b": 1793205709.4618375,
   "70c63803ef75842a": 1793206248.999498,
   "55ad6991c7ef945f": 1793206884.0900283,
-  "0490dd496482c1fa": 1793206918.529264
+  "0490dd496482c1fa": 1793206918.529264,
+  "78f1b37d11f10f63": 1793207454.1423645
  },
  "pending": {},
  "queue": [],
@@ -1612,7 +1613,7 @@
   "last_week": "",
   "last_check": "2026-10-28"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2168,10 +2169,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 22:03",
+  "time": "2026-10-28 22:11",
   "items": 29,
   "sample": [
-   "Sikkim 87/4 & 184/10 * v Nagaland 187/10 & 208/10",
+   "Sikkim 184/10 & 87/4 * v Nagaland 187/10 & 208/10",
    "Jharkhand 131/4 * v Delhi 515/5",
    "Odisha 194/10 v Services 13 *"
   ]
@@ -7531,7 +7532,7 @@
  },
  "ai_usage": {
   "date": "2026-10-28",
-  "ok": 255,
+  "ok": 257,
   "fail": 379,
   "limit": 379
  },
@@ -7858,7 +7859,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 22:03",
+  "time": "2026-10-28 22:11",
   "steps": []
  },
  "roundup_am": "2026-10-28",
@@ -8007,7 +8008,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 136,
+   "ok": 137,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8015,7 +8016,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 134,
+   "ok": 135,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8023,7 +8024,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 134,
+   "ok": 135,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8031,14 +8032,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8046,21 +8047,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8294,9 +8295,9 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
-  "irrelevant": 0,
+  "found": 11,
+  "old": 10,
+  "irrelevant": 1,
   "blocked": 0,
   "errors": []
  },
@@ -9043,13 +9044,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-28 15:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-28 15:50",
    "ok": true,
    "n": 0,
@@ -9317,6 +9311,13 @@
   },
   {
    "t": "10-28 22:01",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 22:10",
    "ok": true,
    "n": 0,
    "ids": [],
