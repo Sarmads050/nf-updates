@@ -1568,7 +1568,8 @@
   "f4cd1580361738b0": 1793230273.8797483,
   "f0cb555c4318def0": 1793230273.879749,
   "ee1fbb9468bbdce8": 1793230273.8800273,
-  "900bf7ed6b80315b": 1793230854.40399
+  "900bf7ed6b80315b": 1793230854.40399,
+  "834ea65fd512f4ca": 1793231450.9302819
  },
  "pending": {},
  "queue": [],
@@ -2228,10 +2229,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-29 04:40",
+  "time": "2026-10-29 04:50",
   "items": 31,
   "sample": [
-   "Sikkim 87/4 & 184/10 * v Nagaland 208/10 & 187/10",
+   "Sikkim 184/10 & 87/4 * v Nagaland 187/10 & 208/10",
    "Jharkhand 131/4 * v Delhi 515/5",
    "Odisha 194/10 v Services 13 *"
   ]
@@ -7918,7 +7919,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-29 04:40",
+  "time": "2026-10-29 04:50",
   "steps": []
  },
  "roundup_am": "2026-10-28",
@@ -8067,7 +8068,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-29",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8075,7 +8076,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-29",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8083,7 +8084,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-29",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8091,14 +8092,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-29",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-29",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8106,21 +8107,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-29",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-29",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-29",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8354,8 +8355,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 52,
-  "old": 52,
+  "found": 65,
+  "old": 65,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9122,13 +9123,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-28 22:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-28 22:40",
    "ok": true,
    "n": 0,
@@ -9396,6 +9390,13 @@
   },
   {
    "t": "10-29 04:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-29 04:50",
    "ok": true,
    "n": 0,
    "ids": [],
