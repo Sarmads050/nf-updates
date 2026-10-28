@@ -1518,7 +1518,8 @@
   "5676fa89b14cbb04": 1793205653.3900604,
   "621e3fc92fa10257": 1793205709.4618325,
   "e041fee6724f435c": 1793205709.461835,
-  "83993bfc0ea9273b": 1793205709.4618375
+  "83993bfc0ea9273b": 1793205709.4618375,
+  "70c63803ef75842a": 1793206248.999498
  },
  "pending": {},
  "queue": [],
@@ -2162,10 +2163,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 21:42",
+  "time": "2026-10-28 21:51",
   "items": 29,
   "sample": [
-   "Sikkim 87/4 & 184/10 * v Nagaland 208/10 & 187/10",
+   "Sikkim 87/4 & 184/10 * v Nagaland 187/10 & 208/10",
    "Jharkhand 131/4 * v Delhi 515/5",
    "Odisha 194/10 v Services 13 *"
   ]
@@ -4590,56 +4591,8 @@
   "last": 1793176944.286508
  },
  "trends": {
-  "last": 1793195452.625177,
+  "last": 1793206273.795297,
   "terms": [
-   {
-    "term": "tea",
-    "traffic": 100,
-    "news": "Drinking seven cups of tea a day linked to better heart health",
-    "t": 1792593658,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "elsinore",
-    "traffic": 100,
-    "news": "Elsinore to The Hunger Games: 12 of the best films to watch in November",
-    "t": 1792593658,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "mehidy hasan miraz",
-    "traffic": 5000,
-    "news": "Afghanistan vs Bangladesh ODI Match Preview, Squads and Match Details",
-    "t": 1792593658,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "toyota",
-    "traffic": 200,
-    "news": "Toyota Recalls More Than 100,000 Land Cruiser Hybrids In The US Over Fire Risk",
-    "t": 1792593658,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "afghanistan national cricket team",
-    "traffic": 100,
-    "news": "Rashid Khan retains top bowling rank as Sediqullah Atal climbs in ODI rankings",
-    "t": 1792593658,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "ریمانڈ",
-    "traffic": 200,
-    "news": "کمسن بچے کو گاڑی سے کچلنے کے مقدمے میں پیشرفت، پراسکیوٹر جنرل پنجاب نے واقعہ کا نوٹس لے لیا",
-    "t": 1792593658,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "man utd",
     "traffic": 5000,
@@ -7519,15 +7472,63 @@
     "t": 1793195452,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "art theft",
+    "traffic": 200,
+    "news": "Italian police use AI to identify stolen painting at antiquities fair",
+    "t": 1793206274,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "thierry henry",
+    "traffic": 100,
+    "news": "Fans bemused by 'awkward' Henry and Scott gaffe at Ballon d'Or",
+    "t": 1793206274,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "novak djokovic",
+    "traffic": 500,
+    "news": "Wawrinka brings career to a close with defeat in Basel",
+    "t": 1793206274,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "dcp chitrole",
+    "traffic": 100,
+    "news": "‘CID’, ‘Aahat’ maker BP Singh dies at 75",
+    "t": 1793206274,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "inter miami cf",
+    "traffic": 200,
+    "news": "October 28, 2026: Miami vs Cincinnati: First Half Winner Soccer Prediction Market",
+    "t": 1793206274,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "justice mohsin akhtar kayani",
+    "traffic": 200,
+    "news": "Lahore High Court Questions Police Over Incorrect Report in Rs2 Million Cheque Case - Aaj News",
+    "t": 1793206274,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-28",
-  "ok": 250,
-  "fail": 370,
-  "limit": 371
+  "ok": 252,
+  "fail": 372,
+  "limit": 373
  },
  "posted_heads": [
   {
@@ -7852,7 +7853,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 21:42",
+  "time": "2026-10-28 21:51",
   "steps": []
  },
  "roundup_am": "2026-10-28",
@@ -7960,7 +7961,7 @@
   "text": 20,
   "story": 15
  },
- "ai_last_error": "21:42 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "21:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-28",
   "models": [
@@ -8001,7 +8002,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 134,
+   "ok": 135,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8009,7 +8010,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 132,
+   "ok": 133,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8017,7 +8018,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 132,
+   "ok": 133,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8025,14 +8026,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8040,21 +8041,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8288,9 +8289,9 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 36,
-  "old": 36,
-  "irrelevant": 0,
+  "found": 46,
+  "old": 45,
+  "irrelevant": 1,
   "blocked": 0,
   "errors": []
  },
@@ -9029,13 +9030,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-28 15:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-28 15:30",
    "ok": true,
    "n": 0,
@@ -9303,6 +9297,13 @@
   },
   {
    "t": "10-28 21:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 21:50",
    "ok": true,
    "n": 0,
    "ids": [],
