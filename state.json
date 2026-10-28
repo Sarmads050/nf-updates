@@ -1,6 +1,5 @@
 {
  "seen": {
-  "89f4833a895eb5e6": 1792570253.9442043,
   "ae57197dcc6f6b8d": 1792570847.8864264,
   "1d1b0ab40b9d2828": 1792572065.1724021,
   "41ce8a558c2b19bd": 1792573298.1733205,
@@ -1564,7 +1563,10 @@
   "12afddd001538123": 1793175057.6072063,
   "c652f97d2dd1d72f": 1793175068.624369,
   "62c2599106e49b0e": 1793175068.6243718,
-  "70c91281d7da0f55": 1793175068.624373
+  "70c91281d7da0f55": 1793175068.624373,
+  "07c40dac14e02a13": 1793175665.810914,
+  "f9fea9df69ab2b60": 1793175665.8109164,
+  "418a446c6c3f1d7e": 1793175665.8110878
  },
  "pending": {},
  "queue": [],
@@ -2143,7 +2145,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 13:11",
+  "time": "2026-10-28 13:21",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7442,9 +7444,9 @@
  },
  "ai_usage": {
   "date": "2026-10-28",
-  "ok": 149,
-  "fail": 246,
-  "limit": 245
+  "ok": 154,
+  "fail": 256,
+  "limit": 255
  },
  "posted_heads": [
   {
@@ -7769,7 +7771,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 13:11",
+  "time": "2026-10-28 13:21",
   "steps": []
  },
  "roundup_am": "2026-10-28",
@@ -7872,12 +7874,12 @@
  },
  "article_diag": {
   "date": "2026-10-28",
-  "tried": 21,
-  "decoded": 21,
-  "text": 17,
+  "tried": 22,
+  "decoded": 22,
+  "text": 18,
   "story": 14
  },
- "ai_last_error": "13:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "13:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-28",
   "models": [
@@ -7918,7 +7920,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 82,
+   "ok": 83,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7926,7 +7928,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 81,
+   "ok": 82,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7934,7 +7936,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 81,
+   "ok": 82,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7942,14 +7944,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7957,21 +7959,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8230,8 +8232,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 5,
-  "old": 5,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9040,13 +9042,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-28 06:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-28 07:00",
    "ok": true,
    "n": 0,
@@ -9314,6 +9309,13 @@
   },
   {
    "t": "10-28 13:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 13:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13805,11 +13807,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-26 07:21",
-   "new": "ڪڻڪ جي نون اگهن بابت اهم اعلان",
-   "old": "ڪڻڪ جو سهارو اگهه 4500 رپيا مقرر"
-  },
-  {
    "t": "10-26 07:31",
    "new": "غربت تعليم جي واهط ۾ رڪاوٽ نه بڻجڻ گهرجي: وزيراعظم",
    "old": "پنج لک ڪروم بڪس ۽ ميفائي ڊيوائسز جي تقسيم"
@@ -13953,6 +13950,11 @@
    "t": "10-28 10:51",
    "new": "پاڻي جي فراهمي لاءِ 18 ارب ڊالرن جي سيڙپڪاري جو منصوبو",
    "old": "پاڪستان پاران پاڻي جي بهتري لاءِ 18 ارب ڊالرن جي گهر"
+  },
+  {
+   "t": "10-28 13:21",
+   "new": "بابر ۽ فخر جي حمايت",
+   "old": "پچ جو ڏوهه نه هو، خراب راند کيڏياسين: مائيڪ سمٿ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13971,5 +13973,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
