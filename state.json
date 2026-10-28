@@ -1,6 +1,5 @@
 {
  "seen": {
-  "b88ef94f2484d29b": 1792552320.6171594,
   "f447ed980c084b4f": 1792553479.0970826,
   "2dc453885b52336d": 1792554684.3437176,
   "83769c0dd2a7c898": 1792555886.3431308,
@@ -1562,7 +1561,9 @@
   "57cd43c1c84d1eca": 1793154075.2986112,
   "3e7cef633eba3494": 1793155271.0421586,
   "6c3877af7733a197": 1793155871.5618746,
-  "1661fff96c532c5d": 1793155871.562066
+  "1661fff96c532c5d": 1793155871.562066,
+  "ed36705c832f8bc0": 1793157915.1858048,
+  "f1fbc297def2ea51": 1793157915.1859753
  },
  "pending": {},
  "queue": [],
@@ -1662,7 +1663,7 @@
  "sindh_single": {
   "date": "2026-10-28",
   "count": 0,
-  "last": 1793118095.412225,
+  "last": 1793157905.0113513,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1688,18 +1689,8 @@
    "361772a71df0a229"
   ]
  },
- "last_post_id": "1444130002106066_122114580153503839",
+ "last_post_id": "1444130002106066_122114584923503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122114323929503839",
-   "title": "نوشهروفيروز ۾ صفائي سٿرائي ۽ روڊن جي مرمت جو ڪم شروع",
-   "t": 1793097933.4558554,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122114323929503839"
-  },
   {
    "id": "1444130002106066_122114331771503839",
    "title": "مورو شهر ۾ صفائي نه ٿيڻ سبب گندگي جا دڪا لڳي ويا",
@@ -2010,6 +2001,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122114577303503839"
+  },
+  {
+   "id": "1444130002106066_122114584923503839",
+   "title": "وفاقي وزير پارڪ کي مقامي فصلن جي پوکيءَ ۽ زرعي ٽيڪنالاجي جي واڌاري تي خاص توجهه ڏيڻ جي",
+   "t": 1793157940.1098356,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122114584923503839"
   }
  ],
  "share_sent": {
@@ -2155,7 +2156,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 08:12",
+  "time": "2026-10-28 08:25",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2165,22 +2166,16 @@
  },
  "agri_news": {
   "date": "2026-10-28",
-  "count": 1,
-  "last": 1793137328.6447334
+  "count": 2,
+  "last": 1793157940.1098201
  },
  "all_posts": {
   "date": "2026-10-28",
-  "count": 11,
-  "last": 1793156547.528513
+  "count": 12,
+  "last": 1793157933.4574964
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122110802517503839",
-    "sec": "district",
-    "cat": "district",
-    "t": 1792428267
-   },
    {
     "id": "1444130002106066_122110802793503839",
     "sec": "district",
@@ -4574,6 +4569,12 @@
     "sec": "public_news",
     "cat": "electricity_gas",
     "t": 1793156010
+   },
+   {
+    "id": "1444130002106066_122114584923503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1793157940
    }
   ]
  },
@@ -7406,15 +7407,11 @@
  },
  "ai_usage": {
   "date": "2026-10-28",
-  "ok": 83,
-  "fail": 144,
-  "limit": 144
+  "ok": 88,
+  "fail": 152,
+  "limit": 152
  },
  "posted_heads": [
-  {
-   "h": "England players celebrated the Pakistani batsman wicket (Babar Azam bowled by Gus Atkinson )during the one-day international (ODI) tri-serie",
-   "t": 1792992093
-  },
   {
    "h": "ملير: نوڪريءَ جو ڏٽو ڏئي 59 ڇوڪرين جا موبائل فون ڦريندڙ مک جوابدار گرفتار",
    "t": 1792992683
@@ -7730,10 +7727,14 @@
   {
    "h": "'72% of Karachi feeders free of loadshedding'",
    "t": 1793156010
+  },
+  {
+   "h": "Minister directs PARC to focus on indigenous crop varieties, commercialization of agricultural technologies",
+   "t": 1793157940
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 08:12",
+  "time": "2026-10-28 08:25",
   "steps": []
  },
  "roundup_am": "2026-10-28",
@@ -7836,12 +7837,12 @@
  },
  "article_diag": {
   "date": "2026-10-28",
-  "tried": 13,
-  "decoded": 13,
+  "tried": 14,
+  "decoded": 14,
   "text": 12,
   "story": 11
  },
- "ai_last_error": "08:02 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "08:25 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-28",
   "models": [
@@ -7855,9 +7856,9 @@
  },
  "img_diag": {
   "date": "2026-10-28",
-  "tried": 10,
+  "tried": 11,
   "gemini": 0,
-  "pollinations": 4,
+  "pollinations": 5,
   "skip": 1,
   "fail": 11,
   "last_note": "electricity meter and bill",
@@ -7883,37 +7884,37 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
    "ok": 52,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
    "ok": 51,
-   "fail": 1,
+   "fail": 2,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 2,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
    "ok": 51,
-   "fail": 1,
+   "fail": 2,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 2,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7921,21 +7922,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8190,12 +8191,12 @@
   "date": "2026-10-28",
   "district": 0,
   "sindh": 2,
-  "pakistan": 8
+  "pakistan": 9
  },
  "report_acc": {
-  "posted": 0,
-  "found": 5,
-  "old": 5,
+  "posted": 1,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8227,8 +8228,8 @@
   "date": "2026-10-28",
   "count": 1,
   "last": 1793137266.6974535,
-  "city_i": 18,
-  "dry": 1793155859.3477404
+  "city_i": 22,
+  "dry": 1793157807.6510828
  },
  "gemini_day_dead": {
   "day": "2026-10-27",
@@ -8308,14 +8309,6 @@
   92058803
  ],
  "reel_pool": [
-  {
-   "k": "220d061ef310d19f",
-   "h": "سنڌ ۽ ملڪ ۾ هارين جو نقصان",
-   "x": "هارين کي فصلن جي ٿيندڙ نقصانن کي هنگامي بنيادن تي حل ڪرڻ جي ضرورت آهي!",
-   "t": 1792984365,
-   "s": false,
-   "r": 0
-  },
   {
    "k": "e7679f6fa460f0b5",
    "h": "برازيل ۾ صدارتي چونڊون، لولا دا سلوا چوٿون ڀيرو صدر چونڊجي ويو",
@@ -8995,6 +8988,14 @@
    "t": 1793156010,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "7c4fcbfba3582c67",
+   "h": "مقامي فصلن ۽ زرعي ٽيڪنالاجي تي زور",
+   "x": "وفاقي وزير پارڪ کي مقامي فصلن جي پوکيءَ ۽ زرعي ٽيڪنالاجي جي واڌاري تي خاص توجهه ڏيڻ جي هدايت ڪري ڇڏي آهي! بيان: وفاقي وزير",
+   "t": 1793157940,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9008,13 +9009,6 @@
   "last": 1793107884.5611491
  },
  "tg_debug": [
-  {
-   "t": "10-28 02:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-28 02:10",
    "ok": true,
@@ -9287,35 +9281,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "10-28 08:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-10-28",
  "recent_posts": [
-  {
-   "t": 1792984365,
-   "h": "سنڌ ۽ ملڪ ۾ هارين جو نقصان",
-   "b": "هارين کي فصلن جي ٿيندڙ نقصانن کي هنگامي بنيادن تي حل ڪرڻ جي ضرورت آهي!",
-   "tt": [
-    "سنڌ",
-    "ملڪ",
-    "نقصان",
-    "هارين"
-   ],
-   "bt": [
-    "اهي",
-    "بنيادن",
-    "سنڌ",
-    "ضرورت",
-    "فصلن",
-    "ملڪ",
-    "نقصان",
-    "نقصانن",
-    "هارين",
-    "هنگامي",
-    "ٿيندڙ",
-    "ڪرڻ"
-   ]
-  },
   {
    "t": 1792987282,
    "h": "اڄ جون نوڪريون (نوشهروفيروز ۽ سنڌ)",
@@ -13856,6 +13832,37 @@
     "گريڊ",
     "گلگت",
     "گهرن"
+   ]
+  },
+  {
+   "t": 1793157940,
+   "h": "مقامي فصلن ۽ زرعي ٽيڪنالاجي تي زور",
+   "b": "وفاقي وزير پارڪ کي مقامي فصلن جي پوکيءَ ۽ زرعي ٽيڪنالاجي جي واڌاري تي خاص توجهه ڏيڻ جي هدايت ڪري ڇڏي آهي!",
+   "tt": [
+    "زرعي",
+    "زور",
+    "فصلن",
+    "مقامي",
+    "ٽيڪنالاجي"
+   ],
+   "bt": [
+    "اهي",
+    "بيان",
+    "توجهه",
+    "خاص",
+    "زرعي",
+    "زور",
+    "فصلن",
+    "مقامي",
+    "هدايت",
+    "واڌاري",
+    "وزير",
+    "وفاقي",
+    "ٽيڪنالاجي",
+    "پارڪ",
+    "پوڪيء",
+    "ڇڏي",
+    "ڏيڻ"
    ]
   }
  ],
