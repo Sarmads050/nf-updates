@@ -2124,10 +2124,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 17:11",
+  "time": "2026-10-28 17:21",
   "items": 28,
   "sample": [
-   "Sikkim 184/10 & 87/4 * v Nagaland 187/10 & 208/10",
+   "Sikkim 87/4 & 184/10 * v Nagaland 208/10 & 187/10",
    "Jharkhand 131/4 * v Delhi 515/5",
    "Odisha 194/10 v Services 13 *"
   ]
@@ -7802,7 +7802,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 17:11",
+  "time": "2026-10-28 17:21",
   "steps": []
  },
  "roundup_am": "2026-10-28",
@@ -7951,7 +7951,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 106,
+   "ok": 107,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7959,7 +7959,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 104,
+   "ok": 105,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7967,7 +7967,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 104,
+   "ok": 105,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7975,14 +7975,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 107,
+   "ok": 108,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 107,
+   "ok": 108,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7990,21 +7990,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 107,
+   "ok": 108,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 107,
+   "ok": 108,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 107,
+   "ok": 108,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8238,8 +8238,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 4,
-  "old": 4,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8271,8 +8271,8 @@
   "date": "2026-10-28",
   "count": 8,
   "last": 1793186461.8641503,
-  "city_i": 20,
-  "dry": 1793189466.5965006
+  "city_i": 24,
+  "dry": 1793190070.2918475
  },
  "gemini_day_dead": {
   "day": "2026-10-28",
@@ -9041,13 +9041,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-28 10:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-28 11:00",
    "ok": true,
    "n": 0,
@@ -9315,6 +9308,13 @@
   },
   {
    "t": "10-28 17:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 17:20",
    "ok": true,
    "n": 0,
    "ids": [],
