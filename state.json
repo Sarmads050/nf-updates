@@ -1,7 +1,5 @@
 {
  "seen": {
-  "0f7663a2bf2a595e": 1792549858.0869458,
-  "140679b1212111be": 1792549889.4546824,
   "f9e71f622a88f6ce": 1792551084.9752169,
   "2e6b4c7ffb6bf094": 1792551084.9752202,
   "2860a5d1ab0333d0": 1792551084.9752212,
@@ -1565,7 +1563,8 @@
   "fa1e05aa7c6505b3": 1793151687.2699847,
   "23f131059c4dfe25": 1793151687.2701771,
   "ff8ece0fce603c59": 1793152311.6104238,
-  "57cd43c1c84d1eca": 1793154075.2986112
+  "57cd43c1c84d1eca": 1793154075.2986112,
+  "3e7cef633eba3494": 1793155271.0421586
  },
  "pending": {},
  "queue": [],
@@ -2161,7 +2160,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 07:30",
+  "time": "2026-10-28 07:41",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -7412,9 +7411,9 @@
  },
  "ai_usage": {
   "date": "2026-10-28",
-  "ok": 65,
-  "fail": 114,
-  "limit": 114
+  "ok": 68,
+  "fail": 120,
+  "limit": 120
  },
  "posted_heads": [
   {
@@ -7739,7 +7738,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 07:31",
+  "time": "2026-10-28 07:41",
   "steps": []
  },
  "roundup_am": "2026-10-27",
@@ -7842,12 +7841,12 @@
  },
  "article_diag": {
   "date": "2026-10-28",
-  "tried": 11,
-  "decoded": 11,
-  "text": 10,
-  "story": 9
+  "tried": 12,
+  "decoded": 12,
+  "text": 11,
+  "story": 10
  },
- "ai_last_error": "07:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "07:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-28",
   "models": [
@@ -7888,7 +7887,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7896,7 +7895,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7904,7 +7903,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7912,14 +7911,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7927,21 +7926,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8200,8 +8199,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 15,
-  "old": 15,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8233,8 +8232,8 @@
   "date": "2026-10-28",
   "count": 1,
   "last": 1793137266.6974535,
-  "city_i": 10,
-  "dry": 1793154063.8463178
+  "city_i": 14,
+  "dry": 1793155261.1768248
  },
  "gemini_day_dead": {
   "day": "2026-10-27",
@@ -9007,13 +9006,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-28 01:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-28 01:30",
    "ok": true,
    "n": 0,
@@ -9281,6 +9273,13 @@
   },
   {
    "t": "10-28 07:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 07:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13769,11 +13768,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-26 06:01",
-   "new": "شاداب خان شاندار راند پيش ڪندي انگلينڊ کي شڪست ڏئي ڇڏي",
-   "old": "پاڪستان جي انگلينڊ خلاف شاندار سوڀ"
-  },
-  {
    "t": "10-26 06:31",
    "new": "شاداب جي شاندار راند، پاڪستان تاريخ رقم ڪري ورتي",
    "old": "پاڪستان جي انگلينڊ خلاف شاندار سوڀ"
@@ -13917,6 +13911,11 @@
    "t": "10-28 06:41",
    "new": "سنڌ ۾ زرعي پيداوار وڌائڻ لاءِ عملي قدم",
    "old": "سنڌ ۾ تيل وارن ٻج جو فصل وڌائڻ جو فيصلو"
+  },
+  {
+   "t": "10-28 07:41",
+   "new": "پاڪستاني بيٽنگ ڪوچ جو تسليم",
+   "old": "پچ جو ڏوهه نه هو، خراب راند کيڏياسين: مائيڪ سمٿ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13935,5 +13934,6 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606
+ "approve_last": 1792771860.5720606,
+ "_dup": true
 }
