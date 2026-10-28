@@ -20,11 +20,9 @@
    "time": "evening",
    "label": "Aangan • Shaam",
    "cast": {
-    "ABBA": "charpai_l"
+    "ABBA": "charpai_c"
    },
-   "props": {
-    "ABBA": "newspaper"
-   },
+   "props": {},
    "lines": [
     {
      "who": "NARRATOR",
@@ -34,7 +32,7 @@
      "how": "warm storyteller, playful, slow and clear",
      "roman": "Nawabshah mein *sardi* shuru ho gayi hai... aur aaj shaam Abba ko yaad aa gayi *garam mungphali*!",
      "urdu": "نواب شاہ میں سردی شروع ہو گئی ہے... اور آج شام ابا کو یاد آ گئی گرم مونگ پھلی!",
-     "gap": 0.4
+     "gap": 0.3
     },
     {
      "who": "ABBA",
@@ -51,49 +49,9 @@
       ],
       [
        0.5,
-       "point_up"
+       "explain"
       ]
      ]
-    },
-    {
-     "who": "AMMI",
-     "to": "ABBA",
-     "emo": "warm",
-     "shot": "auto",
-     "how": "caring wife offering her home remedy, confident",
-     "roman": "Pehle yeh *adrak wali chai* pijiye. Thand ka sab se acha *ilaaj* yahi hai!",
-     "urdu": "پہلے یہ ادرک والی چائے پیجیے۔ ٹھنڈ کا سب سے اچھا علاج یہی ہے!",
-     "pose": "give",
-     "before": [
-      {
-       "do": "enter",
-       "who": "AMMI",
-       "slot": "stand_l"
-      },
-      {
-       "do": "prop",
-       "who": "AMMI",
-       "prop": "cup"
-      },
-      {
-       "do": "prop",
-       "who": "ABBA",
-       "prop": null
-      },
-      {
-       "do": "sfx",
-       "name": "door",
-       "wait": 0.3
-      }
-     ],
-     "give": {
-      "to": "ABBA",
-      "prop": "cup",
-      "at": 0.55
-     },
-     "react": {
-      "ABBA": "happy"
-     }
     },
     {
      "who": "ABBA",
@@ -130,7 +88,7 @@
      "urdu": "آبجیکشن، ابا! اتنی ٹھنڈ میں باہر بھیجنا... یہ انسانی حقوق کا مسئلہ ہے!",
      "pose": "objection",
      "joke": true,
-     "gap": 0.7,
+     "gap": 0.5,
      "react": {
       "*": "laugh",
       "ABBA": "teasing"
@@ -149,7 +107,7 @@
       {
        "do": "enter",
        "who": "MEHAK",
-       "slot": "stand_c"
+       "slot": "stand_l"
       },
       {
        "do": "sfx",
@@ -204,7 +162,7 @@
      "react": {
       "MEHAK": "teasing"
      },
-     "gap": 0.4
+     "gap": 0.3
     }
    ]
   },
@@ -220,16 +178,6 @@
     "DANIYAL": "bag"
    },
    "lines": [
-    {
-     "who": "NARRATOR",
-     "to": "front",
-     "emo": "calm",
-     "shot": "wide",
-     "how": "storyteller bridge, light and playful",
-     "roman": "*Paanch minute* baad... gali ki dukan ke bahar.",
-     "urdu": "پانچ منٹ بعد... گلی کی دکان کے باہر۔",
-     "gap": 0.3
-    },
     {
      "who": "DANIYAL",
      "to": "MEHAK",
@@ -266,7 +214,7 @@
      "urdu": "یہ چوری نہیں ہے، مہک۔ یہ ثبوت کی جانچ ہے!",
      "pose": "explain",
      "joke": true,
-     "gap": 0.7,
+     "gap": 0.5,
      "react": {
       "*": "laugh"
      }
@@ -299,19 +247,6 @@
      "looks": {
       "DANIYAL": "FARAZ",
       "MEHAK": "FARAZ"
-     }
-    },
-    {
-     "who": "MEHAK",
-     "to": "FARAZ",
-     "emo": "teasing",
-     "shot": "auto",
-     "how": "telling on her brother, giggling",
-     "roman": "Ada Faraz, hum Abba ki mungphali la rahe hain... aur Daniyal Bhai *raste mein hi* kha rahe hain!",
-     "urdu": "ادا فراز، ہم ابا کی مونگ پھلی لا رہے ہیں... اور دانیال بھائی راستے میں ہی کھا رہے ہیں!",
-     "pose": "point_other",
-     "react": {
-      "DANIYAL": "sheepish"
      }
     },
     {
@@ -359,7 +294,7 @@
      "who": "ABBA",
      "to": "DANIYAL",
      "emo": "happy",
-     "shot": "group",
+     "shot": "wide",
      "how": "excited, rubbing hands, reaching out",
      "roman": "Aa gaye! Lao, meri *garam mungphali*!",
      "urdu": "آ گئے! لاؤ، میری گرم مونگ پھلی!",
@@ -446,23 +381,10 @@
      "urdu": "ابا... وہ... ٹھنڈ سے مونگ پھلی سکڑ گئی ہے!",
      "pose": "shrug",
      "joke": true,
-     "gap": 0.7,
+     "gap": 0.5,
      "react": {
       "*": "laugh",
       "ABBA": "confused"
-     }
-    },
-    {
-     "who": "MEHAK",
-     "to": "ABBA",
-     "emo": "teasing",
-     "shot": "auto",
-     "how": "proud little accountant, reading out her count",
-     "roman": "Abba, mere paas *poora hisaab* hai. Daniyal Bhai ne raste mein *bees dane* khaye!",
-     "urdu": "ابا، میرے پاس پورا حساب ہے۔ دانیال بھائی نے راستے میں بیس دانے کھائے!",
-     "pose": "point_up",
-     "react": {
-      "DANIYAL": "sheepish"
      }
     },
     {
@@ -477,19 +399,6 @@
      "react": {
       "DANIYAL": "sheepish",
       "ABBA": "surprised"
-     }
-    },
-    {
-     "who": "DANIYAL",
-     "to": "FARAZ",
-     "emo": "surprised",
-     "shot": "close",
-     "how": "betrayed, dramatic gasp, accidentally confessing",
-     "roman": "Ada! Main ne to aap ko *hissa* bhi offer kiya tha!",
-     "urdu": "ادا! میں نے تو آپ کو حصہ بھی آفر کیا تھا!",
-     "pose": "arms_up",
-     "react": {
-      "FARAZ": "laugh"
      }
     },
     {
@@ -523,31 +432,6 @@
      }
     },
     {
-     "who": "ABBA",
-     "to": "front",
-     "emo": "warm",
-     "shot": "close",
-     "how": "nostalgic old-school father, slow and warm",
-     "roman": "Humare zamane mein *thori si* mungphali poora khandan mil kar khata tha...",
-     "urdu": "ہمارے زمانے میں تھوڑی سی مونگ پھلی پورا خاندان مل کر کھاتا تھا...",
-     "pose": "explain"
-    },
-    {
-     "who": "ABBA",
-     "to": "front",
-     "emo": "laugh",
-     "shot": "punch",
-     "how": "punchline with a chuckle",
-     "roman": "...aur *chhilte chhilte* poori raat guzar jaati thi!",
-     "urdu": "...اور چھیلتے چھیلتے پوری رات گزر جاتی تھی!",
-     "pose": "shrug",
-     "joke": true,
-     "gap": 0.6,
-     "react": {
-      "*": "laugh"
-     }
-    },
-    {
      "who": "AMMI",
      "to": "front",
      "emo": "warm",
@@ -570,7 +454,7 @@
      "urdu": "سب کو حصہ ملے گا... سوائے دانیال کے! اس کا حصہ راستے میں مل چکا ہے!",
      "pose": "point_other",
      "joke": true,
-     "gap": 1.0,
+     "gap": 0.8,
      "react": {
       "*": "laugh",
       "DANIYAL": "sheepish"
