@@ -1,7 +1,5 @@
 {
  "seen": {
-  "4954c50517ac97e7": 1792591924.398897,
-  "ab1a87060c873116": 1792591924.3988998,
   "5bc53462fbecc4af": 1792593764.6619487,
   "631f779369dd0b09": 1792593764.664454,
   "eda98a6e930a7279": 1792593764.6650488,
@@ -2163,10 +2161,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 19:14",
+  "time": "2026-10-28 19:20",
   "items": 29,
   "sample": [
-   "Sikkim 184/10 & 87/4 * v Nagaland 187/10 & 208/10",
+   "Sikkim 87/4 & 184/10 * v Nagaland 187/10 & 208/10",
    "Jharkhand 131/4 * v Delhi 515/5",
    "Odisha 194/10 v Services 13 *"
   ]
@@ -7853,7 +7851,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 19:14",
+  "time": "2026-10-28 19:20",
   "steps": []
  },
  "roundup_am": "2026-10-28",
@@ -8002,7 +8000,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 119,
+   "ok": 120,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8010,7 +8008,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 117,
+   "ok": 118,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8018,7 +8016,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 117,
+   "ok": 118,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8026,14 +8024,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8041,21 +8039,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8289,8 +8287,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 4,
-  "old": 4,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9037,13 +9035,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-28 12:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-28 13:00",
    "ok": true,
    "n": 0,
@@ -9311,6 +9302,13 @@
   },
   {
    "t": "10-28 19:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 19:20",
    "ok": true,
    "n": 0,
    "ids": [],
