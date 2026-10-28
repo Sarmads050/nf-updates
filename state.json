@@ -1,11 +1,5 @@
 {
  "seen": {
-  "83769c0dd2a7c898": 1792555886.3431308,
-  "bdf47c31210ab300": 1792555886.3431334,
-  "d7a03cce1bc95c36": 1792555886.3431342,
-  "bd19457065d55544": 1792555886.3431356,
-  "c6440a355a85ed8b": 1792555886.3431368,
-  "5c5f1897001bff63": 1792555886.343324,
   "5c5b36f61e111107": 1792557080.9580874,
   "c5f1e454265fa923": 1792557094.1192868,
   "c1bd442d4f0cb0b3": 1792558266.6908555,
@@ -1563,7 +1557,8 @@
   "ed36705c832f8bc0": 1793157915.1858048,
   "f1fbc297def2ea51": 1793157915.1859753,
   "b00b524376d0e35d": 1793159483.6559618,
-  "7cc595d8e9074235": 1793160684.7737138
+  "7cc595d8e9074235": 1793160684.7737138,
+  "ac533117b6aa43ac": 1793161284.499812
  },
  "pending": {},
  "queue": [],
@@ -1661,18 +1656,8 @@
    "361772a71df0a229"
   ]
  },
- "last_post_id": "1444130002106066_122114596581503839",
+ "last_post_id": "1444130002106066_122114601009503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122114338821503839",
-   "title": "ڪنڊيارو ۾ زرعي زراعت کي پاڻي نه ملڻ خلاف آبادگارن جو احتجاج",
-   "t": 1793100105.5819266,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122114338821503839"
-  },
   {
    "id": "1444130002106066_122114344887503839",
    "title": "محراب پور ۾ بجلي جي اڻلڀ ۽ لوڊشيڊنگ خلاف احتجاج",
@@ -1984,6 +1969,15 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122114596581503839"
+  },
+  {
+   "id": "1444130002106066_122114601009503839",
+   "title": "پاڪستان ملڪ ۾ پاڻي جي سلامتي ۽ بهتري لاءِ 18 ارب ڊالرن جي فنڊنگ جي گهر ڪئي آهي",
+   "t": 1793161323.3888469,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122114601009503839"
   }
  ],
  "share_sent": {
@@ -2129,7 +2123,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-28 09:11",
+  "time": "2026-10-28 09:22",
   "items": 27,
   "sample": [
    "Diasqua Little Sai Wan Cricket Club 122/3 * v United Services Recreation Club",
@@ -2144,17 +2138,11 @@
  },
  "all_posts": {
   "date": "2026-10-28",
-  "count": 13,
-  "last": 1793160080.7214103
+  "count": 14,
+  "last": 1793161315.2156444
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122110802793503839",
-    "sec": "district",
-    "cat": "district",
-    "t": 1792428276
-   },
    {
     "id": "1444130002106066_122110802997503839",
     "sec": "district",
@@ -4548,13 +4536,19 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1793157940
+   },
+   {
+    "id": "1444130002106066_122114601009503839",
+    "sec": "public_news",
+    "cat": "water",
+    "t": 1793161323
    }
   ]
  },
  "public_news": {
   "date": "2026-10-28",
-  "count": 6,
-  "last": 1793156010.019301
+  "count": 7,
+  "last": 1793161323.3888264
  },
  "trends": {
   "last": 1793151062.532026,
@@ -7380,15 +7374,11 @@
  },
  "ai_usage": {
   "date": "2026-10-28",
-  "ok": 92,
-  "fail": 160,
-  "limit": 160
+  "ok": 96,
+  "fail": 166,
+  "limit": 166
  },
  "posted_heads": [
-  {
-   "h": "ملير: نوڪريءَ جو ڏٽو ڏئي 59 ڇوڪرين جا موبائل فون ڦريندڙ مک جوابدار گرفتار",
-   "t": 1792992683
-  },
   {
    "h": "مري ۾ خوفناڪ حادثو، شادي تان موٽندڙ هڪ ئي خاندان جا 7 ڄڻا فوت",
    "t": 1792993876
@@ -7704,10 +7694,14 @@
   {
    "h": "Minister directs PARC to focus on indigenous crop varieties, commercialization of agricultural technologies",
    "t": 1793157940
+  },
+  {
+   "h": "Pakistan seeks $18bn to improve water security",
+   "t": 1793161323
   }
  ],
  "last_errors": {
-  "time": "2026-10-28 09:11",
+  "time": "2026-10-28 09:22",
   "steps": []
  },
  "roundup_am": "2026-10-28",
@@ -7810,12 +7804,12 @@
  },
  "article_diag": {
   "date": "2026-10-28",
-  "tried": 15,
-  "decoded": 15,
+  "tried": 16,
+  "decoded": 16,
   "text": 13,
   "story": 12
  },
- "ai_last_error": "09:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "09:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-28",
   "models": [
@@ -7829,9 +7823,9 @@
  },
  "img_diag": {
   "date": "2026-10-28",
-  "tried": 11,
+  "tried": 12,
   "gemini": 0,
-  "pollinations": 5,
+  "pollinations": 6,
   "skip": 1,
   "fail": 11,
   "last_note": "electricity meter and bill",
@@ -7856,7 +7850,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-28",
-   "ok": 57,
+   "ok": 58,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7864,7 +7858,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-28",
-   "ok": 56,
+   "ok": 57,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7872,7 +7866,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-28",
-   "ok": 56,
+   "ok": 57,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7880,14 +7874,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7895,21 +7889,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-28",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-28",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-28",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 15,
    "fail_streak": 0
@@ -8164,12 +8158,12 @@
   "date": "2026-10-28",
   "district": 0,
   "sindh": 2,
-  "pakistan": 9
+  "pakistan": 10
  },
  "report_acc": {
-  "posted": 0,
-  "found": 5,
-  "old": 5,
+  "posted": 1,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8201,8 +8195,8 @@
   "date": "2026-10-28",
   "count": 1,
   "last": 1793137266.6974535,
-  "city_i": 12,
-  "dry": 1793160670.5853128
+  "city_i": 16,
+  "dry": 1793161268.1730738
  },
  "gemini_day_dead": {
   "day": "2026-10-27",
@@ -8969,6 +8963,14 @@
    "t": 1793157940,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "70f017bb1a5ce708",
+   "h": "پاڪستان پاران پاڻي جي بهتري لاءِ 18 ارب ڊالرن جي گهر",
+   "x": "پاڪستان ملڪ ۾ پاڻي جي سلامتي ۽ بهتري لاءِ 18 ارب ڊالرن جي فنڊنگ جي گهر ڪئي آهي!",
+   "t": 1793161323,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8982,13 +8984,6 @@
   "last": 1793107884.5611491
  },
  "tg_debug": [
-  {
-   "t": "10-28 02:57",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-28 03:00",
    "ok": true,
@@ -9257,6 +9252,13 @@
   },
   {
    "t": "10-28 09:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-28 09:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13850,6 +13852,35 @@
     "نوشهروفيروز",
     "نوڪريون"
    ]
+  },
+  {
+   "t": 1793161323,
+   "h": "پاڪستان پاران پاڻي جي بهتري لاءِ 18 ارب ڊالرن جي گهر",
+   "b": "پاڪستان ملڪ ۾ پاڻي جي سلامتي ۽ بهتري لاءِ 18 ارب ڊالرن جي فنڊنگ جي گهر ڪئي آهي!",
+   "tt": [
+    "#18",
+    "ارب",
+    "بهتري",
+    "پاران",
+    "پاڪستان",
+    "پاڻي",
+    "ڊالرن",
+    "گهر"
+   ],
+   "bt": [
+    "#18",
+    "ارب",
+    "اهي",
+    "بهتري",
+    "سلامتي",
+    "فنڊنگ",
+    "ملڪ",
+    "پاران",
+    "پاڪستان",
+    "پاڻي",
+    "ڊالرن",
+    "گهر"
+   ]
   }
  ],
  "repeat_log": [
@@ -14020,6 +14051,5 @@
  },
  "rv_seq": 98,
  "approve_next": 1792771906.5617883,
- "approve_last": 1792771860.5720606,
- "_dup": true
+ "approve_last": 1792771860.5720606
 }
