@@ -3546,11 +3546,13 @@ def kawish_read(page_no, img):
               "printed letter by letter, \"printed_headline\" (the item's printed headline) and \"dateline\" (the "
               "place/byline printed at the start of the item's text, e.g. 'مٺي (رپورٽ)'). NEVER change or add a place: "
               "use only the city/town printed in that item. Keep deaths vs injuries, arrests etc. exactly as printed. "
+              "\"search_en\" and \"search_ur\": 3-6 search keywords for this news in English and in Urdu (place + "
+              "event), to find the same news on other news websites. "
               "speaker: if the item is mainly a statement, speech, claim or press conference by a "
               "person (politician, minister, official), that person's name and position in Sindhi, else \"\". sensitive=true for murder, firing, robbery, rape/abuse, kidnapping "
               "(road accidents and drowning are NOT sensitive; Theft, burglary, mobile/bike snatching, and quarrels or fights without killing, firing or serious injury are NOT sensitive.).\n"
               "Return JSON: {\"items\": [{\"type\": string, \"headline\": string, \"summary\": string, \"card\": string, "
-              "\"printed_headline\": string, \"dateline\": string, \"district\": bool, \"sensitive\": bool, \"place\": string, \"speaker\": string, \"confidence\": \"high\"|\"medium\"|\"low\"}]}")
+              "\"printed_headline\": string, \"dateline\": string, \"search_en\": string, \"search_ur\": string, \"district\": bool, \"sensitive\": bool, \"place\": string, \"speaker\": string, \"confidence\": \"high\"|\"medium\"|\"low\"}]}")
     out = ask_gemini(prompt, image=img, mime="image/jpeg")
     if not isinstance(out, dict):
         return None  # AI ne jawab nahi diya: safha baad mein dobara
@@ -3589,7 +3591,99 @@ def kawish_verify(page_no, img, items):
         else:
             log("KAWISH TASDEEQ FAIL:", items[i]["head"][:60], "|", str(c.get("problem", ""))[:100], "| jagah:", place[:40])
             STATS["kawish_rejected"] = STATS.get("kawish_rejected", 0) + 1
+            items[i]["verify_problem"] = str(c.get("problem", ""))[:200]
     return good
+
+
+_XFEEDS = []
+
+
+def other_sources(item):
+    """Wohi khabar doosri jagah: Google News (Urdu + English) + Sindhi akhbaron ki feeds (pichle 2 din)."""
+    out = []
+    for lang, q in (("ur", item.get("search_ur")), ("en", item.get("search_en"))):
+        q = clean_text(str(q or ""))
+        if len(q) < 4:
+            continue
+        try:
+            feed = feedparser.parse(requests.get(gnews_url(q, lang), timeout=25, headers=UA).content)
+        except Exception as e:
+            log("cross-check search error:", e)
+            continue
+        for e in feed.entries[:8]:
+            src = e.get("source") or {}
+            out.append({"title": clean_text(e.get("title", "")), "text": clean_text(e.get("summary", ""))[:400],
+                        "source": (src.get("title") if hasattr(src, "get") else "") or "Google News"})
+    if not _XFEEDS:  # Sindhi akhbar: har run mein ek dafa
+        for f in [f for f in CONFIG.get("extra_feeds", []) if f.get("lang_gate") == "sindhi"]:
+            try:
+                fd = feedparser.parse(requests.get(f["url"], timeout=25, headers=UA).content)
+            except Exception:
+                continue
+            for e in fd.entries[:25]:
+                body = ""
+                for c in (e.get("content") or []):
+                    body = clean_text(c.get("value", "")) or body
+                _XFEEDS.append({"title": clean_text(e.get("title", "")), "text": (body or clean_text(e.get("summary", "")))[:500],
+                                "source": f.get("name", "")})
+        _XFEEDS.append({"title": "", "text": "", "source": ""})  # khaali bhi ho to dobara na laao
+    words = _tokens(item["head"] + " " + item.get("printed", "")) - {"#"}
+    for x in _XFEEDS:
+        if x["title"] and len(words & _tokens(x["title"] + " " + x["text"])) >= 2:
+            out.append(x)
+    seen_, uniq = set(), []
+    for x in out:
+        k = item_key(x["title"])
+        if x["title"] and k not in seen_:
+            seen_.add(k)
+            uniq.append(x)
+    return uniq[:14]
+
+
+def cross_check(item):
+    """Kawish ki khabar par shak ho to doosre sources se milao. Jo baat zyada sources mein ek jaisi ho wohi likho.
+    Wapas: theek ki hui item, ya None (koi doosra source nahi mila / mel nahi)."""
+    cands = other_sources(item)
+    if not cands:
+        log("cross-check: koi doosra source nahi mila:", item["head"][:60])
+        return None
+    listing = "\n\n".join(f"[{i}] ({c['source']}) {c['title']}\n{c['text']}" for i, c in enumerate(cands))
+    prompt = ("A news item was read from a newspaper page image, but the reading may contain mistakes (wrong place, "
+              "wrong numbers, died vs injured mixed up).\nPRINTED HEADLINE (most reliable): " + item.get("printed", "") +
+              "\nOUR READING: " + item["head"] + " — " + item["summary"][:800] +
+              ("\nKNOWN PROBLEM: " + item["verify_problem"] if item.get("verify_problem") else "") +
+              "\n\nOther news sources:\n" + listing +
+              "\n\nFind the other sources that report the SAME event (same incident, same place). Compare the facts. "
+              "If at least one other source reports it, write the news in Sindhi (Arabic script) using ONLY the facts "
+              "that the printed headline and the matching sources agree on (where they differ, follow what most of them "
+              "say; leave out anything uncertain). Never add a place that is not in the printed headline or the matching "
+              "sources. Return JSON: {\"matches\": [numbers], \"agree\": bool, \"headline\": string, "
+              "\"summary\": string (complete news with all agreed facts, 3-10 sentences), \"card\": string (all key "
+              "facts, max 600 characters), \"place\": string}. If no source matches, return {\"matches\": []}.")
+    res = ask_gemini(prompt) if GEMINI_KEY else ask_openrouter(prompt)
+    if not isinstance(res, dict):
+        return None
+    idx = []
+    for i in res.get("matches") or []:
+        try:
+            if 0 <= int(i) < len(cands):
+                idx.append(int(i))
+        except (TypeError, ValueError):
+            pass
+    head, summ = clean_text(str(res.get("headline", ""))), clean_text(str(res.get("summary", "")))
+    if not idx or len(head) < 5 or len(summ) < 30 or bad_script(head + summ) or blocked_reason(head + " " + summ):
+        log("cross-check: doosre source se mel nahi:", item["head"][:60])
+        return None
+    matched = " ".join(cands[i]["title"] + " " + cands[i]["text"] for i in idx)
+    if not place_ok(head + " " + summ, item.get("printed", "") + " " + matched):
+        return None
+    srcs = list(dict.fromkeys(cands[i]["source"] for i in idx if cands[i]["source"]))[:3]
+    card = clean_text(str(res.get("card", "")))
+    log("cross-check PAAS:", head[:60], "| sources:", ", ".join(srcs))
+    STATS["kawish_crosschecked"] = STATS.get("kawish_crosschecked", 0) + 1
+    out = dict(item, head=head, summary=summ, card=card if len(card) >= 60 and not bad_script(card) else summ,
+               extra_sources=srcs, crosschecked=True)
+    return out
 
 
 def kawish_store(pdate, pages, items=None):
@@ -3676,6 +3770,7 @@ def handle_kawish():
                 continue
             rank_ = city_rank(printed)
             page_items.append({"key": k, "page": n, "head": head, "summary": summ, "card": cardt, "printed": printed,
+                          "search_en": it.get("search_en", ""), "search_ur": it.get("search_ur", ""),
                           "district": bool(it.get("district")) and bool(rank_ and rank_ <= 6),
                           "sensitive": bool(it.get("sensitive")) or keyword_sensitive(head + " " + summ),
                           "confidence": it.get("confidence", ""), "link": page_link, "message": msg})
@@ -3685,7 +3780,21 @@ def handle_kawish():
                 S["seen"].pop(x["key"], None)
             failed.append(n)
             continue
-        found += [x for i, x in enumerate(page_items) if i in good]
+        for i, x in enumerate(page_items):
+            if i in good and x.get("confidence") == "high":
+                found.append(x)
+                continue
+            fixed = cross_check(x)  # shak: doosre sources se milao
+            if fixed:
+                srcs = " + ".join(["روزاني ڪاوش (صفحو " + str(n) + ")"] + fixed["extra_sources"])
+                fixed["message"] = (f"📰 {fixed['head']}\n\n{finish(fixed['summary'])}\n\n📌 {LBL['source']}: {srcs}"
+                                    f"\n\n{footer()}")
+                rank_ = city_rank(fixed["head"] + " " + fixed.get("printed", ""))
+                fixed["district"] = bool(rank_ and rank_ <= 6) and x.get("district")
+                fixed["confidence"] = "high"
+                found.append(fixed)
+            else:
+                log("KAWISH: shak wali khabar, doosre source se tasdeeq nahi — post nahi:", x["head"][:60])
         if not test:
             st["paper"]["read"].append(n)
     st["posts"] = found
