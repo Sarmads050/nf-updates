@@ -1,8 +1,5 @@
 {
  "seen": {
-  "46d5b39fc829cd28": 1792646457.1568244,
-  "a104348049ed1848": 1792646457.1568267,
-  "02cef60ffff87135": 1792646457.1570473,
   "2984221799e358ce": 1792647661.2398736,
   "b194be1c7cc70c59": 1792647661.2398765,
   "acc238606a56799d": 1792648903.4493647,
@@ -1585,7 +1582,10 @@
   "afe0de93a3ede54a": 1793250668.251291,
   "42b14b816aa34f46": 1793251258.1600258,
   "828ec5aac61c31e9": 1793251276.1518855,
-  "8ff9cbf20c9def71": 1793251276.1518881
+  "8ff9cbf20c9def71": 1793251276.1518881,
+  "aa2faed076bc9999": 1793251869.8193471,
+  "7167761409715392": 1793251869.8193498,
+  "d5cd44f100028ba4": 1793251869.8196018
  },
  "pending": {},
  "queue": [],
@@ -1657,7 +1657,7 @@
  "sindh_single": {
   "date": "2026-10-29",
   "count": 0,
-  "last": 1793244089.3193471,
+  "last": 1793251904.257807,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2158,10 +2158,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-29 10:21",
+  "time": "2026-10-29 10:31",
   "items": 32,
   "sample": [
-   "Sikkim 184/10 & 117/5 * v Nagaland 208/10 & 187/10",
+   "Sikkim 117/5 & 184/10 * v Nagaland 208/10 & 187/10",
    "Jharkhand 131/4 * v Delhi 515/5",
    "Odisha 194/10 v Services 13 *"
   ]
@@ -7521,9 +7521,9 @@
  },
  "ai_usage": {
   "date": "2026-10-29",
-  "ok": 128,
-  "fail": 179,
-  "limit": 178
+  "ok": 132,
+  "fail": 187,
+  "limit": 186
  },
  "posted_heads": [
   {
@@ -7848,7 +7848,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-29 10:21",
+  "time": "2026-10-29 10:31",
   "steps": []
  },
  "roundup_am": "2026-10-29",
@@ -7951,12 +7951,12 @@
  },
  "article_diag": {
   "date": "2026-10-29",
-  "tried": 16,
-  "decoded": 16,
-  "text": 13,
+  "tried": 17,
+  "decoded": 17,
+  "text": 14,
   "story": 10
  },
- "ai_last_error": "10:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "10:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-29",
   "models": [
@@ -7997,7 +7997,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-29",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8005,7 +8005,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-29",
-   "ok": 64,
+   "ok": 65,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8013,7 +8013,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-29",
-   "ok": 65,
+   "ok": 66,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8021,14 +8021,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-29",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-29",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8036,21 +8036,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-29",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-29",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-29",
-   "ok": 65,
+   "ok": 66,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8285,8 +8285,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 26,
-  "old": 26,
+  "found": 39,
+  "old": 39,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9055,13 +9055,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-29 04:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-29 04:11",
    "ok": true,
    "n": 0,
@@ -9329,6 +9322,13 @@
   },
   {
    "t": "10-29 10:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-29 10:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13715,11 +13715,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-27 01:51",
-   "new": "پي ايم ڪروم بڪ اسڪيم بابت اهم خبر",
-   "old": "پنج لک ڪروم بڪس ۽ ميفائي ڊيوائسز جي تقسيم"
-  },
-  {
    "t": "10-27 02:41",
    "new": "شاداب ۽ رئوف تاريخي رڪارڊ قائم ڪري ورتو",
    "old": "وزيراعظم شهباز شريف جي پاڪستاني ڪرڪيٽ ٽيم کي واڌايون"
@@ -13863,6 +13858,11 @@
    "t": "10-29 08:31",
    "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ واڌ",
    "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ وڏو واڌارو"
+  },
+  {
+   "t": "10-29 10:31",
+   "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ واڌ",
+   "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ وڏو واڌارو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13885,5 +13885,6 @@
  "groq_disc": {
   "date": "2026-10-28",
   "model": "openai/gpt-oss-120b"
- }
+ },
+ "_dup": true
 }
