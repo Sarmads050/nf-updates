@@ -1,6 +1,5 @@
 {
  "seen": {
-  "08f2da05ad9cadf9": 1792639294.4051032,
   "293dd2a697fa02c5": 1792642271.405308,
   "90cb04219139a710": 1792642875.6577866,
   "381f54cbb2ab4fd0": 1792644079.6534328,
@@ -1568,7 +1567,12 @@
   "0b3f5ebbc294e2b4": 1793241680.7990701,
   "0613a3543c0f4ebb": 1793244074.7006533,
   "1398bd6cf419af1f": 1793244074.7006543,
-  "c36df74c7d2704eb": 1793244095.4696078
+  "c36df74c7d2704eb": 1793244095.4696078,
+  "bb1935dc074c49dc": 1793244681.5820723,
+  "e88c09f48e699f17": 1793244686.2747006,
+  "24a8ee3104dbb416": 1793244686.2747028,
+  "4fbead629a02b204": 1793244686.2747042,
+  "f17efb49108a123f": 1793244686.2748728
  },
  "pending": {},
  "queue": [],
@@ -2224,10 +2228,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-29 08:21",
+  "time": "2026-10-29 08:31",
   "items": 31,
   "sample": [
-   "Sikkim 87/4 & 184/10 * v Nagaland 187/10 & 208/10",
+   "Sikkim 184/10 & 87/4 * v Nagaland 208/10 & 187/10",
    "Jharkhand 131/4 * v Delhi 515/5",
    "Odisha 194/10 v Services 13 *"
   ]
@@ -7603,9 +7607,9 @@
  },
  "ai_usage": {
   "date": "2026-10-29",
-  "ok": 107,
-  "fail": 147,
-  "limit": 146
+  "ok": 109,
+  "fail": 151,
+  "limit": 150
  },
  "posted_heads": [
   {
@@ -7930,7 +7934,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-29 08:21",
+  "time": "2026-10-29 08:31",
   "steps": []
  },
  "roundup_am": "2026-10-29",
@@ -8033,12 +8037,12 @@
  },
  "article_diag": {
   "date": "2026-10-29",
-  "tried": 12,
-  "decoded": 12,
+  "tried": 13,
+  "decoded": 13,
   "text": 11,
   "story": 8
  },
- "ai_last_error": "08:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "08:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-29",
   "models": [
@@ -8079,7 +8083,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-29",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8087,7 +8091,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-29",
-   "ok": 53,
+   "ok": 54,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8095,7 +8099,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-29",
-   "ok": 53,
+   "ok": 54,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8103,14 +8107,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-29",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-29",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8118,21 +8122,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-29",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-29",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-29",
-   "ok": 53,
+   "ok": 54,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8367,8 +8371,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 26,
-  "old": 26,
+  "found": 39,
+  "old": 39,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8401,8 +8405,8 @@
   "date": "2026-10-29",
   "count": 1,
   "last": 1793217683.954128,
-  "city_i": 6,
-  "dry": 1793244062.4644186
+  "city_i": 10,
+  "dry": 1793244671.4316473
  },
  "gemini_day_dead": {
   "day": "2026-10-28",
@@ -9143,13 +9147,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-29 02:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-29 02:20",
    "ok": true,
    "n": 0,
@@ -9417,6 +9414,13 @@
   },
   {
    "t": "10-29 08:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-29 08:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13794,11 +13798,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-27 00:51",
-   "new": "ڪڻڪ جو امدادي اگھ مقرر",
-   "old": "پيٽرول اگهن ۽ ٽئڪسن بابت نيون خبرون"
-  },
-  {
    "t": "10-27 01:51",
    "new": "پي ايم ڪروم بڪ اسڪيم بابت اهم خبر",
    "old": "پنج لک ڪروم بڪس ۽ ميفائي ڊيوائسز جي تقسيم"
@@ -13941,6 +13940,11 @@
   {
    "t": "10-29 08:21",
    "new": "سنڌ | پٹرول ۽ ڈیزل جي قيمتفن ۾ واڌ",
+   "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ وڏو واڌارو"
+  },
+  {
+   "t": "10-29 08:31",
+   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ واڌ",
    "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ وڏو واڌارو"
   }
  ],
