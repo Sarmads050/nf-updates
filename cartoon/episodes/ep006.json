@@ -69,19 +69,6 @@
      }
     },
     {
-     "who": "AMMI",
-     "to": "MEHAK",
-     "emo": "happy",
-     "shot": "auto",
-     "how": "curious and eager, leaning forward",
-     "roman": "Kis ki shaadi hai? Jaldi *parho*, Mehak!",
-     "urdu": "کس کی شادی ہے؟ جلدی پڑھو، مہک!",
-     "pose": "beckon",
-     "react": {
-      "MEHAK": "happy"
-     }
-    },
-    {
      "who": "MEHAK",
      "to": "AMMI",
      "emo": "happy",
@@ -158,21 +145,6 @@
       "AMMI": "laugh",
       "ABBA": "sheepish"
      }
-    },
-    {
-     "who": "ABBA",
-     "to": "MEHAK",
-     "emo": "proud",
-     "shot": "auto",
-     "how": "pretending to be serious, proud, chest out",
-     "roman": "Woh kurta nahi, *yaadgaar* hai! Tum log bhi *bachat* karna seekho.",
-     "urdu": "وہ کرتا نہیں، یادگار ہے! تم لوگ بھی بچت کرنا سیکھو۔",
-     "pose": "chest",
-     "react": {
-      "MEHAK": "teasing",
-      "AMMI": "teasing"
-     },
-     "gap": 0.4
     }
    ]
   },
@@ -226,19 +198,6 @@
      "pose": "explain",
      "react": {
       "AMMI": "happy"
-     }
-    },
-    {
-     "who": "AMMI",
-     "to": "SANA",
-     "emo": "happy",
-     "shot": "two:SANA",
-     "how": "delighted, proud of her daughter-in-law",
-     "roman": "Waah Sana! *M.A. pass* bahu ka dimagh hi alag hai!",
-     "urdu": "واہ ثنا! ایم اے پاس بہو کا دماغ ہی الگ ہے!",
-     "pose": "clap",
-     "react": {
-      "SANA": "sheepish"
      }
     },
     {
@@ -491,5 +450,6 @@
     }
    ]
   }
- ]
+ ],
+ "tempo": 1.13
 }
