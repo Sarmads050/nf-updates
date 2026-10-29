@@ -1,7 +1,5 @@
 {
  "seen": {
-  "38cee8f4791d17c7": 1792645852.295098,
-  "1b9aaeb9d8734372": 1792645879.530092,
   "46d5b39fc829cd28": 1792646457.1568244,
   "a104348049ed1848": 1792646457.1568267,
   "02cef60ffff87135": 1792646457.1570473,
@@ -1584,7 +1582,10 @@
   "0a4fe6681ea21f76": 1793248871.7036085,
   "bbfbf823acb7a4c2": 1793248871.7037315,
   "354760d644545578": 1793249463.9712768,
-  "afe0de93a3ede54a": 1793250668.251291
+  "afe0de93a3ede54a": 1793250668.251291,
+  "42b14b816aa34f46": 1793251258.1600258,
+  "828ec5aac61c31e9": 1793251276.1518855,
+  "8ff9cbf20c9def71": 1793251276.1518881
  },
  "pending": {},
  "queue": [],
@@ -2157,10 +2158,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-29 10:11",
+  "time": "2026-10-29 10:21",
   "items": 32,
   "sample": [
-   "Sikkim 117/5 & 184/10 * v Nagaland 187/10 & 208/10",
+   "Sikkim 184/10 & 117/5 * v Nagaland 208/10 & 187/10",
    "Jharkhand 131/4 * v Delhi 515/5",
    "Odisha 194/10 v Services 13 *"
   ]
@@ -4585,64 +4586,8 @@
   "last": 1793250698.3401859
  },
  "trends": {
-  "last": 1793239856.6428945,
+  "last": 1793251258.1603725,
   "terms": [
-   {
-    "term": "inter milan vs shakhtar donetsk standings",
-    "traffic": 2000,
-    "news": "Inter-Shakhtar 0-0: Riznyk’s miraculous save denies Thuram. Bastoni sent off",
-    "t": 1792638656,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "php security",
-    "traffic": 500,
-    "news": "Cloudflare deploys protections against php2shell vulnerability",
-    "t": 1792638656,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "پٹرولیم مصنوعات",
-    "traffic": 100,
-    "news": "Good News for the Public! Petrol Prices Drop | 11pm News Headlines | Hum News | Pakistan",
-    "t": 1792638656,
-    "cat": "fuel",
-    "sindh": false
-   },
-   {
-    "term": "aston villa vs viking fk standings",
-    "traffic": 200,
-    "news": "APTOPIX Britain Champions League Soccer",
-    "t": 1792638656,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "real betis vs feyenoord standings",
-    "traffic": 500,
-    "news": "Viewers get the fright of their lives during Real Betis v Feyenoord: ‘Bizarre, you never see this any more’",
-    "t": 1792638656,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "result",
-    "traffic": 100,
-    "news": "CA Foundation and Inter Result Date 2026: September Exam Latest Update",
-    "t": 1792638656,
-    "cat": "education_jobs",
-    "sindh": false
-   },
-   {
-    "term": "champions league standings",
-    "traffic": 200,
-    "news": "PSG fans divided over protests in France as Barcelona game goes ahead",
-    "t": 1792638656,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "dammam airport attack",
     "traffic": 500,
@@ -7530,15 +7475,55 @@
     "t": 1793239857,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "litton das",
+    "traffic": 1000,
+    "news": "Bangladesh Forced To Keep Veteran Star Out In Crucial Test vs West Indies",
+    "t": 1793251258,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "pak vs ind",
+    "traffic": 100,
+    "news": "Harry Brook underlines status as world's best all-format batter in Rawalpindi run-fest",
+    "t": 1793251258,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "jimmy anderson",
+    "traffic": 100,
+    "news": "Anderson takes up Italy T10 role after Lancashire exit",
+    "t": 1793251258,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "a",
+    "traffic": 100,
+    "news": "Secret White House Fear Leaks as Trump Crisis Makes History",
+    "t": 1793251258,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "arshad warsi",
+    "traffic": 100,
+    "news": "Back in Action, Still Recovering",
+    "t": 1793251258,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-29",
-  "ok": 126,
-  "fail": 175,
-  "limit": 174
+  "ok": 128,
+  "fail": 179,
+  "limit": 178
  },
  "posted_heads": [
   {
@@ -7863,7 +7848,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-29 10:11",
+  "time": "2026-10-29 10:21",
   "steps": []
  },
  "roundup_am": "2026-10-29",
@@ -7971,7 +7956,7 @@
   "text": 13,
   "story": 10
  },
- "ai_last_error": "10:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "10:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-29",
   "models": [
@@ -8012,7 +7997,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-29",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8020,15 +8005,15 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-29",
-   "ok": 63,
+   "ok": 64,
    "fail": 2,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 403
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-29",
-   "ok": 64,
+   "ok": 65,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8036,14 +8021,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-29",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-29",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8051,21 +8036,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-29",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-29",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-29",
-   "ok": 64,
+   "ok": 65,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8300,8 +8285,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 13,
-  "old": 13,
+  "found": 26,
+  "old": 26,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8333,9 +8318,9 @@
  "sindh_stream": {
   "date": "2026-10-29",
   "count": 1,
-  "last": 1793249461.8969789,
-  "city_i": 20,
-  "dry": 1793250656.9487946
+  "last": 1793251271.1588287,
+  "city_i": 24,
+  "dry": 1793251276.1518908
  },
  "gemini_day_dead": {
   "day": "2026-10-28",
@@ -9070,13 +9055,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-29 04:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-29 04:10",
    "ok": true,
    "n": 0,
@@ -9344,6 +9322,13 @@
   },
   {
    "t": "10-29 10:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-29 10:20",
    "ok": true,
    "n": 0,
    "ids": [],
