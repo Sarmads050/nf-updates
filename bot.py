@@ -4218,6 +4218,11 @@ def send_report():
     lines = ["📋 Run report " + now().strftime("%I:%M %p") + (" (TEST)" if DRY_RUN else ""),
              f"✅ Pichle ghante mein post hui: {g('posted', 0)}",
              f"📊 Aaj kul posts: {total}/{CONFIG.get('safety', {}).get('max_total_per_day', 50)}",
+             "   ✍️ Editor (aaj): theek kin " + str(S.get("quality", {}).get("editor_fixed", 0)) + " | rokin " +
+             str(S.get("quality", {}).get("editor_rejected", 0) + S.get("quality", {}).get("kawish_rejected", 0) +
+                 S.get("quality", {}).get("wrong_place", 0)) + " | doosre source se tasdeeq " +
+             str(S.get("quality", {}).get("kawish_crosschecked", 0)) + " | repeat roki " +
+             str(S.get("quality", {}).get("repeat", 0)),
              f"   📍 District: {rc['district']} | Sindh: {rc['sindh']} (Sindh kul {rc['district'] + rc['sindh']}/{CONFIG.get('regions', {}).get('sindh_target', 35)}) | Pakistan: {rc['pakistan']}/{CONFIG.get('regions', {}).get('pakistan_max', 15)}",
              f"   Awami: {cnt('public_news')} | Zarat: {cnt('agri_news')} | Cricket: {cnt('cricket_news')} | "
              f"Sindh alag: {cnt('sindh_single')} | Sindh dhaara: {cnt('sindh_stream')} | Kawish: {cnt('kawish_post')}",
@@ -4277,6 +4282,11 @@ def main():
     for fn in (handle_share_helper, handle_perf, handle_cricket_live, handle_auto_reply):
         step(fn)
     S["last_errors"] = {"time": now().strftime("%Y-%m-%d %H:%M"), "steps": STATS.get("errors", [])}
+    q_ = S.setdefault("quality", {"date": ""})
+    if q_.get("date") != today():
+        S["quality"] = q_ = {"date": today()}
+    for k_ in ("editor_fixed", "editor_rejected", "kawish_rejected", "kawish_crosschecked", "wrong_place", "repeat"):
+        q_[k_] = q_.get(k_, 0) + STATS.get(k_, 0)
     step(send_report)  # report fail ho to bhi state zaroor save ho
     if DRY_RUN:
         log("test mode: state save nahi kiya")
