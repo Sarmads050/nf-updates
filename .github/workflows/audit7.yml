@@ -1,0 +1,48 @@
+name: Audit posts
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Kitne din ki posts"
+        default: "7"
+      delete_ids:
+        description: "Sirf in post IDs ko delete karo (comma se alag). Khaali = sirf jaanch"
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: git fetch -q origin kawish-epaper || true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install --quiet -r requirements.txt
+      - name: Jaanch
+        run: python tools/audit7.py
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          AUDIT_DAYS: ${{ github.event.inputs.days }}
+          DELETE_IDS: ${{ github.event.inputs.delete_ids }}
+          DRY_RUN: "true"
+      - name: Nateeja branch par
+        if: always()
+        run: |
+          git config user.name "nf-bot"; git config user.email "nf-bot@users.noreply.github.com"
+          [ -f out/audit.json ] || exit 0
+          mkdir -p /tmp/au && cp out/audit.json /tmp/au/
+          export GIT_INDEX_FILE=/tmp/auidx
+          git --work-tree=/tmp/au add -A
+          c=$(git commit-tree $(git write-tree) -m "audit")
+          git push -f origin $c:refs/heads/audit-result
