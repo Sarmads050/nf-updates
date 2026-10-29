@@ -1,0 +1,489 @@
+{
+ "id": "ep006",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 6,
+ "title": "Shaadi Ka Card Aa Gaya!",
+ "topic": "Wedding season invitation - no new clothes, tailor busy, re-use old suits",
+ "music": "comic",
+ "lesson": "Shaadi ki asal raunaq<br>poore khandan ke saath jaane se hai!",
+ "caption": "Shaadi ka card aaya aur ghar mein naye joron ki fikr shuru! 💌👗 Aap ke ghar mein shaadi ki tayyari kaun sambhalta hai? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#PakistaniFamily",
+  "#ShaadiSeason",
+  "#UrduCartoon",
+  "#FamilyComedy"
+ ],
+ "scenes": [
+  {
+   "set": "living_room",
+   "time": "day",
+   "label": "Drawing Room • Dopehar",
+   "cast": {
+    "ABBA": "sofa_l",
+    "AMMI": "sofa_r"
+   },
+   "props": {
+    "ABBA": "newspaper"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "shot": "wide",
+     "how": "warm storyteller, playful, slow and clear",
+     "roman": "Shaadiyon ka *season* shuru ho gaya hai... aur aaj Nawabshah ke is ghar mein aaya hai ek *shaadi ka card*!",
+     "urdu": "شادیوں کا سیزن شروع ہو گیا ہے... اور آج نواب شاہ کے اس گھر میں آیا ہے ایک شادی کا کارڈ!",
+     "gap": 0.3
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "surprised",
+     "shot": "close",
+     "how": "excited girl running in, waving the phone, loud and happy",
+     "roman": "Ammi! Aap ke phone par Nimra Baji ne *shaadi ka card* bheja hai!",
+     "urdu": "امی! آپ کے فون پر نمرہ باجی نے شادی کا کارڈ بھیجا ہے!",
+     "pose": "hold",
+     "before": [
+      {
+       "do": "prop",
+       "who": "MEHAK",
+       "prop": "phone"
+      },
+      {
+       "do": "enter",
+       "who": "MEHAK",
+       "slot": "stand_r"
+      },
+      {
+       "do": "sfx",
+       "name": "notification",
+       "wait": 0.3
+      }
+     ],
+     "react": {
+      "AMMI": "surprised",
+      "ABBA": "surprised"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "happy",
+     "shot": "auto",
+     "how": "curious and eager, leaning forward",
+     "roman": "Kis ki shaadi hai? Jaldi *parho*, Mehak!",
+     "urdu": "کس کی شادی ہے؟ جلدی پڑھو، مہک!",
+     "pose": "beckon",
+     "react": {
+      "MEHAK": "happy"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "happy",
+     "shot": "auto",
+     "how": "reading from the phone, excited, counting on fingers at the end",
+     "roman": "Nimra Baji ki *nand* ki shaadi hai. Agle hafte Karachi mein... *teen function* hain!",
+     "urdu": "نمرہ باجی کی نند کی شادی ہے۔ اگلے ہفتے کراچی میں... تین فنکشن ہیں!",
+     "pose": "phone_look",
+     "react": {
+      "AMMI": "happy",
+      "ABBA": "neutral"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "front",
+     "emo": "worried",
+     "shot": "close",
+     "how": "sudden panic, dramatic, hand on head",
+     "roman": "Haye! Agle hafte? Aur mere paas pehenne ke liye *koi naya jora* nahi hai!",
+     "urdu": "ہائے! اگلے ہفتے؟ اور میرے پاس پہننے کے لیے کوئی نیا جوڑا نہیں ہے!",
+     "pose": "head_hold",
+     "react": {
+      "MEHAK": "worried"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "worried",
+     "shot": "auto",
+     "how": "pleading sweetly, a little whiny",
+     "roman": "Ammi, mujhe bhi naye jore chahiyein... *mehndi*, *baraat* aur *walima* ke liye!",
+     "urdu": "امی، مجھے بھی نئے جوڑے چاہئیں... مہندی، بارات اور ولیمہ کے لیے!",
+     "pose": "plead",
+     "react": {
+      "ABBA": "surprised"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "MEHAK",
+     "emo": "surprised",
+     "shot": "punch",
+     "how": "shocked, lowering the newspaper, old-school lecture tone",
+     "roman": "Teen function, teen jore? *Humare zamane mein* ek jora teen shaadiyon mein chalta tha!",
+     "urdu": "تین فنکشن، تین جوڑے؟ ہمارے زمانے میں ایک جوڑا تین شادیوں میں چلتا تھا!",
+     "pose": "wag",
+     "before": [
+      {
+       "do": "prop",
+       "who": "ABBA",
+       "prop": null
+      }
+     ],
+     "joke": true,
+     "gap": 0.5,
+     "react": {
+      "*": "laugh"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ABBA",
+     "emo": "teasing",
+     "shot": "punch",
+     "how": "cheeky, quick, giggling",
+     "roman": "Isi liye, Abba, aap ki *har tasveer* mein ek hi *bhoora kurta* hai!",
+     "urdu": "اسی لیے، ابا، آپ کی ہر تصویر میں ایک ہی بھورا کرتا ہے!",
+     "pose": "point_other",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "AMMI": "laugh",
+      "ABBA": "sheepish"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "MEHAK",
+     "emo": "proud",
+     "shot": "auto",
+     "how": "pretending to be serious, proud, chest out",
+     "roman": "Woh kurta nahi, *yaadgaar* hai! Tum log bhi *bachat* karna seekho.",
+     "urdu": "وہ کرتا نہیں، یادگار ہے! تم لوگ بھی بچت کرنا سیکھو۔",
+     "pose": "chest",
+     "react": {
+      "MEHAK": "teasing",
+      "AMMI": "teasing"
+     },
+     "gap": 0.4
+    }
+   ]
+  },
+  {
+   "set": "aangan",
+   "time": "evening",
+   "label": "Aangan • Shaam",
+   "cast": {
+    "AMMI": "charpai_l",
+    "SANA": "charpai_c"
+   },
+   "props": {
+    "SANA": "bag"
+   },
+   "lines": [
+    {
+     "who": "AMMI",
+     "to": "SANA",
+     "emo": "worried",
+     "shot": "close",
+     "how": "tired and upset, complaining",
+     "roman": "Sana, *darzi* keh raha hai, *das din* se pehle silai nahi ho sakti. Shaadi saat din baad hai!",
+     "urdu": "ثنا، درزی کہہ رہا ہے، دس دن سے پہلے سلائی نہیں ہو سکتی۔ شادی سات دن بعد ہے!",
+     "pose": "shrug",
+     "react": {
+      "SANA": "calm"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "AMMI",
+     "emo": "calm",
+     "shot": "auto",
+     "how": "calm, polite, confident, showing the bag",
+     "roman": "Ammi, fikr na karein. Main ne almari se *purane jore* nikal kar is thaile mein rakhe hain.",
+     "urdu": "امی، فکر نہ کریں۔ میں نے الماری سے پرانے جوڑے نکال کر اس تھیلے میں رکھے ہیں۔",
+     "pose": "hold",
+     "react": {
+      "AMMI": "confused"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "AMMI",
+     "emo": "happy",
+     "shot": "auto",
+     "how": "smart and encouraging, explaining the idea",
+     "roman": "Aap ka *maroon jora* sirf ek dafa pehna gaya hai. *Naya dupatta* lagayein, bilkul naya lagega!",
+     "urdu": "آپ کا میرون جوڑا صرف ایک دفعہ پہنا گیا ہے۔ نیا دوپٹہ لگائیں، بالکل نیا لگے گا!",
+     "pose": "explain",
+     "react": {
+      "AMMI": "happy"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "SANA",
+     "emo": "happy",
+     "shot": "two:SANA",
+     "how": "delighted, proud of her daughter-in-law",
+     "roman": "Waah Sana! *M.A. pass* bahu ka dimagh hi alag hai!",
+     "urdu": "واہ ثنا! ایم اے پاس بہو کا دماغ ہی الگ ہے!",
+     "pose": "clap",
+     "react": {
+      "SANA": "sheepish"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "SANA",
+     "emo": "worried",
+     "shot": "auto",
+     "how": "rushing in, worried and a little jealous",
+     "roman": "Aur mera kya, *Bhabi*? Main shaadi mein kya pehnoongi?",
+     "urdu": "اور میرا کیا، بھابی؟ میں شادی میں کیا پہنوں گی؟",
+     "pose": "plead",
+     "before": [
+      {
+       "do": "enter",
+       "who": "MEHAK",
+       "slot": "stand_l"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.3
+      }
+     ],
+     "react": {
+      "SANA": "warm"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "MEHAK",
+     "emo": "warm",
+     "shot": "auto",
+     "how": "loving elder-sister tone",
+     "roman": "Mehak, meri *peeli kameez* tumhe aa jayegi. Ammi ki *machine* par thori si silai ho jayegi.",
+     "urdu": "مہک، میری پیلی قمیض تمہیں آ جائے گی۔ امی کی مشین پر تھوڑی سی سلائی ہو جائے گی۔",
+     "pose": "explain",
+     "react": {
+      "MEHAK": "happy",
+      "AMMI": "happy"
+     }
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "front",
+     "emo": "tired",
+     "shot": "auto",
+     "how": "tired after office but cheerful, using a Chinese greeting",
+     "roman": "*Ni hao*, sab ko! Main ne suna hai, Karachi mein *shaadi* hai?",
+     "urdu": "نی ہاؤ، سب کو! میں نے سنا ہے، کراچی میں شادی ہے؟",
+     "pose": "wave",
+     "before": [
+      {
+       "do": "enter",
+       "who": "IMTIAZ",
+       "slot": "stand_r"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.3
+      }
+     ],
+     "react": {
+      "*": "happy"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "IMTIAZ",
+     "emo": "neutral",
+     "shot": "auto",
+     "how": "practical mother, straight to the point",
+     "roman": "Haan, Imtiaz! Aur dulhan ke *tohfe* ke liye paise bhi chahiye honge.",
+     "urdu": "ہاں، امتیاز! اور دلہن کے تحفے کے لیے پیسے بھی چاہیے ہوں گے۔",
+     "pose": "hands_hips",
+     "react": {
+      "IMTIAZ": "sheepish"
+     }
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "shot": "punch",
+     "how": "sheepish, then comic, showing empty pockets",
+     "roman": "Ammi, salary agle hafte aayegi. Abhi mere batwe mein sirf *mei you* hai... yaani *kuch nahi*!",
+     "urdu": "امی، تنخواہ اگلے ہفتے آئے گی۔ ابھی میرے بٹوے میں صرف مے یو ہے... یعنی کچھ نہیں!",
+     "pose": "shrug",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "*": "laugh"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "night",
+   "label": "Drawing Room • Raat",
+   "cast": {
+    "AMMI": "sofa_l",
+    "ABBA": "sofa_c",
+    "SANA": "sofa_r",
+    "MEHAK": "stand_l",
+    "IMTIAZ": "stand_r"
+   },
+   "props": {},
+   "lines": [
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "worried",
+     "shot": "close",
+     "how": "worried accountant tone, bracing for bad news",
+     "roman": "To phir, begum? Kitne *naye joron* ka bill banega?",
+     "urdu": "تو پھر، بیگم؟ کتنے نئے جوڑوں کا بل بنے گا؟",
+     "pose": "think",
+     "react": {
+      "AMMI": "proud"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "proud",
+     "shot": "auto",
+     "how": "proud and happy",
+     "roman": "*Ek bhi nahi*! Sana ne purane jore *naye jaise* bana diye hain.",
+     "urdu": "ایک بھی نہیں! ثنا نے پرانے جوڑے نئے جیسے بنا دیے ہیں۔",
+     "pose": "point_other",
+     "react": {
+      "SANA": "sheepish",
+      "ABBA": "happy"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "happy",
+     "shot": "two:AMMI",
+     "how": "relieved and generous, handing over money",
+     "roman": "Waah! To yeh *bache hue paise* lo. Is se dulhan ke liye *tohfa* lena.",
+     "urdu": "واہ! تو یہ بچے ہوئے پیسے لو۔ اس سے دلہن کے لیے تحفہ لینا۔",
+     "pose": "give",
+     "before": [
+      {
+       "do": "prop",
+       "who": "ABBA",
+       "prop": "money"
+      }
+     ],
+     "give": {
+      "to": "AMMI",
+      "prop": "money",
+      "at": 0.4
+     },
+     "react": {
+      "AMMI": "happy"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ABBA",
+     "emo": "teasing",
+     "shot": "auto",
+     "how": "cheeky",
+     "roman": "Aur Abba ka *bhoora kurta*? Woh bhi phir se chalega?",
+     "urdu": "اور ابا کا بھورا کرتا؟ وہ بھی پھر سے چلے گا؟",
+     "pose": "point_other",
+     "react": {
+      "ABBA": "sheepish"
+     }
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "ABBA",
+     "emo": "happy",
+     "shot": "auto",
+     "how": "proud son with a surprise",
+     "roman": "Nahi! Abba ke liye main ne *naya kurta* online mangwa liya hai.",
+     "urdu": "نہیں! ابا کے لیے میں نے نیا کرتا آن لائن منگوا لیا ہے۔",
+     "pose": "chest",
+     "react": {
+      "ABBA": "surprised",
+      "*": "surprised"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "IMTIAZ",
+     "emo": "confused",
+     "shot": "auto",
+     "how": "confused, eyebrows up",
+     "roman": "Lekin tumhare batwe mein to *mei you* tha!",
+     "urdu": "لیکن تمہارے بٹوے میں تو مے یو تھا!",
+     "pose": "point_other",
+     "react": {
+      "IMTIAZ": "teasing"
+     }
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "ABBA",
+     "emo": "laugh",
+     "shot": "punch",
+     "how": "clever and triumphant, laughing",
+     "roman": "*Cash on delivery*, Abba! Tab tak *salary* bhi aa jayegi!",
+     "urdu": "کیش آن ڈیلیوری، ابا! تب تک تنخواہ بھی آ جائے گی!",
+     "pose": "thumb_back",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "*": "laugh"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "front",
+     "emo": "warm",
+     "shot": "group",
+     "how": "warm, gentle, motherly",
+     "roman": "Shaadi ki asal raunaq naye kapron se nahi... *poore khandan* ke saath jaane se hai.",
+     "urdu": "شادی کی اصل رونق نئے کپڑوں سے نہیں... پورے خاندان کے ساتھ جانے سے ہے۔",
+     "pose": "explain",
+     "react": {
+      "*": "warm"
+     },
+     "gap": 0.4
+    },
+    {
+     "who": "ABBA",
+     "to": "front",
+     "emo": "laugh",
+     "shot": "group",
+     "how": "happy, joking, big laugh at the end",
+     "roman": "Aur is baar tasveer mein mera *naya kurta* hoga... log mujhe *pehchaan* hi nahi payenge!",
+     "urdu": "اور اس بار تصویر میں میرا نیا کرتا ہوگا... لوگ مجھے پہچان ہی نہیں پائیں گے!",
+     "pose": "arms_up",
+     "joke": true,
+     "gap": 0.8,
+     "react": {
+      "*": "laugh"
+     }
+    }
+   ]
+  }
+ ]
+}
