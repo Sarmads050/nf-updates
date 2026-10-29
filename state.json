@@ -1584,7 +1584,8 @@
   "02e3ec7af8d0d3c5": 1793311289.722448,
   "5739f4f5b2ccedd8": 1793311289.7224488,
   "99ed8ffb81a79b44": 1793311289.7226536,
-  "5a890fcc035b0745": 1793311852.119231
+  "5a890fcc035b0745": 1793311852.119231,
+  "cdabd32cd3f3ee67": 1793314272.5422654
  },
  "pending": {},
  "queue": [],
@@ -2211,10 +2212,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 03:40",
+  "time": "2026-10-30 03:51",
   "items": 22,
   "sample": [
-   "State Bank of Pakistan 165/7 & 172/10 * v Markhor IT Solutions 296/10 & 112/10",
+   "State Bank of Pakistan 172/10 & 165/7 * v Markhor IT Solutions 296/10 & 112/10",
    "South Africa 140/4 & 329/10 * v Australia 429/10",
    "South Australia 154/10 v Western Australia 79/6 & 406/5 *"
   ]
@@ -7526,9 +7527,9 @@
  },
  "ai_usage": {
   "date": "2026-10-30",
-  "ok": 52,
-  "fail": 96,
-  "limit": 96
+  "ok": 56,
+  "fail": 104,
+  "limit": 104
  },
  "posted_heads": [
   {
@@ -7853,7 +7854,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 03:40",
+  "time": "2026-10-30 03:51",
   "steps": []
  },
  "roundup_am": "2026-10-29",
@@ -7956,12 +7957,12 @@
  },
  "article_diag": {
   "date": "2026-10-30",
-  "tried": 12,
-  "decoded": 11,
-  "text": 8,
-  "story": 7
+  "tried": 13,
+  "decoded": 12,
+  "text": 9,
+  "story": 8
  },
- "ai_last_error": "03:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "03:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-30",
   "models": [
@@ -8002,7 +8003,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8010,7 +8011,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8018,7 +8019,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8026,14 +8027,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8041,21 +8042,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8381,8 +8382,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 40,
-  "old": 40,
+  "found": 50,
+  "old": 50,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8416,8 +8417,8 @@
   "date": "2026-10-30",
   "count": 0,
   "last": 1793301665.063122,
-  "city_i": 8,
-  "dry": 1793311270.770369
+  "city_i": 12,
+  "dry": 1793314260.3656678
  },
  "gemini_day_dead": {
   "day": "2026-10-29",
@@ -9182,13 +9183,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-29 21:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-29 21:30",
    "ok": true,
    "n": 0,
@@ -9456,6 +9450,13 @@
   },
   {
    "t": "10-30 03:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 03:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14070,11 +14071,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-27 21:51",
-   "new": "مہراب پور اسٽيشن تي شاليمار ايڪسپريس جي حوالي سان اپڊيٽ جاري",
-   "old": "محراب پور اسٽيشن تي شاليمار ايڪسپريس ريل گاڏي جي حوالي سان نئون اپڊيٽ "
-  },
-  {
    "t": "10-27 22:21",
    "new": "ڪنڊيارو ۾ صفائي جي صورتحال ۽ ٽائون ڪميٽي جي ڪارڪردگي بابت خبر سامهون آ",
    "old": "ڪنڊيارو ۾ صفائي جي مسئلن ۽ ٽائون ڪميٽيءَ جي ڪارڪردگي بابت خبر سامهون آ"
@@ -14218,6 +14214,11 @@
    "t": "10-30 00:21",
    "new": "ڏانو ڌانڌل سانحو: فوتين جو انگ وڌي 10 ٿي ويو",
    "old": "ننگرپارڪر ۾ ايمبولينس جو آڪسيجن سلينڊر ڦاٽڻ سبب 10 ڄڻا فوت، 3 زخمي"
+  },
+  {
+   "t": "10-30 03:51",
+   "new": "هاءِ اسپيڊ ڊيزل جي قيمت ۾ واڌ",
+   "old": "پيٽرول اگهه برقرار، هاءِ اسپيڊ ڊيزل مهانگو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14248,6 +14249,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 7
- }
+  "repeat": 8
+ },
+ "_dup": true
 }
