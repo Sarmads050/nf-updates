@@ -1564,7 +1564,8 @@
   "c3a5f912217b4d50": 1793237492.803179,
   "239ba75f6c398e8d": 1793237492.8031797,
   "b10ac5050ab5c145": 1793237492.8033397,
-  "db504bf059848749": 1793239266.181885
+  "db504bf059848749": 1793239266.181885,
+  "7e8c4351214415d1": 1793239847.6781738
  },
  "pending": {},
  "queue": [],
@@ -2219,7 +2220,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-29 07:02",
+  "time": "2026-10-29 07:11",
   "items": 31,
   "sample": [
    "Sikkim 184/10 & 87/4 * v Nagaland 187/10 & 208/10",
@@ -4647,24 +4648,8 @@
   "last": 1793235758.9334779
  },
  "trends": {
-  "last": 1793229056.0458777,
+  "last": 1793239856.6428945,
   "terms": [
-   {
-    "term": "real madrid vs rb leipzig standings",
-    "traffic": 5000,
-    "news": "Licensable picture: UEFA Champions League, Real Madrid - RB Leipzig",
-    "t": 1792627853,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "madrid vs",
-    "traffic": 100,
-    "news": "¿Triste? Mourinho resuelve el caso Vinícius tras Real Madrid vs. Leipzig",
-    "t": 1792627853,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "inter milan vs shakhtar donetsk standings",
     "traffic": 2000,
@@ -7576,15 +7561,47 @@
     "t": 1793229056,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "shivaji satam",
+    "traffic": 200,
+    "news": "Remembering B. P. Singh’s Legacy and His Shows that Chilled and Thrilled a Generation",
+    "t": 1793239857,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "gemini 4 carbon",
+    "traffic": 100,
+    "news": "Google says Gemini 4 Argon ranks well behind Claude and GPT-6 for Android coding",
+    "t": 1793239857,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "mls",
+    "traffic": 200,
+    "news": "Matchday | Timbers, St. Louis CITY play Wednesday night at Energizer Park",
+    "t": 1793239857,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "face",
+    "traffic": 100,
+    "news": "Conservative influencers charged with voter fraud in Minnesota primary",
+    "t": 1793239857,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-29",
-  "ok": 87,
-  "fail": 116,
-  "limit": 116
+  "ok": 89,
+  "fail": 118,
+  "limit": 118
  },
  "posted_heads": [
   {
@@ -7909,7 +7926,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-29 07:02",
+  "time": "2026-10-29 07:11",
   "steps": []
  },
  "roundup_am": "2026-10-28",
@@ -8017,7 +8034,7 @@
   "text": 9,
   "story": 6
  },
- "ai_last_error": "07:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "07:10 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-29",
   "models": [
@@ -8058,7 +8075,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-29",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8066,7 +8083,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-29",
-   "ok": 44,
+   "ok": 45,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8074,7 +8091,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-29",
-   "ok": 44,
+   "ok": 45,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8082,14 +8099,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-29",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-29",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8097,21 +8114,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-29",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-29",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-29",
-   "ok": 44,
+   "ok": 45,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8346,9 +8363,9 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
-  "irrelevant": 0,
+  "found": 13,
+  "old": 12,
+  "irrelevant": 1,
   "blocked": 0,
   "errors": []
  },
@@ -9122,13 +9139,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-29 00:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-29 00:50",
    "ok": true,
    "n": 0,
@@ -9396,6 +9406,13 @@
   },
   {
    "t": "10-29 07:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-29 07:10",
    "ok": true,
    "n": 0,
    "ids": [],
