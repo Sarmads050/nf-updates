@@ -3535,15 +3535,54 @@ def kawish_read(page_no, img):
               "seeing the paper. Never describe the page itself (e.g. 'this page has...'); if you cannot say clearly what "
               "happened, mark that item confidence \"low\". If a name or number is not clearly "
               "readable, leave it out instead of guessing. district=true if it is about Naushahro Feroze district or "
-              "its towns (" + towns + "). speaker: if the item is mainly a statement, speech, claim or press conference by a "
+              "its towns (" + towns + ") — ONLY if that town name is actually printed in that item. Also copy, exactly as "
+              "printed letter by letter, \"printed_headline\" (the item's printed headline) and \"dateline\" (the "
+              "place/byline printed at the start of the item's text, e.g. 'مٺي (رپورٽ)'). NEVER change or add a place: "
+              "use only the city/town printed in that item. Keep deaths vs injuries, arrests etc. exactly as printed. "
+              "speaker: if the item is mainly a statement, speech, claim or press conference by a "
               "person (politician, minister, official), that person's name and position in Sindhi, else \"\". sensitive=true for murder, firing, robbery, rape/abuse, kidnapping "
               "(road accidents and drowning are NOT sensitive; Theft, burglary, mobile/bike snatching, and quarrels or fights without killing, firing or serious injury are NOT sensitive.).\n"
               "Return JSON: {\"items\": [{\"type\": string, \"headline\": string, \"summary\": string, \"card\": string, "
-              "\"district\": bool, \"sensitive\": bool, \"place\": string, \"speaker\": string, \"confidence\": \"high\"|\"medium\"|\"low\"}]}")
+              "\"printed_headline\": string, \"dateline\": string, \"district\": bool, \"sensitive\": bool, \"place\": string, \"speaker\": string, \"confidence\": \"high\"|\"medium\"|\"low\"}]}")
     out = ask_gemini(prompt, image=img, mime="image/jpeg")
     if not isinstance(out, dict):
         return None  # AI ne jawab nahi diya: safha baad mein dobara
     return [x for x in out.get("items", []) if isinstance(x, dict)]
+
+
+def kawish_verify(page_no, img, items):
+    """Doosri tasdeeq: nikali hui khabrein dobara safhe ki tasveer se milao (jagah, number, fot/zakhmi). Wapas: set(ok indexes)
+    ya None (AI na mila — safha baad mein)."""
+    if not items:
+        return set()
+    listing = "\n\n".join(f"[{i}] {x['head']}\n{x['summary'][:700]}" for i, x in enumerate(items))
+    prompt = ("This is page " + str(page_no) + " of the Daily Kawish (Sindhi newspaper). Below are news items that were "
+              "extracted from this page. For EACH item, find it on the page and check it STRICTLY against what is "
+              "printed: (1) the city/town/place is exactly the printed one (not another city); (2) every number is the "
+              "same; (3) the outcome is the same (died vs injured, arrested vs released, approved vs rejected); "
+              "(4) nothing is added that is not printed. ok=true only if all four are correct. If the item cannot be "
+              "found on the page, found=false and ok=false.\n\n" + listing +
+              "\n\nReturn JSON: {\"checks\": [{\"i\": number, \"found\": bool, \"ok\": bool, \"printed_place\": string, "
+              "\"problem\": string}]}")
+    out = ask_gemini(prompt, image=img, mime="image/jpeg")
+    if not isinstance(out, dict) or not isinstance(out.get("checks"), list):
+        return None
+    good = set()
+    for c in out["checks"]:
+        try:
+            i = int(c.get("i"))
+        except (TypeError, ValueError):
+            continue
+        if not (0 <= i < len(items)):
+            continue
+        place = clean_text(str(c.get("printed_place", "")))
+        if c.get("found") and c.get("ok") and place_ok(items[i]["head"] + " " + items[i]["summary"],
+                                                       items[i].get("printed", "") + " " + place):
+            good.add(i)
+        else:
+            log("KAWISH TASDEEQ FAIL:", items[i]["head"][:60], "|", str(c.get("problem", ""))[:100], "| jagah:", place[:40])
+            STATS["kawish_rejected"] = STATS.get("kawish_rejected", 0) + 1
+    return good
 
 
 def kawish_store(pdate, pages, items=None):
@@ -3602,6 +3641,7 @@ def handle_kawish():
         if items is None:
             failed.append(n)
             continue
+        page_items = []
         for it in items:
             head, summ = clean_text(it.get("headline", "")), clean_text(it.get("summary", ""))
             if str(it.get("type", "news")).lower() != "news":
@@ -3622,9 +3662,23 @@ def handle_kawish():
             cardt = clean_text(it.get("card", ""))
             if len(cardt) < 60 or bad_script(cardt) or blocked_reason(cardt):
                 cardt = summ
-            found.append({"key": k, "page": n, "head": head, "summary": summ, "card": cardt, "district": bool(it.get("district")),
+            printed = clean_text(str(it.get("printed_headline", ""))) + " " + clean_text(str(it.get("dateline", "")))
+            if len(printed.strip()) < 8 or not place_ok(head + " " + summ + " " + cardt, printed):
+                log("KAWISH: chhapi sarkhi/jagah se mel nahi, skip:", head[:60])
+                STATS["kawish_rejected"] = STATS.get("kawish_rejected", 0) + 1
+                continue
+            rank_ = city_rank(printed)
+            page_items.append({"key": k, "page": n, "head": head, "summary": summ, "card": cardt, "printed": printed,
+                          "district": bool(it.get("district")) and bool(rank_ and rank_ <= 6),
                           "sensitive": bool(it.get("sensitive")) or keyword_sensitive(head + " " + summ),
                           "confidence": it.get("confidence", ""), "link": page_link, "message": msg})
+        good = kawish_verify(n, img, page_items)
+        if good is None:  # tasdeeq na ho saki: safha baad mein dobara (bina tasdeeq post nahi)
+            for x in page_items:
+                S["seen"].pop(x["key"], None)
+            failed.append(n)
+            continue
+        found += [x for i, x in enumerate(page_items) if i in good]
         if not test:
             st["paper"]["read"].append(n)
     st["posts"] = found
