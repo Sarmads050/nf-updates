@@ -3893,6 +3893,9 @@ def handle_kawish_post():
     if (day["count"] >= cfg.get("max_per_day", 15) or time.time() - day.get("last", 0) < gap
             or (S["queue"] and can_post()) or not pace_ok()):
         return
+    S["kawish_queue"] = q = [x for x in q if x.get("printed")]  # sirf doosri tasdeeq wali khabrein
+    if not q:
+        return
     q.sort(key=lambda x: (not x.get("district"), city_rank(x.get("head", "") + " " + x.get("summary", "")) or 99))
     if not sindh_room() or not q:
         return
