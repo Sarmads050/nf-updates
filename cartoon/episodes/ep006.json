@@ -182,10 +182,11 @@
    "label": "Aangan • Shaam",
    "cast": {
     "AMMI": "charpai_l",
-    "SANA": "charpai_c"
+    "SANA": "charpai_r"
    },
    "props": {
-    "SANA": "bag"
+    "SANA": "bag",
+    "MEHAK": null
    },
    "lines": [
     {
@@ -345,7 +346,12 @@
     "MEHAK": "stand_l",
     "IMTIAZ": "stand_r"
    },
-   "props": {},
+   "props": {
+    "SANA": null,
+    "MEHAK": null,
+    "ABBA": null,
+    "AMMI": null
+   },
    "lines": [
     {
      "who": "ABBA",
