@@ -1975,7 +1975,31 @@ def handle_jobs():
     S["last_digest"] = today()
     if not S["jobs"] or not can_post():
         return
-    jobs = sorted(S["jobs"], key=lambda j: (j.get("local", False), j["ts"]), reverse=True)[:CONFIG["jobs_per_digest"]]
+    cands = sorted([j for j in S["jobs"] if job_like(j["title"])], key=lambda j: (j.get("local", False), j["ts"]),
+                   reverse=True)[:20]
+    jobs = []
+    if cands and (GEMINI_KEY or OPENROUTER_KEY):  # sirf asli naukri/bharti ki khabrein, Sindhi mein
+        listing = "\n".join(f"[{i}] {j['title']}" for i, j in enumerate(cands))
+        prompt = ("Headlines:\n" + listing + "\n\nKeep ONLY headlines that announce real job openings, recruitment, "
+                  "vacancies, job tests/interviews or job application deadlines in Pakistan (not general news, not "
+                  "economy or politics). For each kept one write a short clear Sindhi (Arabic script) title with the "
+                  "department/organisation and post, using only facts in the headline.\n"
+                  "Return JSON: {\"items\": [{\"i\": number, \"title\": string}]}")
+        res = ask_gemini(prompt) if GEMINI_KEY else ask_openrouter(prompt)
+        for it in (res or {}).get("items", []) if isinstance(res, dict) else []:
+            try:
+                j = dict(cands[int(it["i"])])
+            except (KeyError, TypeError, ValueError, IndexError):
+                continue
+            t = clean_text(str(it.get("title", "")))
+            if len(t) >= 8 and not bad_script(t) and not blocked_reason(t):
+                j["title"] = t
+                jobs.append(j)
+    jobs = jobs[:CONFIG["jobs_per_digest"]]
+    if not jobs:
+        log("jobs digest: aaj koi asli naukri ki khabar nahi")
+        S["jobs"] = []
+        return
     lines = [LBL["jobs_header"], ""]
     links = []
     for n, j in enumerate(jobs, 1):
@@ -3112,7 +3136,7 @@ def full_story(title, text):
               "the information and facts given in the article — who, what, where, when, why, how, every number, "
               "name, place, date, amount and what officials/people said (indirectly), plus background given in the "
               "article; usually 6-14 sentences (about 120-300 words). Use ONLY facts from the article, add nothing, "
-              "neutral tone, no opinion, no hashtags, no emoji, no full stop at the very end. "
+              "neutral tone, no opinion, no hashtags, no emoji, no full stop at the very end. Never end with an incomplete sentence or cut-off word: if the source text is cut off, stop at the last complete sentence. "
               "\"card\": ALL the key facts of the news packed into ONE dense Sindhi paragraph of at most 600 characters (who, what, where, when, numbers, names) — written for the picture card, so a reader of only the card knows the whole story. If the article is about religion controversy, abuse or the Pakistani "
               "military, set blocked true.\nReturn JSON: {\"story\": string, \"card\": string, \"blocked\": bool}")
     out = ask_gemini(prompt) if GEMINI_KEY else ask_groq(prompt)
@@ -3207,7 +3231,10 @@ def editor_fix(msg, card=""):
               "\n\nFind and fix: garbled, misspelled or non-existent Sindhi words; wrong letters; Urdu words or Urdu "
               "spelling mixed into Sindhi (use proper Sindhi: ي not ی, ڪ not ک, ه not ہ/ھ where Sindhi uses ه); broken "
               "or meaningless sentences; repeated sentences; a headline that does not match the story; contradictions "
-              "(e.g. died in one place, injured in another). Make the MINIMUM changes. NEVER change any name, number, "
+              "(e.g. died in one place, injured in another); a story or card that ends with an incomplete sentence or cut-off "
+              "word (remove that incomplete last part); text from a website error or unrelated news mixed in (remove "
+              "it, and if the post mixes two different news events set ok=false). Make the MINIMUM changes. NEVER "
+              "change any name, number, "
               "place, date or fact, and never add information. If a word is so garbled that its meaning cannot be "
               "known, remove that part instead of guessing. If the post as a whole is too garbled to understand, or "
               "the facts contradict each other, set ok=false.\n"
@@ -3226,7 +3253,9 @@ def editor_fix(msg, card=""):
         c2 = clean_text(str(res.get("card", ""))) or card
         orig = head + " " + body + " " + (card or "")
         # editor ne naam/number/jagah to nahi badli?
-        if (_nums(h2 + " " + b2) != _nums(head + " " + body) or not place_ok(h2 + " " + b2 + " " + c2, orig)
+        from collections import Counter as _C
+        new_nums = _C(_nums(h2 + " " + b2 + " " + c2)) - _C(_nums(orig))  # koi naya/badla number nahi (hatana theek)
+        if (new_nums or _nums(h2) != _nums(head) or not place_ok(h2 + " " + b2 + " " + c2, orig)
                 or bad_script(h2 + b2 + c2) or blocked_reason(h2 + " " + b2) or len(b2) < 0.6 * len(body)):
             if res.get("issues"):  # ghalti mili lekin theek karna bharose ka nahi: bigri khabar post nahi
                 log("EDITOR: ghalti thi aur durust version mein number/jagah badli — post nahi:", head[:60])
@@ -4017,7 +4046,7 @@ def handle_sindh_stream():
               "advertisements, or anything about religion controversy, abuse or the Pakistani military. List clearly "
               "unsuitable items or repeats in \"reject\". For the pick write in Sindhi (Arabic script): \"headline\" "
               "(max 10 words), \"post\": the COMPLETE news with ALL facts of that item (who, what, where, when, why, every "
-              "number, name and what people said), usually 5-12 sentences, using ONLY facts from that item, and "
+              "number, name and what people said), usually 5-12 sentences, using ONLY facts from that item Never end with an incomplete sentence or cut-off word — if the source text is cut off, stop at the last complete sentence., and "
               "\"card\": ALL the key facts of the news packed into ONE dense Sindhi paragraph of at most 600 characters (who, what, where, when, numbers, names) — written for the picture card, so a reader of only the card knows the whole story. "
               "sensitive=true for murder, firing, robbery, rape/abuse or kidnapping (Theft, burglary, mobile/bike snatching, and quarrels or fights without killing, firing or serious injury are NOT sensitive.). district=true if it is "
               "about Naushahro Feroze district or its towns (" + towns + "). Political statements are allowed (report them "
