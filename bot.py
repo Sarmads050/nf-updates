@@ -1835,6 +1835,14 @@ def publish_queue():
                 break  # agla waqt is run ki hadd se bahar: agla run post karega
             log(f"manzoor khabar: {int(wait)} second ruk kar")
             time.sleep(wait)
+        ed = (q["message"], (q.get("card") or {}).get("body", "")) if q.get("approved") else \
+            editor_fix(q["message"], (q.get("card") or {}).get("body", ""))  # manzoor ki hui: jaisi aap ne dekhi
+        if ed is None:
+            S["queue"].pop(0)  # khabar samajh nahi aayi: post nahi
+            continue
+        q["message"] = ed[0]
+        if q.get("card"):
+            q["card"]["body"] = ed[1] or q["card"].get("body", "")
         if q.get("card") and not q.get("photo"):
             spec = q["card"]
             card = make_card(spec.get("title", ""), spec.get("sub", ""), spec.get("body", ""), theme=spec.get("theme", "culture"))
@@ -2504,7 +2512,11 @@ def handle_sindh_single():
            f"\n\n{footer()}")
     if repeat_block(msg):
         return
-    card = make_card(title, cfg.get("card_sub", "سنڌ جون خبرون"), finish(body), theme="news") if cfg.get("card", True) else None
+    ed = editor_fix(msg, finish(body))
+    if ed is None:
+        return
+    msg = ed[0]
+    card = make_card(title, cfg.get("card_sub", "سنڌ جون خبرون"), ed[1] or finish(body), theme="news") if cfg.get("card", True) else None
     if fb_post(msg, photo=card, count=False):
         note_region("sindh")
         perf_record("sindh_single", "sindh")
@@ -3155,6 +3167,82 @@ def place_ok(written, source):
     return True
 
 
+_TAIL = ("🗣️", "📌", "📲", "#", "🔗", "✍️", "⚠️")
+_EDIT_CACHE = {}
+
+
+def _split_post(msg):
+    """Post ke hisse: (sarkhi ka emoji, sarkhi, khabar, baqi tail: bayan/zariya/footer)."""
+    lines = (msg or "").split("\n")
+    i = next((k for k, l in enumerate(lines) if l.strip()), 0)
+    first = lines[i].strip() if lines else ""
+    m = re.match(r"^([^\w\u0600-\u06FF]*)(.*)$", first)
+    icon, head = (m.group(1), m.group(2)) if m else ("", first)
+    body, tail, in_tail = [], [], False
+    for l in lines[i + 1:]:
+        if not in_tail and l.strip().startswith(_TAIL):
+            in_tail = True
+        (tail if in_tail else body).append(l)
+    return icon, head.strip(), "\n".join(body).strip(), "\n".join(tail).strip()
+
+
+def _nums(t):
+    return sorted(re.findall(r"\d+(?:[.,]\d+)?", _sd_norm(t).translate(_DIGITS)))
+
+
+def editor_fix(msg, card=""):
+    """Senior editor: har khabar post se pehle — bigre/ghalat alfaz, ghalat huroof, toote jumle, sarkhi-khabar ka mel,
+    andaruni tazaad. Theek ho sake to theek (naam/number/jagah wahi), na ho sake to None (post nahi).
+    AI na mile to wahi text (bad_script wala check pehle se hai)."""
+    if not CONFIG.get("editor_check", True) or not (GEMINI_KEY or OPENROUTER_KEY):
+        return msg, card
+    key = hashlib.md5((msg + "|" + (card or "")).encode()).hexdigest()
+    if key in _EDIT_CACHE:
+        return _EDIT_CACHE[key]
+    icon, head, body, tail = _split_post(msg)
+    if not head:
+        return msg, card
+    prompt = ("You are the senior editor of a professional Sindhi news page. Check this news post before publishing.\n"
+              "HEADLINE: " + head + "\nSTORY: " + body + "\nCARD TEXT: " + (card or "") +
+              "\n\nFind and fix: garbled, misspelled or non-existent Sindhi words; wrong letters; Urdu words or Urdu "
+              "spelling mixed into Sindhi (use proper Sindhi: ي not ی, ڪ not ک, ه not ہ/ھ where Sindhi uses ه); broken "
+              "or meaningless sentences; repeated sentences; a headline that does not match the story; contradictions "
+              "(e.g. died in one place, injured in another). Make the MINIMUM changes. NEVER change any name, number, "
+              "place, date or fact, and never add information. If a word is so garbled that its meaning cannot be "
+              "known, remove that part instead of guessing. If the post as a whole is too garbled to understand, or "
+              "the facts contradict each other, set ok=false.\n"
+              "Return JSON: {\"ok\": bool, \"headline\": string, \"story\": string, \"card\": string, "
+              "\"issues\": [string]}")
+    res = ask_gemini(prompt) if GEMINI_KEY else ask_openrouter(prompt)
+    if not isinstance(res, dict):
+        out = (msg, card)  # editor na mila: purane checks par post
+    elif not res.get("ok"):
+        log("EDITOR: khabar samajh nahi aayi / tazaad, post nahi:", head[:60], "|", str(res.get("issues", ""))[:120])
+        STATS["editor_rejected"] = STATS.get("editor_rejected", 0) + 1
+        out = None
+    else:
+        h2 = clean_text(str(res.get("headline", ""))) or head
+        b2 = str(res.get("story", "")).strip() or body
+        c2 = clean_text(str(res.get("card", ""))) or card
+        orig = head + " " + body + " " + (card or "")
+        # editor ne naam/number/jagah to nahi badli?
+        if (_nums(h2 + " " + b2) != _nums(head + " " + body) or not place_ok(h2 + " " + b2 + " " + c2, orig)
+                or bad_script(h2 + b2 + c2) or blocked_reason(h2 + " " + b2) or len(b2) < 0.6 * len(body)):
+            if res.get("issues"):  # ghalti mili lekin theek karna bharose ka nahi: bigri khabar post nahi
+                log("EDITOR: ghalti thi aur durust version mein number/jagah badli — post nahi:", head[:60])
+                STATS["editor_rejected"] = STATS.get("editor_rejected", 0) + 1
+                out = None
+            else:
+                out = (msg, card)
+        else:
+            if res.get("issues"):
+                log("EDITOR theek kiya:", head[:50], "|", "; ".join(map(str, res.get("issues") or []))[:150])
+                STATS["editor_fixed"] = STATS.get("editor_fixed", 0) + 1
+            out = (f"{icon}{h2}" + (f"\n\n{b2}" if b2 else "") + (f"\n\n{tail}" if tail else ""), c2)
+    _EDIT_CACHE[key] = out
+    return out
+
+
 def card_text(story, fallback=""):
     """Card par likhne ke liye: AI ka facts wala paragraph, warna poori khabar (card khud font chhota karega)."""
     c = CARD_TEXT.get(story) or ""
@@ -3307,6 +3395,11 @@ def news_card_post(msg, card_title, label, link, count=False, body=""):
     """Khabar design wale card ke saath; mukammal khabar ka link pehle comment mein (fb_post khud karta hai)."""
     if repeat_block(msg):  # card banane se pehle hi
         return False
+    ed = editor_fix(msg, body)
+    if ed is None:
+        return False
+    msg, body = ed
+    card_title = card_parts(msg)[0] or card_title
     card = make_card(card_title, label, body, theme="news") if CONFIG.get("news_cards", True) else None
     ok = fb_post(msg, link=link, photo=card, count=count, card=False)
     if ok:
