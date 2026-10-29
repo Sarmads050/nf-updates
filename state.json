@@ -1565,7 +1565,10 @@
   "0a21adbf27e9feca": 1793241680.7988324,
   "5107b2a0324f904e": 1793241680.798833,
   "764aee2b0024af64": 1793241680.7988338,
-  "0b3f5ebbc294e2b4": 1793241680.7990701
+  "0b3f5ebbc294e2b4": 1793241680.7990701,
+  "0613a3543c0f4ebb": 1793244074.7006533,
+  "1398bd6cf419af1f": 1793244074.7006543,
+  "c36df74c7d2704eb": 1793244095.4696078
  },
  "pending": {},
  "queue": [],
@@ -1719,7 +1722,7 @@
  "sindh_single": {
   "date": "2026-10-29",
   "count": 0,
-  "last": 1793209403.898606,
+  "last": 1793244089.3193471,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1744,7 +1747,8 @@
    "0bbef6bc52a1b667",
    "361772a71df0a229",
    "5f13c17b5fd7d032",
-   "5ff2b97aabfa2103"
+   "5ff2b97aabfa2103",
+   "c36df74c7d2704eb"
   ]
  },
  "last_post_id": "1444130002106066_122115134253503839",
@@ -2220,7 +2224,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-29 08:10",
+  "time": "2026-10-29 08:21",
   "items": 31,
   "sample": [
    "Sikkim 87/4 & 184/10 * v Nagaland 187/10 & 208/10",
@@ -7599,9 +7603,9 @@
  },
  "ai_usage": {
   "date": "2026-10-29",
-  "ok": 103,
-  "fail": 139,
-  "limit": 138
+  "ok": 107,
+  "fail": 147,
+  "limit": 146
  },
  "posted_heads": [
   {
@@ -7926,7 +7930,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-29 08:10",
+  "time": "2026-10-29 08:21",
   "steps": []
  },
  "roundup_am": "2026-10-29",
@@ -8034,7 +8038,7 @@
   "text": 11,
   "story": 8
  },
- "ai_last_error": "08:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "08:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-29",
   "models": [
@@ -8075,7 +8079,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-29",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8083,7 +8087,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-29",
-   "ok": 52,
+   "ok": 53,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8091,7 +8095,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-29",
-   "ok": 52,
+   "ok": 53,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8099,14 +8103,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-29",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-29",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8114,21 +8118,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-29",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-29",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-29",
-   "ok": 52,
+   "ok": 53,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8363,8 +8367,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 13,
-  "old": 13,
+  "found": 26,
+  "old": 26,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8397,8 +8401,8 @@
   "date": "2026-10-29",
   "count": 1,
   "last": 1793217683.954128,
-  "city_i": 24,
-  "dry": 1793241662.1141684
+  "city_i": 6,
+  "dry": 1793244062.4644186
  },
  "gemini_day_dead": {
   "day": "2026-10-28",
@@ -9139,13 +9143,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-29 02:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-29 02:10",
    "ok": true,
    "n": 0,
@@ -9413,6 +9410,13 @@
   },
   {
    "t": "10-29 08:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-29 08:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13790,11 +13794,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-26 21:32",
-   "new": "سنڌ | گندم جي قيمتن بابت اهم خبر",
-   "old": "ڪڻڪ جو سهارو اگهه 4500 رپيا مقرر"
-  },
-  {
    "t": "10-27 00:51",
    "new": "ڪڻڪ جو امدادي اگھ مقرر",
    "old": "پيٽرول اگهن ۽ ٽئڪسن بابت نيون خبرون"
@@ -13938,6 +13937,11 @@
    "t": "10-29 03:41",
    "new": "پاڪستان ۾ مهانگائي، اٽي ۽ پيٽرول جون قيمتون جاري",
    "old": "حڪومت پاران پيٽرول سستو ۽ ڊيزل مهانگو"
+  },
+  {
+   "t": "10-29 08:21",
+   "new": "سنڌ | پٹرول ۽ ڈیزل جي قيمتفن ۾ واڌ",
+   "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ وڏو واڌارو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13960,5 +13964,6 @@
  "groq_disc": {
   "date": "2026-10-28",
   "model": "openai/gpt-oss-120b"
- }
+ },
+ "_dup": true
 }
