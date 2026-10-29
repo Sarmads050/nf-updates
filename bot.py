@@ -1555,7 +1555,13 @@ def card_title_of(message):
 _SD_STOP = set("جي ۾ ۽ کي جو آهي ڪيو ويو تي لاءِ لاء ته هن چيو کان سان جون ٿي ڪري ٿيو هو هئي آهن ويا وئي ڪئي جا "
                "سڀ هڪ ٻه پر به ان اهو اها ڪنهن ٿيندي ٿيندو وڃي ويندي جنهن جڏهن ڏانهن ڪيا ڪيون ڏنو وارو واري "
                "the and for with from will has have".split())
-_NORM = str.maketrans({"ی": "ي", "ک": "ڪ", "ہ": "ه", "ے": "ي", "ۃ": "ه", "ة": "ه", "أ": "ا", "إ": "ا", "آ": "ا"})
+_NORM = str.maketrans({"ی": "ي", "ک": "ڪ", "ہ": "ه", "ھ": "ه", "ے": "ي", "ۃ": "ه", "ة": "ه", "أ": "ا", "إ": "ا", "آ": "ا",
+                       "\u200c": "", "\u200d": ""})
+
+
+def _sd_norm(t):
+    """Sindhi/Urdu huroof ki mukhtalif shakalein ek jaisi (ھ/ہ/ه, ی/ي, ک/ڪ) aur zer-zabar hata kar."""
+    return re.sub(r"[\u064B-\u065F\u0670]", "", str(t or "")).translate(_NORM)
 
 
 _DIGITS = str.maketrans("۰۱۲۳۴۵۶۷۸۹٠١٢٣٤٥٦٧٨٩", "01234567890123456789")
@@ -3122,7 +3128,8 @@ def _place_names():
 
 def places_in(text):
     """Text mein aane wale (district/tarjeehi shehron ke) naam — Sindhi/Urdu/English mein, word boundary ke saath."""
-    t, low = str(text or ""), str(text or "").lower()
+    t = _sd_norm(text)
+    low = t.lower()
     found = set()
     known = {w for c in CONFIG.get("priority_cities", []) for w in c.get("names", [])}
     groups = CONFIG.get("priority_cities", []) + [{"en": n, "names": [n]} for n in CONFIG.get("district_towns", [])
@@ -3130,7 +3137,7 @@ def places_in(text):
     for c in groups:  # har shehar ke saare naam (English/Urdu/Sindhi) ek hi shehar
         for w in c.get("names", []):
             hit = (re.search(r"(?<![a-z])" + re.escape(w.lower()) + r"(?![a-z])", low) if w.isascii() else
-                   re.search(r"(?<![\u0600-\u06FF])" + re.escape(w) + r"(?![\u0600-\u06FF])", t))
+                   re.search(r"(?<![\u0600-\u06FF])" + re.escape(_sd_norm(w)) + r"(?![\u0600-\u06FF])", t))
             if hit:
                 found.add(c.get("en", w))
                 break
