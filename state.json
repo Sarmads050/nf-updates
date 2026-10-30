@@ -1597,7 +1597,12 @@
   "3a5a01730e7a3385": 1793353277.293241,
   "a3693bcfdea1000d": 1793354581.7473693,
   "e279fb33657bd15c": 1793354581.755034,
-  "d2914b4c508642a7": 1793354581.756916
+  "d2914b4c508642a7": 1793354581.756916,
+  "e7109ac3fc9a0699": 1793358078.0353677,
+  "0714460ba8bee51f": 1793358078.0353703,
+  "cc3b99443c431dae": 1793358078.0353715,
+  "7d69f04862f90aca": 1793358078.0353723,
+  "8a036bb85ceb880f": 1793358078.035374
  },
  "pending": {
   "culture2026-10-30": {
@@ -2213,10 +2218,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 15:58",
-  "items": 21,
+  "time": "2026-10-30 16:08",
+  "items": 24,
   "sample": [
-   "State Bank of Pakistan 185/10 & 172/10 * v Markhor IT Solutions 112/10 & 296/10",
+   "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 112/10 & 296/10",
    "South Africa 329/10 & 202/5 * v Australia 429/10",
    "South Australia 154/10 & 182/1 * v Western Australia 406/5 & 169/10"
   ]
@@ -7616,9 +7621,9 @@
  },
  "ai_usage": {
   "date": "2026-10-30",
-  "ok": 274,
-  "fail": 383,
-  "limit": 391
+  "ok": 276,
+  "fail": 387,
+  "limit": 395
  },
  "posted_heads": [
   {
@@ -7955,7 +7960,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 15:58",
+  "time": "2026-10-30 16:08",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8063,7 +8068,7 @@
   "text": 25,
   "story": 20
  },
- "ai_last_error": "15:40 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "16:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-30",
   "models": [
@@ -8104,7 +8109,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
-   "ok": 89,
+   "ok": 90,
    "fail": 10,
    "items": 10,
    "fail_streak": 0,
@@ -8112,7 +8117,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 98,
+   "ok": 99,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8120,7 +8125,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 98,
+   "ok": 99,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8128,14 +8133,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8143,21 +8148,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8348,14 +8353,14 @@
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 2,
-  "found": 11,
-  "old": 11,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-30 15",
+ "report_hour": "2026-10-30 16",
  "kawish_upload_times": {
   "_date": "2026-10-30",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8383,8 +8388,8 @@
  "sindh_stream": {
   "date": "2026-10-30",
   "count": 6,
-  "last": 1793350264.471789,
-  "city_i": 12,
+  "last": 1793358075.6623123,
+  "city_i": 16,
   "dry": 1793353265.6165843
  },
  "gemini_day_dead": {
@@ -9154,62 +9159,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 15:13",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 15:15",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 15:16",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 15:17",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 15:18",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 15:19",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 15:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 15:21",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 15:22",
    "ok": true,
    "n": 0,
@@ -9428,6 +9377,62 @@
   },
   {
    "t": "10-30 15:58",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 16:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 16:02",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 16:03",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 16:04",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 16:05",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 16:06",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 16:07",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 16:08",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14165,11 +14170,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-28 06:41",
-   "new": "سنڌ ۾ زرعي پيداوار وڌائڻ لاءِ عملي قدم",
-   "old": "سنڌ ۾ تيل وارن ٻج جو فصل وڌائڻ جو فيصلو"
-  },
-  {
    "t": "10-28 07:41",
    "new": "پاڪستاني بيٽنگ ڪوچ جو تسليم",
    "old": "پچ جو ڏوهه نه هو، خراب راند کيڏياسين: مائيڪ سمٿ"
@@ -14313,6 +14313,11 @@
    "t": "10-30 14:21",
    "new": "ڊيزل جي قيمت ۾ واڌ، پيٽرل جو اگهه برقرار",
    "old": "پيٽرول اگهه برقرار، هاءِ اسپيڊ ڊيزل مهانگو"
+  },
+  {
+   "t": "10-30 16:01",
+   "new": "هانگ ڪانگ سڪسز: پاڪستان ڀارت کي 4 وڪيٽن تان هارائي ڇڏيو",
+   "old": "عباس آفريدي جي شاندار بالنگ سان پاڪستان جي فتح"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14333,6 +14338,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 13
- }
+  "repeat": 14
+ },
+ "_dup": true
 }
