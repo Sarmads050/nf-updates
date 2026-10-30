@@ -9,6 +9,8 @@ from PIL import Image, ImageDraw, ImageFilter
 OUT = (42, 28, 32)
 K = 1.5          # world px per design unit (set by engine)
 SS = 2.0         # super-sampling factor
+HEAD = 0.88      # global head size (v2: less chibi, more natural proportions)
+BODY_H = 700     # body sprite height in units (v2: kameez hem below the hip)
 
 
 def setK(k):
@@ -33,12 +35,12 @@ def shade(c, f):
 # ----------------------------------------------------------------- characters
 SK1, SK2, SK3 = (214, 160, 118), (230, 180, 142), (198, 146, 104)
 CHARS = {
-    "ABBA": dict(role="Ghar ke Abba", name="Abba", age="old_man", skin=SK3, face="oval", hair="topi", hair_col=(200, 200, 205),
+    "ABBA": dict(kameez=True, role="Ghar ke Abba", name="Abba", age="old_man", skin=SK3, face="oval", hair="topi", hair_col=(200, 200, 205),
                  facial="mustache", fh_col=(215, 215, 218), wrinkles=2, shirt=(236, 230, 212), pants=(236, 230, 212),
                  collar="band", extra=["ajrak"], sleeve="long", scale=1.0, belly=True, brow_col=(190, 190, 195),
                  color="#ffcf6b", voice="Charon",
                  who="a 57-year-old Sindhi father, government office clerk, serious, slow and wise, deep warm voice"),
-    "AMMI": dict(role="Ghar ki Ammi", name="Ammi", age="old_woman", skin=SK2, face="round", hair="dupatta", hair_col=(40, 30, 28),
+    "AMMI": dict(kameez=True, role="Ghar ki Ammi", name="Ammi", age="old_woman", skin=SK2, face="round", hair="dupatta", hair_col=(40, 30, 28),
                  grey_streak=True, cover=(128, 32, 52), cover2=(170, 60, 80), wrinkles=1, shirt=(214, 120, 70),
                  pants=(214, 120, 70), collar="women", sleeve="long", scale=0.95, lashes=True, color="#ff9f80",
                  voice="Kore", who="a 50-year-old Sindhi mother and housewife, caring but strict, quick and expressive"),
@@ -46,7 +48,7 @@ CHARS = {
                    facial="beard", fh_col=(30, 24, 24), shirt=(110, 120, 135), pants=(60, 64, 80), collar="polo",
                    sleeve="short", scale=1.03, eyebags=True, color="#9fd0ff", voice="Orus",
                    who="a 29-year-old man, tired after work at a Chinese company, responsible elder brother, calm"),
-    "SANA": dict(role="Bhabi", name="Bhabi Sana", age="woman", skin=SK2, face="oval", hair="dupatta", hair_col=(30, 20, 18),
+    "SANA": dict(kameez=True, role="Bhabi", name="Bhabi Sana", age="woman", skin=SK2, face="oval", hair="dupatta", hair_col=(30, 20, 18),
                  cover=(46, 140, 100), cover2=(90, 190, 140), shirt=(250, 236, 214), pants=(250, 236, 214),
                  collar="women", sleeve="long", scale=0.94, lashes=True, earrings=True, color="#8ff0c0",
                  voice="Aoede", who="a 25-year-old educated young woman, polite, smart and witty"),
@@ -56,15 +58,15 @@ CHARS = {
     "HASHIR": dict(role="Twin", name="Hashir", age="toddler", skin=SK2, face="toddler", hair="tuft2", hair_col=(40, 28, 24),
                    shirt=(240, 200, 60), pants=(60, 90, 160), collar="tee", sleeve="short", scale=0.5, hs=1.45, color="#ffe066",
                    voice="Achird", toddler=True, who="a 2-year-old toddler boy who babbles half words, cheeky"),
-    "FARAZ": dict(role="Tech wala Bhai", name="Faraz", age="man", skin=SK1, face="oval", hair="neat", hair_col=(24, 20, 20), glasses=True,
+    "FARAZ": dict(kameez=True, role="Tech wala Bhai", name="Faraz", age="man", skin=SK1, face="oval", hair="neat", hair_col=(24, 20, 20), glasses=True,
                   facial="light", fh_col=(40, 30, 28), shirt=(90, 140, 200), pants=(50, 55, 75), collar="band",
                   extra=["lanyard"], sleeve="long", scale=1.0, color="#7fc8ff", voice="Iapetus",
                   who="a 27-year-old computer science graduate, the tech guy of the house, clear and a bit nerdy"),
-    "NIMRA": dict(role="Karachi wali Behan", name="Nimra Aapi", age="woman", skin=SK2, face="oval", hair="dupatta", hair_col=(34, 22, 20),
+    "NIMRA": dict(kameez=True, role="Karachi wali Behan", name="Nimra Aapi", age="woman", skin=SK2, face="oval", hair="dupatta", hair_col=(34, 22, 20),
                   cover=(120, 60, 170), cover2=(170, 110, 220), shirt=(240, 200, 220), pants=(240, 200, 220),
                   collar="women", sleeve="long", scale=0.93, lashes=True, earrings=True, color="#d6a8ff",
                   voice="Despina", who="a 24-year-old married elder sister living in Karachi, loving but bossy"),
-    "DANIYAL": dict(role="Wakeel Bhai", name="Daniyal", age="young", skin=SK1, face="long", hair="curly", hair_col=(30, 24, 22),
+    "DANIYAL": dict(kameez=True, role="Wakeel Bhai", name="Daniyal", age="young", skin=SK1, face="long", hair="curly", hair_col=(30, 24, 22),
                     shirt=(245, 245, 245), pants=(40, 40, 48), collar="band", extra=["waistcoat"], sleeve="long",
                     scale=0.98, color="#c0c0ff", voice="Fenrir",
                     who="a 20-year-old law student, dramatic and theatrical, loves saying Objection"),
@@ -72,7 +74,7 @@ CHARS = {
                     shirt=(30, 140, 70), shirt2=(240, 240, 240), pants=(30, 30, 40), collar="jersey", sleeve="short",
                     scale=0.95, color="#80e08a", voice="Puck",
                     who="a 17-year-old boy, cricket and mobile games lover, energetic, a bit lazy"),
-    "MEHAK": dict(role="Choti Behan", name="Mehak", age="girl", skin=SK2, face="round", hair="plaits", hair_col=(30, 20, 18),
+    "MEHAK": dict(kameez=True, role="Choti Behan", name="Mehak", age="girl", skin=SK2, face="round", hair="plaits", hair_col=(30, 20, 18),
                   shirt=(250, 150, 190), pants=(250, 150, 190), collar="women_print", sleeve="long", scale=0.84,
                   lashes=True, color="#ff9fc8", voice="Leda",
                   who="a 14-year-old girl in class 8, smart, talkative, loves teasing her brothers"),
@@ -200,6 +202,25 @@ class Toon:
             d.chord(s(cx - fw - 6, cy - fh - 10, cx + fw + 6, cy + 30), 180, 360, fill=hc)
             d.line(s(cx, cy - fh - 6, cx + 4, cy - 96), fill=shade(hc, 1.8), width=int(4 * SS * K))
             d.ellipse(s(cx + 50, cy - fh + 4, cx + 84, cy - fh + 26), fill=(250, 120, 170))  # hair clip
+        # v2: inner ear detail
+        for sd in (-1, 1):
+            ex0 = cx + sd * fw
+            a0, a1 = (110, 250) if sd < 0 else (290, 70)
+            d.arc(s(ex0 - 10 + sd * 4, cy - 6, ex0 + 10 + sd * 4, cy + 30), a0, a1, fill=shade(sk, 0.72), width=int(3 * SS * K))
+        # v2: hair shine strands (not under topi / dupatta cover)
+        if h not in ("topi", "dupatta"):
+            hl = shade(hc, 2.2) if sum(hc) < 200 else shade(hc, 1.1)
+            for k_ in range(3):
+                d.arc(s(cx - fw + 20 + k_ * 26, cy - fh - 4 + k_ * 3, cx - 10 + k_ * 26, cy - fh + 70), 200, 250, fill=hl, width=int(4 * SS * K))
+        # v2: soft jaw shadow on the neck
+        nsh = Image.new("RGBA", im.size, 0)
+        ImageDraw.Draw(nsh).chord(s(cx - fw + 20, cy + fh - 40, cx + fw - 20, cy + fh + 34), 0, 180, fill=(40, 15, 20, 60))
+        nsh = nsh.filter(ImageFilter.GaussianBlur(int(6 * SS * K)))
+        nm_ = Image.new("L", im.size, 0)
+        ImageDraw.Draw(nm_).rectangle(s(cx - 40, cy + fh - 6, cx + 40, 480), fill=255)
+        nsh.putalpha(Image.fromarray((np.asarray(nsh.getchannel("A")).astype(np.uint16) * np.asarray(nm_) // 255).astype(np.uint8)))
+        im.alpha_composite(nsh)
+        d = ImageDraw.Draw(im)
         mask = im.getchannel("A")
         sh_ = Image.new("RGBA", im.size, 0)
         ImageDraw.Draw(sh_).ellipse(s(cx + fw * 0.35, cy - fh, cx + fw * 1.6, cy + fh * 1.2), fill=(30, 10, 30, 34))
@@ -252,6 +273,8 @@ class Toon:
                 if eo < 0.95:
                     d.chord(s(ex - rx - 1, ey - 25, ex + rx + 1, ey + 25 - 30 * eo), 180, 360, fill=c["skin"])
                 d.arc(s(ex - rx - 1, ey - ry - 2, ex + rx + 1, ey + ry), 195, 345, fill=OUT, width=W(5))
+                if not tod:  # v2: upper eyelid crease
+                    d.arc(s(ex - rx + 2, ey - ry - 12, ex + rx - 2, ey + ry - 8), 210, 330, fill=shade(c["skin"], 0.8), width=W(3))
                 if c.get("lashes"):
                     d.line(s(ex + side * 25, ey - ry * 0.6, ex + side * 33, ey - ry * 0.6 - 8), fill=OUT, width=W(4))
                 if c.get("eyebags"):
@@ -261,7 +284,14 @@ class Toon:
             bri, bro = (br2 if (br2 and side == 1) else (bi, bo))
             by = cy - 56 + fy
             bw = 7 if c["age"] in ("woman", "old_woman", "girl", "toddler") else 10
-            d.line(s(ex - side * 24, by + bri, ex + side * 26, by + bro - 2), fill=c.get("brow_col", (36, 24, 20)), width=W(bw))
+            x1, y1, x2, y2 = ex - side * 24, by + bri, ex + side * 26, by + bro - 2  # v2: tapered brow (thick inside, thin outside)
+            bx, byy = x2 - x1, y2 - y1
+            m_ = math.hypot(bx, byy) or 1
+            nx_, ny_ = -byy / m_, bx / m_
+            d.polygon(s(x1 + nx_ * bw / 2, y1 + ny_ * bw / 2, (x1 + x2) / 2 + nx_ * bw * 0.55, (y1 + y2) / 2 + ny_ * bw * 0.55 - 2,
+                        x2 + nx_ * bw * 0.2, y2 + ny_ * bw * 0.2, x2 - nx_ * bw * 0.2, y2 - ny_ * bw * 0.2,
+                        (x1 + x2) / 2 - nx_ * bw * 0.55, (y1 + y2) / 2 - ny_ * bw * 0.55 - 2, x1 - nx_ * bw / 2, y1 - ny_ * bw / 2),
+                      fill=c.get("brow_col", (36, 24, 20)))
         if c.get("glasses"):
             for ex in (cx - 48 + fx, cx + 48 + fx):
                 d.rounded_rectangle(s(ex - 34, cy - 34 + fy, ex + 34, cy + 22 + fy), W(12), outline=(30, 30, 40), width=W(6))
@@ -269,7 +299,13 @@ class Toon:
         if c.get("wrinkles", 0) >= 2:
             d.arc(s(cx - 60 + fx, cy - 112, cx + 60 + fx, cy - 84), 200, 340, fill=shade(c["skin"], 0.78), width=W(3))
         nz = shade(c["skin"], 0.78)
-        d.line(s(cx + fx * 0.9, cy + 10 + fy, cx - 7 + fx * 0.9, cy + 40 + fy, cx + 5 + fx * 0.9, cy + 43 + fy), fill=nz, width=W(4))
+        nx0, ny0 = cx + fx * 0.9, cy + fy  # v2: shaped nose (bridge shadow, tip, nostrils)
+        d.line(s(nx0 + 8, ny0 + 2, nx0 + 12, ny0 + 30), fill=shade(c["skin"], 0.88), width=W(5))
+        d.arc(s(nx0 - 15, ny0 + 26, nx0 + 15, ny0 + 46), 10, 170, fill=nz, width=W(4))
+        for sd in (-1, 1):
+            a0, a1 = (100, 250) if sd < 0 else (290, 80)
+            d.arc(s(nx0 + sd * 15 - 7, ny0 + 30, nx0 + sd * 15 + 7, ny0 + 44), a0, a1, fill=nz, width=W(3))
+            d.ellipse(s(nx0 + sd * 7 - 3, ny0 + 38, nx0 + sd * 7 + 3, ny0 + 43), fill=shade(c["skin"], 0.6))
         if c.get("wrinkles"):
             for sd in (-1, 1):
                 d.arc(s(cx + sd * 40 - 22 + fx, cy + 34, cx + sd * 40 + 22 + fx, cy + 90), 90 - sd * 60 - 25, 90 - sd * 60 + 25, fill=nz, width=W(3))
@@ -289,6 +325,8 @@ class Toon:
                 d.line(s(mx - 24, my + 2, mx + 4, my + 5, mx + 26, my - 8), fill=OUT, width=W(5), joint="curve")
             elif sm >= 0:
                 wd, dp = 22 + 10 * sm, 4 + 12 * sm
+                lipc = tuple(int(a * 0.75 + b * 0.25) for a, b in zip(shade(c["skin"], 0.85), (190, 70, 80)))
+                d.chord(s(mx - 13, my + dp - 4, mx + 13, my + dp + 9), 0, 180, fill=lipc)  # v2: lower lip
                 d.arc(s(mx - wd, my - dp - 4, mx + wd, my + dp), 15, 165, fill=OUT, width=W(5))
             else:
                 d.arc(s(mx - 20, my + 2, mx + 20, my + 22), 200, 340, fill=OUT, width=W(5))
@@ -315,12 +353,15 @@ class Toon:
     def _body(self):
         c = self.c
         tod = c.get("toddler")
-        im = self._canvas(520, 600)
+        im = self._canvas(520, BODY_H)
         d = ImageDraw.Draw(im)
         s = self._s
         W = lambda v: int(v * SS * K)
         sh = c["shirt"]
         x0, x1 = (92, 428)
+        if c.get("kameez"):  # v2: kameez front panel falls below the hip (side slits)
+            d.rounded_rectangle(s(128, 380, 392, 650), W(26), fill=shade(sh, 0.97))
+            d.line(s(140, 636, 380, 636), fill=shade(sh, 0.82), width=W(4))
         if c.get("belly"):
             d.ellipse(s(110, 300, 410, 590), fill=sh)
         d.rounded_rectangle(s(x0, 40, x1, 560), W(100), fill=sh)
@@ -384,10 +425,14 @@ class Toon:
             d.line(s(220, 44, 250, 250, 270, 250, 300, 44), fill=(30, 110, 200), width=W(6))
             d.rounded_rectangle(s(232, 246, 288, 320), W(6), fill=(250, 250, 250), outline=(80, 80, 90), width=W(3))
             d.rectangle(s(240, 256, 262, 282), fill=(150, 180, 220))
+        # v2: soft fabric folds
+        for fx_, a0 in ((170, 0), (350, 1)):
+            d.line(s(fx_, 300, fx_ + (8 if a0 else -8), 540), fill=shade(sh, 0.9), width=W(4))
+        d.arc(s(150, 20, 370, 120), 200, 340, fill=shade(sh, 0.88), width=W(4))  # shoulder seam / yoke
         # cel shading: darker side + soft highlight, clipped to the clothes
         mask = im.getchannel("A")
         sh_ = Image.new("RGBA", im.size, 0)
-        ImageDraw.Draw(sh_).polygon(s(330, 0, 560, 0, 560, 600, 360, 600), fill=(20, 10, 30, 46))
+        ImageDraw.Draw(sh_).polygon(s(330, 0, 560, 0, 560, BODY_H, 360, BODY_H), fill=(20, 10, 30, 46))
         sh_ = sh_.filter(ImageFilter.GaussianBlur(int(14 * SS * K)))
         hl_ = Image.new("RGBA", im.size, 0)
         ImageDraw.Draw(hl_).ellipse(s(120, 60, 230, 260), fill=(255, 255, 255, 30))
@@ -395,7 +440,7 @@ class Toon:
         for lay in (sh_, hl_):
             lay.putalpha(Image.fromarray((np.asarray(lay.getchannel("A")).astype(np.uint16) * np.asarray(mask) // 255).astype(np.uint8)))
             im.alpha_composite(lay)
-        return outline(im, int(6 * SS * K)).resize((int(520 * K), int(600 * K)), Image.LANCZOS)
+        return outline(im, int(6 * SS * K)).resize((int(520 * K), int(BODY_H * K)), Image.LANCZOS)
 
 
 # ----------------------------------------------------------------- props held in hand
