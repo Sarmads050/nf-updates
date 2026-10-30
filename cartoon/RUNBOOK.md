@@ -109,3 +109,16 @@ Check duration 85–130 s. Voices for ~28 lines take ~15 min in the workflow (it
 3. Send Sarmad a short Roman Urdu message: episode number + title, 1 line story summary, the posting caption and the 5 hashtags
    (ready to copy), and "YouTube Shorts + Facebook Reels par upload karein".
 4. Append the episode to `cartoon/episodes/index.json` (id, date, title, topic, set, cast), commit and push.
+
+## 6. Khamiyan report (Sarmad ki standing request — har episode ke baad)
+Sarmad wants every run to point out weaknesses it noticed and ASK before fixing them. He reviews and replies "han set kar do".
+1. At the START of the run, read `cartoon/KHAMIYAN.md`. Do not re-report items already listed there (PENDING or DONE).
+   If an item is marked `APPROVED` but not yet done, fix it first (before rendering today's episode) and move it to DONE.
+2. While making the episode, note 2–4 concrete flaws you saw (character art, staging/close-ups, voices, captions, story logic,
+   timing, sets, music). Be specific: what is wrong, which frame/line, and what the fix would be. Do NOT fix them silently.
+3. Append them to `cartoon/KHAMIYAN.md` under `PENDING` as `- [K-NNN] (epNNN, date) problem — proposed fix` and push.
+4. After the delivery message, send Sarmad a SECOND short message in simple Roman Urdu:
+   "Is episode mein yeh khamiyan nazar aayin:" + numbered list (K-number, 1 line problem + 1 line fix),
+   then "Kaun si theek kar doon? Number likh kar 'han set kar do' likh dein." Include it in the push notification too.
+5. When Sarmad approves in the chat: fix on a branch, render a PEHLE vs AB comparison image, send it, then merge to main
+   and move the item to DONE (with date). If he says no, move it to `REJECTED` so it is never suggested again.
