@@ -1576,7 +1576,15 @@
   "33f28dafb16613d2": 1793390493.973753,
   "11d640c3536f1297": 1793390493.9740596,
   "8f45b23912162107": 1793391055.963425,
-  "b10fb7f77243e0c7": 1793391652.8167176
+  "b10fb7f77243e0c7": 1793391652.8167176,
+  "9a5ee6fb5d257001": 1793393448.9017208,
+  "bb8f654b52335156": 1793393461.7043047,
+  "83b5cac49b3c3f04": 1793393461.7043068,
+  "c6a0918ac12b6361": 1793393461.7043083,
+  "93f4aaaacf8d818f": 1793393461.7043087,
+  "4bd5a4c7e327cf16": 1793393461.7043095,
+  "853740e083263d6f": 1793393461.7043104,
+  "1126a84e536bbc55": 1793393461.7045462
  },
  "pending": {
   "culture2026-10-30": {
@@ -1618,6 +1626,15 @@
    "domain": "propakistani.pk",
    "source": "ProPakistani",
    "ts": 1793259030,
+   "local": false
+  },
+  {
+   "key": "9a5ee6fb5d257001",
+   "title": "Punjab eyes exports, jobs boom",
+   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBOQlNXVTd2OHh1S1gwdDlRVm9vOFNxRFdOMVY2UDdWaHU2eFlqZWl3aDBoMHJ5NHhIVE5scHhDdWhZdUtuYVV2ZVRwazF6Y0NxMWJxdFZ4R1hVbWZPVzAzMDZ5Y1dyRDdvbDdrcXdxaDZnOE9OZWxQMEptSWjSAXxBVV95cUxQTkJTV1U3djh4dUtYMHQ5UVZvbzhTcURXTjFWNlA3Vmh1NnhZamVpd2gwaDByeTR4SFRObHB4Q3VoWXVLbmFVdmVUcGsxemNDcTFicXRWeEdYVW1mT1cwMzA2eWNXckQ3b2w3a3F3cWg2ZzhPTmVsUDBKbUlo?oc=5",
+   "domain": "tribune.com.pk",
+   "source": "The Express Tribune",
+   "ts": 1793389185,
    "local": false
   }
  ],
@@ -1717,18 +1734,8 @@
    "c36df74c7d2704eb"
   ]
  },
- "last_post_id": "1444130002106066_122115854889503839",
+ "last_post_id": "1444130002106066_122115869211503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122115485325503839",
-   "title": "پنجاب حڪومت صوبي ۾ پهرين ڪسان بئنڪ قائم ڪرڻ جو اعلان ڪيو آهي جنهن تحت آبادگارن کي 17 ارب",
-   "t": 1793318530.03983,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122115485325503839"
-  },
   {
    "id": "1444130002106066_122115500247503839",
    "title": "ڪوچ مائڪ هيسن جو چوڻ آهي ته پاڪستاني ڪرڪيٽ ٽيم اڃا تائين پنهنجو بهترين کيل پيش نه ڪري",
@@ -2046,6 +2053,17 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122115854889503839"
+  },
+  {
+   "id": "1444130002106066_122115869211503839",
+   "title": "لاهور جي ايوسينا ميڊيڪل ڪاليج جي طرفان نئين تعليمي سال لاءِ داخلا جو اعلان ڪيو ويو آهي،",
+   "t": 1793393540.0842822,
+   "tags": [
+    "education",
+    "general",
+    "jobs"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122115869211503839"
   }
  ],
  "share_sent": {
@@ -2217,7 +2235,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-31 01:40",
+  "time": "2026-10-31 01:52",
   "items": 22,
   "sample": [
    "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 296/10 & 112/10",
@@ -2232,17 +2250,11 @@
  },
  "all_posts": {
   "date": "2026-10-31",
-  "count": 2,
-  "last": 1793390636.2336116
+  "count": 3,
+  "last": 1793393531.8134875
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122111790027503839",
-    "sec": "district",
-    "cat": "district",
-    "t": 1792595386
-   },
    {
     "id": "1444130002106066_122111790633503839",
     "sec": "district",
@@ -4636,13 +4648,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1793390641
+   },
+   {
+    "id": "1444130002106066_122115869211503839",
+    "sec": "public_news",
+    "cat": "education_jobs",
+    "t": 1793393540
    }
   ]
  },
  "public_news": {
   "date": "2026-10-31",
-  "count": 0,
-  "last": 1793348623.8718967
+  "count": 1,
+  "last": 1793393540.0842586
  },
  "trends": {
   "last": 1793385652.094916,
@@ -7620,15 +7638,11 @@
  },
  "ai_usage": {
   "date": "2026-10-31",
-  "ok": 15,
-  "fail": 26,
-  "limit": 26
+  "ok": 21,
+  "fail": 36,
+  "limit": 36
  },
  "posted_heads": [
-  {
-   "h": "”ميني پيار ڪيا“ جي پهرين پسند ڀاڳيشري نه هئي! اپسنا کي سلمان خان سان ڇو نه جوڙيو ويو؟",
-   "t": 1793211898
-  },
   {
    "h": "Cricket match squads | PAK vs SL, Final, Pakistan ODI Tri-Series, 2026",
    "t": 1793214841
@@ -7944,10 +7958,14 @@
   {
    "h": "Pakistan, Sri Lanka captains unveil Tri-Series trophy ahead of Lahore Final",
    "t": 1793390642
+  },
+  {
+   "h": "Avicenna Medical College Lahore Announces Admissions",
+   "t": 1793393540
   }
  ],
  "last_errors": {
-  "time": "2026-10-31 01:40",
+  "time": "2026-10-31 01:52",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8050,12 +8068,12 @@
  },
  "article_diag": {
   "date": "2026-10-31",
-  "tried": 1,
-  "decoded": 1,
-  "text": 1,
-  "story": 0
+  "tried": 2,
+  "decoded": 2,
+  "text": 2,
+  "story": 1
  },
- "ai_last_error": "01:02 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "01:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-31",
   "models": [
@@ -8069,11 +8087,11 @@
  },
  "img_diag": {
   "date": "2026-10-31",
-  "tried": 2,
+  "tried": 3,
   "gemini": 0,
-  "pollinations": 1,
+  "pollinations": 2,
   "skip": 0,
-  "fail": 2,
+  "fail": 3,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 286
  },
@@ -8096,7 +8114,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-31",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8104,7 +8122,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-31",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8112,7 +8130,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-31",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8120,14 +8138,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8135,21 +8153,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-31",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8337,12 +8355,12 @@
   "date": "2026-10-31",
   "district": 0,
   "sindh": 1,
-  "pakistan": 1
+  "pakistan": 2
  },
  "report_acc": {
-  "posted": 0,
-  "found": 6,
-  "old": 6,
+  "posted": 1,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8377,8 +8395,8 @@
   "date": "2026-10-31",
   "count": 1,
   "last": 1793386883.6534767,
-  "city_i": 24,
-  "dry": 1793390478.7264304
+  "city_i": 6,
+  "dry": 1793393457.3759792
  },
  "gemini_day_dead": {
   "day": "2026-10-30",
@@ -9081,6 +9099,14 @@
    "t": 1793390641,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "8b0f79b743183376",
+   "h": "اوسينا ميڊيڪل ڪاليج لاهور ۾ داخلا جو اعلان",
+   "x": "لاهور ۾ اوسينا ميڊيڪل ڪاليج نرسنگ ۽ الائيڊ هيلٿ سائنسز جي چئن انڊر گريجوئيٽ پروگرامن ۾ داخلا جو اعلان ڪيو آهي، جنهن ۾ چونڊيل پروگرامن لاءِ 50 سيڪڙو تائين ميرٽ جي بنياد تي اسالرشپ پڻ موجود آهن. اداري جي داخلا اشتهار موجب شاگرد ڊاڪٽر آف فزيڪل ٿراپي، بي ايس هانيئرز ميڊيڪل اميجنگ ٽيڪنالاجي، بي ايس هانيئرز هيومن نيوٽريشن اينڊ ڊائيٽيڪس، ۽ بيچلر آف سائنس ان نرسنگ لاءِ درخواست ڏئي سگهن ٿا. اهي داخلائون لاهور ۾ اوسينا انسٽيٽيوٽ آف الائيڊ هيلٿ سائنسز ۽ گلفرين نرسنگ ڪاليج ذريعي پيش ڪيون پيون وڃن. اداري درخواستن جمع ڪرائڻ جي آخري تاريخ 15 نومبر 2026 مقرر ڪئي آهي. الائيڊ هيلٿ پروگرامن لاءِ شاگردن وٽ ايف ايس سي پري ميڊيڪل ۾ گهٽ ۾ گهٽ 60 سيڪڙو مارڪون هجڻ ضروري آهن، جڏهن ته بي ايس نرسنگ جي داخلا لاءِ اميدوار باالاجي سميت ايف ايس سي پري ميڊيڪل ۾ گهٽ ۾ گهٽ 50 سيڪڙو مارڪن سان درخواست ڏئي سگهن ٿا. اوسينا انسٽيٽيوٽ آف الائيڊ هيلٿ سائنسز پنج سالہ ڊاڪٽر آف فزيڪل ٿراپي، چار سالہ ميڊيڪل اميجنگ ٽيڪنالاجي ۽ چار سالہ هيومن نيوٽريشن اينڊ ڊائيٽيڪس جا پروگرام پيش ڪري رهيو آهي. ان کان علاوه گلفرين نرسنگ ڪاليج چار سالہ بيچلر آف سائنس ان نرسنگ پروگرام پيش ڪري رهيو آهي، جنهن لاءِ عمر جي حد 14 کان 35 سال رکي وئي آهي. اداري پاران الائيڊ هيلٿ سائنسز جي پروگرامن لاءِ 50 سيڪڙو تائين جي اسالرشپ جو اعلان ڪيو ويو آهي. دلچسپي رکندڙ اميدوارن کي گهرجي ته اهي اداري جي آن لائن داخلا پورٽل students.avicennamch.com ذريعي پنهنجون درخواستون جمع ڪرائين!",
+   "t": 1793393540,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9094,13 +9120,6 @@
   "last": 1793356878.054588
  },
  "tg_debug": [
-  {
-   "t": "10-30 20:47",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-30 20:48",
    "ok": true,
@@ -9369,6 +9388,13 @@
   },
   {
    "t": "10-31 01:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 01:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14030,6 +14056,45 @@
     "ڪيڏجندڙ",
     "ڪپتانن"
    ]
+  },
+  {
+   "t": 1793393540,
+   "h": "اوسينا ميڊيڪل ڪاليج لاهور ۾ داخلا جو اعلان",
+   "b": "لاهور ۾ اوسينا ميڊيڪل ڪاليج نرسنگ ۽ الائيڊ هيلٿ سائنسز جي چئن انڊر گريجوئيٽ پروگرامن ۾ داخلا جو اعلان ڪيو",
+   "tt": [
+    "اعلان",
+    "اوسينا",
+    "داخلا",
+    "لاهور",
+    "ميڊيڪل",
+    "ڪاليج"
+   ],
+   "bt": [
+    "#50",
+    "اسالرشپ",
+    "اعلان",
+    "الائيڊ",
+    "انڊر",
+    "اهن",
+    "اهي،",
+    "اوسينا",
+    "بنياد",
+    "تائين",
+    "داخلا",
+    "سائنسز",
+    "سيڪڙو",
+    "لاهور",
+    "موجود",
+    "ميرٽ",
+    "ميڊيڪل",
+    "نرسنگ",
+    "هيلٿ",
+    "پروگرامن",
+    "چئن",
+    "چونڊيل",
+    "ڪاليج",
+    "گريجوئيٽ"
+   ]
   }
  ],
  "repeat_log": [
@@ -14197,7 +14262,7 @@
  },
  "quality": {
   "date": "2026-10-31",
-  "editor_fixed": 2,
+  "editor_fixed": 3,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
