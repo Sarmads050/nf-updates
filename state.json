@@ -1,6 +1,5 @@
 {
  "seen": {
-  "cf92ce9af593aa02": 1792735265.537101,
   "393b8431df75e20a": 1792736463.5132453,
   "ed3119b9a131bf4b": 1792736471.11721,
   "0b3232feed6b3eac": 1792736471.117213,
@@ -1596,7 +1595,9 @@
   "9a7f45841de09d90": 1793338271.2879,
   "5aa24b5cbc747daa": 1793339459.5798151,
   "36551d3f292505a9": 1793339459.579818,
-  "321e250da813cc9b": 1793340066.6330805
+  "321e250da813cc9b": 1793340066.6330805,
+  "b760b9d8d5d9045c": 1793340669.0023932,
+  "2fccfce19ada47c7": 1793340669.0023956
  },
  "pending": {
   "culture2026-10-30": {
@@ -1709,20 +1710,8 @@
    "c36df74c7d2704eb"
   ]
  },
- "last_post_id": "1444130002106066_122115578985503839",
+ "last_post_id": "1444130002106066_122115580791503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122115284265503839",
-   "title": "جيو پاڻ اسراءِ الهرم جي پوئلڳن قيادت سان ملاقات، آڻين ميٿاق جمھوريت جي تجويز ملڪ کي تر پر",
-   "t": 1793276497.5864968,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122115284265503839"
-  },
   {
    "id": "1444130002106066_122115288045503839",
    "title": "بلاول ڀٽو جو مخالف ڌر کي پارلياماني ڪميٽين ۾ شرڪت جو مشورو",
@@ -2040,6 +2029,18 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122115578985503839"
+  },
+  {
+   "id": "1444130002106066_122115580791503839",
+   "title": "ڪراچي: مشهور ڳائڻي حميرا چنا جي ڪار چوري",
+   "t": 1793340693.3901598,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122115580791503839"
   }
  ],
  "share_sent": {
@@ -2191,7 +2192,7 @@
    },
    "wicket_posts": 5,
    "break_done": true,
-   "last_edit": 1793340402.8393748,
+   "last_edit": 1793340999.3485332,
    "batting": "United Arab Emirates",
    "done": false,
    "seen_live": true
@@ -2207,12 +2208,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 11:06",
+  "time": "2026-10-30 11:16",
   "items": 22,
   "sample": [
    "State Bank of Pakistan 185/10 & 172/10 * v Markhor IT Solutions 296/10 & 112/10",
-   "South Africa 329/10 & 140/4 * v Australia 429/10",
-   "South Australia 154/10 & 96/1 * v Western Australia 406/5 & 169/10"
+   "South Africa 140/4 & 329/10 * v Australia 429/10",
+   "South Australia 109/1 & 154/10 * v Western Australia 169/10 & 406/5"
   ]
  },
  "agri_news": {
@@ -2222,17 +2223,11 @@
  },
  "all_posts": {
   "date": "2026-10-30",
-  "count": 24,
-  "last": 1793340090.225769
+  "count": 25,
+  "last": 1793340686.8242772
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122111634063503839",
-    "sec": "public_news",
-    "cat": "weather_disaster",
-    "t": 1792577203
-   },
    {
     "id": "1444130002106066_122111639541503839",
     "sec": "agri_news",
@@ -4626,6 +4621,12 @@
     "sec": "district",
     "cat": "district",
     "t": 1793340097
+   },
+   {
+    "id": "1444130002106066_122115580791503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1793340693
    }
   ]
  },
@@ -4635,24 +4636,8 @@
   "last": 1793337198.207604
  },
  "trends": {
-  "last": 1793329300.7426898,
+  "last": 1793340652.937891,
   "terms": [
-   {
-    "term": "anrich nortje",
-    "traffic": 100,
-    "news": "Anrich Nortje suffers suspected groin injury in second Test v Australia",
-    "t": 1792728092,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "vivo",
-    "traffic": 100,
-    "news": "One Tech Tip: As Apple’s Duo phone is released, here are dos and don’ts for folding phones",
-    "t": 1792728092,
-    "cat": "technology",
-    "sindh": false
-   },
    {
     "term": "saif ali khan",
     "traffic": 100,
@@ -7524,21 +7509,65 @@
     "t": 1793329300,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "taijul islam",
+    "traffic": 200,
+    "news": "Warrican’s five-wicket haul leads WI fightback against Bangladesh",
+    "t": 1793340653,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "rashid khan 200 t20i wickets",
+    "traffic": 5000,
+    "news": "Omarzai’s brilliance outshines Raza’s valiance as Afghanistan seal series",
+    "t": 1793340653,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "roston chase",
+    "traffic": 100,
+    "news": "West Indies Hoping to End Year Unbeaten in Test Series, Says Sammy",
+    "t": 1793340653,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "xiaomi poco x8s",
+    "traffic": 500,
+    "news": "POCO X8 officially launching in the Philippines, priced",
+    "t": 1793340653,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "christine lagarde",
+    "traffic": 100,
+    "news": "European shares inch up ahead of ECB as earnings remain in focus",
+    "t": 1793340653,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "hong kong",
+    "traffic": 200,
+    "news": "The Hang Seng Index is approaching a key support zone; can it stabilize and rebound?",
+    "t": 1793340653,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-30",
-  "ok": 169,
-  "fail": 284,
-  "limit": 284
+  "ok": 174,
+  "fail": 294,
+  "limit": 294
  },
  "posted_heads": [
-  {
-   "h": "HARIS RAUF FINED FOR BREACHING ICC CODE OF CONDUCT",
-   "t": 1793172528
-  },
   {
    "h": "Traders warn of protests against Suthra Punjab sanitation tax",
    "t": 1793173323
@@ -7854,10 +7883,14 @@
   {
    "h": "بجلي في يونٽ 2 رپيا 56 پئسا مهانگي ٿيڻ جو امڪان، نيپرا فيصلو محفوظ ڪري ورتو",
    "t": 1793339572
+  },
+  {
+   "h": "ڪراچي ۾ مشهور ڳائڻي حميرا چنا جي ڪار چوري، گهرو وزير ضياءُ الحسن لنجار جو نوٽيس، گاڏي واپس ڪرائڻ جي هدايت",
+   "t": 1793340693
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 11:06",
+  "time": "2026-10-30 11:16",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -7965,7 +7998,7 @@
   "text": 19,
   "story": 16
  },
- "ai_last_error": "11:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "11:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-30",
   "models": [
@@ -7979,10 +8012,10 @@
  },
  "img_diag": {
   "date": "2026-10-30",
-  "tried": 17,
+  "tried": 18,
   "gemini": 0,
   "pollinations": 12,
-  "skip": 2,
+  "skip": 3,
   "fail": 3,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 269
@@ -8006,7 +8039,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
-   "ok": 62,
+   "ok": 63,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -8014,7 +8047,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 68,
+   "ok": 69,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8022,7 +8055,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 68,
+   "ok": 69,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8030,14 +8063,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8045,21 +8078,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8380,13 +8413,13 @@
  "region_posts": {
   "date": "2026-10-30",
   "district": 1,
-  "sindh": 3,
+  "sindh": 4,
   "pakistan": 12
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 12,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8418,9 +8451,9 @@
  },
  "sindh_stream": {
   "date": "2026-10-30",
-  "count": 2,
-  "last": 1793339456.0324955,
-  "city_i": 16,
+  "count": 3,
+  "last": 1793340666.6675818,
+  "city_i": 20,
   "dry": 1793337060.058386
  },
  "gemini_day_dead": {
@@ -8501,14 +8534,6 @@
   92058803
  ],
  "reel_pool": [
-  {
-   "k": "4b2372fff529c7c6",
-   "h": "پاڻي جي بحران کي منهن ڏيڻ لاءِ وڏو منصوبو",
-   "x": "پاڻي جي کوٽ ۽ زميني پاڻيءَ جي لاٿ کي منهن ڏيڻ لاءِ پاڪستان ۾ وڏو منصوبو غور هيٺ آهي، جنهن تحت ايندڙ 10 سالن دوران آبي ڍانچي جي تعمير ۽ ترقيءَ لاءِ لڳ ڀڳ 18 ارب ڊالرن جي وفاقي فنڊنگ گهربل هوندي. رپورٽ موجب، پلاننگ ڪميشن جي رپورٽ ۾ تجويز ڏني وئي آهي ته پاڪستان ۾ پاڻيءَ جي استعمال جي موجوده ڪارڪردگي 40 سيڪڙو مان وڌائي 2029ع تائين 70 سيڪڙو ڪئي وڃي. رپورٽ ۾ ٻوڏن کي منهن ڏيڻ، پاڻيءَ جا ذخيرا تعمير ڪرڻ ۽ واهن کي جديد بڻائڻ سميت اهم آبي منصوبن جي ترقيءَ تي زور ڏنو ويو آهي. انهن منصوبن لاءِ ايندڙ ڏهن سالن جو عرصو مقرر ڪيو ويو آهي ته جيئن ملڪ کي ممڪن آبي بحران کان بچائي سگهجي!",
-   "t": 1793167306,
-   "s": false,
-   "r": 0
-  },
   {
    "k": "8fe2bdf4a6e4cbd7",
    "h": "پي ٽي آءِ پارلياماني اجلاس ۾ حڪومت سان ڳالهين تي اختلاف",
@@ -9188,6 +9213,14 @@
    "t": 1793340097,
    "s": false,
    "r": 1
+  },
+  {
+   "k": "7f6e703f0aa4312b",
+   "h": "ڪراچي: مشهور ڳائڻي حميرا چنا جي ڪار چوري",
+   "x": "ڪراچي جي طارق روڊ واري علائقي مان مشهور ڳائڻي حميرا چنا جي ڪار چوري ٿي وئي، جنهن جي نتيجي ۾ واقعي جو صوبائي گهرو وزير ضياءُ الحسن لنجار نوٽيس ورتو. گهرو وزير ايس ايس پي اي وي ايل سي کي ڪار جي جلد واپسي ۽ واقعي ۾ ملوث جوابدارن خلاف سخت ڪارروائي ڪرڻ جي هدايت جاري ڪئي آهي. پوليس موجب ڪار چوري جو باقاعده ڪيس داخل ڪيو ويو آهي، جڏهن ته جوابدارن جي جلد گرفتاري ۽ چوري ٿيل ڪار جي بازيابي لاءِ خصوصي پوليس ٽيمون جوڙيون ويون آهن. پوليس جو چوڻ آهي ته شڪي ماڻهن جي ڳولا پڻ جاري آهي. بيان: سنڌ جو گهرو وزير ضياءُ الحسن لنجار",
+   "t": 1793340693,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9203,20 +9236,6 @@
   "last": 1793286743.8895366
  },
  "tg_debug": [
-  {
-   "t": "10-30 07:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 07:56",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-30 08:00",
    "ok": true,
@@ -9482,55 +9501,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "10-30 11:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 11:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-10-30",
  "recent_posts": [
-  {
-   "t": 1793167306,
-   "h": "پاڻي جي بحران کي منهن ڏيڻ لاءِ وڏو منصوبو",
-   "b": "پاڻي جي کوٽ ۽ زميني پاڻيءَ جي لاٿ کي منهن ڏيڻ لاءِ پاڪستان ۾ وڏو منصوبو غور هيٺ آهي، جنهن تحت ايندڙ 10 سالن",
-   "tt": [
-    "بحران",
-    "منصوبو",
-    "منهن",
-    "وڏو",
-    "پاڻي",
-    "ڏيڻ"
-   ],
-   "bt": [
-    "#10",
-    "#18",
-    "ابي",
-    "ارب",
-    "اهي،",
-    "ايندڙ",
-    "بحران",
-    "تحت",
-    "ترقيء",
-    "تعمير",
-    "دوران",
-    "زميني",
-    "سالن",
-    "غور",
-    "فنڊنگ",
-    "لاٿ",
-    "منصوبو",
-    "منهن",
-    "هوندي",
-    "هيٺ",
-    "وفاقي",
-    "وڏو",
-    "پاڪستان",
-    "پاڻي",
-    "پاڻيء",
-    "ڊالرن",
-    "ڍانچي",
-    "ڏيڻ",
-    "ڪوٽ",
-    "گهربل"
-   ]
-  },
   {
    "t": 1793168506,
    "h": "پي ٽي آءِ پارلياماني اجلاس ۾ حڪومت سان ڳالهين تي اختلاف",
@@ -14231,6 +14219,57 @@
     "گهر",
     "گهرن"
    ]
+  },
+  {
+   "t": 1793340693,
+   "h": "ڪراچي: مشهور ڳائڻي حميرا چنا جي ڪار چوري",
+   "b": "ڪراچي جي طارق روڊ واري علائقي مان مشهور ڳائڻي حميرا چنا جي ڪار چوري ٿي وئي، جنهن جي نتيجي ۾ واقعي جو صوبائي",
+   "tt": [
+    "حميرا",
+    "مشهور",
+    "چنا",
+    "چوري",
+    "ڪار",
+    "ڪراچي",
+    "ڳائڻي"
+   ],
+   "bt": [
+    "الحسن",
+    "اهي",
+    "ايس",
+    "ايل",
+    "جاري",
+    "جلد",
+    "جوابدارن",
+    "حميرا",
+    "خلاف",
+    "روڊ",
+    "سخت",
+    "صوبائي",
+    "ضياء",
+    "طارق",
+    "علائقي",
+    "لنجار",
+    "مان",
+    "مشهور",
+    "ملوث",
+    "نتيجي",
+    "نوٽيس",
+    "هدايت",
+    "وئي،",
+    "واقعي",
+    "واپسي",
+    "ورتو",
+    "وزير",
+    "چنا",
+    "چوري",
+    "ڪار",
+    "ڪارروائي",
+    "ڪراچي",
+    "ڪرڻ",
+    "گهرو",
+    "ڳائڻي"
+   ]
   }
  ],
  "repeat_log": [
@@ -14398,7 +14437,7 @@
  },
  "quality": {
   "date": "2026-10-30",
-  "editor_fixed": 12,
+  "editor_fixed": 13,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
