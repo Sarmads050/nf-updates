@@ -1010,8 +1010,13 @@ def draw_char(cv, ox, oy, w, c):
     p0 = q(x - 260 * s, T - 40 * s)
     cv.alpha_composite(body, (int(p0[0]), int(p0[1])))
     if seated:  # lap / knees towards camera
-        d.rounded_rectangle([*q(x - 172 * s, hip - 70 * s), *q(x + 172 * s, hip + 80 * s)], lw(70), fill=pants, outline=OUT, width=lw(5))
-        d.line([q(x, hip - 50 * s), q(x, hip + 70 * s)], fill=art.shade(pants, 0.8), width=lw(5))
+        for sd in (-1, 1):  # K-002: two thighs coming towards camera, with rounded knees (not one box)
+            x_in, x_out = x + sd * 6 * s, x + sd * 168 * s
+            d.rounded_rectangle([*q(min(x_in, x_out), hip - 70 * s), *q(max(x_in, x_out), hip + 70 * s)], lw(60), fill=pants, outline=OUT, width=lw(5))
+            kx = x + sd * 88 * s
+            d.ellipse([*q(kx - 70 * s, hip + 14 * s), *q(kx + 70 * s, hip + 86 * s)], fill=art.shade(pants, 1.06), outline=OUT, width=lw(5))
+            d.arc([*q(kx - 50 * s, hip + 24 * s), *q(kx + 50 * s, hip + 70 * s)], 200, 340, fill=art.shade(pants, 1.15), width=lw(4))
+            d.line([q(kx - sd * 40 * s, hip - 50 * s), q(kx - sd * 30 * s, hip + 10 * s)], fill=art.shade(pants, 0.86), width=lw(4))
         if C.get("kameez"):  # v2: kameez drapes over the lap
             d.chord([*q(x - 150 * s, hip - 150 * s), *q(x + 150 * s, hip + 40 * s)], 0, 180, fill=C["shirt"])
             d.arc([*q(x - 150 * s, hip - 150 * s), *q(x + 150 * s, hip + 40 * s)], 10, 170, fill=OUT, width=lw(5))

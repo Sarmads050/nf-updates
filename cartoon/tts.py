@@ -73,24 +73,14 @@ def main():
         if want is None and os.path.exists(f) and dur(f) <= mx:
             continue  # already made in an earlier run (resume)
         c = CHARS[ln["who"]]
-        extra = " This is a phone call." if ln.get("phone") else ""
-        if c.get("narrator"):
-            prompt = (f"You are the warm, friendly storyteller of a Pakistani family cartoon. Narrate in clear, simple Urdu, "
-                      f"engaging like telling a story to the family. Delivery: {ln.get('how', 'warm storytelling')}. "
-                      f"Say exactly this and nothing else:\n\n{ln['urdu']}")
-        elif c.get("toddler"):
-            prompt = (f"You are voicing {c['who']} in a 2D cartoon. Speak like a real 2-year-old: tiny cute voice, "
-                      f"slow, half words, giggles. Delivery: {ln.get('how', 'cute')}. Say exactly this and nothing else:\n\n{ln['urdu']}")
-        else:
-            prompt = (f"You are voicing {c['who']} in a 2D family cartoon from Sindh, Pakistan. Speak in natural everyday Urdu "
-                      f"with a light Sindhi accent, like a real person at home, not like a news reader.{extra} "
-                      f"Emotion and delivery: {ln.get('how', 'natural')}. Say exactly this line and nothing else:\n\n{ln['urdu']}")
+        prompt = make_prompt(ln, c)
         pcm = None if gem_dead else tts(prompt, c["voice"], ms, key, max_sec=mx)
+        if pcm is None and not gem_dead:  # K-004: one quiet retry before giving up on the good voice for this line
+            print("gemini retry", i, flush=True)
+            time.sleep(30)
+            pcm = tts(prompt, c["voice"], ms, key, max_sec=mx)
         if pcm is not None:
-            raw = f + ".raw"
-            pcm.tofile(raw)
-            subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "s16le", "-ar", str(RATE), "-ac", "1", "-i", raw, "-b:a", "96k", f], check=True)
-            os.remove(raw)
+            save_pcm(pcm, f)
             source[i] = "gemini"
             print("ok gemini", i, ln["who"], round(len(pcm) / RATE, 2), "s", flush=True)
             time.sleep(21)
@@ -110,6 +100,18 @@ def main():
     # give all of that character's lines the backup voice
     if want is None:
         mixed = {lines[i - 1]["who"] for i, v in source.items() if v == "edge"}
+        # K-004: first try to UPGRADE a mixed character's backup lines to the Gemini voice (if quota is still alive)
+        if not gem_dead:
+            for i, ln in enumerate(lines, 1):
+                if ln["who"] in mixed and source.get(i) == "edge":
+                    f = os.path.join(out, f"{i:02d}.mp3")
+                    pcm = tts(make_prompt(ln, CHARS[ln["who"]]), CHARS[ln["who"]]["voice"], ms, key, max_sec=max_len(ln))
+                    if pcm is not None:
+                        save_pcm(pcm, f)
+                        source[i] = "gemini"
+                        print("upgraded to gemini", i, ln["who"], flush=True)
+                        time.sleep(21)
+            mixed = {lines[i - 1]["who"] for i, v in source.items() if v == "edge"}
         for i, ln in enumerate(lines, 1):
             if ln["who"] in mixed and source.get(i) == "gemini":
                 f = os.path.join(out, f"{i:02d}.mp3")
@@ -119,6 +121,29 @@ def main():
     json.dump({"failed": failed, "source": source}, open(os.path.join(out, "status.json"), "w"))
     if failed:
         print("SOME LINES FAILED", failed, flush=True)
+
+
+def make_prompt(ln, c):
+    extra = " This is a phone call." if ln.get("phone") else ""
+    if c.get("narrator"):
+        prompt = (f"You are the warm, friendly storyteller of a Pakistani family cartoon. Narrate in clear, simple Urdu, "
+                  f"engaging like telling a story to the family. Delivery: {ln.get('how', 'warm storytelling')}. "
+                  f"Say exactly this and nothing else:\n\n{ln['urdu']}")
+    elif c.get("toddler"):
+        prompt = (f"You are voicing {c['who']} in a 2D cartoon. Speak like a real 2-year-old: tiny cute voice, "
+                  f"slow, half words, giggles. Delivery: {ln.get('how', 'cute')}. Say exactly this and nothing else:\n\n{ln['urdu']}")
+    else:
+        prompt = (f"You are voicing {c['who']} in a 2D family cartoon from Sindh, Pakistan. Speak in natural everyday Urdu "
+                  f"with a light Sindhi accent, like a real person at home, not like a news reader.{extra} "
+                  f"Emotion and delivery: {ln.get('how', 'natural')}. Say exactly this line and nothing else:\n\n{ln['urdu']}")
+    return prompt
+
+
+def save_pcm(pcm, f):
+    raw = f + ".raw"
+    pcm.tofile(raw)
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "s16le", "-ar", str(RATE), "-ac", "1", "-i", raw, "-b:a", "96k", f], check=True)
+    os.remove(raw)
 
 
 def dur(f):

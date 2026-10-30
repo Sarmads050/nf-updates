@@ -469,7 +469,7 @@ def bedroom(time):
     slots = {
         "bed": dict(x=300, kind="sofa", seat=1170, foot=1345, s=0.66), "desk": dict(x=800, kind="sofa", seat=1180, foot=1355, s=0.66),
         "stand_l": dict(x=170, kind="stand", foot=1640, s=0.78), "stand_r": dict(x=910, kind="stand", foot=1640, s=0.78),
-        "stand_c": dict(x=540, kind="stand", foot=1700, s=0.8), "floor_l": dict(x=240, kind="stand", foot=1820, s=0.82),
+        "stand_c": dict(x=470, kind="stand", foot=1700, s=0.8), "floor_l": dict(x=240, kind="stand", foot=1820, s=0.82),
         "floor_r": dict(x=850, kind="stand", foot=1820, s=0.82),
     }
 
