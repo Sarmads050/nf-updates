@@ -2180,7 +2180,7 @@
    },
    "wicket_posts": 5,
    "break_done": true,
-   "last_edit": 1793347770.2167292,
+   "last_edit": 1793348058.106384,
    "batting": "United Arab Emirates",
    "done": false,
    "seen_live": true
@@ -2193,19 +2193,19 @@
    },
    "wicket_posts": 5,
    "break_done": true,
-   "last_edit": 1793347770.9840393,
+   "last_edit": 1793348313.5029001,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 13:09",
+  "time": "2026-10-30 13:18",
   "items": 21,
   "sample": [
-   "State Bank of Pakistan 185/10 & 172/10 * v Markhor IT Solutions 112/10 & 296/10",
+   "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 296/10 & 112/10",
    "South Africa 140/4 & 329/10 * v Australia 429/10",
-   "South Australia 154/10 & 182/1 * v Western Australia 169/10 & 406/5"
+   "South Australia 182/1 & 154/10 * v Western Australia 406/5 & 169/10"
   ]
  },
  "agri_news": {
@@ -7882,7 +7882,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 13:09",
+  "time": "2026-10-30 13:18",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8032,14 +8032,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
    "ok": 73,
-   "fail": 9,
+   "fail": 10,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 2,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 81,
+   "ok": 82,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8047,7 +8047,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 81,
+   "ok": 82,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8055,14 +8055,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8070,21 +8070,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8410,8 +8410,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9204,62 +9204,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 12:25",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 12:26",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 12:27",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 12:28",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 12:29",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 12:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 12:31",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 12:32",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 12:33",
    "ok": true,
    "n": 0,
@@ -9478,6 +9422,62 @@
   },
   {
    "t": "10-30 13:09",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 13:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 13:12",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 13:13",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 13:14",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 13:15",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 13:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 13:17",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 13:18",
    "ok": true,
    "n": 0,
    "ids": [],
