@@ -1574,7 +1574,8 @@
   "4b4a72267b0043b1": 1793390493.9737515,
   "6b77104b4a0aaf61": 1793390493.9737523,
   "33f28dafb16613d2": 1793390493.973753,
-  "11d640c3536f1297": 1793390493.9740596
+  "11d640c3536f1297": 1793390493.9740596,
+  "8f45b23912162107": 1793391055.963425
  },
  "pending": {
   "culture2026-10-30": {
@@ -1607,6 +1608,15 @@
    "domain": "propakistani.pk",
    "source": "ProPakistani",
    "ts": 1793379938,
+   "local": false
+  },
+  {
+   "key": "8f45b23912162107",
+   "title": "World’s Top 2% Scientists: Here Are Pakistan’s Top 20",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOS3hxdE9tUWlOalJrOWw4TXRCdnoyeUwzMkRHUV92SlBnRC1TdVRuNjBpbjNub3llMHQ4WkJoN1Y5NWNGOVEtRkl3RExqc3JKU3RYc1RjZUd1VjJJNG5GTW85N2JTR2stbDdqODlJazdiek02UnFUNzdlckxCNElCVmJwUG1PX01ZVnEzeDh30gGTAUFVX3lxTE5QZHJMdGt0aFVWWUJsTm1scHRYZnFZY2VwX2hUOUMzNFpfOU1tZUpkS1lTNUhYX1ZYWFl3LVc0azEyMW1nV2wxVmNUUU51eGJtX052YS1lVFFyX2ZoZ0gtOW41a2xYY2NFaDNiRmdncng0LUVoR215Q3R6LTNTZk1OZU9rV3lvTnB1R0t2Y1RXUkcwaw?oc=5",
+   "domain": "propakistani.pk",
+   "source": "ProPakistani",
+   "ts": 1793259030,
    "local": false
   }
  ],
@@ -2206,7 +2216,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-31 01:04",
+  "time": "2026-10-31 01:10",
   "items": 22,
   "sample": [
    "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 296/10 & 112/10",
@@ -7936,7 +7946,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-31 01:04",
+  "time": "2026-10-31 01:10",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8085,7 +8095,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-31",
-   "ok": 7,
+   "ok": 8,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8093,7 +8103,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-31",
-   "ok": 7,
+   "ok": 8,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8101,7 +8111,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-31",
-   "ok": 7,
+   "ok": 8,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8109,14 +8119,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 7,
+   "ok": 8,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 7,
+   "ok": 8,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8124,21 +8134,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 7,
+   "ok": 8,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 7,
+   "ok": 8,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-31",
-   "ok": 7,
+   "ok": 8,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8330,8 +8340,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9084,13 +9094,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 20:43",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 20:44",
    "ok": true,
    "n": 0,
@@ -9358,6 +9361,13 @@
   },
   {
    "t": "10-31 01:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 01:10",
    "ok": true,
    "n": 0,
    "ids": [],
