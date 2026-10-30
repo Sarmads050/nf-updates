@@ -926,12 +926,52 @@ def hands(c, t):
     return mix_(pn, cn), mix_(pf, cf), (fl if u > 0.5 else POSES[c["prev"]][2])
 
 
+def taper(d, q, lw, p0, p1, w0, w1, col, ol=8):
+    """v2: tapered limb segment (w0 at p0 -> w1 at p1) with round joints and outline."""
+    dx, dy = p1[0] - p0[0], p1[1] - p0[1]
+    m = math.hypot(dx, dy) or 1
+    nx, ny = -dy / m, dx / m
+    for c_, e in ((OUT, ol), (col, 0)):
+        a, b = (w0 + e) / 2, (w1 + e) / 2
+        d.polygon([q(p0[0] + nx * a, p0[1] + ny * a), q(p1[0] + nx * b, p1[1] + ny * b),
+                   q(p1[0] - nx * b, p1[1] - ny * b), q(p0[0] - nx * a, p0[1] - ny * a)], fill=c_)
+        for (px, py), r in ((p0, a), (p1, b)):
+            d.ellipse([*q(px - r, py - r), *q(px + r, py + r)], fill=c_)
+
+
+def draw_hand(d, q, lw, hx, hy, ex, ey, s, skin, fing, side):
+    """v2: mitten hand with thumb and knuckle lines, oriented along the forearm."""
+    ux, uy = hx - ex, hy - ey
+    m = math.hypot(ux, uy) or 1
+    ux, uy = ux / m, uy / m
+    px, py = -uy * side, ux * side
+    cx, cy = hx + ux * 6 * s, hy + uy * 6 * s
+    def ell(cx, cy, a, b, col, o=0):
+        pts = []
+        for k in range(20):
+            t = 2 * math.pi * k / 20
+            u, v = (a + o) * math.cos(t), (b + o) * math.sin(t)
+            pts.append(q(cx + ux * u + px * v, cy + uy * u + py * v))
+        d.polygon(pts, fill=col)
+    tx, ty = cx - ux * 4 * s + px * 24 * s, cy - uy * 4 * s + py * 24 * s  # thumb
+    ell(tx, ty, 15 * s, 9 * s, OUT, 4 * s)
+    ell(cx, cy, (24 if fing else 30) * s, 25 * s, OUT, 4 * s)
+    ell(tx, ty, 15 * s, 9 * s, skin)
+    ell(cx, cy, (24 if fing else 30) * s, 25 * s, skin)
+    if not fing:
+        dk = art.shade(skin, 0.72)
+        for o in (-11, 0, 11):
+            a0 = (cx + ux * 14 * s + px * o * s, cy + uy * 14 * s + py * o * s)
+            a1 = (cx + ux * 27 * s + px * o * s, cy + uy * 27 * s + py * o * s)
+            d.line([q(*a0), q(*a1)], fill=dk, width=lw(3))
+
+
 def draw_char(cv, ox, oy, w, c):
     tn = toon(w)
     C = art.CHARS[w]
     d = ImageDraw.Draw(cv)
     x, T, s = c["x"], c["T"], c["s"]
-    hs = C.get("hs", 1.0)
+    hs = C.get("hs", 1.0) * (art.HEAD if not C.get("toddler") else 0.95)
     q = lambda X, Y: ((X - ox) * K, (Y - oy) * K)
     lw = lambda v: max(1, int(v * K * s))
     pants = C["pants"]
@@ -949,8 +989,13 @@ def draw_char(cv, ox, oy, w, c):
             Ln = 370 * s * max(st, 0.3)
             fx_, fy_ = hx + sd * 8 * s, hy + Ln - 42 * s * lift
             kx, ky = (hx + fx_) / 2 + sd * (10 + 14 * lift) * s, (hy + fy_) / 2 - 10 * s * lift
-            for col, wd in ((OUT, 82), (pants, 72)):
-                d.line([q(hx, hy), q(kx, ky), q(fx_, fy_)], fill=col, width=lw(wd), joint="curve")
+            if C.get("kameez"):  # v2: loose shalwar, gathered at the ankle
+                taper(d, q, lw, (hx, hy), (kx, ky), 92 * s, 84 * s, pants, 10 * s)
+                taper(d, q, lw, (kx, ky), (fx_, fy_ - 16 * s), 84 * s, 56 * s, pants, 10 * s)
+                d.line([q(kx - 20 * s, ky + 30 * s), q(fx_ - 10 * s, fy_ - 60 * s)], fill=art.shade(pants, 0.85), width=lw(4))
+            else:
+                taper(d, q, lw, (hx, hy), (kx, ky), 76 * s, 68 * s, pants, 10 * s)
+                taper(d, q, lw, (kx, ky), (fx_, fy_ - 10 * s), 68 * s, 60 * s, pants, 10 * s)
             d.ellipse([*q(fx_ - 46 * s + sd * 6 * s, fy_ - 12 * s), *q(fx_ + 46 * s + sd * 6 * s, fy_ + 28 * s)],
                       fill=(110, 70, 40) if not C.get("toddler") else (230, 230, 240), outline=OUT, width=lw(4))
     else:  # seated: shins down to the floor (lap drawn after the torso)
@@ -967,6 +1012,10 @@ def draw_char(cv, ox, oy, w, c):
     if seated:  # lap / knees towards camera
         d.rounded_rectangle([*q(x - 172 * s, hip - 70 * s), *q(x + 172 * s, hip + 80 * s)], lw(70), fill=pants, outline=OUT, width=lw(5))
         d.line([q(x, hip - 50 * s), q(x, hip + 70 * s)], fill=art.shade(pants, 0.8), width=lw(5))
+        if C.get("kameez"):  # v2: kameez drapes over the lap
+            d.chord([*q(x - 150 * s, hip - 150 * s), *q(x + 150 * s, hip + 40 * s)], 0, 180, fill=C["shirt"])
+            d.arc([*q(x - 150 * s, hip - 150 * s), *q(x + 150 * s, hip + 40 * s)], 10, 170, fill=OUT, width=lw(5))
+            d.arc([*q(x - 140 * s, hip - 150 * s), *q(x + 140 * s, hip + 26 * s)], 20, 160, fill=art.shade(C["shirt"], 0.85), width=lw(4))
         if c["mode"] != "sofa":
             for sd in (-1, 1):
                 d.ellipse([*q(x + sd * 170 * s - 44 * s, hip + 30 * s), *q(x + sd * 170 * s + 44 * s, hip + 76 * s)], fill=(110, 70, 40), outline=OUT, width=lw(4))
@@ -986,13 +1035,20 @@ def draw_char(cv, ox, oy, w, c):
         sx, sy = x + sd * 136 * s, T + 82 * s
         hx, hy = x + rx, T + ry
         ex, ey, hx, hy = ik(sx, sy, hx, hy, 178 * s, 172 * s, sd)
-        for col, wd in ((OUT, 60), (sleeve, 52)):
-            d.line([q(sx, sy), q(ex, ey)], fill=col, width=lw(wd))
-        d.ellipse([*q(ex - 26 * s, ey - 26 * s), *q(ex + 26 * s, ey + 26 * s)], fill=sleeve)
-        for col, wd in ((OUT, 50), (fore, 42)):
-            d.line([q(ex, ey), q(hx, hy)], fill=col, width=lw(wd))
+        slv = sleeve if nm == "near" else art.shade(sleeve, 0.9)  # v2: far arm a touch darker (depth)
+        fr_ = fore if nm == "near" else art.shade(fore, 0.93)
+        taper(d, q, lw, (sx, sy), (ex, ey), 56 * s, 46 * s, slv, 8 * s)
         if C["sleeve"] == "short":
-            d.line([q(ex, ey), q(ex + (hx - ex) * 0.2, ey + (hy - ey) * 0.2)], fill=sleeve, width=lw(50))
+            taper(d, q, lw, (ex, ey), (hx, hy), 40 * s, 32 * s, fr_, 8 * s)
+            mx_, my_ = ex + (hx - ex) * 0.22, ey + (hy - ey) * 0.22
+            taper(d, q, lw, (ex, ey), (mx_, my_), 48 * s, 46 * s, slv, 8 * s)
+        else:
+            taper(d, q, lw, (ex, ey), (hx, hy), 46 * s, 38 * s, slv, 8 * s)
+            cx_, cy_ = hx + (ex - hx) * 0.16, hy + (ey - hy) * 0.16  # cuff
+            ux_, uy_ = hx - ex, hy - ey
+            m_ = math.hypot(ux_, uy_) or 1
+            nx_, ny_ = -uy_ / m_ * 20 * s, ux_ / m_ * 20 * s
+            d.line([q(cx_ + nx_, cy_ + ny_), q(cx_ - nx_, cy_ - ny_)], fill=art.shade(slv, 0.75), width=lw(4))
         fing = ("finger" in fl and nm == "near") or ("farfinger" in fl and nm == "far")
         if fing:
             ux, uy = hx - ex, hy - ey
@@ -1010,8 +1066,7 @@ def draw_char(cv, ox, oy, w, c):
             for cx_ in (x - 55 * s, x + 15 * s):
                 d.rounded_rectangle([*q(cx_ - 25 * s, ty - 58 * s), *q(cx_ + 25 * s, ty)], lw(8), fill=(250, 250, 250), outline=OUT, width=lw(4))
                 d.ellipse([*q(cx_ - 23 * s, ty - 64 * s), *q(cx_ + 23 * s, ty - 50 * s)], fill=(170, 100, 50))
-        r = (29 if not fing else 26) * s
-        d.ellipse([*q(hx - r, hy - r), *q(hx + r, hy + r)], fill=C["skin"], outline=OUT, width=lw(4))
+        draw_hand(d, q, lw, hx, hy, ex, ey, s, C["skin"], fing, sd)
 
 
 # ============================================================== frame renderer
