@@ -1706,7 +1706,7 @@
    "c36df74c7d2704eb"
   ]
  },
- "last_post_id": "1444130002106066_122115532743503839",
+ "last_post_id": "1444130002106066_122115534933503839",
  "shareable": [
   {
    "id": "1444130002106066_122115239169503839",
@@ -2187,12 +2187,13 @@
   "httpwwwcricinfocomcienginematch1559195htmlcmpotcrss": {
    "post": "1444130002106066_122115528843503839",
    "wkts": {
-    "Pakistan|1": 2
+    "Pakistan|1": 3,
+    "United Arab Emirates|1": 10
    },
-   "wicket_posts": 1,
-   "break_done": false,
-   "last_edit": 1793329611.6231267,
-   "batting": "Pakistan",
+   "wicket_posts": 2,
+   "break_done": true,
+   "last_edit": 1793330173.47765,
+   "batting": "United Arab Emirates",
    "done": false,
    "seen_live": true
   },
@@ -2207,11 +2208,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 08:06",
+  "time": "2026-10-30 08:16",
   "items": 21,
   "sample": [
-   "State Bank of Pakistan 172/10 & 165/7 * v Markhor IT Solutions 296/10 & 112/10",
-   "South Africa 140/4 & 329/10 * v Australia 429/10",
+   "State Bank of Pakistan 165/7 & 172/10 * v Markhor IT Solutions 112/10 & 296/10",
+   "South Africa 329/10 & 140/4 * v Australia 429/10",
    "South Australia 154/10 v Western Australia 169/10 & 406/5 *"
   ]
  },
@@ -2222,8 +2223,8 @@
  },
  "all_posts": {
   "date": "2026-10-30",
-  "count": 13,
-  "last": 1793329616.379152
+  "count": 15,
+  "last": 1793330280.628726
  },
  "perf": {
   "posts": [
@@ -7530,9 +7531,9 @@
  },
  "ai_usage": {
   "date": "2026-10-30",
-  "ok": 108,
-  "fail": 188,
-  "limit": 188
+  "ok": 112,
+  "fail": 190,
+  "limit": 190
  },
  "posted_heads": [
   {
@@ -7857,7 +7858,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 08:06",
+  "time": "2026-10-30 08:18",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -7965,7 +7966,7 @@
   "text": 14,
   "story": 11
  },
- "ai_last_error": "08:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "08:16 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-30",
   "models": [
@@ -7979,13 +7980,13 @@
  },
  "img_diag": {
   "date": "2026-10-30",
-  "tried": 10,
+  "tried": 11,
   "gemini": 0,
-  "pollinations": 8,
+  "pollinations": 9,
   "skip": 1,
   "fail": 1,
-  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
-  "mismatch": 261
+  "last_note": "cricket bat and ball",
+  "mismatch": 263
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -8007,14 +8008,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
    "ok": 48,
-   "fail": 3,
+   "fail": 4,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 50,
+   "ok": 51,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8022,7 +8023,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 50,
+   "ok": 51,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8030,14 +8031,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8045,21 +8046,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8384,9 +8385,9 @@
   "pakistan": 9
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 2,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9186,20 +9187,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 02:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 02:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 02:20",
    "ok": true,
    "n": 0,
@@ -9460,6 +9447,20 @@
   },
   {
    "t": "10-30 08:06",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 08:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 08:16",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14065,6 +14066,45 @@
     "وڪيٽون",
     "پاڪستان",
     "پيون"
+   ]
+  },
+  {
+   "t": 1793329870,
+   "h": "وڪيٽ! پاڪستان جو رانديگر آئوٽ، 3 وڪيٽون ڪري پيون",
+   "b": "هاڻوڪو اسڪور: پاڪستان 106/3 🏏 يو اي اي",
+   "tt": [
+    "ائوٽ،",
+    "رانديگر",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پاڪستان",
+    "پيون"
+   ],
+   "bt": [
+    "#106",
+    "ائوٽ،",
+    "اسڪور",
+    "رانديگر",
+    "هاڻوڪو",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پاڪستان",
+    "پيون"
+   ]
+  },
+  {
+   "t": 1793330280,
+   "h": "اننگز جو وقفو",
+   "b": "پاڪستان 106/3 يو اي اي 4 🏏",
+   "tt": [
+    "اننگز",
+    "وقفو"
+   ],
+   "bt": [
+    "#106",
+    "اننگز",
+    "وقفو",
+    "پاڪستان"
    ]
   }
  ],
