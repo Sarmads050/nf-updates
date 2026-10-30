@@ -2188,11 +2188,11 @@
    "post": "1444130002106066_122115528843503839",
    "wkts": {
     "Pakistan|1": 3,
-    "United Arab Emirates|1": 10
+    "United Arab Emirates|1": 1
    },
    "wicket_posts": 2,
    "break_done": true,
-   "last_edit": 1793330173.47765,
+   "last_edit": 1793330753.0170233,
    "batting": "United Arab Emirates",
    "done": false,
    "seen_live": true
@@ -2208,10 +2208,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 08:16",
+  "time": "2026-10-30 08:25",
   "items": 21,
   "sample": [
-   "State Bank of Pakistan 165/7 & 172/10 * v Markhor IT Solutions 112/10 & 296/10",
+   "State Bank of Pakistan 165/7 & 172/10 * v Markhor IT Solutions 296/10 & 112/10",
    "South Africa 329/10 & 140/4 * v Australia 429/10",
    "South Australia 154/10 v Western Australia 169/10 & 406/5 *"
   ]
@@ -7858,7 +7858,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 08:18",
+  "time": "2026-10-30 08:25",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8007,15 +8007,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
-   "ok": 48,
+   "ok": 49,
    "fail": 4,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 51,
+   "ok": 52,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8023,7 +8023,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 51,
+   "ok": 52,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8031,14 +8031,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8046,21 +8046,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8386,8 +8386,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 10,
-  "old": 10,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9187,20 +9187,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 02:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 02:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 02:40",
    "ok": true,
    "n": 0,
@@ -9461,6 +9447,20 @@
   },
   {
    "t": "10-30 08:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 08:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 08:25",
    "ok": true,
    "n": 0,
    "ids": [],
