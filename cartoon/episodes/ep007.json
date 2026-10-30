@@ -1,0 +1,466 @@
+{
+ "id": "ep007",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 7,
+ "title": "Bijli Ka Bill Dugna!",
+ "topic": "Power bill shock - AC at 16 and chargers left plugged in",
+ "music": "comic",
+ "lesson": "Jo cheez istemal na ho, uska plug nikal do<br>bill bhi kam, khandan bhi saath!",
+ "caption": "Bijli ka bill dugna aaya aur ghar mein adalat lag gayi! ⚡😂 Aap ke ghar mein bijli sab se zyada kaun kharch karta hai? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#PakistaniFamily",
+  "#BijliKaBill",
+  "#UrduCartoon",
+  "#FamilyComedy"
+ ],
+ "scenes": [
+  {
+   "set": "living_room",
+   "time": "day",
+   "label": "Drawing Room • Dopehar",
+   "cast": {
+    "ABBA": "sofa_l",
+    "AMMI": "sofa_c"
+   },
+   "props": {
+    "ABBA": "newspaper"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "shot": "wide",
+     "how": "warm storyteller, playful, slightly dramatic at the end",
+     "roman": "Sardiyan shuru ho gayi hain... lekin aaj Nawabshah ke is ghar mein aaya hai pichhle garam mahine ka *bijli ka bill*!",
+     "urdu": "سردیاں شروع ہو گئی ہیں... لیکن آج نواب شاہ کے اس گھر میں آیا ہے پچھلے گرم مہینے کا بجلی کا بل!",
+     "gap": 0.3
+    },
+    {
+     "who": "ABBA",
+     "to": "front",
+     "emo": "surprised",
+     "shot": "close",
+     "how": "old man in total shock, reading the bill, voice rising",
+     "roman": "Yeh kya? Is mahine ka bill pichhle mahine se *dugna* hai!",
+     "urdu": "یہ کیا؟ اس مہینے کا بل پچھلے مہینے سے دگنا ہے!",
+     "pose": "newspaper",
+     "react": {
+      "AMMI": "surprised"
+     },
+     "sfx": [
+      "sting"
+     ]
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "worried",
+     "shot": "auto",
+     "how": "worried housewife, defensive, hand on head",
+     "roman": "Dugna? Main to din bhar sirf *ek pankha* chalati hoon!",
+     "urdu": "دگنا؟ میں تو دن بھر صرف ایک پنکھا چلاتی ہوں!",
+     "pose": "head_hold",
+     "react": {
+      "ABBA": "worried"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "angry",
+     "shot": "auto",
+     "how": "stern father, firm but not shouting too much",
+     "roman": "To phir yeh bijli kaun kha raha hai? *Sab ko bulao*, abhi!",
+     "urdu": "تو پھر یہ بجلی کون کھا رہا ہے؟ سب کو بلاؤ، ابھی!",
+     "pose": "point_down",
+     "react": {
+      "AMMI": "worried"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ABBA",
+     "emo": "teasing",
+     "shot": "auto",
+     "how": "dramatic young law student entering, playful",
+     "roman": "Abba, aap ne bulaya? Kya ghar mein aaj *adalat* lag rahi hai?",
+     "urdu": "ابا، آپ نے بلایا؟ کیا گھر میں آج عدالت لگ رہی ہے؟",
+     "pose": "explain",
+     "react": {
+      "ABBA": "angry"
+     },
+     "before": [
+      {
+       "do": "enter",
+       "who": "DANIYAL",
+       "slot": "stand_r"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      }
+     ]
+    },
+    {
+     "who": "ABBA",
+     "to": "DANIYAL",
+     "emo": "angry",
+     "shot": "auto",
+     "how": "stern, shaking the bill",
+     "roman": "Haan! Bill dugna aaya hai. Batao, itni bijli *kis ne* kharch ki?",
+     "urdu": "ہاں! بل دگنا آیا ہے۔ بتاؤ، اتنی بجلی کس نے خرچ کی؟",
+     "pose": "newspaper",
+     "react": {
+      "DANIYAL": "surprised"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ABBA",
+     "emo": "teasing",
+     "shot": "punch",
+     "how": "over-dramatic courtroom lawyer voice, loud and proud",
+     "roman": "*Objection*, Abba! Saboot ke baghair kisi ko mujrim nahi keh sakte!",
+     "urdu": "آبجیکشن، ابا! ثبوت کے بغیر کسی کو مجرم نہیں کہہ سکتے!",
+     "pose": "objection",
+     "react": {
+      "ABBA": "confused",
+      "AMMI": "laugh"
+     },
+     "joke": true,
+     "gap": 0.7
+    },
+    {
+     "who": "AMMI",
+     "to": "DANIYAL",
+     "emo": "teasing",
+     "shot": "auto",
+     "how": "amused mother, waving him off, smiling",
+     "roman": "To jao, *saboot* dhoondo! Faraz ko bhi saath le jao.",
+     "urdu": "تو جاؤ، ثبوت ڈھونڈو! فراز کو بھی ساتھ لے جاؤ۔",
+     "pose": "wave",
+     "react": {
+      "DANIYAL": "proud"
+     },
+     "gap": 0.4
+    }
+   ]
+  },
+  {
+   "set": "bedroom",
+   "time": "evening",
+   "label": "Larkon Ka Kamra • Shaam",
+   "cast": {
+    "ARSALAN": "desk",
+    "FARAZ": "stand_c",
+    "DANIYAL": "stand_r"
+   },
+   "props": {},
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "shot": "wide",
+     "how": "storyteller, mysterious and playful",
+     "roman": "Shaam ko dono bhai pahunche ghar ke *sab se thande kamre* mein...",
+     "urdu": "شام کو دونوں بھائی پہنچے گھر کے سب سے ٹھنڈے کمرے میں...",
+     "gap": 0.3
+    },
+    {
+     "who": "FARAZ",
+     "to": "DANIYAL",
+     "emo": "focused",
+     "shot": "close",
+     "how": "calm smart tech guy, explaining like a detective",
+     "roman": "Daniyal, ghar mein sab se zyada bijli *AC* khata hai... aur AC sirf is kamre mein hai!",
+     "urdu": "دانیال، گھر میں سب سے زیادہ بجلی اے سی کھاتا ہے... اور اے سی صرف اس کمرے میں ہے!",
+     "pose": "explain",
+     "react": {
+      "DANIYAL": "surprised",
+      "ARSALAN": "worried"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "shot": "punch",
+     "how": "dramatic reveal, pointing",
+     "roman": "Yani mulzim hai... *Arsalan*!",
+     "urdu": "یعنی ملزم ہے... ارسلان!",
+     "pose": "point_other",
+     "react": {
+      "ARSALAN": "sheepish"
+     },
+     "sfx": [
+      "sting"
+     ]
+    },
+    {
+     "who": "ARSALAN",
+     "to": "FARAZ",
+     "emo": "sheepish",
+     "shot": "auto",
+     "how": "teen boy caught, nervous, innocent tone",
+     "roman": "Main? Main to sirf *parhai* kar raha tha... computer par!",
+     "urdu": "میں؟ میں تو صرف پڑھائی کر رہا تھا... کمپیوٹر پر!",
+     "pose": "shrug",
+     "react": {
+      "FARAZ": "teasing"
+     }
+    },
+    {
+     "who": "FARAZ",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "shot": "auto",
+     "how": "amused, catching him out",
+     "roman": "Parhai? Computer par to *cricket ka game* chal raha hai!",
+     "urdu": "پڑھائی؟ کمپیوٹر پر تو کرکٹ کا گیم چل رہا ہے!",
+     "pose": "point_other",
+     "react": {
+      "ARSALAN": "sheepish",
+      "DANIYAL": "laugh"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ARSALAN",
+     "emo": "surprised",
+     "shot": "auto",
+     "how": "presenting evidence in court, loud",
+     "roman": "Aur yeh dekho! AC ke remote par abhi tak *sixteen* likha hai!",
+     "urdu": "اور یہ دیکھو! اے سی کے ریموٹ پر ابھی تک سکسٹین لکھا ہے!",
+     "pose": "hold",
+     "react": {
+      "ARSALAN": "sheepish",
+      "FARAZ": "surprised"
+     },
+     "before": [
+      {
+       "do": "prop",
+       "who": "DANIYAL",
+       "prop": "remote"
+      }
+     ]
+    },
+    {
+     "who": "ARSALAN",
+     "to": "DANIYAL",
+     "emo": "sheepish",
+     "shot": "punch",
+     "how": "cheeky innocent logic, half smiling",
+     "roman": "Ada, garmi mein *dimagh garam* ho jaye, to parhai kaise hogi?",
+     "urdu": "ادا، گرمی میں دماغ گرم ہو جائے، تو پڑھائی کیسے ہو گی؟",
+     "pose": "explain",
+     "react": {
+      "FARAZ": "laugh",
+      "DANIYAL": "laugh"
+     },
+     "joke": true,
+     "gap": 0.7
+    },
+    {
+     "who": "FARAZ",
+     "to": "ARSALAN",
+     "emo": "focused",
+     "shot": "auto",
+     "how": "pointing down at the socket, half annoyed",
+     "roman": "Aur yeh *teen charger* plug mein lage hain, lekin phone ek bhi nahi!",
+     "urdu": "اور یہ تین چارجر پلگ میں لگے ہیں، لیکن فون ایک بھی نہیں!",
+     "pose": "point_down",
+     "react": {
+      "ARSALAN": "sheepish"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "FARAZ",
+     "emo": "sheepish",
+     "shot": "auto",
+     "how": "weak excuse, scratching head",
+     "roman": "Woh to main ne *emergency* ke liye ready rakhe hain!",
+     "urdu": "وہ تو میں نے ایمرجنسی کے لیے ریڈی رکھے ہیں!",
+     "pose": "scratch_head",
+     "react": {
+      "FARAZ": "tired"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "front",
+     "emo": "proud",
+     "shot": "punch",
+     "how": "triumphant courtroom lawyer, chest out",
+     "roman": "Your honour, mulzim ka *bayan* record ho gaya. Case bilkul pakka hai!",
+     "urdu": "یور آنر، ملزم کا بیان ریکارڈ ہو گیا۔ کیس بالکل پکا ہے!",
+     "pose": "chest",
+     "react": {
+      "ARSALAN": "sheepish",
+      "FARAZ": "laugh"
+     },
+     "joke": true,
+     "gap": 0.7
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "night",
+   "label": "Drawing Room • Raat",
+   "cast": {
+    "ABBA": "sofa_l",
+    "AMMI": "sofa_c"
+   },
+   "props": {
+    "ABBA": "newspaper"
+   },
+   "lines": [
+    {
+     "who": "FARAZ",
+     "to": "ABBA",
+     "emo": "calm",
+     "shot": "close",
+     "how": "calm report, respectful",
+     "roman": "Abba, saboot mil gaya. AC *sixteen* par chalta raha, aur charger din raat lage rahe.",
+     "urdu": "ابا، ثبوت مل گیا۔ اے سی سکسٹین پر چلتا رہا، اور چارجر دن رات لگے رہے۔",
+     "pose": "explain",
+     "react": {
+      "ABBA": "angry",
+      "ARSALAN": "sheepish"
+     },
+     "before": [
+      {
+       "do": "enter",
+       "who": "FARAZ",
+       "slot": "stand_l"
+      },
+      {
+       "do": "enter",
+       "who": "ARSALAN",
+       "slot": "stand_r"
+      }
+     ]
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "angry",
+     "shot": "auto",
+     "how": "classic old-school father, wagging finger",
+     "roman": "Arsalan! *Humare zamane mein* garmi mein haath ka pankha hota tha!",
+     "urdu": "ارسلان! ہمارے زمانے میں گرمی میں ہاتھ کا پنکھا ہوتا تھا!",
+     "pose": "wag",
+     "react": {
+      "ARSALAN": "sheepish"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "sheepish",
+     "shot": "auto",
+     "how": "sincere apology, soft",
+     "roman": "Sorry, Abba. Agli garmi mein AC sirf raat ko, aur *chhabbees* par chalaunga.",
+     "urdu": "سوری، ابا۔ اگلی گرمی میں اے سی صرف رات کو، اور چھبیس پر چلاؤں گا۔",
+     "pose": "plead",
+     "react": {
+      "ABBA": "calm"
+     }
+    },
+    {
+     "who": "FARAZ",
+     "to": "ARSALAN",
+     "emo": "warm",
+     "shot": "auto",
+     "how": "friendly big brother advice, kind",
+     "roman": "Aur jo cheez istemal na ho, uska *plug nikal* do. Bill khud kam ho jayega.",
+     "urdu": "اور جو چیز استعمال نہ ہو، اس کا پلگ نکال دو۔ بل خود کم ہو جائے گا۔",
+     "pose": "explain",
+     "react": {
+      "ARSALAN": "happy"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "front",
+     "emo": "warm",
+     "shot": "auto",
+     "how": "warm loving mother, smiling",
+     "roman": "Aur dopehar mein sab ek kamre mein baithenge. *Ek pankha, poora khandan!*",
+     "urdu": "اور دوپہر میں سب ایک کمرے میں بیٹھیں گے۔ ایک پنکھا، پورا خاندان!",
+     "pose": "clap",
+     "react": {
+      "*": "happy"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "proud",
+     "shot": "auto",
+     "how": "pleased father, giving responsibility",
+     "roman": "Shabash! Aur agle mahine ka bill *tum* check karoge, Arsalan.",
+     "urdu": "شاباش! اور اگلے مہینے کا بل تم چیک کرو گے، ارسلان۔",
+     "pose": "point_other",
+     "react": {
+      "ARSALAN": "happy"
+     },
+     "give": {
+      "to": "ARSALAN",
+      "prop": "newspaper",
+      "at": 0.5
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "teasing",
+     "shot": "auto",
+     "how": "cheeky hopeful teen, grinning",
+     "roman": "Theek hai, Abba! Lekin bill kam aaya, to bache paison se mera *naya game*?",
+     "urdu": "ٹھیک ہے، ابا! لیکن بل کم آیا، تو بچے پیسوں سے میرا نیا گیم؟",
+     "pose": "hold",
+     "react": {
+      "AMMI": "teasing",
+      "ABBA": "surprised"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "laugh",
+     "shot": "punch",
+     "how": "teasing mother, laughing at the end",
+     "roman": "Bilkul! Bache paison se tumhare liye naya *haath ka pankha* aayega!",
+     "urdu": "بالکل! بچے پیسوں سے تمہارے لیے نیا ہاتھ کا پنکھا آئے گا!",
+     "pose": "point_other",
+     "react": {
+      "*": "laugh",
+      "ARSALAN": "sheepish"
+     },
+     "joke": true,
+     "gap": 0.8
+    },
+    {
+     "who": "ABBA",
+     "to": "front",
+     "emo": "laugh",
+     "shot": "group",
+     "how": "happy laughing old man, final laugh",
+     "roman": "Waah, begum! Ab yeh bill bhi *sasta*, aur pankha bhi!",
+     "urdu": "واہ، بیگم! اب یہ بل بھی سستا، اور پنکھا بھی!",
+     "pose": "clap",
+     "react": {
+      "*": "laugh"
+     },
+     "gap": 0.6
+    }
+   ]
+  }
+ ]
+}
