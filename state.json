@@ -1,6 +1,5 @@
 {
  "seen": {
-  "197332e1bae7b078": 1792716074.0872953,
   "91e1f81d015a3868": 1792717326.3538325,
   "d8277c3963773ab7": 1792717326.3538344,
   "c384dd1a4849ff71": 1792717326.3538356,
@@ -1574,7 +1573,8 @@
   "6ff9f5d0fe81df68": 1793318509.2295687,
   "e61139b2c3a0b9b6": 1793318509.2295694,
   "30bf6a49843ec92e": 1793318509.2295704,
-  "8d17a2378efb6555": 1793318509.2297862
+  "8d17a2378efb6555": 1793318509.2297862,
+  "2c92aceb885b5b83": 1793321625.0522482
  },
  "pending": {},
  "queue": [],
@@ -1694,20 +1694,8 @@
    "c36df74c7d2704eb"
   ]
  },
- "last_post_id": "1444130002106066_122115485325503839",
+ "last_post_id": "1444130002106066_122115500247503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122115209961503839",
-   "title": "لاڙڪاڻو: ملڪيت تان پٽ جي فائرنگ، ماءُ زخمي",
-   "t": 1793261500.1140854,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122115209961503839"
-  },
   {
    "id": "1444130002106066_122115214059503839",
    "title": "اسلام آباد: ايمان مزاري ۽ ھادي علي کي 10 سال قيد",
@@ -2036,6 +2024,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122115485325503839"
+  },
+  {
+   "id": "1444130002106066_122115500247503839",
+   "title": "ڪوچ مائڪ هيسن جو چوڻ آهي ته پاڪستاني ڪرڪيٽ ٽيم اڃا تائين پنهنجو بهترين کيل پيش نه ڪري",
+   "t": 1793321798.0161026,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122115500247503839"
   }
  ],
  "share_sent": {
@@ -2166,8 +2163,8 @@
  },
  "cricket_news": {
   "date": "2026-10-30",
-  "count": 0,
-  "last": 1793224468.5094364
+  "count": 1,
+  "last": 1793321798.0160816
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -2199,12 +2196,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 05:40",
+  "time": "2026-10-30 05:56",
   "items": 21,
   "sample": [
-   "State Bank of Pakistan 172/10 & 165/7 * v Markhor IT Solutions 296/10 & 112/10",
+   "State Bank of Pakistan 165/7 & 172/10 * v Markhor IT Solutions 296/10 & 112/10",
    "South Africa 329/10 & 140/4 * v Australia 429/10",
-   "South Australia 154/10 v Western Australia 406/5 & 105/6 *"
+   "South Australia 154/10 v Western Australia 406/5 & 121/7 *"
   ]
  },
  "agri_news": {
@@ -2214,17 +2211,11 @@
  },
  "all_posts": {
   "date": "2026-10-30",
-  "count": 5,
-  "last": 1793318526.3701286
+  "count": 6,
+  "last": 1793321787.926419
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122111581269503839",
-    "sec": "district",
-    "cat": "district",
-    "t": 1792567809
-   },
    {
     "id": "1444130002106066_122111581413503839",
     "sec": "district",
@@ -4618,6 +4609,12 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1793318530
+   },
+   {
+    "id": "1444130002106066_122115500247503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1793321798
    }
   ]
  },
@@ -7506,15 +7503,11 @@
  },
  "ai_usage": {
   "date": "2026-10-30",
-  "ok": 67,
-  "fail": 120,
-  "limit": 120
+  "ok": 77,
+  "fail": 134,
+  "limit": 134
  },
  "posted_heads": [
-  {
-   "h": "Power tariff for 200 units to go: New targeted subsidy system being worked out: Leghari",
-   "t": 1793154174
-  },
   {
    "h": "'72% of Karachi feeders free of loadshedding'",
    "t": 1793156010
@@ -7830,10 +7823,14 @@
   {
    "h": "Punjab govt announces first Kisan Bank, Rs17 billion in agricultural loans",
    "t": 1793318530
+  },
+  {
+   "h": "Pakistan yet to play their best cricket, says Hesson",
+   "t": 1793321798
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 05:40",
+  "time": "2026-10-30 05:56",
   "steps": []
  },
  "roundup_am": "2026-10-29",
@@ -7936,12 +7933,12 @@
  },
  "article_diag": {
   "date": "2026-10-30",
-  "tried": 14,
-  "decoded": 13,
-  "text": 9,
+  "tried": 15,
+  "decoded": 14,
+  "text": 10,
   "story": 8
  },
- "ai_last_error": "05:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "05:54 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-30",
   "models": [
@@ -7955,13 +7952,13 @@
  },
  "img_diag": {
   "date": "2026-10-30",
-  "tried": 5,
+  "tried": 6,
   "gemini": 0,
   "pollinations": 4,
   "skip": 1,
   "fail": 0,
-  "last_note": "film clapperboard and reels",
-  "mismatch": 258
+  "last_note": "cricket bat and ball",
+  "mismatch": 261
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -7983,37 +7980,37 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
    "ok": 37,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
    "ok": 37,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
    "ok": 37,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8021,21 +8018,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8357,12 +8354,12 @@
   "date": "2026-10-30",
   "district": 0,
   "sindh": 0,
-  "pakistan": 5
+  "pakistan": 6
  },
  "report_acc": {
-  "posted": 0,
-  "found": 40,
-  "old": 40,
+  "posted": 1,
+  "found": 50,
+  "old": 50,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8396,8 +8393,8 @@
   "date": "2026-10-30",
   "count": 0,
   "last": 1793301665.063122,
-  "city_i": 18,
-  "dry": 1793318477.8692343
+  "city_i": 22,
+  "dry": 1793321615.132929
  },
  "gemini_day_dead": {
   "day": "2026-10-29",
@@ -8477,14 +8474,6 @@
   92058803
  ],
  "reel_pool": [
-  {
-   "k": "896d45f087012bf0",
-   "h": "نيپرا ٻڌڻي ۾ سي پي پي اي جي خلاف ڪاوڙ جو اظهار",
-   "x": "بجلي جي کپتائيندڙن نيپرا ٻڌڻي دوران ايس پي اي فيس ۾ واڌ، ٻہ طرفي ٽئڪس ۽ ڀرتين جي خرچن تي سخت ڪاوڙ جو اظهار ڪيو آهي!",
-   "t": 1793148223,
-   "s": false,
-   "r": 0
-  },
   {
    "k": "e0230fe71d4624aa",
    "h": "عالمي بئنڪ جو ڪڻڪ ۽ کنڊ جي سڌارن سان فنڊنگ جو شرط",
@@ -9140,6 +9129,14 @@
    "t": 1793318530,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "1b57ee2f5ebe9f43",
+   "h": "پاڪستاني ڪرڪيٽ ٽيم اڃا پنهنجو بهترين سٺو نه کيڏيو آهي، هيسن",
+   "x": "ڪوچ مائڪ هيسن چيو ته پاڪستاني ڪرڪيٽ ٽيم اڃا تائين پنهنجو بهترين کھیل پيش نه ڪري سگهي آهي. بيان: مائڪ هيسن ڪوچ",
+   "t": 1793321798,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9153,13 +9150,6 @@
   "last": 1793286743.8895366
  },
  "tg_debug": [
-  {
-   "t": "10-29 23:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-29 23:40",
    "ok": true,
@@ -9432,41 +9422,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "10-30 05:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-10-30",
  "recent_posts": [
-  {
-   "t": 1793148223,
-   "h": "نيپرا ٻڌڻي ۾ سي پي پي اي جي خلاف ڪاوڙ جو اظهار",
-   "b": "بجلي جي کپتائيندڙن نيپرا ٻڌڻي دوران ايس پي اي فيس ۾ واڌ، ٻہ طرفي ٽئڪس ۽ ڀرتين جي خرچن تي سخت ڪاوڙ جو اظهار",
-   "tt": [
-    "اظهار",
-    "خلاف",
-    "نيپرا",
-    "ٻڌڻي",
-    "ڪاوڙ"
-   ],
-   "bt": [
-    "اظهار",
-    "اهي",
-    "ايس",
-    "بجلي",
-    "خرچن",
-    "خلاف",
-    "دوران",
-    "سخت",
-    "طرفي",
-    "فيس",
-    "نيپرا",
-    "واڌ،",
-    "ٻڌڻي",
-    "ٽئڪس",
-    "ڀرتين",
-    "ڪاوڙ",
-    "ڪپتائيندڙن"
-   ]
-  },
   {
    "t": 1793150105,
    "h": "عالمي بئنڪ جو ڪڻڪ ۽ کنڊ جي سڌارن سان فنڊنگ جو شرط",
@@ -14001,6 +13967,43 @@
     "ڪرڻ",
     "ڪسان"
    ]
+  },
+  {
+   "t": 1793321798,
+   "h": "پاڪستاني ڪرڪيٽ ٽيم اڃا پنهنجو بهترين سٺو نه کيڏيو آهي، هيسن",
+   "b": "ڪوچ مائڪ هيسن چيو ته پاڪستاني ڪرڪيٽ ٽيم اڃا تائين پنهنجو بهترين کھیل پيش نه ڪري سگهي آهي. بيان: مائڪ هيسن ڪوچ",
+   "tt": [
+    "اهي،",
+    "اڃا",
+    "بهترين",
+    "سٺو",
+    "هيسن",
+    "ٽيم",
+    "پاڪستاني",
+    "پنهنجو",
+    "ڪرڪيٽ",
+    "ڪيڏيو"
+   ],
+   "bt": [
+    "اهي",
+    "اهي،",
+    "اڃا",
+    "بهترين",
+    "بيان",
+    "تائين",
+    "سٺو",
+    "سگهي",
+    "مائڪ",
+    "هيسن",
+    "ٽيم",
+    "پاڪستاني",
+    "پنهنجو",
+    "پيش",
+    "ڪرڪيٽ",
+    "ڪهيل",
+    "ڪوچ",
+    "ڪيڏيو"
+   ]
   }
  ],
  "repeat_log": [
@@ -14178,7 +14181,7 @@
  },
  "quality": {
   "date": "2026-10-30",
-  "editor_fixed": 3,
+  "editor_fixed": 4,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
