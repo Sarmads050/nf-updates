@@ -1575,7 +1575,8 @@
   "6b77104b4a0aaf61": 1793390493.9737523,
   "33f28dafb16613d2": 1793390493.973753,
   "11d640c3536f1297": 1793390493.9740596,
-  "8f45b23912162107": 1793391055.963425
+  "8f45b23912162107": 1793391055.963425,
+  "b10fb7f77243e0c7": 1793391652.8167176
  },
  "pending": {
   "culture2026-10-30": {
@@ -2216,7 +2217,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-31 01:10",
+  "time": "2026-10-31 01:20",
   "items": 22,
   "sample": [
    "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 296/10 & 112/10",
@@ -7946,7 +7947,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-31 01:10",
+  "time": "2026-10-31 01:20",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8095,7 +8096,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-31",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8103,7 +8104,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-31",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8111,7 +8112,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-31",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8119,14 +8120,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8134,21 +8135,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-31",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8340,8 +8341,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9094,13 +9095,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 20:44",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 20:45",
    "ok": true,
    "n": 0,
@@ -9368,6 +9362,13 @@
   },
   {
    "t": "10-31 01:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 01:20",
    "ok": true,
    "n": 0,
    "ids": [],
