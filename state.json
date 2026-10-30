@@ -1599,7 +1599,8 @@
   "9a2f5f42d90245ea": 1793360466.4917698,
   "e6450d5e48e9136e": 1793361680.8654637,
   "ae7c6aad8ca45d4f": 1793362851.9862268,
-  "fc7f86dfede22982": 1793362883.9002883
+  "fc7f86dfede22982": 1793362883.9002883,
+  "28a05b674e0fd774": 1793364065.633163
  },
  "pending": {
   "culture2026-10-30": {
@@ -1722,20 +1723,8 @@
    "c36df74c7d2704eb"
   ]
  },
- "last_post_id": "1444130002106066_122115703245503839",
+ "last_post_id": "1444130002106066_122115710409503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122115370677503839",
-   "title": "کاڌي کان اڳ زيتون جو تيل پيئڻ سان رت ۾ کنڊ جي واڌ سست ٿي سگهي ٿي",
-   "t": 1793292313.3170059,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122115370677503839"
-  },
   {
    "id": "1444130002106066_122115383505503839",
    "title": "سنڌوءَ جي ڪنارن جا ٻيلا ڪٿي گم ٿي ويا؟",
@@ -2044,6 +2033,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122115703245503839"
+  },
+  {
+   "id": "1444130002106066_122115710409503839",
+   "title": "ايم ڪيو ايم جي ڪا حيثيت ناهي: گل محمد جکراڻي",
+   "t": 1793364181.3459687,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122115710409503839"
   }
  ],
  "share_sent": {
@@ -2215,12 +2216,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 17:38",
+  "time": "2026-10-30 17:50",
   "items": 24,
   "sample": [
    "State Bank of Pakistan 185/10 & 172/10 * v Markhor IT Solutions 296/10 & 112/10",
-   "South Africa 329/10 & 267/5 * v Australia 429/10",
-   "South Australia 154/10 & 182/1 * v Western Australia 406/5 & 169/10"
+   "South Africa 329/10 & 278/5 * v Australia 429/10",
+   "South Australia 182/1 & 154/10 * v Western Australia 406/5 & 169/10"
   ]
  },
  "agri_news": {
@@ -2230,17 +2231,11 @@
  },
  "all_posts": {
   "date": "2026-10-30",
-  "count": 43,
-  "last": 1793362955.4114494
+  "count": 44,
+  "last": 1793364169.9590092
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122111784669503839",
-    "sec": "district",
-    "cat": "district",
-    "t": 1792594631
-   },
    {
     "id": "1444130002106066_122111785617503839",
     "sec": "district",
@@ -4634,6 +4629,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1793362963
+   },
+   {
+    "id": "1444130002106066_122115710409503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1793364181
    }
   ]
  },
@@ -7634,15 +7635,11 @@
  },
  "ai_usage": {
   "date": "2026-10-30",
-  "ok": 292,
-  "fail": 413,
-  "limit": 422
+  "ok": 297,
+  "fail": 421,
+  "limit": 430
  },
  "posted_heads": [
-  {
-   "h": "”هڪ چين واري پاليسي“ جي حمايت، پاڪستان تائيوان لاءِ هوائي حدون بند ڪري ڇڏيون",
-   "t": 1793192770
-  },
   {
    "h": "عدالتي معاملن ۾ مداخلت تي ڳڻتي، جسٽس محسن اختر ڪياني 26هين ۽ 27هين آئيني ترميمن تي خدشن سبب استعيفيٰ ڏئي ڇڏي",
    "t": 1793193721
@@ -7958,10 +7955,14 @@
   {
    "h": "پاڪستان ۾ ذهني مريضن جو انگ 3 ڪروڙ 20 لک 40 هزار کان وڌي ويو",
    "t": 1793362963
+  },
+  {
+   "h": "ايم ڪيو ايم جي ڪا به حيثيت ناهي، پيپلز پارٽي سنڌ جي ورهاڱي جو فيصلو نٿي ڪري سگهي: گُل محمد جکراڻي",
+   "t": 1793364181
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 17:38",
+  "time": "2026-10-30 17:50",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8069,7 +8070,7 @@
   "text": 25,
   "story": 20
  },
- "ai_last_error": "17:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "17:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-30",
   "models": [
@@ -8083,13 +8084,13 @@
  },
  "img_diag": {
   "date": "2026-10-30",
-  "tried": 30,
+  "tried": 31,
   "gemini": 0,
   "pollinations": 16,
   "skip": 6,
-  "fail": 5,
+  "fail": 7,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
-  "mismatch": 284
+  "mismatch": 285
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -8110,15 +8111,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
-   "ok": 98,
+   "ok": 99,
    "fail": 11,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 108,
+   "ok": 109,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8126,7 +8127,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 108,
+   "ok": 109,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8134,14 +8135,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8149,21 +8150,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8350,13 +8351,13 @@
  "region_posts": {
   "date": "2026-10-30",
   "district": 1,
-  "sindh": 12,
+  "sindh": 13,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 10,
-  "old": 9,
+  "posted": 2,
+  "found": 14,
+  "old": 13,
   "irrelevant": 1,
   "blocked": 0,
   "errors": []
@@ -8388,9 +8389,9 @@
  },
  "sindh_stream": {
   "date": "2026-10-30",
-  "count": 8,
-  "last": 1793362879.6627724,
-  "city_i": 10,
+  "count": 9,
+  "last": 1793364063.187725,
+  "city_i": 14,
   "dry": 1793361680.8654664
  },
  "gemini_day_dead": {
@@ -9126,6 +9127,14 @@
    "t": 1793362963,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "ac6e0c54f6be01ea",
+   "h": "ايم ڪيو ايم جي ڪا حيثيت ناهي: گل محمد جکراڻي",
+   "x": "پاڪستان پيپلز پارٽي جي ايم اين اي گل محمد جکراڻي چيو آهي ته ايم ڪيو ايم جي ڪا به حيثيت ناهي ۽ اردو ڳالهائيندڙن به ان کي رد ڪري ڇڏيو آهي. اسلام آباد ۾ ميڊيا سان ڳالهائيندي هن چيو ته پيپلز پارٽي سنڌ جي ورهاڱي جو فيصلو نٿي ڪري سگهي، جڏهن ته انتظامي يونٽ اڳ ئي موجود آهن. سندس چوڻ هو ته 28هين آئيني ترميم جو مسودو اڃا تائين سامهون ناهي آيو، تنهنڪري ان تي بحث ڪرڻ وقت کان اڳ هوندو. گل محمد جکراڻي وڌيڪ چيو ته نون صوبن بابت بحث هليو آهي، پر سنڌ اسيمبلي ان تجويز کي رد ڪري چڪي آهي. بيان: گل محمد جکراڻي (پيپلز پارٽي جو ايم اين اي)",
+   "t": 1793364181,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9143,62 +9152,6 @@
   "last": 1793356878.054588
  },
  "tg_debug": [
-  {
-   "t": "10-30 16:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 16:51",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 16:53",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 16:54",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 16:55",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 16:56",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 16:57",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 16:58",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-30 17:00",
    "ok": true,
@@ -9418,6 +9371,62 @@
   },
   {
    "t": "10-30 17:38",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:44",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:45",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:47",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:48",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:49",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14085,6 +14094,46 @@
     "ڪان",
     "ڪروڙ"
    ]
+  },
+  {
+   "t": 1793364181,
+   "h": "ايم ڪيو ايم جي ڪا حيثيت ناهي: گل محمد جکراڻي",
+   "b": "پاڪستان پيپلز پارٽي جي ايم اين اي گل محمد جکراڻي چيو آهي ته ايم ڪيو ايم جي ڪا به حيثيت ناهي ۽ اردو",
+   "tt": [
+    "ايم",
+    "جڪراڻي",
+    "حيثيت",
+    "محمد",
+    "ناهي"
+   ],
+   "bt": [
+    "اباد",
+    "اردو",
+    "اسلام",
+    "انتظامي",
+    "اهن",
+    "اهي",
+    "ايم",
+    "اين",
+    "جڪراڻي",
+    "حيثيت",
+    "سنڌ",
+    "سگهي،",
+    "فيصلو",
+    "محمد",
+    "موجود",
+    "ميڊيا",
+    "ناهي",
+    "نٿي",
+    "ورهاڱي",
+    "يونٽ",
+    "پارٽي",
+    "پاڪستان",
+    "پيپلز",
+    "ڇڏيو",
+    "ڳالهائيندي",
+    "ڳالهائيندڙن"
+   ]
   }
  ],
  "repeat_log": [
@@ -14252,7 +14301,7 @@
  },
  "quality": {
   "date": "2026-10-30",
-  "editor_fixed": 23,
+  "editor_fixed": 24,
   "editor_rejected": 4,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
