@@ -2207,7 +2207,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 07:01",
+  "time": "2026-10-30 07:10",
   "items": 21,
   "sample": [
    "State Bank of Pakistan 172/10 & 165/7 * v Markhor IT Solutions 296/10 & 112/10",
@@ -7841,7 +7841,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 07:01",
+  "time": "2026-10-30 07:10",
   "steps": []
  },
  "roundup_am": "2026-10-29",
@@ -7990,7 +7990,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
-   "ok": 42,
+   "ok": 43,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7998,7 +7998,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 44,
+   "ok": 45,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8006,7 +8006,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 44,
+   "ok": 45,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8014,14 +8014,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8029,21 +8029,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8369,8 +8369,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9170,13 +9170,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 00:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 01:00",
    "ok": true,
    "n": 0,
@@ -9444,6 +9437,13 @@
   },
   {
    "t": "10-30 07:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 07:10",
    "ok": true,
    "n": 0,
    "ids": [],
