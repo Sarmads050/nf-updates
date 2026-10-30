@@ -1602,7 +1602,8 @@
   "0424f069614df3a0": 1793359270.385775,
   "bb00bde4d1991feb": 1793359270.3857782,
   "f1a770a9cc12c702": 1793360466.491767,
-  "9a2f5f42d90245ea": 1793360466.4917698
+  "9a2f5f42d90245ea": 1793360466.4917698,
+  "e6450d5e48e9136e": 1793361680.8654637
  },
  "pending": {
   "culture2026-10-30": {
@@ -2054,14 +2055,10 @@
   "11": "2026-10-18",
   "16": "2026-10-18",
   "21": "2026-10-17",
-  "17": "2026-10-29",
+  "17": "2026-10-30",
   "10": "2026-10-30"
  },
  "share_done": [
-  "1444130002106066_122112043545503839",
-  "1444130002106066_122112030207503839",
-  "1444130002106066_122112007689503839",
-  "1444130002106066_122112002121503839",
   "1444130002106066_122112184881503839",
   "1444130002106066_122112178851503839",
   "1444130002106066_122112172077503839",
@@ -2157,7 +2154,11 @@
   "1444130002106066_122115558231503839",
   "1444130002106066_122115548715503839",
   "1444130002106066_122115522735503839",
-  "1444130002106066_122115513165503839"
+  "1444130002106066_122115513165503839",
+  "1444130002106066_122115690225503839",
+  "1444130002106066_122115672993503839",
+  "1444130002106066_122115668313503839",
+  "1444130002106066_122115662871503839"
  ],
  "group_index": 0,
  "token_check": {
@@ -2218,11 +2219,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 16:58",
+  "time": "2026-10-30 17:08",
   "items": 24,
   "sample": [
-   "State Bank of Pakistan 185/10 & 172/10 * v Markhor IT Solutions 112/10 & 296/10",
-   "South Africa 244/5 & 329/10 * v Australia 429/10",
+   "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 112/10 & 296/10",
+   "South Africa 252/5 & 329/10 * v Australia 429/10",
    "South Australia 154/10 & 182/1 * v Western Australia 169/10 & 406/5"
   ]
  },
@@ -7621,9 +7622,9 @@
  },
  "ai_usage": {
   "date": "2026-10-30",
-  "ok": 283,
-  "fail": 399,
-  "limit": 408
+  "ok": 284,
+  "fail": 401,
+  "limit": 410
  },
  "posted_heads": [
   {
@@ -7948,7 +7949,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 16:58",
+  "time": "2026-10-30 17:08",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -7970,33 +7971,33 @@
   },
   "5": {
    "date": "2026-10-30",
-   "count": 1,
-   "last": 1793336476.7990422
+   "count": 3,
+   "last": 1793361680.866863
   },
   "10": {
    "date": "2026-10-30",
-   "count": 1,
-   "last": 1793336476.7990491
+   "count": 3,
+   "last": 1793361680.866871
   },
   "13": {
    "date": "2026-10-30",
-   "count": 1,
-   "last": 1793336476.7990558
+   "count": 3,
+   "last": 1793361680.866875
   },
   "4": {
-   "date": "2026-10-29",
-   "count": 3,
-   "last": 1793286078.1003523
+   "date": "2026-10-30",
+   "count": 2,
+   "last": 1793361680.867006
   },
   "2": {
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "count": 2,
-   "last": 1793275264.5519533
+   "last": 1793361680.8670096
   },
   "3": {
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "count": 2,
-   "last": 1793275264.551957
+   "last": 1793361680.867013
   },
   "6": {
    "date": "2026-10-29",
@@ -8056,7 +8057,7 @@
   "text": 25,
   "story": 20
  },
- "ai_last_error": "16:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "17:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-30",
   "models": [
@@ -8097,7 +8098,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
-   "ok": 95,
+   "ok": 96,
    "fail": 10,
    "items": 10,
    "fail_streak": 0,
@@ -8105,7 +8106,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 104,
+   "ok": 105,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8113,7 +8114,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 104,
+   "ok": 105,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8121,14 +8122,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 105,
+   "ok": 106,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 105,
+   "ok": 106,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8136,21 +8137,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 105,
+   "ok": 106,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 105,
+   "ok": 106,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 105,
+   "ok": 106,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8341,14 +8342,14 @@
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 11,
-  "old": 11,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-30 16",
+ "report_hour": "2026-10-30 17",
  "kawish_upload_times": {
   "_date": "2026-10-30",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8376,9 +8377,9 @@
  "sindh_stream": {
   "date": "2026-10-30",
   "count": 7,
-  "last": 1793360463.6600358,
-  "city_i": 24,
-  "dry": 1793353265.6165843
+  "last": 1793361679.5266292,
+  "city_i": 6,
+  "dry": 1793361680.8654664
  },
  "gemini_day_dead": {
   "day": "2026-10-30",
@@ -9123,62 +9124,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 16:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 16:12",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 16:13",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 16:14",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 16:15",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 16:16",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 16:17",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 16:18",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 16:20",
    "ok": true,
    "n": 0,
@@ -9397,6 +9342,62 @@
   },
   {
    "t": "10-30 16:58",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:02",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:03",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:04",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:05",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:06",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:07",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 17:08",
    "ok": true,
    "n": 0,
    "ids": [],
