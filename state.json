@@ -2212,12 +2212,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 18:19",
-  "items": 25,
+  "time": "2026-10-30 18:28",
+  "items": 23,
   "sample": [
-   "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 112/10 & 296/10",
+   "State Bank of Pakistan 185/10 & 172/10 * v Markhor IT Solutions 296/10 & 112/10",
    "South Africa 294/5 & 329/10 * v Australia 429/10",
-   "South Australia 154/10 & 182/1 * v Western Australia 406/5 & 169/10"
+   "South Australia 154/10 & 182/1 * v Western Australia 169/10 & 406/5"
   ]
  },
  "agri_news": {
@@ -7958,7 +7958,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 18:19",
+  "time": "2026-10-30 18:28",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8107,7 +8107,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
-   "ok": 102,
+   "ok": 103,
    "fail": 11,
    "items": 10,
    "fail_streak": 0,
@@ -8115,7 +8115,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 112,
+   "ok": 113,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8123,7 +8123,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 112,
+   "ok": 113,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8131,14 +8131,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8146,21 +8146,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8352,8 +8352,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 3,
-  "old": 3,
+  "found": 7,
+  "old": 7,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9149,62 +9149,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 17:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 17:32",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 17:33",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 17:34",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 17:35",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 17:36",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 17:37",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 17:38",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 17:40",
    "ok": true,
    "n": 0,
@@ -9423,6 +9367,62 @@
   },
   {
    "t": "10-30 18:19",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 18:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 18:22",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 18:23",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 18:24",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 18:25",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 18:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 18:27",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 18:28",
    "ok": true,
    "n": 0,
    "ids": [],
