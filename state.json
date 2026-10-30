@@ -1,6 +1,5 @@
 {
  "seen": {
-  "13cd7e5d38be375f": 1792746649.762661,
   "1ab15ca12adf2d56": 1792747310.8133743,
   "8606e180e67f9116": 1792747881.853249,
   "d6d154678558a19a": 1792747881.8532512,
@@ -1597,7 +1596,15 @@
   "714cf9b9d3ce9332": 1793351472.3620842,
   "251f53b1d78d31e6": 1793351472.3620846,
   "06c9f64f7a5f1a1a": 1793351472.3620853,
-  "06c56cb5f9dcedfa": 1793351472.362207
+  "06c56cb5f9dcedfa": 1793351472.362207,
+  "743c49fedf13f90f": 1793352077.2902904,
+  "b8c10ea17e2a0f60": 1793352077.2902935,
+  "11d2428cf45f6cfb": 1793352077.2902954,
+  "c9a42aa9d84284d4": 1793352077.2902963,
+  "64ad1a4fb16c35b2": 1793352077.290297,
+  "a925bbd37b755d74": 1793352077.2902982,
+  "2c0bf42fad107b7a": 1793352077.290299,
+  "bd94dc2eed766482": 1793352077.2904556
  },
  "pending": {
   "culture2026-10-30": {
@@ -2216,12 +2223,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 14:19",
+  "time": "2026-10-30 14:28",
   "items": 21,
   "sample": [
-   "State Bank of Pakistan 185/10 & 172/10 * v Markhor IT Solutions 112/10 & 296/10",
-   "South Africa 159/4 & 329/10 * v Australia 429/10",
-   "South Australia 182/1 & 154/10 * v Western Australia 406/5 & 169/10"
+   "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 112/10 & 296/10",
+   "South Africa 329/10 & 170/4 * v Australia 429/10",
+   "South Australia 154/10 & 182/1 * v Western Australia 169/10 & 406/5"
   ]
  },
  "agri_news": {
@@ -4644,32 +4651,8 @@
   "last": 1793348623.8718967
  },
  "trends": {
-  "last": 1793340652.937891,
+  "last": 1793352059.8488476,
   "terms": [
-   {
-    "term": "saif ali khan",
-    "traffic": 100,
-    "news": "Saif Ali Khan Sells Bandra Apartment With Two Parking Lots For Rs 4.11 Crore",
-    "t": 1792738943,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "james bond",
-    "traffic": 200,
-    "news": "Final James Bond Screen Tests To Take Place Over Next Week As Amazon Nears Naming The Next 007 – The Dish",
-    "t": 1792738943,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "wicker movie",
-    "traffic": 2000,
-    "news": "Only One Actor Could Pull Off a Movie Miracle Like This",
-    "t": 1792738943,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "psx",
     "traffic": 1000,
@@ -7565,15 +7548,87 @@
     "t": 1793340653,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "nitish kumar reddy",
+    "traffic": 500,
+    "news": "India pacer ruled out of ODI series against New Zealand",
+    "t": 1793352060,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "پٹرولیم",
+    "traffic": 200,
+    "news": "حکومت نے پیٹرول اور ڈیزل مہنگا کر دیا",
+    "t": 1793352060,
+    "cat": "fuel",
+    "sindh": false
+   },
+   {
+    "term": "mitchell santner",
+    "traffic": 500,
+    "news": "Arshdeep Singh matches ex-GT pacer's record in T20I cricket",
+    "t": 1793352060,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "economy",
+    "traffic": 100,
+    "news": "Chinese Envoy reaffirms China’s commitment transferring benefits of CPEC to general public",
+    "t": 1793352060,
+    "cat": "transport_trade",
+    "sindh": false
+   },
+   {
+    "term": "india",
+    "traffic": 200,
+    "news": "India's Batting Falters in Hong Kong Sixes Loss to Pakistan",
+    "t": 1793352060,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "daryl mitchell",
+    "traffic": 1000,
+    "news": "India race to a historic chase to seal T20I series in Wellington",
+    "t": 1793352060,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "prince yadav",
+    "traffic": 500,
+    "news": "IND vs NZ, 2nd T20I: Prince Yadav's incredible yorker sends Finn Allen to the pavilion for 16 runs - WATCH",
+    "t": 1793352060,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "ireland cricket team vs namibia national cricket team match scorecard",
+    "traffic": 1000,
+    "news": "1st ODI, Ireland tour of Namibia at Windhoek, Oct 22 2026",
+    "t": 1793352060,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "new zealand vs india",
+    "traffic": 100000,
+    "news": "Time for the victory lap: India aim to maintain unbeaten run in Auckland as New Zealand look to avoid whi",
+    "t": 1793352060,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-30",
-  "ok": 227,
-  "fail": 345,
-  "limit": 352
+  "ok": 231,
+  "fail": 353,
+  "limit": 360
  },
  "posted_heads": [
   {
@@ -7898,7 +7953,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 14:19",
+  "time": "2026-10-30 14:28",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8001,12 +8056,12 @@
  },
  "article_diag": {
   "date": "2026-10-30",
-  "tried": 29,
-  "decoded": 28,
-  "text": 23,
+  "tried": 30,
+  "decoded": 29,
+  "text": 24,
   "story": 19
  },
- "ai_last_error": "14:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "14:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-30",
   "models": [
@@ -8047,7 +8102,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
-   "ok": 79,
+   "ok": 80,
    "fail": 10,
    "items": 10,
    "fail_streak": 0,
@@ -8055,7 +8110,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 88,
+   "ok": 89,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8063,7 +8118,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 88,
+   "ok": 89,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8071,14 +8126,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 89,
+   "ok": 90,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 89,
+   "ok": 90,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8086,21 +8141,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 89,
+   "ok": 90,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 89,
+   "ok": 90,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 89,
+   "ok": 90,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8426,8 +8481,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8461,8 +8516,8 @@
   "date": "2026-10-30",
   "count": 6,
   "last": 1793350264.471789,
-  "city_i": 22,
-  "dry": 1793351462.0947597
+  "city_i": 4,
+  "dry": 1793352071.974671
  },
  "gemini_day_dead": {
   "day": "2026-10-30",
@@ -9230,62 +9285,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 13:31",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 13:32",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 13:33",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 13:35",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 13:36",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 13:37",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 13:38",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 13:39",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 13:40",
    "ok": true,
    "n": 0,
@@ -9504,6 +9503,62 @@
   },
   {
    "t": "10-30 14:19",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:22",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:23",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:24",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:25",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:27",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:28",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14339,11 +14394,6 @@
  "repeat_log": [
   {
    "t": "10-28 06:41",
-   "new": "پيٽرول اگهه ۾ گهٽ جب ته ڊيزل مهانگو",
-   "old": "حڪومت پاران پيٽرول سستو ۽ ڊيزل مهانگو"
-  },
-  {
-   "t": "10-28 06:41",
    "new": "سنڌ ۾ زرعي پيداوار وڌائڻ لاءِ عملي قدم",
    "old": "سنڌ ۾ تيل وارن ٻج جو فصل وڌائڻ جو فيصلو"
   },
@@ -14486,6 +14536,11 @@
    "t": "10-30 14:11",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ واڌ",
    "old": "پيٽرول اگهه برقرار، هاءِ اسپيڊ ڊيزل مهانگو"
+  },
+  {
+   "t": "10-30 14:21",
+   "new": "ڊيزل جي قيمت ۾ واڌ، پيٽرل جو اگهه برقرار",
+   "old": "پيٽرول اگهه برقرار، هاءِ اسپيڊ ڊيزل مهانگو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14506,7 +14561,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 12
+  "repeat": 13
  },
  "_dup": true
 }
