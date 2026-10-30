@@ -1,10 +1,5 @@
 {
  "seen": {
-  "9f2dc218055ae38e": 1792746077.832756,
-  "2df407835bcfcc54": 1792746077.832758,
-  "03c2dd6a2f4b0f73": 1792746077.8327596,
-  "6a2e6c782276527f": 1792746077.83276,
-  "a6a7ecdd6eca07f3": 1792746077.8327618,
   "13cd7e5d38be375f": 1792746649.762661,
   "1ab15ca12adf2d56": 1792747310.8133743,
   "8606e180e67f9116": 1792747881.853249,
@@ -1594,7 +1589,15 @@
   "ebe9ea33e414997d": 1793350277.7500587,
   "9b1a5ead76b4d424": 1793350277.750063,
   "9822cd90fab755a8": 1793350277.7500644,
-  "3eacc03da7d9c0b8": 1793350277.7502434
+  "3eacc03da7d9c0b8": 1793350277.7502434,
+  "57b0c8e47d42b479": 1793351452.387211,
+  "47d2ea07249cd496": 1793351472.362078,
+  "0360c7080aecb32d": 1793351472.36208,
+  "3305c3d53f675232": 1793351472.3620825,
+  "714cf9b9d3ce9332": 1793351472.3620842,
+  "251f53b1d78d31e6": 1793351472.3620846,
+  "06c9f64f7a5f1a1a": 1793351472.3620853,
+  "06c56cb5f9dcedfa": 1793351472.362207
  },
  "pending": {
   "culture2026-10-30": {
@@ -1610,7 +1613,17 @@
   }
  },
  "queue": [],
- "jobs": [],
+ "jobs": [
+  {
+   "key": "57b0c8e47d42b479",
+   "title": "Punjab Announces Shrimp Aquaculture Project Jobs With Salaries Up to Rs. 200,000",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYmdPXzNWaGlWOVdYZEY3VERfWDdkS3NxVFhyT3EzZkl1WHQ3TUtMbm1zbUhuY2RkbG1SWGE1NVE1NFBHVS12c3Z1clgtdXJ0UTdyd3pFY25QN0xPNmtTV19Va3BRbUhmZDRORHhTd0wyWi1xSDlHRDRnOXBKZXZpYUFJc3FDMXVWNzRTbnprdGpyYXZJaVJ2TmVvMFZ2OU5vYUZBbUMwUVNMcmNRdkI0UnVPUUPSAboBQVVfeXFMTkRGRi1tVlVHdTRMUTEwZnZMcS1ZOXJvOThLWktkekgzQWhsb1FwRTJTYV81WkNNUTE5djlndDBHcXZ0MmlMSGZBR1dESnpMc1lQUEZLZkJoSXpWNV96ekN4ZE5qb2ROTUpRRGRRc05TOUhZZ01xbERTZ2VhV0R6cU1DbW9KRm9WNGVfUVowTWZYb1R0UDJvcGpiQUZWT1ZlM3Z2MGY2RDA4RFdRWUY5ZnZPa2lSc3hYdV9n?oc=5",
+   "domain": "propakistani.pk",
+   "source": "ProPakistani",
+   "ts": 1793350540,
+   "local": false
+  }
+ ],
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-10-30",
@@ -1678,7 +1691,7 @@
  "sindh_single": {
   "date": "2026-10-30",
   "count": 0,
-  "last": 1793341264.8895357,
+  "last": 1793351490.67196,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2203,12 +2216,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 14:08",
+  "time": "2026-10-30 14:19",
   "items": 21,
   "sample": [
-   "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 112/10 & 296/10",
-   "South Africa 329/10 & 158/4 * v Australia 429/10",
-   "South Australia 182/1 & 154/10 * v Western Australia 169/10 & 406/5"
+   "State Bank of Pakistan 185/10 & 172/10 * v Markhor IT Solutions 112/10 & 296/10",
+   "South Africa 159/4 & 329/10 * v Australia 429/10",
+   "South Australia 182/1 & 154/10 * v Western Australia 406/5 & 169/10"
   ]
  },
  "agri_news": {
@@ -7558,9 +7571,9 @@
  },
  "ai_usage": {
   "date": "2026-10-30",
-  "ok": 223,
-  "fail": 337,
-  "limit": 344
+  "ok": 227,
+  "fail": 345,
+  "limit": 352
  },
  "posted_heads": [
   {
@@ -7885,7 +7898,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 14:08",
+  "time": "2026-10-30 14:19",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -7988,12 +8001,12 @@
  },
  "article_diag": {
   "date": "2026-10-30",
-  "tried": 28,
-  "decoded": 27,
-  "text": 22,
-  "story": 18
+  "tried": 29,
+  "decoded": 28,
+  "text": 23,
+  "story": 19
  },
- "ai_last_error": "13:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "14:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-30",
   "models": [
@@ -8034,7 +8047,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
-   "ok": 78,
+   "ok": 79,
    "fail": 10,
    "items": 10,
    "fail_streak": 0,
@@ -8042,7 +8055,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 87,
+   "ok": 88,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8050,7 +8063,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 87,
+   "ok": 88,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8058,14 +8071,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 88,
+   "ok": 89,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 88,
+   "ok": 89,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8073,21 +8086,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 88,
+   "ok": 89,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 88,
+   "ok": 89,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 88,
+   "ok": 89,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8413,8 +8426,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8448,8 +8461,8 @@
   "date": "2026-10-30",
   "count": 6,
   "last": 1793350264.471789,
-  "city_i": 18,
-  "dry": 1793350267.342627
+  "city_i": 22,
+  "dry": 1793351462.0947597
  },
  "gemini_day_dead": {
   "day": "2026-10-30",
@@ -9217,62 +9230,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 13:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 13:24",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 13:25",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 13:26",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 13:28",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 13:29",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 13:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 13:31",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 13:31",
    "ok": true,
    "n": 0,
@@ -9491,6 +9448,62 @@
   },
   {
    "t": "10-30 14:08",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:12",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:13",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:14",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:15",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:18",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 14:19",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14325,11 +14338,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-28 04:01",
-   "new": "بابراعظم بئٽنگ دوران غلط لائن تي ويو",
-   "old": "يوسف بابر اعظم جي بیٹنگ ۾ غلطي ٻڌائي"
-  },
-  {
    "t": "10-28 06:41",
    "new": "پيٽرول اگهه ۾ گهٽ جب ته ڊيزل مهانگو",
    "old": "حڪومت پاران پيٽرول سستو ۽ ڊيزل مهانگو"
@@ -14473,6 +14481,11 @@
    "t": "10-30 08:31",
    "new": "آڪٽوبر ۾ مهانگائي جي شرح 9.5 کان 10.5 سيڪڙو تائين رهڻ جو امڪان",
    "old": "آڪٽوبر ۾ مهانگائي وڌيڪ رهڻ جو امڪان"
+  },
+  {
+   "t": "10-30 14:11",
+   "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ واڌ",
+   "old": "پيٽرول اگهه برقرار، هاءِ اسپيڊ ڊيزل مهانگو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14493,6 +14506,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 11
- }
+  "repeat": 12
+ },
+ "_dup": true
 }
