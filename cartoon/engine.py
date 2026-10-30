@@ -981,46 +981,68 @@ def draw_char(cv, ox, oy, w, c):
         sha = Image.new("RGBA", cv.size, 0)
         ImageDraw.Draw(sha).ellipse([*q(x - 150 * s, c["foot"] + 4 * s), *q(x + 150 * s, c["foot"] + 44 * s)], fill=(0, 0, 0, 70))
         cv.alpha_composite(sha.filter(ImageFilter.GaussianBlur(max(1, int(10 * s * K)))))
-    if not seated:  # standing legs
+    shoe_col = (230, 230, 240) if C.get("toddler") else ((150, 95, 45) if C.get("kameez") else (60, 50, 48))
+    if not seated:  # standing legs (v3: hip block, thicker natural legs, real shoes)
         st = c["stand"] if c["mode"] != "stand" else 1
+        loose = C.get("kameez")
+        tw, kw, aw = (124, 108, 64) if loose else (108, 90, 72)  # thigh / knee / ankle widths
+        d.rounded_rectangle([*q(x - 128 * s, hip - 70 * s), *q(x + 128 * s, hip + 40 * s)], lw(40), fill=OUT)
+        legs = []
         for i, sd in enumerate((-1, 1)):
             lift = max(0, math.sin(c["phase"] + i * math.pi)) if c["walking"] else 0
-            hx, hy = x + sd * 52 * s, hip - 10 * s
-            Ln = 370 * s * max(st, 0.3)
-            fx_, fy_ = hx + sd * 8 * s, hy + Ln - 42 * s * lift
-            kx, ky = (hx + fx_) / 2 + sd * (10 + 14 * lift) * s, (hy + fy_) / 2 - 10 * s * lift
-            if C.get("kameez"):  # v2: loose shalwar, gathered at the ankle
-                taper(d, q, lw, (hx, hy), (kx, ky), 92 * s, 84 * s, pants, 10 * s)
-                taper(d, q, lw, (kx, ky), (fx_, fy_ - 16 * s), 84 * s, 56 * s, pants, 10 * s)
-                d.line([q(kx - 20 * s, ky + 30 * s), q(fx_ - 10 * s, fy_ - 60 * s)], fill=art.shade(pants, 0.85), width=lw(4))
+            hx, hy = x + sd * 60 * s, hip - 20 * s
+            Ln = 380 * s * max(st, 0.3)
+            fx_, fy_ = x + sd * 64 * s, hy + Ln - 42 * s * lift
+            kx, ky = (hx + fx_) / 2 + sd * (4 + 14 * lift) * s, (hy + fy_) / 2 - 10 * s * lift
+            legs.append((sd, hx, hy, kx, ky, fx_, fy_))
+            taper(d, q, lw, (hx, hy), (kx, ky), tw * s, kw * s, pants, 10 * s)
+            taper(d, q, lw, (kx, ky), (fx_, fy_ - 20 * s), kw * s, aw * s, pants, 10 * s)
+        d.rounded_rectangle([*q(x - 122 * s, hip - 64 * s), *q(x + 122 * s, hip + 30 * s)], lw(36), fill=pants)  # seat / hips
+        for sd, hx, hy, kx, ky, fx_, fy_ in legs:
+            taper(d, q, lw, (hx, hy), (kx, ky), (tw - 10) * s, (kw - 10) * s, pants, 0)
+            fold = art.shade(pants, 0.84)
+            d.line([q(hx - sd * 10 * s, hy + 60 * s), q(kx - sd * 6 * s, ky)], fill=fold, width=lw(4))  # crease
+            if loose:  # shalwar folds bunch above the ankle
+                for k in range(3):
+                    yy = fy_ - 70 * s - k * 22 * s
+                    d.arc([*q(fx_ - 40 * s, yy - 12 * s), *q(fx_ + 40 * s, yy + 12 * s)], 20, 160, fill=fold, width=lw(4))
+                d.rounded_rectangle([*q(fx_ - 36 * s, fy_ - 34 * s), *q(fx_ + 36 * s, fy_ - 16 * s)], lw(6), fill=art.shade(pants, 0.92), outline=OUT, width=lw(3))
             else:
-                taper(d, q, lw, (hx, hy), (kx, ky), 76 * s, 68 * s, pants, 10 * s)
-                taper(d, q, lw, (kx, ky), (fx_, fy_ - 10 * s), 68 * s, 60 * s, pants, 10 * s)
-            d.ellipse([*q(fx_ - 46 * s + sd * 6 * s, fy_ - 12 * s), *q(fx_ + 46 * s + sd * 6 * s, fy_ + 28 * s)],
-                      fill=(110, 70, 40) if not C.get("toddler") else (230, 230, 240), outline=OUT, width=lw(4))
+                d.line([q(fx_ - 36 * s, fy_ - 24 * s), q(fx_ + 36 * s, fy_ - 24 * s)], fill=fold, width=lw(4))  # hem
+        d.line([q(x, hip - 10 * s), q(x, hip + 46 * s)], fill=OUT, width=lw(5))  # crotch seam
+        for sd, hx, hy, kx, ky, fx_, fy_ in legs:  # front-view shoe: upper, toe highlight, sole
+            sx0 = fx_ + sd * 6 * s
+            d.rounded_rectangle([*q(sx0 - 50 * s, fy_ - 26 * s), *q(sx0 + 50 * s, fy_ + 18 * s)], lw(22), fill=shoe_col, outline=OUT, width=lw(4))
+            d.rounded_rectangle([*q(sx0 - 54 * s, fy_ + 8 * s), *q(sx0 + 54 * s, fy_ + 26 * s)], lw(8), fill=art.shade(shoe_col, 0.55), outline=OUT, width=lw(3))
+            d.arc([*q(sx0 - 34 * s, fy_ - 18 * s), *q(sx0 + 34 * s, fy_ + 12 * s)], 200, 320, fill=art.shade(shoe_col, 1.35), width=lw(4))
     else:  # seated: shins down to the floor (lap drawn after the torso)
         if c["mode"] == "sofa":
             for sd in (-1, 1):
-                fx_ = x + sd * 85 * s
-                for col, wd in ((OUT, 80), (pants, 70)):
-                    d.line([q(x + sd * 85 * s, hip + 40 * s), q(fx_, c["foot"] - 20 * s)], fill=col, width=lw(wd))
-                d.ellipse([*q(fx_ - 46 * s, c["foot"] - 34 * s), *q(fx_ + 46 * s, c["foot"] + 6 * s)],
-                          fill=(110, 70, 40) if not C.get("toddler") else (230, 230, 240), outline=OUT, width=lw(4))
+                kx_, fx_ = x + sd * 76 * s, x + sd * 74 * s
+                taper(d, q, lw, (kx_, hip + 50 * s), (fx_, c["foot"] - 28 * s), 86 * s, 66 * s, pants, 10 * s)
+                d.line([q(kx_ + sd * 18 * s, hip + 120 * s), q(fx_ + sd * 14 * s, c["foot"] - 70 * s)], fill=art.shade(pants, 0.86), width=lw(4))
+                d.rounded_rectangle([*q(fx_ - 50 * s, c["foot"] - 40 * s), *q(fx_ + 50 * s, c["foot"] + 4 * s)], lw(22), fill=shoe_col, outline=OUT, width=lw(4))
+                d.rounded_rectangle([*q(fx_ - 54 * s, c["foot"] - 8 * s), *q(fx_ + 54 * s, c["foot"] + 10 * s)], lw(8), fill=art.shade(shoe_col, 0.55), outline=OUT, width=lw(3))
     body = scaled(tn.body, ("body", w), s)
+    if seated:  # v3: seated -> hide the torso/kameez below the hip; the lap + drape cover it
+        body = body.crop((0, 0, body.width, min(body.height, int(560 * K * s))))
     p0 = q(x - 260 * s, T - 40 * s)
     cv.alpha_composite(body, (int(p0[0]), int(p0[1])))
-    if seated:  # lap / knees towards camera
-        for sd in (-1, 1):  # K-002: two thighs coming towards camera, with rounded knees (not one box)
-            x_in, x_out = x + sd * 6 * s, x + sd * 168 * s
-            d.rounded_rectangle([*q(min(x_in, x_out), hip - 70 * s), *q(max(x_in, x_out), hip + 70 * s)], lw(60), fill=pants, outline=OUT, width=lw(5))
-            kx = x + sd * 88 * s
-            d.ellipse([*q(kx - 70 * s, hip + 14 * s), *q(kx + 70 * s, hip + 86 * s)], fill=art.shade(pants, 1.06), outline=OUT, width=lw(5))
-            d.arc([*q(kx - 50 * s, hip + 24 * s), *q(kx + 50 * s, hip + 70 * s)], 200, 340, fill=art.shade(pants, 1.15), width=lw(4))
-            d.line([q(kx - sd * 40 * s, hip - 50 * s), q(kx - sd * 30 * s, hip + 10 * s)], fill=art.shade(pants, 0.86), width=lw(4))
-        if C.get("kameez"):  # v2: kameez drapes over the lap
-            d.chord([*q(x - 150 * s, hip - 150 * s), *q(x + 150 * s, hip + 40 * s)], 0, 180, fill=C["shirt"])
-            d.arc([*q(x - 150 * s, hip - 150 * s), *q(x + 150 * s, hip + 40 * s)], 10, 170, fill=OUT, width=lw(5))
-            d.arc([*q(x - 140 * s, hip - 150 * s), *q(x + 140 * s, hip + 26 * s)], 20, 160, fill=art.shade(C["shirt"], 0.85), width=lw(4))
+    if seated:  # lap seen from the front (v3): one soft lap shape with two knee bulges, no boxes/rings
+        for col, e in ((OUT, 5), (pants, 0)):
+            d.rounded_rectangle([*q(x - 150 * s - e * s, hip - 64 * s - e * s), *q(x + 150 * s + e * s, hip + 40 * s + e * s)], lw(50), fill=col)
+            for sd in (-1, 1):
+                kx = x + sd * 76 * s
+                d.ellipse([*q(kx - 72 * s - e * s, hip - 6 * s - e * s), *q(kx + 72 * s + e * s, hip + 82 * s + e * s)], fill=col)
+        for sd in (-1, 1):
+            kx = x + sd * 76 * s
+            d.arc([*q(kx - 44 * s, hip + 8 * s), *q(kx + 44 * s, hip + 62 * s)], 210, 330, fill=art.shade(pants, 1.12), width=lw(4))  # knee light
+        d.line([q(x, hip - 40 * s), q(x, hip + 60 * s)], fill=art.shade(pants, 0.78), width=lw(4))  # gap between the knees
+        if C.get("kameez"):  # kameez falls over the lap, hem just above the knees
+            d.chord([*q(x - 166 * s, hip - 150 * s), *q(x + 166 * s, hip + 50 * s)], 0, 180, fill=C["shirt"])
+            d.arc([*q(x - 166 * s, hip - 150 * s), *q(x + 166 * s, hip + 50 * s)], 10, 170, fill=OUT, width=lw(5))
+            for k in (-50, 0, 50):
+                d.line([q(x + k * s, hip - 40 * s), q(x + k * 1.2 * s, hip + 26 * s)], fill=art.shade(C["shirt"], 0.86), width=lw(3))
         if c["mode"] != "sofa":
             for sd in (-1, 1):
                 d.ellipse([*q(x + sd * 170 * s - 44 * s, hip + 30 * s), *q(x + sd * 170 * s + 44 * s, hip + 76 * s)], fill=(110, 70, 40), outline=OUT, width=lw(4))
