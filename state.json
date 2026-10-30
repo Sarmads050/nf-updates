@@ -1,12 +1,5 @@
 {
  "seen": {
-  "d4d5ce2c121296d4": 1792768897.0477881,
-  "786b61b1cfad4915": 1792768897.0477903,
-  "d5e9471e5151c304": 1792768897.0477924,
-  "c26844405f120c37": 1792768897.0477931,
-  "54cc8f0259eba65a": 1792768897.0477943,
-  "4e38cd48bb2bb37f": 1792768897.0477955,
-  "454c65b704e00a4b": 1792768897.047797,
   "174aba0ee98eeaaf": 1792770071.1691136,
   "7050fb4326a2dbbf": 1792770071.169117,
   "51239f609d550194": 1792770662.5294046,
@@ -1586,7 +1579,9 @@
   "43fb3b9c0993dd90": 1793373653.8375854,
   "701788404ea8e071": 1793373653.8375943,
   "d18717917b07ff5a": 1793373653.837603,
-  "028a298d13bd0843": 1793373653.8376129
+  "028a298d13bd0843": 1793373653.8376129,
+  "90c72ce6e998d352": 1793374263.0593324,
+  "cb86d4bca0b549e4": 1793374263.0596848
  },
  "pending": {
   "culture2026-10-30": {
@@ -2207,12 +2202,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 20:28",
+  "time": "2026-10-30 20:38",
   "items": 23,
   "sample": [
-   "State Bank of Pakistan 185/10 & 172/10 * v Markhor IT Solutions 112/10 & 296/10",
-   "South Africa 329/10 & 361/9 * v Australia 429/10",
-   "South Australia 154/10 & 182/1 * v Western Australia 406/5 & 169/10"
+   "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 296/10 & 112/10",
+   "South Africa 329/10 & 368/9 * v Australia 429/10",
+   "South Australia 182/1 & 154/10 * v Western Australia 169/10 & 406/5"
   ]
  },
  "agri_news": {
@@ -4635,88 +4630,8 @@
   "last": 1793348623.8718967
  },
  "trends": {
-  "last": 1793362861.18895,
+  "last": 1793374263.0598164,
   "terms": [
-   {
-    "term": "al-faisaly vs al-nassr",
-    "traffic": 1000,
-    "news": "Al-Faisaly vs. Al-Nassr Lineup Today: Is Cristiano Ronaldo Playing?",
-    "t": 1792761059,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "smriti mandhana",
-    "traffic": 5000,
-    "news": "IND W vs ZIM W 1st ODI Live Score: Smriti Mandhana, Pratika Rawal bring up 50-run opening partnership as India begin chase",
-    "t": 1792761059,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "weather forecast",
-    "traffic": 200,
-    "news": "Where Y’at this Weekend: Fright Night, Boo Carré Halloween Haunt, Krewe of BOO!, Kenner Food Truck Festival",
-    "t": 1792761059,
-    "cat": "weather_disaster",
-    "sindh": false
-   },
-   {
-    "term": "weather update",
-    "traffic": 100,
-    "news": "Weather Update for Franklin County 10/22/2026",
-    "t": 1792761059,
-    "cat": "weather_disaster",
-    "sindh": false
-   },
-   {
-    "term": "zimbabwe national cricket team vs afghanistan national cricket team match scorecard",
-    "traffic": 5000,
-    "news": "Match Predictions: ODI Tri-Nation Series in UAE 2026 - Final - Afghanistan vs Zimbabwe - October 23",
-    "t": 1792761059,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "france",
-    "traffic": 200,
-    "news": "Économie de la zone euro : une dynamique moins favorable pour le dernier trimestre 2026",
-    "t": 1792761059,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "mark allen snooker",
-    "traffic": 100,
-    "news": "Snooker chief Jason Ferguson 'fully behind' Mark Allen in mental health battle",
-    "t": 1792761059,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "zimbabwe vs afghanistan",
-    "traffic": 20000,
-    "news": "Zimbabwe's veterans lead 99-run rout of Bangladesh",
-    "t": 1792761059,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "namibia national cricket team",
-    "traffic": 100,
-    "news": "Cricket Records Rewritten in Winning Start to Namibia Series",
-    "t": 1792761059,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "gajab raat",
-    "traffic": 200,
-    "news": "Everything You Need to Know About ‘Gajab Raat’: Netflix India’s Controverisal Thriller",
-    "t": 1792761059,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "al nassr",
     "traffic": 500,
@@ -7620,15 +7535,87 @@
     "t": 1793362861,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "بھارت",
+    "traffic": 100,
+    "news": "",
+    "t": 1793374263,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "aus vs eng",
+    "traffic": 200,
+    "news": "TNT Sports close to securing live UK rights for England white-ball cricket tour of Australia",
+    "t": 1793374263,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "gold price in pakistan",
+    "traffic": 500,
+    "news": "Gold price in Pakistan for today, October 30, 2026",
+    "t": 1793374263,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "today gold rate in pakistan",
+    "traffic": 500,
+    "news": "Qatari Delegation in Iran for Talks as US Strike Fears Mount",
+    "t": 1793374263,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "gold price",
+    "traffic": 100,
+    "news": "Gold remains stuck as the Fed takes a hawkish pause - TDS’ Melek",
+    "t": 1793374263,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "abha vs al-ittihad",
+    "traffic": 2000,
+    "news": "Video: Abha punish Al-Ittihad in a match of fatal errors",
+    "t": 1793374263,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "pakistan super league",
+    "traffic": 500,
+    "news": "PCB Opens Direct Signings for PSL 12, Sets PSL Auction Date",
+    "t": 1793374263,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "liquefied petroleum gas",
+    "traffic": 200,
+    "news": "Pakistan LPG shortage worsens after border closure, traders say",
+    "t": 1793374263,
+    "cat": "electricity_gas",
+    "sindh": false
+   },
+   {
+    "term": "initial public offering",
+    "traffic": 100,
+    "news": "Silicon Valley wants you to invest in miracles",
+    "t": 1793374263,
+    "cat": "dollar_gold_business",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-30",
-  "ok": 320,
-  "fail": 453,
-  "limit": 464
+  "ok": 321,
+  "fail": 455,
+  "limit": 466
  },
  "posted_heads": [
   {
@@ -7953,7 +7940,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 20:28",
+  "time": "2026-10-30 20:38",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8061,7 +8048,7 @@
   "text": 25,
   "story": 20
  },
- "ai_last_error": "19:42 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "20:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-30",
   "models": [
@@ -8102,7 +8089,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
-   "ok": 114,
+   "ok": 115,
    "fail": 12,
    "items": 10,
    "fail_streak": 0,
@@ -8110,7 +8097,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 125,
+   "ok": 126,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8118,7 +8105,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 125,
+   "ok": 126,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8126,14 +8113,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8141,21 +8128,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8347,8 +8334,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 8,
-  "old": 8,
+  "found": 9,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9145,62 +9132,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 19:41",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 19:45",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 19:46",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 19:47",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 19:48",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 19:49",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 19:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 19:51",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 19:52",
    "ok": true,
    "n": 0,
@@ -9419,6 +9350,62 @@
   },
   {
    "t": "10-30 20:28",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 20:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 20:32",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 20:33",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 20:34",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 20:35",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 20:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 20:37",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 20:38",
    "ok": true,
    "n": 0,
    "ids": [],
