@@ -1617,7 +1617,7 @@
   "last_week": "",
   "last_check": "2026-10-30"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.7-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1700,7 +1700,7 @@
    "c36df74c7d2704eb"
   ]
  },
- "last_post_id": "1444130002106066_122115593193503839",
+ "last_post_id": "1444130002106066_122115597003503839",
  "shareable": [
   {
    "id": "1444130002106066_122115300969503839",
@@ -2182,7 +2182,7 @@
    },
    "wicket_posts": 5,
    "break_done": true,
-   "last_edit": 1793343779.505325,
+   "last_edit": 1793344079.3612854,
    "batting": "United Arab Emirates",
    "done": false,
    "seen_live": true
@@ -2190,23 +2190,24 @@
   "httpwwwcricinfocomcienginematch1559199htmlcmpotcrss": {
    "post": "1444130002106066_122115587631503839",
    "wkts": {
-    "India|1": 5
+    "India|1": 5,
+    "Pakistan|1": 10
    },
    "wicket_posts": 4,
-   "break_done": false,
-   "last_edit": 1793343971.4026368,
-   "batting": "India",
+   "break_done": true,
+   "last_edit": 1793344080.5526843,
+   "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 12:06",
+  "time": "2026-10-30 12:07",
   "items": 21,
   "sample": [
    "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 296/10 & 112/10",
    "South Africa 329/10 & 140/4 * v Australia 429/10",
-   "South Australia 154/10 & 130/1 * v Western Australia 406/5 & 169/10"
+   "South Australia 130/1 & 154/10 * v Western Australia 169/10 & 406/5"
   ]
  },
  "agri_news": {
@@ -2216,8 +2217,8 @@
  },
  "all_posts": {
   "date": "2026-10-30",
-  "count": 32,
-  "last": 1793343415.245643
+  "count": 33,
+  "last": 1793344556.223419
  },
  "perf": {
   "posts": [
@@ -7556,7 +7557,7 @@
  },
  "ai_usage": {
   "date": "2026-10-30",
-  "ok": 192,
+  "ok": 196,
   "fail": 318,
   "limit": 318
  },
@@ -7883,7 +7884,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 12:06",
+  "time": "2026-10-30 12:15",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8005,13 +8006,13 @@
  },
  "img_diag": {
   "date": "2026-10-30",
-  "tried": 20,
+  "tried": 21,
   "gemini": 0,
   "pollinations": 12,
   "skip": 3,
   "fail": 3,
-  "last_note": "baby carrier and running shoes",
-  "mismatch": 275
+  "last_note": "cricket wickets and bat",
+  "mismatch": 278
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -8032,15 +8033,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
-   "ok": 67,
+   "ok": 68,
    "fail": 8,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 74,
+   "ok": 75,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8048,7 +8049,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 74,
+   "ok": 75,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8056,14 +8057,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8071,21 +8072,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8410,9 +8411,9 @@
   "pakistan": 12
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 9,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8450,14 +8451,8 @@
   "dry": 1793337060.058386
  },
  "gemini_day_dead": {
-  "day": "2026-10-29",
-  "models": [
-   "gemini-flash-latest",
-   "gemini-3.7-flash",
-   "gemini-3.8-flash",
-   "gemini-3.6-flash",
-   "gemini-3.5-flash"
-  ]
+  "day": "2026-10-30",
+  "models": []
  },
  "tg_done": [
   92058696,
@@ -9230,20 +9225,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 10:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-30 10:57",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 11:00",
    "ok": true,
    "n": 0,
@@ -9508,62 +9489,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "10-30 12:06",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 12:07",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-10-30",
  "recent_posts": [
-  {
-   "t": 1793171267,
-   "h": "ڪراچي: ايف سي ايريا مان عورت جو ڳلو ڪپيل لاش هٿ",
-   "b": "ڪراچي جي شريف آباد واري علائقي ايف سي ايريا بلاڪ 55/15 ۾ سرڪاري فليٽ مان 65 ورهين جي فريده بيگم جو تشدد ٿيل ۽",
-   "tt": [
-    "ايريا",
-    "ايف",
-    "عورت",
-    "لاش",
-    "مان",
-    "ڪراچي",
-    "ڪپيل",
-    "ڳلو"
-   ],
-   "bt": [
-    "#15",
-    "#55",
-    "#65",
-    "اباد",
-    "اهي",
-    "ايريا",
-    "ايف",
-    "ايو",
-    "اڻڄاتل",
-    "بعد",
-    "بلاڪ",
-    "بيگم",
-    "تشدد",
-    "جوابدارن",
-    "سرڪاري",
-    "شريف",
-    "علائقي",
-    "عورت",
-    "فريده",
-    "فليٽ",
-    "لاش",
-    "مان",
-    "موجب",
-    "وار",
-    "ورهين",
-    "پوليس",
-    "پٿر",
-    "ٿيل",
-    "ڪراچي",
-    "ڪرڻ",
-    "ڪوشش",
-    "ڪٽر",
-    "ڪپيل",
-    "ڪپڻ",
-    "ڳلو"
-   ]
-  },
   {
    "t": 1793172527,
    "h": "حارث رؤف تي آءِ سي سي پاران ڏنڊ لاڳو",
@@ -14397,6 +14340,23 @@
     "وڪيٽون",
     "پاڪستان",
     "پيون",
+    "ڀارت"
+   ]
+  },
+  {
+   "t": 1793344556,
+   "h": "اننگز جو وقفو",
+   "b": "ڀارت 88/5 پاڪستان 13 🏏",
+   "tt": [
+    "اننگز",
+    "وقفو"
+   ],
+   "bt": [
+    "#13",
+    "#88",
+    "اننگز",
+    "وقفو",
+    "پاڪستان",
     "ڀارت"
    ]
   }
