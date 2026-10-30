@@ -2,6 +2,9 @@
 Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK section 6.
 
 ## PENDING
+- [K-005] (Sarmad, 2026-10-30) Kamar se neeche ka hissa real nahi lagta (patli seedhi taangein, gol joote, baithe huon ki god gaddi jaisi) — fix ready on branch `lower-v3` (kulhe, moti asli taangein, asli joote, shalwar ki silwatein, saaf god). Awaiting "han set kar do".
+- [K-006] (ep007, 2026-10-30) Desk par baithe Arsalan ke ghutne kaale gol dabbe lagte hain — desk/charpai par baithne ki pose behtar banana.
+- [K-007] (ep007, 2026-10-30) Bedroom close-up mein bolne wale ke saath wala character chhup jata hai — close-up frame thora chaura karna.
 
 ## APPROVED
 
