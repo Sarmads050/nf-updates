@@ -1566,7 +1566,9 @@
   "e5b03b64a40c01e3": 1793374852.4024787,
   "4c07498126ebfb6f": 1793375457.5037618,
   "0c8e24dbc13e7b13": 1793376071.1904016,
-  "b209d491565b6405": 1793378456.978957
+  "b209d491565b6405": 1793378456.978957,
+  "95421eb215655424": 1793380853.801706,
+  "1f6144340fad1a2e": 1793380853.8021235
  },
  "pending": {
   "culture2026-10-30": {
@@ -1590,6 +1592,15 @@
    "domain": "propakistani.pk",
    "source": "ProPakistani",
    "ts": 1793350540,
+   "local": false
+  },
+  {
+   "key": "1f6144340fad1a2e",
+   "title": "SBP Wants Fintechs to Have More Access to Banking Data",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcEpCTi1WQTNVLVoxMFUtRnFjazFNbUFkekwtYnBNakk0OUZmd3paVFpKZGxxaG9RTUxYMjZGcEtiVDVzVVNyNVN4SWExTDg4MzJBWnFucldxTldlOWZNa1hYZFVrSFV2LWdkRTc5T0RKZ0tBMVpTa3pXZXhsRENFWmdtODRDNVE2OWxEYVlIUXI4a0st0gGaAUFVX3lxTE9XN0E2Ukx4OFJUWW45YWxiNzhUc2ZkVXdmRFk4bGI5ZzZxWDIwUTJOTEJMUzlfNFItWUFxVmhVV1Z0N2w3UVBBMHptdVlQeHYxY2M1QzhrZE9ndTJFM2ZDYld3TTdSYVFIaDhaRGNrSzNscWNMRzI5LVJQWHJURTUzUHFqaVR3Wk03WkJRWFpuUmZPdVl4RTdWUnc?oc=5",
+   "domain": "propakistani.pk",
+   "source": "ProPakistani",
+   "ts": 1793379938,
    "local": false
   }
  ],
@@ -2187,7 +2198,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 22:10",
+  "time": "2026-10-30 22:20",
   "items": 22,
   "sample": [
    "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 296/10 & 112/10",
@@ -7925,7 +7936,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 22:10",
+  "time": "2026-10-30 22:20",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8074,7 +8085,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
-   "ok": 125,
+   "ok": 126,
    "fail": 12,
    "items": 10,
    "fail_streak": 0,
@@ -8082,7 +8093,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 136,
+   "ok": 137,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8090,7 +8101,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 136,
+   "ok": 137,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8098,14 +8109,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8113,21 +8124,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8319,8 +8330,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 1,
-  "old": 1,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9118,13 +9129,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 20:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 20:21",
    "ok": true,
    "n": 0,
@@ -9392,6 +9396,13 @@
   },
   {
    "t": "10-30 22:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 22:20",
    "ok": true,
    "n": 0,
    "ids": [],
