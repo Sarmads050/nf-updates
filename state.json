@@ -2200,7 +2200,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-30 21:20",
+  "time": "2026-10-30 21:31",
   "items": 22,
   "sample": [
    "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 296/10 & 112/10",
@@ -7938,7 +7938,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-30 21:20",
+  "time": "2026-10-30 21:31",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8087,7 +8087,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-30",
-   "ok": 120,
+   "ok": 121,
    "fail": 12,
    "items": 10,
    "fail_streak": 0,
@@ -8095,7 +8095,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-30",
-   "ok": 131,
+   "ok": 132,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8103,7 +8103,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-30",
-   "ok": 131,
+   "ok": 132,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8111,14 +8111,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 132,
+   "ok": 133,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 132,
+   "ok": 133,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8126,21 +8126,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-30",
-   "ok": 132,
+   "ok": 133,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-30",
-   "ok": 132,
+   "ok": 133,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-30",
-   "ok": 132,
+   "ok": 133,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8332,8 +8332,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9119,7 +9119,8 @@
    "09:30",
    "12:30",
    "15:30",
-   "18:30"
+   "18:30",
+   "21:30"
   ]
  },
  "kawish_queue": [],
@@ -9129,13 +9130,6 @@
   "last": 1793356878.054588
  },
  "tg_debug": [
-  {
-   "t": "10-30 20:14",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-30 20:15",
    "ok": true,
@@ -9404,6 +9398,13 @@
   },
   {
    "t": "10-30 21:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-30 21:30",
    "ok": true,
    "n": 0,
    "ids": [],
