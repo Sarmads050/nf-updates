@@ -1583,7 +1583,8 @@
   "7cc8079a0dd98067": 1793405470.579534,
   "decab0b058e8cf6e": 1793405470.5795352,
   "3485f54dc31eb335": 1793405470.5795364,
-  "6d67c6ae9fc561c1": 1793405470.5797794
+  "6d67c6ae9fc561c1": 1793405470.5797794,
+  "00d61e3c7b6dc12a": 1793406051.3860223
  },
  "pending": {
   "culture2026-10-30": {
@@ -2234,7 +2235,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-31 05:11",
+  "time": "2026-10-31 05:21",
   "items": 22,
   "sample": [
    "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 296/10 & 112/10",
@@ -7932,7 +7933,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-31 05:11",
+  "time": "2026-10-31 05:21",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8081,7 +8082,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-31",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8089,7 +8090,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-31",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8097,7 +8098,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-31",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8105,14 +8106,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8120,21 +8121,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-31",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8326,8 +8327,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8362,8 +8363,8 @@
   "date": "2026-10-31",
   "count": 1,
   "last": 1793386883.6534767,
-  "city_i": 22,
-  "dry": 1793405459.588453
+  "city_i": 4,
+  "dry": 1793406060.241428
  },
  "gemini_day_dead": {
   "day": "2026-10-30",
@@ -9088,13 +9089,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 23:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 23:10",
    "ok": true,
    "n": 0,
@@ -9362,6 +9356,13 @@
   },
   {
    "t": "10-31 05:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 05:20",
    "ok": true,
    "n": 0,
    "ids": [],
