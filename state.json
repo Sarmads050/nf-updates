@@ -1585,7 +1585,9 @@
   "4b879636d39e509e": 1793428260.3580408,
   "646122fe22db70e9": 1793428260.3587024,
   "a1ce778ef6a73d6e": 1793428270.7722218,
-  "e90b053f0f9a0d12": 1793428270.7722263
+  "e90b053f0f9a0d12": 1793428270.7722263,
+  "92564ea03b9d0e9f": 1793428867.73835,
+  "bfe3e200fc79167a": 1793428867.7384763
  },
  "pending": {},
  "queue": [],
@@ -2207,12 +2209,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-31 11:36",
+  "time": "2026-10-31 11:46",
   "items": 26,
   "sample": [
-   "South Africa 387/10 & 329/10 * v Australia 429/10",
-   "South Australia 316/10 & 154/10 * v Western Australia 406/5 & 169/10",
-   "Bangladesh 142/10 & 272/10 v West Indies 245/10 & 39 *"
+   "South Africa 329/10 & 387/10 * v Australia 429/10",
+   "South Australia 154/10 & 316/10 * v Western Australia 169/10 & 406/5",
+   "Bangladesh 272/10 & 142/10 v West Indies 245/10 & 54 *"
   ]
  },
  "agri_news": {
@@ -7650,9 +7652,9 @@
  },
  "ai_usage": {
   "date": "2026-10-31",
-  "ok": 131,
-  "fail": 240,
-  "limit": 240
+  "ok": 134,
+  "fail": 246,
+  "limit": 246
  },
  "posted_heads": [
   {
@@ -7977,7 +7979,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-31 11:36",
+  "time": "2026-10-31 11:46",
   "steps": []
  },
  "roundup_am": "2026-10-31",
@@ -8080,12 +8082,12 @@
  },
  "article_diag": {
   "date": "2026-10-31",
-  "tried": 16,
-  "decoded": 15,
-  "text": 14,
-  "story": 13
+  "tried": 17,
+  "decoded": 16,
+  "text": 15,
+  "story": 14
  },
- "ai_last_error": "11:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "11:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-31",
   "models": [
@@ -8126,15 +8128,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-31",
-   "ok": 69,
+   "ok": 70,
    "fail": 3,
    "items": 10,
-   "fail_streak": 2,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-31",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8142,7 +8144,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-31",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8150,14 +8152,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8165,21 +8167,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-31",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8371,8 +8373,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 6,
-  "old": 6,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9087,20 +9089,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-31 05:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-31 05:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-31 05:40",
    "ok": true,
    "n": 0,
@@ -9361,6 +9349,20 @@
   },
   {
    "t": "10-31 11:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 11:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 11:46",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13781,11 +13783,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-29 03:41",
-   "new": "پاڪستان ۾ مهانگائي، اٽي ۽ پيٽرول جون قيمتون جاري",
-   "old": "حڪومت پاران پيٽرول سستو ۽ ڊيزل مهانگو"
-  },
-  {
    "t": "10-29 08:21",
    "new": "سنڌ | پٹرول ۽ ڈیزل جي قيمتفن ۾ واڌ",
    "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ وڏو واڌارو"
@@ -13929,6 +13926,11 @@
    "t": "10-31 11:11",
    "new": "پاڪستان ۽ سری لنڪا اڄ ٽاءِ سيريز جي فائنل ۾ آمهون سامهون",
    "old": "پاڪستان ۽ سريلنڪا جي ڪپتانن ٽرافي جي رونمائي ڪري ڇڏي"
+  },
+  {
+   "t": "10-31 11:41",
+   "new": "ٽاءِ سيريز جي فائنل ۾ پوري طاقت سان کيڏنداسين",
+   "old": "آغا سلمان جو بابر ۽ فخر تي اعتماد"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13949,6 +13951,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 7
- }
+  "repeat": 8
+ },
+ "_dup": true
 }
