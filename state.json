@@ -2350,12 +2350,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-01 03:01",
-  "items": 19,
+  "time": "2026-11-01 03:10",
+  "items": 21,
   "sample": [
-   "South Africa 387/10 & 329/10 v Australia 429/10 & 111/10",
    "Tasmania 427/10 v New South Wales 174/8 *",
-   "New Zealand A v India A 291/7 *"
+   "New Zealand A v India A 296/7 *",
+   "Queensland v Victoria 282/9 *"
   ]
  },
  "agri_news": {
@@ -4778,64 +4778,8 @@
   "last": 1793480606.5274055
  },
  "trends": {
-  "last": 1793473850.830061,
+  "last": 1793484655.8361113,
   "terms": [
-   {
-    "term": "bigg boss 20 today full episode",
-    "traffic": 200,
-    "news": "Amrapali Takes a personal dig at Gullu, while Kushal Tanwar maintains his composure",
-    "t": 1792872650,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "all of us are dead season 2",
-    "traffic": 200,
-    "news": "Netflix’s Hit Zombie Series Officially Wraps Filming Ahead of Season 2 Return",
-    "t": 1792872650,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "ssc napoli vs as roma standings",
-    "traffic": 500,
-    "news": "[!LIVESTREAMs!]Tv] AS Roma v Napoli Serie A italiana in diretta GRATIS Stream",
-    "t": 1792872650,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "barcelona vs granada",
-    "traffic": 200,
-    "news": "Octava jornada de la Liga F Moeve | Horarios de la jornada",
-    "t": 1792872650,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "fc bayern munich",
-    "traffic": 100,
-    "news": "Licensable picture: GER, Freiburg, SC Freiburg vs Bayern München, Bundesliga, Fussball, DFB, Spielzeit 2026/2027, Europa-Park-Stadion, 7. Spieltag",
-    "t": 1792872650,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "ballon d'or 2026",
-    "traffic": 100,
-    "news": "Ballon d’Or 2026: Organisers keep winner to chest",
-    "t": 1792872650,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "dortmund vs eintracht frankfurt",
-    "traffic": 200,
-    "news": "[Übertragung]TV!] BVB Eintracht Frankfurt Fussball Übertragung & Stream, Übertragung im TV, Startzeit, Sperrungen und Bundesliga: BVB vs. Eintracht Frankfurt live im TV, Livestream und im Liveticker Im Viertelfinal-Rückspiel der Bundesliga empfängt der BV",
-    "t": 1792872650,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "f1",
     "traffic": 100,
@@ -7819,15 +7763,71 @@
     "t": 1793473851,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "lamine yamal",
+    "traffic": 100,
+    "news": "Palmer returns and Bruno rises up: wholesale surprises in the Chelsea and Manchester United line-ups",
+    "t": 1793484656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "barca vs alaves",
+    "traffic": 100,
+    "news": "Lamine Yamal: \"Soy una mezcla de culturas. Ser atrevido me viene de Marruecos. De Guinea Ecuatorial, tengo que soy divertido\"",
+    "t": 1793484656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "fc barcelona",
+    "traffic": 1000,
+    "news": "La alineación del Barça ante el Alavés: Fariñas y De Jong en defensa",
+    "t": 1793484656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "ac milan",
+    "traffic": 200,
+    "news": "Christian Pulisic celebrates Milan contract extension with opening goal in Derby della Madonnina",
+    "t": 1793484656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "fcb",
+    "traffic": 200,
+    "news": "The squad for Barça v Alavés",
+    "t": 1793484656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "barca vs",
+    "traffic": 200,
+    "news": "Barcelona - Alavés en directo | El Barcelona arrolla al Alavés y se reencuentra con la victoria",
+    "t": 1793484656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "moammar rana",
+    "traffic": 100,
+    "news": "Moammar Rana's marriage ends as Lahore court issues khula decree",
+    "t": 1793484656,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-01",
-  "ok": 32,
-  "fail": 56,
-  "limit": 56
+  "ok": 33,
+  "fail": 58,
+  "limit": 58
  },
  "posted_heads": [
   {
@@ -8152,7 +8152,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-01 03:01",
+  "time": "2026-11-01 03:10",
   "steps": []
  },
  "roundup_am": "2026-10-31",
@@ -8260,7 +8260,7 @@
   "text": 5,
   "story": 5
  },
- "ai_last_error": "02:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "03:10 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-01",
   "models": [
@@ -8301,7 +8301,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-01",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8309,7 +8309,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-01",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8317,7 +8317,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-01",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8325,14 +8325,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8340,21 +8340,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-01",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8497,8 +8497,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9132,13 +9132,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-31 22:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-31 22:36",
    "ok": true,
    "n": 0,
@@ -9406,6 +9399,13 @@
   },
   {
    "t": "11-01 03:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-01 03:10",
    "ok": true,
    "n": 0,
    "ids": [],
