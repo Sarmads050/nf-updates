@@ -1,8 +1,5 @@
 {
  "seen": {
-  "da91b805dbeb51b9": 1792827663.0784347,
-  "988cf37ec36b48cb": 1792827663.0784388,
-  "8894e9e09b2c15e5": 1792827683.593226,
   "41dfea2a76250c12": 1792828903.8778446,
   "e9d928006ef48a97": 1792828903.8778474,
   "b24bf3c89dcc0372": 1792828903.877849,
@@ -1590,7 +1587,12 @@
   "2d9f63b7c4a22412": 1793431374.5969615,
   "afaf8a41cc908347": 1793431537.6230066,
   "221afb0c8698f4ba": 1793431537.6232243,
-  "9215ff87d14eda48": 1793432193.0636194
+  "9215ff87d14eda48": 1793432193.0636194,
+  "7acdd76b956247da": 1793432537.1394885,
+  "74c58823afcc5eba": 1793432537.1396906,
+  "23e4c559f14d95b3": 1793432572.4412827,
+  "ac1414190c3e3080": 1793432572.4412847,
+  "d80a0bd2ef2bcd57": 1793432577.230238
  },
  "pending": {},
  "queue": [],
@@ -1608,7 +1610,7 @@
   "last_week": "",
   "last_check": "2026-10-31"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1692,20 +1694,8 @@
    "56f8322c0e19f33a"
   ]
  },
- "last_post_id": "1444130002106066_122116060725503839",
+ "last_post_id": "1444130002106066_122116063551503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122115587511503839",
-   "title": "سهيل آفريدي ئي وڏو وزير رھندو: پي ٽي آءِ",
-   "t": 1793341883.489392,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122115587511503839"
-  },
   {
    "id": "1444130002106066_122115591249503839",
    "title": "سرينگر ۾ ٽن ٻارن جي ماءُ ڪلثوم بانو هاف ميراٿن کتي ورتي",
@@ -2017,6 +2007,15 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122116060725503839"
+  },
+  {
+   "id": "1444130002106066_122116063551503839",
+   "title": "ملڪ ۾ مهانگائي جي رفتار جاري آهي جنهن دوران ضروري شين سان گڏ ٽماٽن جا اگهه پڻ وڌي ويا",
+   "t": 1793432722.8504922,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122116063551503839"
   }
  ],
  "share_sent": {
@@ -2210,12 +2209,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-31 12:41",
+  "time": "2026-10-31 12:50",
   "items": 25,
   "sample": [
-   "South Africa 329/10 & 387/10 * v Australia 429/10",
-   "South Australia 154/10 & 316/10 * v Western Australia 169/10 & 406/5",
-   "Bangladesh 142/10 & 272/10 v West Indies 245/10 & 64 *"
+   "South Africa 387/10 & 329/10 * v Australia 429/10",
+   "South Australia 316/10 & 154/10 * v Western Australia 406/5 & 169/10",
+   "Bangladesh 272/10 & 142/10 v West Indies 64 & 245/10 *"
   ]
  },
  "agri_news": {
@@ -2225,17 +2224,11 @@
  },
  "all_posts": {
   "date": "2026-10-31",
-  "count": 19,
-  "last": 1793431993.9865315
+  "count": 20,
+  "last": 1793432714.9902446
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122111859813503839",
-    "sec": "district",
-    "cat": "district",
-    "t": 1792606241
-   },
    {
     "id": "1444130002106066_122111860323503839",
     "sec": "district",
@@ -4629,13 +4622,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1793432000
+   },
+   {
+    "id": "1444130002106066_122116063551503839",
+    "sec": "public_news",
+    "cat": "inflation",
+    "t": 1793432722
    }
   ]
  },
  "public_news": {
   "date": "2026-10-31",
-  "count": 6,
-  "last": 1793414064.5245185
+  "count": 7,
+  "last": 1793432722.8504772
  },
  "trends": {
   "last": 1793430060.4672053,
@@ -7701,15 +7700,11 @@
  },
  "ai_usage": {
   "date": "2026-10-31",
-  "ok": 146,
-  "fail": 258,
-  "limit": 257
+  "ok": 153,
+  "fail": 267,
+  "limit": 267
  },
  "posted_heads": [
-  {
-   "h": "Kisan League Urges Punjab To Procure Wheat At Rs4,500 Per 40kg",
-   "t": 1793241980
-  },
   {
    "h": "Stakeholders call for dedicated STEAM policy, budget in Sindh",
    "t": 1793245994
@@ -8025,10 +8020,14 @@
   {
    "h": "Pakistan take on Sri Lanka in ODI tri-series final today",
    "t": 1793432000
+  },
+  {
+   "h": "Pakistan Inflation | Weekly Inflation Report | Tomato Prices Rise | Essential Items - Aaj News",
+   "t": 1793432723
   }
  ],
  "last_errors": {
-  "time": "2026-10-31 12:41",
+  "time": "2026-10-31 12:50",
   "steps": []
  },
  "roundup_am": "2026-10-31",
@@ -8131,12 +8130,12 @@
  },
  "article_diag": {
   "date": "2026-10-31",
-  "tried": 19,
-  "decoded": 18,
-  "text": 17,
-  "story": 16
+  "tried": 20,
+  "decoded": 19,
+  "text": 18,
+  "story": 17
  },
- "ai_last_error": "12:31 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "12:43 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-31",
   "models": [
@@ -8150,11 +8149,11 @@
  },
  "img_diag": {
   "date": "2026-10-31",
-  "tried": 15,
+  "tried": 16,
   "gemini": 0,
-  "pollinations": 7,
+  "pollinations": 8,
   "skip": 3,
-  "fail": 15,
+  "fail": 17,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 289
  },
@@ -8177,7 +8176,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-31",
-   "ok": 75,
+   "ok": 76,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8185,7 +8184,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-31",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8193,7 +8192,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-31",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8201,14 +8200,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8216,21 +8215,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-31",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8241,7 +8240,7 @@
   "last": "2026-10-30",
   "idx": 2
  },
- "ai_last_model": "google/gemma-4-26b-a4b-it:free",
+ "ai_last_model": "google/gemma-4-31b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8418,12 +8417,12 @@
   "date": "2026-10-31",
   "district": 0,
   "sindh": 4,
-  "pakistan": 10
+  "pakistan": 11
  },
  "report_acc": {
-  "posted": 0,
-  "found": 4,
-  "old": 4,
+  "posted": 1,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8457,16 +8456,18 @@
  "sindh_stream": {
   "date": "2026-10-31",
   "count": 3,
-  "last": 1793431266.8777282,
-  "city_i": 12,
-  "dry": 1793431374.5969636
+  "last": 1793432546.1187863,
+  "city_i": 16,
+  "dry": 1793432572.4412878
  },
  "gemini_day_dead": {
   "day": "2026-10-31",
   "models": [
    "gemini-3.8-flash",
    "gemini-3.7-flash",
-   "gemini-flash-latest"
+   "gemini-flash-latest",
+   "gemini-3.6-flash",
+   "gemini-3.5-flash"
   ]
  },
  "tg_done": [
@@ -9104,6 +9105,14 @@
    "t": 1793432000,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "f1deb39ec4ffed94",
+   "h": "ملڪ ۾ مهانگائي ۽ ٽماٽن جا اگهه وڌي ويا",
+   "x": "آج نيوز جي پڌري ڪيل هفتيوار مهانگائي رپورٽ موجب پاڪستان ۾ مهانگائي جي حوالي سان نوان تفصيل سامهون آيا آهن، جن ۾ ٽماٽن جون قيمتون وڌڻ ۽ ضروري شين جي اگهن جو جائزو ورتو ويو آهي. هي رپورٽ 31 آڪٽوبر 2026 تي منجھند 12:25 وڳي شايع ڪئي وئي. رپورٽ ۾ ٻڌايو ويو آهي ته مهانگائي جي هن هفتيوار رپورٽ ۾ عام واهپي جي شين جي اگهن ۾ تبديلين تي روشني وڌي وئي آهي، خاص طور تي ٽماٽن جون قيمتون وڌڻ ڪري عام ماڻهن کي مشڪلاتن کي منهن ڏيڻو پئجي رهيو آهي. هن رپورٽ جو مقصد عوام کي ملڪ ۾ ضروري شين ۽ کاڌ خوراک جي اگهن بابت آگاهه رکڻ آهي، جنهن ۾ پاڪستان جي موجوده مهانگائي جي صورتحال کي اجاگر ڪيو ويو آهي.",
+   "t": 1793432722,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9120,20 +9129,6 @@
   "last": 1793356878.054588
  },
  "tg_debug": [
-  {
-   "t": "10-31 06:52",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-31 07:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "10-31 07:10",
    "ok": true,
@@ -9399,47 +9394,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "10-31 12:41",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 12:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-10-31",
  "recent_posts": [
-  {
-   "t": 1793259360,
-   "h": "منجهند جون خبرون | خميس، 29 آڪٽوبر 2026",
-   "b": "1️⃣ حنا الطاف پاران عورتن جي آزادي تي سوال 2️⃣ ڪراچي: روڊ تي هنگامو ڪندڙ عورت پوليس تحويل ۾ 3️⃣ پاڪستان ۾",
-   "tt": [
-    "#29",
-    "اڪٽوبر",
-    "خبرون",
-    "خميس،",
-    "منجهند"
-   ],
-   "bt": [
-    "#29",
-    "ازادي",
-    "الطاف",
-    "اڪٽوبر",
-    "تائين",
-    "تحويل",
-    "حنا",
-    "خبرون",
-    "خميس،",
-    "روڊ",
-    "سوال",
-    "عورت",
-    "عورتن",
-    "قرضن",
-    "منجهند",
-    "هنگامو",
-    "وياج",
-    "ٽريلين",
-    "پاران",
-    "پاڪستان",
-    "پوليس",
-    "ڪراچي",
-    "ڪندڙ"
-   ]
-  },
   {
    "t": 1793260292,
    "h": "ڄامشورو: ڀان سيدآباد لڳ ڊوم وين ڪلٽي، ڪيترائي زخمي",
@@ -13759,6 +13731,53 @@
     "ڪوسل",
     "ڪيڏندا"
    ]
+  },
+  {
+   "t": 1793432722,
+   "h": "ملڪ ۾ مهانگائي ۽ ٽماٽن جا اگهه وڌي ويا",
+   "b": "آج نيوز جي پڌري ڪيل هفتيوار مهانگائي رپورٽ موجب پاڪستان ۾ مهانگائي جي حوالي سان نوان تفصيل سامهون آيا آهن، جن",
+   "tt": [
+    "اگهه",
+    "ملڪ",
+    "مهانگائي",
+    "وڌي",
+    "ٽماٽن"
+   ],
+   "bt": [
+    "#12",
+    "#25",
+    "#31",
+    "اهن،",
+    "اهي",
+    "ايا",
+    "اڪٽوبر",
+    "اگهن",
+    "اگهه",
+    "تفصيل",
+    "جائزو",
+    "حوالي",
+    "رپورٽ",
+    "سامهون",
+    "شايع",
+    "شين",
+    "ضروري",
+    "قيمتون",
+    "ملڪ",
+    "منجهند",
+    "مهانگائي",
+    "موجب",
+    "نوان",
+    "نيوز",
+    "هفتيوار",
+    "ورتو",
+    "وڌي",
+    "وڌڻ",
+    "وڳي",
+    "ٽماٽن",
+    "پاڪستان",
+    "پڌري",
+    "ڪيل"
+   ]
   }
  ],
  "repeat_log": [
@@ -13926,7 +13945,7 @@
  },
  "quality": {
   "date": "2026-10-31",
-  "editor_fixed": 11,
+  "editor_fixed": 12,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
