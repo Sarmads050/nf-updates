@@ -1629,7 +1629,8 @@
   "d513e5ba73003b57": 1793452892.0487068,
   "d27dbaa3b1c2503a": 1793454661.330893,
   "12b77effc6b7c49e": 1793455264.7119331,
-  "9ebeb587b661b9c3": 1793455875.3585985
+  "9ebeb587b661b9c3": 1793455875.3585985,
+  "db4752317e37a456": 1793457018.0862346
  },
  "pending": {},
  "queue": [],
@@ -2302,11 +2303,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-31 19:26",
+  "time": "2026-10-31 19:35",
   "items": 26,
   "sample": [
-   "South Africa 387/10 & 329/10 v Australia 111/10 & 429/10 *",
-   "Bangladesh 142/10 & 272/10 v West Indies 170/2 & 245/10 *",
+   "South Africa 387/10 & 329/10 v Australia 429/10 & 111/10 *",
+   "Bangladesh 272/10 & 142/10 v West Indies 170/2 & 245/10 *",
    "Tasmania 427/10 v New South Wales 174/8 *"
   ]
  },
@@ -7793,9 +7794,9 @@
  },
  "ai_usage": {
   "date": "2026-10-31",
-  "ok": 264,
-  "fail": 401,
-  "limit": 404
+  "ok": 266,
+  "fail": 403,
+  "limit": 406
  },
  "posted_heads": [
   {
@@ -8120,7 +8121,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-31 19:26",
+  "time": "2026-10-31 19:35",
   "steps": []
  },
  "roundup_am": "2026-10-31",
@@ -8228,7 +8229,7 @@
   "text": 24,
   "story": 21
  },
- "ai_last_error": "19:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "19:30 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-31",
   "models": [
@@ -8269,7 +8270,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-31",
-   "ok": 117,
+   "ok": 118,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8277,7 +8278,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-31",
-   "ok": 119,
+   "ok": 120,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8285,7 +8286,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-31",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8293,14 +8294,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8308,21 +8309,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-31",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8333,7 +8334,7 @@
   "last": "2026-10-30",
   "idx": 2
  },
- "ai_last_model": "google/gemma-4-26b-a4b-it:free",
+ "ai_last_model": "google/gemma-4-31b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8500,8 +8501,8 @@
  "sindh_stream": {
   "date": "2026-10-31",
   "count": 12,
-  "last": 1793455864.284204,
-  "city_i": 18,
+  "last": 1793457003.3936088,
+  "city_i": 22,
   "dry": 1793454064.355711
  },
  "gemini_day_dead": {
@@ -9144,20 +9145,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-31 16:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-31 16:15",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-31 16:20",
    "ok": true,
    "n": 0,
@@ -9418,6 +9405,20 @@
   },
   {
    "t": "10-31 19:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 19:29",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 19:35",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13773,11 +13774,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-29 10:31",
-   "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ واڌ",
-   "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ وڏو واڌارو"
-  },
-  {
    "t": "10-29 13:51",
    "new": "پاڪستان ۽ سری لنڪا ميچ جون ٽيمون سامهون",
    "old": "پاڪستان ۽ سری لنڪا جي وچ ۾ فائنل ميچ جو اسڪواڊ"
@@ -13921,6 +13917,11 @@
    "t": "10-31 15:02",
    "new": "پيٽرول اگهه برقرار، هاءِ اسپيڊ ڊيزل مهانگو",
    "old": "پيٽرول اگهه برقرار، ڊزل مهانگو"
+  },
+  {
+   "t": "10-31 19:30",
+   "new": "جکراڻي ڀائرن ۾ ٺاهه، ملڪيتن جو فيصلو 30 نومبر تي ٿيندو",
+   "old": "ملڪيت نه پر زيد جکراڻي جو موت تڪرار جو سبب آهي: سهيل انور سيال"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13941,6 +13942,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 10
- }
+  "repeat": 11
+ },
+ "_dup": true
 }
