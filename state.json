@@ -1,6 +1,5 @@
 {
  "seen": {
-  "24769abdc482289c": 1792805456.2795682,
   "470182854a195e19": 1792806674.2458012,
   "e60c09d4b0afc02b": 1792808487.004943,
   "609a9e02690679e1": 1792808487.0051742,
@@ -1558,7 +1557,8 @@
   "861264beade05d76": 1793408483.8198755,
   "29e0a543a51de502": 1793408483.8198779,
   "9f29e8e0b9f554e3": 1793409066.105491,
-  "c8197ace103314f6": 1793409066.1057086
+  "c8197ace103314f6": 1793409066.1057086,
+  "881365672af6e86e": 1793410873.8779573
  },
  "pending": {
   "culture2026-10-30": {
@@ -2209,7 +2209,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-31 06:30",
+  "time": "2026-10-31 06:41",
   "items": 22,
   "sample": [
    "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 296/10 & 112/10",
@@ -7644,9 +7644,9 @@
  },
  "ai_usage": {
   "date": "2026-10-31",
-  "ok": 65,
-  "fail": 112,
-  "limit": 112
+  "ok": 66,
+  "fail": 114,
+  "limit": 114
  },
  "posted_heads": [
   {
@@ -7971,7 +7971,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-31 06:30",
+  "time": "2026-10-31 06:41",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8079,7 +8079,7 @@
   "text": 7,
   "story": 6
  },
- "ai_last_error": "06:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "06:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-31",
   "models": [
@@ -8120,7 +8120,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-31",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8128,7 +8128,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-31",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8136,7 +8136,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-31",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8144,14 +8144,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8159,21 +8159,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-31",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8365,8 +8365,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 6,
-  "old": 6,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8401,8 +8401,8 @@
   "date": "2026-10-31",
   "count": 1,
   "last": 1793386883.6534767,
-  "city_i": 16,
-  "dry": 1793409061.5704973
+  "city_i": 20,
+  "dry": 1793410862.3498185
  },
  "gemini_day_dead": {
   "day": "2026-10-30",
@@ -9119,13 +9119,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-31 00:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-31 00:20",
    "ok": true,
    "n": 0,
@@ -9393,6 +9386,13 @@
   },
   {
    "t": "10-31 06:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 06:40",
    "ok": true,
    "n": 0,
    "ids": [],
