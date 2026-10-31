@@ -1571,7 +1571,10 @@
   "8455d2a54f65f697": 1793413881.7109103,
   "b40a68ae71230769": 1793415056.5464625,
   "32ad64a211f009a9": 1793415073.369529,
-  "add8c4d1edbc2f5a": 1793415081.2629898
+  "add8c4d1edbc2f5a": 1793415081.2629898,
+  "1d2ca34e86c9837e": 1793416869.40895,
+  "56f8322c0e19f33a": 1793416893.588473,
+  "5e40a2cb1215023b": 1793416904.1434247
  },
  "pending": {
   "culture2026-10-30": {
@@ -1692,7 +1695,7 @@
  "sindh_single": {
   "date": "2026-10-31",
   "count": 0,
-  "last": 1793366992.3844407,
+  "last": 1793416891.7708461,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1718,7 +1721,8 @@
    "361772a71df0a229",
    "5f13c17b5fd7d032",
    "5ff2b97aabfa2103",
-   "c36df74c7d2704eb"
+   "c36df74c7d2704eb",
+   "56f8322c0e19f33a"
   ]
  },
  "last_post_id": "1444130002106066_122115997767503839",
@@ -2219,7 +2223,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-31 08:10",
+  "time": "2026-10-31 08:21",
   "items": 22,
   "sample": [
    "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 296/10 & 112/10",
@@ -7654,9 +7658,9 @@
  },
  "ai_usage": {
   "date": "2026-10-31",
-  "ok": 86,
-  "fail": 150,
-  "limit": 150
+  "ok": 90,
+  "fail": 158,
+  "limit": 158
  },
  "posted_heads": [
   {
@@ -7981,7 +7985,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-31 08:10",
+  "time": "2026-10-31 08:21",
   "steps": []
  },
  "roundup_am": "2026-10-31",
@@ -8089,7 +8093,7 @@
   "text": 9,
   "story": 8
  },
- "ai_last_error": "08:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "08:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-31",
   "models": [
@@ -8130,7 +8134,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-31",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8138,7 +8142,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-31",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8146,7 +8150,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-31",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8154,14 +8158,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8169,21 +8173,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-31",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8375,8 +8379,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8411,8 +8415,8 @@
   "date": "2026-10-31",
   "count": 1,
   "last": 1793386883.6534767,
-  "city_i": 14,
-  "dry": 1793415064.6923897
+  "city_i": 18,
+  "dry": 1793416864.7462811
  },
  "gemini_day_dead": {
   "day": "2026-10-30",
@@ -9129,13 +9133,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-31 02:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-31 02:10",
    "ok": true,
    "n": 0,
@@ -9403,6 +9400,13 @@
   },
   {
    "t": "10-31 08:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 08:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14062,11 +14066,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-28 09:11",
-   "new": "حڪومت پيٽرول اگهه ۾ گهٽاتائي ڪئي",
-   "old": "حڪومت پاران پيٽرول سستو ۽ ڊيزل مهانگو"
-  },
-  {
    "t": "10-28 10:51",
    "new": "پاڻي جي فراهمي لاءِ 18 ارب ڊالرن جي سيڙپڪاري جو منصوبو",
    "old": "پاڪستان پاران پاڻي جي بهتري لاءِ 18 ارب ڊالرن جي گهر"
@@ -14210,6 +14209,11 @@
    "t": "10-31 03:31",
    "new": "ٽاءِ سيريز جي فائينل ۾ بهترين راند جي اميد آهي",
    "old": "پاڪستاني ڪرڪيٽ ٽيم اڃا پنهنجو بهترين سٺو نه کيڏيو آهي، هيسن"
+  },
+  {
+   "t": "10-31 08:21",
+   "new": "سنڌ | پيٹرول ۽ ڈیزل جون قيمتون جاري",
+   "old": "پيٽرول اگهه برقرار، ڊزل مهانگو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14230,6 +14234,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 1
- }
+  "repeat": 2
+ },
+ "_dup": true
 }
