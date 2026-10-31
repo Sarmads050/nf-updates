@@ -1,6 +1,5 @@
 {
  "seen": {
-  "1f8a7586ddd88df8": 1792810273.0045462,
   "f8e96e9eea2e0a25": 1792812097.4702356,
   "6c8dbc2b5c923cfc": 1792812112.9200814,
   "b3eed4a41389aa77": 1792812112.9200852,
@@ -1629,7 +1628,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-10-30",
-  "count": 4
+  "count": 5
  },
  "last_digest": "2026-10-30",
  "alert_day": "2026-10-20",
@@ -1722,7 +1721,7 @@
    "c36df74c7d2704eb"
   ]
  },
- "last_post_id": "1444130002106066_122115992067503839",
+ "last_post_id": "1444130002106066_122115997767503839",
  "shareable": [
   {
    "id": "1444130002106066_122115572889503839",
@@ -2220,7 +2219,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-31 07:51",
+  "time": "2026-10-31 08:01",
   "items": 22,
   "sample": [
    "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 296/10 & 112/10",
@@ -2235,8 +2234,8 @@
  },
  "all_posts": {
   "date": "2026-10-31",
-  "count": 11,
-  "last": 1793414058.5798395
+  "count": 12,
+  "last": 1793415699.2142076
  },
  "perf": {
   "posts": [
@@ -7655,9 +7654,9 @@
  },
  "ai_usage": {
   "date": "2026-10-31",
-  "ok": 84,
-  "fail": 146,
-  "limit": 146
+  "ok": 86,
+  "fail": 150,
+  "limit": 150
  },
  "posted_heads": [
   {
@@ -7982,10 +7981,10 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-31 07:51",
+  "time": "2026-10-31 08:01",
   "steps": []
  },
- "roundup_am": "2026-10-30",
+ "roundup_am": "2026-10-31",
  "group_shares": {
   "1": {
    "date": "2026-10-30",
@@ -8090,7 +8089,7 @@
   "text": 9,
   "story": 8
  },
- "ai_last_error": "07:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "08:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-31",
   "models": [
@@ -8131,7 +8130,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-31",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8139,7 +8138,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-31",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8147,7 +8146,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-31",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8155,14 +8154,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8170,21 +8169,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-31",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8371,18 +8370,18 @@
  "region_posts": {
   "date": "2026-10-31",
   "district": 0,
-  "sindh": 1,
+  "sindh": 2,
   "pakistan": 9
  },
  "report_acc": {
-  "posted": 1,
-  "found": 10,
-  "old": 10,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-10-31 07",
+ "report_hour": "2026-10-31 08",
  "kawish_upload_times": {
   "_date": "2026-10-31",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9130,13 +9129,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-31 01:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-31 01:50",
    "ok": true,
    "n": 0,
@@ -9408,62 +9400,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "10-31 08:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-10-31",
  "recent_posts": [
-  {
-   "t": 1793241980,
-   "h": "ڪڻڪ جو اگهه 4500 رپيا مقرر ڪرڻ جو مطالبو",
-   "b": "مارڪزي ڪسان ليگ جي چيئرمين چوڌري ذوالفقار علي اولک 28 آڪٽوبر 2026 تي لاهور ۾ پنجاب جي وزير اعليٰ مريم نواز",
-   "tt": [
-    "#4500",
-    "اگهه",
-    "رپيا",
-    "مطالبو",
-    "مقرر",
-    "ڪرڻ",
-    "ڪڻڪ"
-   ],
-   "bt": [
-    "#28",
-    "#4500",
-    "اعلانن",
-    "اعلي",
-    "انهن",
-    "اولڪ",
-    "اڪٽوبر",
-    "اگهه",
-    "بابت",
-    "بچاء",
-    "ترقي",
-    "درامد",
-    "ذوالفقار",
-    "رپيا",
-    "زرعي",
-    "ساراهيو",
-    "شريف",
-    "شعبو",
-    "علي",
-    "عمل",
-    "لاهور",
-    "ليگ",
-    "مارڪزي",
-    "مريم",
-    "مضبوط",
-    "مطالبو",
-    "مقرر",
-    "نواز",
-    "وزير",
-    "پاڻي",
-    "پنجاب",
-    "چوڌري",
-    "چيئرمين",
-    "ڪرڻ",
-    "ڪسان",
-    "ڪڻڪ"
-   ]
-  },
   {
    "t": 1793242920,
    "h": "صبح جون سنڌ جون اهم خبرون",
@@ -14078,6 +14025,38 @@
     "پارليامينٽ",
     "پيش",
     "گئس"
+   ]
+  },
+  {
+   "t": 1793415699,
+   "h": "صبح جون سنڌ جون اهم خبرون",
+   "b": "31 آڪٽوبر 2026 1️⃣ برطانيا ۾ پاڪستانين لاءِ موبائل رجسٽريشن جو اعلان برطانيا ۾ مقيم پاڪستانين کي سڃاڻپ",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "صبح"
+   ],
+   "bt": [
+    "#31",
+    "اعلان",
+    "اهم",
+    "اهي",
+    "اڪٽوبر",
+    "برطانيا",
+    "خبرون",
+    "دستاويزن",
+    "رجسٽريشن",
+    "سنڌ",
+    "سهولتون",
+    "سڃاڻپ",
+    "صبح",
+    "مقيم",
+    "موبائل",
+    "نادرا",
+    "پاڪستانين",
+    "ڊرائيو",
+    "ڏيڻ"
    ]
   }
  ],
