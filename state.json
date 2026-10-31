@@ -1573,7 +1573,17 @@
   "f73e5baca9a26a93": 1793399497.3133516,
   "8f3b864ed1b17bad": 1793399497.313529,
   "f7596781303d8ccf": 1793402460.0472918,
-  "52321d6cdef4e941": 1793402478.5464945
+  "52321d6cdef4e941": 1793402478.5464945,
+  "ad68727fa19e6886": 1793405470.5795264,
+  "d90f78acc03e830a": 1793405470.5795288,
+  "666a605ccd108845": 1793405470.5795302,
+  "84cc91637964d4c5": 1793405470.5795317,
+  "81954231cac505b0": 1793405470.5795326,
+  "e3e0dff7d103761a": 1793405470.5795333,
+  "7cc8079a0dd98067": 1793405470.579534,
+  "decab0b058e8cf6e": 1793405470.5795352,
+  "3485f54dc31eb335": 1793405470.5795364,
+  "6d67c6ae9fc561c1": 1793405470.5797794
  },
  "pending": {
   "culture2026-10-30": {
@@ -2224,7 +2234,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-31 05:01",
+  "time": "2026-10-31 05:11",
   "items": 22,
   "sample": [
    "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 296/10 & 112/10",
@@ -7595,9 +7605,9 @@
  },
  "ai_usage": {
   "date": "2026-10-31",
-  "ok": 48,
-  "fail": 82,
-  "limit": 82
+  "ok": 51,
+  "fail": 88,
+  "limit": 88
  },
  "posted_heads": [
   {
@@ -7922,7 +7932,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-31 05:01",
+  "time": "2026-10-31 05:11",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8025,12 +8035,12 @@
  },
  "article_diag": {
   "date": "2026-10-31",
-  "tried": 6,
+  "tried": 7,
   "decoded": 6,
   "text": 6,
   "story": 5
  },
- "ai_last_error": "04:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "05:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-31",
   "models": [
@@ -8071,7 +8081,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-31",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8079,7 +8089,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-31",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8087,7 +8097,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-31",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8095,14 +8105,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8110,21 +8120,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-31",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8316,8 +8326,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8352,8 +8362,8 @@
   "date": "2026-10-31",
   "count": 1,
   "last": 1793386883.6534767,
-  "city_i": 18,
-  "dry": 1793402469.9609618
+  "city_i": 22,
+  "dry": 1793405459.588453
  },
  "gemini_day_dead": {
   "day": "2026-10-30",
@@ -9078,13 +9088,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 22:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 23:00",
    "ok": true,
    "n": 0,
@@ -9352,6 +9355,13 @@
   },
   {
    "t": "10-31 05:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 05:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14250,7 +14260,7 @@
  "quality": {
   "date": "2026-10-31",
   "editor_fixed": 6,
-  "editor_rejected": 0,
+  "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
