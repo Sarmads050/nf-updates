@@ -2233,7 +2233,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-31 05:40",
+  "time": "2026-10-31 05:50",
   "items": 22,
   "sample": [
    "State Bank of Pakistan 172/10 & 185/10 * v Markhor IT Solutions 296/10 & 112/10",
@@ -4661,7 +4661,7 @@
   "last": 1793406792.3200276
  },
  "trends": {
-  "last": 1793396453.3358502,
+  "last": 1793407851.2655067,
   "terms": [
    {
     "term": "ufc",
@@ -7598,15 +7598,79 @@
     "t": 1793396453,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "oman vs afghanistan",
+    "traffic": 2000,
+    "news": "Live Cricket Score: Full Scorecard & Commentary",
+    "t": 1793407851,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "nokia 2360 flip",
+    "traffic": 100,
+    "news": "Nokia 2360 Flip offers family controls – but only works on 2G",
+    "t": 1793407851,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "reddit",
+    "traffic": 100,
+    "news": "Reddit Will Protect its \"Extremely Valuable Corpus of Data\" from Google's AI Search With Forced Logins",
+    "t": 1793407851,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "on",
+    "traffic": 100,
+    "news": "AI Dip-Buyers Gored as Selling Spasm Caps Third Week of Losses",
+    "t": 1793407851,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "car",
+    "traffic": 100,
+    "news": "ICE agent charged after ramming unmarked SUV into man in Texas",
+    "t": 1793407851,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "poland",
+    "traffic": 100,
+    "news": "Ruszą inwestycje? Jest na to szansa",
+    "t": 1793407851,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "d",
+    "traffic": 100,
+    "news": "Ballon d'Or 2026 LIVE: Winners, times & updates from ceremony in London",
+    "t": 1793407851,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "crypto exchange binance hacked",
+    "traffic": 10000,
+    "news": "The largest theft in history: North Korea likely behind the $6.4 billion Binance hack",
+    "t": 1793407851,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-10-31",
-  "ok": 58,
-  "fail": 100,
-  "limit": 100
+  "ok": 59,
+  "fail": 102,
+  "limit": 102
  },
  "posted_heads": [
   {
@@ -7931,7 +7995,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-31 05:40",
+  "time": "2026-10-31 05:50",
   "steps": []
  },
  "roundup_am": "2026-10-30",
@@ -8039,7 +8103,7 @@
   "text": 7,
   "story": 6
  },
- "ai_last_error": "05:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "05:50 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-31",
   "models": [
@@ -8080,7 +8144,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-31",
-   "ok": 36,
+   "ok": 37,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8088,7 +8152,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-31",
-   "ok": 36,
+   "ok": 37,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8096,7 +8160,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-31",
-   "ok": 36,
+   "ok": 37,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8104,14 +8168,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 36,
+   "ok": 37,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 36,
+   "ok": 37,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8119,21 +8183,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 36,
+   "ok": 37,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 36,
+   "ok": 37,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-31",
-   "ok": 36,
+   "ok": 37,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8325,8 +8389,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 8,
-  "old": 8,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9079,13 +9143,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-30 23:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-30 23:40",
    "ok": true,
    "n": 0,
@@ -9353,6 +9410,13 @@
   },
   {
    "t": "10-31 05:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 05:50",
    "ok": true,
    "n": 0,
    "ids": [],
