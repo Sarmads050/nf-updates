@@ -2314,10 +2314,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-31 21:45",
+  "time": "2026-10-31 21:55",
   "items": 22,
   "sample": [
-   "South Africa 387/10 & 329/10 v Australia 429/10 & 111/10 *",
+   "South Africa 329/10 & 387/10 v Australia 429/10 & 111/10 *",
    "Bangladesh 272/10 & 142/10 v West Indies 170/2 & 245/10 *",
    "Tasmania 427/10 v New South Wales 174/8 *"
   ]
@@ -8124,7 +8124,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-31 21:46",
+  "time": "2026-10-31 21:55",
   "steps": []
  },
  "roundup_am": "2026-10-31",
@@ -8273,7 +8273,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-31",
-   "ok": 131,
+   "ok": 132,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8281,7 +8281,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-31",
-   "ok": 134,
+   "ok": 135,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8289,7 +8289,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-31",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8297,14 +8297,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8312,21 +8312,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-31",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8469,8 +8469,8 @@
  },
  "report_acc": {
   "posted": 3,
-  "found": 8,
-  "old": 8,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9133,20 +9133,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-31 18:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-31 18:46",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-31 18:50",
    "ok": true,
    "n": 0,
@@ -9407,6 +9393,20 @@
   },
   {
    "t": "10-31 21:45",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 21:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 21:55",
    "ok": true,
    "n": 0,
    "ids": [],
