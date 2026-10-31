@@ -1,6 +1,5 @@
 {
  "seen": {
-  "ab9f8f3b65c836d0": 1792824067.2134814,
   "31548146d5e83b38": 1792826824.9945245,
   "491b51248eb938d5": 1792826824.9945264,
   "c64a8465c880a363": 1792826824.9945285,
@@ -1587,7 +1586,8 @@
   "a1ce778ef6a73d6e": 1793428270.7722218,
   "e90b053f0f9a0d12": 1793428270.7722263,
   "92564ea03b9d0e9f": 1793428867.73835,
-  "bfe3e200fc79167a": 1793428867.7384763
+  "bfe3e200fc79167a": 1793428867.7384763,
+  "612e5712ad91848a": 1793429470.4770777
  },
  "pending": {},
  "queue": [],
@@ -1689,7 +1689,7 @@
    "56f8322c0e19f33a"
   ]
  },
- "last_post_id": "1444130002106066_122116043625503839",
+ "last_post_id": "1444130002106066_122116050459503839",
  "shareable": [
   {
    "id": "1444130002106066_122115580791503839",
@@ -2189,9 +2189,9 @@
   "httpwwwcricinfocomcienginematch1559208htmlcmpotcrss": {
    "post": "1444130002106066_122116043625503839",
    "wkts": {
-    "Hong Kong|1": 1
+    "Hong Kong|1": 3
    },
-   "wicket_posts": 0,
+   "wicket_posts": 1,
    "break_done": false,
    "last_edit": 1793428293.8361945,
    "batting": "Hong Kong",
@@ -2209,12 +2209,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-10-31 11:46",
+  "time": "2026-10-31 11:56",
   "items": 26,
   "sample": [
    "South Africa 329/10 & 387/10 * v Australia 429/10",
-   "South Australia 154/10 & 316/10 * v Western Australia 169/10 & 406/5",
-   "Bangladesh 272/10 & 142/10 v West Indies 245/10 & 54 *"
+   "South Australia 154/10 & 316/10 * v Western Australia 406/5 & 169/10",
+   "Bangladesh 142/10 & 272/10 v West Indies 64 & 245/10 *"
   ]
  },
  "agri_news": {
@@ -2224,8 +2224,8 @@
  },
  "all_posts": {
   "date": "2026-10-31",
-  "count": 16,
-  "last": 1793428293.8347433
+  "count": 17,
+  "last": 1793429797.8499155
  },
  "perf": {
   "posts": [
@@ -7652,9 +7652,9 @@
  },
  "ai_usage": {
   "date": "2026-10-31",
-  "ok": 134,
-  "fail": 246,
-  "limit": 246
+  "ok": 138,
+  "fail": 254,
+  "limit": 254
  },
  "posted_heads": [
   {
@@ -7979,7 +7979,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-10-31 11:46",
+  "time": "2026-10-31 11:56",
   "steps": []
  },
  "roundup_am": "2026-10-31",
@@ -8082,12 +8082,12 @@
  },
  "article_diag": {
   "date": "2026-10-31",
-  "tried": 17,
-  "decoded": 16,
-  "text": 15,
-  "story": 14
+  "tried": 18,
+  "decoded": 17,
+  "text": 16,
+  "story": 15
  },
- "ai_last_error": "11:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "11:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-10-31",
   "models": [
@@ -8128,7 +8128,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-10-31",
-   "ok": 70,
+   "ok": 71,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8136,7 +8136,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-10-31",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8144,7 +8144,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-10-31",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8152,14 +8152,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8167,21 +8167,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-10-31",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-10-31",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-10-31",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8372,9 +8372,9 @@
   "pakistan": 9
  },
  "report_acc": {
-  "posted": 2,
-  "found": 8,
-  "old": 8,
+  "posted": 3,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8409,8 +8409,8 @@
   "date": "2026-10-31",
   "count": 3,
   "last": 1793428268.7724867,
-  "city_i": 4,
-  "dry": 1793427062.0117753
+  "city_i": 8,
+  "dry": 1793429459.235596
  },
  "gemini_day_dead": {
   "day": "2026-10-30",
@@ -9089,20 +9089,6 @@
  },
  "tg_debug": [
   {
-   "t": "10-31 05:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "10-31 05:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "10-31 06:00",
    "ok": true,
    "n": 0,
@@ -9367,64 +9353,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "10-31 11:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "10-31 11:56",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-10-31",
  "recent_posts": [
-  {
-   "t": 1793256094,
-   "h": "ڪراچي ۾ روڊ تي هنگامو ڪندڙ عورت پوليس تحويل ۾",
-   "b": "ڪراچي ۾ رڪشي جي ڪار سان ٽڪر کانپوءِ ڪار سوار عورت ڪاوڙ ۾ اچي روڊ تي هنگامو ڪري ڏنو، گاڏين کي نقصان پهچائڻ ۽",
-   "tt": [
-    "تحويل",
-    "روڊ",
-    "عورت",
-    "هنگامو",
-    "پوليس",
-    "ڪراچي",
-    "ڪندڙ"
-   ],
-   "bt": [
-    "ازالو",
-    "اچي",
-    "تحويل",
-    "خاطري",
-    "روڊ",
-    "روڪڻ",
-    "رڪشي",
-    "سندس",
-    "سوار",
-    "سوشل",
-    "عورت",
-    "متاثرن",
-    "معافي",
-    "منتقل",
-    "ميڊيا",
-    "نقصان",
-    "هنگامو",
-    "وائرل",
-    "وارثن",
-    "واقعي",
-    "وٺي",
-    "وڊيو",
-    "ٽريفڪ",
-    "ٽڪر",
-    "پهچائڻ",
-    "پوليس",
-    "ٿاڻي",
-    "ڏنو،",
-    "ڪار",
-    "ڪانپوء",
-    "ڪاوڙ",
-    "ڪرائي",
-    "ڪراچي",
-    "ڪرڻ",
-    "ڪندڙ",
-    "ڪيو،",
-    "گاڏين",
-    "گهرڻ"
-   ]
-  },
   {
    "t": 1793258449,
    "h": "ڪراچي: اداڪارا حنا الطاف پاران پاڪستان ۾ عورتن جي آزادي بابت اهم سوال",
@@ -13779,6 +13725,33 @@
     "پوسٽ",
     "ڪانگ"
    ]
+  },
+  {
+   "t": 1793429797,
+   "h": "وڪيٽ! هانگ ڪانگ جو رانديگر آئوٽ، 3 وڪيٽون ڪري پيون",
+   "b": "هاڻوڪو اسڪور: هانگ ڪانگ 100/3 🏏 پاڪستان",
+   "tt": [
+    "ائوٽ،",
+    "رانديگر",
+    "هانگ",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پيون",
+    "ڪانگ"
+   ],
+   "bt": [
+    "#100",
+    "ائوٽ،",
+    "اسڪور",
+    "رانديگر",
+    "هانگ",
+    "هاڻوڪو",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پاڪستان",
+    "پيون",
+    "ڪانگ"
+   ]
   }
  ],
  "repeat_log": [
@@ -13947,11 +13920,10 @@
  "quality": {
   "date": "2026-10-31",
   "editor_fixed": 11,
-  "editor_rejected": 1,
+  "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
   "repeat": 8
- },
- "_dup": true
+ }
 }
