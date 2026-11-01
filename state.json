@@ -2274,7 +2274,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 00:40",
+  "time": "2026-11-02 00:50",
   "items": 32,
   "sample": [
    "New Zealand A 218/3 * v India A 346/10",
@@ -4702,88 +4702,8 @@
   "last": 1793530360.3447459
  },
  "trends": {
-  "last": 1793551275.695146,
+  "last": 1793562652.3515341,
   "terms": [
-   {
-    "term": "earthquake",
-    "traffic": 200,
-    "news": "Xi orders all-out rescue work in Xizang",
-    "t": 1792950733,
-    "cat": "weather_disaster",
-    "sindh": false
-   },
-   {
-    "term": "php",
-    "traffic": 500,
-    "news": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
-    "t": 1792950733,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "lecce vs juventus",
-    "traffic": 200,
-    "news": "Official Juventus team to face Lecce – Woltemade and Muani start",
-    "t": 1792950733,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "el clasico 2026",
-    "traffic": 100,
-    "news": "Movistar LaLiga TV EN DIRECTO — dónde televisan el clásico FC Barcelona — Real Madrid por Orange TV y Movistar Plus Online",
-    "t": 1792950733,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "odi ranking",
-    "traffic": 100,
-    "news": "2027 ODI World Cup: England Slip in ODI Rankings, but Qualification Remains Safe",
-    "t": 1792950733,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "sunderland vs leeds",
-    "traffic": 200,
-    "news": ">WATCHLIVE!*SUN vs LEE Li𝚟e STR𝚎AM Fr𝚎e 25 october 2026",
-    "t": 1792950733,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "storm boelo weather warnings",
-    "traffic": 200,
-    "news": "Met Office hour-by-hour forecast for Leeds as Storm Boelo weather warning in force",
-    "t": 1792950733,
-    "cat": "weather_disaster",
-    "sindh": false
-   },
-   {
-    "term": "شاداب خان",
-    "traffic": 200,
-    "news": "",
-    "t": 1792950733,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "liverpool f.c. vs brighton & hove albion f.c. standings",
-    "traffic": 500,
-    "news": "Team news: Confirmed Liverpool line-up v Brighton & Hove Albion",
-    "t": 1792950733,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "espncricinfo",
-    "traffic": 1000,
-    "news": "Nepal League Accuses Mohsin Naqvi's PCB Of Demanding $25,000 Each For Pakistani Players' NoCs",
-    "t": 1792950733,
-    "cat": "cricket",
-    "sindh": false
-   },
    {
     "term": "bein sports",
     "traffic": 100,
@@ -7791,15 +7711,63 @@
     "t": 1793551276,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "juventus vs napoli",
+    "traffic": 200,
+    "news": "Luciano Spalletti's press conference ahead of Juventus-Napoli",
+    "t": 1793562652,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "elche vs valencia",
+    "traffic": 100,
+    "news": "(LIVE@STREAMs@Soccer-2026!)* Elche vS Valencia 𝐋ＩＶＥ Ｆｒｅｅ Ｓｔｒｅａｍｓ",
+    "t": 1793562652,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "srk",
+    "traffic": 100,
+    "news": "Shah Rukh Khan’s King Poster Hits Fan Frenzy: How A 1999 Baadshah Line Came Full Circle Ahead Of Christmas 2026!",
+    "t": 1793562652,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "pia boeing 787 9",
+    "traffic": 5000,
+    "news": "PIA welcomes its first Boeing 787-9 Dreamliner in Islamabad",
+    "t": 1793562652,
+    "cat": "transport_trade",
+    "sindh": false
+   },
+   {
+    "term": "arsenal vs liverpool",
+    "traffic": 500,
+    "news": "Why Noni Madueke wasn’t sent off after headbutt on Alexis Mac Allister",
+    "t": 1793562652,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "real madrid fc",
+    "traffic": 200,
+    "news": "Mbappe, Bellingham, Diomande on target as Real Madrid follow up Clasico with 3-0 win",
+    "t": 1793562652,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
-  "date": "2026-11-01",
-  "ok": 253,
-  "fail": 414,
-  "limit": 413
+  "date": "2026-11-02",
+  "ok": 1,
+  "fail": 2,
+  "limit": 2
  },
  "posted_heads": [
   {
@@ -8124,7 +8092,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 00:40",
+  "time": "2026-11-02 00:50",
   "steps": []
  },
  "roundup_am": "2026-11-01",
@@ -8232,9 +8200,9 @@
   "text": 25,
   "story": 20
  },
- "ai_last_error": "23:54 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "00:50 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "models": [
    "gemini-flash-latest",
    "gemini-flash-lite-latest",
@@ -8273,7 +8241,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8281,7 +8249,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
-   "ok": 4,
+   "ok": 5,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8289,7 +8257,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
-   "ok": 4,
+   "ok": 5,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8297,14 +8265,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8312,21 +8280,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8469,8 +8437,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 20,
-  "old": 20,
+  "found": 25,
+  "old": 25,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9057,13 +9025,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-01 19:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-01 19:46",
    "ok": true,
    "n": 0,
@@ -9331,6 +9292,13 @@
   },
   {
    "t": "11-02 00:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-02 00:50",
    "ok": true,
    "n": 0,
    "ids": [],
