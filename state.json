@@ -1640,7 +1640,8 @@
   "27839ef13ff6ea3c": 1793544066.100171,
   "6b3fe3cdc8a23e3d": 1793545263.0864816,
   "5ce237b649c5a67c": 1793545263.0866544,
-  "d4edc77a831a17b1": 1793545861.9951148
+  "d4edc77a831a17b1": 1793545861.9951148,
+  "10b0a47e463fd0d0": 1793547075.4359398
  },
  "pending": {},
  "queue": [],
@@ -1762,20 +1763,8 @@
    "6641e9263cc494b5"
   ]
  },
- "last_post_id": "1444130002106066_122116532451503839",
+ "last_post_id": "1444130002106066_122116537713503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122116110141503839",
-   "title": "سنڌ ۾ بلدياتي سهولتن لاءِ عالمي بئنڪ پاران 15 ڪروڙ ڊالر منظور",
-   "t": 1793443467.480579,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122116110141503839"
-  },
   {
    "id": "1444130002106066_122116116903503839",
    "title": "طبي مسئلن سبب شاداب خان پاڪستان ۽ سری لنڪا وچ ۾ ٿيندڙ فائنل ميچ کان ٻاهر ٿي ويو آهي",
@@ -2081,6 +2070,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122116532451503839"
+  },
+  {
+   "id": "1444130002106066_122116537713503839",
+   "title": "بائنانس چوري ٿيل رقم مان 90 سيڪڙو نقصان جو ازالو ڪري ڇڏيو",
+   "t": 1793547191.1350448,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122116537713503839"
   }
  ],
  "share_sent": {
@@ -2291,7 +2292,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-01 20:25",
+  "time": "2026-11-01 20:38",
   "items": 19,
   "sample": [
    "New Zealand A 218/3 * v India A 346/10",
@@ -2306,17 +2307,11 @@
  },
  "all_posts": {
   "date": "2026-11-01",
-  "count": 29,
-  "last": 1793545979.0048325
+  "count": 30,
+  "last": 1793547180.7459133
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122112153789503839",
-    "sec": "agri_news",
-    "cat": "agri_news",
-    "t": 1792665737
-   },
    {
     "id": "1444130002106066_122112163923503839",
     "sec": "sindh_stream",
@@ -4710,6 +4705,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1793545987
+   },
+   {
+    "id": "1444130002106066_122116537713503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1793547191
    }
   ]
  },
@@ -7814,15 +7815,11 @@
  },
  "ai_usage": {
   "date": "2026-11-01",
-  "ok": 206,
-  "fail": 335,
-  "limit": 334
+  "ok": 211,
+  "fail": 343,
+  "limit": 342
  },
  "posted_heads": [
-  {
-   "h": "Lahore ranks world’s most polluted major city as Punjab battles poor air quality",
-   "t": 1793305387
-  },
   {
    "h": "Petrol price to remain unchanged, diesel rises by Re0.85 per litre",
    "t": 1793308328
@@ -8138,10 +8135,14 @@
   {
    "h": "جناح اسپتال ۾ لوڊشيڊنگ نه ٿيڻ باوجود ٽن مهينن ۾ ڊيزل تي 52 لک رپيا خرچن جو انڪشاف",
    "t": 1793545987
+  },
+  {
+   "h": "بائنانس چوري ٿيل رقم مان 90 سيڪڙو نقصان جو ازالو ڪري ڇڏيو، چور ڪير نڪتو؟",
+   "t": 1793547191
   }
  ],
  "last_errors": {
-  "time": "2026-11-01 20:26",
+  "time": "2026-11-01 20:38",
   "steps": []
  },
  "roundup_am": "2026-11-01",
@@ -8249,7 +8250,7 @@
   "text": 23,
   "story": 19
  },
- "ai_last_error": "20:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "20:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-01",
   "models": [
@@ -8263,13 +8264,13 @@
  },
  "img_diag": {
   "date": "2026-11-01",
-  "tried": 22,
+  "tried": 23,
   "gemini": 0,
   "pollinations": 10,
   "skip": 3,
-  "fail": 18,
-  "last_note": "hospital backup generator",
-  "mismatch": 310
+  "fail": 20,
+  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
+  "mismatch": 311
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -8290,15 +8291,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-01",
-   "ok": 117,
+   "ok": 118,
    "fail": 10,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-01",
-   "ok": 125,
+   "ok": 126,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8306,7 +8307,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-01",
-   "ok": 124,
+   "ok": 125,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8314,14 +8315,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8329,21 +8330,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-01",
-   "ok": 126,
+   "ok": 127,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8481,13 +8482,13 @@
  "region_posts": {
   "date": "2026-11-01",
   "district": 0,
-  "sindh": 7,
+  "sindh": 8,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 10,
-  "old": 10,
+  "posted": 2,
+  "found": 15,
+  "old": 15,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8521,9 +8522,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-01",
-  "count": 5,
-  "last": 1793545859.8136194,
-  "city_i": 14,
+  "count": 6,
+  "last": 1793547073.355137,
+  "city_i": 18,
   "dry": 1793545273.3851209
  },
  "gemini_day_dead": {
@@ -9003,6 +9004,14 @@
    "t": 1793545987,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "b9747114905a64d6",
+   "h": "بائنانس چوري ٿيل رقم مان 90 سيڪڙو نقصان جو ازالو ڪري ڇڏيو",
+   "x": "ڪرپٽو ڪرنسي جي ڏيتي ليتي واري ڪمپني بائنانس سائبر حملي دوران چوري ٿيل رقم مان 90 سيڪڙو رقم جي باضابطا طور واپسي ڪري ڇڏي آهي. پرڏيهي ميڊيا موجب، بائنانس سائبر حملي ۾ چوري ٿيل ڪُل 6 ارب 30 ڪروڙ ڊالرن مان 6 ارب ڊالرن جي واپسي ڪئي آهي، جيڪا ڪُل رقم جو 90 سيڪڙو ٿئي ٿي. بائنانس پنهنجي محفوظ رکيل رقم، مستقبل جي واپار لاءِ قائم ڪيل بيمي واري فنڊ ۽ ڪمپني جي خزاني مان رقم استعمال ڪري چوري ٿيل ڊجيٽل سڪا ٻيهر خريد ڪيا، ته جيئن گراهڪن کي ڪنهن به مالي نقصان کي منهن نه ڏيڻو پوي.",
+   "t": 1793547191,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9021,20 +9030,6 @@
   "last": 1793356878.054588
  },
  "tg_debug": [
-  {
-   "t": "11-01 17:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-01 17:26",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-01 17:30",
    "ok": true,
@@ -9296,6 +9291,20 @@
   },
   {
    "t": "11-01 20:25",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-01 20:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-01 20:38",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -12709,6 +12718,58 @@
     "ڪان",
     "ڪراچي"
    ]
+  },
+  {
+   "t": 1793547191,
+   "h": "بائنانس چوري ٿيل رقم مان 90 سيڪڙو نقصان جو ازالو ڪري ڇڏيو",
+   "b": "ڪرپٽو ڪرنسي جي ڏيتي ليتي واري ڪمپني بائنانس سائبر حملي دوران چوري ٿيل رقم مان 90 سيڪڙو رقم جي باضابطا طور",
+   "tt": [
+    "#90",
+    "ازالو",
+    "بائنانس",
+    "رقم",
+    "سيڪڙو",
+    "مان",
+    "نقصان",
+    "ٿيل",
+    "چوري",
+    "ڇڏيو"
+   ],
+   "bt": [
+    "#30",
+    "#90",
+    "ارب",
+    "ازالو",
+    "اهي",
+    "اهي،",
+    "بائنانس",
+    "باضابطا",
+    "جيڪا",
+    "حملي",
+    "دوران",
+    "رقم",
+    "سائبر",
+    "سيڪڙو",
+    "طور",
+    "ليتي",
+    "مان",
+    "موجب،",
+    "ميڊيا",
+    "نقصان",
+    "واپسي",
+    "پرڏيهي",
+    "ٿئي",
+    "ٿيل",
+    "چوري",
+    "ڇڏي",
+    "ڇڏيو",
+    "ڊالرن",
+    "ڏيتي",
+    "ڪرنسي",
+    "ڪروڙ",
+    "ڪرپٽو",
+    "ڪمپني"
+   ]
   }
  ],
  "repeat_log": [
@@ -12876,7 +12937,7 @@
  },
  "quality": {
   "date": "2026-11-01",
-  "editor_fixed": 12,
+  "editor_fixed": 13,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
