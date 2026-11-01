@@ -1642,7 +1642,8 @@
   "00a8575cb280cc37": 1793527292.5932853,
   "5a82277755c65782": 1793527292.5932882,
   "c15e823a8241efa4": 1793527292.5932903,
-  "f2636d20b0ced2d9": 1793527292.5934234
+  "f2636d20b0ced2d9": 1793527292.5934234,
+  "d708a47034e7d30f": 1793528471.7967544
  },
  "pending": {},
  "queue": [],
@@ -1714,7 +1715,7 @@
  "sindh_single": {
   "date": "2026-11-01",
   "count": 0,
-  "last": 1793520705.6340518,
+  "last": 1793528484.732087,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2278,10 +2279,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-01 15:16",
+  "time": "2026-11-01 15:26",
   "items": 22,
   "sample": [
-   "Tasmania 427/10 v New South Wales 144/10 & 202/10 *",
+   "Tasmania 427/10 v New South Wales 202/10 & 144/10 *",
    "New Zealand A 218/3 * v India A 346/10",
    "Queensland 202/5 * v Victoria 307/10"
   ]
@@ -7817,9 +7818,9 @@
  },
  "ai_usage": {
   "date": "2026-11-01",
-  "ok": 166,
-  "fail": 273,
-  "limit": 273
+  "ok": 168,
+  "fail": 277,
+  "limit": 277
  },
  "posted_heads": [
   {
@@ -8144,7 +8145,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-01 15:16",
+  "time": "2026-11-01 15:26",
   "steps": []
  },
  "roundup_am": "2026-11-01",
@@ -8252,7 +8253,7 @@
   "text": 22,
   "story": 19
  },
- "ai_last_error": "15:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "15:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-01",
   "models": [
@@ -8293,7 +8294,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-01",
-   "ok": 90,
+   "ok": 91,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8301,7 +8302,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-01",
-   "ok": 93,
+   "ok": 94,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8309,7 +8310,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-01",
-   "ok": 92,
+   "ok": 93,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8317,14 +8318,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8332,24 +8333,24 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-01",
-   "ok": 94,
+   "ok": 95,
    "fail": 1,
    "items": 15,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   }
  },
@@ -8489,8 +8490,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 5,
-  "old": 5,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8526,8 +8527,8 @@
   "date": "2026-11-01",
   "count": 3,
   "last": 1793521870.4227407,
-  "city_i": 10,
-  "dry": 1793527278.820888
+  "city_i": 14,
+  "dry": 1793528460.2434835
  },
  "gemini_day_dead": {
   "day": "2026-11-01",
@@ -9071,20 +9072,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-01 12:02",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-01 12:08",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-01 12:10",
    "ok": true,
    "n": 0,
@@ -9345,6 +9332,20 @@
   },
   {
    "t": "11-01 15:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-01 15:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-01 15:26",
    "ok": true,
    "n": 0,
    "ids": [],
