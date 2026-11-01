@@ -1,0 +1,514 @@
+{
+ "id": "ep008",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 8,
+ "title": "Aloo Kis Ne Churaya?",
+ "topic": "Sunday Sindhi biryani - one aloo goes missing from the degh",
+ "music": "comic",
+ "tempo": 1.15,
+ "lesson": "Bina bataye cheez lena achhi baat nahi<br>mil baant kar khao, mazaa dugna!",
+ "caption": "Itwaar ki Sindhi biryani mein ek aloo gayab ho gaya... aur mujrim nikla ghar ka wakeel! 🍛😂 Aap ke ghar mein biryani ka aloo kaun churata hai? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#SindhiBiryani",
+  "#PakistaniFamily",
+  "#UrduCartoon",
+  "#FamilyComedy"
+ ],
+ "scenes": [
+  {
+   "set": "kitchen",
+   "time": "day",
+   "label": "Kitchen • Itwaar Dopehar",
+   "cast": {
+    "AMMI": "stove",
+    "MEHAK": "mid"
+   },
+   "props": {
+    "AMMI": "ladle"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "shot": "wide",
+     "how": "warm storyteller, playful, mysterious at the end",
+     "roman": "Itwaar ki halki thandi dopehar... Nawabshah mein bani hai *Sindhi biryani*, aur hone wali hai ek *aloo ki chori*!",
+     "urdu": "اتوار کی ہلکی ٹھنڈی دوپہر... نواب شاہ میں بنی ہے سندھی بریانی، اور ہونے والی ہے ایک آلو کی چوری!",
+     "gap": 0.3
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "happy",
+     "shot": "close",
+     "how": "proud mother stirring the pot, cheerful",
+     "roman": "Mehak, biryani tayyar hai. Aloo gin lo, sab ko *do do aloo* milenge.",
+     "urdu": "مہک، بریانی تیار ہے۔ آلو گن لو، سب کو دو دو آلو ملیں گے۔",
+     "pose": "hold",
+     "react": {
+      "MEHAK": "happy"
+     },
+     "sfx": [
+      "pressure_cooker"
+     ]
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "proud",
+     "shot": "auto",
+     "how": "smart 14-year-old girl, confident, a little bossy",
+     "roman": "Ammi, main ne gin liye. Degh mein poore *das aloo* hain!",
+     "urdu": "امی، میں نے گن لیے۔ دیگ میں پورے دس آلو ہیں!",
+     "pose": "point_down",
+     "react": {
+      "AMMI": "happy"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "AMMI",
+     "emo": "happy",
+     "shot": "auto",
+     "how": "young man sniffing the air dreamily, hungry and charming",
+     "roman": "Waah, kya khushboo hai! Ammi, main zara *chakh* ke dekhta hoon?",
+     "urdu": "واہ، کیا خوشبو ہے! امی، میں ذرا چکھ کے دیکھتا ہوں؟",
+     "pose": "beckon",
+     "react": {
+      "AMMI": "angry",
+      "MEHAK": "teasing"
+     },
+     "before": [
+      {
+       "do": "enter",
+       "who": "DANIYAL",
+       "slot": "left"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      }
+     ]
+    },
+    {
+     "who": "AMMI",
+     "to": "DANIYAL",
+     "emo": "angry",
+     "shot": "auto",
+     "how": "strict loving mother, raising the ladle, firm",
+     "roman": "*Khabardar!* Pehle sab khayenge. Jao, Ada Imtiaz aur Arsalan ko *aangan* mein bulao!",
+     "urdu": "خبردار! پہلے سب کھائیں گے۔ جاؤ، اڈا امتیاز اور ارسلان کو آنگن میں بلاؤ!",
+     "pose": "wag",
+     "react": {
+      "DANIYAL": "sheepish"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "calm",
+     "shot": "auto",
+     "how": "calm, busy mother, practical",
+     "roman": "Chalo Mehak, hum bhi chal kar aangan mein *dastarkhwan* bichhate hain.",
+     "urdu": "چلو مہک، ہم بھی چل کر آنگن میں دسترخوان بچھاتے ہیں۔",
+     "pose": "beckon",
+     "react": {
+      "MEHAK": "happy"
+     },
+     "before": [
+      {
+       "do": "exit",
+       "who": "DANIYAL"
+      },
+      {
+       "do": "wait",
+       "sec": 0.3
+      }
+     ]
+    },
+    {
+     "who": "DANIYAL",
+     "to": "front",
+     "emo": "teasing",
+     "shot": "close",
+     "how": "sneaky whisper to the audience, mischievous, playful",
+     "roman": "Das mein se *ek aloo* kam ho gaya... to kis ko pata chalega?",
+     "urdu": "دس میں سے ایک آلو کم ہو گیا... تو کس کو پتہ چلے گا؟",
+     "pose": "hold",
+     "joke": true,
+     "gap": 0.6,
+     "before": [
+      {
+       "do": "exit",
+       "who": "AMMI"
+      },
+      {
+       "do": "exit",
+       "who": "MEHAK"
+      },
+      {
+       "do": "wait",
+       "sec": 0.5
+      },
+      {
+       "do": "enter",
+       "who": "DANIYAL",
+       "slot": "stove"
+      },
+      {
+       "do": "prop",
+       "who": "DANIYAL",
+       "prop": "plate"
+      }
+     ],
+     "sfx": [
+      "clink"
+     ]
+    }
+   ]
+  },
+  {
+   "set": "aangan",
+   "time": "day",
+   "label": "Aangan • Dhoop",
+   "cast": {
+    "IMTIAZ": "charpai_l",
+    "MEHAK": "charpai_c",
+    "ARSALAN": "charpai_r"
+   },
+   "props": {
+    "ARSALAN": "phone"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "shot": "wide",
+     "how": "warm storyteller, cosy",
+     "roman": "Aangan mein narm dhoop, charpai par sab... aur Ammi le aayin biryani ki *thaali*!",
+     "urdu": "آنگن میں نرم دھوپ، چارپائی پر سب... اور امی لے آئیں بریانی کی تھالی!",
+     "gap": 0.2,
+     "before": [
+      {
+       "do": "enter",
+       "who": "AMMI",
+       "slot": "stand_l"
+      },
+      {
+       "do": "prop",
+       "who": "AMMI",
+       "prop": "tray"
+      }
+     ]
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "AMMI",
+     "emo": "happy",
+     "shot": "auto",
+     "how": "tired elder brother suddenly cheerful, proud of his Chinese word",
+     "roman": "Waah Ammi! Chinese mein kehte hain *hao chi*... yaani bohot mazedaar!",
+     "urdu": "واہ امی! چائنیز میں کہتے ہیں ہاؤ چی... یعنی بہت مزیدار!",
+     "pose": "clap",
+     "react": {
+      "AMMI": "laugh",
+      "MEHAK": "laugh"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "IMTIAZ",
+     "emo": "warm",
+     "shot": "auto",
+     "how": "loving mother serving her son",
+     "roman": "Pehle kha to lo, Imtiaz! Yeh lo, tumhari plate mein *do aloo*.",
+     "urdu": "پہلے کھا تو لو، امتیاز! یہ لو، تمہاری پلیٹ میں دو آلو۔",
+     "react": {
+      "IMTIAZ": "happy"
+     },
+     "give": {
+      "to": "IMTIAZ",
+      "prop": "plate",
+      "at": 0.5
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "surprised",
+     "shot": "close",
+     "how": "shocked girl counting, voice rising",
+     "roman": "Ruko Ammi! Thaali mein to sirf *nau aloo* hain. Ek aloo *gayab* hai!",
+     "urdu": "رکو امی! تھالی میں تو صرف نو آلو ہیں۔ ایک آلو غائب ہے!",
+     "pose": "point_up",
+     "react": {
+      "*": "surprised"
+     },
+     "sfx": [
+      "sting"
+     ],
+     "gap": 0.4
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "shot": "auto",
+     "how": "lazy teen, defensive, quick",
+     "roman": "Mujhe mat dekhein, Ammi! Main to subah se yahin phone par *match* dekh raha hoon.",
+     "urdu": "مجھے مت دیکھیں، امی! میں تو صبح سے یہیں فون پر میچ دیکھ رہا ہوں۔",
+     "pose": "phone_look",
+     "react": {
+      "AMMI": "angry"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "AMMI",
+     "emo": "neutral",
+     "shot": "auto",
+     "how": "speaking with his mouth full of food, muffled and chewing, trying to act innocent",
+     "roman": "Kya hua? Itna *shor* kyun ho raha hai?",
+     "urdu": "کیا ہوا؟ اتنا شور کیوں ہو رہا ہے؟",
+     "pose": "shrug",
+     "react": {
+      "MEHAK": "confused"
+     },
+     "before": [
+      {
+       "do": "enter",
+       "who": "DANIYAL",
+       "slot": "stand_r"
+      }
+     ]
+    },
+    {
+     "who": "AMMI",
+     "to": "DANIYAL",
+     "emo": "angry",
+     "shot": "auto",
+     "how": "angry mother, hands on hips, sarcastic",
+     "roman": "Kitchen se *ek aloo* chori hua hai! Wakeel sahab, ab *mujrim* dhoondo!",
+     "urdu": "کچن سے ایک آلو چوری ہوا ہے! وکیل صاحب، اب مجرم ڈھونڈو!",
+     "pose": "hands_hips",
+     "react": {
+      "DANIYAL": "sheepish"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "AMMI",
+     "emo": "proud",
+     "shot": "auto",
+     "how": "still talking with his mouth full, muffled, overconfident",
+     "roman": "Fikar na karein, Ammi. Main abhi *mujrim* pakar leta hoon!",
+     "urdu": "فکر نہ کریں، امی۔ میں ابھی مجرم پکڑ لیتا ہوں!",
+     "pose": "chest",
+     "react": {
+      "MEHAK": "teasing"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "DANIYAL",
+     "emo": "teasing",
+     "shot": "auto",
+     "how": "clever little sister, slow and teasing, detective style",
+     "roman": "Pehle yeh batayein, Ada Daniyal... aap ka *moonh* kyun bhara hua hai?",
+     "urdu": "پہلے یہ بتائیں، اڈا دانیال... آپ کا منہ کیوں بھرا ہوا ہے؟",
+     "pose": "point_other",
+     "react": {
+      "*": "surprised",
+      "DANIYAL": "sheepish"
+     },
+     "gap": 0.4
+    },
+    {
+     "who": "DANIYAL",
+     "to": "MEHAK",
+     "emo": "sheepish",
+     "shot": "punch",
+     "how": "caught red-handed, panicking, overly dramatic courtroom voice",
+     "roman": "Woh... woh... *Objection!* Yeh sawal bilkul gair-zaroori hai!",
+     "urdu": "وہ... وہ... آبجیکشن! یہ سوال بالکل غیر ضروری ہے!",
+     "pose": "objection",
+     "joke": true,
+     "react": {
+      "*": "laugh"
+     },
+     "gap": 0.6
+    },
+    {
+     "who": "ARSALAN",
+     "to": "DANIYAL",
+     "emo": "laugh",
+     "shot": "auto",
+     "how": "teen laughing loudly, enjoying the moment",
+     "roman": "Waah! Is dafa to *wakeel sahab* khud pakre gaye!",
+     "urdu": "واہ! اس دفعہ تو وکیل صاحب خود پکڑے گئے!",
+     "pose": "point_other",
+     "joke": true,
+     "react": {
+      "*": "laugh",
+      "DANIYAL": "sheepish"
+     },
+     "gap": 0.6
+    }
+   ]
+  },
+  {
+   "set": "aangan",
+   "time": "day",
+   "label": "Aangan • Khane Ka Waqt",
+   "cast": {
+    "AMMI": "stand_l",
+    "IMTIAZ": "charpai_l",
+    "MEHAK": "charpai_c",
+    "ARSALAN": "charpai_r",
+    "DANIYAL": "stand_r"
+   },
+   "props": {
+    "AMMI": "tray",
+    "IMTIAZ": "plate",
+    "MEHAK": "plate",
+    "DANIYAL": "plate",
+    "ARSALAN": null
+   },
+   "lines": [
+    {
+     "who": "DANIYAL",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "shot": "close",
+     "how": "honest apology, soft, a little embarrassed",
+     "roman": "Sorry, Ammi. Khushboo itni achhi thi ke mujh se *ruka nahi* gaya.",
+     "urdu": "سوری، امی۔ خوشبو اتنی اچھی تھی کہ مجھ سے رکا نہیں گیا۔",
+     "pose": "plead",
+     "react": {
+      "AMMI": "calm"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "DANIYAL",
+     "emo": "warm",
+     "shot": "auto",
+     "how": "warm gentle mother, teaching kindly, not angry",
+     "roman": "Baat aloo ki nahi, beta. Bina bataye cheez lena *achhi baat nahi*.",
+     "urdu": "بات آلو کی نہیں، بیٹا۔ بنا بتائے چیز لینا اچھی بات نہیں۔",
+     "pose": "explain",
+     "react": {
+      "DANIYAL": "sheepish"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ARSALAN",
+     "emo": "proud",
+     "shot": "auto",
+     "how": "dramatic judge voice announcing a verdict, proud",
+     "roman": "Theek hai! Saza ke taur par mere hisse ka *ek aloo*... Arsalan ka!",
+     "urdu": "ٹھیک ہے! سزا کے طور پر میرے حصے کا ایک آلو... ارسلان کا!",
+     "react": {
+      "ARSALAN": "happy"
+     },
+     "give": {
+      "to": "ARSALAN",
+      "prop": "plate",
+      "at": 0.55
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "DANIYAL",
+     "emo": "happy",
+     "shot": "auto",
+     "how": "delighted teen, cheeky",
+     "roman": "Waah! Pehli dafa wakeel sahab ka *faisla* mere haq mein aaya hai!",
+     "urdu": "واہ! پہلی دفعہ وکیل صاحب کا فیصلہ میرے حق میں آیا ہے!",
+     "pose": "arms_up",
+     "joke": true,
+     "react": {
+      "*": "laugh"
+     },
+     "gap": 0.5
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "worried",
+     "shot": "auto",
+     "how": "caring little sister, a bit worried for her brother",
+     "roman": "Lekin Ammi, ab to Ada Daniyal ki plate mein *ek bhi aloo* nahi bacha.",
+     "urdu": "لیکن امی، اب تو اڈا دانیال کی پلیٹ میں ایک بھی آلو نہیں بچا۔",
+     "react": {
+      "AMMI": "teasing"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "teasing",
+     "shot": "close",
+     "how": "clever mother revealing her secret, smiling slyly",
+     "roman": "Fikar na karo. Main ne kitchen mein *teen aloo* alag chhupa ke rakhe the!",
+     "urdu": "فکر نہ کرو۔ میں نے کچن میں تین آلو الگ چھپا کے رکھے تھے!",
+     "pose": "point_up",
+     "react": {
+      "*": "surprised"
+     },
+     "sfx": [
+      "ding"
+     ],
+     "gap": 0.4
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "AMMI",
+     "emo": "laugh",
+     "shot": "auto",
+     "how": "elder son laughing, impressed",
+     "roman": "Ammi, aap ki planning to meri *Chinese company* se bhi achhi hai!",
+     "urdu": "امی، آپ کی پلاننگ تو میری چائنیز کمپنی سے بھی اچھی ہے!",
+     "pose": "clap",
+     "react": {
+      "AMMI": "proud"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "front",
+     "emo": "laugh",
+     "shot": "punch",
+     "how": "proud mother, playful and grand, then laughs",
+     "roman": "Is ghar mein wakeel to bohot hain... lekin *judge* sirf main hoon!",
+     "urdu": "اس گھر میں وکیل تو بہت ہیں... لیکن جج صرف میں ہوں!",
+     "pose": "chest",
+     "joke": true,
+     "react": {
+      "*": "laugh"
+     },
+     "gap": 0.7
+    },
+    {
+     "who": "DANIYAL",
+     "to": "front",
+     "emo": "laugh",
+     "shot": "group",
+     "how": "happy dramatic finish, laughing",
+     "roman": "Adalat *barkhast!* Ab sab mil kar biryani khayenge!",
+     "urdu": "عدالت برخاست! اب سب مل کر بریانی کھائیں گے!",
+     "pose": "arms_up",
+     "react": {
+      "*": "laugh"
+     },
+     "gap": 0.8
+    }
+   ]
+  }
+ ]
+}
