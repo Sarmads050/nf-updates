@@ -5,6 +5,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-005] (Sarmad, 2026-10-30) Kamar se neeche ka hissa real nahi lagta (patli seedhi taangein, gol joote, baithe huon ki god gaddi jaisi) — fix ready on branch `lower-v3` (kulhe, moti asli taangein, asli joote, shalwar ki silwatein, saaf god). Awaiting "han set kar do".
 - [K-006] (ep007, 2026-10-30) Desk par baithe Arsalan ke ghutne kaale gol dabbe lagte hain — desk/charpai par baithne ki pose behtar banana.
 - [K-007] (ep007, 2026-10-30) Bedroom close-up mein bolne wale ke saath wala character chhup jata hai — close-up frame thora chaura karna.
+- [K-008] (ep008, 2026-11-01) Plate/thaali mein khana (biryani, aloo) nazar nahi aata — "do aloo" ya "nau aloo" wali line par plate khaali si lagti hai — plate/tray prop mein biryani ka dher aur 2-3 aloo draw karna (aur "food" variant).
+- [K-009] (ep008, 2026-11-01) "Moonh bhara hua" (Daniyal line 13) sirf awaaz se pata chalta hai, chehre par chabane ki acting nahi — "chew" emotion add karna (phoole gaal + moonh band hil raha ho).
+- [K-010] (ep008, 2026-11-01) Aangan mein stand_r par khara character charpai_r wale ke aage aa jata hai aur group/two-shot mein use dhak deta hai — aangan ke stand_r slot ko thora right/peeche karna (x 910→960, foot 1700→1660).
+- [K-011] (ep008, 2026-11-01) Charpai par saath baithe log plate pakarte hain to ek ka baazu doosre ke kapron par aa jata hai (Imtiaz ka haath Mehak par) — baithe hue "hold" pose mein plate ko seene ke qareeb rakhna.
 
 ## APPROVED
 
