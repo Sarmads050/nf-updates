@@ -1,6 +1,5 @@
 {
  "seen": {
-  "8773654dd2e0ec9f": 1792969853.615932,
   "6581e2a7de4c6d57": 1792971074.7239769,
   "66035092031cd5ea": 1792971074.7239792,
   "e7d04b6233fbeeba": 1792971074.7242217,
@@ -1606,7 +1605,11 @@
   "064520db12bfcd55": 1793572339.1342046,
   "f6c5c30e23638755": 1793572339.1342056,
   "aa354c605ea5e1f1": 1793572339.1344166,
-  "4f303c7f4f1088ab": 1793572619.700512
+  "4f303c7f4f1088ab": 1793572619.700512,
+  "8e23cab483d5fd16": 1793575264.4282906,
+  "d5b68f36974abb86": 1793575264.4282925,
+  "63545b8e65a057c7": 1793575264.4282947,
+  "65dbfd13ef40d922": 1793575264.4282954
  },
  "pending": {},
  "queue": [],
@@ -2251,10 +2254,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 04:12",
+  "time": "2026-11-02 04:21",
   "items": 27,
   "sample": [
-   "New Zealand A 254/4 * v India A 346/10",
+   "New Zealand A 263/4 * v India A 346/10",
    "Queensland 202/5 * v Victoria 307/10",
    "Toronto Kings 162/1 * v Mississauga Skyhawks 161/5"
   ]
@@ -7726,9 +7729,9 @@
  },
  "ai_usage": {
   "date": "2026-11-02",
-  "ok": 30,
-  "fail": 54,
-  "limit": 54
+  "ok": 31,
+  "fail": 56,
+  "limit": 56
  },
  "posted_heads": [
   {
@@ -8053,7 +8056,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 04:12",
+  "time": "2026-11-02 04:21",
   "steps": []
  },
  "roundup_am": "2026-11-01",
@@ -8161,7 +8164,7 @@
   "text": 4,
   "story": 3
  },
- "ai_last_error": "03:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "04:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-02",
   "models": [
@@ -8202,7 +8205,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
-   "ok": 26,
+   "ok": 27,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8210,30 +8213,30 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
-   "ok": 24,
+   "ok": 25,
    "fail": 3,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
-   "ok": 24,
+   "ok": 25,
    "fail": 3,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 27,
+   "ok": 28,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 27,
+   "ok": 28,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8241,21 +8244,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 27,
+   "ok": 28,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 27,
+   "ok": 28,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 27,
+   "ok": 28,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8398,8 +8401,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 5,
-  "old": 5,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8436,8 +8439,8 @@
   "date": "2026-11-02",
   "count": 0,
   "last": 1793559267.8472693,
-  "city_i": 4,
-  "dry": 1793572328.4603953
+  "city_i": 8,
+  "dry": 1793575260.354895
  },
  "gemini_day_dead": {
   "day": "2026-11-01",
@@ -8978,13 +8981,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-01 22:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-01 22:10",
    "ok": true,
    "n": 0,
@@ -9252,6 +9248,13 @@
   },
   {
    "t": "11-02 04:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-02 04:20",
    "ok": true,
    "n": 0,
    "ids": [],
