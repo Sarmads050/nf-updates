@@ -1,6 +1,5 @@
 {
  "seen": {
-  "ae94e00cd53e6ef2": 1792901469.9494526,
   "bf468e3ebf3a631a": 1792903268.7726152,
   "9532b7025dc4581e": 1792903268.7726176,
   "ecdefd66471db5ed": 1792903268.7728074,
@@ -1655,7 +1654,9 @@
   "7c37fcc7864255a3": 1793501469.227011,
   "584b6d6ecb80fbee": 1793503280.8144786,
   "d59728bbd9ae5cdd": 1793503284.8840897,
-  "93f0b2327a4ed57a": 1793506279.114369
+  "93f0b2327a4ed57a": 1793506279.114369,
+  "4d4b8317d1b8da77": 1793506850.9652536,
+  "e563d802e235a337": 1793506879.9251854
  },
  "pending": {},
  "queue": [],
@@ -2288,12 +2289,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-01 09:11",
+  "time": "2026-11-01 09:21",
   "items": 23,
   "sample": [
-   "Tasmania 427/10 v New South Wales 108/7 & 202/10 *",
-   "New Zealand A 173/3 * v India A 346/10",
-   "Queensland 70/2 * v Victoria 307/10"
+   "Tasmania 427/10 v New South Wales 123/8 & 202/10 *",
+   "New Zealand A 176/3 * v India A 346/10",
+   "Queensland 80/2 * v Victoria 307/10"
   ]
  },
  "agri_news": {
@@ -4716,24 +4717,8 @@
   "last": 1793497921.3586812
  },
  "trends": {
-  "last": 1793496058.1734476,
+  "last": 1793506860.2887204,
   "terms": [
-   {
-    "term": "elclasico",
-    "traffic": 100,
-    "news": "Jose Mourinho’s Barcelona years: When Real Madrid’s manager was loved at the Camp Nou - The Athletic",
-    "t": 1792894854,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "chelsea f.c. vs tottenham standings",
-    "traffic": 5000,
-    "news": "Premier League - Chelsea v Tottenham Hotspur",
-    "t": 1792894854,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "uae vs ned",
     "traffic": 200,
@@ -7757,15 +7742,79 @@
     "t": 1793496058,
     "cat": "budget_tax_imf",
     "sindh": false
+   },
+   {
+    "term": "pak vs aus",
+    "traffic": 2000,
+    "news": "Sri Lanka secure berth in tri-series final after Madushanka bags match-winning five-for",
+    "t": 1793506860,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "ranking",
+    "traffic": 100,
+    "news": "Live CFP rankings predictions: Projecting first Playoff bracket as Week 9 reshapes race",
+    "t": 1793506860,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "hk vs sl",
+    "traffic": 2000,
+    "news": "SL vs HKC, 7th/8th Plate, Play-off, Hong Kong Sixes 2026 - Full Commentary",
+    "t": 1793506860,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "hong kong vs sri lanka",
+    "traffic": 20000,
+    "news": "OMA:93/1 (4.4) | Live Cricket Score | SL vs OMA | hk sixes 2026 | Cricket Scoreboard",
+    "t": 1793506860,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "aston villa vs fulham f.c. standings",
+    "traffic": 1000,
+    "news": "Arbeloa gives Barcelona a \"precious gift\"",
+    "t": 1793506860,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "bangladesh vs india",
+    "traffic": 20000,
+    "news": "Warrican’s five-wicket haul leads WI fightback against Bangladesh",
+    "t": 1793506860,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "sunrise",
+    "traffic": 200,
+    "news": "Daylight saving time ends Sunday. Here’s what to know as clocks ‘fall back.’",
+    "t": 1793506860,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "janhvi kapoor",
+    "traffic": 200,
+    "news": "Janhvi Kapoor Recreates Mom Sridevi's Iconic Nagina Look In Ivory Lehenga, Orry Steps Into Rishi Kapoor's S",
+    "t": 1793506860,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-01",
-  "ok": 90,
-  "fail": 158,
-  "limit": 158
+  "ok": 94,
+  "fail": 166,
+  "limit": 166
  },
  "posted_heads": [
   {
@@ -8090,7 +8139,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-01 09:11",
+  "time": "2026-11-01 09:21",
   "steps": []
  },
  "roundup_am": "2026-11-01",
@@ -8193,12 +8242,12 @@
  },
  "article_diag": {
   "date": "2026-11-01",
-  "tried": 14,
-  "decoded": 14,
-  "text": 13,
-  "story": 12
+  "tried": 15,
+  "decoded": 15,
+  "text": 14,
+  "story": 13
  },
- "ai_last_error": "09:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "09:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-01",
   "models": [
@@ -8239,7 +8288,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-01",
-   "ok": 55,
+   "ok": 56,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8247,7 +8296,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-01",
-   "ok": 57,
+   "ok": 58,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8255,7 +8304,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-01",
-   "ok": 56,
+   "ok": 57,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8263,14 +8312,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8278,21 +8327,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-01",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8435,8 +8484,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 5,
-  "old": 5,
+  "found": 11,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8472,8 +8521,8 @@
   "date": "2026-11-01",
   "count": 2,
   "last": 1793476871.5290406,
-  "city_i": 20,
-  "dry": 1793506268.8809972
+  "city_i": 24,
+  "dry": 1793506870.8109457
  },
  "gemini_day_dead": {
   "day": "2026-10-31",
@@ -9078,13 +9127,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-01 02:55",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-01 03:00",
    "ok": true,
    "n": 0,
@@ -9352,6 +9394,13 @@
   },
   {
    "t": "11-01 09:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-01 09:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13581,11 +13630,6 @@
  "repeat_log": [
   {
    "t": "10-30 00:01",
-   "new": "بابراعظم پاڪستان جو آخري سپر اسٽار آهي: وقار يونس",
-   "old": "بابر ۽ فخر جي حمایت جو اعلان"
-  },
-  {
-   "t": "10-30 00:01",
    "new": "ڊيزل جي قيمت ۾ معمولي واڌ، پيٽرول اڻبرقرار",
    "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ وڏو واڌارو"
   },
@@ -13728,6 +13772,11 @@
    "t": "11-01 03:41",
    "new": "پاڪستان ۾ سونهن جي اگهن ۾ وڏي لاٿ",
    "old": "پنجاب ۾ ڪڻڪ جو اگهه 4500 روپيا مقرر"
+  },
+  {
+   "t": "11-01 09:21",
+   "new": "فخر زمان پاڪستان لاءِ اهم ترين رانديگر آهي",
+   "old": "پاڪستان سريلنڪا کي شڪست ڏئي ٽه ملڪي سيريز کٽي ورتي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13748,6 +13797,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 5
- }
+  "repeat": 6
+ },
+ "_dup": true
 }
