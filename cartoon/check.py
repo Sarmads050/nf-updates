@@ -9,7 +9,7 @@ POSES = ["rest", "read", "head_hold", "beckon", "wag", "plead", "point_down", "f
          "think", "explain", "point_up", "tired", "give", "take"]
 SFX = ["whoosh", "door", "ding", "phone_ring", "notification", "clink", "pressure_cooker", "bat_hit", "sting", "boing", "crash", "knock",
        "baby_giggle", "tv", "rain", "bike", "light_on", "cash"]
-PROPS = ["cup", "phone", "newspaper", "remote", "bat", "book", "ladle", "plate", "bag", "toy", "tray", "money", None]
+PROPS = ["cup", "phone", "newspaper", "remote", "bat", "book", "ladle", "plate", "bag", "toy", "tray", "money", "biryani", "thaali", None]
 LOOKS = ["front", "down", "book", "phone", "up", "door", "*"]
 S.setK(0.2)
 ep = json.load(open(sys.argv[1], encoding="utf-8"))

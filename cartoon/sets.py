@@ -367,7 +367,7 @@ def aangan(time):
     slots = {
         "charpai_l": dict(x=380, kind="sofa", seat=1290, foot=1465, s=0.66), "charpai_r": dict(x=700, kind="sofa", seat=1290, foot=1465, s=0.66),
         "charpai_c": dict(x=540, kind="sofa", seat=1290, foot=1465, s=0.66),
-        "stand_l": dict(x=170, kind="stand", foot=1700, s=0.8), "stand_r": dict(x=910, kind="stand", foot=1700, s=0.8),
+        "stand_l": dict(x=170, kind="stand", foot=1700, s=0.8), "stand_r": dict(x=935, kind="stand", foot=1655, s=0.76),  # K-010: further right/back
         "stand_c": dict(x=540, kind="stand", foot=1760, s=0.82), "floor_l": dict(x=260, kind="stand", foot=1840, s=0.84),
         "floor_r": dict(x=820, kind="stand", foot=1840, s=0.84),
     }

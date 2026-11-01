@@ -83,6 +83,20 @@ CHARS = {
                      voice="Sadaltager", who="a warm, friendly storyteller narrating a family cartoon"),
 }
 
+def draw_food(d, q, cx, by, s, lw, n_aloo=3):
+    """K-008: biryani heap sitting on a plate/thaali whose top edge is at by (world units)"""
+    P = lambda *pts: [c for i in range(0, len(pts), 2) for c in q(pts[i], pts[i + 1])]
+    d.chord(P(cx - 58 * s, by - 46 * s, cx + 58 * s, by + 18 * s), 180, 360, fill=(246, 214, 140), outline=OUT, width=lw(3))  # rice
+    for k in range(9):  # saffron / masala grains
+        gx, gy = cx - 40 * s + (k * 37 % 80) * s, by - 30 * s + (k * 13 % 22) * s
+        d.ellipse(P(gx, gy, gx + 9 * s, gy + 5 * s), fill=(232, 140, 40) if k % 2 else (255, 250, 235))
+    d.ellipse(P(cx + 4 * s, by - 34 * s, cx + 34 * s, by - 14 * s), fill=(130, 70, 40), outline=OUT, width=lw(2))  # boti
+    for k in range(n_aloo):  # aloo
+        ax = cx - 46 * s + k * 30 * s
+        d.ellipse(P(ax, by - 24 * s, ax + 26 * s, by - 2 * s), fill=(236, 186, 70), outline=OUT, width=lw(2))
+        d.arc(P(ax + 5 * s, by - 20 * s, ax + 16 * s, by - 11 * s), 200, 300, fill=(255, 230, 150), width=lw(2))
+
+
 # ----------------------------------------------------------------- expressions
 EM = {  # (brow inner dy, outer dy), right brow override, eye open, smile, flags
     "neutral": ((0, 0), None, 1.0, 0.35, ""), "calm": ((-2, 0), None, 0.92, 0.5, ""),
@@ -93,6 +107,7 @@ EM = {  # (brow inner dy, outer dy), right brow override, eye open, smile, flags
     "angry": ((12, -6), None, 0.95, -0.6, ""), "tired": ((-4, 4), None, 0.55, 0.0, ""),
     "proud": ((-4, -6), None, 0.75, 0.75, ""), "confused": ((-14, 2), (6, -2), 1.0, -0.1, "smirk"),
     "sad": ((-14, 8), None, 0.8, -0.6, ""),
+    "chew": ((-3, -2), None, 0.8, 0.2, "chew"),  # K-009: mouth full, puffed cheeks
 }
 
 
@@ -313,7 +328,16 @@ class Toon:
         if c.get("facial") == "mustache":
             d.polygon(s(mx - 46, my - 6, mx - 30, my - 22, mx, my - 18, mx + 30, my - 22, mx + 46, my - 6, mx, my - 12), fill=c["fh_col"], outline=OUT)
         RED, TEETH, TONGUE = (112, 28, 40), (252, 252, 252), (222, 96, 106)
-        if "laugh" in fl:
+        if "chew" in fl:  # K-009: puffed cheeks, lips pressed, small chewing mouth
+            for sd in (-1, 1):
+                ccx = mx + sd * 58
+                d.ellipse(s(ccx - 34, my - 36, ccx + 34, my + 26), fill=shade(c["skin"], 1.04))
+                d.arc(s(ccx - 34, my - 36, ccx + 34, my + 26), (300 if sd > 0 else 90), (90 if sd > 0 else 240), fill=shade(c["skin"], 0.8), width=W(4))
+                d.ellipse(s(ccx - 16, my - 14, ccx + 16, my + 4), fill=(240, 140, 130))
+            h = [3, 6, 9, 12, 14, 16][q]
+            d.ellipse(s(mx - 15, my - 2, mx + 15, my + h), fill=RED, outline=OUT, width=W(4))
+            d.line(s(mx - 15, my + 2 + h / 2, mx + 15, my + 2 + h / 2), fill=shade(c["skin"], 0.75), width=W(3))
+        elif "laugh" in fl:
             h = 34 + q * 3
             d.chord(s(mx - 46, my - h * 0.6, mx + 46, my + h), 0, 180, fill=RED, outline=OUT, width=W(3))
             d.rectangle(s(mx - 34, my + 2, mx + 34, my + 11), fill=TEETH)
@@ -477,6 +501,9 @@ def draw_prop(d, name, q, hx, hy, s, t):
         d.ellipse(P(hx - 70 * s, hy - 26 * s, hx + 70 * s, hy + 6 * s), fill=(245, 245, 245), outline=OUT, width=lw(4))
         for k in range(3):
             d.ellipse(P(hx - 40 * s + k * 26 * s, hy - 30 * s, hx - 14 * s + k * 26 * s, hy - 12 * s), fill=(210, 150, 70))
+    elif name == "biryani":  # K-008: plate with biryani + 2 aloo
+        d.ellipse(P(hx - 70 * s, hy - 26 * s, hx + 70 * s, hy + 6 * s), fill=(245, 245, 245), outline=OUT, width=lw(4))
+        draw_food(d, q, hx, hy - 8 * s, s * 0.95, lw, n_aloo=2)
     elif name == "bag":
         d.rounded_rectangle(P(hx - 50 * s, hy, hx + 50 * s, hy + 90 * s), lw(10), fill=(150, 80, 120), outline=OUT, width=lw(4))
     elif name == "money":

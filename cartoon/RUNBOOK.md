@@ -73,10 +73,10 @@ Line fields:
   `how` (voice acting direction in English), `emo` (string or [[frac, emo], ...]), `pose` (string or [[frac, pose], ...]),
   `react` {CHAR or "*": emo}, optional `react_pose` {CHAR: pose}, `looks` {CHAR: target}, `shot`, `sfx` [names], `joke`, `gap` (sec after line),
   `before`/`after` actions, `offscreen`: true (voice from another room), `phone`: true (voice on phone, speaker may be absent).
-- emotions: neutral calm happy worried surprised teasing sheepish laugh warm focused angry tired proud confused sad
+- emotions: neutral calm happy worried surprised teasing sheepish laugh warm focused angry tired proud confused sad chew (mouth full, puffed cheeks)
 - poses: rest read head_hold beckon wag plead point_down fist point_other thumb_back arms_up chest wave hold newspaper phone_look
   hands_hips cross shrug facepalm scratch_head objection clap think explain point_up tired
-- props (hand): cup phone newspaper remote bat book ladle plate bag toy tray money
+- props (hand): cup phone newspaper remote bat book ladle plate biryani (plate with rice + aloo) bag toy tray (tea cups) thaali (biryani serving tray) money
 - shots: auto | wide | group | close | close:CHAR | punch | two | two:CHAR   (first line usually close on hook speaker; jokes = punch; end = group)
 - sfx: whoosh door ding phone_ring notification clink pressure_cooker bat_hit sting boing crash knock baby_giggle tv rain bike light_on cash
 - actions: {"do":"enter","who":C,"slot":S} {"do":"exit","who":C} {"do":"move","who":C,"slot":S} {"do":"prop","who":C,"prop":P}
