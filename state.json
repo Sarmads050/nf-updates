@@ -1,8 +1,5 @@
 {
  "seen": {
-  "b9ce9d67ded19ccb": 1792911798.4894965,
-  "554072a7c19f643c": 1792911798.489499,
-  "2eabd5b6788858da": 1792911798.4897504,
   "987b89fe8861f1fc": 1792912896.8339555,
   "0991d18c82f17d4c": 1792912896.8339589,
   "45bdc01fcc8fd0f2": 1792914050.5354705,
@@ -1665,7 +1662,7 @@
   "last_week": "",
   "last_check": "2026-11-01"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.8-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1750,7 +1747,7 @@
    "6641e9263cc494b5"
   ]
  },
- "last_post_id": "1444130002106066_122116406991503839",
+ "last_post_id": "1444130002106066_122116409751503839",
  "shareable": [
   {
    "id": "1444130002106066_122116063551503839",
@@ -2270,23 +2267,24 @@
   "httpwwwcricinfocomcienginematch1559215htmlcmpotcrss": {
    "post": "1444130002106066_122116400517503839",
    "wkts": {
-    "Pakistan|1": 4
+    "Pakistan|1": 4,
+    "Oman|1": 10
    },
    "wicket_posts": 3,
-   "break_done": false,
+   "break_done": true,
    "last_edit": 1793515288.200624,
-   "batting": "Pakistan",
+   "batting": "Oman",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-01 12:08",
+  "time": "2026-11-01 12:16",
   "items": 22,
   "sample": [
    "Tasmania 427/10 v New South Wales 202/10 & 144/10 *",
    "New Zealand A 218/3 * v India A 346/10",
-   "Queensland 187/5 * v Victoria 307/10"
+   "Queensland 188/5 * v Victoria 307/10"
   ]
  },
  "agri_news": {
@@ -2296,8 +2294,8 @@
  },
  "all_posts": {
   "date": "2026-11-01",
-  "count": 18,
-  "last": 1793516618.254179
+  "count": 19,
+  "last": 1793517505.0370216
  },
  "perf": {
   "posts": [
@@ -7804,8 +7802,8 @@
  },
  "ai_usage": {
   "date": "2026-11-01",
-  "ok": 123,
-  "fail": 216,
+  "ok": 125,
+  "fail": 220,
   "limit": 216
  },
  "posted_heads": [
@@ -8131,7 +8129,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-01 12:08",
+  "time": "2026-11-01 12:18",
   "steps": []
  },
  "roundup_am": "2026-11-01",
@@ -8239,7 +8237,7 @@
   "text": 18,
   "story": 16
  },
- "ai_last_error": "11:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "12:17 gemini-flash-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-01",
   "models": [
@@ -8253,13 +8251,13 @@
  },
  "img_diag": {
   "date": "2026-11-01",
-  "tried": 12,
+  "tried": 13,
   "gemini": 0,
   "pollinations": 6,
   "skip": 1,
-  "fail": 10,
-  "last_note": "industrial investment documents and blueprints",
-  "mismatch": 304
+  "fail": 12,
+  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
+  "mismatch": 305
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -8280,7 +8278,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-01",
-   "ok": 72,
+   "ok": 73,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8288,7 +8286,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-01",
-   "ok": 74,
+   "ok": 75,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8296,7 +8294,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-01",
-   "ok": 73,
+   "ok": 74,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8304,14 +8302,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8319,21 +8317,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-01",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8475,9 +8473,9 @@
   "pakistan": 9
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8517,14 +8515,8 @@
   "dry": 1793515870.8172636
  },
  "gemini_day_dead": {
-  "day": "2026-10-31",
-  "models": [
-   "gemini-3.8-flash",
-   "gemini-3.7-flash",
-   "gemini-flash-latest",
-   "gemini-3.6-flash",
-   "gemini-3.5-flash"
-  ]
+  "day": "2026-11-01",
+  "models": []
  },
  "tg_done": [
   92058696,
@@ -9073,20 +9065,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-01 06:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-01 06:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-01 06:40",
    "ok": true,
    "n": 0,
@@ -9351,27 +9329,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-01 12:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-01 12:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-01",
  "recent_posts": [
-  {
-   "t": 1793344556,
-   "h": "اننگز جو وقفو",
-   "b": "ڀارت 88/5 پاڪستان 13 🏏",
-   "tt": [
-    "اننگز",
-    "وقفو"
-   ],
-   "bt": [
-    "#13",
-    "#88",
-    "اننگز",
-    "وقفو",
-    "پاڪستان",
-    "ڀارت"
-   ]
-  },
   {
    "t": 1793344952,
    "h": "وڪيٽ! پاڪستان جو رانديگر آئوٽ، 2 وڪيٽون ڪري پيون",
@@ -13158,6 +13133,23 @@
     "وڪيٽون",
     "پاڪستان",
     "پيون"
+   ]
+  },
+  {
+   "t": 1793517505,
+   "h": "اننگز جو وقفو",
+   "b": "عمان 20 🏏 پاڪستان 154/4",
+   "tt": [
+    "اننگز",
+    "وقفو"
+   ],
+   "bt": [
+    "#154",
+    "#20",
+    "اننگز",
+    "عمان",
+    "وقفو",
+    "پاڪستان"
    ]
   }
  ],
