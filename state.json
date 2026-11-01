@@ -1636,7 +1636,8 @@
   "e992da753cbd474c": 1793530262.7896101,
   "57e1361dc544de9c": 1793530262.7897615,
   "a9b27a399bccb340": 1793535663.235101,
-  "e6772b3493bf9d34": 1793538069.0633307
+  "e6772b3493bf9d34": 1793538069.0633307,
+  "f515cfbe5548073e": 1793540480.4612856
  },
  "pending": {},
  "queue": [],
@@ -2276,7 +2277,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-01 18:36",
+  "time": "2026-11-01 18:46",
   "items": 20,
   "sample": [
    "New Zealand A 218/3 * v India A 346/10",
@@ -4704,64 +4705,8 @@
   "last": 1793530360.3447459
  },
  "trends": {
-  "last": 1793529064.1384242,
+  "last": 1793540463.992405,
   "terms": [
-   {
-    "term": "inter vs fiorentina",
-    "traffic": 200,
-    "news": "Internazionale vs Fiorentina – Prediction, Where to Watch, Kick-off Time and Lineups 25-10",
-    "t": 1792928694,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "videos video",
-    "traffic": 200,
-    "news": "YouTube is testing a new feature to personalize videos on the homepage",
-    "t": 1792928694,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "sam curran",
-    "traffic": 5000,
-    "news": "Taiwan warns of ‘destructive winds’ as typhoon batters island",
-    "t": 1792928694,
-    "cat": "weather_disaster",
-    "sindh": false
-   },
-   {
-    "term": "haris rauf",
-    "traffic": 2000,
-    "news": "Haris Rauf Explains Bowling Role Alongside Shaheen Afridi and Naseem Shah",
-    "t": 1792928694,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "cricket match",
-    "traffic": 100,
-    "news": "Taskin Ahmed calls Zimbabwe defeat a reality check for Bangladesh",
-    "t": 1792928694,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "live cricket",
-    "traffic": 10000,
-    "news": "Pakistan bring in fresh batting talent for Sri Lanka Tests",
-    "t": 1792928694,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "bears",
-    "traffic": 100,
-    "news": "Opinion: A Bears stadium deal must deliver more than a home for football",
-    "t": 1792928694,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "hull vs brentford",
     "traffic": 100,
@@ -7817,15 +7762,47 @@
     "t": 1793529064,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "getafe vs sevilla",
+    "traffic": 200,
+    "news": ">(+!LIVESTREAMs/FREE+)!Real Sevilla vs Getafe Live free online 1 November, 2026",
+    "t": 1793540464,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "hong kong sixes 2026 winner",
+    "traffic": 200,
+    "news": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
+    "t": 1793540464,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "como vs venezia",
+    "traffic": 200,
+    "news": "Venezia se concentra para salir del último lugar ante Como 1907",
+    "t": 1793540464,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "finn allen",
+    "traffic": 1000,
+    "news": "Arshdeep Singh to Jasprit Bumrah to Kuldeep Yadav: Indian bowlers with most wickets in T20I cricket",
+    "t": 1793540464,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-01",
-  "ok": 189,
-  "fail": 311,
-  "limit": 311
+  "ok": 193,
+  "fail": 317,
+  "limit": 316
  },
  "posted_heads": [
   {
@@ -8150,7 +8127,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-01 18:36",
+  "time": "2026-11-01 18:46",
   "steps": []
  },
  "roundup_am": "2026-11-01",
@@ -8258,7 +8235,7 @@
   "text": 23,
   "story": 19
  },
- "ai_last_error": "18:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "18:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-01",
   "models": [
@@ -8299,7 +8276,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-01",
-   "ok": 107,
+   "ok": 108,
    "fail": 8,
    "items": 10,
    "fail_streak": 0,
@@ -8307,7 +8284,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-01",
-   "ok": 113,
+   "ok": 114,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8315,7 +8292,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-01",
-   "ok": 112,
+   "ok": 113,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8323,14 +8300,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8338,21 +8315,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-01",
-   "ok": 114,
+   "ok": 115,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8363,7 +8340,7 @@
   "last": "2026-10-30",
   "idx": 2
  },
- "ai_last_model": "google/gemma-4-31b-it:free",
+ "ai_last_model": "google/gemma-4-26b-a4b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8495,8 +8472,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 15,
-  "old": 15,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8531,8 +8508,8 @@
  "sindh_stream": {
   "date": "2026-11-01",
   "count": 3,
-  "last": 1793521870.4227407,
-  "city_i": 8,
+  "last": 1793540478.3447115,
+  "city_i": 12,
   "dry": 1793539873.5344346
  },
  "gemini_day_dead": {
@@ -9071,20 +9048,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-01 15:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-01 15:26",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-01 15:30",
    "ok": true,
    "n": 0,
@@ -9345,6 +9308,20 @@
   },
   {
    "t": "11-01 18:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-01 18:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-01 18:46",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -12940,11 +12917,6 @@
  "repeat_log": [
   {
    "t": "10-30 00:11",
-   "new": "پاڪستان جي ڪاميابي جو اميدوار آھيان، مائيڪ ھيسن",
-   "old": "بابر ۽ فخر جي حمایت جو اعلان"
-  },
-  {
-   "t": "10-30 00:11",
    "new": "پاڪستان اسٽاڪ ايڪسچينج ۾ واڌ جو سلسلو جاري",
    "old": "اسٽاڪ ايڪسچينج ۾ زبردست تيزي، ڪي ايس اي 100 انڊيڪس ۾ واڌ"
   },
@@ -13087,6 +13059,11 @@
    "t": "11-01 11:41",
    "new": "اوپن مارڪيٽ ۾ ايل پي جي سرڪاري اگهه کان ٻهڻي",
    "old": "سنڌ | اوگرا پاران ايل پي جي جي قيمت ۾ واڌ"
+  },
+  {
+   "t": "11-01 18:41",
+   "new": "ايل پي جي اگهن ۾ واڌ جو امڪان، هڙتال جو اعلان",
+   "old": "ايل پي جي قيمتن ۾ وڏو تفاوت"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13107,6 +13084,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 8
- }
+  "repeat": 9
+ },
+ "_dup": true
 }
