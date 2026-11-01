@@ -1636,7 +1636,10 @@
   "b55a0adc2c9a9a05": 1793555485.112301,
   "4c9f55c026c8f039": 1793557269.72758,
   "30a7a14e821124df": 1793557269.727582,
-  "4f922aa0cba9a188": 1793557269.7275846
+  "4f922aa0cba9a188": 1793557269.7275846,
+  "b2f50381fe96bdd6": 1793559270.2906969,
+  "05e5fda3d5ce646b": 1793559270.290699,
+  "ed0bf53f9329f941": 1793559270.2907012
  },
  "pending": {},
  "queue": [],
@@ -1759,20 +1762,8 @@
    "b55a0adc2c9a9a05"
   ]
  },
- "last_post_id": "1444130002106066_122116578711503839",
+ "last_post_id": "1444130002106066_122116589265503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122116190433503839",
-   "title": "سنڌ جي وحدانيت تي ڪو به سمجهوتو نه ٿيندو: عامر نواز وڙائچ",
-   "t": 1793461411.078096,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122116190433503839"
-  },
   {
    "id": "1444130002106066_122116198143503839",
    "title": "هانگ ڪانگ سکسز ۾ پاڪستان جي فتح تي شهباز شريف جو ٽوئيٽ",
@@ -2079,6 +2070,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122116578711503839"
+  },
+  {
+   "id": "1444130002106066_122116589265503839",
+   "title": "نوابشاهه: ڪميونٽي اسڪور ڪارڊ ذريعي صحت، تعليم ۽ بلدياتي خدمتن جو جائزو",
+   "t": 1793559316.7393162,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122116589265503839"
   }
  ],
  "share_sent": {
@@ -2289,7 +2292,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-01 23:51",
+  "time": "2026-11-01 23:55",
   "items": 32,
   "sample": [
    "New Zealand A 218/3 * v India A 346/10",
@@ -2304,17 +2307,11 @@
  },
  "all_posts": {
   "date": "2026-11-01",
-  "count": 37,
-  "last": 1793557286.6990416
+  "count": 38,
+  "last": 1793559310.6602004
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122112247989503839",
-    "sec": "kawish",
-    "cat": "sindh",
-    "t": 1792678901
-   },
    {
     "id": "1444130002106066_122112285291503839",
     "sec": "kawish",
@@ -4708,6 +4705,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1793557294
+   },
+   {
+    "id": "1444130002106066_122116589265503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1793559316
    }
   ]
  },
@@ -7812,15 +7815,11 @@
  },
  "ai_usage": {
   "date": "2026-11-01",
-  "ok": 245,
-  "fail": 400,
-  "limit": 399
+  "ok": 253,
+  "fail": 414,
+  "limit": 413
  },
  "posted_heads": [
-  {
-   "h": "Minister calls for climate-resilient farming",
-   "t": 1793325174
-  },
   {
    "h": "FD’s update: Oct inflation projected to stay elevated at 9.5-10.5pc",
    "t": 1793327532
@@ -8136,10 +8135,14 @@
   {
    "h": "ڪراچي ۾ فائرنگ جا ٽي واقعا، پي آءِ اي جو انجنيئر مارجي ويو، ٻه ڄڻا زخمي",
    "t": 1793557294
+  },
+  {
+   "h": "Nawabshah Forum Assesses Health, Education And Municipal Services Through Community Scorecard - UrduPoint",
+   "t": 1793559316
   }
  ],
  "last_errors": {
-  "time": "2026-11-01 23:51",
+  "time": "2026-11-01 23:55",
   "steps": []
  },
  "roundup_am": "2026-11-01",
@@ -8242,12 +8245,12 @@
  },
  "article_diag": {
   "date": "2026-11-01",
-  "tried": 26,
-  "decoded": 25,
-  "text": 24,
+  "tried": 27,
+  "decoded": 26,
+  "text": 25,
   "story": 20
  },
- "ai_last_error": "23:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "23:54 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-01",
   "models": [
@@ -8261,9 +8264,9 @@
  },
  "img_diag": {
   "date": "2026-11-01",
-  "tried": 29,
+  "tried": 30,
   "gemini": 0,
-  "pollinations": 14,
+  "pollinations": 15,
   "skip": 5,
   "fail": 20,
   "last_note": "anti polio vaccine drops",
@@ -8288,7 +8291,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-01",
-   "ok": 136,
+   "ok": 137,
    "fail": 12,
    "items": 10,
    "fail_streak": 0,
@@ -8296,7 +8299,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-01",
-   "ok": 146,
+   "ok": 147,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8304,7 +8307,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-01",
-   "ok": 145,
+   "ok": 146,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8312,14 +8315,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 148,
+   "ok": 149,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 148,
+   "ok": 149,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8327,21 +8330,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 148,
+   "ok": 149,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 148,
+   "ok": 149,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-01",
-   "ok": 147,
+   "ok": 148,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8479,7 +8482,7 @@
  "region_posts": {
   "date": "2026-11-01",
   "district": 0,
-  "sindh": 14,
+  "sindh": 15,
   "pakistan": 15
  },
  "report_acc": {
@@ -8519,9 +8522,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-01",
-  "count": 11,
-  "last": 1793557267.3988569,
-  "city_i": 6,
+  "count": 12,
+  "last": 1793559267.8472693,
+  "city_i": 10,
   "dry": 1793559062.2433026
  },
  "gemini_day_dead": {
@@ -9049,6 +9052,14 @@
    "t": 1793557294,
    "s": true,
    "r": 0
+  },
+  {
+   "k": "a7684602a7f85a49",
+   "h": "نوابشاهه: ڪميونٽي اسڪور ڪارڊ ذريعي صحت، تعليم ۽ بلدياتي خدمتن جو جائزو",
+   "x": "نوابشاهه فورم پاران ڪميونٽي اسڪور ڪارڊ ذريعي صحت، تعليم ۽ ميونسپل سروسز جو جائزو ورتو ويو آهي. هن عمل جو مقصد علائقي ۾ عوام کي ملندڙ سهولتن جو جائزو وٺڻ ۽ انهن ۾ بهتري آڻڻ آهي. فورم جي ذريعن موجب تعليمي ادارن، صحت جي مرڪزن ۽ بلدياتي معاملن جي ڪارڪردگي جو تفصيلي تجزيو ڪيو ويو. مقامي شهرين هن عمل کي ساراهيندي چيو ته ان سان ادارن جي ڪم ڪار ۾ بهتري ايندي. گڏوگڏ سمورن لاڳاپيل ادارن تي زور ڏنو ويو ته اهي پنهنجون ذميواريون وڌيڪ ذميواريءَ سان پوريون ڪن.",
+   "t": 1793559316,
+   "s": false,
+   "r": 8
   }
  ],
  "reels": {
@@ -9068,13 +9079,6 @@
   "last": 1793356878.054588
  },
  "tg_debug": [
-  {
-   "t": "11-01 19:15",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-01 19:20",
    "ok": true,
@@ -9343,6 +9347,13 @@
   },
   {
    "t": "11-01 23:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-01 23:53",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13041,6 +13052,61 @@
     "ڪراچي",
     "گلستان"
    ]
+  },
+  {
+   "t": 1793559316,
+   "h": "نوابشاهه: ڪميونٽي اسڪور ڪارڊ ذريعي صحت، تعليم ۽ بلدياتي خدمتن جو جائزو",
+   "b": "نوابشاهه فورم پاران ڪميونٽي اسڪور ڪارڊ ذريعي صحت، تعليم ۽ ميونسپل سروسز جو جائزو ورتو ويو آهي. هن عمل جو مقصد",
+   "tt": [
+    "اسڪور",
+    "بلدياتي",
+    "تعليم",
+    "جائزو",
+    "خدمتن",
+    "ذريعي",
+    "صحت،",
+    "نوابشاهه",
+    "ڪارڊ",
+    "ڪميونٽي"
+   ],
+   "bt": [
+    "ادارن،",
+    "اسڪور",
+    "انهن",
+    "اهي",
+    "اڻڻ",
+    "بلدياتي",
+    "بهتري",
+    "تجزيو",
+    "تعليم",
+    "تعليمي",
+    "تفصيلي",
+    "جائزو",
+    "خدمتن",
+    "ذريعن",
+    "ذريعي",
+    "سروسز",
+    "سهولتن",
+    "صحت",
+    "صحت،",
+    "علائقي",
+    "عمل",
+    "عوام",
+    "فورم",
+    "مرڪزن",
+    "معاملن",
+    "مقصد",
+    "ملندڙ",
+    "موجب",
+    "ميونسپل",
+    "نوابشاهه",
+    "ورتو",
+    "وٺڻ",
+    "پاران",
+    "ڪارڊ",
+    "ڪارڪردگي",
+    "ڪميونٽي"
+   ]
   }
  ],
  "repeat_log": [
@@ -13208,7 +13274,7 @@
  },
  "quality": {
   "date": "2026-11-01",
-  "editor_fixed": 18,
+  "editor_fixed": 19,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
