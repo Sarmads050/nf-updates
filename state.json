@@ -1633,7 +1633,8 @@
   "bea503772f1a2907": 1793552540.4745293,
   "0a5ba54239323ab3": 1793554342.895305,
   "13b1f2a8fc46b19d": 1793554342.8953075,
-  "b87e8656a480187c": 1793554342.8953102
+  "b87e8656a480187c": 1793554342.8953102,
+  "b55a0adc2c9a9a05": 1793555485.112301
  },
  "pending": {},
  "queue": [],
@@ -1723,8 +1724,8 @@
  "last_question": "2026-10-30",
  "sindh_single": {
   "date": "2026-11-01",
-  "count": 0,
-  "last": 1793544079.3014238,
+  "count": 1,
+  "last": 1793555481.1902487,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1752,23 +1753,12 @@
    "5ff2b97aabfa2103",
    "c36df74c7d2704eb",
    "56f8322c0e19f33a",
-   "6641e9263cc494b5"
+   "6641e9263cc494b5",
+   "b55a0adc2c9a9a05"
   ]
  },
- "last_post_id": "1444130002106066_122116569915503839",
+ "last_post_id": "1444130002106066_122116573281503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122116169397503839",
-   "title": "سنڌ جي بربادي ۽ پنجاب جي ترقي قبول ناهي: رياض چانڊيو",
-   "t": 1793455915.6588151,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122116169397503839"
-  },
   {
    "id": "1444130002106066_122116178463503839",
    "title": "سنڌ جي حقن لاءِ سمورين قوتن کي گڏجي ڪم ڪرڻ گهرجي: اياز لطيف پليجو",
@@ -2077,6 +2067,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122116569915503839"
+  },
+  {
+   "id": "1444130002106066_122116573281503839",
+   "title": "سنڌ ۾ بجلي جي کմբن جي معاملով تي وزير اعلٰی جو بيان سنڌ جي وزير اعلٰی مراد علي شاهه چيو",
+   "t": 1793555517.4922695,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122116573281503839"
   }
  ],
  "share_sent": {
@@ -2287,7 +2287,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-01 22:41",
+  "time": "2026-11-01 22:51",
   "items": 12,
   "sample": [
    "New Zealand A 218/3 * v India A 346/10",
@@ -2302,17 +2302,11 @@
  },
  "all_posts": {
   "date": "2026-11-01",
-  "count": 35,
-  "last": 1793554479.5988445
+  "count": 36,
+  "last": 1793555511.4885845
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122112201555503839",
-    "sec": "district",
-    "cat": "district",
-    "t": 1792672025
-   },
    {
     "id": "1444130002106066_122112241263503839",
     "sec": "kawish",
@@ -4706,6 +4700,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1793554488
+   },
+   {
+    "id": "1444130002106066_122116573281503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1793555511
    }
   ]
  },
@@ -7810,9 +7810,9 @@
  },
  "ai_usage": {
   "date": "2026-11-01",
-  "ok": 236,
-  "fail": 384,
-  "limit": 383
+  "ok": 242,
+  "fail": 394,
+  "limit": 393
  },
  "posted_heads": [
   {
@@ -8137,7 +8137,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-01 22:41",
+  "time": "2026-11-01 22:51",
   "steps": []
  },
  "roundup_am": "2026-11-01",
@@ -8245,7 +8245,7 @@
   "text": 24,
   "story": 20
  },
- "ai_last_error": "22:32 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "22:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-01",
   "models": [
@@ -8259,9 +8259,9 @@
  },
  "img_diag": {
   "date": "2026-11-01",
-  "tried": 27,
+  "tried": 28,
   "gemini": 0,
-  "pollinations": 13,
+  "pollinations": 14,
   "skip": 4,
   "fail": 20,
   "last_note": "anti polio vaccine drops",
@@ -8286,7 +8286,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-01",
-   "ok": 129,
+   "ok": 130,
    "fail": 12,
    "items": 10,
    "fail_streak": 0,
@@ -8294,7 +8294,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-01",
-   "ok": 139,
+   "ok": 140,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8302,7 +8302,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-01",
-   "ok": 138,
+   "ok": 139,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8310,14 +8310,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 141,
+   "ok": 142,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 141,
+   "ok": 142,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8325,21 +8325,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 141,
+   "ok": 142,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 141,
+   "ok": 142,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-01",
-   "ok": 140,
+   "ok": 141,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8477,13 +8477,13 @@
  "region_posts": {
   "date": "2026-11-01",
   "district": 0,
-  "sindh": 12,
+  "sindh": 13,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 20,
-  "old": 20,
+  "posted": 2,
+  "found": 25,
+  "old": 25,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8519,8 +8519,8 @@
   "date": "2026-11-01",
   "count": 10,
   "last": 1793554276.8774593,
-  "city_i": 16,
-  "dry": 1793548268.1238704
+  "city_i": 20,
+  "dry": 1793555466.3027046
  },
  "gemini_day_dead": {
   "day": "2026-11-01",
@@ -9059,13 +9059,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-01 18:46",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-01 18:50",
    "ok": true,
    "n": 0,
@@ -9333,6 +9326,13 @@
   },
   {
    "t": "11-01 22:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-01 22:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -12937,6 +12937,53 @@
     "ڊيسڪ",
     "ڪيس"
    ]
+  },
+  {
+   "t": 1793555511,
+   "h": "سنڌ | سنڌ ۾ بجلي جي کմբن جي معاملي تي وزير اعلٰی جو بيان",
+   "b": "سنڌ جي وزير اعلٰی مراد علي شاهه چيو آهي ته ميڊيا سڀ مسئلا وساري صرف بجلي جي کմբن تي ڳالهائي رهي آهي. هن چيو",
+   "tt": [
+    "اعلي",
+    "بجلي",
+    "بيان",
+    "سنڌ",
+    "معاملي",
+    "وزير",
+    "ڪմբن"
+   ],
+   "bt": [
+    "اعلي",
+    "اهن",
+    "اهي",
+    "بجلي",
+    "بلدياتي",
+    "بهتر",
+    "بيان",
+    "ترقياتي",
+    "حڪومت",
+    "رهي",
+    "رهيو",
+    "سنڌ",
+    "شاهه",
+    "صرف",
+    "طرفان",
+    "طريقي",
+    "علي",
+    "مراد",
+    "مسئلا",
+    "معاملي",
+    "ميڊيا",
+    "نظام",
+    "وزير",
+    "وساري",
+    "وفاقي",
+    "ويندا",
+    "وڌيڪ",
+    "پيدا",
+    "ڪմբن",
+    "ڪمن",
+    "ڳالهائي"
+   ]
   }
  ],
  "repeat_log": [
@@ -13104,7 +13151,7 @@
  },
  "quality": {
   "date": "2026-11-01",
-  "editor_fixed": 16,
+  "editor_fixed": 17,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
