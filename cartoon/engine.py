@@ -305,11 +305,12 @@ POSES = {  # near(dx,dy), far(dx,dy), flags ; units relative to torso top, scale
     "think": ((30, -40), (-40, 300), ""), "explain": ((185, 210), (-160, 240), "explain"),
     "point_up": ((150, -200), (-70, 470), "finger"), "tired": ((90, 470), (-90, 470), ""),
     "walk": ((120, 430), (-120, 430), "walk"), "tray": ((80, 175), (-80, 175), "tray"),
-    "give": ((175, 150), (-70, 470), "prop"), "take": ((175, 158), (-70, 470), ""),
+    "give": ((175, 150), (-70, 470), "prop"),
+    "hold_sofa": ((40, 330), (-60, 440), "prop"),  # K-011: seated plate held near the chest, not across the neighbour "take": ((175, 158), (-70, 470), ""),
 }
 ALIAS = {"rest": None}
 EMO_TILT = {"worried": -3, "sheepish": 5, "teasing": -6, "happy": 2.5, "laugh": 0, "warm": 4, "calm": 1.5, "surprised": 0,
-            "focused": -1.5, "neutral": 0, "angry": -2, "tired": 6, "proud": -3, "confused": 7, "sad": 5}
+            "focused": -1.5, "neutral": 0, "chew": 2, "angry": -2, "tired": 6, "proud": -3, "confused": 7, "sad": 5}
 
 
 def keyed(v, a, d):
@@ -609,9 +610,11 @@ for fr in range(N):
         cur, prev, tc = at(POSE, w, t, "rest")
         if st["walking"]:
             cur, prev, tc = "walk", "walk", -9
-        if prop_at(w, t) == "tray" and not seated:
+        if prop_at(w, t) in ("tray", "thaali") and not seated:
             cur = "tray"
         def res(p):
+            if p == "hold" and seated:
+                return "hold_sofa"
             if p == "rest":
                 return "rest_sofa" if seated else "rest_stand"
             return p if p in POSES else ("rest_sofa" if seated else "rest_stand")
@@ -1063,14 +1066,17 @@ def draw_char(cv, ox, oy, w, c):
                 ux, uy = 0, -1
             for col, wd in ((OUT, 22), (C["skin"], 14)):
                 d.line([q(hx, hy), q(hx + ux * 46 * s, hy + uy * 46 * s)], fill=col, width=lw(wd))
-        if nm == "near" and c.get("prop") and c["prop"] != "tray":
+        if nm == "near" and c.get("prop") and c["prop"] not in ("tray", "thaali"):
             art.draw_prop(d, c["prop"], q, hx, hy, s, c["t"])
-        if nm == "near" and c.get("prop") == "tray":
+        if nm == "near" and c.get("prop") in ("tray", "thaali"):
             ty = hy - 14 * s
             d.rounded_rectangle([*q(x - 120 * s, ty), *q(x + 120 * s, ty + 20 * s)], lw(8), fill=(190, 190, 200), outline=OUT, width=lw(4))
-            for cx_ in (x - 55 * s, x + 15 * s):
-                d.rounded_rectangle([*q(cx_ - 25 * s, ty - 58 * s), *q(cx_ + 25 * s, ty)], lw(8), fill=(250, 250, 250), outline=OUT, width=lw(4))
-                d.ellipse([*q(cx_ - 23 * s, ty - 64 * s), *q(cx_ + 23 * s, ty - 50 * s)], fill=(170, 100, 50))
+            if c["prop"] == "thaali":  # K-008: biryani thaali (rice mound, aloo, boti)
+                art.draw_food(d, q, x - 20 * s, ty, s * 1.5, lw)
+            else:
+                for cx_ in (x - 55 * s, x + 15 * s):
+                    d.rounded_rectangle([*q(cx_ - 25 * s, ty - 58 * s), *q(cx_ + 25 * s, ty)], lw(8), fill=(250, 250, 250), outline=OUT, width=lw(4))
+                    d.ellipse([*q(cx_ - 23 * s, ty - 64 * s), *q(cx_ + 23 * s, ty - 50 * s)], fill=(170, 100, 50))
         draw_hand(d, q, lw, hx, hy, ex, ey, s, C["skin"], fing, sd)
 
 

@@ -161,7 +161,7 @@
       {
        "do": "prop",
        "who": "DANIYAL",
-       "prop": "plate"
+       "prop": "biryani"
       }
      ],
      "sfx": [
@@ -201,7 +201,7 @@
       {
        "do": "prop",
        "who": "AMMI",
-       "prop": "tray"
+       "prop": "thaali"
       }
      ]
     },
@@ -232,7 +232,7 @@
      },
      "give": {
       "to": "IMTIAZ",
-      "prop": "plate",
+      "prop": "biryani",
       "at": 0.5
      }
     },
@@ -269,7 +269,7 @@
     {
      "who": "DANIYAL",
      "to": "AMMI",
-     "emo": "neutral",
+     "emo": "chew",
      "shot": "auto",
      "how": "speaking with his mouth full of food, muffled and chewing, trying to act innocent",
      "roman": "Kya hua? Itna *shor* kyun ho raha hai?",
@@ -296,7 +296,7 @@
      "urdu": "کچن سے ایک آلو چوری ہوا ہے! وکیل صاحب، اب مجرم ڈھونڈو!",
      "pose": "hands_hips",
      "react": {
-      "DANIYAL": "sheepish"
+      "DANIYAL": "chew"
      }
     },
     {
@@ -359,10 +359,10 @@
     "DANIYAL": "stand_r"
    },
    "props": {
-    "AMMI": "tray",
-    "IMTIAZ": "plate",
-    "MEHAK": "plate",
-    "DANIYAL": "plate",
+    "AMMI": "thaali",
+    "IMTIAZ": "biryani",
+    "MEHAK": "biryani",
+    "DANIYAL": "biryani",
     "ARSALAN": null
    },
    "lines": [
@@ -405,7 +405,7 @@
      },
      "give": {
       "to": "ARSALAN",
-      "prop": "plate",
+      "prop": "biryani",
       "at": 0.55
      }
     },
