@@ -1,10 +1,5 @@
 {
  "seen": {
-  "2748fc65a5ca153d": 1792890816.409454,
-  "d640e297de12cced": 1792890820.944606,
-  "fc72e8d9c8a057c5": 1792890820.9446082,
-  "d40d81e986173d28": 1792890820.944609,
-  "ab9d8f387ab1f6a5": 1792890820.9447672,
   "d46375c160513ccb": 1792895476.1459215,
   "e1802c8520de5df1": 1792895488.8576598,
   "19060cda87bbff98": 1792895488.857834,
@@ -1662,7 +1657,8 @@
   "1da7b89b9831ea4b": 1793495470.4323418,
   "94e681e70206d862": 1793495479.8359077,
   "c4359902dc70c112": 1793495479.8359108,
-  "2d3e50effa2969d4": 1793495479.8360596
+  "2d3e50effa2969d4": 1793495479.8360596,
+  "6bb949aa41f09b8e": 1793496049.4031072
  },
  "pending": {},
  "queue": [],
@@ -2352,12 +2348,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-01 06:11",
+  "time": "2026-11-01 06:21",
   "items": 21,
   "sample": [
-   "Tasmania 427/10 v New South Wales 202/10 & 7/1 *",
-   "New Zealand A 50/3 * v India A 346/10",
-   "Queensland 13 * v Victoria 307/10"
+   "Tasmania 427/10 v New South Wales 202/10 & 31/5 *",
+   "New Zealand A 51/3 * v India A 346/10",
+   "Queensland 33/2 * v Victoria 307/10"
   ]
  },
  "agri_news": {
@@ -4780,56 +4776,8 @@
   "last": 1793493809.0516872
  },
  "trends": {
-  "last": 1793484655.8361113,
+  "last": 1793496058.1734476,
   "terms": [
-   {
-    "term": "f1",
-    "traffic": 100,
-    "news": "Mercedes driver Kimi Antonelli earns surprise pole for the US Grand Prix as he chases the F1 title",
-    "t": 1792883525,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "petr yan",
-    "traffic": 100,
-    "news": "'Had Merab winning': Fighters react to Petr Yan's UFC 333 trilogy win",
-    "t": 1792883525,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "rbny vs inter miami",
-    "traffic": 2000,
-    "news": "Amid hectic travel plans, Lionel Messi leads Miami vs. Red Bulls",
-    "t": 1792883525,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "andrew tate",
-    "traffic": 100,
-    "news": "Andrew Tate, brother Tristan arrested once again, awaiting extradition",
-    "t": 1792883525,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "suryakumar yadav",
-    "traffic": 100,
-    "news": "Exclusive | Swisher Bhai, I'll take that title, says baseball legend Nick Siwsher | Hindustan Times",
-    "t": 1792883525,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "alexander volkanovski",
-    "traffic": 200,
-    "news": "Volk’s footy clash with seven-foot ‘Shrek’... and why he ‘could have had a crack at NRL’",
-    "t": 1792883525,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "elclasico",
     "traffic": 100,
@@ -7821,15 +7769,63 @@
     "t": 1793484656,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "ban vs ind",
+    "traffic": 500,
+    "news": "India vs Bangladesh Live Streaming: When And Where To Watch Hong Kong Sixes 2026 Match Live In India",
+    "t": 1793496058,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "bigg boss 20 today full episode",
+    "traffic": 200,
+    "news": "Bigg Boss 20 Episode 54: Love and Mahhi’s Breakfast Spat Gets Personal, Captaincy Task Turns Chaotic as Kanika Mann Wins",
+    "t": 1793496058,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "ai",
+    "traffic": 100,
+    "news": "Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June: Live updates",
+    "t": 1793496058,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "ac milan vs inter milan standings",
+    "traffic": 500,
+    "news": "Following in the footsteps of Kaká and Calhanoglu: Rabiot writes an exceptional chapter with Milan",
+    "t": 1793496058,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "fc barcelona vs deportivo alavés standings",
+    "traffic": 2000,
+    "news": "Barcelona vs. Alaves: Preview, Predictions and Lineups",
+    "t": 1793496058,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "fbr date extension 2026",
+    "traffic": 1000,
+    "news": "FBR draft proposes machine-readable company financial statements through IRIS",
+    "t": 1793496058,
+    "cat": "budget_tax_imf",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-01",
-  "ok": 67,
-  "fail": 118,
-  "limit": 118
+  "ok": 68,
+  "fail": 120,
+  "limit": 120
  },
  "posted_heads": [
   {
@@ -8154,7 +8150,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-01 06:11",
+  "time": "2026-11-01 06:21",
   "steps": []
  },
  "roundup_am": "2026-10-31",
@@ -8262,7 +8258,7 @@
   "text": 11,
   "story": 10
  },
- "ai_last_error": "06:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "06:20 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-01",
   "models": [
@@ -8303,7 +8299,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-01",
-   "ok": 37,
+   "ok": 38,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8311,7 +8307,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-01",
-   "ok": 39,
+   "ok": 40,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8319,7 +8315,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-01",
-   "ok": 39,
+   "ok": 40,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8327,14 +8323,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8342,21 +8338,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-01",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-01",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-01",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8499,8 +8495,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 4,
-  "old": 4,
+  "found": 9,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9142,13 +9138,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-01 00:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-01 00:10",
    "ok": true,
    "n": 0,
@@ -9416,6 +9405,13 @@
   },
   {
    "t": "11-01 06:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-01 06:20",
    "ok": true,
    "n": 0,
    "ids": [],
