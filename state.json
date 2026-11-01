@@ -1,22 +1,5 @@
 {
  "seen": {
-  "f52cccb85a61ec31": 1792954895.8481317,
-  "946b39e156558929": 1792954895.8481352,
-  "28294d76715f50e7": 1792954895.8481364,
-  "488e31c811dc89a5": 1792954895.848138,
-  "4722d629c14553b9": 1792954895.848139,
-  "b51179c24bdaddbb": 1792954895.84814,
-  "ab26b3bd43a264f9": 1792954895.848142,
-  "5eca2046f31bca17": 1792954895.8481429,
-  "dd8690d351df33af": 1792954895.8481438,
-  "f61888d0797b25eb": 1792954895.848417,
-  "99d8f1571c773c9b": 1792954902.5314786,
-  "65f85c3c93378f16": 1792954902.5314813,
-  "b59ea3c4e52e64e3": 1792954902.5314827,
-  "fde1f87e0ea4ca6a": 1792954902.5314844,
-  "a9fbc53f87da66a4": 1792954902.531485,
-  "09b8d293c57e5582": 1792954902.5314863,
-  "5eb1b5283dd6da37": 1792954902.531739,
   "ad0d9cdb981eedd8": 1792956655.9044044,
   "dd03ec06e1619b55": 1792957866.626758,
   "1533111df3b7c7ab": 1792957866.6267595,
@@ -2292,7 +2275,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 00:01",
+  "time": "2026-11-02 00:10",
   "items": 32,
   "sample": [
    "New Zealand A 218/3 * v India A 346/10",
@@ -8142,7 +8125,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 00:01",
+  "time": "2026-11-02 00:10",
   "steps": []
  },
  "roundup_am": "2026-11-01",
@@ -8291,7 +8274,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8299,7 +8282,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8307,7 +8290,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8315,14 +8298,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8330,21 +8313,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8487,8 +8470,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9075,13 +9058,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-01 19:21",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-01 19:26",
    "ok": true,
    "n": 0,
@@ -9349,6 +9325,13 @@
   },
   {
    "t": "11-02 00:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-02 00:10",
    "ok": true,
    "n": 0,
    "ids": [],
