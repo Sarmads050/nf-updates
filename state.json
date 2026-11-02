@@ -2228,10 +2228,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 10:01",
+  "time": "2026-11-02 10:11",
   "items": 27,
   "sample": [
-   "New Zealand A 424/10 v India A 346/10 & 11 *",
+   "New Zealand A 424/10 v India A 346/10 & 15 *",
    "Queensland 280/10 v Victoria 68/3 & 307/10 *",
    "Montreal Warriors 120/7 * v Brampton Blazers 119/10"
   ]
@@ -4656,7 +4656,7 @@
   "last": 1793590321.561171
  },
  "trends": {
-  "last": 1793584928.7880409,
+  "last": 1793596275.0162044,
   "terms": [
    {
     "term": "business recorder",
@@ -7657,15 +7657,55 @@
     "t": 1793584929,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "federal board of revenue of pakistan",
+    "traffic": 500,
+    "news": "FBR outlines faceless assessment procedures as Oct 31 tax deadline nears",
+    "t": 1793596275,
+    "cat": "budget_tax_imf",
+    "sindh": false
+   },
+   {
+    "term": "learjet 60",
+    "traffic": 200,
+    "news": "Learjet nose dives near Greenacres, killing all 9 people aboard",
+    "t": 1793596275,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "open",
+    "traffic": 100,
+    "news": "Andrew Novak WITB: Mexico Open champion bags another win for Srixon's Z-Star XV",
+    "t": 1793596275,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "new england revolution vs inter miami standings",
+    "traffic": 2000,
+    "news": "New England Revolution vs Inter Miami standings: How the MLS points table looks like after Lionel Messi's 937th goal?",
+    "t": 1793596275,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "bank",
+    "traffic": 100,
+    "news": "ICBC (SEHK:1398) Q3 Results Highlight Steady Growth And Lingering NIM Pressure",
+    "t": 1793596275,
+    "cat": "dollar_gold_business",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-02",
-  "ok": 100,
-  "fail": 176,
-  "limit": 176
+  "ok": 101,
+  "fail": 178,
+  "limit": 178
  },
  "posted_heads": [
   {
@@ -7990,7 +8030,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 10:01",
+  "time": "2026-11-02 10:11",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8098,7 +8138,7 @@
   "text": 13,
   "story": 12
  },
- "ai_last_error": "10:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "10:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-02",
   "models": [
@@ -8139,15 +8179,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
-   "ok": 60,
+   "ok": 61,
    "fail": 3,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
-   "ok": 60,
+   "ok": 61,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8155,7 +8195,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
-   "ok": 60,
+   "ok": 61,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8163,14 +8203,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8178,21 +8218,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8335,8 +8375,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8933,13 +8973,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-02 03:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-02 03:50",
    "ok": true,
    "n": 0,
@@ -9207,6 +9240,13 @@
   },
   {
    "t": "11-02 10:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-02 10:10",
    "ok": true,
    "n": 0,
    "ids": [],
