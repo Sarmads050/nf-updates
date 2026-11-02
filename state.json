@@ -1721,7 +1721,10 @@
   "ff43e34fd80a2ab1": 1793656287.9922543,
   "d0f1803d60ec238c": 1793656287.9922547,
   "3fa6b5fa82680295": 1793656287.9922557,
-  "c94c572e3369277c": 1793656287.9924657
+  "c94c572e3369277c": 1793656287.9924657,
+  "781d3f1822c3d219": 1793659280.589066,
+  "d5bfb5c78d6892f4": 1793659280.5890677,
+  "afe1e132300ea0da": 1793659280.5891967
  },
  "pending": {},
  "queue": [],
@@ -1919,19 +1922,8 @@
    "8ba168c9997f9ea5"
   ]
  },
- "last_post_id": "1444130002106066_122116982415503839",
+ "last_post_id": "1444130002106066_122116996473503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122116728255503839",
-   "title": "نوشہرو فیروز سمیت سندھ میں نئے صوبوں کا مطالبہ نوشہرو فیروز اور سندھ کے دیگر شہروں کے",
-   "t": 1793598785.7923927,
-   "tags": [
-    "general",
-    "local",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122116728255503839"
-  },
   {
    "id": "1444130002106066_122116732257503839",
    "title": "خيبرپختونخوا ۾ پي ٽي آءِ جي دور ۾ اربين روپين جون مالي بي ضابطگيون",
@@ -2248,6 +2240,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122116982415503839"
+  },
+  {
+   "id": "1444130002106066_122116996473503839",
+   "title": "سلمان آغا جي شاندار سينچري جي مدد سان پاڪستان ٽاءِ سيريز جي پهرين ميچ ۾ شاندار سوڀ حاصل",
+   "t": 1793659429.291537,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122116996473503839"
   }
  ],
  "share_sent": {
@@ -2378,8 +2379,8 @@
  },
  "cricket_news": {
   "date": "2026-11-03",
-  "count": 1,
-  "last": 1793646221.7075217
+  "count": 2,
+  "last": 1793659429.2915204
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -2458,11 +2459,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 03:31",
+  "time": "2026-11-03 03:43",
   "items": 25,
   "sample": [
    "New Zealand A 424/10 v India A 32 & 346/10 *",
-   "Queensland 280/10 v Victoria 307/10 & 136/6 *",
+   "Queensland 280/10 v Victoria 136/6 & 307/10 *",
    "Assam 135/10 v Karnataka 180/2 *"
   ]
  },
@@ -2473,17 +2474,11 @@
  },
  "all_posts": {
   "date": "2026-11-03",
-  "count": 4,
-  "last": 1793656327.6403205
+  "count": 5,
+  "last": 1793659425.392723
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122112715173503839",
-    "sec": "district",
-    "cat": "district",
-    "t": 1792767994
-   },
    {
     "id": "1444130002106066_122112715695503839",
     "sec": "district",
@@ -4877,6 +4872,12 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1793656332
+   },
+   {
+    "id": "1444130002106066_122116996473503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1793659429
    }
   ]
  },
@@ -7909,15 +7910,11 @@
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 43,
-  "fail": 74,
-  "limit": 74
+  "ok": 51,
+  "fail": 84,
+  "limit": 84
  },
  "posted_heads": [
-  {
-   "h": "ماتلي: ٻن ڀائرن ۾ مبينا جهيڙو، فائرنگ ۾ مهمان طور آيل 50 ورهين جو شخص قتل، هڪ ڄڻو زخمي",
-   "t": 1793439706
-  },
   {
    "h": "VRI Approves 169 Research Experiments For New Vegetable Varieties, Food Security",
    "t": 1793440985
@@ -8233,10 +8230,14 @@
   {
    "h": "Lalian Assistant Commissioner Seizes Hoarded Wheat In Wanoka Raid",
    "t": 1793656332
+  },
+  {
+   "h": "Pakistan vs Sri Lanka: Salman Agha ton sets up Pakistan's win in tri-series opener",
+   "t": 1793659429
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 03:31",
+  "time": "2026-11-03 03:43",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8339,12 +8340,12 @@
  },
  "article_diag": {
   "date": "2026-11-03",
-  "tried": 7,
-  "decoded": 7,
-  "text": 6,
-  "story": 5
+  "tried": 8,
+  "decoded": 8,
+  "text": 7,
+  "story": 6
  },
- "ai_last_error": "02:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "03:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8358,13 +8359,13 @@
  },
  "img_diag": {
   "date": "2026-11-03",
-  "tried": 4,
+  "tried": 5,
   "gemini": 0,
   "pollinations": 4,
   "skip": 0,
   "fail": 0,
-  "last_note": "cricket bat and helmet",
-  "mismatch": 338
+  "last_note": "cricket bat and ball",
+  "mismatch": 341
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -8385,7 +8386,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8393,7 +8394,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 21,
+   "ok": 22,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8401,7 +8402,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 21,
+   "ok": 22,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8409,14 +8410,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8424,21 +8425,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8577,12 +8578,12 @@
   "date": "2026-11-03",
   "district": 0,
   "sindh": 0,
-  "pakistan": 4
+  "pakistan": 5
  },
  "report_acc": {
-  "posted": 0,
-  "found": 12,
-  "old": 12,
+  "posted": 1,
+  "found": 16,
+  "old": 16,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8620,8 +8621,8 @@
   "date": "2026-11-03",
   "count": 0,
   "last": 1793649067.4427004,
-  "city_i": 18,
-  "dry": 1793656260.2467005
+  "city_i": 22,
+  "dry": 1793659271.4365077
  },
  "gemini_day_dead": {
   "day": "2026-11-02",
@@ -9212,6 +9213,14 @@
    "t": 1793656332,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "8874bcf7c4986fc2",
+   "h": "پاڪستان ۽ سری لنڪا جو ميچ",
+   "x": "پاڪستان ۽ سری لنڪا جي وچ ۾ ٽاءِ سيريز جي پهرين ميچ ۾ سلمان آغا شاندار سينچري اسڪور ڪري پاڪستان جي فتح جو بنياد رکيو. سلمان آغا جي حڪمت عملي ۽ بيٽنگ جي مدد سان پاڪستاني ٽيم ميچ ۾ برتري حاصل ڪئي ۽ کٽڻ ۾ ڪامياب ٿي. هن ميچ جي ذريعي ٽاءِ سيريز جي شروعات شاندار انداز ۾ ٿي!",
+   "t": 1793659429,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9225,13 +9234,6 @@
   "last": 1793356878.054588
  },
  "tg_debug": [
-  {
-   "t": "11-02 21:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-02 21:20",
    "ok": true,
@@ -9500,6 +9502,13 @@
   },
   {
    "t": "11-03 03:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 03:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13409,6 +13418,47 @@
     "ڪڻڪ",
     "گودامن"
    ]
+  },
+  {
+   "t": 1793659429,
+   "h": "پاڪستان ۽ سری لنڪا جو ميچ",
+   "b": "پاڪستان ۽ سری لنڪا جي وچ ۾ ٽاءِ سيريز جي پهرين ميچ ۾ سلمان آغا شاندار سينچري اسڪور ڪري پاڪستان جي فتح جو",
+   "tt": [
+    "سري",
+    "لنڪا",
+    "ميچ",
+    "پاڪستان"
+   ],
+   "bt": [
+    "اسڪور",
+    "اغا",
+    "انداز",
+    "برتري",
+    "بنياد",
+    "بيٽنگ",
+    "حاصل",
+    "حڪمت",
+    "ذريعي",
+    "رڪيو",
+    "سري",
+    "سلمان",
+    "سيريز",
+    "سينچري",
+    "شاندار",
+    "شروعات",
+    "عملي",
+    "فتح",
+    "لنڪا",
+    "مدد",
+    "ميچ",
+    "ٽاء",
+    "ٽيم",
+    "پاڪستان",
+    "پاڪستاني",
+    "پهرين",
+    "ڪامياب",
+    "ڪٽڻ"
+   ]
   }
  ],
  "repeat_log": [
@@ -13576,7 +13626,7 @@
  },
  "quality": {
   "date": "2026-11-03",
-  "editor_fixed": 3,
+  "editor_fixed": 4,
   "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
