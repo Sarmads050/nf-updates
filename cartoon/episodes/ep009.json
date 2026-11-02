@@ -112,6 +112,9 @@
      "pose": "plead",
      "react": {
       "ABBA": "worried"
+     },
+     "react_pose": {
+      "ABBA": "rest"
      }
     },
     {
@@ -125,6 +128,9 @@
      "pose": "phone_look",
      "react": {
       "ABBA": "tired"
+     },
+     "react_pose": {
+      "MEHAK": "rest"
      }
     },
     {
@@ -209,6 +215,9 @@
      "pose": "hold",
      "react": {
       "ABBA": "worried"
+     },
+     "react_pose": {
+      "ABBA": "rest"
      }
     },
     {
@@ -260,7 +269,10 @@
        "who": "ARSALAN",
        "slot": "right"
       }
-     ]
+     ],
+     "react_pose": {
+      "ABBA": "rest"
+     }
     },
     {
      "who": "AMMI",
@@ -273,6 +285,9 @@
      "pose": "wag",
      "react": {
       "ARSALAN": "sheepish"
+     },
+     "react_pose": {
+      "ARSALAN": "rest"
      }
     },
     {
@@ -288,7 +303,10 @@
      "react": {
       "*": "laugh"
      },
-     "gap": 0.6
+     "gap": 0.6,
+     "react_pose": {
+      "AMMI": "rest"
+     }
     }
    ]
   },
@@ -377,6 +395,9 @@
      "react": {
       "ABBA": "proud",
       "AMMI": "happy"
+     },
+     "react_pose": {
+      "MEHAK": "rest"
      }
     },
     {
@@ -390,6 +411,9 @@
      "pose": "clap",
      "react": {
       "FARAZ": "happy"
+     },
+     "react_pose": {
+      "FARAZ": "rest"
      }
     },
     {
@@ -404,6 +428,9 @@
      "react": {
       "ABBA": "surprised",
       "AMMI": "happy"
+     },
+     "react_pose": {
+      "ABBA": "rest"
      }
     },
     {
@@ -417,6 +444,9 @@
      "pose": "explain",
      "react": {
       "ARSALAN": "happy"
+     },
+     "react_pose": {
+      "ARSALAN": "rest"
      }
     },
     {
@@ -491,7 +521,10 @@
      "react": {
       "*": "laugh"
      },
-     "gap": 0.8
+     "gap": 0.8,
+     "react_pose": {
+      "ABBA": "rest"
+     }
     }
    ]
   }
