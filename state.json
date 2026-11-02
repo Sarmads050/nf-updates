@@ -1,7 +1,5 @@
 {
  "seen": {
-  "2c5a4ed5e877aed1": 1792995066.903861,
-  "9058f66e0362d5da": 1792995066.903865,
   "f5588efd190ba065": 1792996279.003082,
   "0acfb180b1a17355": 1792996279.003085,
   "541428313dcfdd75": 1792996279.0030863,
@@ -2235,11 +2233,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 11:12",
+  "time": "2026-11-02 11:20",
   "items": 27,
   "sample": [
-   "New Zealand A 424/10 v India A 346/10 & 32 *",
-   "Queensland 280/10 v Victoria 90/4 & 307/10 *",
+   "New Zealand A 424/10 v India A 32 & 346/10 *",
+   "Queensland 280/10 v Victoria 307/10 & 99/4 *",
    "Montreal Warriors 120/7 * v Brampton Blazers 119/10"
   ]
  },
@@ -8037,7 +8035,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 11:12",
+  "time": "2026-11-02 11:20",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8186,7 +8184,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
-   "ok": 67,
+   "ok": 68,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8194,7 +8192,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
-   "ok": 67,
+   "ok": 68,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8202,7 +8200,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
-   "ok": 67,
+   "ok": 68,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8210,14 +8208,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8225,21 +8223,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8382,8 +8380,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 5,
-  "old": 5,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8996,13 +8994,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-02 04:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-02 05:00",
    "ok": true,
    "n": 0,
@@ -9270,6 +9261,13 @@
   },
   {
    "t": "11-02 11:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-02 11:20",
    "ok": true,
    "n": 0,
    "ids": [],
