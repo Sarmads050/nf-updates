@@ -1586,7 +1586,11 @@
   "8217bac1f2d35461": 1793603468.5956492,
   "9f7bb2c9fa8446d5": 1793604670.3443475,
   "1169255233687ba4": 1793604670.3443494,
-  "e564efe368fd5e4e": 1793604670.3443518
+  "e564efe368fd5e4e": 1793604670.3443518,
+  "319f53d2a895b232": 1793605870.4377024,
+  "34c525111984692a": 1793605870.4377048,
+  "ce0e421b540b348c": 1793605870.4377058,
+  "1b1056a4c3fddf20": 1793605870.4377084
  },
  "pending": {},
  "queue": [],
@@ -1658,7 +1662,7 @@
  "sindh_single": {
   "date": "2026-11-02",
   "count": 1,
-  "last": 1793598664.7969816,
+  "last": 1793605886.689511,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2234,11 +2238,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 12:40",
+  "time": "2026-11-02 12:51",
   "items": 26,
   "sample": [
-   "New Zealand A 424/10 v India A 32 & 346/10 *",
-   "Queensland 280/10 v Victoria 307/10 & 136/6 *",
+   "New Zealand A 424/10 v India A 346/10 & 32 *",
+   "Queensland 280/10 v Victoria 136/6 & 307/10 *",
    "Assam 135/10 * v Karnataka"
   ]
  },
@@ -7709,9 +7713,9 @@
  },
  "ai_usage": {
   "date": "2026-11-02",
-  "ok": 143,
-  "fail": 248,
-  "limit": 248
+  "ok": 146,
+  "fail": 254,
+  "limit": 254
  },
  "posted_heads": [
   {
@@ -8036,7 +8040,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 12:40",
+  "time": "2026-11-02 12:51",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8144,7 +8148,7 @@
   "text": 13,
   "story": 12
  },
- "ai_last_error": "12:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "12:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-02",
   "models": [
@@ -8185,7 +8189,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
-   "ok": 76,
+   "ok": 77,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8193,7 +8197,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
-   "ok": 76,
+   "ok": 77,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8201,7 +8205,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
-   "ok": 76,
+   "ok": 77,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8209,14 +8213,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 79,
+   "ok": 80,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 79,
+   "ok": 80,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8224,21 +8228,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 79,
+   "ok": 80,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 79,
+   "ok": 80,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 79,
+   "ok": 80,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8381,8 +8385,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 20,
-  "old": 20,
+  "found": 25,
+  "old": 25,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8418,8 +8422,8 @@
  "sindh_stream": {
   "date": "2026-11-02",
   "count": 9,
-  "last": 1793604667.8851593,
-  "city_i": 18,
+  "last": 1793605867.9635372,
+  "city_i": 22,
   "dry": 1793593864.866899
  },
  "gemini_day_dead": {
@@ -9020,13 +9024,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-02 06:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-02 06:30",
    "ok": true,
    "n": 0,
@@ -9294,6 +9291,13 @@
   },
   {
    "t": "11-02 12:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-02 12:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13455,11 +13459,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-30 03:51",
-   "new": "هاءِ اسپيڊ ڊيزل جي قيمت ۾ واڌ",
-   "old": "پيٽرول اگهه برقرار، هاءِ اسپيڊ ڊيزل مهانگو"
-  },
-  {
    "t": "10-30 06:51",
    "new": "پيٽرول اگهه برقرار، هاءِ اسپيڊڊيزل مهانگو",
    "old": "پيٽرول اگهه برقرار، هاءِ اسپيڊ ڊيزل مهانگو"
@@ -13603,6 +13602,11 @@
    "t": "11-02 05:31",
    "new": "ملڪ ۾ موسم خشڪ رهڻ جو امڪان",
    "old": "صبح جون خبرون | آچر، 1 نومبر 2026"
+  },
+  {
+   "t": "11-02 12:51",
+   "new": "قاضي احمد ۾ وياج کان پريشان ماءُ ٻار وڪڻڻ جو اعلان ڪري ڇڏيو",
+   "old": "نوابشاهه: قرض جي تڪرار تان ماءُ جي مدد جي اپيل"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13623,6 +13627,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 3
- }
+  "repeat": 4
+ },
+ "_dup": true
 }
