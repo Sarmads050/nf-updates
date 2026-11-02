@@ -105,7 +105,7 @@ def write_script(stories):
               "- \"ok\": true ONLY if the item text is clean and clear. Set false if it has misspelled, broken, garbled "
               "or wrongly written words, wrong/mixed letters (Urdu or English letters inside Sindhi words), incomplete "
               "or confusing sentences, or if the main facts are unclear. When unsure, false.\n"
-              "- \"say\": what the news anchor will SAY, in correct Sindhi: 3 short spoken sentences (40-50 words, NEVER more than 55) "
+              "- \"say\": what the news anchor will SAY, in correct Sindhi: 3 short spoken sentences (35-45 words, NEVER more than 50) "
               "giving the MAIN point of the news and its key details and facts: who, what, where, when, and any "
               "numbers, amounts, names or decisions mentioned. Only facts from the item, nothing invented, no opinion; "
               "numbers written as words where natural;\n"
@@ -122,7 +122,7 @@ def write_script(stories):
         if not isinstance(it, dict) or str(it.get("ok", "")).lower() != "true":
             log("chhor di (alfaz/baat saaf nahi):", s["h"][:60])
             continue
-        say = cap_words(bot.clean_text(str(it.get("say", ""))), 58)
+        say = cap_words(bot.clean_text(str(it.get("say", ""))), 52)
         head = bot.cut_words(bot.clean_text(str(it.get("head", ""))), 70) or bot.cut_words(s["h"], 70)
         line = bot.trim_sentences(bot.clean_text(str(it.get("line", ""))), 140)
         if (len(say) < 30 or bot.bad_script(say + head + line) or bot.looks_urdu(say + " " + head)
@@ -147,6 +147,16 @@ def tts_models():
     return sorted(ms, key=rank)
 
 
+def speed_up(pcm, factor):
+    import scipy.io.wavfile as wav
+    a, b = os.path.join(nv.TMP, "sp_in.wav"), os.path.join(nv.TMP, "sp_out.wav")
+    wav.write(a, RATE, (np.clip(pcm, -1, 1) * 32767).astype("int16"))
+    run(["ffmpeg", "-y", "-i", a, "-filter:a", f"atempo={factor:.4f}", "-ar", str(RATE), "-ac", "1", b])
+    out = wav.read(b)[1].astype(np.float32) / 32768
+    log("awaz tez ki", round(factor, 3))
+    return out
+
+
 def make_audio(paras):
     """Ek hi TTS call (quota bachao); phir khamoshi se har hisse ka waqt. Music, intro/outro sting, whoosh."""
     pcm = None
@@ -158,6 +168,9 @@ def make_audio(paras):
     if pcm is None:
         return None
     lead, tail = 3.2, 3.6
+    need = (88.5 - lead - tail) * RATE
+    if len(pcm) > need and len(pcm) <= need * 1.15:  # thori si lambi: awaz halki tez (pitch wahi), dobara TTS nahi
+        pcm = speed_up(pcm, len(pcm) / need)
     b = nv.boundaries(pcm, paras)  # [0, ..., dur] har paragraph ka shuru
     total = lead + len(pcm) / RATE + tail
     bed = vs.music(total)
@@ -474,8 +487,8 @@ def main():
     stories, items = [p[0] for p in pairs], [p[1] for p in pairs]
     intro_say = f"السلام عليڪم! نوشهروفيروز اپڊيٽس ۾ ڀليڪار. هي آهن هن وقت جون اهم خبرون."
     outro_say = "وڌيڪ خبرن لاءِ نوشهروفيروز اپڊيٽس کي فالو ڪريو. الله حافظ."
-    # TTS ka quota kam hai: pehle hi andaza (takreeban 2.8 lafz/second) — lambi ho to aakhri khabar hata do
-    while len(items) > 2 and len(" ".join([intro_say, outro_say] + [it["say"] for it in items]).split()) > 195:
+    # TTS ka quota kam hai: pehle hi andaza (takreeban 2.3 lafz/second) — lambi ho to aakhri khabar hata do
+    while len(items) > 2 and len(" ".join([intro_say, outro_say] + [it["say"] for it in items]).split()) > 170:
         stories, items = stories[:-1], items[:-1]
     while True:
         paras = [intro_say] + [f"{NUM_SD[i]}. {it['say']}" for i, it in enumerate(items)] + [outro_say]
@@ -483,7 +496,7 @@ def main():
         if not aud:
             raise RuntimeError("awaz (TTS) nahi bani")
         audio, total, spans = aud
-        log("audio seconds", round(total, 1), "khabrein", len(items))
+        log("audio seconds", round(total, 1), "khabrein", len(items), "lafz", len(" ".join(paras).split()))
         if total <= 89:
             break
         if len(items) <= 2:
