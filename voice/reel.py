@@ -83,6 +83,19 @@ def pick_stories(n):
     return out, used
 
 
+def cap_words(text, n):
+    """Bolne wala hissa had se lamba ho to poore jumlon tak kaat do (reel 90 second se kam rahe)."""
+    if len(text.split()) <= n:
+        return text
+    import re
+    out = ""
+    for sent in re.split(r"(?<=[.۔؟!])\s+", text):
+        if len((out + " " + sent).split()) > n:
+            break
+        out = (out + " " + sent).strip()
+    return out or " ".join(text.split()[:n])
+
+
 def write_script(stories):
     """Har khabar: pehle jaanch (alfaz sahih? baat saaf?), phir anchor ka hissa (asal baat + ahem tafseel),
     screen ki sarkhi aur ek line. Wapas: [(khabar, item)] sirf theek khabron ke, usi tarteeb mein."""
@@ -92,7 +105,7 @@ def write_script(stories):
               "- \"ok\": true ONLY if the item text is clean and clear. Set false if it has misspelled, broken, garbled "
               "or wrongly written words, wrong/mixed letters (Urdu or English letters inside Sindhi words), incomplete "
               "or confusing sentences, or if the main facts are unclear. When unsure, false.\n"
-              "- \"say\": what the news anchor will SAY, in correct Sindhi: 3-4 short spoken sentences (45-60 words) "
+              "- \"say\": what the news anchor will SAY, in correct Sindhi: 3 short spoken sentences (40-50 words, NEVER more than 55) "
               "giving the MAIN point of the news and its key details and facts: who, what, where, when, and any "
               "numbers, amounts, names or decisions mentioned. Only facts from the item, nothing invented, no opinion; "
               "numbers written as words where natural;\n"
@@ -109,7 +122,7 @@ def write_script(stories):
         if not isinstance(it, dict) or str(it.get("ok", "")).lower() != "true":
             log("chhor di (alfaz/baat saaf nahi):", s["h"][:60])
             continue
-        say = bot.clean_text(str(it.get("say", "")))
+        say = cap_words(bot.clean_text(str(it.get("say", ""))), 58)
         head = bot.cut_words(bot.clean_text(str(it.get("head", ""))), 70) or bot.cut_words(s["h"], 70)
         line = bot.trim_sentences(bot.clean_text(str(it.get("line", ""))), 140)
         if (len(say) < 30 or bot.bad_script(say + head + line) or bot.looks_urdu(say + " " + head)
@@ -461,6 +474,9 @@ def main():
     stories, items = [p[0] for p in pairs], [p[1] for p in pairs]
     intro_say = f"السلام عليڪم! نوشهروفيروز اپڊيٽس ۾ ڀليڪار. هي آهن هن وقت جون اهم خبرون."
     outro_say = "وڌيڪ خبرن لاءِ نوشهروفيروز اپڊيٽس کي فالو ڪريو. الله حافظ."
+    # TTS ka quota kam hai: pehle hi andaza (takreeban 2.8 lafz/second) — lambi ho to aakhri khabar hata do
+    while len(items) > 2 and len(" ".join([intro_say, outro_say] + [it["say"] for it in items]).split()) > 195:
+        stories, items = stories[:-1], items[:-1]
     while True:
         paras = [intro_say] + [f"{NUM_SD[i]}. {it['say']}" for i, it in enumerate(items)] + [outro_say]
         aud = make_audio(paras)
