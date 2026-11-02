@@ -1701,7 +1701,18 @@
   "bd046adbc9dab925": 1793647258.484127,
   "c5f6818df2cd77ab": 1793647258.4841552,
   "a0deab66b6abcec8": 1793648526.100132,
-  "28a2ad55ae539e78": 1793648526.1023684
+  "28a2ad55ae539e78": 1793648526.1023684,
+  "3cf0e5609a3d5f5f": 1793649098.4414198,
+  "00f68a2026ef63cb": 1793649098.4414227,
+  "0d120787de0898db": 1793649098.4414241,
+  "935451c497627137": 1793649098.441426,
+  "5098a973a4e6e2bb": 1793649098.4414272,
+  "811ae88cb3398245": 1793649098.4414282,
+  "e926c91a99216148": 1793649098.4414291,
+  "1f3306b8501e96c9": 1793649098.44143,
+  "bac71f354d8181e9": 1793649098.4414313,
+  "c5552363973266ea": 1793649188.5192251,
+  "e07109f655fd51ef": 1793649188.519423
  },
  "pending": {},
  "queue": [],
@@ -1899,20 +1910,8 @@
    "8ba168c9997f9ea5"
   ]
  },
- "last_post_id": "1444130002106066_122116942239503839",
+ "last_post_id": "1444130002106066_122116957539503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122116707393503839",
-   "title": "شڪارپور ويجهو پوليس آپريشن، هڪ هٿياربند مارجي ويو",
-   "t": 1793595706.5675209,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122116707393503839"
-  },
   {
    "id": "1444130002106066_122116721607503839",
    "title": "روس ۽ يوڪرين جي هنگامي سسٽم تي سائبر حملو",
@@ -2235,6 +2234,16 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122116942239503839"
+  },
+  {
+   "id": "1444130002106066_122116957539503839",
+   "title": "موسميات کاتي ملڪ جي اثر پذير اڪثر علائقن ۾ اڱاري جي ڏينهن موسم خشڪ رهڻ جي اڳڪٿي ڪئي آهي",
+   "t": 1793649405.7818456,
+   "tags": [
+    "general",
+    "local"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122116957539503839"
   }
  ],
  "share_sent": {
@@ -2445,10 +2454,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 00:42",
+  "time": "2026-11-03 00:56",
   "items": 25,
   "sample": [
-   "New Zealand A 424/10 v India A 32 & 346/10 *",
+   "New Zealand A 424/10 v India A 346/10 & 32 *",
    "Queensland 280/10 v Victoria 307/10 & 136/6 *",
    "Assam 135/10 v Karnataka 180/2 *"
   ]
@@ -2460,17 +2469,11 @@
  },
  "all_posts": {
   "date": "2026-11-03",
-  "count": 1,
-  "last": 1793646216.4530811
+  "count": 2,
+  "last": 1793649402.5343971
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122112694503503839",
-    "sec": "kawish",
-    "cat": "sindh",
-    "t": 1792764185
-   },
    {
     "id": "1444130002106066_122112704085503839",
     "sec": "kawish",
@@ -4864,13 +4867,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1793646221
+   },
+   {
+    "id": "1444130002106066_122116957539503839",
+    "sec": "public_news",
+    "cat": "weather_disaster",
+    "t": 1793649405
    }
   ]
  },
  "public_news": {
   "date": "2026-11-03",
-  "count": 0,
-  "last": 1793622886.3833363
+  "count": 1,
+  "last": 1793649405.7818277
  },
  "trends": {
   "last": 1793641857.1898801,
@@ -7920,15 +7929,11 @@
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 7,
-  "fail": 8,
-  "limit": 8
+  "ok": 18,
+  "fail": 28,
+  "limit": 28
  },
  "posted_heads": [
-  {
-   "h": "Pakistan win toss, opt to bowl first against Sri Lanka in ODI tri-series final",
-   "t": 1793435040
-  },
   {
    "h": "You can generate and edit Google Docs files directly in Gemini chats now",
    "t": 1793436227
@@ -8244,10 +8249,14 @@
   {
    "h": "Sadiq urges technical changes to help Babar Azam regain form",
    "t": 1793646221
+  },
+  {
+   "h": "PMD Forecasts Dry Weather Across Most Of Pakistan On Tuesday",
+   "t": 1793649405
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 00:42",
+  "time": "2026-11-03 00:56",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8350,12 +8359,12 @@
  },
  "article_diag": {
   "date": "2026-11-03",
-  "tried": 1,
-  "decoded": 1,
-  "text": 0,
+  "tried": 2,
+  "decoded": 2,
+  "text": 1,
   "story": 0
  },
- "ai_last_error": "00:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "00:55 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8369,9 +8378,9 @@
  },
  "img_diag": {
   "date": "2026-11-03",
-  "tried": 1,
+  "tried": 2,
   "gemini": 0,
-  "pollinations": 1,
+  "pollinations": 2,
   "skip": 0,
   "fail": 0,
   "last_note": "cricket bat and helmet",
@@ -8396,7 +8405,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8404,30 +8413,30 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 4,
+   "ok": 5,
    "fail": 1,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 4,
+   "ok": 5,
    "fail": 1,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8435,21 +8444,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8588,12 +8597,12 @@
   "date": "2026-11-03",
   "district": 0,
   "sindh": 0,
-  "pakistan": 1
+  "pakistan": 2
  },
  "report_acc": {
-  "posted": 0,
-  "found": 15,
-  "old": 15,
+  "posted": 1,
+  "found": 19,
+  "old": 19,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8630,9 +8639,9 @@
  "sindh_stream": {
   "date": "2026-11-03",
   "count": 0,
-  "last": 1793641868.875565,
-  "city_i": 24,
-  "dry": 1793646088.1600294
+  "last": 1793649067.4427004,
+  "city_i": 6,
+  "dry": 1793649098.4414334
  },
  "gemini_day_dead": {
   "day": "2026-11-02",
@@ -9223,6 +9232,14 @@
    "t": 1793646221,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "66a6bfe73a41bd1a",
+   "h": "موسميات کاتي طرفان اڱاري جو سڪي موسم جي اڳڪٿي",
+   "x": "موسميات کاتي ملڪ جي اڪثر علائقن ۾ اڱاري جي ڏينهن موسم خشڪ رهڻ جي اڳڪٿي ڪئي آهي.",
+   "t": 1793649405,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9236,13 +9253,6 @@
   "last": 1793356878.054588
  },
  "tg_debug": [
-  {
-   "t": "11-02 18:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-02 18:30",
    "ok": true,
@@ -9511,6 +9521,13 @@
   },
   {
    "t": "11-03 00:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 00:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13454,6 +13471,36 @@
     "پنهنجي",
     "ڪرڪيٽ"
    ]
+  },
+  {
+   "t": 1793649405,
+   "h": "موسميات کاتي طرفان اڱاري جو سڪي موسم جي اڳڪٿي",
+   "b": "موسميات کاتي ملڪ جي اڪثر علائقن ۾ اڱاري جي ڏينهن موسم خشڪ رهڻ جي اڳڪٿي ڪئي آهي.",
+   "tt": [
+    "اڱاري",
+    "اڳڪٿي",
+    "سڪي",
+    "طرفان",
+    "موسم",
+    "موسميات",
+    "ڪاتي"
+   ],
+   "bt": [
+    "اهي",
+    "اڪثر",
+    "اڱاري",
+    "اڳڪٿي",
+    "خشڪ",
+    "رهڻ",
+    "سڪي",
+    "طرفان",
+    "علائقن",
+    "ملڪ",
+    "موسم",
+    "موسميات",
+    "ڏينهن",
+    "ڪاتي"
+   ]
   }
  ],
  "repeat_log": [
@@ -13621,7 +13668,7 @@
  },
  "quality": {
   "date": "2026-11-03",
-  "editor_fixed": 0,
+  "editor_fixed": 1,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
