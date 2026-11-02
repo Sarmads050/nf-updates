@@ -1,8 +1,5 @@
 {
  "seen": {
-  "772aca178e64bb7f": 1793025674.1682572,
-  "0370c21d4127c92c": 1793025674.1682591,
-  "b62de3e9a2f62a53": 1793025674.168261,
   "f600e67074f8ea6c": 1793028065.4865923,
   "b761366282906f32": 1793028065.4865947,
   "0bbef6bc52a1b667": 1793032335.6283748,
@@ -1666,7 +1663,9 @@
   "f3c61fa769df58a1": 1793629256.495766,
   "795fab5713cc616f": 1793629256.4957967,
   "4898f0df6dc30e99": 1793629871.8965473,
-  "1925781c4ca306fc": 1793629871.8965502
+  "1925781c4ca306fc": 1793629871.8965502,
+  "f54319cf64450b4a": 1793631062.5133078,
+  "3422607609e1d3c2": 1793631077.085351
  },
  "pending": {},
  "queue": [],
@@ -2394,11 +2393,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 19:41",
+  "time": "2026-11-02 19:51",
   "items": 26,
   "sample": [
-   "New Zealand A 424/10 v India A 32 & 346/10 *",
-   "Queensland 280/10 v Victoria 136/6 & 307/10 *",
+   "New Zealand A 424/10 v India A 346/10 & 32 *",
+   "Queensland 280/10 v Victoria 307/10 & 136/6 *",
    "Assam 135/10 v Karnataka 180/2 *"
   ]
  },
@@ -7853,9 +7852,9 @@
  },
  "ai_usage": {
   "date": "2026-11-02",
-  "ok": 275,
-  "fail": 438,
-  "limit": 441
+  "ok": 278,
+  "fail": 444,
+  "limit": 447
  },
  "posted_heads": [
   {
@@ -8180,7 +8179,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 19:41",
+  "time": "2026-11-02 19:51",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8283,12 +8282,12 @@
  },
  "article_diag": {
   "date": "2026-11-02",
-  "tried": 25,
-  "decoded": 25,
-  "text": 22,
-  "story": 19
+  "tried": 26,
+  "decoded": 26,
+  "text": 23,
+  "story": 20
  },
- "ai_last_error": "19:40 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "19:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-02",
   "models": [
@@ -8329,7 +8328,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
-   "ok": 116,
+   "ok": 117,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -8337,7 +8336,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
-   "ok": 117,
+   "ok": 118,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8345,7 +8344,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
-   "ok": 117,
+   "ok": 118,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8353,14 +8352,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 122,
+   "ok": 123,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 122,
+   "ok": 123,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8368,21 +8367,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 122,
+   "ok": 123,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 122,
+   "ok": 123,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 121,
+   "ok": 122,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8494,8 +8493,8 @@
    "30-10-2026",
    "31-10-2026"
   ],
-  "last_try": 1793629256.4959567,
-  "last_try_note": "19:20 abhi nahi mila",
+  "last_try": 1793631062.5137708,
+  "last_try_note": "19:51 abhi nahi mila",
   "paper": {
    "date": "31-10-2026",
    "read": [
@@ -8525,8 +8524,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 24,
-  "old": 24,
+  "found": 30,
+  "old": 30,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8562,8 +8561,8 @@
  "sindh_stream": {
   "date": "2026-11-02",
   "count": 18,
-  "last": 1793629868.2339551,
-  "city_i": 14,
+  "last": 1793631074.822376,
+  "city_i": 18,
   "dry": 1793629871.896552
  },
  "gemini_day_dead": {
@@ -9183,13 +9182,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-02 13:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-02 13:25",
    "ok": true,
    "n": 0,
@@ -9457,6 +9449,13 @@
   },
   {
    "t": "11-02 19:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-02 19:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13318,11 +13317,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-30 16:01",
-   "new": "هانگ ڪانگ سڪسز: پاڪستان ڀارت کي 4 وڪيٽن تان هارائي ڇڏيو",
-   "old": "عباس آفريدي جي شاندار بالنگ سان پاڪستان جي فتح"
-  },
-  {
    "t": "10-31 03:31",
    "new": "ٽاءِ سيريز جي فائينل ۾ بهترين راند جي اميد آهي",
    "old": "پاڪستاني ڪرڪيٽ ٽيم اڃا پنهنجو بهترين سٺو نه کيڏيو آهي، هيسن"
@@ -13466,6 +13460,11 @@
    "t": "11-02 19:11",
    "new": "پيٽرول 15 رپيا في ليٽر سستو ٿين جو امڪان",
    "old": "سنڌ | پيٽرول جي قيمت ۾ ممڪنه گهٽتائي جو اعلان"
+  },
+  {
+   "t": "11-02 19:51",
+   "new": "پيٽرول واڌ روڪي ڇڏي آهي: وفاقي حڪومت",
+   "old": "سنڌ | پيٽرول جي قيمت ۾ ممڪنه گهٽتائي جو اعلان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13486,7 +13485,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 9
+  "repeat": 10
  },
  "_dup": true
 }
