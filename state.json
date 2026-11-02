@@ -1692,7 +1692,9 @@
   "76109370cd6efd63": 1793640702.868076,
   "c9ffc277e793b422": 1793640702.8680766,
   "fc34fe3417833402": 1793641255.37654,
-  "eba55ba97cf3f55a": 1793641255.3769262
+  "eba55ba97cf3f55a": 1793641255.3769262,
+  "99d135f59d08f785": 1793641871.4477046,
+  "8ed4e4035acb72ac": 1793641871.4477086
  },
  "pending": {},
  "queue": [],
@@ -2430,10 +2432,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 22:40",
+  "time": "2026-11-02 22:51",
   "items": 25,
   "sample": [
-   "New Zealand A 424/10 v India A 32 & 346/10 *",
+   "New Zealand A 424/10 v India A 346/10 & 32 *",
    "Queensland 280/10 v Victoria 136/6 & 307/10 *",
    "Assam 135/10 v Karnataka 180/2 *"
   ]
@@ -4858,56 +4860,8 @@
   "last": 1793622886.3833363
  },
  "trends": {
-  "last": 1793630457.0122592,
+  "last": 1793641857.1898801,
   "terms": [
-   {
-    "term": "islamabad traffic police",
-    "traffic": 100,
-    "news": "Islamabad Traffic Police Announces Diversions for Kashmir Chowk Underpass Construction",
-    "t": 1793029252,
-    "cat": "transport_trade",
-    "sindh": false
-   },
-   {
-    "term": "oxford street",
-    "traffic": 100,
-    "news": "Licensable video: London gives pedestrians more room on iconic Oxford Street",
-    "t": 1793029252,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "pakistan cricket team",
-    "traffic": 1000,
-    "news": "PCB releases Sufiyan Moqim from tri-series squad, adds Maaz Sadaqat as cover",
-    "t": 1793029252,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "videos",
-    "traffic": 1000,
-    "news": "NCCIA Traces Network Allegedly Trading Child Abuse Videos Through Telegram",
-    "t": 1793029252,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "federal investigation agency",
-    "traffic": 500,
-    "news": "Organ trade crackdown",
-    "t": 1793029252,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "ankara international military drone tournament",
-    "traffic": 200,
-    "news": "Licensable picture: Best International Military Drone Team Competition in Ankara",
-    "t": 1793029252,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "hyundai bayon",
     "traffic": 200,
@@ -7883,15 +7837,79 @@
     "t": 1793630457,
     "cat": "cricket",
     "sindh": false
+   },
+   {
+    "term": "adrian hamilton-manns",
+    "traffic": 200,
+    "news": "Pakistan International Airlines appoints Adrian Hamilton-Manns as chief executive",
+    "t": 1793641857,
+    "cat": "transport_trade",
+    "sindh": false
+   },
+   {
+    "term": "rajinikanth",
+    "traffic": 200,
+    "news": "'Jailer 2' becomes first Tamil film to collect Rs 8 billion at global box office",
+    "t": 1793641857,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "al wasl vs al-quwa al-jawiya",
+    "traffic": 200,
+    "news": "How to get Al-Wasl vs Al Quwa Al Jawiya tickets: AFC Champions League Elite prices, fixture information, last-minute sales & more",
+    "t": 1793641857,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "pakhtakor fc vs al-nassr standings",
+    "traffic": 20000,
+    "news": "Cristiano Ronaldo's Absence Shocks Fans in the AFC Champions League: What Happened?",
+    "t": 1793641857,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "sleep",
+    "traffic": 200,
+    "news": "Staying up late at weekends may increase risk of stroke",
+    "t": 1793641857,
+    "cat": "health",
+    "sindh": false
+   },
+   {
+    "term": "usman khawaja",
+    "traffic": 200,
+    "news": "Recent Match Report - Queensland vs Victoria, Sheffield Shield 2026, 9th Match | ESPN.com",
+    "t": 1793641857,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "resident evil 2026",
+    "traffic": 200,
+    "news": "Zach Cregger's 'Resident Evil' Reboot Hits $400 Million USD at the Global Box Office",
+    "t": 1793641857,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "claim",
+    "traffic": 100,
+    "news": "How the Dream's devastating first quarter forced the WNBA Finals to Game 7",
+    "t": 1793641857,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-02",
-  "ok": 309,
-  "fail": 488,
-  "limit": 492
+  "ok": 314,
+  "fail": 498,
+  "limit": 502
  },
  "posted_heads": [
   {
@@ -8216,7 +8234,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 22:40",
+  "time": "2026-11-02 22:51",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8319,12 +8337,12 @@
  },
  "article_diag": {
   "date": "2026-11-02",
-  "tried": 26,
-  "decoded": 26,
-  "text": 23,
-  "story": 20
+  "tried": 27,
+  "decoded": 27,
+  "text": 24,
+  "story": 21
  },
- "ai_last_error": "22:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "22:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-02",
   "models": [
@@ -8365,7 +8383,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
-   "ok": 134,
+   "ok": 135,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -8373,7 +8391,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
-   "ok": 135,
+   "ok": 136,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8381,7 +8399,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
-   "ok": 135,
+   "ok": 136,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8389,14 +8407,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 140,
+   "ok": 141,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 140,
+   "ok": 141,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8404,21 +8422,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 140,
+   "ok": 141,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 140,
+   "ok": 141,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 139,
+   "ok": 140,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8561,8 +8579,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 24,
-  "old": 24,
+  "found": 30,
+  "old": 30,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8598,8 +8616,8 @@
  "sindh_stream": {
   "date": "2026-11-02",
   "count": 22,
-  "last": 1793640671.417596,
-  "city_i": 14,
+  "last": 1793641868.875565,
+  "city_i": 18,
   "dry": 1793640702.8680782
  },
  "gemini_day_dead": {
@@ -9213,13 +9231,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-02 16:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-02 16:20",
    "ok": true,
    "n": 0,
@@ -9487,6 +9498,13 @@
   },
   {
    "t": "11-02 22:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-02 22:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13391,7 +13409,7 @@
  "quality": {
   "date": "2026-11-02",
   "editor_fixed": 35,
-  "editor_rejected": 4,
+  "editor_rejected": 5,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
