@@ -1630,7 +1630,10 @@
   "d10e6f1f774a0609": 1793622683.72225,
   "c92df0c49cbe8140": 1793622683.7222512,
   "b2c5fa7627c8cce1": 1793622683.7222528,
-  "5afa9245bf0acc64": 1793622683.7225084
+  "5afa9245bf0acc64": 1793622683.7225084,
+  "54733bf3e5d9eadf": 1793623870.343817,
+  "54e4e58c25a999bf": 1793623870.3438194,
+  "bd2d5665fad5c1a3": 1793623870.343822
  },
  "pending": {},
  "queue": [],
@@ -1754,17 +1757,8 @@
    "2a1c259cf89ab2c8"
   ]
  },
- "last_post_id": "1444130002106066_122116853571503839",
+ "last_post_id": "1444130002106066_122116857975503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122116622601503839",
-   "title": "قومي ڪرڪيٽ ٽيم جي بيٽر فخر زمان ٽاءِ سيريز جي فتح تي خوش جو اظهار ڪندي نوجوان رانديگرن جي",
-   "t": 1793569326.9730775,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122116622601503839"
-  },
   {
    "id": "1444130002106066_122116633005503839",
    "title": "پنجاب زرعي کاتي هارين کي ڪڻڪ جي پوکيءَ ۽ تصديق ٿيل ٻج جي استعمال جي حوالي سان اهم هدايتون",
@@ -2076,6 +2070,18 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122116853571503839"
+  },
+  {
+   "id": "1444130002106066_122116857975503839",
+   "title": "شگر ڪين بورڊ جو اجلاس: آبادگارن جو 650 رپيا مڻ اگهه جو مطالبو",
+   "t": 1793623961.79907,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122116857975503839"
   }
  ],
  "share_sent": {
@@ -2286,11 +2292,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 17:41",
+  "time": "2026-11-02 17:52",
   "items": 26,
   "sample": [
    "New Zealand A 424/10 v India A 346/10 & 32 *",
-   "Queensland 280/10 v Victoria 136/6 & 307/10 *",
+   "Queensland 280/10 v Victoria 307/10 & 136/6 *",
    "Assam 135/10 v Karnataka 180/2 *"
   ]
  },
@@ -2301,17 +2307,11 @@
  },
  "all_posts": {
   "date": "2026-11-02",
-  "count": 33,
-  "last": 1793622879.415923
+  "count": 34,
+  "last": 1793623953.0291224
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122112648963503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1792754488
-   },
    {
     "id": "1444130002106066_122112654351503839",
     "sec": "sindh_stream",
@@ -4705,6 +4705,12 @@
     "sec": "public_news",
     "cat": "inflation",
     "t": 1793622886
+   },
+   {
+    "id": "1444130002106066_122116857975503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1793623961
    }
   ]
  },
@@ -7729,15 +7735,11 @@
  },
  "ai_usage": {
   "date": "2026-11-02",
-  "ok": 252,
-  "fail": 402,
-  "limit": 405
+  "ok": 258,
+  "fail": 410,
+  "limit": 413
  },
  "posted_heads": [
-  {
-   "h": "OGRA raises RLNG prices by up to 15.27pc for October",
-   "t": 1793409094
-  },
   {
    "h": "Govt keeps petrol price unchanged, raises diesel by Rs2.29 per litre",
    "t": 1793411496
@@ -8053,10 +8055,14 @@
   {
    "h": "Consumer inflation falls to 9.6pc in Oct from 10.3pc in Sept",
    "t": 1793622886
+  },
+  {
+   "h": "شگر ڪين بورڊ جو پهريون اجلاس، آبادگارن جو 650 رپيا في مڻ اگهه جو مطالبو، پاسما غير حاضر",
+   "t": 1793623961
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 17:41",
+  "time": "2026-11-02 17:52",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8164,7 +8170,7 @@
   "text": 22,
   "story": 19
  },
- "ai_last_error": "17:32 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "17:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-02",
   "models": [
@@ -8178,13 +8184,13 @@
  },
  "img_diag": {
   "date": "2026-11-02",
-  "tried": 32,
+  "tried": 33,
   "gemini": 0,
-  "pollinations": 16,
+  "pollinations": 17,
   "skip": 10,
   "fail": 4,
-  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
-  "mismatch": 330
+  "last_note": "fresh sugarcane stalks",
+  "mismatch": 331
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -8205,7 +8211,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
-   "ok": 104,
+   "ok": 105,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -8213,7 +8219,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
-   "ok": 105,
+   "ok": 106,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8221,7 +8227,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
-   "ok": 105,
+   "ok": 106,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8229,14 +8235,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8244,21 +8250,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 109,
+   "ok": 110,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8396,13 +8402,13 @@
  "region_posts": {
   "date": "2026-11-02",
   "district": 1,
-  "sindh": 16,
+  "sindh": 17,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 2,
-  "found": 24,
-  "old": 24,
+  "posted": 3,
+  "found": 30,
+  "old": 30,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8437,9 +8443,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-02",
-  "count": 15,
-  "last": 1793622060.6871095,
-  "city_i": 16,
+  "count": 16,
+  "last": 1793623867.9487953,
+  "city_i": 20,
   "dry": 1793620938.3626566
  },
  "gemini_day_dead": {
@@ -9015,6 +9021,14 @@
    "t": 1793622886,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "d4e564d27d4f1639",
+   "h": "شگر ڪين بورڊ جو اجلاس: آبادگارن جو 650 رپيا مڻ اگهه جو مطالبو",
+   "x": "سنڌ ۾ ڪمند جو اگهه مقرر ڪرڻ ۽ شگر ملون وقت سر هلائڻ بابت شگر ڪين بورڊ جو پهريون اجلاس صوبائي وزير محمد بخش مهر جي صدارت هيٺ ٿيو. اجلاس ۾ پاڪستان شگر ملز ايسوسيئيشن (پاسما) جا نمائندا شريڪ نه ٿيا. اجلاس دوران آبادگار اڳواڻن ڪمند جو اگهه گهٽ ۾ گهٽ 650 رپيا في مڻ مقرر ڪرڻ جو مطالبو ڪيو. ان موقعي تي صوبائي وزير محمد بخش مهر چيو ته شگر ملون 15 کان 20 نومبر تائين هلائڻ بابت سفارش صوبائي ڪابينا آڏو پيش ڪئي ويندي. بيان: صوبائي وزير محمد بخش مهر",
+   "t": 1793623961,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9033,13 +9047,6 @@
   "last": 1793356878.054588
  },
  "tg_debug": [
-  {
-   "t": "11-02 11:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-02 11:30",
    "ok": true,
@@ -9312,27 +9319,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-02 17:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-02",
  "recent_posts": [
-  {
-   "t": 1793450578,
-   "h": "اننگز جو وقفو",
-   "b": "پاڪستان 1 🏏 سري لنڪا 325/8",
-   "tt": [
-    "اننگز",
-    "وقفو"
-   ],
-   "bt": [
-    "#325",
-    "اننگز",
-    "سري",
-    "لنڪا",
-    "وقفو",
-    "پاڪستان"
-   ]
-  },
   {
    "t": 1793451771,
    "h": "شام جون سنڌ جون اهم خبرون",
@@ -13104,6 +13101,60 @@
     "گهٽتائي،",
     "گهٽجي"
    ]
+  },
+  {
+   "t": 1793623961,
+   "h": "شگر ڪين بورڊ جو اجلاس: آبادگارن جو 650 رپيا مڻ اگهه جو مطالبو",
+   "b": "سنڌ ۾ ڪمند جو اگهه مقرر ڪرڻ ۽ شگر ملون وقت سر هلائڻ بابت شگر ڪين بورڊ جو پهريون اجلاس صوبائي وزير محمد بخش",
+   "tt": [
+    "#650",
+    "ابادگارن",
+    "اجلاس",
+    "اگهه",
+    "بورڊ",
+    "رپيا",
+    "شگر",
+    "مطالبو",
+    "ڪين"
+   ],
+   "bt": [
+    "#650",
+    "ابادگار",
+    "ابادگارن",
+    "اجلاس",
+    "ايسوسيئيشن",
+    "اگهه",
+    "اڳواڻن",
+    "بابت",
+    "بخش",
+    "بورڊ",
+    "دوران",
+    "رپيا",
+    "سنڌ",
+    "شريڪ",
+    "شگر",
+    "صدارت",
+    "صوبائي",
+    "محمد",
+    "مطالبو",
+    "مقرر",
+    "ملز",
+    "ملون",
+    "مهر",
+    "نمائندا",
+    "هلائڻ",
+    "هيٺ",
+    "وزير",
+    "وقت",
+    "پاسما",
+    "پاڪستان",
+    "پهريون",
+    "ٿيا",
+    "ڪرڻ",
+    "ڪمند",
+    "ڪين",
+    "گهٽ"
+   ]
   }
  ],
  "repeat_log": [
@@ -13271,7 +13322,7 @@
  },
  "quality": {
   "date": "2026-11-02",
-  "editor_fixed": 28,
+  "editor_fixed": 29,
   "editor_rejected": 3,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
