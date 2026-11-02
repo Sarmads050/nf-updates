@@ -1,6 +1,5 @@
 {
  "seen": {
-  "a684d47982888983": 1793012533.7037942,
   "a86575dd0e46e372": 1793013051.8954713,
   "4bfc3b6d152c1ea9": 1793013066.8970447,
   "c731f005bc3b36f3": 1793013350.6162734,
@@ -2283,12 +2282,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 16:03",
+  "time": "2026-11-02 16:11",
   "items": 27,
   "sample": [
    "Tasmania 427/10 v New South Wales 202/10 & 144/10 *",
-   "New Zealand A 424/10 v India A 346/10 & 32 *",
-   "Queensland 280/10 v Victoria 307/10 & 136/6 *"
+   "New Zealand A 424/10 v India A 32 & 346/10 *",
+   "Queensland 280/10 v Victoria 136/6 & 307/10 *"
   ]
  },
  "agri_news": {
@@ -8077,7 +8076,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 16:03",
+  "time": "2026-11-02 16:11",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8226,7 +8225,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
-   "ok": 95,
+   "ok": 96,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8234,7 +8233,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
-   "ok": 96,
+   "ok": 97,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8242,7 +8241,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
-   "ok": 96,
+   "ok": 97,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8250,14 +8249,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8265,21 +8264,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8391,8 +8390,8 @@
    "30-10-2026",
    "31-10-2026"
   ],
-  "last_try": 1793616052.9816241,
-  "last_try_note": "15:40 abhi nahi mila",
+  "last_try": 1793617859.6631582,
+  "last_try_note": "16:11 abhi nahi mila",
   "paper": {
    "date": "31-10-2026",
    "read": [
@@ -8422,8 +8421,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9038,13 +9037,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-02 09:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-02 09:50",
    "ok": true,
    "n": 0,
@@ -9312,6 +9304,13 @@
   },
   {
    "t": "11-02 16:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-02 16:10",
    "ok": true,
    "n": 0,
    "ids": [],
