@@ -1,16 +1,5 @@
 {
  "seen": {
-  "24ae97d516a673a0": 1792974077.7897685,
-  "67768141305dd789": 1792974077.7897701,
-  "6c6e7247f6e2e776": 1792974077.7897713,
-  "887fa1c9888c3f49": 1792974077.7897716,
-  "83c36947b0fdebc8": 1792974077.7897723,
-  "1b918f5d847975dd": 1792974077.789773,
-  "6f5aee30c8b66a3f": 1792974077.7897732,
-  "f218c3a1614afec6": 1792974077.7897735,
-  "ffd547eb0828377b": 1792974077.7897742,
-  "eba19bd196ac6d0a": 1792974077.789952,
-  "bf9c35e3b2844758": 1792974092.3349552,
   "550465023482a979": 1792974676.9890068,
   "050c20d06894863b": 1792976487.9127445,
   "51e1f0db673bf9ed": 1792976497.5484042,
@@ -1610,7 +1599,8 @@
   "0b46c1ad68f69ee5": 1793576465.649971,
   "b10319270925c726": 1793576465.6498477,
   "49d6c57874972321": 1793576465.649849,
-  "2d644a8f77f458e3": 1793577054.4827123
+  "2d644a8f77f458e3": 1793577054.4827123,
+  "c456d13b0bf171b8": 1793579484.616847
  },
  "pending": {},
  "queue": [],
@@ -2255,11 +2245,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 05:21",
+  "time": "2026-11-02 05:31",
   "items": 27,
   "sample": [
    "New Zealand A 291/7 * v India A 346/10",
-   "Queensland 228/7 * v Victoria 307/10",
+   "Queensland 234/8 * v Victoria 307/10",
    "Toronto Kings 162/1 * v Mississauga Skyhawks 161/5"
   ]
  },
@@ -7730,9 +7720,9 @@
  },
  "ai_usage": {
   "date": "2026-11-02",
-  "ok": 33,
-  "fail": 60,
-  "limit": 60
+  "ok": 36,
+  "fail": 66,
+  "limit": 66
  },
  "posted_heads": [
   {
@@ -8057,7 +8047,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 05:21",
+  "time": "2026-11-02 05:31",
   "steps": []
  },
  "roundup_am": "2026-11-01",
@@ -8160,12 +8150,12 @@
  },
  "article_diag": {
   "date": "2026-11-02",
-  "tried": 6,
-  "decoded": 6,
-  "text": 5,
-  "story": 4
+  "tried": 7,
+  "decoded": 7,
+  "text": 6,
+  "story": 5
  },
- "ai_last_error": "04:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "05:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-02",
   "models": [
@@ -8206,7 +8196,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
-   "ok": 32,
+   "ok": 33,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8214,7 +8204,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
-   "ok": 31,
+   "ok": 32,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8222,7 +8212,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
-   "ok": 31,
+   "ok": 32,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8230,14 +8220,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8245,21 +8235,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8402,8 +8392,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 10,
-  "old": 10,
+  "found": 15,
+  "old": 15,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8440,8 +8430,8 @@
   "date": "2026-11-02",
   "count": 0,
   "last": 1793559267.8472693,
-  "city_i": 10,
-  "dry": 1793578863.3147023
+  "city_i": 14,
+  "dry": 1793579475.9874759
  },
  "gemini_day_dead": {
   "day": "2026-11-01",
@@ -8982,13 +8972,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-01 23:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-01 23:20",
    "ok": true,
    "n": 0,
@@ -9256,6 +9239,13 @@
   },
   {
    "t": "11-02 05:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-02 05:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13105,11 +13095,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-30 00:21",
-   "new": "ڏانو ڌانڌل سانحو: فوتين جو انگ وڌي 10 ٿي ويو",
-   "old": "ننگرپارڪر ۾ ايمبولينس جو آڪسيجن سلينڊر ڦاٽڻ سبب 10 ڄڻا فوت، 3 زخمي"
-  },
-  {
    "t": "10-30 03:51",
    "new": "هاءِ اسپيڊ ڊيزل جي قيمت ۾ واڌ",
    "old": "پيٽرول اگهه برقرار، هاءِ اسپيڊ ڊيزل مهانگو"
@@ -13253,6 +13238,11 @@
    "t": "11-02 04:41",
    "new": "اسلام آباد ۾ سبزين جا اگهه وڌي ويا",
    "old": "نوشهروفيروز جو اڄ | 01-11-2026"
+  },
+  {
+   "t": "11-02 05:31",
+   "new": "ملڪ ۾ موسم خشڪ رهڻ جو امڪان",
+   "old": "صبح جون خبرون | آچر، 1 نومبر 2026"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13273,7 +13263,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 2
+  "repeat": 3
  },
  "_dup": true
 }
