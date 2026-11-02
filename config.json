@@ -1220,16 +1220,21 @@
   "reels": {
     "enabled": true,
     "slots": [
+      "08:00",
       "09:30",
+      "11:00",
       "12:30",
+      "14:00",
       "15:30",
+      "17:00",
       "18:30",
+      "20:00",
       "21:30"
     ],
-    "window_minutes": 90,
+    "window_minutes": 60,
     "stories_per_reel": 3,
-    "max_age_hours": 14,
-    "_note": "Din mein 5 reels (PK waqt). Har reel mein 3 taaza khabrein (pehle tarjeehi shehar), Sindhi anchor awaz, music, AI tasveer."
+    "max_age_hours": 16,
+    "_note": "Din mein 10 reels, har dedh ghante (PK waqt). Har reel mein 3 taaza khabrein (asal baat + ahem tafseel; ghalat alfaz wali khabar nahi; koi khabar dobara nahi) (pehle tarjeehi shehar), Sindhi anchor awaz, music, AI tasveer."
   },
   "tg_listener": true,
   "approve_gap_seconds": [

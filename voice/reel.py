@@ -1,4 +1,4 @@
-"""Sindhi news REEL (1080x1920, ~1 minute): 3 taaza khabrein, Sindhi anchor awaz, apna news music, AI tasveerein
+"""Sindhi news REEL (1080x1920, ~1-1.5 minute): 3 taaza khabrein (asal baat + ahem tafseel), Sindhi anchor awaz, apna news music, AI tasveerein
 (check ki hui), news channel jaisi screen. Phir Facebook page par Reel upload (REEL_DRY=true ho to sirf Telegram).
 
 Khabrein state.json ke reel_pool se (bot har post hui khabar wahan rakhta hai); istemal hui khabrein voice/reels.json mein.
@@ -61,11 +61,15 @@ def pick_stories(n):
     used = json.load(open(USED_F, encoding="utf-8")) if os.path.exists(USED_F) else {"used": [], "log": []}
     max_age = cfg.get("max_age_hours", 14) * 3600
     pool = [x for x in bot.S.get("reel_pool", []) if x["k"] not in used["used"] and not x.get("s")
-            and time.time() - x["t"] < max_age and not bot.blocked_reason(x["h"] + " " + x["x"])]
+            and time.time() - x["t"] < max_age and not bot.blocked_reason(x["h"] + " " + x["x"])
+            # ghalat huroof / Urdu mili / adhoori khabar: reel mein nahi
+            and not bot.bad_script(x["h"] + " " + x["x"]) and not bot.looks_urdu(x["h"] + " " + x["x"])
+            and len(x["x"]) >= 80]
     # pehle aap ki shehron wali list (1 = Naushahro Feroze ...), phir baqi; har darje mein taaza pehle
     pool.sort(key=lambda x: (x.get("r") or 99, -x["t"]))
     out, seen = [], set()
-    used_heads = [bot._tokens(h) for e in used.get("log", [])[-10:] for h in e.get("heads", [])]
+    # pichli ~3 din ki reels (10 roz) ki sarkhiyan + asal khabron ki sarkhiyan: koi khabar dobara nahi
+    used_heads = [bot._tokens(h) for e in used.get("log", [])[-30:] for h in e.get("heads", []) + e.get("src", [])]
     for x in pool:
         tk = bot._tokens(x["h"])
         similar = any(len(tk) >= 3 and len(o) >= 3 and len(tk & o) / min(len(tk), len(o)) >= 0.75
@@ -80,27 +84,39 @@ def pick_stories(n):
 
 
 def write_script(stories):
-    """Har khabar ke liye: bolne wala chhota hissa (anchor), screen ki sarkhi aur ek line."""
-    listing = "\n\n".join(f"[{i}] {s['h']}\n{s['x'][:900]}" for i, s in enumerate(stories))
-    prompt = ("You write a 1-minute Sindhi TV news reel for a Sindhi Facebook page. News items (in Sindhi):\n" + listing +
-              "\n\nFor EACH item, in this order, write in Sindhi (Arabic script):\n"
-              "- \"say\": what the news anchor will SAY: 2-3 short spoken sentences (25-38 words), clear and formal, "
-              "only facts from the item, numbers written as words where natural;\n"
+    """Har khabar: pehle jaanch (alfaz sahih? baat saaf?), phir anchor ka hissa (asal baat + ahem tafseel),
+    screen ki sarkhi aur ek line. Wapas: [(khabar, item)] sirf theek khabron ke, usi tarteeb mein."""
+    listing = "\n\n".join(f"[{i}] {s['h']}\n{s['x'][:1200]}" for i, s in enumerate(stories))
+    prompt = ("You write a short Sindhi TV news reel for a Sindhi Facebook page. News items (in Sindhi):\n" + listing +
+              "\n\nFor EACH item, in this order, return:\n"
+              "- \"ok\": true ONLY if the item text is clean and clear. Set false if it has misspelled, broken, garbled "
+              "or wrongly written words, wrong/mixed letters (Urdu or English letters inside Sindhi words), incomplete "
+              "or confusing sentences, or if the main facts are unclear. When unsure, false.\n"
+              "- \"say\": what the news anchor will SAY, in correct Sindhi: 3-4 short spoken sentences (45-60 words) "
+              "giving the MAIN point of the news and its key details and facts: who, what, where, when, and any "
+              "numbers, amounts, names or decisions mentioned. Only facts from the item, nothing invented, no opinion; "
+              "numbers written as words where natural;\n"
               "- \"head\": on-screen headline, max 7 words;\n"
-              "- \"line\": one on-screen sentence (max 18 words) with the key fact.\n"
-              "Return JSON: {\"items\": [{\"say\": string, \"head\": string, \"line\": string}]}")
+              "- \"line\": one on-screen sentence (max 18 words) with the most important fact.\n"
+              "Write head/line/say in Sindhi (Arabic script) with correct spelling.\n"
+              "Return JSON: {\"items\": [{\"ok\": boolean, \"say\": string, \"head\": string, \"line\": string}]}")
     res = bot.ask_gemini(prompt) if bot.GEMINI_KEY else bot.ask_openrouter(prompt)
     items = (res or {}).get("items") if isinstance(res, dict) else None
     if not isinstance(items, list) or len(items) < len(stories):
         return None
     out = []
     for s, it in zip(stories, items):
+        if not isinstance(it, dict) or str(it.get("ok", "")).lower() != "true":
+            log("chhor di (alfaz/baat saaf nahi):", s["h"][:60])
+            continue
         say = bot.clean_text(str(it.get("say", "")))
         head = bot.cut_words(bot.clean_text(str(it.get("head", ""))), 70) or bot.cut_words(s["h"], 70)
         line = bot.trim_sentences(bot.clean_text(str(it.get("line", ""))), 140)
-        if len(say) < 30 or bot.bad_script(say + head + line) or bot.blocked_reason(say + " " + head):
-            return None
-        out.append({"say": say, "head": head, "line": line})
+        if (len(say) < 30 or bot.bad_script(say + head + line) or bot.looks_urdu(say + " " + head)
+                or bot.blocked_reason(say + " " + head)):
+            log("chhor di (script theek nahi bana):", s["h"][:60])
+            continue
+        out.append((s, {"say": say, "head": head, "line": line}))
     return out
 
 
@@ -217,7 +233,7 @@ def text_panel(it, i):
       <div style="position:absolute;left:60px;right:60px;top:170px;bottom:60px;direction:rtl;display:flex;
         flex-direction:column;justify-content:center;gap:26px">
         <div style="width:120px;height:8px;background:#B3261E;border-radius:4px"></div>
-        <div style="font-size:54px;font-weight:700;line-height:1.75;text-shadow:0 3px 10px rgba(0,0,0,.6);
+        <div style="font-size:46px;font-weight:700;line-height:1.7;text-shadow:0 3px 10px rgba(0,0,0,.6);
           display:-webkit-box;-webkit-line-clamp:7;-webkit-box-orient:vertical;overflow:hidden">{body}</div>
       </div>""", W, IMG_H, f"r_panel{i}", False)
     return out
@@ -419,7 +435,7 @@ def main():
     cfg = bot.CONFIG.get("reels", {})
     n = cfg.get("stories_per_reel", 3)
     now = dt.datetime.now(TZ)
-    stories, used = pick_stories(n)
+    stories, used = pick_stories(n + 3)  # kuch zyada: jo jaanch mein reh jayen un ki jagah
     if not DRY and SLOT and SLOT not in ("manual", "test") and any(
             e.get("slot") == SLOT and e.get("t", "").startswith(now.strftime("%Y-%m-%d")) for e in used.get("log", [])):
         log("is waqt ki reel aaj pehle hi ban chuki:", SLOT)
@@ -433,24 +449,36 @@ def main():
         if DRY:
             tg("sendMessage", {"text": "🎬 Reel test: abhi reel ke liye kafi nayi khabrein nahi (kam az kam 2 chahiye)."})
         return
-    items = write_script(stories)
-    if not items:
+    pairs = write_script(stories)
+    if pairs is None:
         raise RuntimeError("script nahi bana")
+    pairs = pairs[:n]
+    if len(pairs) < 2:
+        log("saaf khabrein kam hain, reel nahi bani")
+        if DRY:
+            tg("sendMessage", {"text": "🎬 Reel test: jaanch ke baad 2 saaf khabrein nahi milin, reel nahi bani."})
+        return
+    stories, items = [p[0] for p in pairs], [p[1] for p in pairs]
     intro_say = f"السلام عليڪم! نوشهروفيروز اپڊيٽس ۾ ڀليڪار. هي آهن هن وقت جون اهم خبرون."
     outro_say = "وڌيڪ خبرن لاءِ نوشهروفيروز اپڊيٽس کي فالو ڪريو. الله حافظ."
-    paras = [intro_say] + [f"{NUM_SD[i]}. {it['say']}" for i, it in enumerate(items)] + [outro_say]
-    aud = make_audio(paras)
-    if not aud:
-        raise RuntimeError("awaz (TTS) nahi bani")
-    audio, total, spans = aud
-    log("audio seconds", round(total, 1))
-    if total > 89:
-        raise RuntimeError(f"reel lambi ho gayi ({total:.0f}s)")
+    while True:
+        paras = [intro_say] + [f"{NUM_SD[i]}. {it['say']}" for i, it in enumerate(items)] + [outro_say]
+        aud = make_audio(paras)
+        if not aud:
+            raise RuntimeError("awaz (TTS) nahi bani")
+        audio, total, spans = aud
+        log("audio seconds", round(total, 1), "khabrein", len(items))
+        if total <= 89:
+            break
+        if len(items) <= 2:
+            raise RuntimeError(f"reel lambi ho gayi ({total:.0f}s)")
+        stories, items = stories[:-1], items[:-1]  # Facebook Reel 90 second tak: aakhri khabar hata kar dobara
     imgs = [story_image(s, it, i) for i, (s, it) in enumerate(zip(stories, items))]
     out = build_video(items, imgs, audio, total, spans, now)
     log("video", out, round(os.path.getsize(out) / 1e6, 1), "MB")
     desc = (f"📺 {slot_name(now)} | {date_sd(now)}\n\n" +
-            "\n".join(f"{['1️⃣', '2️⃣', '3️⃣', '4️⃣'][i]} {it['head']}" for i, it in enumerate(items)) +
+            "\n\n".join(f"{['1️⃣', '2️⃣', '3️⃣', '4️⃣'][i]} {it['head']}" + (f"\n{it['line']}" if it['line'] else "")
+                         for i, it in enumerate(items)) +
             f"\n\n{bot.footer()}")
     if DRY:
         with open(out, "rb") as f:
@@ -464,7 +492,8 @@ def main():
     log("reel posted", vid, st.get("status"))
     used["used"] = (used["used"] + [s["k"] for s in stories])[-400:]
     used["log"] = (used.get("log", []) + [{"t": now.strftime("%Y-%m-%d %H:%M"), "slot": SLOT, "video": vid,
-                                           "heads": [it["head"] for it in items]}])[-60:]
+                                           "heads": [it["head"] for it in items],
+                                           "src": [s["h"] for s in stories]}])[-60:]
     json.dump(used, open(USED_F, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     tg("sendMessage", {"text": f"🎬 Reel post ho gayi ({slot_name(now)})\n\n" +
                        "\n".join("• " + it["head"] for it in items) + (f"\n\n{link}" if link else ""),
