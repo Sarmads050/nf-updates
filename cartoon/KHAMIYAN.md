@@ -5,6 +5,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-005] (Sarmad, 2026-10-30) Kamar se neeche ka hissa real nahi lagta (patli seedhi taangein, gol joote, baithe huon ki god gaddi jaisi) — fix ready on branch `lower-v3` (kulhe, moti asli taangein, asli joote, shalwar ki silwatein, saaf god). Awaiting "han set kar do".
 - [K-006] (ep007, 2026-10-30) Desk par baithe Arsalan ke ghutne kaale gol dabbe lagte hain — desk/charpai par baithne ki pose behtar banana.
 - [K-007] (ep007, 2026-10-30) Bedroom close-up mein bolne wale ke saath wala character chhup jata hai — close-up frame thora chaura karna.
+- [K-012] (ep009, 2026-11-02) Pichle scene ka pose agle scene mein chala jata hai (Abba ka facepalm kitchen mein entry par bhi tha; abhi `react_pose` se haath se theek kiya) — har naye scene ke shuru mein sab ke pose khud "rest" par reset karna (engine.py).
+- [K-013] (ep009, 2026-11-02) Bat pakra hua character "plead/hold" pose mein ho to bat seedha chehre ke aage aa jata hai (Arsalan line 3) — bat ko hamesha side mein neeche pakarna, chehre se door.
+- [K-014] (ep009, 2026-11-02) "approach" se khare log baithe logon ke peeche aa jate hain (Ammi raat wale scene mein Mehak ke peeche chhup gayin, paise lete waqt) — approach mein sofa ke saamne khali jagah (stand_cl/cr) chun-na.
+- [K-015] (ep009, 2026-11-02) Ammi ki "ration list" ke liye sirf kitaab (book) prop hai jo side mein chhoti si dikhti hai — naya "list" prop (kaghaz ka lamba parcha) banana.
 
 ## APPROVED
 
