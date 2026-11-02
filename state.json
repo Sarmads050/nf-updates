@@ -1697,7 +1697,27 @@
   "1f3306b8501e96c9": 1793649098.44143,
   "bac71f354d8181e9": 1793649098.4414313,
   "c5552363973266ea": 1793649188.5192251,
-  "e07109f655fd51ef": 1793649188.519423
+  "e07109f655fd51ef": 1793649188.519423,
+  "2a303c6a929bd964": 1793652673.9903598,
+  "72cb7884c91951fc": 1793652673.9903622,
+  "12da3da8bb0b0460": 1793652673.9903631,
+  "3a794fe16b7e9405": 1793652673.9903638,
+  "836d8464546ac1da": 1793652673.990365,
+  "6c271d33f398b2a2": 1793652673.990366,
+  "3cbf3807c9096f26": 1793652673.9903667,
+  "b009446582cc3508": 1793652673.9903674,
+  "59bffd8c6b12c4fb": 1793652673.990368,
+  "652a677348edd31a": 1793652673.9905708,
+  "e7d53a8b2eac6e16": 1793652692.8931038,
+  "ebdc2fe4e5e39528": 1793652692.8931057,
+  "65ed305d99004570": 1793652692.8931077,
+  "962be1ea970f5e39": 1793652692.893109,
+  "7fda3925738156dd": 1793652692.89311,
+  "d8c14bbaa003be14": 1793652692.8931112,
+  "f6a68905ac060009": 1793652692.8931117,
+  "341b7448deb62470": 1793652692.8931127,
+  "55e9571ad07261eb": 1793652692.8931136,
+  "d15adae85ac9434b": 1793652692.8933845
  },
  "pending": {},
  "queue": [],
@@ -2439,10 +2459,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 01:40",
+  "time": "2026-11-03 01:51",
   "items": 24,
   "sample": [
-   "New Zealand A 424/10 v India A 346/10 & 32 *",
+   "New Zealand A 424/10 v India A 32 & 346/10 *",
    "Queensland 280/10 v Victoria 307/10 & 136/6 *",
    "Assam 135/10 v Karnataka 180/2 *"
   ]
@@ -7914,9 +7934,9 @@
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 18,
-  "fail": 28,
-  "limit": 28
+  "ok": 23,
+  "fail": 38,
+  "limit": 38
  },
  "posted_heads": [
   {
@@ -8241,7 +8261,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 01:40",
+  "time": "2026-11-03 01:51",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8344,12 +8364,12 @@
  },
  "article_diag": {
   "date": "2026-11-03",
-  "tried": 2,
-  "decoded": 2,
-  "text": 1,
-  "story": 0
+  "tried": 4,
+  "decoded": 4,
+  "text": 3,
+  "story": 2
  },
- "ai_last_error": "00:55 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "01:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8390,7 +8410,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8398,7 +8418,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 10,
+   "ok": 11,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8406,7 +8426,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 10,
+   "ok": 11,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8414,14 +8434,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8429,21 +8449,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 11,
+   "ok": 12,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8586,8 +8606,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 16,
-  "old": 16,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8625,8 +8645,8 @@
   "date": "2026-11-03",
   "count": 0,
   "last": 1793649067.4427004,
-  "city_i": 6,
-  "dry": 1793649098.4414334
+  "city_i": 10,
+  "dry": 1793652665.813142
  },
  "gemini_day_dead": {
   "day": "2026-11-02",
@@ -9239,13 +9259,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-02 19:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-02 19:30",
    "ok": true,
    "n": 0,
@@ -9513,6 +9526,13 @@
   },
   {
    "t": "11-03 01:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 01:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13490,16 +13510,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-31 08:21",
-   "new": "سنڌ | پيٹرول ۽ ڈیزل جون قيمتون جاري",
-   "old": "پيٽرول اگهه برقرار، ڊزل مهانگو"
-  },
-  {
-   "t": "10-31 08:31",
-   "new": "پاڪستان ۾ سون جي اگهن ۾ وڏي گهٽتائي",
-   "old": "پاڪستان ۾ سون جي اگهن ۾ تبديلي"
-  },
-  {
    "t": "10-31 09:11",
    "new": "پاڪستان ۾ سون جي اگهن ۾ واڌ",
    "old": "پاڪستان ۾ سون جي اگهن ۾ تبديلي"
@@ -13638,6 +13648,16 @@
    "t": "11-02 21:31",
    "new": "سنڌ | پاڪستان ۾ مهانگائي جي شرح",
    "old": "مهانگائي ۾ گهٽتائي، آڪٽوبر ۾ اگهه سستا"
+  },
+  {
+   "t": "11-03 01:51",
+   "new": "آڪٽوبر ۾ مهانگائي جي شرح گهٽجي 9.6 سيڪڙو ٿي وئي",
+   "old": "مهانگائي ۾ گهٽتائي، آڪٽوبر ۾ اگهه سستا"
+  },
+  {
+   "t": "11-03 01:51",
+   "new": "سنڌ سگر ڪين بورڊ جو اجلاس",
+   "old": "شگر ڪين بورڊ جو اجلاس: آبادگارن جو 650 رپيا مڻ اگهه جو مطالبو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13658,6 +13678,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 0
- }
+  "repeat": 2
+ },
+ "_dup": true
 }
