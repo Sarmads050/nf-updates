@@ -1,0 +1,490 @@
+{
+ "id": "ep009",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 9,
+ "title": "Tankhwa Aa Gayi!",
+ "topic": "Abba's salary day - everyone lines up with demands (needs vs wants)",
+ "music": "comic",
+ "tempo": 1.22,
+ "lesson": "Pehle zaroorat, phir farmaish<br>bachat aur zimmedari sab ki!",
+ "caption": "Mahine ki do tareekh... Abba ki tankhwa aayi aur ghar mein farmaishon ki line lag gayi! 💸😂 Aap ke ghar ka asli bank kaun hai? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#TankhwaDay",
+  "#PakistaniFamily",
+  "#UrduCartoon",
+  "#FamilyComedy"
+ ],
+ "scenes": [
+  {
+   "set": "living_room",
+   "time": "evening",
+   "label": "Drawing Room • Shaam",
+   "cast": {
+    "MEHAK": "sofa_l",
+    "ABBA": "sofa_c",
+    "FARAZ": "sofa_r"
+   },
+   "props": {
+    "ABBA": "money",
+    "MEHAK": "book",
+    "FARAZ": "phone"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "shot": "wide",
+     "how": "warm storyteller, playful, building curiosity",
+     "roman": "Mahine ki do tareekh, Nawabshah ki shaam... Abba ki *tankhwa* aa gayi hai, aur ab shuru hogi *farmaishon ki line*!",
+     "urdu": "مہینے کی دو تاریخ، نواب شاہ کی شام... ابا کی تنخواہ آ گئی ہے، اور اب شروع ہوگی فرمائشوں کی لائن!",
+     "gap": 0.3
+    },
+    {
+     "who": "ABBA",
+     "to": "front",
+     "emo": "proud",
+     "shot": "close",
+     "how": "serious proud father, patting the cash, firm and important",
+     "roman": "Bank se poori *tankhwa* nikaal laya hoon. Is mahine sab kuch *hisaab* se chalega!",
+     "urdu": "بینک سے پوری تنخواہ نکال لایا ہوں۔ اس مہینے سب کچھ حساب سے چلے گا!",
+     "pose": "hold",
+     "react": {
+      "MEHAK": "happy",
+      "FARAZ": "happy"
+     },
+     "sfx": [
+      "cash"
+     ]
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "happy",
+     "shot": "auto",
+     "how": "excited teen rushing in, sweet-talking his father",
+     "roman": "Abba! Mere bat ki *grip* phat gayi hai. Bas nayi grip ke paise de dein!",
+     "urdu": "ابا! میرے بیٹ کی گرپ پھٹ گئی ہے۔ بس نئی گرپ کے پیسے دے دیں!",
+     "pose": "plead",
+     "react": {
+      "ABBA": "surprised"
+     },
+     "before": [
+      {
+       "do": "enter",
+       "who": "ARSALAN",
+       "slot": "stand_r"
+      },
+      {
+       "do": "prop",
+       "who": "ARSALAN",
+       "prop": "bat"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      }
+     ]
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "shot": "auto",
+     "how": "old-school father, half lecturing, half amused",
+     "roman": "Grip? Humare zamane mein to hum bat par *kapra lapet* kar khelte the!",
+     "urdu": "گرپ؟ ہمارے زمانے میں تو ہم بیٹ پر کپڑا لپیٹ کر کھیلتے تھے!",
+     "pose": "wag",
+     "react": {
+      "ARSALAN": "sheepish",
+      "MEHAK": "laugh"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ABBA",
+     "emo": "worried",
+     "shot": "auto",
+     "how": "14-year-old girl, quick and urgent, a bit dramatic",
+     "roman": "Abba, kal school mein *project* jama karana hai. Mujhe *chart aur colour* chahiye!",
+     "urdu": "ابا، کل اسکول میں پروجیکٹ جمع کرانا ہے۔ مجھے چارٹ اور کلر چاہیے!",
+     "pose": "plead",
+     "react": {
+      "ABBA": "worried"
+     }
+    },
+    {
+     "who": "FARAZ",
+     "to": "ABBA",
+     "emo": "calm",
+     "shot": "auto",
+     "how": "calm tech-minded son, matter-of-fact, looking at his phone",
+     "roman": "Aur Abba, ghar ka *WiFi package* bhi kal khatam ho raha hai.",
+     "urdu": "اور ابا، گھر کا وائی فائی پیکیج بھی کل ختم ہو رہا ہے۔",
+     "pose": "phone_look",
+     "react": {
+      "ABBA": "tired"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "front",
+     "emo": "tired",
+     "shot": "punch",
+     "how": "tired father, comic despair, slow then sighing",
+     "roman": "Lagta hai yeh tankhwa *meri* nahi... tum sab ki *aayi* hai!",
+     "urdu": "لگتا ہے یہ تنخواہ میری نہیں... تم سب کی آئی ہے!",
+     "pose": "facepalm",
+     "joke": true,
+     "react": {
+      "*": "laugh"
+     },
+     "gap": 0.7
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "time": "evening",
+   "label": "Kitchen • Shaam",
+   "cast": {
+    "AMMI": "stove"
+   },
+   "props": {
+    "AMMI": "book"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "shot": "wide",
+     "how": "storyteller, amused, light suspense",
+     "roman": "Abba bach kar kitchen pohanche... lekin wahan Ammi pehle se *lambi list* le kar khari thin!",
+     "urdu": "ابا بچ کر کچن پہنچے... لیکن وہاں امی پہلے سے لمبی لسٹ لے کر کھڑی تھیں!",
+     "gap": 0.2,
+     "before": [
+      {
+       "do": "enter",
+       "who": "ABBA",
+       "slot": "left"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      }
+     ]
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "tired",
+     "shot": "auto",
+     "how": "tired husband, soft and hopeful",
+     "roman": "Zaib-un-Nisa, ek cup *chai* mil jaye? Aaj bohot *thak* gaya hoon.",
+     "urdu": "زیب النساء، ایک کپ چائے مل جائے؟ آج بہت تھک گیا ہوں۔",
+     "pose": "tired",
+     "react": {
+      "AMMI": "teasing"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "teasing",
+     "shot": "auto",
+     "how": "clever wife, sweet but firm, holding up her register",
+     "roman": "Chai bhi milegi. Pehle yeh *ration ki list* sun lein!",
+     "urdu": "چائے بھی ملے گی۔ پہلے یہ راشن کی لسٹ سن لیں!",
+     "pose": "hold",
+     "react": {
+      "ABBA": "worried"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "focused",
+     "shot": "close",
+     "how": "reading fast from a list, practical housewife",
+     "roman": "Aata, ghee, cheeni, daalein... aur sardiyon ke liye *razai ka naya ghilaf*!",
+     "urdu": "آٹا، گھی، چینی، دالیں... اور سردیوں کے لیے رضائی کا نیا غلاف!",
+     "pose": "read",
+     "react": {
+      "ABBA": "surprised"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "surprised",
+     "shot": "punch",
+     "how": "shocked father, comic, voice rising",
+     "roman": "Ruko ruko! Yeh *list* hai ya meri *tankhwa ki slip*?",
+     "urdu": "رکو رکو! یہ لسٹ ہے یا میری تنخواہ کی سلپ؟",
+     "pose": "arms_up",
+     "joke": true,
+     "react": {
+      "AMMI": "laugh"
+     },
+     "sfx": [
+      "boing"
+     ],
+     "gap": 0.6
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "teasing",
+     "shot": "auto",
+     "how": "cheeky teen peeking in, trying his luck",
+     "roman": "Abba, list mein meri *grip* bhi likhwa dein na!",
+     "urdu": "ابا، لسٹ میں میری گرپ بھی لکھوا دیں نا!",
+     "pose": "beckon",
+     "react": {
+      "AMMI": "angry"
+     },
+     "before": [
+      {
+       "do": "enter",
+       "who": "ARSALAN",
+       "slot": "right"
+      }
+     ]
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "angry",
+     "shot": "auto",
+     "how": "strict loving mother, wagging her finger",
+     "roman": "Pehle *ghar ka ration*, phir tumhari grip! Chalo, jao *padhai* karo!",
+     "urdu": "پہلے گھر کا راشن، پھر تمہاری گرپ! چلو، جاؤ پڑھائی کرو!",
+     "pose": "wag",
+     "react": {
+      "ARSALAN": "sheepish"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "front",
+     "emo": "sheepish",
+     "shot": "close:ARSALAN",
+     "how": "teen complaining to the audience, comic self-pity",
+     "roman": "Is ghar mein meri *farmaish* hamesha line mein *aakhri* hoti hai!",
+     "urdu": "اس گھر میں میری فرمائش ہمیشہ لائن میں آخری ہوتی ہے!",
+     "pose": "shrug",
+     "joke": true,
+     "react": {
+      "*": "laugh"
+     },
+     "gap": 0.6
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "night",
+   "label": "Drawing Room • Raat",
+   "cast": {
+    "AMMI": "sofa_l",
+    "ABBA": "sofa_c",
+    "FARAZ": "sofa_r",
+    "MEHAK": "stand_l",
+    "ARSALAN": "stand_r"
+   },
+   "props": {
+    "ABBA": "money",
+    "FARAZ": "phone",
+    "ARSALAN": "bat"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "shot": "wide",
+     "how": "storyteller, warm and a little grand",
+     "roman": "Raat ko drawing room mein lagi *budget ki meeting*... aur faisla Abba ko karna tha!",
+     "urdu": "رات کو ڈرائنگ روم میں لگی بجٹ کی میٹنگ... اور فیصلہ ابا کو کرنا تھا!",
+     "gap": 0.2
+    },
+    {
+     "who": "ABBA",
+     "to": "front",
+     "emo": "calm",
+     "shot": "close",
+     "how": "wise father, calm and clear, like a teacher",
+     "roman": "Suno sab! Pehle *zaroorat*, phir *farmaish*. Ammi ka ration sab se pehle!",
+     "urdu": "سنو سب! پہلے ضرورت، پھر فرمائش۔ امی کا راشن سب سے پہلے!",
+     "pose": "explain",
+     "react": {
+      "*": "calm",
+      "AMMI": "proud"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "MEHAK",
+     "emo": "warm",
+     "shot": "auto",
+     "how": "loving father, gentle",
+     "roman": "Mehak, padhai bhi zaroorat hai. Yeh lo, chart aur colour ke *paise*.",
+     "urdu": "مہک، پڑھائی بھی ضرورت ہے۔ یہ لو، چارٹ اور کلر کے پیسے۔",
+     "react": {
+      "MEHAK": "happy"
+     },
+     "before": [
+      {
+       "do": "approach",
+       "who": "MEHAK",
+       "to": "ABBA"
+      }
+     ],
+     "give": {
+      "to": "MEHAK",
+      "prop": "money",
+      "at": 0.55
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ABBA",
+     "emo": "happy",
+     "shot": "auto",
+     "how": "happy girl, thankful and confident",
+     "roman": "Shukriya Abba! Main *sab se acha* chart banaungi!",
+     "urdu": "شکریہ ابا! میں سب سے اچھا چارٹ بناؤں گی!",
+     "pose": "clap",
+     "react": {
+      "ABBA": "proud"
+     }
+    },
+    {
+     "who": "FARAZ",
+     "to": "ABBA",
+     "emo": "proud",
+     "shot": "auto",
+     "how": "responsible son, proud and grown-up",
+     "roman": "Abba, WiFi ka *aadha bill* main dunga. Ab main bhi *kamata* hoon!",
+     "urdu": "ابا، وائی فائی کا آدھا بل میں دوں گا۔ اب میں بھی کماتا ہوں!",
+     "pose": "chest",
+     "react": {
+      "ABBA": "proud",
+      "AMMI": "happy"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "FARAZ",
+     "emo": "proud",
+     "shot": "auto",
+     "how": "proud father, pleased",
+     "roman": "Shabash, Faraz! Yeh hui na *zimmedari* wali baat!",
+     "urdu": "شاباش، فراز! یہ ہوئی نا ذمہ داری والی بات!",
+     "pose": "clap",
+     "react": {
+      "FARAZ": "happy"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "proud",
+     "shot": "close:ARSALAN",
+     "how": "teen trying to look mature, a bit proud",
+     "roman": "Aur apni grip main apni *gullak ki bachat* se khud le lunga!",
+     "urdu": "اور اپنی گرپ میں اپنی گلک کی بچت سے خود لے لوں گا!",
+     "pose": "chest",
+     "react": {
+      "ABBA": "surprised",
+      "AMMI": "happy"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "warm",
+     "shot": "auto",
+     "how": "warm surprised father, praising",
+     "roman": "Waah Arsalan! Aaj tum ne *bachat* ka sabaq khud seekh liya.",
+     "urdu": "واہ ارسلان! آج تم نے بچت کا سبق خود سیکھ لیا۔",
+     "pose": "explain",
+     "react": {
+      "ARSALAN": "happy"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "happy",
+     "shot": "auto",
+     "how": "father handing over with a smile, a bit grand",
+     "roman": "Aur yeh baaqi poori tankhwa... *ghar ki malikan* ke hawale!",
+     "urdu": "اور یہ باقی پوری تنخواہ... گھر کی مالکن کے حوالے!",
+     "react": {
+      "AMMI": "happy"
+     },
+     "give": {
+      "to": "AMMI",
+      "prop": "money",
+      "at": 0.6
+     },
+     "sfx": [
+      "cash"
+     ]
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "teasing",
+     "shot": "auto",
+     "how": "playful wife, giving a small note back with a smile",
+     "roman": "Shukriya! Aur yeh lijiye, aap ka *jeb kharch*.",
+     "urdu": "شکریہ! اور یہ لیجیے، آپ کا جیب خرچ۔",
+     "react": {
+      "ABBA": "surprised"
+     },
+     "give": {
+      "to": "ABBA",
+      "prop": "money",
+      "at": 0.6
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "front",
+     "emo": "laugh",
+     "shot": "punch",
+     "how": "father laughing at himself, comic",
+     "roman": "Waah! Tankhwa *meri*... aur jeb kharch bhi mujhe *Ammi* se milta hai!",
+     "urdu": "واہ! تنخواہ میری... اور جیب خرچ بھی مجھے امی سے ملتا ہے!",
+     "pose": "shrug",
+     "joke": true,
+     "react": {
+      "*": "laugh"
+     },
+     "gap": 0.6
+    },
+    {
+     "who": "MEHAK",
+     "to": "front",
+     "emo": "laugh",
+     "shot": "group",
+     "how": "cheeky girl, happy ending, laughing",
+     "roman": "Abba, is ghar ka *asli bank* to Ammi hi hain!",
+     "urdu": "ابا، اس گھر کا اصلی بینک تو امی ہی ہیں!",
+     "pose": "point_other",
+     "joke": true,
+     "react": {
+      "*": "laugh"
+     },
+     "gap": 0.8
+    }
+   ]
+  }
+ ]
+}
