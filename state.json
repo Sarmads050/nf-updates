@@ -1597,7 +1597,8 @@
   "ad3bd02e931adfcc": 1793596921.6230693,
   "063051cf2958219b": 1793598059.1535316,
   "b89ed2117700150f": 1793598071.5498905,
-  "6ab7a51a6c4ca4d9": 1793598071.5498943
+  "6ab7a51a6c4ca4d9": 1793598071.5498943,
+  "2a1c259cf89ab2c8": 1793598669.6615703
  },
  "pending": {},
  "queue": [],
@@ -1668,8 +1669,8 @@
  "last_question": "2026-10-30",
  "sindh_single": {
   "date": "2026-11-02",
-  "count": 0,
-  "last": 1793589081.025496,
+  "count": 1,
+  "last": 1793598664.7969816,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1698,23 +1699,12 @@
    "c36df74c7d2704eb",
    "56f8322c0e19f33a",
    "6641e9263cc494b5",
-   "b55a0adc2c9a9a05"
+   "b55a0adc2c9a9a05",
+   "2a1c259cf89ab2c8"
   ]
  },
- "last_post_id": "1444130002106066_122116725429503839",
+ "last_post_id": "1444130002106066_122116728255503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122116418259503839",
-   "title": "شڪارپور ويجهو ڊکڻ ۾ فائرنگ، رڪشا ۾ ويٺل نوجوان قتل",
-   "t": 1793519508.3162642,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122116418259503839"
-  },
   {
    "id": "1444130002106066_122116427949503839",
    "title": "پاڪستاني فاسٽ باؤلر شاهين شاه آفريم ٽيسٽ ڪرڪيٽ ۾ واپس اچڻ لاءِ تيار آهي",
@@ -2021,6 +2011,17 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122116725429503839"
+  },
+  {
+   "id": "1444130002106066_122116728255503839",
+   "title": "نوشہرو فیروز سمیت سندھ میں نئے صوبوں کا مطالبہ نوشہرو فیروز اور سندھ کے دیگر شہروں کے",
+   "t": 1793598785.7923927,
+   "tags": [
+    "general",
+    "local",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122116728255503839"
   }
  ],
  "share_sent": {
@@ -2231,11 +2232,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 10:41",
+  "time": "2026-11-02 10:53",
   "items": 27,
   "sample": [
    "New Zealand A 424/10 v India A 346/10 & 32 *",
-   "Queensland 280/10 v Victoria 307/10 & 74/3 *",
+   "Queensland 280/10 v Victoria 307/10 & 75/3 *",
    "Montreal Warriors 120/7 * v Brampton Blazers 119/10"
   ]
  },
@@ -2246,17 +2247,11 @@
  },
  "all_posts": {
   "date": "2026-11-02",
-  "count": 15,
-  "last": 1793598092.5277874
+  "count": 16,
+  "last": 1793598781.5902126
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122112451581503839",
-    "sec": "public_news",
-    "cat": "fuel",
-    "t": 1792713105
-   },
    {
     "id": "1444130002106066_122112468099503839",
     "sec": "agri_news",
@@ -4650,6 +4645,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1793598098
+   },
+   {
+    "id": "1444130002106066_122116728255503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1793598781
    }
   ]
  },
@@ -7706,9 +7707,9 @@
  },
  "ai_usage": {
   "date": "2026-11-02",
-  "ok": 109,
-  "fail": 194,
-  "limit": 194
+  "ok": 119,
+  "fail": 208,
+  "limit": 208
  },
  "posted_heads": [
   {
@@ -8033,7 +8034,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 10:41",
+  "time": "2026-11-02 10:53",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8141,7 +8142,7 @@
   "text": 13,
   "story": 12
  },
- "ai_last_error": "10:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "10:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-02",
   "models": [
@@ -8155,13 +8156,13 @@
  },
  "img_diag": {
   "date": "2026-11-02",
-  "tried": 14,
+  "tried": 15,
   "gemini": 0,
   "pollinations": 7,
   "skip": 5,
   "fail": 2,
-  "last_note": "sun, clear sky and thermometer",
-  "mismatch": 317
+  "last_note": "empty school classroom",
+  "mismatch": 320
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -8182,7 +8183,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
-   "ok": 64,
+   "ok": 65,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8190,7 +8191,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
-   "ok": 64,
+   "ok": 65,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8198,7 +8199,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
-   "ok": 64,
+   "ok": 65,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8206,14 +8207,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8221,21 +8222,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8373,13 +8374,13 @@
  "region_posts": {
   "date": "2026-11-02",
   "district": 0,
-  "sindh": 5,
+  "sindh": 6,
   "pakistan": 9
  },
  "report_acc": {
-  "posted": 2,
-  "found": 20,
-  "old": 20,
+  "posted": 3,
+  "found": 25,
+  "old": 25,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8992,13 +8993,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-02 04:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-02 04:30",
    "ok": true,
    "n": 0,
@@ -9270,50 +9264,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-02 10:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-02",
  "recent_posts": [
-  {
-   "t": 1793425887,
-   "h": "ڄامشورو: دلشاد برفت قتل ڪيس ۾ 6 ڄڻا نامزد",
-   "b": "ڄامشورو (رپورٽ: باسط ملاح) ڪوٽڙي ۾ گذريل ڏينهن جهيڙي دوران گولي لڳڻ سبب فوت ٿيل برفت برادري جي نوجوان دلشاد",
-   "tt": [
-    "برفت",
-    "دلشاد",
-    "قتل",
-    "نامزد",
-    "ڄامشورو",
-    "ڄڻا",
-    "ڪيس"
-   ],
-   "bt": [
-    "اهي",
-    "باسط",
-    "برادري",
-    "برفت",
-    "جهيڙي",
-    "داخل",
-    "دلشاد",
-    "دوران",
-    "رپورٽ",
-    "سبب",
-    "فوت",
-    "قتل",
-    "لڳڻ",
-    "ملاح",
-    "نامزد",
-    "نوجوان",
-    "ٿيل",
-    "ڄامشورو",
-    "ڄڻا",
-    "ڏينهن",
-    "ڪوٽڙي",
-    "ڪيس",
-    "گذريل",
-    "گولي"
-   ]
-  },
   {
    "t": 1793428291,
    "h": "پنوعاقل: ڏيتي ليتي تان جهيڙو، فائرنگ ۾ 4 ڄڻا زخمي",
@@ -13302,6 +13263,45 @@
     "ڪڻي",
     "گئس"
    ]
+  },
+  {
+   "t": 1793598781,
+   "h": "سنڌ | نوشهروفیروز سمیت سنڌ ۾ نئين صوبن جو مطالبو",
+   "b": "نوشهروفیروز ۽ سنڌ جي ٻين شهرن جي عوام صحت ۽ تعليم سميت ٻين سهولتن جي فراهمي لاءِ نئين صوبن ۽ انتظامي يونٽن جي",
+   "tt": [
+    "سميت",
+    "سنڌ",
+    "صوبن",
+    "مطالبو",
+    "نئين",
+    "نوشهروفيروز"
+   ],
+   "bt": [
+    "انتظامي",
+    "اهي",
+    "تعليم",
+    "حڪومت",
+    "سميت",
+    "سنڌ",
+    "سهولتن",
+    "شهرن",
+    "شهرين",
+    "صحت",
+    "صوبن",
+    "عوام",
+    "فاصلا",
+    "فراهمي",
+    "قيام",
+    "مطالبو",
+    "نئين",
+    "نوشهروفيروز",
+    "يونٽن",
+    "ٻين",
+    "ٿيندا",
+    "چوڻ",
+    "ڇڏيو",
+    "گهٽ"
+   ]
   }
  ],
  "repeat_log": [
@@ -13469,7 +13469,7 @@
  },
  "quality": {
   "date": "2026-11-02",
-  "editor_fixed": 10,
+  "editor_fixed": 11,
   "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
