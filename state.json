@@ -1,17 +1,5 @@
 {
  "seen": {
-  "a86575dd0e46e372": 1793013051.8954713,
-  "4bfc3b6d152c1ea9": 1793013066.8970447,
-  "c731f005bc3b36f3": 1793013350.6162734,
-  "7373ad2fd5b28fb8": 1793013350.6178591,
-  "24ef13f24061de7d": 1793013350.6184578,
-  "fc0d021163b31bb2": 1793013350.6188326,
-  "6cef48f4fd07ee7f": 1793013350.6193678,
-  "bf6abfb34406dfee": 1793013402.529468,
-  "d9d0b6267c86fef2": 1793013421.9903762,
-  "79f0db689e6ca794": 1793013421.9909074,
-  "5e9ef9fb257fcbbb": 1793013421.9924512,
-  "9f1858304ea6427b": 1793013421.9931605,
   "d8a6b8eba38790d3": 1793014275.2834635,
   "15cde713fdef388b": 1793014275.283467,
   "b45b0d9084fa0f17": 1793016087.072473,
@@ -1626,7 +1614,13 @@
   "043bd31ed6cff0ba": 1793617288.6515768,
   "4ee7c9af07d48774": 1793617288.65158,
   "501a7dd6d208eb61": 1793617288.6515815,
-  "91cb560b51382527": 1793617288.651718
+  "91cb560b51382527": 1793617288.651718,
+  "42c79abf31901471": 1793618474.824688,
+  "63a53193de1b59a5": 1793618474.8246899,
+  "4a73789c27ab8e3a": 1793618474.8246915,
+  "3e72a4c64221d1b1": 1793618474.8246925,
+  "c82d1969b8ea4c50": 1793618474.8246937,
+  "f44173c5b0695100": 1793618474.8248143
  },
  "pending": {},
  "queue": [],
@@ -2282,11 +2276,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 16:11",
+  "time": "2026-11-02 16:21",
   "items": 27,
   "sample": [
-   "Tasmania 427/10 v New South Wales 202/10 & 144/10 *",
-   "New Zealand A 424/10 v India A 32 & 346/10 *",
+   "Tasmania 427/10 v New South Wales 144/10 & 202/10 *",
+   "New Zealand A 424/10 v India A 346/10 & 32 *",
    "Queensland 280/10 v Victoria 136/6 & 307/10 *"
   ]
  },
@@ -7749,9 +7743,9 @@
  },
  "ai_usage": {
   "date": "2026-11-02",
-  "ok": 217,
-  "fail": 346,
-  "limit": 348
+  "ok": 222,
+  "fail": 356,
+  "limit": 358
  },
  "posted_heads": [
   {
@@ -8076,7 +8070,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 16:11",
+  "time": "2026-11-02 16:21",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8179,12 +8173,12 @@
  },
  "article_diag": {
   "date": "2026-11-02",
-  "tried": 21,
-  "decoded": 21,
-  "text": 18,
+  "tried": 22,
+  "decoded": 22,
+  "text": 19,
   "story": 16
  },
- "ai_last_error": "16:02 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "16:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-02",
   "models": [
@@ -8225,7 +8219,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
-   "ok": 96,
+   "ok": 97,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8233,7 +8227,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
-   "ok": 97,
+   "ok": 98,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8241,7 +8235,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
-   "ok": 97,
+   "ok": 98,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8249,14 +8243,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8264,21 +8258,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8421,8 +8415,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 6,
-  "old": 6,
+  "found": 12,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8459,8 +8453,8 @@
   "date": "2026-11-02",
   "count": 13,
   "last": 1793617282.0838406,
-  "city_i": 18,
-  "dry": 1793617284.2479973
+  "city_i": 22,
+  "dry": 1793618461.6997764
  },
  "gemini_day_dead": {
   "day": "2026-11-02",
@@ -9037,13 +9031,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-02 09:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-02 10:00",
    "ok": true,
    "n": 0,
@@ -9311,6 +9298,13 @@
   },
   {
    "t": "11-02 16:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-02 16:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13155,11 +13149,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-30 14:11",
-   "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ واڌ",
-   "old": "پيٽرول اگهه برقرار، هاءِ اسپيڊ ڊيزل مهانگو"
-  },
-  {
    "t": "10-30 14:21",
    "new": "ڊيزل جي قيمت ۾ واڌ، پيٽرل جو اگهه برقرار",
    "old": "پيٽرول اگهه برقرار، هاءِ اسپيڊ ڊيزل مهانگو"
@@ -13303,6 +13292,11 @@
    "t": "11-02 14:52",
    "new": "پي آءِ اي برطانوي پروازن لاءِ پهريون بوئنگ ڊريم لائينر حاصل ڪري ورتو",
    "old": "پي آءِ اي پنهنجو پهريون ڊريم لائينر حاصل ڪري ورتو"
+  },
+  {
+   "t": "11-02 16:21",
+   "new": "بابراعظم جو ڪيريئر بچائڻ لاء اهم صلاح",
+   "old": "شام جون خبرون | آچر، 1 نومبر 2026"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13323,6 +13317,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 7
- }
+  "repeat": 8
+ },
+ "_dup": true
 }
