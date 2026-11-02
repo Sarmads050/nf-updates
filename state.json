@@ -1,19 +1,5 @@
 {
  "seen": {
-  "85868b55b3c44639": 1793044292.8887825,
-  "e53a753a57be782a": 1793044292.8887851,
-  "122f25f6702223e3": 1793044292.888786,
-  "9d2f2414b2b1355e": 1793044292.888787,
-  "a0db592f9504f96c": 1793044305.4022741,
-  "cd60244c92008c13": 1793044305.4022768,
-  "fa16f029c2d0aa4a": 1793044305.4022782,
-  "1dcceebb0eb18ede": 1793044305.4022794,
-  "0593498d39de5ee8": 1793044305.4022803,
-  "3ead87f830a9c862": 1793044305.4022815,
-  "65c812fb2085987d": 1793044305.4022822,
-  "eb6a1b4a133c11fe": 1793044305.4022832,
-  "3c00c91733a80dec": 1793044305.402285,
-  "02445150290182c2": 1793044305.402492,
   "af25c1668a71f454": 1793044897.226607,
   "d9ad0aa1bb5578f6": 1793047872.468263,
   "4454f6b38d484a50": 1793047872.4682665,
@@ -2454,11 +2440,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 00:56",
-  "items": 25,
+  "time": "2026-11-03 01:01",
+  "items": 24,
   "sample": [
-   "New Zealand A 424/10 v India A 346/10 & 32 *",
-   "Queensland 280/10 v Victoria 307/10 & 136/6 *",
+   "New Zealand A 424/10 v India A 32 & 346/10 *",
+   "Queensland 280/10 v Victoria 136/6 & 307/10 *",
    "Assam 135/10 v Karnataka 180/2 *"
   ]
  },
@@ -8256,7 +8242,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 00:56",
+  "time": "2026-11-03 01:01",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8405,7 +8391,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8413,7 +8399,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 5,
+   "ok": 6,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8421,7 +8407,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 5,
+   "ok": 6,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8429,14 +8415,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8444,21 +8430,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8600,14 +8586,14 @@
   "pakistan": 2
  },
  "report_acc": {
-  "posted": 1,
-  "found": 19,
-  "old": 19,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-03 00",
+ "report_hour": "2026-11-03 01",
  "kawish_upload_times": {
   "_date": "2026-11-03",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9254,13 +9240,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-02 18:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-02 18:40",
    "ok": true,
    "n": 0,
@@ -9528,6 +9507,13 @@
   },
   {
    "t": "11-03 00:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 01:00",
    "ok": true,
    "n": 0,
    "ids": [],
