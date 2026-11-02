@@ -2457,11 +2457,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 03:50",
+  "time": "2026-11-03 04:01",
   "items": 25,
   "sample": [
    "New Zealand A 424/10 v India A 346/10 & 32 *",
-   "Queensland 280/10 v Victoria 136/6 & 307/10 *",
+   "Queensland 280/10 v Victoria 307/10 & 136/6 *",
    "Assam 135/10 v Karnataka 180/2 *"
   ]
  },
@@ -8235,7 +8235,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 03:50",
+  "time": "2026-11-03 04:01",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8384,7 +8384,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8392,7 +8392,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 23,
+   "ok": 24,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8400,7 +8400,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 23,
+   "ok": 24,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8408,14 +8408,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8423,21 +8423,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8579,14 +8579,14 @@
   "pakistan": 5
  },
  "report_acc": {
-  "posted": 1,
-  "found": 20,
-  "old": 20,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-03 03",
+ "report_hour": "2026-11-03 04",
  "kawish_upload_times": {
   "_date": "2026-11-03",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9233,13 +9233,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-02 21:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-02 21:40",
    "ok": true,
    "n": 0,
@@ -9507,6 +9500,13 @@
   },
   {
    "t": "11-03 03:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 04:00",
    "ok": true,
    "n": 0,
    "ids": [],
