@@ -1620,7 +1620,9 @@
   "4a73789c27ab8e3a": 1793618474.8246915,
   "3e72a4c64221d1b1": 1793618474.8246925,
   "c82d1969b8ea4c50": 1793618474.8246937,
-  "f44173c5b0695100": 1793618474.8248143
+  "f44173c5b0695100": 1793618474.8248143,
+  "f2c8e0b5de34028e": 1793619231.4067645,
+  "fc91ff1d544f5db2": 1793619231.4067671
  },
  "pending": {},
  "queue": [],
@@ -2276,12 +2278,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 16:21",
+  "time": "2026-11-02 16:33",
   "items": 27,
   "sample": [
-   "Tasmania 427/10 v New South Wales 144/10 & 202/10 *",
+   "Tasmania 427/10 v New South Wales 202/10 & 144/10 *",
    "New Zealand A 424/10 v India A 346/10 & 32 *",
-   "Queensland 280/10 v Victoria 136/6 & 307/10 *"
+   "Queensland 280/10 v Victoria 307/10 & 136/6 *"
   ]
  },
  "agri_news": {
@@ -4704,64 +4706,8 @@
   "last": 1793617426.0448897
  },
  "trends": {
-  "last": 1793607655.5347445,
+  "last": 1793619137.2425876,
   "terms": [
-   {
-    "term": "danyal zafar",
-    "traffic": 500,
-    "news": "Danyal Zafar announces major decision after reaching 'breaking point'",
-    "t": 1793006467,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "phantom blade zero",
-    "traffic": 200,
-    "news": "Phantom Blade Zero Review – One of the Best Action RPGs of The Generation and a Real GOTY 2026 Contender",
-    "t": 1793006467,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "abdul waheed kakar",
-    "traffic": 1000,
-    "news": "CM Maryam Nawaz condoles death of former army chief",
-    "t": 1793006467,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "poco x8s",
-    "traffic": 500,
-    "news": "POCO X8s, Redmi Pad 3 4G Receive NBTC Certification Ahead of Launch",
-    "t": 1793006467,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "nicki minaj",
-    "traffic": 100,
-    "news": "‘One hell of a beautiful ass’: President Trump praises Nicki Minaj",
-    "t": 1793006467,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "science",
-    "traffic": 100,
-    "news": "Can teaching people more about science increase public trust?",
-    "t": 1793006467,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "شاہ رخ خان",
-    "traffic": 200,
-    "news": "",
-    "t": 1793006467,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "central bank",
     "traffic": 200,
@@ -7737,15 +7683,47 @@
     "t": 1793607655,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "perth scorchers vs melbourne stars",
+    "traffic": 100,
+    "news": "WBBL SQUAD: Stars set for Junction Oval return",
+    "t": 1793619137,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "tucker carlson",
+    "traffic": 100,
+    "news": "US weighs new Iran strikes as Vance reaches out: Is war or a deal closer?",
+    "t": 1793619137,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "al-nassr fc",
+    "traffic": 200,
+    "news": "Cristiano Ronaldo to miss Al-Nassr's Uzbekistan trip for AFC Champions League group game, head coach Postecog",
+    "t": 1793619137,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "rachin ravindra",
+    "traffic": 500,
+    "news": "Double injury blow! Two key players ruled out as New Zealand name updated ODI squad for India series",
+    "t": 1793619137,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-02",
-  "ok": 222,
-  "fail": 356,
-  "limit": 358
+  "ok": 224,
+  "fail": 360,
+  "limit": 362
  },
  "posted_heads": [
   {
@@ -8070,7 +8048,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 16:21",
+  "time": "2026-11-02 16:33",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8178,7 +8156,7 @@
   "text": 19,
   "story": 16
  },
- "ai_last_error": "16:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "16:33 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-02",
   "models": [
@@ -8220,37 +8198,37 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
    "ok": 97,
-   "fail": 5,
+   "fail": 6,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
    "ok": 98,
-   "fail": 4,
+   "fail": 5,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
    "ok": 98,
-   "fail": 4,
+   "fail": 5,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 102,
+   "ok": 103,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 102,
+   "ok": 103,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8258,21 +8236,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 102,
+   "ok": 103,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 102,
+   "ok": 103,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 102,
+   "ok": 103,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8415,8 +8393,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 12,
-  "old": 12,
+  "found": 17,
+  "old": 17,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8453,8 +8431,8 @@
   "date": "2026-11-02",
   "count": 13,
   "last": 1793617282.0838406,
-  "city_i": 22,
-  "dry": 1793618461.6997764
+  "city_i": 4,
+  "dry": 1793619221.6360505
  },
  "gemini_day_dead": {
   "day": "2026-11-02",
@@ -9031,13 +9009,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-02 10:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-02 10:10",
    "ok": true,
    "n": 0,
@@ -9305,6 +9276,13 @@
   },
   {
    "t": "11-02 16:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-02 16:30",
    "ok": true,
    "n": 0,
    "ids": [],
