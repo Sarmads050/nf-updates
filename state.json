@@ -1646,7 +1646,13 @@
   "d52290c5208c8412": 1793625677.1702628,
   "619cdc3f97bd61ba": 1793626258.187481,
   "945adb8886fc4cd5": 1793626258.1875367,
-  "2dfdbe2f81561c15": 1793626258.1878467
+  "2dfdbe2f81561c15": 1793626258.1878467,
+  "a45e3221ab3b140b": 1793626862.1571236,
+  "2c6d735e971a8a8f": 1793626862.1584034,
+  "84956c9062001e74": 1793626862.1584294,
+  "801fb6cf0a574ca1": 1793626862.1584485,
+  "13d2ed60565c1455": 1793626877.3014338,
+  "2031f6c49b608fe8": 1793626877.3014371
  },
  "pending": {},
  "queue": [],
@@ -1712,6 +1718,15 @@
    "domain": "propakistani.pk",
    "source": "ProPakistani",
    "ts": 1793620286,
+   "local": false
+  },
+  {
+   "key": "a45e3221ab3b140b",
+   "title": "Nawaz Sharif Cancer Institute Announces Jobs With Salaries Up to Rs. 117,738",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUG5vN3NCTHlXNWJ1OHRta3dyY0M5Qmk5UFJfYVhiTEVCc3lGVzZYZExuM3F0ZkJELUtVX3lvaU1qRGFpNXBCYlZ5MlkxX093Q1lKOS1JbTc0TWRMWTN0Z3RBQ0dsRnYyUjZIbUs2cTFxV0s5RjlPd3d2R25lUnpqT2tuNXFPWUcybnBwaU5mSnVBTU5NX1lmS3A4SnlPb1UweHpiaFN6S2M4YjRaRVlN0gG0AUFVX3lxTFBGZkNfTG1ZZnN0NmtUWF9YaHJ6TU1DcVpCUWxVYWJ0cHBVRFY4UllCMGNDaTBfcl8zYUhsVGFNSU1ZbGxTei01b00yZ0JMLUd4US1jcFlSSHBYcFFmNGYxRzFqeWlGaHphdVFWc1lheEprc0JrbGJIaWpOVmZpb0tHd3NyNEdIU3NSdEVQQWs4WUt5bnhlLVVRQjFhRlNWRWxfa1lFVUt3Zi1PY1JiTElyMDlxYw?oc=5",
+   "domain": "propakistani.pk",
+   "source": "ProPakistani",
+   "ts": 1793625686,
    "local": false
   }
  ],
@@ -1815,18 +1830,8 @@
    "2a1c259cf89ab2c8"
   ]
  },
- "last_post_id": "1444130002106066_122116865937503839",
+ "last_post_id": "1444130002106066_122116870521503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122116653999503839",
-   "title": "هفتيوار رپورٽ موجب ڪپهه جي مارڪيٽ ۾ اگهن جو هيٺاهين طرف لاڙو جاري رهيو آهي جنهن سبب",
-   "t": 1793580225.291333,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122116653999503839"
-  },
   {
    "id": "1444130002106066_122116664313503839",
    "title": "آڪٽوبر جي آخري تاريخ تائين گوشوارا جمع نه ڪرائڻ تي ايف بي آر هزارين ٽيڪس ڏيندڙن کي غير",
@@ -2142,6 +2147,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122116865937503839"
+  },
+  {
+   "id": "1444130002106066_122116870521503839",
+   "title": "سنڌ کي ٽوڙڻ جي سازش ڪامياب نه ٿيندي: ڊاڪٽر نياز ڪالاڻي",
+   "t": 1793626906.7977288,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122116870521503839"
   }
  ],
  "share_sent": {
@@ -2352,7 +2369,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 18:31",
+  "time": "2026-11-02 18:41",
   "items": 26,
   "sample": [
    "New Zealand A 424/10 v India A 346/10 & 32 *",
@@ -2367,17 +2384,11 @@
  },
  "all_posts": {
   "date": "2026-11-02",
-  "count": 36,
-  "last": 1793625791.624442
+  "count": 37,
+  "last": 1793626895.8579981
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122112668577503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1792758258
-   },
    {
     "id": "1444130002106066_122112673965503839",
     "sec": "district",
@@ -4771,6 +4782,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1793625803
+   },
+   {
+    "id": "1444130002106066_122116870521503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1793626906
    }
   ]
  },
@@ -7795,15 +7812,11 @@
  },
  "ai_usage": {
   "date": "2026-11-02",
-  "ok": 263,
-  "fail": 418,
-  "limit": 421
+  "ok": 266,
+  "fail": 424,
+  "limit": 427
  },
  "posted_heads": [
-  {
-   "h": "OGRA (Amendment) Bill, 2026: Bill proposes quarterly gas pricing moved in Senate",
-   "t": 1793414064
-  },
   {
    "h": "ڄامشورو: دلشاد برفت قتل ڪيس ۾ 6 ڄڻا نامزد، 7 کان وڌيڪ اڻڄاتل جوابدارن خلاف به ڪيس داخل",
    "t": 1793425887
@@ -8119,10 +8132,14 @@
   {
    "h": "سنڌ ۾ عالمي بئنڪ جي 3 ڏهائي85 ارب ڊالرن جي ترقياتي رٿائن جو جائزو، وڏي وزير جو ڪم تيز ۽ رنڊڪون ختم ڪرڻ جو حڪم",
    "t": 1793625803
+  },
+  {
+   "h": "سنڌ کي ٽوڙڻ جي سازش ڪامياب نه ٿيندي، 22 نومبر تي ڪراچيءَ ۾ عوام جو سمنڊ گڏ ڪنداسين: ڊاڪٽر نياز ڪالاڻي",
+   "t": 1793626907
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 18:31",
+  "time": "2026-11-02 18:41",
   "steps": []
  },
  "roundup_am": "2026-11-02",
@@ -8230,7 +8247,7 @@
   "text": 22,
   "story": 19
  },
- "ai_last_error": "18:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "18:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-02",
   "models": [
@@ -8244,10 +8261,10 @@
  },
  "img_diag": {
   "date": "2026-11-02",
-  "tried": 34,
+  "tried": 35,
   "gemini": 0,
   "pollinations": 17,
-  "skip": 10,
+  "skip": 11,
   "fail": 7,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 331
@@ -8271,7 +8288,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
-   "ok": 109,
+   "ok": 110,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -8279,7 +8296,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
-   "ok": 110,
+   "ok": 111,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8287,7 +8304,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
-   "ok": 110,
+   "ok": 111,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8295,14 +8312,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8310,21 +8327,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 114,
+   "ok": 115,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8436,8 +8453,8 @@
    "30-10-2026",
    "31-10-2026"
   ],
-  "last_try": 1793624553.430372,
-  "last_try_note": "18:02 abhi nahi mila",
+  "last_try": 1793626862.1585946,
+  "last_try_note": "18:41 abhi nahi mila",
   "paper": {
    "date": "31-10-2026",
    "read": [
@@ -8462,13 +8479,13 @@
  "region_posts": {
   "date": "2026-11-02",
   "district": 1,
-  "sindh": 19,
+  "sindh": 20,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 18,
-  "old": 18,
+  "posted": 2,
+  "found": 24,
+  "old": 24,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8503,9 +8520,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-02",
-  "count": 17,
-  "last": 1793625661.246141,
-  "city_i": 24,
+  "count": 18,
+  "last": 1793626874.9039352,
+  "city_i": 6,
   "dry": 1793620938.3626566
  },
  "gemini_day_dead": {
@@ -9097,6 +9114,14 @@
    "t": 1793625803,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "fe1ab5258fcae96f",
+   "h": "سنڌ کي ٽوڙڻ جي سازش ڪامياب نه ٿيندي: ڊاڪٽر نياز ڪالاڻي",
+   "x": "جيئي سنڌ رهبر ڪميٽي طرفان 22 نومبر تي اعلانيل وحدتِ سنڌ مارچ جي جاڳرتا مهم جي سلسلي ۾ جيئي سنڌ قومي محاذ (جسقم شهيد بشير خان گروپ) طرفان ضلعي اوڀر جي مختلف علائقن جا دورا ڪيا ويا. جسقم شهيد بشير خان جي چيئرمين ڊاڪٽر نياز ڪالاڻي، آصف بالادي، پنهل ساريو، ڪامريڊ شبير راڄپر، حنان عباسي ۽ ٻين اڳواڻن جمالي پل، سچل ڳوٺ، عبدالله شاهه غازي ۽ ٻين علائقن جا دورا ڪيا، جتي ڪارنر گڏجاڻيون به ڪوٺايون ويون. ان موقعي تي ڊاڪٽر نياز ڪالاڻي ۽ ٻين اڳواڻن چيو ته سنڌ اسان جو تاريخي وطن آهي. هنن وڌيڪ چيو ته سنڌ کي ٽوڙڻ جي سازش ڪامياب نه ٿيندي ۽ 22 نومبر تي ڪراچيءَ ۾ عوام جو سمنڊ گڏ ڪنداسين. بيان: جسقم شهيد بشير خان جو چيئرمين ڊاڪٽر نياز ڪالاڻي",
+   "t": 1793626906,
+   "s": true,
+   "r": 0
   }
  ],
  "reels": {
@@ -9116,13 +9141,6 @@
   "last": 1793356878.054588
  },
  "tg_debug": [
-  {
-   "t": "11-02 12:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-02 12:20",
    "ok": true,
@@ -9395,47 +9413,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-02 18:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-02",
  "recent_posts": [
-  {
-   "t": 1793454008,
-   "h": "شام جون خبرون | ڇنڇر، 31 آڪٽوبر 2026",
-   "b": "1️⃣ زيد جکراڻي جو موت تڪرار جو سبب آهي 2️⃣ شاداب خان فائنل ميچ کان ٻاهر 3️⃣ سنڌ ۾ بلدياتي سهولتن لاءِ عالمي",
-   "tt": [
-    "#31",
-    "اڪٽوبر",
-    "خبرون",
-    "شام",
-    "ڇنڇر،"
-   ],
-   "bt": [
-    "#31",
-    "اهي",
-    "اڪٽوبر",
-    "بئنڪ",
-    "بلدياتي",
-    "تڪرار",
-    "جڪراڻي",
-    "خان",
-    "خبرون",
-    "زيد",
-    "سبب",
-    "سنڌ",
-    "سهولتن",
-    "شاداب",
-    "شام",
-    "عالمي",
-    "فائنل",
-    "منظوري",
-    "موت",
-    "ميچ",
-    "ٻاهر",
-    "ڇنڇر،",
-    "ڪان"
-   ]
-  },
   {
    "t": 1793454704,
    "h": "ڏکڻ آفريڪا ڪيپ ٽائون ٽيسٽ ۾ آسٽريليا کي هارائي سيريز کتي ورتي",
@@ -13252,6 +13240,53 @@
     "ڪرڻ",
     "ڪنٽري"
    ]
+  },
+  {
+   "t": 1793626906,
+   "h": "سنڌ کي ٽوڙڻ جي سازش ڪامياب نه ٿيندي: ڊاڪٽر نياز ڪالاڻي",
+   "b": "جيئي سنڌ رهبر ڪميٽي طرفان 22 نومبر تي اعلانيل وحدتِ سنڌ مارچ جي جاڳرتا مهم جي سلسلي ۾ جيئي سنڌ قومي محاذ",
+   "tt": [
+    "سازش",
+    "سنڌ",
+    "نياز",
+    "ٽوڙڻ",
+    "ڊاڪٽر",
+    "ڪالاڻي",
+    "ڪامياب"
+   ],
+   "bt": [
+    "#22",
+    "اعلانيل",
+    "اوڀر",
+    "بشير",
+    "جاڳرتا",
+    "جسقم",
+    "جيئي",
+    "خان",
+    "دورا",
+    "رهبر",
+    "سازش",
+    "سلسلي",
+    "سنڌ",
+    "شهيد",
+    "ضلعي",
+    "طرفان",
+    "علائقن",
+    "قومي",
+    "مارچ",
+    "محاذ",
+    "مختلف",
+    "مهم",
+    "نومبر",
+    "نياز",
+    "وحدت",
+    "ٽوڙڻ",
+    "ڊاڪٽر",
+    "ڪالاڻي",
+    "ڪامياب",
+    "ڪميٽي",
+    "گروپ"
+   ]
   }
  ],
  "repeat_log": [
@@ -13419,7 +13454,7 @@
  },
  "quality": {
   "date": "2026-11-02",
-  "editor_fixed": 30,
+  "editor_fixed": 31,
   "editor_rejected": 3,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
