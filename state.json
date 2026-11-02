@@ -1,15 +1,5 @@
 {
  "seen": {
-  "050c20d06894863b": 1792976487.9127445,
-  "51e1f0db673bf9ed": 1792976497.5484042,
-  "6e35c27de3e291b6": 1792976497.5484066,
-  "32aed09da4a3156a": 1792976506.2236097,
-  "bd4d9972d16d45d5": 1792976506.2236128,
-  "7c96416b186c85c0": 1792976506.2236135,
-  "d3c28f377fa013c5": 1792976506.223614,
-  "1bfd4cb266ada31f": 1792976506.223615,
-  "604063c55ef2f91a": 1792976506.2236156,
-  "cbe948692fe4e343": 1792976506.2237492,
   "d0089f5297b9ffc4": 1792978276.8618343,
   "78675c1eb96f7b18": 1792978276.861993,
   "e280170a113ed447": 1792978878.645654,
@@ -1602,7 +1592,8 @@
   "c456d13b0bf171b8": 1793579484.616847,
   "403612265885e676": 1793580100.004625,
   "6413a6b857d63edf": 1793580100.0046275,
-  "c1db052aa0e0c6ab": 1793580100.0048494
+  "c1db052aa0e0c6ab": 1793580100.0048494,
+  "464d0270a598eb17": 1793581865.6716845
  },
  "pending": {},
  "queue": [],
@@ -2247,11 +2238,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-02 06:01",
+  "time": "2026-11-02 06:11",
   "items": 27,
   "sample": [
-   "New Zealand A 306/7 * v India A 346/10",
-   "Queensland 261/8 * v Victoria 307/10",
+   "New Zealand A 311/7 * v India A 346/10",
+   "Queensland 265/8 * v Victoria 307/10",
    "Toronto Kings 162/1 * v Mississauga Skyhawks 161/5"
   ]
  },
@@ -7722,9 +7713,9 @@
  },
  "ai_usage": {
   "date": "2026-11-02",
-  "ok": 45,
-  "fail": 78,
-  "limit": 78
+  "ok": 46,
+  "fail": 80,
+  "limit": 80
  },
  "posted_heads": [
   {
@@ -8049,7 +8040,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-02 06:01",
+  "time": "2026-11-02 06:11",
   "steps": []
  },
  "roundup_am": "2026-11-01",
@@ -8157,7 +8148,7 @@
   "text": 7,
   "story": 6
  },
- "ai_last_error": "05:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "06:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-02",
   "models": [
@@ -8198,7 +8189,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-02",
-   "ok": 36,
+   "ok": 37,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8206,7 +8197,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-02",
-   "ok": 35,
+   "ok": 36,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8214,7 +8205,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-02",
-   "ok": 35,
+   "ok": 36,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8222,14 +8213,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8237,21 +8228,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-02",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-02",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-02",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8394,8 +8385,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8432,8 +8423,8 @@
   "date": "2026-11-02",
   "count": 0,
   "last": 1793559267.8472693,
-  "city_i": 18,
-  "dry": 1793580078.4936829
+  "city_i": 22,
+  "dry": 1793581862.3296654
  },
  "gemini_day_dead": {
   "day": "2026-11-01",
@@ -8966,13 +8957,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-01 23:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-01 23:53",
    "ok": true,
    "n": 0,
@@ -9240,6 +9224,13 @@
   },
   {
    "t": "11-02 06:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-02 06:10",
    "ok": true,
    "n": 0,
    "ids": [],
