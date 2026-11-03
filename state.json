@@ -1,16 +1,5 @@
 {
  "seen": {
-  "6b3e9eaf72802a5c": 1793106672.1101153,
-  "57135e2dfe8b4aa7": 1793106672.110118,
-  "86c5ce27de49ee24": 1793106672.1101198,
-  "2123327694d5cee3": 1793106672.110121,
-  "b0e0ab0da4479231": 1793106672.110122,
-  "b0d45f016659f2da": 1793106672.1101224,
-  "fcd824797572ce6c": 1793106672.1101236,
-  "768cfc01eca6340a": 1793106672.1101243,
-  "39bb4a0b59d35848": 1793106672.110125,
-  "8e0a2e85e6402259": 1793106672.110126,
-  "4b26f4a1b131c4df": 1793106672.110128,
   "6f59e6d07fa648b1": 1793108476.923535,
   "413cbe519465d108": 1793108476.9235387,
   "a47e5b0349ada2fa": 1793108476.9235413,
@@ -1781,7 +1770,9 @@
   "54f3a006cc35e862": 1793709668.6577287,
   "756836a20e3b3b26": 1793709668.6577306,
   "eb28b3811da9be76": 1793710250.0178564,
-  "46e5b188b2910b2e": 1793710864.7242937
+  "46e5b188b2910b2e": 1793710864.7242937,
+  "9e1efee64d91ffcc": 1793712080.2937653,
+  "29287163db86eeb6": 1793712080.2937686
  },
  "pending": {},
  "queue": [],
@@ -2466,10 +2457,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 18:10",
+  "time": "2026-11-03 18:21",
   "items": 25,
   "sample": [
-   "Queensland 75/3 & 280/10 * v Victoria 307/10 & 173/10",
+   "Queensland 75/3 & 280/10 * v Victoria 173/10 & 307/10",
    "Assam 135/10 v Karnataka 496/5 *",
    "Meghalaya 144/10 v Nagaland 254/10 & 73/3 *"
   ]
@@ -7909,9 +7900,9 @@
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 276,
-  "fail": 414,
-  "limit": 413
+  "ok": 278,
+  "fail": 418,
+  "limit": 417
  },
  "posted_heads": [
   {
@@ -8236,7 +8227,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 18:10",
+  "time": "2026-11-03 18:21",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8344,7 +8335,7 @@
   "text": 22,
   "story": 19
  },
- "ai_last_error": "18:02 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "18:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8385,7 +8376,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 109,
+   "ok": 110,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8393,7 +8384,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 111,
+   "ok": 112,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8401,7 +8392,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 111,
+   "ok": 112,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8409,14 +8400,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8424,21 +8415,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8613,8 +8604,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 1,
-  "old": 1,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8651,8 +8642,8 @@
  "sindh_stream": {
   "date": "2026-11-03",
   "count": 11,
-  "last": 1793709664.8996115,
-  "city_i": 6,
+  "last": 1793712077.7221081,
+  "city_i": 10,
   "dry": 1793709668.657732
  },
  "gemini_day_dead": {
@@ -9338,13 +9329,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-03 11:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-03 12:00",
    "ok": true,
    "n": 0,
@@ -9612,6 +9596,13 @@
   },
   {
    "t": "11-03 18:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 18:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13831,11 +13822,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-31 15:02",
-   "new": "پيٽرول اگهه برقرار، هاءِ اسپيڊ ڊيزل مهانگو",
-   "old": "پيٽرول اگهه برقرار، ڊزل مهانگو"
-  },
-  {
    "t": "10-31 19:30",
    "new": "جکراڻي ڀائرن ۾ ٺاهه، ملڪيتن جو فيصلو 30 نومبر تي ٿيندو",
    "old": "ملڪيت نه پر زيد جکراڻي جو موت تڪرار جو سبب آهي: سهيل انور سيال"
@@ -13979,6 +13965,11 @@
    "t": "11-03 13:32",
    "new": "سون جي اگهه ۾ لاٿ",
    "old": "پاڪستان ۾ سوني اگهه ۾ واڌ"
+  },
+  {
+   "t": "11-03 18:21",
+   "new": "ڪراچيءَ ۾ وحدتِ سنڌ ريلي سنڌ جي وحدت جو ريفرنڊم آهي: رياض چانڊيو",
+   "old": "سنڌ کي ٽوڙڻ جي سازش ڪامياب نه ٿيندي: ڊاڪٽر نياز ڪالاڻي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13999,6 +13990,7 @@
   "kawish_rejected": 2,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 8
- }
+  "repeat": 9
+ },
+ "_dup": true
 }
