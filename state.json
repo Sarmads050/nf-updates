@@ -1783,7 +1783,9 @@
   "09dcb1937063bc85": 1793714489.6068754,
   "a4e6fcb631d5d5fd": 1793714489.6068764,
   "a91b36ae76764ced": 1793715054.0295055,
-  "6803b4f854d1e13a": 1793715690.0944428
+  "6803b4f854d1e13a": 1793715690.0944428,
+  "3ffec7c91126b234": 1793716883.462163,
+  "68e93904ba07d1fa": 1793716883.4621665
  },
  "pending": {},
  "queue": [],
@@ -2468,12 +2470,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 19:31",
+  "time": "2026-11-03 19:41",
   "items": 24,
   "sample": [
    "Assam 135/10 v Karnataka 496/5 *",
-   "Meghalaya 144/10 v Nagaland 73/3 & 254/10 *",
-   "Tripura 54/4 & 268/10 * v Saurashtra 118/10"
+   "Meghalaya 144/10 v Nagaland 254/10 & 73/3 *",
+   "Tripura 268/10 & 54/4 * v Saurashtra 118/10"
   ]
  },
  "agri_news": {
@@ -7911,9 +7913,9 @@
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 292,
-  "fail": 442,
-  "limit": 441
+  "ok": 294,
+  "fail": 446,
+  "limit": 445
  },
  "posted_heads": [
   {
@@ -8238,7 +8240,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 19:31",
+  "time": "2026-11-03 19:41",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8346,7 +8348,7 @@
   "text": 23,
   "story": 20
  },
- "ai_last_error": "19:22 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "19:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8387,7 +8389,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 117,
+   "ok": 118,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8395,7 +8397,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 119,
+   "ok": 120,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8403,7 +8405,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 119,
+   "ok": 120,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8411,14 +8413,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8426,21 +8428,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8615,8 +8617,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8653,8 +8655,8 @@
  "sindh_stream": {
   "date": "2026-11-03",
   "count": 12,
-  "last": 1793715666.8039303,
-  "city_i": 22,
+  "last": 1793716866.6835175,
+  "city_i": 4,
   "dry": 1793714489.6068785
  },
  "gemini_day_dead": {
@@ -9349,13 +9351,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-03 13:03",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-03 13:11",
    "ok": true,
    "n": 0,
@@ -9623,6 +9618,13 @@
   },
   {
    "t": "11-03 19:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 19:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13864,11 +13866,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-31 19:30",
-   "new": "جکراڻي ڀائرن ۾ ٺاهه، ملڪيتن جو فيصلو 30 نومبر تي ٿيندو",
-   "old": "ملڪيت نه پر زيد جکراڻي جو موت تڪرار جو سبب آهي: سهيل انور سيال"
-  },
-  {
    "t": "11-01 02:01",
    "new": "پاڪستان ٽه ملڪي سيريز جو فائنل کٽي ورتو",
    "old": "پاڪستان سريلنڪا کي شڪست ڏئي ٽه ملڪي سيريز کٽي ورتي"
@@ -14012,6 +14009,11 @@
    "t": "11-03 18:21",
    "new": "ڪراچيءَ ۾ وحدتِ سنڌ ريلي سنڌ جي وحدت جو ريفرنڊم آهي: رياض چانڊيو",
    "old": "سنڌ کي ٽوڙڻ جي سازش ڪامياب نه ٿيندي: ڊاڪٽر نياز ڪالاڻي"
+  },
+  {
+   "t": "11-03 19:41",
+   "new": "ٽرمپ جو اسرائيل لاءِ سالياني 4 ارب ڊالر امداد بند ڪرڻ جو اعلان",
+   "old": "نيتن ياهو جي دٻاءُ تي ايران مٿان ايٽمي حملي جو خطرو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14032,6 +14034,7 @@
   "kawish_rejected": 2,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 9
- }
+  "repeat": 10
+ },
+ "_dup": true
 }
