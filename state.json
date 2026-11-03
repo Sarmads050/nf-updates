@@ -1775,7 +1775,11 @@
   "d7e281f11811e7cb": 1793708454.7046824,
   "cffc562a415d6cbb": 1793708469.5518508,
   "81d52a8b82032fa6": 1793708478.9838698,
-  "6d30b9d49afce5d3": 1793708478.9840102
+  "6d30b9d49afce5d3": 1793708478.9840102,
+  "a3eff36f1c13d635": 1793709654.0548346,
+  "96b63657298934d3": 1793709668.6577258,
+  "54f3a006cc35e862": 1793709668.6577287,
+  "756836a20e3b3b26": 1793709668.6577306
  },
  "pending": {},
  "queue": [],
@@ -2460,12 +2464,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 17:31",
+  "time": "2026-11-03 17:41",
   "items": 24,
   "sample": [
-   "Queensland 75/3 & 280/10 * v Victoria 307/10 & 173/10",
+   "Queensland 280/10 & 75/3 * v Victoria 307/10 & 173/10",
    "Assam 135/10 v Karnataka 496/5 *",
-   "Meghalaya 144/10 v Nagaland 73/3 & 254/10 *"
+   "Meghalaya 144/10 v Nagaland 254/10 & 73/3 *"
   ]
  },
  "agri_news": {
@@ -4888,64 +4892,8 @@
   "last": 1793706120.7237625
  },
  "trends": {
-  "last": 1793698263.1049082,
+  "last": 1793709654.0553784,
   "terms": [
-   {
-    "term": "fastest t20 century",
-    "traffic": 200,
-    "news": "",
-    "t": 1793095272,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "aiden markram",
-    "traffic": 100,
-    "news": "Aiden Markram backs South Africa to reach WTC final again: Extra fire, extra desire",
-    "t": 1793095272,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "privatization",
-    "traffic": 100,
-    "news": "Where does Krawchuk stand on the issues?",
-    "t": 1793095272,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "cricinfo",
-    "traffic": 5000,
-    "news": "Australia give Smith chance to prove fitness ahead of decider",
-    "t": 1793095272,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "icc",
-    "traffic": 2000,
-    "news": "ICC Upgraded To WADA's Highest Tier Following Olympic Inclusion",
-    "t": 1793095272,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "vaibhav sooryavanshi",
-    "traffic": 5000,
-    "news": "'Vaibhav Sooryavanshi needs to wait': Ex-India cricketer wants youngster dropped after just one innings",
-    "t": 1793095272,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "south africa vs australia",
-    "traffic": 20000,
-    "news": "No.1 ranking on the line as Aussies aware of Cape Town stakes",
-    "t": 1793095272,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "پاکستان قومی کرکٹ ٹیم بمقابلہ سری لنکا قومی کرکٹ ٹیم اسٹینڈنگز",
     "traffic": 200,
@@ -7913,15 +7861,55 @@
     "t": 1793698263,
     "cat": "transport_trade",
     "sindh": false
+   },
+   {
+    "term": "jesús de miguel",
+    "traffic": 200,
+    "news": "Qué es la 'commotio cordis', el extraño episodio cardiaco tras un golpe en el pecho como el de Jesús de Miguel",
+    "t": 1793709654,
+    "cat": "health",
+    "sindh": false
+   },
+   {
+    "term": "jesus de miguel",
+    "traffic": 500,
+    "news": "Tenerife footballer Jesús de Miguel dies aged 30 after on-pitch collision",
+    "t": 1793709654,
+    "cat": "health",
+    "sindh": false
+   },
+   {
+    "term": "asia cup 2026",
+    "traffic": 100,
+    "news": "Maaz Sadaqat, Hasan Nawaz named in Pakistan Shaheens squad for Rising Stars Asia Cup",
+    "t": 1793709654,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "virus",
+    "traffic": 500,
+    "news": "Horror as deadly virus that killed person in France found in UK livestock for first time",
+    "t": 1793709654,
+    "cat": "health",
+    "sindh": false
+   },
+   {
+    "term": "harvard university",
+    "traffic": 500,
+    "news": "US court dismisses Trump administration lawsuit over Harvard data — Anadolu Agency",
+    "t": 1793709654,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 270,
-  "fail": 402,
-  "limit": 401
+  "ok": 273,
+  "fail": 408,
+  "limit": 407
  },
  "posted_heads": [
   {
@@ -8246,7 +8234,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 17:31",
+  "time": "2026-11-03 17:41",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8354,7 +8342,7 @@
   "text": 22,
   "story": 19
  },
- "ai_last_error": "17:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "17:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8395,7 +8383,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 105,
+   "ok": 106,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8403,7 +8391,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 107,
+   "ok": 108,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8411,7 +8399,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 107,
+   "ok": 108,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8419,14 +8407,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8434,21 +8422,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8623,8 +8611,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8661,9 +8649,9 @@
  "sindh_stream": {
   "date": "2026-11-03",
   "count": 11,
-  "last": 1793708467.6849334,
-  "city_i": 24,
-  "dry": 1793708469.5518534
+  "last": 1793709664.8996115,
+  "city_i": 6,
+  "dry": 1793709668.657732
  },
  "gemini_day_dead": {
   "day": "2026-11-03",
@@ -9348,13 +9336,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-03 11:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-03 11:20",
    "ok": true,
    "n": 0,
@@ -9622,6 +9603,13 @@
   },
   {
    "t": "11-03 17:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 17:40",
    "ok": true,
    "n": 0,
    "ids": [],
