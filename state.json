@@ -1746,7 +1746,9 @@
   "01afb3f428d63afa": 1793695265.4070318,
   "e46138dbb76507c3": 1793695265.4070346,
   "7606eba4819d52e3": 1793695265.4070354,
-  "7664a1f99000317e": 1793695265.407214
+  "7664a1f99000317e": 1793695265.407214,
+  "54cbd72df3317705": 1793696477.7540414,
+  "2df9600e8f0456c2": 1793696477.7540445
  },
  "pending": {},
  "queue": [],
@@ -1872,17 +1874,8 @@
    "8ba168c9997f9ea5"
   ]
  },
- "last_post_id": "1444130002106066_122117115279503839",
+ "last_post_id": "1444130002106066_122117120787503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122116843899503839",
-   "title": "عالمي منڊي ۾ تيل جون قيمتون گهٽجڻ بعد عوام کي رليف ملڻ جو امڪان ظاهر ڪيو ويو آهي",
-   "t": 1793621209.7543998,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122116843899503839"
-  },
   {
    "id": "1444130002106066_122116848051503839",
    "title": "سنڌ جي پرڏيهي قرضن ۾ ٻين صوبن کان وڌيڪ اضافو",
@@ -2193,6 +2186,18 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122117115279503839"
+  },
+  {
+   "id": "1444130002106066_122117120787503839",
+   "title": "ٽيڪس وصولي ۾ گهٽتائي تي آءِ ايم ايف جو ڳڻتي جو اظهار",
+   "t": 1793696596.3281953,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122117120787503839"
   }
  ],
  "share_sent": {
@@ -2403,12 +2408,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 13:50",
+  "time": "2026-11-03 14:03",
   "items": 24,
   "sample": [
-   "New Zealand A 424/10 v India A 346/10 & 282/2 *",
+   "New Zealand A 424/10 v India A 282/2 & 346/10 *",
    "Queensland 75/3 & 280/10 * v Victoria 173/10 & 307/10",
-   "Assam 135/10 v Karnataka 406/5 *"
+   "Assam 135/10 v Karnataka 418/5 *"
   ]
  },
  "agri_news": {
@@ -2418,17 +2423,11 @@
  },
  "all_posts": {
   "date": "2026-11-03",
-  "count": 21,
-  "last": 1793695347.2652602
+  "count": 22,
+  "last": 1793696592.60353
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122112887649503839",
-    "sec": "agri_news",
-    "cat": "agri_news",
-    "t": 1792804385
-   },
    {
     "id": "1444130002106066_122112904749503839",
     "sec": "agri_news",
@@ -4822,6 +4821,12 @@
     "sec": "public_news",
     "cat": "transport_trade",
     "t": 1793695353
+   },
+   {
+    "id": "1444130002106066_122117120787503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1793696596
    }
   ]
  },
@@ -7846,15 +7851,11 @@
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 184,
-  "fail": 300,
-  "limit": 299
+  "ok": 190,
+  "fail": 308,
+  "limit": 307
  },
  "posted_heads": [
-  {
-   "h": "Winter Brings Double Trouble for Pakistanis! Higher Electricity Bills and More Load-Shedding Expected",
-   "t": 1793480606
-  },
   {
    "h": "Punjab Wheat Cultivation | Rs4,500 Per Maund Price | Seed Subsidy - Aaj News",
    "t": 1793483524
@@ -8170,10 +8171,14 @@
   {
    "h": "Pakistan surpasses Vietnam in rice exports during Sept",
    "t": 1793695353
+  },
+  {
+   "h": "ٽيڪس وصولي ۾ گهٽتائي تي آءِ ايم ايف ڳڻتي ظاهر ڪري ڇڏي، هنگامي قدمن جي تجويز",
+   "t": 1793696596
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 13:50",
+  "time": "2026-11-03 14:03",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8281,7 +8286,7 @@
   "text": 18,
   "story": 15
  },
- "ai_last_error": "13:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "14:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8295,13 +8300,13 @@
  },
  "img_diag": {
   "date": "2026-11-03",
-  "tried": 19,
+  "tried": 20,
   "gemini": 0,
   "pollinations": 11,
   "skip": 1,
-  "fail": 9,
+  "fail": 10,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
-  "mismatch": 354
+  "mismatch": 356
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -8322,7 +8327,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 85,
+   "ok": 86,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8330,7 +8335,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 85,
+   "ok": 86,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8338,7 +8343,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 85,
+   "ok": 86,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8346,14 +8351,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8361,21 +8366,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8513,18 +8518,18 @@
  "region_posts": {
   "date": "2026-11-03",
   "district": 0,
-  "sindh": 7,
+  "sindh": 8,
   "pakistan": 12
  },
  "report_acc": {
-  "posted": 1,
-  "found": 10,
-  "old": 10,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-03 13",
+ "report_hour": "2026-11-03 14",
  "kawish_upload_times": {
   "_date": "2026-11-03",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8555,9 +8560,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-03",
-  "count": 6,
-  "last": 1793694673.0677097,
-  "city_i": 10,
+  "count": 7,
+  "last": 1793696475.273301,
+  "city_i": 14,
   "dry": 1793694736.56429
  },
  "gemini_day_dead": {
@@ -9181,6 +9186,14 @@
    "t": 1793695353,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "6274475eecdf5dab",
+   "h": "ٽيڪس وصولي ۾ گهٽتائي تي آءِ ايم ايف جو ڳڻتي جو اظهار",
+   "x": "اسلام آباد (بيورو رپورٽ) عالمي مالياتي اداري (آءِ ايم ايف) پاڪستان ۾ ٽيڪس وصوليءَ جي هدف کان گهٽ آمدني تي ڳڻتي ظاهر ڪندي شارٽ فال پورو ڪرڻ لاءِ هنگامي ٽيڪس قدم کڻڻ جي تجويز ڏئي ڇڏي آهي. ذريعن موجب، آءِ ايم ايف آڪٽوبر مهيني دوران 129 ارب رپين ۽ چئن مهينن دوران مجموعي طور 96 ارب رپين جي ٽيڪس شارٽ فال تي خدشن جو اظهار ڪيو آهي. عالمي مالياتي اداري پاڪستان تي زور ڏنو آهي ته هلندڙ مالي سال لاءِ 15 هزار 264 ارب رپين جو ساليانو ٽيڪس وصوليءَ جو هدف هر صورت ۾ پورو ڪيو وڃي.",
+   "t": 1793696596,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9189,7 +9202,8 @@
    "08:00",
    "09:30",
    "11:00",
-   "12:30"
+   "12:30",
+   "14:00"
   ]
  },
  "kawish_queue": [],
@@ -9199,13 +9213,6 @@
   "last": 1793356878.054588
  },
  "tg_debug": [
-  {
-   "t": "11-03 07:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-03 07:40",
    "ok": true,
@@ -9474,6 +9481,13 @@
   },
   {
    "t": "11-03 13:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 14:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13395,6 +13409,55 @@
     "ڇڏيندي",
     "ڪنيو"
    ]
+  },
+  {
+   "t": 1793696596,
+   "h": "ٽيڪس وصولي ۾ گهٽتائي تي آءِ ايم ايف جو ڳڻتي جو اظهار",
+   "b": "اسلام آباد (بيورو رپورٽ) عالمي مالياتي اداري (آءِ ايم ايف) پاڪستان ۾ ٽيڪس وصوليءَ جي هدف کان گهٽ آمدني تي",
+   "tt": [
+    "اظهار",
+    "ايف",
+    "ايم",
+    "وصولي",
+    "ٽيڪس",
+    "گهٽتائي",
+    "ڳڻتي"
+   ],
+   "bt": [
+    "اباد",
+    "اداري",
+    "اسلام",
+    "اظهار",
+    "امدني",
+    "اهي",
+    "ايف",
+    "ايم",
+    "بيورو",
+    "تجويز",
+    "رپورٽ",
+    "شارٽ",
+    "ظاهر",
+    "عالمي",
+    "فال",
+    "قدم",
+    "مالياتي",
+    "هدف",
+    "هنگامي",
+    "وصولي",
+    "وصوليء",
+    "ٽيڪس",
+    "پاڪستان",
+    "پورو",
+    "ڇڏي",
+    "ڏئي",
+    "ڪان",
+    "ڪرڻ",
+    "ڪندي",
+    "ڪڻڻ",
+    "گهٽ",
+    "گهٽتائي",
+    "ڳڻتي"
+   ]
   }
  ],
  "repeat_log": [
@@ -13562,7 +13625,7 @@
  },
  "quality": {
   "date": "2026-11-03",
-  "editor_fixed": 15,
+  "editor_fixed": 16,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
