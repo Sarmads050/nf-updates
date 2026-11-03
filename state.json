@@ -1,7 +1,5 @@
 {
  "seen": {
-  "5f5776d72d8caf3b": 1793085264.6293066,
-  "2f3767d70bf67982": 1793085419.998689,
   "b9a6b516f6954009": 1793085665.6898236,
   "eefb0911676d9fdf": 1793085665.6898267,
   "f2af66c54430151a": 1793085665.6898284,
@@ -1741,7 +1739,10 @@
   "2acabb4ce88a0c96": 1793688050.2554002,
   "1bea25868eb85a13": 1793688061.6247618,
   "6d01c6e6c0fb0013": 1793689275.5078564,
-  "d8b84d93f457aca8": 1793689275.50786
+  "d8b84d93f457aca8": 1793689275.50786,
+  "6a38fc22b03be498": 1793690470.0026276,
+  "443d4244945c0061": 1793690470.0026295,
+  "505b7ed77ffa62b5": 1793690470.0026317
  },
  "pending": {},
  "queue": [],
@@ -2393,10 +2394,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 12:10",
+  "time": "2026-11-03 12:21",
   "items": 24,
   "sample": [
-   "New Zealand A 424/10 v India A 346/10 & 282/2 *",
+   "New Zealand A 424/10 v India A 282/2 & 346/10 *",
    "Queensland 75/3 & 280/10 * v Victoria 173/10 & 307/10",
    "Assam 135/10 v Karnataka 349/4 *"
   ]
@@ -7836,9 +7837,9 @@
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 156,
-  "fail": 262,
-  "limit": 262
+  "ok": 158,
+  "fail": 266,
+  "limit": 266
  },
  "posted_heads": [
   {
@@ -8163,7 +8164,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 12:10",
+  "time": "2026-11-03 12:21",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8271,7 +8272,7 @@
   "text": 16,
   "story": 13
  },
- "ai_last_error": "12:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "12:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8313,14 +8314,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
    "ok": 75,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 74,
+   "ok": 75,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8328,7 +8329,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 74,
+   "ok": 75,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8336,14 +8337,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8351,21 +8352,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8508,8 +8509,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 1,
-  "old": 1,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8546,8 +8547,8 @@
  "sindh_stream": {
   "date": "2026-11-03",
   "count": 5,
-  "last": 1793689273.2045028,
-  "city_i": 16,
+  "last": 1793690467.7142503,
+  "city_i": 20,
   "dry": 1793685681.6157007
  },
  "gemini_day_dead": {
@@ -9189,13 +9190,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-03 05:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-03 06:00",
    "ok": true,
    "n": 0,
@@ -9463,6 +9457,13 @@
   },
   {
    "t": "11-03 12:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 12:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13458,11 +13459,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-31 11:41",
-   "new": "ٽاءِ سيريز جي فائنل ۾ پوري طاقت سان کيڏنداسين",
-   "old": "آغا سلمان جو بابر ۽ فخر تي اعتماد"
-  },
-  {
    "t": "10-31 15:01",
    "new": "پاڪستان جو سری لنڪا خلاف ٽاس کيتي بالنگ جو فيصلو",
    "old": "پاڪستان ۽ سری لنڪا جي ڪرڪيٽ ٽيمون آمهون سامهون"
@@ -13606,6 +13602,11 @@
    "t": "11-03 09:41",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ روزاني واڌ ۽ گھٽتائي جو امڪان",
    "old": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات."
+  },
+  {
+   "t": "11-03 12:21",
+   "new": "تعليمي دستاويزن جي تصديق ۾ فراڊ، ايڇ اي سي جون هدايتون",
+   "old": "صبح جون سنڌ جون اهم خبرون"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13626,6 +13627,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 6
- }
+  "repeat": 7
+ },
+ "_dup": true
 }
