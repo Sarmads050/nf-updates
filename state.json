@@ -1,7 +1,5 @@
 {
  "seen": {
-  "309339d728f968b2": 1793119874.904817,
-  "e9580cea574bc093": 1793119874.9048204,
   "2be3c8338f7d2618": 1793121080.6106474,
   "4bff11fe7fda2fc1": 1793121080.61065,
   "ed8598f4344ca811": 1793121080.6106513,
@@ -1780,7 +1778,13 @@
   "1e25e86e2e1d38d5": 1793720542.9812417,
   "4359f2072e9f7bd5": 1793721715.7630136,
   "a91350fce13e02a0": 1793722211.5471392,
-  "4a174dcbf731ab1a": 1793724055.1191888
+  "4a174dcbf731ab1a": 1793724055.1191888,
+  "e2b6d451c87e420f": 1793725320.2237537,
+  "5345208cc4cc5617": 1793725320.2237568,
+  "2fa1b9b03dfdd6c7": 1793725320.223758,
+  "1cbd79b47c280e31": 1793725320.2237597,
+  "0075ca22b1c8d291": 1793725320.2237604,
+  "d82ca793b410f273": 1793725320.2237632
  },
  "pending": {},
  "queue": [],
@@ -2474,11 +2478,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 21:51",
+  "time": "2026-11-03 22:02",
   "items": 24,
   "sample": [
    "Assam 135/10 v Karnataka 496/5 *",
-   "Meghalaya 144/10 v Nagaland 254/10 & 73/3 *",
+   "Meghalaya 144/10 v Nagaland 73/3 & 254/10 *",
    "Tripura 54/4 & 268/10 * v Saurashtra 118/10"
   ]
  },
@@ -7909,9 +7913,9 @@
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 319,
-  "fail": 484,
-  "limit": 483
+  "ok": 321,
+  "fail": 488,
+  "limit": 487
  },
  "posted_heads": [
   {
@@ -8236,7 +8240,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 21:51",
+  "time": "2026-11-03 22:02",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8344,7 +8348,7 @@
   "text": 23,
   "story": 20
  },
- "ai_last_error": "21:02 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "22:02 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8385,7 +8389,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 132,
+   "ok": 133,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8393,7 +8397,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 134,
+   "ok": 135,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8401,7 +8405,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 134,
+   "ok": 135,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8409,14 +8413,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8424,21 +8428,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 135,
+   "ok": 136,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8613,13 +8617,13 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 5,
-  "old": 5,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-03 21",
+ "report_hour": "2026-11-03 22",
  "kawish_upload_times": {
   "_date": "2026-11-03",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8651,8 +8655,8 @@
  "sindh_stream": {
   "date": "2026-11-03",
   "count": 15,
-  "last": 1793720499.8446152,
-  "city_i": 14,
+  "last": 1793725298.537981,
+  "city_i": 18,
   "dry": 1793724671.7342706
  },
  "gemini_day_dead": {
@@ -9357,13 +9361,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-03 15:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-03 15:40",
    "ok": true,
    "n": 0,
@@ -9631,6 +9628,13 @@
   },
   {
    "t": "11-03 21:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 22:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13930,11 +13934,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-01 02:01",
-   "new": "پاڪستان ٽه ملڪي سيريز جو فائنل کٽي ورتو",
-   "old": "پاڪستان سريلنڪا کي شڪست ڏئي ٽه ملڪي سيريز کٽي ورتي"
-  },
-  {
    "t": "11-01 02:51",
    "new": "فخر زمان جي شاندار سينچري، پاڪستان ٽه ملڪي سيريز کٽي ورتي",
    "old": "پاڪستان سريلنڪا کي شڪست ڏئي ٽه ملڪي سيريز کٽي ورتي"
@@ -14078,6 +14077,11 @@
    "t": "11-03 19:41",
    "new": "ٽرمپ جو اسرائيل لاءِ سالياني 4 ارب ڊالر امداد بند ڪرڻ جو اعلان",
    "old": "نيتن ياهو جي دٻاءُ تي ايران مٿان ايٽمي حملي جو خطرو"
+  },
+  {
+   "t": "11-03 22:02",
+   "new": "سنڌ جي وحدت خلاف سازش: ايم ڪيو ايم جي ريلي تي ڳڻتي",
+   "old": "سنڌ حڪومت جو ايم ڪيو ايم کي شاهراهِه فيصل تي جلسي کان انڪار"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14098,6 +14102,7 @@
   "kawish_rejected": 2,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 10
- }
+  "repeat": 11
+ },
+ "_dup": true
 }
