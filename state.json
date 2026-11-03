@@ -1,7 +1,5 @@
 {
  "seen": {
-  "d256258db38b2b65": 1793115672.013394,
-  "c1cefed5231d4d48": 1793115672.0133967,
   "b9b3641bf46b7bed": 1793116890.7997882,
   "da009c03ae82f3b1": 1793118073.0191402,
   "3037436ba45277c5": 1793118073.0191436,
@@ -2475,12 +2473,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 20:45",
+  "time": "2026-11-03 20:50",
   "items": 24,
   "sample": [
    "Assam 135/10 v Karnataka 496/5 *",
-   "Meghalaya 144/10 v Nagaland 254/10 & 73/3 *",
-   "Tripura 54/4 & 268/10 * v Saurashtra 118/10"
+   "Meghalaya 144/10 v Nagaland 73/3 & 254/10 *",
+   "Tripura 268/10 & 54/4 * v Saurashtra 118/10"
   ]
  },
  "agri_news": {
@@ -8237,7 +8235,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 20:45",
+  "time": "2026-11-03 20:50",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8386,7 +8384,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 124,
+   "ok": 125,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8394,7 +8392,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 126,
+   "ok": 127,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8402,7 +8400,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 126,
+   "ok": 127,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8410,14 +8408,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8425,21 +8423,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8614,8 +8612,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 4,
-  "old": 4,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9357,13 +9355,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-03 14:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-03 14:20",
    "ok": true,
    "n": 0,
@@ -9631,6 +9622,13 @@
   },
   {
    "t": "11-03 20:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 20:50",
    "ok": true,
    "n": 0,
    "ids": [],
