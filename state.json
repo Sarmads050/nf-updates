@@ -1758,7 +1758,27 @@
   "947927be7de9ce81": 1793743271.1161027,
   "434aa30c10b645ae": 1793745683.5278728,
   "116de24e884dbef5": 1793745683.5281098,
-  "48e1d2cc52612f3b": 1793746258.129114
+  "48e1d2cc52612f3b": 1793746258.129114,
+  "fcd39bd9071096fe": 1793748682.1315782,
+  "c582e93e951aa9a2": 1793748682.1315806,
+  "3b35b9bd6ee8d67e": 1793748682.131582,
+  "d1fb0c1e396293a8": 1793748682.1315825,
+  "1f099a1a76c2b011": 1793748682.131584,
+  "1b47fc95d388a6a9": 1793748682.1315851,
+  "1e0833cff6d6884b": 1793748682.131586,
+  "a57cb4811b401f3f": 1793748682.131587,
+  "70115cdf545dae85": 1793748682.1315877,
+  "8c759f1e6449fa47": 1793748682.1315885,
+  "187ef29b8c88a3ae": 1793748693.894771,
+  "b5e54789b83b44b3": 1793748693.894774,
+  "317ac2752b671882": 1793748693.8947752,
+  "9fb9974e069559d0": 1793748693.8947759,
+  "e4ace87fcd6161d3": 1793748693.8947768,
+  "3b1e27ddfcecc585": 1793748693.8947775,
+  "e66ed943546fb8e9": 1793748693.8947797,
+  "d4a18b10c591c8ee": 1793748693.8947802,
+  "55c61dd0901ab489": 1793748693.894781,
+  "6d8997d2038cae71": 1793748693.8950336
  },
  "pending": {},
  "queue": [],
@@ -2474,7 +2494,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-04 04:20",
+  "time": "2026-11-04 04:31",
   "items": 23,
   "sample": [
    "Assam 135/10 v Karnataka 496/5 *",
@@ -7933,9 +7953,9 @@
  },
  "ai_usage": {
   "date": "2026-11-04",
-  "ok": 37,
-  "fail": 62,
-  "limit": 62
+  "ok": 42,
+  "fail": 72,
+  "limit": 72
  },
  "posted_heads": [
   {
@@ -8260,7 +8280,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-04 04:20",
+  "time": "2026-11-04 04:31",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8363,12 +8383,12 @@
  },
  "article_diag": {
   "date": "2026-11-04",
-  "tried": 4,
-  "decoded": 4,
-  "text": 3,
-  "story": 3
+  "tried": 5,
+  "decoded": 5,
+  "text": 4,
+  "story": 4
  },
- "ai_last_error": "03:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "04:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-04",
   "models": [
@@ -8409,7 +8429,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-04",
-   "ok": 27,
+   "ok": 28,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8417,7 +8437,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-04",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8425,7 +8445,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-04",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8433,14 +8453,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8448,21 +8468,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-04",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8637,8 +8657,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8677,8 +8697,8 @@
   "date": "2026-11-04",
   "count": 2,
   "last": 1793739088.3305275,
-  "city_i": 18,
-  "dry": 1793745675.582742
+  "city_i": 22,
+  "dry": 1793748670.48354
  },
  "gemini_day_dead": {
   "day": "2026-11-03",
@@ -9347,13 +9367,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-03 22:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-03 22:10",
    "ok": true,
    "n": 0,
@@ -9621,6 +9634,13 @@
   },
   {
    "t": "11-04 04:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-04 04:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14051,11 +14071,6 @@
  "repeat_log": [
   {
    "t": "11-01 02:51",
-   "new": "فخر زمان جي شاندار سينچري، پاڪستان ٽه ملڪي سيريز کٽي ورتي",
-   "old": "پاڪستان سريلنڪا کي شڪست ڏئي ٽه ملڪي سيريز کٽي ورتي"
-  },
-  {
-   "t": "11-01 02:51",
    "new": "اوگرا پاران نومبر لاءِ ايل پي جي قيمتن ۾ واڌ",
    "old": "سنڌ | اوگرا پاران ايل پي جي جي قيمت ۾ واڌ"
   },
@@ -14198,6 +14213,11 @@
    "t": "11-03 22:02",
    "new": "سنڌ جي وحدت خلاف سازش: ايم ڪيو ايم جي ريلي تي ڳڻتي",
    "old": "سنڌ حڪومت جو ايم ڪيو ايم کي شاهراهِه فيصل تي جلسي کان انڪار"
+  },
+  {
+   "t": "11-04 04:31",
+   "new": "سنڌ جي ڪپهه پوکيندڙن کي درپيش چئلينجز",
+   "old": "سنڌ ۽ پاڪستان جي هارين جا مسئلا"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14218,6 +14238,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 0
- }
+  "repeat": 1
+ },
+ "_dup": true
 }
