@@ -1,6 +1,5 @@
 {
  "seen": {
-  "3f558061046dff8a": 1793137861.4106271,
   "ba7971e114754690": 1793139052.6159463,
   "d65dcda6b45de868": 1793139052.6163785,
   "db78330ffebf51da": 1793141467.4205189,
@@ -1776,7 +1775,8 @@
   "16c7bd528a8a1761": 1793742678.5405717,
   "7f2f88635aef6534": 1793742678.5405726,
   "61c1157db9878cbe": 1793742678.5405731,
-  "9a78deedbe12a2ca": 1793742678.5407887
+  "9a78deedbe12a2ca": 1793742678.5407887,
+  "947927be7de9ce81": 1793743271.1161027
  },
  "pending": {},
  "queue": [],
@@ -2495,12 +2495,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-04 02:51",
-  "items": 24,
+  "time": "2026-11-04 03:01",
+  "items": 23,
   "sample": [
    "Assam 135/10 v Karnataka 496/5 *",
    "Meghalaya 144/10 v Nagaland 254/10 & 73/3 *",
-   "Tripura 268/10 & 54/4 * v Saurashtra 118/10"
+   "Tripura 54/4 & 268/10 * v Saurashtra 118/10"
   ]
  },
  "agri_news": {
@@ -8281,7 +8281,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-04 02:51",
+  "time": "2026-11-04 03:01",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8430,7 +8430,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-04",
-   "ok": 18,
+   "ok": 19,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8438,7 +8438,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-04",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8446,7 +8446,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-04",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8454,14 +8454,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8469,21 +8469,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-04",
-   "ok": 19,
+   "ok": 20,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8657,14 +8657,14 @@
   "pakistan": 2
  },
  "report_acc": {
-  "posted": 1,
-  "found": 5,
-  "old": 5,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-04 02",
+ "report_hour": "2026-11-04 03",
  "kawish_upload_times": {
   "_date": "2026-11-04",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9368,13 +9368,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-03 20:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-03 20:50",
    "ok": true,
    "n": 0,
@@ -9642,6 +9635,13 @@
   },
   {
    "t": "11-04 02:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-04 03:00",
    "ok": true,
    "n": 0,
    "ids": [],
