@@ -1,6 +1,5 @@
 {
  "seen": {
-  "dead1fc51c0d705b": 1793095873.2125657,
   "b88248f7a34ebc01": 1793097072.4560013,
   "e809a11fb89bcbcc": 1793097683.1092668,
   "d47fd71ce39eb485": 1793097694.51292,
@@ -1760,7 +1759,9 @@
   "3c458e570447b391": 1793700064.243431,
   "8cd59948d12fb946": 1793700098.0962796,
   "f5a754b89e7b2509": 1793700649.4652991,
-  "f8faaa45f5d6d950": 1793700649.4656363
+  "f8faaa45f5d6d950": 1793700649.4656363,
+  "04ad3c18251e13ea": 1793701272.7671638,
+  "4d9e8478ac3cb2a6": 1793701272.767167
  },
  "pending": {},
  "queue": [],
@@ -1806,7 +1807,7 @@
   "last_week": "",
   "last_check": "2026-11-03"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1895,20 +1896,8 @@
    "8ba168c9997f9ea5"
   ]
  },
- "last_post_id": "1444130002106066_122117136675503839",
+ "last_post_id": "1444130002106066_122117141943503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122116857975503839",
-   "title": "شگر ڪين بورڊ جو اجلاس: آبادگارن جو 650 رپيا مڻ اگهه جو مطالبو",
-   "t": 1793623961.79907,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122116857975503839"
-  },
   {
    "id": "1444130002106066_122116865937503839",
    "title": "سنڌ ۾ ورلڊ بئنڪ جي 3 ارب 85 ڪروڙ ڊالرن جي منصوبن جو جائزو",
@@ -2222,6 +2211,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122117136675503839"
+  },
+  {
+   "id": "1444130002106066_122117141943503839",
+   "title": "خيرپور ۾ ڦر خلاف جانوري برادري جو ڌرڻو",
+   "t": 1793701299.751596,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122117141943503839"
   }
  ],
  "share_sent": {
@@ -2432,12 +2433,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 15:10",
+  "time": "2026-11-03 15:21",
   "items": 24,
   "sample": [
-   "New Zealand A 424/10 v India A 346/10 & 282/2 *",
-   "Queensland 280/10 & 75/3 * v Victoria 173/10 & 307/10",
-   "Assam 135/10 v Karnataka 462/5 *"
+   "New Zealand A 424/10 v India A 282/2 & 346/10 *",
+   "Queensland 280/10 & 75/3 * v Victoria 307/10 & 173/10",
+   "Assam 135/10 v Karnataka 489/5 *"
   ]
  },
  "agri_news": {
@@ -2447,17 +2448,11 @@
  },
  "all_posts": {
   "date": "2026-11-03",
-  "count": 24,
-  "last": 1793700334.799146
+  "count": 25,
+  "last": 1793701293.057287
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122112921339503839",
-    "sec": "public_news",
-    "cat": "dollar_gold_business",
-    "t": 1792812829
-   },
    {
     "id": "1444130002106066_122112941985503839",
     "sec": "agri_news",
@@ -4851,6 +4846,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1793700340
+   },
+   {
+    "id": "1444130002106066_122117141943503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1793701299
    }
   ]
  },
@@ -7891,15 +7892,11 @@
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 204,
-  "fail": 328,
-  "limit": 327
+  "ok": 207,
+  "fail": 334,
+  "limit": 333
  },
  "posted_heads": [
-  {
-   "h": "Country faces over 200,000 tons of fertiliser shortfall",
-   "t": 1793490738
-  },
   {
    "h": "Pakistan faces severe winter gas shortage as Qatar extends LNG supply suspension",
    "t": 1793493809
@@ -8215,10 +8212,14 @@
   {
    "h": "عابده بتول عالمي باڪسنگ ٽائيٽل کٽيندڙ پهرين پاڪستاني عورت بڻجي وئي",
    "t": 1793700340
+  },
+  {
+   "h": "گمبٽ: خيرپور ۾ ڦر واقعي خلاف جانوري برادري جو بي سيڪشن ٿاڻي آڏو ڌرڻو، ٽائرن کي باهيون",
+   "t": 1793701299
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 15:10",
+  "time": "2026-11-03 15:21",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8326,7 +8327,7 @@
   "text": 18,
   "story": 15
  },
- "ai_last_error": "15:02 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "15:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8340,10 +8341,10 @@
  },
  "img_diag": {
   "date": "2026-11-03",
-  "tried": 22,
+  "tried": 23,
   "gemini": 0,
   "pollinations": 12,
-  "skip": 2,
+  "skip": 3,
   "fail": 10,
   "last_note": "boxing championship belt and gloves",
   "mismatch": 357
@@ -8367,15 +8368,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 91,
+   "ok": 92,
    "fail": 3,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 93,
+   "ok": 94,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8383,7 +8384,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 93,
+   "ok": 94,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8391,14 +8392,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 94,
+   "ok": 95,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 94,
+   "ok": 95,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8406,21 +8407,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 94,
+   "ok": 95,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 94,
+   "ok": 95,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 94,
+   "ok": 95,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8558,13 +8559,13 @@
  "region_posts": {
   "date": "2026-11-03",
   "district": 0,
-  "sindh": 10,
+  "sindh": 11,
   "pakistan": 12
  },
  "report_acc": {
-  "posted": 0,
-  "found": 2,
-  "old": 2,
+  "posted": 1,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8600,9 +8601,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-03",
-  "count": 9,
-  "last": 1793700077.4216313,
-  "city_i": 4,
+  "count": 10,
+  "last": 1793701267.1404757,
+  "city_i": 8,
   "dry": 1793698863.7560537
  },
  "gemini_day_dead": {
@@ -9234,6 +9235,14 @@
    "t": 1793700340,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "5f84e6fcb61319e3",
+   "h": "خيرپور ۾ ڦر خلاف جانوري برادري جو ڌرڻو",
+   "x": "خيرپور ۾ ڦر جي واردات خلاف جانوري برادري جي ماڻهن بي سيڪشن ٿاڻي آڏو احتجاجي مظاهرو ڪري ٽائرن کي باهيون ڏئي ڌرڻو هنيو. احتجاج ڪندڙن جو چوڻ هو ته خيرپور شهر ۾ امن امان جي صورتحال خراب ٿي وئي آهي. گذريل رات بي سيڪشن ٿاڻي جي حد ۾ هٿياربندن هٿيارن جي زور تي نوجوان معروف جانوري کان موٽرسائيڪل، روڪ رقم ۽ آءِ فون موبائل ڦر ڪري فرار ٿي ويا، پر واقعي باوجود جوابدار گرفتار نه ٿي سگهيا آهن. احتجاج ڪندڙن مطالبو ڪيو ته نوجوان معروف جانوري کان ڦر ٿيل موٽرسائيڪل، روڪ رقم ۽ موبائل فون واپس ڪرايا وڃن ۽ واردات ۾ ملوث جوابدارن کي گرفتار ڪيو وڃي.",
+   "t": 1793701299,
+   "s": true,
+   "r": 0
   }
  ],
  "reels": {
@@ -9253,13 +9262,6 @@
   "last": 1793356878.054588
  },
  "tg_debug": [
-  {
-   "t": "11-03 08:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-03 09:00",
    "ok": true,
@@ -9528,6 +9530,13 @@
   },
   {
    "t": "11-03 15:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 15:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13515,6 +13524,45 @@
     "ڪوئيٽا",
     "ڪٽيندڙ"
    ]
+  },
+  {
+   "t": 1793701299,
+   "h": "خيرپور ۾ ڦر خلاف جانوري برادري جو ڌرڻو",
+   "b": "خيرپور ۾ ڦر جي واردات خلاف جانوري برادري جي ماڻهن بي سيڪشن ٿاڻي آڏو احتجاجي مظاهرو ڪري ٽائرن کي باهيون ڏئي",
+   "tt": [
+    "برادري",
+    "جانوري",
+    "خلاف",
+    "خيرپور",
+    "ڌرڻو"
+   ],
+   "bt": [
+    "احتجاج",
+    "احتجاجي",
+    "امان",
+    "امن",
+    "اهي",
+    "اڏو",
+    "باهيون",
+    "برادري",
+    "جانوري",
+    "خراب",
+    "خلاف",
+    "خيرپور",
+    "سيڪشن",
+    "شهر",
+    "صورتحال",
+    "ماڻهن",
+    "مظاهرو",
+    "هنيو",
+    "واردات",
+    "ٽائرن",
+    "ٿاڻي",
+    "چوڻ",
+    "ڌرڻو",
+    "ڏئي",
+    "ڪندڙن"
+   ]
   }
  ],
  "repeat_log": [
@@ -13682,7 +13730,7 @@
  },
  "quality": {
   "date": "2026-11-03",
-  "editor_fixed": 18,
+  "editor_fixed": 19,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
