@@ -1781,7 +1781,9 @@
   "9e7e381b79646817": 1793732508.6245303,
   "4d88c772536b5126": 1793732508.6245317,
   "eca145e8f7405574": 1793732508.6245325,
-  "cbcdb5736f93bdd8": 1793732508.6248167
+  "cbcdb5736f93bdd8": 1793732508.6248167,
+  "122bbc1bf7b7017c": 1793733081.9035168,
+  "a9ca9af44d900b53": 1793733090.689048
  },
  "pending": {},
  "queue": [],
@@ -2497,7 +2499,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-04 00:02",
+  "time": "2026-11-04 00:11",
   "items": 23,
   "sample": [
    "Assam 135/10 v Karnataka 496/5 *",
@@ -7940,7 +7942,7 @@
  },
  "ai_usage": {
   "date": "2026-11-04",
-  "ok": 8,
+  "ok": 9,
   "fail": 14,
   "limit": 14
  },
@@ -8267,7 +8269,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-04 00:02",
+  "time": "2026-11-04 00:11",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8416,7 +8418,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-04",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8424,7 +8426,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-04",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8432,7 +8434,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-04",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8440,14 +8442,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8455,21 +8457,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-04",
-   "ok": 1,
+   "ok": 2,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8644,9 +8646,9 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
-  "irrelevant": 0,
+  "found": 2,
+  "old": 1,
+  "irrelevant": 1,
   "blocked": 0,
   "errors": []
  },
@@ -9354,13 +9356,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-03 17:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-03 17:50",
    "ok": true,
    "n": 0,
@@ -9628,6 +9623,13 @@
   },
   {
    "t": "11-04 00:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-04 00:11",
    "ok": true,
    "n": 0,
    "ids": [],
