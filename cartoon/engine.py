@@ -88,6 +88,7 @@ TR = {}        # who -> list of segments (t0, kind, data)
 PROP = {}      # who -> list of (t, prop)
 times = []
 EVT = []       # sound events (t, name)
+SLEEP = {}     # K-017: who -> list of (t, 'sleep'|'wake', dur, scene) - lying asleep on a bed/sofa slot
 STEP = 88.0
 WALK_V = 430.0
 
@@ -193,6 +194,13 @@ for si, scd in enumerate(EP["scenes"]):
             return t + 0.1
         if kind == "wait":
             return t + a.get("sec", 0.5)
+        if kind == "sleep":  # K-017: lie down asleep on the current (seated) slot, under a razai
+            SLEEP.setdefault(who, []).append((t, "sleep", 0, si))
+            return t
+        if kind == "wake":  # K-017: sit up from lying (rubbing eyes)
+            dur = a.get("dur", 0.8)
+            SLEEP.setdefault(who, []).append((t, "wake", dur, si))
+            return t + dur
         return t
 
     scene["pos_start"] = dict(pos)
@@ -271,6 +279,27 @@ def char_state(who, t):
     return None
 
 
+def sleep_u(who, t):
+    """K-017: 1 = lying fully asleep, 0 = sitting normally (eases during a wake)"""
+    cur = None
+    for e in SLEEP.get(who, []):
+        if e[0] <= t:
+            cur = e
+    if cur is None or scene_at(t) != cur[3]:
+        return 0.0
+    if cur[1] == "sleep":
+        return 1.0
+    return 1 - ease(clamp((t - cur[0]) / cur[2], 0, 1))
+
+
+def lie_geo(st, who):
+    """K-017: lying head centre (on the pillow / left end of the seat) and hip-to-head length"""
+    s = st["s"]
+    hs = art.CHARS[who].get("hs", 1.0)
+    L = 410 * s + 205 * s * hs
+    return st["x"] - 150 * s / 0.66, st["seat"] - 115 * s / 0.66, L
+
+
 def geom(st, who):
     """torso top T and key points for a state"""
     s = st["s"]
@@ -285,6 +314,8 @@ def geom(st, who):
     else:
         T = T_stand
     head_y = T + 90 * s - 205 * s * hs
+    if st.get("sleep", 0) > 0:  # K-017: head is down on the pillow
+        head_y = lerp(head_y, lie_geo(st, who)[1], st["sleep"])
     return T, head_y
 
 
@@ -478,7 +509,8 @@ def shot_at(t, states):
             if st is None:
                 continue
             T, hy = geom(st, w)
-            pts.append((st["x"], hy, st["s"]))
+            hx_ = st["x"] - 150 * st["s"] / 0.66 * st.get("sleep", 0)  # K-017: frame the head on the pillow
+            pts.append((hx_, hy, st["s"]))
         if not pts:
             return 540, 960, 1.0
         x0 = min(p[0] - 260 * p[2] for p in pts)
@@ -554,6 +586,9 @@ for fr in range(N):
     t = fr / FPS
     si = scene_at(t)
     states = {w: char_state(w, t) for w in TR}
+    for w, st_ in states.items():
+        if st_ is not None and st_["mode"] != "stand":
+            st_["sleep"] = sleep_u(w, t)
     li = line_at(t)
     ch = {}
     for w, st in states.items():
@@ -618,7 +653,20 @@ for fr in range(N):
             if p == "rest":
                 return "rest_sofa" if seated else "rest_stand"
             return p if p in POSES else ("rest_sofa" if seated else "rest_stand")
-        ch[w] = dict(x=st["x"], T=T, s=s, stand=st["stand"], mode=st["mode"], seat=st.get("seat"), foot=st["foot"],
+        slp = st.get("sleep", 0)
+        if slp > 0:  # K-017: asleep -> eyes shut, still head, arms down under the razai
+            if slp > 0.4:
+                ch_blink = 2
+            else:
+                ch_blink = BLINK[w].get(fr, 0)
+            BLINK[w][fr] = ch_blink
+            emo = "calm" if not speaking else emo
+            ang, nod = 0, 0
+            lc[0], lc[1] = 0, 0
+            if not speaking:
+                q = 0
+            cur, prev, tc = "rest", "rest", -9
+        ch[w] = dict(sleep=slp, x=st["x"], T=T, s=s, stand=st["stand"], mode=st["mode"], seat=st.get("seat"), foot=st["foot"],
                      walking=st["walking"], phase=phase, alpha=st["alpha"], emo=emo, q=q, shape=shape,
                      blink=BLINK[w].get(fr, 0), lx=round(lc[0] * 2) / 2, ly=round(lc[1] * 2) / 2, ang=ang, nod=nod,
                      face=face, pose=res(cur), prev=res(prev), tc=tc, prop=prop_at(w, t), t=t)
@@ -980,11 +1028,16 @@ def draw_char(cv, ox, oy, w, c):
     pants = C["pants"]
     seated = c["mode"] != "stand" and c["stand"] < 0.5
     hip = T + 500 * s
-    if not seated:  # contact shadow on the floor
+    lying = c.get("sleep", 0) > 0
+    if lying:
+        seated = None  # K-017: no legs / lap / shadow, the razai covers the body
+    if seated is not None and not seated:  # contact shadow on the floor
         sha = Image.new("RGBA", cv.size, 0)
         ImageDraw.Draw(sha).ellipse([*q(x - 150 * s, c["foot"] + 4 * s), *q(x + 150 * s, c["foot"] + 44 * s)], fill=(0, 0, 0, 70))
         cv.alpha_composite(sha.filter(ImageFilter.GaussianBlur(max(1, int(10 * s * K)))))
-    if not seated:  # standing legs
+    if seated is None:
+        pass
+    elif not seated:  # standing legs
         st = c["stand"] if c["mode"] != "stand" else 1
         for i, sd in enumerate((-1, 1)):
             lift = max(0, math.sin(c["phase"] + i * math.pi)) if c["walking"] else 0
@@ -1002,7 +1055,7 @@ def draw_char(cv, ox, oy, w, c):
             d.ellipse([*q(fx_ - 46 * s + sd * 6 * s, fy_ - 12 * s), *q(fx_ + 46 * s + sd * 6 * s, fy_ + 28 * s)],
                       fill=(110, 70, 40) if not C.get("toddler") else (230, 230, 240), outline=OUT, width=lw(4))
     else:  # seated: shins down to the floor (lap drawn after the torso)
-        if c["mode"] == "sofa":
+        if c["mode"] == "sofa" and not lying:
             for sd in (-1, 1):
                 fx_ = x + sd * 85 * s
                 for col, wd in ((OUT, 80), (pants, 70)):
@@ -1080,6 +1133,75 @@ def draw_char(cv, ox, oy, w, c):
         draw_hand(d, q, lw, hx, hy, ex, ey, s, C["skin"], fing, sd)
 
 
+RAZAI = ((176, 48, 72), (232, 180, 70), (250, 236, 210))  # maroon razai with mustard border and cream flowers
+
+
+def draw_lying(fg, cv, ox, oy, w, c, t):
+    """K-017: rotate the drawn (leg-less) character to lie on the bed, head on the pillow, then tuck a razai over the body."""
+    u = c["sleep"]
+    s = c["s"]
+    st = dict(x=c["x"], s=s, seat=c["seat"])
+    hx, hy, L = lie_geo(st, w)
+    hip_up = (c["x"], c["T"] + 500 * s)
+    hip_ly = (hx + L, hy)
+    px, py = lerp(hip_up[0], hip_ly[0], u), lerp(hip_up[1], hip_ly[1], u)
+    pvx, pvy = (hip_up[0] - ox) * K, (hip_up[1] - oy) * K  # pivot inside the canvas
+    R = int(max(cv.width, cv.height) * 1.2)
+    big = Image.new("RGBA", (2 * R, 2 * R), 0)
+    big.alpha_composite(cv, (int(R - pvx), int(R - pvy)))
+    big = big.rotate(90 * u, resample=Image.BICUBIC, center=(R, R))
+    fg.alpha_composite(big, (int(px * K - R), int(py * K - R)))
+    if u <= 0.02:
+        return
+    lay = Image.new("RGBA", fg.size, 0)
+    d = ImageDraw.Draw(lay)
+    q = lambda X, Y: (X * K, Y * K)
+    lw = lambda v: max(1, int(v * K * s))
+    x0 = hx + 95 * s  # just under the chin
+    x1 = hip_ly[0] + 60 * s
+    top, bot = hy - 175 * s, hy + 150 * s  # high enough to tuck in the upper arm
+    br = math.sin(t * 2.2) * 5 * s  # slow breathing
+    pts = [q(x0, top + 30 * s - br)]
+    for k in range(13):  # soft lumpy top edge (shoulder, body, knees)
+        xx = x0 + (x1 - x0) * k / 12
+        yy = top - br * (1 - k / 12) + 22 * s * math.sin(k * 1.3) + (10 * s if k > 8 else 0)
+        pts.append(q(xx, yy))
+    pts += [q(x1 + 30 * s, top + 60 * s), q(x1 + 40 * s, bot + 20 * s), q(x0 - 10 * s, bot + 20 * s)]
+    d.polygon(pts, fill=RAZAI[0], outline=(40, 30, 40), width=lw(5))
+    d.line([q(x0 + 6 * s, top + 34 * s - br), q(x0 - 4 * s, bot + 16 * s)], fill=RAZAI[1], width=lw(16))  # folded border at the chin
+    rnd = random.Random(7)
+    for k in range(16):  # little cream flowers
+        fx = x0 + 40 * s + (x1 - x0 - 30 * s) * rnd.random()
+        fy = top + 40 * s + (bot - top - 30 * s) * rnd.random()
+        r = 9 * s
+        d.ellipse([*q(fx - r, fy - r), *q(fx + r, fy + r)], fill=RAZAI[2])
+        d.ellipse([*q(fx - r / 2.5, fy - r / 2.5), *q(fx + r / 2.5, fy + r / 2.5)], fill=RAZAI[1])
+    d.arc([*q(x0 + 60 * s, top + 40 * s), *q(x1 - 20 * s, bot + 60 * s)], 200, 340, fill=(130, 30, 50), width=lw(5))  # fold
+    if u < 1:  # sitting up: the razai slides down / fades
+        lay.putalpha(lay.getchannel("A").point(lambda v: int(v * u)))
+    fg.alpha_composite(lay)
+    if u >= 0.99 and c["q"] == 0:  # floating "z Z z" while fast asleep
+        zl = Image.new("RGBA", fg.size, 0)
+        dz = ImageDraw.Draw(zl)
+        for k in range(3):
+            ph = (t * 0.6 + k / 3) % 1
+            fs = int((26 + 22 * ph) * s / 0.66 * K)
+            zx, zy = hx + (20 + 70 * ph) * s, hy - (170 + 200 * ph) * s
+            dz.text((zx * K, zy * K), "Z", fill=(60, 80, 160, int(255 * math.sin(math.pi * ph))), font=zfont(fs),
+                    stroke_width=max(1, fs // 12), stroke_fill=(255, 255, 255, int(255 * math.sin(math.pi * ph))))
+        fg.alpha_composite(zl)
+
+
+ZF = {}
+
+
+def zfont(n):
+    from PIL import ImageFont
+    if n not in ZF:
+        ZF[n] = ImageFont.truetype(os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts", "Poppins-Bold.ttf"), n)
+    return ZF[n]
+
+
 # ============================================================== frame renderer
 def render(fr):
     F = FR[fr]
@@ -1097,6 +1219,9 @@ def render(fr):
         draw_char(cv, ox, oy, w, c)
         if c["alpha"] < 1:
             cv.putalpha(cv.getchannel("A").point(lambda v: int(v * c["alpha"])))
+        if c.get("sleep", 0) > 0:
+            draw_lying(fg, cv, ox, oy, w, c, t)
+            continue
         fg.alpha_composite(cv, (int(ox * K), int(oy * K)))
     if sc["set"].get("front") is not None:
         fg.alpha_composite(sc["set"]["front"])

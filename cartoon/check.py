@@ -68,6 +68,9 @@ for si, sc in enumerate(ep.get("scenes", [])):
             elif d == "sfx":
                 if a.get("name") not in SFX:
                     err.append(f"{tag}: bad sfx {a.get('name')}")
+            elif d in ("sleep", "wake"):  # K-017
+                if a.get("who") not in present or str(present.get(a.get("who"))).startswith("near_") or slots.get(present.get(a.get("who")), {}).get("kind") == "stand":
+                    err.append(f"{tag}: {d} needs {a.get('who')} sitting on a bed/sofa/charpai slot")
             elif d != "wait":
                 err.append(f"{tag}: unknown action {d}")
         if ln.get("who") not in present and not ln.get("offscreen") and not ln.get("phone") and ln.get("who") != "NARRATOR":
