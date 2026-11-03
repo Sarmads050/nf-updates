@@ -1,7 +1,5 @@
 {
  "seen": {
-  "689e2780a98261cc": 1793087465.236276,
-  "fc1cb901c7a1a6f7": 1793087465.2364788,
   "85ab4b22f5695cbe": 1793088671.7677977,
   "78b77e771f7fafcf": 1793088671.7678006,
   "56fb854c18df1540": 1793088671.7678015,
@@ -1735,7 +1733,15 @@
   "44c635b6e5fd6f3c": 1793691670.9515285,
   "591f2c6e498f3fc9": 1793691670.9515312,
   "225cbe9a7cceb02b": 1793691670.9515324,
-  "594a6b5c797c8012": 1793691670.951534
+  "594a6b5c797c8012": 1793691670.951534,
+  "e3c0da765bcffa50": 1793692863.3938842,
+  "923ec75a49696d36": 1793692915.7922194,
+  "0e6eeafe33bb0434": 1793692915.7922215,
+  "c75cad7d1ea1eac1": 1793692928.2834537,
+  "16149e1e767eb6c4": 1793692928.2834563,
+  "945576cf8b1ce8ca": 1793692928.2834578,
+  "6ecfcbef0ea3a8c5": 1793692928.2834592,
+  "7abe517ff5aad0fc": 1793692952.8370242
  },
  "pending": {},
  "queue": [],
@@ -1772,7 +1778,7 @@
   "last_week": "",
   "last_check": "2026-11-03"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1826,7 +1832,7 @@
  "sindh_single": {
   "date": "2026-11-03",
   "count": 0,
-  "last": 1793683880.8973763,
+  "last": 1793692969.5048175,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2396,12 +2402,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 12:50",
+  "time": "2026-11-03 13:02",
   "items": 24,
   "sample": [
    "New Zealand A 424/10 v India A 346/10 & 282/2 *",
-   "Queensland 75/3 & 280/10 * v Victoria 173/10 & 307/10",
-   "Assam 135/10 v Karnataka 378/4 *"
+   "Queensland 280/10 & 75/3 * v Victoria 307/10 & 173/10",
+   "Assam 135/10 v Karnataka 391/4 *"
   ]
  },
  "agri_news": {
@@ -7839,9 +7845,9 @@
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 164,
-  "fail": 274,
-  "limit": 274
+  "ok": 169,
+  "fail": 281,
+  "limit": 279
  },
  "posted_heads": [
   {
@@ -8166,7 +8172,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 12:50",
+  "time": "2026-11-03 13:02",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8274,7 +8280,7 @@
   "text": 16,
   "story": 13
  },
- "ai_last_error": "12:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "13:02 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8315,7 +8321,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 78,
+   "ok": 79,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8323,7 +8329,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 78,
+   "ok": 79,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8331,7 +8337,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 78,
+   "ok": 79,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8339,14 +8345,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 79,
+   "ok": 80,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 79,
+   "ok": 80,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8354,21 +8360,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 79,
+   "ok": 80,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 79,
+   "ok": 80,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 79,
+   "ok": 80,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8510,14 +8516,14 @@
   "pakistan": 10
  },
  "report_acc": {
-  "posted": 1,
-  "found": 5,
-  "old": 5,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-03 12",
+ "report_hour": "2026-11-03 13",
  "kawish_upload_times": {
   "_date": "2026-11-03",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8549,19 +8555,13 @@
  "sindh_stream": {
   "date": "2026-11-03",
   "count": 6,
-  "last": 1793691668.5648098,
-  "city_i": 24,
-  "dry": 1793685681.6157007
+  "last": 1793692905.6903667,
+  "city_i": 6,
+  "dry": 1793692915.7922242
  },
  "gemini_day_dead": {
-  "day": "2026-11-02",
-  "models": [
-   "gemini-3.8-flash",
-   "gemini-flash-latest",
-   "gemini-3.7-flash",
-   "gemini-3.6-flash",
-   "gemini-3.5-flash"
-  ]
+  "day": "2026-11-03",
+  "models": []
  },
  "tg_done": [
   92058696,
@@ -9193,13 +9193,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-03 06:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-03 06:30",
    "ok": true,
    "n": 0,
@@ -9467,6 +9460,13 @@
   },
   {
    "t": "11-03 12:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 13:00",
    "ok": true,
    "n": 0,
    "ids": [],
