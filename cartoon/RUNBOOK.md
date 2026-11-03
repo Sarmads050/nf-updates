@@ -81,6 +81,7 @@ Line fields:
 - sfx: whoosh door ding phone_ring notification clink pressure_cooker bat_hit sting boing crash knock baby_giggle tv rain bike light_on cash
 - actions: {"do":"enter","who":C,"slot":S} {"do":"exit","who":C} {"do":"move","who":C,"slot":S} {"do":"prop","who":C,"prop":P}
   {"do":"sfx","name":N,"wait":sec} {"do":"wait","sec":s} {"do":"approach","who":C,"to":OTHER} (walk next to OTHER)
+  {"do":"sleep","who":C} (C lies asleep under a razai on their bed/sofa/charpai slot, Zzz) {"do":"wake","who":C,"dur":0.8} (sits up)
 - Hand-over on a line: `"give": {"to": RECEIVER, "prop": "money", "at": 0.5}` — the speaker reaches out and RECEIVER takes it.
   Put `{"do":"approach","who":RECEIVER,"to":SPEAKER}` in `before` if they are not standing side by side.
 

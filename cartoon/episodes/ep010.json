@@ -207,6 +207,10 @@
      "shot": "wide",
      "before": [
       {
+       "do": "sleep",
+       "who": "ARSALAN"
+      },
+      {
        "do": "enter",
        "who": "AMMI",
        "slot": "stand_c"
@@ -218,8 +222,7 @@
       }
      ],
      "react": {
-      "ARSALAN": "tired",
-      "DANIYAL": "surprised"
+      "DANIYAL": "teasing"
      },
      "gap": 0.1
     },
@@ -233,7 +236,7 @@
      "pose": "hands_hips",
      "shot": "close",
      "react": {
-      "ARSALAN": "sheepish"
+      "DANIYAL": "teasing"
      }
     },
     {
@@ -246,7 +249,14 @@
      "pose": "plead",
      "react": {
       "DANIYAL": "teasing"
-     }
+     },
+     "before": [
+      {
+       "do": "wake",
+       "who": "ARSALAN",
+       "dur": 0.8
+      }
+     ]
     },
     {
      "who": "DANIYAL",
