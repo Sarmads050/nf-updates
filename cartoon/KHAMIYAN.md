@@ -9,6 +9,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-013] (ep009, 2026-11-02) Bat pakra hua character "plead/hold" pose mein ho to bat seedha chehre ke aage aa jata hai (Arsalan line 3) — bat ko hamesha side mein neeche pakarna, chehre se door.
 - [K-014] (ep009, 2026-11-02) "approach" se khare log baithe logon ke peeche aa jate hain (Ammi raat wale scene mein Mehak ke peeche chhup gayin, paise lete waqt) — approach mein sofa ke saamne khali jagah (stand_cl/cr) chun-na.
 - [K-015] (ep009, 2026-11-02) Ammi ki "ration list" ke liye sirf kitaab (book) prop hai jo side mein chhoti si dikhti hai — naya "list" prop (kaghaz ka lamba parcha) banana.
+- [K-016] (ep010, 2026-11-03) 29 mein se 22 lines "edge" backup awaaz mein bani (Gemini ka free quota jaldi khatam) — awaaz ka andaaz line se line badalta hai. Fix: script ek din pehle (raat ko) push karke voices pehle bana lena, taa ke do din ka quota mile.
+- [K-017] (ep010, 2026-11-03) Narrator kehta hai "mulzim abhi tak so raha tha" lekin Arsalan bed par seedha baitha jaagta nazar aata hai — bed par letne/sone ka naya "sleep" pose (aankhein band, chadar) banana.
+- [K-018] (ep010, 2026-11-03) Toddler (Hamza "Pupo!") ke close-up mein upar sofa aur bari umar walon ki sirf taangein kati hui dikhti hain — farsh wale bachon ke close-up ko "medium" shot banana jis mein saath baithi Ammi/Bhabi ke chehre bhi aayein.
+- [K-019] (ep010, 2026-11-03) Video call par Nimra sirf awaaz hai, screen par kuch nazar nahi aata — `phone: true` line par phone ke upar chhota sa video-call bubble (bolne wale ka chehra) dikhana.
 
 ## APPROVED
 
