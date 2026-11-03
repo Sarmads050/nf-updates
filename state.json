@@ -1734,7 +1734,10 @@
   "d3e831cafec94c76": 1793676089.3730462,
   "665dd602b2800fd6": 1793676089.3730476,
   "872e4160f7903705": 1793676089.3731883,
-  "da75ca42dcbe0f2e": 1793676696.9659343
+  "da75ca42dcbe0f2e": 1793676696.9659343,
+  "c96491835245f3a5": 1793677274.622876,
+  "1a2a790c63ec5332": 1793677280.9400315,
+  "b6dcc8f6c71a797c": 1793677280.9402113
  },
  "pending": {},
  "queue": [],
@@ -2460,10 +2463,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 08:31",
+  "time": "2026-11-03 08:41",
   "items": 25,
   "sample": [
-   "New Zealand A 424/10 v India A 346/10 & 282/2 *",
+   "New Zealand A 424/10 v India A 282/2 & 346/10 *",
    "Queensland 280/10 & 32/1 * v Victoria 173/10 & 307/10",
    "Assam 135/10 v Karnataka 202/2 *"
   ]
@@ -7911,9 +7914,9 @@
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 101,
-  "fail": 168,
-  "limit": 168
+  "ok": 107,
+  "fail": 180,
+  "limit": 180
  },
  "posted_heads": [
   {
@@ -8238,7 +8241,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 08:31",
+  "time": "2026-11-03 08:41",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8341,12 +8344,12 @@
  },
  "article_diag": {
   "date": "2026-11-03",
-  "tried": 14,
-  "decoded": 14,
-  "text": 12,
+  "tried": 15,
+  "decoded": 15,
+  "text": 13,
   "story": 11
  },
- "ai_last_error": "08:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "08:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8387,7 +8390,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8395,7 +8398,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 52,
+   "ok": 53,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8403,7 +8406,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 52,
+   "ok": 53,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8411,14 +8414,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8426,21 +8429,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8583,8 +8586,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 6,
-  "old": 6,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8622,8 +8625,8 @@
   "date": "2026-11-03",
   "count": 0,
   "last": 1793649067.4427004,
-  "city_i": 8,
-  "dry": 1793676687.7718167
+  "city_i": 12,
+  "dry": 1793677264.4068315
  },
  "gemini_day_dead": {
   "day": "2026-11-02",
@@ -9230,13 +9233,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-03 02:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-03 02:20",
    "ok": true,
    "n": 0,
@@ -9504,6 +9500,13 @@
   },
   {
    "t": "11-03 08:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 08:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13416,11 +13419,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-31 10:11",
-   "new": "پاڪستان ۽ سری لنڪا اڄ آءِ سي سي فائنل ۾ آھن سامهون",
-   "old": "نوشهروفيروز جو اڄ | 31-10-2026"
-  },
-  {
    "t": "10-31 11:11",
    "new": "پاڪستان ۽ سری لنڪا اڄ ٽاءِ سيريز جي فائنل ۾ آمهون سامهون",
    "old": "پاڪستان ۽ سريلنڪا جي ڪپتانن ٽرافي جي رونمائي ڪري ڇڏي"
@@ -13564,6 +13562,11 @@
    "t": "11-03 08:21",
    "new": "عالمي مارڪيٽ ۾ تيل سستو ٿي ويو",
    "old": "عالمي مارڪيٽ ۾ تيل سستو ٿي ويو"
+  },
+  {
+   "t": "11-03 08:41",
+   "new": "پيٽرول ۽ڊيزل اگهن ۾ گهٽاٺ",
+   "old": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات."
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13584,7 +13587,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 4
+  "repeat": 5
  },
  "_dup": true
 }
