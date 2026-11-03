@@ -1829,7 +1829,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-02",
-  "count": 4
+  "count": 5
  },
  "last_digest": "2026-11-02",
  "alert_day": "2026-10-20",
@@ -1928,7 +1928,7 @@
    "8ba168c9997f9ea5"
   ]
  },
- "last_post_id": "1444130002106066_122117034939503839",
+ "last_post_id": "1444130002106066_122117042613503839",
  "shareable": [
   {
    "id": "1444130002106066_122116749459503839",
@@ -2456,10 +2456,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 07:51",
+  "time": "2026-11-03 08:01",
   "items": 25,
   "sample": [
-   "New Zealand A 424/10 v India A 346/10 & 269/2 *",
+   "New Zealand A 424/10 v India A 269/2 & 346/10 *",
    "Queensland 32/1 & 280/10 * v Victoria 173/10 & 307/10",
    "Assam 135/10 v Karnataka 180/2 *"
   ]
@@ -2471,8 +2471,8 @@
  },
  "all_posts": {
   "date": "2026-11-03",
-  "count": 10,
-  "last": 1793672505.9537868
+  "count": 11,
+  "last": 1793674899.2194827
  },
  "perf": {
   "posts": [
@@ -7867,9 +7867,9 @@
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 94,
-  "fail": 154,
-  "limit": 154
+  "ok": 96,
+  "fail": 158,
+  "limit": 158
  },
  "posted_heads": [
   {
@@ -8194,10 +8194,10 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 07:51",
+  "time": "2026-11-03 08:01",
   "steps": []
  },
- "roundup_am": "2026-11-02",
+ "roundup_am": "2026-11-03",
  "group_shares": {
   "1": {
    "date": "2026-11-02",
@@ -8302,7 +8302,7 @@
   "text": 11,
   "story": 10
  },
- "ai_last_error": "07:51 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "08:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8343,7 +8343,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8351,7 +8351,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 48,
+   "ok": 49,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8359,7 +8359,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 48,
+   "ok": 49,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8367,14 +8367,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8382,21 +8382,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8534,18 +8534,18 @@
  "region_posts": {
   "date": "2026-11-03",
   "district": 0,
-  "sindh": 0,
+  "sindh": 1,
   "pakistan": 9
  },
  "report_acc": {
-  "posted": 1,
-  "found": 13,
-  "old": 13,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-03 07",
+ "report_hour": "2026-11-03 08",
  "kawish_upload_times": {
   "_date": "2026-11-03",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9174,7 +9174,9 @@
  ],
  "reels": {
   "date": "2026-11-03",
-  "done": []
+  "done": [
+   "08:00"
+  ]
  },
  "kawish_queue": [],
  "kawish_post": {
@@ -9183,13 +9185,6 @@
   "last": 1793356878.054588
  },
  "tg_debug": [
-  {
-   "t": "11-03 01:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-03 01:40",
    "ok": true,
@@ -9462,56 +9457,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-03 08:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-03",
  "recent_posts": [
-  {
-   "t": 1793502095,
-   "h": "صبح جون سنڌ جون اهم خبرون",
-   "b": "1 نومبر 2026 1️⃣ گل پلازہ سانحي جو شهيد فائر فائٽر ڪراچي جي گل پلازہ آتشزدگي دوران جان جو نذرانو ڏيندڙ فائر",
-   "tt": [
-    "اهم",
-    "خبرون",
-    "سنڌ",
-    "صبح"
-   ],
-   "bt": [
-    "اتشزدگي",
-    "اصف",
-    "اعزاز",
-    "اعلان",
-    "اهم",
-    "اهي",
-    "تمغۂ",
-    "جان",
-    "خبرون",
-    "دوران",
-    "زرداري",
-    "سانحي",
-    "سنڌ",
-    "شجاعت",
-    "شهيد",
-    "صبح",
-    "صدر",
-    "علي",
-    "فائر",
-    "فائٹر",
-    "فائٽر",
-    "فرقان",
-    "قومي",
-    "مملڪت",
-    "منظوري",
-    "نذرانو",
-    "نومبر",
-    "پلازه",
-    "ڇڏي",
-    "ڏئي",
-    "ڏيندڙ",
-    "ڏيڻ",
-    "ڪراچي"
-   ]
-  },
   {
    "t": 1793505678,
    "h": "اڄ جون نوڪريون (نوشهروفيروز ۽ سنڌ)",
@@ -13361,6 +13317,56 @@
     "پاليسين",
     "پاڪستان",
     "چئلينجز"
+   ]
+  },
+  {
+   "t": 1793674899,
+   "h": "صبح جون سنڌ جون اهم خبرون",
+   "b": "3 نومبر 2026 1️⃣ تعليمي سندن جي تصديق بابت اهم خبرداري هائر ايجوڪيشن ڪميشن شهرين کي خبردار ڪيو آهي ته اهي",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "صبح"
+   ],
+   "bt": [
+    "اهم",
+    "اهي",
+    "ايجنٽ",
+    "ايجوڪيشن",
+    "بابت",
+    "تصديق",
+    "تعليمي",
+    "خبردار",
+    "خبرداري",
+    "خبرون",
+    "درخواست",
+    "ذاتي",
+    "ذريعي",
+    "سندن",
+    "سنڌ",
+    "سگهن",
+    "شخص",
+    "شهرين",
+    "شيئر",
+    "صبح",
+    "طريقو",
+    "غير",
+    "لائن",
+    "ليس",
+    "متعلقه",
+    "معلومات",
+    "موجب",
+    "نومبر",
+    "هائر",
+    "ويٺي",
+    "پنهنجون",
+    "پورو",
+    "پيپر",
+    "ڪرائي",
+    "ڪميشن",
+    "گزار",
+    "گهر"
    ]
   }
  ],
