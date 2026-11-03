@@ -1,0 +1,524 @@
+{
+ "id": "ep010",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 10,
+ "title": "Data Khatam, Call Band!",
+ "topic": "Mobile data finished - Ammi's video call with Nimra cuts off (night-time hotspot gaming)",
+ "music": "comic",
+ "tempo": 1.3,
+ "lesson": "Raat sone ke liye hai,<br>screen time par qaboo!",
+ "caption": "Ammi ki Karachi wali video call beech mein band... data kis ne khatam kiya? 📱😂 Aap ke ghar ka 'raat wala alarm' kaun hai? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#DataKhatam",
+  "#PakistaniFamily",
+  "#UrduCartoon",
+  "#FamilyComedy"
+ ],
+ "scenes": [
+  {
+   "set": "living_room",
+   "time": "day",
+   "label": "Drawing Room • Subah",
+   "cast": {
+    "SANA": "sofa_l",
+    "AMMI": "sofa_c",
+    "HAMZA": "floor_l"
+   },
+   "props": {
+    "AMMI": "phone"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Nawabshah ki *thandi subah*... bijli gayi hui hai, aur Ammi ki Karachi wali beti se *video call* hai!",
+     "urdu": "نواب شاہ کی ٹھنڈی صبح... بجلی گئی ہوئی ہے، اور امی کی کراچی والی بیٹی سے ویڈیو کال ہے!",
+     "how": "warm storyteller, cosy and playful",
+     "shot": "wide",
+     "gap": 0.3
+    },
+    {
+     "who": "AMMI",
+     "to": "front",
+     "emo": "happy",
+     "roman": "Nimra beta, *chehra* to dikhao! Kitne din ho gaye tumhein dekhe hue.",
+     "urdu": "نمرہ بیٹا، چہرہ تو دکھاؤ! کتنے دن ہو گئے تمہیں دیکھے ہوئے۔",
+     "how": "loving mother, excited, holding phone close",
+     "pose": "phone_look",
+     "shot": "close",
+     "react": {
+      "SANA": "happy"
+     }
+    },
+    {
+     "who": "NIMRA",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Ammi, Karachi mein aaj itni *dhund* hai, saamne wali building bhi nazar nahi aa rahi!",
+     "urdu": "امی، کراچی میں آج اتنی دھند ہے، سامنے والی بلڈنگ بھی نظر نہیں آ رہی!",
+     "how": "cheerful daughter on a video call, chatty",
+     "phone": true,
+     "react": {
+      "AMMI": "surprised"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "AMMI",
+     "emo": "warm",
+     "roman": "Ammi, Hamza ko bhi *phuppo* dikha dein. Subah se Pupo Pupo kar raha hai.",
+     "urdu": "امی، حمزہ کو بھی پھپھو دکھا دیں۔ صبح سے پوپو پوپو کر رہا ہے۔",
+     "how": "polite sweet bhabi, smiling",
+     "react": {
+      "HAMZA": "happy"
+     },
+     "looks": {
+      "AMMI": "SANA"
+     }
+    },
+    {
+     "who": "HAMZA",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "*Pupo!* Pupo!",
+     "urdu": "پوپو! پوپو!",
+     "how": "two-year-old toddler, squeaky and delighted",
+     "pose": "wave",
+     "sfx": [
+      "baby_giggle"
+     ],
+     "react": {
+      "*": "happy"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "front",
+     "emo": [
+      [
+       0,
+       "happy"
+      ],
+      [
+       0.3,
+       "surprised"
+      ]
+     ],
+     "roman": "Arre! Tasveer *ruk* gayi... Nimra? Hello? Awaaz kyun nahi aa rahi?",
+     "urdu": "ارے! تصویر رک گئی... نمرہ؟ ہیلو؟ آواز کیوں نہیں آ رہی؟",
+     "how": "mother suddenly confused, tapping the phone",
+     "pose": "phone_look",
+     "before": [
+      {
+       "do": "sfx",
+       "name": "notification",
+       "wait": 0.2
+      }
+     ],
+     "react": {
+      "SANA": "worried"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "AMMI",
+     "emo": "worried",
+     "roman": "Ammi, phone par message aaya hai... aap ka *data khatam* ho gaya!",
+     "urdu": "امی، فون پر میسج آیا ہے... آپ کا ڈیٹا ختم ہو گیا!",
+     "how": "bhabi reading the screen over her shoulder, gentle",
+     "react": {
+      "AMMI": "surprised"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "SANA",
+     "emo": "angry",
+     "roman": "Khatam? Parson hi to Faraz ne mahine ka *package* lagaya tha!",
+     "urdu": "ختم؟ پرسوں ہی تو فراز نے مہینے کا پیکج لگایا تھا!",
+     "how": "shocked mother, voice rising",
+     "pose": "hands_hips",
+     "react": {
+      "SANA": "confused"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "AMMI",
+     "emo": "confused",
+     "roman": "Ammi, raat ko aap ka phone *kis ke paas* tha?",
+     "urdu": "امی، رات کو آپ کا فون کس کے پاس تھا؟",
+     "how": "smart bhabi, thinking like a detective",
+     "pose": "think"
+    },
+    {
+     "who": "AMMI",
+     "to": "SANA",
+     "emo": "confused",
+     "roman": "Arsalan le gaya tha... keh raha tha subah ka *alarm* lagana hai!",
+     "urdu": "ارسلان لے گیا تھا... کہہ رہا تھا صبح کا الارم لگانا ہے!",
+     "how": "mother remembering slowly, suspicious",
+     "pose": "scratch_head",
+     "react": {
+      "SANA": "teasing"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "front",
+     "emo": "laugh",
+     "roman": "Alarm ke liye *poora package*? Yeh alarm to bohot mehenga pada!",
+     "urdu": "الارم کے لیے پورا پیکج؟ یہ الارم تو بہت مہنگا پڑا!",
+     "how": "bhabi laughing softly, light teasing",
+     "shot": "punch",
+     "joke": true,
+     "pose": "shrug",
+     "react": {
+      "AMMI": "angry",
+      "HAMZA": "laugh"
+     },
+     "gap": 0.6
+    }
+   ]
+  },
+  {
+   "set": "bedroom",
+   "time": "day",
+   "label": "Larkon Ka Kamra • Subah",
+   "cast": {
+    "ARSALAN": "bed",
+    "DANIYAL": "desk"
+   },
+   "props": {
+    "AMMI": "phone",
+    "ARSALAN": "phone",
+    "DANIYAL": "book"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Ammi seedha pohanchin larkon ke kamre mein... jahan *mulzim* abhi tak so raha tha!",
+     "urdu": "امی سیدھا پہنچیں لڑکوں کے کمرے میں... جہاں ملزم ابھی تک سو رہا تھا!",
+     "how": "storyteller, comic suspense",
+     "shot": "wide",
+     "before": [
+      {
+       "do": "enter",
+       "who": "AMMI",
+       "slot": "stand_r"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      }
+     ],
+     "react": {
+      "ARSALAN": "tired",
+      "DANIYAL": "surprised"
+     },
+     "gap": 0.3
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "angry",
+     "roman": "Arsalan! Utho! Raat bhar mere phone par *kaun sa alarm* laga rahe the?",
+     "urdu": "ارسلان! اٹھو! رات بھر میرے فون پر کون سا الارم لگا رہے تھے؟",
+     "how": "strict mother scolding, loud but loving",
+     "pose": "hands_hips",
+     "shot": "close",
+     "react": {
+      "ARSALAN": "sheepish"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "roman": "Ammi... woh... bas *das minute* game kheli thi. Sirf das minute!",
+     "urdu": "امی... وہ... بس دس منٹ گیم کھیلی تھی۔ صرف دس منٹ!",
+     "how": "sleepy teen caught, mumbling excuses",
+     "pose": "plead",
+     "react": {
+      "DANIYAL": "teasing"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "AMMI",
+     "emo": "teasing",
+     "roman": "*Objection*, Ammi! Raat do baje bhi mulzim ka phone *roshan* tha, aur game chal rahi thi!",
+     "urdu": "آبجیکشن، امی! رات دو بجے بھی ملزم کا فون روشن تھا، اور گیم چل رہی تھی!",
+     "how": "dramatic law student, courtroom voice",
+     "pose": "objection",
+     "shot": "close:DANIYAL",
+     "react": {
+      "ARSALAN": "surprised",
+      "AMMI": "angry"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "roman": "Mera apna data khatam tha, Ammi... is liye aap ke phone ka *hotspot* chala liya.",
+     "urdu": "میرا اپنا ڈیٹا ختم تھا، امی... اس لیے آپ کے فون کا ہاٹ اسپاٹ چلا لیا۔",
+     "how": "guilty teen confessing, small voice",
+     "pose": "scratch_head",
+     "react": {
+      "AMMI": "angry"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "front",
+     "emo": "laugh",
+     "roman": "Iqbal-e-jurm ho gaya! *Das minute* ka game... aur *poore mahine* ka package saaf!",
+     "urdu": "اقبالِ جرم ہو گیا! دس منٹ کا گیم... اور پورے مہینے کا پیکج صاف!",
+     "how": "law student announcing the verdict, very dramatic and funny",
+     "pose": "point_up",
+     "shot": "punch",
+     "joke": true,
+     "react": {
+      "AMMI": "teasing",
+      "ARSALAN": "sheepish"
+     },
+     "gap": 0.6
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "sad",
+     "roman": "Ab meri beti se baat kaise hogi? Woh wahan *pareshan* ho rahi hogi!",
+     "urdu": "اب میری بیٹی سے بات کیسے ہوگی؟ وہ وہاں پریشان ہو رہی ہوگی!",
+     "how": "worried mother, upset not angry",
+     "pose": "head_hold",
+     "react": {
+      "ARSALAN": "sad"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "sad",
+     "roman": "Sorry Ammi! Yeh lein *mera phone*... aaj se raat ko aap ke paas rahega.",
+     "urdu": "سوری امی! یہ لیں میرا فون... آج سے رات کو آپ کے پاس رہے گا۔",
+     "how": "sincere sorry from a teen, softly",
+     "before": [
+      {
+       "do": "approach",
+       "who": "AMMI",
+       "to": "ARSALAN"
+      }
+     ],
+     "give": {
+      "to": "AMMI",
+      "prop": "phone",
+      "at": 0.5
+     },
+     "react": {
+      "AMMI": "calm"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "front",
+     "emo": "warm",
+     "roman": "Shabash. Raat sone ke liye hai. Ab apne *jeb kharch* se mera package lagwa kar aao!",
+     "urdu": "شاباش۔ رات سونے کے لیے ہے۔ اب اپنے جیب خرچ سے میرا پیکج لگوا کر آؤ!",
+     "how": "mother softening, firm but warm",
+     "pose": "point_other",
+     "react": {
+      "ARSALAN": "happy",
+      "DANIYAL": "laugh"
+     },
+     "after": [
+      {
+       "do": "prop",
+       "who": "ARSALAN",
+       "prop": "money"
+      },
+      {
+       "do": "exit",
+       "who": "ARSALAN"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      }
+     ],
+     "gap": 0.3
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "day",
+   "label": "Drawing Room • Subah",
+   "cast": {
+    "SANA": "sofa_l",
+    "AMMI": "sofa_c",
+    "DANIYAL": "sofa_r",
+    "HAMZA": "floor_l"
+   },
+   "props": {
+    "AMMI": "phone"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Aadhe ghante baad, Arsalan *dukaan* se load karwa kar wapas aaya...",
+     "urdu": "آدھے گھنٹے بعد، ارسلان دکان سے لوڈ کروا کر واپس آیا...",
+     "how": "storyteller, light and quick",
+     "shot": "wide",
+     "before": [
+      {
+       "do": "enter",
+       "who": "ARSALAN",
+       "slot": "stand_r"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      }
+     ],
+     "gap": 0.2
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Ammi! *Package lag gaya!* Ab Nimra Aapi ko call milayein.",
+     "urdu": "امی! پیکج لگ گیا! اب نمرہ آپی کو کال ملائیں۔",
+     "how": "teen proud and relieved, out of breath",
+     "pose": "thumb_back",
+     "before": [
+      {
+       "do": "sfx",
+       "name": "ding",
+       "wait": 0.2
+      }
+     ],
+     "react": {
+      "AMMI": "happy",
+      "SANA": "happy"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "front",
+     "emo": "happy",
+     "roman": "Hello Nimra! Ab *awaaz* aa rahi hai? Chehra bhi saaf hai!",
+     "urdu": "ہیلو نمرہ! اب آواز آ رہی ہے؟ چہرہ بھی صاف ہے!",
+     "how": "happy mother back on the video call",
+     "pose": "phone_look",
+     "shot": "close",
+     "before": [
+      {
+       "do": "sfx",
+       "name": "phone_ring",
+       "wait": 0.3
+      }
+     ]
+    },
+    {
+     "who": "NIMRA",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Han Ammi! Aur achi khabar, idhar Karachi ki *dhund* bhi chhat gayi hai!",
+     "urdu": "ہاں امی! اور اچھی خبر، ادھر کراچی کی دھند بھی چھٹ گئی ہے!",
+     "how": "cheerful daughter on phone",
+     "phone": true,
+     "react": {
+      "*": "happy"
+     }
+    },
+    {
+     "who": "HAMZA",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "*Pupo!* Pupo aa gayi!",
+     "urdu": "پوپو! پوپو آ گئی!",
+     "how": "toddler squealing with joy",
+     "pose": "clap",
+     "sfx": [
+      "baby_giggle"
+     ],
+     "react": {
+      "*": "laugh"
+     }
+    },
+    {
+     "who": "NIMRA",
+     "to": "AMMI",
+     "emo": "confused",
+     "roman": "Ammi, waise aap ka data achanak *khatam* kaise hua?",
+     "urdu": "امی، ویسے آپ کا ڈیٹا اچانک ختم کیسے ہوا؟",
+     "how": "curious sister on phone",
+     "phone": true,
+     "react": {
+      "ARSALAN": "sheepish"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "front",
+     "emo": "teasing",
+     "roman": "Hamare ghar mein ek naya *alarm* aaya hai... jo poori raat *game* khelta hai!",
+     "urdu": "ہمارے گھر میں ایک نیا الارم آیا ہے... جو پوری رات گیم کھیلتا ہے!",
+     "how": "mother teasing with a smile, comic timing",
+     "pose": "point_other",
+     "shot": "punch",
+     "joke": true,
+     "looks": {
+      "*": "ARSALAN"
+     },
+     "react": {
+      "*": "laugh",
+      "ARSALAN": "sheepish"
+     },
+     "gap": 0.6
+    },
+    {
+     "who": "ARSALAN",
+     "to": "front",
+     "emo": "sheepish",
+     "roman": "Ammi, ab yeh alarm raat ko *so jayega*... sirf subah bajega!",
+     "urdu": "امی، اب یہ الارم رات کو سو جائے گا... صرف صبح بجے گا!",
+     "how": "teen embarrassed but smiling, promising",
+     "pose": "chest",
+     "react": {
+      "AMMI": "warm"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "front",
+     "emo": "laugh",
+     "roman": "Case closed! Raat *neend* ke liye, aur data *Ammi ki call* ke liye!",
+     "urdu": "کیس کلوزڈ! رات نیند کے لیے، اور ڈیٹا امی کی کال کے لیے!",
+     "how": "law student closing the case, happy ending, laughing",
+     "pose": "clap",
+     "shot": "group",
+     "joke": true,
+     "react": {
+      "*": "laugh"
+     },
+     "gap": 0.8,
+     "react_pose": {
+      "AMMI": "rest"
+     }
+    }
+   ]
+  }
+ ]
+}
