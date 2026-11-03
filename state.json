@@ -1,6 +1,5 @@
 {
  "seen": {
-  "79a77cd80b085cd2": 1793080262.1495879,
   "9c2212102b1237a5": 1793080879.079092,
   "0c1c284ff761b962": 1793080879.079095,
   "0e9492c97e03fe19": 1793080882.9357145,
@@ -1739,7 +1738,11 @@
   "9c1fd4210d74c44e": 1793683268.1452098,
   "5cd83bafb246c13f": 1793683867.8150165,
   "9705812a08911b56": 1793684465.0497296,
-  "56c458702930dd12": 1793684465.0497327
+  "56c458702930dd12": 1793684465.0497327,
+  "93b64929aa176e6f": 1793685681.615697,
+  "598f1459e639c056": 1793685681.615699,
+  "aa9a326e5e48b725": 1793685693.4614677,
+  "d3dc62e79f4d3ba8": 1793685697.9591246
  },
  "pending": {},
  "queue": [],
@@ -2373,11 +2376,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 10:50",
+  "time": "2026-11-03 11:01",
   "items": 25,
   "sample": [
-   "New Zealand A 424/10 v India A 346/10 & 282/2 *",
-   "Queensland 73/3 & 280/10 * v Victoria 307/10 & 173/10",
+   "New Zealand A 424/10 v India A 282/2 & 346/10 *",
+   "Queensland 280/10 & 73/3 * v Victoria 307/10 & 173/10",
    "Assam 135/10 v Karnataka 306/4 *"
   ]
  },
@@ -7824,9 +7827,9 @@
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 133,
-  "fail": 228,
-  "limit": 228
+  "ok": 136,
+  "fail": 234,
+  "limit": 234
  },
  "posted_heads": [
   {
@@ -8151,7 +8154,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 10:50",
+  "time": "2026-11-03 11:01",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8259,7 +8262,7 @@
   "text": 16,
   "story": 13
  },
- "ai_last_error": "10:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "11:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8300,7 +8303,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8308,7 +8311,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 66,
+   "ok": 67,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8316,7 +8319,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 66,
+   "ok": 67,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8324,14 +8327,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8339,21 +8342,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8495,14 +8498,14 @@
   "pakistan": 10
  },
  "report_acc": {
-  "posted": 2,
-  "found": 5,
-  "old": 5,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-03 10",
+ "report_hour": "2026-11-03 11",
  "kawish_upload_times": {
   "_date": "2026-11-03",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8534,9 +8537,9 @@
  "sindh_stream": {
   "date": "2026-11-03",
   "count": 2,
-  "last": 1793684462.2035615,
-  "city_i": 22,
-  "dry": 1793681464.1589935
+  "last": 1793685680.2729058,
+  "city_i": 4,
+  "dry": 1793685681.6157007
  },
  "gemini_day_dead": {
   "day": "2026-11-02",
@@ -9149,7 +9152,8 @@
   "date": "2026-11-03",
   "done": [
    "08:00",
-   "09:30"
+   "09:30",
+   "11:00"
   ]
  },
  "kawish_queue": [],
@@ -9159,13 +9163,6 @@
   "last": 1793356878.054588
  },
  "tg_debug": [
-  {
-   "t": "11-03 04:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-03 04:40",
    "ok": true,
@@ -9434,6 +9431,13 @@
   },
   {
    "t": "11-03 10:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 11:00",
    "ok": true,
    "n": 0,
    "ids": [],
