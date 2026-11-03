@@ -1,6 +1,5 @@
 {
  "seen": {
-  "5d249de92a060d25": 1793074269.2722614,
   "0ab07e31c4fd63df": 1793075472.0650566,
   "ce9b11074d4b5f4a": 1793075472.0651608,
   "e22d4a5c4ff12b30": 1793076655.25955,
@@ -1734,7 +1733,8 @@
   "da75ca42dcbe0f2e": 1793676696.9659343,
   "c96491835245f3a5": 1793677274.622876,
   "1a2a790c63ec5332": 1793677280.9400315,
-  "b6dcc8f6c71a797c": 1793677280.9402113
+  "b6dcc8f6c71a797c": 1793677280.9402113,
+  "7ede55216a48457f": 1793679676.7062724
  },
  "pending": {},
  "queue": [],
@@ -2368,11 +2368,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 09:11",
+  "time": "2026-11-03 09:21",
   "items": 25,
   "sample": [
-   "New Zealand A 424/10 v India A 346/10 & 282/2 *",
-   "Queensland 280/10 & 32/1 * v Victoria 173/10 & 307/10",
+   "New Zealand A 424/10 v India A 282/2 & 346/10 *",
+   "Queensland 32/1 & 280/10 * v Victoria 307/10 & 173/10",
    "Assam 135/10 v Karnataka 236/3 *"
   ]
  },
@@ -7819,9 +7819,9 @@
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 108,
-  "fail": 182,
-  "limit": 182
+  "ok": 112,
+  "fail": 190,
+  "limit": 190
  },
  "posted_heads": [
   {
@@ -8146,7 +8146,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 09:11",
+  "time": "2026-11-03 09:21",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8249,12 +8249,12 @@
  },
  "article_diag": {
   "date": "2026-11-03",
-  "tried": 15,
-  "decoded": 15,
-  "text": 13,
-  "story": 11
+  "tried": 16,
+  "decoded": 16,
+  "text": 14,
+  "story": 12
  },
- "ai_last_error": "09:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "09:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8295,7 +8295,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8303,7 +8303,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 56,
+   "ok": 57,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8311,7 +8311,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 56,
+   "ok": 57,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8319,14 +8319,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8334,21 +8334,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8491,8 +8491,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8530,8 +8530,8 @@
   "date": "2026-11-03",
   "count": 0,
   "last": 1793649067.4427004,
-  "city_i": 20,
-  "dry": 1793679075.0217867
+  "city_i": 24,
+  "dry": 1793679663.9231265
  },
  "gemini_day_dead": {
   "day": "2026-11-02",
@@ -9138,13 +9138,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-03 02:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-03 03:00",
    "ok": true,
    "n": 0,
@@ -9412,6 +9405,13 @@
   },
   {
    "t": "11-03 09:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 09:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13503,7 +13503,7 @@
  "quality": {
   "date": "2026-11-03",
   "editor_fixed": 8,
-  "editor_rejected": 1,
+  "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
