@@ -1778,7 +1778,8 @@
   "e66ed943546fb8e9": 1793748693.8947797,
   "d4a18b10c591c8ee": 1793748693.8947802,
   "55c61dd0901ab489": 1793748693.894781,
-  "6d8997d2038cae71": 1793748693.8950336
+  "6d8997d2038cae71": 1793748693.8950336,
+  "a87a587e11deddd2": 1793749271.9282322
  },
  "pending": {},
  "queue": [],
@@ -1951,20 +1952,8 @@
    "4359f2072e9f7bd5"
   ]
  },
- "last_post_id": "1444130002106066_122117320407503839",
+ "last_post_id": "1444130002106066_122117332557503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122117074941503839",
-   "title": "چونڊ سڌارن واري ڪميٽي: (ن) ليگ پنهنجو حصو گهٽائيندي؟",
-   "t": 1793684603.3105097,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122117074941503839"
-  },
   {
    "id": "1444130002106066_122117083893503839",
    "title": "ترسيل زر جي لاڳت گهٽائڻ سان معيشت کي فائدو ملندو: بلال بن ثاقب",
@@ -2284,6 +2273,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122117320407503839"
+  },
+  {
+   "id": "1444130002106066_122117332557503839",
+   "title": "محکمه موسميات موجب ايندڙ ڏينهن دوران ملڪ جي اڪثر حصن ۾ موسم خشڪ رهندي",
+   "t": 1793749314.1372843,
+   "tags": [
+    "general",
+    "local"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122117332557503839"
   }
  ],
  "share_sent": {
@@ -2494,7 +2493,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-04 04:31",
+  "time": "2026-11-04 04:41",
   "items": 23,
   "sample": [
    "Assam 135/10 v Karnataka 496/5 *",
@@ -2509,17 +2508,11 @@
  },
  "all_posts": {
   "date": "2026-11-04",
-  "count": 5,
-  "last": 1793745761.5607305
+  "count": 6,
+  "last": 1793749310.0278366
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122113091643503839",
-    "sec": "kawish",
-    "cat": "sindh",
-    "t": 1792841512
-   },
    {
     "id": "1444130002106066_122113094823503839",
     "sec": "sindh_stream",
@@ -4913,13 +4906,19 @@
     "sec": "public_news",
     "cat": "electricity_gas",
     "t": 1793745767
+   },
+   {
+    "id": "1444130002106066_122117332557503839",
+    "sec": "public_news",
+    "cat": "weather_disaster",
+    "t": 1793749314
    }
   ]
  },
  "public_news": {
   "date": "2026-11-04",
-  "count": 3,
-  "last": 1793745767.2994783
+  "count": 4,
+  "last": 1793749314.1372674
  },
  "trends": {
   "last": 1793742498.1555033,
@@ -7953,15 +7952,11 @@
  },
  "ai_usage": {
   "date": "2026-11-04",
-  "ok": 42,
-  "fail": 72,
-  "limit": 72
+  "ok": 49,
+  "fail": 84,
+  "limit": 84
  },
  "posted_heads": [
-  {
-   "h": "ايڇ آءِ وي موتمار مرض نه رهي! سائنسدانن جا انسان ذات تي وري نوان ٿورا!",
-   "t": 1793552919
-  },
   {
    "h": "اسلام آباد: هلندڙ سال پوليو جو اٺون ڪيس ظاهر، 13 مهينن جي ٻارڙي ۾ وائرس جي تصديق",
    "t": 1793554488
@@ -8277,10 +8272,14 @@
   {
    "h": "Unannounced Gas Load-Shedding In Karachi Forces Residents To Buy Expensive LPG",
    "t": 1793745767
+  },
+  {
+   "h": "Dry weather to prevail in the country",
+   "t": 1793749314
   }
  ],
  "last_errors": {
-  "time": "2026-11-04 04:31",
+  "time": "2026-11-04 04:41",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8383,12 +8382,12 @@
  },
  "article_diag": {
   "date": "2026-11-04",
-  "tried": 5,
-  "decoded": 5,
-  "text": 4,
-  "story": 4
+  "tried": 6,
+  "decoded": 6,
+  "text": 5,
+  "story": 5
  },
- "ai_last_error": "04:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "04:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-04",
   "models": [
@@ -8402,9 +8401,9 @@
  },
  "img_diag": {
   "date": "2026-11-04",
-  "tried": 5,
+  "tried": 6,
   "gemini": 0,
-  "pollinations": 4,
+  "pollinations": 5,
   "skip": 1,
   "fail": 0,
   "last_note": "gas stove and kitchen",
@@ -8429,7 +8428,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-04",
-   "ok": 28,
+   "ok": 29,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8437,7 +8436,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-04",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8445,7 +8444,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-04",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8453,14 +8452,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8468,21 +8467,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-04",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8653,12 +8652,12 @@
   "date": "2026-11-04",
   "district": 0,
   "sindh": 2,
-  "pakistan": 3
+  "pakistan": 4
  },
  "report_acc": {
-  "posted": 0,
-  "found": 3,
-  "old": 3,
+  "posted": 1,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8697,8 +8696,8 @@
   "date": "2026-11-04",
   "count": 2,
   "last": 1793739088.3305275,
-  "city_i": 22,
-  "dry": 1793748670.48354
+  "city_i": 4,
+  "dry": 1793749265.4727798
  },
  "gemini_day_dead": {
   "day": "2026-11-03",
@@ -9353,6 +9352,14 @@
    "t": 1793745767,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "5162fd92a8ed358e",
+   "h": "ملڪ ۾ موسم خشڪ رهڻ جو امڪان",
+   "x": "ملڪ ۾ خشڪ موسم برقرار رهڻ جي اڳڪٿي ڪئي وئي آهي. پاڪستان ميٽولوجيڪل کاتي (PMD) موجب ايندڙ 24 ڪلاڪن دوران ملڪ جي اڪثر حصن ۾ موسم خشڪ رهندي، جڏهن ته اترين علائقن ۾ موسم ڪجهه قدر ابر آلود ۽ سرد رهڻ جو امڪان آهي. ان جي باوجود، ان عرصي دوران مٿئين خیبر پختونخوا ۽ گلگت بلتستان جي جبلن تي اکڙ ٻکڙ هلڪي برسات ۽ برفباري ٿي سگهي ٿي. ميٽ آفيس موجب اڱاري جي صبح تي مکيه شهرن ۾ رڪارڊ ڪيل گرمي پد اسلام آباد ۾ 13 ڊگري سينٽي گريڊ، لاهور ۾ 19 ڊگري سينٽي گريڊ، ڪراچي ۾ 25 ڊگري سينٽي گريڊ، پشاور ۾ 15 ڊگري سينٽي گريڊ، ڪوئٽه ۾ 10 ڊگري سينٽي گريڊ، گلگت ۾ 6 ڊگري سينٽي گريڊ، مري ۾ 7 ڊگري سينٽي گريڊ ۽ مظفرآباد ۾ 12 ڊگري سينٽي گريڊ هو.",
+   "t": 1793749314,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9366,13 +9373,6 @@
   "last": 1793703731.3749933
  },
  "tg_debug": [
-  {
-   "t": "11-03 22:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-03 22:20",
    "ok": true,
@@ -9641,6 +9641,13 @@
   },
   {
    "t": "11-04 04:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-04 04:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14066,6 +14073,47 @@
     "ڪمن",
     "گئس"
    ]
+  },
+  {
+   "t": 1793749314,
+   "h": "ملڪ ۾ موسم خشڪ رهڻ جو امڪان",
+   "b": "ملڪ ۾ خشڪ موسم برقرار رهڻ جي اڳڪٿي ڪئي وئي آهي. پاڪستان ميٽولوجيڪل کاتي (PMD) موجب ايندڙ 24 ڪلاڪن دوران ملڪ",
+   "tt": [
+    "امڪان",
+    "خشڪ",
+    "رهڻ",
+    "ملڪ",
+    "موسم"
+   ],
+   "bt": [
+    "#24",
+    "pmd",
+    "ابر",
+    "اترين",
+    "الود",
+    "امڪان",
+    "اهي",
+    "ايندڙ",
+    "اڪثر",
+    "اڳڪٿي",
+    "برقرار",
+    "حصن",
+    "خشڪ",
+    "دوران",
+    "رهندي،",
+    "رهڻ",
+    "سرد",
+    "علائقن",
+    "قدر",
+    "ملڪ",
+    "موجب",
+    "موسم",
+    "ميٽولوجيڪل",
+    "پاڪستان",
+    "ڪاتي",
+    "ڪجهه",
+    "ڪلاڪن"
+   ]
   }
  ],
  "repeat_log": [
@@ -14233,12 +14281,11 @@
  },
  "quality": {
   "date": "2026-11-04",
-  "editor_fixed": 5,
+  "editor_fixed": 6,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
   "repeat": 1
- },
- "_dup": true
+ }
 }
