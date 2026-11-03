@@ -1730,7 +1730,11 @@
   "871df21aba29e7aa": 1793672485.243442,
   "a68a63cb30564952": 1793672485.243443,
   "25ad269f90b0519f": 1793672485.2436624,
-  "2faa3c85b76f642d": 1793674276.1119828
+  "2faa3c85b76f642d": 1793674276.1119828,
+  "6ec08bdbb7db2904": 1793676089.3730443,
+  "d3e831cafec94c76": 1793676089.3730462,
+  "665dd602b2800fd6": 1793676089.3730476,
+  "872e4160f7903705": 1793676089.3731883
  },
  "pending": {},
  "queue": [],
@@ -1893,7 +1897,7 @@
  "sindh_single": {
   "date": "2026-11-03",
   "count": 0,
-  "last": 1793637104.9294493,
+  "last": 1793676113.3503153,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2456,11 +2460,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-03 08:10",
+  "time": "2026-11-03 08:21",
   "items": 25,
   "sample": [
    "New Zealand A 424/10 v India A 282/2 & 346/10 *",
-   "Queensland 32/1 & 280/10 * v Victoria 307/10 & 173/10",
+   "Queensland 280/10 & 32/1 * v Victoria 307/10 & 173/10",
    "Assam 135/10 v Karnataka 180/2 *"
   ]
  },
@@ -4884,24 +4888,8 @@
   "last": 1793670201.902731
  },
  "trends": {
-  "last": 1793664654.978552,
+  "last": 1793676060.4261775,
   "terms": [
-   {
-    "term": "alexia putellas",
-    "traffic": 500,
-    "news": "El Barcelona vuelve a ser elegido el mejor club del mundo en el Balón de Oro",
-    "t": 1793061660,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "psg vs olympique lyon standings",
-    "traffic": 1000,
-    "news": "Why is Ousmane Dembele Not Playing Today For PSG vs. Lyon?",
-    "t": 1793061660,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "gold rate in pakistan",
     "traffic": 200,
@@ -7861,15 +7849,71 @@
     "t": 1793664655,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "taika waititi",
+    "traffic": 100,
+    "news": "‘Sad lost souls’: Taika Waititi lambasts critics after Klara and the Sun box-office disaster",
+    "t": 1793676060,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "پاکستان قومی کرکٹ ٹیم",
+    "traffic": 100,
+    "news": "پاکستان نے سہ ملکی ون ڈے سیریز کے فائنل میں سری لنکا کو شکست دے کر کئی سنگ میل عبور کر لئے",
+    "t": 1793676060,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "bragantino vs santos",
+    "traffic": 100,
+    "news": "RB Bragantino vs Santos Prediction: The hosts will end the guests' draw streak at home",
+    "t": 1793676060,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "کرکٹ",
+    "traffic": 200,
+    "news": "محمد رضوان اور امام الحق قائداعظم ٹرافی میں بھی ایکشن میں ہوں گے، ذرائع",
+    "t": 1793676060,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "newcastle united f.c. vs everton f.c. standings",
+    "traffic": 1000,
+    "news": "Match Report. Half time: Newcastle United 0 Everton 0",
+    "t": 1793676060,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "bond",
+    "traffic": 500,
+    "news": "Oracle surges 10%! Is cloud providers' capex reaching an inf... - Futubull Community",
+    "t": 1793676060,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "diesel fuel",
+    "traffic": 1000,
+    "news": "Oil refineries to bear Rs15b burden to ease fuel price pressure leading to Rs15 cut in petrol price",
+    "t": 1793676060,
+    "cat": "fuel",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-03",
-  "ok": 96,
-  "fail": 158,
-  "limit": 158
+  "ok": 100,
+  "fail": 166,
+  "limit": 166
  },
  "posted_heads": [
   {
@@ -8194,7 +8238,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-03 08:10",
+  "time": "2026-11-03 08:21",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8297,12 +8341,12 @@
  },
  "article_diag": {
   "date": "2026-11-03",
-  "tried": 13,
-  "decoded": 13,
-  "text": 11,
-  "story": 10
+  "tried": 14,
+  "decoded": 14,
+  "text": 12,
+  "story": 11
  },
- "ai_last_error": "08:01 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "08:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-03",
   "models": [
@@ -8343,7 +8387,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-03",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8351,7 +8395,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-03",
-   "ok": 50,
+   "ok": 51,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8359,7 +8403,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-03",
-   "ok": 50,
+   "ok": 51,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8367,14 +8411,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8382,21 +8426,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-03",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-03",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-03",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8539,8 +8583,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8578,8 +8622,8 @@
   "date": "2026-11-03",
   "count": 0,
   "last": 1793649067.4427004,
-  "city_i": 22,
-  "dry": 1793674264.3382714
+  "city_i": 4,
+  "dry": 1793676073.0668983
  },
  "gemini_day_dead": {
   "day": "2026-11-02",
@@ -9186,13 +9230,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-03 01:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-03 02:00",
    "ok": true,
    "n": 0,
@@ -9460,6 +9497,13 @@
   },
   {
    "t": "11-03 08:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-03 08:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13372,11 +13416,6 @@
  ],
  "repeat_log": [
   {
-   "t": "10-31 09:22",
-   "new": "پاڪستان ۾ سوناڻي اگهه ۾ واڌ",
-   "old": "پاڪستان ۾ سون جي اگهن ۾ تبديلي"
-  },
-  {
    "t": "10-31 10:11",
    "new": "پاڪستان ۽ سری لنڪا اڄ آءِ سي سي فائنل ۾ آھن سامهون",
    "old": "نوشهروفيروز جو اڄ | 31-10-2026"
@@ -13520,6 +13559,11 @@
    "t": "11-03 04:31",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات",
    "old": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات."
+  },
+  {
+   "t": "11-03 08:21",
+   "new": "عالمي مارڪيٽ ۾ تيل سستو ٿي ويو",
+   "old": "عالمي مارڪيٽ ۾ تيل سستو ٿي ويو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13540,6 +13584,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 3
- }
+  "repeat": 4
+ },
+ "_dup": true
 }
