@@ -1,13 +1,5 @@
 {
  "seen": {
-  "59cca63f670d6a07": 1793172253.5097432,
-  "67dc76620a39bfd7": 1793172253.5097456,
-  "4a14eadba1717d6b": 1793172253.5097473,
-  "4ad6f5c1c8ee7980": 1793172318.452254,
-  "a486c131721d9149": 1793172318.4522564,
-  "36fd5f00d13cd1c5": 1793172318.4522576,
-  "742284a90b738476": 1793172318.452258,
-  "3c4dddedab7b2af5": 1793172318.4523933,
   "5e94a2644517c45d": 1793173254.7690632,
   "fe2636d370c54a36": 1793173278.3266425,
   "63e7df608b658b8c": 1793173278.3266468,
@@ -1815,11 +1807,24 @@
   "af34adeb5b103700": 1793775689.596443,
   "25101b3b2f1ddde8": 1793775689.5964465,
   "472033245c4a131f": 1793776867.626821,
-  "89938e93b0767492": 1793776867.6268237
+  "89938e93b0767492": 1793776867.6268237,
+  "a29baed5681940ee": 1793777455.3250551,
+  "24680f9b63660724": 1793777455.3251007,
+  "214589bdcb807cdc": 1793777455.32744
  },
  "pending": {},
  "queue": [],
- "jobs": [],
+ "jobs": [
+  {
+   "key": "24680f9b63660724",
+   "title": "Pakistan Successfully Tests First Locally Developed Fa’az Air-to-Air Missile",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNRlBFVUtyUnRIRGFFTnZQcUc5YmxLdGN2blk1ajhzX1AxS1V1U2RvRXpVWElKRHVpNDB0ZElxX1pJVEVGY3BDQ3lGOTNVM3dmem1BZlZTYjFrLWdkZDhnXzhoeUN3M1EtZ3RHTXp3NzlPbjJ2NWV6WGcteVI0RWN3SnFjOTliWWxzUjFiTDZqYkl5eDVWRGpVT2hGZ1lRTU9tUFVzbEtlVDY3ZmNoTERTVNIBtgFBVV95cUxOM1RQS3ktT2xVekhIQWNPZjltck5Ob25LT2tyQjJ6bEpYMzh3bmpKUGI2bENuVjNrTDBuVlQwc2hUdjhJZU1KcnFoX0daeEdPYjEtdGNGbWVIbnllTnFvVThGYTY4UHU5WmRpRDFxWTc4ZkhweWpyVEJrb0dGWldEdXhfaHZuV2V0YlA5OV9TYUk5TXRFVWxUWnFfVWhzTFdTaVN0TnFGd3Q5a05qVTVrYlFUV1Rsdw?oc=5",
+   "domain": "propakistani.pk",
+   "source": "ProPakistani",
+   "ts": 1793776988,
+   "local": false
+  }
+ ],
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-04",
@@ -1887,7 +1892,7 @@
  "sindh_single": {
   "date": "2026-11-04",
   "count": 0,
-  "last": 1793769681.566021,
+  "last": 1793777471.6260097,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2461,12 +2466,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-04 12:22",
+  "time": "2026-11-04 12:31",
   "items": 22,
   "sample": [
-   "Assam 93/5 & 135/10 * v Karnataka 577/6",
-   "Meghalaya 144/10 v Nagaland 254/10 & 183/9 *",
-   "Tripura 191/10 & 268/10 v Saurashtra 118/10 & 4 *"
+   "Assam 135/10 & 93/5 * v Karnataka 577/6",
+   "Meghalaya 144/10 v Nagaland 184/10 & 254/10 *",
+   "Tripura 268/10 & 191/10 v Saurashtra 118/10 & 4 *"
   ]
  },
  "agri_news": {
@@ -8000,9 +8005,9 @@
  },
  "ai_usage": {
   "date": "2026-11-04",
-  "ok": 172,
-  "fail": 284,
-  "limit": 284
+  "ok": 173,
+  "fail": 286,
+  "limit": 286
  },
  "posted_heads": [
   {
@@ -8327,7 +8332,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-04 12:22",
+  "time": "2026-11-04 12:31",
   "steps": []
  },
  "roundup_am": "2026-11-04",
@@ -8435,7 +8440,7 @@
   "text": 15,
   "story": 14
  },
- "ai_last_error": "12:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "12:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-04",
   "models": [
@@ -8476,7 +8481,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-04",
-   "ok": 75,
+   "ok": 76,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8484,7 +8489,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-04",
-   "ok": 76,
+   "ok": 77,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8492,7 +8497,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-04",
-   "ok": 76,
+   "ok": 77,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8500,14 +8505,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8515,21 +8520,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-04",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8704,8 +8709,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 2,
-  "old": 2,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9407,7 +9412,8 @@
   "done": [
    "08:00",
    "09:30",
-   "11:00"
+   "11:00",
+   "12:30"
   ]
  },
  "kawish_queue": [],
@@ -9417,13 +9423,6 @@
   "last": 1793703731.3749933
  },
  "tg_debug": [
-  {
-   "t": "11-04 06:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-04 06:10",
    "ok": true,
@@ -9692,6 +9691,13 @@
   },
   {
    "t": "11-04 12:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-04 12:30",
    "ok": true,
    "n": 0,
    "ids": [],
