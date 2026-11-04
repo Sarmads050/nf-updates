@@ -1,10 +1,5 @@
 {
  "seen": {
-  "268668a405596501": 1793148075.5286274,
-  "65bec357ddd2fc8e": 1793148080.9210284,
-  "328ab4ba56767fc3": 1793148080.9210315,
-  "2e9c130829f8d5ca": 1793148080.9210327,
-  "02e11d10f014bf39": 1793148080.921243,
   "08edc8ae5216f8a4": 1793149871.2542322,
   "be7cf2bf370eb8e7": 1793149875.0103908,
   "8c5e968e60231506": 1793149875.0103934,
@@ -2485,11 +2480,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-04 05:40",
+  "time": "2026-11-04 05:50",
   "items": 23,
   "sample": [
    "Assam 135/10 v Karnataka 496/5 *",
-   "Meghalaya 144/10 v Nagaland 254/10 & 73/3 *",
+   "Meghalaya 144/10 v Nagaland 73/3 & 254/10 *",
    "Tripura 268/10 & 54/4 * v Saurashtra 118/10"
   ]
  },
@@ -4913,32 +4908,8 @@
   "last": 1793749314.1372674
  },
  "trends": {
-  "last": 1793742498.1555033,
+  "last": 1793753454.0301297,
   "terms": [
-   {
-    "term": "dortmund vs werder",
-    "traffic": 100,
-    "news": "Aufstellung",
-    "t": 1793139659,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "roma vs cagliari",
-    "traffic": 500,
-    "news": "[DIRETTA]LIVE!] Cagliari-Roma in diretta tv e in streaming",
-    "t": 1793139659,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "fleetwood vs arsenal",
-    "traffic": 5000,
-    "news": "Team news: Dowman starts as two make debuts",
-    "t": 1793139659,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "pau cubarsí",
     "traffic": 200,
@@ -7938,15 +7909,63 @@
     "t": 1793742498,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "pakistan",
+    "traffic": 200,
+    "news": "Pakistan conducts maiden flight test of locally developed Fa’az air-to-air missile",
+    "t": 1793753454,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "bigg boss",
+    "traffic": 200,
+    "news": "Bigg Boss 20 Day 57 Highlights: Chain Reaction Nomination Task Leaves Six Contestants In Danger Zone",
+    "t": 1793753454,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "atlético madrid vs bayern munich standings",
+    "traffic": 500,
+    "news": "Champions League preview: Atlético Madrid vs. FC Bayern",
+    "t": 1793753454,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "uefa champions league",
+    "traffic": 2000,
+    "news": "Aston Villa left with 'lot of things to learn' after defeat in Barcelona",
+    "t": 1793753454,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "barcelona",
+    "traffic": 200,
+    "news": "El Barcelona sale con el once esperado y Bernardo Silva es la novedad en el Real Madrid",
+    "t": 1793753454,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "champions league games",
+    "traffic": 100,
+    "news": "Champions League: these 3 teams have a lot at stake this week 🥵",
+    "t": 1793753454,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-04",
-  "ok": 55,
-  "fail": 94,
-  "limit": 94
+  "ok": 56,
+  "fail": 96,
+  "limit": 96
  },
  "posted_heads": [
   {
@@ -8271,7 +8290,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-04 05:40",
+  "time": "2026-11-04 05:50",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8379,7 +8398,7 @@
   "text": 6,
   "story": 6
  },
- "ai_last_error": "05:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "05:50 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-04",
   "models": [
@@ -8420,7 +8439,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-04",
-   "ok": 35,
+   "ok": 36,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8428,7 +8447,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-04",
-   "ok": 36,
+   "ok": 37,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8436,7 +8455,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-04",
-   "ok": 36,
+   "ok": 37,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8444,14 +8463,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 36,
+   "ok": 37,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 36,
+   "ok": 37,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8459,21 +8478,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 36,
+   "ok": 37,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 36,
+   "ok": 37,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-04",
-   "ok": 36,
+   "ok": 37,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8648,8 +8667,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 4,
-  "old": 4,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9374,13 +9393,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-03 23:21",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-03 23:30",
    "ok": true,
    "n": 0,
@@ -9648,6 +9660,13 @@
   },
   {
    "t": "11-04 05:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-04 05:50",
    "ok": true,
    "n": 0,
    "ids": [],
