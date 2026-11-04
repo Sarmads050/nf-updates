@@ -1819,7 +1819,8 @@
   "70d66b04231fd51e": 1793829073.2598147,
   "a14ce71a5c25f8b5": 1793829077.5990741,
   "8582a3f2136f495a": 1793829566.3359833,
-  "d547109c58ba50af": 1793829688.4506636
+  "d547109c58ba50af": 1793829688.4506636,
+  "bc7af90bd46c301c": 1793830281.5548723
  },
  "pending": {},
  "queue": [],
@@ -2528,11 +2529,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-05 03:01",
+  "time": "2026-11-05 03:12",
   "items": 26,
   "sample": [
-   "Meghalaya 144/10 v Nagaland 184/10 & 254/10 *",
-   "Tripura 268/10 & 191/10 v Saurashtra 131/7 & 118/10 *",
+   "Meghalaya 144/10 v Nagaland 254/10 & 184/10 *",
+   "Tripura 268/10 & 191/10 v Saurashtra 118/10 & 131/7 *",
    "Bengal 76/4 & 143/10 * v Maharashtra 218/10"
   ]
  },
@@ -8011,9 +8012,9 @@
  },
  "ai_usage": {
   "date": "2026-11-05",
-  "ok": 25,
-  "fail": 46,
-  "limit": 46
+  "ok": 29,
+  "fail": 54,
+  "limit": 54
  },
  "posted_heads": [
   {
@@ -8338,7 +8339,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-05 03:01",
+  "time": "2026-11-05 03:12",
   "steps": []
  },
  "roundup_am": "2026-11-04",
@@ -8441,12 +8442,12 @@
  },
  "article_diag": {
   "date": "2026-11-05",
-  "tried": 3,
-  "decoded": 3,
-  "text": 3,
+  "tried": 4,
+  "decoded": 4,
+  "text": 4,
   "story": 3
  },
- "ai_last_error": "03:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "03:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-05",
   "models": [
@@ -8487,7 +8488,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-05",
-   "ok": 19,
+   "ok": 20,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8495,7 +8496,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-05",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8503,7 +8504,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-05",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8511,14 +8512,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8526,14 +8527,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
@@ -8541,9 +8542,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-05",
    "ok": 0,
-   "fail": 20,
+   "fail": 21,
    "items": 15,
-   "fail_streak": 75,
+   "fail_streak": 76,
    "last_status": 404
   }
  },
@@ -8924,8 +8925,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8965,8 +8966,8 @@
   "date": "2026-11-05",
   "count": 1,
   "last": 1793822473.6891127,
-  "city_i": 12,
-  "dry": 1793829673.9997134
+  "city_i": 16,
+  "dry": 1793830269.393995
  },
  "gemini_day_dead": {
   "day": "2026-11-04",
@@ -9683,13 +9684,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-04 20:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-04 21:00",
    "ok": true,
    "n": 0,
@@ -9957,6 +9951,13 @@
   },
   {
    "t": "11-05 03:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-05 03:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14704,11 +14705,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-02 14:01",
-   "new": "ملير: 14 سالا گهرواري تي تيزاب هاريندڙ جوابدار گرفتار",
-   "old": "ڪراچي ۾ گهريلو تڪرار تان جوابدار پاران نينگري تي تيزاب سان حملو"
-  },
-  {
    "t": "11-02 14:31",
    "new": "ايل پي جي اگهن ۾ وڏو واڌارو",
    "old": "شام جون خبرون | آچر، 1 نومبر 2026"
@@ -14852,6 +14848,11 @@
    "t": "11-05 03:01",
    "new": "سونهن ۽ چانديءَ جا اگهه جاري",
    "old": "شام جون سنڌ جون اهم خبرون"
+  },
+  {
+   "t": "11-05 03:12",
+   "new": "بجلي جي اگهن ۾ واڌ جو امڪان",
+   "old": "بجلي جي اگهه ۾ واڌ جي تجويز"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14872,7 +14873,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
-  "repeat": 1
+  "repeat": 2
  },
  "_dup": true
 }
