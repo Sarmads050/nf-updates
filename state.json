@@ -2008,17 +2008,8 @@
    "6ef3165a76411a93"
   ]
  },
- "last_post_id": "1444130002106066_122117544885503839",
+ "last_post_id": "1444130002106066_122117552613503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122117380257503839",
-   "title": "سينٽرل پاور پچيزنگ ايجنسي سال 2027 لاءِ بجلي جي اگهه ۾ 8 سيڪڙو واڌ جي درخواست جمع ڪرائي",
-   "t": 1793763226.9868839,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122117380257503839"
-  },
   {
    "id": "1444130002106066_122117384481503839",
    "title": "اڄ جون نوڪريون (نوشهروفيروز ۽ سنڌ)",
@@ -2338,6 +2329,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122117544885503839"
+  },
+  {
+   "id": "1444130002106066_122117552613503839",
+   "title": "منشيات جي خاتمي جو رٿيل پروگرام",
+   "t": 1793802891.263724,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122117552613503839"
   }
  ],
  "share_sent": {
@@ -2548,12 +2551,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-04 19:20",
-  "items": 23,
+  "time": "2026-11-04 19:34",
+  "items": 24,
   "sample": [
-   "Assam 128/10 & 135/10 * v Karnataka 577/6",
+   "Assam 135/10 & 128/10 * v Karnataka 577/6",
    "Meghalaya 144/10 v Nagaland 184/10 & 254/10 *",
-   "Tripura 268/10 & 191/10 v Saurashtra 131/7 & 118/10 *"
+   "Tripura 191/10 & 268/10 v Saurashtra 131/7 & 118/10 *"
   ]
  },
  "agri_news": {
@@ -2563,17 +2566,11 @@
  },
  "all_posts": {
   "date": "2026-11-04",
-  "count": 41,
-  "last": 1793801524.449792
+  "count": 42,
+  "last": 1793802882.467413
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122113457127503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1792921090
-   },
    {
     "id": "1444130002106066_122113461009503839",
     "sec": "sindh_stream",
@@ -4967,6 +4964,12 @@
     "sec": "kawish",
     "cat": "sindh",
     "t": 1793801531
+   },
+   {
+    "id": "1444130002106066_122117552613503839",
+    "sec": "kawish",
+    "cat": "sindh",
+    "t": 1793802891
    }
   ]
  },
@@ -8047,9 +8050,9 @@
  },
  "ai_usage": {
   "date": "2026-11-04",
-  "ok": 310,
-  "fail": 451,
-  "limit": 446
+  "ok": 316,
+  "fail": 455,
+  "limit": 451
  },
  "posted_heads": [
   {
@@ -8407,10 +8410,14 @@
   {
    "h": "تعليمي بورڊن ۾ شفاف جاچ ڪرائي وڃي: ڊاڪٽر محبوب شيخ",
    "t": 1793801531
+  },
+  {
+   "h": "منشيات جي خاتمي جو رٿيل پروگرام",
+   "t": 1793802891
   }
  ],
  "last_errors": {
-  "time": "2026-11-04 19:20",
+  "time": "2026-11-04 19:34",
   "steps": []
  },
  "roundup_am": "2026-11-04",
@@ -8518,7 +8525,7 @@
   "text": 20,
   "story": 17
  },
- "ai_last_error": "19:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "19:32 openrouter google/gemma-4-31b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily ra",
  "gemini_disc": {
   "date": "2026-11-04",
   "models": [
@@ -8532,13 +8539,13 @@
  },
  "img_diag": {
   "date": "2026-11-04",
-  "tried": 39,
+  "tried": 40,
   "gemini": 0,
   "pollinations": 20,
   "skip": 12,
   "fail": 1,
-  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
-  "mismatch": 398
+  "last_note": "anti-drug awareness posters",
+  "mismatch": 401
  },
  "gemini_img": {
   "date": "2026-10-18",
@@ -8559,7 +8566,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-04",
-   "ok": 117,
+   "ok": 118,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8567,7 +8574,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-04",
-   "ok": 117,
+   "ok": 118,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8575,7 +8582,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-04",
-   "ok": 118,
+   "ok": 119,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8583,14 +8590,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8598,14 +8605,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
@@ -8613,9 +8620,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-04",
    "ok": 92,
-   "fail": 27,
+   "fail": 28,
    "items": 15,
-   "fail_streak": 27,
+   "fail_streak": 28,
    "last_status": 404
   }
  },
@@ -8623,7 +8630,7 @@
   "last": "2026-10-30",
   "idx": 2
  },
- "ai_last_model": "google/gemma-4-31b-it:free",
+ "ai_last_model": "google/gemma-4-26b-a4b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8991,13 +8998,13 @@
  "region_posts": {
   "date": "2026-11-04",
   "district": 5,
-  "sindh": 21,
+  "sindh": 22,
   "pakistan": 13
  },
  "report_acc": {
-  "posted": 1,
-  "found": 2,
-  "old": 2,
+  "posted": 2,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9716,6 +9723,14 @@
    "t": 1793801531,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "04c23c0007593f47",
+   "h": "منشيات جي خاتمي لاءِ نئون پروگرام شروع",
+   "x": "منشيات جي خاتمي لاءِ هڪ رٿيل پروگرام شروع ڪيو ويو آهي. هن پروگرام جو مقصد سماج مان منشيات جي لعنت کي ختم ڪرڻ آهي. هن پروگرام تحت مختلف علائقن ۾ آگاهي مهم هلائي ويندي. هن چيو ته منشيات جي وڪرو ڪندڙن خلاف سخت ڪارروائي ڪئي ويندي.",
+   "t": 1793802891,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9732,22 +9747,6 @@
   ]
  },
  "kawish_queue": [
-  {
-   "key": "02e9e6f9a5eb80d2",
-   "page": 4,
-   "head": "منشيات جي خاتمي جو رٿيل پروگرام",
-   "summary": "منشيات جي خاتمي لاءِ هڪ رٿيل پروگرام شروع ڪيو ويو آهي. هن پروگرام جو مقصد سماج مان منشيات جي لعنت کي ختم ڪرڻ آهي. هن پروگرام تحت مختلف علائقن ۾ آگاهي مهم هلائي ويندي. هن چيو ته منشيات جي وڪرو ڪندڙن خلاف سخت ڪارروائي ڪئي ويندي.",
-   "card": "منشيات جي خاتمي لاءِ هڪ نئون پروگرام شروع ڪيو ويو آهي جنهن جو مقصد آگاهي مهم هلائڻ ۽ منشيات فروشن خلاف ڪارروائي ڪرڻ آهي.",
-   "printed": "منشيات جي خاتمي جو رٿيل پروگرام ",
-   "search_en": "Anti-narcotics program, drug eradication",
-   "search_ur": "منشیات کے خاتمے کا پروگرام، انسداد منشیات",
-   "district": false,
-   "sensitive": false,
-   "confidence": "high",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-11-04&pageno=4",
-   "message": "📰 منشيات جي خاتمي جو رٿيل پروگرام\n\nمنشيات جي خاتمي لاءِ هڪ رٿيل پروگرام شروع ڪيو ويو آهي. هن پروگرام جو مقصد سماج مان منشيات جي لعنت کي ختم ڪرڻ آهي. هن پروگرام تحت مختلف علائقن ۾ آگاهي مهم هلائي ويندي. هن چيو ته منشيات جي وڪرو ڪندڙن خلاف سخت ڪارروائي ڪئي ويندي!\n\n📌 ذريعو: روزاني ڪاوش (صفحو 4)\n\n📲 نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFeroze #Padidan #نوشهروفيروز #پڊعيدن",
-   "added_day": "2026-11-04"
-  },
   {
    "key": "0b4ab7445941ea9e",
    "page": 8,
@@ -9831,17 +9830,10 @@
  ],
  "kawish_post": {
   "date": "2026-11-04",
-  "count": 9,
-  "last": 1793801531.0039296
+  "count": 10,
+  "last": 1793802891.263689
  },
  "tg_debug": [
-  {
-   "t": "11-04 12:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-04 13:00",
    "ok": true,
@@ -10110,6 +10102,13 @@
   },
   {
    "t": "11-04 19:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-04 19:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14378,6 +14377,44 @@
     "ڪرائي",
     "ڪڻڻ"
    ]
+  },
+  {
+   "t": 1793802891,
+   "h": "منشيات جي خاتمي لاءِ نئون پروگرام شروع",
+   "b": "منشيات جي خاتمي لاءِ هڪ رٿيل پروگرام شروع ڪيو ويو آهي. هن پروگرام جو مقصد سماج مان منشيات جي لعنت کي ختم ڪرڻ",
+   "tt": [
+    "خاتمي",
+    "شروع",
+    "منشيات",
+    "نئون",
+    "پروگرام"
+   ],
+   "bt": [
+    "اهي",
+    "اگاهي",
+    "تحت",
+    "خاتمي",
+    "ختم",
+    "خلاف",
+    "رٿيل",
+    "سخت",
+    "سماج",
+    "شروع",
+    "علائقن",
+    "لعنت",
+    "مان",
+    "مختلف",
+    "مقصد",
+    "منشيات",
+    "مهم",
+    "نئون",
+    "هلائي",
+    "وڪرو",
+    "پروگرام",
+    "ڪارروائي",
+    "ڪرڻ",
+    "ڪندڙن"
+   ]
   }
  ],
  "repeat_log": [
@@ -14545,7 +14582,7 @@
  },
  "quality": {
   "date": "2026-11-04",
-  "editor_fixed": 30,
+  "editor_fixed": 31,
   "editor_rejected": 3,
   "kawish_rejected": 2,
   "kawish_crosschecked": 0,
