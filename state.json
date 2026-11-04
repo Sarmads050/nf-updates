@@ -1820,7 +1820,8 @@
   "d96cccae851b1431": 1793787650.5055838,
   "a9146ba964934f48": 1793787650.5057883,
   "9586cf45af0fe98c": 1793787661.9203146,
-  "d9492908c1e6f42e": 1793788866.2028813
+  "d9492908c1e6f42e": 1793788866.2028813,
+  "0bf270e08a635db2": 1793789453.088887
  },
  "pending": {},
  "queue": [],
@@ -1841,6 +1842,15 @@
    "domain": "propakistani.pk",
    "source": "ProPakistani",
    "ts": 1793776041,
+   "local": false
+  },
+  {
+   "key": "0bf270e08a635db2",
+   "title": "UK Announces Fully Funded Master’s Scholarships for Pakistani Students",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYWlzTW5lc3RwNUsySnhfdk4wY1NldmJnMWdsN0pXa3RmaGl6SmIwcTNoa3V3OUpHM2lNRE1VSzA2RGltb0JzMGtOaUpiaW1FQXRvenMxeER6TmcwbWRRTnB3OE9sdjd0ZVdqU0FsOVJZNkUwOTc5TFZmU29fNTI0cVA2NVBJc3BUeEdtSGZpQm92d210QUprOGJIaDFScWppcUUyUXZ3RjjSAa4BQVVfeXFMTU41Z0EzRFY0VlpLcHpjdUVNeWVaOUlkeTEyVzRVSnlfXy04LVc1UWtwenl5WTJYU3IwTDdFM2p5eXllZzByQ19EUVBhZGlXUzlkVjN1aEJlLXJvY2JmZUQwX0RVd2ZULXNEeFZoc3dvUDZURVRKenNxZk45bDZwZExDbXgxZmdrcUpzTjNUeWlOLS1iRU83WlpkRkoxN28xQ3FreG81djVhc0FNT2xR?oc=5",
+   "domain": "propakistani.pk",
+   "source": "ProPakistani",
+   "ts": 1793788648,
    "local": false
   }
  ],
@@ -2487,12 +2497,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-04 15:41",
+  "time": "2026-11-04 15:50",
   "items": 22,
   "sample": [
    "Meghalaya 144/10 v Nagaland 184/10 & 254/10 *",
-   "Assam 135/10 & 128/10 * v Karnataka 577/6",
-   "Tripura 268/10 & 191/10 v Saurashtra 95/6 & 118/10 *"
+   "Assam 128/10 & 135/10 * v Karnataka 577/6",
+   "Tripura 191/10 & 268/10 v Saurashtra 118/10 & 131/7 *"
   ]
  },
  "agri_news": {
@@ -8345,7 +8355,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-04 15:41",
+  "time": "2026-11-04 15:50",
   "steps": []
  },
  "roundup_am": "2026-11-04",
@@ -8494,7 +8504,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-04",
-   "ok": 95,
+   "ok": 96,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8502,7 +8512,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-04",
-   "ok": 96,
+   "ok": 97,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8510,7 +8520,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-04",
-   "ok": 96,
+   "ok": 97,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8518,14 +8528,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8533,14 +8543,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
@@ -8548,9 +8558,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-04",
    "ok": 92,
-   "fail": 5,
+   "fail": 6,
    "items": 15,
-   "fail_streak": 5,
+   "fail_streak": 6,
    "last_status": 404
   }
  },
@@ -9455,13 +9465,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-04 09:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-04 09:20",
    "ok": true,
    "n": 0,
@@ -9729,6 +9732,13 @@
   },
   {
    "t": "11-04 15:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-04 15:50",
    "ok": true,
    "n": 0,
    "ids": [],
