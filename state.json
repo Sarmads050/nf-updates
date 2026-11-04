@@ -1782,7 +1782,18 @@
   "d12598fa1e720d5a": 1793755991.5234303,
   "a04ac804c82324a5": 1793755991.5234318,
   "71e64af35830290e": 1793755991.5234325,
-  "1f51711007c3532a": 1793755991.523433
+  "1f51711007c3532a": 1793755991.523433,
+  "d67963bb4cb5791a": 1793756473.7393847,
+  "b6fb8b3ad3344e0b": 1793756500.9477432,
+  "309f8351a4394b5f": 1793756500.9477463,
+  "e6015717166b817a": 1793756500.9477472,
+  "4b880fd167cc8bac": 1793756500.9477484,
+  "911aeca152d6912b": 1793756500.9477491,
+  "97f561332db6ca11": 1793756500.9477503,
+  "092cf866854f0885": 1793756500.9477515,
+  "7d8d9d58367a38ae": 1793756500.9477522,
+  "d544b9c509b039c1": 1793756500.9477527,
+  "8061d1760a4c779a": 1793756500.947875
  },
  "pending": {},
  "queue": [],
@@ -2496,12 +2507,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-04 06:33",
+  "time": "2026-11-04 06:41",
   "items": 23,
   "sample": [
    "Assam 135/10 v Karnataka 496/5 *",
    "Meghalaya 144/10 v Nagaland 73/3 & 254/10 *",
-   "Tripura 268/10 & 54/4 * v Saurashtra 118/10"
+   "Tripura 54/4 & 268/10 * v Saurashtra 118/10"
   ]
  },
  "agri_news": {
@@ -7979,9 +7990,9 @@
  },
  "ai_usage": {
   "date": "2026-11-04",
-  "ok": 66,
-  "fail": 116,
-  "limit": 116
+  "ok": 70,
+  "fail": 124,
+  "limit": 124
  },
  "posted_heads": [
   {
@@ -8306,7 +8317,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-04 06:33",
+  "time": "2026-11-04 06:41",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8409,12 +8420,12 @@
  },
  "article_diag": {
   "date": "2026-11-04",
-  "tried": 8,
-  "decoded": 8,
-  "text": 7,
-  "story": 7
+  "tried": 9,
+  "decoded": 9,
+  "text": 8,
+  "story": 8
  },
- "ai_last_error": "06:33 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "06:41 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-04",
   "models": [
@@ -8455,7 +8466,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-04",
-   "ok": 40,
+   "ok": 41,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8463,7 +8474,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-04",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8471,7 +8482,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-04",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8479,14 +8490,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8494,21 +8505,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-04",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8683,8 +8694,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8723,8 +8734,8 @@
   "date": "2026-11-04",
   "count": 3,
   "last": 1793752270.6306732,
-  "city_i": 24,
-  "dry": 1793755981.8776662
+  "city_i": 6,
+  "dry": 1793756463.8962743
  },
  "gemini_day_dead": {
   "day": "2026-11-03",
@@ -9409,13 +9420,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-04 00:11",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-04 00:20",
    "ok": true,
    "n": 0,
@@ -9683,6 +9687,13 @@
   },
   {
    "t": "11-04 06:32",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-04 06:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14191,11 +14202,6 @@
  "repeat_log": [
   {
    "t": "11-01 03:41",
-   "new": "پاڪستان ٽه ملڪي ڪرڪيٽ سيريز جو فائنل کٽي ورتو",
-   "old": "LIVE | هانگ ڪانگ بمقابلي پاڪستان"
-  },
-  {
-   "t": "11-01 03:41",
    "new": "پاڪستان ۾ سونهن جي اگهن ۾ وڏي لاٿ",
    "old": "پنجاب ۾ ڪڻڪ جو اگهه 4500 روپيا مقرر"
   },
@@ -14338,6 +14344,11 @@
    "t": "11-04 06:02",
    "new": "سنڌ ۾ ڪڻڪ جو اگهه گهٽ",
    "old": "سنڌ | سنڌ حڪومت پاران گندم جي امدادي قيمت ۾ گهٽتائي"
+  },
+  {
+   "t": "11-04 06:41",
+   "new": "حڪومت پاران تيل اگهه ۾ گهٽتائي",
+   "old": "پيٽرول اگهه ۾ گهٽتائي، ڊيزل مهانگو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14358,7 +14369,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 2
+  "repeat": 3
  },
  "_dup": true
 }
