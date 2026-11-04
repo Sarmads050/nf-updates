@@ -1781,7 +1781,9 @@
   "6b89b6318dfd0fab": 1793758876.292459,
   "07a8c7007f60639d": 1793758876.2924614,
   "7c98ea57410e60dc": 1793758876.2924623,
-  "9008a50ec523d057": 1793758876.2924633
+  "9008a50ec523d057": 1793758876.2924633,
+  "3622d9a1037292a4": 1793760100.8198001,
+  "ae55fae7fb025d61": 1793760113.1507468
  },
  "pending": {},
  "queue": [],
@@ -2492,12 +2494,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-04 07:31",
+  "time": "2026-11-04 07:42",
   "items": 23,
   "sample": [
    "Assam 135/10 v Karnataka 496/5 *",
-   "Meghalaya 144/10 v Nagaland 254/10 & 73/3 *",
-   "Tripura 268/10 & 54/4 * v Saurashtra 118/10"
+   "Meghalaya 144/10 v Nagaland 73/3 & 254/10 *",
+   "Tripura 54/4 & 268/10 * v Saurashtra 118/10"
   ]
  },
  "agri_news": {
@@ -7975,9 +7977,9 @@
  },
  "ai_usage": {
   "date": "2026-11-04",
-  "ok": 82,
-  "fail": 136,
-  "limit": 136
+  "ok": 88,
+  "fail": 148,
+  "limit": 148
  },
  "posted_heads": [
   {
@@ -8302,7 +8304,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-04 07:31",
+  "time": "2026-11-04 07:42",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8405,12 +8407,12 @@
  },
  "article_diag": {
   "date": "2026-11-04",
-  "tried": 10,
-  "decoded": 10,
-  "text": 8,
-  "story": 8
+  "tried": 11,
+  "decoded": 11,
+  "text": 9,
+  "story": 9
  },
- "ai_last_error": "07:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "07:42 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-04",
   "models": [
@@ -8451,7 +8453,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-04",
-   "ok": 47,
+   "ok": 48,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8459,7 +8461,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-04",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8467,7 +8469,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-04",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8475,14 +8477,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8490,21 +8492,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-04",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8679,8 +8681,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8719,8 +8721,8 @@
   "date": "2026-11-04",
   "count": 3,
   "last": 1793752270.6306732,
-  "city_i": 18,
-  "dry": 1793759467.1672404
+  "city_i": 22,
+  "dry": 1793760089.6452272
  },
  "gemini_day_dead": {
   "day": "2026-11-03",
@@ -9397,13 +9399,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-04 01:21",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-04 01:30",
    "ok": true,
    "n": 0,
@@ -9671,6 +9666,13 @@
   },
   {
    "t": "11-04 07:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-04 07:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14109,11 +14111,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-01 03:41",
-   "new": "پاڪستان ۾ سونهن جي اگهن ۾ وڏي لاٿ",
-   "old": "پنجاب ۾ ڪڻڪ جو اگهه 4500 روپيا مقرر"
-  },
-  {
    "t": "11-01 09:21",
    "new": "فخر زمان پاڪستان لاءِ اهم ترين رانديگر آهي",
    "old": "پاڪستان سريلنڪا کي شڪست ڏئي ٽه ملڪي سيريز کٽي ورتي"
@@ -14257,6 +14254,11 @@
    "t": "11-04 06:41",
    "new": "حڪومت پاران تيل اگهه ۾ گهٽتائي",
    "old": "پيٽرول اگهه ۾ گهٽتائي، ڊيزل مهانگو"
+  },
+  {
+   "t": "11-04 07:42",
+   "new": "ڪابينه ڪڻڪ جو اگهه مقرر ڪري ڇڏيو",
+   "old": "سنڌ | سنڌ حڪومت پاران گندم جي امدادي قيمت ۾ گهٽتائي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14277,6 +14279,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 3
- }
+  "repeat": 4
+ },
+ "_dup": true
 }
