@@ -1807,7 +1807,9 @@
   "a0afde3595d98fe2": 1793768483.118414,
   "cbf9b51ac7aa949a": 1793768483.1185477,
   "9d95a0b97ea30c9f": 1793769066.1548524,
-  "74a4cd720b21cf42": 1793769066.1548555
+  "74a4cd720b21cf42": 1793769066.1548555,
+  "013313d376a48eda": 1793769663.0326846,
+  "a7e4c28c37e2a46d": 1793769690.8030398
  },
  "pending": {},
  "queue": [],
@@ -1879,7 +1881,7 @@
  "sindh_single": {
   "date": "2026-11-04",
   "count": 0,
-  "last": 1793761906.7140286,
+  "last": 1793769681.566021,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1916,20 +1918,8 @@
    "4359f2072e9f7bd5"
   ]
  },
- "last_post_id": "1444130002106066_122117398005503839",
+ "last_post_id": "1444130002106066_122117400591503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122117124927503839",
-   "title": "گمبٽ: سولنگي ۽ جاگيراڻي تڪرار واري علائقي ۾ پوليس آپريشن",
-   "t": 1793697698.6902988,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122117124927503839"
-  },
   {
    "id": "1444130002106066_122117136675503839",
    "title": "عابده بتول عالمي باڪسنگ ٽائيٽل کٽيندڙ پهرين پاڪستاني عورت بڻجي وئي",
@@ -2243,6 +2233,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122117398005503839"
+  },
+  {
+   "id": "1444130002106066_122117400591503839",
+   "title": "موجوده خبر زرعي پاليسي يا هارين جي حوالي سان نه هجڻ سبب رد ڪئي وئي آهي",
+   "t": 1793769733.6774845,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122117400591503839"
   }
  ],
  "share_sent": {
@@ -2453,32 +2453,26 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-04 10:11",
+  "time": "2026-11-04 10:22",
   "items": 23,
   "sample": [
    "Assam 9/1 & 135/10 * v Karnataka 577/6",
    "Meghalaya 144/10 v Nagaland 254/10 & 143/7 *",
-   "Tripura 139/6 & 268/10 * v Saurashtra 118/10"
+   "Tripura 268/10 & 139/6 * v Saurashtra 118/10"
   ]
  },
  "agri_news": {
   "date": "2026-11-04",
-  "count": 1,
-  "last": 1793760723.8735442
+  "count": 2,
+  "last": 1793769733.677435
  },
  "all_posts": {
   "date": "2026-11-04",
-  "count": 14,
-  "last": 1793769076.8137813
+  "count": 15,
+  "last": 1793769726.6938896
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122113173327503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1792857120
-   },
    {
     "id": "1444130002106066_122113178937503839",
     "sec": "sindh_stream",
@@ -4872,6 +4866,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1793769084
+   },
+   {
+    "id": "1444130002106066_122117400591503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1793769733
    }
   ]
  },
@@ -7984,15 +7984,11 @@
  },
  "ai_usage": {
   "date": "2026-11-04",
-  "ok": 126,
-  "fail": 210,
-  "limit": 210
+  "ok": 136,
+  "fail": 228,
+  "limit": 228
  },
  "posted_heads": [
-  {
-   "h": "Punjab Agriculture Department Advises Farmers On Wheat Sowing, Certified Seeds",
-   "t": 1793572382
-  },
   {
    "h": "Weekly Cotton Review: A downward trend continues in the market",
    "t": 1793580225
@@ -8308,10 +8304,14 @@
   {
    "h": "ڪشمور: ڪروڙين رپين جي ڪڻڪ خرد برد ڪيس ۾ اڳوڻو ڊي ايف سي ۽ فوڊ انسپيڪٽر گرفتار",
    "t": 1793769085
+  },
+  {
+   "h": "REAP steps up efforts to foster innovation",
+   "t": 1793769733
   }
  ],
  "last_errors": {
-  "time": "2026-11-04 10:11",
+  "time": "2026-11-04 10:22",
   "steps": []
  },
  "roundup_am": "2026-11-04",
@@ -8414,12 +8414,12 @@
  },
  "article_diag": {
   "date": "2026-11-04",
-  "tried": 16,
-  "decoded": 16,
-  "text": 13,
+  "tried": 17,
+  "decoded": 17,
+  "text": 14,
   "story": 13
  },
- "ai_last_error": "10:11 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "10:21 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-04",
   "models": [
@@ -8433,9 +8433,9 @@
  },
  "img_diag": {
   "date": "2026-11-04",
-  "tried": 13,
+  "tried": 14,
   "gemini": 0,
-  "pollinations": 7,
+  "pollinations": 8,
   "skip": 2,
   "fail": 0,
   "last_note": "modern youth identity card",
@@ -8460,15 +8460,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-04",
-   "ok": 62,
+   "ok": 63,
    "fail": 2,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-04",
-   "ok": 63,
+   "ok": 64,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8476,7 +8476,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-04",
-   "ok": 63,
+   "ok": 64,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8484,14 +8484,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8499,21 +8499,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-04",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8684,12 +8684,12 @@
   "date": "2026-11-04",
   "district": 0,
   "sindh": 4,
-  "pakistan": 8
+  "pakistan": 9
  },
  "report_acc": {
-  "posted": 1,
-  "found": 1,
-  "old": 1,
+  "posted": 2,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9384,6 +9384,14 @@
    "t": 1793769084,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "556cb67c51100988",
+   "h": "چونڊيل خبر لاڳو ٿيل اصولن تي پوري نٿي لٿي",
+   "x": "موجوده خبر زرعي پاليسي يا هارين جي حوالي سان نه هجڻ سبب رد ڪئي وئي آهي.",
+   "t": 1793769733,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9400,13 +9408,6 @@
   "last": 1793703731.3749933
  },
  "tg_debug": [
-  {
-   "t": "11-04 03:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-04 04:00",
    "ok": true,
@@ -9675,6 +9676,13 @@
   },
   {
    "t": "11-04 10:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-04 10:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14036,6 +14044,39 @@
     "ڪيس",
     "ڪڻڪ",
     "گرفتار"
+   ]
+  },
+  {
+   "t": 1793769733,
+   "h": "چونڊيل خبر لاڳو ٿيل اصولن تي پوري نٿي لٿي",
+   "b": "موجوده خبر زرعي پاليسي يا هارين جي حوالي سان نه هجڻ سبب رد ڪئي وئي آهي.",
+   "tt": [
+    "اصولن",
+    "خبر",
+    "لاڳو",
+    "لٿي",
+    "نٿي",
+    "پوري",
+    "ٿيل",
+    "چونڊيل"
+   ],
+   "bt": [
+    "اصولن",
+    "اهي",
+    "حوالي",
+    "خبر",
+    "زرعي",
+    "سبب",
+    "لاڳو",
+    "لٿي",
+    "موجوده",
+    "نٿي",
+    "هارين",
+    "هجڻ",
+    "پاليسي",
+    "پوري",
+    "ٿيل",
+    "چونڊيل"
    ]
   }
  ],
