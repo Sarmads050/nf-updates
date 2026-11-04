@@ -1,6 +1,5 @@
 {
  "seen": {
-  "57cd43c1c84d1eca": 1793154075.2986112,
   "3e7cef633eba3494": 1793155271.0421586,
   "6c3877af7733a197": 1793155871.5618746,
   "1661fff96c532c5d": 1793155871.562066,
@@ -2493,12 +2492,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-04 07:21",
+  "time": "2026-11-04 07:31",
   "items": 23,
   "sample": [
    "Assam 135/10 v Karnataka 496/5 *",
    "Meghalaya 144/10 v Nagaland 254/10 & 73/3 *",
-   "Tripura 54/4 & 268/10 * v Saurashtra 118/10"
+   "Tripura 268/10 & 54/4 * v Saurashtra 118/10"
   ]
  },
  "agri_news": {
@@ -8303,7 +8302,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-04 07:21",
+  "time": "2026-11-04 07:31",
   "steps": []
  },
  "roundup_am": "2026-11-03",
@@ -8452,7 +8451,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-04",
-   "ok": 46,
+   "ok": 47,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8460,7 +8459,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-04",
-   "ok": 47,
+   "ok": 48,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8468,7 +8467,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-04",
-   "ok": 47,
+   "ok": 48,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8476,14 +8475,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 47,
+   "ok": 48,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 47,
+   "ok": 48,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8491,21 +8490,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 47,
+   "ok": 48,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 47,
+   "ok": 48,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-04",
-   "ok": 47,
+   "ok": 48,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8680,8 +8679,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8720,8 +8719,8 @@
   "date": "2026-11-04",
   "count": 3,
   "last": 1793752270.6306732,
-  "city_i": 14,
-  "dry": 1793758865.5372
+  "city_i": 18,
+  "dry": 1793759467.1672404
  },
  "gemini_day_dead": {
   "day": "2026-11-03",
@@ -9398,13 +9397,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-04 01:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-04 01:21",
    "ok": true,
    "n": 0,
@@ -9672,6 +9664,13 @@
   },
   {
    "t": "11-04 07:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-04 07:30",
    "ok": true,
    "n": 0,
    "ids": [],
