@@ -1,7 +1,5 @@
 {
  "seen": {
-  "d2d5040f3e87ff3a": 1793217051.3257136,
-  "78c7b791a7c11650": 1793217057.0041795,
   "59d7349d582a6875": 1793217693.7547343,
   "1310790ba07f3d56": 1793217693.7547379,
   "70de7f8f6ff95eaf": 1793217693.7547393,
@@ -1834,7 +1832,9 @@
   "b9cfabf380af0d8f": 1793818895.4607809,
   "124a85c3bcb10af9": 1793818895.4607818,
   "7cd0520418616f55": 1793818895.4607828,
-  "c802fce3734f86a6": 1793818895.460785
+  "c802fce3734f86a6": 1793818895.460785,
+  "cd778fec57985ea6": 1793822476.9784071,
+  "2cc91a100528283c": 1793822476.9784107
  },
  "pending": {},
  "queue": [],
@@ -2545,11 +2545,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-05 00:51",
-  "items": 22,
+  "time": "2026-11-05 01:01",
+  "items": 24,
   "sample": [
-   "Meghalaya 144/10 v Nagaland 184/10 & 254/10 *",
-   "Tripura 268/10 & 191/10 v Saurashtra 118/10 & 131/7 *",
+   "Meghalaya 144/10 v Nagaland 254/10 & 184/10 *",
+   "Tripura 191/10 & 268/10 v Saurashtra 118/10 & 131/7 *",
    "Bengal 143/10 & 76/4 * v Maharashtra 218/10"
   ]
  },
@@ -8028,9 +8028,9 @@
  },
  "ai_usage": {
   "date": "2026-11-05",
-  "ok": 5,
-  "fail": 10,
-  "limit": 10
+  "ok": 10,
+  "fail": 20,
+  "limit": 20
  },
  "posted_heads": [
   {
@@ -8355,7 +8355,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-05 00:51",
+  "time": "2026-11-05 01:01",
   "steps": []
  },
  "roundup_am": "2026-11-04",
@@ -8457,13 +8457,13 @@
   }
  },
  "article_diag": {
-  "date": "2026-11-04",
-  "tried": 28,
-  "decoded": 24,
-  "text": 21,
-  "story": 17
+  "date": "2026-11-05",
+  "tried": 1,
+  "decoded": 1,
+  "text": 1,
+  "story": 1
  },
- "ai_last_error": "00:20 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "01:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-05",
   "models": [
@@ -8504,7 +8504,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-05",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8512,7 +8512,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-05",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8520,7 +8520,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-05",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8528,14 +8528,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8543,14 +8543,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
@@ -8558,9 +8558,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-05",
    "ok": 0,
-   "fail": 6,
+   "fail": 7,
    "items": 15,
-   "fail_streak": 61,
+   "fail_streak": 62,
    "last_status": 404
   }
  },
@@ -8941,13 +8941,13 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 10,
-  "old": 10,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-05 00",
+ "report_hour": "2026-11-05 01",
  "kawish_upload_times": {
   "_date": "2026-11-05",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8981,8 +8981,8 @@
  "sindh_stream": {
   "date": "2026-11-05",
   "count": 1,
-  "last": 1793818881.9414377,
-  "city_i": 14,
+  "last": 1793822473.6891127,
+  "city_i": 18,
   "dry": 1793790092.6563067
  },
  "gemini_day_dead": {
@@ -9708,13 +9708,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-04 18:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-04 18:40",
    "ok": true,
    "n": 0,
@@ -9982,6 +9975,13 @@
   },
   {
    "t": "11-05 00:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-05 01:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14936,10 +14936,10 @@
  "quality": {
   "date": "2026-11-05",
   "editor_fixed": 1,
-  "editor_rejected": 0,
+  "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
-  "wrong_place": 0,
+  "wrong_place": 1,
   "repeat": 0
  }
 }
