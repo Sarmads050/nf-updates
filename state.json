@@ -1,6 +1,5 @@
 {
  "seen": {
-  "165dc4025c0acf0c": 1793225452.9344175,
   "21689e59972fd7f3": 1793227272.612568,
   "c8956142a82a5a05": 1793227272.61257,
   "b6ac7b138c2efdc6": 1793227272.6125715,
@@ -1820,7 +1819,9 @@
   "a14ce71a5c25f8b5": 1793829077.5990741,
   "8582a3f2136f495a": 1793829566.3359833,
   "d547109c58ba50af": 1793829688.4506636,
-  "bc7af90bd46c301c": 1793830281.5548723
+  "bc7af90bd46c301c": 1793830281.5548723,
+  "09763457510c5963": 1793830884.3729424,
+  "a91f36b212b3c785": 1793830884.372945
  },
  "pending": {},
  "queue": [],
@@ -2529,12 +2530,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-05 03:12",
+  "time": "2026-11-05 03:21",
   "items": 26,
   "sample": [
    "Meghalaya 144/10 v Nagaland 254/10 & 184/10 *",
-   "Tripura 268/10 & 191/10 v Saurashtra 118/10 & 131/7 *",
-   "Bengal 76/4 & 143/10 * v Maharashtra 218/10"
+   "Tripura 191/10 & 268/10 v Saurashtra 118/10 & 131/7 *",
+   "Bengal 143/10 & 76/4 * v Maharashtra 218/10"
   ]
  },
  "agri_news": {
@@ -4957,80 +4958,8 @@
   "last": 1793782407.9025016
  },
  "trends": {
-  "last": 1793820057.802715,
+  "last": 1793830858.1126256,
   "terms": [
-   {
-    "term": "spaceplane",
-    "traffic": 100,
-    "news": "China's secretive space plane caught on camera in incredible new photo released by US military",
-    "t": 1793217671,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "hong kong sixes 2026",
-    "traffic": 100,
-    "news": "Hong Kong Sixes 2026 Squads: Full Team Lists And Captains For Each Team",
-    "t": 1793217671,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "bournemouth vs aston villa",
-    "traffic": 200,
-    "news": "Predicted XI: How Should AFCB Line Up For The EFL Cup Clash Vs Aston Villa?",
-    "t": 1793217671,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "liverpool vs chelsea",
-    "traffic": 2000,
-    "news": "Why Alonso needs Carabao win more than Iraola",
-    "t": 1793217671,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "bayern vs magdeburg",
-    "traffic": 500,
-    "news": "FCM vor Pokal-Kracher gegen München",
-    "t": 1793217671,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "man city vs brighton",
-    "traffic": 2000,
-    "news": "Minteh return offers Brighton timely lift as Hurzeler’s options widen in gruelling schedule",
-    "t": 1793217671,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "tradingview",
-    "traffic": 1000,
-    "news": "Gold retreats as dollar firms slightly ahead of Fed decision",
-    "t": 1793217671,
-    "cat": "dollar_gold_business",
-    "sindh": false
-   },
-   {
-    "term": "fomc meeting today",
-    "traffic": 200,
-    "news": "Fed rate decision live: FOMC holds rates steady after September hike",
-    "t": 1793217671,
-    "cat": "dollar_gold_business",
-    "sindh": false
-   },
-   {
-    "term": "venezia vs inter",
-    "traffic": 500,
-    "news": "Venezia vs. Inter, complete guide to the clash",
-    "t": 1793217671,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "inter miami vs cincinnati",
     "traffic": 500,
@@ -8006,15 +7935,71 @@
     "t": 1793820058,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "lens vs como",
+    "traffic": 200,
+    "news": "Dortmund vs. Betis (Nov 4, 2026) Team Stats",
+    "t": 1793830858,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "indian",
+    "traffic": 100,
+    "news": "On the Arunachal frontier, silence is not a strategy",
+    "t": 1793830858,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "champions league standings",
+    "traffic": 200,
+    "news": "Slavia Prague vs Arsenal: UEFA Champions League stats & head-to-head",
+    "t": 1793830858,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "carlos alcaraz",
+    "traffic": 100,
+    "news": "Carlos Alcaraz tira de galones y supervivencia en un cuadro envenenado",
+    "t": 1793830858,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "dortmund vs betis",
+    "traffic": 500,
+    "news": "Kobel: “We’re feeling good and are ready to perform.”",
+    "t": 1793830858,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "slavia praha vs arsenal",
+    "traffic": 1000,
+    "news": "Slavia narazí na skálu z Arsenalu. Bielsa ho odmítl, šanci mu přihrál i záškolák",
+    "t": 1793830858,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "fuel price today",
+    "traffic": 100,
+    "news": "Refineries to shoulder Rs15b fuel burden",
+    "t": 1793830858,
+    "cat": "fuel",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-05",
-  "ok": 29,
-  "fail": 54,
-  "limit": 54
+  "ok": 31,
+  "fail": 58,
+  "limit": 58
  },
  "posted_heads": [
   {
@@ -8339,7 +8324,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-05 03:12",
+  "time": "2026-11-05 03:21",
   "steps": []
  },
  "roundup_am": "2026-11-04",
@@ -8447,7 +8432,7 @@
   "text": 4,
   "story": 3
  },
- "ai_last_error": "03:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "03:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-05",
   "models": [
@@ -8488,7 +8473,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-05",
-   "ok": 20,
+   "ok": 21,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8496,7 +8481,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-05",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8504,7 +8489,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-05",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8512,14 +8497,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8527,14 +8512,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
@@ -8542,9 +8527,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-05",
    "ok": 0,
-   "fail": 21,
+   "fail": 22,
    "items": 15,
-   "fail_streak": 76,
+   "fail_streak": 77,
    "last_status": 404
   }
  },
@@ -8925,8 +8910,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8966,8 +8951,8 @@
   "date": "2026-11-05",
   "count": 1,
   "last": 1793822473.6891127,
-  "city_i": 16,
-  "dry": 1793830269.393995
+  "city_i": 20,
+  "dry": 1793830872.6715024
  },
  "gemini_day_dead": {
   "day": "2026-11-04",
@@ -9684,13 +9669,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-04 21:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-04 21:10",
    "ok": true,
    "n": 0,
@@ -9958,6 +9936,13 @@
   },
   {
    "t": "11-05 03:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-05 03:20",
    "ok": true,
    "n": 0,
    "ids": [],
