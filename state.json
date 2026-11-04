@@ -2504,12 +2504,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-04 08:41",
+  "time": "2026-11-04 08:53",
   "items": 23,
   "sample": [
    "Assam 135/10 v Karnataka 500/5 *",
-   "Meghalaya 144/10 v Nagaland 73/3 & 254/10 *",
-   "Tripura 59/4 & 268/10 * v Saurashtra 118/10"
+   "Meghalaya 144/10 v Nagaland 254/10 & 87/4 *",
+   "Tripura 268/10 & 59/4 * v Saurashtra 118/10"
   ]
  },
  "agri_news": {
@@ -4932,32 +4932,8 @@
   "last": 1793763226.9868684
  },
  "trends": {
-  "last": 1793753454.0301297,
+  "last": 1793764326.554227,
   "terms": [
-   {
-    "term": "pau cubarsí",
-    "traffic": 200,
-    "news": "Lamine Yamal's uncle makes shock Harry Kane claim after Ballon d'Or win: 'Everyone knows'",
-    "t": 1793151062,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "computer",
-    "traffic": 100,
-    "news": "OpenAI just scooped mathematicians’ work on another million-dollar problem",
-    "t": 1793151062,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "blade runner 2099",
-    "traffic": 500,
-    "news": "What To Watch This Week: Stream Our Top 6 TV and Movie Picks (Oct. 19–25)",
-    "t": 1793151062,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "nanotyrannus",
     "traffic": 100,
@@ -7981,15 +7957,87 @@
     "t": 1793753454,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "jacob duffy",
+    "traffic": 100,
+    "news": "Jacob Duffy on Virat Kohli: ‘He is obviously a megastar…’",
+    "t": 1793764326,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "kyle jamieson",
+    "traffic": 200,
+    "news": "WATCH: How Kyle Jamieson rebuilt his bowling action after injury, facing India, and NZ's pace cartel",
+    "t": 1793764326,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "faaz",
+    "traffic": 200,
+    "news": "Pakistan tests indigenous Fa'az missile",
+    "t": 1793764326,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "michigan senate election results",
+    "traffic": 500,
+    "news": "Michigan 2026: Live Midterm Election Results",
+    "t": 1793764326,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "آبوهوا",
+    "traffic": 100,
+    "news": "",
+    "t": 1793764326,
+    "cat": "weather_disaster",
+    "sindh": false
+   },
+   {
+    "term": "donald trump",
+    "traffic": 100,
+    "news": "Iran vows military response without ‘geographical limits,’ outlines 5 conditions for regional security",
+    "t": 1793764326,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "bbc news",
+    "traffic": 100,
+    "news": "Widening inequality, stagnant pay – Britain urgently needs Labour’s hard-won workers’ rights | Polly Toynbee",
+    "t": 1793764326,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "henry nicholls",
+    "traffic": 2000,
+    "news": "New Zealand lose key duo for home ODI series against India",
+    "t": 1793764326,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "kl rahul",
+    "traffic": 200,
+    "news": "Bumrah, WTC Points and a Tight Schedule: Gill Explains India's Call",
+    "t": 1793764326,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-04",
-  "ok": 108,
-  "fail": 180,
-  "limit": 180
+  "ok": 109,
+  "fail": 182,
+  "limit": 182
  },
  "posted_heads": [
   {
@@ -8314,7 +8362,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-04 08:41",
+  "time": "2026-11-04 08:53",
   "steps": []
  },
  "roundup_am": "2026-11-04",
@@ -8422,7 +8470,7 @@
   "text": 11,
   "story": 11
  },
- "ai_last_error": "08:31 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
+ "ai_last_error": "08:52 openrouter thinkingmachines/inkling-small:free 403 {\"error\":{\"message\":\"thinkingmachines/inkling-small:free is only available on agentic harnesses. Try plugging it into a ",
  "gemini_disc": {
   "date": "2026-11-04",
   "models": [
@@ -8463,7 +8511,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-04",
-   "ok": 54,
+   "ok": 55,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8472,29 +8520,29 @@
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-04",
    "ok": 55,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-04",
    "ok": 55,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8502,21 +8550,21 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-04",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-04",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-04",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8731,8 +8779,8 @@
   "date": "2026-11-04",
   "count": 3,
   "last": 1793752270.6306732,
-  "city_i": 16,
-  "dry": 1793763078.9286706
+  "city_i": 20,
+  "dry": 1793764420.5947556
  },
  "gemini_day_dead": {
   "day": "2026-11-03",
@@ -9403,13 +9451,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-04 02:31",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-04 02:40",
    "ok": true,
    "n": 0,
@@ -9677,6 +9718,13 @@
   },
   {
    "t": "11-04 08:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-04 08:50",
    "ok": true,
    "n": 0,
    "ids": [],
