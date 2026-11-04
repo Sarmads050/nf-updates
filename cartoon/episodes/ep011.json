@@ -21,8 +21,8 @@
       "label": "Drawing Room • Subah 7 Baje",
       "cast": {
         "MEHAK": "sofa_l",
-        "DANIYAL": "sofa_r",
-        "ABBA": "stand_l"
+        "DANIYAL": "sofa_c",
+        "ABBA": "stand_r"
       },
       "props": {
         "MEHAK": "book"
@@ -36,7 +36,12 @@
           "urdu": "نواب شاہ میں آج سردی کی پہلی صبح ہے... اور گھر میں ایک ہی گیزر ہے!",
           "how": "warm storyteller, cosy and playful",
           "shot": "wide",
-          "gap": 0.1
+          "gap": 0.1,
+          "react_pose": {
+            "DANIYAL": "rest",
+            "ABBA": "rest",
+            "MEHAK": "rest"
+          }
         },
         {
           "who": "ABBA",
@@ -54,6 +59,10 @@
           "looks": {
             "DANIYAL": "ABBA",
             "MEHAK": "ABBA"
+          },
+          "react_pose": {
+            "DANIYAL": "rest",
+            "MEHAK": "rest"
           }
         },
         {
@@ -67,6 +76,10 @@
           "shot": "close:DANIYAL",
           "react": {
             "ABBA": "surprised"
+          },
+          "react_pose": {
+            "ABBA": "rest",
+            "MEHAK": "rest"
           }
         },
         {
@@ -85,6 +98,11 @@
             "ABBA": "door",
             "DANIYAL": "door",
             "MEHAK": "door"
+          },
+          "react_pose": {
+            "DANIYAL": "rest",
+            "ABBA": "rest",
+            "MEHAK": "rest"
           }
         },
         {
@@ -103,7 +121,8 @@
             "ABBA": "tired"
           },
           "react_pose": {
-            "ABBA": "facepalm"
+            "ABBA": "facepalm",
+            "DANIYAL": "rest"
           }
         },
         {
@@ -118,6 +137,10 @@
           "react": {
             "MEHAK": "teasing",
             "DANIYAL": "teasing"
+          },
+          "react_pose": {
+            "DANIYAL": "rest",
+            "MEHAK": "rest"
           }
         },
         {
@@ -131,6 +154,10 @@
           "react": {
             "ABBA": "surprised",
             "MEHAK": "surprised"
+          },
+          "react_pose": {
+            "ABBA": "rest",
+            "MEHAK": "rest"
           }
         },
         {
@@ -140,9 +167,13 @@
           "roman": "Kya? Is *thand* mein main thande paani se nahaoon? Zaib! Zaib-un-Nisa!",
           "urdu": "کیا؟ اس ٹھنڈ میں میں ٹھنڈے پانی سے نہاؤں؟ زیب! زیب النساء!",
           "how": "shocked father, then calling his wife loudly",
-          "pose": "arms_up",
+          "pose": "head_hold",
           "shot": "close",
-          "gap": 0.4
+          "gap": 0.4,
+          "react_pose": {
+            "DANIYAL": "rest",
+            "MEHAK": "rest"
+          }
         }
       ]
     },
@@ -177,7 +208,11 @@
               "wait": 0.2
             }
           ],
-          "gap": 0.1
+          "gap": 0.1,
+          "react_pose": {
+            "AMMI": "rest",
+            "ABBA": "rest"
+          }
         },
         {
           "who": "AMMI",
@@ -193,6 +228,9 @@
           },
           "looks": {
             "ABBA": "AMMI"
+          },
+          "react_pose": {
+            "ABBA": "rest"
           }
         },
         {
@@ -208,6 +246,9 @@
           "gap": 0.6,
           "react": {
             "AMMI": "laugh"
+          },
+          "react_pose": {
+            "AMMI": "rest"
           }
         },
         {
@@ -220,6 +261,9 @@
           "pose": "wag",
           "react": {
             "ABBA": "sheepish"
+          },
+          "react_pose": {
+            "ABBA": "rest"
           }
         },
         {
@@ -249,6 +293,10 @@
           "looks": {
             "AMMI": "DANIYAL",
             "ABBA": "DANIYAL"
+          },
+          "react_pose": {
+            "AMMI": "rest",
+            "ABBA": "rest"
           }
         },
         {
@@ -261,6 +309,10 @@
           "pose": "point_up",
           "react": {
             "DANIYAL": "sheepish"
+          },
+          "react_pose": {
+            "ABBA": "rest",
+            "DANIYAL": "rest"
           }
         },
         {
@@ -292,7 +344,12 @@
             "ABBA": "ARSALAN",
             "DANIYAL": "ARSALAN"
           },
-          "gap": 0.5
+          "gap": 0.5,
+          "react_pose": {
+            "AMMI": "rest",
+            "ABBA": "rest",
+            "DANIYAL": "rest"
+          }
         },
         {
           "who": "ABBA",
@@ -305,6 +362,11 @@
           "shot": "two",
           "react": {
             "ARSALAN": "sheepish"
+          },
+          "react_pose": {
+            "AMMI": "rest",
+            "DANIYAL": "rest",
+            "ARSALAN": "rest"
           }
         },
         {
@@ -318,6 +380,11 @@
           "shot": "close:DANIYAL",
           "react": {
             "ARSALAN": "worried"
+          },
+          "react_pose": {
+            "AMMI": "rest",
+            "ABBA": "rest",
+            "ARSALAN": "rest"
           }
         },
         {
@@ -330,6 +397,11 @@
           "pose": "scratch_head",
           "react": {
             "AMMI": "warm"
+          },
+          "react_pose": {
+            "AMMI": "rest",
+            "ABBA": "rest",
+            "DANIYAL": "rest"
           }
         }
       ]
@@ -358,7 +430,14 @@
           "urdu": "اسی شام ابا نے گھر کی ایمرجنسی میٹنگ بلائی...",
           "how": "storyteller, mock-serious",
           "shot": "wide",
-          "gap": 0.1
+          "gap": 0.1,
+          "react_pose": {
+            "ARSALAN": "rest",
+            "ABBA": "rest",
+            "DANIYAL": "rest",
+            "AMMI": "rest",
+            "MEHAK": "rest"
+          }
         },
         {
           "who": "ABBA",
@@ -368,10 +447,16 @@
           "urdu": "کل سے باتھ روم کا ٹائم ٹیبل لگے گا۔ ہر بندے کے صرف پانچ منٹ!",
           "how": "father announcing a rule like an office order",
           "pose": "point_up",
-          "shot": "close",
+          "shot": "group",
           "react": {
             "MEHAK": "happy",
             "ARSALAN": "worried"
+          },
+          "react_pose": {
+            "ARSALAN": "rest",
+            "DANIYAL": "rest",
+            "AMMI": "rest",
+            "MEHAK": "rest"
           }
         },
         {
@@ -387,6 +472,12 @@
           },
           "looks": {
             "ABBA": "MEHAK"
+          },
+          "react_pose": {
+            "ARSALAN": "rest",
+            "ABBA": "rest",
+            "DANIYAL": "rest",
+            "AMMI": "rest"
           }
         },
         {
@@ -399,6 +490,12 @@
           "pose": "think",
           "react": {
             "ARSALAN": "worried"
+          },
+          "react_pose": {
+            "ARSALAN": "rest",
+            "ABBA": "rest",
+            "AMMI": "rest",
+            "MEHAK": "rest"
           }
         },
         {
@@ -413,6 +510,12 @@
           "react": {
             "ARSALAN": "surprised",
             "DANIYAL": "laugh"
+          },
+          "react_pose": {
+            "ARSALAN": "rest",
+            "ABBA": "rest",
+            "DANIYAL": "rest",
+            "MEHAK": "rest"
           }
         },
         {
@@ -428,6 +531,12 @@
           "gap": 0.8,
           "react": {
             "*": "laugh"
+          },
+          "react_pose": {
+            "ABBA": "rest",
+            "DANIYAL": "rest",
+            "AMMI": "rest",
+            "MEHAK": "rest"
           }
         },
         {
@@ -440,6 +549,12 @@
           "pose": "explain",
           "react": {
             "ARSALAN": "sheepish"
+          },
+          "react_pose": {
+            "ARSALAN": "rest",
+            "ABBA": "rest",
+            "DANIYAL": "rest",
+            "MEHAK": "rest"
           }
         },
         {
@@ -453,6 +568,12 @@
           "shot": "group",
           "react": {
             "*": "happy"
+          },
+          "react_pose": {
+            "ARSALAN": "rest",
+            "DANIYAL": "rest",
+            "AMMI": "rest",
+            "MEHAK": "rest"
           }
         },
         {
@@ -469,6 +590,12 @@
           "react": {
             "*": "laugh",
             "ARSALAN": "sheepish"
+          },
+          "react_pose": {
+            "ARSALAN": "rest",
+            "ABBA": "rest",
+            "DANIYAL": "rest",
+            "AMMI": "rest"
           }
         }
       ]

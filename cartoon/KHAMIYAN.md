@@ -12,6 +12,9 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-016] (ep010, 2026-11-03) 29 mein se 22 lines "edge" backup awaaz mein bani (Gemini ka free quota jaldi khatam) — awaaz ka andaaz line se line badalta hai. Fix: script ek din pehle (raat ko) push karke voices pehle bana lena, taa ke do din ka quota mile.
 - [K-018] (ep010, 2026-11-03) Toddler (Hamza "Pupo!") ke close-up mein upar sofa aur bari umar walon ki sirf taangein kati hui dikhti hain — farsh wale bachon ke close-up ko "medium" shot banana jis mein saath baithi Ammi/Bhabi ke chehre bhi aayein.
 - [K-019] (ep010, 2026-11-03) Video call par Nimra sirf awaaz hai, screen par kuch nazar nahi aata — `phone: true` line par phone ke upar chhota sa video-call bubble (bolne wale ka chehra) dikhana.
+- [K-020] (ep011, 2026-11-04) Drawing room mein 5 log hon (3 sofa + stand_l/stand_r) to wide shot mein kinare wale (Ammi, Daniyal) frame ke edge par kat jate hain, aur close-up mein stand_l wala bohot bara saamne aa jata hai — living_room ke stand_l/stand_r slots thora andar (center ki taraf) aur peeche karna.
+- [K-021] (ep011, 2026-11-04) Kitchen ke "left" slot par khara Daniyal close-up mein Ammi (stove) ke aage aa kar unhein aadha chhupa deta hai — kitchen "left" slot ko mazeed left/peeche karna.
+- [K-022] (ep011, 2026-11-04) Nahane/garam paani wali kahani mein koi visual nahi (geyser, bhaap, toliya, geele baal) — "towel" prop aur nahane ke baad geele baalon/bhaap ka chhota effect banana.
 
 ## APPROVED
 
