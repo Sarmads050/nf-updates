@@ -1,7 +1,5 @@
 {
  "seen": {
-  "164f68e688cc4fbf": 1793314890.8488486,
-  "719ff4bc000dfa19": 1793314890.8488507,
   "39d2e6a0cff82eb1": 1793316679.3783007,
   "c53e292d9cda70a5": 1793317273.676996,
   "458f927d70e27ca4": 1793318509.229562,
@@ -2420,10 +2418,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-06 04:01",
+  "time": "2026-11-06 04:10",
   "items": 12,
   "sample": [
-   "Pakistan Cricket Board Patron's XI 151/8 v Sri Lanka 223/7 & 121/6 *",
+   "Pakistan Cricket Board Patron's XI 151/8 v Sri Lanka 121/6 & 223/7 *",
    "Bangladesh v West Indies 235/4 *",
    "Afghanistan v Zimbabwe 326/5 *"
   ]
@@ -4848,40 +4846,8 @@
   "last": 1793917941.9543006
  },
  "trends": {
-  "last": 1793908878.0839074,
+  "last": 1793920248.5402896,
   "terms": [
-   {
-    "term": "patrick stewart",
-    "traffic": 1000,
-    "news": "Patrick Stewart has died. FAREWELL, CAPTAIN ANTI-BULLYING.",
-    "t": 1793307055,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "mom and son",
-    "traffic": 200,
-    "news": "‘He’s Not the Same Baby’: Family of Child Found Alive in Morgue Recalls Ordeal",
-    "t": 1793307055,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "everton vs newcastle",
-    "traffic": 500,
-    "news": "Licensable picture: UK: Carabao Cup Last 16 Everton v Newcastle Untied",
-    "t": 1793307055,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "sohail afridi",
-    "traffic": 200,
-    "news": "Failed ‘long march’, KP emergency: PTI lawmakers question leadership",
-    "t": 1793307055,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "hb køge vs barcelona",
     "traffic": 200,
@@ -7937,15 +7903,55 @@
     "t": 1793908878,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "can’t",
+    "traffic": 200,
+    "news": "US elections 2026 live: Democrats hold nearly 100 more House seats than Republicans as blue wave continues to grow",
+    "t": 1793920249,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "paraguay",
+    "traffic": 200,
+    "news": "President of Paraguay faces criminal investigation and impeachment after bank collapse",
+    "t": 1793920249,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "pakistani",
+    "traffic": 100,
+    "news": "PTA rejects 'misleading' notification claiming TikTok ban in Pakistan",
+    "t": 1793920249,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "motorola signature 27",
+    "traffic": 100,
+    "news": "Todos os celulares que serão lançados em novembro",
+    "t": 1793920249,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "rise and fall season 2 winner",
+    "traffic": 100,
+    "news": "Rise and Fall 2: Gautam Gulati takes a dig at Priyanka Chahar Choudhary, says ‘I don’t want to see her fa",
+    "t": 1793920249,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-06",
-  "ok": 28,
-  "fail": 52,
-  "limit": 52
+  "ok": 29,
+  "fail": 54,
+  "limit": 54
  },
  "posted_heads": [
   {
@@ -8270,7 +8276,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-06 04:01",
+  "time": "2026-11-06 04:10",
   "steps": []
  },
  "roundup_am": "2026-11-05",
@@ -8378,7 +8384,7 @@
   "text": 4,
   "story": 4
  },
- "ai_last_error": "03:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "04:10 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-06",
   "models": [
@@ -8419,7 +8425,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-06",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8427,7 +8433,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-06",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8435,7 +8441,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-06",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8443,7 +8449,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 25,
+   "ok": 26,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8451,7 +8457,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8459,14 +8465,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 25,
+   "ok": 26,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8475,9 +8481,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-06",
    "ok": 0,
-   "fail": 26,
+   "fail": 27,
    "items": 15,
-   "fail_streak": 228,
+   "fail_streak": 229,
    "last_status": 404
   }
  },
@@ -8710,8 +8716,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9528,13 +9534,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-05 21:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-05 22:00",
    "ok": true,
    "n": 0,
@@ -9802,6 +9801,13 @@
   },
   {
    "t": "11-06 04:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-06 04:10",
    "ok": true,
    "n": 0,
    "ids": [],
