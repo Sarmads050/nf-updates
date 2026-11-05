@@ -1783,7 +1783,8 @@
   "1b136a36daa9df22": 1793886102.5192533,
   "9333953a06a159ec": 1793886102.5192537,
   "d71ec09dc67f3c3f": 1793886102.5192547,
-  "4f36ae0f150fd13e": 1793886102.5194786
+  "4f36ae0f150fd13e": 1793886102.5194786,
+  "b40857b5501932c6": 1793887582.8697536
  },
  "pending": {},
  "queue": [],
@@ -1801,7 +1802,7 @@
   "last_week": "",
   "last_check": "2026-11-05"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.1-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1895,20 +1896,8 @@
    "ad942156a590c947"
   ]
  },
- "last_post_id": "1444130002106066_122117881407503839",
+ "last_post_id": "1444130002106066_122117887401503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122117579115503839",
-   "title": "شھيد محترم بينظير بُھٽو انسٽيٽيوٽ آف ٽراما ۾ نوڪرين جو اشتھار",
-   "t": 1793808810.215377,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122117579115503839"
-  },
   {
    "id": "1444130002106066_122117584551503839",
    "title": "ڪراچي ۾ استادن جي احتجاج تي پوليس جي شيلنگ، ڪيترائي زخمي ۽ گرفتار",
@@ -2226,6 +2215,18 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122117881407503839"
+  },
+  {
+   "id": "1444130002106066_122117887401503839",
+   "title": "رياض چانڊيو پاران اسلم خيرپوري ۽ ساٿين جي گرفتاري جي مذمت",
+   "t": 1793887622.3522015,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122117887401503839"
   }
  ],
  "share_sent": {
@@ -2436,12 +2437,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-05 18:51",
+  "time": "2026-11-05 19:07",
   "items": 26,
   "sample": [
-   "Meghalaya 172/10 & 144/10 * v Nagaland 254/10 & 184/10",
-   "Tripura 191/10 & 268/10 v Saurashtra 208/10 & 118/10 *",
-   "Bengal 143/10 & 186/10 v Maharashtra 218/10 & 114 *"
+   "Meghalaya 144/10 & 172/10 * v Nagaland 184/10 & 254/10",
+   "Tripura 268/10 & 191/10 v Saurashtra 208/10 & 118/10 *",
+   "Bengal 186/10 & 143/10 v Maharashtra 114 & 218/10 *"
   ]
  },
  "agri_news": {
@@ -2451,17 +2452,11 @@
  },
  "all_posts": {
   "date": "2026-11-05",
-  "count": 30,
-  "last": 1793886213.7751489
+  "count": 31,
+  "last": 1793887613.1586344
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122113817499503839",
-    "sec": "public_news",
-    "cat": "dollar_gold_business",
-    "t": 1792990413
-   },
    {
     "id": "1444130002106066_122113822725503839",
     "sec": "sindh_stream",
@@ -4855,6 +4850,12 @@
     "sec": "public_news",
     "cat": "dollar_gold_business",
     "t": 1793886220
+   },
+   {
+    "id": "1444130002106066_122117887401503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1793887622
    }
   ]
  },
@@ -7951,15 +7952,11 @@
  },
  "ai_usage": {
   "date": "2026-11-05",
-  "ok": 268,
-  "fail": 504,
-  "limit": 406
+  "ok": 271,
+  "fail": 513,
+  "limit": 412
  },
  "posted_heads": [
-  {
-   "h": "PCB warns centrally contracted players to play domestic cricket to receive salaries",
-   "t": 1793708608
-  },
   {
    "h": "Pakistan's trade deficit widens to $14.63bn in four months",
    "t": 1793713374
@@ -8275,10 +8272,14 @@
   {
    "h": "Gold Prices in Pakistan jump by Rs23,500 in 2 Days to hit Rs4.35 Lac Per Tola",
    "t": 1793886220
+  },
+  {
+   "h": "رياض چانڊيو جي اسلم خيرپوري ۽ ساٿين جي گرفتاريءَ جي مذمت، ترت آزاديءَ جو مطالبو",
+   "t": 1793887622
   }
  ],
  "last_errors": {
-  "time": "2026-11-05 18:51",
+  "time": "2026-11-05 19:07",
   "steps": []
  },
  "roundup_am": "2026-11-05",
@@ -8386,7 +8387,7 @@
   "text": 17,
   "story": 15
  },
- "ai_last_error": "18:50 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "19:06 gemini-3.5-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-05",
   "models": [
@@ -8400,10 +8401,10 @@
  },
  "img_diag": {
   "date": "2026-11-05",
-  "tried": 28,
+  "tried": 29,
   "gemini": 0,
   "pollinations": 15,
-  "skip": 6,
+  "skip": 7,
   "fail": 7,
   "last_note": "US election ballot box",
   "mismatch": 424
@@ -8427,7 +8428,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-05",
-   "ok": 116,
+   "ok": 117,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8435,7 +8436,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-05",
-   "ok": 114,
+   "ok": 115,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8443,7 +8444,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-05",
-   "ok": 114,
+   "ok": 115,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8451,14 +8452,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 117,
+   "ok": 118,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 117,
+   "ok": 118,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8466,14 +8467,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 117,
+   "ok": 118,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 117,
+   "ok": 118,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
@@ -8481,9 +8482,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-05",
    "ok": 0,
-   "fail": 117,
+   "fail": 118,
    "items": 15,
-   "fail_streak": 172,
+   "fail_streak": 173,
    "last_status": 404
   }
  },
@@ -8711,18 +8712,18 @@
  "region_posts": {
   "date": "2026-11-05",
   "district": 2,
-  "sindh": 17,
+  "sindh": 18,
   "pakistan": 10
  },
  "report_acc": {
-  "posted": 1,
-  "found": 15,
-  "old": 15,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-05 18",
+ "report_hour": "2026-11-05 19",
  "kawish_upload_times": {
   "_date": "2026-11-05",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8755,9 +8756,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-05",
-  "count": 15,
-  "last": 1793886072.1459074,
-  "city_i": 8,
+  "count": 16,
+  "last": 1793887556.59357,
+  "city_i": 12,
   "dry": 1793886084.4691634
  },
  "gemini_day_dead": {
@@ -9461,6 +9462,14 @@
    "t": 1793886220,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "e56282968ff590f7",
+   "h": "رياض چانڊيو پاران اسلم خيرپوري ۽ ساٿين جي گرفتاري جي مذمت",
+   "x": "ڪراچي (ويب ڊيسڪ) جيئي سنڌ محاذ جي چيئرمين ۽ جيئي سنڌ رهبر ڪميٽي جي سربراهه رياض علي چانڊيو، جسقم آريسر جي چيئرمين اسلم خيرپوري ۽ سندس ساٿين کي عمرڪوٽ پوليس هٿان گرفتار ڪرڻ جي سخت لفظن ۾ مذمت ڪندي سمورن گرفتار اڳواڻن ۽ ڪارڪنن جي فوري آزاديءَ جو مطالبو ڪيو آهي. پنهنجي بيان ۾ رياض علي چانڊيو چيو ته پرامن مظاهري تي تشدد جي سخت مذمت ڪريون ٿا. سندس چوڻ هو ته سنڌ ۾ اڻ اعلانيل مارشل لا لاڳو ڪئي وئي آهي. هن مطالبو ڪيو ته گرفتار ڪيل سمورن اڳواڻن ۽ ڪارڪنن کي بنا دير آزاد ڪيو وڃي. بيان: رياض علي چيئرمين جيئي سنڌ محاذ",
+   "t": 1793887622,
+   "s": true,
+   "r": 0
   }
  ],
  "reels": {
@@ -9483,13 +9492,6 @@
   "last": 1793882514.2651505
  },
  "tg_debug": [
-  {
-   "t": "11-05 12:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-05 12:40",
    "ok": true,
@@ -9758,6 +9760,13 @@
   },
   {
    "t": "11-05 18:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-05 19:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14121,6 +14130,61 @@
     "ڪانپوء",
     "ڪراچي"
    ]
+  },
+  {
+   "t": 1793887622,
+   "h": "رياض چانڊيو پاران اسلم خيرپوري ۽ ساٿين جي گرفتاري جي مذمت",
+   "b": "ڪراچي (ويب ڊيسڪ) جيئي سنڌ محاذ جي چيئرمين ۽ جيئي سنڌ رهبر ڪميٽي جي سربراهه رياض علي چانڊيو، جسقم آريسر جي",
+   "tt": [
+    "اسلم",
+    "خيرپوري",
+    "رياض",
+    "ساٿين",
+    "مذمت",
+    "پاران",
+    "چانڊيو",
+    "گرفتاري"
+   ],
+   "bt": [
+    "اريسر",
+    "ازاديء",
+    "اسلم",
+    "اهي",
+    "اڳواڻن",
+    "جسقم",
+    "جيئي",
+    "خيرپوري",
+    "رهبر",
+    "رياض",
+    "ساٿين",
+    "سخت",
+    "سربراهه",
+    "سمورن",
+    "سندس",
+    "سنڌ",
+    "علي",
+    "عمرڪوٽ",
+    "فوري",
+    "لفظن",
+    "محاذ",
+    "مذمت",
+    "مطالبو",
+    "هٿان",
+    "ويب",
+    "پاران",
+    "پوليس",
+    "چانڊيو",
+    "چانڊيو،",
+    "چيئرمين",
+    "ڊيسڪ",
+    "ڪارڪنن",
+    "ڪراچي",
+    "ڪرڻ",
+    "ڪميٽي",
+    "ڪندي",
+    "گرفتار",
+    "گرفتاري"
+   ]
   }
  ],
  "repeat_log": [
@@ -14288,7 +14352,7 @@
  },
  "quality": {
   "date": "2026-11-05",
-  "editor_fixed": 23,
+  "editor_fixed": 24,
   "editor_rejected": 8,
   "kawish_rejected": 2,
   "kawish_crosschecked": 2,
