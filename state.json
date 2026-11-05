@@ -1768,7 +1768,11 @@
   "a008b01d36b3ba96": 1793911888.437615,
   "895147afeb873b2b": 1793911892.8958235,
   "e3a76adaa14deb64": 1793911892.8958256,
-  "607810ee8f3dc48e": 1793911892.8959703
+  "607810ee8f3dc48e": 1793911892.8959703,
+  "415d69ffa84557f4": 1793914882.304446,
+  "80d15892abfdb497": 1793914892.6196644,
+  "7e6cc9d135ea4139": 1793914892.619669,
+  "db967898ed8bcf32": 1793914892.6198921
  },
  "pending": {},
  "queue": [],
@@ -1880,20 +1884,8 @@
    "ad942156a590c947"
   ]
  },
- "last_post_id": "1444130002106066_122117995017503839",
+ "last_post_id": "1444130002106066_122118007167503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122117783337503839",
-   "title": "جي يو آءِ جي مخصوص سيٽن بابت اپيل رد",
-   "t": 1793862790.6419039,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122117783337503839"
-  },
   {
    "id": "1444130002106066_122117787849503839",
    "title": "نامور ليکڪ غلام رباني آگري جون ادبي خدمتون",
@@ -2220,6 +2212,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122117995017503839"
+  },
+  {
+   "id": "1444130002106066_122118007167503839",
+   "title": "اسلام آباد ۾ انفلوئنزا جي ويڪسين دستياب نه هجڻ سبب شهرين کي سخت پريشانين کي منهن ڏيڻو",
+   "t": 1793914926.379891,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122118007167503839"
   }
  ],
  "share_sent": {
@@ -2430,10 +2431,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-06 02:30",
+  "time": "2026-11-06 02:42",
   "items": 10,
   "sample": [
-   "Pakistan Cricket Board Patron's XI 151/8 v Sri Lanka 121/6 & 223/7 *",
+   "Pakistan Cricket Board Patron's XI 151/8 v Sri Lanka 223/7 & 121/6 *",
    "Bangladesh v West Indies 235/4 *",
    "Afghanistan v Zimbabwe 326/5 *"
   ]
@@ -2445,17 +2446,11 @@
  },
  "all_posts": {
   "date": "2026-11-06",
-  "count": 2,
-  "last": 1793911921.9603415
+  "count": 3,
+  "last": 1793914920.602386
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122113912665503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793010092
-   },
    {
     "id": "1444130002106066_122113917915503839",
     "sec": "sindh_stream",
@@ -4849,13 +4844,19 @@
     "sec": "public_news",
     "cat": "fuel",
     "t": 1793911927
+   },
+   {
+    "id": "1444130002106066_122118007167503839",
+    "sec": "public_news",
+    "cat": "health",
+    "t": 1793914926
    }
   ]
  },
  "public_news": {
   "date": "2026-11-06",
-  "count": 1,
-  "last": 1793911927.0889635
+  "count": 2,
+  "last": 1793914926.3798516
  },
  "trends": {
   "last": 1793908878.0839074,
@@ -7953,15 +7954,11 @@
  },
  "ai_usage": {
   "date": "2026-11-06",
-  "ok": 12,
-  "fail": 24,
-  "limit": 24
+  "ok": 22,
+  "fail": 42,
+  "limit": 42
  },
  "posted_heads": [
-  {
-   "h": "Pakistan leads global YouTube viewership with 96 million users, says PTA chief",
-   "t": 1793756794
-  },
   {
    "h": "Pakistan offers Argentina's expertise in agri machinery",
    "t": 1793760723
@@ -8277,10 +8274,14 @@
   {
    "h": "OGRA Cuts Petrol Price By Rs9.41, High-Speed Diesel By Rs5.56 Per Litre",
    "t": 1793911927
+  },
+  {
+   "h": "Citizens in Islamabad left hanging amid unavailability of influenza vaccines",
+   "t": 1793914926
   }
  ],
  "last_errors": {
-  "time": "2026-11-06 02:30",
+  "time": "2026-11-06 02:42",
   "steps": []
  },
  "roundup_am": "2026-11-05",
@@ -8383,12 +8384,12 @@
  },
  "article_diag": {
   "date": "2026-11-06",
-  "tried": 1,
-  "decoded": 1,
-  "text": 1,
-  "story": 1
+  "tried": 3,
+  "decoded": 3,
+  "text": 3,
+  "story": 3
  },
- "ai_last_error": "01:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "02:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-06",
   "models": [
@@ -8402,9 +8403,9 @@
  },
  "img_diag": {
   "date": "2026-11-06",
-  "tried": 2,
+  "tried": 3,
   "gemini": 0,
-  "pollinations": 1,
+  "pollinations": 2,
   "skip": 1,
   "fail": 0,
   "last_note": "wheelchair cricket equipment and bats",
@@ -8429,7 +8430,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-06",
-   "ok": 16,
+   "ok": 17,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8437,7 +8438,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-06",
-   "ok": 16,
+   "ok": 17,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8445,7 +8446,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-06",
-   "ok": 16,
+   "ok": 17,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8453,7 +8454,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 15,
+   "ok": 16,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8461,7 +8462,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 16,
+   "ok": 17,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8469,14 +8470,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 16,
+   "ok": 17,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 16,
+   "ok": 17,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
@@ -8484,9 +8485,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-06",
    "ok": 0,
-   "fail": 16,
+   "fail": 17,
    "items": 15,
-   "fail_streak": 218,
+   "fail_streak": 219,
    "last_status": 404
   }
  },
@@ -8715,12 +8716,12 @@
   "date": "2026-11-06",
   "district": 0,
   "sindh": 1,
-  "pakistan": 1
+  "pakistan": 2
  },
  "report_acc": {
-  "posted": 0,
-  "found": 6,
-  "old": 6,
+  "posted": 1,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8761,8 +8762,8 @@
   "date": "2026-11-06",
   "count": 1,
   "last": 1793908266.4982307,
-  "city_i": 18,
-  "dry": 1793911872.4034111
+  "city_i": 22,
+  "dry": 1793914869.3966954
  },
  "gemini_day_dead": {
   "day": "2026-11-05",
@@ -9515,6 +9516,14 @@
    "t": 1793911927,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "9fad1520b23e3fbe",
+   "h": "اسلام آباد ۾ انفلوئنزا جي ويڪسين جي کوٽ",
+   "x": "اسلام آباد ۾ سياري جي شروعات سان گڏوگڏ فلو جي ويڪسين جي اڻپوري دستيابي سبب شهرين کي سخت پريشاني کي منهن ڏيڻو پئجي رهيو آهي. آمريڪي سينٽرز فار ڊيزيز ڪنٽرول اينڊ پريونشن موجب سالياني فلو ويڪسين انفلوئنزا جي خطرن کي گهٽائڻ جو بهترين ذريعو آهي، پر اسلام آباد جا رهواسي ان جي کوٽ سبب پريشان آهن. مقامي دوائن جي دڪاندارن جو چوڻ آهي ته هن سال چيني سينو ويڪ، فرينچ ويڪسي گريپ ۽ آمريڪي انفلو ويڪ مارڪيٽ ۾ موجود ناهن، جڏهن ته گذريل سالن ۾ اهي آساني سان ملنديون هيون. ڊريپ جي سي اي او ڊاڪٽر عبيدالله ملڪ ٻڌايو ته چيني ويڪسين سينو ويڪ 15 نومبر تائين دستياب ٿي ويندي. ان کان علاوه، ويريوانزا نالي ويڪسين جي قيمت ۾ تضاد پڻ سامهون آيو آهي، جتي پيڪ تي لکيل قيمت 1304 رپيا آهي پر بارڪوڊ اسڪين ڪرڻ تي اها 654 رپيا ظاهر ٿئي ٿي. صحت واري وزارت جي هڪ سينئر آفيسر موجب عالمي مارڪيٽ ۾ ويڪسين جي کوٽ ۽ قيمتن جي مسئلن سبب فرينچ ۽ آمريڪي ويڪسين هن سال دستياب نه هونديون. صحت واري وزير مصطفيٰ ڪمال چيو آهي ته هو قيمتن جي تضاد بابت جاچ ڪندا ۽ دعويٰ ڪئي ته فلو ويڪسين مارڪيٽ ۾ موجود آهي پر ڪي خاص برانڊز نه ملي رهيا آهن.",
+   "t": 1793914926,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9528,13 +9537,6 @@
   "last": 1793882514.2651505
  },
  "tg_debug": [
-  {
-   "t": "11-05 20:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-05 20:10",
    "ok": true,
@@ -9803,6 +9805,13 @@
   },
   {
    "t": "11-06 02:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-06 02:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14772,6 +14781,57 @@
     "گهٽتائي",
     "گيس"
    ]
+  },
+  {
+   "t": 1793914926,
+   "h": "اسلام آباد ۾ انفلوئنزا جي ويڪسين جي کوٽ",
+   "b": "اسلام آباد ۾ سياري جي شروعات سان گڏوگڏ فلو جي ويڪسين جي اڻپوري دستيابي سبب شهرين کي سخت پريشاني کي منهن ڏيڻو",
+   "tt": [
+    "اباد",
+    "اسلام",
+    "انفلوئنزا",
+    "ويڪسين",
+    "ڪوٽ"
+   ],
+   "bt": [
+    "اباد",
+    "اسلام",
+    "امريڪي",
+    "انفلوئنزا",
+    "اهن",
+    "اهي",
+    "اهي،",
+    "اينڊ",
+    "اڻپوري",
+    "بهترين",
+    "خطرن",
+    "دستيابي",
+    "ذريعو",
+    "رهواسي",
+    "رهيو",
+    "سالياني",
+    "سبب",
+    "سخت",
+    "سياري",
+    "سينٽرز",
+    "شروعات",
+    "شهرين",
+    "فار",
+    "فلو",
+    "منهن",
+    "موجب",
+    "ويڪسين",
+    "پئجي",
+    "پريشان",
+    "پريشاني",
+    "پريونشن",
+    "ڊيزيز",
+    "ڏيڻو",
+    "ڪنٽرول",
+    "ڪوٽ",
+    "گهٽائڻ",
+    "گڏوگڏ"
+   ]
   }
  ],
  "repeat_log": [
@@ -14939,8 +14999,8 @@
  },
  "quality": {
   "date": "2026-11-06",
-  "editor_fixed": 2,
-  "editor_rejected": 0,
+  "editor_fixed": 3,
+  "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
