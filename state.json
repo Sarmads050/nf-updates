@@ -1,9 +1,5 @@
 {
  "seen": {
-  "601d237ffcea49b9": 1793235660.252668,
-  "e04f6f656fec2660": 1793235667.0284445,
-  "c20023f75c68758e": 1793235699.112057,
-  "bf4b31bdea131f27": 1793235699.1121798,
   "2670ab68844af4e1": 1793236920.7791874,
   "9e357f443b8dc938": 1793236925.666322,
   "c65970db2c32ce3a": 1793237492.8031695,
@@ -1800,7 +1796,9 @@
   "a2d0387be45e8a6a": 1793838049.4442027,
   "c75178831e1667df": 1793838083.3164647,
   "a09861a58293a23c": 1793838685.2802925,
-  "808ba2491ee73431": 1793838694.0429573
+  "808ba2491ee73431": 1793838694.0429573,
+  "4d30cc8b3a65b45c": 1793841072.0541186,
+  "1143dabc9b2989ec": 1793841072.0541208
  },
  "pending": {},
  "queue": [],
@@ -2504,12 +2502,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-05 06:01",
+  "time": "2026-11-05 06:11",
   "items": 26,
   "sample": [
-   "Meghalaya 144/10 v Nagaland 184/10 & 254/10 *",
-   "Tripura 191/10 & 268/10 v Saurashtra 118/10 & 131/7 *",
-   "Bengal 76/4 & 143/10 * v Maharashtra 218/10"
+   "Meghalaya 144/10 v Nagaland 254/10 & 184/10 *",
+   "Tripura 268/10 & 191/10 v Saurashtra 118/10 & 131/7 *",
+   "Bengal 143/10 & 76/4 * v Maharashtra 218/10"
   ]
  },
  "agri_news": {
@@ -7971,9 +7969,9 @@
  },
  "ai_usage": {
   "date": "2026-11-05",
-  "ok": 50,
-  "fail": 90,
-  "limit": 90
+  "ok": 51,
+  "fail": 92,
+  "limit": 92
  },
  "posted_heads": [
   {
@@ -8298,7 +8296,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-05 06:01",
+  "time": "2026-11-05 06:11",
   "steps": []
  },
  "roundup_am": "2026-11-04",
@@ -8406,7 +8404,7 @@
   "text": 5,
   "story": 3
  },
- "ai_last_error": "05:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-05",
   "models": [
@@ -8447,7 +8445,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-05",
-   "ok": 37,
+   "ok": 38,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8455,7 +8453,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-05",
-   "ok": 37,
+   "ok": 38,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8463,7 +8461,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-05",
-   "ok": 37,
+   "ok": 38,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8471,14 +8469,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8486,14 +8484,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
@@ -8501,9 +8499,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-05",
    "ok": 0,
-   "fail": 38,
+   "fail": 39,
    "items": 15,
-   "fail_streak": 93,
+   "fail_streak": 94,
    "last_status": 404
   }
  },
@@ -8884,8 +8882,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8925,8 +8923,8 @@
   "date": "2026-11-05",
   "count": 1,
   "last": 1793822473.6891127,
-  "city_i": 16,
-  "dry": 1793840475.207988
+  "city_i": 20,
+  "dry": 1793841060.9542546
  },
  "gemini_day_dead": {
   "day": "2026-11-04",
@@ -9635,13 +9633,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-04 23:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-04 23:50",
    "ok": true,
    "n": 0,
@@ -9909,6 +9900,13 @@
   },
   {
    "t": "11-05 06:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-05 06:10",
    "ok": true,
    "n": 0,
    "ids": [],
