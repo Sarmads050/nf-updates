@@ -25,8 +25,7 @@
     "FARAZ": "stand_r"
    },
    "props": {
-    "FARAZ": "phone",
-    "DANIYAL": "cup"
+    "FARAZ": "phone"
    },
    "lines": [
     {
@@ -172,8 +171,7 @@
    "time": "day",
    "label": "Drawing Room • Subah",
    "cast": {
-    "AMMI": "sofa_l",
-    "MEHAK": "sofa_c",
+    "MEHAK": "sofa_l",
     "ABBA": "stand_cr"
    },
    "props": {
@@ -190,7 +188,6 @@
      "shot": "wide",
      "gap": 0.1,
      "react_pose": {
-      "AMMI": "rest",
       "MEHAK": "rest",
       "ABBA": "arms_up"
      }
@@ -205,12 +202,10 @@
      "pose": "arms_up",
      "shot": "close",
      "react": {
-      "MEHAK": "teasing",
-      "AMMI": "happy"
+      "MEHAK": "teasing"
      },
      "looks": {
-      "MEHAK": "ABBA",
-      "AMMI": "ABBA"
+      "MEHAK": "ABBA"
      }
     },
     {
@@ -240,8 +235,7 @@
      "joke": true,
      "gap": 0.7,
      "react": {
-      "MEHAK": "laugh",
-      "AMMI": "laugh"
+      "MEHAK": "laugh"
      }
     },
     {
@@ -253,11 +247,20 @@
      "how": "caring wife, warm, a little bossy",
      "before": [
       {
-       "do": "approach",
-       "who": "ABBA",
-       "to": "AMMI"
+       "do": "enter",
+       "who": "AMMI",
+       "slot": "stand_r"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
       }
      ],
+     "looks": {
+      "ABBA": "AMMI",
+      "MEHAK": "AMMI"
+     },
      "give": {
       "to": "ABBA",
       "prop": "cup",
@@ -346,9 +349,9 @@
    "label": "Aangan • Dopahar",
    "cast": {
     "ABBA": "stand_l",
-    "FARAZ": "stand_c",
-    "MEHAK": "charpai_r",
-    "DANIYAL": "charpai_c"
+    "MEHAK": "charpai_c",
+    "DANIYAL": "charpai_r",
+    "FARAZ": "stand_r"
    },
    "props": {
     "FARAZ": "phone",
