@@ -1768,7 +1768,10 @@
   "e7b3a21a28839107": 1793871509.7351718,
   "6a510a232e987028": 1793872893.6119657,
   "b3fdf5e2d50faac5": 1793874081.3104897,
-  "f4835017fb35fd0e": 1793874081.3106143
+  "f4835017fb35fd0e": 1793874081.3106143,
+  "34354f9847a782ae": 1793875273.956903,
+  "f8b9f3d34ec85b02": 1793875273.956906,
+  "10e0284343994e1b": 1793875273.9569073
  },
  "pending": {},
  "queue": [],
@@ -1840,7 +1843,7 @@
  "sindh_single": {
   "date": "2026-11-05",
   "count": 0,
-  "last": 1793864477.0040965,
+  "last": 1793875289.3982134,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2425,12 +2428,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-05 15:31",
+  "time": "2026-11-05 15:41",
   "items": 26,
   "sample": [
-   "Meghalaya 144/10 & 172/10 * v Nagaland 184/10 & 254/10",
-   "Tripura 191/10 & 268/10 v Saurashtra 208/10 & 118/10 *",
-   "Bengal 186/10 & 143/10 v Maharashtra 218/10 & 114 *"
+   "Meghalaya 172/10 & 144/10 * v Nagaland 184/10 & 254/10",
+   "Tripura 191/10 & 268/10 v Saurashtra 118/10 & 208/10 *",
+   "Bengal 143/10 & 186/10 v Maharashtra 114 & 218/10 *"
   ]
  },
  "agri_news": {
@@ -7948,9 +7951,9 @@
  },
  "ai_usage": {
   "date": "2026-11-05",
-  "ok": 188,
-  "fail": 332,
-  "limit": 299
+  "ok": 191,
+  "fail": 338,
+  "limit": 305
  },
  "posted_heads": [
   {
@@ -8275,7 +8278,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-05 15:31",
+  "time": "2026-11-05 15:41",
   "steps": []
  },
  "roundup_am": "2026-11-05",
@@ -8383,7 +8386,7 @@
   "text": 14,
   "story": 12
  },
- "ai_last_error": "15:22 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "15:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-05",
   "models": [
@@ -8424,7 +8427,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-05",
-   "ok": 96,
+   "ok": 97,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8432,7 +8435,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-05",
-   "ok": 95,
+   "ok": 96,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8440,7 +8443,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-05",
-   "ok": 95,
+   "ok": 96,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8448,14 +8451,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8463,14 +8466,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
@@ -8478,9 +8481,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-05",
    "ok": 0,
-   "fail": 97,
+   "fail": 98,
    "items": 15,
-   "fail_streak": 152,
+   "fail_streak": 153,
    "last_status": 404
   }
  },
@@ -8830,8 +8833,8 @@
    "03-11-2026",
    "04-11-2026"
   ],
-  "last_try": 1793872868.135059,
-  "last_try_note": "15:01 abhi nahi mila",
+  "last_try": 1793875252.2039301,
+  "last_try_note": "15:40 abhi nahi mila",
   "paper": {
    "date": "04-11-2026",
    "read": [
@@ -8861,8 +8864,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 9,
-  "old": 9,
+  "found": 12,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8902,8 +8905,8 @@
   "date": "2026-11-05",
   "count": 11,
   "last": 1793872882.952445,
-  "city_i": 16,
-  "dry": 1793874076.6964326
+  "city_i": 20,
+  "dry": 1793875266.7786348
  },
  "gemini_day_dead": {
   "day": "2026-11-05",
@@ -9619,13 +9622,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-05 09:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-05 09:20",
    "ok": true,
    "n": 0,
@@ -9893,6 +9889,13 @@
   },
   {
    "t": "11-05 15:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-05 15:40",
    "ok": true,
    "n": 0,
    "ids": [],
