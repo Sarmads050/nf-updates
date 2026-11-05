@@ -1,13 +1,5 @@
 {
  "seen": {
-  "f040de14419485e7": 1793263867.3074522,
-  "87e65cb2c344ad22": 1793263880.047841,
-  "1e942b903b2637c4": 1793263880.0478442,
-  "22c81d83cf7f3def": 1793263880.0478458,
-  "af6a2c673722e68e": 1793263880.0478466,
-  "2433f300aad3b7f4": 1793263880.0478475,
-  "ea565c0252531a58": 1793263880.0478485,
-  "4f5c9961891cd48a": 1793263880.0480678,
   "d6dc6aedc1ebebaa": 1793265068.5924265,
   "5c1c6142e5912d26": 1793268078.3435307,
   "84df6be324ac7b0d": 1793269273.411419,
@@ -1766,7 +1758,8 @@
   "daaea61190634976": 1793866423.2285228,
   "01b0ab90a542ecca": 1793867043.6439383,
   "dfaa85d9fbac4f4a": 1793867607.8333695,
-  "426b8cc8c1a48a2f": 1793868674.9083195
+  "426b8cc8c1a48a2f": 1793868674.9083195,
+  "5842c4f498ebe121": 1793869284.924683
  },
  "pending": {},
  "queue": [],
@@ -1784,7 +1777,7 @@
   "last_week": "",
   "last_check": "2026-11-05"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2425,12 +2418,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-05 13:51",
+  "time": "2026-11-05 14:01",
   "items": 26,
   "sample": [
    "Meghalaya 172/10 & 144/10 * v Nagaland 254/10 & 184/10",
    "Tripura 191/10 & 268/10 v Saurashtra 118/10 & 208/10 *",
-   "Bengal 186/10 & 143/10 v Maharashtra 114 & 218/10 *"
+   "Bengal 143/10 & 186/10 v Maharashtra 218/10 & 114 *"
   ]
  },
  "agri_news": {
@@ -7948,9 +7941,9 @@
  },
  "ai_usage": {
   "date": "2026-11-05",
-  "ok": 158,
-  "fail": 270,
-  "limit": 251
+  "ok": 159,
+  "fail": 272,
+  "limit": 253
  },
  "posted_heads": [
   {
@@ -8275,7 +8268,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-05 13:51",
+  "time": "2026-11-05 14:01",
   "steps": []
  },
  "roundup_am": "2026-11-05",
@@ -8383,7 +8376,7 @@
   "text": 11,
   "story": 9
  },
- "ai_last_error": "13:51 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "14:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-05",
   "models": [
@@ -8424,7 +8417,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-05",
-   "ok": 85,
+   "ok": 86,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8432,7 +8425,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-05",
-   "ok": 84,
+   "ok": 85,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8440,7 +8433,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-05",
-   "ok": 84,
+   "ok": 85,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8448,14 +8441,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8463,14 +8456,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
@@ -8478,9 +8471,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-05",
    "ok": 0,
-   "fail": 86,
+   "fail": 87,
    "items": 15,
-   "fail_streak": 141,
+   "fail_streak": 142,
    "last_status": 404
   }
  },
@@ -8860,14 +8853,14 @@
   "pakistan": 7
  },
  "report_acc": {
-  "posted": 1,
-  "found": 15,
-  "old": 15,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-05 13",
+ "report_hour": "2026-11-05 14",
  "kawish_upload_times": {
   "_date": "2026-11-05",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9614,7 +9607,8 @@
    "08:00",
    "09:30",
    "11:00",
-   "12:30"
+   "12:30",
+   "14:00"
   ]
  },
  "kawish_queue": [],
@@ -9624,13 +9618,6 @@
   "last": 1793808810.2153094
  },
  "tg_debug": [
-  {
-   "t": "11-05 07:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-05 07:30",
    "ok": true,
@@ -9899,6 +9886,13 @@
   },
   {
    "t": "11-05 13:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-05 14:00",
    "ok": true,
    "n": 0,
    "ids": [],
