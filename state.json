@@ -1767,7 +1767,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-05",
-  "count": 0
+  "count": 1
  },
  "last_digest": "2026-11-05",
  "alert_day": "2026-10-20",
@@ -1777,7 +1777,7 @@
   "last_week": "",
   "last_check": "2026-11-05"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.1-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1824,7 +1824,7 @@
   ]
  },
  "last_daily": "2026-11-05",
- "roundup_pm": "2026-11-04",
+ "roundup_pm": "2026-11-05",
  "replied": [],
  "q_index": 2,
  "last_question": "2026-11-04",
@@ -1871,7 +1871,7 @@
    "ad942156a590c947"
   ]
  },
- "last_post_id": "1444130002106066_122117864049503839",
+ "last_post_id": "1444130002106066_122117869209503839",
  "shareable": [
   {
    "id": "1444130002106066_122117574813503839",
@@ -2414,12 +2414,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-05 17:51",
+  "time": "2026-11-05 18:02",
   "items": 26,
   "sample": [
    "Meghalaya 172/10 & 144/10 * v Nagaland 254/10 & 184/10",
-   "Tripura 268/10 & 191/10 v Saurashtra 118/10 & 208/10 *",
-   "Bengal 143/10 & 186/10 v Maharashtra 114 & 218/10 *"
+   "Tripura 268/10 & 191/10 v Saurashtra 208/10 & 118/10 *",
+   "Bengal 143/10 & 186/10 v Maharashtra 218/10 & 114 *"
   ]
  },
  "agri_news": {
@@ -2429,8 +2429,8 @@
  },
  "all_posts": {
   "date": "2026-11-05",
-  "count": 28,
-  "last": 1793882505.7404053
+  "count": 29,
+  "last": 1793883738.429309
  },
  "perf": {
   "posts": [
@@ -7921,9 +7921,9 @@
  },
  "ai_usage": {
   "date": "2026-11-05",
-  "ok": 249,
-  "fail": 456,
-  "limit": 370
+  "ok": 250,
+  "fail": 460,
+  "limit": 372
  },
  "posted_heads": [
   {
@@ -8252,7 +8252,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-05 17:52",
+  "time": "2026-11-05 18:02",
   "steps": []
  },
  "roundup_am": "2026-11-05",
@@ -8360,7 +8360,7 @@
   "text": 14,
   "story": 12
  },
- "ai_last_error": "17:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:02 gemini-3.5-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-05",
   "models": [
@@ -8401,7 +8401,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-05",
-   "ok": 110,
+   "ok": 111,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8409,7 +8409,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-05",
-   "ok": 108,
+   "ok": 109,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8417,7 +8417,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-05",
-   "ok": 108,
+   "ok": 109,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8425,14 +8425,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8440,14 +8440,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
@@ -8455,9 +8455,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-05",
    "ok": 0,
-   "fail": 111,
+   "fail": 112,
    "items": 15,
-   "fail_streak": 166,
+   "fail_streak": 167,
    "last_status": 404
   }
  },
@@ -8685,18 +8685,18 @@
  "region_posts": {
   "date": "2026-11-05",
   "district": 2,
-  "sindh": 16,
+  "sindh": 17,
   "pakistan": 9
  },
  "report_acc": {
-  "posted": 2,
-  "found": 15,
-  "old": 15,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-05 17",
+ "report_hour": "2026-11-05 18",
  "kawish_upload_times": {
   "_date": "2026-11-05",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9457,13 +9457,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-05 11:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-05 11:40",
    "ok": true,
    "n": 0,
@@ -9731,6 +9724,13 @@
   },
   {
    "t": "11-05 17:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-05 18:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14084,6 +14084,52 @@
     "ڪيترن",
     "ڪيريئر",
     "ڪيسن"
+   ]
+  },
+  {
+   "t": 1793883738,
+   "h": "شام جون سنڌ جون اهم خبرون",
+   "b": "5 نومبر 2026 1️⃣ ڪراچي ۾ ترقياتي ڪمن جو سلسلو جاري ڪراچي جي ميئر مرتضيٰ وهاب چيو آهي ته يونيورسٽي روڊ جو ڪم",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "شام"
+   ],
+   "bt": [
+    "اخري",
+    "استعمال",
+    "اهم",
+    "اهي",
+    "بڻايو",
+    "ترقي",
+    "ترقياتي",
+    "جاري",
+    "خبرون",
+    "خرچ",
+    "رقم",
+    "روڊ",
+    "سلسلو",
+    "سنڌ",
+    "شام",
+    "شهر",
+    "صحيح",
+    "فنڊز",
+    "مرتضي",
+    "مرحلن",
+    "ملڪن",
+    "ميئر",
+    "نومبر",
+    "هاڻي",
+    "وهاب",
+    "وڌيڪ",
+    "يقيني",
+    "يونيورسٽي",
+    "ٻاهرين",
+    "پيو",
+    "ٿيندڙ",
+    "ڪراچي",
+    "ڪمن"
    ]
   }
  ],
