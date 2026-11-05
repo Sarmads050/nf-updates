@@ -1774,7 +1774,8 @@
   "c97e5c840793e275": 1793842291.709463,
   "1f1b823a66e0720c": 1793842291.7094662,
   "7129ee88c53fe13d": 1793842291.7096288,
-  "ada06b95b7178b9a": 1793846056.3621497
+  "ada06b95b7178b9a": 1793846056.3621497,
+  "ad942156a590c947": 1793848891.109685
  },
  "pending": {},
  "queue": [],
@@ -1901,7 +1902,7 @@
  "sindh_single": {
   "date": "2026-11-05",
   "count": 0,
-  "last": 1793811384.3797183,
+  "last": 1793848882.76798,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1937,7 +1938,8 @@
    "d6a69c4104249e6b",
    "4359f2072e9f7bd5",
    "6ef3165a76411a93",
-   "42e3c3bc2efb4b49"
+   "42e3c3bc2efb4b49",
+   "ad942156a590c947"
   ]
  },
  "last_post_id": "1444130002106066_122117721189503839",
@@ -2479,11 +2481,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-05 08:10",
+  "time": "2026-11-05 08:21",
   "items": 26,
   "sample": [
    "Meghalaya 144/10 v Nagaland 184/10 & 254/10 *",
-   "Tripura 191/10 & 268/10 v Saurashtra 131/7 & 118/10 *",
+   "Tripura 268/10 & 191/10 v Saurashtra 118/10 & 131/7 *",
    "Bengal 143/10 & 76/4 * v Maharashtra 218/10"
   ]
  },
@@ -7930,9 +7932,9 @@
  },
  "ai_usage": {
   "date": "2026-11-05",
-  "ok": 69,
-  "fail": 124,
-  "limit": 122
+  "ok": 71,
+  "fail": 128,
+  "limit": 126
  },
  "posted_heads": [
   {
@@ -8257,7 +8259,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-05 08:10",
+  "time": "2026-11-05 08:21",
   "steps": []
  },
  "roundup_am": "2026-11-05",
@@ -8365,7 +8367,7 @@
   "text": 7,
   "story": 5
  },
- "ai_last_error": "08:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-05",
   "models": [
@@ -8406,7 +8408,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-05",
-   "ok": 51,
+   "ok": 52,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8414,7 +8416,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-05",
-   "ok": 50,
+   "ok": 51,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8422,7 +8424,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-05",
-   "ok": 50,
+   "ok": 51,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8430,14 +8432,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8445,14 +8447,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
@@ -8460,9 +8462,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-05",
    "ok": 0,
-   "fail": 52,
+   "fail": 53,
    "items": 15,
-   "fail_streak": 107,
+   "fail_streak": 108,
    "last_status": 404
   }
  },
@@ -8843,8 +8845,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8884,8 +8886,8 @@
   "date": "2026-11-05",
   "count": 1,
   "last": 1793822473.6891127,
-  "city_i": 4,
-  "dry": 1793847069.559763
+  "city_i": 8,
+  "dry": 1793848862.1845024
  },
  "gemini_day_dead": {
   "day": "2026-11-04",
@@ -9580,13 +9582,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-05 02:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-05 02:10",
    "ok": true,
    "n": 0,
@@ -9854,6 +9849,13 @@
   },
   {
    "t": "11-05 08:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-05 08:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14491,11 +14493,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-02 14:52",
-   "new": "پي آءِ اي برطانوي پروازن لاءِ پهريون بوئنگ ڊريم لائينر حاصل ڪري ورتو",
-   "old": "پي آءِ اي پنهنجو پهريون ڊريم لائينر حاصل ڪري ورتو"
-  },
-  {
    "t": "11-02 16:21",
    "new": "بابراعظم جو ڪيريئر بچائڻ لاء اهم صلاح",
    "old": "شام جون خبرون | آچر، 1 نومبر 2026"
@@ -14639,6 +14636,11 @@
    "t": "11-05 06:31",
    "new": "سنڌ ۾ ڪمند جو اگهه، هارين جو احتجاج",
    "old": "سنڌ جي هارين جون اسلام آباد طرف مارچ جون ڌمڪيون"
+  },
+  {
+   "t": "11-05 08:21",
+   "new": "سنڌ | سندھ حکومت جو صوبي بھر ۾ عام موڪل جو اعلان",
+   "old": "صبح جون سنڌ جون اهم خبرون"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14659,6 +14661,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
-  "repeat": 3
- }
+  "repeat": 4
+ },
+ "_dup": true
 }
