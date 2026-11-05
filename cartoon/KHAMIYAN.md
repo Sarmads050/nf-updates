@@ -16,6 +16,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-021] (ep011, 2026-11-04) Kitchen ke "left" slot par khara Daniyal close-up mein Ammi (stove) ke aage aa kar unhein aadha chhupa deta hai — kitchen "left" slot ko mazeed left/peeche karna.
 - [K-022] (ep011, 2026-11-04) Nahane/garam paani wali kahani mein koi visual nahi (geyser, bhaap, toliya, geele baal) — "towel" prop aur nahane ke baad geele baalon/bhaap ka chhota effect banana.
 
+- [K-023] (ep012, 2026-11-05) Kahani mein "dhuaan aur dhund" hai lekin aangan ka aasmaan saaf neela aur dhoop wala dikhta hai — sets.py mein naya `time: "smog"` (halka surmai dhundla parda, phiki dhoop, door ki cheezein dhundli) banana.
+- [K-024] (ep012, 2026-11-05) Haath mein cup ho to "objection"/"point_up" pose mein cup bhi chehre ke paas upar chala jata hai (Daniyal, aangan wale scenes mein) — ishare wale pose mein prop doosre (neeche wale) haath mein shift karna.
+- [K-025] (ep012, 2026-11-05) Asli awaazon ke saath 25 lines 147 second ki ban gayin (hadd 130), is liye 2 lines kaatni parin aur poora render dobara hua (20 min zaya) — check.py mein har line ke lafzon se andaazan duration bata dena, taa ke script pehle hi 130 s ke andar likhi jaye.
+
 ## APPROVED
 
 ## DONE
