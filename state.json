@@ -1,8 +1,5 @@
 {
  "seen": {
-  "6a7fbb616b58acf7": 1793283131.7411525,
-  "aa24f25f3af3cebf": 1793283131.7411556,
-  "748ded5abafade3e": 1793283131.7411575,
   "7c4f2862d552f408": 1793283657.750652,
   "81f49c684d4506a5": 1793285455.8090467,
   "35e435c9ffb1bdad": 1793287913.487631,
@@ -1784,7 +1781,9 @@
   "9333953a06a159ec": 1793886102.5192537,
   "d71ec09dc67f3c3f": 1793886102.5192547,
   "4f36ae0f150fd13e": 1793886102.5194786,
-  "b40857b5501932c6": 1793887582.8697536
+  "b40857b5501932c6": 1793887582.8697536,
+  "ee179d25fdb20992": 1793888470.7703154,
+  "9844cf0a876e7c82": 1793888470.7703185
  },
  "pending": {},
  "queue": [],
@@ -1802,7 +1801,7 @@
   "last_week": "",
   "last_check": "2026-11-05"
  },
- "gemini_model": "gemini-3.1-flash-lite",
+ "gemini_model": "gemini-3.5-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1896,20 +1895,8 @@
    "ad942156a590c947"
   ]
  },
- "last_post_id": "1444130002106066_122117887401503839",
+ "last_post_id": "1444130002106066_122117891457503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122117584551503839",
-   "title": "ڪراچي ۾ استادن جي احتجاج تي پوليس جي شيلنگ، ڪيترائي زخمي ۽ گرفتار",
-   "t": 1793809941.2683496,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122117584551503839"
-  },
   {
    "id": "1444130002106066_122117595177503839",
    "title": "سنڌ جي هارين ڪمند جو اگهه نه ملڻ خلاف احتجاج تيز ڪري ڇڏيو آهي ۽ مطالبا پورا نه ٿيڻ جي",
@@ -2227,6 +2214,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122117887401503839"
+  },
+  {
+   "id": "1444130002106066_122117891457503839",
+   "title": "پي سي بي جو قومي ڪرڪيٽرن کي افغانستان پريميئر ليگ لاءِ اين او سي نه ڏيڻ جو فيصلو",
+   "t": 1793888566.1104257,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122117891457503839"
   }
  ],
  "share_sent": {
@@ -2437,12 +2436,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-05 19:10",
+  "time": "2026-11-05 19:22",
   "items": 26,
   "sample": [
    "Meghalaya 144/10 & 172/10 * v Nagaland 184/10 & 254/10",
-   "Tripura 191/10 & 268/10 v Saurashtra 208/10 & 118/10 *",
-   "Bengal 186/10 & 143/10 v Maharashtra 218/10 & 114 *"
+   "Tripura 268/10 & 191/10 v Saurashtra 208/10 & 118/10 *",
+   "Bengal 143/10 & 186/10 v Maharashtra 114 & 218/10 *"
   ]
  },
  "agri_news": {
@@ -2452,17 +2451,11 @@
  },
  "all_posts": {
   "date": "2026-11-05",
-  "count": 31,
-  "last": 1793887613.1586344
+  "count": 32,
+  "last": 1793888558.5866354
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122113822725503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1792991484
-   },
    {
     "id": "1444130002106066_122113825209503839",
     "sec": "cricket_news",
@@ -4856,6 +4849,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1793887622
+   },
+   {
+    "id": "1444130002106066_122117891457503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1793888566
    }
   ]
  },
@@ -7952,15 +7951,11 @@
  },
  "ai_usage": {
   "date": "2026-11-05",
-  "ok": 271,
-  "fail": 513,
-  "limit": 412
+  "ok": 276,
+  "fail": 523,
+  "limit": 420
  },
  "posted_heads": [
-  {
-   "h": "Pakistan's trade deficit widens to $14.63bn in four months",
-   "t": 1793713374
-  },
   {
    "h": "آسٽريلوي آل رائونڊر گلين ميڪسويل انٽرنيشنل ڪرڪيٽ تان رٽائر ٿي ويو",
    "t": 1793715845
@@ -8276,10 +8271,14 @@
   {
    "h": "رياض چانڊيو جي اسلم خيرپوري ۽ ساٿين جي گرفتاريءَ جي مذمت، ترت آزاديءَ جو مطالبو",
    "t": 1793887622
+  },
+  {
+   "h": "پي سي بي قومي ڪرڪيٽرن کي افغانستان پريميئر ليگ لاءِ اين او سي نه ڏيندو، وسيم اڪرم به آڇ ٿڏي ڇڏي",
+   "t": 1793888566
   }
  ],
  "last_errors": {
-  "time": "2026-11-05 19:10",
+  "time": "2026-11-05 19:22",
   "steps": []
  },
  "roundup_am": "2026-11-05",
@@ -8387,7 +8386,7 @@
   "text": 17,
   "story": 15
  },
- "ai_last_error": "19:06 gemini-3.5-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "19:21 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-05",
   "models": [
@@ -8401,9 +8400,9 @@
  },
  "img_diag": {
   "date": "2026-11-05",
-  "tried": 29,
+  "tried": 30,
   "gemini": 0,
-  "pollinations": 15,
+  "pollinations": 16,
   "skip": 7,
   "fail": 7,
   "last_note": "US election ballot box",
@@ -8428,7 +8427,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-05",
-   "ok": 118,
+   "ok": 119,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8436,7 +8435,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-05",
-   "ok": 116,
+   "ok": 117,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8444,7 +8443,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-05",
-   "ok": 116,
+   "ok": 117,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8452,14 +8451,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8467,14 +8466,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
@@ -8482,9 +8481,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-05",
    "ok": 0,
-   "fail": 119,
+   "fail": 120,
    "items": 15,
-   "fail_streak": 174,
+   "fail_streak": 175,
    "last_status": 404
   }
  },
@@ -8712,13 +8711,13 @@
  "region_posts": {
   "date": "2026-11-05",
   "district": 2,
-  "sindh": 18,
+  "sindh": 19,
   "pakistan": 10
  },
  "report_acc": {
-  "posted": 0,
-  "found": 3,
-  "old": 3,
+  "posted": 1,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8756,9 +8755,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-05",
-  "count": 16,
-  "last": 1793887556.59357,
-  "city_i": 12,
+  "count": 17,
+  "last": 1793888462.164867,
+  "city_i": 16,
   "dry": 1793886084.4691634
  },
  "gemini_day_dead": {
@@ -9470,6 +9469,14 @@
    "t": 1793887622,
    "s": true,
    "r": 0
+  },
+  {
+   "k": "8cf5a2800904ebee",
+   "h": "پي سي بي جو قومي ڪرڪيٽرن کي افغانستان پريميئر ليگ لاءِ اين او سي نه ڏيڻ جو فيصلو",
+   "x": "پاڪستان ڪرڪيٽ بورڊ (پي سي بي) قومي ڪرڪيٽرن کي افغانستان پريميئر ليگ (اي پي ايل) ۾ شرڪت لاءِ اين او سي جاري نه ڪرڻ جو فيصلو ڪري ورتو آهي. ذريعن موجب، اڳوڻي ڪپتان وسيم اڪرم کي افغانستان پريميئر ليگ ۾ مينٽور طور ڪم ڪرڻ جي آڇ ڪئي وئي هئي، پر هن پي سي بي جي پاليسيءَ جي خلاف نه وڃڻ جو فيصلو ڪيو آهي.",
+   "t": 1793888566,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9492,13 +9499,6 @@
   "last": 1793882514.2651505
  },
  "tg_debug": [
-  {
-   "t": "11-05 12:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-05 13:00",
    "ok": true,
@@ -9767,6 +9767,13 @@
   },
   {
    "t": "11-05 19:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-05 19:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14185,6 +14192,52 @@
     "گرفتار",
     "گرفتاري"
    ]
+  },
+  {
+   "t": 1793888566,
+   "h": "پي سي بي جو قومي ڪرڪيٽرن کي افغانستان پريميئر ليگ لاءِ اين او سي نه ڏيڻ جو فيصلو",
+   "b": "پاڪستان ڪرڪيٽ بورڊ (پي سي بي) قومي ڪرڪيٽرن کي افغانستان پريميئر ليگ (اي پي ايل) ۾ شرڪت لاءِ اين او سي جاري نه",
+   "tt": [
+    "افغانستان",
+    "اين",
+    "فيصلو",
+    "قومي",
+    "ليگ",
+    "پريميئر",
+    "ڏيڻ",
+    "ڪرڪيٽرن"
+   ],
+   "bt": [
+    "افغانستان",
+    "اهي",
+    "ايل",
+    "اين",
+    "اڪرم",
+    "اڳوڻي",
+    "بورڊ",
+    "جاري",
+    "خلاف",
+    "ذريعن",
+    "شرڪت",
+    "طور",
+    "فيصلو",
+    "قومي",
+    "ليگ",
+    "موجب،",
+    "مينٽور",
+    "هئي،",
+    "ورتو",
+    "وسيم",
+    "وڃڻ",
+    "پاليسيء",
+    "پاڪستان",
+    "پريميئر",
+    "ڏيڻ",
+    "ڪرڪيٽ",
+    "ڪرڪيٽرن",
+    "ڪرڻ",
+    "ڪپتان"
+   ]
   }
  ],
  "repeat_log": [
@@ -14352,7 +14405,7 @@
  },
  "quality": {
   "date": "2026-11-05",
-  "editor_fixed": 24,
+  "editor_fixed": 25,
   "editor_rejected": 8,
   "kawish_rejected": 2,
   "kawish_crosschecked": 2,
