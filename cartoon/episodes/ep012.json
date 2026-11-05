@@ -1,0 +1,477 @@
+{
+ "id": "ep012",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 12,
+ "title": "Sair Ya Smog?",
+ "topic": "Winter smog morning - Abba's new morning-walk plan, air quality app says stay in, indoor exercise",
+ "music": "comic",
+ "lesson": "Sehat sab se bari daulat hai,<br>lekin sair hawa dekh kar!",
+ "caption": "Abba ne sardi mein subah ki sair ka plan banaya... lekin bahar dhuaan aur dhund nikli! 🌫️🏃‍♂️😂 Aap ke ghar mein subah sab se pehle kaun uthta hai? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#SardiKiSubah",
+  "#Smog",
+  "#PakistaniFamily",
+  "#UrduCartoon"
+ ],
+ "scenes": [
+  {
+   "set": "aangan",
+   "time": "day",
+   "label": "Aangan • Itwaar Subah",
+   "cast": {
+    "ABBA": "stand_l",
+    "DANIYAL": "charpai_c",
+    "FARAZ": "stand_r"
+   },
+   "props": {
+    "FARAZ": "phone",
+    "DANIYAL": "cup"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Nawabshah mein *itwaar ki thandi subah* hai... aur Abba ne *subah ki sair* ka faisla kar liya hai!",
+     "urdu": "نواب شاہ میں اتوار کی ٹھنڈی صبح ہے... اور ابا نے صبح کی سیر کا فیصلہ کر لیا ہے!",
+     "how": "warm storyteller, playful, cosy winter morning",
+     "shot": "wide",
+     "gap": 0.1,
+     "react_pose": {
+      "ABBA": "rest",
+      "DANIYAL": "rest",
+      "FARAZ": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "DANIYAL",
+     "emo": "happy",
+     "roman": "Chalo bachon! Aaj se *roz subah* aadha ghanta sair hogi!",
+     "urdu": "چلو بچو! آج سے روز صبح آدھا گھنٹہ سیر ہوگی!",
+     "how": "energetic father, determined, clapping hands",
+     "pose": "beckon",
+     "shot": "close",
+     "react": {
+      "DANIYAL": "surprised",
+      "FARAZ": "surprised"
+     },
+     "looks": {
+      "DANIYAL": "ABBA",
+      "FARAZ": "ABBA"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ABBA",
+     "emo": "teasing",
+     "roman": "*Objection*, Abba! Itwaar ko to *adalat* bhi band hoti hai!",
+     "urdu": "آبجیکشن، ابا! اتوار کو تو عدالت بھی بند ہوتی ہے!",
+     "how": "dramatic law student, courtroom voice, sleepy",
+     "pose": "objection",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "ABBA": "angry",
+      "FARAZ": "laugh"
+     }
+    },
+    {
+     "who": "FARAZ",
+     "to": "ABBA",
+     "emo": "worried",
+     "roman": "Abba, ruk jaayein. Bahar dekhein, kitna *dhuaan aur dhund* hai.",
+     "urdu": "ابا، رک جائیں۔ باہر دیکھیں، کتنا دھواں اور دھند ہے۔",
+     "how": "calm tech son, concerned, pointing outside",
+     "pose": "point_other",
+     "react": {
+      "ABBA": "confused"
+     },
+     "looks": {
+      "ABBA": "FARAZ",
+      "DANIYAL": "FARAZ"
+     }
+    },
+    {
+     "who": "FARAZ",
+     "to": "ABBA",
+     "emo": "focused",
+     "roman": "Mere phone ki *hawa wali app* keh rahi hai ke aaj hawa *sehat ke liye kharab* hai.",
+     "urdu": "میرے فون کی ہوا والی ایپ کہہ رہی ہے کہ آج ہوا صحت کے لیے خراب ہے۔",
+     "how": "explaining patiently, showing the phone",
+     "pose": "phone_look",
+     "shot": "close:FARAZ",
+     "react": {
+      "ABBA": "confused"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "FARAZ",
+     "emo": "proud",
+     "roman": "Humare zamane mein to *koi app nahi* hoti thi, hum seedha bahar nikal jaate the!",
+     "urdu": "ہمارے زمانے میں تو کوئی ایپ نہیں ہوتی تھی، ہم سیدھا باہر نکل جاتے تھے!",
+     "how": "old-school father, proud, a bit stubborn",
+     "pose": "wag",
+     "react": {
+      "FARAZ": "sheepish",
+      "DANIYAL": "teasing"
+     },
+     "react_pose": {
+      "FARAZ": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "front",
+     "emo": "happy",
+     "roman": "App ne *faisla* suna diya. Case khatam, main wapas *razai* mein!",
+     "urdu": "ایپ نے فیصلہ سنا دیا۔ کیس ختم، میں واپس رضائی میں!",
+     "how": "law student delivering verdict, happy, then hurrying away",
+     "pose": "thumb_back",
+     "joke": true,
+     "gap": 0.5,
+     "react": {
+      "ABBA": "surprised",
+      "FARAZ": "laugh"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "FARAZ",
+     "emo": "focused",
+     "roman": "Theek hai! Sair nahi to *exercise ghar ke andar* hogi. Sab drawing room mein aao!",
+     "urdu": "ٹھیک ہے! سیر نہیں تو ایکسرسائز گھر کے اندر ہوگی۔ سب ڈرائنگ روم میں آؤ!",
+     "how": "father not giving up, firm and loud",
+     "pose": "point_up",
+     "shot": "close:ABBA",
+     "before": [
+      {
+       "do": "exit",
+       "who": "DANIYAL"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.3
+      }
+     ],
+     "react": {
+      "FARAZ": "sheepish"
+     },
+     "react_pose": {
+      "FARAZ": "rest"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "day",
+   "label": "Drawing Room • Subah",
+   "cast": {
+    "AMMI": "sofa_l",
+    "MEHAK": "sofa_c",
+    "ABBA": "stand_cr"
+   },
+   "props": {
+    "AMMI": "cup"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Drawing room mein *Abba ki exercise class* shuru ho gayi...",
+     "urdu": "ڈرائنگ روم میں ابا کی ایکسرسائز کلاس شروع ہو گئی...",
+     "how": "storyteller, light and amused",
+     "shot": "wide",
+     "gap": 0.1,
+     "react_pose": {
+      "AMMI": "rest",
+      "MEHAK": "rest",
+      "ABBA": "arms_up"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "MEHAK",
+     "emo": "happy",
+     "roman": "*Haath upar!* Ek, do, teen... Mehak, tum bhi utho!",
+     "urdu": "ہاتھ اوپر! ایک، دو، تین... مہک، تم بھی اٹھو!",
+     "how": "father counting like a PT teacher, energetic",
+     "pose": "arms_up",
+     "shot": "close",
+     "react": {
+      "MEHAK": "teasing",
+      "AMMI": "happy"
+     },
+     "looks": {
+      "MEHAK": "ABBA",
+      "AMMI": "ABBA"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ABBA",
+     "emo": "teasing",
+     "roman": "Abba, main to kab se kar rahi hoon. Aap ki *saans phool* gayi hai!",
+     "urdu": "ابا، میں تو کب سے کر رہی ہوں۔ آپ کی سانس پھول گئی ہے!",
+     "how": "smart teasing daughter, giggling",
+     "pose": "point_other",
+     "react": {
+      "ABBA": "tired"
+     },
+     "react_pose": {
+      "ABBA": "tired"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "MEHAK",
+     "emo": "sheepish",
+     "roman": "Yeh saans nahi phooli, beta... yeh to *warm-up* hai!",
+     "urdu": "یہ سانس نہیں پھولی، بیٹا... یہ تو وارم اپ ہے!",
+     "how": "out of breath father pretending to be fine, panting",
+     "pose": "tired",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.7,
+     "react": {
+      "MEHAK": "laugh",
+      "AMMI": "laugh"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "warm",
+     "roman": "Warm-up baad mein. Pehle yeh *adrak aur gur wali chai* pee lijiye.",
+     "urdu": "وارم اپ بعد میں۔ پہلے یہ ادرک اور گڑ والی چائے پی لیجیے۔",
+     "how": "caring wife, warm, a little bossy",
+     "before": [
+      {
+       "do": "approach",
+       "who": "ABBA",
+       "to": "AMMI"
+      }
+     ],
+     "give": {
+      "to": "ABBA",
+      "prop": "cup",
+      "at": 0.6
+     },
+     "react": {
+      "ABBA": "happy"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "calm",
+     "roman": "Aur jab hawa kharab ho, to bahar *mask* pehen kar jaaiye ga.",
+     "urdu": "اور جب ہوا خراب ہو، تو باہر ماسک پہن کر جائیے گا۔",
+     "how": "caring mother giving sensible advice",
+     "pose": "explain",
+     "react": {
+      "ABBA": "warm"
+     },
+     "react_pose": {
+      "ABBA": "hold"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Ammi, mujhe bhi chai milegi? Main bhi *exercise* mein shamil hoon!",
+     "urdu": "امی، مجھے بھی چائے ملے گی؟ میں بھی ایکسرسائز میں شامل ہوں!",
+     "how": "sleepy law student, cheeky, yawning",
+     "pose": "wave",
+     "before": [
+      {
+       "do": "enter",
+       "who": "DANIYAL",
+       "slot": "stand_l"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      }
+     ],
+     "react": {
+      "*": "surprised"
+     },
+     "looks": {
+      "AMMI": "DANIYAL",
+      "MEHAK": "DANIYAL",
+      "ABBA": "DANIYAL"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "DANIYAL",
+     "emo": "teasing",
+     "roman": "Daniyal Bhai, aap to *abhi razai se* nikle hain!",
+     "urdu": "دانیال بھائی، آپ تو ابھی رضائی سے نکلے ہیں!",
+     "how": "teasing little sister, laughing",
+     "pose": "point_other",
+     "react": {
+      "DANIYAL": "sheepish"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "MEHAK",
+     "emo": "proud",
+     "roman": "*Objection!* Sardi mein razai se nikalna hi sab se *mushkil exercise* hai!",
+     "urdu": "آبجیکشن! سردی میں رضائی سے نکلنا ہی سب سے مشکل ایکسرسائز ہے!",
+     "how": "dramatic law student, proud of his argument",
+     "pose": "objection",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.7,
+     "react": {
+      "*": "laugh"
+     }
+    }
+   ]
+  },
+  {
+   "set": "aangan",
+   "time": "day",
+   "label": "Aangan • Dopahar",
+   "cast": {
+    "ABBA": "stand_l",
+    "FARAZ": "stand_c",
+    "MEHAK": "charpai_r",
+    "DANIYAL": "charpai_c"
+   },
+   "props": {
+    "FARAZ": "phone",
+    "DANIYAL": "cup"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Dopahar tak *dhoop nikal* aayi, aur dhuaan kaafi kam ho gaya...",
+     "urdu": "دوپہر تک دھوپ نکل آئی، اور دھواں کافی کم ہو گیا...",
+     "how": "storyteller, bright and hopeful",
+     "shot": "wide",
+     "gap": 0.1,
+     "react_pose": {
+      "ABBA": "rest",
+      "FARAZ": "rest",
+      "MEHAK": "rest",
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "FARAZ",
+     "to": "ABBA",
+     "emo": "happy",
+     "roman": "Abba, ab app bhi keh rahi hai ke *hawa theek* hai. Ab sair ho sakti hai!",
+     "urdu": "ابا، اب ایپ بھی کہہ رہی ہے کہ ہوا ٹھیک ہے۔ اب سیر ہو سکتی ہے!",
+     "how": "happy son with good news, showing phone",
+     "pose": "phone_look",
+     "shot": "close:FARAZ",
+     "react": {
+      "ABBA": "happy"
+     },
+     "looks": {
+      "ABBA": "FARAZ"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "FARAZ",
+     "emo": "proud",
+     "roman": "Shabash! Chalo sab, *gali ke do chakkar* lagate hain!",
+     "urdu": "شاباش! چلو سب، گلی کے دو چکر لگاتے ہیں!",
+     "how": "father excited, leading the group",
+     "pose": "beckon",
+     "react": {
+      "FARAZ": "happy",
+      "MEHAK": "happy",
+      "DANIYAL": "teasing"
+     },
+     "react_pose": {
+      "FARAZ": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ABBA",
+     "emo": "teasing",
+     "roman": "Sirf *do chakkar*, Abba? Subah to aap aadha ghanta keh rahe the!",
+     "urdu": "صرف دو چکر، ابا؟ صبح تو آپ آدھا گھنٹہ کہہ رہے تھے!",
+     "how": "law student cross-examining, cheeky",
+     "pose": "explain",
+     "react": {
+      "ABBA": "sheepish"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "DANIYAL",
+     "emo": "sheepish",
+     "roman": "Subah ki exercise ne mujhe bata diya ke main ab *bees saal ka nahi* hoon!",
+     "urdu": "صبح کی ایکسرسائز نے مجھے بتا دیا کہ میں اب بیس سال کا نہیں ہوں!",
+     "how": "father laughing at himself, rubbing his back",
+     "pose": "scratch_head",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.7,
+     "react": {
+      "*": "laugh"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ABBA",
+     "emo": "warm",
+     "roman": "Koi baat nahi, Abba. Kal se main *roz aap ke saath* chaloon gi, aahista aahista.",
+     "urdu": "کوئی بات نہیں، ابا۔ کل سے میں روز آپ کے ساتھ چلوں گی، آہستہ آہستہ۔",
+     "how": "loving daughter, gentle and sweet",
+     "pose": "chest",
+     "react": {
+      "ABBA": "proud"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "front",
+     "emo": "warm",
+     "roman": "*Sehat* sab se bari daulat hai... lekin sair *hawa dekh kar* karo!",
+     "urdu": "صحت سب سے بڑی دولت ہے... لیکن سیر ہوا دیکھ کر کرو!",
+     "how": "wise warm father, soft lesson",
+     "pose": "explain",
+     "shot": "close:ABBA",
+     "react": {
+      "*": "warm"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "front",
+     "emo": "happy",
+     "roman": "Adalat ka faisla: *sair hogi*... lekin pehle *chai* ke baad!",
+     "urdu": "عدالت کا فیصلہ: سیر ہوگی... لیکن پہلے چائے کے بعد!",
+     "how": "law student announcing final verdict, grand and funny",
+     "pose": "objection",
+     "shot": "group",
+     "joke": true,
+     "gap": 0.8,
+     "react": {
+      "*": "laugh"
+     }
+    }
+   ]
+  }
+ ]
+}
