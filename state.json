@@ -1825,7 +1825,14 @@
   "be9b9b9cdf69c7ea": 1793899885.7457485,
   "18b4287a9d8e52e5": 1793901071.9574115,
   "ad18d17db2d93a13": 1793901071.957414,
-  "ac8bf3bd7b42364c": 1793901075.75055
+  "ac8bf3bd7b42364c": 1793901075.75055,
+  "504f91ffebbc3fff": 1793902286.2197897,
+  "b144a8713e500fe2": 1793902286.2197926,
+  "1b0dc3fac1e93b96": 1793902286.219794,
+  "d259e130e9e1083f": 1793902286.219795,
+  "3d892b1e57bc3d31": 1793902286.219796,
+  "fccb33da7d9eddc3": 1793902286.2197967,
+  "3a7c12c35428442d": 1793902286.2200067
  },
  "pending": {},
  "queue": [],
@@ -2490,10 +2497,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-05 23:01",
+  "time": "2026-11-05 23:11",
   "items": 25,
   "sample": [
-   "Meghalaya 144/10 & 172/10 * v Nagaland 254/10 & 184/10",
+   "Meghalaya 144/10 & 172/10 * v Nagaland 184/10 & 254/10",
    "Tripura 191/10 & 268/10 v Saurashtra 118/10 & 208/10 *",
    "Bengal 186/10 & 143/10 v Maharashtra 218/10 & 114 *"
   ]
@@ -7997,9 +8004,9 @@
  },
  "ai_usage": {
   "date": "2026-11-05",
-  "ok": 340,
-  "fail": 647,
-  "limit": 514
+  "ok": 343,
+  "fail": 654,
+  "limit": 520
  },
  "posted_heads": [
   {
@@ -8324,7 +8331,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-05 23:01",
+  "time": "2026-11-05 23:11",
   "steps": []
  },
  "roundup_am": "2026-11-05",
@@ -8427,12 +8434,12 @@
  },
  "article_diag": {
   "date": "2026-11-05",
-  "tried": 23,
-  "decoded": 23,
-  "text": 22,
-  "story": 19
+  "tried": 24,
+  "decoded": 24,
+  "text": 23,
+  "story": 20
  },
- "ai_last_error": "22:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "23:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-05",
   "models": [
@@ -8473,7 +8480,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-05",
-   "ok": 141,
+   "ok": 142,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8481,7 +8488,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-05",
-   "ok": 139,
+   "ok": 140,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8489,7 +8496,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-05",
-   "ok": 139,
+   "ok": 140,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8497,14 +8504,14 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 142,
+   "ok": 143,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 142,
+   "ok": 143,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8512,14 +8519,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-05",
-   "ok": 142,
+   "ok": 143,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-05",
-   "ok": 142,
+   "ok": 143,
    "fail": 0,
    "items": 10,
    "fail_streak": 0
@@ -8527,9 +8534,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-05",
    "ok": 0,
-   "fail": 142,
+   "fail": 143,
    "items": 15,
-   "fail_streak": 197,
+   "fail_streak": 198,
    "last_status": 404
   }
  },
@@ -8762,8 +8769,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8803,8 +8810,8 @@
   "date": "2026-11-05",
   "count": 25,
   "last": 1793899871.6101737,
-  "city_i": 20,
-  "dry": 1793901674.7941778
+  "city_i": 24,
+  "dry": 1793902268.434912
  },
  "gemini_day_dead": {
   "day": "2026-11-05",
@@ -9580,13 +9587,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-05 16:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-05 16:40",
    "ok": true,
    "n": 0,
@@ -9854,6 +9854,13 @@
   },
   {
    "t": "11-05 23:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-05 23:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14397,11 +14404,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-02 19:51",
-   "new": "پيٽرول واڌ روڪي ڇڏي آهي: وفاقي حڪومت",
-   "old": "سنڌ | پيٽرول جي قيمت ۾ ممڪنه گهٽتائي جو اعلان"
-  },
-  {
    "t": "11-02 21:31",
    "new": "سنڌ | پاڪستان ۾ مهانگائي جي شرح",
    "old": "مهانگائي ۾ گهٽتائي، آڪٽوبر ۾ اگهه سستا"
@@ -14545,6 +14547,11 @@
    "t": "11-05 22:02",
    "new": "پاڪستان ۾ سوني جي اگهه ۾ وڏو واڌ",
    "old": "پاڪستان ۾ سون جي اگهه ۾ وڏو واڌ"
+  },
+  {
+   "t": "11-05 23:11",
+   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گھٽتا",
+   "old": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽتائي جو اعلان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14565,6 +14572,7 @@
   "kawish_rejected": 2,
   "kawish_crosschecked": 2,
   "wrong_place": 1,
-  "repeat": 6
- }
+  "repeat": 7
+ },
+ "_dup": true
 }
