@@ -1,6 +1,5 @@
 {
  "seen": {
-  "879eee0f42e1ad78": 1793335268.990657,
   "a54547b848988ca9": 1793335876.7037833,
   "e127eabeb79fdde1": 1793335876.7037897,
   "7b2d64bb0cf32740": 1793335876.7037926,
@@ -1754,7 +1753,11 @@
   "1d4202d8d7ad572a": 1793936468.580718,
   "dc00ad0b576b9804": 1793936468.5807188,
   "436b9397c906e73e": 1793936468.5807207,
-  "9df0c519bc5f4d16": 1793936468.5808413
+  "9df0c519bc5f4d16": 1793936468.5808413,
+  "07aa2d7de53a89dd": 1793940679.5171268,
+  "cfc696d28ffb631d": 1793940694.8932536,
+  "cc320527cd09a38a": 1793940694.893256,
+  "8b09fb68c0f331b3": 1793940694.8934457
  },
  "pending": {
   "culture2026-11-06": {
@@ -2415,11 +2418,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-06 09:41",
+  "time": "2026-11-06 09:51",
   "items": 12,
   "sample": [
    "Pakistan Cricket Board Patron's XI 151/8 v Sri Lanka 121/6 & 223/7 *",
-   "Bangladesh v West Indies 271/6 *",
+   "Bangladesh v West Indies 287/6 *",
    "Afghanistan v Zimbabwe 326/5 *"
   ]
  },
@@ -7970,9 +7973,9 @@
  },
  "ai_usage": {
   "date": "2026-11-06",
-  "ok": 93,
-  "fail": 146,
-  "limit": 146
+  "ok": 96,
+  "fail": 152,
+  "limit": 152
  },
  "posted_heads": [
   {
@@ -8297,7 +8300,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-06 09:41",
+  "time": "2026-11-06 09:51",
   "steps": []
  },
  "roundup_am": "2026-11-06",
@@ -8400,12 +8403,12 @@
  },
  "article_diag": {
   "date": "2026-11-06",
-  "tried": 12,
-  "decoded": 12,
-  "text": 12,
-  "story": 12
+  "tried": 13,
+  "decoded": 13,
+  "text": 13,
+  "story": 13
  },
- "ai_last_error": "09:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "09:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-06",
   "models": [
@@ -8446,7 +8449,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-06",
-   "ok": 59,
+   "ok": 60,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8454,7 +8457,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-06",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8462,7 +8465,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-06",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8470,7 +8473,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 59,
+   "ok": 60,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8478,7 +8481,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8486,14 +8489,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 59,
+   "ok": 60,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8502,9 +8505,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-06",
    "ok": 0,
-   "fail": 60,
+   "fail": 61,
    "items": 15,
-   "fail_streak": 262,
+   "fail_streak": 263,
    "last_status": 404
   }
  },
@@ -8737,8 +8740,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 8,
-  "old": 8,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8779,8 +8782,8 @@
   "date": "2026-11-06",
   "count": 1,
   "last": 1793908266.4982307,
-  "city_i": 16,
-  "dry": 1793940061.2542303
+  "city_i": 20,
+  "dry": 1793940661.5140436
  },
  "gemini_day_dead": {
   "day": "2026-11-05",
@@ -9574,13 +9577,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-06 03:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-06 03:30",
    "ok": true,
    "n": 0,
@@ -9848,6 +9844,13 @@
   },
   {
    "t": "11-06 09:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-06 09:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -15023,11 +15026,6 @@
  "repeat_log": [
   {
    "t": "11-03 01:51",
-   "new": "آڪٽوبر ۾ مهانگائي جي شرح گهٽجي 9.6 سيڪڙو ٿي وئي",
-   "old": "مهانگائي ۾ گهٽتائي، آڪٽوبر ۾ اگهه سستا"
-  },
-  {
-   "t": "11-03 01:51",
    "new": "سنڌ سگر ڪين بورڊ جو اجلاس",
    "old": "شگر ڪين بورڊ جو اجلاس: آبادگارن جو 650 رپيا مڻ اگهه جو مطالبو"
   },
@@ -15170,6 +15168,11 @@
    "t": "11-06 08:31",
    "new": "سنڌ | پيٽروليم شين جي قيمتن ۾ گهٽتائي بعد مال برداري جي ڪرائي ۾ 5 سيڪڙ",
    "old": "صبح جون سنڌ جون اهم خبرون"
+  },
+  {
+   "t": "11-06 09:51",
+   "new": "بجلي جي اگهن ۾ واڌ جي درخواست",
+   "old": "بجلي جي اگهن ۾ واڌ جو امڪان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -15190,6 +15193,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 1
- }
+  "repeat": 2
+ },
+ "_dup": true
 }
