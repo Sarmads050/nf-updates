@@ -1,12 +1,5 @@
 {
  "seen": {
-  "bd0b85f00ef510b2": 1793350267.3426218,
-  "f1e0030feca30038": 1793350267.3426244,
-  "f4f7eb0dadcce1a1": 1793350267.3426259,
-  "ebe9ea33e414997d": 1793350277.7500587,
-  "9b1a5ead76b4d424": 1793350277.750063,
-  "9822cd90fab755a8": 1793350277.7500644,
-  "3eacc03da7d9c0b8": 1793350277.7502434,
   "57b0c8e47d42b479": 1793351452.387211,
   "47d2ea07249cd496": 1793351472.362078,
   "0360c7080aecb32d": 1793351472.36208,
@@ -1740,7 +1733,16 @@
   "fc8ebc563b5bda3d": 1793953857.5419683,
   "d2bf9875b6c206f0": 1793953857.542138,
   "0415a561568d5f4d": 1793954454.9147615,
-  "0fa86ef365b3b17b": 1793954454.915026
+  "0fa86ef365b3b17b": 1793954454.915026,
+  "b6715526e2cda714": 1793955676.781992,
+  "210df4ae7cf878d9": 1793955676.7819943,
+  "43290820f020aab8": 1793955676.7819955,
+  "4f3d8fd4b60520e5": 1793955692.6258018,
+  "3ed495117928b965": 1793955692.625805,
+  "35924397e667e6c5": 1793955692.625806,
+  "6cdd62b804a67d16": 1793955692.6258068,
+  "e1134518a2261d81": 1793955692.6258082,
+  "e6b69c7940105727": 1793955692.6260397
  },
  "pending": {
   "culture2026-11-06": {
@@ -1824,7 +1826,7 @@
  "sindh_single": {
   "date": "2026-11-06",
   "count": 1,
-  "last": 1793943682.4535234,
+  "last": 1793955731.339929,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2402,12 +2404,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-06 13:50",
+  "time": "2026-11-06 14:02",
   "items": 12,
   "sample": [
    "Pakistan Cricket Board Patron's XI 151/8 v Sri Lanka 223/7 & 121/6 *",
-   "Bangladesh 36/2 * v West Indies 356/10",
-   "Afghanistan v Zimbabwe 424/6 *"
+   "Bangladesh 44/2 * v West Indies 356/10",
+   "Afghanistan v Zimbabwe 437/7 *"
   ]
  },
  "agri_news": {
@@ -7997,7 +7999,7 @@
  },
  "ai_usage": {
   "date": "2026-11-06",
-  "ok": 139,
+  "ok": 144,
   "fail": 221,
   "limit": 215
  },
@@ -8324,7 +8326,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-06 13:50",
+  "time": "2026-11-06 14:02",
   "steps": []
  },
  "roundup_am": "2026-11-06",
@@ -8427,10 +8429,10 @@
  },
  "article_diag": {
   "date": "2026-11-06",
-  "tried": 14,
-  "decoded": 14,
-  "text": 14,
-  "story": 14
+  "tried": 15,
+  "decoded": 15,
+  "text": 15,
+  "story": 15
  },
  "ai_last_error": "13:26 gemini-flash-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
@@ -8473,7 +8475,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-06",
-   "ok": 84,
+   "ok": 85,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8481,7 +8483,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-06",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8489,7 +8491,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-06",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8497,7 +8499,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 84,
+   "ok": 85,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8505,7 +8507,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8513,14 +8515,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 84,
+   "ok": 85,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8529,9 +8531,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-06",
    "ok": 0,
-   "fail": 85,
+   "fail": 86,
    "items": 15,
-   "fail_streak": 287,
+   "fail_streak": 288,
    "last_status": 404
   }
  },
@@ -8763,14 +8765,14 @@
   "pakistan": 11
  },
  "report_acc": {
-  "posted": 1,
-  "found": 10,
-  "old": 10,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-06 13",
+ "report_hour": "2026-11-06 14",
  "kawish_upload_times": {
   "_date": "2026-11-06",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8805,9 +8807,9 @@
  "sindh_stream": {
   "date": "2026-11-06",
   "count": 6,
-  "last": 1793953391.1261647,
-  "city_i": 16,
-  "dry": 1793940661.5140436
+  "last": 1793955672.4820335,
+  "city_i": 20,
+  "dry": 1793955676.781997
  },
  "gemini_day_dead": {
   "day": "2026-11-06",
@@ -9548,7 +9550,8 @@
    "08:00",
    "09:30",
    "11:00",
-   "12:30"
+   "12:30",
+   "14:00"
   ]
  },
  "kawish_queue": [],
@@ -9558,13 +9561,6 @@
   "last": 1793882514.2651505
  },
  "tg_debug": [
-  {
-   "t": "11-06 07:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-06 07:40",
    "ok": true,
@@ -9833,6 +9829,13 @@
   },
   {
    "t": "11-06 13:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-06 14:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14649,11 +14652,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-03 12:21",
-   "new": "تعليمي دستاويزن جي تصديق ۾ فراڊ، ايڇ اي سي جون هدايتون",
-   "old": "صبح جون سنڌ جون اهم خبرون"
-  },
-  {
    "t": "11-03 13:32",
    "new": "سون جي اگهه ۾ لاٿ",
    "old": "پاڪستان ۾ سوني اگهه ۾ واڌ"
@@ -14797,6 +14795,11 @@
    "t": "11-06 12:31",
    "new": "ڪراچي يونيورسٽيءَ ۾ سنڌي شاگردن جي داخلائن جا مسئلا حل ڪرڻ جو مطالبو",
    "old": "ڪراچي يونيورسٽي: سنڌي شاگرد سٿ جي احتجاج بعد داخلا لسٽ معطل"
+  },
+  {
+   "t": "11-06 14:01",
+   "new": "پاڪستان ۽ نيوزيلينڊ ٽيسٽ سيريز کي شيڊولنگ چئلينج",
+   "old": "پاڪستان ۽ نيوزيلينڊ ڪرڪيٽ بورڊز جون ڳالهيون جاري"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14817,6 +14820,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 7
- }
+  "repeat": 8
+ },
+ "_dup": true
 }
