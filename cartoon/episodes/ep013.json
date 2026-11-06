@@ -1,0 +1,465 @@
+{
+ "id": "ep013",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 13,
+ "title": "Ajrak Kahan Gayi?",
+ "topic": "Sindhi Culture Day school prep - Mehak needs Abba's old ajrak tomorrow, whole house searches, it was on Abba's shoulders",
+ "music": "comic",
+ "lesson": "Apni saqafat sambhal kar rakhein...<br>aur kandhe bhi check kar lein!",
+ "caption": "Mehak ko kal school ke Sindhi Culture Day ke liye ajrak chahiye thi... poora ghar dhoondta raha, aur ajrak thi Abba ke kandhon par! 😂🧣 Aap ke ghar mein cheezein kaun gum karta hai? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#Ajrak",
+  "#SindhiCultureDay",
+  "#PakistaniFamily",
+  "#UrduCartoon"
+ ],
+ "scenes": [
+  {
+   "set": "living_room",
+   "time": "evening",
+   "label": "Drawing Room • Shaam",
+   "cast": {
+    "AMMI": "sofa_c"
+   },
+   "props": {
+    "MEHAK": "bag"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Nawabshah mein *shaam* ho gayi... aur Mehak ko achanak ek *zaroori kaam* yaad aaya!",
+     "urdu": "نواب شاہ میں شام ہو گئی... اور مہک کو اچانک ایک ضروری کام یاد آیا!",
+     "how": "warm storyteller, playful, a little suspense",
+     "shot": "wide",
+     "gap": 0.1,
+     "react_pose": {
+      "AMMI": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "worried",
+     "roman": "Ammi! Kal school mein *Sindhi Culture Day* ki tayyari hai. Mujhe *ajrak* chahiye!",
+     "urdu": "امی! کل اسکول میں سندھی کلچر ڈے کی تیاری ہے۔ مجھے اجرک چاہیے!",
+     "how": "14-year-old girl rushing in, out of breath, urgent",
+     "pose": "plead",
+     "shot": "close",
+     "before": [
+      {
+       "do": "enter",
+       "who": "MEHAK",
+       "slot": "stand_cr"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      }
+     ],
+     "looks": {
+      "AMMI": "MEHAK"
+     },
+     "react": {
+      "AMMI": "surprised"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "surprised",
+     "roman": "*Kal* subah? Aur tum mujhe *aaj shaam* ko bata rahi ho?",
+     "urdu": "کل صبح؟ اور تم مجھے آج شام کو بتا رہی ہو؟",
+     "how": "mother, shocked and scolding lovingly",
+     "pose": "wag",
+     "react": {
+      "MEHAK": "sheepish"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "roman": "Teacher ne to *pichle hafte* bataya tha... main *bhool* gayi thi.",
+     "urdu": "ٹیچر نے تو پچھلے ہفتے بتایا تھا... میں بھول گئی تھی۔",
+     "how": "embarrassed girl, small voice",
+     "pose": "scratch_head",
+     "react": {
+      "AMMI": "angry"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "door",
+     "emo": "worried",
+     "roman": "Suniye! Aap ki *purani ajrak* trunk mein nahi hai. Kahan rakhi hai?",
+     "urdu": "سنیے! آپ کی پرانی اجرک ٹرنک میں نہیں ہے۔ کہاں رکھی ہے؟",
+     "how": "calling loudly to husband in the other room",
+     "pose": "beckon",
+     "react": {
+      "MEHAK": "worried"
+     },
+     "looks": {
+      "MEHAK": "door"
+     }
+    },
+    {
+     "who": "ABBA",
+     "offscreen": true,
+     "to": "front",
+     "emo": "proud",
+     "roman": "Mujhe kya pata? Humare zamane mein to *har cheez apni jagah* par hoti thi!",
+     "urdu": "مجھے کیا پتا؟ ہمارے زمانے میں تو ہر چیز اپنی جگہ پر ہوتی تھی!",
+     "how": "older father from another room, confident, a bit lecturing",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "AMMI": "angry",
+      "MEHAK": "teasing"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Main *Bhabi* se poochti hoon. Woh har gum hui cheez *dhoondh* leti hain!",
+     "urdu": "میں بھابی سے پوچھتی ہوں۔ وہ ہر گم ہوئی چیز ڈھونڈ لیتی ہیں!",
+     "how": "girl getting an idea, hopeful",
+     "pose": "point_up",
+     "react": {
+      "AMMI": "calm"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "time": "evening",
+   "label": "Kitchen • Shaam",
+   "cast": {
+    "SANA": "stove",
+    "IMTIAZ": "right"
+   },
+   "props": {
+    "IMTIAZ": "cup",
+    "SANA": "ladle"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Ab ghar mein *ajrak ki talaash* shuru ho gayi...",
+     "urdu": "اب گھر میں اجرک کی تلاش شروع ہو گئی...",
+     "how": "storyteller, playful detective tone",
+     "shot": "wide",
+     "gap": 0.1,
+     "react_pose": {
+      "SANA": "rest",
+      "IMTIAZ": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "SANA",
+     "emo": "worried",
+     "roman": "Bhabi! Aap ne Abba ki *ajrak* kahin dekhi hai? Bohot zaroori hai!",
+     "urdu": "بھابی! آپ نے ابا کی اجرک کہیں دیکھی ہے؟ بہت ضروری ہے!",
+     "how": "urgent teenage girl",
+     "pose": "plead",
+     "shot": "close",
+     "before": [
+      {
+       "do": "enter",
+       "who": "MEHAK",
+       "slot": "mid"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      }
+     ],
+     "looks": {
+      "SANA": "MEHAK",
+      "IMTIAZ": "MEHAK"
+     },
+     "react": {
+      "SANA": "surprised"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "MEHAK",
+     "emo": "confused",
+     "roman": "Ajrak? Main ne kal kapre dhoye the, lekin *ajrak un mein nahi* thi.",
+     "urdu": "اجرک؟ میں نے کل کپڑے دھوئے تھے، لیکن اجرک ان میں نہیں تھی۔",
+     "how": "polite young woman, thinking, calm",
+     "pose": "think",
+     "react": {
+      "MEHAK": "sad"
+     }
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "MEHAK",
+     "emo": "tired",
+     "roman": "Pareshan mat ho. Office mein Chinese kehte hain, *\"Man man lai\"*... yaani aaram se!",
+     "urdu": "پریشان مت ہو۔ آفس میں چائنیز کہتے ہیں، مان مان لائی... یعنی آرام سے!",
+     "how": "tired elder brother just home from work, slow relaxed voice, proud of his Chinese",
+     "pose": "explain",
+     "react": {
+      "MEHAK": "angry",
+      "SANA": "teasing"
+     },
+     "looks": {
+      "MEHAK": "IMTIAZ"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "IMTIAZ",
+     "emo": "teasing",
+     "roman": "Ada, tayyari *kal subah* hai! Aaram se dhoondha to *agle saal* milegi!",
+     "urdu": "اَدا، تیاری کل صبح ہے! آرام سے ڈھونڈا تو اگلے سال ملے گی!",
+     "how": "cheeky sister, quick comic retort",
+     "pose": "hands_hips",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "IMTIAZ": "sheepish",
+      "SANA": "laugh"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "MEHAK",
+     "emo": [
+      [
+       0,
+       "focused"
+      ],
+      [
+       0.4,
+       "surprised"
+      ]
+     ],
+     "roman": "Ruko! Aaj subah thand mein main ne Abba ko *trunk ke paas* dekha tha.",
+     "urdu": "رکو! آج صبح ٹھنڈ میں میں نے ابا کو ٹرنک کے پاس دیکھا تھا۔",
+     "how": "sudden realisation, clue found",
+     "pose": "point_up",
+     "shot": "close:SANA",
+     "react": {
+      "MEHAK": "surprised",
+      "IMTIAZ": "surprised"
+     },
+     "looks": {
+      "MEHAK": "SANA",
+      "IMTIAZ": "SANA"
+     }
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "MEHAK",
+     "emo": "happy",
+     "roman": "To phir sab se pehle *Abba* se hi poochna chahiye tha! Chalo, aangan mein.",
+     "urdu": "تو پھر سب سے پہلے ابا سے ہی پوچھنا چاہیے تھا! چلو، آنگن میں۔",
+     "how": "elder brother, decisive, light laugh",
+     "pose": "beckon",
+     "react": {
+      "MEHAK": "happy"
+     }
+    }
+   ]
+  },
+  {
+   "set": "aangan",
+   "time": "evening",
+   "label": "Aangan • Shaam",
+   "cast": {
+    "ABBA": "charpai_c"
+   },
+   "props": {
+    "ABBA": "newspaper"
+   },
+   "lines": [
+    {
+     "who": "MEHAK",
+     "to": "ABBA",
+     "emo": "worried",
+     "roman": "Abba! Bhabi ne subah aap ko *trunk ke paas* dekha tha. Ajrak aap ne nikali thi?",
+     "urdu": "ابا! بھابی نے صبح آپ کو ٹرنک کے پاس دیکھا تھا۔ اجرک آپ نے نکالی تھی؟",
+     "how": "girl asking carefully, hopeful",
+     "pose": "plead",
+     "shot": "two",
+     "before": [
+      {
+       "do": "enter",
+       "who": "MEHAK",
+       "slot": "stand_l"
+      },
+      {
+       "do": "enter",
+       "who": "IMTIAZ",
+       "slot": "charpai_r"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.3
+      }
+     ],
+     "looks": {
+      "ABBA": "MEHAK",
+      "IMTIAZ": "ABBA"
+     },
+     "react": {
+      "ABBA": "confused"
+     },
+     "react_pose": {
+      "ABBA": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "MEHAK",
+     "emo": "confused",
+     "roman": "Main ne? Main ne to subah sirf *thand se bachne* ke liye ek chadar nikali thi.",
+     "urdu": "میں نے؟ میں نے تو صبح صرف ٹھنڈ سے بچنے کے لیے ایک چادر نکالی تھی۔",
+     "how": "old father, puzzled, innocent",
+     "pose": "shrug",
+     "react": {
+      "MEHAK": "confused"
+     }
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "ABBA",
+     "emo": "laugh",
+     "roman": "Abba... woh *chadar* aap ke *kandhon par* hai. Wohi to aap ki ajrak hai!",
+     "urdu": "ابا... وہ چادر آپ کے کندھوں پر ہے۔ وہی تو آپ کی اجرک ہے!",
+     "how": "son trying not to laugh, then laughing",
+     "pose": "point_other",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.7,
+     "react": {
+      "ABBA": "surprised",
+      "MEHAK": "laugh"
+     },
+     "looks": {
+      "MEHAK": "ABBA"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "down",
+     "emo": "surprised",
+     "roman": "Arre! Yeh to sach mein *meri ajrak* hai! Main subah se odh kar baitha hoon!",
+     "urdu": "ارے! یہ تو سچ مچ میری اجرک ہے! میں صبح سے اوڑھ کر بیٹھا ہوں!",
+     "how": "father shocked, looking down at his shoulders, then amused",
+     "pose": "point_down",
+     "shot": "close:ABBA",
+     "react": {
+      "MEHAK": "laugh",
+      "IMTIAZ": "laugh"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "angry",
+     "roman": "Poore ghar ko *dauraya*, aur ajrak Abba ke kandhon par *aaram* kar rahi thi!",
+     "urdu": "پورے گھر کو دوڑایا، اور اجرک ابا کے کندھوں پر آرام کر رہی تھی!",
+     "how": "wife, fake-angry, comic exasperation",
+     "pose": "hands_hips",
+     "joke": true,
+     "gap": 0.6,
+     "before": [
+      {
+       "do": "enter",
+       "who": "AMMI",
+       "slot": "stand_r"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      }
+     ],
+     "looks": {
+      "ABBA": "AMMI",
+      "MEHAK": "AMMI",
+      "IMTIAZ": "AMMI"
+     },
+     "react": {
+      "ABBA": "sheepish",
+      "MEHAK": "laugh"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "roman": "Humare zamane mein bhi *chashma* sar par hota tha, aur hum use *dhoondhte* the!",
+     "urdu": "ہمارے زمانے میں بھی چشمہ سر پر ہوتا تھا، اور ہم اسے ڈھونڈتے تھے!",
+     "how": "father embarrassed, laughing at himself",
+     "pose": "scratch_head",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.7,
+     "react": {
+      "*": "laugh"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "MEHAK",
+     "emo": "warm",
+     "roman": "Mehak beta, kal subah main *khud* tumhein yeh ajrak pehnaunga.",
+     "urdu": "مہک بیٹا، کل صبح میں خود تمہیں یہ اجرک پہناؤں گا۔",
+     "how": "soft loving father, proud",
+     "pose": "chest",
+     "react": {
+      "MEHAK": "happy",
+      "AMMI": "warm"
+     },
+     "looks": {
+      "MEHAK": "ABBA"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ABBA",
+     "emo": "happy",
+     "roman": "Shukriya Abba! Kal sab se *khoobsurat ajrak* meri hogi!",
+     "urdu": "شکریہ ابا! کل سب سے خوبصورت اجرک میری ہوگی!",
+     "how": "happy excited girl",
+     "pose": "clap",
+     "react": {
+      "ABBA": "proud"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "teasing",
+     "roman": "Aur agli dafa school ka kaam *ek hafta pehle* batana, aakhri shaam ko nahi!",
+     "urdu": "اور اگلی دفعہ اسکول کا کام ایک ہفتہ پہلے بتانا، آخری شام کو نہیں!",
+     "how": "mother teasing warmly, final word",
+     "pose": "wag",
+     "shot": "group",
+     "joke": true,
+     "gap": 0.8,
+     "react": {
+      "*": "laugh"
+     }
+    }
+   ]
+  }
+ ]
+}
