@@ -1755,7 +1755,8 @@
   "901bb2ec683fe16d": 1793928685.6567056,
   "be11bdc2ec1d7b8a": 1793928685.6567082,
   "5c0bb168e830f11d": 1793928685.6569173,
-  "1576d2a9c9b1f715": 1793929856.2729006
+  "1576d2a9c9b1f715": 1793929856.2729006,
+  "96125763cde18d03": 1793931052.842655
  },
  "pending": {},
  "queue": [],
@@ -2409,10 +2410,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-06 07:03",
+  "time": "2026-11-06 07:10",
   "items": 12,
   "sample": [
-   "Pakistan Cricket Board Patron's XI 151/8 v Sri Lanka 223/7 & 121/6 *",
+   "Pakistan Cricket Board Patron's XI 151/8 v Sri Lanka 121/6 & 223/7 *",
    "Bangladesh v West Indies 235/4 *",
    "Afghanistan v Zimbabwe 326/5 *"
   ]
@@ -4837,32 +4838,8 @@
   "last": 1793928808.3333712
  },
  "trends": {
-  "last": 1793920248.5402896,
+  "last": 1793931052.842765,
   "terms": [
-   {
-    "term": "hb køge vs barcelona",
-    "traffic": 200,
-    "news": "Man City 1-1 PSG (29 Oct, 2026) Team Stats",
-    "t": 1793317855,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "al nassr match",
-    "traffic": 500,
-    "news": "Al Nassr vs Al Kholood - Confirmed starting lineups for Saudi Pro League 2026-27 clash",
-    "t": 1793317855,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "saudi pro league",
-    "traffic": 2000,
-    "news": "Joao Felix makes Saudi Pro League history as Cristiano Ronaldo leads Al Nassr to a 5-3 win vs Al Kholood",
-    "t": 1793317855,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "hong kong super sixes",
     "traffic": 500,
@@ -7934,15 +7911,63 @@
     "t": 1793920249,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "cricket",
+    "traffic": 200,
+    "news": "Big Bash League: Chris Lynn serves out cocaine suspension",
+    "t": 1793931053,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "ac milan vs ferencváros standings",
+    "traffic": 500,
+    "news": "Europa League live: Milan meet Ferencvaros, AZ Alkmaar host Juventus, Atalanta face Kairat",
+    "t": 1793931053,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "europa conference league",
+    "traffic": 500,
+    "news": "Getafe vs. Brighton Lineups, Live Streaming, How & Where to Watch UEFA Conference League on TV",
+    "t": 1793931053,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "icc player of the month",
+    "traffic": 200,
+    "news": "Deepti Sharma, Annabel Sutherland, Sobhana Mostary nominated for ICC Women's Player of the Month award",
+    "t": 1793931053,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "2025",
+    "traffic": 100,
+    "news": "Stock Market News, Nov. 5, 2026: Nasdaq Plunges 5.5%; Investors Retreat From AI Trade After Election",
+    "t": 1793931053,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "europa league",
+    "traffic": 200,
+    "news": "Licensable picture: N.E.C. Nijmegen v Omonia FC - UEFA Europa League 2026/27 League Phase MD4",
+    "t": 1793931053,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-06",
-  "ok": 61,
-  "fail": 98,
-  "limit": 98
+  "ok": 62,
+  "fail": 100,
+  "limit": 100
  },
  "posted_heads": [
   {
@@ -8267,7 +8292,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-06 07:03",
+  "time": "2026-11-06 07:10",
   "steps": []
  },
  "roundup_am": "2026-11-05",
@@ -8375,7 +8400,7 @@
   "text": 8,
   "story": 8
  },
- "ai_last_error": "07:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "07:10 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-06",
   "models": [
@@ -8416,7 +8441,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-06",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8424,7 +8449,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-06",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8432,7 +8457,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-06",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8440,7 +8465,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 42,
+   "ok": 43,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8448,7 +8473,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8456,14 +8481,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 42,
+   "ok": 43,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8472,9 +8497,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-06",
    "ok": 0,
-   "fail": 43,
+   "fail": 44,
    "items": 15,
-   "fail_streak": 245,
+   "fail_streak": 246,
    "last_status": 404
   }
  },
@@ -8707,8 +8732,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9533,13 +9558,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-06 00:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-06 00:40",
    "ok": true,
    "n": 0,
@@ -9807,6 +9825,13 @@
   },
   {
    "t": "11-06 07:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-06 07:10",
    "ok": true,
    "n": 0,
    "ids": [],
