@@ -2418,12 +2418,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-06 12:31",
+  "time": "2026-11-06 12:40",
   "items": 12,
   "sample": [
    "Pakistan Cricket Board Patron's XI 151/8 v Sri Lanka 223/7 & 121/6 *",
    "Bangladesh 13/1 * v West Indies 356/10",
-   "Afghanistan v Zimbabwe 388/6 *"
+   "Afghanistan v Zimbabwe 401/6 *"
   ]
  },
  "agri_news": {
@@ -8332,7 +8332,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-06 12:31",
+  "time": "2026-11-06 12:40",
   "steps": []
  },
  "roundup_am": "2026-11-06",
@@ -8481,7 +8481,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-06",
-   "ok": 76,
+   "ok": 77,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8489,7 +8489,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-06",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8497,7 +8497,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-06",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8505,7 +8505,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 76,
+   "ok": 77,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8513,7 +8513,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8521,14 +8521,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 76,
+   "ok": 77,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8537,9 +8537,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-06",
    "ok": 0,
-   "fail": 77,
+   "fail": 78,
    "items": 15,
-   "fail_streak": 279,
+   "fail_streak": 280,
    "last_status": 404
   }
  },
@@ -8772,8 +8772,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 6,
-  "old": 6,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9587,13 +9587,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-06 06:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-06 06:20",
    "ok": true,
    "n": 0,
@@ -9861,6 +9854,13 @@
   },
   {
    "t": "11-06 12:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-06 12:40",
    "ok": true,
    "n": 0,
    "ids": [],
