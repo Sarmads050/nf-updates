@@ -1,11 +1,5 @@
 {
  "seen": {
-  "195361bec4241107": 1793337060.0583818,
-  "1367a0a3c5137ccb": 1793337067.779775,
-  "4410b5285a0a31e5": 1793337072.8946738,
-  "e68d8e5ac34e91f3": 1793337072.8946764,
-  "b14b19eae28595ce": 1793337072.8946774,
-  "5c109169945d98f2": 1793337072.8948958,
   "33cbcfd7f3f014ed": 1793337652.784453,
   "9a7f45841de09d90": 1793338271.2879,
   "5aa24b5cbc747daa": 1793339459.5798151,
@@ -1748,7 +1742,14 @@
   "cc320527cd09a38a": 1793940694.893256,
   "8b09fb68c0f331b3": 1793940694.8934457,
   "9e8b0eb948664211": 1793941268.5611458,
-  "a0cbac1ffdda1426": 1793941278.9993708
+  "a0cbac1ffdda1426": 1793941278.9993708,
+  "fb29d32a5c14636c": 1793942470.5264907,
+  "6193ee118cdfdabe": 1793942470.5264928,
+  "218cbbd06f9d71c4": 1793942470.5264943,
+  "b546eb78a45741c3": 1793942470.526495,
+  "9359f5aef98880e8": 1793942470.5264955,
+  "881331476fe7f902": 1793942470.5264962,
+  "c546f4bd68c6ee0a": 1793942470.5264978
  },
  "pending": {
   "culture2026-11-06": {
@@ -2409,11 +2410,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-06 10:10",
+  "time": "2026-11-06 10:21",
   "items": 12,
   "sample": [
-   "Pakistan Cricket Board Patron's XI 151/8 v Sri Lanka 121/6 & 223/7 *",
-   "Bangladesh v West Indies 301/7 *",
+   "Pakistan Cricket Board Patron's XI 151/8 v Sri Lanka 223/7 & 121/6 *",
+   "Bangladesh v West Indies 307/8 *",
    "Afghanistan v Zimbabwe 326/5 *"
   ]
  },
@@ -7996,9 +7997,9 @@
  },
  "ai_usage": {
   "date": "2026-11-06",
-  "ok": 103,
-  "fail": 162,
-  "limit": 162
+  "ok": 105,
+  "fail": 166,
+  "limit": 166
  },
  "posted_heads": [
   {
@@ -8323,7 +8324,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-06 10:10",
+  "time": "2026-11-06 10:21",
   "steps": []
  },
  "roundup_am": "2026-11-06",
@@ -8431,7 +8432,7 @@
   "text": 13,
   "story": 13
  },
- "ai_last_error": "10:10 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-06",
   "models": [
@@ -8472,7 +8473,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-06",
-   "ok": 62,
+   "ok": 63,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8480,7 +8481,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-06",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8488,7 +8489,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-06",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8496,7 +8497,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 62,
+   "ok": 63,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8504,7 +8505,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8512,14 +8513,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 62,
+   "ok": 63,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8528,9 +8529,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-06",
    "ok": 0,
-   "fail": 63,
+   "fail": 64,
    "items": 15,
-   "fail_streak": 265,
+   "fail_streak": 266,
    "last_status": 404
   }
  },
@@ -8763,8 +8764,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8804,8 +8805,8 @@
  "sindh_stream": {
   "date": "2026-11-06",
   "count": 2,
-  "last": 1793941276.7092648,
-  "city_i": 24,
+  "last": 1793942468.3745327,
+  "city_i": 6,
   "dry": 1793940661.5140436
  },
  "gemini_day_dead": {
@@ -9600,13 +9601,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-06 03:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-06 03:52",
    "ok": true,
    "n": 0,
@@ -9874,6 +9868,13 @@
   },
   {
    "t": "11-06 10:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-06 10:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14972,11 +14973,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-03 01:51",
-   "new": "سنڌ سگر ڪين بورڊ جو اجلاس",
-   "old": "شگر ڪين بورڊ جو اجلاس: آبادگارن جو 650 رپيا مڻ اگهه جو مطالبو"
-  },
-  {
    "t": "11-03 04:31",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات",
    "old": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات."
@@ -15120,6 +15116,11 @@
    "t": "11-06 09:51",
    "new": "بجلي جي اگهن ۾ واڌ جي درخواست",
    "old": "بجلي جي اگهن ۾ واڌ جو امڪان"
+  },
+  {
+   "t": "11-06 10:21",
+   "new": "بجلي واهپيدارن تي 23 ارب 33 ڪروڙ رپين جو اضافي بار",
+   "old": "بجلي جي اگهن ۾ واڌ جو امڪان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -15140,6 +15141,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 2
- }
+  "repeat": 3
+ },
+ "_dup": true
 }
