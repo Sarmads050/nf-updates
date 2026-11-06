@@ -1765,7 +1765,8 @@
   "a7d065606626a4f0": 1793932883.1823,
   "4577d5189881b2d2": 1793932883.1823027,
   "0410bf54dae0b6d8": 1793932883.1824598,
-  "ba99bee185586401": 1793934939.7150154
+  "ba99bee185586401": 1793934939.7150154,
+  "1cc04cba6d1bf94e": 1793935898.2078984
  },
  "pending": {},
  "queue": [],
@@ -1837,7 +1838,7 @@
  "sindh_single": {
   "date": "2026-11-06",
   "count": 0,
-  "last": 1793898193.635004,
+  "last": 1793935896.2708766,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1874,7 +1875,8 @@
    "4359f2072e9f7bd5",
    "6ef3165a76411a93",
    "42e3c3bc2efb4b49",
-   "ad942156a590c947"
+   "ad942156a590c947",
+   "1cc04cba6d1bf94e"
   ]
  },
  "last_post_id": "1444130002106066_122118072381503839",
@@ -2414,7 +2416,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-06 08:20",
+  "time": "2026-11-06 08:31",
   "items": 12,
   "sample": [
    "Pakistan Cricket Board Patron's XI 151/8 v Sri Lanka 223/7 & 121/6 *",
@@ -7969,9 +7971,9 @@
  },
  "ai_usage": {
   "date": "2026-11-06",
-  "ok": 85,
-  "fail": 132,
-  "limit": 132
+  "ok": 86,
+  "fail": 134,
+  "limit": 134
  },
  "posted_heads": [
   {
@@ -8296,7 +8298,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-06 08:20",
+  "time": "2026-11-06 08:31",
   "steps": []
  },
  "roundup_am": "2026-11-06",
@@ -8404,7 +8406,7 @@
   "text": 11,
   "story": 11
  },
- "ai_last_error": "08:15 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-06",
   "models": [
@@ -8445,7 +8447,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-06",
-   "ok": 51,
+   "ok": 52,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8453,7 +8455,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-06",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8461,7 +8463,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-06",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8469,7 +8471,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 51,
+   "ok": 52,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8477,7 +8479,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8485,14 +8487,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 51,
+   "ok": 52,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8501,9 +8503,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-06",
    "ok": 0,
-   "fail": 52,
+   "fail": 53,
    "items": 15,
-   "fail_streak": 254,
+   "fail_streak": 255,
    "last_status": 404
   }
  },
@@ -8736,8 +8738,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 4,
-  "old": 4,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8778,8 +8780,8 @@
   "date": "2026-11-06",
   "count": 1,
   "last": 1793908266.4982307,
-  "city_i": 10,
-  "dry": 1793934928.6803823
+  "city_i": 14,
+  "dry": 1793935871.4537826
  },
  "gemini_day_dead": {
   "day": "2026-11-05",
@@ -9572,13 +9574,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-06 02:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-06 02:10",
    "ok": true,
    "n": 0,
@@ -9846,6 +9841,13 @@
   },
   {
    "t": "11-06 08:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-06 08:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -15004,11 +15006,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-02 21:31",
-   "new": "سنڌ | پاڪستان ۾ مهانگائي جي شرح",
-   "old": "مهانگائي ۾ گهٽتائي، آڪٽوبر ۾ اگهه سستا"
-  },
-  {
    "t": "11-03 01:51",
    "new": "آڪٽوبر ۾ مهانگائي جي شرح گهٽجي 9.6 سيڪڙو ٿي وئي",
    "old": "مهانگائي ۾ گهٽتائي، آڪٽوبر ۾ اگهه سستا"
@@ -15152,6 +15149,11 @@
    "t": "11-05 23:11",
    "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گھٽتا",
    "old": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽتائي جو اعلان"
+  },
+  {
+   "t": "11-06 08:31",
+   "new": "سنڌ | پيٽروليم شين جي قيمتن ۾ گهٽتائي بعد مال برداري جي ڪرائي ۾ 5 سيڪڙ",
+   "old": "صبح جون سنڌ جون اهم خبرون"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -15172,6 +15174,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 0
- }
+  "repeat": 1
+ },
+ "_dup": true
 }
