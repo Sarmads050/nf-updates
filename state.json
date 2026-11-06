@@ -1751,7 +1751,9 @@
   "ebae6f5cdff5089a": 1793946066.6145413,
   "949b1553395adc85": 1793946066.6145446,
   "d12d4b83c8517955": 1793947286.3474815,
-  "5f83ab3a4739b27e": 1793947286.3474858
+  "5f83ab3a4739b27e": 1793947286.3474858,
+  "9d22d465d646e125": 1793949060.874549,
+  "bd6332c19cc0eecf": 1793949060.874552
  },
  "pending": {
   "culture2026-11-06": {
@@ -2411,12 +2413,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-06 12:01",
+  "time": "2026-11-06 12:11",
   "items": 12,
   "sample": [
    "Pakistan Cricket Board Patron's XI 151/8 v Sri Lanka 121/6 & 223/7 *",
-   "Bangladesh v West Indies 356/9 *",
-   "Afghanistan v Zimbabwe 369/5 *"
+   "Bangladesh v West Indies 356/10 *",
+   "Afghanistan v Zimbabwe 374/5 *"
   ]
  },
  "agri_news": {
@@ -7998,9 +8000,9 @@
  },
  "ai_usage": {
   "date": "2026-11-06",
-  "ok": 122,
-  "fail": 196,
-  "limit": 196
+  "ok": 124,
+  "fail": 200,
+  "limit": 200
  },
  "posted_heads": [
   {
@@ -8325,7 +8327,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-06 12:01",
+  "time": "2026-11-06 12:11",
   "steps": []
  },
  "roundup_am": "2026-11-06",
@@ -8433,7 +8435,7 @@
   "text": 13,
   "story": 13
  },
- "ai_last_error": "11:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "12:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-06",
   "models": [
@@ -8474,7 +8476,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-06",
-   "ok": 73,
+   "ok": 74,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8482,7 +8484,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-06",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8490,7 +8492,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-06",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8498,7 +8500,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 73,
+   "ok": 74,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8506,7 +8508,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8514,14 +8516,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 73,
+   "ok": 74,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8530,9 +8532,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-06",
    "ok": 0,
-   "fail": 74,
+   "fail": 75,
    "items": 15,
-   "fail_streak": 276,
+   "fail_streak": 277,
    "last_status": 404
   }
  },
@@ -8765,8 +8767,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8806,8 +8808,8 @@
  "sindh_stream": {
   "date": "2026-11-06",
   "count": 4,
-  "last": 1793947282.641755,
-  "city_i": 22,
+  "last": 1793949058.1560438,
+  "city_i": 4,
   "dry": 1793940661.5140436
  },
  "gemini_day_dead": {
@@ -9579,13 +9581,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-06 05:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-06 05:50",
    "ok": true,
    "n": 0,
@@ -9853,6 +9848,13 @@
   },
   {
    "t": "11-06 12:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-06 12:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14823,11 +14825,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-03 08:41",
-   "new": "پيٽرول ۽ڊيزل اگهن ۾ گهٽاٺ",
-   "old": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات."
-  },
-  {
    "t": "11-03 09:41",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ روزاني واڌ ۽ گھٽتائي جو امڪان",
    "old": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات."
@@ -14971,6 +14968,11 @@
    "t": "11-06 11:21",
    "new": "ملڪ ۾ سون جي اگهن ۾ هڪ ڀيرو ٻيهر وڏو اضافو",
    "old": "پاڪستان ۾ سون جي اگهه ۾ وڏو واڌ"
+  },
+  {
+   "t": "11-06 12:11",
+   "new": "بجلي صارفين تي 23 ارب رپين جو اضافي بار وجهڻ جي تياري",
+   "old": "بجلي جي اگهن ۾ واڌ جو امڪان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14991,6 +14993,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 5
- }
+  "repeat": 6
+ },
+ "_dup": true
 }
