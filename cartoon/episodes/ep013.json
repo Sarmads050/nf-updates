@@ -178,6 +178,11 @@
        "slot": "mid"
       },
       {
+       "do": "prop",
+       "who": "MEHAK",
+       "prop": null
+      },
+      {
        "do": "sfx",
        "name": "door",
        "wait": 0.2
@@ -281,7 +286,7 @@
    "time": "evening",
    "label": "Aangan • Shaam",
    "cast": {
-    "ABBA": "charpai_c"
+    "ABBA": "charpai_l"
    },
    "props": {
     "ABBA": "newspaper"
@@ -311,6 +316,16 @@
        "do": "sfx",
        "name": "door",
        "wait": 0.3
+      },
+      {
+       "do": "prop",
+       "who": "ABBA",
+       "prop": null
+      },
+      {
+       "do": "prop",
+       "who": "IMTIAZ",
+       "prop": null
       }
      ],
      "looks": {
@@ -344,7 +359,7 @@
      "urdu": "ابا... وہ چادر آپ کے کندھوں پر ہے۔ وہی تو آپ کی اجرک ہے!",
      "how": "son trying not to laugh, then laughing",
      "pose": "point_other",
-     "shot": "punch",
+     "shot": "two:ABBA",
      "joke": true,
      "gap": 0.7,
      "react": {
