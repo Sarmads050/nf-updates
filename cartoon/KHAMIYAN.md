@@ -19,6 +19,9 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-023] (ep012, 2026-11-05) Kahani mein "dhuaan aur dhund" hai lekin aangan ka aasmaan saaf neela aur dhoop wala dikhta hai — sets.py mein naya `time: "smog"` (halka surmai dhundla parda, phiki dhoop, door ki cheezein dhundli) banana.
 - [K-024] (ep012, 2026-11-05) Haath mein cup ho to "objection"/"point_up" pose mein cup bhi chehre ke paas upar chala jata hai (Daniyal, aangan wale scenes mein) — ishare wale pose mein prop doosre (neeche wale) haath mein shift karna.
 - [K-025] (ep012, 2026-11-05) Asli awaazon ke saath 25 lines 147 second ki ban gayin (hadd 130), is liye 2 lines kaatni parin aur poora render dobara hua (20 min zaya) — check.py mein har line ke lafzon se andaazan duration bata dena, taa ke script pehle hi 130 s ke andar likhi jaye.
+- [K-026] (ep013, 2026-11-06) Abba ki ajrak kandhon par sirf do patli laal patiyan lagti hai, jaise waistcoat ho — "ajrak kandhon par hai" wale punchline mein pehchani nahi jati — ajrak ko chaura shawl banana (kandhon se seene tak latakta hua, asli ajrak jaisa gehra laal/neela block-print pattern aur kinare ki jhalar).
+- [K-027] (ep013, 2026-11-06) Mehak ka school "bag" prop seene ke aage chhota jamni dabba lagta hai, school bag nahi lagta — naya kandhe par latakne wala school bag (strap ke saath) banana.
+- [K-028] (ep013, 2026-11-06) Kahani mein "trunk" (razaiyon wala sandooq) ka zikr hai lekin screen par kahin trunk nahi hai — bedroom/aangan mein lohay ka rangeen trunk (set piece) add karna jo zaroorat par dikh sake.
 
 ## APPROVED
 
