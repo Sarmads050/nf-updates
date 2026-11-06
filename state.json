@@ -1830,7 +1830,7 @@
  "sindh_single": {
   "date": "2026-11-06",
   "count": 1,
-  "last": 1793955731.339929,
+  "last": 1793964082.0991337,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2400,12 +2400,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-06 16:10",
+  "time": "2026-11-06 16:21",
   "items": 13,
   "sample": [
-   "Pakistan Cricket Board Patron's XI 151/8 v Sri Lanka 223/7 & 134/7 *",
+   "Pakistan Cricket Board Patron's XI 151/8 v Sri Lanka 223/7 & 181/10 *",
    "Bangladesh 88/3 * v West Indies 356/10",
-   "Afghanistan 14/1 * v Zimbabwe 504/10"
+   "Afghanistan 19/1 * v Zimbabwe 504/10"
   ]
  },
  "agri_news": {
@@ -4828,80 +4828,8 @@
   "last": 1793936510.992722
  },
  "trends": {
-  "last": 1793953247.3486404,
+  "last": 1793964059.536669,
   "terms": [
-   {
-    "term": "nitish kumar reddy",
-    "traffic": 500,
-    "news": "India pacer ruled out of ODI series against New Zealand",
-    "t": 1793352060,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "پٹرولیم",
-    "traffic": 200,
-    "news": "حکومت نے پیٹرول اور ڈیزل مہنگا کر دیا",
-    "t": 1793352060,
-    "cat": "fuel",
-    "sindh": false
-   },
-   {
-    "term": "mitchell santner",
-    "traffic": 500,
-    "news": "Arshdeep Singh matches ex-GT pacer's record in T20I cricket",
-    "t": 1793352060,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "economy",
-    "traffic": 100,
-    "news": "Chinese Envoy reaffirms China’s commitment transferring benefits of CPEC to general public",
-    "t": 1793352060,
-    "cat": "transport_trade",
-    "sindh": false
-   },
-   {
-    "term": "india",
-    "traffic": 200,
-    "news": "India's Batting Falters in Hong Kong Sixes Loss to Pakistan",
-    "t": 1793352060,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "daryl mitchell",
-    "traffic": 1000,
-    "news": "India race to a historic chase to seal T20I series in Wellington",
-    "t": 1793352060,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "prince yadav",
-    "traffic": 500,
-    "news": "IND vs NZ, 2nd T20I: Prince Yadav's incredible yorker sends Finn Allen to the pavilion for 16 runs - WATCH",
-    "t": 1793352060,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "ireland cricket team vs namibia national cricket team match scorecard",
-    "traffic": 1000,
-    "news": "1st ODI, Ireland tour of Namibia at Windhoek, Oct 22 2026",
-    "t": 1793352060,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "new zealand vs india",
-    "traffic": 100000,
-    "news": "Time for the victory lap: India aim to maintain unbeaten run in Auckland as New Zealand look to avoid whi",
-    "t": 1793352060,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "dwarf planet beyond pluto",
     "traffic": 2000,
@@ -7989,15 +7917,63 @@
     "t": 1793953247,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "engine",
+    "traffic": 200,
+    "news": "Blue Origin announces 3rd stage for its powerful New Glenn rocket — and a new engine",
+    "t": 1793964059,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "ind u19 vs nep u19",
+    "traffic": 100,
+    "news": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
+    "t": 1793964059,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "bbl women",
+    "traffic": 100,
+    "news": "Women's Big Bash League - T20 -",
+    "t": 1793964059,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "dean norris",
+    "traffic": 200,
+    "news": "Licensable video: UNCAPTIONED: Breaking Bad star Dean Norris and wife Bridget Norris divorcing",
+    "t": 1793964059,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "mushfiqur rahim",
+    "traffic": 500,
+    "news": "West Indies wins the toss and bats 1st in the 2nd cricket test against Bangladesh",
+    "t": 1793964059,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "graeme cremer",
+    "traffic": 2000,
+    "news": "Ton-up Brendan Taylor scripts Zimbabwes strong start in first Afghanistan Test",
+    "t": 1793964059,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-06",
-  "ok": 193,
-  "fail": 267,
-  "limit": 264
+  "ok": 195,
+  "fail": 269,
+  "limit": 266
  },
  "posted_heads": [
   {
@@ -8322,7 +8298,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-06 16:10",
+  "time": "2026-11-06 16:21",
   "steps": []
  },
  "roundup_am": "2026-11-06",
@@ -8430,7 +8406,7 @@
   "text": 18,
   "story": 18
  },
- "ai_last_error": "16:08 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "16:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-06",
   "models": [
@@ -8471,7 +8447,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-06",
-   "ok": 99,
+   "ok": 100,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8479,7 +8455,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-06",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8487,7 +8463,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-06",
-   "ok": 99,
+   "ok": 100,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8495,7 +8471,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 99,
+   "ok": 100,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8503,7 +8479,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8511,14 +8487,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 99,
+   "ok": 100,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8527,9 +8503,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-06",
    "ok": 0,
-   "fail": 100,
+   "fail": 101,
    "items": 15,
-   "fail_streak": 302,
+   "fail_streak": 303,
    "last_status": 404
   }
  },
@@ -8537,7 +8513,7 @@
   "last": "2026-11-06",
   "idx": 3
  },
- "ai_last_model": "google/gemma-4-26b-a4b-it:free",
+ "ai_last_model": "google/gemma-4-31b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8693,8 +8669,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9476,13 +9452,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-06 09:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-06 10:00",
    "ok": true,
    "n": 0,
@@ -9750,6 +9719,13 @@
   },
   {
    "t": "11-06 16:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-06 16:20",
    "ok": true,
    "n": 0,
    "ids": [],
