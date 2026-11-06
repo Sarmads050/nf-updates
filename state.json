@@ -1,6 +1,5 @@
 {
  "seen": {
-  "e5b03b64a40c01e3": 1793374852.4024787,
   "4c07498126ebfb6f": 1793375457.5037618,
   "0c8e24dbc13e7b13": 1793376071.1904016,
   "b209d491565b6405": 1793378456.978957,
@@ -1760,7 +1759,8 @@
   "e007257bd76cbf51": 1793977884.4073818,
   "0c6627335dd9cef5": 1793977884.4073844,
   "c4b4b2a5dd98bf5a": 1793977884.4073863,
-  "0866c1fcc6f9e61d": 1793979070.0738018
+  "0866c1fcc6f9e61d": 1793979070.0738018,
+  "6bb1c6c9026db0f7": 1793980293.894908
  },
  "pending": {
   "culture2026-11-06": {
@@ -1871,8 +1871,8 @@
  "last_question": "2026-11-06",
  "sindh_single": {
   "date": "2026-11-06",
-  "count": 1,
-  "last": 1793972485.9222174,
+  "count": 2,
+  "last": 1793980291.6499913,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1911,20 +1911,12 @@
    "42e3c3bc2efb4b49",
    "ad942156a590c947",
    "1cc04cba6d1bf94e",
-   "273f67e7971c20a3"
+   "273f67e7971c20a3",
+   "6bb1c6c9026db0f7"
   ]
  },
- "last_post_id": "1444130002106066_122118248223503839",
+ "last_post_id": "1444130002106066_122118254709503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122118037533503839",
-   "title": "وزيراعظم ننڍن ۽ وچولي درجي جي صنعتن جي فنانسنگ لاءِ 80 سيڪڙو برآمدي آمدني جي شرط ختم ڪرڻ",
-   "t": 1793924593.8541238,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122118037533503839"
-  },
   {
    "id": "1444130002106066_122118045783503839",
    "title": "فلور ملز مالڪن حڪومت جي ڪڻڪ بابت ٽن سالن واري پاليسي کي رد ڪندي ان تي سخت تحفظات جو اظهار",
@@ -2240,6 +2232,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122118248223503839"
+  },
+  {
+   "id": "1444130002106066_122118254709503839",
+   "title": "لاڙڪاڻو يونيورسٽي جو افتتاح سنڌ جي نوجوانن لاءِ اعليٰ تعليم جا نوان دروازا کولڻ لاءِ",
+   "t": 1793980337.04477,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122118254709503839"
   }
  ],
  "share_sent": {
@@ -2450,10 +2452,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-06 20:40",
-  "items": 16,
+  "time": "2026-11-06 20:52",
+  "items": 15,
   "sample": [
-   "Pakistan Cricket Board Patron's XI 111/10 & 151/8 * v Sri Lanka 223/7 & 181/10",
+   "Pakistan Cricket Board Patron's XI 111/10 & 151/8 * v Sri Lanka 181/10 & 223/7",
    "Bangladesh 88/3 * v West Indies 356/10",
    "Afghanistan 113/1 * v Zimbabwe 504/10"
   ]
@@ -2465,17 +2467,11 @@
  },
  "all_posts": {
   "date": "2026-11-06",
-  "count": 39,
-  "last": 1793979087.2883298
+  "count": 40,
+  "last": 1793980326.9729586
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122114236371503839",
-    "sec": "public_news",
-    "cat": "dollar_gold_business",
-    "t": 1793080919
-   },
    {
     "id": "1444130002106066_122114252145503839",
     "sec": "sindh_stream",
@@ -4869,6 +4865,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1793979099
+   },
+   {
+    "id": "1444130002106066_122118254709503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1793980326
    }
   ]
  },
@@ -8005,9 +8007,9 @@
  },
  "ai_usage": {
   "date": "2026-11-06",
-  "ok": 276,
-  "fail": 388,
-  "limit": 386
+  "ok": 282,
+  "fail": 398,
+  "limit": 396
  },
  "posted_heads": [
   {
@@ -8332,7 +8334,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-06 20:40",
+  "time": "2026-11-06 20:52",
   "steps": []
  },
  "roundup_am": "2026-11-06",
@@ -8440,7 +8442,7 @@
   "text": 23,
   "story": 22
  },
- "ai_last_error": "20:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "20:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-06",
   "models": [
@@ -8454,9 +8456,9 @@
  },
  "img_diag": {
   "date": "2026-11-06",
-  "tried": 36,
+  "tried": 37,
   "gemini": 0,
-  "pollinations": 24,
+  "pollinations": 25,
   "skip": 7,
   "fail": 4,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
@@ -8481,7 +8483,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-06",
-   "ok": 125,
+   "ok": 126,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8489,7 +8491,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-06",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8497,7 +8499,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-06",
-   "ok": 125,
+   "ok": 126,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8505,7 +8507,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 126,
+   "ok": 127,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8513,7 +8515,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8521,14 +8523,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 126,
+   "ok": 127,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8537,9 +8539,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-06",
    "ok": 0,
-   "fail": 127,
+   "fail": 128,
    "items": 15,
-   "fail_streak": 329,
+   "fail_streak": 330,
    "last_status": 404
   }
  },
@@ -8698,13 +8700,13 @@
  "region_posts": {
   "date": "2026-11-06",
   "district": 1,
-  "sindh": 21,
+  "sindh": 22,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 12,
-  "old": 12,
+  "posted": 2,
+  "found": 15,
+  "old": 15,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8744,8 +8746,8 @@
  "sindh_stream": {
   "date": "2026-11-06",
   "count": 17,
-  "last": 1793979067.36848,
-  "city_i": 4,
+  "last": 1793979677.0142863,
+  "city_i": 8,
   "dry": 1793973072.7039964
  },
  "gemini_day_dead": {
@@ -9481,13 +9483,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-06 14:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-06 14:30",
    "ok": true,
    "n": 0,
@@ -9759,40 +9754,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-06 20:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-06",
  "recent_posts": [
-  {
-   "t": 1793806334,
-   "h": "ميرپورخاص ۾ جوابدار گرفتار",
-   "b": "ميرپورخاص پوليس ڪارروائي ڪندي هڪ سنگين مقدمي ۾ ملوث جوابدار کي گرفتار ڪري ورتو. پوليس موجب جوابدار کان هٿيار",
-   "tt": [
-    "جوابدار",
-    "ميرپورخاص",
-    "گرفتار"
-   ],
-   "bt": [
-    "اهن",
-    "اهي",
-    "جاري",
-    "جوابدار",
-    "سنگين",
-    "مقدمي",
-    "ملوث",
-    "موجب",
-    "ميرپورخاص",
-    "هٿيار",
-    "ورتو",
-    "وڌيڪ",
-    "پوليس",
-    "پڇاڳاڇا",
-    "ڪارروائي",
-    "ڪان",
-    "ڪندي",
-    "گرفتار"
-   ]
-  },
   {
    "t": 1793807537,
    "h": "شهدادڪوٽ ۾ روڊ حادثو، ٻه ڄڻا زخمي",
@@ -14170,6 +14142,42 @@
     "ڪندو",
     "ڪنيا"
    ]
+  },
+  {
+   "t": 1793980326,
+   "h": "سنڌ | لاڙڪاڻو يونيورسٽي جو افتتاح",
+   "b": "سنڌ جي نوجوانن لاءِ اعليٰ تعليم جا نوان دروازا کولڻ لاءِ يونيورسٽي آف لاڙڪاڻو جو افتتاح ڪيو ويو آهي. هن",
+   "tt": [
+    "افتتاح",
+    "سنڌ",
+    "لاڙڪاڻو",
+    "يونيورسٽي"
+   ],
+   "bt": [
+    "اعلي",
+    "افتتاح",
+    "اهي",
+    "تعليم",
+    "حاصل",
+    "دروازا",
+    "سنڌ",
+    "شاگردن",
+    "قيام",
+    "لاڙڪاڻو",
+    "معياري",
+    "ملندا",
+    "موقعا",
+    "نئين",
+    "نوان",
+    "نوجوانن",
+    "وزير",
+    "وڌيڪ",
+    "وڏي",
+    "يونيورسٽي",
+    "ڪرڻ",
+    "ڪلندا",
+    "ڪولڻ"
+   ]
   }
  ],
  "repeat_log": [
@@ -14337,7 +14345,7 @@
  },
  "quality": {
   "date": "2026-11-06",
-  "editor_fixed": 33,
+  "editor_fixed": 34,
   "editor_rejected": 1,
   "kawish_rejected": 1,
   "kawish_crosschecked": 1,
