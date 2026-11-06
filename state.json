@@ -1,6 +1,5 @@
 {
  "seen": {
-  "dca4cff773b3d39e": 1793365864.3818274,
   "d23512c92c3989c1": 1793366977.684513,
   "9b29ed80ce4c767e": 1793368023.1293197,
   "98c4738c693069c2": 1793368023.1293225,
@@ -1751,7 +1750,10 @@
   "3557eccbef7ae523": 1793970075.8013012,
   "70b1e5c230eeffe6": 1793970651.832273,
   "a1b6967a2f78619d": 1793970684.617558,
-  "5b7692299cc27092": 1793970684.6175609
+  "5b7692299cc27092": 1793970684.6175609,
+  "a480293037e574eb": 1793971265.9500682,
+  "5cfa17540de2460d": 1793971265.9500709,
+  "7b44223fbaa0a36f": 1793971265.9502249
  },
  "pending": {
   "culture2026-11-06": {
@@ -2424,12 +2426,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-06 18:12",
+  "time": "2026-11-06 18:21",
   "items": 15,
   "sample": [
-   "Pakistan Cricket Board Patron's XI 111/10 & 151/8 * v Sri Lanka 223/7 & 181/10",
+   "Pakistan Cricket Board Patron's XI 151/8 & 111/10 * v Sri Lanka 223/7 & 181/10",
    "Bangladesh 88/3 * v West Indies 356/10",
-   "Afghanistan 109/1 * v Zimbabwe 504/10"
+   "Afghanistan 113/1 * v Zimbabwe 504/10"
   ]
  },
  "agri_news": {
@@ -7995,9 +7997,9 @@
  },
  "ai_usage": {
   "date": "2026-11-06",
-  "ok": 234,
-  "fail": 322,
-  "limit": 318
+  "ok": 237,
+  "fail": 326,
+  "limit": 323
  },
  "posted_heads": [
   {
@@ -8322,7 +8324,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-06 18:12",
+  "time": "2026-11-06 18:21",
   "steps": []
  },
  "roundup_am": "2026-11-06",
@@ -8425,12 +8427,12 @@
  },
  "article_diag": {
   "date": "2026-11-06",
-  "tried": 20,
-  "decoded": 20,
-  "text": 20,
-  "story": 19
+  "tried": 21,
+  "decoded": 21,
+  "text": 21,
+  "story": 20
  },
- "ai_last_error": "18:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-06",
   "models": [
@@ -8471,7 +8473,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-06",
-   "ok": 111,
+   "ok": 112,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8479,7 +8481,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-06",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8487,7 +8489,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-06",
-   "ok": 110,
+   "ok": 111,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8495,7 +8497,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 111,
+   "ok": 112,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8503,7 +8505,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8511,14 +8513,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-06",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-06",
-   "ok": 111,
+   "ok": 112,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8527,9 +8529,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-06",
    "ok": 0,
-   "fail": 112,
+   "fail": 113,
    "items": 15,
-   "fail_streak": 314,
+   "fail_streak": 315,
    "last_status": 404
   }
  },
@@ -8537,7 +8539,7 @@
   "last": "2026-11-06",
   "idx": 3
  },
- "ai_last_model": "google/gemma-4-31b-it:free",
+ "ai_last_model": "google/gemma-4-26b-a4b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8693,8 +8695,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 3,
-  "old": 2,
+  "found": 6,
+  "old": 5,
   "irrelevant": 1,
   "blocked": 0,
   "errors": []
@@ -9477,13 +9479,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-06 11:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-06 12:00",
    "ok": true,
    "n": 0,
@@ -9751,6 +9746,13 @@
   },
   {
    "t": "11-06 18:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-06 18:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14285,11 +14287,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-03 18:21",
-   "new": "ڪراچيءَ ۾ وحدتِ سنڌ ريلي سنڌ جي وحدت جو ريفرنڊم آهي: رياض چانڊيو",
-   "old": "سنڌ کي ٽوڙڻ جي سازش ڪامياب نه ٿيندي: ڊاڪٽر نياز ڪالاڻي"
-  },
-  {
    "t": "11-03 19:41",
    "new": "ٽرمپ جو اسرائيل لاءِ سالياني 4 ارب ڊالر امداد بند ڪرڻ جو اعلان",
    "old": "نيتن ياهو جي دٻاءُ تي ايران مٿان ايٽمي حملي جو خطرو"
@@ -14433,6 +14430,11 @@
    "t": "11-06 17:31",
    "new": "ملڪ ۾ سون جي اگهه ۾ هزارين رپيا لاٿ",
    "old": "پاڪستان ۾ سون جي اگهه ۾ وڏو واڌ"
+  },
+  {
+   "t": "11-06 18:21",
+   "new": "پيٽرول جي قيمتن ۾ وڏي گهٽتائي",
+   "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14453,6 +14455,7 @@
   "kawish_rejected": 1,
   "kawish_crosschecked": 1,
   "wrong_place": 0,
-  "repeat": 9
- }
+  "repeat": 10
+ },
+ "_dup": true
 }
