@@ -93,7 +93,7 @@
       {
        "do": "enter",
        "who": "ARSALAN",
-       "slot": "stand_l"
+       "slot": "stand_c"
       },
       {
        "do": "prop",
@@ -245,8 +245,8 @@
      "before": [
       {
        "do": "approach",
-       "who": "AMMI",
-       "to": "IMTIAZ"
+       "who": "IMTIAZ",
+       "to": "AMMI"
       }
      ],
      "give": {
@@ -351,7 +351,12 @@
     "ARSALAN": "sofa_r",
     "NIMRA": "stand_r"
    },
-   "props": {},
+   "props": {
+    "ARSALAN": null,
+    "AMMI": null,
+    "IMTIAZ": null,
+    "NIMRA": null
+   },
    "lines": [
     {
      "who": "AMMI",

@@ -22,6 +22,9 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-026] (ep013, 2026-11-06) Abba ki ajrak kandhon par sirf do patli laal patiyan lagti hai, jaise waistcoat ho — "ajrak kandhon par hai" wale punchline mein pehchani nahi jati — ajrak ko chaura shawl banana (kandhon se seene tak latakta hua, asli ajrak jaisa gehra laal/neela block-print pattern aur kinare ki jhalar).
 - [K-027] (ep013, 2026-11-06) Mehak ka school "bag" prop seene ke aage chhota jamni dabba lagta hai, school bag nahi lagta — naya kandhe par latakne wala school bag (strap ke saath) banana.
 - [K-028] (ep013, 2026-11-06) Kahani mein "trunk" (razaiyon wala sandooq) ka zikr hai lekin screen par kahin trunk nahi hai — bedroom/aangan mein lohay ka rangeen trunk (set piece) add karna jo zaroorat par dikh sake.
+- [K-029] (ep014, 2026-11-07) Kahani mein "pankha full speed par hai" kaha jata hai lekin Karachi flat ki chhat par koi pankha hi nazar nahi aata — karachi_flat set mein chhat ka pankha (ghoomta hua) add karna, jaise living_room mein hai.
+- [K-030] (ep014, 2026-11-07) Packing/safar wali kahani mein razaiyan aur saamaan sirf baaton mein hain; Ammi ke haath mein chhota jamni "bag" hai — naya "bistar band / razai ki gathri" prop (bari lipti hui razai, rassi ke saath) banana.
+- [K-031] (ep014, 2026-11-07) Aangan mein stand_c par khara character (Arsalan, line 4) close-up mein charpai_l par baithi Ammi ka aadha jism dhak deta hai — aangan stand_c ko thora right karna, ya close-up mein charpai wale ko frame se bahar rakhna.
 
 ## APPROVED
 
