@@ -1732,7 +1732,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-07",
-  "count": 1
+  "count": 2
  },
  "last_digest": "2026-11-07",
  "alert_day": "2026-10-20",
@@ -1789,7 +1789,7 @@
   ]
  },
  "last_daily": "2026-11-07",
- "roundup_pm": "2026-11-06",
+ "roundup_pm": "2026-11-07",
  "replied": [],
  "q_index": 3,
  "last_question": "2026-11-06",
@@ -1843,7 +1843,7 @@
    "972ab251ee4923a4"
   ]
  },
- "last_post_id": "1444130002106066_122118527493503839",
+ "last_post_id": "1444130002106066_122118540087503839",
  "shareable": [
   {
    "id": "1444130002106066_122118358629503839",
@@ -2387,11 +2387,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-07 17:51",
-  "items": 19,
+  "time": "2026-11-07 18:02",
+  "items": 20,
   "sample": [
-   "Bangladesh 386/10 v West Indies 7 & 356/10 *",
-   "Afghanistan 380/6 * v Zimbabwe 504/10",
+   "Bangladesh 386/10 v West Indies 356/10 & 7 *",
+   "Afghanistan 389/6 * v Zimbabwe 504/10",
    "Zimbabwe A 261/10 * v Ireland A 424/10"
   ]
  },
@@ -2402,8 +2402,8 @@
  },
  "all_posts": {
   "date": "2026-11-07",
-  "count": 37,
-  "last": 1794054224.5040722
+  "count": 38,
+  "last": 1794056519.3884957
  },
  "perf": {
   "posts": [
@@ -7822,9 +7822,9 @@
  },
  "ai_usage": {
   "date": "2026-11-07",
-  "ok": 303,
-  "fail": 453,
-  "limit": 450
+  "ok": 305,
+  "fail": 457,
+  "limit": 454
  },
  "posted_heads": [
   {
@@ -8149,7 +8149,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-07 17:51",
+  "time": "2026-11-07 18:02",
   "steps": []
  },
  "roundup_am": "2026-11-07",
@@ -8257,7 +8257,7 @@
   "text": 23,
   "story": 19
  },
- "ai_last_error": "17:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-07",
   "models": [
@@ -8299,7 +8299,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-07",
-   "ok": 109,
+   "ok": 110,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8307,7 +8307,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-07",
-   "ok": 109,
+   "ok": 110,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8315,7 +8315,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-07",
-   "ok": 107,
+   "ok": 108,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8323,7 +8323,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 110,
+   "ok": 111,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8331,7 +8331,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8339,14 +8339,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8355,9 +8355,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-07",
    "ok": 0,
-   "fail": 111,
+   "fail": 112,
    "items": 15,
-   "fail_streak": 460,
+   "fail_streak": 461,
    "last_status": 404
   }
  },
@@ -8615,18 +8615,18 @@
  "region_posts": {
   "date": "2026-11-07",
   "district": 1,
-  "sindh": 20,
+  "sindh": 21,
   "pakistan": 14
  },
  "report_acc": {
-  "posted": 1,
-  "found": 5,
-  "old": 5,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-07 17",
+ "report_hour": "2026-11-07 18",
  "kawish_upload_times": {
   "_date": "2026-11-07",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9461,13 +9461,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-07 11:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-07 11:40",
    "ok": true,
    "n": 0,
@@ -9739,58 +9732,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-07 18:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-07",
  "recent_posts": [
-  {
-   "t": 1793882514,
-   "h": "جج اعجاز الاحسن جي رٽائرڊ ٿيڻ تي الوداعي تقريب",
-   "b": "سپريم ڪورٽ جي جج جسٽس اعجاز الاحسن جي رٽائرڊ ٿيڻ تي الوداعي تقريب منعقد ڪئي وئي. تقريب ۾ چيف جسٽس آف پاڪستان",
-   "tt": [
-    "اعجاز",
-    "الاحسن",
-    "الوداعي",
-    "تقريب",
-    "رٽائرڊ",
-    "ٿيڻ"
-   ],
-   "bt": [
-    "#1953",
-    "#2015",
-    "1953ع",
-    "2015ع",
-    "اعجاز",
-    "الاحسن",
-    "الوداعي",
-    "اهم",
-    "تقريب",
-    "ججن",
-    "جسٽس",
-    "دوران",
-    "رٽائرڊ",
-    "سميت",
-    "سپريم",
-    "شرڪت",
-    "عيسي",
-    "فائز",
-    "قاضي",
-    "مقرر",
-    "منعقد",
-    "ٻين",
-    "ٻڌڻي",
-    "پاڪستان",
-    "پنهنجي",
-    "پيدا",
-    "ٿيا",
-    "ٿيڻ",
-    "چيف",
-    "ڪورٽ",
-    "ڪيترن",
-    "ڪيريئر",
-    "ڪيسن"
-   ]
-  },
   {
    "t": 1793883738,
    "h": "شام جون سنڌ جون اهم خبرون",
@@ -14670,6 +14622,51 @@
     "ڇڏيو",
     "ڪرڪيٽ"
    ]
+  },
+  {
+   "t": 1794056519,
+   "h": "شام جون سنڌ جون اهم خبرون",
+   "b": "7 نومبر 2026 1️⃣ بجلي جي اگهن ۾ واڌ نيپرا سيپٽمبر 2026 جي فيول پرائس ايڊجسٽمينٽ تحت بجلي 2 رپيا 37 پيسا في",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "شام"
+   ],
+   "bt": [
+    "#37",
+    "اليڪٽرڪ",
+    "اهم",
+    "اهي",
+    "ايڊجسٽمينٽ",
+    "اگهن",
+    "اگهه",
+    "بجلي",
+    "بلن",
+    "تحت",
+    "جاري",
+    "خبرون",
+    "رپيا",
+    "سنڌ",
+    "سيپٽمبر",
+    "شام",
+    "فيول",
+    "لاڳو",
+    "ماهوار",
+    "مهانگي",
+    "نوان",
+    "نومبر",
+    "نوٽيفڪيشن",
+    "نيپرا",
+    "هوندو",
+    "واهپيدارن",
+    "واڌ",
+    "يونٽ",
+    "پرائس",
+    "پيسا",
+    "ٿيندا",
+    "ڇڏي"
+   ]
   }
  ],
  "repeat_log": [
@@ -14843,6 +14840,5 @@
   "kawish_crosschecked": 2,
   "wrong_place": 0,
   "repeat": 12
- },
- "_dup": true
+ }
 }
