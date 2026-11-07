@@ -1,6 +1,5 @@
 {
  "seen": {
-  "8bba6d911b45cdcc": 1793424685.555725,
   "47c4c850ade16986": 1793425260.5883229,
   "8e786f247f17f3d2": 1793425260.5883262,
   "5f9c4cb3642265f5": 1793425866.4083967,
@@ -2415,7 +2414,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-07 10:33",
+  "time": "2026-11-07 10:40",
   "items": 16,
   "sample": [
    "Bangladesh 205/7 * v West Indies 356/10",
@@ -8201,7 +8200,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-07 10:33",
+  "time": "2026-11-07 10:40",
   "steps": []
  },
  "roundup_am": "2026-11-07",
@@ -8351,7 +8350,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-07",
-   "ok": 64,
+   "ok": 65,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8359,7 +8358,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-07",
-   "ok": 64,
+   "ok": 65,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8367,7 +8366,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-07",
-   "ok": 62,
+   "ok": 63,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8375,7 +8374,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 65,
+   "ok": 66,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8383,7 +8382,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8391,14 +8390,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8407,9 +8406,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-07",
    "ok": 0,
-   "fail": 66,
+   "fail": 67,
    "items": 15,
-   "fail_streak": 415,
+   "fail_streak": 416,
    "last_status": 404
   }
  },
@@ -8573,8 +8572,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9385,13 +9384,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-07 04:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-07 04:20",
    "ok": true,
    "n": 0,
@@ -9659,6 +9651,13 @@
   },
   {
    "t": "11-07 10:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-07 10:40",
    "ok": true,
    "n": 0,
    "ids": [],
