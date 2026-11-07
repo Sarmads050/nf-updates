@@ -1709,7 +1709,11 @@
   "f734c8e22ec55604": 1794092495.455711,
   "06e22b228dced472": 1794092495.4557118,
   "115b06c05d26d67a": 1794092495.4559283,
-  "5773846856019fa1": 1794094849.7970545
+  "5773846856019fa1": 1794094849.7970545,
+  "698e1107df73c658": 1794095465.367278,
+  "2cba6f7e5fa30265": 1794095465.3672807,
+  "a2542d47e3bc201b": 1794095465.367405,
+  "d0dd7662bae60042": 1794095478.1904361
  },
  "pending": {},
  "queue": [],
@@ -2383,7 +2387,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-08 04:40",
+  "time": "2026-11-08 04:51",
   "items": 17,
   "sample": [
    "Bangladesh 386/10 v West Indies 356/10 & 7 *",
@@ -7826,9 +7830,9 @@
  },
  "ai_usage": {
   "date": "2026-11-08",
-  "ok": 35,
-  "fail": 61,
-  "limit": 60
+  "ok": 39,
+  "fail": 69,
+  "limit": 68
  },
  "posted_heads": [
   {
@@ -8153,7 +8157,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-08 04:40",
+  "time": "2026-11-08 04:51",
   "steps": []
  },
  "roundup_am": "2026-11-07",
@@ -8256,12 +8260,12 @@
  },
  "article_diag": {
   "date": "2026-11-08",
-  "tried": 4,
-  "decoded": 4,
-  "text": 4,
-  "story": 4
+  "tried": 5,
+  "decoded": 5,
+  "text": 5,
+  "story": 5
  },
- "ai_last_error": "04:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "04:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-08",
   "models": [
@@ -8303,7 +8307,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-08",
-   "ok": 30,
+   "ok": 31,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8311,7 +8315,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-08",
-   "ok": 30,
+   "ok": 31,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8319,7 +8323,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-08",
-   "ok": 30,
+   "ok": 31,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8327,7 +8331,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8335,7 +8339,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8343,14 +8347,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8359,9 +8363,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-08",
    "ok": 0,
-   "fail": 31,
+   "fail": 32,
    "items": 15,
-   "fail_streak": 528,
+   "fail_streak": 529,
    "last_status": 404
   }
  },
@@ -8624,8 +8628,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 4,
-  "old": 4,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8668,8 +8672,8 @@
   "date": "2026-11-08",
   "count": 1,
   "last": 1794081673.7104392,
-  "city_i": 24,
-  "dry": 1794092472.4810739
+  "city_i": 6,
+  "dry": 1794095461.0165799
  },
  "gemini_day_dead": {
   "day": "2026-11-07",
@@ -9386,13 +9390,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-07 22:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-07 22:40",
    "ok": true,
    "n": 0,
@@ -9660,6 +9657,13 @@
   },
   {
    "t": "11-08 04:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-08 04:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14420,11 +14424,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-05 22:02",
-   "new": "پاڪستان ۾ سوني جي اگهه ۾ وڏو واڌ",
-   "old": "پاڪستان ۾ سون جي اگهه ۾ وڏو واڌ"
-  },
-  {
    "t": "11-05 23:11",
    "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گھٽتا",
    "old": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽتائي جو اعلان"
@@ -14568,6 +14567,11 @@
    "t": "11-08 02:01",
    "new": "بابراعظم پاڪستاني ٽيسٽ اسڪواڊ جي قيادت ڪندو",
    "old": "پاڪستان پاران سريلنڪا خلاف ٽيسٽ اسڪواڊ جو اعلان"
+  },
+  {
+   "t": "11-08 04:51",
+   "new": "پاڪستان ۾ سون جي اگهن ۾ واڌ",
+   "old": "اڄ پاڪستان ۾ سون جي قيمت"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14588,6 +14592,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 1
- }
+  "repeat": 2
+ },
+ "_dup": true
 }
