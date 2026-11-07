@@ -1,0 +1,488 @@
+{
+ "id": "ep014",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 14,
+ "title": "Karachi Ka Safar, Razai Samet!",
+ "topic": "Long weekend + cheaper petrol - family car trip to Nimra in Karachi; Ammi packs razaiyan but Karachi is still hot",
+ "music": "happy",
+ "tempo": 1.06,
+ "lesson": "Safar se pehle mausam pooch lein...<br>aur saamaan halka rakhein!",
+ "caption": "Teen din ki chutti, petrol bhi sasta... poora ghar Karachi chala! Lekin Ammi ne garmi mein bhi razaiyan saath bandh lin 😂🚗 Aap ke ghar mein safar par sab se zyada saamaan kaun le jata hai? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#KarachiTrip",
+  "#PakistaniFamily",
+  "#UrduCartoon",
+  "#AmmiKiPacking"
+ ],
+ "scenes": [
+  {
+   "set": "aangan",
+   "time": "day",
+   "label": "Nawabshah Aangan • Subah",
+   "cast": {
+    "AMMI": "charpai_l"
+   },
+   "props": {
+    "AMMI": "cup"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Nawabshah ke is ghar mein aaj *khushkhabri* hai... *teen din ki chutti*, aur petrol bhi thora *sasta* hua hai!",
+     "urdu": "نواب شاہ کے اس گھر میں آج خوشخبری ہے... تین دن کی چھٹی، اور پیٹرول بھی تھوڑا سستا ہوا ہے!",
+     "how": "warm cheerful storyteller, excited news",
+     "shot": "wide",
+     "gap": 0.1,
+     "react_pose": {
+      "AMMI": "rest"
+     }
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Ammi! Somvar ko *Iqbal Day* ki chutti hai. Kal subah gaari mein *Karachi* chalte hain!",
+     "urdu": "امی! سوموار کو اقبال ڈے کی چھٹی ہے۔ کل صبح گاڑی میں کراچی چلتے ہیں!",
+     "how": "elder son rushing in excited, big plan",
+     "pose": "arms_up",
+     "shot": "close",
+     "before": [
+      {
+       "do": "enter",
+       "who": "IMTIAZ",
+       "slot": "stand_r"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      }
+     ],
+     "looks": {
+      "AMMI": "IMTIAZ"
+     },
+     "react": {
+      "AMMI": "surprised"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "IMTIAZ",
+     "emo": "happy",
+     "roman": "Sach? Main to kab se apni *Nimra* se *milna* chahti thi!",
+     "urdu": "سچ؟ میں تو کب سے اپنی نمرہ سے ملنا چاہتی تھی!",
+     "how": "mother delighted, warm, missing her married daughter",
+     "pose": "chest",
+     "react": {
+      "IMTIAZ": "warm"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "IMTIAZ",
+     "emo": "happy",
+     "roman": "Karachi? Main apna *bat* bhi le chalunga. *Sea View* par cricket khelenge!",
+     "urdu": "کراچی؟ میں اپنا بیٹ بھی لے چلوں گا۔ سی ویو پر کرکٹ کھیلیں گے!",
+     "how": "17-year-old boy, super excited, cricket lover",
+     "pose": "fist",
+     "shot": "close",
+     "before": [
+      {
+       "do": "enter",
+       "who": "ARSALAN",
+       "slot": "stand_l"
+      },
+      {
+       "do": "prop",
+       "who": "ARSALAN",
+       "prop": "bat"
+      }
+     ],
+     "looks": {
+      "AMMI": "ARSALAN",
+      "IMTIAZ": "ARSALAN"
+     },
+     "react": {
+      "IMTIAZ": "teasing"
+     }
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "roman": "*Hao!* Lekin yaad rakhna, gaari mein *jagah kam* hai... aur Ammi ka *saamaan zyada* hota hai!",
+     "urdu": "ہاؤ! لیکن یاد رکھنا، گاڑی میں جگہ کم ہے... اور امی کا سامان زیادہ ہوتا ہے!",
+     "how": "elder brother saying a Chinese word proudly, then teasing in a low voice",
+     "pose": "explain",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "ARSALAN": "laugh",
+      "AMMI": "angry"
+     },
+     "looks": {
+      "ARSALAN": "IMTIAZ"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "IMTIAZ",
+     "emo": "angry",
+     "roman": "Kya matlab? Main sirf *zaroori cheezein* rakhungi. Bilkul *thora sa*!",
+     "urdu": "کیا مطلب؟ میں صرف ضروری چیزیں رکھوں گی۔ بالکل تھوڑا سا!",
+     "how": "mother fake-offended, insisting innocently",
+     "pose": "wag",
+     "shot": "group",
+     "gap": 0.4,
+     "react": {
+      "IMTIAZ": "sheepish",
+      "ARSALAN": "teasing"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "night",
+   "label": "Drawing Room • Raat",
+   "cast": {
+    "IMTIAZ": "sofa_l",
+    "ARSALAN": "sofa_c"
+   },
+   "props": {
+    "IMTIAZ": "phone"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Raat ko *packing* shuru hui... aur Ammi ki *zaroori cheezein* khatam hi nahi ho rahi thin!",
+     "urdu": "رات کو پیکنگ شروع ہوئی... اور امی کی ضروری چیزیں ختم ہی نہیں ہو رہی تھیں!",
+     "how": "storyteller, amused, slightly teasing",
+     "shot": "wide",
+     "gap": 0.1,
+     "react_pose": {
+      "IMTIAZ": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "IMTIAZ",
+     "emo": "proud",
+     "roman": "Yeh dekho! Sab ke *sweater*, do *razaiyan*, aur mere haath ke *parathe*!",
+     "urdu": "یہ دیکھو! سب کے سویٹر، دو رضائیاں، اور میرے ہاتھ کے پراٹھے!",
+     "how": "mother proudly showing a full bag, satisfied",
+     "pose": "hold",
+     "shot": "close",
+     "before": [
+      {
+       "do": "enter",
+       "who": "AMMI",
+       "slot": "stand_r"
+      },
+      {
+       "do": "prop",
+       "who": "AMMI",
+       "prop": "bag"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      }
+     ],
+     "looks": {
+      "IMTIAZ": "AMMI",
+      "ARSALAN": "AMMI"
+     },
+     "react": {
+      "IMTIAZ": "surprised",
+      "ARSALAN": "surprised"
+     }
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "AMMI",
+     "emo": "surprised",
+     "roman": "Ammi, *razaiyan?* Hum Nimra ke ghar ja rahe hain, *North Pole* nahi!",
+     "urdu": "امی، رضائیاں؟ ہم نمرہ کے گھر جا رہے ہیں، نارتھ پول نہیں!",
+     "how": "son shocked, comic disbelief",
+     "pose": "facepalm",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "ARSALAN": "laugh",
+      "AMMI": "angry"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "IMTIAZ",
+     "emo": "worried",
+     "roman": "*November* hai beta! Yahan Nawabshah mein raat ko *thand* hoti hai, to Karachi mein bhi hogi.",
+     "urdu": "نومبر ہے بیٹا! یہاں نواب شاہ میں رات کو ٹھنڈ ہوتی ہے، تو کراچی میں بھی ہوگی۔",
+     "how": "mother worried and sure of herself, caring",
+     "pose": "explain",
+     "react": {
+      "IMTIAZ": "tired"
+     }
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "AMMI",
+     "emo": "calm",
+     "roman": "Ammi, aap khud *Nimra* se pooch lein ke wahan *mausam* kaisa hai.",
+     "urdu": "امی، آپ خود نمرہ سے پوچھ لیں کہ وہاں موسم کیسا ہے۔",
+     "how": "patient son, calm, handing over the phone",
+     "pose": "hold",
+     "before": [
+      {
+       "do": "approach",
+       "who": "AMMI",
+       "to": "IMTIAZ"
+      }
+     ],
+     "give": {
+      "to": "AMMI",
+      "prop": "phone",
+      "at": 0.6
+     },
+     "after": [
+      {
+       "do": "sfx",
+       "name": "phone_ring",
+       "wait": 0.6
+      }
+     ],
+     "react": {
+      "AMMI": "focused"
+     }
+    },
+    {
+     "who": "NIMRA",
+     "phone": true,
+     "to": "front",
+     "emo": "happy",
+     "roman": "Hello Ammi! Aap sab *kal* aa rahe hain na? Main *biryani* bana rahi hoon!",
+     "urdu": "ہیلو امی! آپ سب کل آ رہے ہیں نا؟ میں بریانی بنا رہی ہوں!",
+     "how": "loving married daughter on the phone, cheerful",
+     "react": {
+      "AMMI": "happy",
+      "ARSALAN": "happy"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "down",
+     "emo": "worried",
+     "roman": "Nimra, wahan *thand* hai na? *Razaiyan* le aaun?",
+     "urdu": "نمرہ، وہاں ٹھنڈ ہے نا؟ رضائیاں لے آؤں؟",
+     "how": "mother on phone, concerned",
+     "pose": "phone_look",
+     "shot": "close:AMMI"
+    },
+    {
+     "who": "NIMRA",
+     "phone": true,
+     "to": "front",
+     "emo": "surprised",
+     "roman": "Razaiyan? Ammi, yahan din mein abhi bhi *pankha full* chal raha hai! Sardi *December* mein aayegi.",
+     "urdu": "رضائیاں؟ امی، یہاں دن میں ابھی بھی پنکھا فل چل رہا ہے! سردی دسمبر میں آئے گی۔",
+     "how": "daughter laughing in surprise on the phone",
+     "react": {
+      "IMTIAZ": "teasing",
+      "ARSALAN": "laugh"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "down",
+     "emo": "proud",
+     "roman": "Tum abhi bachi ho. *Maan ka dil* kehta hai, thand hogi. *Razaiyan jayengi!*",
+     "urdu": "تم ابھی بچی ہو۔ ماں کا دل کہتا ہے، ٹھنڈ ہوگی۔ رضائیاں جائیں گی!",
+     "how": "stubborn loving mother, final decision, dramatic",
+     "pose": "hands_hips",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "IMTIAZ": "tired",
+      "ARSALAN": "laugh"
+     },
+     "react_pose": {
+      "IMTIAZ": "facepalm"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "IMTIAZ",
+     "emo": "sad",
+     "roman": "Matlab razai *Karachi ki sair* karegi... aur mera *bat ghar par* rahega!",
+     "urdu": "مطلب رضائی کراچی کی سیر کرے گی... اور میرا بیٹ گھر پر رہے گا!",
+     "how": "teenage boy, dramatically sad, comic",
+     "pose": "shrug",
+     "shot": "group",
+     "joke": true,
+     "gap": 0.7,
+     "react": {
+      "IMTIAZ": "laugh",
+      "AMMI": "teasing"
+     },
+     "react_pose": {
+      "IMTIAZ": "rest"
+     }
+    }
+   ]
+  },
+  {
+   "set": "karachi_flat",
+   "time": "day",
+   "label": "Karachi • Nimra Ka Ghar • Dopahar",
+   "cast": {
+    "IMTIAZ": "stand_l",
+    "AMMI": "sofa_c",
+    "ARSALAN": "sofa_r",
+    "NIMRA": "stand_r"
+   },
+   "props": {},
+   "lines": [
+    {
+     "who": "AMMI",
+     "to": "NIMRA",
+     "emo": "tired",
+     "roman": "Uff! Kitni *garmi* hai! Nimra beta, *pankha tez* kar do!",
+     "urdu": "اُف! کتنی گرمی ہے! نمرہ بیٹا، پنکھا تیز کر دو!",
+     "how": "mother tired after a long car trip, hot, sighing",
+     "pose": "tired",
+     "shot": "close",
+     "looks": {
+      "NIMRA": "AMMI",
+      "IMTIAZ": "AMMI",
+      "ARSALAN": "AMMI"
+     },
+     "react": {
+      "NIMRA": "teasing"
+     }
+    },
+    {
+     "who": "NIMRA",
+     "to": "AMMI",
+     "emo": "teasing",
+     "roman": "Ammi, pankha pehle hi *full speed* par hai! Main ne kaha tha na, yahan abhi *garmi* hai.",
+     "urdu": "امی، پنکھا پہلے ہی فل اسپیڈ پر ہے! میں نے کہا تھا نا، یہاں ابھی گرمی ہے۔",
+     "how": "bossy elder daughter, loving told-you-so",
+     "pose": "point_up",
+     "react": {
+      "AMMI": "sheepish"
+     }
+    },
+    {
+     "who": "IMTIAZ",
+     "to": "NIMRA",
+     "emo": "laugh",
+     "roman": "Raaste mein log gaari ki *chhat par razaiyan* dekh kar pooch rahe the, *\"Murree ja rahe ho?\"*",
+     "urdu": "راستے میں لوگ گاڑی کی چھت پر رضائیاں دیکھ کر پوچھ رہے تھے، مری جا رہے ہو؟",
+     "how": "tired son laughing while telling the story",
+     "pose": "thumb_back",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.7,
+     "react": {
+      "NIMRA": "laugh",
+      "ARSALAN": "laugh",
+      "AMMI": "sheepish"
+     },
+     "looks": {
+      "NIMRA": "IMTIAZ"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "NIMRA",
+     "emo": "sheepish",
+     "roman": "Achha baba, maan liya. Agli dafa pehle *mausam* poochungi, phir *saamaan* bandhungi.",
+     "urdu": "اچھا بابا، مان لیا۔ اگلی دفعہ پہلے موسم پوچھوں گی، پھر سامان باندھوں گی۔",
+     "how": "mother admitting with a smile, a little embarrassed",
+     "pose": "shrug",
+     "react": {
+      "NIMRA": "warm"
+     }
+    },
+    {
+     "who": "NIMRA",
+     "to": "AMMI",
+     "emo": "warm",
+     "roman": "Yeh lijiye Ammi, *thanda thanda sharbat*. Saari garmi utar jayegi!",
+     "urdu": "یہ لیجیے امی، ٹھنڈا ٹھنڈا شربت۔ ساری گرمی اتر جائے گی!",
+     "how": "loving daughter, sweet, serving",
+     "pose": "hold",
+     "shot": "two",
+     "before": [
+      {
+       "do": "prop",
+       "who": "NIMRA",
+       "prop": "tray"
+      },
+      {
+       "do": "move",
+       "who": "NIMRA",
+       "slot": "stand_cl"
+      }
+     ],
+     "give": {
+      "to": "AMMI",
+      "prop": "tray",
+      "at": 0.6
+     },
+     "sfx": [
+      "clink"
+     ],
+     "react": {
+      "AMMI": "happy"
+     },
+     "looks": {
+      "AMMI": "NIMRA"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "sad",
+     "roman": "Razai ki jagah mera *bat* aa jata, to aaj *Sea View* par cricket hoti!",
+     "urdu": "رضائی کی جگہ میرا بیٹ آ جاتا، تو آج سی ویو پر کرکٹ ہوتی!",
+     "how": "teen boy, still sulking comically",
+     "pose": "plead",
+     "react": {
+      "AMMI": "teasing",
+      "NIMRA": "laugh"
+     },
+     "looks": {
+      "AMMI": "ARSALAN"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "roman": "Fikar mat karo. Wapas Nawabshah mein raat ko *yehi razai* tumhein garam rakhegi!",
+     "urdu": "فکر مت کرو۔ واپس نواب شاہ میں رات کو یہی رضائی تمہیں گرم رکھے گی!",
+     "how": "mother teasing warmly, final word, laughing",
+     "pose": "wag",
+     "shot": "group",
+     "joke": true,
+     "gap": 0.8,
+     "react": {
+      "*": "laugh"
+     }
+    }
+   ]
+  }
+ ]
+}
