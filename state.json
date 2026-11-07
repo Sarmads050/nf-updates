@@ -1,8 +1,5 @@
 {
  "seen": {
-  "eded0ca89a29916a": 1793446303.8276443,
-  "a54c34ffd3c696e1": 1793446303.8276465,
-  "ae1e785f3e6f43b5": 1793446303.8276494,
   "cd9add50c8df1b21": 1793448701.0808482,
   "a6175a11176d44a8": 1793448701.0808508,
   "05af1a711cf0813b": 1793448701.080852,
@@ -1710,7 +1707,9 @@
   "05be45c05c3f6832": 1794049866.7625053,
   "5b05aabcb07b8cec": 1794049866.7625062,
   "518918426260d45d": 1794049866.762507,
-  "415b69b3090bb717": 1794049866.7625086
+  "415b69b3090bb717": 1794049866.7625086,
+  "197e1ac23a326f8a": 1794051696.433126,
+  "972ab251ee4923a4": 1794051716.6663206
  },
  "pending": {},
  "queue": [],
@@ -1782,7 +1781,7 @@
  "sindh_single": {
   "date": "2026-11-07",
   "count": 1,
-  "last": 1794044486.7841642,
+  "last": 1794051713.3309593,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1825,7 +1824,8 @@
    "6bb1c6c9026db0f7",
    "7d81e80d6b2185b6",
    "974be1ba1402477f",
-   "1da7dedfc26f845e"
+   "1da7dedfc26f845e",
+   "972ab251ee4923a4"
   ]
  },
  "last_post_id": "1444130002106066_122118512673503839",
@@ -2367,11 +2367,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-07 16:31",
+  "time": "2026-11-07 16:41",
   "items": 19,
   "sample": [
    "Bangladesh 386/10 v West Indies 7 & 356/10 *",
-   "Afghanistan 321/5 * v Zimbabwe 504/10",
+   "Afghanistan 328/5 * v Zimbabwe 504/10",
    "Zimbabwe A 261/10 * v Ireland A 424/10"
   ]
  },
@@ -7850,9 +7850,9 @@
  },
  "ai_usage": {
   "date": "2026-11-07",
-  "ok": 272,
-  "fail": 411,
-  "limit": 409
+  "ok": 274,
+  "fail": 415,
+  "limit": 413
  },
  "posted_heads": [
   {
@@ -8181,7 +8181,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-07 16:31",
+  "time": "2026-11-07 16:41",
   "steps": []
  },
  "roundup_am": "2026-11-07",
@@ -8289,7 +8289,7 @@
   "text": 21,
   "story": 18
  },
- "ai_last_error": "16:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "16:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-07",
   "models": [
@@ -8331,7 +8331,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-07",
-   "ok": 101,
+   "ok": 102,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8339,7 +8339,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-07",
-   "ok": 101,
+   "ok": 102,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8347,7 +8347,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-07",
-   "ok": 99,
+   "ok": 100,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8355,7 +8355,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 102,
+   "ok": 103,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8363,7 +8363,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 103,
+   "ok": 104,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8371,14 +8371,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 103,
+   "ok": 104,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 103,
+   "ok": 104,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8387,9 +8387,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-07",
    "ok": 0,
-   "fail": 103,
+   "fail": 104,
    "items": 15,
-   "fail_streak": 452,
+   "fail_streak": 453,
    "last_status": 404
   }
  },
@@ -8652,8 +8652,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8694,9 +8694,9 @@
  "sindh_stream": {
   "date": "2026-11-07",
   "count": 12,
-  "last": 1794049864.7182956,
-  "city_i": 16,
-  "dry": 1794044464.6927898
+  "last": 1794051689.515041,
+  "city_i": 20,
+  "dry": 1794051696.4331286
  },
  "gemini_day_dead": {
   "day": "2026-11-07",
@@ -9514,13 +9514,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-07 10:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-07 10:20",
    "ok": true,
    "n": 0,
@@ -9788,6 +9781,13 @@
   },
   {
    "t": "11-07 16:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-07 16:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14811,11 +14811,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-04 21:54",
-   "new": "شاهين آفريدي جي آءِ سي سي رينڪنگ ۾ ترقي",
-   "old": "ٽاءِ سيريز کٽڻ بعد پاڪستاني رانديگرن جي آءِ سي سي رئنڪنگ ۾ ترقي"
-  },
-  {
    "t": "11-04 21:56",
    "new": "پاڪستان ۾ سوني اگهه ۾ وڏو واڌ",
    "old": "شام جون سنڌ جون اهم خبرون"
@@ -14959,6 +14954,11 @@
    "t": "11-07 14:41",
    "new": "پاڪستان ۾ چاندي جي اڄوڪي اگهه جو تفصيل سامهون اچي ويو",
    "old": "اڄ پاڪستان ۾ سون جي قيمت"
+  },
+  {
+   "t": "11-07 16:41",
+   "new": "سنڌ | پيٽروليم مصنوعات جي قيمتن ۾ نمايان گهٽتائي",
+   "old": "ڪراچي ۾ تيل ۽ گئس جي ڳولا ٻيهر شروع"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14979,6 +14979,7 @@
   "kawish_rejected": 7,
   "kawish_crosschecked": 2,
   "wrong_place": 0,
-  "repeat": 9
- }
+  "repeat": 10
+ },
+ "_dup": true
 }
