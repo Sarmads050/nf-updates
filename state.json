@@ -1766,7 +1766,10 @@
   "6b178c24ff1ba14d": 1794013368.5620081,
   "87783762a406ad32": 1794013368.5620093,
   "7c2395eddb55709b": 1794013368.5620098,
-  "fba1895e9c27498c": 1794013368.5621727
+  "fba1895e9c27498c": 1794013368.5621727,
+  "acca567f40338951": 1794015086.323852,
+  "00fbdf1f7ebd59a1": 1794015093.4888332,
+  "cea3908f490984d9": 1794015093.4890313
  },
  "pending": {
   "culture2026-11-06": {
@@ -2462,7 +2465,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-07 06:20",
+  "time": "2026-11-07 06:31",
   "items": 16,
   "sample": [
    "Bangladesh 88/3 * v West Indies 356/10",
@@ -7969,9 +7972,9 @@
  },
  "ai_usage": {
   "date": "2026-11-07",
-  "ok": 73,
-  "fail": 125,
-  "limit": 123
+  "ok": 79,
+  "fail": 137,
+  "limit": 135
  },
  "posted_heads": [
   {
@@ -8296,7 +8299,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-07 06:20",
+  "time": "2026-11-07 06:32",
   "steps": []
  },
  "roundup_am": "2026-11-06",
@@ -8399,12 +8402,12 @@
  },
  "article_diag": {
   "date": "2026-11-07",
-  "tried": 11,
-  "decoded": 10,
-  "text": 10,
+  "tried": 12,
+  "decoded": 11,
+  "text": 11,
   "story": 9
  },
- "ai_last_error": "06:02 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-07",
   "models": [
@@ -8445,7 +8448,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-07",
-   "ok": 39,
+   "ok": 40,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8453,7 +8456,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-07",
-   "ok": 38,
+   "ok": 39,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8461,7 +8464,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-07",
-   "ok": 36,
+   "ok": 37,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8469,7 +8472,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 39,
+   "ok": 40,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8477,7 +8480,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8485,14 +8488,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8501,9 +8504,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-07",
    "ok": 0,
-   "fail": 40,
+   "fail": 41,
    "items": 15,
-   "fail_streak": 389,
+   "fail_streak": 390,
    "last_status": 404
   }
  },
@@ -8667,8 +8670,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 6,
-  "old": 6,
+  "found": 9,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8710,8 +8713,8 @@
   "date": "2026-11-07",
   "count": 0,
   "last": 1794009675.7491689,
-  "city_i": 14,
-  "dry": 1794013273.2082908
+  "city_i": 18,
+  "dry": 1794015074.1547043
  },
  "gemini_day_dead": {
   "day": "2026-11-06",
@@ -9452,13 +9455,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-07 00:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-07 00:10",
    "ok": true,
    "n": 0,
@@ -9726,6 +9722,13 @@
   },
   {
    "t": "11-07 06:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-07 06:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14643,11 +14646,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-04 06:41",
-   "new": "حڪومت پاران تيل اگهه ۾ گهٽتائي",
-   "old": "پيٽرول اگهه ۾ گهٽتائي، ڊيزل مهانگو"
-  },
-  {
    "t": "11-04 07:42",
    "new": "ڪابينه ڪڻڪ جو اگهه مقرر ڪري ڇڏيو",
    "old": "سنڌ | سنڌ حڪومت پاران گندم جي امدادي قيمت ۾ گهٽتائي"
@@ -14791,6 +14789,11 @@
    "t": "11-07 06:02",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات",
    "old": "صبح جون سنڌ جون اهم خبرون"
+  },
+  {
+   "t": "11-07 06:31",
+   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽات",
+   "old": "صبح جون سنڌ جون اهم خبرون"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14811,6 +14814,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 3
- }
+  "repeat": 4
+ },
+ "_dup": true
 }
