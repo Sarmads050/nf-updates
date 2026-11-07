@@ -2407,10 +2407,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-07 13:12",
+  "time": "2026-11-07 13:20",
   "items": 16,
   "sample": [
-   "Bangladesh 301/8 * v West Indies 356/10",
+   "Bangladesh 303/8 * v West Indies 356/10",
    "Afghanistan 216/1 * v Zimbabwe 504/10",
    "Zimbabwe A 261/10 * v Ireland A 424/10"
   ]
@@ -8225,7 +8225,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-07 13:12",
+  "time": "2026-11-07 13:20",
   "steps": []
  },
  "roundup_am": "2026-11-07",
@@ -8375,7 +8375,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-07",
-   "ok": 80,
+   "ok": 81,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8383,7 +8383,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-07",
-   "ok": 80,
+   "ok": 81,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8391,7 +8391,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-07",
-   "ok": 78,
+   "ok": 79,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8399,7 +8399,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 81,
+   "ok": 82,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8407,7 +8407,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8415,14 +8415,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 82,
+   "ok": 83,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8431,9 +8431,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-07",
    "ok": 0,
-   "fail": 82,
+   "fail": 83,
    "items": 15,
-   "fail_streak": 431,
+   "fail_streak": 432,
    "last_status": 404
   }
  },
@@ -8597,8 +8597,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 1,
-  "old": 1,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9405,13 +9405,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-07 06:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-07 07:00",
    "ok": true,
    "n": 0,
@@ -9679,6 +9672,13 @@
   },
   {
    "t": "11-07 13:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-07 13:20",
    "ok": true,
    "n": 0,
    "ids": [],
