@@ -1716,7 +1716,15 @@
   "6742a8df10cd69f9": 1794054083.0409248,
   "a7a39b49f2988fb4": 1794055265.5539005,
   "6650f1dedd1e48c5": 1794055265.553904,
-  "9ce5a65b8be4ff33": 1794055268.7642567
+  "9ce5a65b8be4ff33": 1794055268.7642567,
+  "b104302c666a0173": 1794055863.3459706,
+  "3a5fea57813db889": 1794055863.3459735,
+  "b894cf0454b462d2": 1794055863.3459747,
+  "10f273d5d0d50802": 1794055863.3459759,
+  "97c44e0b509a6852": 1794055863.3459764,
+  "f862dd8fa15b9271": 1794055863.345977,
+  "2588972a81116676": 1794055863.3459778,
+  "ff7e1bb5cfff4be7": 1794055863.3462117
  },
  "pending": {},
  "queue": [],
@@ -2379,11 +2387,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-07 17:41",
+  "time": "2026-11-07 17:51",
   "items": 19,
   "sample": [
    "Bangladesh 386/10 v West Indies 7 & 356/10 *",
-   "Afghanistan 374/6 * v Zimbabwe 504/10",
+   "Afghanistan 380/6 * v Zimbabwe 504/10",
    "Zimbabwe A 261/10 * v Ireland A 424/10"
   ]
  },
@@ -7814,9 +7822,9 @@
  },
  "ai_usage": {
   "date": "2026-11-07",
-  "ok": 298,
-  "fail": 449,
-  "limit": 446
+  "ok": 303,
+  "fail": 453,
+  "limit": 450
  },
  "posted_heads": [
   {
@@ -8141,7 +8149,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-07 17:41",
+  "time": "2026-11-07 17:51",
   "steps": []
  },
  "roundup_am": "2026-11-07",
@@ -8244,12 +8252,12 @@
  },
  "article_diag": {
   "date": "2026-11-07",
-  "tried": 24,
-  "decoded": 23,
-  "text": 22,
-  "story": 18
+  "tried": 25,
+  "decoded": 24,
+  "text": 23,
+  "story": 19
  },
- "ai_last_error": "17:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "17:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-07",
   "models": [
@@ -8291,7 +8299,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-07",
-   "ok": 108,
+   "ok": 109,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8299,7 +8307,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-07",
-   "ok": 108,
+   "ok": 109,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8307,7 +8315,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-07",
-   "ok": 106,
+   "ok": 107,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8315,7 +8323,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 109,
+   "ok": 110,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8323,7 +8331,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8331,14 +8339,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8347,9 +8355,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-07",
    "ok": 0,
-   "fail": 110,
+   "fail": 111,
    "items": 15,
-   "fail_streak": 459,
+   "fail_streak": 460,
    "last_status": 404
   }
  },
@@ -8357,7 +8365,7 @@
   "last": "2026-11-06",
   "idx": 3
  },
- "ai_last_model": "google/gemma-4-26b-a4b-it:free",
+ "ai_last_model": "google/gemma-4-31b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8612,8 +8620,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 4,
-  "old": 4,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9453,13 +9461,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-07 11:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-07 11:30",
    "ok": true,
    "n": 0,
@@ -9727,6 +9728,13 @@
   },
   {
    "t": "11-07 17:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-07 17:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14666,11 +14674,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-04 21:57",
-   "new": "سنڌ | سنڌ ۾ پرائمري استادن جا مطالبا",
-   "old": "ڪراچي ۾ استادن جي احتجاج تي پوليس جي شيلنگ، ڪيترائي زخمي ۽ گرفتار"
-  },
-  {
    "t": "11-05 03:01",
    "new": "سونهن ۽ چانديءَ جا اگهه جاري",
    "old": "شام جون سنڌ جون اهم خبرون"
@@ -14814,6 +14817,11 @@
    "t": "11-07 17:41",
    "new": "نيپرا بجلي 2 رپيا 37 پيسا في يونٽ مهانگي ڪري ڇڏي",
    "old": "فيول پرائس ايڊجسٽمينٽ: بجلي 2 روپيا 37 پئسا مهانگي"
+  },
+  {
+   "t": "11-07 17:51",
+   "new": "پاڪستان ۾ سون جي اگهن ۾ گهٽتائي",
+   "old": "اڄ پاڪستان ۾ سون جي قيمت"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14834,7 +14842,7 @@
   "kawish_rejected": 7,
   "kawish_crosschecked": 2,
   "wrong_place": 0,
-  "repeat": 11
+  "repeat": 12
  },
  "_dup": true
 }
