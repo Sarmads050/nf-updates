@@ -1,8 +1,5 @@
 {
  "seen": {
-  "b40a68ae71230769": 1793415056.5464625,
-  "32ad64a211f009a9": 1793415073.369529,
-  "add8c4d1edbc2f5a": 1793415081.2629898,
   "1d2ca34e86c9837e": 1793416869.40895,
   "56f8322c0e19f33a": 1793416893.588473,
   "5e40a2cb1215023b": 1793416904.1434247,
@@ -1816,7 +1813,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-06",
-  "count": 4
+  "count": 5
  },
  "last_digest": "2026-11-06",
  "alert_day": "2026-10-20",
@@ -1924,7 +1921,7 @@
    "7d81e80d6b2185b6"
   ]
  },
- "last_post_id": "1444130002106066_122118373353503839",
+ "last_post_id": "1444130002106066_122118379671503839",
  "shareable": [
   {
    "id": "1444130002106066_122118147987503839",
@@ -2462,7 +2459,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-07 07:51",
+  "time": "2026-11-07 08:01",
   "items": 16,
   "sample": [
    "Bangladesh 88/3 * v West Indies 356/10",
@@ -2477,8 +2474,8 @@
  },
  "all_posts": {
   "date": "2026-11-07",
-  "count": 8,
-  "last": 1794018346.6650374
+  "count": 9,
+  "last": 1794020489.5029817
  },
  "perf": {
   "posts": [
@@ -4890,72 +4887,8 @@
   "last": 1794003814.682739
  },
  "trends": {
-  "last": 1794009062.673717,
+  "last": 1794020495.727391,
   "terms": [
-   {
-    "term": "oman vs afghanistan",
-    "traffic": 2000,
-    "news": "Live Cricket Score: Full Scorecard & Commentary",
-    "t": 1793407851,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "nokia 2360 flip",
-    "traffic": 100,
-    "news": "Nokia 2360 Flip offers family controls – but only works on 2G",
-    "t": 1793407851,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "reddit",
-    "traffic": 100,
-    "news": "Reddit Will Protect its \"Extremely Valuable Corpus of Data\" from Google's AI Search With Forced Logins",
-    "t": 1793407851,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "on",
-    "traffic": 100,
-    "news": "AI Dip-Buyers Gored as Selling Spasm Caps Third Week of Losses",
-    "t": 1793407851,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "car",
-    "traffic": 100,
-    "news": "ICE agent charged after ramming unmarked SUV into man in Texas",
-    "t": 1793407851,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "poland",
-    "traffic": 100,
-    "news": "Ruszą inwestycje? Jest na to szansa",
-    "t": 1793407851,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "d",
-    "traffic": 100,
-    "news": "Ballon d'Or 2026 LIVE: Winners, times & updates from ceremony in London",
-    "t": 1793407851,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "crypto exchange binance hacked",
-    "traffic": 10000,
-    "news": "The largest theft in history: North Korea likely behind the $6.4 billion Binance hack",
-    "t": 1793407851,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "india vs pakistan",
     "traffic": 500,
@@ -7963,15 +7896,31 @@
     "t": 1794009063,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "new zealand vs india",
+    "traffic": 20000,
+    "news": "Why Wellington's Weather Could Test India's Cricket Superstars",
+    "t": 1794020496,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "history",
+    "traffic": 100,
+    "news": "Who are the new faces in the US Senate?",
+    "t": 1794020496,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-07",
-  "ok": 95,
-  "fail": 169,
-  "limit": 167
+  "ok": 98,
+  "fail": 175,
+  "limit": 173
  },
  "posted_heads": [
   {
@@ -8296,10 +8245,10 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-07 07:51",
+  "time": "2026-11-07 08:01",
   "steps": []
  },
- "roundup_am": "2026-11-06",
+ "roundup_am": "2026-11-07",
  "group_shares": {
   "1": {
    "date": "2026-11-06",
@@ -8404,7 +8353,7 @@
   "text": 13,
   "story": 10
  },
- "ai_last_error": "07:25 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-07",
   "models": [
@@ -8447,14 +8396,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-07",
    "ok": 49,
-   "fail": 1,
+   "fail": 2,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-07",
-   "ok": 48,
+   "ok": 49,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8462,7 +8411,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-07",
-   "ok": 46,
+   "ok": 47,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8470,7 +8419,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 49,
+   "ok": 50,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8478,7 +8427,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8486,14 +8435,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8502,9 +8451,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-07",
    "ok": 0,
-   "fail": 50,
+   "fail": 51,
    "items": 15,
-   "fail_streak": 399,
+   "fail_streak": 400,
    "last_status": 404
   }
  },
@@ -8663,18 +8612,18 @@
  "region_posts": {
   "date": "2026-11-07",
   "district": 0,
-  "sindh": 0,
+  "sindh": 1,
   "pakistan": 7
  },
  "report_acc": {
-  "posted": 1,
-  "found": 15,
-  "old": 15,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-07 07",
+ "report_hour": "2026-11-07 08",
  "kawish_upload_times": {
   "_date": "2026-11-07",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9451,7 +9400,9 @@
  ],
  "reels": {
   "date": "2026-11-07",
-  "done": []
+  "done": [
+   "08:00"
+  ]
  },
  "kawish_queue": [],
  "kawish_post": {
@@ -9460,13 +9411,6 @@
   "last": 1793962387.970033
  },
  "tg_debug": [
-  {
-   "t": "11-07 01:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-07 01:50",
    "ok": true,
@@ -9739,44 +9683,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-07 08:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-07",
  "recent_posts": [
-  {
-   "t": 1793846220,
-   "h": "پاڪستان ۽ ترڪي جو فوٽ اينڊ ماؤٿ ڊيزيز جي ويڪسين تي سهڪار تي اتفاق",
-   "b": "پاڪستان ۽ ترڪي فوٽ اينڊ ماؤٿ ڊيزيز (ايف ايم ڊي) جي ويڪسين جي پيداوار ۾ تعاون کي مضبوط ڪرڻ تي اتفاق ڪيو آهي.",
-   "tt": [
-    "اتفاق",
-    "اينڊ",
-    "ترڪي",
-    "سهڪار",
-    "فوٽ",
-    "ماؤٿ",
-    "ويڪسين",
-    "پاڪستان",
-    "ڊيزيز"
-   ],
-   "bt": [
-    "اتفاق",
-    "اهي",
-    "ايف",
-    "ايم",
-    "اينڊ",
-    "ترڪي",
-    "تعاون",
-    "سهڪار",
-    "فوٽ",
-    "ماؤٿ",
-    "مضبوط",
-    "ويڪسين",
-    "پاڪستان",
-    "پيداوار",
-    "ڊيزيز",
-    "ڪرڻ"
-   ]
-  },
   {
    "t": 1793847697,
    "h": "صبح جون سنڌ جون اهم خبرون",
@@ -14683,6 +14600,48 @@
     "واڌ",
     "ورتو",
     "پنجاب"
+   ]
+  },
+  {
+   "t": 1794020489,
+   "h": "صبح جون سنڌ جون اهم خبرون",
+   "b": "7 نومبر 2026 1️⃣ پيٹرول ۽ ڊيزل جي قيمتن ۾ گهٽات حکومت عوام کي رليف ڏيندي پيٹروليم مصنوعات جون قيمتون گهٽائي",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "صبح"
+   ],
+   "bt": [
+    "#25",
+    "#59",
+    "اهم",
+    "اهن،",
+    "اهي",
+    "حڪومت",
+    "خبرون",
+    "رليف",
+    "روپيا",
+    "سستو",
+    "سنڌ",
+    "صبح",
+    "عوام",
+    "قيمت",
+    "قيمتن",
+    "قيمتون",
+    "مصنوعات",
+    "نتيجي",
+    "نومبر",
+    "پئسا",
+    "پيٹرول",
+    "پيٹروليم",
+    "ڇڏيون",
+    "ڊيزل",
+    "ڏيندي",
+    "گئي",
+    "گهٽائي",
+    "گهٽات",
+    "گهٽتائي"
    ]
   }
  ],
