@@ -1734,7 +1734,10 @@
   "32c55cb3362a4407": 1794040761.689292,
   "2c1b21beefa6a0f2": 1794040761.6894507,
   "60965df7e264065f": 1794042119.3826637,
-  "cf00a67420e27e67": 1794043267.4587166
+  "cf00a67420e27e67": 1794043267.4587166,
+  "b1d2561bf5426d50": 1794044464.6927874,
+  "eb32c9d02fbc6ef6": 1794044470.4356508,
+  "79a4e7ab8d0e3a0c": 1794044470.43584
  },
  "pending": {},
  "queue": [],
@@ -1806,7 +1809,7 @@
  "sindh_single": {
   "date": "2026-11-07",
   "count": 1,
-  "last": 1794031280.3702915,
+  "last": 1794044486.7841642,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2391,11 +2394,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-07 14:30",
+  "time": "2026-11-07 14:41",
   "items": 16,
   "sample": [
-   "Bangladesh 352/8 * v West Indies 356/10",
-   "Afghanistan 257/3 * v Zimbabwe 504/10",
+   "Bangladesh 362/8 * v West Indies 356/10",
+   "Afghanistan 274/3 * v Zimbabwe 504/10",
    "Zimbabwe A 261/10 * v Ireland A 424/10"
   ]
  },
@@ -7874,9 +7877,9 @@
  },
  "ai_usage": {
   "date": "2026-11-07",
-  "ok": 204,
-  "fail": 337,
-  "limit": 335
+  "ok": 209,
+  "fail": 347,
+  "limit": 345
  },
  "posted_heads": [
   {
@@ -8201,7 +8204,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-07 14:30",
+  "time": "2026-11-07 14:41",
   "steps": []
  },
  "roundup_am": "2026-11-07",
@@ -8304,12 +8307,12 @@
  },
  "article_diag": {
   "date": "2026-11-07",
-  "tried": 20,
-  "decoded": 19,
-  "text": 18,
-  "story": 15
+  "tried": 21,
+  "decoded": 20,
+  "text": 19,
+  "story": 16
  },
- "ai_last_error": "14:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "14:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-07",
   "models": [
@@ -8351,7 +8354,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-07",
-   "ok": 89,
+   "ok": 90,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8359,7 +8362,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-07",
-   "ok": 89,
+   "ok": 90,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8367,7 +8370,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-07",
-   "ok": 87,
+   "ok": 88,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8375,7 +8378,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 90,
+   "ok": 91,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8383,7 +8386,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 91,
+   "ok": 92,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8391,14 +8394,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 91,
+   "ok": 92,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 91,
+   "ok": 92,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8407,9 +8410,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-07",
    "ok": 0,
-   "fail": 91,
+   "fail": 92,
    "items": 15,
-   "fail_streak": 440,
+   "fail_streak": 441,
    "last_status": 404
   }
  },
@@ -8573,8 +8576,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8615,9 +8618,9 @@
  "sindh_stream": {
   "date": "2026-11-07",
   "count": 11,
-  "last": 1794042083.382602,
-  "city_i": 8,
-  "dry": 1794043258.7072651
+  "last": 1794044461.641385,
+  "city_i": 12,
+  "dry": 1794044464.6927898
  },
  "gemini_day_dead": {
   "day": "2026-11-07",
@@ -9396,13 +9399,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-07 08:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-07 08:20",
    "ok": true,
    "n": 0,
@@ -9670,6 +9666,13 @@
   },
   {
    "t": "11-07 14:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-07 14:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14653,11 +14656,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-04 21:53",
-   "new": "شھيد بينظير آباد رينج ۾ پوليس ڪارڪردگي ۽ امن امان جو جائزو",
-   "old": "شهید بینظیر آباد رينج ۾ هندو برادري جي ڏوالي لاءِ سيڪيورٽي انتظام"
-  },
-  {
    "t": "11-04 21:54",
    "new": "شاهين آفريدي جي آءِ سي سي رينڪنگ ۾ ترقي",
    "old": "ٽاءِ سيريز کٽڻ بعد پاڪستاني رانديگرن جي آءِ سي سي رئنڪنگ ۾ ترقي"
@@ -14801,6 +14799,11 @@
    "t": "11-07 12:31",
    "new": "آمريڪا ۾ ڊيموڪريٽڪ پارٽيءَ جي تاريخي ڪاميابي تي نيرو سونامي قرار",
    "old": "ٽرمپ جي هٽائڻ لاءِ مواخذي جو مطالبو زور وٺي ويو، ڊيموڪريٽس مواخذو ڪيو "
+  },
+  {
+   "t": "11-07 14:41",
+   "new": "پاڪستان ۾ چاندي جي اڄوڪي اگهه جو تفصيل سامهون اچي ويو",
+   "old": "اڄ پاڪستان ۾ سون جي قيمت"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14821,6 +14824,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 8
- }
+  "repeat": 9
+ },
+ "_dup": true
 }
