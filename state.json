@@ -1765,7 +1765,13 @@
   "087e2571d517efe9": 1794018115.701316,
   "cac74dad72f1a659": 1794018115.7014525,
   "2d3c99bb15bd9d31": 1794018129.58909,
-  "09a3c0d823d8c8af": 1794018129.5892746
+  "09a3c0d823d8c8af": 1794018129.5892746,
+  "04454b88e05beb0c": 1794021676.3880594,
+  "930a4ad2f7b37af3": 1794021676.3880615,
+  "dcda031c538a9ca0": 1794021676.3880627,
+  "6f52f9f83ef6a118": 1794021676.3880634,
+  "d458690be09fdf32": 1794021676.3882778,
+  "974be1ba1402477f": 1794021698.8540227
  },
  "pending": {
   "culture2026-11-06": {
@@ -1877,7 +1883,7 @@
  "sindh_single": {
   "date": "2026-11-07",
   "count": 0,
-  "last": 1793987845.0540314,
+  "last": 1794021692.4684167,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1918,7 +1924,8 @@
    "1cc04cba6d1bf94e",
    "273f67e7971c20a3",
    "6bb1c6c9026db0f7",
-   "7d81e80d6b2185b6"
+   "7d81e80d6b2185b6",
+   "974be1ba1402477f"
   ]
  },
  "last_post_id": "1444130002106066_122118379671503839",
@@ -2459,7 +2466,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-07 08:10",
+  "time": "2026-11-07 08:21",
   "items": 16,
   "sample": [
    "Bangladesh 88/3 * v West Indies 356/10",
@@ -7918,9 +7925,9 @@
  },
  "ai_usage": {
   "date": "2026-11-07",
-  "ok": 98,
-  "fail": 175,
-  "limit": 173
+  "ok": 103,
+  "fail": 185,
+  "limit": 183
  },
  "posted_heads": [
   {
@@ -8245,7 +8252,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-07 08:10",
+  "time": "2026-11-07 08:21",
   "steps": []
  },
  "roundup_am": "2026-11-07",
@@ -8348,12 +8355,12 @@
  },
  "article_diag": {
   "date": "2026-11-07",
-  "tried": 14,
-  "decoded": 13,
+  "tried": 15,
+  "decoded": 14,
   "text": 13,
   "story": 10
  },
- "ai_last_error": "08:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-07",
   "models": [
@@ -8395,7 +8402,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-07",
-   "ok": 50,
+   "ok": 51,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8403,7 +8410,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-07",
-   "ok": 50,
+   "ok": 51,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8411,7 +8418,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-07",
-   "ok": 48,
+   "ok": 49,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8419,7 +8426,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 51,
+   "ok": 52,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8427,7 +8434,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8435,14 +8442,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8451,9 +8458,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-07",
    "ok": 0,
-   "fail": 52,
+   "fail": 53,
    "items": 15,
-   "fail_streak": 401,
+   "fail_streak": 402,
    "last_status": 404
   }
  },
@@ -8617,8 +8624,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8660,8 +8667,8 @@
   "date": "2026-11-07",
   "count": 0,
   "last": 1794009675.7491689,
-  "city_i": 16,
-  "dry": 1794019861.059091
+  "city_i": 20,
+  "dry": 1794021664.5445838
  },
  "gemini_day_dead": {
   "day": "2026-11-06",
@@ -9412,13 +9419,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-07 02:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-07 02:10",
    "ok": true,
    "n": 0,
@@ -9686,6 +9686,13 @@
   },
   {
    "t": "11-07 08:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-07 08:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14647,16 +14654,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-04 08:11",
-   "new": "حڪومت پاران تيل اگهن ۾ ٻيو وڏو گهٽتائي جو اعلان",
-   "old": "پيٽرول اگهه ۾ گهٽتائي، ڊيزل مهانگو"
-  },
-  {
-   "t": "11-04 10:01",
-   "new": "پيٽرول سستو، ڊيزل جي اگهه ۾ واڌ",
-   "old": "پيٽرول اگهه ۾ گهٽتائي، ڊيزل مهانگو"
-  },
-  {
    "t": "11-04 13:25",
    "new": "سنڌ ڪئبنيٽ ڪڻڪ جي نئين قيمت 4500 رپيا مقرر ڪري ڇڏي",
    "old": "سنڌ | سنڌ حڪومت پاران گندم جي امدادي قيمت ۾ گهٽتائي"
@@ -14795,6 +14792,16 @@
    "t": "11-07 07:22",
    "new": "پيٽرول ۽ ڊيزل اگهن ۾ گهٽتائي",
    "old": "صبح جون سنڌ جون اهم خبرون"
+  },
+  {
+   "t": "11-07 08:21",
+   "new": "حڪومت پيٽرول ۽ ڊيزل اگهه گھٽ ڪري ڇڏيا",
+   "old": "صبح جون سنڌ جون اهم خبرون"
+  },
+  {
+   "t": "11-07 08:21",
+   "new": "سنڌ | پيٹرول ۽ ډيزل جي قيمتن ۾ گهٽات",
+   "old": "صبح جون سنڌ جون اهم خبرون"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14815,6 +14822,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 5
- }
+  "repeat": 7
+ },
+ "_dup": true
 }
