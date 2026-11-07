@@ -1844,20 +1844,8 @@
    "1da7dedfc26f845e"
   ]
  },
- "last_post_id": "1444130002106066_122118490509503839",
+ "last_post_id": "1444130002106066_122118493857503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122118278313503839",
-   "title": "سنڌ جي ٻيٽن ۽ معدني وسيلن جا معاملا پارليامينٽ ۾ آندا وڃن",
-   "t": 1793986888.171019,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122118278313503839"
-  },
   {
    "id": "1444130002106066_122118288741503839",
    "title": "واٽس ايپ ۾ رونگ نمبر جي سڃاڻپ جو نئون فيچر متعارف",
@@ -2168,6 +2156,18 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122118490509503839"
+  },
+  {
+   "id": "1444130002106066_122118493857503839",
+   "title": "سنڌ پوليس جو ناجائز پوليس چوڪين خلاف آپريشن",
+   "t": 1794046883.8276846,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122118493857503839"
   }
  ],
  "share_sent": {
@@ -2378,11 +2378,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-07 15:10",
+  "time": "2026-11-07 15:21",
   "items": 16,
   "sample": [
-   "Bangladesh 386/10 * v West Indies 356/10",
-   "Afghanistan 275/5 * v Zimbabwe 504/10",
+   "Bangladesh 386/10 v West Indies 4 & 356/10 *",
+   "Afghanistan 280/5 * v Zimbabwe 504/10",
    "Zimbabwe A 261/10 * v Ireland A 424/10"
   ]
  },
@@ -2393,17 +2393,11 @@
  },
  "all_posts": {
   "date": "2026-11-07",
-  "count": 29,
-  "last": 1794045994.513424
+  "count": 30,
+  "last": 1794046876.3274045
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122114530395503839",
-    "sec": "public_news",
-    "cat": "fuel",
-    "t": 1793145115
-   },
    {
     "id": "1444130002106066_122114540655503839",
     "sec": "public_news",
@@ -4797,6 +4791,12 @@
     "sec": "kawish",
     "cat": "district",
     "t": 1794046003
+   },
+   {
+    "id": "1444130002106066_122118493857503839",
+    "sec": "kawish",
+    "cat": "sindh",
+    "t": 1794046883
    }
   ]
  },
@@ -7861,9 +7861,9 @@
  },
  "ai_usage": {
   "date": "2026-11-07",
-  "ok": 250,
-  "fail": 373,
-  "limit": 371
+  "ok": 254,
+  "fail": 379,
+  "limit": 377
  },
  "posted_heads": [
   {
@@ -8189,10 +8189,14 @@
   {
    "h": "غريبن جي زمينن تي قبضا ۽ ناانصافيون",
    "t": 1794046003
+  },
+  {
+   "h": "سنڌ پوليس جو ناجائز پوليس چوڪين خلاف آپريشن",
+   "t": 1794046884
   }
  ],
  "last_errors": {
-  "time": "2026-11-07 15:10",
+  "time": "2026-11-07 15:21",
   "steps": []
  },
  "roundup_am": "2026-11-07",
@@ -8300,7 +8304,7 @@
   "text": 20,
   "story": 17
  },
- "ai_last_error": "15:06 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "15:20 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-07",
   "models": [
@@ -8314,9 +8318,9 @@
  },
  "img_diag": {
   "date": "2026-11-07",
-  "tried": 27,
+  "tried": 28,
   "gemini": 0,
-  "pollinations": 18,
+  "pollinations": 19,
   "skip": 4,
   "fail": 2,
   "last_note": "cricket pitch and bats",
@@ -8342,7 +8346,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-07",
-   "ok": 93,
+   "ok": 94,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8350,7 +8354,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-07",
-   "ok": 93,
+   "ok": 94,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8358,7 +8362,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-07",
-   "ok": 91,
+   "ok": 92,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8366,7 +8370,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 94,
+   "ok": 95,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8374,7 +8378,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8382,14 +8386,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8398,9 +8402,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-07",
    "ok": 0,
-   "fail": 95,
+   "fail": 96,
    "items": 15,
-   "fail_streak": 444,
+   "fail_streak": 445,
    "last_status": 404
   }
  },
@@ -8658,13 +8662,13 @@
  "region_posts": {
   "date": "2026-11-07",
   "district": 1,
-  "sindh": 13,
+  "sindh": 14,
   "pakistan": 13
  },
  "report_acc": {
-  "posted": 0,
-  "found": 1,
-  "old": 1,
+  "posted": 1,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9466,6 +9470,14 @@
    "t": 1794046003,
    "s": true,
    "r": 0
+  },
+  {
+   "k": "8374df409d1effd8",
+   "h": "سنڌ پوليس جو ناجائز پوليس چوڪين خلاف آپريشن",
+   "x": "سنڌ پوليس بلوچستان سرحد سان لڳل علائقن ۾ ناجائز پوليس چوڪين خلاف سخت آپريشن شروع ڪري ڇڏيو آهي. ڪشمور ۽ ٻين علائقن مان غيرقانوني چوڪيون مسمار ڪيون ويون آهن. پوليس جو چوڻ آهي ته عوام جي سهولت لاءِ غيرقانوني چيڪ پوسٽون ختم ڪيون پيون وڃن.",
+   "t": 1794046883,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9479,22 +9491,6 @@
   ]
  },
  "kawish_queue": [
-  {
-   "key": "8374df409d1effd8",
-   "page": 3,
-   "head": "سنڌ پوليس جو ناجائز پوليس چوڪين خلاف آپريشن",
-   "summary": "سنڌ پوليس بلوچستان سرحد سان لڳل علائقن ۾ ناجائز پوليس چوڪين خلاف سخت آپريشن شروع ڪري ڇڏيو آهي. ڪشمور ۽ ٻين علائقن مان غيرقانوني چوڪيون مسمار ڪيون ويون آهن. پوليس جو چوڻ آهي ته عوام جي سهولت لاءِ غيرقانوني چيڪ پوسٽون ختم ڪيون پيون وڃن.",
-   "card": "سنڌ پوليس بلوچستان سرحد سان لڳل علائقن ۾ غيرقانوني پوليس چوڪين خلاف آپريشن ڪري کين مسمار ڪري ڇڏيو آهي.",
-   "printed": "سنڌ پوليس بلوچستان سرحد تي مني پوليس چوڪيون ختم ڪري ڇڏيون ڪراچي",
-   "search_en": "Sindh police operation illegal check posts Balochistan border",
-   "search_ur": "سندھ پولیس آپریشن غیر قانونی پولیس چوکیوں کے خلاف",
-   "district": false,
-   "sensitive": false,
-   "confidence": "high",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-11-07&pageno=3",
-   "message": "📰 سنڌ پوليس جو ناجائز پوليس چوڪين خلاف آپريشن\n\nسنڌ پوليس بلوچستان سرحد سان لڳل علائقن ۾ ناجائز پوليس چوڪين خلاف سخت آپريشن شروع ڪري ڇڏيو آهي. ڪشمور ۽ ٻين علائقن مان غيرقانوني چوڪيون مسمار ڪيون ويون آهن. پوليس جو چوڻ آهي ته عوام جي سهولت لاءِ غيرقانوني چيڪ پوسٽون ختم ڪيون پيون وڃن!\n\n📌 ذريعو: روزاني ڪاوش (صفحو 3)\n\n📲 نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFeroze #Padidan #نوشهروفيروز #پڊعيدن",
-   "added_day": "2026-11-07"
-  },
   {
    "key": "f3784b4c891c87c7",
    "page": 3,
@@ -9588,17 +9584,10 @@
  ],
  "kawish_post": {
   "date": "2026-11-07",
-  "count": 1,
-  "last": 1794046003.1140869
+  "count": 2,
+  "last": 1794046883.8276422
  },
  "tg_debug": [
-  {
-   "t": "11-07 08:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-07 09:00",
    "ok": true,
@@ -9867,6 +9856,13 @@
   },
   {
    "t": "11-07 15:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-07 15:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14861,6 +14857,51 @@
     "ڪندي",
     "ڪيسن"
    ]
+  },
+  {
+   "t": 1794046883,
+   "h": "سنڌ پوليس جو ناجائز پوليس چوڪين خلاف آپريشن",
+   "b": "سنڌ پوليس بلوچستان سرحد سان لڳل علائقن ۾ ناجائز پوليس چوڪين خلاف سخت آپريشن شروع ڪري ڇڏيو آهي. ڪشمور ۽ ٻين",
+   "tt": [
+    "اپريشن",
+    "خلاف",
+    "سنڌ",
+    "ناجائز",
+    "پوليس",
+    "چوڪين"
+   ],
+   "bt": [
+    "اهن",
+    "اهي",
+    "اپريشن",
+    "بلوچستان",
+    "ختم",
+    "خلاف",
+    "سخت",
+    "سرحد",
+    "سنڌ",
+    "سهولت",
+    "شروع",
+    "علائقن",
+    "عوام",
+    "غيرقانوني",
+    "لڳل",
+    "مان",
+    "مسمار",
+    "ناجائز",
+    "ويون",
+    "وڃن",
+    "ٻين",
+    "پوسٽون",
+    "پوليس",
+    "پيون",
+    "چوڪين",
+    "چوڪيون",
+    "چوڻ",
+    "چيڪ",
+    "ڇڏيو",
+    "ڪشمور"
+   ]
   }
  ],
  "repeat_log": [
@@ -15028,7 +15069,7 @@
  },
  "quality": {
   "date": "2026-11-07",
-  "editor_fixed": 19,
+  "editor_fixed": 20,
   "editor_rejected": 2,
   "kawish_rejected": 7,
   "kawish_crosschecked": 2,
