@@ -1738,7 +1738,8 @@
   "cebe9ff128fa3099": 1794040625.6274815,
   "5971c551d5db96c3": 1794040761.6892903,
   "32c55cb3362a4407": 1794040761.689292,
-  "2c1b21beefa6a0f2": 1794040761.6894507
+  "2c1b21beefa6a0f2": 1794040761.6894507,
+  "60965df7e264065f": 1794042119.3826637
  },
  "pending": {},
  "queue": [],
@@ -1756,7 +1757,7 @@
   "last_week": "",
   "last_check": "2026-11-07"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.5-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1856,20 +1857,8 @@
    "1da7dedfc26f845e"
   ]
  },
- "last_post_id": "1444130002106066_122118467835503839",
+ "last_post_id": "1444130002106066_122118471927503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122118248223503839",
-   "title": "ٽرمپ جو ايران بابت ٻن هفتن ۾ فيصلي جو اعلان",
-   "t": 1793979099.6749268,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122118248223503839"
-  },
   {
    "id": "1444130002106066_122118254709503839",
    "title": "لاڙڪاڻو يونيورسٽي جو افتتاح سنڌ جي نوجوانن لاءِ اعليٰ تعليم جا نوان دروازا کولڻ لاءِ",
@@ -2186,6 +2175,18 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122118467835503839"
+  },
+  {
+   "id": "1444130002106066_122118471927503839",
+   "title": "سنڌ حڪومت جو ٿرپارڪر کي آفت سٽيل ضلعو قرار ڏيڻ جو فيصلو",
+   "t": 1794042271.484234,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122118471927503839"
   }
  ],
  "share_sent": {
@@ -2396,11 +2397,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-07 13:50",
+  "time": "2026-11-07 14:04",
   "items": 16,
   "sample": [
-   "Bangladesh 318/8 * v West Indies 356/10",
-   "Afghanistan 220/2 * v Zimbabwe 504/10",
+   "Bangladesh 324/8 * v West Indies 356/10",
+   "Afghanistan 233/2 * v Zimbabwe 504/10",
    "Zimbabwe A 261/10 * v Ireland A 424/10"
   ]
  },
@@ -2411,17 +2412,11 @@
  },
  "all_posts": {
   "date": "2026-11-07",
-  "count": 25,
-  "last": 1794040967.0889187
+  "count": 26,
+  "last": 1794042265.6436024
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122114479731503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793130686
-   },
    {
     "id": "1444130002106066_122114494857503839",
     "sec": "cricket_news",
@@ -4815,6 +4810,12 @@
     "sec": "public_news",
     "cat": "health",
     "t": 1794040977
+   },
+   {
+    "id": "1444130002106066_122118471927503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1794042271
    }
   ]
  },
@@ -7887,15 +7888,11 @@
  },
  "ai_usage": {
   "date": "2026-11-07",
-  "ok": 191,
-  "fail": 323,
-  "limit": 320
+  "ok": 196,
+  "fail": 325,
+  "limit": 323
  },
  "posted_heads": [
-  {
-   "h": "IRSA Releases 102,200 Cusecs From Rim Stations Amid 51,300-Cusec Inflow",
-   "t": 1793874177
-  },
   {
    "h": "آمريڪي رياست مسيسپي ۾ 40 سالن بعد ڊيموڪريٽڪ سينيٽر چونڊجڻ جو امڪان",
    "t": 1793876750
@@ -8211,10 +8208,14 @@
   {
    "h": "Higher temperatures may prolong dengue season",
    "t": 1794040977
+  },
+  {
+   "h": "ڏڪار جي تباهي، سنڌ حڪومت جو ٿرپارڪر کي آفت سٽيل ضلعو قرار ڏيڻ جو فيصلو",
+   "t": 1794042271
   }
  ],
  "last_errors": {
-  "time": "2026-11-07 13:50",
+  "time": "2026-11-07 14:04",
   "steps": []
  },
  "roundup_am": "2026-11-07",
@@ -8322,7 +8323,7 @@
   "text": 17,
   "story": 14
  },
- "ai_last_error": "13:42 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "14:02 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-07",
   "models": [
@@ -8336,9 +8337,9 @@
  },
  "img_diag": {
   "date": "2026-11-07",
-  "tried": 23,
+  "tried": 24,
   "gemini": 0,
-  "pollinations": 15,
+  "pollinations": 16,
   "skip": 3,
   "fail": 2,
   "last_note": "dry cracked agricultural field",
@@ -8364,7 +8365,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-07",
-   "ok": 84,
+   "ok": 85,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8372,7 +8373,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-07",
-   "ok": 84,
+   "ok": 85,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8380,7 +8381,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-07",
-   "ok": 82,
+   "ok": 83,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8388,7 +8389,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 85,
+   "ok": 86,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8396,7 +8397,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8404,14 +8405,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8420,9 +8421,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-07",
    "ok": 0,
-   "fail": 86,
+   "fail": 87,
    "items": 15,
-   "fail_streak": 435,
+   "fail_streak": 436,
    "last_status": 404
   }
  },
@@ -8581,18 +8582,18 @@
  "region_posts": {
   "date": "2026-11-07",
   "district": 0,
-  "sindh": 12,
+  "sindh": 13,
   "pakistan": 11
  },
  "report_acc": {
-  "posted": 2,
-  "found": 5,
-  "old": 5,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-07 13",
+ "report_hour": "2026-11-07 14",
  "kawish_upload_times": {
   "_date": "2026-11-07",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8627,9 +8628,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-07",
-  "count": 10,
-  "last": 1794040267.5652304,
-  "city_i": 22,
+  "count": 11,
+  "last": 1794042083.382602,
+  "city_i": 4,
   "dry": 1794040419.4130476
  },
  "gemini_day_dead": {
@@ -8638,7 +8639,8 @@
    "gemini-3.8-flash",
    "gemini-3.7-flash",
    "gemini-flash-latest",
-   "gemini-3.5-flash"
+   "gemini-3.5-flash",
+   "gemini-3.6-flash"
   ]
  },
  "tg_done": [
@@ -9380,6 +9382,14 @@
    "t": 1794040977,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "a402dfb29ec4c478",
+   "h": "سنڌ حڪومت جو ٿرپارڪر کي آفت سٽيل ضلعو قرار ڏيڻ جو فيصلو",
+   "x": "سنڌ حڪومت ٿرپارڪر ۾ ڏڪار جي سنگين صورتحال کي نظر ۾ رکندي ضلعي کي آفت سٽيل قرار ڏيڻ جو فيصلو ڪري ورتو آهي. وڏي وزير مراد علي شاهه ڏڪار کي منهن ڏيڻ لاءِ فوري قدم کڻڻ جون هدايتون جاري ڪري ڇڏيون آهن. وڏي وزير کي ڏنل بريفنگ ۾ ٻڌايو ويو ته ٿرپارڪر جي سمورن ستن ئي تعلقن ۾ ڏڪار جهڙي صورتحال آهي، جتي 85 کان 90 سيڪڙو تائين فصل تباهه يا غيرپيداواري ٿي چڪا آهن. زراعت کاتي موجب فصلن کي لڳ ڀڳ 90 سيڪڙو نقصان پهتو آهي. بيان: سنڌ جو وڏو وزير مراد علي شاهه",
+   "t": 1794042271,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9388,7 +9398,8 @@
    "08:00",
    "09:30",
    "11:00",
-   "12:30"
+   "12:30",
+   "14:00"
   ]
  },
  "kawish_queue": [],
@@ -9398,13 +9409,6 @@
   "last": 1793962387.970033
  },
  "tg_debug": [
-  {
-   "t": "11-07 07:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-07 07:34",
    "ok": true,
@@ -9673,6 +9677,13 @@
   },
   {
    "t": "11-07 13:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-07 14:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14635,6 +14646,54 @@
     "ڪراچي",
     "گرمي"
    ]
+  },
+  {
+   "t": 1794042271,
+   "h": "سنڌ حڪومت جو ٿرپارڪر کي آفت سٽيل ضلعو قرار ڏيڻ جو فيصلو",
+   "b": "سنڌ حڪومت ٿرپارڪر ۾ ڏڪار جي سنگين صورتحال کي نظر ۾ رکندي ضلعي کي آفت سٽيل قرار ڏيڻ جو فيصلو ڪري ورتو آهي. وڏي",
+   "tt": [
+    "افت",
+    "حڪومت",
+    "سنڌ",
+    "سٽيل",
+    "ضلعو",
+    "فيصلو",
+    "قرار",
+    "ٿرپارڪر",
+    "ڏيڻ"
+   ],
+   "bt": [
+    "افت",
+    "اهن",
+    "اهي",
+    "جاري",
+    "حڪومت",
+    "رڪندي",
+    "سنڌ",
+    "سنگين",
+    "سٽيل",
+    "شاهه",
+    "صورتحال",
+    "ضلعو",
+    "ضلعي",
+    "علي",
+    "فوري",
+    "فيصلو",
+    "قدم",
+    "قرار",
+    "مراد",
+    "منهن",
+    "نظر",
+    "هدايتون",
+    "ورتو",
+    "وزير",
+    "وڏي",
+    "ٿرپارڪر",
+    "ڇڏيون",
+    "ڏيڻ",
+    "ڏڪار",
+    "ڪڻڻ"
+   ]
   }
  ],
  "repeat_log": [
@@ -14802,7 +14861,7 @@
  },
  "quality": {
   "date": "2026-11-07",
-  "editor_fixed": 15,
+  "editor_fixed": 16,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
