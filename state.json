@@ -1,6 +1,5 @@
 {
  "seen": {
-  "ce598e14c80e7e6b": 1793418069.6235287,
   "011b52d283beb821": 1793418708.1544743,
   "354f4b774fec8497": 1793419867.5073397,
   "7650d79f5f2073b3": 1793419872.8461113,
@@ -1765,7 +1764,8 @@
   "6f52f9f83ef6a118": 1794021676.3880634,
   "d458690be09fdf32": 1794021676.3882778,
   "974be1ba1402477f": 1794021698.8540227,
-  "80031a8f347d84aa": 1794022286.2849538
+  "80031a8f347d84aa": 1794022286.2849538,
+  "7b9487209a0e6ebd": 1794023473.2492123
  },
  "pending": {
   "culture2026-11-06": {
@@ -1922,20 +1922,8 @@
    "974be1ba1402477f"
   ]
  },
- "last_post_id": "1444130002106066_122118387921503839",
+ "last_post_id": "1444130002106066_122118393141503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122118154461503839",
-   "title": "وزيراعظم پرڏيهي واپار وڌائڻ لاءِ ٽي ڊي اي پي کي جديد بڻائڻ جي منظوري ڏئي ڇڏي",
-   "t": 1793958100.0047722,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122118154461503839"
-  },
   {
    "id": "1444130002106066_122118160671503839",
    "title": "پاڪستان جي نوجوان آل راؤنڊر کي مهيني جي بهترين رانديگر جي ايوارڊ لاءِ نامزد ڪيو ويو آهي",
@@ -2252,6 +2240,16 @@
     "jobs"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122118387921503839"
+  },
+  {
+   "id": "1444130002106066_122118393141503839",
+   "title": "ڄاڻايل ڏينھن تي پاڪستان ۾ سون جي اگھن جو نئون تفصيل سامهون اچي ويو",
+   "t": 1794023599.760801,
+   "tags": [
+    "business",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122118393141503839"
   }
  ],
  "share_sent": {
@@ -2462,10 +2460,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-07 08:40",
+  "time": "2026-11-07 08:53",
   "items": 16,
   "sample": [
-   "Bangladesh 92/3 * v West Indies 356/10",
+   "Bangladesh 104/3 * v West Indies 356/10",
    "Afghanistan 113/1 * v Zimbabwe 504/10",
    "Zimbabwe A 261/10 * v Ireland A 424/10"
   ]
@@ -2477,17 +2475,11 @@
  },
  "all_posts": {
   "date": "2026-11-07",
-  "count": 10,
-  "last": 1794022317.9165962
+  "count": 11,
+  "last": 1794023595.668589
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122114373417503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793106837
-   },
    {
     "id": "1444130002106066_122114378259503839",
     "sec": "kawish",
@@ -4881,13 +4873,19 @@
     "sec": "public_news",
     "cat": "education_jobs",
     "t": 1794022326
+   },
+   {
+    "id": "1444130002106066_122118393141503839",
+    "sec": "public_news",
+    "cat": "dollar_gold_business",
+    "t": 1794023599
    }
   ]
  },
  "public_news": {
   "date": "2026-11-07",
-  "count": 3,
-  "last": 1794022326.0250795
+  "count": 4,
+  "last": 1794023599.7607822
  },
  "trends": {
   "last": 1794020495.727391,
@@ -7921,15 +7919,11 @@
  },
  "ai_usage": {
   "date": "2026-11-07",
-  "ok": 109,
-  "fail": 195,
-  "limit": 193
+  "ok": 116,
+  "fail": 205,
+  "limit": 203
  },
  "posted_heads": [
-  {
-   "h": "ايلون مسڪ ۽ ٻين ارب پتين جو ردعمل: ڊيموڪريٽڪ پارٽي جي ڪاميابي جا ڪهڙا اثر پوندا؟",
-   "t": 1793854387
-  },
   {
    "h": "Currency exchange rates in Pakistan today – 05 November 2026",
    "t": 1793855628
@@ -8245,10 +8239,14 @@
   {
    "h": "Punjab closes schools for Iqbal Day",
    "t": 1794022326
+  },
+  {
+   "h": "Gold price in Pakistan for today, November 07, 2026",
+   "t": 1794023599
   }
  ],
  "last_errors": {
-  "time": "2026-11-07 08:40",
+  "time": "2026-11-07 08:53",
   "steps": []
  },
  "roundup_am": "2026-11-07",
@@ -8351,12 +8349,12 @@
  },
  "article_diag": {
   "date": "2026-11-07",
-  "tried": 16,
-  "decoded": 15,
-  "text": 14,
-  "story": 11
+  "tried": 17,
+  "decoded": 16,
+  "text": 15,
+  "story": 12
  },
- "ai_last_error": "08:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-07",
   "models": [
@@ -8370,13 +8368,13 @@
  },
  "img_diag": {
   "date": "2026-11-07",
-  "tried": 9,
+  "tried": 10,
   "gemini": 0,
-  "pollinations": 6,
+  "pollinations": 7,
   "skip": 0,
-  "fail": 0,
-  "last_note": "modern mobile phone",
-  "mismatch": 471,
+  "fail": 1,
+  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
+  "mismatch": 472,
   "unverified": 1
  },
  "gemini_img": {
@@ -8398,7 +8396,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-07",
-   "ok": 53,
+   "ok": 54,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8406,7 +8404,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-07",
-   "ok": 53,
+   "ok": 54,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8414,7 +8412,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-07",
-   "ok": 51,
+   "ok": 52,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8422,7 +8420,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 54,
+   "ok": 55,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8430,7 +8428,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8438,14 +8436,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8454,9 +8452,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-07",
    "ok": 0,
-   "fail": 55,
+   "fail": 56,
    "items": 15,
-   "fail_streak": 404,
+   "fail_streak": 405,
    "last_status": 404
   }
  },
@@ -8616,12 +8614,12 @@
   "date": "2026-11-07",
   "district": 0,
   "sindh": 1,
-  "pakistan": 8
+  "pakistan": 9
  },
  "report_acc": {
-  "posted": 1,
-  "found": 12,
-  "old": 12,
+  "posted": 2,
+  "found": 14,
+  "old": 14,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8663,8 +8661,8 @@
   "date": "2026-11-07",
   "count": 0,
   "last": 1794009675.7491689,
-  "city_i": 24,
-  "dry": 1794022274.0063145
+  "city_i": 6,
+  "dry": 1794023462.7770402
  },
  "gemini_day_dead": {
   "day": "2026-11-06",
@@ -9399,6 +9397,14 @@
    "t": 1794022326,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "5ade1c04d04283f7",
+   "h": "اڄ پاڪستان ۾ سون جي قيمت",
+   "x": "پاڪستان ۾ اڄ 7 نومبر 2026 تي سون جي اگهه بابت ڄاڻ سامهون آئي آهي. پاڪستان ۾ سون جا اگهه عالمي مارڪيٽ جي لاڙن جي جواب ۾ بار بار تبديل ٿيندا رهندا آهن. درج ڪيل اگهه مختلف شهرن جي مقامي سون جي مارڪيٽن ۽ صرافہ مارڪيٽن پاران فراهم ڪيا ويندا آهن. هن خبر جي حوالي سان مقامي مارڪيٽن جو ڪم ڪار عالمي رجحانن سان جڙيل هوندو آهي.",
+   "t": 1794023599,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9414,13 +9420,6 @@
   "last": 1793962387.970033
  },
  "tg_debug": [
-  {
-   "t": "11-07 02:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-07 02:40",
    "ok": true,
@@ -9689,6 +9688,13 @@
   },
   {
    "t": "11-07 08:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-07 08:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14610,6 +14616,47 @@
     "ڪاتي",
     "ڪندي"
    ]
+  },
+  {
+   "t": 1794023599,
+   "h": "اڄ پاڪستان ۾ سون جي قيمت",
+   "b": "پاڪستان ۾ اڄ 7 نومبر 2026 تي سون جي اگهه بابت ڄاڻ سامهون آئي آهي. پاڪستان ۾ سون جا اگهه عالمي مارڪيٽ جي لاڙن",
+   "tt": [
+    "سون",
+    "قيمت",
+    "پاڪستان"
+   ],
+   "bt": [
+    "ائي",
+    "اهن",
+    "اهي",
+    "اگهه",
+    "بابت",
+    "بار",
+    "تبديل",
+    "جواب",
+    "درج",
+    "رهندا",
+    "سامهون",
+    "سون",
+    "شهرن",
+    "صرافه",
+    "عالمي",
+    "فراهم",
+    "قيمت",
+    "لاڙن",
+    "مارڪيٽ",
+    "مارڪيٽن",
+    "مختلف",
+    "مقامي",
+    "نومبر",
+    "ويندا",
+    "پاران",
+    "پاڪستان",
+    "ٿيندا",
+    "ڄاڻ",
+    "ڪيل"
+   ]
   }
  ],
  "repeat_log": [
@@ -14777,7 +14824,7 @@
  },
  "quality": {
   "date": "2026-11-07",
-  "editor_fixed": 6,
+  "editor_fixed": 7,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
