@@ -1748,7 +1748,10 @@
   "3ee010a236f8cc43": 1794031862.464857,
   "9b08433247be5ce7": 1794033082.2408786,
   "26561bba4b2b26c1": 1794033082.240882,
-  "064a370b76a60bee": 1794034288.4524739
+  "064a370b76a60bee": 1794034288.4524739,
+  "449a1edee5086d4b": 1794035462.5537183,
+  "32ac0617358f79ea": 1794035462.55372,
+  "642308b8cd697ad4": 1794035462.5537214
  },
  "pending": {},
  "queue": [],
@@ -1866,17 +1869,8 @@
    "1da7dedfc26f845e"
   ]
  },
- "last_post_id": "1444130002106066_122118438303503839",
+ "last_post_id": "1444130002106066_122118442287503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122118223509503839",
-   "title": "ملڪ ۾ هفتيوار مهانگائي جي شرح ۾ واڌ رڪارڊ ڪئي وئي آهي جنهن جو مکيه سبب روزمرهه جي استعمال",
-   "t": 1793973141.3032358,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122118223509503839"
-  },
   {
    "id": "1444130002106066_122118230805503839",
    "title": "نوابشاهه ۾ 9 نومبر تي ڊيويزنل ويٽ لفٽنگ چيمپيئن شپ ٿيندي",
@@ -2196,6 +2190,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122118438303503839"
+  },
+  {
+   "id": "1444130002106066_122118442287503839",
+   "title": "فيول پرائس ايڊجسٽمينٽ: بجلي 2 روپيا 37 پئسا مهانگي",
+   "t": 1794035577.693584,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122118442287503839"
   }
  ],
  "share_sent": {
@@ -2406,11 +2412,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-07 12:01",
+  "time": "2026-11-07 12:12",
   "items": 16,
   "sample": [
-   "Bangladesh 249/7 * v West Indies 356/10",
-   "Afghanistan 161/1 * v Zimbabwe 504/10",
+   "Bangladesh 260/7 * v West Indies 356/10",
+   "Afghanistan 168/1 * v Zimbabwe 504/10",
    "Zimbabwe A 261/10 * v Ireland A 424/10"
   ]
  },
@@ -2421,17 +2427,11 @@
  },
  "all_posts": {
   "date": "2026-11-07",
-  "count": 21,
-  "last": 1794034356.7755098
+  "count": 22,
+  "last": 1794035574.2764122
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122114427063503839",
-    "sec": "district",
-    "cat": "district",
-    "t": 1793118856
-   },
    {
     "id": "1444130002106066_122114436855503839",
     "sec": "sindh_stream",
@@ -4825,6 +4825,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1794034364
+   },
+   {
+    "id": "1444130002106066_122118442287503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1794035577
    }
   ]
  },
@@ -7897,15 +7903,11 @@
  },
  "ai_usage": {
   "date": "2026-11-07",
-  "ok": 162,
-  "fail": 283,
-  "limit": 281
+  "ok": 169,
+  "fail": 291,
+  "limit": 289
  },
  "posted_heads": [
-  {
-   "h": "PCB announces Pakistan-Sri Lanka Test ticket prices",
-   "t": 1793867766
-  },
   {
    "h": "ون ڪانسٽيٽيوشن ايوينيو اسڪينڊل: جي آءِ ٽي رپورٽ ۾ اهم انڪشاف",
    "t": 1793869904
@@ -8221,10 +8223,14 @@
   {
    "h": "ننڊاکڙي حالت ۾ گاڏي هلائڻ به شراب جي نشي ۾ ڊرائيونگ جي برابر آهي: ماهر",
    "t": 1794034364
+  },
+  {
+   "h": "فيول پرائس ايڊجسٽمينٽ تحت بجلي 2 رپيا 37 پئسا في يونٽ مهانگي",
+   "t": 1794035577
   }
  ],
  "last_errors": {
-  "time": "2026-11-07 12:01",
+  "time": "2026-11-07 12:12",
   "steps": []
  },
  "roundup_am": "2026-11-07",
@@ -8332,7 +8338,7 @@
   "text": 16,
   "story": 13
  },
- "ai_last_error": "11:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "12:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-07",
   "models": [
@@ -8346,13 +8352,13 @@
  },
  "img_diag": {
   "date": "2026-11-07",
-  "tried": 19,
+  "tried": 20,
   "gemini": 0,
   "pollinations": 12,
   "skip": 3,
   "fail": 2,
-  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
-  "mismatch": 474,
+  "last_note": "electricity meter and bill",
+  "mismatch": 477,
   "unverified": 1
  },
  "gemini_img": {
@@ -8374,7 +8380,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-07",
-   "ok": 73,
+   "ok": 74,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8382,7 +8388,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-07",
-   "ok": 73,
+   "ok": 74,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8390,7 +8396,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-07",
-   "ok": 71,
+   "ok": 72,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8398,7 +8404,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 74,
+   "ok": 75,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8406,7 +8412,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8414,14 +8420,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 75,
+   "ok": 76,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8430,9 +8436,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-07",
    "ok": 0,
-   "fail": 75,
+   "fail": 76,
    "items": 15,
-   "fail_streak": 424,
+   "fail_streak": 425,
    "last_status": 404
   }
  },
@@ -8591,13 +8597,13 @@
  "region_posts": {
   "date": "2026-11-07",
   "district": 0,
-  "sindh": 9,
+  "sindh": 10,
   "pakistan": 10
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 1,
+  "old": 1,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8637,9 +8643,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-07",
-  "count": 7,
-  "last": 1794034262.4460099,
-  "city_i": 24,
+  "count": 8,
+  "last": 1794035460.4732854,
+  "city_i": 6,
   "dry": 1794025867.6481497
  },
  "gemini_day_dead": {
@@ -9391,6 +9397,14 @@
    "t": 1794034364,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "eb900cade5ab7fa4",
+   "h": "فيول پرائس ايڊجسٽمينٽ: بجلي 2 روپيا 37 پئسا مهانگي",
+   "x": "ملڪ ۾ سيپٽمبر جي فيول پرائس ايڊجسٽمينٽ تحت بجلي 2 روپيا 37 پئسا في يونٽ مهانگي ڪئي وئي آهي. نيشنل اليڪٽرڪ پاور ريگيوليٽري اٿارٽي (نيپرا) بجلي مهانگي ڪرڻ جو نوٽيفڪيشن جاري ڪري ڇڏيو آهي، جنهن موجب سيپٽمبر 2026ع جي ماهوار ايڊجسٽمينٽ تحت بجلي جي قيمتن ۾ واڌ ڪئي وئي آهي. نوٽيفڪيشن موجب بجلي جي قيمتن ۾ واڌ جو اطلاق نومبر جي بلن ۾ ٿيندو، جڏهن ته ان واڌ جو اطلاق ڪي اليڪٽرڪ جي صارفين تي پڻ ٿيندو. واضح رهي ته سينٽرل پاور پرچيزنگ ايجنسي (سي پي پي اي) سيپٽمبر جي ايڊجسٽمينٽ جي مد ۾ في يونٽ 2 رپيا 56 پئسا واڌ جي درخواست جمع ڪرائي هئي.",
+   "t": 1794035577,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9408,13 +9422,6 @@
   "last": 1793962387.970033
  },
  "tg_debug": [
-  {
-   "t": "11-07 05:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-07 05:50",
    "ok": true,
@@ -9683,6 +9690,13 @@
   },
   {
    "t": "11-07 12:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-07 12:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14674,6 +14688,52 @@
     "گاڏي",
     "گهرجي،"
    ]
+  },
+  {
+   "t": 1794035577,
+   "h": "فيول پرائس ايڊجسٽمينٽ: بجلي 2 روپيا 37 پئسا مهانگي",
+   "b": "ملڪ ۾ سيپٽمبر جي فيول پرائس ايڊجسٽمينٽ تحت بجلي 2 روپيا 37 پئسا في يونٽ مهانگي ڪئي وئي آهي. نيشنل اليڪٽرڪ",
+   "tt": [
+    "#37",
+    "ايڊجسٽمينٽ",
+    "بجلي",
+    "روپيا",
+    "فيول",
+    "مهانگي",
+    "پئسا",
+    "پرائس"
+   ],
+   "bt": [
+    "#37",
+    "2026ع",
+    "اليڪٽرڪ",
+    "اهي",
+    "اهي،",
+    "ايڊجسٽمينٽ",
+    "اٿارٽي",
+    "بجلي",
+    "تحت",
+    "جاري",
+    "روپيا",
+    "ريگيوليٽري",
+    "سيپٽمبر",
+    "فيول",
+    "قيمتن",
+    "ماهوار",
+    "ملڪ",
+    "مهانگي",
+    "موجب",
+    "نوٽيفڪيشن",
+    "نيشنل",
+    "نيپرا",
+    "واڌ",
+    "يونٽ",
+    "پئسا",
+    "پاور",
+    "پرائس",
+    "ڇڏيو",
+    "ڪرڻ"
+   ]
   }
  ],
  "repeat_log": [
@@ -14841,7 +14901,7 @@
  },
  "quality": {
   "date": "2026-11-07",
-  "editor_fixed": 13,
+  "editor_fixed": 14,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
