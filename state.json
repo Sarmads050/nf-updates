@@ -2374,10 +2374,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-07 17:03",
+  "time": "2026-11-07 17:10",
   "items": 19,
   "sample": [
-   "Bangladesh 386/10 v West Indies 356/10 & 7 *",
+   "Bangladesh 386/10 v West Indies 7 & 356/10 *",
    "Afghanistan 342/6 * v Zimbabwe 504/10",
    "Zimbabwe A 261/10 * v Ireland A 424/10"
   ]
@@ -4802,80 +4802,8 @@
   "last": 1794045096.215298
  },
  "trends": {
-  "last": 1794042650.6467724,
+  "last": 1794053454.7612529,
   "terms": [
-   {
-    "term": "kagiso rabada",
-    "traffic": 500,
-    "news": "South Africa Australia Cricket",
-    "t": 1793440864,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "marnus labuschagne",
-    "traffic": 200,
-    "news": "Do or die for Marnus on day 5?!",
-    "t": 1793440864,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "kamindu mendis",
-    "traffic": 5000,
-    "news": "Pakistan Tri-Series Cricket",
-    "t": 1793440864,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "tamasha",
-    "traffic": 10000,
-    "news": "Maddock Films and Kathputli Creations unveil the grand trailer of Eetha, starring Shraddha Kapoor as the legendary Eetha Bai",
-    "t": 1793440864,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "سری لنکا بمقابلہ پاک",
-    "traffic": 200,
-    "news": "",
-    "t": 1793440864,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "kp police anti drone system",
-    "traffic": 200,
-    "news": "Suspicious Drones to Trigger Alerts Under KP’s New Security System",
-    "t": 1793440864,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "rockstar games gta vi",
-    "traffic": 100,
-    "news": "Screw Grand Theft Auto 6's supercars, I'm here for Leonida's robust public transportation system",
-    "t": 1793440864,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "afg vs sco",
-    "traffic": 2000,
-    "news": "Scotland XI won by 2 wickets, Result, full scorecard with commentary, Hong Kong Sixes",
-    "t": 1793440864,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "sl vs pak",
-    "traffic": 100000,
-    "news": "Pakistan's last ODI trophy: Full list of ODI trophies Pakistan has won listed",
-    "t": 1793440864,
-    "cat": "cricket",
-    "sindh": false
-   },
    {
     "term": "fakhar zaman",
     "traffic": 2000,
@@ -7851,15 +7779,39 @@
     "t": 1794042650,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "leeds vs spurs",
+    "traffic": 500,
+    "news": "Ipswich team news: Sasa Lukic in contention to start",
+    "t": 1794053455,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "shadman islam",
+    "traffic": 500,
+    "news": "Bangladesh hold their breath: Opener Shadman Islam stretchered off after on-field injury in second Test;",
+    "t": 1794053455,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "rahmat shah",
+    "traffic": 10000,
+    "news": "Bennett to lead Zimbabwe in Afghanistan Test series",
+    "t": 1794053455,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-07",
-  "ok": 283,
-  "fail": 427,
-  "limit": 425
+  "ok": 285,
+  "fail": 429,
+  "limit": 426
  },
  "posted_heads": [
   {
@@ -8184,7 +8136,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-07 17:03",
+  "time": "2026-11-07 17:11",
   "steps": []
  },
  "roundup_am": "2026-11-07",
@@ -8292,7 +8244,7 @@
   "text": 21,
   "story": 18
  },
- "ai_last_error": "17:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "17:10 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-07",
   "models": [
@@ -8334,7 +8286,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-07",
-   "ok": 104,
+   "ok": 105,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8342,7 +8294,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-07",
-   "ok": 104,
+   "ok": 105,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8350,7 +8302,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-07",
-   "ok": 102,
+   "ok": 103,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8358,7 +8310,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 105,
+   "ok": 106,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8366,7 +8318,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8374,14 +8326,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-07",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-07",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8390,9 +8342,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-07",
    "ok": 0,
-   "fail": 106,
+   "fail": 107,
    "items": 15,
-   "fail_streak": 455,
+   "fail_streak": 456,
    "last_status": 404
   }
  },
@@ -8400,7 +8352,7 @@
   "last": "2026-11-06",
   "idx": 3
  },
- "ai_last_model": "google/gemma-4-31b-it:free",
+ "ai_last_model": "google/gemma-4-26b-a4b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8655,8 +8607,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 1,
+  "old": 1,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9504,13 +9456,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-07 10:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-07 10:50",
    "ok": true,
    "n": 0,
@@ -9778,6 +9723,13 @@
   },
   {
    "t": "11-07 17:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-07 17:10",
    "ok": true,
    "n": 0,
    "ids": [],
