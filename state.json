@@ -1,7 +1,5 @@
 {
  "seen": {
-  "6b3fe3cdc8a23e3d": 1793545263.0864816,
-  "5ce237b649c5a67c": 1793545263.0866544,
   "d4edc77a831a17b1": 1793545861.9951148,
   "10b0a47e463fd0d0": 1793547075.4359398,
   "38cbd1c98323b89b": 1793547664.332844,
@@ -1716,7 +1714,8 @@
   "79269b5f4139cc56": 1794145274.095011,
   "99234c54d4792bf9": 1794145274.095191,
   "ec7c8b29a71099e0": 1794146623.9392023,
-  "68122ab30ae9181a": 1794148874.900403
+  "68122ab30ae9181a": 1794148874.900403,
+  "c1415eb733d66795": 1794150672.0053616
  },
  "pending": {},
  "queue": [],
@@ -2378,12 +2377,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-08 20:01",
+  "time": "2026-11-08 20:11",
   "items": 15,
   "sample": [
-   "Bangladesh 386/10 v West Indies 356/10 & 345/3 *",
+   "Bangladesh 386/10 v West Indies 345/3 & 356/10 *",
    "Afghanistan 514/10 v Zimbabwe 504/10 & 164/3 *",
-   "Zimbabwe A 257/9 & 261/10 * v Ireland A 424/10 & 306/6"
+   "Zimbabwe A 257/9 & 261/10 * v Ireland A 306/6 & 424/10"
   ]
  },
  "agri_news": {
@@ -7789,9 +7788,9 @@
  },
  "ai_usage": {
   "date": "2026-11-08",
-  "ok": 250,
-  "fail": 347,
-  "limit": 350
+  "ok": 252,
+  "fail": 351,
+  "limit": 354
  },
  "posted_heads": [
   {
@@ -8116,7 +8115,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-08 20:01",
+  "time": "2026-11-08 20:11",
   "steps": []
  },
  "roundup_am": "2026-11-08",
@@ -8224,7 +8223,7 @@
   "text": 24,
   "story": 22
  },
- "ai_last_error": "19:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "20:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-08",
   "models": [
@@ -8266,7 +8265,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-08",
-   "ok": 121,
+   "ok": 122,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8274,7 +8273,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-08",
-   "ok": 122,
+   "ok": 123,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8282,7 +8281,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-08",
-   "ok": 122,
+   "ok": 123,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8290,7 +8289,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 125,
+   "ok": 126,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8298,7 +8297,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 125,
+   "ok": 126,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8306,14 +8305,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 125,
+   "ok": 126,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 125,
+   "ok": 126,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8322,9 +8321,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-08",
    "ok": 0,
-   "fail": 125,
+   "fail": 126,
    "items": 15,
-   "fail_streak": 622,
+   "fail_streak": 623,
    "last_status": 404
   }
  },
@@ -8572,8 +8571,8 @@
  "sindh_stream": {
   "date": "2026-11-08",
   "count": 4,
-  "last": 1794148860.8583968,
-  "city_i": 12,
+  "last": 1794150660.5369616,
+  "city_i": 16,
   "dry": 1794150074.2306128
  },
  "gemini_day_dead": {
@@ -9221,13 +9220,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-08 13:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-08 13:50",
    "ok": true,
    "n": 0,
@@ -9495,6 +9487,13 @@
   },
   {
    "t": "11-08 20:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-08 20:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13526,11 +13525,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-06 14:01",
-   "new": "پاڪستان ۽ نيوزيلينڊ ٽيسٽ سيريز کي شيڊولنگ چئلينج",
-   "old": "پاڪستان ۽ نيوزيلينڊ ڪرڪيٽ بورڊز جون ڳالهيون جاري"
-  },
-  {
    "t": "11-06 17:31",
    "new": "ملڪ ۾ سون جي اگهه ۾ هزارين رپيا لاٿ",
    "old": "پاڪستان ۾ سون جي اگهه ۾ وڏو واڌ"
@@ -13674,6 +13668,11 @@
    "t": "11-08 17:51",
    "new": "بابر اعظم جو ترقيءَ لاءِ پراميد هجڻ جو اعلان",
    "old": "بابراعظم جو پاڪستان جي ٽيسٽ ڪرڪيٽ بابت نئون عزم"
+  },
+  {
+   "t": "11-08 20:11",
+   "new": "پاڪستان ۾ انتظامي يونٽ ٺاهيا وڃن: خواجا آصف",
+   "old": "ملڪ جي انتظامي نقشي ۾ تبديلي ۽ 12 صوبن جي تجويز"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13694,6 +13693,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 2,
-  "repeat": 10
- }
+  "repeat": 11
+ },
+ "_dup": true
 }
