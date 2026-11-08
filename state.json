@@ -2381,12 +2381,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-08 21:10",
+  "time": "2026-11-08 21:11",
   "items": 13,
   "sample": [
-   "Bangladesh 386/10 v West Indies 345/3 & 356/10 *",
+   "Bangladesh 386/10 v West Indies 356/10 & 345/3 *",
    "Afghanistan 514/10 v Zimbabwe 164/3 & 504/10 *",
-   "Zimbabwe A 261/10 & 257/9 * v Ireland A 424/10 & 306/6"
+   "Zimbabwe A 261/10 & 257/9 * v Ireland A 306/6 & 424/10"
   ]
  },
  "agri_news": {
@@ -8167,7 +8167,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-08 21:10",
+  "time": "2026-11-08 21:11",
   "steps": []
  },
  "roundup_am": "2026-11-08",
@@ -8317,7 +8317,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-08",
-   "ok": 128,
+   "ok": 129,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8325,7 +8325,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-08",
-   "ok": 129,
+   "ok": 130,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8333,7 +8333,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-08",
-   "ok": 129,
+   "ok": 130,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8341,7 +8341,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 132,
+   "ok": 133,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8349,7 +8349,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 132,
+   "ok": 133,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8357,14 +8357,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 132,
+   "ok": 133,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 132,
+   "ok": 133,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8373,9 +8373,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-08",
    "ok": 0,
-   "fail": 132,
+   "fail": 133,
    "items": 15,
-   "fail_streak": 629,
+   "fail_streak": 630,
    "last_status": 404
   }
  },
@@ -9272,13 +9272,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-08 14:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-08 14:50",
    "ok": true,
    "n": 0,
@@ -9546,6 +9539,13 @@
   },
   {
    "t": "11-08 21:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-08 21:11",
    "ok": true,
    "n": 0,
    "ids": [],
