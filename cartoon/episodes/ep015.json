@@ -315,7 +315,7 @@
    "label": "Drawing Room • Thori Der Baad",
    "cast": {
     "ABBA": "sofa_l",
-    "MEHAK": "sofa_r"
+    "MEHAK": "sofa_c"
    },
    "props": {
     "HASHIR": "remote"
@@ -332,9 +332,14 @@
      "shot": "close",
      "before": [
       {
+       "do": "prop",
+       "who": "ABBA",
+       "prop": null
+      },
+      {
        "do": "enter",
        "who": "SANA",
-       "slot": "stand_cl"
+       "slot": "sofa_r"
       },
       {
        "do": "enter",
@@ -417,7 +422,7 @@
      "roman": "Lekin Abba, *pehli baari* kis ki hogi?",
      "urdu": "لیکن ابا، پہلی باری کس کی ہوگی؟",
      "how": "cheeky girl, curious",
-     "pose": "think",
+     "pose": "explain",
      "shot": "close",
      "looks": {
       "ABBA": "MEHAK"
