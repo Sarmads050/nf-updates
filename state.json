@@ -1711,7 +1711,27 @@
   "d224b2ea2d20086c": 1794163859.7355118,
   "24ce3cb3562265dd": 1794165052.3967404,
   "718fd1e12b4955c1": 1794167454.8034441,
-  "57084aa8aaafa354": 1794167467.315469
+  "57084aa8aaafa354": 1794167467.315469,
+  "1983c27414941c1c": 1794171070.7834845,
+  "0185b7e3706af630": 1794171070.783488,
+  "21f15e9f8396371c": 1794171070.7834895,
+  "0c953c4765f7efdc": 1794171070.7834911,
+  "76d4672f9cd26e35": 1794171070.783492,
+  "0be5e91a7be36e2e": 1794171070.783493,
+  "cfc7f935ee2dabac": 1794171070.7834935,
+  "84196430d1304428": 1794171070.7834942,
+  "eab0b8c92861424f": 1794171070.783495,
+  "3b147bb6882b762f": 1794171070.783496,
+  "6822422336f323c8": 1794171081.3164828,
+  "091d5fbb390e043f": 1794171081.3164852,
+  "18a794ff910efc4d": 1794171081.3164861,
+  "55ee23fdeba4d068": 1794171081.316487,
+  "777acdc79f66816a": 1794171081.3164883,
+  "68a11452134a0bde": 1794171081.316489,
+  "6fe0167e15ede4f7": 1794171081.31649,
+  "f9202e1dba4732ec": 1794171081.3164907,
+  "ce3bce86d0441f4a": 1794171081.3164916,
+  "b430c9dfca9da73a": 1794171081.3166287
  },
  "pending": {},
  "queue": [],
@@ -2403,12 +2423,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-09 01:40",
+  "time": "2026-11-09 01:51",
   "items": 16,
   "sample": [
    "Bangladesh 386/10 v West Indies 356/10 & 345/3 *",
    "Afghanistan 514/10 v Zimbabwe 164/3 & 504/10 *",
-   "Zimbabwe A 257/9 & 261/10 * v Ireland A 306/6 & 424/10"
+   "Zimbabwe A 261/10 & 257/9 * v Ireland A 424/10 & 306/6"
   ]
  },
  "agri_news": {
@@ -7854,9 +7874,9 @@
  },
  "ai_usage": {
   "date": "2026-11-09",
-  "ok": 8,
-  "fail": 10,
-  "limit": 10
+  "ok": 13,
+  "fail": 20,
+  "limit": 20
  },
  "posted_heads": [
   {
@@ -8181,7 +8201,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-09 01:40",
+  "time": "2026-11-09 01:51",
   "steps": []
  },
  "roundup_am": "2026-11-08",
@@ -8283,13 +8303,13 @@
   }
  },
  "article_diag": {
-  "date": "2026-11-08",
-  "tried": 26,
-  "decoded": 25,
-  "text": 24,
-  "story": 22
+  "date": "2026-11-09",
+  "tried": 1,
+  "decoded": 1,
+  "text": 1,
+  "story": 1
  },
- "ai_last_error": "00:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "01:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-09",
   "models": [
@@ -8331,7 +8351,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-09",
-   "ok": 12,
+   "ok": 13,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8339,7 +8359,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-09",
-   "ok": 12,
+   "ok": 13,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8347,7 +8367,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-09",
-   "ok": 12,
+   "ok": 13,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8355,7 +8375,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 12,
+   "ok": 13,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8363,7 +8383,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 12,
+   "ok": 13,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8371,14 +8391,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 12,
+   "ok": 13,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 12,
+   "ok": 13,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8387,9 +8407,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-09",
    "ok": 0,
-   "fail": 12,
+   "fail": 13,
    "items": 15,
-   "fail_streak": 658,
+   "fail_streak": 659,
    "last_status": 404
   }
  },
@@ -8639,8 +8659,8 @@
   "date": "2026-11-09",
   "count": 1,
   "last": 1794167464.8191156,
-  "city_i": 20,
-  "dry": 1794161461.448412
+  "city_i": 24,
+  "dry": 1794171059.537065
  },
  "gemini_day_dead": {
   "day": "2026-11-08",
@@ -9269,13 +9289,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-08 19:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-08 19:40",
    "ok": true,
    "n": 0,
@@ -9543,6 +9556,13 @@
   },
   {
    "t": "11-09 01:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 01:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13715,11 +13735,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-06 18:21",
-   "new": "پيٽرول جي قيمتن ۾ وڏي گهٽتائي",
-   "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
-  },
-  {
    "t": "11-06 20:11",
    "new": "عوام لاءِ معاشي طور جيئڻ ڏکيو ٿي ويو آهي: بلاول ڀٽو",
    "old": "غربت ۽ بيروزگاري تڪڙي ختم نه ٿيندي: بلاول ڀٽو"
@@ -13863,6 +13878,11 @@
    "t": "11-08 22:01",
    "new": "وزيراعظم لون اسڪيم: قرض جي حد 75 لکن مان وڌائي اڍائي ڪروڙ",
    "old": "سنڌ | نوجوانن جي لاءِ قرضن جي حد ۾ واڌ"
+  },
+  {
+   "t": "11-09 01:51",
+   "new": "وزيراعظم پاران نوجوانن لاءِ قرض جي حد وڌائڻ جو اعلان",
+   "old": "سنڌ | نوجوانن جي لاءِ قرضن جي حد ۾ واڌ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13883,6 +13903,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 0
- }
+  "repeat": 1
+ },
+ "_dup": true
 }
