@@ -1711,15 +1711,26 @@
   "e3391c19e18ca881": 1794139290.6889846,
   "fb741a64dfa3c859": 1794139290.6891985,
   "f81e416d4e6dc43f": 1794141067.7853057,
-  "87d00a57a9c08687": 1794142269.1728764
+  "87d00a57a9c08687": 1794142269.1728764,
+  "bd892483a4b3ada3": 1794142869.2299545
  },
  "pending": {},
  "queue": [],
- "jobs": [],
+ "jobs": [
+  {
+   "key": "bd892483a4b3ada3",
+   "title": "Sindh governor urges jobs for Balochistan youth",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVUFDTEtKR0xPM2tmX2xBbi1QYnJqUlozeGowRlVmQ0JOajZWLTdYTkViNEdQMEZYRWgtV01aNFpVcGlEeHViOGNHN0tDUC1zbjBlSkx3NHVDbDNKcnJLRm1VdkRnVHV0bnpWV3dpTHdFcTRVZU1SX1ZzODNJNEJlUjhjbTB5Q010RFU0eHRUbjA0bHJWOS14UllIa19JakY4VnVGT1ZNQlZTVENsR19WRTFPcXZSbkJBUFcyeElR?oc=5",
+   "domain": "profit.pakistantoday.com.pk",
+   "source": "Profit by Pakistan Today",
+   "ts": 1794142819,
+   "local": false
+  }
+ ],
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-08",
-  "count": 0
+  "count": 1
  },
  "last_digest": "2026-11-08",
  "alert_day": "2026-10-20",
@@ -1776,7 +1787,7 @@
   ]
  },
  "last_daily": "2026-11-08",
- "roundup_pm": "2026-11-07",
+ "roundup_pm": "2026-11-08",
  "replied": [],
  "q_index": 3,
  "last_question": "2026-11-06",
@@ -1831,7 +1842,7 @@
    "e8c2aabb0a71e31b"
   ]
  },
- "last_post_id": "1444130002106066_122118841689503839",
+ "last_post_id": "1444130002106066_122118850965503839",
  "shareable": [
   {
    "id": "1444130002106066_122118512673503839",
@@ -2360,12 +2371,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-08 17:51",
-  "items": 17,
+  "time": "2026-11-08 18:01",
+  "items": 15,
   "sample": [
    "Bangladesh 386/10 v West Indies 356/10 & 345/3 *",
-   "Afghanistan 514/10 v Zimbabwe 504/10 & 149/3 *",
-   "Zimbabwe A 247/6 & 261/10 * v Ireland A 306/6 & 424/10"
+   "Afghanistan 514/10 v Zimbabwe 153/3 & 504/10 *",
+   "Zimbabwe A 261/10 & 247/6 * v Ireland A 424/10 & 306/6"
   ]
  },
  "agri_news": {
@@ -2375,8 +2386,8 @@
  },
  "all_posts": {
   "date": "2026-11-08",
-  "count": 22,
-  "last": 1794141198.7738073
+  "count": 23,
+  "last": 1794142892.3231504
  },
  "perf": {
   "posts": [
@@ -7771,9 +7782,9 @@
  },
  "ai_usage": {
   "date": "2026-11-08",
-  "ok": 221,
-  "fail": 305,
-  "limit": 308
+  "ok": 222,
+  "fail": 307,
+  "limit": 310
  },
  "posted_heads": [
   {
@@ -8098,7 +8109,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-08 17:51",
+  "time": "2026-11-08 18:01",
   "steps": []
  },
  "roundup_am": "2026-11-08",
@@ -8206,7 +8217,7 @@
   "text": 22,
   "story": 20
  },
- "ai_last_error": "17:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-08",
   "models": [
@@ -8248,7 +8259,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-08",
-   "ok": 108,
+   "ok": 109,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8256,7 +8267,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-08",
-   "ok": 110,
+   "ok": 111,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8264,7 +8275,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-08",
-   "ok": 110,
+   "ok": 111,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8272,7 +8283,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8280,7 +8291,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8288,14 +8299,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8304,9 +8315,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-08",
    "ok": 0,
-   "fail": 112,
+   "fail": 113,
    "items": 15,
-   "fail_streak": 609,
+   "fail_streak": 610,
    "last_status": 404
   }
  },
@@ -8506,18 +8517,18 @@
  "region_posts": {
   "date": "2026-11-08",
   "district": 0,
-  "sindh": 8,
+  "sindh": 9,
   "pakistan": 13
  },
  "report_acc": {
-  "posted": 1,
-  "found": 5,
-  "old": 5,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-08 17",
+ "report_hour": "2026-11-08 18",
  "kawish_upload_times": {
   "_date": "2026-11-08",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9225,13 +9236,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-08 11:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-08 11:40",
    "ok": true,
    "n": 0,
@@ -9503,69 +9507,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-08 18:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-08",
  "recent_posts": [
-  {
-   "t": 1793969620,
-   "h": "پاڪستان جي ٽيسٽ ٽيم شان کانپوءِ نئين دور ڏانهن روانه",
-   "b": "پاڪستان جي ٽيسٽ ٽيم شان مسعود کان سواءِ اڳتي وڌي رهي آهي، جيتوڻيڪ هو ملڪ جو سڀ کان وڌيڪ رنسون ٺاهيندڙ رانداڳر",
-   "tt": [
-    "دور",
-    "روانه",
-    "شان",
-    "نئين",
-    "ٽيسٽ",
-    "ٽيم",
-    "پاڪستان",
-    "ڪانپوء"
-   ],
-   "bt": [
-    "اختيارين",
-    "امڪان",
-    "اهن",
-    "اهي",
-    "اهي،",
-    "اڳتي",
-    "اڳوڻي",
-    "بنگلاديش",
-    "جيتوڻيڪ",
-    "ختم",
-    "خلاف",
-    "دستي",
-    "دور",
-    "رانداڳر",
-    "رنسون",
-    "رهي",
-    "روانه",
-    "سواء",
-    "سيريز",
-    "شامل",
-    "شان",
-    "مان",
-    "مستقبل",
-    "مسعود",
-    "ملڪ",
-    "منصوبن",
-    "ميچن",
-    "نئين",
-    "وڌي",
-    "وڌيڪ",
-    "ٺاهيندڙ",
-    "ٽيسٽ",
-    "ٽيم",
-    "پاڪستان",
-    "پاڪستاني",
-    "پنهنجن",
-    "ڇڏيو",
-    "ڪان",
-    "ڪانپوء",
-    "ڪيس",
-    "ڪپتان",
-    "ڪڍي"
-   ]
-  },
   {
    "t": 1793970121,
    "h": "شام جون سنڌ جون اهم خبرون",
@@ -13702,6 +13654,55 @@
     "پاور",
     "ڊويزن"
    ]
+  },
+  {
+   "t": 1794142892,
+   "h": "شام جون سنڌ جون اهم خبرون",
+   "b": "8 نومبر 2026 1️⃣ پاڪستان انڊر 19 ڪرڪيٽ ٽيم جو ڪارنامو انڊر 19 ايشيا ڪپ ۾ پاڪستان دلچسپ مقابلي کانپوءِ بھارت",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "شام"
+   ],
+   "bt": [
+    "#19",
+    "اسڪور",
+    "انڊر",
+    "اهم",
+    "ايشيا",
+    "بهارت",
+    "حمزه",
+    "خبرون",
+    "دلچسپ",
+    "رانديگرن",
+    "سنڌ",
+    "سينچري",
+    "شام",
+    "شاندار",
+    "شڪست",
+    "ظهور",
+    "فتح",
+    "قومي",
+    "مظاهرو",
+    "مقابلي",
+    "موڙي",
+    "ميچ",
+    "نالي",
+    "نومبر",
+    "ٽيم",
+    "پاڪستان",
+    "پنهنجي",
+    "ڇڏي",
+    "ڇڏيو",
+    "ڏئي",
+    "ڪارنامو",
+    "ڪارڪردگي",
+    "ڪانپوء",
+    "ڪرڪيٽ",
+    "ڪندي",
+    "ڪيل"
+   ]
   }
  ],
  "repeat_log": [
@@ -13875,6 +13876,5 @@
   "kawish_crosschecked": 0,
   "wrong_place": 2,
   "repeat": 10
- },
- "_dup": true
+ }
 }
