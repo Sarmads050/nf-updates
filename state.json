@@ -2385,7 +2385,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-08 23:31",
+  "time": "2026-11-08 23:40",
   "items": 15,
   "sample": [
    "Bangladesh 386/10 v West Indies 356/10 & 345/3 *",
@@ -8171,7 +8171,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-08 23:31",
+  "time": "2026-11-08 23:40",
   "steps": []
  },
  "roundup_am": "2026-11-08",
@@ -8321,15 +8321,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-08",
-   "ok": 142,
+   "ok": 143,
    "fail": 5,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-08",
-   "ok": 144,
+   "ok": 145,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8337,7 +8337,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-08",
-   "ok": 144,
+   "ok": 145,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8345,7 +8345,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 147,
+   "ok": 148,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8353,7 +8353,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 147,
+   "ok": 148,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8361,14 +8361,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 147,
+   "ok": 148,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 147,
+   "ok": 148,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8377,9 +8377,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-08",
    "ok": 0,
-   "fail": 147,
+   "fail": 148,
    "items": 15,
-   "fail_streak": 644,
+   "fail_streak": 645,
    "last_status": 404
   }
  },
@@ -9277,13 +9277,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-08 17:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-08 17:20",
    "ok": true,
    "n": 0,
@@ -9551,6 +9544,13 @@
   },
   {
    "t": "11-08 23:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-08 23:40",
    "ok": true,
    "n": 0,
    "ids": [],
