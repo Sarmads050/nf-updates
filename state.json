@@ -1703,7 +1703,8 @@
   "d6bac3024ac0ede4": 1794114677.5918365,
   "bef2d6cd53c5892e": 1794115879.778032,
   "ddb82a1e29a804ad": 1794117067.9649112,
-  "5d284e791f3a3671": 1794121291.7868881
+  "5d284e791f3a3671": 1794121291.7868881,
+  "32cb42bac342db06": 1794123065.3990407
  },
  "pending": {},
  "queue": [],
@@ -1823,17 +1824,8 @@
    "e8c2aabb0a71e31b"
   ]
  },
- "last_post_id": "1444130002106066_122118767223503839",
+ "last_post_id": "1444130002106066_122118772845503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122118467835503839",
-   "title": "طبي ماهرن خبردار ڪيو آهي ته گرمي پد ۾ واڌ سبب ملڪ ۾ ڊينگي جي سيزن وڌيڪ وقت تائين جاري رهڻ",
-   "t": 1794040977.648716,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122118467835503839"
-  },
   {
    "id": "1444130002106066_122118471927503839",
    "title": "سنڌ حڪومت جو ٿرپارڪر کي آفت سٽيل ضلعو قرار ڏيڻ جو فيصلو",
@@ -2143,6 +2135,18 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122118767223503839"
+  },
+  {
+   "id": "1444130002106066_122118772845503839",
+   "title": "اوٻاوڙو ۾ ڊي ايس پي هائوس اندر پوليس اهلڪار جو لاش",
+   "t": 1794123079.3674648,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122118772845503839"
   }
  ],
  "share_sent": {
@@ -2353,12 +2357,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-08 12:21",
+  "time": "2026-11-08 12:31",
   "items": 17,
   "sample": [
-   "Bangladesh 386/10 v West Indies 356/10 & 196/2 *",
-   "Afghanistan 437/7 * v Zimbabwe 504/10",
-   "Zimbabwe A 261/10 & 61/1 * v Ireland A 424/10 & 306/6"
+   "Bangladesh 386/10 v West Indies 356/10 & 211/2 *",
+   "Afghanistan 447/7 * v Zimbabwe 504/10",
+   "Zimbabwe A 61/1 & 261/10 * v Ireland A 306/6 & 424/10"
   ]
  },
  "agri_news": {
@@ -2368,17 +2372,11 @@
  },
  "all_posts": {
   "date": "2026-11-08",
-  "count": 13,
-  "last": 1794121448.3161623
+  "count": 14,
+  "last": 1794123073.8502815
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122114864697503839",
-    "sec": "kawish",
-    "cat": "sindh",
-    "t": 1793187160
-   },
    {
     "id": "1444130002106066_122114901711503839",
     "sec": "sindh_stream",
@@ -4772,6 +4770,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1794121453
+   },
+   {
+    "id": "1444130002106066_122118772845503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1794123079
    }
   ]
  },
@@ -7788,15 +7792,11 @@
  },
  "ai_usage": {
   "date": "2026-11-08",
-  "ok": 120,
-  "fail": 205,
-  "limit": 204
+  "ok": 123,
+  "fail": 211,
+  "limit": 210
  },
  "posted_heads": [
-  {
-   "h": "Discos seek positive QTA adjustment of Rs1.34/kWh",
-   "t": 1793928808
-  },
   {
    "h": "Rabi sowing season: DAP shortage threatens crop yields",
    "t": 1793931807
@@ -8112,10 +8112,14 @@
   {
    "h": "Babar eyes fresh approach for Pakistan’s Test future",
    "t": 1794121453
+  },
+  {
+   "h": "اوٻاوڙو: ڊي ايس پي هائوس اندر پوليس اهلڪار جو گولي لڳل لاش هٿ، واقعي جي جاچ شروع",
+   "t": 1794123079
   }
  ],
  "last_errors": {
-  "time": "2026-11-08 12:21",
+  "time": "2026-11-08 12:31",
   "steps": []
  },
  "roundup_am": "2026-11-08",
@@ -8223,7 +8227,7 @@
   "text": 13,
   "story": 12
  },
- "ai_last_error": "12:02 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "12:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-08",
   "models": [
@@ -8237,10 +8241,10 @@
  },
  "img_diag": {
   "date": "2026-11-08",
-  "tried": 12,
+  "tried": 13,
   "gemini": 0,
   "pollinations": 7,
-  "skip": 2,
+  "skip": 3,
   "fail": 0,
   "last_note": "cricket bat and ball",
   "mismatch": 500,
@@ -8265,7 +8269,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-08",
-   "ok": 74,
+   "ok": 75,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8273,7 +8277,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-08",
-   "ok": 76,
+   "ok": 77,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8281,7 +8285,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-08",
-   "ok": 76,
+   "ok": 77,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8289,7 +8293,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8297,7 +8301,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8305,14 +8309,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 78,
+   "ok": 79,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8321,9 +8325,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-08",
    "ok": 0,
-   "fail": 78,
+   "fail": 79,
    "items": 15,
-   "fail_streak": 575,
+   "fail_streak": 576,
    "last_status": 404
   }
  },
@@ -8581,13 +8585,13 @@
  "region_posts": {
   "date": "2026-11-08",
   "district": 0,
-  "sindh": 3,
+  "sindh": 4,
   "pakistan": 9
  },
  "report_acc": {
-  "posted": 0,
-  "found": 2,
-  "old": 2,
+  "posted": 1,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8628,9 +8632,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-08",
-  "count": 1,
-  "last": 1794081673.7104392,
-  "city_i": 24,
+  "count": 2,
+  "last": 1794123063.4589152,
+  "city_i": 6,
   "dry": 1794122463.3754408
  },
  "gemini_day_dead": {
@@ -9294,6 +9298,14 @@
    "t": 1794121453,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "45ee82e0f367f93d",
+   "h": "اوٻاوڙو ۾ ڊي ايس پي هائوس اندر پوليس اهلڪار جو لاش",
+   "x": "اوٻاوڙو ۾ ڊي ايس پي جي سرڪاري رهائشگاهه ڊي ايس پي هائوس اندر ڊيوٽي تي مقرر گن مين پوليس اهلڪار ممتاز سومرو جو گولي لڳل لاش هٿ آيو آهي، جنهن بعد پوليس کاتي ۾ ٿرٿلو مچي ويو. واقعي جو اطلاع ملڻ تي ڊي ايس پي ارشد سعيد ۽ ايس ايس پي گھوٽڪي محمد انور کيتران سميت پوليس آفيسر واقعي واري هنڌ پهچي ويا. ايس ايس پي موجب پوليس اهلڪار جي موت واري واقعي جي هر رخ کان جاچ ڪئي پئي وڃي ۽ اصل حقيقتون مڪمل جاچ کانپوءِ سامهون اينديون. ٻئي طرف پوليس اهلڪار کي گولي ڪيئن لڳي ۽ سندس موت ڪهڙن حالتن ۾ ٿيو، ان حوالي سان پوليس پاران مختلف پاسن کان جاچ جو سلسلو شروع ڪيو ويو.",
+   "t": 1794123079,
+   "s": true,
+   "r": 0
   }
  ],
  "reels": {
@@ -9301,7 +9313,8 @@
   "done": [
    "08:00",
    "09:30",
-   "11:00"
+   "11:00",
+   "12:30"
   ]
  },
  "kawish_queue": [],
@@ -9311,13 +9324,6 @@
   "last": 1794052278.8049037
  },
  "tg_debug": [
-  {
-   "t": "11-08 06:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-08 06:10",
    "ok": true,
@@ -9586,6 +9592,13 @@
   },
   {
    "t": "11-08 12:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-08 12:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14016,6 +14029,57 @@
     "ڪندي",
     "ڪپتان"
    ]
+  },
+  {
+   "t": 1794123079,
+   "h": "اوٻاوڙو ۾ ڊي ايس پي هائوس اندر پوليس اهلڪار جو لاش",
+   "b": "اوٻاوڙو ۾ ڊي ايس پي جي سرڪاري رهائشگاهه ڊي ايس پي هائوس اندر ڊيوٽي تي مقرر گن مين پوليس اهلڪار ممتاز سومرو جو",
+   "tt": [
+    "اندر",
+    "اهلڪار",
+    "اوٻاوڙو",
+    "ايس",
+    "لاش",
+    "هائوس",
+    "پوليس"
+   ],
+   "bt": [
+    "ارشد",
+    "اطلاع",
+    "افيسر",
+    "اندر",
+    "انور",
+    "اهلڪار",
+    "اهي،",
+    "اوٻاوڙو",
+    "ايس",
+    "ايو",
+    "بعد",
+    "رهائشگاهه",
+    "سرڪاري",
+    "سعيد",
+    "سميت",
+    "سومرو",
+    "لاش",
+    "لڳل",
+    "محمد",
+    "مقرر",
+    "ملڻ",
+    "ممتاز",
+    "مين",
+    "مچي",
+    "هائوس",
+    "هنڌ",
+    "واقعي",
+    "پهچي",
+    "پوليس",
+    "ٿرٿلو",
+    "ڊيوٽي",
+    "ڪاتي",
+    "ڪيتران",
+    "گهوٽڪي",
+    "گولي"
+   ]
   }
  ],
  "repeat_log": [
@@ -14183,7 +14247,7 @@
  },
  "quality": {
   "date": "2026-11-08",
-  "editor_fixed": 10,
+  "editor_fixed": 11,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
