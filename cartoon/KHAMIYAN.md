@@ -25,6 +25,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-029] (ep014, 2026-11-07) Kahani mein "pankha full speed par hai" kaha jata hai lekin Karachi flat ki chhat par koi pankha hi nazar nahi aata — karachi_flat set mein chhat ka pankha (ghoomta hua) add karna, jaise living_room mein hai.
 - [K-030] (ep014, 2026-11-07) Packing/safar wali kahani mein razaiyan aur saamaan sirf baaton mein hain; Ammi ke haath mein chhota jamni "bag" hai — naya "bistar band / razai ki gathri" prop (bari lipti hui razai, rassi ke saath) banana.
 - [K-031] (ep014, 2026-11-07) Aangan mein stand_c par khara character (Arsalan, line 4) close-up mein charpai_l par baithi Ammi ka aadha jism dhak deta hai — aangan stand_c ko thora right karna, ya close-up mein charpai wale ko frame se bahar rakhna.
+- [K-032] (ep015, 2026-11-08) Poori kahani TV ke remote par hai lekin drawing room mein TV kahin nazar nahi aata (sab "front" ki taraf dekhte hain) — living_room set mein deewar/table par TV (screen on/off, "tv" sfx par screen par rang-birangi cartoon chamak) add karna.
+- [K-033] (ep015, 2026-11-08) "think" pose mein haath seedha naak/chehre ke aage aa jata hai (Mehak, scene 3 preview), is liye "explain" se badalna para — think pose mein haath thodi (chin) ke neeche rakhna.
+- [K-034] (ep015, 2026-11-08) Pichle scene ka prop agle scene mein saath chala jata hai (Abba ka akhbar scene 3 mein bhi tha, haath se `prop: null` karna para) — har naye scene ke shuru mein sirf us scene ke `props` wale hi haath mein hon.
+- [K-035] (ep015, 2026-11-08) Asli awaazon ke baad 25 lines 135 s ki bani, ek line kaat kar aur tempo 1.10 kar ke 129.5 s laaye (voice files ka number badalna para) — K-025 wala andaazan-duration check abhi zaroori hai; bina iske har dafa yehi masla hoga.
 
 ## APPROVED
 
