@@ -1714,7 +1714,10 @@
   "bd892483a4b3ada3": 1794142869.2299545,
   "b3540adf5e41f743": 1794144055.2735271,
   "f8f347d8dd5808e7": 1794144075.3455937,
-  "7578275b7e2fe24a": 1794144075.3455963
+  "7578275b7e2fe24a": 1794144075.3455963,
+  "a932c2ed94834406": 1794144657.2709177,
+  "d141f618364fddce": 1794144682.6257415,
+  "84ff332a0580c308": 1794144682.6257446
  },
  "pending": {},
  "queue": [],
@@ -1726,6 +1729,15 @@
    "domain": "profit.pakistantoday.com.pk",
    "source": "Profit by Pakistan Today",
    "ts": 1794142819,
+   "local": false
+  },
+  {
+   "key": "a932c2ed94834406",
+   "title": "Sindh governor seeks industry support to create jobs for Balochistan youth",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVUFDTEtKR0xPM2tmX2xBbi1QYnJqUlozeGowRlVmQ0JOajZWLTdYTkViNEdQMEZYRWgtV01aNFpVcGlEeHViOGNHN0tDUC1zbjBlSkx3NHVDbDNKcnJLRm1VdkRnVHV0bnpWV3dpTHdFcTRVZU1SX1ZzODNJNEJlUjhjbTB5Q010RFU0eHRUbjA0bHJWOS14UllIa19JakY4VnVGT1ZNQlZTVENsR19WRTFPcXZSbkJBUFcyeElR?oc=5",
+   "domain": "profit.pakistantoday.com.pk",
+   "source": "Profit by Pakistan Today",
+   "ts": 1794142798,
    "local": false
   }
  ],
@@ -2373,12 +2385,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-08 18:21",
+  "time": "2026-11-08 18:31",
   "items": 15,
   "sample": [
    "Bangladesh 386/10 v West Indies 356/10 & 345/3 *",
    "Afghanistan 514/10 v Zimbabwe 164/3 & 504/10 *",
-   "Zimbabwe A 261/10 & 247/6 * v Ireland A 306/6 & 424/10"
+   "Zimbabwe A 247/6 & 261/10 * v Ireland A 424/10 & 306/6"
   ]
  },
  "agri_news": {
@@ -7784,9 +7796,9 @@
  },
  "ai_usage": {
   "date": "2026-11-08",
-  "ok": 227,
-  "fail": 317,
-  "limit": 320
+  "ok": 228,
+  "fail": 319,
+  "limit": 322
  },
  "posted_heads": [
   {
@@ -8111,7 +8123,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-08 18:21",
+  "time": "2026-11-08 18:31",
   "steps": []
  },
  "roundup_am": "2026-11-08",
@@ -8219,7 +8231,7 @@
   "text": 22,
   "story": 20
  },
- "ai_last_error": "18:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-08",
   "models": [
@@ -8261,7 +8273,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-08",
-   "ok": 111,
+   "ok": 112,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8269,7 +8281,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-08",
-   "ok": 113,
+   "ok": 114,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8277,7 +8289,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-08",
-   "ok": 113,
+   "ok": 114,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8285,7 +8297,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8293,7 +8305,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8301,14 +8313,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8317,9 +8329,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-08",
    "ok": 0,
-   "fail": 115,
+   "fail": 116,
    "items": 15,
-   "fail_streak": 612,
+   "fail_streak": 613,
    "last_status": 404
   }
  },
@@ -8524,8 +8536,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8568,8 +8580,8 @@
   "date": "2026-11-08",
   "count": 3,
   "last": 1794125460.6994503,
-  "city_i": 6,
-  "dry": 1794144065.199288
+  "city_i": 10,
+  "dry": 1794144670.7174094
  },
  "gemini_day_dead": {
   "day": "2026-11-08",
@@ -9227,7 +9239,8 @@
    "12:30",
    "14:00",
    "15:30",
-   "17:00"
+   "17:00",
+   "18:30"
   ]
  },
  "kawish_queue": [],
@@ -9237,13 +9250,6 @@
   "last": 1794134472.959008
  },
  "tg_debug": [
-  {
-   "t": "11-08 12:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-08 12:10",
    "ok": true,
@@ -9512,6 +9518,13 @@
   },
   {
    "t": "11-08 18:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-08 18:30",
    "ok": true,
    "n": 0,
    "ids": [],
