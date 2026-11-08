@@ -1,8 +1,5 @@
 {
  "seen": {
-  "edcb37012f5e2630": 1793507481.5565696,
-  "2172e33f6afcb58b": 1793507481.5565722,
-  "afa26a683b0cfd4d": 1793507481.5567596,
   "5ebc739d1459b221": 1793508656.3849795,
   "9037092dcab4b401": 1793509279.085127,
   "207bbc01326accd5": 1793510014.7167172,
@@ -1710,7 +1707,9 @@
   "2e6507ae474e5570": 1794108075.6276588,
   "e8c2aabb0a71e31b": 1794108091.0195074,
   "4eb0a93c546de9b1": 1794109850.0910673,
-  "adaefa75ad78a818": 1794109869.5275757
+  "adaefa75ad78a818": 1794109869.5275757,
+  "b40b800878481f6a": 1794112872.4990304,
+  "924030444168a73d": 1794112872.4992146
  },
  "pending": {},
  "queue": [],
@@ -2366,10 +2365,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-08 09:31",
+  "time": "2026-11-08 09:41",
   "items": 17,
   "sample": [
-   "Bangladesh 386/10 v West Indies 356/10 & 66 *",
+   "Bangladesh 386/10 v West Indies 79 & 356/10 *",
    "Afghanistan 402/7 * v Zimbabwe 504/10",
    "Zimbabwe A 261/10 & 61/1 * v Ireland A 424/10 & 306/6"
   ]
@@ -7801,9 +7800,9 @@
  },
  "ai_usage": {
   "date": "2026-11-08",
-  "ok": 96,
-  "fail": 165,
-  "limit": 164
+  "ok": 99,
+  "fail": 171,
+  "limit": 170
  },
  "posted_heads": [
   {
@@ -8128,7 +8127,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-08 09:31",
+  "time": "2026-11-08 09:41",
   "steps": []
  },
  "roundup_am": "2026-11-08",
@@ -8231,12 +8230,12 @@
  },
  "article_diag": {
   "date": "2026-11-08",
-  "tried": 10,
-  "decoded": 10,
-  "text": 10,
-  "story": 10
+  "tried": 11,
+  "decoded": 11,
+  "text": 11,
+  "story": 11
  },
- "ai_last_error": "09:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "09:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-08",
   "models": [
@@ -8278,7 +8277,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-08",
-   "ok": 58,
+   "ok": 59,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8286,7 +8285,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-08",
-   "ok": 59,
+   "ok": 60,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8294,7 +8293,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-08",
-   "ok": 59,
+   "ok": 60,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8302,7 +8301,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8310,7 +8309,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8318,14 +8317,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8334,9 +8333,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-08",
    "ok": 0,
-   "fail": 61,
+   "fail": 62,
    "items": 15,
-   "fail_streak": 558,
+   "fail_streak": 559,
    "last_status": 404
   }
  },
@@ -8599,8 +8598,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8643,8 +8642,8 @@
   "date": "2026-11-08",
   "count": 1,
   "last": 1794081673.7104392,
-  "city_i": 8,
-  "dry": 1794112275.0501645
+  "city_i": 12,
+  "dry": 1794112860.6671975
  },
  "gemini_day_dead": {
   "day": "2026-11-07",
@@ -9356,13 +9355,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-08 03:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-08 03:30",
    "ok": true,
    "n": 0,
@@ -9630,6 +9622,13 @@
   },
   {
    "t": "11-08 09:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-08 09:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14304,11 +14303,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-06 08:31",
-   "new": "سنڌ | پيٽروليم شين جي قيمتن ۾ گهٽتائي بعد مال برداري جي ڪرائي ۾ 5 سيڪڙ",
-   "old": "صبح جون سنڌ جون اهم خبرون"
-  },
-  {
    "t": "11-06 09:51",
    "new": "بجلي جي اگهن ۾ واڌ جي درخواست",
    "old": "بجلي جي اگهن ۾ واڌ جو امڪان"
@@ -14452,6 +14446,11 @@
    "t": "11-08 05:21",
    "new": "پيٽروليم شين جي قيمتن ۾ گهٽ جو اعلان",
    "old": "صبح جون سنڌ جون اهم خبرون"
+  },
+  {
+   "t": "11-08 09:41",
+   "new": "بابر اعظم پاڪستاني ٽيسٽ ٽيم جي قيادت ڪندو",
+   "old": "پاڪستان پاران سريلنڪا خلاف ٽيسٽ اسڪواڊ جو اعلان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14472,6 +14471,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 3
- }
+  "repeat": 4
+ },
+ "_dup": true
 }
