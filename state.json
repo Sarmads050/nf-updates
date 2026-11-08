@@ -1,7 +1,5 @@
 {
  "seen": {
-  "cac5de5ca4190a1e": 1793524875.0615904,
-  "b1eeb4114c8e9f91": 1793524875.0617418,
   "9bec719034672f83": 1793526275.137333,
   "b4385875dbb188be": 1793526278.8168397,
   "a4c6f5789a6a7d9b": 1793526666.7699037,
@@ -1705,7 +1703,11 @@
   "b0705da4c483dcc0": 1794126925.744808,
   "ab4d1a20e0b2f057": 1794126925.7448115,
   "e255b63b2730b2d0": 1794126925.744813,
-  "b75fcd90ade9cc39": 1794126925.745031
+  "b75fcd90ade9cc39": 1794126925.745031,
+  "e6aeca85d5d1769c": 1794129737.4163902,
+  "bfc784e8a3974f0d": 1794129737.4163926,
+  "0866556cd6df54fe": 1794129737.4163938,
+  "3cb254ce3fe9aecf": 1794129737.4166627
  },
  "pending": {},
  "queue": [],
@@ -2358,12 +2360,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-08 14:21",
+  "time": "2026-11-08 14:22",
   "items": 17,
   "sample": [
    "Bangladesh 386/10 v West Indies 356/10 & 287/3 *",
-   "Afghanistan 488/8 * v Zimbabwe 504/10",
-   "Zimbabwe A 131/3 & 261/10 * v Ireland A 424/10 & 306/6"
+   "Afghanistan 489/8 * v Zimbabwe 504/10",
+   "Zimbabwe A 132/3 & 261/10 * v Ireland A 306/6 & 424/10"
   ]
  },
  "agri_news": {
@@ -7793,7 +7795,7 @@
  },
  "ai_usage": {
   "date": "2026-11-08",
-  "ok": 140,
+  "ok": 143,
   "fail": 217,
   "limit": 217
  },
@@ -8120,7 +8122,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-08 14:21",
+  "time": "2026-11-08 14:22",
   "steps": []
  },
  "roundup_am": "2026-11-08",
@@ -8223,10 +8225,10 @@
  },
  "article_diag": {
   "date": "2026-11-08",
-  "tried": 15,
-  "decoded": 14,
-  "text": 14,
-  "story": 13
+  "tried": 16,
+  "decoded": 15,
+  "text": 15,
+  "story": 14
  },
  "ai_last_error": "13:35 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
@@ -8270,7 +8272,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-08",
-   "ok": 86,
+   "ok": 87,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8278,7 +8280,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-08",
-   "ok": 88,
+   "ok": 89,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8286,7 +8288,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-08",
-   "ok": 88,
+   "ok": 89,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8294,7 +8296,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8302,7 +8304,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8310,14 +8312,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8326,9 +8328,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-08",
    "ok": 0,
-   "fail": 90,
+   "fail": 91,
    "items": 15,
-   "fail_streak": 587,
+   "fail_streak": 588,
    "last_status": 404
   }
  },
@@ -8635,8 +8637,8 @@
   "date": "2026-11-08",
   "count": 3,
   "last": 1794125460.6994503,
-  "city_i": 12,
-  "dry": 1794129658.8581858
+  "city_i": 16,
+  "dry": 1794129718.1595335
  },
  "gemini_day_dead": {
   "day": "2026-11-08",
@@ -9325,13 +9327,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-08 07:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-08 08:00",
    "ok": true,
    "n": 0,
@@ -9599,6 +9594,13 @@
   },
   {
    "t": "11-08 14:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-08 14:21",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14022,11 +14024,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-06 09:51",
-   "new": "بجلي جي اگهن ۾ واڌ جي درخواست",
-   "old": "بجلي جي اگهن ۾ واڌ جو امڪان"
-  },
-  {
    "t": "11-06 10:21",
    "new": "بجلي واهپيدارن تي 23 ارب 33 ڪروڙ رپين جو اضافي بار",
    "old": "بجلي جي اگهن ۾ واڌ جو امڪان"
@@ -14170,6 +14167,11 @@
    "t": "11-08 09:41",
    "new": "بابر اعظم پاڪستاني ٽيسٽ ٽيم جي قيادت ڪندو",
    "old": "پاڪستان پاران سريلنڪا خلاف ٽيسٽ اسڪواڊ جو اعلان"
+  },
+  {
+   "t": "11-08 14:22",
+   "new": "بابراعظم چيو ته ٽيم جي چونڊ منهنجي وس ۾ ناهي",
+   "old": "بابراعظم جو پاڪستان جي ٽيسٽ ڪرڪيٽ بابت نئون عزم"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14190,6 +14192,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 2,
-  "repeat": 4
- }
+  "repeat": 5
+ },
+ "_dup": true
 }
