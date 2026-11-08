@@ -1,6 +1,5 @@
 {
  "seen": {
-  "08b314cc00b51f97": 1793542553.3552663,
   "7d75340a39b6c79c": 1793543459.1279538,
   "27839ef13ff6ea3c": 1793544066.100171,
   "6b3fe3cdc8a23e3d": 1793545263.0864816,
@@ -2380,12 +2379,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-08 19:10",
+  "time": "2026-11-08 19:21",
   "items": 15,
   "sample": [
    "Bangladesh 386/10 v West Indies 345/3 & 356/10 *",
    "Afghanistan 514/10 v Zimbabwe 504/10 & 164/3 *",
-   "Zimbabwe A 253/7 & 261/10 * v Ireland A 424/10 & 306/6"
+   "Zimbabwe A 261/10 & 257/9 * v Ireland A 306/6 & 424/10"
   ]
  },
  "agri_news": {
@@ -8118,7 +8117,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-08 19:10",
+  "time": "2026-11-08 19:21",
   "steps": []
  },
  "roundup_am": "2026-11-08",
@@ -8268,7 +8267,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-08",
-   "ok": 116,
+   "ok": 117,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8276,7 +8275,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-08",
-   "ok": 117,
+   "ok": 118,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8284,7 +8283,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-08",
-   "ok": 117,
+   "ok": 118,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8292,7 +8291,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8300,7 +8299,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8308,14 +8307,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8324,9 +8323,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-08",
    "ok": 0,
-   "fail": 120,
+   "fail": 121,
    "items": 15,
-   "fail_streak": 617,
+   "fail_streak": 618,
    "last_status": 404
   }
  },
@@ -8531,8 +8530,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 1,
-  "old": 1,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8575,8 +8574,8 @@
   "date": "2026-11-08",
   "count": 3,
   "last": 1794125460.6994503,
-  "city_i": 18,
-  "dry": 1794146619.627769
+  "city_i": 22,
+  "dry": 1794147660.0334206
  },
  "gemini_day_dead": {
   "day": "2026-11-08",
@@ -9230,13 +9229,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-08 12:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-08 13:00",
    "ok": true,
    "n": 0,
@@ -9504,6 +9496,13 @@
   },
   {
    "t": "11-08 19:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-08 19:20",
    "ok": true,
    "n": 0,
    "ids": [],
