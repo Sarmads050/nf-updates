@@ -1,7 +1,5 @@
 {
  "seen": {
-  "e91c54f66056c71c": 1793497875.3736954,
-  "9e05fd6153051cf4": 1793497886.6702707,
   "ac546b686c384a1e": 1793500852.164262,
   "7c37fcc7864255a3": 1793501469.227011,
   "584b6d6ecb80fbee": 1793503280.8144786,
@@ -1726,7 +1724,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-07",
-  "count": 2
+  "count": 3
  },
  "last_digest": "2026-11-07",
  "alert_day": "2026-10-20",
@@ -1782,7 +1780,7 @@
    "نوشهروفيروز ۾ پوليس جي مبينا تشدد خلاف هڪ خاندان قرآن پاڪ کڻي احتجاج ڪيو"
   ]
  },
- "last_daily": "2026-11-07",
+ "last_daily": "2026-11-08",
  "roundup_pm": "2026-11-07",
  "replied": [],
  "q_index": 3,
@@ -1837,7 +1835,7 @@
    "972ab251ee4923a4"
   ]
  },
- "last_post_id": "1444130002106066_122118686469503839",
+ "last_post_id": "1444130002106066_122118696951503839",
  "shareable": [
   {
    "id": "1444130002106066_122118432447503839",
@@ -2379,7 +2377,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-08 06:51",
+  "time": "2026-11-08 07:03",
   "items": 17,
   "sample": [
    "Bangladesh 386/10 v West Indies 356/10 & 7 *",
@@ -2394,8 +2392,8 @@
  },
  "all_posts": {
   "date": "2026-11-08",
-  "count": 6,
-  "last": 1794099768.2358537
+  "count": 7,
+  "last": 1794103380.355563
  },
  "perf": {
   "posts": [
@@ -7806,9 +7804,9 @@
  },
  "ai_usage": {
   "date": "2026-11-08",
-  "ok": 64,
-  "fail": 111,
-  "limit": 110
+  "ok": 68,
+  "fail": 113,
+  "limit": 112
  },
  "posted_heads": [
   {
@@ -8133,7 +8131,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-08 06:51",
+  "time": "2026-11-08 07:03",
   "steps": []
  },
  "roundup_am": "2026-11-07",
@@ -8241,7 +8239,7 @@
   "text": 8,
   "story": 8
  },
- "ai_last_error": "06:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "07:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-08",
   "models": [
@@ -8255,13 +8253,13 @@
  },
  "img_diag": {
   "date": "2026-11-08",
-  "tried": 6,
+  "tried": 7,
   "gemini": 0,
   "pollinations": 4,
   "skip": 1,
   "fail": 0,
-  "last_note": "property documents and keys",
-  "mismatch": 494,
+  "last_note": "weather forecast and clock",
+  "mismatch": 497,
   "unverified": 1
  },
  "gemini_img": {
@@ -8283,7 +8281,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-08",
-   "ok": 43,
+   "ok": 44,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8291,7 +8289,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-08",
-   "ok": 43,
+   "ok": 44,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8299,7 +8297,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-08",
-   "ok": 43,
+   "ok": 44,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8307,7 +8305,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 44,
+   "ok": 45,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8315,7 +8313,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 44,
+   "ok": 45,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8323,14 +8321,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 44,
+   "ok": 45,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 44,
+   "ok": 45,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8339,9 +8337,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-08",
    "ok": 0,
-   "fail": 44,
+   "fail": 45,
    "items": 15,
-   "fail_streak": 541,
+   "fail_streak": 542,
    "last_status": 404
   }
  },
@@ -8604,13 +8602,13 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 5,
-  "old": 5,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-08 06",
+ "report_hour": "2026-11-08 07",
  "kawish_upload_times": {
   "_date": "2026-11-08",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9358,13 +9356,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-08 00:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-08 00:41",
    "ok": true,
    "n": 0,
@@ -9636,58 +9627,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-08 07:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-08",
  "recent_posts": [
-  {
-   "t": 1793928808,
-   "h": "بجلي جي اگهن ۾ واڌ جو امڪان",
-   "b": "اسلام آباد ۾ پاور ڊسٽريبيوشن ڪمپنين (ڊسڪوز) جولاءِ کان سيپٽمبر 2026 جي ٽئين ٽه ماهي لاءِ 1.34 رپيا في يونٽ جي",
-   "tt": [
-    "امڪان",
-    "اگهن",
-    "بجلي",
-    "واڌ"
-   ],
-   "bt": [
-    "#1.34",
-    "#23",
-    "2026،",
-    "اباد",
-    "ارب",
-    "اسلام",
-    "امڪان",
-    "اهي",
-    "اهي،",
-    "ايڊجسٽمينٽ",
-    "اگهن",
-    "بجلي",
-    "جنوري",
-    "جولاء",
-    "درخواست",
-    "دوران",
-    "رپيا",
-    "رپين",
-    "سيپٽمبر",
-    "فيبروري",
-    "ماهي",
-    "مثبت",
-    "مقصد",
-    "واڌ",
-    "وصولي",
-    "وڌيڪ",
-    "يونٽ",
-    "ٽئين",
-    "پاور",
-    "ڊسمبر",
-    "ڊسٽريبيوشن",
-    "ڊسڪوز",
-    "ڪان",
-    "ڪرڻ",
-    "ڪمپنين"
-   ]
-  },
   {
    "t": 1793930590,
    "h": "نوشهروفيروز جو اڄ | 06-11-2026",
@@ -14345,6 +14295,56 @@
     "پهچي",
     "پوڪائي",
     "ڪڻڪ"
+   ]
+  },
+  {
+   "t": 1794103380,
+   "h": "نوشهروفيروز جو اڄ | 08-11-2026",
+   "b": "28 جُمادى الأولى 1448ھ نماز جا وقت: فجر 05:22 | ظهر 12:11 | عصر 16:04 مغرب 17:40 | عشا 19:00 سج اڀرڻ 06:42 اڄ",
+   "tt": [
+    "#11",
+    "#8",
+    "نوشهروفيروز"
+   ],
+   "bt": [
+    "#",
+    "#11",
+    "#12",
+    "#1448",
+    "#16",
+    "#17",
+    "#19",
+    "#22",
+    "#28",
+    "#37",
+    "#4",
+    "#40",
+    "#42",
+    "#5",
+    "#6",
+    "#8",
+    "1448ه",
+    "الاولى",
+    "اوهان",
+    "اڀرڻ",
+    "جمادى",
+    "سٺو",
+    "سڀني",
+    "ظهر",
+    "عشا",
+    "عصر",
+    "فجر",
+    "مغرب",
+    "موسم",
+    "نماز",
+    "نوشهروفيروز",
+    "وقت",
+    "ڏينهن",
+    "ڪجهه",
+    "ڪڪر",
+    "گذري",
+    "گرمي",
+    "گهٽ"
    ]
   }
  ],
