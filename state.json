@@ -1,6 +1,5 @@
 {
  "seen": {
-  "10b0a47e463fd0d0": 1793547075.4359398,
   "38cbd1c98323b89b": 1793547664.332844,
   "5bdef520c3ee92b4": 1793548268.1238666,
   "a434aa7f1815a4d7": 1793550060.3597026,
@@ -1716,7 +1715,8 @@
   "68122ab30ae9181a": 1794148874.900403,
   "c1415eb733d66795": 1794150672.0053616,
   "3648a4528aba6099": 1794151876.7195592,
-  "b25822a6f17260b6": 1794151876.7195625
+  "b25822a6f17260b6": 1794151876.7195625,
+  "e0672bcb6193a4ed": 1794152470.6976502
  },
  "pending": {},
  "queue": [],
@@ -1806,8 +1806,8 @@
  "last_question": "2026-11-06",
  "sindh_single": {
   "date": "2026-11-08",
-  "count": 1,
-  "last": 1794144088.9054146,
+  "count": 2,
+  "last": 1794152465.9448068,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1852,23 +1852,12 @@
    "974be1ba1402477f",
    "1da7dedfc26f845e",
    "972ab251ee4923a4",
-   "e8c2aabb0a71e31b"
+   "e8c2aabb0a71e31b",
+   "e0672bcb6193a4ed"
   ]
  },
- "last_post_id": "1444130002106066_122118880503503839",
+ "last_post_id": "1444130002106066_122118882399503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122118549795503839",
-   "title": "سنڌ جي اعتراضن باوجود لنڪ ڪئنالن مان پاڻي جاري",
-   "t": 1794058953.8246017,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122118549795503839"
-  },
   {
    "id": "1444130002106066_122118562059503839",
    "title": "سنڌ جي وحدت خلاف سازشون ڪامياب نه ٿينديون: نياز ڪالاڻي",
@@ -2171,6 +2160,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122118880503503839"
+  },
+  {
+   "id": "1444130002106066_122118882399503839",
+   "title": "نوجوانن جي لاءِ قرضن جي حد ۾ واڌ وفاتي حڪومت پاران وزير اعظم يوتھ بزنس اينڊ ايگريڪلچر لون",
+   "t": 1794152591.1534512,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122118882399503839"
   }
  ],
  "share_sent": {
@@ -2381,12 +2380,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-08 20:31",
+  "time": "2026-11-08 20:43",
   "items": 15,
   "sample": [
-   "Bangladesh 386/10 v West Indies 356/10 & 345/3 *",
-   "Afghanistan 514/10 v Zimbabwe 504/10 & 164/3 *",
-   "Zimbabwe A 261/10 & 257/9 * v Ireland A 306/6 & 424/10"
+   "Bangladesh 386/10 v West Indies 345/3 & 356/10 *",
+   "Afghanistan 514/10 v Zimbabwe 164/3 & 504/10 *",
+   "Zimbabwe A 257/9 & 261/10 * v Ireland A 424/10 & 306/6"
   ]
  },
  "agri_news": {
@@ -2396,17 +2395,11 @@
  },
  "all_posts": {
   "date": "2026-11-08",
-  "count": 27,
-  "last": 1794151903.7374942
+  "count": 28,
+  "last": 1794152584.4314697
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122115070593503839",
-    "sec": "cricket_news",
-    "cat": "cricket_news",
-    "t": 1793224468
-   },
    {
     "id": "1444130002106066_122115078885503839",
     "sec": "agri_news",
@@ -4800,6 +4793,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1794151913
+   },
+   {
+    "id": "1444130002106066_122118882399503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1794152584
    }
   ]
  },
@@ -7792,9 +7791,9 @@
  },
  "ai_usage": {
   "date": "2026-11-08",
-  "ok": 257,
-  "fail": 357,
-  "limit": 360
+  "ok": 265,
+  "fail": 365,
+  "limit": 368
  },
  "posted_heads": [
   {
@@ -8119,7 +8118,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-08 20:31",
+  "time": "2026-11-08 20:43",
   "steps": []
  },
  "roundup_am": "2026-11-08",
@@ -8227,7 +8226,7 @@
   "text": 24,
   "story": 22
  },
- "ai_last_error": "20:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "20:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-08",
   "models": [
@@ -8241,13 +8240,13 @@
  },
  "img_diag": {
   "date": "2026-11-08",
-  "tried": 25,
+  "tried": 26,
   "gemini": 0,
   "pollinations": 13,
   "skip": 6,
   "fail": 0,
-  "last_note": "map of Pakistan",
-  "mismatch": 511,
+  "last_note": "rupee notes and farming tools",
+  "mismatch": 514,
   "unverified": 1
  },
  "gemini_img": {
@@ -8269,7 +8268,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-08",
-   "ok": 124,
+   "ok": 125,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8277,7 +8276,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-08",
-   "ok": 125,
+   "ok": 126,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8285,7 +8284,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-08",
-   "ok": 125,
+   "ok": 126,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8293,7 +8292,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 128,
+   "ok": 129,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8301,7 +8300,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 128,
+   "ok": 129,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8309,14 +8308,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 128,
+   "ok": 129,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 128,
+   "ok": 129,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8325,9 +8324,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-08",
    "ok": 0,
-   "fail": 128,
+   "fail": 129,
    "items": 15,
-   "fail_streak": 625,
+   "fail_streak": 626,
    "last_status": 404
   }
  },
@@ -8527,11 +8526,11 @@
  "region_posts": {
   "date": "2026-11-08",
   "district": 0,
-  "sindh": 11,
+  "sindh": 12,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
+  "posted": 2,
   "found": 0,
   "old": 0,
   "irrelevant": 0,
@@ -9216,13 +9215,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-08 14:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-08 14:20",
    "ok": true,
    "n": 0,
@@ -9490,6 +9482,13 @@
   },
   {
    "t": "11-08 20:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-08 20:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13398,6 +13397,51 @@
     "ڳالهه",
     "ڳالهيون"
    ]
+  },
+  {
+   "t": 1794152584,
+   "h": "سنڌ | نوجوانن جي لاءِ قرضن جي حد ۾ واڌ",
+   "b": "وفاقي حڪومت پاران وزير اعظم يوتھ بزنس اينڊ ايگريڪلچر لون اسڪيم ۾ قرضن جي حد 75 لک کان وڌائي اڍائي ڪروڙ رپيا",
+   "tt": [
+    "سنڌ",
+    "قرضن",
+    "نوجوانن",
+    "واڌ"
+   ],
+   "bt": [
+    "#18",
+    "#21",
+    "#75",
+    "اسڪيم",
+    "اعظم",
+    "اعلان",
+    "اهي۔",
+    "اينڊ",
+    "ايگريڪلچر",
+    "اڍائي",
+    "بزنس",
+    "حڪومت",
+    "رپيا",
+    "سال",
+    "سالن",
+    "سنڌ",
+    "عمر",
+    "قرض",
+    "قرضن",
+    "لون",
+    "نوجوانن",
+    "هدايت",
+    "واڌ",
+    "وزير",
+    "وفاقي",
+    "وڌائي",
+    "يوته",
+    "پاران",
+    "ڪان",
+    "ڪروڙ",
+    "ڪرڻ",
+    "گهٽ"
+   ]
   }
  ],
  "repeat_log": [
@@ -13565,7 +13609,7 @@
  },
  "quality": {
   "date": "2026-11-08",
-  "editor_fixed": 21,
+  "editor_fixed": 22,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
