@@ -1709,7 +1709,8 @@
   "0866556cd6df54fe": 1794129737.4163938,
   "3cb254ce3fe9aecf": 1794129737.4166627,
   "347c8e9de2a86a4c": 1794130284.877693,
-  "6926525b684d85ce": 1794130284.877696
+  "6926525b684d85ce": 1794130284.877696,
+  "ab35cf9bd791fee3": 1794130866.4805872
  },
  "pending": {},
  "queue": [],
@@ -2362,12 +2363,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-08 14:31",
+  "time": "2026-11-08 14:41",
   "items": 17,
   "sample": [
-   "Bangladesh 386/10 v West Indies 356/10 & 290/3 *",
-   "Afghanistan 498/8 * v Zimbabwe 504/10",
-   "Zimbabwe A 261/10 & 147/3 * v Ireland A 424/10 & 306/6"
+   "Bangladesh 386/10 v West Indies 356/10 & 303/3 *",
+   "Afghanistan 502/8 * v Zimbabwe 504/10",
+   "Zimbabwe A 159/3 & 261/10 * v Ireland A 306/6 & 424/10"
   ]
  },
  "agri_news": {
@@ -7797,7 +7798,7 @@
  },
  "ai_usage": {
   "date": "2026-11-08",
-  "ok": 144,
+  "ok": 147,
   "fail": 217,
   "limit": 217
  },
@@ -8124,7 +8125,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-08 14:31",
+  "time": "2026-11-08 14:41",
   "steps": []
  },
  "roundup_am": "2026-11-08",
@@ -8227,10 +8228,10 @@
  },
  "article_diag": {
   "date": "2026-11-08",
-  "tried": 16,
-  "decoded": 15,
-  "text": 15,
-  "story": 14
+  "tried": 17,
+  "decoded": 16,
+  "text": 16,
+  "story": 15
  },
  "ai_last_error": "13:35 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
@@ -8274,7 +8275,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-08",
-   "ok": 88,
+   "ok": 89,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8282,7 +8283,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-08",
-   "ok": 90,
+   "ok": 91,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8290,7 +8291,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-08",
-   "ok": 90,
+   "ok": 91,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8298,7 +8299,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 92,
+   "ok": 93,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8306,7 +8307,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 92,
+   "ok": 93,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8314,14 +8315,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-08",
-   "ok": 92,
+   "ok": 93,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-08",
-   "ok": 92,
+   "ok": 93,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8330,9 +8331,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-08",
    "ok": 0,
-   "fail": 92,
+   "fail": 93,
    "items": 15,
-   "fail_streak": 589,
+   "fail_streak": 590,
    "last_status": 404
   }
  },
@@ -8595,8 +8596,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8639,8 +8640,8 @@
   "date": "2026-11-08",
   "count": 3,
   "last": 1794125460.6994503,
-  "city_i": 20,
-  "dry": 1794130269.224098
+  "city_i": 24,
+  "dry": 1794130857.5029263
  },
  "gemini_day_dead": {
   "day": "2026-11-08",
@@ -9329,13 +9330,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-08 08:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-08 08:20",
    "ok": true,
    "n": 0,
@@ -9603,6 +9597,13 @@
   },
   {
    "t": "11-08 14:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-08 14:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14026,11 +14027,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-06 10:21",
-   "new": "بجلي واهپيدارن تي 23 ارب 33 ڪروڙ رپين جو اضافي بار",
-   "old": "بجلي جي اگهن ۾ واڌ جو امڪان"
-  },
-  {
    "t": "11-06 10:41",
    "new": "پيٽرول ۽ ڊيزل سستا، گڊز ٽرانسپورٽرن جو ڀاڙن ۾ 5 سيڪڙو گهٽتائي جو اعلان",
    "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
@@ -14174,6 +14170,11 @@
    "t": "11-08 14:22",
    "new": "بابراعظم چيو ته ٽيم جي چونڊ منهنجي وس ۾ ناهي",
    "old": "بابراعظم جو پاڪستان جي ٽيسٽ ڪرڪيٽ بابت نئون عزم"
+  },
+  {
+   "t": "11-08 14:41",
+   "new": "نيپرا بجلي 2 رپيا 36 پئسا مهانگي ڪئي",
+   "old": "شام جون سنڌ جون اهم خبرون"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14194,7 +14195,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 2,
-  "repeat": 5
+  "repeat": 6
  },
  "_dup": true
 }
