@@ -29,6 +29,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-033] (ep015, 2026-11-08) "think" pose mein haath seedha naak/chehre ke aage aa jata hai (Mehak, scene 3 preview), is liye "explain" se badalna para — think pose mein haath thodi (chin) ke neeche rakhna.
 - [K-034] (ep015, 2026-11-08) Pichle scene ka prop agle scene mein saath chala jata hai (Abba ka akhbar scene 3 mein bhi tha, haath se `prop: null` karna para) — har naye scene ke shuru mein sirf us scene ke `props` wale hi haath mein hon.
 - [K-035] (ep015, 2026-11-08) Asli awaazon ke baad 25 lines 135 s ki bani, ek line kaat kar aur tempo 1.10 kar ke 129.5 s laaye (voice files ka number badalna para) — K-025 wala andaazan-duration check abhi zaroori hai; bina iske har dafa yehi masla hoga.
+- [K-036] (ep016, 2026-11-09) "Aachoo!" (Arsalan line 5 aur 9, Hamza line 18) sirf awaaz mein hai — chehre/jism par chheenk ki koi acting nahi — naya "sneeze" emo: aankhein band, sar aage jhatka, chhoti si chheenton ki puff.
+- [K-037] (ep016, 2026-11-09) Kahani "zukam/beemar" ki hai lekin Arsalan bilkul tandurust dikhta hai — naya "sick" emo (laal naak, aadhi band aankhein, mufflar/razai kandhon par) taa ke "main bohot beemar hoon" screen par bhi dikhe.
+- [K-038] (ep016, 2026-11-09) Bedroom mein stand_l par aane wali Ammi bed par baithe Arsalan ke aage khari ho kar us ka aadha jism chhupa deti hain (line 11-15) — bedroom mein bed ke saath ek naya "bedside" slot (bed ke right, thora peeche) banana.
+- [K-039] (ep016, 2026-11-09) Aangan mein "chest" pose (line 3) aur group shot (line 6, 0:30) mein bat seedha Arsalan ke chehre ke aage khara hota hai — K-013 ki tarah, lekin "chest" pose mein bhi bat ko kandhe par ya neeche pakarna.
 
 ## APPROVED
 
