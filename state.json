@@ -2290,14 +2290,14 @@
    },
    "wicket_posts": 4,
    "break_done": false,
-   "last_edit": 1794266156.295171,
+   "last_edit": 1794266763.7570918,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-10 04:15",
+  "time": "2026-11-10 04:26",
   "items": 10,
   "sample": [
    "New Zealand A 36/2 * v India A 464/5",
@@ -4725,48 +4725,8 @@
   "last": 1794258222.0283372
  },
  "trends": {
-  "last": 1794255056.1019049,
+  "last": 1794266455.731972,
   "terms": [
-   {
-    "term": "plane crashed",
-    "traffic": 1000,
-    "news": "‘Responsible, hardworking’ 20-year-old co-pilot among 9 killed when Learjet nosedived into a road",
-    "t": 1793653267,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "dinesh auluck",
-    "traffic": 100,
-    "news": "Two killed in road accident in Punjab’s Jalandhar, singer Honey Singh says one of them his nephew",
-    "t": 1793653267,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "newcastle vs everton",
-    "traffic": 500,
-    "news": "Newcastle vs Everton betting offer and predictions: get R3,000 in deposit match bonuses with Virgin Bet South Africa (ZA)",
-    "t": 1793653267,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "sassuolo vs fiorentina",
-    "traffic": 100,
-    "news": "Vanoli ‘happy’ as Fiorentina win at last: ‘We deserved three points a long time ago’",
-    "t": 1793653267,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "shabana mahmood",
-    "traffic": 100,
-    "news": "UK exempts care workers from plan to impose long delays on immigrants seeking residence",
-    "t": 1793653267,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "adrian hamilton pia ceo",
     "traffic": 2000,
@@ -7798,15 +7758,23 @@
     "t": 1794255056,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "rdc vs ut",
+    "traffic": 100,
+    "news": "Usman Tariq leads the way as United Tigers enjoy memorable start in 2026 Abu Dhabi T10",
+    "t": 1794266456,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-10",
-  "ok": 44,
-  "fail": 76,
-  "limit": 74
+  "ok": 45,
+  "fail": 78,
+  "limit": 76
  },
  "posted_heads": [
   {
@@ -8131,7 +8099,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-10 04:15",
+  "time": "2026-11-10 04:26",
   "steps": []
  },
  "roundup_am": "2026-11-09",
@@ -8239,7 +8207,7 @@
   "text": 4,
   "story": 2
  },
- "ai_last_error": "04:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "04:20 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-10",
   "models": [
@@ -8281,7 +8249,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-10",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8289,7 +8257,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-10",
-   "ok": 25,
+   "ok": 26,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8297,7 +8265,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-10",
-   "ok": 25,
+   "ok": 26,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8305,7 +8273,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8313,7 +8281,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8321,14 +8289,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8337,9 +8305,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-10",
    "ok": 0,
-   "fail": 26,
+   "fail": 27,
    "items": 15,
-   "fail_streak": 818,
+   "fail_streak": 819,
    "last_status": 404
   }
  },
@@ -8935,8 +8903,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9635,20 +9603,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-10 01:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-10 01:06",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-10 01:10",
    "ok": true,
    "n": 0,
@@ -9909,6 +9863,20 @@
   },
   {
    "t": "11-10 04:15",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-10 04:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-10 04:26",
    "ok": true,
    "n": 0,
    "ids": [],
