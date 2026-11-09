@@ -1,12 +1,5 @@
 {
  "seen": {
-  "6a964681556002ff": 1793629256.495271,
-  "f0ad39419051e408": 1793629256.4956307,
-  "2fe5415ff449e12e": 1793629256.495669,
-  "25423f443278085f": 1793629256.4957023,
-  "9c59991b6f4e113d": 1793629256.4957373,
-  "f3c61fa769df58a1": 1793629256.495766,
-  "795fab5713cc616f": 1793629256.4957967,
   "4898f0df6dc30e99": 1793629871.8965473,
   "1925781c4ca306fc": 1793629871.8965502,
   "f54319cf64450b4a": 1793631062.5133078,
@@ -1680,7 +1673,8 @@
   "fea54a50c0e149e9": 1794228080.8992205,
   "eddd19bd554ddb35": 1794229870.5393736,
   "9a3904a5ef0c3653": 1794231073.0427027,
-  "2993556c6750cf2c": 1794233465.6011426
+  "2993556c6750cf2c": 1794233465.6011426,
+  "09344a7b0918d6da": 1794234672.8686433
  },
  "pending": {},
  "queue": [],
@@ -2346,18 +2340,18 @@
    },
    "wicket_posts": 4,
    "break_done": false,
-   "last_edit": 1794234404.415009,
+   "last_edit": 1794234978.6624234,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-09 19:26",
+  "time": "2026-11-09 19:36",
   "items": 12,
   "sample": [
-   "Bangladesh 386/9 & 184/4 * v West Indies 356/10 & 398/6",
-   "Afghanistan 514/10 v Zimbabwe 523/5 & 504/10 *",
+   "Bangladesh 184/4 & 386/9 * v West Indies 356/10 & 398/6",
+   "Afghanistan 514/10 v Zimbabwe 504/10 & 523/5 *",
    "New Zealand A 36/2 * v India A 464/5"
   ]
  },
@@ -7900,9 +7894,9 @@
  },
  "ai_usage": {
   "date": "2026-11-09",
-  "ok": 340,
-  "fail": 481,
-  "limit": 486
+  "ok": 342,
+  "fail": 485,
+  "limit": 490
  },
  "posted_heads": [
   {
@@ -8239,7 +8233,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-09 19:26",
+  "time": "2026-11-09 19:36",
   "steps": []
  },
  "roundup_am": "2026-11-09",
@@ -8347,7 +8341,7 @@
   "text": 23,
   "story": 19
  },
- "ai_last_error": "19:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "19:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-09",
   "models": [
@@ -8389,7 +8383,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-09",
-   "ok": 113,
+   "ok": 114,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -8397,7 +8391,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-09",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8405,7 +8399,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-09",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8413,7 +8407,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8421,7 +8415,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8429,14 +8423,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 118,
+   "ok": 119,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8445,9 +8439,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-09",
    "ok": 0,
-   "fail": 119,
+   "fail": 120,
    "items": 15,
-   "fail_streak": 765,
+   "fail_streak": 766,
    "last_status": 404
   }
  },
@@ -9043,8 +9037,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 6,
-  "old": 6,
+  "found": 9,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9087,8 +9081,8 @@
  "sindh_stream": {
   "date": "2026-11-09",
   "count": 12,
-  "last": 1794233462.783406,
-  "city_i": 10,
+  "last": 1794234669.6935503,
+  "city_i": 14,
   "dry": 1794233465.601145
  },
  "gemini_day_dead": {
@@ -10016,20 +10010,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-09 16:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-09 16:15",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-09 16:20",
    "ok": true,
    "n": 0,
@@ -10290,6 +10270,20 @@
   },
   {
    "t": "11-09 19:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 19:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 19:36",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14496,11 +14490,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-07 12:31",
-   "new": "آمريڪا ۾ ڊيموڪريٽڪ پارٽيءَ جي تاريخي ڪاميابي تي نيرو سونامي قرار",
-   "old": "ٽرمپ جي هٽائڻ لاءِ مواخذي جو مطالبو زور وٺي ويو، ڊيموڪريٽس مواخذو ڪيو "
-  },
-  {
    "t": "11-07 14:41",
    "new": "پاڪستان ۾ چاندي جي اڄوڪي اگهه جو تفصيل سامهون اچي ويو",
    "old": "اڄ پاڪستان ۾ سون جي قيمت"
@@ -14644,6 +14633,11 @@
    "t": "11-09 18:11",
    "new": "ملڪ کي 12 صوبن ۾ ورهائڻ جي رٿا تي غور",
    "old": "ملڪ جي انتظامي نقشي ۾ تبديلي ۽ 12 صوبن جي تجويز"
+  },
+  {
+   "t": "11-09 19:31",
+   "new": "بولي ۽ قوم بدران عوامي سهولتن تي انتظامي يونٽ ٺاهيا وڃن: خواجا آصف",
+   "old": "ملڪ جي انتظامي نقشي ۾ تبديلي ۽ 12 صوبن جي تجويز"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14664,6 +14658,7 @@
   "kawish_rejected": 3,
   "kawish_crosschecked": 1,
   "wrong_place": 0,
-  "repeat": 9
- }
+  "repeat": 10
+ },
+ "_dup": true
 }
