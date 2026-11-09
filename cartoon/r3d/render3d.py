@@ -12,7 +12,6 @@ E = X.E
 from PIL import Image  # noqa: E402
 from playwright.sync_api import sync_playwright  # noqa: E402
 
-THREE = os.environ.get("THREE_JS", "/home/claude/r3d/node_modules/three/build/three.min.js")
 OW, OH, FPS = E.OW, E.OH, E.FPS
 data = json.load(open(f"{WORK}/frames3d.json"))
 
@@ -20,7 +19,6 @@ data = json.load(open(f"{WORK}/frames3d.json"))
 def overlays(out, t, si):
     """same captions / title / scene label / end card as the 2D engine"""
     sc = E.SC[si]
-    out.alpha_composite(E.VIG)
     for s in E.SC[1:]:
         if 0 <= t - s["t0"] < 0.25:
             out.alpha_composite(Image.new("RGBA", (OW, OH), (255, 255, 255, int(255 * (1 - (t - s["t0"]) / 0.25)))))
@@ -63,13 +61,8 @@ def overlays(out, t, si):
 
 
 with sync_playwright() as p:
-    b = p.chromium.launch(args=["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist"])
-    pg = b.new_page(viewport={"width": OW, "height": OH})
-    pg.on("console", lambda m: print("[js]", m.text) if m.type in ("error", "warning") and "deprecated" not in m.text else None)
-    pg.on("pageerror", lambda e: print("[js error]", e))
-    pg.set_content("<html><body style='margin:0;background:#000'></body></html>")
-    pg.add_script_tag(path=THREE)
-    pg.add_script_tag(path=f"{HERE}/lowpoly.js")
+    from page import open_page
+    b, pg = open_page(p)
     pg.evaluate("d => LP.init(d)", data)
 
     def grab(fr):

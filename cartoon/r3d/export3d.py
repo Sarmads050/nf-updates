@@ -74,6 +74,37 @@ def shot_info(t, states):
     return dict(kind=kind, ws=ws, u=round(u, 3), key=f"{i}", t_in=round(t - a, 3))
 
 
+# ---- visemes from each speaker's voice track: open (jaw), wide (+ee / -oo), fric (s/sh/f: teeth)
+import numpy as np  # noqa: E402
+VIS = {}
+hop = E.SR // E.FPS
+win = np.hanning(2048)
+fq = np.fft.rfftfreq(2048, 1 / E.SR)
+bands = [(fq >= a) & (fq < b) for a, b in ((250, 900), (900, 1700), (1700, 3200), (3500, 8000))]
+for w, x in E.trk.items():
+    env = E.LIP[w][0]
+    vo, vw, vf = np.zeros(E.N), np.zeros(E.N), np.zeros(E.N)
+    o_s = w_s = f_s = 0.0
+    for i in range(E.N):
+        c = i * hop + hop // 2
+        seg = x[max(0, c - 1024):c + 1024]
+        e = float(env[i])
+        if len(seg) == 2048 and e > 0.06:
+            sp = np.abs(np.fft.rfft(seg * win)) ** 2
+            B = [float(sp[m].sum()) + 1e-9 for m in bands]
+            tot = sum(B)
+            b1, b2, b3, b4 = (v / tot for v in B)
+            o = min(1.0, e * 0.95) * (0.55 + 0.9 * b1)
+            wd = max(-1.0, min(1.0, (b3 - b2) * 3.2 + 0.15))
+            f = max(0.0, min(1.0, (b4 - 0.18) * 3.0))
+        else:
+            o, wd, f = 0.0, w_s * 0.6, 0.0
+        o_s += (o - o_s) * (0.7 if o > o_s else 0.45)
+        w_s += (wd - w_s) * 0.45
+        f_s += (f - f_s) * 0.5
+        vo[i], vw[i], vf[i] = o_s, w_s, f_s
+    VIS[w] = (vo, vw, vf)
+
 frames = []
 for fr, F in enumerate(E.FR):
     t = F["t"]
@@ -85,6 +116,13 @@ for fr, F in enumerate(E.FR):
         d = dict(emo=c["emo"], q=c["q"], sh=c["shape"], bl=c["blink"], lx=c["lx"], ly=c["ly"], face=c["face"],
                  ang=round(c["ang"], 2), nod=round(c["nod"], 3), pose=c["pose"], prev=c["prev"], tc=round(c["tc"], 3),
                  prop=c["prop"], al=round(c["alpha"], 3), sl=round(c.get("sleep", 0), 3), st=round(c["stand"], 3))
+        lk = E.at(E.LOOK, w, t, "*")[0]
+        if lk == "*":
+            spk = E.LINES[F["li"]]["who"] if F["li"] is not None else None
+            lk = spk if spk and spk != w else "front"
+        d["lk"] = lk
+        if w in VIS:
+            d.update(vo=round(float(VIS[w][0][fr]), 2), vw=round(float(VIS[w][1][fr]), 2), vf=round(float(VIS[w][2][fr]), 2))
         if kind == "walk":
             u = max(0.0, min(1.0, (t - sg[0]) / kw["dur"]))
             d.update(m="walk", u=round(u, 3), fi=bool(kw.get("fade_in")), fo=bool(kw.get("fade_out")),
@@ -102,7 +140,8 @@ out = dict(
     fps=E.FPS, n=E.N, total=E.TOTAL, t_end=E.T_END,
     scenes=[dict(set=s["name"], time=s["time"], t0=s["t0"], t1=s.get("t1"), label=s.get("label"),
                  sleepers=[w for w, ev in E.SLEEP.items() if any(e[3] == k for e in ev)]) for k, s in enumerate(E.SC)],
-    lines=[dict(who=l["who"], a=a, b=b, joke=bool(l.get("joke")), scene=l["scene"]) for l, (a, b) in zip(E.LINES, E.times)],
+    lines=[dict(who=l["who"], to=l.get("to"), a=a, b=b, joke=bool(l.get("joke")), scene=l["scene"], shot=l.get("shot", "auto"))
+           for l, (a, b) in zip(E.LINES, E.times)],
     chars={w: dict(skin=c["skin"], shirt=c["shirt"], pants=c["pants"], hair=c.get("hair"), hair_col=c.get("hair_col"),
                    cover=c.get("cover"), cover2=c.get("cover2"), shirt2=c.get("shirt2"), scale=c["scale"], hs=c.get("hs", 1.0),
                    age=c.get("age"), kameez=bool(c.get("kameez")), lashes=bool(c.get("lashes")), earrings=bool(c.get("earrings")),
