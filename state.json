@@ -1,6 +1,5 @@
 {
  "seen": {
-  "90108dcd73aa0d98": 1793594467.0529459,
   "edf445c9e31973f1": 1793595679.7527447,
   "ad3bd02e931adfcc": 1793596921.6230693,
   "063051cf2958219b": 1793598059.1535316,
@@ -1713,7 +1712,9 @@
   "5b9a68cdafdd56d5": 1794196881.3207912,
   "83576bee643caa5a": 1794196881.3209963,
   "97eb301b80c07147": 1794198067.6190429,
-  "c4c59954c42bfd96": 1794199251.0882435
+  "c4c59954c42bfd96": 1794199251.0882435,
+  "57c071667efd38ce": 1794199849.4194145,
+  "f9a5b2bf1a76f243": 1794199865.9156923
  },
  "pending": {},
  "queue": [],
@@ -2363,17 +2364,17 @@
    },
    "wicket_posts": 0,
    "break_done": false,
-   "last_edit": 1794199572.6245768,
+   "last_edit": 1794200171.6020484,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-09 09:46",
+  "time": "2026-11-09 09:56",
   "items": 10,
   "sample": [
-   "Bangladesh 2 & 386/10 * v West Indies 356/10 & 398/6",
+   "Bangladesh 15 & 386/10 * v West Indies 356/10 & 398/6",
    "Afghanistan 514/10 v Zimbabwe 504/10 & 164/3 *",
    "New Zealand A 36/2 * v India A 464/5"
   ]
@@ -4798,32 +4799,8 @@
   "last": 1794196928.1136873
  },
  "trends": {
-  "last": 1794188459.010799,
+  "last": 1794199849.4196405,
   "terms": [
-   {
-    "term": "sri lanka pakistan cricket match",
-    "traffic": 200,
-    "news": "Pakistan’s past and future make a bid for the present",
-    "t": 1793584929,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "new england vs inter miami",
-    "traffic": 2000,
-    "news": "%*[[[SPORT TV>]* Miami vs. New England LIVE Free Broadcast ON Tv Channel 01 November ２０２6",
-    "t": 1793584929,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "ramayana movie",
-    "traffic": 100,
-    "news": "Ramayana's overseas bookings hit a milestone, but can Ranbir Kapoor's epic match Dhurandhar 2's opening?",
-    "t": 1793584929,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "federal board of revenue of pakistan",
     "traffic": 500,
@@ -7823,15 +7800,95 @@
     "t": 1794188459,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "icc",
+    "traffic": 1000,
+    "news": "Hope nominated for ICC Player of the Month award",
+    "t": 1794199849,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "wired headphones mdr 3r",
+    "traffic": 2000,
+    "news": "Sony's MDR-3R Wired Headphones Are Steeped In Retro Aesthetics",
+    "t": 1794199849,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "pakistan vs sri lanka",
+    "traffic": 20000,
+    "news": "Babar Azam says selection not in his hands as youthful Pakistan face Sri Lanka",
+    "t": 1794199849,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "shehbaz sharif youth loan limit",
+    "traffic": 200,
+    "news": "PM raises youth loan limit to Rs25m",
+    "t": 1794199849,
+    "cat": "education_jobs",
+    "sindh": false
+   },
+   {
+    "term": "nevaan nigam",
+    "traffic": 100,
+    "news": "Sonu Nigam's Son Nevaan Makes Music Debut With Slide At 19, Singer Recalls How He Was Once Shy To Sing",
+    "t": 1794199849,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "game",
+    "traffic": 200,
+    "news": "49ers Studs and Duds: McCaffrey, Black run over Raiders in wild rivalry clash",
+    "t": 1794199849,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "na 77 gujranwala",
+    "traffic": 200,
+    "news": "PP-203 by-election set for Sunday",
+    "t": 1794199849,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "byd yangwang altior",
+    "traffic": 100,
+    "news": "BYD unveils luxury floating electric car to challenge Rolls-Royce Phantom",
+    "t": 1794199849,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "weather",
+    "traffic": 100000,
+    "news": "Türkiye gears up to host COP31 climate summit in Antalya",
+    "t": 1794199849,
+    "cat": "weather_disaster",
+    "sindh": false
+   },
+   {
+    "term": "nvidia ceo jensen huang",
+    "traffic": 1000,
+    "news": "Nvidia CEO Jensen Huang admits affair as company launches investigation into foreign spy claims",
+    "t": 1794199849,
+    "cat": "technology",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-09",
-  "ok": 132,
-  "fail": 215,
-  "limit": 213
+  "ok": 134,
+  "fail": 219,
+  "limit": 217
  },
  "posted_heads": [
   {
@@ -8156,7 +8213,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-09 09:46",
+  "time": "2026-11-09 09:56",
   "steps": []
  },
  "roundup_am": "2026-11-09",
@@ -8264,7 +8321,7 @@
   "text": 14,
   "story": 12
  },
- "ai_last_error": "09:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "09:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-09",
   "models": [
@@ -8306,15 +8363,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-09",
-   "ok": 58,
+   "ok": 59,
    "fail": 3,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-09",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8322,7 +8379,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-09",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8330,7 +8387,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8338,7 +8395,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8346,14 +8403,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8362,9 +8419,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-09",
    "ok": 0,
-   "fail": 61,
+   "fail": 62,
    "items": 15,
-   "fail_streak": 707,
+   "fail_streak": 708,
    "last_status": 404
   }
  },
@@ -8614,8 +8671,8 @@
   "date": "2026-11-09",
   "count": 1,
   "last": 1794167464.8191156,
-  "city_i": 6,
-  "dry": 1794199259.9972832
+  "city_i": 10,
+  "dry": 1794199861.668723
  },
  "gemini_day_dead": {
   "day": "2026-11-08",
@@ -9263,20 +9320,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-09 03:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-09 03:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-09 03:50",
    "ok": true,
    "n": 0,
@@ -9537,6 +9580,20 @@
   },
   {
    "t": "11-09 09:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 09:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 09:56",
    "ok": true,
    "n": 0,
    "ids": [],
