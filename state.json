@@ -1722,7 +1722,10 @@
   "ef11f1adf76f0130": 1794188473.471727,
   "ab55bc8efa6896e6": 1794188473.471729,
   "3a7af1f61f85d6fa": 1794188473.4717302,
-  "d0c6bae5da0c77f9": 1794188473.471892
+  "d0c6bae5da0c77f9": 1794188473.471892,
+  "691610f51015c3cf": 1794189069.9622931,
+  "69673ccf61836c1f": 1794189087.4773192,
+  "d4715f2b5fb422dd": 1794189095.6688702
  },
  "pending": {},
  "queue": [],
@@ -2414,10 +2417,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-09 06:41",
+  "time": "2026-11-09 06:51",
   "items": 10,
   "sample": [
-   "Bangladesh 386/10 v West Indies 345/3 & 356/10 *",
+   "Bangladesh 386/10 v West Indies 356/10 & 345/3 *",
    "Afghanistan 514/10 v Zimbabwe 164/3 & 504/10 *",
    "New Zealand A 36/2 * v India A 464/5"
   ]
@@ -7873,9 +7876,9 @@
  },
  "ai_usage": {
   "date": "2026-11-09",
-  "ok": 65,
-  "fail": 104,
-  "limit": 104
+  "ok": 71,
+  "fail": 116,
+  "limit": 116
  },
  "posted_heads": [
   {
@@ -8200,7 +8203,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-09 06:41",
+  "time": "2026-11-09 06:51",
   "steps": []
  },
  "roundup_am": "2026-11-08",
@@ -8303,12 +8306,12 @@
  },
  "article_diag": {
   "date": "2026-11-09",
-  "tried": 8,
-  "decoded": 8,
-  "text": 8,
-  "story": 7
+  "tried": 9,
+  "decoded": 9,
+  "text": 9,
+  "story": 8
  },
- "ai_last_error": "06:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-09",
   "models": [
@@ -8350,7 +8353,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-09",
-   "ok": 42,
+   "ok": 43,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8358,7 +8361,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-09",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8366,7 +8369,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-09",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8374,7 +8377,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8382,7 +8385,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8390,14 +8393,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8406,9 +8409,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-09",
    "ok": 0,
-   "fail": 43,
+   "fail": 44,
    "items": 15,
-   "fail_streak": 689,
+   "fail_streak": 690,
    "last_status": 404
   }
  },
@@ -8658,8 +8661,8 @@
   "date": "2026-11-09",
   "count": 1,
   "last": 1794167464.8191156,
-  "city_i": 24,
-  "dry": 1794188469.7928634
+  "city_i": 6,
+  "dry": 1794189064.9843912
  },
  "gemini_day_dead": {
   "day": "2026-11-08",
@@ -9296,13 +9299,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-09 00:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-09 00:40",
    "ok": true,
    "n": 0,
@@ -9570,6 +9566,13 @@
   },
   {
    "t": "11-09 06:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 06:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13787,11 +13790,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-07 01:42",
-   "new": "سون جي قيمت ۾ وڏي لاٿ",
-   "old": "شام جون سنڌ جون اهم خبرون"
-  },
-  {
    "t": "11-07 04:11",
    "new": "مهانگائي ۾ واڌ، هفتيوار رپورٽ سامهون اچي وئي",
    "old": "مهانگائي ۾ واڌ"
@@ -13935,6 +13933,11 @@
    "t": "11-09 06:41",
    "new": "پيٽرول اگهن ۽ مهانگائي بابت اهم خبر",
    "old": "پيٽرول سستو، پر مهانگائي برقرار"
+  },
+  {
+   "t": "11-09 06:51",
+   "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽتائي",
+   "old": "پيٽرول سستو، پر مهانگائي برقرار"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13955,7 +13958,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 2
+  "repeat": 3
  },
  "_dup": true
 }
