@@ -1,15 +1,5 @@
 {
  "seen": {
-  "1e5ced092adf40ed": 1793662281.0639908,
-  "5a7d637e156156a5": 1793662281.0639937,
-  "f9370ff506556cff": 1793662281.063995,
-  "ed303e327d89a3f6": 1793662281.063996,
-  "bd908f062d696433": 1793662281.063997,
-  "0fb7da7a3c827f6b": 1793662281.0639977,
-  "6c1609c0951a5ac7": 1793662281.0639985,
-  "320b7edc1142ab0a": 1793662281.0639994,
-  "302629beade8cd4a": 1793662281.0640004,
-  "51fee73b90fac433": 1793662281.0641942,
   "5d095f57075a8123": 1793664087.5116448,
   "9d9038db17948e68": 1793664087.5116475,
   "3409a7e871b4b381": 1793664087.5116487,
@@ -1621,11 +1611,22 @@
   "7b4c89088e17c7ed": 1794258088.4469867,
   "baa604ca5f01e8a7": 1794261054.7420893,
   "ac7dbe8e8a438702": 1794261679.996417,
-  "8f3dac3bb3ee6f6e": 1794265285.2300804
+  "8f3dac3bb3ee6f6e": 1794265285.2300804,
+  "ecff13e075f37a14": 1794267678.9979005
  },
  "pending": {},
  "queue": [],
- "jobs": [],
+ "jobs": [
+  {
+   "key": "ecff13e075f37a14",
+   "title": "Solar manufacturing policy needs to unlock jobs, exports: Punjab governor",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcm0zWDFtdmlmaDlVdjZZcmVQMEhac2s2Rl9yRU4zLTR3dTVzNXNhMHdzcDBCZ21uUG5mcVpvUDBhcVlmanE2U3RGbm15MUVSaGJtTkNsOUpjN1duazlka2t3VGVaR2pLWGc2R3pZcV95bnp1RTMxanpVaVVFd0I2UGNWOHo0SlRaMDR5bUZxZVE0cUExVXg0REg2a04tWUs1?oc=5",
+   "domain": "gnnhd.tv",
+   "source": "GNN | Latest News",
+   "ts": 1794211198,
+   "local": false
+  }
+ ],
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-09",
@@ -2290,14 +2291,14 @@
    },
    "wicket_posts": 4,
    "break_done": false,
-   "last_edit": 1794267367.4104218,
+   "last_edit": 1794267984.035532,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-10 04:36",
+  "time": "2026-11-10 04:46",
   "items": 10,
   "sample": [
    "New Zealand A 36/2 * v India A 464/5",
@@ -8099,7 +8100,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-10 04:36",
+  "time": "2026-11-10 04:46",
   "steps": []
  },
  "roundup_am": "2026-11-09",
@@ -8249,7 +8250,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-10",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8257,7 +8258,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-10",
-   "ok": 27,
+   "ok": 28,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8265,7 +8266,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-10",
-   "ok": 27,
+   "ok": 28,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8273,7 +8274,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8281,7 +8282,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8289,14 +8290,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8305,9 +8306,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-10",
    "ok": 0,
-   "fail": 28,
+   "fail": 29,
    "items": 15,
-   "fail_streak": 820,
+   "fail_streak": 821,
    "last_status": 404
   }
  },
@@ -8903,8 +8904,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 9,
-  "old": 9,
+  "found": 12,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9603,20 +9604,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-10 01:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-10 01:26",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-10 01:30",
    "ok": true,
    "n": 0,
@@ -9877,6 +9864,20 @@
   },
   {
    "t": "11-10 04:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-10 04:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-10 04:46",
    "ok": true,
    "n": 0,
    "ids": [],
