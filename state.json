@@ -1,13 +1,5 @@
 {
  "seen": {
-  "de93d2b637ca957a": 1793613136.2458074,
-  "6c34c3bf2e115e81": 1793613136.24581,
-  "e08f6723d88da8db": 1793613136.245811,
-  "69d21bbcc0417fc8": 1793613136.245812,
-  "7c5f32574aed0481": 1793613136.2458127,
-  "ba8e60fed5e68743": 1793613136.246052,
-  "4aed67df13ad4f11": 1793613148.4266658,
-  "a2b46f0703e8f4d4": 1793613148.4266684,
   "1789ebd6547912fb": 1793613979.161016,
   "ea2ca2044ef4a43b": 1793614254.557876,
   "8034c5a088abeaf5": 1793614254.558169,
@@ -1700,7 +1692,12 @@
   "4a6a3533a7d89605": 1794217291.251082,
   "caf2c7cc67ab78bb": 1794217291.251083,
   "a82f599648b4d5d6": 1794217291.2512834,
-  "03227661e5552c7f": 1794217863.8388023
+  "03227661e5552c7f": 1794217863.8388023,
+  "7fae45ad6d6a1e8b": 1794218482.2070777,
+  "46db752c0ed6699e": 1794218482.2070806,
+  "1fe65d940004b16d": 1794218493.974379,
+  "35ccf00359c609c3": 1794218493.9743822,
+  "4a383d82f59ce34e": 1794218493.974511
  },
  "pending": {},
  "queue": [],
@@ -2356,18 +2353,18 @@
    },
    "wicket_posts": 2,
    "break_done": false,
-   "last_edit": 1794218170.8626077,
+   "last_edit": 1794218808.323917,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-09 14:56",
+  "time": "2026-11-09 15:06",
   "items": 10,
   "sample": [
-   "Bangladesh 386/10 & 184/4 * v West Indies 356/10 & 398/6",
-   "Afghanistan 514/10 v Zimbabwe 307/4 & 504/10 *",
+   "Bangladesh 386/10 & 184/4 * v West Indies 398/6 & 356/10",
+   "Afghanistan 514/10 v Zimbabwe 316/5 & 504/10 *",
    "New Zealand A 36/2 * v India A 464/5"
   ]
  },
@@ -7886,9 +7883,9 @@
  },
  "ai_usage": {
   "date": "2026-11-09",
-  "ok": 235,
-  "fail": 348,
-  "limit": 352
+  "ok": 241,
+  "fail": 360,
+  "limit": 364
  },
  "posted_heads": [
   {
@@ -8213,7 +8210,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-09 14:56",
+  "time": "2026-11-09 15:06",
   "steps": []
  },
  "roundup_am": "2026-11-09",
@@ -8316,12 +8313,12 @@
  },
  "article_diag": {
   "date": "2026-11-09",
-  "tried": 21,
-  "decoded": 21,
-  "text": 21,
-  "story": 17
+  "tried": 22,
+  "decoded": 22,
+  "text": 22,
+  "story": 18
  },
- "ai_last_error": "14:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "15:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-09",
   "models": [
@@ -8363,7 +8360,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-09",
-   "ok": 87,
+   "ok": 88,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8371,7 +8368,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-09",
-   "ok": 92,
+   "ok": 93,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8379,7 +8376,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-09",
-   "ok": 92,
+   "ok": 93,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8387,7 +8384,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 92,
+   "ok": 93,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8395,7 +8392,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 92,
+   "ok": 93,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8403,14 +8400,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 92,
+   "ok": 93,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 91,
+   "ok": 92,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8419,9 +8416,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-09",
    "ok": 0,
-   "fail": 92,
+   "fail": 93,
    "items": 15,
-   "fail_streak": 738,
+   "fail_streak": 739,
    "last_status": 404
   }
  },
@@ -8595,8 +8592,8 @@
    "07-11-2026",
    "08-11-2026"
   ],
-  "last_try": 1794132059.864697,
-  "last_try_note": "15:01 mila",
+  "last_try": 1794218465.9221983,
+  "last_try_note": "15:01 abhi nahi mila",
   "paper": {
    "date": "08-11-2026",
    "read": [
@@ -8625,14 +8622,14 @@
   "pakistan": 14
  },
  "report_acc": {
-  "posted": 1,
-  "found": 10,
-  "old": 10,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-09 14",
+ "report_hour": "2026-11-09 15",
  "kawish_upload_times": {
   "_date": "2026-11-09",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8670,8 +8667,8 @@
  "sindh_stream": {
   "date": "2026-11-09",
   "count": 8,
-  "last": 1794217259.0642254,
-  "city_i": 22,
+  "last": 1794218479.5742033,
+  "city_i": 4,
   "dry": 1794217260.2508142
  },
  "gemini_day_dead": {
@@ -9315,20 +9312,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-09 11:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-09 11:38",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-09 11:40",
    "ok": true,
    "n": 0,
@@ -9589,6 +9572,20 @@
   },
   {
    "t": "11-09 14:56",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 15:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 15:06",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13711,16 +13708,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-07 06:31",
-   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽات",
-   "old": "صبح جون سنڌ جون اهم خبرون"
-  },
-  {
-   "t": "11-07 07:22",
-   "new": "پيٽرول ۽ ڊيزل اگهن ۾ گهٽتائي",
-   "old": "صبح جون سنڌ جون اهم خبرون"
-  },
-  {
    "t": "11-07 08:21",
    "new": "حڪومت پيٽرول ۽ ڊيزل اگهه گھٽ ڪري ڇڏيا",
    "old": "صبح جون سنڌ جون اهم خبرون"
@@ -13859,6 +13846,16 @@
    "t": "11-09 14:41",
    "new": "پهرين ٽيسٽ: پاڪستان جو شاندار آغاز",
    "old": "ڊيبيوٽنٽ عارف جي ففٽي، پاڪستان لنچ تائين 137-2"
+  },
+  {
+   "t": "11-09 15:01",
+   "new": "ملڪ ۾ سون ۽ چاندي جي اگهن ۾ واڌ",
+   "old": "پاڪستان ۾ سون جي اگهن ۾ استحصال جاري، اگهه برقرار"
+  },
+  {
+   "t": "11-09 15:01",
+   "new": "پهرين ٽيسٽ: پاڪستان جي خلاف وزني شروعات",
+   "old": "ڊيبيوٽنٽ عارف جي ففٽي، پاڪستان لنچ تائين 137-2"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13879,7 +13876,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 5
+  "repeat": 7
  },
  "_dup": true
 }
