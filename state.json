@@ -1,8 +1,5 @@
 {
  "seen": {
-  "95e22ec081abe90b": 1793624473.225403,
-  "c0fdf91f692fba0a": 1793624473.225679,
-  "9af40779e2ec8d06": 1793624473.2269368,
   "300f45075a733392": 1793625060.0172176,
   "889626225456eee0": 1793625060.0196245,
   "18fce81d874f9f78": 1793625060.019827,
@@ -1707,7 +1704,8 @@
   "4f2908968c910e8f": 1794226344.3303034,
   "0a5e733d1173102b": 1794226344.3303049,
   "f06030fff771f99e": 1794226344.3303075,
-  "fea54a50c0e149e9": 1794228080.8992205
+  "fea54a50c0e149e9": 1794228080.8992205,
+  "eddd19bd554ddb35": 1794229870.5393736
  },
  "pending": {},
  "queue": [],
@@ -1779,7 +1777,7 @@
  "sindh_single": {
   "date": "2026-11-09",
   "count": 2,
-  "last": 1794216701.4678047,
+  "last": 1794229883.7199042,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2363,18 +2361,18 @@
    },
    "wicket_posts": 4,
    "break_done": false,
-   "last_edit": 1794229616.611661,
+   "last_edit": 1794230189.6107202,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-09 18:06",
+  "time": "2026-11-09 18:16",
   "items": 12,
   "sample": [
-   "Bangladesh 184/4 & 386/9 * v West Indies 398/6 & 356/10",
-   "Afghanistan 514/10 v Zimbabwe 523/5 & 504/10 *",
+   "Bangladesh 386/9 & 184/4 * v West Indies 356/10 & 398/6",
+   "Afghanistan 514/10 v Zimbabwe 504/10 & 523/5 *",
    "New Zealand A 36/2 * v India A 464/5"
   ]
  },
@@ -7893,9 +7891,9 @@
  },
  "ai_usage": {
   "date": "2026-11-09",
-  "ok": 318,
-  "fail": 443,
-  "limit": 448
+  "ok": 323,
+  "fail": 453,
+  "limit": 458
  },
  "posted_heads": [
   {
@@ -8224,7 +8222,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-09 18:06",
+  "time": "2026-11-09 18:16",
   "steps": []
  },
  "roundup_am": "2026-11-09",
@@ -8332,7 +8330,7 @@
   "text": 23,
   "story": 19
  },
- "ai_last_error": "18:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-09",
   "models": [
@@ -8374,7 +8372,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-09",
-   "ok": 106,
+   "ok": 107,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8382,7 +8380,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-09",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8390,7 +8388,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-09",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8398,7 +8396,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8406,7 +8404,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8414,14 +8412,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 110,
+   "ok": 111,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8430,9 +8428,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-09",
    "ok": 0,
-   "fail": 111,
+   "fail": 112,
    "items": 15,
-   "fail_streak": 757,
+   "fail_streak": 758,
    "last_status": 404
   }
  },
@@ -9028,8 +9026,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9072,8 +9070,8 @@
  "sindh_stream": {
   "date": "2026-11-09",
   "count": 11,
-  "last": 1794228062.624147,
-  "city_i": 16,
+  "last": 1794229868.1098564,
+  "city_i": 20,
   "dry": 1794217260.2508142
  },
  "gemini_day_dead": {
@@ -9705,22 +9703,6 @@
  },
  "kawish_queue": [
   {
-   "key": "4c1cbe89214361d1",
-   "page": 1,
-   "head": "سنڌ ۽ اسپتالن ڪنپوز: 11 اسٽوليميٽري، 4 هائر اسڪول خانگي ادارن حوالي، عملدار آمد شروع",
-   "summary": "سنڌ حڪومت 100 ارب روپين جي قرض سان تعمير ٿيندڙ 11 اسڪولن کي 10 سالن لاءِ خانگي ادارن حوالي ڪري ڇڏيو. ايجوڪيشن منيسٽريز آرگنائيزيشن کي ذول اسڪولن ۽ پڙهندڙن کي جلد بند ڪرڻ جي هدايت ڪئي وئي. زمين جو ڪم ڏنو ويو.",
-   "card": "سنڌ حڪومت 100 ارب روپين جي قرض سان تعمير ٿيندڙ 11 اسڪولن کي 10 سالن لاءِ خانگي ادارن حوالي ڪري ڇڏيو.",
-   "printed": "سنڌ ۽ اسپتالن ڪنپوز: 11 اسٽوليميٽري، 4 هائر اسڪول خانگي ادارن حوالي، عملدار آمد شروع ڪراچي (بيرورو رپورٽ)",
-   "search_en": "Sindh schools privatized 100 billion loan",
-   "search_ur": "سندھ اسکول نجی تحویل میں 100 ارب قرض",
-   "district": false,
-   "sensitive": false,
-   "confidence": "high",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-11-09&pageno=1",
-   "message": "📰 سنڌ ۽ اسپتالن ڪنپوز: 11 اسٽوليميٽري، 4 هائر اسڪول خانگي ادارن حوالي، عملدار آمد شروع\n\nسنڌ حڪومت 100 ارب روپين جي قرض سان تعمير ٿيندڙ 11 اسڪولن کي 10 سالن لاءِ خانگي ادارن حوالي ڪري ڇڏيو. ايجوڪيشن منيسٽريز آرگنائيزيشن کي ذول اسڪولن ۽ پڙهندڙن کي جلد بند ڪرڻ جي هدايت ڪئي وئي. زمين جو ڪم ڏنو ويو!\n\n📌 ذريعو: روزاني ڪاوش (صفحو 1)\n\n📲 نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFeroze #Padidan #نوشهروفيروز #پڊعيدن",
-   "added_day": "2026-11-09"
-  },
-  {
    "key": "cd9994b0c9814515",
    "page": 1,
    "head": "سنڌ جا سرڪاري اسڪول خانگي ادارن حوالي ڪرڻ خلاف سخت احتجاجي تحريڪ هلائڻ جو اعلان",
@@ -10055,20 +10037,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-09 14:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-09 14:56",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-09 15:00",
    "ok": true,
    "n": 0,
@@ -10329,6 +10297,20 @@
   },
   {
    "t": "11-09 18:06",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 18:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 18:16",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14450,11 +14432,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-07 08:21",
-   "new": "سنڌ | پيٹرول ۽ ډيزل جي قيمتن ۾ گهٽات",
-   "old": "صبح جون سنڌ جون اهم خبرون"
-  },
-  {
    "t": "11-07 12:31",
    "new": "آمريڪا ۾ ڊيموڪريٽڪ پارٽيءَ جي تاريخي ڪاميابي تي نيرو سونامي قرار",
    "old": "ٽرمپ جي هٽائڻ لاءِ مواخذي جو مطالبو زور وٺي ويو، ڊيموڪريٽس مواخذو ڪيو "
@@ -14598,6 +14575,11 @@
    "t": "11-09 15:11",
    "new": "پاڪستان ۽ سری لنڪا پهرين ٽيسٽ جو اعلان",
    "old": "پهريون ٽيسٽ ميچ: سری لنڪا جو بيٽنگ جو فيصلو"
+  },
+  {
+   "t": "11-09 18:11",
+   "new": "ملڪ کي 12 صوبن ۾ ورهائڻ جي رٿا تي غور",
+   "old": "ملڪ جي انتظامي نقشي ۾ تبديلي ۽ 12 صوبن جي تجويز"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14614,10 +14596,11 @@
  "quality": {
   "date": "2026-11-09",
   "editor_fixed": 28,
-  "editor_rejected": 2,
+  "editor_rejected": 3,
   "kawish_rejected": 3,
   "kawish_crosschecked": 1,
   "wrong_place": 0,
-  "repeat": 8
- }
+  "repeat": 9
+ },
+ "_dup": true
 }
