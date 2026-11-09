@@ -1,15 +1,5 @@
 {
  "seen": {
-  "4e68f575b4e649bf": 1793611886.7011971,
-  "6b3e25a688ffbf84": 1793611886.7011995,
-  "917100bd54532d98": 1793611886.701201,
-  "4f6eb1817b57c756": 1793611886.701202,
-  "77d60d06a717a06a": 1793611886.7012024,
-  "03381c699e237941": 1793611886.701203,
-  "8ae8e2056ed4521e": 1793611886.701204,
-  "7abe1775501aaa0a": 1793611886.7012045,
-  "e5722656e3fc3528": 1793611886.7012055,
-  "a17c537b0e8f92d3": 1793611886.701426,
   "2d3a85dbc0d0dd5b": 1793612467.731796,
   "be81d788844126e1": 1793612484.908082,
   "9813b11c5679bdcf": 1793612484.9080856,
@@ -1710,7 +1700,15 @@
   "bb70ab01208be3d2": 1794214284.108224,
   "3bdddfb0ce4f0bf0": 1794214284.108418,
   "a2378e75f618e6c5": 1794215472.9152036,
-  "4dd99f486bc6ed49": 1794215472.9152062
+  "4dd99f486bc6ed49": 1794215472.9152062,
+  "ca65561a7dff5e70": 1794217260.2508106,
+  "b7ff13a4daad690f": 1794217260.2508125,
+  "338d13943d593856": 1794217263.7489614,
+  "e40dcb00c9cd3905": 1794217291.2510774,
+  "5f9d86857f488312": 1794217291.2510798,
+  "4a6a3533a7d89605": 1794217291.251082,
+  "caf2c7cc67ab78bb": 1794217291.251083,
+  "a82f599648b4d5d6": 1794217291.2512834
  },
  "pending": {},
  "queue": [],
@@ -2366,18 +2364,18 @@
    },
    "wicket_posts": 2,
    "break_done": false,
-   "last_edit": 1794217008.7099116,
+   "last_edit": 1794217610.1538432,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-09 14:36",
+  "time": "2026-11-09 14:46",
   "items": 10,
   "sample": [
-   "Bangladesh 183/4 & 386/10 * v West Indies 398/6 & 356/10",
-   "Afghanistan 514/10 v Zimbabwe 504/10 & 293/4 *",
+   "Bangladesh 184/4 & 386/10 * v West Indies 356/10 & 398/6",
+   "Afghanistan 514/10 v Zimbabwe 299/4 & 504/10 *",
    "New Zealand A 36/2 * v India A 464/5"
   ]
  },
@@ -7896,9 +7894,9 @@
  },
  "ai_usage": {
   "date": "2026-11-09",
-  "ok": 224,
-  "fail": 330,
-  "limit": 333
+  "ok": 234,
+  "fail": 348,
+  "limit": 352
  },
  "posted_heads": [
   {
@@ -8223,7 +8221,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-09 14:36",
+  "time": "2026-11-09 14:46",
   "steps": []
  },
  "roundup_am": "2026-11-09",
@@ -8326,12 +8324,12 @@
  },
  "article_diag": {
   "date": "2026-11-09",
-  "tried": 19,
-  "decoded": 19,
-  "text": 19,
-  "story": 16
+  "tried": 21,
+  "decoded": 21,
+  "text": 21,
+  "story": 17
  },
- "ai_last_error": "14:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "14:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-09",
   "models": [
@@ -8373,7 +8371,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-09",
-   "ok": 85,
+   "ok": 86,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8381,7 +8379,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-09",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8389,7 +8387,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-09",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8397,7 +8395,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8405,7 +8403,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8413,14 +8411,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 89,
+   "ok": 90,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8429,9 +8427,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-09",
    "ok": 0,
-   "fail": 90,
+   "fail": 91,
    "items": 15,
-   "fail_streak": 736,
+   "fail_streak": 737,
    "last_status": 404
   }
  },
@@ -8439,7 +8437,7 @@
   "last": "2026-11-06",
   "idx": 3
  },
- "ai_last_model": "google/gemma-4-31b-it:free",
+ "ai_last_model": "google/gemma-4-26b-a4b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8636,8 +8634,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 6,
-  "old": 6,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8680,9 +8678,9 @@
  "sindh_stream": {
   "date": "2026-11-09",
   "count": 8,
-  "last": 1794215460.248482,
-  "city_i": 18,
-  "dry": 1794216686.8146746
+  "last": 1794217259.0642254,
+  "city_i": 22,
+  "dry": 1794217260.2508142
  },
  "gemini_day_dead": {
   "day": "2026-11-09",
@@ -9325,20 +9323,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-09 11:13",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-09 11:18",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-09 11:20",
    "ok": true,
    "n": 0,
@@ -9599,6 +9583,20 @@
   },
   {
    "t": "11-09 14:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 14:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 14:46",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13721,11 +13719,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-07 06:02",
-   "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات",
-   "old": "صبح جون سنڌ جون اهم خبرون"
-  },
-  {
    "t": "11-07 06:31",
    "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽات",
    "old": "صبح جون سنڌ جون اهم خبرون"
@@ -13869,6 +13862,11 @@
    "t": "11-09 10:51",
    "new": "انتظامي بنيادن تي نون صوبن جي قيام جي حمايت",
    "old": "ملڪ جي انتظامي نقشي ۾ تبديلي ۽ 12 صوبن جي تجويز"
+  },
+  {
+   "t": "11-09 14:41",
+   "new": "پهرين ٽيسٽ: پاڪستان جو شاندار آغاز",
+   "old": "ڊيبيوٽنٽ عارف جي ففٽي، پاڪستان لنچ تائين 137-2"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13885,10 +13883,11 @@
  "quality": {
   "date": "2026-11-09",
   "editor_fixed": 20,
-  "editor_rejected": 1,
+  "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 4
- }
+  "repeat": 5
+ },
+ "_dup": true
 }
