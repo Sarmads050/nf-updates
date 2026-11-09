@@ -1,14 +1,5 @@
 {
  "seen": {
-  "2d3a85dbc0d0dd5b": 1793612467.731796,
-  "be81d788844126e1": 1793612484.908082,
-  "9813b11c5679bdcf": 1793612484.9080856,
-  "932e71d2f3837b28": 1793612506.27786,
-  "a8250b66a4a556a0": 1793612506.2778625,
-  "5865c0c6ae090847": 1793612506.2778637,
-  "a9fd9bf8abe4407b": 1793612506.2778645,
-  "03227661e5552c7f": 1793612506.2778654,
-  "8b158d1bdcb5c500": 1793612506.2780929,
   "de93d2b637ca957a": 1793613136.2458074,
   "6c34c3bf2e115e81": 1793613136.24581,
   "e08f6723d88da8db": 1793613136.245811,
@@ -1708,7 +1699,8 @@
   "5f9d86857f488312": 1794217291.2510798,
   "4a6a3533a7d89605": 1794217291.251082,
   "caf2c7cc67ab78bb": 1794217291.251083,
-  "a82f599648b4d5d6": 1794217291.2512834
+  "a82f599648b4d5d6": 1794217291.2512834,
+  "03227661e5552c7f": 1794217863.8388023
  },
  "pending": {},
  "queue": [],
@@ -2364,18 +2356,18 @@
    },
    "wicket_posts": 2,
    "break_done": false,
-   "last_edit": 1794217610.1538432,
+   "last_edit": 1794218170.8626077,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-09 14:46",
+  "time": "2026-11-09 14:56",
   "items": 10,
   "sample": [
-   "Bangladesh 184/4 & 386/10 * v West Indies 356/10 & 398/6",
-   "Afghanistan 514/10 v Zimbabwe 299/4 & 504/10 *",
+   "Bangladesh 386/10 & 184/4 * v West Indies 356/10 & 398/6",
+   "Afghanistan 514/10 v Zimbabwe 307/4 & 504/10 *",
    "New Zealand A 36/2 * v India A 464/5"
   ]
  },
@@ -7894,7 +7886,7 @@
  },
  "ai_usage": {
   "date": "2026-11-09",
-  "ok": 234,
+  "ok": 235,
   "fail": 348,
   "limit": 352
  },
@@ -8221,7 +8213,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-09 14:46",
+  "time": "2026-11-09 14:56",
   "steps": []
  },
  "roundup_am": "2026-11-09",
@@ -8371,7 +8363,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-09",
-   "ok": 86,
+   "ok": 87,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8379,7 +8371,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-09",
-   "ok": 91,
+   "ok": 92,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8387,7 +8379,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-09",
-   "ok": 91,
+   "ok": 92,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8395,7 +8387,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 91,
+   "ok": 92,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8403,7 +8395,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 91,
+   "ok": 92,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8411,14 +8403,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 91,
+   "ok": 92,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 90,
+   "ok": 91,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8427,9 +8419,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-09",
    "ok": 0,
-   "fail": 91,
+   "fail": 92,
    "items": 15,
-   "fail_streak": 737,
+   "fail_streak": 738,
    "last_status": 404
   }
  },
@@ -8437,7 +8429,7 @@
   "last": "2026-11-06",
   "idx": 3
  },
- "ai_last_model": "google/gemma-4-26b-a4b-it:free",
+ "ai_last_model": "google/gemma-4-31b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8634,8 +8626,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 8,
-  "old": 8,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9323,20 +9315,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-09 11:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-09 11:26",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-09 11:30",
    "ok": true,
    "n": 0,
@@ -9597,6 +9575,20 @@
   },
   {
    "t": "11-09 14:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 14:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 14:56",
    "ok": true,
    "n": 0,
    "ids": [],
