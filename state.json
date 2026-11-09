@@ -2411,10 +2411,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-09 05:02",
+  "time": "2026-11-09 05:03",
   "items": 10,
   "sample": [
-   "Bangladesh 386/10 v West Indies 356/10 & 345/3 *",
+   "Bangladesh 386/10 v West Indies 345/3 & 356/10 *",
    "Afghanistan 514/10 v Zimbabwe 164/3 & 504/10 *",
    "New Zealand A 36/2 * v India A 464/5"
   ]
@@ -8221,7 +8221,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-09 05:02",
+  "time": "2026-11-09 05:03",
   "steps": []
  },
  "roundup_am": "2026-11-08",
@@ -8372,14 +8372,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-09",
    "ok": 32,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-09",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8387,7 +8387,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-09",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8395,7 +8395,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8403,7 +8403,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8411,14 +8411,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8427,9 +8427,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-09",
    "ok": 0,
-   "fail": 32,
+   "fail": 33,
    "items": 15,
-   "fail_streak": 678,
+   "fail_streak": 679,
    "last_status": 404
   }
  },
@@ -8640,7 +8640,7 @@
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-09 04",
+ "report_hour": "2026-11-09 05",
  "kawish_upload_times": {
   "_date": "2026-11-09",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9309,13 +9309,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-08 22:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-08 22:50",
    "ok": true,
    "n": 0,
@@ -9583,6 +9576,13 @@
   },
   {
    "t": "11-09 04:59",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 05:03",
    "ok": true,
    "n": 0,
    "ids": [],
