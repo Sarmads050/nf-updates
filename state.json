@@ -1,6 +1,5 @@
 {
  "seen": {
-  "9c5cea25321b955f": 1793583094.4902513,
   "0a0b955d73165e5c": 1793586104.428008,
   "4e6fa3adb0f2238e": 1793586128.3440475,
   "a4f523086c9ca343": 1793586128.3440506,
@@ -1719,7 +1718,11 @@
   "277386de5e9bf07e": 1794185472.0171678,
   "555793ea423c81ad": 1794185481.996147,
   "2d3e50effa2969d4": 1794185481.9963377,
-  "bc4e718b8ca50541": 1794187870.6645036
+  "bc4e718b8ca50541": 1794187870.6645036,
+  "ef11f1adf76f0130": 1794188473.471727,
+  "ab55bc8efa6896e6": 1794188473.471729,
+  "3a7af1f61f85d6fa": 1794188473.4717302,
+  "d0c6bae5da0c77f9": 1794188473.471892
  },
  "pending": {},
  "queue": [],
@@ -2411,11 +2414,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-09 06:31",
+  "time": "2026-11-09 06:41",
   "items": 10,
   "sample": [
    "Bangladesh 386/10 v West Indies 345/3 & 356/10 *",
-   "Afghanistan 514/10 v Zimbabwe 504/10 & 164/3 *",
+   "Afghanistan 514/10 v Zimbabwe 164/3 & 504/10 *",
    "New Zealand A 36/2 * v India A 464/5"
   ]
  },
@@ -4839,56 +4842,8 @@
   "last": 1794182576.8763013
  },
  "trends": {
-  "last": 1794177057.6873736,
+  "last": 1794188459.010799,
   "terms": [
-   {
-    "term": "athletic vs real sociedad",
-    "traffic": 100,
-    "news": "Resumen y goles del Levante vs. Atlético de Madrid, jornada 11 de LaLiga EA Sports",
-    "t": 1793573467,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "west indies a vs england lions",
-    "traffic": 500,
-    "news": "160-6 to 346: India A captain lifts team against New Zealand A with maiden first-class hundred outside Asia",
-    "t": 1793573467,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "cmk 100 casio",
-    "traffic": 200,
-    "news": "Casio Launches CMK-100 Mechanical Timepiece With Made-in-Japan Automatic Movement",
-    "t": 1793573467,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "f1",
-    "traffic": 1000,
-    "news": "Licensable picture: F1 2026: Gran Premio De La Ciudad De Mexico",
-    "t": 1793573467,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "mexico gp",
-    "traffic": 200,
-    "news": "Franco Colapinto terminó octavo en el Gran Premio de la Ciudad de México",
-    "t": 1793573467,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "sonakshi sinha",
-    "traffic": 100,
-    "news": "Ankit Gupta Makes Big-Screen Debut With Tu Hai Meri Kiran",
-    "t": 1793573467,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "sri lanka pakistan cricket match",
     "traffic": 200,
@@ -7888,15 +7843,39 @@
     "t": 1794177058,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "jensen huang",
+    "traffic": 200,
+    "news": "Nvidia probes whether CEO Huang was target of foreign spying as he admits affair",
+    "t": 1794188459,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "barcelona vs atlético madrid",
+    "traffic": 200,
+    "news": "El reto de Joan García contra el Atlético",
+    "t": 1794188459,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "barca vs",
+    "traffic": 500,
+    "news": "Calendario de fútbol europeo: Barça vs Atlético de Madrid",
+    "t": 1794188459,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-09",
-  "ok": 61,
-  "fail": 96,
-  "limit": 96
+  "ok": 65,
+  "fail": 104,
+  "limit": 104
  },
  "posted_heads": [
   {
@@ -8221,7 +8200,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-09 06:31",
+  "time": "2026-11-09 06:41",
   "steps": []
  },
  "roundup_am": "2026-11-08",
@@ -8324,12 +8303,12 @@
  },
  "article_diag": {
   "date": "2026-11-09",
-  "tried": 7,
-  "decoded": 7,
-  "text": 7,
-  "story": 6
+  "tried": 8,
+  "decoded": 8,
+  "text": 8,
+  "story": 7
  },
- "ai_last_error": "06:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-09",
   "models": [
@@ -8371,7 +8350,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-09",
-   "ok": 41,
+   "ok": 42,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8379,7 +8358,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-09",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8387,7 +8366,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-09",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8395,7 +8374,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8403,7 +8382,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8411,14 +8390,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8427,9 +8406,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-09",
    "ok": 0,
-   "fail": 42,
+   "fail": 43,
    "items": 15,
-   "fail_streak": 688,
+   "fail_streak": 689,
    "last_status": 404
   }
  },
@@ -8679,8 +8658,8 @@
   "date": "2026-11-09",
   "count": 1,
   "last": 1794167464.8191156,
-  "city_i": 20,
-  "dry": 1794187867.0608008
+  "city_i": 24,
+  "dry": 1794188469.7928634
  },
  "gemini_day_dead": {
   "day": "2026-11-08",
@@ -9317,13 +9296,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-09 00:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-09 00:30",
    "ok": true,
    "n": 0,
@@ -9591,6 +9563,13 @@
   },
   {
    "t": "11-09 06:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 06:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13808,11 +13787,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-06 20:11",
-   "new": "عوام لاءِ معاشي طور جيئڻ ڏکيو ٿي ويو آهي: بلاول ڀٽو",
-   "old": "غربت ۽ بيروزگاري تڪڙي ختم نه ٿيندي: بلاول ڀٽو"
-  },
-  {
    "t": "11-07 01:42",
    "new": "سون جي قيمت ۾ وڏي لاٿ",
    "old": "شام جون سنڌ جون اهم خبرون"
@@ -13956,6 +13930,11 @@
    "t": "11-09 01:51",
    "new": "وزيراعظم پاران نوجوانن لاءِ قرض جي حد وڌائڻ جو اعلان",
    "old": "سنڌ | نوجوانن جي لاءِ قرضن جي حد ۾ واڌ"
+  },
+  {
+   "t": "11-09 06:41",
+   "new": "پيٽرول اگهن ۽ مهانگائي بابت اهم خبر",
+   "old": "پيٽرول سستو، پر مهانگائي برقرار"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13976,6 +13955,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 1
- }
+  "repeat": 2
+ },
+ "_dup": true
 }
