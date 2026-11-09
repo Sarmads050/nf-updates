@@ -81,7 +81,7 @@
      "urdu": "امی، میں جوان ہوں۔ مجھے سردی نہیں لگتی!",
      "how": "17-year-old boy showing off, chest out, slightly shivering",
      "pose": "chest",
-     "shot": "close",
+     "shot": "close:ARSALAN",
      "looks": {
       "AMMI": "ARSALAN",
       "MEHAK": "ARSALAN"
@@ -164,6 +164,11 @@
      "shot": "wide",
      "gap": 0.1,
      "before": [
+      {
+       "do": "prop",
+       "who": "ARSALAN",
+       "prop": null
+      },
       {
        "do": "sleep",
        "who": "ARSALAN"
@@ -259,7 +264,7 @@
       {
        "do": "enter",
        "who": "AMMI",
-       "slot": "stand_c"
+       "slot": "stand_l"
       },
       {
        "do": "prop",
