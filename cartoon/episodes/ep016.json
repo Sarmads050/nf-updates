@@ -1,0 +1,491 @@
+{
+ "id": "ep016",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 16,
+ "title": "Zukam Ya Drama?",
+ "topic": "First cold windy evening - Arsalan plays cricket without a sweater, catches a light cold, over-acts to skip tomorrow's test; Ammi's ilaaj list (joshanda, no phone, no cricket) cures him instantly",
+ "music": "comic",
+ "tempo": 1.1,
+ "lesson": "Sardi mein sweater pehno...<br>aur bahane mat banao!",
+ "caption": "Pehli thandi hawa, bina sweater ka cricket... aur subah \"main bohot beemar hoon\"! 🤧😂 Ammi ke ilaaj ki list sun kar zukam khud bhaag gaya! Aap ke ghar mein test se pehle kaun beemar hota hai? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#ZukamYaDrama",
+  "#PakistaniFamily",
+  "#UrduCartoon",
+  "#DesiAmmi"
+ ],
+ "scenes": [
+  {
+   "set": "aangan",
+   "time": "evening",
+   "label": "Aangan • Shaam",
+   "cast": {
+    "AMMI": "charpai_l",
+    "MEHAK": "charpai_r"
+   },
+   "props": {},
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Nawabshah mein aaj shaam *thandi tez hawa* chal rahi hai... aur Arsalan *bina sweater* ke cricket khel kar aa raha hai!",
+     "urdu": "نواب شاہ میں آج شام ٹھنڈی تیز ہوا چل رہی ہے... اور ارسلان بنا سویٹر کے کرکٹ کھیل کر آ رہا ہے!",
+     "how": "warm storyteller, a bit shivery and funny",
+     "shot": "wide",
+     "sfx": [
+      "whoosh"
+     ],
+     "gap": 0.1,
+     "after": [
+      {
+       "do": "enter",
+       "who": "ARSALAN",
+       "slot": "stand_r"
+      },
+      {
+       "do": "prop",
+       "who": "ARSALAN",
+       "prop": "bat"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      }
+     ]
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "angry",
+     "roman": "Arsalan! Itni *thand* mein tumhara *sweater* kahan hai?",
+     "urdu": "ارسلان! اتنی ٹھنڈ میں تمہارا سویٹر کہاں ہے؟",
+     "how": "50-year-old Sindhi mother, scolding but worried",
+     "pose": "wag",
+     "shot": "close",
+     "looks": {
+      "ARSALAN": "AMMI",
+      "MEHAK": "ARSALAN"
+     },
+     "react": {
+      "ARSALAN": "sheepish"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "proud",
+     "roman": "Ammi, main *jawan* hoon. Mujhe *sardi nahi* lagti!",
+     "urdu": "امی، میں جوان ہوں۔ مجھے سردی نہیں لگتی!",
+     "how": "17-year-old boy showing off, chest out, slightly shivering",
+     "pose": "chest",
+     "shot": "close",
+     "looks": {
+      "AMMI": "ARSALAN",
+      "MEHAK": "ARSALAN"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "roman": "Haan, bilkul jawan hain. Bas *daant* kat-kat baj rahe hain!",
+     "urdu": "ہاں، بالکل جوان ہیں۔ بس دانت کٹ کٹ بج رہے ہیں!",
+     "how": "14-year-old cheeky sister, giggling",
+     "pose": "point_other",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.4,
+     "looks": {
+      "AMMI": "ARSALAN"
+     },
+     "react": {
+      "AMMI": "laugh",
+      "ARSALAN": "sheepish"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "front",
+     "emo": "surprised",
+     "roman": "*Aachoo!*",
+     "urdu": "آچھو!",
+     "how": "one big loud sneeze, surprised at himself",
+     "pose": "facepalm",
+     "shot": "punch",
+     "sfx": [
+      "whoosh"
+     ],
+     "joke": true,
+     "gap": 0.5,
+     "react": {
+      "MEHAK": "laugh",
+      "AMMI": "worried"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "worried",
+     "roman": "Lo, aa gaya *zukam!* *Adrak wali chai* piyo aur jaldi so jao.",
+     "urdu": "لو، آ گیا زکام! ادرک والی چائے پیو اور جلدی سو جاؤ۔",
+     "how": "loving mother, half scolding, half caring",
+     "pose": "explain",
+     "shot": "group",
+     "gap": 0.4,
+     "looks": {
+      "ARSALAN": "AMMI",
+      "MEHAK": "AMMI"
+     },
+     "react": {
+      "ARSALAN": "sheepish"
+     }
+    }
+   ]
+  },
+  {
+   "set": "bedroom",
+   "time": "day",
+   "label": "Arsalan Ka Kamra • Agli Subah",
+   "cast": {
+    "ARSALAN": "bed"
+   },
+   "props": {},
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Agli subah *chutti* ka din hai... aur kal Arsalan ka *Chemistry ka test* hai.",
+     "urdu": "اگلی صبح چھٹی کا دن ہے... اور کل ارسلان کا کیمسٹری کا ٹیسٹ ہے۔",
+     "how": "storyteller, knowing and playful",
+     "shot": "wide",
+     "gap": 0.1,
+     "before": [
+      {
+       "do": "sleep",
+       "who": "ARSALAN"
+      }
+     ]
+    },
+    {
+     "who": "MEHAK",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "roman": "Arsalan bhai, utho! *Das baj gaye* hain. Kal ke *test* ki tayyari nahi karni?",
+     "urdu": "ارسلان بھائی، اٹھو! دس بج گئے ہیں۔ کل کے ٹیسٹ کی تیاری نہیں کرنی؟",
+     "how": "sister waking her brother, loud and bossy",
+     "pose": "beckon",
+     "shot": "wide",
+     "before": [
+      {
+       "do": "enter",
+       "who": "MEHAK",
+       "slot": "stand_r"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      }
+     ]
+    },
+    {
+     "who": "ARSALAN",
+     "to": "MEHAK",
+     "emo": "tired",
+     "roman": "*Aachoo!* Haaye mera sar... Mehak, main *bohot beemar* hoon.",
+     "urdu": "آچھو! ہائے میرا سر... مہک، میں بہت بیمار ہوں۔",
+     "how": "fake weak dying voice, over-acting, a dramatic fake sneeze first",
+     "pose": "head_hold",
+     "shot": "two",
+     "before": [
+      {
+       "do": "wake",
+       "who": "ARSALAN",
+       "dur": 0.8
+      }
+     ],
+     "looks": {
+      "MEHAK": "ARSALAN"
+     },
+     "react": {
+      "MEHAK": "confused"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "roman": "Kal tak to aap *jawan* the, aur *sardi* bhi nahi lagti thi!",
+     "urdu": "کل تک تو آپ جوان تھے، اور سردی بھی نہیں لگتی تھی!",
+     "how": "sister teasing, arms crossed, smirking",
+     "pose": "cross",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.4,
+     "looks": {
+      "ARSALAN": "MEHAK"
+     },
+     "react": {
+      "ARSALAN": "sheepish"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "door",
+     "emo": "sad",
+     "roman": "*Ammi!* Is halat mein main kal *test* kaise doon ga?",
+     "urdu": "امی! اس حالت میں میں کل ٹیسٹ کیسے دوں گا؟",
+     "how": "calling loudly to mother in another room, then whiny and weak",
+     "pose": "plead",
+     "shot": "close",
+     "looks": {
+      "MEHAK": "ARSALAN"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "warm",
+     "roman": "Fikar na karo beta. Main *poora ilaaj* le kar aayi hoon!",
+     "urdu": "فکر نہ کرو بیٹا۔ میں پورا علاج لے کر آئی ہوں!",
+     "how": "mother entering with tea, confident, a little mischievous",
+     "pose": "hold",
+     "shot": "group",
+     "before": [
+      {
+       "do": "enter",
+       "who": "AMMI",
+       "slot": "stand_c"
+      },
+      {
+       "do": "prop",
+       "who": "AMMI",
+       "prop": "cup"
+      }
+     ],
+     "looks": {
+      "ARSALAN": "AMMI",
+      "MEHAK": "AMMI"
+     },
+     "react": {
+      "ARSALAN": "happy"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "focused",
+     "roman": "Pehle *adrak shehad* wali chai, phir *bhaap*... aur phir *kadwa joshanda!*",
+     "urdu": "پہلے ادرک شہد والی چائے، پھر بھاپ... اور پھر کڑوا جوشاندہ!",
+     "how": "mother counting her home remedies, slow and serious, last word heavy",
+     "pose": "explain",
+     "shot": "close",
+     "looks": {
+      "ARSALAN": "AMMI"
+     },
+     "react": {
+      "ARSALAN": "worried"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "teasing",
+     "roman": "Aur Ammi, *phone* bhi band! Beemar log *game* nahi khelte.",
+     "urdu": "اور امی، فون بھی بند! بیمار لوگ گیم نہیں کھیلتے۔",
+     "how": "sister adding to the punishment, sweet but sneaky",
+     "pose": "point_up",
+     "looks": {
+      "AMMI": "MEHAK",
+      "ARSALAN": "MEHAK"
+     },
+     "react": {
+      "ARSALAN": "surprised"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "calm",
+     "roman": "Bilkul! Aur poora hafta *cricket* bhi band. Sirf *aaraam!*",
+     "urdu": "بالکل! اور پورا ہفتہ کرکٹ بھی بند۔ صرف آرام!",
+     "how": "mother agreeing firmly, calm",
+     "pose": "wag",
+     "looks": {
+      "ARSALAN": "AMMI",
+      "MEHAK": "AMMI"
+     },
+     "react": {
+      "ARSALAN": "surprised"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Nahi nahi! Ammi, main to *bilkul theek* hoon! *Dekhein!*",
+     "urdu": "نہیں نہیں! امی، میں تو بالکل ٹھیک ہوں! دیکھیں!",
+     "how": "suddenly healthy, fast and energetic, nervous laugh",
+     "pose": "arms_up",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "MEHAK": "laugh",
+      "AMMI": "laugh"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "day",
+   "label": "Drawing Room • Dopahar",
+   "cast": {
+    "AMMI": "sofa_l",
+    "SANA": "sofa_c",
+    "MEHAK": "sofa_r",
+    "HAMZA": "floor_l"
+   },
+   "props": {},
+   "lines": [
+    {
+     "who": "SANA",
+     "to": "AMMI",
+     "emo": "teasing",
+     "roman": "Ammi, suna hai aaj subah *Arsalan* bohot *beemar* tha?",
+     "urdu": "امی، سنا ہے آج صبح ارسلان بہت بیمار تھا؟",
+     "how": "25-year-old bhabi, polite, smiling, already knows the story",
+     "pose": "explain",
+     "shot": "two:AMMI",
+     "looks": {
+      "AMMI": "SANA",
+      "MEHAK": "SANA"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "SANA",
+     "emo": "laugh",
+     "roman": "Tha! Phir maine *joshanda* ka naam liya... aur woh *ek minute* mein theek ho gaya!",
+     "urdu": "تھا! پھر میں نے جوشاندے کا نام لیا... اور وہ ایک منٹ میں ٹھیک ہو گیا!",
+     "how": "mother laughing while telling, proud of her trick",
+     "pose": "shrug",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.4,
+     "looks": {
+      "SANA": "AMMI",
+      "MEHAK": "AMMI"
+     },
+     "react": {
+      "SANA": "laugh",
+      "MEHAK": "laugh"
+     }
+    },
+    {
+     "who": "HAMZA",
+     "to": "front",
+     "emo": "laugh",
+     "roman": "*Aachoo!* Aachoo!",
+     "urdu": "آچھو! آچھو!",
+     "how": "2-year-old toddler copying a sneeze for fun, cute and giggly",
+     "pose": "arms_up",
+     "shot": "group",
+     "sfx": [
+      "baby_giggle"
+     ],
+     "joke": true,
+     "gap": 0.5,
+     "looks": {
+      "AMMI": "HAMZA",
+      "SANA": "HAMZA",
+      "MEHAK": "HAMZA"
+     },
+     "react": {
+      "*": "surprised"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "HAMZA",
+     "emo": "laugh",
+     "roman": "Dekho! Hamza bhi *Arsalan bhai* ki tarah *nakli chheenk* maar raha hai!",
+     "urdu": "دیکھو! حمزہ بھی ارسلان بھائی کی طرح نقلی چھینک مار رہا ہے!",
+     "how": "sister laughing, pointing at the baby",
+     "pose": "point_down",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.4,
+     "react": {
+      "AMMI": "laugh",
+      "SANA": "laugh"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "MEHAK",
+     "emo": "sheepish",
+     "roman": "Achha baba, *maan liya*. Zukam halka tha, *drama* maine zyada kiya.",
+     "urdu": "اچھا بابا، مان لیا۔ زکام ہلکا تھا، ڈرامہ میں نے زیادہ کیا۔",
+     "how": "boy entering with a book, embarrassed, admitting with a smile",
+     "pose": "scratch_head",
+     "shot": "close",
+     "before": [
+      {
+       "do": "enter",
+       "who": "ARSALAN",
+       "slot": "stand_r"
+      },
+      {
+       "do": "prop",
+       "who": "ARSALAN",
+       "prop": "book"
+      }
+     ],
+     "looks": {
+      "MEHAK": "ARSALAN",
+      "AMMI": "ARSALAN",
+      "SANA": "ARSALAN"
+     },
+     "react": {
+      "AMMI": "warm"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "ARSALAN",
+     "emo": "warm",
+     "roman": "Halka zukam ho to *garam kapre* aur *aaraam*. Zyada ho to *doctor* ke paas jao.",
+     "urdu": "ہلکا زکام ہو تو گرم کپڑے اور آرام۔ زیادہ ہو تو ڈاکٹر کے پاس جاؤ۔",
+     "how": "educated sister-in-law, kind sensible advice, gentle",
+     "pose": "explain",
+     "shot": "close",
+     "looks": {
+      "ARSALAN": "SANA",
+      "AMMI": "SANA"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "SANA",
+     "emo": "laugh",
+     "roman": "Ji Bhabi! Kal *sweater* pehen kar test doon ga... bas *joshanda nahi!*",
+     "urdu": "جی بھابی! کل سویٹر پہن کر ٹیسٹ دوں گا... بس جوشاندہ نہیں!",
+     "how": "boy laughing, promising, last words pleading and funny",
+     "pose": "plead",
+     "shot": "group",
+     "joke": true,
+     "gap": 0.8,
+     "react": {
+      "*": "laugh"
+     }
+    }
+   ]
+  }
+ ]
+}
