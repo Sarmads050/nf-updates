@@ -1,10 +1,5 @@
 {
  "seen": {
-  "d474a674448faf2a": 1793628071.4342105,
-  "283b16a14ca1fc5d": 1793628071.434398,
-  "a0f1185e802caaa5": 1793628071.434426,
-  "929fcd7c9ec7cbb6": 1793628071.4344478,
-  "14dd75ab7c4ecc80": 1793628071.434473,
   "ca076bdf22345345": 1793628660.5371828,
   "c647cfec4b8e55d7": 1793628660.5374932,
   "c856bac27bb59f3e": 1793628674.0059469,
@@ -1688,7 +1683,8 @@
   "f06030fff771f99e": 1794226344.3303075,
   "fea54a50c0e149e9": 1794228080.8992205,
   "eddd19bd554ddb35": 1794229870.5393736,
-  "9a3904a5ef0c3653": 1794231073.0427027
+  "9a3904a5ef0c3653": 1794231073.0427027,
+  "2993556c6750cf2c": 1794233465.6011426
  },
  "pending": {},
  "queue": [],
@@ -2352,18 +2348,18 @@
    },
    "wicket_posts": 4,
    "break_done": false,
-   "last_edit": 1794233206.0929823,
+   "last_edit": 1794233769.6858876,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-09 19:06",
+  "time": "2026-11-09 19:16",
   "items": 12,
   "sample": [
-   "Bangladesh 184/4 & 386/9 * v West Indies 356/10 & 398/6",
-   "Afghanistan 514/10 v Zimbabwe 504/10 & 523/5 *",
+   "Bangladesh 386/9 & 184/4 * v West Indies 356/10 & 398/6",
+   "Afghanistan 514/10 v Zimbabwe 523/5 & 504/10 *",
    "New Zealand A 36/2 * v India A 464/5"
   ]
  },
@@ -7906,7 +7902,7 @@
  },
  "ai_usage": {
   "date": "2026-11-09",
-  "ok": 335,
+  "ok": 336,
   "fail": 477,
   "limit": 482
  },
@@ -8241,7 +8237,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-09 19:06",
+  "time": "2026-11-09 19:16",
   "steps": []
  },
  "roundup_am": "2026-11-09",
@@ -8391,15 +8387,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-09",
-   "ok": 111,
+   "ok": 112,
    "fail": 6,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-09",
-   "ok": 117,
+   "ok": 118,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8407,7 +8403,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-09",
-   "ok": 117,
+   "ok": 118,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8415,7 +8411,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 117,
+   "ok": 118,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8423,7 +8419,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 117,
+   "ok": 118,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8431,14 +8427,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 117,
+   "ok": 118,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 116,
+   "ok": 117,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8447,9 +8443,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-09",
    "ok": 0,
-   "fail": 117,
+   "fail": 118,
    "items": 15,
-   "fail_streak": 763,
+   "fail_streak": 764,
    "last_status": 404
   }
  },
@@ -8457,7 +8453,7 @@
   "last": "2026-11-06",
   "idx": 3
  },
- "ai_last_model": "google/gemma-4-26b-a4b-it:free",
+ "ai_last_model": "google/gemma-4-31b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -9045,8 +9041,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9089,9 +9085,9 @@
  "sindh_stream": {
   "date": "2026-11-09",
   "count": 12,
-  "last": 1794231666.2647188,
-  "city_i": 6,
-  "dry": 1794217260.2508142
+  "last": 1794233462.783406,
+  "city_i": 10,
+  "dry": 1794233465.601145
  },
  "gemini_day_dead": {
   "day": "2026-11-09",
@@ -10026,20 +10022,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-09 15:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-09 15:56",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-09 16:00",
    "ok": true,
    "n": 0,
@@ -10300,6 +10282,20 @@
   },
   {
    "t": "11-09 19:06",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 19:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 19:16",
    "ok": true,
    "n": 0,
    "ids": [],
