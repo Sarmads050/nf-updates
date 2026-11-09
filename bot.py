@@ -1675,6 +1675,13 @@ def fb_post(message, link=None, photo=None, video=None, count=True, card=True, c
             tg_send("⚠️ Ek khabar mein AI ne ghalat huroof likhe the, is liye post NAHI ki:\n\n" + message[:600])
             return True  # queue se hata do, page par ghalat post na jaye
         message = fixed
+    if count and not DRY_RUN:
+        try:
+            extra = search_line(message)
+            if extra:
+                message = f"{message.rstrip()}\n{extra}"
+        except Exception as e:
+            log("search line error:", e)
     orig_link = link
     if CONFIG.get("news_cards", True):
         if card and not photo and not video:
@@ -1704,6 +1711,41 @@ def fb_post(message, link=None, photo=None, video=None, count=True, card=True, c
         except Exception as e:
             log("telegram channel error:", e)
     return ok
+
+
+SEARCH_TAG = "#NaushahroFerozeNews"
+
+
+def search_line(message):
+    """Facebook search ke liye post ke aakhir mein Roman Urdu/English mein chhota khulasa.
+    Line '#' se shuru hoti hai, is liye card/reel/edit wale hisse ise footer samajh kar chhor dete hain.
+    AI na mile ya jawab theek na ho to khali (post waisi hi jaati hai)."""
+    cfg = CONFIG.get("search_line", {})
+    if not cfg.get("enabled", True) or SEARCH_TAG + " |" in message:
+        return ""
+    body = "\n".join(l for l in message.splitlines() if l.strip() and not l.strip().startswith(_TAIL))
+    if len(re.findall(r"[\u0600-\u06FF]", body)) < cfg.get("min_chars", 60):
+        return ""
+    prompt = ("Below is a local news post from Naushahro Feroze, Sindh, Pakistan, written in Arabic script. "
+              "Write ONE short line (8-16 words) summarising the news in simple Roman Urdu (Urdu written in English "
+              "letters), so people can find it in Facebook search. Start with the main place name in common English "
+              "spelling (e.g. Naushahro Feroze, Padidan, Moro, Kandiaro, Bhiria, Mehrabpur, Karachi, Sindh, Pakistan) "
+              "followed by a colon. Only facts that are in the post, neutral tone, no opinion, no emoji, no hashtag, "
+              "no phone numbers, no full stop at the end.\nReturn JSON: {\"line\": string}\n\n" + body[:1500])
+    out = None
+    for fn in ((lambda: _ask_groq(prompt)) if GROQ_KEY else None,
+               (lambda: ask_openrouter(prompt)) if OPENROUTER_KEY else None):
+        if fn:
+            out = fn()
+            if isinstance(out, dict) and str(out.get("line", "")).strip():
+                break
+    line = re.sub(r"\s+", " ", str((out or {}).get("line", "") if isinstance(out, dict) else "")).strip()
+    line = line.strip(" .\"'#").replace("#", "")
+    if not (15 <= len(line) <= 160) or re.search(r"[^\x20-\x7E]", line) or re.search(r"\d{7,}", line):
+        return ""  # sirf saaf English/Roman harf; lamba/ajeeb jawab nahi
+    if blocked_reason(line):
+        return ""
+    return f"{SEARCH_TAG} | {line}"
 
 
 def fix_script(text):
