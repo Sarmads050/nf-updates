@@ -1712,7 +1712,8 @@
   "77fe13596a45857e": 1794196274.491898,
   "f662cf70144b341e": 1794196274.4920764,
   "5b9a68cdafdd56d5": 1794196881.3207912,
-  "83576bee643caa5a": 1794196881.3209963
+  "83576bee643caa5a": 1794196881.3209963,
+  "97eb301b80c07147": 1794198067.6190429
  },
  "pending": {},
  "queue": [],
@@ -1834,20 +1835,8 @@
    "d475457efb066202"
   ]
  },
- "last_post_id": "1444130002106066_122119032873503839",
+ "last_post_id": "1444130002106066_122119037865503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122118772845503839",
-   "title": "اوٻاوڙو ۾ ڊي ايس پي هائوس اندر پوليس اهلڪار جو لاش",
-   "t": 1794123079.3674648,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122118772845503839"
-  },
   {
    "id": "1444130002106066_122118783555503839",
    "title": "ملير: سرعام هٿيارن جي نمائش تي 3 سيڪيورٽي گارڊ گرفتار",
@@ -2150,6 +2139,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122119032873503839"
+  },
+  {
+   "id": "1444130002106066_122119037865503839",
+   "title": "پاڪستان ۽ سری لنڪا وچ ۾ پهرئين ٽيسٽ ميچ جو ٽاس سری لنڪا کتي پهرين بيٽنگ ڪرڻ جو فيصلو ڪيو",
+   "t": 1794198204.12032,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122119037865503839"
   }
  ],
  "share_sent": {
@@ -2280,8 +2278,8 @@
  },
  "cricket_news": {
   "date": "2026-11-09",
-  "count": 1,
-  "last": 1794171737.944269
+  "count": 2,
+  "last": 1794198204.1203032
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -2369,10 +2367,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-09 09:11",
+  "time": "2026-11-09 09:23",
   "items": 10,
   "sample": [
-   "Bangladesh 386/10 v West Indies 356/10 & 375/6 *",
+   "Bangladesh 386/10 v West Indies 398/6 & 356/10 *",
    "Afghanistan 514/10 v Zimbabwe 164/3 & 504/10 *",
    "New Zealand A 36/2 * v India A 464/5"
   ]
@@ -2384,17 +2382,11 @@
  },
  "all_posts": {
   "date": "2026-11-09",
-  "count": 12,
-  "last": 1794196920.363906
+  "count": 13,
+  "last": 1794198197.7686477
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122115203457503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793260292
-   },
    {
     "id": "1444130002106066_122115209961503839",
     "sec": "sindh_stream",
@@ -4788,6 +4780,12 @@
     "sec": "public_news",
     "cat": "transport_trade",
     "t": 1794196928
+   },
+   {
+    "id": "1444130002106066_122119037865503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1794198204
    }
   ]
  },
@@ -7828,15 +7826,11 @@
  },
  "ai_usage": {
   "date": "2026-11-09",
-  "ok": 122,
-  "fail": 200,
-  "limit": 200
+  "ok": 132,
+  "fail": 215,
+  "limit": 213
  },
  "posted_heads": [
-  {
-   "h": "جمھوري حڪومت ۾ ويچاري پارليامينٽ!",
-   "t": 1793986888
-  },
   {
    "h": "اڻڄاتل نمبر تان فون ڪال؟ واٽس ايپ ۾ رونگ نمبر جي سڃاڻپ جو نئون فيچر متعارف",
    "t": 1793989407
@@ -8152,10 +8146,14 @@
   {
    "h": "Pakistan’s export problem begins at home",
    "t": 1794196928
+  },
+  {
+   "h": "First Test: Sri Lanka win toss, elect to bowl first against Pakistan",
+   "t": 1794198204
   }
  ],
  "last_errors": {
-  "time": "2026-11-09 09:11",
+  "time": "2026-11-09 09:23",
   "steps": []
  },
  "roundup_am": "2026-11-09",
@@ -8258,12 +8256,12 @@
  },
  "article_diag": {
   "date": "2026-11-09",
-  "tried": 13,
-  "decoded": 13,
-  "text": 13,
+  "tried": 14,
+  "decoded": 14,
+  "text": 14,
   "story": 12
  },
- "ai_last_error": "09:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "09:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-09",
   "models": [
@@ -8277,13 +8275,13 @@
  },
  "img_diag": {
   "date": "2026-11-09",
-  "tried": 12,
+  "tried": 13,
   "gemini": 0,
   "pollinations": 7,
   "skip": 1,
   "fail": 0,
-  "last_note": "agricultural superseder machine",
-  "mismatch": 536,
+  "last_note": "cricket bat and ball",
+  "mismatch": 539,
   "unverified": 1
  },
  "gemini_img": {
@@ -8305,7 +8303,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-09",
-   "ok": 56,
+   "ok": 57,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8313,7 +8311,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-09",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8321,7 +8319,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-09",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8329,7 +8327,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8337,7 +8335,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8345,14 +8343,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-09",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-09",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8361,9 +8359,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-09",
    "ok": 0,
-   "fail": 58,
+   "fail": 59,
    "items": 15,
-   "fail_streak": 704,
+   "fail_streak": 705,
    "last_status": 404
   }
  },
@@ -8564,10 +8562,10 @@
   "date": "2026-11-09",
   "district": 0,
   "sindh": 2,
-  "pakistan": 9
+  "pakistan": 10
  },
  "report_acc": {
-  "posted": 0,
+  "posted": 1,
   "found": 0,
   "old": 0,
   "irrelevant": 0,
@@ -8613,8 +8611,8 @@
   "date": "2026-11-09",
   "count": 1,
   "last": 1794167464.8191156,
-  "city_i": 20,
-  "dry": 1794197470.2288911
+  "city_i": 24,
+  "dry": 1794198059.171677
  },
  "gemini_day_dead": {
   "day": "2026-11-08",
@@ -9237,6 +9235,14 @@
    "t": 1794196928,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "a380213e8000f106",
+   "h": "پهريون ٽيسٽ ميچ: سری لنڪا جو بيٽنگ جو فيصلو",
+   "x": "پاڪستان ۽ سری لنڪا وچ ۾ پهرئين ٽيسٽ ميچ جو ٽاس سری لنڪا کتي پهرين بيٽنگ ڪرڻ جو فيصلو ڪيو آهي.",
+   "t": 1794198204,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9252,13 +9258,6 @@
   "last": 1794134472.959008
  },
  "tg_debug": [
-  {
-   "t": "11-09 02:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-09 03:00",
    "ok": true,
@@ -9527,6 +9526,13 @@
   },
   {
    "t": "11-09 09:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-09 09:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13722,6 +13728,36 @@
     "ڪان",
     "گهر",
     "گهڻيون"
+   ]
+  },
+  {
+   "t": 1794198204,
+   "h": "پهريون ٽيسٽ ميچ: سری لنڪا جو بيٽنگ جو فيصلو",
+   "b": "پاڪستان ۽ سری لنڪا وچ ۾ پهرئين ٽيسٽ ميچ جو ٽاس سری لنڪا کتي پهرين بيٽنگ ڪرڻ جو فيصلو ڪيو آهي.",
+   "tt": [
+    "بيٽنگ",
+    "سري",
+    "فيصلو",
+    "لنڪا",
+    "ميچ",
+    "ٽيسٽ",
+    "پهريون"
+   ],
+   "bt": [
+    "اهي",
+    "بيٽنگ",
+    "سري",
+    "فيصلو",
+    "لنڪا",
+    "ميچ",
+    "ٽاس",
+    "ٽيسٽ",
+    "پاڪستان",
+    "پهرئين",
+    "پهرين",
+    "پهريون",
+    "ڪتي",
+    "ڪرڻ"
    ]
   }
  ],
