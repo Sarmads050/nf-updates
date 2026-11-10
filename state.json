@@ -1612,7 +1612,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-09",
-  "count": 3
+  "count": 4
  },
  "last_digest": "2026-11-09",
  "alert_day": "2026-10-20",
@@ -1668,7 +1668,7 @@
    "محراب پور ۾ سرڪاري اسپتال جي گيٽ ڀرسان عورت ٻار کي جنم ڏنو، ليڊي ڊاڪٽرياڻي تي غفلت جو الزام"
   ]
  },
- "last_daily": "2026-11-09",
+ "last_daily": "2026-11-10",
  "roundup_pm": "2026-11-09",
  "replied": [],
  "q_index": 4,
@@ -1727,7 +1727,7 @@
    "f305689e64ea8628"
   ]
  },
- "last_post_id": "1444130002106066_122119438791503839",
+ "last_post_id": "1444130002106066_122119440669503839",
  "shareable": [
   {
    "id": "1444130002106066_122119079553503839",
@@ -2268,14 +2268,14 @@
    },
    "wicket_posts": 4,
    "break_done": false,
-   "last_edit": 1794275818.5584488,
+   "last_edit": 1794276504.543543,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-10 06:56",
+  "time": "2026-11-10 07:08",
   "items": 10,
   "sample": [
    "New Zealand A 36/2 * v India A 464/5",
@@ -2290,8 +2290,8 @@
  },
  "all_posts": {
   "date": "2026-11-10",
-  "count": 8,
-  "last": 1794275506.2014568
+  "count": 9,
+  "last": 1794276199.6588411
  },
  "perf": {
   "posts": [
@@ -7750,9 +7750,9 @@
  },
  "ai_usage": {
   "date": "2026-11-10",
-  "ok": 81,
-  "fail": 138,
-  "limit": 136
+  "ok": 84,
+  "fail": 140,
+  "limit": 138
  },
  "posted_heads": [
   {
@@ -8077,7 +8077,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-10 06:56",
+  "time": "2026-11-10 07:08",
   "steps": []
  },
  "roundup_am": "2026-11-09",
@@ -8185,7 +8185,7 @@
   "text": 9,
   "story": 6
  },
- "ai_last_error": "06:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "07:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-10",
   "models": [
@@ -8199,13 +8199,13 @@
  },
  "img_diag": {
   "date": "2026-11-10",
-  "tried": 8,
+  "tried": 9,
   "gemini": 0,
   "pollinations": 5,
   "skip": 1,
-  "fail": 0,
-  "last_note": "cricket bat and helmet",
-  "mismatch": 563,
+  "fail": 1,
+  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
+  "mismatch": 565,
   "unverified": 1
  },
  "gemini_img": {
@@ -8227,7 +8227,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-10",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8235,7 +8235,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-10",
-   "ok": 41,
+   "ok": 42,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8243,7 +8243,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-10",
-   "ok": 41,
+   "ok": 42,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8251,7 +8251,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8259,7 +8259,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8267,14 +8267,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8283,9 +8283,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-10",
    "ok": 0,
-   "fail": 43,
+   "fail": 44,
    "items": 15,
-   "fail_streak": 835,
+   "fail_streak": 836,
    "last_status": 404
   }
  },
@@ -8880,14 +8880,14 @@
   "pakistan": 6
  },
  "report_acc": {
-  "posted": 2,
-  "found": 13,
-  "old": 13,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-10 06",
+ "report_hour": "2026-11-10 07",
  "kawish_upload_times": {
   "_date": "2026-11-10",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9581,20 +9581,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-10 03:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-10 03:55",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-10 04:00",
    "ok": true,
    "n": 0,
@@ -9859,60 +9845,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-10 07:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-10 07:08",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-10",
  "recent_posts": [
-  {
-   "t": 1794103380,
-   "h": "نوشهروفيروز جو اڄ | 08-11-2026",
-   "b": "28 جُمادى الأولى 1448ھ نماز جا وقت: فجر 05:22 | ظهر 12:11 | عصر 16:04 مغرب 17:40 | عشا 19:00 سج اڀرڻ 06:42 اڄ",
-   "tt": [
-    "#11",
-    "#8",
-    "نوشهروفيروز"
-   ],
-   "bt": [
-    "#",
-    "#11",
-    "#12",
-    "#1448",
-    "#16",
-    "#17",
-    "#19",
-    "#22",
-    "#28",
-    "#37",
-    "#4",
-    "#40",
-    "#42",
-    "#5",
-    "#6",
-    "#8",
-    "1448ه",
-    "الاولى",
-    "اوهان",
-    "اڀرڻ",
-    "جمادى",
-    "سٺو",
-    "سڀني",
-    "ظهر",
-    "عشا",
-    "عصر",
-    "فجر",
-    "مغرب",
-    "موسم",
-    "نماز",
-    "نوشهروفيروز",
-    "وقت",
-    "ڏينهن",
-    "ڪجهه",
-    "ڪڪر",
-    "گذري",
-    "گرمي",
-    "گهٽ"
-   ]
-  },
   {
    "t": 1794104517,
    "h": "ڪڻڪ ۽ مڪئي جي واعدي واپار جو اعلان",
@@ -14342,6 +14292,57 @@
     "ڪرڪيٽ",
     "ڪيڏيل"
    ]
+  },
+  {
+   "t": 1794276199,
+   "h": "نوشهروفيروز جو اڄ | 10-11-2026",
+   "b": "30 جُمادى الأولى 1448ھ نماز جا وقت: فجر 05:24 | ظهر 12:11 | عصر 16:03 مغرب 17:39 | عشا 18:59 سج اڀرڻ 06:43 اڄ",
+   "tt": [
+    "#10",
+    "#11",
+    "نوشهروفيروز"
+   ],
+   "bt": [
+    "#10",
+    "#11",
+    "#12",
+    "#1448",
+    "#16",
+    "#17",
+    "#18",
+    "#21",
+    "#24",
+    "#3",
+    "#30",
+    "#36",
+    "#39",
+    "#43",
+    "#5",
+    "#59",
+    "#6",
+    "1448ه",
+    "الاولى",
+    "اوهان",
+    "اڀرڻ",
+    "جمادى",
+    "سٺو",
+    "سڀني",
+    "ظهر",
+    "عشا",
+    "عصر",
+    "فجر",
+    "مغرب",
+    "موسم",
+    "نماز",
+    "نوشهروفيروز",
+    "وقت",
+    "ڏينهن",
+    "ڪجهه",
+    "ڪڪر",
+    "گذري",
+    "گرمي",
+    "گهٽ"
+   ]
   }
  ],
  "repeat_log": [
@@ -14504,7 +14505,7 @@
  "approve_next": 1792771906.5617883,
  "approve_last": 1792771860.5720606,
  "groq_disc": {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "model": "openai/gpt-oss-120b"
  },
  "quality": {
