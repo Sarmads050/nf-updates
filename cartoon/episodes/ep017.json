@@ -38,7 +38,12 @@
      "urdu": "نواب شاہ میں شام ہوتے ہی اس گھر پر مچھروں کا حملہ شروع ہو جاتا ہے!",
      "how": "warm storyteller, dramatic and funny like a war report",
      "shot": "wide",
-     "gap": 0.1
+     "gap": 0.1,
+     "react_pose": {
+      "ABBA": "rest",
+      "DANIYAL": "rest",
+      "FARAZ": "rest"
+     }
     },
     {
      "who": "DANIYAL",
@@ -55,6 +60,10 @@
      },
      "react": {
       "FARAZ": "laugh"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "FARAZ": "rest"
      }
     },
     {
@@ -69,6 +78,10 @@
      "looks": {
       "DANIYAL": "ABBA",
       "FARAZ": "ABBA"
+     },
+     "react_pose": {
+      "DANIYAL": "rest",
+      "FARAZ": "rest"
      }
     },
     {
@@ -78,10 +91,14 @@
      "roman": "Abba, main is machhar ko *adalat* mein le kar jaoon ga!",
      "urdu": "ابا، میں اس مچھر کو عدالت میں لے کر جاؤں گا!",
      "how": "law student, very serious and proud, chest out",
-     "pose": "fist",
+     "pose": "chest",
      "looks": {
       "ABBA": "DANIYAL",
       "FARAZ": "DANIYAL"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "FARAZ": "rest"
      }
     },
     {
@@ -96,6 +113,10 @@
      "looks": {
       "DANIYAL": "ABBA",
       "FARAZ": "ABBA"
+     },
+     "react_pose": {
+      "DANIYAL": "rest",
+      "FARAZ": "rest"
      }
     },
     {
@@ -116,6 +137,10 @@
      "react": {
       "FARAZ": "laugh",
       "ABBA": "sheepish"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "FARAZ": "rest"
      }
     },
     {
@@ -133,6 +158,10 @@
      },
      "react": {
       "ABBA": "proud"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "DANIYAL": "rest"
      }
     },
     {
@@ -147,6 +176,10 @@
      "gap": 0.3,
      "looks": {
       "FARAZ": "DANIYAL"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "FARAZ": "rest"
      }
     }
    ]
@@ -156,8 +189,8 @@
    "time": "evening",
    "label": "Aangan • Shaam",
    "cast": {
-    "AMMI": "charpai_l",
-    "IMTIAZ": "charpai_c"
+    "AMMI": "charpai_c",
+    "IMTIAZ": "charpai_r"
    },
    "props": {
     "IMTIAZ": "cup"
@@ -183,7 +216,13 @@
        "who": "DANIYAL",
        "slot": "stand_l"
       }
-     ]
+     ],
+     "react_pose": {
+      "AMMI": "rest",
+      "IMTIAZ": "rest",
+      "FARAZ": "rest",
+      "DANIYAL": "rest"
+     }
     },
     {
      "who": "IMTIAZ",
@@ -198,6 +237,11 @@
       "DANIYAL": "IMTIAZ",
       "FARAZ": "IMTIAZ",
       "AMMI": "IMTIAZ"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "FARAZ": "rest",
+      "DANIYAL": "rest"
      }
     },
     {
@@ -212,6 +256,11 @@
      "looks": {
       "IMTIAZ": "DANIYAL",
       "AMMI": "DANIYAL"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "IMTIAZ": "rest",
+      "FARAZ": "rest"
      }
     },
     {
@@ -226,6 +275,11 @@
      "looks": {
       "IMTIAZ": "FARAZ",
       "AMMI": "FARAZ"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "IMTIAZ": "rest",
+      "DANIYAL": "rest"
      }
     },
     {
@@ -244,6 +298,11 @@
      },
      "react": {
       "DANIYAL": "sheepish"
+     },
+     "react_pose": {
+      "IMTIAZ": "rest",
+      "FARAZ": "rest",
+      "DANIYAL": "rest"
      }
     },
     {
@@ -261,6 +320,11 @@
       "IMTIAZ": "laugh",
       "FARAZ": "laugh",
       "AMMI": "laugh"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "IMTIAZ": "rest",
+      "FARAZ": "rest"
      }
     },
     {
@@ -275,6 +339,11 @@
      "looks": {
       "DANIYAL": "AMMI",
       "IMTIAZ": "AMMI"
+     },
+     "react_pose": {
+      "IMTIAZ": "rest",
+      "FARAZ": "rest",
+      "DANIYAL": "rest"
      }
     },
     {
@@ -291,6 +360,11 @@
       "AMMI": "IMTIAZ",
       "DANIYAL": "IMTIAZ",
       "FARAZ": "IMTIAZ"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "FARAZ": "rest",
+      "DANIYAL": "rest"
      }
     }
    ]
@@ -320,6 +394,11 @@
       "DANIYAL": "ABBA",
       "FARAZ": "ABBA",
       "AMMI": "ABBA"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "DANIYAL": "rest",
+      "FARAZ": "rest"
      }
     },
     {
@@ -329,11 +408,16 @@
      "roman": "Aur raat ko *poori aasteen* pehno, aur *machhar daani* lagao.",
      "urdu": "اور رات کو پوری آستین پہنو، اور مچھر دانی لگاؤ۔",
      "how": "caring mother giving her advice",
-     "pose": "explain",
+     "pose": "wag",
      "shot": "close",
      "looks": {
       "DANIYAL": "AMMI",
       "ABBA": "AMMI"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "DANIYAL": "rest",
+      "FARAZ": "rest"
      }
     },
     {
@@ -348,6 +432,11 @@
      "looks": {
       "ABBA": "FARAZ",
       "DANIYAL": "FARAZ"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "AMMI": "rest",
+      "DANIYAL": "rest"
      }
     },
     {
@@ -362,6 +451,11 @@
      "looks": {
       "ABBA": "DANIYAL",
       "AMMI": "DANIYAL"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "AMMI": "rest",
+      "FARAZ": "rest"
      }
     },
     {
@@ -376,6 +470,11 @@
      "looks": {
       "DANIYAL": "ABBA",
       "AMMI": "ABBA"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "DANIYAL": "rest",
+      "FARAZ": "rest"
      }
     },
     {
@@ -391,6 +490,11 @@
      "gap": 0.8,
      "react": {
       "*": "laugh"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "AMMI": "rest",
+      "FARAZ": "rest"
      }
     }
    ]

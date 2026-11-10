@@ -34,6 +34,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-038] (ep016, 2026-11-09) Bedroom mein stand_l par aane wali Ammi bed par baithe Arsalan ke aage khari ho kar us ka aadha jism chhupa deti hain (line 11-15) — bedroom mein bed ke saath ek naya "bedside" slot (bed ke right, thora peeche) banana.
 - [K-039] (ep016, 2026-11-09) Aangan mein "chest" pose (line 3) aur group shot (line 6, 0:30) mein bat seedha Arsalan ke chehre ke aage khara hota hai — K-013 ki tarah, lekin "chest" pose mein bhi bat ko kandhe par ya neeche pakarna.
 
+- [K-040] (ep017, 2026-11-10) Kahani ka "mujrim" gamle ke neeche aur purani balti ka khara paani hai, lekin aangan mein na gamla hai na balti — Daniyal/Faraz sirf farsh ki taraf ishara karte hain — aangan set mein gulab ka gamla (neeche plate mein paani) aur ek purani balti add karna jo zaroorat par dikh sakein.
+- [K-041] (ep017, 2026-11-10) Poori kahani machharon ki hai lekin screen par ek bhi machhar nazar nahi aata ("kaat raha hai", "helmet pehen kar aate hain") — naya "mosquito" effect: 2-3 chhote machhar characters ke aas paas urte hue (+ halki bhin-bhin sfx), aur "clap" par ek machhar ka gayab hona.
+- [K-042] (ep017, 2026-11-10) Aakhri scene mein Ammi "machhar daani lagao" kehti hain, lekin raat ke kamre mein koi machhar daani/poori aasteen ka visual nahi — naya "net" prop ya bed/sofa ke upar latakti jaali (machhar daani) banana.
+
 ## APPROVED
 
 ## DONE
