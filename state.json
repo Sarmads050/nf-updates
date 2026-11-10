@@ -1,7 +1,5 @@
 {
  "seen": {
-  "122bbc1bf7b7017c": 1793733081.9035168,
-  "a9ca9af44d900b53": 1793733090.689048,
   "764efa5eaba1c4a5": 1793735504.3698335,
   "4b0bff1bf8aceb7e": 1793735504.369837,
   "427a694f73c33501": 1793735504.369838,
@@ -1544,7 +1542,8 @@
   "6d4da0221d546f50": 1794337300.2670348,
   "86ded0d5fc4b3844": 1794337300.2670362,
   "05b1e52d205de8a3": 1794337300.267037,
-  "368e91a95405215e": 1794337300.2670388
+  "368e91a95405215e": 1794337300.2670388,
+  "1cc5bfa66659bf81": 1794338462.3983834
  },
  "pending": {},
  "queue": [],
@@ -1556,6 +1555,15 @@
    "domain": "urdupoint.com",
    "source": "UrduPoint",
    "ts": 1794290729,
+   "local": false
+  },
+  {
+   "key": "1cc5bfa66659bf81",
+   "title": "ICCI Pledges Inclusive Jobs & Training for PWDs",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZkZOV1NJS29OSjlPc1FkTE9qa0pUWjhWRENJNklVRVNMSVltTUt0aldzQmw2TlpBNWFNdXF5bDlvTVJOdTJFRVIxcUxJbFpmZEJkNWp4TGxvOTg3Z1RkZXpCdkZMLUN1Mk96Y1dVVm1XN1pJVDZobGlaUUJWWVlTX3c1X0VGSndaRnlLQUZTUE42VEQtUUU0dQ?oc=5",
+   "domain": "bolnews.com",
+   "source": "Bol News",
+   "ts": 1794316388,
    "local": false
   }
  ],
@@ -2219,14 +2227,14 @@
    },
    "wicket_posts": 10,
    "break_done": true,
-   "last_edit": 1794338164.4777086,
+   "last_edit": 1794338768.6865091,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-11 00:16",
+  "time": "2026-11-11 00:26",
   "items": 10,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 114/3 *",
@@ -8004,7 +8012,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-11 00:16",
+  "time": "2026-11-11 00:26",
   "steps": []
  },
  "roundup_am": "2026-11-10",
@@ -8154,7 +8162,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-11",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8162,7 +8170,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-11",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8170,7 +8178,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-11",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8178,7 +8186,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8186,7 +8194,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8194,14 +8202,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8210,9 +8218,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-11",
    "ok": 0,
-   "fail": 2,
+   "fail": 3,
    "items": 15,
-   "fail_streak": 941,
+   "fail_streak": 942,
    "last_status": 404
   }
  },
@@ -8625,8 +8633,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 5,
-  "old": 5,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9462,20 +9470,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-10 21:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-10 21:06",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-10 21:10",
    "ok": true,
    "n": 0,
@@ -9736,6 +9730,20 @@
   },
   {
    "t": "11-11 00:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 00:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 00:26",
    "ok": true,
    "n": 0,
    "ids": [],
