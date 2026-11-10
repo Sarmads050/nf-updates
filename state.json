@@ -1526,7 +1526,8 @@
   "ba5436bfc3b8dcf6": 1794347472.064736,
   "3e1a2e343b8184af": 1794347472.0647388,
   "0fe65356f6d05b14": 1794347472.0647402,
-  "1337697bdfd54506": 1794347472.0649252
+  "1337697bdfd54506": 1794347472.0649252,
+  "c19e5e751d4b70c7": 1794350470.0696166
  },
  "pending": {},
  "queue": [],
@@ -1670,20 +1671,8 @@
    "cd07e3766e2f1fee"
   ]
  },
- "last_post_id": "1444130002106066_122119697751503839",
+ "last_post_id": "1444130002106066_122119703733503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122119478535503839",
-   "title": "آسٽريليا جي ايئرلائن ڪنٽاس جون ملازمتون ڀارت منتقل",
-   "t": 1794288089.7294369,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122119478535503839"
-  },
   {
    "id": "1444130002106066_122119486203503839",
    "title": "نوشهروفيروز ۾ پوليس ۽ جوابدار وچ ۾ مقابلو، هڪ جوابدار زخمي حالت ۾ گرفتار",
@@ -1996,6 +1985,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122119697751503839"
+  },
+  {
+   "id": "1444130002106066_122119703733503839",
+   "title": "ملڪ ۾ وڌندڙ مهانگائي ۽ اگهن آسمان سان پئي ڳالهايون جنهن سبب عام واهپي جون شيون غريب عوام",
+   "t": 1794350564.0316522,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122119703733503839"
   }
  ],
  "share_sent": {
@@ -2212,14 +2210,14 @@
    },
    "wicket_posts": 10,
    "break_done": true,
-   "last_edit": 1794350164.737638,
+   "last_edit": 1794350870.11748,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-11 03:36",
+  "time": "2026-11-11 03:47",
   "items": 10,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 114/3 *",
@@ -2234,17 +2232,11 @@
  },
  "all_posts": {
   "date": "2026-11-11",
-  "count": 3,
-  "last": 1794347606.0251353
+  "count": 4,
+  "last": 1794350557.6247754
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122116083189503839",
-    "sec": "sindh_single",
-    "cat": "sindh",
-    "t": 1793437432
-   },
    {
     "id": "1444130002106066_122116087587503839",
     "sec": "sindh_stream",
@@ -4638,13 +4630,19 @@
     "sec": "public_news",
     "cat": "dollar_gold_business",
     "t": 1794347609
+   },
+   {
+    "id": "1444130002106066_122119703733503839",
+    "sec": "public_news",
+    "cat": "inflation",
+    "t": 1794350564
    }
   ]
  },
  "public_news": {
   "date": "2026-11-11",
-  "count": 2,
-  "last": 1794347609.6509016
+  "count": 3,
+  "last": 1794350564.0316336
  },
  "trends": {
   "last": 1794345061.536784,
@@ -7622,15 +7620,11 @@
  },
  "ai_usage": {
   "date": "2026-11-11",
-  "ok": 28,
-  "fail": 45,
-  "limit": 42
+  "ok": 34,
+  "fail": 55,
+  "limit": 52
  },
  "posted_heads": [
-  {
-   "h": "پاڪستان: 15 ورهين جي نينگر جي نائين درجي جي گونگي ۽ ٻوڙي شاگردياڻي سان شادي، سوشل ميڊيا تي ٻه طرفو بحث",
-   "t": 1794167591
-  },
   {
    "h": "Hessons future as Pakistan Test coach to be decided after 2027 World Cup",
    "t": 1794171738
@@ -7946,10 +7940,14 @@
   {
    "h": "Gold drops 1% on hawkish Fed comments ahead of US inflation data",
    "t": 1794347609
+  },
+  {
+   "h": "Pakistan Inflation | Rising Prices | Public Struggles | Economic Crisis",
+   "t": 1794350564
   }
  ],
  "last_errors": {
-  "time": "2026-11-11 03:36",
+  "time": "2026-11-11 03:47",
   "steps": []
  },
  "roundup_am": "2026-11-10",
@@ -8052,12 +8050,12 @@
  },
  "article_diag": {
   "date": "2026-11-11",
-  "tried": 3,
-  "decoded": 3,
-  "text": 3,
-  "story": 2
+  "tried": 4,
+  "decoded": 4,
+  "text": 4,
+  "story": 3
  },
- "ai_last_error": "02:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "03:42 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-11",
   "models": [
@@ -8071,9 +8069,9 @@
  },
  "img_diag": {
   "date": "2026-11-11",
-  "tried": 3,
+  "tried": 4,
   "gemini": 0,
-  "pollinations": 2,
+  "pollinations": 3,
   "skip": 0,
   "fail": 0,
   "last_note": "gold bars and coins",
@@ -8099,7 +8097,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-11",
-   "ok": 23,
+   "ok": 24,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8107,7 +8105,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-11",
-   "ok": 23,
+   "ok": 24,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8115,7 +8113,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-11",
-   "ok": 23,
+   "ok": 24,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8123,7 +8121,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 23,
+   "ok": 24,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8131,7 +8129,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 23,
+   "ok": 24,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8139,14 +8137,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 23,
+   "ok": 24,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 23,
+   "ok": 24,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8155,9 +8153,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-11",
    "ok": 0,
-   "fail": 23,
+   "fail": 24,
    "items": 15,
-   "fail_streak": 962,
+   "fail_streak": 963,
    "last_status": 404
   }
  },
@@ -8566,12 +8564,12 @@
   "date": "2026-11-11",
   "district": 0,
   "sindh": 1,
-  "pakistan": 2
+  "pakistan": 3
  },
  "report_acc": {
-  "posted": 0,
-  "found": 15,
-  "old": 15,
+  "posted": 1,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8617,8 +8615,8 @@
   "date": "2026-11-11",
   "count": 1,
   "last": 1794340875.9767194,
-  "city_i": 18,
-  "dry": 1794347463.505895
+  "city_i": 22,
+  "dry": 1794350463.0468216
  },
  "gemini_day_dead": {
   "day": "2026-11-10",
@@ -9337,6 +9335,14 @@
    "t": 1794347609,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "37f0e4df9fa0f939",
+   "h": "مهانگائي عوام جو چورو ڪڍي ڇڏيو",
+   "x": "آج نيوز جي رپورٽ مطابق پاڪستان ۾ مهانگائي، وڌندڙ قيمتون، عوامي مشڪلاتون ۽ معاشي بحران شدت اختيار ڪري ويا آهن. هي خبر 10 نومبر 2026ع تي شام جو 05:20 تي شايع ڪئي وئي. رپورٽ ۾ پاڪستان ۾ مهانگائي ۽ عوام جي مشڪلاتن سان گڏوگڏ بين الاقوامي معاملن جهڙوڪ ايران ۽ آمريڪا جي جنگ، ٽرمپ پاران نوان حملا روڪڻ، امن ڳالهين ۽ پيٽرل جي قيمتن بابت پڻ ذڪر ڪيو ويو آهي.",
+   "t": 1794350564,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9350,20 +9356,6 @@
   "last": 1794319295.5299706
  },
  "tg_debug": [
-  {
-   "t": "11-11 00:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-11 00:36",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-11 00:40",
    "ok": true,
@@ -9625,6 +9617,20 @@
   },
   {
    "t": "11-11 03:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 03:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 03:47",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14682,6 +14688,47 @@
     "ڪان",
     "گهٽتائي"
    ]
+  },
+  {
+   "t": 1794350564,
+   "h": "مهانگائي عوام جو چورو ڪڍي ڇڏيو",
+   "b": "آج نيوز جي رپورٽ مطابق پاڪستان ۾ مهانگائي، وڌندڙ قيمتون، عوامي مشڪلاتون ۽ معاشي بحران شدت اختيار ڪري ويا آهن.",
+   "tt": [
+    "عوام",
+    "مهانگائي",
+    "چورو",
+    "ڇڏيو",
+    "ڪڍي"
+   ],
+   "bt": [
+    "#10",
+    "#20",
+    "#5",
+    "2026ع",
+    "اختيار",
+    "اهن",
+    "بحران",
+    "خبر",
+    "رپورٽ",
+    "شام",
+    "شايع",
+    "شدت",
+    "عوام",
+    "عوامي",
+    "قيمتون،",
+    "مشڪلاتون",
+    "مطابق",
+    "معاشي",
+    "مهانگائي",
+    "مهانگائي،",
+    "نومبر",
+    "نيوز",
+    "وڌندڙ",
+    "پاڪستان",
+    "چورو",
+    "ڇڏيو",
+    "ڪڍي"
+   ]
   }
  ],
  "repeat_log": [
@@ -14849,7 +14896,7 @@
  },
  "quality": {
   "date": "2026-11-11",
-  "editor_fixed": 2,
+  "editor_fixed": 3,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
