@@ -1592,7 +1592,8 @@
   "c47214c1b378a193": 1794285083.5291471,
   "902469f807ef99b6": 1794285083.5293584,
   "f701b104c37f17a9": 1794286288.301123,
-  "3254e48e9fa44b15": 1794287456.8216543
+  "3254e48e9fa44b15": 1794287456.8216543,
+  "86c2349774d205df": 1794288068.1039193
  },
  "pending": {},
  "queue": [],
@@ -1715,18 +1716,8 @@
    "f305689e64ea8628"
   ]
  },
- "last_post_id": "1444130002106066_122119472451503839",
+ "last_post_id": "1444130002106066_122119478535503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122119174521503839",
-   "title": "نوشهروفيروز ۾ پوليس جو سرچ آپريشن، شڪي ماڻهو گرفتار",
-   "t": 1794221123.647798,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122119174521503839"
-  },
   {
    "id": "1444130002106066_122119180455503839",
    "title": "نوشهروفيروز ۾ عورت خلاف خاوند پاران مبينا تشدد جو احتجاج",
@@ -2031,6 +2022,18 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122119472451503839"
+  },
+  {
+   "id": "1444130002106066_122119478535503839",
+   "title": "آسٽريليا جي ايئرلائن ڪنٽاس جون ملازمتون ڀارت منتقل",
+   "t": 1794288089.7294369,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122119478535503839"
   }
  ],
  "share_sent": {
@@ -2246,18 +2249,18 @@
    },
    "wicket_posts": 4,
    "break_done": false,
-   "last_edit": 1794287806.442665,
+   "last_edit": 1794288395.2965586,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-10 10:16",
+  "time": "2026-11-10 10:26",
   "items": 10,
   "sample": [
    "New Zealand A 36/2 * v India A 464/5",
-   "Pakistan 314/5 * v Sri Lanka",
+   "Pakistan 324/5 * v Sri Lanka",
    "New Zealand v India"
   ]
  },
@@ -2268,17 +2271,11 @@
  },
  "all_posts": {
   "date": "2026-11-10",
-  "count": 15,
-  "last": 1794286316.553833
+  "count": 16,
+  "last": 1794288085.336978
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122115635529503839",
-    "sec": "public_news",
-    "cat": "transport_trade",
-    "t": 1793348623
-   },
    {
     "id": "1444130002106066_122115642705503839",
     "sec": "cricket_news",
@@ -4672,6 +4669,12 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1794286321
+   },
+   {
+    "id": "1444130002106066_122119478535503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1794288089
    }
   ]
  },
@@ -7744,15 +7747,11 @@
  },
  "ai_usage": {
   "date": "2026-11-10",
-  "ok": 146,
-  "fail": 260,
-  "limit": 249
+  "ok": 151,
+  "fail": 268,
+  "limit": 257
  },
  "posted_heads": [
-  {
-   "h": "Sindh Farmers Demand Rs647 Sugarcane Price, Sugar Mills’ Crushing From Nov 20",
-   "t": 1794085332
-  },
   {
    "h": "LPG Black Marketing | Pakistan Inflation | LPG Prices | Public Concerns",
    "t": 1794089506
@@ -8068,10 +8067,14 @@
   {
    "h": "Urea ban lifted in 17 more districts",
    "t": 1794286321
+  },
+  {
+   "h": "آسٽريليا جي ايئرلائن ڪنٽاس اڪثر ملازمتون ڀارت منتقل ڪرڻ جو فيصلو ڇو ڪيو؟",
+   "t": 1794288090
   }
  ],
  "last_errors": {
-  "time": "2026-11-10 10:16",
+  "time": "2026-11-10 10:26",
   "steps": []
  },
  "roundup_am": "2026-11-10",
@@ -8179,7 +8182,7 @@
   "text": 16,
   "story": 11
  },
- "ai_last_error": "10:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-10",
   "models": [
@@ -8193,9 +8196,9 @@
  },
  "img_diag": {
   "date": "2026-11-10",
-  "tried": 15,
+  "tried": 16,
   "gemini": 0,
-  "pollinations": 10,
+  "pollinations": 11,
   "skip": 2,
   "fail": 3,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
@@ -8221,7 +8224,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-10",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8229,7 +8232,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-10",
-   "ok": 61,
+   "ok": 62,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8237,7 +8240,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-10",
-   "ok": 61,
+   "ok": 62,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8245,7 +8248,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8253,7 +8256,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8261,14 +8264,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8277,9 +8280,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-10",
    "ok": 0,
-   "fail": 63,
+   "fail": 64,
    "items": 15,
-   "fail_streak": 855,
+   "fail_streak": 856,
    "last_status": 404
   }
  },
@@ -8870,13 +8873,13 @@
  "region_posts": {
   "date": "2026-11-10",
   "district": 1,
-  "sindh": 2,
+  "sindh": 3,
   "pakistan": 12
  },
  "report_acc": {
-  "posted": 0,
-  "found": 4,
-  "old": 3,
+  "posted": 1,
+  "found": 8,
+  "old": 7,
   "irrelevant": 1,
   "blocked": 0,
   "errors": []
@@ -8919,9 +8922,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-10",
-  "count": 2,
-  "last": 1794265280.3080688,
-  "city_i": 18,
+  "count": 3,
+  "last": 1794288065.7580452,
+  "city_i": 22,
   "dry": 1794287476.3701172
  },
  "gemini_day_dead": {
@@ -9593,6 +9596,14 @@
    "t": 1794286321,
    "s": true,
    "r": 0
+  },
+  {
+   "k": "54a37d88af264493",
+   "h": "آسٽريليا جي ايئرلائن ڪنٽاس جون ملازمتون ڀارت منتقل",
+   "x": "آسٽريليا جي مشهور فضائي ڪمپني ڪنٽاس ٽيڪنالاجي ۽ مصنوعي ذهانت (AI) ۾ سيڙپڪاري وڌائڻ لاءِ 850 مقامي ملازمتون آئوٽ سورس ڪرڻ جو فيصلو ڪيو آهي، جنهن تحت اڪثر نوڪريون ڀارت منتقل ڪيون وينديون. رپورٽ موجب، ڪمپني جي چيف ايگزيڪيوٽو وينيسا هڊسن اڱاري ڏينهن عملي کي موڪليل اي ميل ۾ چيو ته اهو فيصلو ڪجهه ملازمن لاءِ ڏکيو ثابت ٿيندو ۽ ان سان پيدا ٿيندڙ غير يقيني صورتحال تي کين افسوس آهي. ڪمپني موجب ملازمتن ۾ گهٽتائي جو عمل 2027ع جي وچ کان شروع ٿيندو، جنهن تحت فنانس، خريداري، افرادي قوت ۽ مارڪيٽنگ جا اڪثر شعبا متاثر ٿيندا. بيان: وينيسا هڊسن چيف ايگزيڪيوٽو ڪنٽاس",
+   "t": 1794288089,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9609,20 +9620,6 @@
   "last": 1794235294.2001998
  },
  "tg_debug": [
-  {
-   "t": "11-10 07:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-10 07:08",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-10 07:10",
    "ok": true,
@@ -9884,6 +9881,20 @@
   },
   {
    "t": "11-10 10:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-10 10:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-10 10:26",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14336,6 +14347,46 @@
     "ڇڏي",
     "ڪڻڻ"
    ]
+  },
+  {
+   "t": 1794288089,
+   "h": "آسٽريليا جي ايئرلائن ڪنٽاس جون ملازمتون ڀارت منتقل",
+   "b": "آسٽريليا جي مشهور فضائي ڪمپني ڪنٽاس ٽيڪنالاجي ۽ مصنوعي ذهانت (AI) ۾ سيڙپڪاري وڌائڻ لاءِ 850 مقامي ملازمتون",
+   "tt": [
+    "اسٽريليا",
+    "ايئرلائن",
+    "ملازمتون",
+    "منتقل",
+    "ڀارت",
+    "ڪنٽاس"
+   ],
+   "bt": [
+    "#850",
+    "ائوٽ",
+    "اسٽريليا",
+    "اهي،",
+    "ايئرلائن",
+    "اڪثر",
+    "تحت",
+    "ذهانت",
+    "سورس",
+    "سيڙپڪاري",
+    "فضائي",
+    "فيصلو",
+    "مشهور",
+    "مصنوعي",
+    "مقامي",
+    "ملازمتون",
+    "منتقل",
+    "نوڪريون",
+    "وينديون",
+    "وڌائڻ",
+    "ٽيڪنالاجي",
+    "ڀارت",
+    "ڪرڻ",
+    "ڪمپني",
+    "ڪنٽاس"
+   ]
   }
  ],
  "repeat_log": [
@@ -14503,7 +14554,7 @@
  },
  "quality": {
   "date": "2026-11-10",
-  "editor_fixed": 11,
+  "editor_fixed": 12,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
