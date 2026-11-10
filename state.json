@@ -1,6 +1,5 @@
 {
  "seen": {
-  "2faa3c85b76f642d": 1793674276.1119828,
   "6ec08bdbb7db2904": 1793676089.3730443,
   "d3e831cafec94c76": 1793676089.3730462,
   "665dd602b2800fd6": 1793676089.3730476,
@@ -1593,7 +1592,11 @@
   "2e023f66f2b6e161": 1794277278.6017861,
   "7420c8908f202412": 1794277278.601989,
   "59526da9173640f7": 1794277860.1200387,
-  "4df4647f1d632312": 1794278469.5176158
+  "4df4647f1d632312": 1794278469.5176158,
+  "2a1fa8ce90a3a23a": 1794279838.4214673,
+  "6657777b8138e7cb": 1794279838.4214704,
+  "1df1bdf79e9462d1": 1794279838.4216328,
+  "7c2057244d0c2efa": 1794279904.3260467
  },
  "pending": {},
  "queue": [],
@@ -1621,7 +1624,7 @@
   "last_week": "",
   "last_check": "2026-11-10"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.5-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1675,7 +1678,7 @@
  "sindh_single": {
   "date": "2026-11-10",
   "count": 0,
-  "last": 1794229883.7199042,
+  "last": 1794279916.8275917,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2264,14 +2267,14 @@
    },
    "wicket_posts": 4,
    "break_done": false,
-   "last_edit": 1794279359.829557,
+   "last_edit": 1794280250.0056489,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-10 07:55",
+  "time": "2026-11-10 08:10",
   "items": 10,
   "sample": [
    "New Zealand A 36/2 * v India A 464/5",
@@ -7762,9 +7765,9 @@
  },
  "ai_usage": {
   "date": "2026-11-10",
-  "ok": 99,
-  "fail": 166,
-  "limit": 164
+  "ok": 112,
+  "fail": 198,
+  "limit": 190
  },
  "posted_heads": [
   {
@@ -8089,10 +8092,10 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-10 07:56",
+  "time": "2026-11-10 08:10",
   "steps": []
  },
- "roundup_am": "2026-11-09",
+ "roundup_am": "2026-11-10",
  "group_shares": {
   "1": {
    "date": "2026-11-09",
@@ -8192,12 +8195,12 @@
  },
  "article_diag": {
   "date": "2026-11-10",
-  "tried": 11,
-  "decoded": 11,
-  "text": 11,
-  "story": 7
+  "tried": 12,
+  "decoded": 12,
+  "text": 12,
+  "story": 8
  },
- "ai_last_error": "07:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:05 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-10",
   "models": [
@@ -8239,7 +8242,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-10",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8247,7 +8250,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-10",
-   "ok": 47,
+   "ok": 48,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8255,7 +8258,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-10",
-   "ok": 47,
+   "ok": 48,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8263,7 +8266,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8271,7 +8274,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8279,14 +8282,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8295,9 +8298,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-10",
    "ok": 0,
-   "fail": 49,
+   "fail": 50,
    "items": 15,
-   "fail_streak": 841,
+   "fail_streak": 842,
    "last_status": 404
   }
  },
@@ -8888,18 +8891,18 @@
  "region_posts": {
   "date": "2026-11-10",
   "district": 1,
-  "sindh": 1,
+  "sindh": 2,
   "pakistan": 8
  },
  "report_acc": {
-  "posted": 2,
-  "found": 15,
-  "old": 15,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-10 07",
+ "report_hour": "2026-11-10 08",
  "kawish_upload_times": {
   "_date": "2026-11-10",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8939,8 +8942,8 @@
   "date": "2026-11-10",
   "count": 2,
   "last": 1794265280.3080688,
-  "city_i": 18,
-  "dry": 1794278465.3065877
+  "city_i": 22,
+  "dry": 1794279821.3057678
  },
  "gemini_day_dead": {
   "day": "2026-11-09",
@@ -9591,7 +9594,9 @@
  ],
  "reels": {
   "date": "2026-11-10",
-  "done": []
+  "done": [
+   "08:00"
+  ]
  },
  "kawish_queue": [],
  "kawish_post": {
@@ -9600,20 +9605,6 @@
   "last": 1794235294.2001998
  },
  "tg_debug": [
-  {
-   "t": "11-10 04:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-10 04:55",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-10 05:00",
    "ok": true,
@@ -9875,6 +9866,20 @@
   },
   {
    "t": "11-10 07:55",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-10 08:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-10 08:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14383,11 +14388,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-07 16:41",
-   "new": "سنڌ | پيٽروليم مصنوعات جي قيمتن ۾ نمايان گهٽتائي",
-   "old": "ڪراچي ۾ تيل ۽ گئس جي ڳولا ٻيهر شروع"
-  },
-  {
    "t": "11-07 17:41",
    "new": "نيپرا بجلي 2 رپيا 37 پيسا في يونٽ مهانگي ڪري ڇڏي",
    "old": "فيول پرائس ايڊجسٽمينٽ: بجلي 2 روپيا 37 پئسا مهانگي"
@@ -14531,6 +14531,11 @@
    "t": "11-10 05:51",
    "new": "سنڌوند ۾ پاڻܝ جي وهڪري ۾ واڌ جو امڪان",
    "old": "تربيلا ڊيم حادثو، پورهيت محفوظ، سنڌوءَ ۾ چاڙھ جو الرٽ"
+  },
+  {
+   "t": "11-10 08:04",
+   "new": "سون جي اگهه ۾ وڏو واڌارو",
+   "old": "ڪراچي ۾ سون جي قيمت ۾ واڌ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14551,6 +14556,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 1
- }
+  "repeat": 2
+ },
+ "_dup": true
 }
