@@ -1,14 +1,5 @@
 {
  "seen": {
-  "e3c0da765bcffa50": 1793692863.3938842,
-  "923ec75a49696d36": 1793692915.7922194,
-  "0e6eeafe33bb0434": 1793692915.7922215,
-  "c75cad7d1ea1eac1": 1793692928.2834537,
-  "16149e1e767eb6c4": 1793692928.2834563,
-  "945576cf8b1ce8ca": 1793692928.2834578,
-  "6ecfcbef0ea3a8c5": 1793692928.2834592,
-  "7abe517ff5aad0fc": 1793692952.8370242,
-  "4186dc55fb5f4f6b": 1793693131.8412228,
   "fbf3c74e349ec06b": 1793694736.5642867,
   "bcbec574817ede2a": 1793694749.0205572,
   "3261a9036f41c9a5": 1793695254.9560618,
@@ -1600,7 +1591,10 @@
   "efb512fb97485bbc": 1794295799.7903388,
   "2bb9c888e02533ca": 1794296680.7756145,
   "4feed5ab3cf5d3cb": 1794296680.7756178,
-  "c5a653ffec704821": 1794297670.930555
+  "c5a653ffec704821": 1794297670.930555,
+  "64ea8d80c445fed7": 1794298446.6966724,
+  "67506a1487a27e79": 1794298446.6966755,
+  "2fce0578fb3ca6e5": 1794298446.696677
  },
  "pending": {},
  "queue": [],
@@ -1618,7 +1612,7 @@
   "last_week": "",
   "last_check": "2026-11-10"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1724,7 +1718,7 @@
    "f305689e64ea8628"
   ]
  },
- "last_post_id": "1444130002106066_122119508469503839",
+ "last_post_id": "1444130002106066_122119514991503839",
  "shareable": [
   {
    "id": "1444130002106066_122119275915503839",
@@ -2256,22 +2250,22 @@
   "httpwwwcricinfocomcienginematch1550711htmlcmpotcrss": {
    "post": "1444130002106066_122119041567503839",
    "wkts": {
-    "Pakistan|1": 7
+    "Pakistan|1": 8
    },
-   "wicket_posts": 6,
+   "wicket_posts": 7,
    "break_done": false,
-   "last_edit": 1794297976.932901,
+   "last_edit": 1794298754.8981853,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-10 13:06",
+  "time": "2026-11-10 13:19",
   "items": 10,
   "sample": [
    "New Zealand A 36/2 * v India A 464/5",
-   "Pakistan 410/7 * v Sri Lanka",
+   "Pakistan 434/8 * v Sri Lanka",
    "New Zealand v India"
   ]
  },
@@ -2282,8 +2276,8 @@
  },
  "all_posts": {
   "date": "2026-11-10",
-  "count": 26,
-  "last": 1794297039.9650424
+  "count": 27,
+  "last": 1794298760.886533
  },
  "perf": {
   "posts": [
@@ -7766,8 +7760,8 @@
  },
  "ai_usage": {
   "date": "2026-11-10",
-  "ok": 198,
-  "fail": 349,
+  "ok": 199,
+  "fail": 350,
   "limit": 337
  },
  "posted_heads": [
@@ -8093,7 +8087,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-10 13:06",
+  "time": "2026-11-10 13:19",
   "steps": []
  },
  "roundup_am": "2026-11-10",
@@ -8201,7 +8195,7 @@
   "text": 19,
   "story": 13
  },
- "ai_last_error": "12:44 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "13:13 gemini-3.7-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-10",
   "models": [
@@ -8243,7 +8237,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-10",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8251,7 +8245,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-10",
-   "ok": 78,
+   "ok": 79,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8259,7 +8253,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-10",
-   "ok": 78,
+   "ok": 79,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8267,7 +8261,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8275,7 +8269,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8283,14 +8277,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8299,9 +8293,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-10",
    "ok": 0,
-   "fail": 81,
+   "fail": 82,
    "items": 15,
-   "fail_streak": 873,
+   "fail_streak": 874,
    "last_status": 404
   }
  },
@@ -8896,9 +8890,9 @@
   "pakistan": 13
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8942,19 +8936,13 @@
  "sindh_stream": {
   "date": "2026-11-10",
   "count": 8,
-  "last": 1794296676.7032447,
-  "city_i": 6,
-  "dry": 1794295779.0630376
+  "last": 1794298263.0157228,
+  "city_i": 10,
+  "dry": 1794298446.6966784
  },
  "gemini_day_dead": {
-  "day": "2026-11-09",
-  "models": [
-   "gemini-flash-latest",
-   "gemini-3.8-flash",
-   "gemini-3.7-flash",
-   "gemini-3.6-flash",
-   "gemini-3.5-flash"
-  ]
+  "day": "2026-11-10",
+  "models": []
  },
  "tg_done": [
   92058696,
@@ -9682,20 +9670,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-10 10:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-10 10:06",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-10 10:10",
    "ok": true,
    "n": 0,
@@ -9960,64 +9934,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-10 13:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-10 13:19",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-10",
  "recent_posts": [
-  {
-   "t": 1794125939,
-   "h": "ملير: سرعام هٿيارن جي نمائش تي 3 سيڪيورٽي گارڊ گرفتار",
-   "b": "ملير ڪينٽ پوليس سرعام هٿيارن جي نمائش خلاف ڪارروائي ڪندي مختلف سيڪيورٽي ڪمپنين سان تعلق رکندڙ 3 سيڪيورٽي",
-   "tt": [
-    "سرعام",
-    "سيڪيورٽي",
-    "ملير",
-    "نمائش",
-    "هٿيارن",
-    "گارڊ",
-    "گرفتار"
-   ],
-   "bt": [
-    "اهن",
-    "اهي",
-    "باقر،",
-    "تعلق",
-    "جوابدارن",
-    "حسين",
-    "خلاف",
-    "رائفلون",
-    "رڪندڙ",
-    "سرعام",
-    "سميت",
-    "سيد",
-    "سيڪيورٽي",
-    "سڃاڻپ",
-    "طور",
-    "قبضي",
-    "لوڊ",
-    "مان",
-    "محمد",
-    "مختلف",
-    "مزمل",
-    "ملير",
-    "موجب",
-    "مينگل",
-    "ميگزينن",
-    "نمائش",
-    "هٿيارن",
-    "ورتو",
-    "ويون",
-    "پوليس",
-    "ٿيل",
-    "ڪارروائي",
-    "ڪمپنين",
-    "ڪندي",
-    "ڪينٽ",
-    "گارڊ",
-    "گارڊن",
-    "گرفتار"
-   ]
-  },
   {
    "t": 1794127056,
    "h": "بابر اعظم جو محمد يوسف جي ٽيڪنيڪي مشوري تي ردعمل",
@@ -14702,6 +14636,32 @@
    ],
    "bt": [
     "#393",
+    "ائوٽ،",
+    "اسڪور",
+    "رانديگر",
+    "سري",
+    "لنڪا",
+    "هاڻوڪو",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پاڪستان",
+    "پيون"
+   ]
+  },
+  {
+   "t": 1794298760,
+   "h": "وڪيٽ! پاڪستان جو رانديگر آئوٽ، 8 وڪيٽون ڪري پيون",
+   "b": "هاڻوڪو اسڪور: پاڪستان 434/8 🏏 سري لنڪا",
+   "tt": [
+    "ائوٽ،",
+    "رانديگر",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پاڪستان",
+    "پيون"
+   ],
+   "bt": [
+    "#434",
     "ائوٽ،",
     "اسڪور",
     "رانديگر",
