@@ -1,6 +1,5 @@
 {
  "seen": {
-  "5cd83bafb246c13f": 1793683867.8150165,
   "9705812a08911b56": 1793684465.0497296,
   "56c458702930dd12": 1793684465.0497327,
   "93b64929aa176e6f": 1793685681.615697,
@@ -1593,7 +1592,9 @@
   "f701b104c37f17a9": 1794286288.301123,
   "3254e48e9fa44b15": 1794287456.8216543,
   "86c2349774d205df": 1794288068.1039193,
-  "4ff41a7bd2cc2aeb": 1794288745.5732028
+  "4ff41a7bd2cc2aeb": 1794288745.5732028,
+  "c49e1e08f0aabe6e": 1794289262.9702728,
+  "63a0378efde8eb0c": 1794289268.7628
  },
  "pending": {},
  "queue": [],
@@ -2249,18 +2250,18 @@
    },
    "wicket_posts": 4,
    "break_done": false,
-   "last_edit": 1794289050.9961746,
+   "last_edit": 1794289580.0510526,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-10 10:37",
+  "time": "2026-11-10 10:46",
   "items": 10,
   "sample": [
    "New Zealand A 36/2 * v India A 464/5",
-   "Pakistan 329/5 * v Sri Lanka",
+   "Pakistan 340/5 * v Sri Lanka",
    "New Zealand v India"
   ]
  },
@@ -7755,9 +7756,9 @@
  },
  "ai_usage": {
   "date": "2026-11-10",
-  "ok": 153,
-  "fail": 272,
-  "limit": 261
+  "ok": 156,
+  "fail": 278,
+  "limit": 267
  },
  "posted_heads": [
   {
@@ -8082,7 +8083,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-10 10:37",
+  "time": "2026-11-10 10:46",
   "steps": []
  },
  "roundup_am": "2026-11-10",
@@ -8190,7 +8191,7 @@
   "text": 16,
   "story": 11
  },
- "ai_last_error": "10:32 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-10",
   "models": [
@@ -8232,7 +8233,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-10",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8240,23 +8241,23 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-10",
-   "ok": 62,
+   "ok": 63,
    "fail": 3,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-10",
-   "ok": 62,
+   "ok": 63,
    "fail": 3,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8264,7 +8265,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8272,14 +8273,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8288,9 +8289,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-10",
    "ok": 0,
-   "fail": 65,
+   "fail": 66,
    "items": 15,
-   "fail_streak": 857,
+   "fail_streak": 858,
    "last_status": 404
   }
  },
@@ -8886,8 +8887,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 10,
-  "old": 9,
+  "found": 14,
+  "old": 13,
   "irrelevant": 1,
   "blocked": 0,
   "errors": []
@@ -8931,8 +8932,8 @@
  "sindh_stream": {
   "date": "2026-11-10",
   "count": 3,
-  "last": 1794288065.7580452,
-  "city_i": 22,
+  "last": 1794289260.9531512,
+  "city_i": 4,
   "dry": 1794287476.3701172
  },
  "gemini_day_dead": {
@@ -9629,20 +9630,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-10 07:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-10 07:27",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-10 07:30",
    "ok": true,
    "n": 0,
@@ -9903,6 +9890,20 @@
   },
   {
    "t": "11-10 10:37",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-10 10:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-10 10:46",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14399,11 +14400,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-07 17:41",
-   "new": "نيپرا بجلي 2 رپيا 37 پيسا في يونٽ مهانگي ڪري ڇڏي",
-   "old": "فيول پرائس ايڊجسٽمينٽ: بجلي 2 روپيا 37 پئسا مهانگي"
-  },
-  {
    "t": "11-07 17:51",
    "new": "پاڪستان ۾ سون جي اگهن ۾ گهٽتائي",
    "old": "اڄ پاڪستان ۾ سون جي قيمت"
@@ -14547,6 +14543,11 @@
    "t": "11-10 08:04",
    "new": "سون جي اگهه ۾ وڏو واڌارو",
    "old": "ڪراچي ۾ سون جي قيمت ۾ واڌ"
+  },
+  {
+   "t": "11-10 10:41",
+   "new": "وفاق پاران پيٽروليم ليوي مد ۾ 220 ارب گڏ",
+   "old": "پيٽروليم ۽ ڪلائميٽ ليوي ذريعي اربين روپيا گڏ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14567,6 +14568,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 2
- }
+  "repeat": 3
+ },
+ "_dup": true
 }
