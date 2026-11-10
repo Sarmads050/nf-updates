@@ -1,7 +1,5 @@
 {
  "seen": {
-  "2acabb4ce88a0c96": 1793688050.2554002,
-  "1bea25868eb85a13": 1793688061.6247618,
   "6d01c6e6c0fb0013": 1793689275.5078564,
   "d8b84d93f457aca8": 1793689275.50786,
   "6a38fc22b03be498": 1793690470.0026276,
@@ -1596,7 +1594,8 @@
   "c4ec860325954b0f": 1794291065.3993793,
   "085c3ef6ff04ad71": 1794291065.399381,
   "dac43801f3303f43": 1794292275.8318152,
-  "f42670e0f7ad90d4": 1794292275.8318186
+  "f42670e0f7ad90d4": 1794292275.8318186,
+  "5844b8cb88bb66c4": 1794293462.8587437
  },
  "pending": {},
  "queue": [],
@@ -1720,18 +1719,8 @@
    "f305689e64ea8628"
   ]
  },
- "last_post_id": "1444130002106066_122119494579503839",
+ "last_post_id": "1444130002106066_122119498665503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122119259295503839",
-   "title": "ڳيريلو: پسند جي شادي ڪندڙ جوڙي کي تحفظ فراهم ڪرڻ جو مطالبو",
-   "t": 1794226365.002655,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122119259295503839"
-  },
   {
    "id": "1444130002106066_122119263957503839",
    "title": "وفاق جا فنڊز سنڌ جي رحم ڪرم تي، نتاچائي سکهڻ، ڪاڌ وارن شهرن جا اختيار انتظامي يونٽن کي",
@@ -2042,6 +2031,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122119494579503839"
+  },
+  {
+   "id": "1444130002106066_122119498665503839",
+   "title": "فيصل آباد ۾ سيلز گرل تي تشدد، مريم نواز جي عمل تي بحث",
+   "t": 1794293478.036287,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122119498665503839"
   }
  ],
  "share_sent": {
@@ -2257,18 +2258,18 @@
    },
    "wicket_posts": 5,
    "break_done": false,
-   "last_edit": 1794293164.9563968,
+   "last_edit": 1794293783.4056363,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-10 11:46",
+  "time": "2026-11-10 11:56",
   "items": 10,
   "sample": [
    "New Zealand A 36/2 * v India A 464/5",
-   "Pakistan 383/6 * v Sri Lanka",
+   "Pakistan 389/6 * v Sri Lanka",
    "New Zealand v India"
   ]
  },
@@ -2279,17 +2280,11 @@
  },
  "all_posts": {
   "date": "2026-11-10",
-  "count": 21,
-  "last": 1794292319.605238
+  "count": 22,
+  "last": 1794293474.151608
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122115672993503839",
-    "sec": "kawish",
-    "cat": "sindh",
-    "t": 1793356878
-   },
    {
     "id": "1444130002106066_122115690225503839",
     "sec": "sindh_stream",
@@ -4683,6 +4678,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1794292326
+   },
+   {
+    "id": "1444130002106066_122119498665503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1794293478
    }
   ]
  },
@@ -7763,15 +7764,11 @@
  },
  "ai_usage": {
   "date": "2026-11-10",
-  "ok": 172,
-  "fail": 304,
-  "limit": 293
+  "ok": 175,
+  "fail": 310,
+  "limit": 299
  },
  "posted_heads": [
-  {
-   "h": "Realty sector gets Rs34b tax relief",
-   "t": 1794098006
-  },
   {
    "h": "Sargodha Wheat Sowing Reaches 102,632 Acres, 23pc Of Seasonal Target",
    "t": 1794099774
@@ -8087,10 +8084,14 @@
   {
    "h": "پاڪستان اسٽاڪ ايڪسچينج ۾ زبردست تيزي، انڊيڪس ۾ 3 هزار 646 پوائنٽن جو اضافو",
    "t": 1794292326
+  },
+  {
+   "h": "فيصل آباد ۾ سيلز گرل تي تشدد، مريم نواز جو’چماٽ جو جواب چماٽ‘ وارو عمل درست يا غلط؟",
+   "t": 1794293478
   }
  ],
  "last_errors": {
-  "time": "2026-11-10 11:46",
+  "time": "2026-11-10 11:56",
   "steps": []
  },
  "roundup_am": "2026-11-10",
@@ -8198,7 +8199,7 @@
   "text": 18,
   "story": 13
  },
- "ai_last_error": "11:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "11:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-10",
   "models": [
@@ -8212,10 +8213,10 @@
  },
  "img_diag": {
   "date": "2026-11-10",
-  "tried": 20,
+  "tried": 21,
   "gemini": 0,
   "pollinations": 12,
-  "skip": 5,
+  "skip": 6,
   "fail": 3,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 565,
@@ -8240,7 +8241,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-10",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8248,7 +8249,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-10",
-   "ok": 69,
+   "ok": 70,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8256,7 +8257,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-10",
-   "ok": 69,
+   "ok": 70,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8264,7 +8265,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8272,7 +8273,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8280,14 +8281,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-10",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-10",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8296,9 +8297,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-10",
    "ok": 0,
-   "fail": 72,
+   "fail": 73,
    "items": 15,
-   "fail_streak": 864,
+   "fail_streak": 865,
    "last_status": 404
   }
  },
@@ -8889,13 +8890,13 @@
  "region_posts": {
   "date": "2026-11-10",
   "district": 3,
-  "sindh": 5,
+  "sindh": 6,
   "pakistan": 12
  },
  "report_acc": {
-  "posted": 3,
-  "found": 16,
-  "old": 16,
+  "posted": 4,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8938,9 +8939,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-10",
-  "count": 5,
-  "last": 1794292273.2167995,
-  "city_i": 12,
+  "count": 6,
+  "last": 1794293460.67493,
+  "city_i": 16,
   "dry": 1794287476.3701172
  },
  "gemini_day_dead": {
@@ -9644,6 +9645,14 @@
    "t": 1794292326,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "eec3fa011a368275",
+   "h": "فيصل آباد ۾ سيلز گرل تي تشدد، مريم نواز جي عمل تي بحث",
+   "x": "فيصل آباد ۾ سيلز گرل تي تشدد جي واقعي کانپوءِ وزيراعليٰ پنجاب مريم نواز پاران دڪاندار کي پوليس حراست ۾ متاثر عورت هٿان چماٽون هڻائڻ واري وڊيو سوشل ميڊيا تي بحث جو موضوع بڻجي وئي آهي. مريم نواز هن واقعي کي ڪمزور ۽ بي پهچ ماڻهن تي ظلم خلاف قدم قرار ڏيندي چيو آهي ته هاڻي جيڪڏهن ڪو غريب يا ڪمزور تي هٿ کڻندو ته کيس جواب لاءِ به تيار رهڻو پوندو. ٻئي طرف قانوني ماهرن ۽ سوشل ميڊيا صارفين پاران پوليس حراست ۾ جوابدار کي متاثر ڌر هٿان سزا ڏيارڻ جي قانوني حيثيت بابت پڻ سوال اٿاريا پيا وڃن. هي واقعو 9 نومبر تي پيش آيو هو. بيان: مريم نواز (وزيراعليٰ پنجاب)",
+   "t": 1794293478,
+   "s": true,
+   "r": 0
   }
  ],
  "reels": {
@@ -9661,20 +9670,6 @@
   "last": 1794235294.2001998
  },
  "tg_debug": [
-  {
-   "t": "11-10 08:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-10 08:36",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-10 08:40",
    "ok": true,
@@ -9936,6 +9931,20 @@
   },
   {
    "t": "11-10 11:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-10 11:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-10 11:56",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14583,6 +14592,53 @@
     "ڪراچي",
     "گهٽتائي"
    ]
+  },
+  {
+   "t": 1794293478,
+   "h": "فيصل آباد ۾ سيلز گرل تي تشدد، مريم نواز جي عمل تي بحث",
+   "b": "فيصل آباد ۾ سيلز گرل تي تشدد جي واقعي کانپوءِ وزيراعليٰ پنجاب مريم نواز پاران دڪاندار کي پوليس حراست ۾ متاثر",
+   "tt": [
+    "اباد",
+    "بحث",
+    "تشدد،",
+    "سيلز",
+    "عمل",
+    "فيصل",
+    "مريم",
+    "نواز",
+    "گرل"
+   ],
+   "bt": [
+    "اباد",
+    "اهي",
+    "بحث",
+    "بڻجي",
+    "تشدد",
+    "تشدد،",
+    "حراست",
+    "دڪاندار",
+    "سوشل",
+    "سيلز",
+    "عمل",
+    "عورت",
+    "فيصل",
+    "متاثر",
+    "مريم",
+    "موضوع",
+    "ميڊيا",
+    "نواز",
+    "هٿان",
+    "هڻائڻ",
+    "واقعي",
+    "وزيراعلي",
+    "وڊيو",
+    "پاران",
+    "پنجاب",
+    "پوليس",
+    "چماٽون",
+    "ڪانپوء",
+    "گرل"
+   ]
   }
  ],
  "repeat_log": [
@@ -14750,7 +14806,7 @@
  },
  "quality": {
   "date": "2026-11-10",
-  "editor_fixed": 14,
+  "editor_fixed": 15,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
