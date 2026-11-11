@@ -1478,7 +1478,17 @@
   "cf3fa2906299a3ea": 1794433891.845374,
   "d9dc9f474219971b": 1794434481.8927808,
   "5cdadb2c20fe774a": 1794434481.8927834,
-  "a51793bfd6eaaa09": 1794434481.8929682
+  "a51793bfd6eaaa09": 1794434481.8929682,
+  "a6dffb05be4e0460": 1794437522.111445,
+  "3548913debef76e6": 1794437522.1114476,
+  "4a33cd6e8ced0b26": 1794437522.1114485,
+  "cc44af4aed3f92ba": 1794437522.11145,
+  "aed244407f33bc66": 1794437522.1114511,
+  "764f928a976ee533": 1794437522.111452,
+  "21b740fac4d58ff1": 1794437522.1114528,
+  "2a67572fc8ae9731": 1794437522.111454,
+  "7d59948576a80d36": 1794437522.1114545,
+  "faadad3d6e79f8dd": 1794437522.111619
  },
  "pending": {},
  "queue": [],
@@ -2158,7 +2168,7 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794437465.6516101,
+   "last_edit": 1794437830.7405999,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
@@ -2174,7 +2184,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-12 03:51",
+  "time": "2026-11-12 03:57",
   "items": 16,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 404/4 *",
@@ -7489,9 +7499,9 @@
  },
  "ai_usage": {
   "date": "2026-11-12",
-  "ok": 56,
-  "fail": 97,
-  "limit": 94
+  "ok": 58,
+  "fail": 101,
+  "limit": 98
  },
  "posted_heads": [
   {
@@ -7816,7 +7826,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-12 03:51",
+  "time": "2026-11-12 03:57",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7919,12 +7929,12 @@
  },
  "article_diag": {
   "date": "2026-11-12",
-  "tried": 8,
-  "decoded": 8,
-  "text": 8,
-  "story": 6
+  "tried": 9,
+  "decoded": 9,
+  "text": 9,
+  "story": 7
  },
- "ai_last_error": "03:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "03:52 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-12",
   "models": [
@@ -7966,7 +7976,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-12",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7974,7 +7984,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-12",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7982,7 +7992,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-12",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7990,7 +8000,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7998,7 +8008,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8006,14 +8016,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8022,9 +8032,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-12",
    "ok": 0,
-   "fail": 21,
+   "fail": 22,
    "items": 15,
-   "fail_streak": 1106,
+   "fail_streak": 1107,
    "last_status": 404
   }
  },
@@ -8213,8 +8223,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 36,
-  "old": 36,
+  "found": 45,
+  "old": 45,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8261,8 +8271,8 @@
   "date": "2026-11-12",
   "count": 1,
   "last": 1794426667.6690931,
-  "city_i": 20,
-  "dry": 1794434477.8288882
+  "city_i": 24,
+  "dry": 1794437517.236427
  },
  "gemini_day_dead": {
   "day": "2026-11-11",
@@ -8947,20 +8957,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-12 00:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-12 00:15",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-12 00:20",
    "ok": true,
    "n": 0,
@@ -9221,6 +9217,20 @@
   },
   {
    "t": "11-12 03:51",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 03:51",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 03:57",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13700,11 +13710,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-08 22:01",
-   "new": "وزيراعظم لون اسڪيم: قرض جي حد 75 لکن مان وڌائي اڍائي ڪروڙ",
-   "old": "سنڌ | نوجوانن جي لاءِ قرضن جي حد ۾ واڌ"
-  },
-  {
    "t": "11-09 01:51",
    "new": "وزيراعظم پاران نوجوانن لاءِ قرض جي حد وڌائڻ جو اعلان",
    "old": "سنڌ | نوجوانن جي لاءِ قرضن جي حد ۾ واڌ"
@@ -13848,6 +13853,11 @@
    "t": "11-12 02:51",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات",
    "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
+  },
+  {
+   "t": "11-12 03:52",
+   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
+   "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13868,6 +13878,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 3
- }
+  "repeat": 4
+ },
+ "_dup": true
 }
