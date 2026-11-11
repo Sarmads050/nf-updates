@@ -1508,7 +1508,18 @@
   "25faa75d3a2a1e1b": 1794390059.4479926,
   "3cc93cb864f28022": 1794390068.6443858,
   "cae9fa7dc69ac7dd": 1794390083.7081358,
-  "2143a598f47bcc49": 1794391293.1805024
+  "2143a598f47bcc49": 1794391293.1805024,
+  "7374eec55877200a": 1794392515.924274,
+  "f24d8932fcbc6275": 1794392515.9242766,
+  "57c07f48ec4f7b34": 1794392515.924278,
+  "d753ad5e8f3c7e38": 1794392515.9242792,
+  "e8d99976015f27b6": 1794392515.9242802,
+  "8368d17ce1aabd01": 1794392515.9242806,
+  "a1ffe8eaed40c96f": 1794392515.9242814,
+  "d98aef87d37c3bea": 1794392515.9244974,
+  "858bbdbd6b8ce793": 1794392536.195525,
+  "bfa5a495fcc82024": 1794392536.1955268,
+  "d4fd97ca09097946": 1794392536.1957338
  },
  "pending": {},
  "queue": [],
@@ -2171,17 +2182,17 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794392173.6973386,
+   "last_edit": 1794392883.2576873,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-11 15:16",
+  "time": "2026-11-11 15:28",
   "items": 9,
   "sample": [
-   "Pakistan 434/9 v Sri Lanka 348/4 *",
+   "Pakistan 434/9 v Sri Lanka 365/4 *",
    "New South Wales 204/10 v South Australia 162/5 *",
    "Victoria 292/3 * v Western Australia"
   ]
@@ -7525,9 +7536,9 @@
  },
  "ai_usage": {
   "date": "2026-11-11",
-  "ok": 216,
-  "fail": 342,
-  "limit": 342
+  "ok": 226,
+  "fail": 362,
+  "limit": 362
  },
  "posted_heads": [
   {
@@ -7852,7 +7863,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-11 15:16",
+  "time": "2026-11-11 15:28",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7955,12 +7966,12 @@
  },
  "article_diag": {
   "date": "2026-11-11",
-  "tried": 23,
-  "decoded": 23,
-  "text": 22,
-  "story": 17
+  "tried": 25,
+  "decoded": 25,
+  "text": 24,
+  "story": 19
  },
- "ai_last_error": "15:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "15:22 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-11",
   "models": [
@@ -8003,14 +8014,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-11",
    "ok": 92,
-   "fail": 1,
+   "fail": 2,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 2,
    "last_status": 522
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-11",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8018,7 +8029,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-11",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8026,7 +8037,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8034,7 +8045,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8042,7 +8053,7 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
@@ -8050,17 +8061,17 @@
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-11",
    "ok": 93,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
-   "last_status": 504
+   "fail_streak": 1,
+   "last_status": 502
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-11",
    "ok": 0,
-   "fail": 93,
+   "fail": 94,
    "items": 15,
-   "fail_streak": 1032,
+   "fail_streak": 1033,
    "last_status": 404
   }
  },
@@ -8473,8 +8484,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 10,
-  "old": 10,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8520,8 +8531,8 @@
   "date": "2026-11-11",
   "count": 10,
   "last": 1794391277.600441,
-  "city_i": 22,
-  "dry": 1794390077.992877
+  "city_i": 4,
+  "dry": 1794392504.2075667
  },
  "gemini_day_dead": {
   "day": "2026-11-11",
@@ -9268,20 +9279,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-11 11:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-11 11:56",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-11 12:00",
    "ok": true,
    "n": 0,
@@ -9542,6 +9539,20 @@
   },
   {
    "t": "11-11 15:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 15:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 15:28",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14334,11 +14345,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-08 05:21",
-   "new": "پيٽروليم شين جي قيمتن ۾ گهٽ جو اعلان",
-   "old": "صبح جون سنڌ جون اهم خبرون"
-  },
-  {
    "t": "11-08 09:41",
    "new": "بابر اعظم پاڪستاني ٽيسٽ ٽيم جي قيادت ڪندو",
    "old": "پاڪستان پاران سريلنڪا خلاف ٽيسٽ اسڪواڊ جو اعلان"
@@ -14482,6 +14488,11 @@
    "t": "11-11 12:31",
    "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽ جو اعلان",
    "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
+  },
+  {
+   "t": "11-11 15:22",
+   "new": "لاهور جو سمگ، پاڪستان ۽ سری لنڪا ٽيسٽ ميچ راولپنڊي منتقل",
+   "old": "پاڪستان ۽ سری لنڪا وچ ۾ پهريون ٽيسٽ ميچ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14498,10 +14509,11 @@
  "quality": {
   "date": "2026-11-11",
   "editor_fixed": 24,
-  "editor_rejected": 0,
+  "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
-  "repeat": 7
- }
+  "repeat": 8
+ },
+ "_dup": true
 }
