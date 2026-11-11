@@ -1,7 +1,5 @@
 {
  "seen": {
-  "013313d376a48eda": 1793769663.0326846,
-  "a7e4c28c37e2a46d": 1793769690.8030398,
   "16c667c591b8064b": 1793770264.633542,
   "a5182c59f7d353d9": 1793770852.797856,
   "e90fb375ef57be10": 1793770865.1084175,
@@ -1518,7 +1516,13 @@
   "1b6b75b896a7484d": 1794372700.3418314,
   "da6d534142824ca0": 1794373871.91632,
   "e3557b96f5b088cc": 1794373871.9163237,
-  "c6c95eed252ff6fb": 1794374459.3269258
+  "c6c95eed252ff6fb": 1794374459.3269258,
+  "6ce8060e6676ef74": 1794375054.030073,
+  "d1487e161168f497": 1794375067.9429996,
+  "828b1f559b0e0c89": 1794375067.9430008,
+  "2c941efff1da5b2d": 1794375077.615647,
+  "380952303c49c420": 1794375077.61565,
+  "2682f51fff6a3a37": 1794375077.6157894
  },
  "pending": {},
  "queue": [],
@@ -1643,17 +1647,8 @@
    "cd07e3766e2f1fee"
   ]
  },
- "last_post_id": "1444130002106066_122119793307503839",
+ "last_post_id": "1444130002106066_122119799703503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122119525167503839",
-   "title": "راولپنڊي ٽيسٽ ۾ پاڪستان پنهنجي پهرين اننگز 434 رنز نو آئوٽ تي ختم ڪرڻ جو اعلان ڪري ڇڏيو",
-   "t": 1794301927.2917795,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122119525167503839"
-  },
   {
    "id": "1444130002106066_122119531749503839",
    "title": "ڪراچي جي ايم اي جناح روڊ تي پرائم سينٽر ۾ باهه",
@@ -1955,6 +1950,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122119793307503839"
+  },
+  {
+   "id": "1444130002106066_122119799703503839",
+   "title": "پهرين ٽيسٽ ميچ جي ٽئين ڏينهن تي پاڪستان خلاف سری لنڪا پنهنجي پهرين اننگز ٻيهر شروع ڪئي",
+   "t": 1794375142.3691413,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122119799703503839"
   }
  ],
  "share_sent": {
@@ -2085,8 +2089,8 @@
  },
  "cricket_news": {
   "date": "2026-11-11",
-  "count": 0,
-  "last": 1794301927.2917638
+  "count": 1,
+  "last": 1794375142.369126
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -2171,19 +2175,19 @@
    },
    "wicket_posts": 10,
    "break_done": true,
-   "last_edit": 1794374809.4728806,
+   "last_edit": 1794375447.3963697,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-11 10:26",
+  "time": "2026-11-11 10:37",
   "items": 9,
   "sample": [
-   "Pakistan 434/9 v Sri Lanka 145/3 *",
-   "New South Wales 204/10 v South Australia 69/1 *",
-   "Victoria 212/3 * v Western Australia"
+   "Pakistan 434/9 v Sri Lanka 155/3 *",
+   "New South Wales 204/10 v South Australia 92/1 *",
+   "Victoria 227/3 * v Western Australia"
   ]
  },
  "agri_news": {
@@ -2193,17 +2197,11 @@
  },
  "all_posts": {
   "date": "2026-11-11",
-  "count": 14,
-  "last": 1794374494.7470853
+  "count": 15,
+  "last": 1794375138.1880426
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122116164993503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793454704
-   },
    {
     "id": "1444130002106066_122116169397503839",
     "sec": "sindh_stream",
@@ -4597,6 +4595,12 @@
     "sec": "public_news",
     "cat": "dollar_gold_business",
     "t": 1794374500
+   },
+   {
+    "id": "1444130002106066_122119799703503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1794375142
    }
   ]
  },
@@ -7549,15 +7553,11 @@
  },
  "ai_usage": {
   "date": "2026-11-11",
-  "ok": 124,
-  "fail": 208,
-  "limit": 204
+  "ok": 134,
+  "fail": 226,
+  "limit": 222
  },
  "posted_heads": [
-  {
-   "h": "Pakistan’s export problem begins at home",
-   "t": 1794196928
-  },
   {
    "h": "First Test: Sri Lanka win toss, elect to bowl first against Pakistan",
    "t": 1794198204
@@ -7873,10 +7873,14 @@
   {
    "h": "Gold Prices in Pakistan Today – November 11, 2026 – Latest Per Tola, 10-Gram Gold Rates",
    "t": 1794374500
+  },
+  {
+   "h": "First Test: Sri Lanka resume first innings as Pakistan look to dominate Day 3",
+   "t": 1794375142
   }
  ],
  "last_errors": {
-  "time": "2026-11-11 10:26",
+  "time": "2026-11-11 10:37",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7979,12 +7983,12 @@
  },
  "article_diag": {
   "date": "2026-11-11",
-  "tried": 15,
-  "decoded": 15,
-  "text": 15,
+  "tried": 16,
+  "decoded": 16,
+  "text": 16,
   "story": 12
  },
- "ai_last_error": "10:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-11",
   "models": [
@@ -7998,9 +8002,9 @@
  },
  "img_diag": {
   "date": "2026-11-11",
-  "tried": 13,
+  "tried": 14,
   "gemini": 0,
-  "pollinations": 8,
+  "pollinations": 9,
   "skip": 1,
   "fail": 1,
   "last_note": "electricity meter and bill",
@@ -8026,7 +8030,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-11",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8034,7 +8038,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-11",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8042,7 +8046,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-11",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8050,7 +8054,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8058,7 +8062,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8066,14 +8070,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8082,9 +8086,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-11",
    "ok": 0,
-   "fail": 65,
+   "fail": 66,
    "items": 15,
-   "fail_streak": 1004,
+   "fail_streak": 1005,
    "last_status": 404
   }
  },
@@ -8493,12 +8497,12 @@
   "date": "2026-11-11",
   "district": 0,
   "sindh": 3,
-  "pakistan": 10
+  "pakistan": 11
  },
  "report_acc": {
-  "posted": 2,
-  "found": 12,
-  "old": 12,
+  "posted": 3,
+  "found": 19,
+  "old": 18,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8543,9 +8547,9 @@
  "sindh_stream": {
   "date": "2026-11-11",
   "count": 2,
-  "last": 1794373869.700454,
-  "city_i": 10,
-  "dry": 1794372662.413347
+  "last": 1794375066.7199688,
+  "city_i": 14,
+  "dry": 1794375067.9430022
  },
  "gemini_day_dead": {
   "day": "2026-11-10",
@@ -9256,6 +9260,14 @@
    "t": 1794374500,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "28c63f2e16806213",
+   "h": "پاڪستان ۽ سری لنڪا وچ ۾ پهريون ٽيسٽ ميچ",
+   "x": "پهرين ٽيسٽ ميچ جي ٽئين ڏينهن تي پاڪستان خلاف سری لنڪا پنهنجي پهرين اننگز ٻيهر شروع ڪئي جتي قومي ٽيم ميچ تي حاوي رهڻ جي ڪوشش ڪري رهي آهي",
+   "t": 1794375142,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9272,20 +9284,6 @@
   "last": 1794319295.5299706
  },
  "tg_debug": [
-  {
-   "t": "11-11 07:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-11 07:15",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-11 07:20",
    "ok": true,
@@ -9547,6 +9545,20 @@
   },
   {
    "t": "11-11 10:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 10:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 10:37",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14475,6 +14487,43 @@
     "ڪجه",
     "گذريل"
    ]
+  },
+  {
+   "t": 1794375142,
+   "h": "پاڪستان ۽ سری لنڪا وچ ۾ پهريون ٽيسٽ ميچ",
+   "b": "پهرين ٽيسٽ ميچ جي ٽئين ڏينهن تي پاڪستان خلاف سری لنڪا پنهنجي پهرين اننگز ٻيهر شروع ڪئي جتي قومي ٽيم ميچ تي",
+   "tt": [
+    "سري",
+    "لنڪا",
+    "ميچ",
+    "ٽيسٽ",
+    "پاڪستان",
+    "پهريون"
+   ],
+   "bt": [
+    "اننگز",
+    "اهي",
+    "جتي",
+    "حاوي",
+    "خلاف",
+    "رهي",
+    "رهڻ",
+    "سري",
+    "شروع",
+    "قومي",
+    "لنڪا",
+    "ميچ",
+    "ٻيهر",
+    "ٽئين",
+    "ٽيسٽ",
+    "ٽيم",
+    "پاڪستان",
+    "پنهنجي",
+    "پهرين",
+    "پهريون",
+    "ڏينهن",
+    "ڪوشش"
+   ]
   }
  ],
  "repeat_log": [
@@ -14642,7 +14691,7 @@
  },
  "quality": {
   "date": "2026-11-11",
-  "editor_fixed": 11,
+  "editor_fixed": 12,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
