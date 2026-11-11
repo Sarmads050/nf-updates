@@ -1,6 +1,5 @@
 {
  "seen": {
-  "f31b4796912e339a": 1793791260.9678617,
   "5de986d36d483f57": 1793791861.088968,
   "01bad691d6e16868": 1793792459.3378665,
   "c16218ed0a0329b7": 1793793665.3260887,
@@ -1493,7 +1492,11 @@
   "48879cd5e3b794a6": 1794394299.6135304,
   "77a65ff07dee84c1": 1794394933.6574972,
   "2817829d5d85db58": 1794394947.2736201,
-  "dee3028825a5e331": 1794394947.2780724
+  "dee3028825a5e331": 1794394947.2780724,
+  "d2440f1c65c5e6ad": 1794396711.4765122,
+  "7286b1a98add55b9": 1794396711.476514,
+  "ff92acb25bd2b769": 1794396711.476515,
+  "8d00a93cd0ec0d4b": 1794396711.476517
  },
  "pending": {},
  "queue": [],
@@ -1566,7 +1569,7 @@
  "sindh_single": {
   "date": "2026-11-11",
   "count": 1,
-  "last": 1794387696.4275568,
+  "last": 1794396744.2824495,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2154,14 +2157,14 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794396415.8186944,
+   "last_edit": 1794397053.5888584,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-11 16:26",
+  "time": "2026-11-11 16:37",
   "items": 12,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 404/4 *",
@@ -7508,9 +7511,9 @@
  },
  "ai_usage": {
   "date": "2026-11-11",
-  "ok": 257,
-  "fail": 395,
-  "limit": 395
+  "ok": 260,
+  "fail": 401,
+  "limit": 401
  },
  "posted_heads": [
   {
@@ -7843,7 +7846,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-11 16:26",
+  "time": "2026-11-11 16:37",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7951,7 +7954,7 @@
   "text": 25,
   "story": 19
  },
- "ai_last_error": "16:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "16:32 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-11",
   "models": [
@@ -7994,14 +7997,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-11",
    "ok": 92,
-   "fail": 8,
+   "fail": 9,
    "items": 10,
-   "fail_streak": 8,
+   "fail_streak": 9,
    "last_status": 522
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-11",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8009,7 +8012,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-11",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8017,7 +8020,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8025,7 +8028,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8033,14 +8036,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 99,
+   "ok": 100,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8049,9 +8052,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-11",
    "ok": 0,
-   "fail": 100,
+   "fail": 101,
    "items": 15,
-   "fail_streak": 1039,
+   "fail_streak": 1040,
    "last_status": 404
   }
  },
@@ -8240,8 +8243,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 20,
-  "old": 20,
+  "found": 30,
+  "old": 30,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8286,8 +8289,8 @@
  "sindh_stream": {
   "date": "2026-11-11",
   "count": 10,
-  "last": 1794394296.751506,
-  "city_i": 12,
+  "last": 1794396708.3651924,
+  "city_i": 16,
   "dry": 1794393113.1267214
  },
  "gemini_day_dead": {
@@ -9045,20 +9048,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-11 13:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-11 13:06",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-11 13:21",
    "ok": true,
    "n": 0,
@@ -9319,6 +9308,20 @@
   },
   {
    "t": "11-11 16:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 16:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 16:37",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13951,11 +13954,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-08 14:22",
-   "new": "بابراعظم چيو ته ٽيم جي چونڊ منهنجي وس ۾ ناهي",
-   "old": "بابراعظم جو پاڪستان جي ٽيسٽ ڪرڪيٽ بابت نئون عزم"
-  },
-  {
    "t": "11-08 14:41",
    "new": "نيپرا بجلي 2 رپيا 36 پئسا مهانگي ڪئي",
    "old": "شام جون سنڌ جون اهم خبرون"
@@ -14099,6 +14097,11 @@
    "t": "11-11 15:51",
    "new": "نوشهروفيروز سميت سنڌ جي مختلف علائقن ۾ برسات جو امڪان",
    "old": "ڪراچي ۾ جمعي تي هلڪي برسات جو امڪان"
+  },
+  {
+   "t": "11-11 16:31",
+   "new": "خيرپور ۾ تيل ۽ گئس جا نوان ذخيرا دريافت",
+   "old": "خيرپور ۾ تيل ۽ گئس جا نوان ذخيرا دريافت"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14119,6 +14122,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
-  "repeat": 9
- }
+  "repeat": 10
+ },
+ "_dup": true
 }
