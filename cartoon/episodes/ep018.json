@@ -1,0 +1,632 @@
+{
+ "id": "ep018",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 18,
+ "title": "Ghutne Ya App?",
+ "topic": "Sudden November drizzle in Sindh - Ammi's washed clothes in the aangan, her knees vs Mehak's weather app; Arsalan saves the clothes but leaves his own uniform out; Abba wants rain pakoray, besan finished, Arsalan goes to the shop and comes back soaked with a closed umbrella",
+ "music": "comic",
+ "tempo": 1.05,
+ "lesson": "Barish ka maza...<br>sab ke saath!",
+ "caption": "Sindh mein achanak barish! 🌧️ Ammi ke ghutne vs mausam ki app... aur Arsalan ki chhatri ka kamaal logic 😂☕ Aap ke ghar barish mein pakoray bante hain ya samose? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#BarishAurPakoray",
+  "#PakistaniFamily",
+  "#UrduCartoon",
+  "#SindhRain"
+ ],
+ "scenes": [
+  {
+   "set": "aangan",
+   "time": "day",
+   "label": "Aangan • Subah",
+   "cast": {
+    "AMMI": "charpai_l",
+    "SANA": "charpai_c",
+    "MEHAK": "stand_r"
+   },
+   "props": {
+    "MEHAK": "phone"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Nawabshah mein aaj *baadal* chhaye hain... aur Ammi ne saare *kapre dho kar* aangan mein phaila diye hain!",
+     "urdu": "نواب شاہ میں آج بادل چھائے ہوئے ہیں... اور امی نے سارے کپڑے دھو کر آنگن میں پھیلا دیے ہیں!",
+     "how": "warm storyteller, light and playful",
+     "shot": "wide",
+     "gap": 0.1,
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "worried",
+     "roman": "Ammi! Mausam ki *app* keh rahi hai, aaj dopahar mein *barish* hogi!",
+     "urdu": "امی! موسم کی ایپ کہہ رہی ہے، آج دوپہر میں بارش ہوگی!",
+     "how": "14-year-old smart girl, showing her phone, urgent",
+     "pose": "phone_look",
+     "shot": "close",
+     "looks": {
+      "AMMI": "MEHAK",
+      "SANA": "MEHAK"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "proud",
+     "roman": "App ko kya pata? Mere *ghutne* keh rahe hain, aaj barish *nahi* hogi!",
+     "urdu": "ایپ کو کیا پتا؟ میرے گھٹنے کہہ رہے ہیں، آج بارش نہیں ہوگی!",
+     "how": "50-year-old confident mother, very sure of her old totka",
+     "pose": "explain",
+     "shot": "close",
+     "joke": true,
+     "gap": 0.5,
+     "looks": {
+      "SANA": "AMMI",
+      "MEHAK": "AMMI"
+     },
+     "react": {
+      "SANA": "laugh",
+      "MEHAK": "teasing"
+     },
+     "react_pose": {
+      "SANA": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "AMMI",
+     "emo": "teasing",
+     "roman": "Chaliye Ammi... aaj *ghutnon* aur *app* ka muqabla hai!",
+     "urdu": "چلیے امی... آج گھٹنوں اور ایپ کا مقابلہ ہے!",
+     "how": "25-year-old polite daughter-in-law, smiling, gently teasing",
+     "pose": "clap",
+     "shot": "two:SANA",
+     "looks": {
+      "AMMI": "SANA",
+      "MEHAK": "SANA"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "up",
+     "emo": "surprised",
+     "roman": "Arre! Yeh to *boondein* gir rahi hain! *Kapre!* Kapre bachao!",
+     "urdu": "ارے! یہ تو بوندیں گر رہی ہیں! کپڑے! کپڑے بچاؤ!",
+     "how": "mother suddenly panicking, loud and fast",
+     "pose": "arms_up",
+     "shot": "close",
+     "before": [
+      {
+       "do": "sfx",
+       "name": "rain",
+       "wait": 0.6
+      }
+     ],
+     "sfx": [
+      "rain"
+     ],
+     "looks": {
+      "SANA": "up",
+      "MEHAK": "up"
+     },
+     "react": {
+      "*": "surprised"
+     },
+     "react_pose": {
+      "SANA": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "door",
+     "emo": "worried",
+     "roman": "*Arsalan!* Jaldi aao, saare kapre *andar* le chalo!",
+     "urdu": "ارسلان! جلدی آؤ، سارے کپڑے اندر لے چلو!",
+     "how": "mother calling loudly toward the house",
+     "pose": "beckon",
+     "shot": "group",
+     "looks": {
+      "SANA": "door",
+      "MEHAK": "door"
+     },
+     "react_pose": {
+      "SANA": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Aa gaya Ammi! Aaj pehli baar *kaam* karne mein *maza* aa raha hai!",
+     "urdu": "آ گیا امی! آج پہلی بار کام کرنے میں مزہ آ رہا ہے!",
+     "how": "17-year-old boy, excited about the rain, running in",
+     "pose": "arms_up",
+     "shot": "group",
+     "before": [
+      {
+       "do": "enter",
+       "who": "ARSALAN",
+       "slot": "stand_l"
+      }
+     ],
+     "joke": true,
+     "gap": 0.6,
+     "looks": {
+      "AMMI": "ARSALAN",
+      "SANA": "ARSALAN",
+      "MEHAK": "ARSALAN"
+     },
+     "react": {
+      "SANA": "laugh",
+      "MEHAK": "laugh",
+      "AMMI": "teasing"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest",
+      "MEHAK": "rest"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "day",
+   "label": "Drawing Room • Dopahar",
+   "cast": {
+    "SANA": "sofa_l",
+    "AMMI": "sofa_c",
+    "MEHAK": "sofa_r",
+    "ARSALAN": "stand_r"
+   },
+   "props": {},
+   "lines": [
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "proud",
+     "roman": "Ammi, saare kapre *andar* aa gaye! Ek bhi *geela* nahi hua!",
+     "urdu": "امی، سارے کپڑے اندر آ گئے! ایک بھی گیلا نہیں ہوا!",
+     "how": "teen boy, proud of himself, chest out",
+     "pose": "chest",
+     "shot": "close",
+     "looks": {
+      "AMMI": "ARSALAN",
+      "SANA": "ARSALAN",
+      "MEHAK": "ARSALAN"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "confused",
+     "roman": "Achha? To tumhari *school ki uniform* kahan hai?",
+     "urdu": "اچھا؟ تو تمہاری اسکول کی یونیفارم کہاں ہے؟",
+     "how": "mother suspicious, eyebrows up",
+     "pose": "wag",
+     "shot": "two:AMMI",
+     "looks": {
+      "SANA": "AMMI",
+      "MEHAK": "AMMI"
+     },
+     "react_pose": {
+      "SANA": "rest",
+      "MEHAK": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "roman": "Woh... baahar hi hai Ammi. *Muft ki dhulai* ho rahi hai!",
+     "urdu": "وہ... باہر ہی ہے امی۔ مفت کی دھلائی ہو رہی ہے!",
+     "how": "caught, sheepish grin, trying to be clever",
+     "pose": "scratch_head",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.7,
+     "looks": {
+      "AMMI": "ARSALAN",
+      "SANA": "ARSALAN",
+      "MEHAK": "ARSALAN"
+     },
+     "react": {
+      "SANA": "laugh",
+      "MEHAK": "laugh",
+      "AMMI": "angry"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "angry",
+     "roman": "Jao, abhi le kar aao! Warna kal *geeli uniform* pehen kar jaoge!",
+     "urdu": "جاؤ، ابھی لے کر آؤ! ورنہ کل گیلی یونیفارم پہن کر جاؤ گے!",
+     "how": "strict loving mother scolding",
+     "pose": "point_other",
+     "shot": "close",
+     "looks": {
+      "SANA": "AMMI",
+      "MEHAK": "AMMI"
+     },
+     "react_pose": {
+      "SANA": "rest",
+      "MEHAK": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Zaib-un-Nisa, barish! *Humare zamane mein* barish ka matlab tha... *garam pakoray!*",
+     "urdu": "زیب النساء، بارش! ہمارے زمانے میں بارش کا مطلب تھا... گرم پکوڑے!",
+     "how": "57-year-old father, cheerful, just came in from the rain, dreamy about pakoras",
+     "pose": "explain",
+     "shot": "close",
+     "before": [
+      {
+       "do": "exit",
+       "who": "ARSALAN"
+      },
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.3
+      },
+      {
+       "do": "enter",
+       "who": "ABBA",
+       "slot": "stand_l"
+      }
+     ],
+     "looks": {
+      "AMMI": "ABBA",
+      "SANA": "ABBA",
+      "MEHAK": "ABBA"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "worried",
+     "roman": "Pakoray kaise banaoon? Ghar mein to *besan* khatam hai!",
+     "urdu": "پکوڑے کیسے بناؤں؟ گھر میں تو بیسن ختم ہے!",
+     "how": "mother, worried, hands open",
+     "pose": "shrug",
+     "shot": "two:AMMI",
+     "looks": {
+      "SANA": "AMMI",
+      "MEHAK": "AMMI",
+      "ABBA": "AMMI"
+     },
+     "react": {
+      "ABBA": "sad"
+     },
+     "react_pose": {
+      "SANA": "rest",
+      "MEHAK": "rest",
+      "ABBA": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "happy",
+     "roman": "Uniform le aaya! Abba, main *gali ki dukaan* se besan le aata hoon!",
+     "urdu": "یونیفارم لے آیا! ابا، میں گلی کی دکان سے بیسن لے آتا ہوں!",
+     "how": "teen boy, very eager to go out in the rain",
+     "pose": "wave",
+     "shot": "group",
+     "before": [
+      {
+       "do": "enter",
+       "who": "ARSALAN",
+       "slot": "stand_r"
+      }
+     ],
+     "looks": {
+      "AMMI": "ARSALAN",
+      "SANA": "ARSALAN",
+      "MEHAK": "ARSALAN",
+      "ABBA": "ARSALAN"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest",
+      "MEHAK": "rest",
+      "ABBA": "rest"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "AMMI",
+     "emo": "teasing",
+     "roman": "Dekha Ammi? Inhein bas barish mein *bheegne ka bahana* chahiye!",
+     "urdu": "دیکھا امی؟ انہیں بس بارش میں بھیگنے کا بہانہ چاہیے!",
+     "how": "daughter-in-law, laughing, teasing the young brother",
+     "pose": "point_other",
+     "shot": "two:SANA",
+     "joke": true,
+     "gap": 0.6,
+     "looks": {
+      "AMMI": "SANA",
+      "MEHAK": "SANA",
+      "ABBA": "SANA"
+     },
+     "react": {
+      "*": "laugh",
+      "ARSALAN": "sheepish"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "MEHAK": "rest",
+      "ABBA": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "calm",
+     "roman": "Yeh lo *paise*. *Chhatri* le kar jana, aur seedha *wapas* aana!",
+     "urdu": "یہ لو پیسے۔ چھتری لے کر جانا، اور سیدھا واپس آنا!",
+     "how": "father, giving money, serious but kind",
+     "pose": "give",
+     "shot": "two:ABBA",
+     "before": [
+      {
+       "do": "approach",
+       "who": "ARSALAN",
+       "to": "ABBA"
+      }
+     ],
+     "give": {
+      "to": "ARSALAN",
+      "prop": "money",
+      "at": 0.5
+     },
+     "looks": {
+      "ARSALAN": "ABBA",
+      "AMMI": "ABBA"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest",
+      "MEHAK": "rest"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "time": "evening",
+   "label": "Kitchen • Shaam",
+   "cast": {
+    "AMMI": "stove",
+    "MEHAK": "mid",
+    "ABBA": "right",
+    "ARSALAN": "left"
+   },
+   "props": {
+    "AMMI": "ladle",
+    "ABBA": "cup",
+    "MEHAK": "plate"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Arsalan *besan* le aaya... lekin *poora bheeg* kar! Aur ab kitchen mein *pakoray* tal rahe hain!",
+     "urdu": "ارسلان بیسن لے آیا... لیکن پورا بھیگ کر! اور اب کچن میں پکوڑے تل رہے ہیں!",
+     "how": "warm storyteller, amused",
+     "shot": "wide",
+     "gap": 0.1,
+     "sfx": [
+      "rain"
+     ],
+     "react_pose": {
+      "AMMI": "rest",
+      "MEHAK": "rest",
+      "ABBA": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Waah! Garam *chai*, garam *pakoray*... yahi asli *barish* hai!",
+     "urdu": "واہ! گرم چائے، گرم پکوڑے... یہی اصلی بارش ہے!",
+     "how": "father, very happy, sipping tea",
+     "pose": "hold",
+     "shot": "close",
+     "looks": {
+      "AMMI": "ABBA",
+      "MEHAK": "ABBA",
+      "ARSALAN": "ABBA"
+     },
+     "react": {
+      "AMMI": "warm"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "MEHAK": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "confused",
+     "roman": "Arsalan, *chhatri* le kar gaye the, phir bhi *bheeg* kaise gaye?",
+     "urdu": "ارسلان، چھتری لے کر گئے تھے، پھر بھی بھیگ کیسے گئے؟",
+     "how": "mother puzzled, pointing the ladle",
+     "pose": "wag",
+     "shot": "group",
+     "looks": {
+      "MEHAK": "AMMI",
+      "ABBA": "AMMI",
+      "ARSALAN": "AMMI"
+     },
+     "react_pose": {
+      "MEHAK": "rest",
+      "ABBA": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "roman": "Ammi, chhatri ko *barish se bachana* tha... is liye *band* hi rakhi!",
+     "urdu": "امی، چھتری کو بارش سے بچانا تھا... اس لیے بند ہی رکھی!",
+     "how": "teen boy, innocent face, silly logic",
+     "pose": "shrug",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.8,
+     "looks": {
+      "AMMI": "ARSALAN",
+      "MEHAK": "ARSALAN",
+      "ABBA": "ARSALAN"
+     },
+     "react": {
+      "*": "laugh"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "MEHAK": "rest",
+      "ABBA": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "teasing",
+     "roman": "Ammi, ab aap ke *ghutne* kya keh rahe hain?",
+     "urdu": "امی، اب آپ کے گھٹنے کیا کہہ رہے ہیں؟",
+     "how": "girl teasing her mother sweetly",
+     "pose": "point_other",
+     "shot": "two:MEHAK",
+     "looks": {
+      "AMMI": "MEHAK",
+      "ABBA": "MEHAK",
+      "ARSALAN": "MEHAK"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "ABBA": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "warm",
+     "roman": "Keh rahe hain... *kal dhoop* niklegi, aur uniform *sookh* jayegi!",
+     "urdu": "کہہ رہے ہیں... کل دھوپ نکلے گی، اور یونیفارم سوکھ جائے گی!",
+     "how": "mother smiling, confident again",
+     "pose": "explain",
+     "shot": "close",
+     "looks": {
+      "MEHAK": "AMMI",
+      "ABBA": "AMMI",
+      "ARSALAN": "AMMI"
+     },
+     "react_pose": {
+      "MEHAK": "rest",
+      "ABBA": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ABBA",
+     "emo": "laugh",
+     "roman": "Abba, subah Ammi ke ghutne *fail* hue the... ab *update* ho gaye hain!",
+     "urdu": "ابا، صبح امی کے گھٹنے فیل ہوئے تھے... اب اپڈیٹ ہو گئے ہیں!",
+     "how": "girl laughing, punchline",
+     "pose": "clap",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.7,
+     "looks": {
+      "AMMI": "MEHAK",
+      "ABBA": "MEHAK",
+      "ARSALAN": "MEHAK"
+     },
+     "react": {
+      "*": "laugh"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "ABBA": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "front",
+     "emo": "warm",
+     "roman": "Barish ka asal maza yahi hai... *sab saath* hon, aur *chai pakoray!*",
+     "urdu": "بارش کا اصل مزہ یہی ہے... سب ساتھ ہوں، اور چائے پکوڑے!",
+     "how": "father, warm, content, ending line",
+     "pose": "hold",
+     "shot": "group",
+     "gap": 0.8,
+     "looks": {
+      "AMMI": "ABBA",
+      "MEHAK": "ABBA",
+      "ARSALAN": "ABBA"
+     },
+     "react": {
+      "*": "happy"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "MEHAK": "rest",
+      "ARSALAN": "rest"
+     }
+    }
+   ]
+  }
+ ]
+}
