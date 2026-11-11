@@ -1,6 +1,5 @@
 {
  "seen": {
-  "01bad691d6e16868": 1793792459.3378665,
   "c16218ed0a0329b7": 1793793665.3260887,
   "d90bb39eab2a77dc": 1793793674.879416,
   "b8111336dc5a8908": 1793794255.0618982,
@@ -1495,7 +1494,13 @@
   "d2440f1c65c5e6ad": 1794396711.4765122,
   "7286b1a98add55b9": 1794396711.476514,
   "ff92acb25bd2b769": 1794396711.476515,
-  "8d00a93cd0ec0d4b": 1794396711.476517
+  "8d00a93cd0ec0d4b": 1794396711.476517,
+  "11841ebe88cd4ef8": 1794397872.5820951,
+  "640e62684c5dc04a": 1794397903.6253893,
+  "0c93f26bf09306d9": 1794397903.625392,
+  "6e548be2690af799": 1794397903.6253934,
+  "db2783f05ad8db3a": 1794397903.625394,
+  "adb430d3005a5f45": 1794397903.625396
  },
  "pending": {},
  "queue": [],
@@ -2156,14 +2161,14 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794397602.8657482,
+   "last_edit": 1794398210.227645,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-11 16:46",
+  "time": "2026-11-11 16:56",
   "items": 12,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 404/4 *",
@@ -7510,9 +7515,9 @@
  },
  "ai_usage": {
   "date": "2026-11-11",
-  "ok": 263,
-  "fail": 405,
-  "limit": 405
+  "ok": 265,
+  "fail": 409,
+  "limit": 409
  },
  "posted_heads": [
   {
@@ -7849,7 +7854,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-11 16:46",
+  "time": "2026-11-11 16:56",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7957,7 +7962,7 @@
   "text": 25,
   "story": 19
  },
- "ai_last_error": "16:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "16:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-11",
   "models": [
@@ -8000,14 +8005,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-11",
    "ok": 92,
-   "fail": 10,
+   "fail": 11,
    "items": 10,
-   "fail_streak": 10,
+   "fail_streak": 11,
    "last_status": 522
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-11",
-   "ok": 102,
+   "ok": 103,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8015,7 +8020,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-11",
-   "ok": 102,
+   "ok": 103,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8023,7 +8028,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 102,
+   "ok": 103,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8031,7 +8036,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 102,
+   "ok": 103,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8039,14 +8044,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 102,
+   "ok": 103,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 101,
+   "ok": 102,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8055,9 +8060,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-11",
    "ok": 0,
-   "fail": 102,
+   "fail": 103,
    "items": 15,
-   "fail_streak": 1041,
+   "fail_streak": 1042,
    "last_status": 404
   }
  },
@@ -8246,8 +8251,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 40,
-  "old": 40,
+  "found": 50,
+  "old": 50,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8292,8 +8297,8 @@
  "sindh_stream": {
   "date": "2026-11-11",
   "count": 10,
-  "last": 1794396708.3651924,
-  "city_i": 16,
+  "last": 1794397901.1236613,
+  "city_i": 20,
   "dry": 1794393113.1267214
  },
  "gemini_day_dead": {
@@ -9034,20 +9039,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-11 13:37",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-11 13:42",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-11 13:42",
    "ok": true,
    "n": 0,
@@ -9308,6 +9299,20 @@
   },
   {
    "t": "11-11 16:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 16:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 16:56",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13944,11 +13949,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-08 14:41",
-   "new": "نيپرا بجلي 2 رپيا 36 پئسا مهانگي ڪئي",
-   "old": "شام جون سنڌ جون اهم خبرون"
-  },
-  {
    "t": "11-08 14:51",
    "new": "حڪومت پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽائي ڪري ڇڏي",
    "old": "پيٽرول سستو، پر مهانگائي برقرار"
@@ -14092,6 +14092,11 @@
    "t": "11-11 16:31",
    "new": "خيرپور ۾ تيل ۽ گئس جا نوان ذخيرا دريافت",
    "old": "خيرپور ۾ تيل ۽ گئس جا نوان ذخيرا دريافت"
+  },
+  {
+   "t": "11-11 16:51",
+   "new": "سنڌ جي مختلف علائقن ۾ برسات جي اڳڪٿي",
+   "old": "ڪراچي ۾ جمعي تي هلڪي برسات جو امڪان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14112,6 +14117,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
-  "repeat": 10
- }
+  "repeat": 11
+ },
+ "_dup": true
 }
