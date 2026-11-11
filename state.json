@@ -1501,7 +1501,10 @@
   "c40d733a02cb2fe9": 1794409941.5057676,
   "51093a871ddd7b42": 1794409941.5057685,
   "3dbe9eab85d43cad": 1794409941.5057697,
-  "2771a256030db475": 1794409941.5057716
+  "2771a256030db475": 1794409941.5057716,
+  "c15b5d56f8e9fde3": 1794411082.354574,
+  "de226d75a462abf1": 1794411117.2035627,
+  "711f1311a60be595": 1794411117.2035651
  },
  "pending": {},
  "queue": [],
@@ -2165,14 +2168,14 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794410787.4228516,
+   "last_edit": 1794411422.4023373,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-11 20:26",
+  "time": "2026-11-11 20:37",
   "items": 11,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 404/4 *",
@@ -4600,56 +4603,8 @@
   "last": 1794393188.522807
  },
  "trends": {
-  "last": 1794400276.5394208,
+  "last": 1794411082.354955,
   "terms": [
-   {
-    "term": "maliha ali immaf world championships",
-    "traffic": 200,
-    "news": "Pakistan team to face world’s best at MMA World C’ships",
-    "t": 1793797857,
-    "cat": "education_jobs",
-    "sindh": false
-   },
-   {
-    "term": "gold prices",
-    "traffic": 200,
-    "news": "Gold Price in Pakistan Today: Rs 423,000/Tola (24K) | Live Sarafa Rate",
-    "t": 1793797857,
-    "cat": "dollar_gold_business",
-    "sindh": false
-   },
-   {
-    "term": "samsung galaxy s27 ultra dummy unit",
-    "traffic": 1000,
-    "news": "I Held the Galaxy S27 Ultra Before Samsung Announced It, and One Change Stands Out",
-    "t": 1793797857,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "j. sale",
-    "traffic": 200,
-    "news": "‘A Court of Thorns and Roses’ Book 6 Breaks Sarah J. Maas’ Release Day Record With 1.7 Million Copies Sold (EXCLUSIVE)",
-    "t": 1793797857,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "j.",
-    "traffic": 2000,
-    "news": "Opinion: Kou’s views on the Cubberley deal changed when council put a sales tax on the ballot",
-    "t": 1793797857,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "bail",
-    "traffic": 200,
-    "news": "Pakistan court jails prominent rights couple for 10 years, family says",
-    "t": 1793797857,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "alexander zverev",
     "traffic": 100,
@@ -7497,15 +7452,47 @@
     "t": 1794400276,
     "cat": "technology",
     "sindh": false
+   },
+   {
+    "term": "petrol price reduction",
+    "traffic": 5000,
+    "news": "Petrol price reduced to Rs338 per litre, diesel set at Rs371",
+    "t": 1794411082,
+    "cat": "fuel",
+    "sindh": false
+   },
+   {
+    "term": "طلاق",
+    "traffic": 100,
+    "news": "يارا تعلن عودتها إلى مسلم رسميًا.. رسالة مؤثرة تكشف تفاصيل الصلح: «متهونتش على حبيبك»",
+    "t": 1794411082,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "avengers endgame encore",
+    "traffic": 100,
+    "news": "Endgame Encore Hits Disney+, Setting Stage for MCU’s Critical Future",
+    "t": 1794411082,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "oppo reno 17 pro",
+    "traffic": 500,
+    "news": "OPPO Reno 17 Series Launch Set for November 16: Official Images Reveal Design",
+    "t": 1794411082,
+    "cat": "technology",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-11",
-  "ok": 298,
-  "fail": 459,
-  "limit": 459
+  "ok": 300,
+  "fail": 463,
+  "limit": 463
  },
  "posted_heads": [
   {
@@ -7830,7 +7817,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-11 20:26",
+  "time": "2026-11-11 20:37",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7938,7 +7925,7 @@
   "text": 27,
   "story": 21
  },
- "ai_last_error": "20:12 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "20:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-11",
   "models": [
@@ -7981,14 +7968,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-11",
    "ok": 92,
-   "fail": 32,
+   "fail": 33,
    "items": 10,
-   "fail_streak": 32,
+   "fail_streak": 33,
    "last_status": 522
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-11",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7996,7 +7983,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-11",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8004,7 +7991,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8012,7 +7999,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8020,14 +8007,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 119,
+   "ok": 120,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8036,9 +8023,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-11",
    "ok": 0,
-   "fail": 124,
+   "fail": 125,
    "items": 15,
-   "fail_streak": 1063,
+   "fail_streak": 1064,
    "last_status": 404
   }
  },
@@ -8227,8 +8214,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 17,
-  "old": 17,
+  "found": 25,
+  "old": 25,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8273,9 +8260,9 @@
  "sindh_stream": {
   "date": "2026-11-11",
   "count": 14,
-  "last": 1794409914.4435167,
-  "city_i": 16,
-  "dry": 1794406305.9942105
+  "last": 1794411115.634101,
+  "city_i": 20,
+  "dry": 1794411117.2035666
  },
  "gemini_day_dead": {
   "day": "2026-11-11",
@@ -8954,20 +8941,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-11 17:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-11 17:17",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-11 17:20",
    "ok": true,
    "n": 0,
@@ -9228,6 +9201,20 @@
   },
   {
    "t": "11-11 20:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 20:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 20:37",
    "ok": true,
    "n": 0,
    "ids": [],
