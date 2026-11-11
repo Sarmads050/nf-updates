@@ -1,12 +1,5 @@
 {
  "seen": {
-  "4edced61af2c799c": 1793779266.2988107,
-  "64982164bfc39baa": 1793779266.2988365,
-  "f540d5e74310d3aa": 1793779512.1271005,
-  "531df3df84cb234a": 1793779512.1271026,
-  "75d703906ca4a543": 1793779512.127105,
-  "12dbb7cc52340755": 1793780490.9652154,
-  "223f378fd1bd3fae": 1793780490.9652178,
   "e0862ea61c959590": 1793780533.8034654,
   "d9e8bae8fbb1e31f": 1793780533.803468,
   "60f237268778701c": 1793780533.803753,
@@ -1521,7 +1514,12 @@
   "b6dcc705a1cd2b31": 1794383448.3396661,
   "3a0c68601efb57f4": 1794383491.0542839,
   "626f8fc53d2c7cd5": 1794383491.054288,
-  "cbaed5e689b95a5c": 1794383491.0542908
+  "cbaed5e689b95a5c": 1794383491.0542908,
+  "a67402ba48f64adc": 1794385518.046775,
+  "f3608830c77bdd4c": 1794385518.046778,
+  "4e49c44ce1fd28ec": 1794385518.0467792,
+  "b9fe1e4e906968a1": 1794385666.4063087,
+  "f4eb5d0e4479b34d": 1794385666.406503
  },
  "pending": {},
  "queue": [],
@@ -1539,7 +1537,7 @@
   "last_week": "",
   "last_check": "2026-11-11"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.5-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1646,18 +1644,8 @@
    "cd07e3766e2f1fee"
   ]
  },
- "last_post_id": "1444130002106066_122119835529503839",
+ "last_post_id": "1444130002106066_122119843941503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122119563315503839",
-   "title": "مورو ۾ بي آءِ پي ايس 17 جي امتحان ۾ نااهل قرار ڏنل استادن پاران پريس ڪلب اڳيان احتجاج",
-   "t": 1794310283.3540473,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122119563315503839"
-  },
   {
    "id": "1444130002106066_122119567941503839",
    "title": "مورو ۾ جوابدار گرفتار، هٿيار برآمد",
@@ -1963,6 +1951,15 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122119835529503839"
+  },
+  {
+   "id": "1444130002106066_122119843941503839",
+   "title": "لاهور ۾ سئموگ سبب پاڪستان ۽ سريلنڪا وچ ۾ ٻيو ٽيسٽ ميچ لاهور بدران راولپنڊي منتقل ڪيو ويو",
+   "t": 1794385896.9489532,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122119843941503839"
   }
  ],
  "share_sent": {
@@ -2093,8 +2090,8 @@
  },
  "cricket_news": {
   "date": "2026-11-11",
-  "count": 2,
-  "last": 1794382344.6371312
+  "count": 3,
+  "last": 1794385896.9489331
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -2179,17 +2176,17 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794384370.845109,
+   "last_edit": 1794386202.0288038,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-11 13:06",
+  "time": "2026-11-11 13:36",
   "items": 9,
   "sample": [
-   "Pakistan 434/9 v Sri Lanka 237/4 *",
+   "Pakistan 434/9 v Sri Lanka 285/4 *",
    "New South Wales 204/10 v South Australia 162/5 *",
    "Victoria 292/3 * v Western Australia"
   ]
@@ -2201,17 +2198,11 @@
  },
  "all_posts": {
   "date": "2026-11-11",
-  "count": 22,
-  "last": 1794383636.9995341
+  "count": 23,
+  "last": 1794385891.8132393
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122116273977503839",
-    "sec": "public_news",
-    "cat": "electricity_gas",
-    "t": 1793480606
-   },
    {
     "id": "1444130002106066_122116284177503839",
     "sec": "agri_news",
@@ -4605,6 +4596,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1794383646
+   },
+   {
+    "id": "1444130002106066_122119843941503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1794385896
    }
   ]
  },
@@ -7549,15 +7546,11 @@
  },
  "ai_usage": {
   "date": "2026-11-11",
-  "ok": 176,
-  "fail": 295,
-  "limit": 290
+  "ok": 184,
+  "fail": 296,
+  "limit": 294
  },
  "posted_heads": [
-  {
-   "h": "ڪراچي ۾ ڏوهن جو وڌندڙ وارداتون، قانون لاڳو ڪندڙ ادارن کي متحرڪ ٿيڻ جي ضرورت",
-   "t": 1794208286
-  },
   {
    "h": "بدلجندڙ عالمي سياست ۽ مڪه گڏيل دفاعي معاهدو",
    "t": 1794209489
@@ -7873,10 +7866,14 @@
   {
    "h": "غربت بابت ورلڊ بينڪ جي رپورٽ ۽ گم ٿيل بحث",
    "t": 1794383647
+  },
+  {
+   "h": "Pakistan move second Sri Lanka Test to Rawalpindi from Lahore due to smog",
+   "t": 1794385897
   }
  ],
  "last_errors": {
-  "time": "2026-11-11 13:06",
+  "time": "2026-11-11 13:36",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7979,12 +7976,12 @@
  },
  "article_diag": {
   "date": "2026-11-11",
-  "tried": 20,
-  "decoded": 20,
-  "text": 19,
-  "story": 15
+  "tried": 21,
+  "decoded": 21,
+  "text": 20,
+  "story": 16
  },
- "ai_last_error": "12:52 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "13:31 gemini-3.6-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-11-11",
   "models": [
@@ -7998,13 +7995,13 @@
  },
  "img_diag": {
   "date": "2026-11-11",
-  "tried": 20,
+  "tried": 21,
   "gemini": 0,
-  "pollinations": 12,
+  "pollinations": 13,
   "skip": 3,
   "fail": 3,
-  "last_note": "rupee notes and coins",
-  "mismatch": 591,
+  "last_note": "cricket stadium pitch and wickets",
+  "mismatch": 592,
   "unverified": 1
  },
  "gemini_img": {
@@ -8026,7 +8023,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-11",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8034,7 +8031,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-11",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8042,7 +8039,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-11",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8050,7 +8047,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8058,7 +8055,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8066,14 +8063,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8082,9 +8079,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-11",
    "ok": 0,
-   "fail": 81,
+   "fail": 82,
    "items": 15,
-   "fail_streak": 1020,
+   "fail_streak": 1021,
    "last_status": 404
   }
  },
@@ -8493,12 +8490,12 @@
   "date": "2026-11-11",
   "district": 0,
   "sindh": 8,
-  "pakistan": 12
+  "pakistan": 13
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 9,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8543,18 +8540,17 @@
  "sindh_stream": {
   "date": "2026-11-11",
   "count": 7,
-  "last": 1794383480.5657368,
-  "city_i": 20,
-  "dry": 1794382286.407874
+  "last": 1794385334.6882691,
+  "city_i": 24,
+  "dry": 1794385518.0467808
  },
  "gemini_day_dead": {
-  "day": "2026-11-10",
+  "day": "2026-11-11",
   "models": [
-   "gemini-flash-latest",
    "gemini-3.7-flash",
+   "gemini-flash-latest",
    "gemini-3.8-flash",
-   "gemini-3.6-flash",
-   "gemini-3.5-flash"
+   "gemini-3.6-flash"
   ]
  },
  "tg_done": [
@@ -9256,6 +9252,14 @@
    "t": 1794383646,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "5723a15a824f556f",
+   "h": "پاڪستان ۽ سريلنڪا ٻي ٽيسٽ ميچ راولپنڊي منتقل",
+   "x": "پاڪستان ڪرڪيٽ بورڊ اڱاري ڏينهن چيو آهي ته وڌندڙ سموگ جي ڪري پاڪستان ۽ شريلنڪا وچ ۾ ايندڙ هفتي ٿيندڙ ٻن ٽيسٽ ميچن جي سيريز جي ٻي ميچ لاهور کان راولپنڊي منتقل ڪئي وئي آهي. راولپنڊي هن وقت سيريز جي پهرين ميچ جي ميزباني ڪري رهيو آهي، جڏهن ته ٻي ميچ شيڊول موجب 17 کان 21 نومبر تائين کيڏي ويندي. لاهور گذريل ڪجهه هفتن کان هوا جي خراب معيار سان منهن ڏئي رهيو آهي، ڇاڪاڻ ته سياري جي مهينن ۾ پاڪستان جي وڏن حصن کي موسمي سموگ پنهنجي لپيٽ ۾ وٺي ڇڏيندو آهي. سوئس ايئر ڪوالٽي مانيٽرنگ ڪمپني آءِ ڪيو ايئر موجب لاهور هن وقت دنيا جو سڀ کان وڌيڪ آلوده وڏو شهر آهي. هوا جي معيار بابت خدشن ان کان اڳ به پاڪستان ۾ ڪرڪيٽ جي شيڊول کي متاثر ڪيو آهي. سموگ سبب 2020ع ۾ زمبابوي خلاف لميٽڊ اوورز سيريز لاهور کان راولپنڊي ۽ 2022ع ۾ نيوزيلينڊ خلاف ٽيسٽ ميچ ملتان کان ڪراچي منتقل ڪئي وئي هئي.",
+   "t": 1794385896,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9274,20 +9278,6 @@
   "last": 1794319295.5299706
  },
  "tg_debug": [
-  {
-   "t": "11-11 09:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-11 09:57",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-11 10:00",
    "ok": true,
@@ -9553,36 +9543,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-11 13:21",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 13:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-11",
  "recent_posts": [
-  {
-   "t": 1794211592,
-   "h": "وڪيٽ! پاڪستان جو رانديگر آئوٽ، 3 وڪيٽون ڪري پيون",
-   "b": "هاڻوڪو اسڪور: پاڪستان 159/3 🏏 سري لنڪا",
-   "tt": [
-    "ائوٽ،",
-    "رانديگر",
-    "وڪيٽ",
-    "وڪيٽون",
-    "پاڪستان",
-    "پيون"
-   ],
-   "bt": [
-    "#159",
-    "ائوٽ،",
-    "اسڪور",
-    "رانديگر",
-    "سري",
-    "لنڪا",
-    "هاڻوڪو",
-    "وڪيٽ",
-    "وڪيٽون",
-    "پاڪستان",
-    "پيون"
-   ]
-  },
   {
    "t": 1794213524,
    "h": "ڪراچي: يونيورسٽي روڊ واري يوٽرن جي ڊيزائن تي وضاحت جاري",
@@ -14298,6 +14276,54 @@
     "ڪيل",
     "ڳڻتيء"
    ]
+  },
+  {
+   "t": 1794385896,
+   "h": "پاڪستان ۽ سريلنڪا ٻي ٽيسٽ ميچ راولپنڊي منتقل",
+   "b": "پاڪستان ڪرڪيٽ بورڊ اڱاري ڏينهن چيو آهي ته وڌندڙ سموگ جي ڪري پاڪستان ۽ شريلنڪا وچ ۾ ايندڙ هفتي ٿيندڙ ٻن ٽيسٽ",
+   "tt": [
+    "راولپنڊي",
+    "سريلنڪا",
+    "منتقل",
+    "ميچ",
+    "ٽيسٽ",
+    "پاڪستان"
+   ],
+   "bt": [
+    "#17",
+    "#21",
+    "اهي",
+    "اهي،",
+    "ايندڙ",
+    "اڱاري",
+    "بورڊ",
+    "تائين",
+    "راولپنڊي",
+    "رهيو",
+    "سريلنڪا",
+    "سموگ",
+    "سيريز",
+    "شريلنڪا",
+    "شيڊول",
+    "لاهور",
+    "منتقل",
+    "موجب",
+    "ميزباني",
+    "ميچ",
+    "ميچن",
+    "نومبر",
+    "هفتي",
+    "وقت",
+    "وڌندڙ",
+    "ٽيسٽ",
+    "پاڪستان",
+    "پهرين",
+    "ٿيندڙ",
+    "ڏينهن",
+    "ڪان",
+    "ڪرڪيٽ",
+    "ڪيڏي"
+   ]
   }
  ],
  "repeat_log": [
@@ -14465,7 +14491,7 @@
  },
  "quality": {
   "date": "2026-11-11",
-  "editor_fixed": 18,
+  "editor_fixed": 19,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
