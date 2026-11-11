@@ -1494,7 +1494,9 @@
   "baa8bb320db63199": 1794438087.8882246,
   "e70bede7ab25dab9": 1794438087.8882256,
   "6841b7f3871ad30c": 1794438087.8882263,
-  "4f2e4c64bf9ff052": 1794438087.888423
+  "4f2e4c64bf9ff052": 1794438087.888423,
+  "6c1e998ca51c48d3": 1794439272.8076234,
+  "7e0748e865aa2537": 1794439272.8078415
  },
  "pending": {},
  "queue": [],
@@ -2174,7 +2176,7 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794438981.9984987,
+   "last_edit": 1794439609.4732265,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
@@ -2190,7 +2192,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-12 04:16",
+  "time": "2026-11-12 04:26",
   "items": 15,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 404/4 *",
@@ -7505,9 +7507,9 @@
  },
  "ai_usage": {
   "date": "2026-11-12",
-  "ok": 63,
-  "fail": 111,
-  "limit": 108
+  "ok": 71,
+  "fail": 127,
+  "limit": 124
  },
  "posted_heads": [
   {
@@ -7832,7 +7834,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-12 04:16",
+  "time": "2026-11-12 04:26",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7935,12 +7937,12 @@
  },
  "article_diag": {
   "date": "2026-11-12",
-  "tried": 10,
-  "decoded": 10,
-  "text": 10,
-  "story": 7
+  "tried": 11,
+  "decoded": 11,
+  "text": 11,
+  "story": 8
  },
- "ai_last_error": "04:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "04:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-12",
   "models": [
@@ -7982,7 +7984,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-12",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7990,7 +7992,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-12",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7998,7 +8000,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-12",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8006,7 +8008,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8014,7 +8016,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8022,14 +8024,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8038,9 +8040,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-12",
    "ok": 0,
-   "fail": 24,
+   "fail": 25,
    "items": 15,
-   "fail_streak": 1109,
+   "fail_streak": 1110,
    "last_status": 404
   }
  },
@@ -8229,8 +8231,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 9,
-  "old": 9,
+  "found": 18,
+  "old": 18,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8277,8 +8279,8 @@
   "date": "2026-11-12",
   "count": 1,
   "last": 1794426667.6690931,
-  "city_i": 10,
-  "dry": 1794438667.5516315
+  "city_i": 14,
+  "dry": 1794439268.5565565
  },
  "gemini_day_dead": {
   "day": "2026-11-11",
@@ -8963,20 +8965,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-12 00:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-12 00:45",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-12 00:50",
    "ok": true,
    "n": 0,
@@ -9237,6 +9225,20 @@
   },
   {
    "t": "11-12 04:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 04:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 04:26",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13880,7 +13882,7 @@
  "quality": {
   "date": "2026-11-12",
   "editor_fixed": 3,
-  "editor_rejected": 0,
+  "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
