@@ -1,6 +1,5 @@
 {
  "seen": {
-  "d9492908c1e6f42e": 1793788866.2028813,
   "0bf270e08a635db2": 1793789453.088887,
   "f7f2a282e7f0ee96": 1793790092.6563032,
   "25b0e8c9dd96dd08": 1793790092.656305,
@@ -1517,7 +1516,9 @@
   "858bbdbd6b8ce793": 1794392536.195525,
   "bfa5a495fcc82024": 1794392536.1955268,
   "d4fd97ca09097946": 1794392536.1957338,
-  "e450735f8ebebe66": 1794393129.4184387
+  "e450735f8ebebe66": 1794393129.4184387,
+  "f09db6eae6f900dd": 1794394299.6135278,
+  "48879cd5e3b794a6": 1794394299.6135304
  },
  "pending": {},
  "queue": [],
@@ -1535,7 +1536,7 @@
   "last_week": "",
   "last_check": "2026-11-11"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2178,17 +2179,17 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794393978.4731512,
+   "last_edit": 1794394607.0361664,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-11 15:46",
+  "time": "2026-11-11 15:56",
   "items": 9,
   "sample": [
-   "Pakistan 434/9 v Sri Lanka 389/4 *",
+   "Pakistan 434/9 v Sri Lanka 394/4 *",
    "New South Wales 204/10 v South Australia 162/5 *",
    "Victoria 292/3 * v Western Australia"
   ]
@@ -7532,9 +7533,9 @@
  },
  "ai_usage": {
   "date": "2026-11-11",
-  "ok": 236,
-  "fail": 381,
-  "limit": 381
+  "ok": 238,
+  "fail": 385,
+  "limit": 385
  },
  "posted_heads": [
   {
@@ -7859,7 +7860,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-11 15:46",
+  "time": "2026-11-11 15:56",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7967,7 +7968,7 @@
   "text": 25,
   "story": 19
  },
- "ai_last_error": "15:32 gemini-flash-lite-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "15:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-11",
   "models": [
@@ -8010,14 +8011,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-11",
    "ok": 92,
-   "fail": 4,
+   "fail": 5,
    "items": 10,
-   "fail_streak": 4,
+   "fail_streak": 5,
    "last_status": 522
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-11",
-   "ok": 96,
+   "ok": 97,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8025,7 +8026,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-11",
-   "ok": 96,
+   "ok": 97,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8033,7 +8034,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 96,
+   "ok": 97,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8041,7 +8042,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 96,
+   "ok": 97,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8049,14 +8050,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 96,
+   "ok": 97,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 95,
+   "ok": 96,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8065,9 +8066,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-11",
    "ok": 0,
-   "fail": 96,
+   "fail": 97,
    "items": 15,
-   "fail_streak": 1035,
+   "fail_streak": 1036,
    "last_status": 404
   }
  },
@@ -8480,8 +8481,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 40,
-  "old": 40,
+  "found": 50,
+  "old": 50,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8526,8 +8527,8 @@
  "sindh_stream": {
   "date": "2026-11-11",
   "count": 10,
-  "last": 1794391277.600441,
-  "city_i": 8,
+  "last": 1794394296.751506,
+  "city_i": 12,
   "dry": 1794393113.1267214
  },
  "gemini_day_dead": {
@@ -9276,20 +9277,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-11 12:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-11 12:26",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-11 12:30",
    "ok": true,
    "n": 0,
@@ -9550,6 +9537,20 @@
   },
   {
    "t": "11-11 15:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 15:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 15:56",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14290,11 +14291,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-08 09:41",
-   "new": "بابر اعظم پاڪستاني ٽيسٽ ٽيم جي قيادت ڪندو",
-   "old": "پاڪستان پاران سريلنڪا خلاف ٽيسٽ اسڪواڊ جو اعلان"
-  },
-  {
    "t": "11-08 14:22",
    "new": "بابراعظم چيو ته ٽيم جي چونڊ منهنجي وس ۾ ناهي",
    "old": "بابراعظم جو پاڪستان جي ٽيسٽ ڪرڪيٽ بابت نئون عزم"
@@ -14438,6 +14434,11 @@
    "t": "11-11 15:22",
    "new": "لاهور جو سمگ، پاڪستان ۽ سری لنڪا ٽيسٽ ميچ راولپنڊي منتقل",
    "old": "پاڪستان ۽ سری لنڪا وچ ۾ پهريون ٽيسٽ ميچ"
+  },
+  {
+   "t": "11-11 15:51",
+   "new": "نوشهروفيروز سميت سنڌ جي مختلف علائقن ۾ برسات جو امڪان",
+   "old": "ڪراچي ۾ جمعي تي هلڪي برسات جو امڪان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14458,6 +14459,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
-  "repeat": 8
- }
+  "repeat": 9
+ },
+ "_dup": true
 }
