@@ -1498,7 +1498,9 @@
   "6e548be2690af799": 1794397903.6253934,
   "db2783f05ad8db3a": 1794397903.625394,
   "adb430d3005a5f45": 1794397903.625396,
-  "a29e651044c88e82": 1794399100.3981893
+  "a29e651044c88e82": 1794399100.3981893,
+  "3c3d06ea539c8605": 1794400313.8011777,
+  "f321ee02d7c01fec": 1794400313.8011801
  },
  "pending": {},
  "queue": [],
@@ -2159,14 +2161,14 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794399984.1443868,
+   "last_edit": 1794400618.923981,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-11 17:26",
+  "time": "2026-11-11 17:36",
   "items": 12,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 404/4 *",
@@ -4594,64 +4596,8 @@
   "last": 1794393188.522807
  },
  "trends": {
-  "last": 1794389457.843747,
+  "last": 1794400276.5394208,
   "terms": [
-   {
-    "term": "shreyas iyer",
-    "traffic": 200,
-    "news": "Mitchell Starc's stunning turnaround at 36: How Australia's pace spearhead defied age to become No. 1 Test bowler",
-    "t": 1793787053,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "videos",
-    "traffic": 200,
-    "news": "Bodycam video shows moments after man fatally shot by National Guard in Memphis",
-    "t": 1793787053,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "nabeela syed",
-    "traffic": 200,
-    "news": "Hills on Race with Muslim Syed: \"About Good vs. Evil\"",
-    "t": 1793787053,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "jesús owono",
-    "traffic": 500,
-    "news": "¿Negligencia médica en la muerte de Jesús de Miguel?",
-    "t": 1793787053,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "amish shah",
-    "traffic": 100,
-    "news": "Democrats holds early lead in Congressional District 1 race",
-    "t": 1793787053,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "samsung galaxy s27 ultra",
-    "traffic": 1000,
-    "news": "Galaxy S27 series chipset details leak with a surprising entry for the Pro",
-    "t": 1793787053,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "fuel",
-    "traffic": 2000,
-    "news": "DPM Dar reiterates Govt’s commitment to facilitating citizens",
-    "t": 1793787053,
-    "cat": "fuel",
-    "sindh": false
-   },
    {
     "term": "maliha ali immaf world championships",
     "traffic": 200,
@@ -7507,15 +7453,55 @@
     "t": 1794389458,
     "cat": "cricket",
     "sindh": false
+   },
+   {
+    "term": "icc men test player rankings",
+    "traffic": 200,
+    "news": "Rishabh Pant, Shubman Gill in Top 10 of ICC Test Batters Rankings",
+    "t": 1794400276,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "felix nmecha",
+    "traffic": 100,
+    "news": "‘Ballers in God’, the community that condemns gay people and abortion and is championed by Nmecha, is causing outrage in Germany",
+    "t": 1794400276,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "pubg",
+    "traffic": 500,
+    "news": "IBK Investment & Securities lowered its profit forecast for Krafton next year and lowered its ta..",
+    "t": 1794400276,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "ebenezer scrooge",
+    "traffic": 200,
+    "news": "Ebenezer Rotten Tomatoes odds: Kalshi traders predict ‘Rotten’ score of 36.8%",
+    "t": 1794400276,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "pubg mobile 4.7 update release date",
+    "traffic": 200,
+    "news": "BGMI 4.7 update to bring Jormungandr Serpent, Frozen Erangel Map and New Year Fireworks",
+    "t": 1794400276,
+    "cat": "technology",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-11",
-  "ok": 270,
-  "fail": 417,
-  "limit": 417
+  "ok": 272,
+  "fail": 421,
+  "limit": 421
  },
  "posted_heads": [
   {
@@ -7840,7 +7826,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-11 17:26",
+  "time": "2026-11-11 17:36",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7948,7 +7934,7 @@
   "text": 25,
   "story": 19
  },
- "ai_last_error": "17:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "17:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-11",
   "models": [
@@ -7991,14 +7977,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-11",
    "ok": 92,
-   "fail": 14,
+   "fail": 15,
    "items": 10,
-   "fail_streak": 14,
+   "fail_streak": 15,
    "last_status": 522
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-11",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8006,7 +7992,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-11",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8014,7 +8000,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8022,7 +8008,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8030,14 +8016,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 104,
+   "ok": 105,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8046,9 +8032,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-11",
    "ok": 0,
-   "fail": 106,
+   "fail": 107,
    "items": 15,
-   "fail_streak": 1045,
+   "fail_streak": 1046,
    "last_status": 404
   }
  },
@@ -8237,8 +8223,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 20,
-  "old": 20,
+  "found": 30,
+  "old": 30,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8283,9 +8269,9 @@
  "sindh_stream": {
   "date": "2026-11-11",
   "count": 11,
-  "last": 1794399098.2659593,
-  "city_i": 24,
-  "dry": 1794393113.1267214
+  "last": 1794400308.1499574,
+  "city_i": 6,
+  "dry": 1794400313.801182
  },
  "gemini_day_dead": {
   "day": "2026-11-11",
@@ -9026,20 +9012,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-11 14:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-11 14:16",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-11 14:20",
    "ok": true,
    "n": 0,
@@ -9300,6 +9272,20 @@
   },
   {
    "t": "11-11 17:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 17:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 17:36",
    "ok": true,
    "n": 0,
    "ids": [],
