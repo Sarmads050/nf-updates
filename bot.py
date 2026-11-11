@@ -106,6 +106,29 @@ def blocked_reason(text):
     return None
 
 
+NAME_RULE = (" PEOPLE'S NAMES: write a person's name ONLY if that exact name is printed in this item. If only a "
+             "title/post is printed (e.g. 'قائم مقام گورنر سنڌ', 'وزيراعليٰ', 'ڊي سي'), write ONLY the title — NEVER fill in "
+             "a name from your own knowledge: office holders change and your knowledge is old (some of them have died). ")
+
+
+def dead_person_problem(text):
+    """Logical check: jo shakhs fot ho chuka hai (config deceased_people) woh aaj bayan nahi de sakta, ohda nahi rakh sakta.
+    Naam aaye aur khabar unki barsi/yaad ki na ho to masla (naam wapas). Barsi / 'marhoom <naam>' theek hai."""
+    low = text.lower()
+    for name, aliases in CONFIG.get("deceased_people", {}).items():
+        for a in [name] + list(aliases):
+            a = a.lower().strip()
+            if not a or a not in low:
+                continue
+            if word_match(text, CONFIG.get("remembrance_words", [])):
+                break  # barsi / yaadgari ki khabar
+            i = low.find(a)
+            if re.search(r"(مرحوم|late)", low[max(0, i - 15):i]):
+                break  # 'marhoom <naam>': unka zikr yaad ke taur par
+            return name
+    return None
+
+
 def crime_review():
     """Jurm ki khabrein review mein bhejni hain? (config crime_review; ab band: sab seedha post, sirf fauj/mazhab mana)"""
     return bool(CONFIG.get("crime_review", False))
@@ -1668,6 +1691,13 @@ def fb_post(message, link=None, photo=None, video=None, count=True, card=True, c
     S.pop("_dup", None)
     if dedupe and repeat_block(message):
         return False
+    dead = dead_person_problem(message)
+    if dead:
+        log("fot shuda shakhs ka zinda bayan/ohda — post roki:", dead, "|", message[:80])
+        STATS["dead_person_blocked"] = STATS.get("dead_person_blocked", 0) + 1
+        tg_send("⚠️ Ghalat khabar roki: is mein " + dead + " (jo fot ho chuke hain) ko zinda/ohde par likha tha. "
+                "Post NAHI ki:\n\n" + message[:600])
+        return True  # queue se hata do, page par ghalat post na jaye
     if bad_script(message):
         fixed = fix_script(message)
         if not fixed:
@@ -3705,7 +3735,7 @@ def kawish_read(page_no, img):
               "its own: say WHO did WHAT, WHERE and WHEN, and the main detail, so a reader understands the news without "
               "seeing the paper. Never describe the page itself (e.g. 'this page has...'); if you cannot say clearly what "
               "happened, mark that item confidence \"low\". If a name or number is not clearly "
-              "readable, leave it out instead of guessing. district=true if it is about Naushahro Feroze district or "
+              "readable, leave it out instead of guessing." + NAME_RULE + "district=true if it is about Naushahro Feroze district or "
               "its towns (" + towns + ") — ONLY if that town name is actually printed in that item. Also copy, exactly as "
               "printed letter by letter, \"printed_headline\" (the item's printed headline) and \"dateline\" (the "
               "place/byline printed at the start of the item's text, e.g. 'مٺي (رپورٽ)'). NEVER change or add a place: "
@@ -3733,7 +3763,9 @@ def kawish_verify(page_no, img, items):
               "extracted from this page. For EACH item, find it on the page and check it STRICTLY against what is "
               "printed: (1) the city/town/place is exactly the printed one (not another city); (2) every number is the "
               "same; (3) the outcome is the same (died vs injured, arrested vs released, approved vs rejected); "
-              "(4) nothing is added that is not printed. ok=true only if all four are correct. If the item cannot be "
+              "(4) nothing is added that is not printed; (5) every person's NAME in the item is printed in that item on "
+              "the page (if the page prints only a title like 'قائم مقام گورنر' and the item adds a name, that is WRONG). "
+              "ok=true only if all five are correct. If the item cannot be "
               "found on the page, found=false and ok=false.\n\n" + listing +
               "\n\nReturn JSON: {\"checks\": [{\"i\": number, \"found\": bool, \"ok\": bool, \"printed_place\": string, "
               "\"problem\": string}]}")
@@ -3821,7 +3853,7 @@ def cross_check(item):
               "If at least one other source reports it, write the news in Sindhi (Arabic script) using ONLY the facts "
               "that the printed headline and the matching sources agree on (where they differ, follow what most of them "
               "say; leave out anything uncertain). Never add a place that is not in the printed headline or the matching "
-              "sources. Return JSON: {\"matches\": [numbers], \"agree\": bool, \"headline\": string, "
+              "sources." + NAME_RULE + " Return JSON: {\"matches\": [numbers], \"agree\": bool, \"headline\": string, "
               "\"summary\": string (complete news with all agreed facts, 3-10 sentences), \"card\": string (all key "
               "facts, max 600 characters), \"place\": string}. If no source matches, return {\"matches\": []}.")
     res = ask_gemini(prompt) if GEMINI_KEY else ask_openrouter(prompt)
@@ -3930,6 +3962,10 @@ def handle_kawish():
             printed = clean_text(str(it.get("printed_headline", ""))) + " " + clean_text(str(it.get("dateline", "")))
             if len(printed.strip()) < 8 or not place_ok(head + " " + summ + " " + cardt, printed):
                 log("KAWISH: chhapi sarkhi/jagah se mel nahi, skip:", head[:60])
+                STATS["kawish_rejected"] = STATS.get("kawish_rejected", 0) + 1
+                continue
+            if dead_person_problem(head + " " + summ + " " + cardt + " " + str(it.get("speaker", ""))):
+                log("KAWISH: fot shuda shakhs ka naam (shayad AI ne khud likha) — skip:", head[:60])
                 STATS["kawish_rejected"] = STATS.get("kawish_rejected", 0) + 1
                 continue
             rank_ = city_rank(printed)
