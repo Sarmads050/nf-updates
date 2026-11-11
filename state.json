@@ -1525,7 +1525,28 @@
   "be1f483a83621770": 1794353523.239751,
   "ada8b34692c7af80": 1794356478.7768793,
   "48dc76217f788f3d": 1794356478.776999,
-  "d49641f8f36bb075": 1794357058.547544
+  "d49641f8f36bb075": 1794357058.547544,
+  "a668562051846754": 1794358870.028404,
+  "00fe3ba924cf8630": 1794358894.3364468,
+  "1314d0c08d65e7e7": 1794358894.336449,
+  "c550b3d768881ae3": 1794358894.336451,
+  "88d1fe0154621a60": 1794358894.3364518,
+  "904a01ae73b68035": 1794358894.3364532,
+  "86fff81bced6096f": 1794358894.336454,
+  "10ea522fe15e568e": 1794358894.3364546,
+  "c2566f6c68a59eca": 1794358894.3364568,
+  "58036b6a90f3495f": 1794358894.3364575,
+  "176ac90037d42150": 1794358894.336458,
+  "c39fa460dedee122": 1794358908.1099548,
+  "4abe31cc78c0040d": 1794358908.1099575,
+  "cb5e1f63383fc7f9": 1794358908.1099591,
+  "33c59b674e5a8261": 1794358908.10996,
+  "1c8362795de7505c": 1794358908.109961,
+  "05acc7f305454eb5": 1794358908.1099615,
+  "e51a4c5886f17042": 1794358908.1099622,
+  "c7aaadc1798971ad": 1794358908.109963,
+  "fd19bee77ebe3977": 1794358908.1099634,
+  "fdf728fb80b6c11f": 1794358908.110228
  },
  "pending": {},
  "queue": [],
@@ -2207,19 +2228,19 @@
    },
    "wicket_posts": 10,
    "break_done": true,
-   "last_edit": 1794358559.5492034,
+   "last_edit": 1794359225.1520596,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-11 05:55",
+  "time": "2026-11-11 06:07",
   "items": 9,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 114/3 *",
-   "New South Wales 100/3 * v South Australia",
-   "Victoria 66/2 * v Western Australia"
+   "New South Wales 110/4 * v South Australia",
+   "Victoria 69/2 * v Western Australia"
   ]
  },
  "agri_news": {
@@ -7577,9 +7598,9 @@
  },
  "ai_usage": {
   "date": "2026-11-11",
-  "ok": 55,
-  "fail": 88,
-  "limit": 84
+  "ok": 59,
+  "fail": 96,
+  "limit": 92
  },
  "posted_heads": [
   {
@@ -7904,7 +7925,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-11 05:55",
+  "time": "2026-11-11 06:07",
   "steps": []
  },
  "roundup_am": "2026-11-10",
@@ -8007,12 +8028,12 @@
  },
  "article_diag": {
   "date": "2026-11-11",
-  "tried": 7,
-  "decoded": 7,
-  "text": 7,
-  "story": 6
+  "tried": 8,
+  "decoded": 8,
+  "text": 8,
+  "story": 7
  },
- "ai_last_error": "05:21 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "06:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-11",
   "models": [
@@ -8054,7 +8075,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-11",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8062,7 +8083,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-11",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8070,7 +8091,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-11",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8078,7 +8099,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8086,7 +8107,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8094,14 +8115,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8110,9 +8131,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-11",
    "ok": 0,
-   "fail": 37,
+   "fail": 38,
    "items": 15,
-   "fail_streak": 976,
+   "fail_streak": 977,
    "last_status": 404
   }
  },
@@ -8524,14 +8545,14 @@
   "pakistan": 5
  },
  "report_acc": {
-  "posted": 1,
-  "found": 28,
-  "old": 27,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-11 05",
+ "report_hour": "2026-11-11 06",
  "kawish_upload_times": {
   "_date": "2026-11-11",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8572,8 +8593,8 @@
   "date": "2026-11-11",
   "count": 1,
   "last": 1794340875.9767194,
-  "city_i": 8,
-  "dry": 1794356465.4400735
+  "city_i": 12,
+  "dry": 1794358878.2045116
  },
  "gemini_day_dead": {
   "day": "2026-11-10",
@@ -9314,20 +9335,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-11 02:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-11 02:45",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-11 02:50",
    "ok": true,
    "n": 0,
@@ -9588,6 +9595,20 @@
   },
   {
    "t": "11-11 05:55",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 06:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 06:07",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14706,11 +14727,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-07 19:01",
-   "new": "سريلنڪا خلاف ٽيسٽ سيريز، پاڪستاني اسڪواڊ ۾ چار رانديگر شامل",
-   "old": "پاڪستاني اسڪواڊ ۾ وڏي ڦيرڦار، 2 رانديگر ڊراپ ۽ 4 شامل"
-  },
-  {
    "t": "11-07 19:11",
    "new": "پاڪستاني ٽيسٽ اسڪواڊ ۾ چار نوان رانديگر شامل",
    "old": "پاڪستاني اسڪواڊ ۾ وڏي ڦيرڦار، 2 رانديگر ڊراپ ۽ 4 شامل"
@@ -14854,6 +14870,11 @@
    "t": "11-11 04:31",
    "new": "پاڪستان خلاف وزيراعيضان جو پهريون شاندار اسڪور",
    "old": "پاڪستان جو سری لنڪا خلاف پهرين ٽيسٽ ۾ 434 رنز تي پهرين اننگز جو اعلان"
+  },
+  {
+   "t": "11-11 06:01",
+   "new": "بلوچستان ۾ يوريا خاد جو پابنديءَ بعد نئون اطلاع",
+   "old": "17 وڌيڪ ضلعن ۾ يوريا تي پابند ختم"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14874,6 +14895,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
-  "repeat": 1
- }
+  "repeat": 2
+ },
+ "_dup": true
 }
