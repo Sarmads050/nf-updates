@@ -38,6 +38,11 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-041] (ep017, 2026-11-10) Poori kahani machharon ki hai lekin screen par ek bhi machhar nazar nahi aata ("kaat raha hai", "helmet pehen kar aate hain") — naya "mosquito" effect: 2-3 chhote machhar characters ke aas paas urte hue (+ halki bhin-bhin sfx), aur "clap" par ek machhar ka gayab hona.
 - [K-042] (ep017, 2026-11-10) Aakhri scene mein Ammi "machhar daani lagao" kehti hain, lekin raat ke kamre mein koi machhar daani/poori aasteen ka visual nahi — naya "net" prop ya bed/sofa ke upar latakti jaali (machhar daani) banana.
 
+- [K-043] (ep018, 2026-11-11) Poori kahani barish ki hai lekin screen par barish nazar nahi aati (aangan mein saaf neela aasmaan aur dhoop, sirf "rain" ki awaaz) — sets.py mein naya `time: "rain"`: surmai baadal, girti boondein, geela chamakta farsh, khirki par paani ki lakeerein.
+- [K-044] (ep018, 2026-11-11) Arsalan "saare kapre andar le aaya" aur "uniform le aaya" kehta hai lekin haath khaali hain, aur aangan ki rassi par kapre barish ke baad bhi wahin latke hain — naya "kapre" prop (tah kiye kapron ka dher / uniform) aur scene ke hisaab se rassi khaali dikhana.
+- [K-045] (ep018, 2026-11-11) Narrator kehta hai Arsalan "poora bheeg kar" aaya, lekin kitchen mein woh bilkul sookha dikhta hai — naya "wet" emo: geele chipke baal, kapron par gehre dhabbe, girti boondein.
+- [K-046] (ep018, 2026-11-11) Punchline "chhatri band hi rakhi" hai lekin chhatri kahin nazar nahi aati — naya "umbrella" prop (band chhatri haath mein, aur khuli chhatri wala variant).
+
 ## APPROVED
 
 ## DONE
