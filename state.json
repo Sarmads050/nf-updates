@@ -1488,7 +1488,10 @@
   "3c3d06ea539c8605": 1794400313.8011777,
   "f321ee02d7c01fec": 1794400313.8011801,
   "93528af540050b99": 1794402674.9376323,
-  "d67a478694292448": 1794403927.3781374
+  "d67a478694292448": 1794403927.3781374,
+  "f51715916d326ca9": 1794405069.9959571,
+  "a889244a6b6136a7": 1794405111.4410818,
+  "f96e430b163d45d1": 1794405111.441086
  },
  "pending": {},
  "queue": [],
@@ -1561,7 +1564,7 @@
  "sindh_single": {
   "date": "2026-11-11",
   "count": 1,
-  "last": 1794396744.2824495,
+  "last": 1794405145.4071636,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2149,14 +2152,14 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794404782.4795315,
+   "last_edit": 1794405451.9147763,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-11 18:46",
+  "time": "2026-11-11 18:57",
   "items": 11,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 404/4 *",
@@ -7487,9 +7490,9 @@
  },
  "ai_usage": {
   "date": "2026-11-11",
-  "ok": 283,
-  "fail": 435,
-  "limit": 435
+  "ok": 288,
+  "fail": 441,
+  "limit": 441
  },
  "posted_heads": [
   {
@@ -7814,7 +7817,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-11 18:46",
+  "time": "2026-11-11 18:57",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7922,7 +7925,7 @@
   "text": 26,
   "story": 20
  },
- "ai_last_error": "18:32 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:52 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-11",
   "models": [
@@ -7965,14 +7968,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-11",
    "ok": 92,
-   "fail": 22,
+   "fail": 23,
    "items": 10,
-   "fail_streak": 22,
+   "fail_streak": 23,
    "last_status": 522
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-11",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7980,7 +7983,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-11",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7988,7 +7991,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7996,7 +7999,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8004,14 +8007,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 111,
+   "ok": 112,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8020,9 +8023,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-11",
    "ok": 0,
-   "fail": 114,
+   "fail": 115,
    "items": 15,
-   "fail_streak": 1053,
+   "fail_streak": 1054,
    "last_status": 404
   }
  },
@@ -8211,9 +8214,9 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 40,
-  "old": 40,
-  "irrelevant": 0,
+  "found": 50,
+  "old": 49,
+  "irrelevant": 1,
   "blocked": 0,
   "errors": []
  },
@@ -8257,8 +8260,8 @@
  "sindh_stream": {
   "date": "2026-11-11",
   "count": 12,
-  "last": 1794403908.5239289,
-  "city_i": 18,
+  "last": 1794405109.0143409,
+  "city_i": 22,
   "dry": 1794403319.2064402
  },
  "gemini_day_dead": {
@@ -8961,20 +8964,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-11 15:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-11 15:38",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-11 15:40",
    "ok": true,
    "n": 0,
@@ -9235,6 +9224,20 @@
   },
   {
    "t": "11-11 18:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 18:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 18:57",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13592,11 +13595,6 @@
  "repeat_log": [
   {
    "t": "11-08 14:51",
-   "new": "حڪومت پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽائي ڪري ڇڏي",
-   "old": "پيٽرول سستو، پر مهانگائي برقرار"
-  },
-  {
-   "t": "11-08 14:51",
    "new": "بابراعظم جو نئين ورلڊ ٽيسٽ چيمپئن شپ لاءِ مضبوط ٽيم جو عزم",
    "old": "بابراعظم جو پاڪستان جي ٽيسٽ ڪرڪيٽ بابت نئون عزم"
   },
@@ -13739,6 +13737,11 @@
    "t": "11-11 16:51",
    "new": "سنڌ جي مختلف علائقن ۾ برسات جي اڳڪٿي",
    "old": "ڪراچي ۾ جمعي تي هلڪي برسات جو امڪان"
+  },
+  {
+   "t": "11-11 18:51",
+   "new": "سنڌ جي معدني وسيلن ۾ سيڙپڪاريءَ جا وڏا موقعا موجود آهن: وڏو وزير",
+   "old": "سنڌ حڪومت جو معدنیات جي لاءِ سرمایه ڪاري جو سڏ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13759,6 +13762,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
-  "repeat": 11
- }
+  "repeat": 12
+ },
+ "_dup": true
 }
