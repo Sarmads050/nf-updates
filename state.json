@@ -1481,7 +1481,18 @@
   "598666f135eed74f": 1794430717.7474842,
   "9c0abde835c529b7": 1794430717.747485,
   "9567aececfdaa778": 1794430717.747669,
-  "f24f52694289d9c9": 1794432057.6398327
+  "f24f52694289d9c9": 1794432057.6398327,
+  "c6638a380a67b6ed": 1794433871.620002,
+  "debac2bd2cbabf89": 1794433871.6200044,
+  "3e03dc722b772906": 1794433871.6200058,
+  "85513598b6c788c4": 1794433871.6200063,
+  "f2a5b16984efd250": 1794433871.6202178,
+  "7a661f549ab3c09e": 1794433891.8450553,
+  "9b447671191b1586": 1794433891.8450575,
+  "3e0f74977abd163b": 1794433891.8450582,
+  "946a4b732e3e3d71": 1794433891.8450592,
+  "3fb23c98b1153057": 1794433891.8450596,
+  "cf3fa2906299a3ea": 1794433891.845374
  },
  "pending": {},
  "queue": [],
@@ -2161,7 +2172,7 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794433558.4863315,
+   "last_edit": 1794434292.6743503,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
@@ -2177,7 +2188,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-12 02:45",
+  "time": "2026-11-12 02:58",
   "items": 17,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 404/4 *",
@@ -2187,8 +2198,8 @@
  },
  "agri_news": {
   "date": "2026-11-12",
-  "count": 1,
-  "last": 1794423818.70441
+  "count": 2,
+  "last": 1794433987.9127326
  },
  "all_posts": {
   "date": "2026-11-12",
@@ -2197,12 +2208,6 @@
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122116537713503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793547191
-   },
    {
     "id": "1444130002106066_122116551339503839",
     "sec": "sindh_stream",
@@ -4596,6 +4601,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1794430880
+   },
+   {
+    "id": "1444130002106066_122120029533503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1794433987
    }
   ]
  },
@@ -4605,64 +4616,8 @@
   "last": 1794393188.522807
  },
  "trends": {
-  "last": 1794422468.9741688,
+  "last": 1794433856.334442,
   "terms": [
-   {
-    "term": "rb leipzig vs man city",
-    "traffic": 200,
-    "news": "Betfred bonus code: Use BETFRED50 for £50 in Champions League free bets",
-    "t": 1793820058,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "ios 27.2",
-    "traffic": 500,
-    "news": "How to Reclaim 16GB of iPhone Storage from Apple AI Features",
-    "t": 1793820058,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "mitchell starc icc test bowling rankings",
-    "traffic": 200,
-    "news": "Starc topples Jansen to reclaim No1 spot in Test rankings",
-    "t": 1793820058,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "muhammad rizwan",
-    "traffic": 500,
-    "news": "Rizwan stages resounding comeback in domestic cricket after England tour controversy",
-    "t": 1793820058,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "crude oil prices",
-    "traffic": 100,
-    "news": "Oil rises on Iran war uncertainty after Trump's Republicans face election rout",
-    "t": 1793820058,
-    "cat": "fuel",
-    "sindh": false
-   },
-   {
-    "term": "one piece chapter 1198 spoilers",
-    "traffic": 200,
-    "news": "One Piece Officially Appoints the Pirate King's Spear & Shield | Review",
-    "t": 1793820058,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "munna bhai 3",
-    "traffic": 100,
-    "news": "'Munna Bhai 3' is finally happening!",
-    "t": 1793820058,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "lens vs como",
     "traffic": 200,
@@ -7486,21 +7441,73 @@
     "t": 1794422469,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "karachi weather",
+    "traffic": 1000,
+    "news": "PMD Predicts Rain, Thunderstorms and Snowfall in Pakistan",
+    "t": 1794433856,
+    "cat": "weather_disaster",
+    "sindh": true
+   },
+   {
+    "term": "merab dvalishvili",
+    "traffic": 200,
+    "news": "UFC’s Merab Dvalishvili accuses Russian pro of sneak attack",
+    "t": 1794433856,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "avengers doomsday",
+    "traffic": 500,
+    "news": "'VisionQuest' Post-Credits Scene Drops A Huge 'Doomsday' Teaser",
+    "t": 1794433856,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "bayern munich",
+    "traffic": 200,
+    "news": "Vincent Kompany returns to Bayern training ground to continue recovery",
+    "t": 1794433856,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "kitco metals inc.",
+    "traffic": 100,
+    "news": "Gold's Wild 2026, And The Growing Dealer Firm Betting That Buyers Want Guidance Instead Of Pressure",
+    "t": 1794433856,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "anirudh ravichander",
+    "traffic": 200,
+    "news": "Anirudh recalls school romance that lasted just three hours | Tap to know more | Inshorts",
+    "t": 1794433856,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "لاہور",
+    "traffic": 200,
+    "news": "Pakistan's Own Agency Busts Its 'Diwali Firework' Pollution Theory As AQI Crosses 600",
+    "t": 1794433856,
+    "cat": "weather_disaster",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-12",
-  "ok": 27,
-  "fail": 49,
-  "limit": 46
+  "ok": 48,
+  "fail": 87,
+  "limit": 84
  },
  "posted_heads": [
-  {
-   "h": "تربيلا ڊيم حادثو، پرڏيهي ۽ پاڪستاني پورهيتن کي بچايو ويو ، بجلي منصوبي تي ڪم ر بند، سنڌوءَ ۾ چاڙهه جو الرٽ جاري",
-   "t": 1794231104
-  },
   {
    "h": "غزه ۾ اسرائيلي جارحيت جاري، شهيدن جو انگ هزارين تائين پهچي ويو",
    "t": 1794231679
@@ -7816,10 +7823,14 @@
   {
    "h": "Fatima Sana Calls for Equal Treatment in Pakistan",
    "t": 1794430881
+  },
+  {
+   "h": "Spain offers technical expertise to Pakistan in irrigation and precision farming",
+   "t": 1794433987
   }
  ],
  "last_errors": {
-  "time": "2026-11-12 02:45",
+  "time": "2026-11-12 02:58",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7922,12 +7933,12 @@
  },
  "article_diag": {
   "date": "2026-11-12",
-  "tried": 5,
-  "decoded": 5,
-  "text": 5,
-  "story": 4
+  "tried": 7,
+  "decoded": 7,
+  "text": 7,
+  "story": 5
  },
- "ai_last_error": "01:59 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "02:53 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-12",
   "models": [
@@ -7941,13 +7952,13 @@
  },
  "img_diag": {
   "date": "2026-11-12",
-  "tried": 3,
+  "tried": 4,
   "gemini": 0,
-  "pollinations": 1,
+  "pollinations": 2,
   "skip": 1,
   "fail": 0,
-  "last_note": "women cricket bat and ball",
-  "mismatch": 599,
+  "last_note": "modern irrigation water sprinklers",
+  "mismatch": 600,
   "unverified": 1
  },
  "gemini_img": {
@@ -7969,7 +7980,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-12",
-   "ok": 14,
+   "ok": 15,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7977,7 +7988,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-12",
-   "ok": 14,
+   "ok": 15,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7985,7 +7996,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-12",
-   "ok": 14,
+   "ok": 15,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7993,7 +8004,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 14,
+   "ok": 15,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8001,7 +8012,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 14,
+   "ok": 15,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8009,14 +8020,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 14,
+   "ok": 15,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 14,
+   "ok": 15,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8025,9 +8036,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-12",
    "ok": 0,
-   "fail": 14,
+   "fail": 15,
    "items": 15,
-   "fail_streak": 1099,
+   "fail_streak": 1100,
    "last_status": 404
   }
  },
@@ -8212,12 +8223,12 @@
   "date": "2026-11-12",
   "district": 0,
   "sindh": 1,
-  "pakistan": 2
+  "pakistan": 3
  },
  "report_acc": {
   "posted": 0,
-  "found": 45,
-  "old": 45,
+  "found": 54,
+  "old": 54,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8264,8 +8275,8 @@
   "date": "2026-11-12",
   "count": 1,
   "last": 1794426667.6690931,
-  "city_i": 12,
-  "dry": 1794430689.9600933
+  "city_i": 16,
+  "dry": 1794433866.6057613
  },
  "gemini_day_dead": {
   "day": "2026-11-11",
@@ -8345,14 +8356,6 @@
   92058803
  ],
  "reel_pool": [
-  {
-   "k": "aae68d07341528c3",
-   "h": "پاڪستان ۾ نئين انٽرنيٽ ٽيڪنالاجي جا ضابطا جاري",
-   "x": "پي ٽي اي پاڪستان ۾ نئين انٽرنيٽ ٽيڪنالاجي جي حوالي سان ضابطا جاري ڪري ڇڏيا آهن.",
-   "t": 1794258222,
-   "s": false,
-   "r": 0
-  },
   {
    "k": "346c8b4be15a5424",
    "h": "پاڪستان ۾ ٻارهن صوبن جي قيام جي تجويز تي غور",
@@ -8936,6 +8939,14 @@
    "t": 1794430880,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "cbc5e15ffcf46284",
+   "h": "اسپेन پاران پاڪستان کي آبپاشي ۾ مدد جي آڇ",
+   "x": "اسپेन پاڪستان کي آبپاشي ۽ زرعي شعبي ۾ ٽيڪنيڪي مهارت فراهم ڪرڻ جي آڇ ڪري ڇڏي آهي!",
+   "t": 1794433987,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8949,20 +8960,6 @@
   "last": 1794397298.45524
  },
  "tg_debug": [
-  {
-   "t": "11-11 23:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-11 23:06",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-11 23:10",
    "ok": true,
@@ -9224,6 +9221,20 @@
   },
   {
    "t": "11-12 02:45",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 02:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 02:58",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13730,11 +13741,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-08 20:11",
-   "new": "پاڪستان ۾ انتظامي يونٽ ٺاهيا وڃن: خواجا آصف",
-   "old": "ملڪ جي انتظامي نقشي ۾ تبديلي ۽ 12 صوبن جي تجويز"
-  },
-  {
    "t": "11-08 22:01",
    "new": "وزيراعظم لون اسڪيم: قرض جي حد 75 لکن مان وڌائي اڍائي ڪروڙ",
    "old": "سنڌ | نوجوانن جي لاءِ قرضن جي حد ۾ واڌ"
@@ -13878,6 +13884,11 @@
    "t": "11-12 01:58",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽتائي",
    "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
+  },
+  {
+   "t": "11-12 02:51",
+   "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات",
+   "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13898,6 +13909,6 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 2
+  "repeat": 3
  }
 }
