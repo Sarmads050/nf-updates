@@ -1,19 +1,5 @@
 {
  "seen": {
-  "d67963bb4cb5791a": 1793756473.7393847,
-  "b6fb8b3ad3344e0b": 1793756500.9477432,
-  "309f8351a4394b5f": 1793756500.9477463,
-  "e6015717166b817a": 1793756500.9477472,
-  "4b880fd167cc8bac": 1793756500.9477484,
-  "911aeca152d6912b": 1793756500.9477491,
-  "97f561332db6ca11": 1793756500.9477503,
-  "092cf866854f0885": 1793756500.9477515,
-  "7d8d9d58367a38ae": 1793756500.9477522,
-  "d544b9c509b039c1": 1793756500.9477527,
-  "8061d1760a4c779a": 1793756500.947875,
-  "b2819cc9b274b894": 1793756655.2699916,
-  "f0f37bb5846b44b5": 1793756655.2699945,
-  "134446d6ad32629c": 1793756655.270178,
   "6b89b6318dfd0fab": 1793758876.292459,
   "07a8c7007f60639d": 1793758876.2924614,
   "7c98ea57410e60dc": 1793758876.2924623,
@@ -1535,7 +1521,18 @@
   "67d6db2cc3810bf7": 1794359467.6783698,
   "2c96b38bdc3c3455": 1794361274.264218,
   "e275123735c97998": 1794361281.8287892,
-  "192f07a942383ad3": 1794361297.6351924
+  "192f07a942383ad3": 1794361297.6351924,
+  "657e5d638f9fb35a": 1794361867.5295486,
+  "5396c0d3286e3e9e": 1794361867.5295515,
+  "b9bb12acf453f5c1": 1794361867.5295527,
+  "eb45c46d5ac49db3": 1794361867.5295532,
+  "030f4f455527df40": 1794361867.5295541,
+  "83886b5964539ee3": 1794361867.5295548,
+  "3e42e94c7d5db501": 1794361867.5295563,
+  "62df69a2da01590a": 1794361867.5295572,
+  "c7c6805f6f64e14a": 1794361867.5295577,
+  "b2331c179b48a9f4": 1794361867.5296752,
+  "7d62e3d536b0680f": 1794361897.4816995
  },
  "pending": {},
  "queue": [],
@@ -2214,14 +2211,14 @@
    },
    "wicket_posts": 10,
    "break_done": true,
-   "last_edit": 1794361605.6135752,
+   "last_edit": 1794362203.1879303,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-11 06:46",
+  "time": "2026-11-11 06:56",
   "items": 9,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 114/3 *",
@@ -7584,9 +7581,9 @@
  },
  "ai_usage": {
   "date": "2026-11-11",
-  "ok": 68,
-  "fail": 112,
-  "limit": 108
+  "ok": 71,
+  "fail": 118,
+  "limit": 114
  },
  "posted_heads": [
   {
@@ -7911,7 +7908,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-11 06:46",
+  "time": "2026-11-11 06:56",
   "steps": []
  },
  "roundup_am": "2026-11-10",
@@ -8014,12 +8011,12 @@
  },
  "article_diag": {
   "date": "2026-11-11",
-  "tried": 9,
-  "decoded": 9,
-  "text": 9,
-  "story": 8
+  "tried": 10,
+  "decoded": 10,
+  "text": 10,
+  "story": 9
  },
- "ai_last_error": "06:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-11",
   "models": [
@@ -8061,7 +8058,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-11",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8069,7 +8066,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-11",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8077,7 +8074,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-11",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8085,7 +8082,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8093,7 +8090,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8101,14 +8098,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8117,9 +8114,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-11",
    "ok": 0,
-   "fail": 43,
+   "fail": 44,
    "items": 15,
-   "fail_streak": 982,
+   "fail_streak": 983,
    "last_status": 404
   }
  },
@@ -8532,8 +8529,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 24,
-  "old": 24,
+  "found": 29,
+  "old": 29,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8579,8 +8576,8 @@
   "date": "2026-11-11",
   "count": 1,
   "last": 1794340875.9767194,
-  "city_i": 20,
-  "dry": 1794361263.0620146
+  "city_i": 24,
+  "dry": 1794361860.1599636
  },
  "gemini_day_dead": {
   "day": "2026-11-10",
@@ -9321,20 +9318,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-11 03:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-11 03:47",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-11 03:50",
    "ok": true,
    "n": 0,
@@ -9595,6 +9578,20 @@
   },
   {
    "t": "11-11 06:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 06:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 06:56",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14722,11 +14719,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-07 19:11",
-   "new": "پاڪستاني ٽيسٽ اسڪواڊ ۾ چار نوان رانديگر شامل",
-   "old": "پاڪستاني اسڪواڊ ۾ وڏي ڦيرڦار، 2 رانديگر ڊراپ ۽ 4 شامل"
-  },
-  {
    "t": "11-07 19:41",
    "new": "پاڪستان ۾ بجلي وڌيڪ مهانگي ٿي وئي",
    "old": "فيول پرائس ايڊجسٽمينٽ: بجلي 2 روپيا 37 پئسا مهانگي"
@@ -14870,6 +14862,11 @@
    "t": "11-11 06:01",
    "new": "بلوچستان ۾ يوريا خاد جو پابنديءَ بعد نئون اطلاع",
    "old": "17 وڌيڪ ضلعن ۾ يوريا تي پابند ختم"
+  },
+  {
+   "t": "11-11 06:51",
+   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
+   "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14890,6 +14887,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
-  "repeat": 2
- }
+  "repeat": 3
+ },
+ "_dup": true
 }
