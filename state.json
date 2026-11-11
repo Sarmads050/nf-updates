@@ -1,8 +1,5 @@
 {
  "seen": {
-  "ade2e7e7291952af": 1793774475.5490782,
-  "3897af80f568897c": 1793774495.241984,
-  "a4ef4c5feeea0e21": 1793774508.972963,
   "1025a720e2a7b0dc": 1793775054.4335487,
   "2c13bf57242e5c87": 1793775068.6777737,
   "3286795ce29c56d2": 1793775672.2113335,
@@ -1515,7 +1512,14 @@
   "ba0837eef4536a11": 1794376266.9897366,
   "8ad175405501a072": 1794377473.666327,
   "4a9d65099af1b38b": 1794378668.6804671,
-  "6ae5b97d9c0be2f3": 1794378668.6804698
+  "6ae5b97d9c0be2f3": 1794378668.6804698,
+  "fbb58b755dd458ea": 1794379859.7408683,
+  "041af0882bb750a7": 1794379859.7408707,
+  "9b959248f5734fb7": 1794379863.1064034,
+  "b490002d39aa6b2d": 1794379863.1064065,
+  "f03ee9abf0739919": 1794379863.1064072,
+  "47fc2642847a8a41": 1794379871.948988,
+  "358e8e2f0877ed57": 1794379871.949202
  },
  "pending": {},
  "queue": [],
@@ -2170,19 +2174,19 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794379557.839358,
+   "last_edit": 1794380186.7402318,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-11 11:45",
+  "time": "2026-11-11 11:56",
   "items": 9,
   "sample": [
-   "Pakistan 434/9 v Sri Lanka 206/4 *",
-   "New South Wales 204/10 v South Australia 153/3 *",
-   "Victoria 290/3 * v Western Australia"
+   "Pakistan 434/9 v Sri Lanka 216/4 *",
+   "New South Wales 204/10 v South Australia 159/5 *",
+   "Victoria 292/3 * v Western Australia"
   ]
  },
  "agri_news": {
@@ -7540,9 +7544,9 @@
  },
  "ai_usage": {
   "date": "2026-11-11",
-  "ok": 149,
-  "fail": 252,
-  "limit": 248
+  "ok": 153,
+  "fail": 260,
+  "limit": 256
  },
  "posted_heads": [
   {
@@ -7867,7 +7871,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-11 11:45",
+  "time": "2026-11-11 11:56",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7970,12 +7974,12 @@
  },
  "article_diag": {
   "date": "2026-11-11",
-  "tried": 16,
-  "decoded": 16,
-  "text": 16,
-  "story": 12
+  "tried": 17,
+  "decoded": 17,
+  "text": 17,
+  "story": 13
  },
- "ai_last_error": "11:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "11:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-11",
   "models": [
@@ -8017,7 +8021,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-11",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8025,7 +8029,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-11",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8033,7 +8037,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-11",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8041,7 +8045,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8049,7 +8053,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8057,14 +8061,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-11",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-11",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8073,9 +8077,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-11",
    "ok": 0,
-   "fail": 73,
+   "fail": 74,
    "items": 15,
-   "fail_streak": 1012,
+   "fail_streak": 1013,
    "last_status": 404
   }
  },
@@ -8488,8 +8492,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 28,
-  "old": 28,
+  "found": 35,
+  "old": 35,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8534,9 +8538,9 @@
  "sindh_stream": {
   "date": "2026-11-11",
   "count": 5,
-  "last": 1794378666.6226194,
-  "city_i": 4,
-  "dry": 1794375067.9430022
+  "last": 1794379858.1249125,
+  "city_i": 8,
+  "dry": 1794379859.7408724
  },
  "gemini_day_dead": {
   "day": "2026-11-10",
@@ -9281,20 +9285,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-11 08:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-11 08:37",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-11 08:40",
    "ok": true,
    "n": 0,
@@ -9555,6 +9545,20 @@
   },
   {
    "t": "11-11 11:45",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 11:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-11 11:56",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14467,11 +14471,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-07 22:31",
-   "new": "ٿرپارڪر ۾ ڏڪار سبب صورتحال ڳڻتيءَ جوڳي، آفت سٽيل قرار ڏيڻ جو فيصلو",
-   "old": "سنڌ حڪومت جو ٿرپارڪر کي آفت سٽيل ضلعو قرار ڏيڻ جو فيصلو"
-  },
-  {
    "t": "11-08 02:01",
    "new": "بابراعظم پاڪستاني ٽيسٽ اسڪواڊ جي قيادت ڪندو",
    "old": "پاڪستان پاران سريلنڪا خلاف ٽيسٽ اسڪواڊ جو اعلان"
@@ -14615,6 +14614,11 @@
    "t": "11-11 09:51",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽاٺ",
    "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
+  },
+  {
+   "t": "11-11 11:51",
+   "new": "پاکستان ۽ سری لنکا جو ٽيسٽ ميچ",
+   "old": "پاڪستان جو سری لنڪا خلاف پهرين ٽيسٽ ۾ 434 رنز تي پهرين اننگز جو اعلان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14635,6 +14639,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
-  "repeat": 4
- }
+  "repeat": 5
+ },
+ "_dup": true
 }
