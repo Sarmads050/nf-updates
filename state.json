@@ -1492,7 +1492,8 @@
   "d5a3aac6783420b5": 1794439876.4057913,
   "c200a3d3b3d8c53d": 1794439876.4059122,
   "f46cc4375c8a51ee": 1794442887.3778496,
-  "a2d0387be45e8a6a": 1794443457.1651814
+  "a2d0387be45e8a6a": 1794443457.1651814,
+  "6c16d81c27f63fdc": 1794444657.7069843
  },
  "pending": {},
  "queue": [],
@@ -2171,7 +2172,7 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794444361.029395,
+   "last_edit": 1794444964.7805007,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
@@ -2187,12 +2188,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-12 05:45",
+  "time": "2026-11-12 05:56",
   "items": 15,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 404/4 *",
    "New South Wales 204/10 v South Australia 195/5 *",
-   "Victoria 310/3 * v Western Australia"
+   "Victoria 322/3 * v Western Australia"
   ]
  },
  "agri_news": {
@@ -4615,64 +4616,8 @@
   "last": 1794442928.7366848
  },
  "trends": {
-  "last": 1794433856.334442,
+  "last": 1794444657.7071204,
   "terms": [
-   {
-    "term": "lens vs como",
-    "traffic": 200,
-    "news": "Dortmund vs. Betis (Nov 4, 2026) Team Stats",
-    "t": 1793830858,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "indian",
-    "traffic": 100,
-    "news": "On the Arunachal frontier, silence is not a strategy",
-    "t": 1793830858,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "champions league standings",
-    "traffic": 200,
-    "news": "Slavia Prague vs Arsenal: UEFA Champions League stats & head-to-head",
-    "t": 1793830858,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "carlos alcaraz",
-    "traffic": 100,
-    "news": "Carlos Alcaraz tira de galones y supervivencia en un cuadro envenenado",
-    "t": 1793830858,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "dortmund vs betis",
-    "traffic": 500,
-    "news": "Kobel: “We’re feeling good and are ready to perform.”",
-    "t": 1793830858,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "slavia praha vs arsenal",
-    "traffic": 1000,
-    "news": "Slavia narazí na skálu z Arsenalu. Bielsa ho odmítl, šanci mu přihrál i záškolák",
-    "t": 1793830858,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "fuel price today",
-    "traffic": 100,
-    "news": "Refineries to shoulder Rs15b fuel burden",
-    "t": 1793830858,
-    "cat": "fuel",
-    "sindh": false
-   },
    {
     "term": "test cricket",
     "traffic": 100,
@@ -7496,15 +7441,47 @@
     "t": 1794433856,
     "cat": "weather_disaster",
     "sindh": false
+   },
+   {
+    "term": "f",
+    "traffic": 200,
+    "news": "New Report: More Than 1 Million F-35 Spare Parts Remain Missing",
+    "t": 1794444657,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "school",
+    "traffic": 100,
+    "news": "Platteview High School honors veterans, unveils bust of Marine Cpl. Daegan Page",
+    "t": 1794444657,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "usman nurmagomedov",
+    "traffic": 500,
+    "news": "Usman Nurmagomedov slammed by fellow PFL star Dakota Ditcheva after alleged attack on Merab Dvalishvili",
+    "t": 1794444657,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "2027 coachella lineup",
+    "traffic": 100,
+    "news": "Coachella 2027 Lineup Confirms BLACKPINK Star Jisoo Will Return To The Desert As A Solo Headliner",
+    "t": 1794444657,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-12",
-  "ok": 85,
-  "fail": 149,
-  "limit": 146
+  "ok": 86,
+  "fail": 151,
+  "limit": 148
  },
  "posted_heads": [
   {
@@ -7829,7 +7806,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-12 05:46",
+  "time": "2026-11-12 05:56",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7937,7 +7914,7 @@
   "text": 13,
   "story": 10
  },
- "ai_last_error": "05:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "05:50 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-12",
   "models": [
@@ -7979,7 +7956,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-12",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7987,7 +7964,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-12",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7995,7 +7972,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-12",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8003,7 +7980,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8011,7 +7988,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8019,14 +7996,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8035,9 +8012,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-12",
    "ok": 0,
-   "fail": 33,
+   "fail": 34,
    "items": 15,
-   "fail_streak": 1118,
+   "fail_streak": 1119,
    "last_status": 404
   }
  },
@@ -8226,8 +8203,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 36,
-  "old": 35,
+  "found": 45,
+  "old": 44,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8968,20 +8945,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-12 02:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-12 02:45",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-12 02:50",
    "ok": true,
    "n": 0,
@@ -9242,6 +9205,20 @@
   },
   {
    "t": "11-12 05:45",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 05:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 05:56",
    "ok": true,
    "n": 0,
    "ids": [],
