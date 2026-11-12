@@ -1519,7 +1519,12 @@
   "2ca5cd2f73938b60": 1794466273.9458647,
   "b73c55bc69c96eaf": 1794466273.945867,
   "42737ac200f132c3": 1794467472.6055124,
-  "3a80744862dae12d": 1794467472.6055152
+  "3a80744862dae12d": 1794467472.6055152,
+  "ba450a3ec0c09cb5": 1794468681.3976893,
+  "c7235c65a5bae28e": 1794468681.3976917,
+  "228c62d0a3982628": 1794468681.397693,
+  "dc25eada93b6572b": 1794468681.397694,
+  "57d7b53ed854d0af": 1794468681.397696
  },
  "pending": {},
  "queue": [],
@@ -1646,18 +1651,8 @@
    "b106ea9edb396672"
   ]
  },
- "last_post_id": "1444130002106066_122120147061503839",
+ "last_post_id": "1444130002106066_122120149767503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122119887891503839",
-   "title": "موسمي کاتي موجب جمعي جي ڏينهن ڪراچي ۾ هلڪي برسات ۽ φύنھ پੈجي سگهي ٿي جنهن سان ٿڌ ۾ واڌ",
-   "t": 1794393188.522823,
-   "tags": [
-    "general",
-    "local"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122119887891503839"
-  },
   {
    "id": "1444130002106066_122119895997503839",
    "title": "پنجاب ۽ بلوچستان مان ٻهپڙيءَ جو سامان چوري ڪندڙ چور گينگ جا 4 جوابدار گرفتار",
@@ -1969,6 +1964,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122120147061503839"
+  },
+  {
+   "id": "1444130002106066_122120149767503839",
+   "title": "نئن ٽڪر اروڙ: پراسرار پٿر ۽ تاريخي سڃاڻپ",
+   "t": 1794468740.4114845,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122120149767503839"
   }
  ],
  "share_sent": {
@@ -2186,7 +2193,7 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1794468357.166954,
+   "last_edit": 1794469046.004983,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
@@ -2202,11 +2209,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-12 12:25",
+  "time": "2026-11-12 12:37",
   "items": 15,
   "sample": [
    "Pakistan 434/9 & 39/1 * v Sri Lanka 446/10",
-   "New South Wales 204/10 & 191/2 * v South Australia 325/10",
+   "New South Wales 191/2 & 204/10 * v South Australia 325/10",
    "Victoria 402/5 v Western Australia 185/3 *"
   ]
  },
@@ -2217,17 +2224,11 @@
  },
  "all_posts": {
   "date": "2026-11-12",
-  "count": 24,
-  "last": 1794467509.475639
+  "count": 25,
+  "last": 1794468724.8768706
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122116707393503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793595706
-   },
    {
     "id": "1444130002106066_122116721607503839",
     "sec": "sindh_stream",
@@ -4621,6 +4622,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1794467512
+   },
+   {
+    "id": "1444130002106066_122120149767503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1794468740
    }
   ]
  },
@@ -7469,15 +7476,11 @@
  },
  "ai_usage": {
   "date": "2026-11-12",
-  "ok": 200,
-  "fail": 344,
-  "limit": 340
+  "ok": 205,
+  "fail": 352,
+  "limit": 348
  },
  "posted_heads": [
-  {
-   "h": "UAF VC calls for adoption of modern wheat production technologies",
-   "t": 1794282116
-  },
   {
    "h": "TCP invites fresh bids for sugar export",
    "t": 1794285207
@@ -7793,10 +7796,14 @@
   {
    "h": "انڪم ٽيڪس گوشوارن جي پاڻمرادو جاچ جو نئون نظام متعارف",
    "t": 1794467513
+  },
+  {
+   "h": "نئن ٽڪر: اروڙ جي پراسرار پٿر جي تاريخي سڃاڻپ",
+   "t": 1794468740
   }
  ],
  "last_errors": {
-  "time": "2026-11-12 12:25",
+  "time": "2026-11-12 12:37",
   "steps": []
  },
  "roundup_am": "2026-11-12",
@@ -7904,7 +7911,7 @@
   "text": 22,
   "story": 17
  },
- "ai_last_error": "12:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "12:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-12",
   "models": [
@@ -7918,9 +7925,9 @@
  },
  "img_diag": {
   "date": "2026-11-12",
-  "tried": 22,
+  "tried": 23,
   "gemini": 0,
-  "pollinations": 14,
+  "pollinations": 15,
   "skip": 4,
   "fail": 0,
   "last_note": "tennis racket and balls",
@@ -7946,7 +7953,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-12",
-   "ok": 72,
+   "ok": 73,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7954,7 +7961,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-12",
-   "ok": 73,
+   "ok": 74,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7962,7 +7969,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-12",
-   "ok": 73,
+   "ok": 74,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7970,7 +7977,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7978,7 +7985,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7986,14 +7993,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8002,9 +8009,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-12",
    "ok": 0,
-   "fail": 74,
+   "fail": 75,
    "items": 15,
-   "fail_streak": 1159,
+   "fail_streak": 1160,
    "last_status": 404
   }
  },
@@ -8188,13 +8195,13 @@
  "region_posts": {
   "date": "2026-11-12",
   "district": 0,
-  "sindh": 10,
+  "sindh": 11,
   "pakistan": 12
  },
  "report_acc": {
-  "posted": 1,
-  "found": 18,
-  "old": 18,
+  "posted": 2,
+  "found": 27,
+  "old": 27,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8239,9 +8246,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-12",
-  "count": 8,
-  "last": 1794467470.4495986,
-  "city_i": 10,
+  "count": 9,
+  "last": 1794468679.1528745,
+  "city_i": 14,
   "dry": 1794459072.7054715
  },
  "gemini_day_dead": {
@@ -8897,6 +8904,14 @@
    "t": 1794467512,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "fc6632becb238d42",
+   "h": "نئن ٽڪر اروڙ: پراسرار پٿر ۽ تاريخي سڃاڻپ",
+   "x": "سنڌي ٻوليءَ جو هڪ قديم ۽ ڪلاسيڪي لفظ ”نئن“ آهي، جنهن جي معنيٰ آهي جبلن مان وهندڙ قدرتي ندي، وهڪرو يا برساتي نالو، جيڪو کيرٿر ۽ ٻين جبلن تان وهي سنڌ جي ميداني علائقن ڏانهن ايندو آهي. نئن ٽڪر اروڙ ۾ موجود قدرت جو هڪ حيرت انگيز ۽ منفرد پٿريلو شاهڪار آهي، جنهن سان مقامي لوڪ ڪهاڻيون، روايتون ۽ ثقافتي تاريخون جڙيل آهن. مقامي ماڻهو هن پٿر کي ”چٽان شاهه جي ٽڪري“ جي نالي سان به سڏين ٿا. ان جو سبب اهو آهي ته هن پٿر جي دامن وٽ لڳ ڀڳ ڏهه فوٽ ڊگهي هڪ قبر پڻ موجود آهي، جيڪا هن ماڳ جي پراسرار سڃاڻپ ۽ مقامي روايتن جو اهم حصو آهي.",
+   "t": 1794468740,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8904,7 +8919,8 @@
   "done": [
    "08:00",
    "09:30",
-   "11:00"
+   "11:00",
+   "12:30"
   ]
  },
  "kawish_queue": [],
@@ -8914,20 +8930,6 @@
   "last": 1794397298.45524
  },
  "tg_debug": [
-  {
-   "t": "11-12 09:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-12 09:16",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-12 09:20",
    "ok": true,
@@ -9189,6 +9191,20 @@
   },
   {
    "t": "11-12 12:25",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 12:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 12:37",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13587,6 +13603,54 @@
     "ڪندي",
     "گوشوارن"
    ]
+  },
+  {
+   "t": 1794468740,
+   "h": "نئن ٽڪر اروڙ: پراسرار پٿر ۽ تاريخي سڃاڻپ",
+   "b": "سنڌي ٻوليءَ جو هڪ قديم ۽ ڪلاسيڪي لفظ ”نئن“ آهي، جنهن جي معنيٰ آهي جبلن مان وهندڙ قدرتي ندي، وهڪرو يا برساتي",
+   "tt": [
+    "اروڙ",
+    "تاريخي",
+    "سڃاڻپ",
+    "نئن",
+    "ٽڪر",
+    "پراسرار",
+    "پٿر"
+   ],
+   "bt": [
+    "اروڙ",
+    "اهي",
+    "اهي،",
+    "ايندو",
+    "برساتي",
+    "تاريخي",
+    "تان",
+    "جبلن",
+    "جيڪو",
+    "سنڌ",
+    "سنڌي",
+    "سڃاڻپ",
+    "علائقن",
+    "قدرتي",
+    "قديم",
+    "لفظ",
+    "مان",
+    "معني",
+    "ميداني",
+    "نئن",
+    "نالو،",
+    "ندي،",
+    "وهندڙ",
+    "وهي",
+    "وهڪرو",
+    "ٻوليء",
+    "ٻين",
+    "ٽڪر",
+    "پراسرار",
+    "پٿر",
+    "ڪلاسيڪي",
+    "ڪيرٿر"
+   ]
   }
  ],
  "repeat_log": [
@@ -13754,7 +13818,7 @@
  },
  "quality": {
   "date": "2026-11-12",
-  "editor_fixed": 18,
+  "editor_fixed": 19,
   "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
