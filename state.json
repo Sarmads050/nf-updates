@@ -1,6 +1,5 @@
 {
  "seen": {
-  "ee0c945c2097e7f9": 1793883062.588561,
   "81865384393ba125": 1793884865.8853576,
   "c65ff1c62c44e754": 1793884865.8853605,
   "4551ef69bdb9e570": 1793884884.774597,
@@ -1550,7 +1549,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-12",
-  "count": 1
+  "count": 2
  },
  "last_digest": "2026-11-12",
  "alert_day": "2026-10-20",
@@ -1608,7 +1607,7 @@
   ]
  },
  "last_daily": "2026-11-12",
- "roundup_pm": "2026-11-11",
+ "roundup_pm": "2026-11-12",
  "replied": [],
  "q_index": 5,
  "last_question": "2026-11-11",
@@ -1670,7 +1669,7 @@
    "dacbc5395b57225d"
   ]
  },
- "last_post_id": "1444130002106066_122120223843503839",
+ "last_post_id": "1444130002106066_122120225637503839",
  "shareable": [
   {
    "id": "1444130002106066_122120077563503839",
@@ -2211,7 +2210,7 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1794488309.3707733,
+   "last_edit": 1794488834.6544366,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
@@ -2224,18 +2223,18 @@
    },
    "wicket_posts": 7,
    "break_done": true,
-   "last_edit": 1794488310.9618826,
+   "last_edit": 1794488835.6918876,
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-12 17:58",
-  "items": 14,
+  "time": "2026-11-12 18:07",
+  "items": 13,
   "sample": [
    "Pakistan 57/1 & 434/9 * v Sri Lanka 446/10",
-   "New South Wales 191/2 & 204/10 * v South Australia 325/10",
+   "New South Wales 204/10 & 191/2 * v South Australia 325/10",
    "Victoria 402/5 v Western Australia 185/3 *"
   ]
  },
@@ -2246,8 +2245,8 @@
  },
  "all_posts": {
   "date": "2026-11-12",
-  "count": 48,
-  "last": 1794487995.773793
+  "count": 49,
+  "last": 1794488516.3458667
  },
  "perf": {
   "posts": [
@@ -7482,9 +7481,9 @@
  },
  "ai_usage": {
   "date": "2026-11-12",
-  "ok": 306,
-  "fail": 475,
-  "limit": 467
+  "ok": 308,
+  "fail": 479,
+  "limit": 471
  },
  "posted_heads": [
   {
@@ -7813,7 +7812,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-12 17:58",
+  "time": "2026-11-12 18:07",
   "steps": []
  },
  "roundup_am": "2026-11-12",
@@ -7921,7 +7920,7 @@
   "text": 25,
   "story": 20
  },
- "ai_last_error": "17:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-12",
   "models": [
@@ -7963,7 +7962,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-12",
-   "ok": 106,
+   "ok": 107,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7971,7 +7970,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-12",
-   "ok": 106,
+   "ok": 107,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7979,7 +7978,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-12",
-   "ok": 106,
+   "ok": 107,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7987,7 +7986,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7995,7 +7994,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8003,14 +8002,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 105,
+   "ok": 106,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8019,9 +8018,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-12",
    "ok": 0,
-   "fail": 108,
+   "fail": 109,
    "items": 15,
-   "fail_streak": 1193,
+   "fail_streak": 1194,
    "last_status": 404
   }
  },
@@ -8524,18 +8523,18 @@
  "region_posts": {
   "date": "2026-11-12",
   "district": 6,
-  "sindh": 17,
+  "sindh": 18,
   "pakistan": 14
  },
  "report_acc": {
-  "posted": 3,
-  "found": 45,
-  "old": 45,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-12 17",
+ "report_hour": "2026-11-12 18",
  "kawish_upload_times": {
   "_date": "2026-11-12",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9512,20 +9511,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-12 14:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-12 14:55",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-12 15:00",
    "ok": true,
    "n": 0,
@@ -9790,63 +9775,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-12 18:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 18:07",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-12",
  "recent_posts": [
-  {
-   "t": 1794315709,
-   "h": "شام جون سنڌ جون اهم خبرون",
-   "b": "10 نومبر 2026 1️⃣ سنڌ ۾ ٻوڏ متاثرن لاءِ گھر تيار سنڌ جي سينيئر صوبائي وزير شرجيل انعام ميمڻ چيو آهي ته صوبي",
-   "tt": [
-    "اهم",
-    "خبرون",
-    "سنڌ",
-    "شام"
-   ],
-   "bt": [
-    "#10",
-    "#24",
-    "انعام",
-    "اهم",
-    "اهي",
-    "تحفظ",
-    "تعمير",
-    "تيار",
-    "جيئن",
-    "خبرون",
-    "خودمختياري",
-    "سندن",
-    "سنڌ",
-    "سينيئر",
-    "سگهي",
-    "شام",
-    "شرجيل",
-    "صوبائي",
-    "صوبي",
-    "ضلعن",
-    "عورتن",
-    "فروغ",
-    "مالڪاڻا",
-    "متاثر",
-    "متاثرن",
-    "ملي",
-    "ميمڻ",
-    "مڪمل",
-    "نومبر",
-    "نون",
-    "وزير",
-    "وڃن",
-    "وڌيڪ",
-    "ٻوڏ",
-    "پيا",
-    "ٿيل",
-    "ڏنا",
-    "ڪان",
-    "گهر",
-    "گهرن"
-   ]
-  },
   {
    "t": 1794316275,
    "h": "ڀريا روڊ ويجهو جوابدارن هٿان هاري قتل، لاش هٿ",
@@ -14119,6 +14065,54 @@
     "پهرين",
     "ڏيڻ",
     "ڪمن"
+   ]
+  },
+  {
+   "t": 1794488516,
+   "h": "شام جون سنڌ جون اهم خبرون",
+   "b": "12 نومبر 2026 1️⃣ ملڪ ۾ سون جي قيمت ۾ وڏي لاٿ آل پاڪستان جيمز اينڊ جيولرز ايسوسيئيشن موجب ملڪ ۾ في تولو سون",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "شام"
+   ],
+   "bt": [
+    "#12",
+    "اهم",
+    "اهي",
+    "اهي،",
+    "اونس",
+    "ايسوسيئيشن",
+    "اينڊ",
+    "تولو",
+    "جيمز",
+    "جيولرز",
+    "خبرون",
+    "رپيا",
+    "سستو",
+    "سنڌ",
+    "سوله",
+    "سون",
+    "شام",
+    "عالمي",
+    "قيمت",
+    "لاٿ",
+    "مارڪيٽ",
+    "ملڪ",
+    "موجب",
+    "نئين",
+    "نومبر",
+    "هزار",
+    "وڏي",
+    "پاڪستان",
+    "پنج",
+    "چار",
+    "ڇهٽيهه",
+    "ڊالر",
+    "ڏهه",
+    "ڪانپوء",
+    "گهٽجي"
    ]
   }
  ],
