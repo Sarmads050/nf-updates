@@ -1,16 +1,5 @@
 {
  "seen": {
-  "66b43a1c789d3f4f": 1793921500.6120048,
-  "79254d265fd7f430": 1793921509.6558874,
-  "c49d2c0f56bb6dd9": 1793921509.65589,
-  "86d6e698429f6cab": 1793921509.655892,
-  "3e63fca4b06aa4fe": 1793921509.6558924,
-  "63632d27eb18c139": 1793921509.6558933,
-  "984e1d4f5f5aaa90": 1793921509.655894,
-  "8ed6aa11ed94c49d": 1793921509.6558945,
-  "174f3269957056d9": 1793921509.655895,
-  "7219092155444918": 1793921509.6558957,
-  "e89ba52e8da59f54": 1793921509.6561103,
   "7ca6145c40710628": 1793924471.9011014,
   "e7b49e414a047c3c": 1793924471.9011037,
   "7aebfca43b4b54c1": 1793924471.901105,
@@ -1474,7 +1463,9 @@
   "b2fdcd143b151c4c": 1794523437.884675,
   "830d72943acd9964": 1794523437.8846755,
   "02f95bd1802d3803": 1794523437.884677,
-  "af5d85737b03c463": 1794523437.8848057
+  "af5d85737b03c463": 1794523437.8848057,
+  "95567e8594d3cd39": 1794526865.7995155,
+  "0e089c92dc8988f6": 1794526865.7996893
  },
  "pending": {},
  "queue": [],
@@ -2183,11 +2174,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-13 04:36",
+  "time": "2026-11-13 04:46",
   "items": 19,
   "sample": [
    "Pakistan 434/9 & 57/1 * v Sri Lanka 446/10",
-   "New South Wales 195/2 & 204/10 * v South Australia 325/10",
+   "New South Wales 204/10 & 195/2 * v South Australia 325/10",
    "Victoria 402/5 v Western Australia 185/3 *"
   ]
  },
@@ -7378,9 +7369,9 @@
  },
  "ai_usage": {
   "date": "2026-11-13",
-  "ok": 37,
-  "fail": 64,
-  "limit": 62
+  "ok": 40,
+  "fail": 70,
+  "limit": 68
  },
  "posted_heads": [
   {
@@ -7705,7 +7696,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-13 04:36",
+  "time": "2026-11-13 04:46",
   "steps": []
  },
  "roundup_am": "2026-11-12",
@@ -7808,12 +7799,12 @@
  },
  "article_diag": {
   "date": "2026-11-13",
-  "tried": 5,
-  "decoded": 5,
-  "text": 5,
-  "story": 5
+  "tried": 6,
+  "decoded": 6,
+  "text": 6,
+  "story": 6
  },
- "ai_last_error": "03:44 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "04:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-13",
   "models": [
@@ -7855,7 +7846,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-13",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7863,7 +7854,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-13",
-   "ok": 28,
+   "ok": 29,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7871,7 +7862,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-13",
-   "ok": 28,
+   "ok": 29,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7879,7 +7870,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7887,7 +7878,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7895,14 +7886,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 29,
+   "ok": 30,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7911,9 +7902,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-13",
    "ok": 0,
-   "fail": 29,
+   "fail": 30,
    "items": 15,
-   "fail_streak": 1258,
+   "fail_streak": 1259,
    "last_status": 404
   }
  },
@@ -8421,8 +8412,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 27,
-  "old": 27,
+  "found": 36,
+  "old": 36,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8470,8 +8461,8 @@
   "date": "2026-11-13",
   "count": 3,
   "last": 1794517281.151032,
-  "city_i": 18,
-  "dry": 1794526266.7858882
+  "city_i": 22,
+  "dry": 1794526861.4788423
  },
  "gemini_day_dead": {
   "day": "2026-11-12",
@@ -9124,20 +9115,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-13 01:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-13 01:26",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-13 01:30",
    "ok": true,
    "n": 0,
@@ -9398,6 +9375,20 @@
   },
   {
    "t": "11-13 04:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 04:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 04:46",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13877,11 +13868,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-09 18:11",
-   "new": "ملڪ کي 12 صوبن ۾ ورهائڻ جي رٿا تي غور",
-   "old": "ملڪ جي انتظامي نقشي ۾ تبديلي ۽ 12 صوبن جي تجويز"
-  },
-  {
    "t": "11-09 19:31",
    "new": "بولي ۽ قوم بدران عوامي سهولتن تي انتظامي يونٽ ٺاهيا وڃن: خواجا آصف",
    "old": "ملڪ جي انتظامي نقشي ۾ تبديلي ۽ 12 صوبن جي تجويز"
@@ -14025,6 +14011,11 @@
    "t": "11-13 03:43",
    "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽات",
    "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
+  },
+  {
+   "t": "11-13 04:41",
+   "new": "پيٽرول جي قيمت ۾ گهٽتائي جو اعلان",
+   "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14045,6 +14036,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 2
- }
+  "repeat": 3
+ },
+ "_dup": true
 }
