@@ -2165,7 +2165,7 @@
    "wkts": {
     "Pakistan|1": 9,
     "Sri Lanka|1": 10,
-    "Pakistan|2": 1
+    "Pakistan|2": 9
    },
    "wicket_posts": 12,
    "break_done": true,
@@ -2189,10 +2189,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-12 21:36",
+  "time": "2026-11-12 21:45",
   "items": 13,
   "sample": [
-   "Pakistan 434/9 & 57/1 * v Sri Lanka 446/10",
+   "Pakistan 57/1 & 434/9 * v Sri Lanka 446/10",
    "New South Wales 191/2 & 204/10 * v South Australia 325/10",
    "Victoria 402/5 v Western Australia 185/3 *"
   ]
@@ -7759,7 +7759,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-12 21:36",
+  "time": "2026-11-12 21:46",
   "steps": []
  },
  "roundup_am": "2026-11-12",
@@ -7909,7 +7909,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-12",
-   "ok": 127,
+   "ok": 128,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7917,7 +7917,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-12",
-   "ok": 128,
+   "ok": 129,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7925,7 +7925,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-12",
-   "ok": 128,
+   "ok": 129,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7933,7 +7933,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 130,
+   "ok": 131,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7941,7 +7941,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 130,
+   "ok": 131,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7949,14 +7949,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 130,
+   "ok": 131,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 124,
+   "ok": 125,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -7965,9 +7965,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-12",
    "ok": 0,
-   "fail": 130,
+   "fail": 131,
    "items": 15,
-   "fail_streak": 1215,
+   "fail_streak": 1216,
    "last_status": 404
   }
  },
@@ -8475,8 +8475,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 27,
-  "old": 27,
+  "found": 36,
+  "old": 36,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9445,20 +9445,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-12 18:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-12 18:26",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-12 18:30",
    "ok": true,
    "n": 0,
@@ -9719,6 +9705,20 @@
   },
   {
    "t": "11-12 21:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 21:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 21:45",
    "ok": true,
    "n": 0,
    "ids": [],
