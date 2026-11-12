@@ -5,7 +5,7 @@
  "title": "Dhoop Ka Kona!",
  "topic": "First cold snap of winter - Sunday morning sun reaches only one corner of the aangan; Abba books the sunny charpai, Daniyal objects, Imtiaz queues, Abba dozes under a razai; by noon the sun is everywhere; Ammi brings chai and makes a fair turn rule",
  "music": "comic",
- "tempo": 1.1,
+ "tempo": 1.12,
  "lesson": "Dhoop ho ya chai...<br>baant kar hi maza hai!",
  "caption": "Sardi aa gayi! ☀️🥶 Aangan mein dhoop sirf ek kone mein... aur poora ghar line mein! Abba ka 'pehle aao, pehle pao' vs Daniyal ka Objection 😂☕ Aap ke ghar dhoop wali jagah kis ki hoti hai? Comment mein batayein!",
  "hashtags": [
@@ -84,7 +84,14 @@
      "gap": 0.5,
      "react": {
       "DANIYAL": "surprised"
-     }
+     },
+     "before": [
+      {
+       "do": "prop",
+       "who": "ABBA",
+       "prop": null
+      }
+     ]
     },
     {
      "who": "DANIYAL",
@@ -118,19 +125,6 @@
      "react": {
       "DANIYAL": "sheepish"
      }
-    },
-    {
-     "who": "DANIYAL",
-     "to": "front",
-     "emo": "sheepish",
-     "roman": "Theek hai... main bhi *line* mein khara hoon. Agli *baari* meri hai!",
-     "urdu": "ٹھیک ہے... میں بھی لائن میں کھڑا ہوں۔ اگلی باری میری ہے!",
-     "how": "defeated but still hopeful, small sigh",
-     "pose": "cross",
-     "shot": "close",
-     "react_pose": {
-      "ABBA": "newspaper"
-     }
     }
    ]
   },
@@ -140,7 +134,7 @@
    "label": "Aangan • Aadhe Ghante Baad",
    "cast": {
     "ABBA": "charpai_r",
-    "DANIYAL": "stand_r"
+    "DANIYAL": "stand_l"
    },
    "props": {
     "ABBA": null
@@ -282,8 +276,8 @@
    "label": "Aangan • Dopahar",
    "cast": {
     "DANIYAL": "charpai_l",
-    "IMTIAZ": "charpai_c",
     "ABBA": "charpai_r",
+    "IMTIAZ": "stand_l",
     "HASHIR": "floor_l"
    },
    "props": {
@@ -334,7 +328,7 @@
       {
        "do": "enter",
        "who": "AMMI",
-       "slot": "stand_r"
+       "slot": "stand_c"
       }
      ],
      "give": {

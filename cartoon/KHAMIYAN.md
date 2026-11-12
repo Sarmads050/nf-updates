@@ -43,6 +43,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-045] (ep018, 2026-11-11) Narrator kehta hai Arsalan "poora bheeg kar" aaya, lekin kitchen mein woh bilkul sookha dikhta hai — naya "wet" emo: geele chipke baal, kapron par gehre dhabbe, girti boondein.
 - [K-046] (ep018, 2026-11-11) Punchline "chhatri band hi rakhi" hai lekin chhatri kahin nazar nahi aati — naya "umbrella" prop (band chhatri haath mein, aur khuli chhatri wala variant).
 
+- [K-047] (ep019, 2026-11-12) Kahani "dhoop sirf ek kone mein" ki hai lekin aangan mein har jagah ek jaisi roshni hai — na deewar ka saya, na dhoop ka chamakta tukra — sets.py mein aangan ke liye `sun` option: deewar ka lamba saya aur sirf chuni hui slot (jaise charpai_r) par garam peeli dhoop ka patch, dopahar mein poora aangan roshan.
+- [K-048] (ep019, 2026-11-12) Charpai par razai mein soye Abba (scene 2) khare logon ke peeche chhup jate hain; "judge sahab so gaye" wali punch line par sirf razai ka kona dikhta hai, Abba ka chehra aur Zzz nahi — jab koi so raha ho aur line us ka zikr kare to shot mein sone wale ko frame mein rakhna (naya `shot: "close:ABBA"` ya sleeper ko khare logon se aage layer karna).
+- [K-049] (ep019, 2026-11-12) Aangan ke stand_r par aane wali Ammi (tray ke saath) `two:AMMI` shot mein frame ke right kinare par aadhi kat gayin, is liye unhein stand_c par lana para — two/close shot ka frame is tarah clamp karna ke bolne wala poora andar rahe.
+
 ## APPROVED
 
 ## DONE
