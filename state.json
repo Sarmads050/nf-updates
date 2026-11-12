@@ -1506,7 +1506,9 @@
   "5ae2f6d8f3a22b9f": 1794445304.234569,
   "93a2521450501ff3": 1794445312.6093545,
   "231426614e93675c": 1794445312.6093566,
-  "95ad4b086ad1868b": 1794445312.6095269
+  "95ad4b086ad1868b": 1794445312.6095269,
+  "83fc5e0c5d32fadf": 1794445874.001514,
+  "2e2ec9fdee07307e": 1794445874.0016794
  },
  "pending": {},
  "queue": [],
@@ -1642,20 +1644,8 @@
    "879d0f0ea396965c"
   ]
  },
- "last_post_id": "1444130002106066_122120068431503839",
+ "last_post_id": "1444130002106066_122120077563503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122119789851503839",
-   "title": "ملير ۾ اڳوڻي ايس ايڇ او جي قتل جو ڪيس داخل",
-   "t": 1794373887.6960778,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122119789851503839"
-  },
   {
    "id": "1444130002106066_122119793307503839",
    "title": "ڄاڻايو ويو آهي ته ملڪ ۾ اڄ سونهن جي اگهن ۾ نوان واڌارو يا گهٽتائي سامهون آئي آهي",
@@ -1969,6 +1959,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122120068431503839"
+  },
+  {
+   "id": "1444130002106066_122120077563503839",
+   "title": "وفاقي وزير اسحاق ڊار ريلوي جي سڌارن ۽ نون تجويزن جو جائزو وٺڻ لاءِ هڪ اعليٰ سطحي اجلاس جي",
+   "t": 1794445919.878661,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122120077563503839"
   }
  ],
  "share_sent": {
@@ -2185,7 +2184,7 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794445621.065665,
+   "last_edit": 1794446225.7440162,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
@@ -2201,11 +2200,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-12 06:07",
+  "time": "2026-11-12 06:17",
   "items": 15,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 404/4 *",
-   "New South Wales 204/10 v South Australia 196/5 *",
+   "New South Wales 204/10 v South Australia 236/6 *",
    "Victoria 373/4 * v Western Australia"
   ]
  },
@@ -2216,17 +2215,11 @@
  },
  "all_posts": {
   "date": "2026-11-12",
-  "count": 6,
-  "last": 1794442924.7318673
+  "count": 7,
+  "last": 1794445913.9901288
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122116569915503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793554488
-   },
    {
     "id": "1444130002106066_122116573281503839",
     "sec": "sindh_single",
@@ -4620,13 +4613,19 @@
     "sec": "public_news",
     "cat": "electricity_gas",
     "t": 1794442928
+   },
+   {
+    "id": "1444130002106066_122120077563503839",
+    "sec": "public_news",
+    "cat": "transport_trade",
+    "t": 1794445919
    }
   ]
  },
  "public_news": {
   "date": "2026-11-12",
-  "count": 3,
-  "last": 1794442928.7366848
+  "count": 4,
+  "last": 1794445919.8786457
  },
  "trends": {
   "last": 1794444657.7071204,
@@ -7492,15 +7491,11 @@
  },
  "ai_usage": {
   "date": "2026-11-12",
-  "ok": 94,
-  "fail": 167,
-  "limit": 164
+  "ok": 102,
+  "fail": 181,
+  "limit": 178
  },
  "posted_heads": [
-  {
-   "h": "دادو ۾ زمين جي تڪرار تان ٻن ڌرين ۾ جهيڙو، هڪڙو زخمي",
-   "t": 1794235294
-  },
   {
    "h": "پاڪستان ۾ ريفرنڊم جي تاريخ سُٺي نه رهي آهي، زين شاهه خبردار ڪري ڇڏيو",
    "t": 1794235888
@@ -7816,10 +7811,14 @@
   {
    "h": "Pakistan’s power shortfall rises to 1,500MW",
    "t": 1794442928
+  },
+  {
+   "h": "Revamping Railways: Dar chairs meeting to assess proposals",
+   "t": 1794445920
   }
  ],
  "last_errors": {
-  "time": "2026-11-12 06:07",
+  "time": "2026-11-12 06:17",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7922,12 +7921,12 @@
  },
  "article_diag": {
   "date": "2026-11-12",
-  "tried": 15,
-  "decoded": 15,
-  "text": 15,
+  "tried": 16,
+  "decoded": 16,
+  "text": 16,
   "story": 11
  },
- "ai_last_error": "06:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-12",
   "models": [
@@ -7941,9 +7940,9 @@
  },
  "img_diag": {
   "date": "2026-11-12",
-  "tried": 7,
+  "tried": 8,
   "gemini": 0,
-  "pollinations": 4,
+  "pollinations": 5,
   "skip": 1,
   "fail": 0,
   "last_note": "LPG cylinders and kitchen stove",
@@ -7969,7 +7968,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-12",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7977,7 +7976,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-12",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7985,7 +7984,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-12",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7993,7 +7992,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8001,7 +8000,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8009,14 +8008,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8025,9 +8024,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-12",
    "ok": 0,
-   "fail": 35,
+   "fail": 36,
    "items": 15,
-   "fail_streak": 1120,
+   "fail_streak": 1121,
    "last_status": 404
   }
  },
@@ -8212,12 +8211,12 @@
   "date": "2026-11-12",
   "district": 0,
   "sindh": 1,
-  "pakistan": 6
+  "pakistan": 7
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 9,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8264,8 +8263,8 @@
   "date": "2026-11-12",
   "count": 1,
   "last": 1794426667.6690931,
-  "city_i": 4,
-  "dry": 1794445274.081718
+  "city_i": 8,
+  "dry": 1794445869.7042694
  },
  "gemini_day_dead": {
   "day": "2026-11-11",
@@ -8345,14 +8344,6 @@
   92058803
  ],
  "reel_pool": [
-  {
-   "k": "dfbeed9cff6bcede",
-   "h": "پاڪستاني بيٽر جو بابر اعظم کي ڪريڊٽ",
-   "x": "پاڪستاني بيٽر پنهنجي شاندار ڊبيو هاف سينچري جو ڪريڊٽ بابر اعظم کي ڏنو آهي!",
-   "t": 1794272049,
-   "s": false,
-   "r": 0
-  },
   {
    "k": "1d393210a59cd558",
    "h": "ڪراچي ۾ اڄ هلڪي برسات جو امڪان",
@@ -8944,6 +8935,14 @@
    "t": 1794442928,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "eaea6def9e585b25",
+   "h": "ريلوي نظام کي بهتر بڻائڻ بابت اهم اجلاس",
+   "x": "وفاقي وزير اسحاق ڊار ريلوي جي سڌارن ۽ نون تجويزن جو جائزو وٺڻ لاءِ هڪ اعليٰ سطحي اجلاس جي صدارت ڪئي. بيان: وفاقي وزير اسحاق ڊار",
+   "t": 1794445919,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8957,20 +8956,6 @@
   "last": 1794397298.45524
  },
  "tg_debug": [
-  {
-   "t": "11-12 03:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-12 03:08",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-12 03:10",
    "ok": true,
@@ -9236,35 +9221,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-12 06:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 06:17",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-12",
  "recent_posts": [
-  {
-   "t": 1794272049,
-   "h": "پاڪستاني بيٽر جو بابر اعظم کي ڪريڊٽ",
-   "b": "پاڪستاني بيٽر پنهنجي شاندار ڊبيو هاف سينچري جو ڪريڊٽ بابر اعظم کي ڏنو آهي!",
-   "tt": [
-    "اعظم",
-    "بابر",
-    "بيٽر",
-    "پاڪستاني",
-    "ڪريڊٽ"
-   ],
-   "bt": [
-    "اعظم",
-    "اهي",
-    "بابر",
-    "بيٽر",
-    "سينچري",
-    "شاندار",
-    "هاف",
-    "پاڪستاني",
-    "پنهنجي",
-    "ڊبيو",
-    "ڪريڊٽ"
-   ]
-  },
   {
    "t": 1794273698,
    "h": "ڪراچي ۾ اڄ هلڪي برسات جو امڪان",
@@ -13735,6 +13709,42 @@
     "گهٽتائي",
     "گيس"
    ]
+  },
+  {
+   "t": 1794445919,
+   "h": "ريلوي نظام کي بهتر بڻائڻ بابت اهم اجلاس",
+   "b": "وفاقي وزير اسحاق ڊار ريلوي جي سڌارن ۽ نون تجويزن جو جائزو وٺڻ لاءِ هڪ اعليٰ سطحي اجلاس جي صدارت ڪئي. بيان:",
+   "tt": [
+    "اجلاس",
+    "اهم",
+    "بابت",
+    "بهتر",
+    "بڻائڻ",
+    "ريلوي",
+    "نظام"
+   ],
+   "bt": [
+    "اجلاس",
+    "اسحاق",
+    "اعلي",
+    "اهم",
+    "بابت",
+    "بهتر",
+    "بيان",
+    "بڻائڻ",
+    "تجويزن",
+    "جائزو",
+    "ريلوي",
+    "سطحي",
+    "سڌارن",
+    "صدارت",
+    "نظام",
+    "نون",
+    "وزير",
+    "وفاقي",
+    "وٺڻ",
+    "ڊار"
+   ]
   }
  ],
  "repeat_log": [
@@ -13902,12 +13912,11 @@
  },
  "quality": {
   "date": "2026-11-12",
-  "editor_fixed": 5,
+  "editor_fixed": 6,
   "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
   "repeat": 7
- },
- "_dup": true
+ }
 }
