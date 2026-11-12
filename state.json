@@ -1,10 +1,5 @@
 {
  "seen": {
-  "ee153a72b1293b74": 1793877141.360692,
-  "7d53c59f12e73e27": 1793877141.3704946,
-  "2db5cefb662f2430": 1793877594.7114604,
-  "5f057f2a9718cd4c": 1793877594.7139912,
-  "be56b8b825ae80c5": 1793877594.716679,
   "1c23f74d43f80076": 1793879040.6202,
   "1de5114d3aedf3f6": 1793879040.6202035,
   "583c97e438895759": 1793880121.8426175,
@@ -1672,18 +1667,8 @@
    "dacbc5395b57225d"
   ]
  },
- "last_post_id": "1444130002106066_122120200287503839",
+ "last_post_id": "1444130002106066_122120203677503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122120004339503839",
-   "title": "سنڌ حڪومت 17 ارب رپين جي لاڳت سان ڪڻڪ جي هارين لاءِ امدادي پروگرام شروع ڪرڻ جو اعلان ڪري",
-   "t": 1794423818.7044253,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122120004339503839"
-  },
   {
    "id": "1444130002106066_122120015745503839",
    "title": "نوابشاهه: ضبط ڪيل دوائون ليبارٽري ڏکڻ لاءِ موڪليا ويا",
@@ -1990,6 +1975,16 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122120199327503839"
+  },
+  {
+   "id": "1444130002106066_122120203677503839",
+   "title": "نوشهروفيروز: نوجوان جو گهر ۾ پهچي آپگهات، لاش اسپتال منتقل",
+   "t": 1794482506.4320624,
+   "tags": [
+    "local",
+    "padidan"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122120203677503839"
   }
  ],
  "share_sent": {
@@ -2203,11 +2198,11 @@
    "wkts": {
     "Pakistan|1": 9,
     "Sri Lanka|1": 10,
-    "Pakistan|2": 1
+    "Pakistan|2": 9
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1794482231.819199,
+   "last_edit": 1794482811.8056471,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
@@ -2220,18 +2215,18 @@
    },
    "wicket_posts": 6,
    "break_done": true,
-   "last_edit": 1794482232.9700875,
+   "last_edit": 1794482812.882522,
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-12 16:17",
+  "time": "2026-11-12 16:26",
   "items": 14,
   "sample": [
-   "Pakistan 434/9 & 57/1 * v Sri Lanka 446/10",
-   "New South Wales 204/10 & 191/2 * v South Australia 325/10",
+   "Pakistan 57/1 & 434/9 * v Sri Lanka 446/10",
+   "New South Wales 191/2 & 204/10 * v South Australia 325/10",
    "Victoria 402/5 v Western Australia 185/3 *"
   ]
  },
@@ -2242,17 +2237,11 @@
  },
  "all_posts": {
   "date": "2026-11-12",
-  "count": 41,
-  "last": 1794481424.9678326
+  "count": 42,
+  "last": 1794482498.0582943
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122116760229503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793607275
-   },
    {
     "id": "1444130002106066_122116763325503839",
     "sec": "sindh_stream",
@@ -4646,6 +4635,12 @@
     "sec": "kawish",
     "cat": "district",
     "t": 1794481315
+   },
+   {
+    "id": "1444130002106066_122120203677503839",
+    "sec": "kawish",
+    "cat": "district",
+    "t": 1794482506
    }
   ]
  },
@@ -7478,9 +7473,9 @@
  },
  "ai_usage": {
   "date": "2026-11-12",
-  "ok": 282,
-  "fail": 437,
-  "limit": 428
+  "ok": 284,
+  "fail": 441,
+  "limit": 432
  },
  "posted_heads": [
   {
@@ -7810,10 +7805,14 @@
   {
    "h": "نوشهروفيروز سول اسپتال ۾ سهولتن جي کوٽ خلاف شهرين جو احتجاج",
    "t": 1794481315
+  },
+  {
+   "h": "نوشهروفيروز: نوجوان جو گهر ۾ پهچي آپگهات، لاش اسپتال منتقل",
+   "t": 1794482506
   }
  ],
  "last_errors": {
-  "time": "2026-11-12 16:17",
+  "time": "2026-11-12 16:26",
   "steps": []
  },
  "roundup_am": "2026-11-12",
@@ -7921,7 +7920,7 @@
   "text": 24,
   "story": 19
  },
- "ai_last_error": "16:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "16:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-12",
   "models": [
@@ -7935,10 +7934,10 @@
  },
  "img_diag": {
   "date": "2026-11-12",
-  "tried": 32,
+  "tried": 33,
   "gemini": 0,
   "pollinations": 17,
-  "skip": 8,
+  "skip": 9,
   "fail": 6,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 617,
@@ -7963,7 +7962,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-12",
-   "ok": 95,
+   "ok": 96,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7971,23 +7970,23 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-12",
-   "ok": 95,
+   "ok": 96,
    "fail": 2,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-12",
-   "ok": 95,
+   "ok": 96,
    "fail": 2,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7995,7 +7994,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8003,14 +8002,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 94,
+   "ok": 95,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8019,9 +8018,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-12",
    "ok": 0,
-   "fail": 97,
+   "fail": 98,
    "items": 15,
-   "fail_streak": 1182,
+   "fail_streak": 1183,
    "last_status": 404
   }
  },
@@ -8523,14 +8522,14 @@
  "gemini_off_alert": "2026-10-19",
  "region_posts": {
   "date": "2026-11-12",
-  "district": 2,
+  "district": 3,
   "sindh": 15,
   "pakistan": 14
  },
  "report_acc": {
-  "posted": 0,
-  "found": 9,
-  "old": 9,
+  "posted": 1,
+  "found": 18,
+  "old": 18,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9241,6 +9240,14 @@
    "t": 1794481315,
    "s": true,
    "r": 1
+  },
+  {
+   "k": "ab04ce32f45c6411",
+   "h": "نوشهروفيروز: نوجوان جو گهر ۾ آپگهات، لاش اسپتال منتقل",
+   "x": "نوشهروفيروز ۾ هڪ نوجوان پنهنجي گهر ۾ آپگهات ڪري ڇڏيو. اطلاع تي پوليس واقعي واري هنڌ پهچي لاش اسپتال کڻائي وئي، جتان ضروري ڪارروائي بعد لاش وارثن حوالي ڪيو ويو. پوليس واقعي جي جاچ شروع ڪري ڇڏي آهي.",
+   "t": 1794482506,
+   "s": true,
+   "r": 1
   }
  ],
  "reels": {
@@ -9255,22 +9262,6 @@
   ]
  },
  "kawish_queue": [
-  {
-   "key": "361b8dfc89c5d72b",
-   "page": 8,
-   "head": "نوشهروفيروز: نوجوان جو گهر ۾ پهچي آپگهات، لاش اسپتال منتقل",
-   "summary": "نوشهروفيروز ۾ هڪ نوجوان پنهنجي گهر ۾ آپگهات ڪري ڇڏيو. اطلاع تي پوليس واقعو واري هنڌ پهچي لاش اسپتال کڻائي وئي، جتان ضروري ڪارروائي بعد لاش وارثن حوالي ڪيو ويو. پوليس واقعي جي جاچ شروع ڪري ڇڏي آهي.",
-   "card": "نوشهروفيروز ۾ نوجوان گهر ۾ آپگهات ڪري ڇڏيو، پوليس لاش اسپتال منتقل ڪري قانوني ڪارروائي ڪئي.",
-   "printed": "نوشهروفيروز: نوجوان جو گهر ۾ آپگهات، لاش اسپتال منتقل نوشهروفيروز (رپورٽ)",
-   "search_en": "Naushahro Feroze youth suicide",
-   "search_ur": "نوشہرہ فیروز نوجوان خودکشی",
-   "district": true,
-   "sensitive": true,
-   "confidence": "high",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-11-12&pageno=8",
-   "message": "📰 نوشهروفيروز: نوجوان جو گهر ۾ پهچي آپگهات، لاش اسپتال منتقل\n\nنوشهروفيروز ۾ هڪ نوجوان پنهنجي گهر ۾ آپگهات ڪري ڇڏيو. اطلاع تي پوليس واقعو واري هنڌ پهچي لاش اسپتال کڻائي وئي، جتان ضروري ڪارروائي بعد لاش وارثن حوالي ڪيو ويو. پوليس واقعي جي جاچ شروع ڪري ڇڏي آهي!\n\n📌 ذريعو: روزاني ڪاوش (صفحو 8)\n\n📲 Naushahro Feroze Updates | نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFerozeUpdates #NaushahroFeroze #NausheroFeroz #Padidan #نوشهروفيروز #نوشہروفیروز #پڊعيدن",
-   "added_day": "2026-11-12"
-  },
   {
    "key": "73ac136e3031f92a",
    "page": 3,
@@ -9594,24 +9585,10 @@
  ],
  "kawish_post": {
   "date": "2026-11-12",
-  "count": 2,
-  "last": 1794481315.4611228
+  "count": 3,
+  "last": 1794482506.4320288
  },
  "tg_debug": [
-  {
-   "t": "11-12 12:56",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-12 13:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-12 13:06",
    "ok": true,
@@ -9873,6 +9850,20 @@
   },
   {
    "t": "11-12 16:17",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 16:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 16:26",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14144,6 +14135,49 @@
     "وومين",
     "پاڪستان"
    ]
+  },
+  {
+   "t": 1794482506,
+   "h": "نوشهروفيروز: نوجوان جو گهر ۾ آپگهات، لاش اسپتال منتقل",
+   "b": "نوشهروفيروز ۾ هڪ نوجوان پنهنجي گهر ۾ آپگهات ڪري ڇڏيو. اطلاع تي پوليس واقعي واري هنڌ پهچي لاش اسپتال کڻائي",
+   "tt": [
+    "اسپتال",
+    "اپگهات،",
+    "لاش",
+    "منتقل",
+    "نوجوان",
+    "نوشهروفيروز",
+    "گهر"
+   ],
+   "bt": [
+    "اسپتال",
+    "اطلاع",
+    "اهي",
+    "اپگهات",
+    "اپگهات،",
+    "بعد",
+    "جاچ",
+    "جتان",
+    "حوالي",
+    "شروع",
+    "ضروري",
+    "لاش",
+    "منتقل",
+    "نوجوان",
+    "نوشهروفيروز",
+    "هنڌ",
+    "وئي،",
+    "وارثن",
+    "واقعي",
+    "پنهنجي",
+    "پهچي",
+    "پوليس",
+    "ڇڏي",
+    "ڇڏيو",
+    "ڪارروائي",
+    "ڪڻائي",
+    "گهر"
+   ]
   }
  ],
  "repeat_log": [
@@ -14311,7 +14345,7 @@
  },
  "quality": {
   "date": "2026-11-12",
-  "editor_fixed": 25,
+  "editor_fixed": 26,
   "editor_rejected": 3,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
