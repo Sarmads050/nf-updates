@@ -1523,7 +1523,16 @@
   "8045e7b6a780a10e": 1794471359.3479807,
   "e5bf90e90e9b5577": 1794471359.3481839,
   "4f6be40d39657a30": 1794472955.082865,
-  "027464805614e670": 1794472955.0828679
+  "027464805614e670": 1794472955.0828679,
+  "a02e1f87e073f156": 1794474122.7419333,
+  "dacbc5395b57225d": 1794474258.3805745,
+  "a6dc06787e1e55e1": 1794474274.7131648,
+  "df927f175e65ab68": 1794474274.7131686,
+  "6903c2ae129d6bfc": 1794474274.7131693,
+  "bf307a846976f653": 1794474274.7131703,
+  "12dca337ed14154b": 1794474274.7131712,
+  "da78bab435c56403": 1794474274.713172,
+  "715e3092fbcb8e66": 1794474274.7133746
  },
  "pending": {},
  "queue": [],
@@ -1541,7 +1550,7 @@
   "last_week": "",
   "last_check": "2026-11-12"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-3.1-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1596,7 +1605,7 @@
  "sindh_single": {
   "date": "2026-11-12",
   "count": 1,
-  "last": 1794462067.739467,
+  "last": 1794474244.75487,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1647,23 +1656,12 @@
    "f305689e64ea8628",
    "cd07e3766e2f1fee",
    "879d0f0ea396965c",
-   "b106ea9edb396672"
+   "b106ea9edb396672",
+   "dacbc5395b57225d"
   ]
  },
- "last_post_id": "1444130002106066_122120166477503839",
+ "last_post_id": "1444130002106066_122120169999503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122119909845503839",
-   "title": "قدرتي آفتن کي منهن ڏيڻ لاءِ پاڪستان کي 50 ڪروڙ ڊالر ملندا",
-   "t": 1794399134.1551347,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122119909845503839"
-  },
   {
    "id": "1444130002106066_122119929891503839",
    "title": "سانگهڙ ۾ مهاجرن ۽ بي گھر خاندانن جي سهڪار تي بحث",
@@ -1972,6 +1970,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122120166477503839"
+  },
+  {
+   "id": "1444130002106066_122120169999503839",
+   "title": "پاڪستان ۾ موسمياتي تبديلين کي منهن ڏيڻ لاءِ آبهوا جي موافق ٻج ۽ تباهي کان بچاءُ جي تيارين",
+   "t": 1794474313.5909903,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122120169999503839"
   }
  ],
  "share_sent": {
@@ -2189,7 +2197,7 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1794473898.4336298,
+   "last_edit": 1794474619.5862756,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
@@ -2205,32 +2213,26 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-12 13:58",
+  "time": "2026-11-12 14:10",
   "items": 11,
   "sample": [
    "Pakistan 57/1 & 434/9 * v Sri Lanka 446/10",
-   "New South Wales 191/2 & 204/10 * v South Australia 325/10",
+   "New South Wales 204/10 & 191/2 * v South Australia 325/10",
    "Victoria 402/5 v Western Australia 185/3 *"
   ]
  },
  "agri_news": {
   "date": "2026-11-12",
-  "count": 3,
-  "last": 1794450126.6580384
+  "count": 4,
+  "last": 1794474313.5909734
  },
  "all_posts": {
   "date": "2026-11-12",
-  "count": 28,
-  "last": 1794473242.72991
+  "count": 29,
+  "last": 1794474309.211612
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122116732257503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793599943
-   },
    {
     "id": "1444130002106066_122116734987503839",
     "sec": "sindh_stream",
@@ -4624,6 +4626,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1794473248
+   },
+   {
+    "id": "1444130002106066_122120169999503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1794474313
    }
   ]
  },
@@ -7472,15 +7480,11 @@
  },
  "ai_usage": {
   "date": "2026-11-12",
-  "ok": 224,
-  "fail": 371,
-  "limit": 363
+  "ok": 242,
+  "fail": 405,
+  "limit": 399
  },
  "posted_heads": [
-  {
-   "h": "گمبٽ ڀرسان پرڻيل عورت مبينا طور اغوا، وارثن کان 12 لک ڀنگ طلب",
-   "t": 1794291088
-  },
   {
    "h": "پاڪستان اسٽاڪ ايڪسچينج ۾ زبردست تيزي، انڊيڪس ۾ 3 هزار 646 پوائنٽن جو اضافو",
    "t": 1794292326
@@ -7796,10 +7800,14 @@
   {
    "h": "موسمياتي تبديلين کي منهن ڏيڻ لاءِ سنڌ ۾ تمر جي ٻيلن جي بحالي جو فيصلو",
    "t": 1794473248
+  },
+  {
+   "h": "Pakistan Focuses on Climate-Resilient Seeds and Disaster Preparedness, Minister Says",
+   "t": 1794474313
   }
  ],
  "last_errors": {
-  "time": "2026-11-12 13:58",
+  "time": "2026-11-12 14:10",
   "steps": []
  },
  "roundup_am": "2026-11-12",
@@ -7902,12 +7910,12 @@
  },
  "article_diag": {
   "date": "2026-11-12",
-  "tried": 25,
-  "decoded": 24,
-  "text": 23,
-  "story": 18
+  "tried": 27,
+  "decoded": 25,
+  "text": 24,
+  "story": 19
  },
- "ai_last_error": "13:42 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "14:04 gemini-3.5-flash-lite 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-11-12",
   "models": [
@@ -7921,9 +7929,9 @@
  },
  "img_diag": {
   "date": "2026-11-12",
-  "tried": 26,
+  "tried": 27,
   "gemini": 0,
-  "pollinations": 15,
+  "pollinations": 16,
   "skip": 5,
   "fail": 2,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
@@ -7949,7 +7957,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-12",
-   "ok": 81,
+   "ok": 82,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7957,7 +7965,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-12",
-   "ok": 82,
+   "ok": 83,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7965,7 +7973,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-12",
-   "ok": 82,
+   "ok": 83,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7973,7 +7981,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7981,7 +7989,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7989,14 +7997,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8005,9 +8013,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-12",
    "ok": 0,
-   "fail": 83,
+   "fail": 84,
    "items": 15,
-   "fail_streak": 1168,
+   "fail_streak": 1169,
    "last_status": 404
   }
  },
@@ -8192,17 +8200,17 @@
   "date": "2026-11-12",
   "district": 0,
   "sindh": 13,
-  "pakistan": 13
+  "pakistan": 14
  },
  "report_acc": {
-  "posted": 1,
-  "found": 36,
-  "old": 36,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-12 13",
+ "report_hour": "2026-11-12 14",
  "kawish_upload_times": {
   "_date": "2026-11-12",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8244,15 +8252,17 @@
   "date": "2026-11-12",
   "count": 11,
   "last": 1794472865.7576475,
-  "city_i": 4,
-  "dry": 1794471114.6912284
+  "city_i": 8,
+  "dry": 1794474087.6194317
  },
  "gemini_day_dead": {
   "day": "2026-11-12",
   "models": [
    "gemini-3.7-flash",
    "gemini-flash-latest",
-   "gemini-3.8-flash"
+   "gemini-3.8-flash",
+   "gemini-3.5-flash",
+   "gemini-3.6-flash"
   ]
  },
  "tg_done": [
@@ -8914,6 +8924,14 @@
    "t": 1794473248,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "5c9e45afa0267a30",
+   "h": "موسمياتي تبديليءَ کان بچاءَ لاءِ ٻج تي ڪم",
+   "x": "پاڪستان ۾ موسمياتي تبديلين کي منهن ڏيڻ لاءِ آبهوا جي موافق ٻج ۽ تباهي کان بچاءُ جي تيارين تي خاص توجهه ڏني پئي وڃي. بيان: وفاقي وزير",
+   "t": 1794474313,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8922,7 +8940,8 @@
    "08:00",
    "09:30",
    "11:00",
-   "12:30"
+   "12:30",
+   "14:00"
   ]
  },
  "kawish_queue": [],
@@ -8932,20 +8951,6 @@
   "last": 1794397298.45524
  },
  "tg_debug": [
-  {
-   "t": "11-12 10:36",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-12 10:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-12 10:46",
    "ok": true,
@@ -9211,55 +9216,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-12 14:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 14:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-12",
  "recent_posts": [
-  {
-   "t": 1794300506,
-   "h": "اننگز جو وقفو",
-   "b": "پاڪستان 434/9 سري لنڪا 1 🏏",
-   "tt": [
-    "اننگز",
-    "وقفو"
-   ],
-   "bt": [
-    "#434",
-    "اننگز",
-    "سري",
-    "لنڪا",
-    "وقفو",
-    "پاڪستان"
-   ]
-  },
-  {
-   "t": 1794301162,
-   "h": "وڪيٽ! سري لنڪا جو رانديگر آئوٽ، 2 وڪيٽون ڪري پيون",
-   "b": "هاڻوڪو اسڪور: پاڪستان 434/9 سري لنڪا 12/2 🏏",
-   "tt": [
-    "ائوٽ،",
-    "رانديگر",
-    "سري",
-    "لنڪا",
-    "وڪيٽ",
-    "وڪيٽون",
-    "پيون"
-   ],
-   "bt": [
-    "#12",
-    "#434",
-    "ائوٽ،",
-    "اسڪور",
-    "رانديگر",
-    "سري",
-    "لنڪا",
-    "هاڻوڪو",
-    "وڪيٽ",
-    "وڪيٽون",
-    "پاڪستان",
-    "پيون"
-   ]
-  },
   {
    "t": 1794301651,
    "h": "منجهند جون خبرون | اڱارو، 10 نومبر 2026",
@@ -13576,6 +13550,38 @@
     "ڏيڻ",
     "ڪرڻ"
    ]
+  },
+  {
+   "t": 1794474313,
+   "h": "موسمياتي تبديليءَ کان بچاءَ لاءِ ٻج تي ڪم",
+   "b": "پاڪستان ۾ موسمياتي تبديلين کي منهن ڏيڻ لاءِ آبهوا جي موافق ٻج ۽ تباهي کان بچاءُ جي تيارين تي خاص توجهه ڏني",
+   "tt": [
+    "بچاء",
+    "تبديليء",
+    "موسمياتي",
+    "ڪان"
+   ],
+   "bt": [
+    "ابهوا",
+    "بيان",
+    "بچاء",
+    "تباهي",
+    "تبديليء",
+    "تبديلين",
+    "توجهه",
+    "تيارين",
+    "خاص",
+    "منهن",
+    "موافق",
+    "موسمياتي",
+    "وزير",
+    "وفاقي",
+    "پئي",
+    "پاڪستان",
+    "ڏني",
+    "ڏيڻ",
+    "ڪان"
+   ]
   }
  ],
  "repeat_log": [
@@ -13744,7 +13750,7 @@
  "quality": {
   "date": "2026-11-12",
   "editor_fixed": 21,
-  "editor_rejected": 1,
+  "editor_rejected": 3,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
