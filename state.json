@@ -2128,7 +2128,7 @@
    "wkts": {
     "Pakistan|1": 9,
     "Sri Lanka|1": 10,
-    "Pakistan|2": 9
+    "Pakistan|2": 1
    },
    "wicket_posts": 12,
    "break_done": true,
@@ -2152,10 +2152,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-13 00:21",
+  "time": "2026-11-13 00:27",
   "items": 13,
   "sample": [
-   "Pakistan 57/1 & 434/9 * v Sri Lanka 446/10",
+   "Pakistan 434/9 & 57/1 * v Sri Lanka 446/10",
    "New South Wales 204/10 & 191/2 * v South Australia 325/10",
    "Victoria 402/5 v Western Australia 185/3 *"
   ]
@@ -4580,64 +4580,8 @@
   "last": 1794455506.5102904
  },
  "trends": {
-  "last": 1794500457.7537332,
+  "last": 1794511355.6568437,
   "terms": [
-   {
-    "term": "russell brand",
-    "traffic": 100,
-    "news": "Comedian Russell Brand found guilty by UK court of rape and sexual assaults",
-    "t": 1793898074,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "ramayana ranbir kapoor",
-    "traffic": 500,
-    "news": "Some stories are bigger than all of us: Alia Bhatt on Ranbir’s ‘Ramayana’",
-    "t": 1793898074,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "rockstar",
-    "traffic": 100,
-    "news": "GTA 6 Map Size Officially Revealed---How Big Is It?",
-    "t": 1793898074,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "chris pappas",
-    "traffic": 200,
-    "news": "Democratic US Senate candidate and US Representative Chris Pappas (D-NH), accompanied by his husband Vann Bentley, Photo Reuters",
-    "t": 1793898074,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "wbbl",
-    "traffic": 100,
-    "news": "Wall Street turns its back on Trump and Musk by dumping related assets, Roger Montgomery says",
-    "t": 1793898074,
-    "cat": "dollar_gold_business",
-    "sindh": false
-   },
-   {
-    "term": "paraguay bank",
-    "traffic": 100,
-    "news": "Paraguay Congress begins session to debate President Peña's impeachment",
-    "t": 1793898074,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "hawaiian pizza",
-    "traffic": 200,
-    "news": "No pineapple, no job: Italian chef’s pizza rebellion ends in sacking",
-    "t": 1793898074,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "az vs juventus",
     "traffic": 200,
@@ -7381,15 +7325,87 @@
     "t": 1794500458,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "england vs croatia",
+    "traffic": 200,
+    "news": "England host Croatia; Italy take on France; Spain travel to Czechia",
+    "t": 1794511356,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "pubg mobile flash release date",
+    "traffic": 500,
+    "news": "Norse beasts arrive, PUBG Mobile Asgard mode unveiled",
+    "t": 1794511356,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "italy vs france",
+    "traffic": 2000,
+    "news": "Italy vs. France—Nations League: Preview, Predictions and Lineups",
+    "t": 1794511356,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "czechia vs spain",
+    "traffic": 2000,
+    "news": "La Spagna arriva a Praga mentre si avvicina la fine di un anno indimenticabile",
+    "t": 1794511356,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "icc women's emerging nations trophy",
+    "traffic": 5000,
+    "news": "Pakistan Women vs Bangladesh Women Match 3 T20 - ICC Women's Emerging Nations Trophy, 2026 Live Scorecard",
+    "t": 1794511356,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "polar vortex",
+    "traffic": 200,
+    "news": "The polar vortex just made a historic reversal. What now, Canada?",
+    "t": 1794511356,
+    "cat": "weather_disaster",
+    "sindh": false
+   },
+   {
+    "term": "trying",
+    "traffic": 200,
+    "news": "New rules aim to strengthen maritime insurance amid geopolitical tensions",
+    "t": 1794511356,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "outlook",
+    "traffic": 1000,
+    "news": "Microsoft reports issues with email exchanges",
+    "t": 1794511356,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "barcelona vs arsenal",
+    "traffic": 500,
+    "news": "Team news: One change at Camp Nou",
+    "t": 1794511356,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-13",
-  "ok": 3,
-  "fail": 8,
-  "limit": 6
+  "ok": 4,
+  "fail": 10,
+  "limit": 8
  },
  "posted_heads": [
   {
@@ -7714,7 +7730,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-13 00:21",
+  "time": "2026-11-13 00:27",
   "steps": []
  },
  "roundup_am": "2026-11-12",
@@ -7822,7 +7838,7 @@
   "text": 25,
   "story": 20
  },
- "ai_last_error": "00:02 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "00:22 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-13",
   "models": [
@@ -7864,7 +7880,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-13",
-   "ok": 3,
+   "ok": 4,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7872,7 +7888,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-13",
-   "ok": 3,
+   "ok": 4,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7880,7 +7896,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-13",
-   "ok": 3,
+   "ok": 4,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7888,7 +7904,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 3,
+   "ok": 4,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7896,7 +7912,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 3,
+   "ok": 4,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7904,14 +7920,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 3,
+   "ok": 4,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 3,
+   "ok": 4,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7920,9 +7936,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-13",
    "ok": 0,
-   "fail": 3,
+   "fail": 4,
    "items": 15,
-   "fail_streak": 1232,
+   "fail_streak": 1233,
    "last_status": 404
   }
  },
@@ -8430,8 +8446,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 9,
-  "old": 9,
+  "found": 18,
+  "old": 18,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9133,20 +9149,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-12 21:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-12 21:16",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-12 21:20",
    "ok": true,
    "n": 0,
@@ -9407,6 +9409,20 @@
   },
   {
    "t": "11-13 00:21",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 00:22",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 00:27",
    "ok": true,
    "n": 0,
    "ids": [],
