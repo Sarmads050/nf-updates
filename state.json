@@ -1524,7 +1524,8 @@
   "0e0f47a5b908afc9": 1794451852.4482455,
   "99e6d4ef55ac8d31": 1794453672.1658912,
   "f7923948e6e65db4": 1794453672.1658936,
-  "a26eec5c1397e5ed": 1794453672.1661034
+  "a26eec5c1397e5ed": 1794453672.1661034,
+  "b106ea9edb396672": 1794454514.8200767
  },
  "pending": {},
  "queue": [],
@@ -1606,8 +1607,8 @@
  "last_question": "2026-11-11",
  "sindh_single": {
   "date": "2026-11-12",
-  "count": 0,
-  "last": 1794413245.381396,
+  "count": 1,
+  "last": 1794454510.9619663,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1657,23 +1658,12 @@
    "d475457efb066202",
    "f305689e64ea8628",
    "cd07e3766e2f1fee",
-   "879d0f0ea396965c"
+   "879d0f0ea396965c",
+   "b106ea9edb396672"
   ]
  },
- "last_post_id": "1444130002106066_122120103627503839",
+ "last_post_id": "1444130002106066_122120106903503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122119817919503839",
-   "title": "ربيعہ احسن جي مڙس جو پولي گرافڪ ٽيسٽ ڪرائڻ جو فيصلو",
-   "t": 1794378681.5817678,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122119817919503839"
-  },
   {
    "id": "1444130002106066_122119826793503839",
    "title": "صدر زرداري جي ٺٽي دوري دوران قافلي جي گاڏي خراب، جاچ جو حڪم",
@@ -1978,6 +1968,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122120103627503839"
+  },
+  {
+   "id": "1444130002106066_122120106903503839",
+   "title": "گیس جي قيمتن ۾ واڌ جو امڪان مهنگائي جي ستايل عوام لاءِ هڪ دفعو ٻيهر پريشان کن خبر سامهون",
+   "t": 1794454641.0494494,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122120106903503839"
   }
  ],
  "share_sent": {
@@ -2194,7 +2194,7 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794454353.6956596,
+   "last_edit": 1794454946.2912114,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
@@ -2210,12 +2210,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-12 08:32",
+  "time": "2026-11-12 08:42",
   "items": 15,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 404/4 *",
-   "New South Wales 22 & 204/10 * v South Australia 325/10",
-   "Victoria 402/5 v Western Australia 55/1 *"
+   "New South Wales 26 & 204/10 * v South Australia 325/10",
+   "Victoria 402/5 v Western Australia 61/1 *"
   ]
  },
  "agri_news": {
@@ -2225,17 +2225,11 @@
  },
  "all_posts": {
   "date": "2026-11-12",
-  "count": 13,
-  "last": 1794453696.0755823
+  "count": 14,
+  "last": 1794454635.734509
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122116614717503839",
-    "sec": "public_news",
-    "cat": "transport_trade",
-    "t": 1793566307
-   },
    {
     "id": "1444130002106066_122116622601503839",
     "sec": "cricket_news",
@@ -4629,6 +4623,12 @@
     "sec": "public_news",
     "cat": "transport_trade",
     "t": 1794453703
+   },
+   {
+    "id": "1444130002106066_122120106903503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1794454635
    }
   ]
  },
@@ -7501,9 +7501,9 @@
  },
  "ai_usage": {
   "date": "2026-11-12",
-  "ok": 137,
-  "fail": 239,
-  "limit": 236
+  "ok": 145,
+  "fail": 249,
+  "limit": 246
  },
  "posted_heads": [
   {
@@ -7828,7 +7828,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-12 08:32",
+  "time": "2026-11-12 08:42",
   "steps": []
  },
  "roundup_am": "2026-11-12",
@@ -7936,7 +7936,7 @@
   "text": 20,
   "story": 15
  },
- "ai_last_error": "08:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:35 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-12",
   "models": [
@@ -7950,13 +7950,13 @@
  },
  "img_diag": {
   "date": "2026-11-12",
-  "tried": 13,
+  "tried": 14,
   "gemini": 0,
   "pollinations": 10,
   "skip": 1,
   "fail": 0,
-  "last_note": "smartphone and medicine boxes",
-  "mismatch": 605,
+  "last_note": "natural gas meter and bill",
+  "mismatch": 608,
   "unverified": 1
  },
  "gemini_img": {
@@ -7978,7 +7978,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-12",
-   "ok": 49,
+   "ok": 50,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7986,7 +7986,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-12",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7994,7 +7994,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-12",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8002,7 +8002,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8010,7 +8010,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8018,14 +8018,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8034,9 +8034,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-12",
    "ok": 0,
-   "fail": 50,
+   "fail": 51,
    "items": 15,
-   "fail_streak": 1135,
+   "fail_streak": 1136,
    "last_status": 404
   }
  },
@@ -8220,13 +8220,13 @@
  "region_posts": {
   "date": "2026-11-12",
   "district": 0,
-  "sindh": 2,
+  "sindh": 3,
   "pakistan": 11
  },
  "report_acc": {
-  "posted": 1,
-  "found": 18,
-  "old": 18,
+  "posted": 2,
+  "found": 27,
+  "old": 27,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8273,8 +8273,8 @@
   "date": "2026-11-12",
   "count": 1,
   "last": 1794426667.6690931,
-  "city_i": 24,
-  "dry": 1794453667.3866708
+  "city_i": 6,
+  "dry": 1794454465.7009764
  },
  "gemini_day_dead": {
   "day": "2026-11-11",
@@ -8969,20 +8969,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-12 05:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-12 05:27",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-12 05:30",
    "ok": true,
    "n": 0,
@@ -9247,48 +9233,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-12 08:32",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 08:42",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-12",
  "recent_posts": [
-  {
-   "t": 1794281025,
-   "h": "پيٽروليم ۽ ڪلائميٽ ليوي ذريعي اربين روپيا گڏ",
-   "b": "وفاقي حڪومت مالي سال 2026-27 جي پهرين ٻن مهينن جولاءِ ۽ آگسٽ ۾ پيٽروليم، ڪلميٽ ۽ اين اي وي ليويز ذريعي 254.7",
-   "tt": [
-    "اربين",
-    "ذريعي",
-    "روپيا",
-    "ليوي",
-    "پيٽروليم",
-    "ڪلائميٽ"
-   ],
-   "bt": [
-    "#254.7",
-    "#27",
-    "ارب",
-    "اربين",
-    "اهن",
-    "اين",
-    "اگسٽ",
-    "جولاء",
-    "حڪومت",
-    "ذريعي",
-    "روپيا",
-    "سال",
-    "ليوي",
-    "ليويز",
-    "مالي",
-    "مهينن",
-    "ورتا",
-    "وفاقي",
-    "پهرين",
-    "پيٽروليم",
-    "پيٽروليم،",
-    "ڪلائميٽ",
-    "ڪلميٽ"
-   ]
-  },
   {
    "t": 1794282116,
    "h": "جديد طريقن سان ڪڻڪ جي پوک جو مطالبو",
@@ -13766,6 +13728,54 @@
     "ڊولپمينٽ",
     "ڪيس"
    ]
+  },
+  {
+   "t": 1794454635,
+   "h": "سنڌ | گئس جي قيمتن ۾ واڌ جو امڪان",
+   "b": "مهنگائي جي ستايل عوام لاءِ هڪ دفعو ٻيهر پريشان ڪندڙ خبر سامهون آئي آهي ته گئس جي قيمتن ۾ اضافو ٿي سگهي ٿو۔",
+   "tt": [
+    "امڪان",
+    "سنڌ",
+    "قيمتن",
+    "واڌ",
+    "گئس"
+   ],
+   "bt": [
+    "ائي",
+    "اضافو",
+    "اضافي",
+    "امڪان",
+    "اهن۔",
+    "اهي",
+    "اهي۔",
+    "اوسط",
+    "تجويز",
+    "جمع",
+    "خبر",
+    "درخواستون",
+    "دفعو",
+    "سامهون",
+    "ستايل",
+    "سدرن",
+    "سنڌ",
+    "سوئي",
+    "سگهي",
+    "طرفان",
+    "عوام",
+    "قيمت",
+    "قيمتن",
+    "مهنگائي",
+    "واڌ",
+    "ويون",
+    "ٻيهر",
+    "پريشان",
+    "ٿو۔",
+    "ڏني",
+    "ڪرائيون",
+    "ڪمپنين",
+    "ڪندڙ",
+    "گئس"
+   ]
   }
  ],
  "repeat_log": [
@@ -13933,7 +13943,7 @@
  },
  "quality": {
   "date": "2026-11-12",
-  "editor_fixed": 9,
+  "editor_fixed": 10,
   "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
