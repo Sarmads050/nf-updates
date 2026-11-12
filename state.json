@@ -1493,7 +1493,20 @@
   "c200a3d3b3d8c53d": 1794439876.4059122,
   "f46cc4375c8a51ee": 1794442887.3778496,
   "a2d0387be45e8a6a": 1794443457.1651814,
-  "6c16d81c27f63fdc": 1794444657.7069843
+  "6c16d81c27f63fdc": 1794444657.7069843,
+  "a3a285f1d3402ffa": 1794445282.0473409,
+  "60fb993940635a0d": 1794445282.0473433,
+  "3bc36dd18480a164": 1794445282.0473444,
+  "78c223025a3e1825": 1794445282.0473456,
+  "e7b4ad60e99ab1f1": 1794445282.0473466,
+  "3bc733d67c9b29d9": 1794445282.0473478,
+  "0ef528b7c673937f": 1794445282.047349,
+  "6a17faf5b1313434": 1794445282.0473497,
+  "3076ce616e2f6e82": 1794445282.0475235,
+  "5ae2f6d8f3a22b9f": 1794445304.234569,
+  "93a2521450501ff3": 1794445312.6093545,
+  "231426614e93675c": 1794445312.6093566,
+  "95ad4b086ad1868b": 1794445312.6095269
  },
  "pending": {},
  "queue": [],
@@ -2172,7 +2185,7 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794444964.7805007,
+   "last_edit": 1794445621.065665,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
@@ -2188,12 +2201,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-12 05:56",
+  "time": "2026-11-12 06:07",
   "items": 15,
   "sample": [
    "Pakistan 434/9 v Sri Lanka 404/4 *",
-   "New South Wales 204/10 v South Australia 195/5 *",
-   "Victoria 322/3 * v Western Australia"
+   "New South Wales 204/10 v South Australia 196/5 *",
+   "Victoria 373/4 * v Western Australia"
   ]
  },
  "agri_news": {
@@ -7479,9 +7492,9 @@
  },
  "ai_usage": {
   "date": "2026-11-12",
-  "ok": 86,
-  "fail": 151,
-  "limit": 148
+  "ok": 94,
+  "fail": 167,
+  "limit": 164
  },
  "posted_heads": [
   {
@@ -7806,7 +7819,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-12 05:56",
+  "time": "2026-11-12 06:07",
   "steps": []
  },
  "roundup_am": "2026-11-11",
@@ -7909,12 +7922,12 @@
  },
  "article_diag": {
   "date": "2026-11-12",
-  "tried": 13,
-  "decoded": 13,
-  "text": 13,
-  "story": 10
+  "tried": 15,
+  "decoded": 15,
+  "text": 15,
+  "story": 11
  },
- "ai_last_error": "05:50 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-12",
   "models": [
@@ -7956,7 +7969,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-12",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7964,7 +7977,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-12",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7972,7 +7985,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-12",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7980,7 +7993,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7988,7 +8001,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7996,14 +8009,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 34,
+   "ok": 35,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8012,9 +8025,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-12",
    "ok": 0,
-   "fail": 34,
+   "fail": 35,
    "items": 15,
-   "fail_streak": 1119,
+   "fail_streak": 1120,
    "last_status": 404
   }
  },
@@ -8202,14 +8215,14 @@
   "pakistan": 6
  },
  "report_acc": {
-  "posted": 1,
-  "found": 45,
-  "old": 44,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-12 05",
+ "report_hour": "2026-11-12 06",
  "kawish_upload_times": {
   "_date": "2026-11-12",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8251,8 +8264,8 @@
   "date": "2026-11-12",
   "count": 1,
   "last": 1794426667.6690931,
-  "city_i": 22,
-  "dry": 1794442882.2806785
+  "city_i": 4,
+  "dry": 1794445274.081718
  },
  "gemini_day_dead": {
   "day": "2026-11-11",
@@ -8945,20 +8958,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-12 02:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-12 02:58",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-12 03:00",
    "ok": true,
    "n": 0,
@@ -9219,6 +9218,20 @@
   },
   {
    "t": "11-12 05:56",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 06:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 06:06",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13726,16 +13739,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-09 06:41",
-   "new": "پيٽرول اگهن ۽ مهانگائي بابت اهم خبر",
-   "old": "پيٽرول سستو، پر مهانگائي برقرار"
-  },
-  {
-   "t": "11-09 06:51",
-   "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽتائي",
-   "old": "پيٽرول سستو، پر مهانگائي برقرار"
-  },
-  {
    "t": "11-09 10:51",
    "new": "انتظامي بنيادن تي نون صوبن جي قيام جي حمايت",
    "old": "ملڪ جي انتظامي نقشي ۾ تبديلي ۽ 12 صوبن جي تجويز"
@@ -13874,6 +13877,16 @@
    "t": "11-12 04:01",
    "new": "پاڪستاني عورت ڪرکٽر جو برابري جو مطالبو",
    "old": "پاڪستان ۾ برابرين جو مطالبو"
+  },
+  {
+   "t": "11-12 06:01",
+   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
+   "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
+  },
+  {
+   "t": "11-12 06:01",
+   "new": "سنڌ حڪومت پاران ڪڻڪ جي هارين لاءِ امداد منظور",
+   "old": "نوشهروفيروز جو اڄ | 11-11-2026"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13894,6 +13907,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 5
- }
+  "repeat": 7
+ },
+ "_dup": true
 }
