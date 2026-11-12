@@ -1525,7 +1525,8 @@
   "b106ea9edb396672": 1794454514.8200767,
   "8e847369a17f3f01": 1794455468.1225426,
   "d9a76e9432ca80fe": 1794456678.03395,
-  "05d5d440a56310c1": 1794456685.9685225
+  "05d5d440a56310c1": 1794456685.9685225,
+  "5b5adb67aec5a08d": 1794457893.7851574
  },
  "pending": {},
  "queue": [],
@@ -1652,7 +1653,7 @@
    "b106ea9edb396672"
   ]
  },
- "last_post_id": "1444130002106066_122120111337503839",
+ "last_post_id": "1444130002106066_122120118165503839",
  "shareable": [
   {
    "id": "1444130002106066_122119835529503839",
@@ -2179,11 +2180,11 @@
    "post": "1444130002106066_122119041567503839",
    "wkts": {
     "Pakistan|1": 9,
-    "Sri Lanka|1": 4
+    "Sri Lanka|1": 5
    },
-   "wicket_posts": 11,
+   "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1794457599.2943764,
+   "last_edit": 1794458199.2434158,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
@@ -2199,12 +2200,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-12 09:26",
+  "time": "2026-11-12 09:36",
   "items": 15,
   "sample": [
-   "Pakistan 434/9 v Sri Lanka 404/4 *",
-   "New South Wales 204/10 & 69/1 * v South Australia 325/10",
-   "Victoria 402/5 v Western Australia 87/3 *"
+   "Pakistan 434/9 v Sri Lanka 404/5 *",
+   "New South Wales 70/1 & 204/10 * v South Australia 325/10",
+   "Victoria 402/5 v Western Australia 90/3 *"
   ]
  },
  "agri_news": {
@@ -2214,8 +2215,8 @@
  },
  "all_posts": {
   "date": "2026-11-12",
-  "count": 16,
-  "last": 1794456084.2716498
+  "count": 17,
+  "last": 1794458215.0039332
  },
  "perf": {
   "posts": [
@@ -7482,9 +7483,9 @@
  },
  "ai_usage": {
   "date": "2026-11-12",
-  "ok": 156,
-  "fail": 269,
-  "limit": 266
+  "ok": 157,
+  "fail": 271,
+  "limit": 268
  },
  "posted_heads": [
   {
@@ -7809,7 +7810,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-12 09:26",
+  "time": "2026-11-12 09:36",
   "steps": []
  },
  "roundup_am": "2026-11-12",
@@ -7917,7 +7918,7 @@
   "text": 21,
   "story": 16
  },
- "ai_last_error": "09:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "09:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-12",
   "models": [
@@ -7959,7 +7960,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-12",
-   "ok": 55,
+   "ok": 56,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7967,7 +7968,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-12",
-   "ok": 55,
+   "ok": 56,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7975,7 +7976,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-12",
-   "ok": 55,
+   "ok": 56,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7983,7 +7984,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7991,7 +7992,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7999,14 +8000,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-12",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-12",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8015,9 +8016,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-12",
    "ok": 0,
-   "fail": 56,
+   "fail": 57,
    "items": 15,
-   "fail_streak": 1141,
+   "fail_streak": 1142,
    "last_status": 404
   }
  },
@@ -8205,9 +8206,9 @@
   "pakistan": 12
  },
  "report_acc": {
-  "posted": 0,
-  "found": 18,
-  "old": 18,
+  "posted": 1,
+  "found": 27,
+  "old": 27,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8254,8 +8255,8 @@
   "date": "2026-11-12",
   "count": 1,
   "last": 1794426667.6690931,
-  "city_i": 18,
-  "dry": 1794457275.9887958
+  "city_i": 22,
+  "dry": 1794457875.2796838
  },
  "gemini_day_dead": {
   "day": "2026-11-11",
@@ -8931,7 +8932,8 @@
  "reels": {
   "date": "2026-11-12",
   "done": [
-   "08:00"
+   "08:00",
+   "09:30"
   ]
  },
  "kawish_queue": [],
@@ -8941,20 +8943,6 @@
   "last": 1794397298.45524
  },
  "tg_debug": [
-  {
-   "t": "11-12 06:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-12 06:25",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-12 06:30",
    "ok": true,
@@ -9220,80 +9208,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-12 09:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-12 09:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-12",
  "recent_posts": [
-  {
-   "t": 1794285207,
-   "h": "چيني جي برآمد لاءِ نيون آڇون طلب",
-   "b": "ٽريڊ ڪارپوريشن آف پاڪستان ملڪ مان چيني جي برآمد لاءِ نيون آڇون گهرسي ورتيون آهن.",
-   "tt": [
-    "اڇون",
-    "برامد",
-    "طلب",
-    "نيون",
-    "چيني"
-   ],
-   "bt": [
-    "اهن",
-    "اڇون",
-    "برامد",
-    "طلب",
-    "مان",
-    "ملڪ",
-    "نيون",
-    "ورتيون",
-    "ٽريڊ",
-    "پاڪستان",
-    "چيني",
-    "ڪارپوريشن",
-    "گهرسي"
-   ]
-  },
-  {
-   "t": 1794285346,
-   "h": "صبح جون خبرون | اڱارو، 10 نومبر 2026",
-   "b": "1️⃣ جديد طريقن سان ڪڻڪ جي پوک جو مطالبو يو اي ايف جي وائيس چانسلر هارين کي جديد طريقن سان ڪڻڪ جي پوک ڪرڻ جو",
-   "tt": [
-    "#10",
-    "اڱارو،",
-    "خبرون",
-    "صبح",
-    "نومبر"
-   ],
-   "bt": [
-    "#10",
-    "ارب",
-    "اربين",
-    "اهي",
-    "ايف",
-    "اڱارو،",
-    "جديد",
-    "حڪومت",
-    "خبرون",
-    "ذريعي",
-    "روپيا",
-    "صبح",
-    "طريقن",
-    "ليويز",
-    "مشورو",
-    "مطالبو",
-    "مهينن",
-    "نومبر",
-    "هارين",
-    "وائيس",
-    "وفاقي",
-    "ٻين",
-    "پهرين",
-    "پوهه",
-    "پوڪ",
-    "پيٽروليم",
-    "چانسلر",
-    "ڪرڻ",
-    "ڪڻڪ"
-   ]
-  },
   {
    "t": 1794286321,
    "h": "17 وڌيڪ ضلعن ۾ يوريا تي پابند ختم",
@@ -13767,6 +13699,34 @@
     "نوشهروفيروز",
     "نوڪريون",
     "پاڪستان"
+   ]
+  },
+  {
+   "t": 1794458215,
+   "h": "وڪيٽ! سري لنڪا جو رانديگر آئوٽ، 5 وڪيٽون ڪري پيون",
+   "b": "هاڻوڪو اسڪور: پاڪستان 434/9 سري لنڪا 404/5 🏏",
+   "tt": [
+    "ائوٽ،",
+    "رانديگر",
+    "سري",
+    "لنڪا",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پيون"
+   ],
+   "bt": [
+    "#404",
+    "#434",
+    "ائوٽ،",
+    "اسڪور",
+    "رانديگر",
+    "سري",
+    "لنڪا",
+    "هاڻوڪو",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پاڪستان",
+    "پيون"
    ]
   }
  ],
