@@ -1484,7 +1484,23 @@
   "5783b236f82ba268": 1794565874.5330315,
   "2d82da272ec3c6b4": 1794565874.533034,
   "1cc0e696af32e81d": 1794566509.8651376,
-  "0431b29543633320": 1794566509.8807368
+  "0431b29543633320": 1794566509.8807368,
+  "737c690434dc354c": 1794568894.8290663,
+  "81f519f71d21cdb2": 1794568910.774457,
+  "6ab9e3e25ee74267": 1794568910.77446,
+  "e844be9e00f2b11d": 1794568910.7744622,
+  "9963a65a29c87aba": 1794568910.7744632,
+  "447e24e5ae2ec668": 1794568910.774464,
+  "a12c24553367c699": 1794568910.7744648,
+  "b65873ae26010ff9": 1794568910.7744656,
+  "f25686845ef5946f": 1794568910.7744663,
+  "34026c5eff40f1a2": 1794568910.7744668,
+  "be42c4e8deb2340c": 1794568910.7746842,
+  "3b67711e25acf144": 1794568961.1394875,
+  "80edeeee32a903a2": 1794568961.13949,
+  "2cf9511757c7a9d6": 1794568961.1394908,
+  "136eb7cdb291aa56": 1794568961.1394918,
+  "97c3f277a46dc7cb": 1794568961.1394937
  },
  "pending": {
   "culture2026-11-13": {
@@ -2201,10 +2217,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-13 16:16",
+  "time": "2026-11-13 16:27",
   "items": 18,
   "sample": [
-   "Pakistan 283/7 & 434/9 * v Sri Lanka 446/10",
+   "Pakistan 284/8 & 434/9 * v Sri Lanka 446/10",
    "New South Wales 410/10 & 204/10 v South Australia 50/2 & 325/10 *",
    "Victoria 7 & 402/5 * v Western Australia 424/10"
   ]
@@ -7428,9 +7444,9 @@
  },
  "ai_usage": {
   "date": "2026-11-13",
-  "ok": 241,
-  "fail": 364,
-  "limit": 363
+  "ok": 248,
+  "fail": 375,
+  "limit": 374
  },
  "posted_heads": [
   {
@@ -7759,7 +7775,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-13 16:16",
+  "time": "2026-11-13 16:27",
   "steps": []
  },
  "roundup_am": "2026-11-13",
@@ -7862,12 +7878,12 @@
  },
  "article_diag": {
   "date": "2026-11-13",
-  "tried": 21,
-  "decoded": 21,
-  "text": 18,
-  "story": 16
+  "tried": 22,
+  "decoded": 22,
+  "text": 19,
+  "story": 17
  },
- "ai_last_error": "16:02 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "16:22 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-13",
   "models": [
@@ -7909,7 +7925,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-13",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7917,7 +7933,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-13",
-   "ok": 99,
+   "ok": 100,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7925,7 +7941,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-13",
-   "ok": 99,
+   "ok": 100,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7933,7 +7949,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7941,7 +7957,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7949,14 +7965,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 100,
+   "ok": 101,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 99,
+   "ok": 100,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7965,9 +7981,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-13",
    "ok": 0,
-   "fail": 100,
+   "fail": 101,
    "items": 15,
-   "fail_streak": 1329,
+   "fail_streak": 1330,
    "last_status": 404
   }
  },
@@ -7975,7 +7991,7 @@
   "last": "2026-11-13",
   "idx": 4
  },
- "ai_last_model": "google/gemma-4-26b-a4b-it:free",
+ "ai_last_model": "google/gemma-4-31b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8124,8 +8140,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 4,
-  "old": 4,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8172,9 +8188,9 @@
  "sindh_stream": {
   "date": "2026-11-13",
   "count": 13,
-  "last": 1794567138.449295,
-  "city_i": 14,
-  "dry": 1794550874.2944582
+  "last": 1794568893.5128713,
+  "city_i": 18,
+  "dry": 1794568894.829069
  },
  "gemini_day_dead": {
   "day": "2026-11-13",
@@ -8834,20 +8850,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-13 12:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-13 13:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-13 13:16",
    "ok": true,
    "n": 0,
@@ -9108,6 +9110,20 @@
   },
   {
    "t": "11-13 16:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 16:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 16:27",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13304,11 +13320,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-11 06:51",
-   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
-   "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
-  },
-  {
    "t": "11-11 09:51",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽاٺ",
    "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
@@ -13452,6 +13463,11 @@
    "t": "11-13 11:41",
    "new": "گهرو وزير محسن نقوي جو نوابشاهه جو دورو، صدر آصف زرداري سان ملاقات",
    "old": "نوابشاهه ۾ زرداري ۽ محسن نقوي جي ملاقات، سياسي صورتحال تي غور"
+  },
+  {
+   "t": "11-13 16:22",
+   "new": "بابر اعظم سينچري ڪرڻ ۾ ٻيهر ناڪام",
+   "old": "راولپنڊي ٽيسٽ: روشني گهٽ ٿيڻ سبب راند اڳواٽ ختم"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13472,6 +13488,7 @@
   "kawish_rejected": 1,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 9
- }
+  "repeat": 10
+ },
+ "_dup": true
 }
