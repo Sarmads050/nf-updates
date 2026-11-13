@@ -1463,7 +1463,9 @@
   "0e089c92dc8988f6": 1794526865.7996893,
   "84136858ec192f27": 1794527468.2652829,
   "bdb828034824338a": 1794527468.265285,
-  "37866615887bbe79": 1794527468.2654927
+  "37866615887bbe79": 1794527468.2654927,
+  "7c5bc4ce672e56dd": 1794530221.172022,
+  "3de5f5b4a31f3459": 1794530221.1720254
  },
  "pending": {},
  "queue": [],
@@ -2173,11 +2175,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-13 05:36",
+  "time": "2026-11-13 05:42",
   "items": 19,
   "sample": [
    "Pakistan 57/1 & 434/9 * v Sri Lanka 446/10",
-   "New South Wales 204/10 & 221/2 * v South Australia 325/10",
+   "New South Wales 221/2 & 204/10 * v South Australia 325/10",
    "Victoria 402/5 v Western Australia 212/4 *"
   ]
  },
@@ -7368,9 +7370,9 @@
  },
  "ai_usage": {
   "date": "2026-11-13",
-  "ok": 52,
-  "fail": 92,
-  "limit": 90
+  "ok": 54,
+  "fail": 96,
+  "limit": 94
  },
  "posted_heads": [
   {
@@ -7695,7 +7697,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-13 05:36",
+  "time": "2026-11-13 05:42",
   "steps": []
  },
  "roundup_am": "2026-11-12",
@@ -7798,12 +7800,12 @@
  },
  "article_diag": {
   "date": "2026-11-13",
-  "tried": 7,
-  "decoded": 7,
+  "tried": 8,
+  "decoded": 8,
   "text": 7,
   "story": 6
  },
- "ai_last_error": "04:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "05:37 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-13",
   "models": [
@@ -7845,7 +7847,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-13",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7853,7 +7855,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-13",
-   "ok": 34,
+   "ok": 35,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7861,7 +7863,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-13",
-   "ok": 34,
+   "ok": 35,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7869,7 +7871,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7877,7 +7879,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7885,14 +7887,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7901,9 +7903,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-13",
    "ok": 0,
-   "fail": 35,
+   "fail": 36,
    "items": 15,
-   "fail_streak": 1264,
+   "fail_streak": 1265,
    "last_status": 404
   }
  },
@@ -8459,8 +8461,8 @@
  "sindh_stream": {
   "date": "2026-11-13",
   "count": 3,
-  "last": 1794517281.151032,
-  "city_i": 4,
+  "last": 1794530218.836713,
+  "city_i": 8,
   "dry": 1794527461.9151435
  },
  "gemini_day_dead": {
@@ -9114,20 +9116,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-13 02:15",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-13 02:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-13 02:25",
    "ok": true,
    "n": 0,
@@ -9388,6 +9376,20 @@
   },
   {
    "t": "11-13 05:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 05:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 05:42",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13845,11 +13847,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-09 19:31",
-   "new": "بولي ۽ قوم بدران عوامي سهولتن تي انتظامي يونٽ ٺاهيا وڃن: خواجا آصف",
-   "old": "ملڪ جي انتظامي نقشي ۾ تبديلي ۽ 12 صوبن جي تجويز"
-  },
-  {
    "t": "11-10 05:51",
    "new": "سنڌوند ۾ پاڻܝ جي وهڪري ۾ واڌ جو امڪان",
    "old": "تربيلا ڊيم حادثو، پورهيت محفوظ، سنڌوءَ ۾ چاڙھ جو الرٽ"
@@ -13993,6 +13990,11 @@
    "t": "11-13 04:41",
    "new": "پيٽرول جي قيمت ۾ گهٽتائي جو اعلان",
    "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
+  },
+  {
+   "t": "11-13 05:37",
+   "new": "نوابشاهه ۾ محسن نقوي جي آصف زرداري سان ملاقات",
+   "old": "نوابشاهه ۾ زرداري ۽ محسن نقوي جي ملاقات، سياسي صورتحال تي غور"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14013,6 +14015,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 3
- }
+  "repeat": 4
+ },
+ "_dup": true
 }
