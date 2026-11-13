@@ -1603,7 +1603,7 @@
  "sindh_single": {
   "date": "2026-11-13",
   "count": 0,
-  "last": 1794564174.5226321,
+  "last": 1794571885.160441,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1659,7 +1659,7 @@
    "3ab4a7b52ce113f3"
   ]
  },
- "last_post_id": "1444130002106066_122120619207503839",
+ "last_post_id": "1444130002106066_122120624607503839",
  "shareable": [
   {
    "id": "1444130002106066_122120223843503839",
@@ -2197,7 +2197,7 @@
    "wkts": {
     "Pakistan|1": 9,
     "Sri Lanka|1": 10,
-    "Pakistan|2": 8
+    "Pakistan|2": 9
    },
    "wicket_posts": 12,
    "break_done": true,
@@ -2223,9 +2223,9 @@
    "post": "1444130002106066_122120590029503839",
    "wkts": {
     "Pakistan Women|1": 2,
-    "Thailand Women|1": 3
+    "Thailand Women|1": 5
    },
-   "wicket_posts": 2,
+   "wicket_posts": 3,
    "break_done": true,
    "last_edit": 1794561658.9498775,
    "batting": "Thailand Women",
@@ -2234,11 +2234,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-13 17:06",
+  "time": "2026-11-13 17:16",
   "items": 18,
   "sample": [
-   "Pakistan 434/9 & 284/8 * v Sri Lanka 446/10",
-   "New South Wales 204/10 & 410/10 v South Australia 50/2 & 325/10 *",
+   "Pakistan 284/8 & 434/9 * v Sri Lanka 446/10",
+   "New South Wales 410/10 & 204/10 v South Australia 50/2 & 325/10 *",
    "Victoria 7 & 402/5 * v Western Australia 424/10"
   ]
  },
@@ -2249,8 +2249,8 @@
  },
  "all_posts": {
   "date": "2026-11-13",
-  "count": 34,
-  "last": 1794570715.7742283
+  "count": 35,
+  "last": 1794571901.9044042
  },
  "perf": {
   "posts": [
@@ -7461,9 +7461,9 @@
  },
  "ai_usage": {
   "date": "2026-11-13",
-  "ok": 272,
-  "fail": 413,
-  "limit": 413
+  "ok": 273,
+  "fail": 415,
+  "limit": 415
  },
  "posted_heads": [
   {
@@ -7788,7 +7788,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-13 17:06",
+  "time": "2026-11-13 17:16",
   "steps": []
  },
  "roundup_am": "2026-11-13",
@@ -7896,7 +7896,7 @@
   "text": 22,
   "story": 18
  },
- "ai_last_error": "17:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "17:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-13",
   "models": [
@@ -7938,7 +7938,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-13",
-   "ok": 105,
+   "ok": 106,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7946,7 +7946,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-13",
-   "ok": 104,
+   "ok": 105,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7954,7 +7954,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-13",
-   "ok": 104,
+   "ok": 105,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7962,7 +7962,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 105,
+   "ok": 106,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7970,7 +7970,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 105,
+   "ok": 106,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7978,14 +7978,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 105,
+   "ok": 106,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 104,
+   "ok": 105,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7994,9 +7994,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-13",
    "ok": 0,
-   "fail": 105,
+   "fail": 106,
    "items": 15,
-   "fail_streak": 1334,
+   "fail_streak": 1335,
    "last_status": 404
   }
  },
@@ -8152,9 +8152,9 @@
   "pakistan": 13
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8202,8 +8202,8 @@
   "date": "2026-11-13",
   "count": 14,
   "last": 1794570669.1919534,
-  "city_i": 22,
-  "dry": 1794568894.829069
+  "city_i": 4,
+  "dry": 1794571867.1765223
  },
  "gemini_day_dead": {
   "day": "2026-11-13",
@@ -8856,20 +8856,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-13 13:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-13 13:56",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-13 14:00",
    "ok": true,
    "n": 0,
@@ -9130,6 +9116,20 @@
   },
   {
    "t": "11-13 17:06",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 17:10",
+   "ok": false,
+   "n": 0,
+   "ids": [],
+   "err": "{}"
+  },
+  {
+   "t": "11-13 17:16",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13333,6 +13333,35 @@
     "ڪورٽ",
     "گذرڻ"
    ]
+  },
+  {
+   "t": 1794571901,
+   "h": "وڪيٽ! Thailand Women جو رانديگر آئوٽ، 5 وڪيٽون ڪري پيون",
+   "b": "هاڻوڪو اسڪور: پاڪستان وومين 180/2 Thailand Women 141/5 🏏",
+   "tt": [
+    "thailand",
+    "women",
+    "ائوٽ،",
+    "رانديگر",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پيون"
+   ],
+   "bt": [
+    "#141",
+    "#180",
+    "thailand",
+    "women",
+    "ائوٽ،",
+    "اسڪور",
+    "رانديگر",
+    "هاڻوڪو",
+    "وومين",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پاڪستان",
+    "پيون"
+   ]
   }
  ],
  "repeat_log": [
@@ -13506,6 +13535,5 @@
   "kawish_crosschecked": 0,
   "wrong_place": 0,
   "repeat": 12
- },
- "_dup": true
+ }
 }
