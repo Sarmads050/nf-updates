@@ -1489,7 +1489,14 @@
   "2ed452cb13c8a0d7": 1794545495.1230388,
   "c474fcce5e87a48b": 1794545495.1230402,
   "252cc32a86731ddd": 1794545495.12322,
-  "fbc1e82fa22c7fed": 1794546667.399798
+  "fbc1e82fa22c7fed": 1794546667.399798,
+  "d2b2c594eeba9d3d": 1794547256.785791,
+  "f711c2d909f52b88": 1794547256.7857933,
+  "bd806bfd721b027b": 1794547256.7857943,
+  "de86134f0ba7dea6": 1794547256.785795,
+  "628a4e5ece8f29c6": 1794547256.785796,
+  "40004da07f7dcb71": 1794547256.785983,
+  "3e171b37aeb312e2": 1794547278.224992
  },
  "pending": {
   "culture2026-11-13": {
@@ -2161,7 +2168,7 @@
    "wkts": {
     "Pakistan|1": 9,
     "Sri Lanka|1": 10,
-    "Pakistan|2": 9
+    "Pakistan|2": 3
    },
    "wicket_posts": 12,
    "break_done": true,
@@ -2194,12 +2201,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-13 10:16",
+  "time": "2026-11-13 10:26",
   "items": 18,
   "sample": [
-   "Pakistan 83/3 & 434/9 * v Sri Lanka 446/10",
-   "New South Wales 204/10 & 410/10 v South Australia 325/10 & 1 *",
-   "Victoria 402/5 v Western Australia 341/8 *"
+   "Pakistan 434/9 & 91/3 * v Sri Lanka 446/10",
+   "New South Wales 204/10 & 410/10 v South Australia 8 & 325/10 *",
+   "Victoria 402/5 v Western Australia 346/8 *"
   ]
  },
  "agri_news": {
@@ -7397,9 +7404,9 @@
  },
  "ai_usage": {
   "date": "2026-11-13",
-  "ok": 130,
-  "fail": 221,
-  "limit": 218
+  "ok": 133,
+  "fail": 227,
+  "limit": 224
  },
  "posted_heads": [
   {
@@ -7724,7 +7731,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-13 10:16",
+  "time": "2026-11-13 10:26",
   "steps": []
  },
  "roundup_am": "2026-11-13",
@@ -7827,12 +7834,12 @@
  },
  "article_diag": {
   "date": "2026-11-13",
-  "tried": 17,
-  "decoded": 17,
-  "text": 14,
-  "story": 12
+  "tried": 18,
+  "decoded": 18,
+  "text": 15,
+  "story": 13
  },
- "ai_last_error": "10:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-13",
   "models": [
@@ -7874,7 +7881,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-13",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7882,7 +7889,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-13",
-   "ok": 63,
+   "ok": 64,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7890,7 +7897,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-13",
-   "ok": 63,
+   "ok": 64,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7898,7 +7905,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7906,7 +7913,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7914,14 +7921,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7930,9 +7937,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-13",
    "ok": 0,
-   "fail": 64,
+   "fail": 65,
    "items": 15,
-   "fail_streak": 1293,
+   "fail_streak": 1294,
    "last_status": 404
   }
  },
@@ -8440,8 +8447,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 7,
-  "old": 7,
+  "found": 14,
+  "old": 14,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9162,20 +9169,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-13 07:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-13 07:08",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-13 07:10",
    "ok": true,
    "n": 0,
@@ -9436,6 +9429,20 @@
   },
   {
    "t": "11-13 10:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 10:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 10:26",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13874,11 +13881,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-11 04:31",
-   "new": "پاڪستان خلاف وزيراعيضان جو پهريون شاندار اسڪور",
-   "old": "پاڪستان جو سری لنڪا خلاف پهرين ٽيسٽ ۾ 434 رنز تي پهرين اننگز جو اعلان"
-  },
-  {
    "t": "11-11 06:01",
    "new": "بلوچستان ۾ يوريا خاد جو پابنديءَ بعد نئون اطلاع",
    "old": "17 وڌيڪ ضلعن ۾ يوريا تي پابند ختم"
@@ -14022,6 +14024,11 @@
    "t": "11-13 08:21",
    "new": "سنڌ | پيٹرول ۽ ډيزل جون قيمتون گھٽ",
    "old": "صبح جون سنڌ جون اهم خبرون"
+  },
+  {
+   "t": "11-13 10:21",
+   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽاتائي",
+   "old": "صبح جون سنڌ جون اهم خبرون"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14042,6 +14049,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 7
- }
+  "repeat": 8
+ },
+ "_dup": true
 }
