@@ -1512,7 +1512,9 @@
   "503d23110076e5ca": 1794606692.147192,
   "7fca49f76e43eb9f": 1794606692.1471927,
   "1669c9968cb9e5d1": 1794606692.1473897,
-  "4ecc201a2efc109f": 1794607432.855552
+  "4ecc201a2efc109f": 1794607432.855552,
+  "797d593772e29dfe": 1794607874.588606,
+  "523cb8cdda8816fe": 1794607874.588745
  },
  "pending": {
   "culture2026-11-13": {
@@ -2253,7 +2255,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 03:03",
+  "time": "2026-11-14 03:11",
   "items": 33,
   "sample": [
    "New South Wales 204/10 & 410/10 v South Australia 325/10 & 50/2 *",
@@ -7520,9 +7522,9 @@
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 26,
-  "fail": 50,
-  "limit": 51
+  "ok": 29,
+  "fail": 56,
+  "limit": 57
  },
  "posted_heads": [
   {
@@ -7847,7 +7849,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 03:03",
+  "time": "2026-11-14 03:11",
   "steps": []
  },
  "roundup_am": "2026-11-13",
@@ -7950,12 +7952,12 @@
  },
  "article_diag": {
   "date": "2026-11-14",
-  "tried": 6,
-  "decoded": 6,
-  "text": 5,
-  "story": 4
+  "tried": 7,
+  "decoded": 7,
+  "text": 6,
+  "story": 5
  },
- "ai_last_error": "03:03 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "03:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -7997,7 +7999,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8005,23 +8007,23 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 19,
+   "ok": 20,
    "fail": 1,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 19,
+   "ok": 20,
    "fail": 1,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8029,7 +8031,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8037,14 +8039,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8053,9 +8055,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 20,
+   "fail": 21,
    "items": 15,
-   "fail_streak": 1396,
+   "fail_streak": 1397,
    "last_status": 404
   }
  },
@@ -8212,8 +8214,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 1,
+  "old": 1,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8262,8 +8264,8 @@
   "date": "2026-11-14",
   "count": 0,
   "last": 1794599470.2121172,
-  "city_i": 24,
-  "dry": 1794607422.7710755
+  "city_i": 6,
+  "dry": 1794607868.4828215
  },
  "gemini_day_dead": {
   "day": "2026-11-13",
@@ -8932,13 +8934,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-13 22:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-13 22:56",
    "ok": true,
    "n": 0,
@@ -9206,6 +9201,13 @@
   },
   {
    "t": "11-14 03:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 03:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14077,11 +14079,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-12 02:51",
-   "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات",
-   "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
-  },
-  {
    "t": "11-12 03:52",
    "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
    "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
@@ -14225,6 +14222,11 @@
    "t": "11-14 02:51",
    "new": "پيٽرول اگهه ۾ ٻه روپيه ڪمي",
    "old": "صبح جون سنڌ جون اهم خبرون"
+  },
+  {
+   "t": "11-14 03:11",
+   "new": "حڪومت پاران پيٽرول جي قيمت ۾ گهٽتائي",
+   "old": "صبح جون سنڌ جون اهم خبرون"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14245,7 +14247,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 4
+  "repeat": 5
  },
  "_dup": true
 }
