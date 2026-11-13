@@ -1,9 +1,5 @@
 {
  "seen": {
-  "3eb6222d7083c197": 1793969469.870974,
-  "5297da4274209b4b": 1793969469.8709772,
-  "62b58c00a625f568": 1793969469.8709784,
-  "9dc8cc50a7f57e8b": 1793969469.8711898,
   "1058945583eb1ee8": 1793970066.4147098,
   "3557eccbef7ae523": 1793970075.8013012,
   "70b1e5c230eeffe6": 1793970651.832273,
@@ -1546,7 +1542,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-12",
-  "count": 4
+  "count": 5
  },
  "last_digest": "2026-11-13",
  "alert_day": "2026-10-20",
@@ -1604,7 +1600,7 @@
   ]
  },
  "last_daily": "2026-11-13",
- "roundup_pm": "2026-11-12",
+ "roundup_pm": "2026-11-13",
  "replied": [],
  "q_index": 5,
  "last_question": "2026-11-11",
@@ -1667,7 +1663,7 @@
    "3ab4a7b52ce113f3"
   ]
  },
- "last_post_id": "1444130002106066_122120631315503839",
+ "last_post_id": "1444130002106066_122120635425503839",
  "shareable": [
   {
    "id": "1444130002106066_122120227749503839",
@@ -2240,11 +2236,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-13 17:55",
-  "items": 18,
+  "time": "2026-11-13 18:07",
+  "items": 19,
   "sample": [
    "Pakistan 434/9 & 284/8 * v Sri Lanka 446/10",
-   "New South Wales 204/10 & 410/10 v South Australia 325/10 & 50/2 *",
+   "New South Wales 410/10 & 204/10 v South Australia 50/2 & 325/10 *",
    "Victoria 7 & 402/5 * v Western Australia 424/10"
   ]
  },
@@ -2255,8 +2251,8 @@
  },
  "all_posts": {
   "date": "2026-11-13",
-  "count": 38,
-  "last": 1794573795.424618
+  "count": 39,
+  "last": 1794574916.2187047
  },
  "perf": {
   "posts": [
@@ -7467,9 +7463,9 @@
  },
  "ai_usage": {
   "date": "2026-11-13",
-  "ok": 292,
-  "fail": 447,
-  "limit": 448
+  "ok": 295,
+  "fail": 453,
+  "limit": 454
  },
  "posted_heads": [
   {
@@ -7794,7 +7790,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-13 17:56",
+  "time": "2026-11-13 18:07",
   "steps": []
  },
  "roundup_am": "2026-11-13",
@@ -7902,7 +7898,7 @@
   "text": 26,
   "story": 20
  },
- "ai_last_error": "17:42 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-13",
   "models": [
@@ -7944,7 +7940,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-13",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7952,7 +7948,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-13",
-   "ok": 109,
+   "ok": 110,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7960,7 +7956,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-13",
-   "ok": 109,
+   "ok": 110,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7968,7 +7964,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7976,7 +7972,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7984,14 +7980,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 109,
+   "ok": 110,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8000,9 +7996,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-13",
    "ok": 0,
-   "fail": 110,
+   "fail": 111,
    "items": 15,
-   "fail_streak": 1339,
+   "fail_streak": 1340,
    "last_status": 404
   }
  },
@@ -8154,18 +8150,18 @@
  "region_posts": {
   "date": "2026-11-13",
   "district": 1,
-  "sindh": 15,
+  "sindh": 16,
   "pakistan": 14
  },
  "report_acc": {
-  "posted": 4,
-  "found": 24,
-  "old": 23,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-13 17",
+ "report_hour": "2026-11-13 18",
  "kawish_upload_times": {
   "_date": "2026-11-13",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8862,20 +8858,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-13 14:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-13 14:47",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-13 14:50",
    "ok": true,
    "n": 0,
@@ -9136,6 +9118,20 @@
   },
   {
    "t": "11-13 17:55",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 18:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 18:07",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13407,6 +13403,59 @@
     "پوڪ",
     "پوڪيندڙ",
     "ڪڻڪ"
+   ]
+  },
+  {
+   "t": 1794574916,
+   "h": "شام جون سنڌ جون اهم خبرون",
+   "b": "13 نومبر 2026 1️⃣ سنھ ۾ ٿرڊ پارٽي موٽر انشورنس پاليسين ۾ وڏي واڌ حڪومت طرفان موٽر وهيڪل قانون ۾ ترميم ۽",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "شام"
+   ],
+   "bt": [
+    "#11",
+    "#13",
+    "#200",
+    "#52",
+    "انشورنس",
+    "انگ",
+    "اهم",
+    "اهن",
+    "اهي",
+    "تائين",
+    "ترميم",
+    "حڪومت",
+    "خبرون",
+    "روڊ",
+    "سنه",
+    "سنڌ",
+    "شام",
+    "طرفان",
+    "قانون",
+    "قرار",
+    "لازمي",
+    "مارچ",
+    "مان",
+    "مقصد",
+    "موٽر",
+    "نومبر",
+    "هزار",
+    "واڌ",
+    "وهيڪل",
+    "وڌي",
+    "وڌيڪ",
+    "وڏي",
+    "پارٽي",
+    "پاليسين",
+    "پاليسيون",
+    "ٿرڊ",
+    "چڪيون",
+    "ڏيڻ",
+    "ڪان",
+    "ڪانپوء"
    ]
   }
  ],
