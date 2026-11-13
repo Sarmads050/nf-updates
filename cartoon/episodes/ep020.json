@@ -5,7 +5,7 @@
  "title": "Gajar Ka Halwa!",
  "topic": "Winter carrot season - Abba brings 5 kg cheap gajar from the mandi, nobody wants to grate them, Abba's 'humare zamane' boast makes it his job; low evening gas pressure means a long wait; Daniyal 'khushboo ka gawah', Arsalan 'studied gajar ke fawaid' and gets the ladle; plates go to helpers, Daniyal gets dishes duty",
  "music": "comic",
- "tempo": 1.12,
+ "tempo": 1.16,
  "lesson": "Kaam mein haath bataao...<br>meetha sab ko milega!",
  "caption": "Sardi aayi, gajar ka halwa laayi! 🥕😋 Abba paanch kilo gajar le aaye... ab kaddukash kaun karega? 😂 Aap ke ghar halwa banne par sab se pehle kaun aata hai? Comment mein batayein!",
  "hashtags": [
@@ -52,7 +52,13 @@
      ],
      "sfx": [
       "door"
-     ]
+     ],
+     "react_pose": {
+      "ARSALAN": "rest",
+      "ABBA": "rest",
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
     },
     {
      "who": "ABBA",
@@ -67,6 +73,11 @@
       "AMMI": "ABBA",
       "MEHAK": "ABBA",
       "ARSALAN": "ABBA"
+     },
+     "react_pose": {
+      "ARSALAN": "rest",
+      "AMMI": "rest",
+      "MEHAK": "rest"
      }
     },
     {
@@ -80,6 +91,11 @@
      "shot": "two:AMMI",
      "react": {
       "ABBA": "sheepish"
+     },
+     "react_pose": {
+      "ARSALAN": "rest",
+      "ABBA": "rest",
+      "MEHAK": "rest"
      }
     },
     {
@@ -94,6 +110,11 @@
      "looks": {
       "AMMI": "ARSALAN",
       "MEHAK": "ARSALAN"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "AMMI": "rest",
+      "MEHAK": "rest"
      }
     },
     {
@@ -116,6 +137,10 @@
      "react": {
       "AMMI": "laugh",
       "ABBA": "laugh"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "AMMI": "rest"
      }
     },
     {
@@ -130,6 +155,10 @@
      "looks": {
       "AMMI": "ABBA",
       "MEHAK": "ABBA"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "MEHAK": "rest"
      }
     },
     {
@@ -148,7 +177,8 @@
       "MEHAK": "laugh"
      },
      "react_pose": {
-      "ABBA": "scratch_head"
+      "ABBA": "scratch_head",
+      "MEHAK": "rest"
      }
     }
    ]
@@ -174,7 +204,11 @@
      "urdu": "شام تک ابا نے ساری گاجر کدوکش کر دی... اب حلوہ چولہے پر ہے!",
      "how": "storyteller, amused",
      "shot": "wide",
-     "gap": 0.1
+     "gap": 0.1,
+     "react_pose": {
+      "ABBA": "rest",
+      "AMMI": "rest"
+     }
     },
     {
      "who": "AMMI",
@@ -187,6 +221,9 @@
      "shot": "close",
      "looks": {
       "ABBA": "AMMI"
+     },
+     "react_pose": {
+      "ABBA": "rest"
      }
     },
     {
@@ -202,6 +239,9 @@
      "gap": 0.5,
      "react": {
       "AMMI": "laugh"
+     },
+     "react_pose": {
+      "AMMI": "rest"
      }
     },
     {
@@ -226,6 +266,10 @@
      "looks": {
       "AMMI": "DANIYAL",
       "ABBA": "DANIYAL"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "AMMI": "rest"
      }
     },
     {
@@ -236,7 +280,11 @@
      "urdu": "ہاں، لیکن پہلی پلیٹ کام کرنے والوں کو ملے گی۔",
      "how": "mother, firm but smiling",
      "pose": "wag",
-     "shot": "two:AMMI"
+     "shot": "two:AMMI",
+     "react_pose": {
+      "ABBA": "rest",
+      "DANIYAL": "rest"
+     }
     },
     {
      "who": "DANIYAL",
@@ -251,6 +299,10 @@
      "gap": 0.4,
      "react": {
       "AMMI": "laugh"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "AMMI": "rest"
      }
     },
     {
@@ -267,6 +319,10 @@
      "react": {
       "DANIYAL": "sheepish",
       "AMMI": "laugh"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "DANIYAL": "rest"
      }
     },
     {
@@ -280,9 +336,22 @@
      "shot": "close",
      "before": [
       {
+       "do": "exit",
+       "who": "DANIYAL"
+      },
+      {
+       "do": "move",
+       "who": "ABBA",
+       "slot": "right"
+      },
+      {
+       "do": "wait",
+       "sec": 0.3
+      },
+      {
        "do": "enter",
        "who": "ARSALAN",
-       "slot": "left"
+       "slot": "mid"
       },
       {
        "do": "prop",
@@ -292,8 +361,11 @@
      ],
      "looks": {
       "AMMI": "ARSALAN",
-      "ABBA": "ARSALAN",
-      "DANIYAL": "ARSALAN"
+      "ABBA": "ARSALAN"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "AMMI": "rest"
      }
     },
     {
@@ -304,7 +376,11 @@
      "urdu": "اچھا؟ تو بتاؤ، آج کیا پڑھا؟",
      "how": "strict father, eyebrow raised",
      "pose": "cross",
-     "shot": "two:ABBA"
+     "shot": "two:ABBA",
+     "react_pose": {
+      "AMMI": "rest",
+      "ARSALAN": "rest"
+     }
     },
     {
      "who": "ARSALAN",
@@ -318,9 +394,12 @@
      "joke": true,
      "gap": 0.6,
      "react": {
-      "DANIYAL": "laugh",
       "ABBA": "teasing",
       "AMMI": "laugh"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "AMMI": "rest"
      }
     },
     {
@@ -337,11 +416,6 @@
        "do": "prop",
        "who": "ARSALAN",
        "prop": null
-      },
-      {
-       "do": "approach",
-       "who": "ARSALAN",
-       "to": "AMMI"
       }
      ],
      "give": {
@@ -351,7 +425,11 @@
      },
      "react": {
       "ARSALAN": "sheepish",
-      "DANIYAL": "laugh"
+      "ABBA": "laugh"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "ARSALAN": "rest"
      }
     }
    ]
@@ -361,10 +439,10 @@
    "time": "night",
    "label": "Drawing Room • Raat",
    "cast": {
-    "MEHAK": "sofa_l",
-    "ABBA": "sofa_c",
+    "ABBA": "sofa_l",
+    "ARSALAN": "sofa_c",
     "DANIYAL": "sofa_r",
-    "ARSALAN": "stand_l"
+    "MEHAK": "stand_r"
    },
    "props": {
     "ABBA": null,
@@ -385,7 +463,7 @@
       {
        "do": "enter",
        "who": "AMMI",
-       "slot": "stand_cr"
+       "slot": "stand_l"
       },
       {
        "do": "prop",
@@ -398,6 +476,12 @@
      },
      "looks": {
       "*": "AMMI"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "ARSALAN": "rest",
+      "DANIYAL": "rest"
      }
     },
     {
@@ -423,6 +507,12 @@
      ],
      "react": {
       "ABBA": "proud"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "ARSALAN": "rest",
+      "DANIYAL": "rest"
      }
     },
     {
@@ -451,10 +541,21 @@
        "do": "prop",
        "who": "AMMI",
        "prop": "plate"
+      },
+      {
+       "do": "move",
+       "who": "ARSALAN",
+       "slot": "sofa_c"
       }
      ],
      "react": {
       "ARSALAN": "happy"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "ARSALAN": "rest",
+      "DANIYAL": "rest"
      }
     },
     {
@@ -468,6 +569,12 @@
      "shot": "close",
      "looks": {
       "*": "DANIYAL"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "ARSALAN": "rest",
+      "AMMI": "rest"
      }
     },
     {
@@ -486,7 +593,10 @@
       "DANIYAL": "sheepish"
      },
      "react_pose": {
-      "DANIYAL": "facepalm"
+      "DANIYAL": "facepalm",
+      "ABBA": "rest",
+      "ARSALAN": "rest",
+      "AMMI": "rest"
      }
     },
     {
@@ -506,6 +616,24 @@
      "gap": 0.6,
      "react": {
       "*": "happy"
+     },
+     "before": [
+      {
+       "do": "move",
+       "who": "DANIYAL",
+       "slot": "stand_cr"
+      },
+      {
+       "do": "approach",
+       "who": "AMMI",
+       "to": "DANIYAL"
+      }
+     ],
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "ARSALAN": "rest",
+      "DANIYAL": "rest"
      }
     }
    ]

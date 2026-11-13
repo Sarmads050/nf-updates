@@ -47,6 +47,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-048] (ep019, 2026-11-12) Charpai par razai mein soye Abba (scene 2) khare logon ke peeche chhup jate hain; "judge sahab so gaye" wali punch line par sirf razai ka kona dikhta hai, Abba ka chehra aur Zzz nahi — jab koi so raha ho aur line us ka zikr kare to shot mein sone wale ko frame mein rakhna (naya `shot: "close:ABBA"` ya sleeper ko khare logon se aage layer karna).
 - [K-049] (ep019, 2026-11-12) Aangan ke stand_r par aane wali Ammi (tray ke saath) `two:AMMI` shot mein frame ke right kinare par aadhi kat gayin, is liye unhein stand_c par lana para — two/close shot ka frame is tarah clamp karna ke bolne wala poora andar rahe.
 
+- [K-050] (ep020, 2026-11-13) Poori kahani gajar aur halwe ki hai lekin screen par na gajar hai, na kaddukash, na halwe ki degchi — Abba ka "thaila" chhota jamni dabba hai aur Ammi ke haath ki plate door se lambi naranji gajar jaisi lagti hai — naye props: "gajar" (thaile se jhankti gajar), "kaddukash", aur "halwa" plate (naranji dher + badaam/pista), aur chulhe par halwe ki kadhai.
+- [K-051] (ep020, 2026-11-13) Kitchen mein Ammi ke haath mein "ladle" hai lekin "hold" pose mein chamcha nazar hi nahi aata, aur woh halwa chalati hui nahi lagti (line 9-10) — naya "stir" pose: chamcha degchi mein, haath gol gol ghoomta hua.
+- [K-052] (ep020, 2026-11-13) Kitchen mein "approach" (Arsalan -> stove par Ammi) se Arsalan frame se bahar left chala gaya aur `two:AMMI` shot mein nazar hi nahi aaya; slots badal kar theek kiya — approach mein hamesha frame ke andar wali khali side chun-na.
+
 ## APPROVED
 
 ## DONE
