@@ -2223,12 +2223,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 01:10",
+  "time": "2026-11-14 01:21",
   "items": 33,
   "sample": [
    "New South Wales 410/10 & 204/10 v South Australia 50/2 & 325/10 *",
    "Victoria 7 & 402/5 * v Western Australia 424/10",
-   "Queensland 348/10 v Tasmania 233/10 & 133/10 *"
+   "Queensland 348/10 v Tasmania 133/10 & 233/10 *"
   ]
  },
  "agri_news": {
@@ -4651,48 +4651,8 @@
   "last": 1794576142.3902392
  },
  "trends": {
-  "last": 1794590462.5402331,
+  "last": 1794601273.086749,
   "terms": [
-   {
-    "term": "harmeet dhillon",
-    "traffic": 200,
-    "news": "DOJ civil rights chief Harmeet Dhillon resigns, says White House asked her to wait until after midterms",
-    "t": 1793986281,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "t10 league",
-    "traffic": 500,
-    "news": "Pakistan Cricket Board's demand for NOC fee forces Pak players' exodus from Abu Dhabi T10 league",
-    "t": 1793986281,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "azad kashmir",
-    "traffic": 200,
-    "news": "Federal ombudsman calls on AJK president",
-    "t": 1793986281,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "international mixed martial arts federation",
-    "traffic": 200,
-    "news": "Pakistan’s Maliha Ali creates history, storms into IMMAF World C’ship final",
-    "t": 1793986281,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "abu dhabi t10",
-    "traffic": 200,
-    "news": "UAE Bulls unveil strong squad with Kieron Pollard for Abu Dhabi T10",
-    "t": 1793986281,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "sevilla vs alavés",
     "traffic": 200,
@@ -7460,15 +7420,79 @@
     "t": 1794590462,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "morocco vs niger",
+    "traffic": 500,
+    "news": "The Atlas Lions Return to Casablanca, Four Years and a Lifetime Later",
+    "t": 1794601273,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "czech republic national football team",
+    "traffic": 5000,
+    "news": "Japan vs Brazil: UK TV Channel & Live Stream",
+    "t": 1794601273,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "netherlands vs greece",
+    "traffic": 500,
+    "news": "Netherlands line-up: Xavi names replacement for absent Virgil van Dijk",
+    "t": 1794601273,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "serbia vs germany",
+    "traffic": 1000,
+    "news": "Confirmed lineups: Serbia vs. Germany",
+    "t": 1794601273,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "egypt vs malawi",
+    "traffic": 200,
+    "news": "Egypt faces Malawi Friday in crucial 2027 AFCON qualifier",
+    "t": 1794601273,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "کرینہ کپور",
+    "traffic": 200,
+    "news": "کرینہ کپور کے قرآنی آیت والے ہار پر تنازع",
+    "t": 1794601273,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "tunisia vs libya",
+    "traffic": 100,
+    "news": "AFCON 2027 qualifiers: Libya win 2-0, Kenya hold Bafana",
+    "t": 1794601273,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "portugal",
+    "traffic": 200,
+    "news": "Portugal fica sem luz durante três dias! Estas são as zonas do país afetadas",
+    "t": 1794601273,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 4,
-  "fail": 8,
-  "limit": 8
+  "ok": 5,
+  "fail": 10,
+  "limit": 10
  },
  "posted_heads": [
   {
@@ -7793,7 +7817,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 01:10",
+  "time": "2026-11-14 01:21",
   "steps": []
  },
  "roundup_am": "2026-11-13",
@@ -7901,7 +7925,7 @@
   "text": 1,
   "story": 1
  },
- "ai_last_error": "00:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "01:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -7943,7 +7967,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7951,7 +7975,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7959,7 +7983,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7967,7 +7991,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7975,7 +7999,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7983,14 +8007,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 8,
+   "ok": 9,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7999,9 +8023,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 8,
+   "fail": 9,
    "items": 15,
-   "fail_streak": 1384,
+   "fail_streak": 1385,
    "last_status": 404
   }
  },
@@ -8158,8 +8182,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 1,
-  "old": 1,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8886,13 +8910,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-13 21:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-13 21:56",
    "ok": true,
    "n": 0,
@@ -9160,6 +9177,13 @@
   },
   {
    "t": "11-14 01:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 01:20",
    "ok": true,
    "n": 0,
    "ids": [],
