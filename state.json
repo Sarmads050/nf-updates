@@ -1479,7 +1479,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-12",
-  "count": 3
+  "count": 4
  },
  "last_digest": "2026-11-12",
  "alert_day": "2026-10-20",
@@ -1599,7 +1599,7 @@
    "dacbc5395b57225d"
   ]
  },
- "last_post_id": "1444130002106066_122120486445503839",
+ "last_post_id": "1444130002106066_122120492223503839",
  "shareable": [
   {
    "id": "1444130002106066_122120135931503839",
@@ -2171,12 +2171,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-13 07:55",
+  "time": "2026-11-13 08:06",
   "items": 18,
   "sample": [
    "Pakistan 57/1 & 434/9 * v Sri Lanka 446/10",
-   "New South Wales 204/10 & 320/4 * v South Australia 325/10",
-   "Victoria 402/5 v Western Australia 273/7 *"
+   "New South Wales 204/10 & 327/5 * v South Australia 325/10",
+   "Victoria 402/5 v Western Australia 280/7 *"
   ]
  },
  "agri_news": {
@@ -2186,8 +2186,8 @@
  },
  "all_posts": {
   "date": "2026-11-13",
-  "count": 11,
-  "last": 1794537723.2590766
+  "count": 12,
+  "last": 1794538900.304888
  },
  "perf": {
   "posts": [
@@ -7366,9 +7366,9 @@
  },
  "ai_usage": {
   "date": "2026-11-13",
-  "ok": 89,
-  "fail": 152,
-  "limit": 150
+  "ok": 90,
+  "fail": 154,
+  "limit": 152
  },
  "posted_heads": [
   {
@@ -7693,10 +7693,10 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-13 07:55",
+  "time": "2026-11-13 08:06",
   "steps": []
  },
- "roundup_am": "2026-11-12",
+ "roundup_am": "2026-11-13",
  "group_shares": {
   "1": {
    "date": "2026-11-12",
@@ -7801,7 +7801,7 @@
   "text": 10,
   "story": 8
  },
- "ai_last_error": "07:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-13",
   "models": [
@@ -7843,7 +7843,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-13",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7851,7 +7851,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-13",
-   "ok": 49,
+   "ok": 50,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7859,7 +7859,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-13",
-   "ok": 49,
+   "ok": 50,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7867,7 +7867,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7875,7 +7875,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7883,14 +7883,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7899,9 +7899,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-13",
    "ok": 0,
-   "fail": 50,
+   "fail": 51,
    "items": 15,
-   "fail_streak": 1279,
+   "fail_streak": 1280,
    "last_status": 404
   }
  },
@@ -8404,18 +8404,18 @@
  "region_posts": {
   "date": "2026-11-13",
   "district": 0,
-  "sindh": 3,
+  "sindh": 4,
   "pakistan": 7
  },
  "report_acc": {
-  "posted": 2,
-  "found": 40,
-  "old": 40,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-13 07",
+ "report_hour": "2026-11-13 08",
  "kawish_upload_times": {
   "_date": "2026-11-13",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9118,7 +9118,9 @@
  ],
  "reels": {
   "date": "2026-11-13",
-  "done": []
+  "done": [
+   "08:00"
+  ]
  },
  "kawish_queue": [],
  "kawish_post": {
@@ -9127,20 +9129,6 @@
   "last": 1794489174.898386
  },
  "tg_debug": [
-  {
-   "t": "11-13 04:46",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-13 04:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-13 04:56",
    "ok": true,
@@ -9406,63 +9394,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-13 08:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 08:06",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-13",
  "recent_posts": [
-  {
-   "t": 1794366099,
-   "h": "صبح جون سنڌ جون اهم خبرون",
-   "b": "11 نومبر 2026 1️⃣ سکھر ۽ مختلف علائقن ۾ مرمت سبب بجلي بند رهندي سکھر الیکٹرک پاور ڪمپني پاران ضروري مرمت جي",
-   "tt": [
-    "اهم",
-    "خبرون",
-    "سنڌ",
-    "صبح"
-   ],
-   "bt": [
-    "#11",
-    "اعلان",
-    "اليڪٹرڪ",
-    "اهم",
-    "اهي",
-    "اٺين",
-    "بجلي",
-    "بجي",
-    "بده",
-    "بند",
-    "تائين",
-    "جاري",
-    "خبرون",
-    "رهندي",
-    "رڪڻ",
-    "سبب",
-    "سلسلي",
-    "سميت",
-    "سنڌ",
-    "سڪهر",
-    "صبح",
-    "ضروري",
-    "علائقن",
-    "فراهمي",
-    "فيڊرز",
-    "مختلف",
-    "مرمت",
-    "معطل",
-    "نومبر",
-    "واڌارا",
-    "وقتن",
-    "وٺي",
-    "ٽئين",
-    "پاران",
-    "پاور",
-    "چوٿين",
-    "ڏينهن",
-    "ڪان",
-    "ڪمپني",
-    "ڪيل"
-   ]
-  },
   {
    "t": 1794366529,
    "h": "صبح جون خبرون | اربع، 11 نومبر 2026",
@@ -13900,6 +13849,48 @@
     "پيدا",
     "ٿئي",
     "ڪراچي"
+   ]
+  },
+  {
+   "t": 1794538900,
+   "h": "صبح جون سنڌ جون اهم خبرون",
+   "b": "13 نومبر 2026 1️⃣ پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي حڪومت عوام کي رليف ڏيڻ لاءِ پيٹروليم شين جي قيمتن ۾",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "صبح"
+   ],
+   "bt": [
+    "#13",
+    "#332",
+    "#360",
+    "اهم",
+    "اهي",
+    "اهي،",
+    "تحت",
+    "حڪومت",
+    "خبرون",
+    "رليف",
+    "رپيا",
+    "سستو",
+    "سنڌ",
+    "شين",
+    "صبح",
+    "عوام",
+    "قيمت",
+    "قيمتن",
+    "لٽر",
+    "مقرر",
+    "نئين",
+    "نومبر",
+    "واڌ",
+    "پيٹروليم",
+    "پيٽرول",
+    "ڊيزل",
+    "ڏيڻ",
+    "ڪانپوء",
+    "گهٽتائي"
    ]
   }
  ],
