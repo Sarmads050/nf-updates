@@ -1483,7 +1483,12 @@
   "797d593772e29dfe": 1794607874.588606,
   "523cb8cdda8816fe": 1794607874.588745,
   "d34862e7870f456d": 1794609653.775126,
-  "6ad789bdcfbd1dac": 1794610885.2480884
+  "6ad789bdcfbd1dac": 1794610885.2480884,
+  "0ad8b7904727793b": 1794613868.1474361,
+  "d56a8440deb735c9": 1794613868.1476126,
+  "7c9ee729e61a1100": 1794613898.3600173,
+  "4c8f477729ce5574": 1794613898.3600214,
+  "70047111518e224c": 1794613907.1286123
  },
  "pending": {
   "culture2026-11-13": {
@@ -2223,7 +2228,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 04:41",
+  "time": "2026-11-14 04:51",
   "items": 33,
   "sample": [
    "New South Wales 204/10 & 410/10 v South Australia 325/10 & 50/2 *",
@@ -7490,9 +7495,9 @@
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 39,
-  "fail": 70,
-  "limit": 71
+  "ok": 46,
+  "fail": 84,
+  "limit": 85
  },
  "posted_heads": [
   {
@@ -7817,7 +7822,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 04:41",
+  "time": "2026-11-14 04:51",
   "steps": []
  },
  "roundup_am": "2026-11-13",
@@ -7920,12 +7925,12 @@
  },
  "article_diag": {
   "date": "2026-11-14",
-  "tried": 8,
-  "decoded": 8,
-  "text": 7,
+  "tried": 9,
+  "decoded": 9,
+  "text": 8,
   "story": 6
  },
- "ai_last_error": "04:30 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "04:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -7967,7 +7972,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7975,7 +7980,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 29,
+   "ok": 30,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7983,7 +7988,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 29,
+   "ok": 30,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7991,7 +7996,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7999,7 +8004,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8007,14 +8012,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8023,9 +8028,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 30,
+   "fail": 31,
    "items": 15,
-   "fail_streak": 1406,
+   "fail_streak": 1407,
    "last_status": 404
   }
  },
@@ -8182,8 +8187,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 4,
-  "old": 4,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8232,8 +8237,8 @@
   "date": "2026-11-14",
   "count": 0,
   "last": 1794599470.2121172,
-  "city_i": 4,
-  "dry": 1794610880.3229613
+  "city_i": 8,
+  "dry": 1794613863.7628026
  },
  "gemini_day_dead": {
   "day": "2026-11-13",
@@ -8886,13 +8891,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-13 23:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-13 23:46",
    "ok": true,
    "n": 0,
@@ -9160,6 +9158,13 @@
   },
   {
    "t": "11-14 04:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 04:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13998,11 +14003,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-12 03:52",
-   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
-   "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
-  },
-  {
    "t": "11-12 04:01",
    "new": "پاڪستاني عورت ڪرکٽر جو برابري جو مطالبو",
    "old": "پاڪستان ۾ برابرين جو مطالبو"
@@ -14146,6 +14146,11 @@
    "t": "11-14 03:11",
    "new": "حڪومت پاران پيٽرول جي قيمت ۾ گهٽتائي",
    "old": "صبح جون سنڌ جون اهم خبرون"
+  },
+  {
+   "t": "11-14 04:51",
+   "new": "حڪومت پاران پيٽرول ۽ ڊيزل سستو",
+   "old": "صبح جون سنڌ جون اهم خبرون"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14166,6 +14171,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 5
- }
+  "repeat": 6
+ },
+ "_dup": true
 }
