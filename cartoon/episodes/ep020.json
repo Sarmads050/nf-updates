@@ -1,0 +1,514 @@
+{
+ "id": "ep020",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 20,
+ "title": "Gajar Ka Halwa!",
+ "topic": "Winter carrot season - Abba brings 5 kg cheap gajar from the mandi, nobody wants to grate them, Abba's 'humare zamane' boast makes it his job; low evening gas pressure means a long wait; Daniyal 'khushboo ka gawah', Arsalan 'studied gajar ke fawaid' and gets the ladle; plates go to helpers, Daniyal gets dishes duty",
+ "music": "comic",
+ "tempo": 1.12,
+ "lesson": "Kaam mein haath bataao...<br>meetha sab ko milega!",
+ "caption": "Sardi aayi, gajar ka halwa laayi! 🥕😋 Abba paanch kilo gajar le aaye... ab kaddukash kaun karega? 😂 Aap ke ghar halwa banne par sab se pehle kaun aata hai? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#GajarKaHalwa",
+  "#PakistaniFamily",
+  "#UrduCartoon",
+  "#SardiKaMaza"
+ ],
+ "scenes": [
+  {
+   "set": "aangan",
+   "time": "day",
+   "label": "Aangan • Subah",
+   "cast": {
+    "AMMI": "charpai_l",
+    "MEHAK": "charpai_c",
+    "ARSALAN": "stand_l"
+   },
+   "props": {
+    "ARSALAN": "phone"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Nawabshah mein *sardi* shuru ho gayi hai... aur aaj Abba mandi se *paanch kilo gajar* le aaye hain!",
+     "urdu": "نواب شاہ میں سردی شروع ہو گئی ہے... اور آج ابا منڈی سے پانچ کلو گاجر لے آئے ہیں!",
+     "how": "warm storyteller, light and playful",
+     "shot": "wide",
+     "gap": 0.1,
+     "before": [
+      {
+       "do": "enter",
+       "who": "ABBA",
+       "slot": "stand_r"
+      },
+      {
+       "do": "prop",
+       "who": "ABBA",
+       "prop": "bag"
+      }
+     ],
+     "sfx": [
+      "door"
+     ]
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Zaib-un-Nisa! Dekho, mandi mein *gajar* kitni *sasti* mil rahi thi!",
+     "urdu": "زیب النساء! دیکھو، منڈی میں گاجر کتنی سستی مل رہی تھی!",
+     "how": "57-year-old father, proud of his bargain, cheerful",
+     "pose": "hold",
+     "shot": "close",
+     "looks": {
+      "AMMI": "ABBA",
+      "MEHAK": "ABBA",
+      "ARSALAN": "ABBA"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "surprised",
+     "roman": "*Paanch kilo?* Ab in sab ko *kaddukash* kaun karega?",
+     "urdu": "پانچ کلو؟ اب ان سب کو کدوکش کون کرے گا؟",
+     "how": "50-year-old mother, shocked, hands on cheeks, half laughing",
+     "pose": "explain",
+     "shot": "two:AMMI",
+     "react": {
+      "ABBA": "sheepish"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "worried",
+     "roman": "Ammi, mera kal *test* hai! Main to *parhne* ja raha hoon!",
+     "urdu": "امی، میرا کل ٹیسٹ ہے! میں تو پڑھنے جا رہا ہوں!",
+     "how": "17-year-old son, quickly escaping work, fake serious",
+     "pose": "thumb_back",
+     "shot": "close",
+     "looks": {
+      "AMMI": "ARSALAN",
+      "MEHAK": "ARSALAN"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "teasing",
+     "roman": "Test? Ammi, Ada Arsalan ne aaj tak *khud* parhne ka naam nahi liya!",
+     "urdu": "ٹیسٹ؟ امی، اڈا ارسلان نے آج تک خود پڑھنے کا نام نہیں لیا!",
+     "how": "14-year-old sister, cheeky, teasing her brother",
+     "pose": "point_other",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.5,
+     "before": [
+      {
+       "do": "exit",
+       "who": "ARSALAN"
+      }
+     ],
+     "react": {
+      "AMMI": "laugh",
+      "ABBA": "laugh"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "front",
+     "emo": "proud",
+     "roman": "Humare zamane mein to hum *saare bhai* mil kar gajar kaddukash karte thay!",
+     "urdu": "ہمارے زمانے میں تو ہم سارے بھائی مل کر گاجر کدوکش کرتے تھے!",
+     "how": "father boasting about old days, chest out",
+     "pose": "chest",
+     "shot": "close",
+     "looks": {
+      "AMMI": "ABBA",
+      "MEHAK": "ABBA"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "teasing",
+     "roman": "Waah! To aaj aap ka *zamana* wapas aa gaya. Yeh kaam *aap ka* hai, Ghulam Hussain Sahab!",
+     "urdu": "واہ! تو آج آپ کا زمانہ واپس آ گیا۔ یہ کام آپ کا ہے، غلام حسین صاحب!",
+     "how": "wife, sweetly teasing, catching him in his own words",
+     "pose": "point_other",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.7,
+     "react": {
+      "ABBA": "sheepish",
+      "MEHAK": "laugh"
+     },
+     "react_pose": {
+      "ABBA": "scratch_head"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "time": "evening",
+   "label": "Kitchen • Shaam",
+   "cast": {
+    "AMMI": "stove",
+    "ABBA": "mid"
+   },
+   "props": {
+    "AMMI": "ladle",
+    "ABBA": null
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Shaam tak Abba ne saari gajar kaddukash kar di... ab *halwa* chulhe par hai!",
+     "urdu": "شام تک ابا نے ساری گاجر کدوکش کر دی... اب حلوہ چولہے پر ہے!",
+     "how": "storyteller, amused",
+     "shot": "wide",
+     "gap": 0.1
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "worried",
+     "roman": "Shaam ko gas ka *pressure* kam hai. Halwa pakne mein *ek ghanta* lagega.",
+     "urdu": "شام کو گیس کا پریشر کم ہے۔ حلوہ پکنے میں ایک گھنٹہ لگے گا۔",
+     "how": "mother stirring the pot, a little worried",
+     "pose": "hold",
+     "shot": "close",
+     "looks": {
+      "ABBA": "AMMI"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "warm",
+     "roman": "Koi baat nahi. *Sabr* ka phal meetha hota hai... aur *halwa* bhi!",
+     "urdu": "کوئی بات نہیں۔ صبر کا پھل میٹھا ہوتا ہے... اور حلوہ بھی!",
+     "how": "father, tired arms but smiling, gentle joke",
+     "pose": "explain",
+     "shot": "two:ABBA",
+     "joke": true,
+     "gap": 0.5,
+     "react": {
+      "AMMI": "laugh"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Yeh *khushboo* kahan se aa rahi hai? Ammi, *gajar ka halwa?*",
+     "urdu": "یہ خوشبو کہاں سے آ رہی ہے؟ امی، گاجر کا حلوہ؟",
+     "how": "20-year-old son, sniffing the air, excited",
+     "pose": "arms_up",
+     "shot": "close",
+     "before": [
+      {
+       "do": "enter",
+       "who": "DANIYAL",
+       "slot": "right"
+      }
+     ],
+     "sfx": [
+      "door"
+     ],
+     "looks": {
+      "AMMI": "DANIYAL",
+      "ABBA": "DANIYAL"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "DANIYAL",
+     "emo": "teasing",
+     "roman": "Haan, lekin pehli plate *kaam karne walon* ko milegi.",
+     "urdu": "ہاں، لیکن پہلی پلیٹ کام کرنے والوں کو ملے گی۔",
+     "how": "mother, firm but smiling",
+     "pose": "wag",
+     "shot": "two:AMMI"
+    },
+    {
+     "who": "DANIYAL",
+     "to": "AMMI",
+     "emo": "proud",
+     "roman": "*Objection!* Main ne bhi kaam kiya hai... main *khushboo ka gawah* hoon!",
+     "urdu": "آبجیکشن! میں نے بھی کام کیا ہے... میں خوشبو کا گواہ ہوں!",
+     "how": "law student, dramatic courtroom style",
+     "pose": "objection",
+     "shot": "close",
+     "joke": true,
+     "gap": 0.4,
+     "react": {
+      "AMMI": "laugh"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "DANIYAL",
+     "emo": "teasing",
+     "roman": "Haan, aur tum ne aaj sirf *ek hi kaam* kiya hai... *sona!*",
+     "urdu": "ہاں، اور تم نے آج صرف ایک ہی کام کیا ہے... سونا!",
+     "how": "father, dry teasing, perfect timing",
+     "pose": "point_other",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.7,
+     "react": {
+      "DANIYAL": "sheepish",
+      "AMMI": "laugh"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Ammi, *parhai khatam!* Halwa tayyar hai?",
+     "urdu": "امی، پڑھائی ختم! حلوہ تیار ہے؟",
+     "how": "teen son, too cheerful, phone in hand",
+     "pose": "wave",
+     "shot": "close",
+     "before": [
+      {
+       "do": "enter",
+       "who": "ARSALAN",
+       "slot": "left"
+      },
+      {
+       "do": "prop",
+       "who": "ARSALAN",
+       "prop": "phone"
+      }
+     ],
+     "looks": {
+      "AMMI": "ARSALAN",
+      "ABBA": "ARSALAN",
+      "DANIYAL": "ARSALAN"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "neutral",
+     "roman": "Achha? To batao, aaj kya *parha?*",
+     "urdu": "اچھا؟ تو بتاؤ، آج کیا پڑھا؟",
+     "how": "strict father, eyebrow raised",
+     "pose": "cross",
+     "shot": "two:ABBA"
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "sheepish",
+     "roman": "Woh... *gajar ke fawaid!* Gajar *aankhon* ke liye achhi hoti hai!",
+     "urdu": "وہ... گاجر کے فوائد! گاجر آنکھوں کے لیے اچھی ہوتی ہے!",
+     "how": "caught teen, thinking fast, nervous grin",
+     "pose": "scratch_head",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "DANIYAL": "laugh",
+      "ABBA": "teasing",
+      "AMMI": "laugh"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "roman": "Shabash! To ab aankhein khol kar yeh *chamcha* chalao!",
+     "urdu": "شاباش! تو اب آنکھیں کھول کر یہ چمچہ چلاؤ!",
+     "how": "mother, handing him the ladle, playful",
+     "pose": "give",
+     "shot": "two:AMMI",
+     "before": [
+      {
+       "do": "prop",
+       "who": "ARSALAN",
+       "prop": null
+      },
+      {
+       "do": "approach",
+       "who": "ARSALAN",
+       "to": "AMMI"
+      }
+     ],
+     "give": {
+      "to": "ARSALAN",
+      "prop": "ladle",
+      "at": 0.5
+     },
+     "react": {
+      "ARSALAN": "sheepish",
+      "DANIYAL": "laugh"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "night",
+   "label": "Drawing Room • Raat",
+   "cast": {
+    "MEHAK": "sofa_l",
+    "ABBA": "sofa_c",
+    "DANIYAL": "sofa_r",
+    "ARSALAN": "stand_l"
+   },
+   "props": {
+    "ABBA": null,
+    "ARSALAN": null,
+    "DANIYAL": null
+   },
+   "lines": [
+    {
+     "who": "AMMI",
+     "to": "front",
+     "emo": "happy",
+     "roman": "Lo bhai, garma garam *gajar ka halwa* tayyar hai!",
+     "urdu": "لو بھائی، گرما گرم گاجر کا حلوہ تیار ہے!",
+     "how": "mother, proud and happy, announcing",
+     "pose": "hold",
+     "shot": "group",
+     "before": [
+      {
+       "do": "enter",
+       "who": "AMMI",
+       "slot": "stand_cr"
+      },
+      {
+       "do": "prop",
+       "who": "AMMI",
+       "prop": "plate"
+      }
+     ],
+     "react": {
+      "*": "happy"
+     },
+     "looks": {
+      "*": "AMMI"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "warm",
+     "roman": "Pehli plate *Abba* ki... saari gajar *inhon ne* kaddukash ki!",
+     "urdu": "پہلی پلیٹ ابا کی... ساری گاجر انہوں نے کدوکش کی!",
+     "how": "mother, warmly rewarding her husband",
+     "pose": "give",
+     "shot": "two:AMMI",
+     "give": {
+      "to": "ABBA",
+      "prop": "plate",
+      "at": 0.5
+     },
+     "after": [
+      {
+       "do": "prop",
+       "who": "AMMI",
+       "prop": "plate"
+      }
+     ],
+     "react": {
+      "ABBA": "proud"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "roman": "Aur doosri plate *Arsalan* ki... *ek ghanta* chamcha chalaya hai!",
+     "urdu": "اور دوسری پلیٹ ارسلان کی... ایک گھنٹہ چمچہ چلایا ہے!",
+     "how": "mother, smiling, fair",
+     "pose": "give",
+     "shot": "two:AMMI",
+     "before": [
+      {
+       "do": "approach",
+       "who": "ARSALAN",
+       "to": "AMMI"
+      }
+     ],
+     "give": {
+      "to": "ARSALAN",
+      "prop": "plate",
+      "at": 0.5
+     },
+     "after": [
+      {
+       "do": "prop",
+       "who": "AMMI",
+       "prop": "plate"
+      }
+     ],
+     "react": {
+      "ARSALAN": "happy"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "AMMI",
+     "emo": "sad",
+     "roman": "Aur meri? Main ne bhi to sab ko halwa *yaad* dilaya tha!",
+     "urdu": "اور میری؟ میں نے بھی تو سب کو حلوہ یاد دلایا تھا!",
+     "how": "law student pleading, puppy eyes",
+     "pose": "plead",
+     "shot": "close",
+     "looks": {
+      "*": "DANIYAL"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "DANIYAL",
+     "emo": "teasing",
+     "roman": "Ada Daniyal, aap ke liye bhi ek kaam bacha hai... *bartan dhona!*",
+     "urdu": "اڈا دانیال، آپ کے لیے بھی ایک کام بچا ہے... برتن دھونا!",
+     "how": "younger sister, sweet but cheeky punchline",
+     "pose": "point_other",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.8,
+     "react": {
+      "*": "laugh",
+      "DANIYAL": "sheepish"
+     },
+     "react_pose": {
+      "DANIYAL": "facepalm"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "front",
+     "emo": "warm",
+     "roman": "Ghar ke kaam mein *sab haath* batayein, to meetha *sab ko* milta hai!",
+     "urdu": "گھر کے کام میں سب ہاتھ بٹائیں، تو میٹھا سب کو ملتا ہے!",
+     "how": "mother, loving closing line, giving Daniyal his plate too",
+     "pose": "give",
+     "shot": "group",
+     "give": {
+      "to": "DANIYAL",
+      "prop": "plate",
+      "at": 0.6
+     },
+     "gap": 0.6,
+     "react": {
+      "*": "happy"
+     }
+    }
+   ]
+  }
+ ]
+}
