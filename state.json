@@ -1486,7 +1486,17 @@
   "0bdf8281da0f3612": 1794603101.0999763,
   "4d659fed07c78482": 1794603101.099977,
   "d7cebdcc3cfcfc6a": 1794603101.1001406,
-  "93290e0bcafc804f": 1794605461.360329
+  "93290e0bcafc804f": 1794605461.360329,
+  "439582e71c71e099": 1794606086.9819918,
+  "3e3a24af92b2ea80": 1794606086.9819937,
+  "ac0a0ed4521d1e7a": 1794606086.9819953,
+  "c3a5e68db1b10c90": 1794606086.9819963,
+  "e09465a4d7318679": 1794606086.9819973,
+  "22a8df834f6b945f": 1794606086.9819984,
+  "2194bde13982b2b7": 1794606086.9819992,
+  "ab8858bf67148318": 1794606086.9819999,
+  "5c3675b3204ffa98": 1794606086.9820008,
+  "eb8e2ef8943733ed": 1794606086.9822145
  },
  "pending": {
   "culture2026-11-13": {
@@ -1535,7 +1545,7 @@
   "last_week": "",
   "last_check": "2026-11-14"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2227,12 +2237,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 02:33",
+  "time": "2026-11-14 02:41",
   "items": 33,
   "sample": [
    "New South Wales 204/10 & 410/10 v South Australia 325/10 & 50/2 *",
    "Victoria 402/5 & 7 * v Western Australia 424/10",
-   "Queensland 348/10 v Tasmania 233/10 & 133/10 *"
+   "Queensland 348/10 v Tasmania 133/10 & 233/10 *"
   ]
  },
  "agri_news": {
@@ -7494,9 +7504,9 @@
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 16,
-  "fail": 30,
-  "limit": 31
+  "ok": 19,
+  "fail": 36,
+  "limit": 37
  },
  "posted_heads": [
   {
@@ -7821,7 +7831,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 02:33",
+  "time": "2026-11-14 02:41",
   "steps": []
  },
  "roundup_am": "2026-11-13",
@@ -7924,12 +7934,12 @@
  },
  "article_diag": {
   "date": "2026-11-14",
-  "tried": 3,
-  "decoded": 3,
-  "text": 3,
-  "story": 2
+  "tried": 4,
+  "decoded": 4,
+  "text": 4,
+  "story": 3
  },
- "ai_last_error": "01:51 gemini-flash-lite-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "02:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -7971,7 +7981,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7979,7 +7989,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7987,7 +7997,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7995,7 +8005,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8003,7 +8013,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8011,14 +8021,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8027,9 +8037,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 17,
+   "fail": 18,
    "items": 15,
-   "fail_streak": 1393,
+   "fail_streak": 1394,
    "last_status": 404
   }
  },
@@ -8186,8 +8196,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8236,8 +8246,8 @@
   "date": "2026-11-14",
   "count": 0,
   "last": 1794599470.2121172,
-  "city_i": 12,
-  "dry": 1794603064.8285866
+  "city_i": 16,
+  "dry": 1794606069.0195084
  },
  "gemini_day_dead": {
   "day": "2026-11-13",
@@ -8906,13 +8916,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-13 22:36",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-13 22:40",
    "ok": true,
    "n": 0,
@@ -9180,6 +9183,13 @@
   },
   {
    "t": "11-14 02:33",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 02:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14051,11 +14061,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-12 00:02",
-   "new": "پاڪستان ۽ سری لنڪا پهريون ٽيسٽ ميچ",
-   "old": "پاڪستان ۽ سری لنڪا وچ ۾ پهريون ٽيسٽ ميچ"
-  },
-  {
    "t": "11-12 01:58",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽتائي",
    "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
@@ -14199,6 +14204,11 @@
    "t": "11-14 01:51",
    "new": "پاڪستان ۽ سری لنڪا جو پهريون ٽيسٽ ميچ برابري تي ختم",
    "old": "راولپنڊي ٽيسٽ: روشني گهٽ ٿيڻ سبب راند اڳواٽ ختم"
+  },
+  {
+   "t": "11-14 02:41",
+   "new": "بابراعظم جو پاڪستان ۽ سری لنڪا فرسٽ ٽيسٽ بعد بيان",
+   "old": "بابراعظم جو خراب ڪارڪردگيءَ جو سلسلو جاري"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14219,6 +14229,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 2
- }
+  "repeat": 3
+ },
+ "_dup": true
 }
