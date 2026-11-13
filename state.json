@@ -1,12 +1,5 @@
 {
  "seen": {
-  "fb29d32a5c14636c": 1793942470.5264907,
-  "6193ee118cdfdabe": 1793942470.5264928,
-  "218cbbd06f9d71c4": 1793942470.5264943,
-  "b546eb78a45741c3": 1793942470.526495,
-  "9359f5aef98880e8": 1793942470.5264955,
-  "881331476fe7f902": 1793942470.5264962,
-  "c546f4bd68c6ee0a": 1793942470.5264978,
   "60d5b86406b9c655": 1793943666.9569669,
   "3b47ae0ed1c7d052": 1793943666.9569697,
   "f151dd48ef3d7544": 1793943666.9569724,
@@ -1581,7 +1574,7 @@
  "sindh_single": {
   "date": "2026-11-13",
   "count": 0,
-  "last": 1794540095.2973928,
+  "last": 1794547893.6457481,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2201,12 +2194,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-13 10:26",
+  "time": "2026-11-13 10:36",
   "items": 18,
   "sample": [
-   "Pakistan 434/9 & 91/3 * v Sri Lanka 446/10",
-   "New South Wales 204/10 & 410/10 v South Australia 8 & 325/10 *",
-   "Victoria 402/5 v Western Australia 346/8 *"
+   "Pakistan 434/9 & 102/3 * v Sri Lanka 446/10",
+   "New South Wales 204/10 & 410/10 v South Australia 325/10 & 24/1 *",
+   "Victoria 402/5 v Western Australia 353/8 *"
   ]
  },
  "agri_news": {
@@ -7404,9 +7397,9 @@
  },
  "ai_usage": {
   "date": "2026-11-13",
-  "ok": 133,
-  "fail": 227,
-  "limit": 224
+  "ok": 134,
+  "fail": 229,
+  "limit": 226
  },
  "posted_heads": [
   {
@@ -7731,7 +7724,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-13 10:26",
+  "time": "2026-11-13 10:36",
   "steps": []
  },
  "roundup_am": "2026-11-13",
@@ -7839,7 +7832,7 @@
   "text": 15,
   "story": 13
  },
- "ai_last_error": "10:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-13",
   "models": [
@@ -7881,7 +7874,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-13",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7889,7 +7882,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-13",
-   "ok": 64,
+   "ok": 65,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7897,7 +7890,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-13",
-   "ok": 64,
+   "ok": 65,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7905,7 +7898,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7913,7 +7906,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7921,14 +7914,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7937,9 +7930,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-13",
    "ok": 0,
-   "fail": 65,
+   "fail": 66,
    "items": 15,
-   "fail_streak": 1294,
+   "fail_streak": 1295,
    "last_status": 404
   }
  },
@@ -8447,8 +8440,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 14,
-  "old": 14,
+  "found": 21,
+  "old": 21,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8496,8 +8489,8 @@
   "date": "2026-11-13",
   "count": 4,
   "last": 1794546664.5944488,
-  "city_i": 20,
-  "dry": 1794545484.507327
+  "city_i": 24,
+  "dry": 1794547871.2010226
  },
  "gemini_day_dead": {
   "day": "2026-11-12",
@@ -9169,20 +9162,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-13 07:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-13 07:16",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-13 07:20",
    "ok": true,
    "n": 0,
@@ -9443,6 +9422,20 @@
   },
   {
    "t": "11-13 10:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 10:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 10:36",
    "ok": true,
    "n": 0,
    "ids": [],
