@@ -1,7 +1,5 @@
 {
  "seen": {
-  "00e8020016c0e890": 1793956253.1206193,
-  "58fd5012fb1eafe6": 1793956267.6937866,
   "bb354afe39cb377b": 1793957475.8008196,
   "1561a635b41f37d9": 1793958061.1406453,
   "a5e3fd2a7f68c7aa": 1793958078.4761858,
@@ -1636,7 +1634,7 @@
    "3ab4a7b52ce113f3"
   ]
  },
- "last_post_id": "1444130002106066_122120587389503839",
+ "last_post_id": "1444130002106066_122120590029503839",
  "shareable": [
   {
    "id": "1444130002106066_122120199327503839",
@@ -2167,7 +2165,7 @@
    "wkts": {
     "Pakistan|1": 9,
     "Sri Lanka|1": 10,
-    "Pakistan|2": 5
+    "Pakistan|2": 9
    },
    "wicket_posts": 12,
    "break_done": true,
@@ -2190,20 +2188,23 @@
    "seen_live": true
   },
   "httpwwwcricinfocomcienginematch1557549htmlcmpotcrss": {
-   "post": null,
-   "wkts": {},
+   "post": "1444130002106066_122120590029503839",
+   "wkts": {
+    "Pakistan Women|1": 10
+   },
    "wicket_posts": 0,
    "break_done": false,
-   "last_edit": 0,
-   "batting": null,
-   "done": false
+   "last_edit": 1794561658.9498775,
+   "batting": "Pakistan Women",
+   "done": false,
+   "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-13 14:16",
+  "time": "2026-11-13 14:26",
   "items": 18,
   "sample": [
-   "Pakistan 434/9 & 186/5 * v Sri Lanka 446/10",
+   "Pakistan 197/5 & 434/9 * v Sri Lanka 446/10",
    "New South Wales 204/10 & 410/10 v South Australia 50/2 & 325/10 *",
    "Victoria 402/5 & 7 * v Western Australia 424/10"
   ]
@@ -2215,8 +2216,8 @@
  },
  "all_posts": {
   "date": "2026-11-13",
-  "count": 24,
-  "last": 1794561088.6318157
+  "count": 25,
+  "last": 1794561658.948109
  },
  "perf": {
   "posts": [
@@ -7738,7 +7739,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-13 14:16",
+  "time": "2026-11-13 14:26",
   "steps": []
  },
  "roundup_am": "2026-11-13",
@@ -7888,7 +7889,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-13",
-   "ok": 88,
+   "ok": 89,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7896,7 +7897,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-13",
-   "ok": 87,
+   "ok": 88,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7904,7 +7905,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-13",
-   "ok": 87,
+   "ok": 88,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7912,7 +7913,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 88,
+   "ok": 89,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7920,7 +7921,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 88,
+   "ok": 89,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7928,14 +7929,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-13",
-   "ok": 88,
+   "ok": 89,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-13",
-   "ok": 87,
+   "ok": 88,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7944,9 +7945,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-13",
    "ok": 0,
-   "fail": 88,
+   "fail": 89,
    "items": 15,
-   "fail_streak": 1317,
+   "fail_streak": 1318,
    "last_status": 404
   }
  },
@@ -8453,9 +8454,9 @@
   "pakistan": 12
  },
  "report_acc": {
-  "posted": 1,
-  "found": 5,
-  "old": 5,
+  "posted": 2,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9163,20 +9164,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-13 11:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-13 11:07",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-13 11:10",
    "ok": true,
    "n": 0,
@@ -9437,6 +9424,20 @@
   },
   {
    "t": "11-13 14:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 14:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-13 14:26",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13615,6 +13616,34 @@
     "ڪنال",
     "گرفتار",
     "گهر"
+   ]
+  },
+  {
+   "t": 1794561658,
+   "h": "LIVE | پاڪستان وومين بمقابلي Thailand Women",
+   "b": "پاڪستان وومين 7 🏏 Thailand Women تازو: 02:20 PM هي پوسٽ پاڻمرادو اپڊيٽ ٿيندي رهندي",
+   "tt": [
+    "live",
+    "thailand",
+    "women",
+    "بمقابلي",
+    "وومين",
+    "پاڪستان"
+   ],
+   "bt": [
+    "#2",
+    "#20",
+    "live",
+    "thailand",
+    "women",
+    "اپڊيٽ",
+    "بمقابلي",
+    "تازو",
+    "رهندي",
+    "وومين",
+    "پاڪستان",
+    "پاڻمرادو",
+    "پوسٽ"
    ]
   }
  ],
