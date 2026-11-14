@@ -1460,7 +1460,17 @@
   "042bc8756686d016": 1794677474.7384899,
   "d0a567573744d76d": 1794677474.7384913,
   "0a8911193905389e": 1794678665.7776992,
-  "391aaaba538366fc": 1794681080.041451
+  "391aaaba538366fc": 1794681080.041451,
+  "0a0781703153b3e4": 1794684211.2081568,
+  "171415613cd4e85d": 1794684211.20816,
+  "cc61131e1857cddb": 1794684211.208161,
+  "188a2afb81389873": 1794684211.2081616,
+  "1fe01b4dd127ab99": 1794684211.2081633,
+  "75f3ada83b7fa14e": 1794684211.2081635,
+  "452ac73c3984323d": 1794684211.2081645,
+  "9f2cfb73fa42480a": 1794684211.2081652,
+  "5557c97f9ba2a717": 1794684211.2081656,
+  "7a3d0ddc64db1055": 1794684211.2081678
  },
  "pending": {},
  "queue": [],
@@ -2177,7 +2187,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 00:10",
+  "time": "2026-11-15 00:23",
   "items": 16,
   "sample": [
    "Zimbabwe A 322/7 * v Ireland A 551/10",
@@ -7587,10 +7597,10 @@
   "ai_ok": true
  },
  "ai_usage": {
-  "date": "2026-11-14",
-  "ok": 330,
-  "fail": 526,
-  "limit": 521
+  "date": "2026-11-15",
+  "ok": 1,
+  "fail": 2,
+  "limit": 2
  },
  "posted_heads": [
   {
@@ -7915,7 +7925,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 00:10",
+  "time": "2026-11-15 00:23",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -8023,9 +8033,9 @@
   "text": 26,
   "story": 21
  },
- "ai_last_error": "23:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "00:23 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "models": [
    "gemini-flash-latest",
    "gemini-flash-lite-latest",
@@ -8065,7 +8075,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8074,22 +8084,22 @@
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
    "ok": 2,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
    "ok": 2,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8097,7 +8107,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8105,14 +8115,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 2,
+   "ok": 3,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8121,9 +8131,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 2,
+   "fail": 3,
    "items": 15,
-   "fail_streak": 1526,
+   "fail_streak": 1527,
    "last_status": 404
   }
  },
@@ -8312,8 +8322,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8362,8 +8372,8 @@
  "sindh_stream": {
   "date": "2026-11-15",
   "count": 0,
-  "last": 1794678663.5495102,
-  "city_i": 4,
+  "last": 1794684208.2471442,
+  "city_i": 8,
   "dry": 1794681074.9645035
  },
  "gemini_day_dead": {
@@ -8993,13 +9003,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 17:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 18:00",
    "ok": true,
    "n": 0,
@@ -9267,6 +9270,13 @@
   },
   {
    "t": "11-15 00:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 00:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13765,11 +13775,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-13 10:21",
-   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽاتائي",
-   "old": "صبح جون سنڌ جون اهم خبرون"
-  },
-  {
    "t": "11-13 11:41",
    "new": "گهرو وزير محسن نقوي جو نوابشاهه جو دورو، صدر آصف زرداري سان ملاقات",
    "old": "نوابشاهه ۾ زرداري ۽ محسن نقوي جي ملاقات، سياسي صورتحال تي غور"
@@ -13913,6 +13918,11 @@
    "t": "11-14 20:41",
    "new": "پاڪستان ۾ شگر جي مريضن جو انگ ساڍا 3 ڪروڙ کان ٽَپي ويو",
    "old": "پاڪستان ۾ شگر جي مريضن جو انگ ساڍا 3 ڪروڙ کان وڌي ويو"
+  },
+  {
+   "t": "11-15 00:23",
+   "new": "عالمي بئنڪ پاران سنڌ جي ٻهراڙين لاءِ 30 ڪروڙ ڊالر منظور",
+   "old": "عالمي بئنڪ جو سنڌ ۾ صفائي ۽ پاڻي جي منصوبن لاءِ فنڊز جي منظوري"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13933,6 +13943,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 0
- }
+  "repeat": 1
+ },
+ "_dup": true
 }
