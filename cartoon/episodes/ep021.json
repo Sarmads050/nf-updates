@@ -1,0 +1,532 @@
+{
+ "id": "ep021",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 21,
+ "title": "Dadi Ka Sweater!",
+ "topic": "First cold wave nights - Ammi takes out winter sweaters (naphthalene smell), Arsalan's last-year sweater is now too small because he grew, it goes to Mehak; Abba gives him Dadi's hand-knitted 30-year-old sweater, Arsalan is embarrassed, next morning in gali cricket he is the only one not shivering",
+ "music": "comic",
+ "tempo": 1.12,
+ "lesson": "Purani cheez bhi<br>bari kaam ki hoti hai!",
+ "caption": "Thand aa gayi, sweater chhote ho gaye! 🧶😂 Arsalan ko mila Dadi ka 30 saal purana sweater... sharam se garmi tak ka safar! Aap ke ghar ka sab se purana sweater kis ke paas hai? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#DadiKaSweater",
+  "#PakistaniFamily",
+  "#UrduCartoon",
+  "#SardiKaMaza"
+ ],
+ "scenes": [
+  {
+   "set": "aangan",
+   "time": "day",
+   "label": "Aangan • Subah",
+   "cast": {
+    "AMMI": "charpai_l",
+    "MEHAK": "charpai_c"
+   },
+   "props": {},
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Nawabshah mein raat ko achanak *thand* barh gayi... aur aaj Ammi ne saare *sweater* nikaal liye hain!",
+     "urdu": "نواب شاہ میں رات کو اچانک ٹھنڈ بڑھ گئی... اور آج امی نے سارے سویٹر نکال لیے ہیں!",
+     "how": "warm storyteller, light and playful",
+     "shot": "wide",
+     "gap": 0.1,
+     "react_pose": {
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "worried",
+     "roman": "Mehak, yeh sweater *dhoop* mein phaila do. In mein *goliyon ki boo* aa rahi hai!",
+     "urdu": "مہک، یہ سویٹر دھوپ میں پھیلا دو۔ ان میں گولیوں کی بو آ رہی ہے!",
+     "how": "50-year-old mother, wrinkling her nose, busy",
+     "pose": "explain",
+     "shot": "close",
+     "looks": {
+      "MEHAK": "AMMI"
+     },
+     "react_pose": {
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "teasing",
+     "roman": "Ammi, is *boo* se to *machhar* bhi ghar chhor kar bhaag jayenge!",
+     "urdu": "امی، اس بو سے تو مچھر بھی گھر چھوڑ کر بھاگ جائیں گے!",
+     "how": "14-year-old daughter, holding her nose, cheeky",
+     "pose": "wave",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.5,
+     "react": {
+      "AMMI": "laugh"
+     },
+     "react_pose": {
+      "AMMI": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "worried",
+     "roman": "Ammi! Mera *neela sweater* kahan hai? Bohot *thand* hai!",
+     "urdu": "امی! میرا نیلا سویٹر کہاں ہے؟ بہت ٹھنڈ ہے!",
+     "how": "17-year-old son, shivering, rubbing his arms",
+     "pose": "cross",
+     "shot": "close",
+     "before": [
+      {
+       "do": "enter",
+       "who": "ARSALAN",
+       "slot": "stand_l"
+      }
+     ],
+     "sfx": [
+      "door"
+     ],
+     "looks": {
+      "AMMI": "ARSALAN",
+      "MEHAK": "ARSALAN"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "calm",
+     "roman": "Woh raha, *charpai* par. Pichle saal hi to liya tha.",
+     "urdu": "وہ رہا، چارپائی پر۔ پچھلے سال ہی تو لیا تھا۔",
+     "how": "mother, pointing calmly",
+     "pose": "point_down",
+     "shot": "two:AMMI",
+     "react_pose": {
+      "ARSALAN": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "surprised",
+     "roman": "Ammi, yeh to bohot *chhota* ho gaya! Baazu *kohni* tak aa rahe hain!",
+     "urdu": "امی، یہ تو بہت چھوٹا ہو گیا! بازو کہنی تک آ رہے ہیں!",
+     "how": "son, shocked, stretching his arms out",
+     "pose": "arms_up",
+     "shot": "close",
+     "react": {
+      "AMMI": "surprised",
+      "MEHAK": "teasing"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "roman": "Ada, sweater chhota nahi hua... aap *ek saal* mein *lambe* ho gaye hain!",
+     "urdu": "اڈا، سویٹر چھوٹا نہیں ہوا... آپ ایک سال میں لمبے ہو گئے ہیں!",
+     "how": "sister, giggling, explaining like a teacher",
+     "pose": "point_up",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "AMMI": "laugh",
+      "ARSALAN": "sheepish"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "ARSALAN": "scratch_head"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "warm",
+     "roman": "Koi baat nahi. Yeh sweater ab *Mehak* pehnegi.",
+     "urdu": "کوئی بات نہیں۔ یہ سویٹر اب مہک پہنے گی۔",
+     "how": "mother, practical and smiling",
+     "pose": "explain",
+     "shot": "two:AMMI",
+     "react_pose": {
+      "ARSALAN": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "front",
+     "emo": "happy",
+     "roman": "Waah! Mera *naya sweater*... bilkul *muft* mein!",
+     "urdu": "واہ! میرا نیا سویٹر... بالکل مفت میں!",
+     "how": "happy girl, clapping",
+     "pose": "clap",
+     "shot": "close",
+     "gap": 0.4,
+     "react": {
+      "ARSALAN": "sad",
+      "AMMI": "laugh"
+     },
+     "react_pose": {
+      "ARSALAN": "rest",
+      "AMMI": "rest"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "evening",
+   "label": "Drawing Room • Shaam",
+   "cast": {
+    "ABBA": "sofa_c",
+    "MEHAK": "sofa_r"
+   },
+   "props": {
+    "ABBA": "newspaper"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Shaam ko Arsalan ke paas *koi sweater* nahi bacha... to Abba ne usay *awaaz* di!",
+     "urdu": "شام کو ارسلان کے پاس کوئی سویٹر نہیں بچا... تو ابا نے اسے آواز دی!",
+     "how": "storyteller, amused",
+     "shot": "wide",
+     "gap": 0.1,
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "warm",
+     "roman": "*Arsalan*, idhar aao. Mere paas ek sweater hai, bilkul *naye jaisa!*",
+     "urdu": "ارسلان، ادھر آؤ۔ میرے پاس ایک سویٹر ہے، بالکل نئے جیسا!",
+     "how": "57-year-old father, kind, a little proud",
+     "pose": "beckon",
+     "shot": "close",
+     "before": [
+      {
+       "do": "enter",
+       "who": "ARSALAN",
+       "slot": "stand_cl"
+      }
+     ],
+     "sfx": [
+      "door"
+     ],
+     "looks": {
+      "MEHAK": "ABBA",
+      "ARSALAN": "ABBA"
+     },
+     "react_pose": {
+      "MEHAK": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "proud",
+     "roman": "Yeh lo! Yeh tumhari *Dadi* ne humare zamane mein *khud buna* tha!",
+     "urdu": "یہ لو! یہ تمہاری دادی نے ہمارے زمانے میں خود بُنا تھا!",
+     "how": "father, proud and nostalgic, handing it over",
+     "pose": "hold",
+     "shot": "two:ABBA",
+     "before": [
+      {
+       "do": "prop",
+       "who": "ABBA",
+       "prop": "bag"
+      }
+     ],
+     "give": {
+      "to": "ARSALAN",
+      "prop": "bag",
+      "at": 0.5
+     },
+     "looks": {
+      "MEHAK": "ABBA",
+      "ARSALAN": "ABBA"
+     },
+     "react_pose": {
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "confused",
+     "roman": "Abba... yeh to bohot *purana design* hai!",
+     "urdu": "ابا... یہ تو بہت پرانا ڈیزائن ہے!",
+     "how": "teen son, polite but disappointed",
+     "pose": "hold",
+     "shot": "close",
+     "react": {
+      "ABBA": "surprised"
+     },
+     "react_pose": {
+      "MEHAK": "rest",
+      "ABBA": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "proud",
+     "roman": "*Tees saal* purana hai, lekin is ki *garmi* aaj bhi poori hai!",
+     "urdu": "تیس سال پرانا ہے، لیکن اس کی گرمی آج بھی پوری ہے!",
+     "how": "father, chest out, very sure",
+     "pose": "chest",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.5,
+     "react": {
+      "MEHAK": "laugh",
+      "ARSALAN": "sheepish"
+     },
+     "react_pose": {
+      "MEHAK": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "worried",
+     "roman": "Lekin Abba, mere *dost* dekhenge to *hansenge!*",
+     "urdu": "لیکن ابا، میرے دوست دیکھیں گے تو ہنسیں گے!",
+     "how": "teen, whining softly",
+     "pose": "plead",
+     "shot": "close",
+     "react_pose": {
+      "MEHAK": "rest",
+      "ABBA": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "roman": "Beta, *thand* mein dost nahi, *sweater* kaam aata hai!",
+     "urdu": "بیٹا، ٹھنڈ میں دوست نہیں، سویٹر کام آتا ہے!",
+     "how": "mother, entering with tea, firm and smiling",
+     "pose": "wag",
+     "shot": "two:AMMI",
+     "before": [
+      {
+       "do": "enter",
+       "who": "AMMI",
+       "slot": "stand_r"
+      },
+      {
+       "do": "prop",
+       "who": "AMMI",
+       "prop": "tray"
+      }
+     ],
+     "sfx": [
+      "clink"
+     ],
+     "looks": {
+      "ABBA": "AMMI",
+      "MEHAK": "AMMI",
+      "ARSALAN": "AMMI"
+     },
+     "react": {
+      "ABBA": "happy"
+     },
+     "react_pose": {
+      "MEHAK": "rest",
+      "ABBA": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "roman": "Ada, pehen lo! *Fashion* wapas aata hai... bas *tees saal* baad!",
+     "urdu": "اڈا، پہن لو! فیشن واپس آتا ہے... بس تیس سال بعد!",
+     "how": "sister, cheeky punchline",
+     "pose": "point_other",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "*": "laugh"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "AMMI": "rest",
+      "ARSALAN": "rest"
+     }
+    }
+   ]
+  },
+  {
+   "set": "gali",
+   "time": "day",
+   "label": "Gali • Agli Subah",
+   "cast": {
+    "DANIYAL": "cl",
+    "ARSALAN": "cr"
+   },
+   "props": {
+    "ARSALAN": "bat"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Agli subah *gali cricket* mein sab thand se *kaanp* rahe thay... siwaye *Arsalan* ke!",
+     "urdu": "اگلی صبح گلی کرکٹ میں سب ٹھنڈ سے کانپ رہے تھے... سوائے ارسلان کے!",
+     "how": "storyteller, amused",
+     "shot": "wide",
+     "gap": 0.1,
+     "sfx": [
+      "bat_hit"
+     ],
+     "react_pose": {
+      "DANIYAL": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ARSALAN",
+     "emo": "surprised",
+     "roman": "Arsalan! Itni *thand* mein tum *aaram* se khel rahe ho? *Raaz* kya hai?",
+     "urdu": "ارسلان! اتنی ٹھنڈ میں تم آرام سے کھیل رہے ہو؟ راز کیا ہے؟",
+     "how": "20-year-old brother, shivering, arms crossed",
+     "pose": "cross",
+     "shot": "close",
+     "looks": {
+      "ARSALAN": "DANIYAL"
+     },
+     "react_pose": {
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "DANIYAL",
+     "emo": "proud",
+     "roman": "Ada, yeh *Dadi ka sweater* hai. Is mein *tees saal ki garmi* hai!",
+     "urdu": "اڈا، یہ دادی کا سویٹر ہے۔ اس میں تیس سال کی گرمی ہے!",
+     "how": "teen, proud now, quoting his father",
+     "pose": "explain",
+     "shot": "close",
+     "react": {
+      "DANIYAL": "surprised"
+     },
+     "react_pose": {
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ARSALAN",
+     "emo": "proud",
+     "roman": "*Objection!* Itni qeemti cheez sirf ek bhai ke paas? Main bhi *haqdaar* hoon!",
+     "urdu": "آبجیکشن! اتنی قیمتی چیز صرف ایک بھائی کے پاس؟ میں بھی حقدار ہوں!",
+     "how": "law student, dramatic courtroom style",
+     "pose": "objection",
+     "shot": "close",
+     "react": {
+      "ARSALAN": "teasing"
+     },
+     "react_pose": {
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "DANIYAL",
+     "emo": "teasing",
+     "roman": "Ada Daniyal, *kal* tak Ada Arsalan isi sweater se *sharmate* thay!",
+     "urdu": "اڈا دانیال، کل تک اڈا ارسلان اسی سویٹر سے شرماتے تھے!",
+     "how": "sister, arriving, giggling",
+     "pose": "point_other",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.5,
+     "before": [
+      {
+       "do": "enter",
+       "who": "MEHAK",
+       "slot": "right"
+      }
+     ],
+     "looks": {
+      "DANIYAL": "MEHAK",
+      "ARSALAN": "MEHAK"
+     },
+     "react": {
+      "DANIYAL": "laugh",
+      "ARSALAN": "sheepish"
+     },
+     "react_pose": {
+      "DANIYAL": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "MEHAK",
+     "emo": "laugh",
+     "roman": "Woh kal tha... *aaj* yeh mera *favourite* hai!",
+     "urdu": "وہ کل تھا... آج یہ میرا فیورٹ ہے!",
+     "how": "teen, laughing, owning it",
+     "pose": "chest",
+     "shot": "group",
+     "gap": 0.4,
+     "react": {
+      "*": "laugh"
+     },
+     "react_pose": {
+      "DANIYAL": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "front",
+     "emo": "warm",
+     "roman": "*Purani cheezon* mein bhi bari *garmi* hoti hai... bas pehen kar to dekho!",
+     "urdu": "پرانی چیزوں میں بھی بڑی گرمی ہوتی ہے... بس پہن کر تو دیکھو!",
+     "how": "warm, smiling to the audience",
+     "pose": "explain",
+     "shot": "group",
+     "react": {
+      "*": "happy"
+     },
+     "react_pose": {
+      "DANIYAL": "rest",
+      "ARSALAN": "rest"
+     }
+    }
+   ]
+  }
+ ]
+}
