@@ -1468,7 +1468,10 @@
   "d86b8ca91e8fd4c2": 1794636721.27723,
   "372a0c1984ef41c0": 1794636721.2772324,
   "b2f85b5b2957ae9a": 1794637867.9135432,
-  "f4ce717398db4477": 1794638499.8713534
+  "f4ce717398db4477": 1794638499.8713534,
+  "6a62c6f30028e361": 1794639136.03745,
+  "1bd9c949c1b3df75": 1794639136.0374532,
+  "aa0231d4295c683f": 1794639148.1529672
  },
  "pending": {},
  "queue": [],
@@ -2180,7 +2183,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 11:41",
+  "time": "2026-11-14 11:52",
   "items": 1,
   "sample": [
    "No Match in progress.."
@@ -7541,9 +7544,9 @@
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 132,
-  "fail": 238,
-  "limit": 239
+  "ok": 134,
+  "fail": 242,
+  "limit": 243
  },
  "posted_heads": [
   {
@@ -7868,7 +7871,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 11:41",
+  "time": "2026-11-14 11:52",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -7976,7 +7979,7 @@
   "text": 17,
   "story": 14
  },
- "ai_last_error": "11:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "11:52 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -8018,7 +8021,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8026,7 +8029,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 72,
+   "ok": 73,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8034,7 +8037,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 72,
+   "ok": 73,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8043,14 +8046,14 @@
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
    "ok": 73,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 0
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8058,14 +8061,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8074,9 +8077,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 73,
+   "fail": 74,
    "items": 15,
-   "fail_streak": 1449,
+   "fail_streak": 1450,
    "last_status": 404
   }
  },
@@ -8233,8 +8236,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 4,
-  "old": 4,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8282,8 +8285,8 @@
  "sindh_stream": {
   "date": "2026-11-14",
   "count": 2,
-  "last": 1794637866.953587,
-  "city_i": 6,
+  "last": 1794639134.1260114,
+  "city_i": 10,
   "dry": 1794637867.9135458
  },
  "gemini_day_dead": {
@@ -8893,13 +8896,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 05:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 05:30",
    "ok": true,
    "n": 0,
@@ -9167,6 +9163,13 @@
   },
   {
    "t": "11-14 11:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 11:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13589,11 +13592,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-12 13:14",
-   "new": "سنڌ ۽ ڪراچي ۾ ھلڪي برسات جي اڳڪٿي",
-   "old": "ڪراچي ۾ جمعي تي هلڪي برسات جو امڪان"
-  },
-  {
    "t": "11-13 02:51",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات",
    "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
@@ -13737,6 +13735,11 @@
    "t": "11-14 09:51",
    "new": "پيٽروليم شين جون قيمتون گهٽ",
    "old": "عوام کي رليف ڏيڻ لاءِ پيٽرول ليوي ۾ گهٽتائي"
+  },
+  {
+   "t": "11-14 11:52",
+   "new": "ڪراچي ۾ يونيورسٽي روڊ حسن اسڪوائر کان نيپا تائين بند",
+   "old": "ڪراچي: يونيورسٽي روڊ حسن اسڪوائر کان نيپا تائين بند"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13757,6 +13760,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
-  "repeat": 11
- }
+  "repeat": 12
+ },
+ "_dup": true
 }
