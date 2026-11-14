@@ -1504,7 +1504,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-12",
-  "count": 7
+  "count": 8
  },
  "last_digest": "2026-11-13",
  "alert_day": "2026-10-20",
@@ -1625,7 +1625,7 @@
    "3ab4a7b52ce113f3"
   ]
  },
- "last_post_id": "1444130002106066_122120805567503839",
+ "last_post_id": "1444130002106066_122120810745503839",
  "shareable": [
   {
    "id": "1444130002106066_122120532111503839",
@@ -2205,7 +2205,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 07:51",
+  "time": "2026-11-14 08:01",
   "items": 33,
   "sample": [
    "New South Wales 204/10 & 410/10 v South Australia 325/10 & 50/2 *",
@@ -2220,8 +2220,8 @@
  },
  "all_posts": {
   "date": "2026-11-14",
-  "count": 6,
-  "last": 1794623494.6535223
+  "count": 7,
+  "last": 1794625292.5353072
  },
  "perf": {
   "posts": [
@@ -7504,9 +7504,9 @@
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 81,
-  "fail": 146,
-  "limit": 147
+  "ok": 83,
+  "fail": 150,
+  "limit": 151
  },
  "posted_heads": [
   {
@@ -7831,10 +7831,10 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 07:51",
+  "time": "2026-11-14 08:01",
   "steps": []
  },
- "roundup_am": "2026-11-13",
+ "roundup_am": "2026-11-14",
  "group_shares": {
   "1": {
    "date": "2026-11-13",
@@ -7939,7 +7939,7 @@
   "text": 13,
   "story": 10
  },
- "ai_last_error": "07:50 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -7981,7 +7981,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7989,7 +7989,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 49,
+   "ok": 50,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7997,7 +7997,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 49,
+   "ok": 50,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8005,7 +8005,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8013,7 +8013,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8021,14 +8021,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8037,9 +8037,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 50,
+   "fail": 51,
    "items": 15,
-   "fail_streak": 1426,
+   "fail_streak": 1427,
    "last_status": 404
   }
  },
@@ -8191,18 +8191,18 @@
  "region_posts": {
   "date": "2026-11-14",
   "district": 0,
-  "sindh": 0,
+  "sindh": 1,
   "pakistan": 4
  },
  "report_acc": {
-  "posted": 1,
-  "found": 5,
-  "old": 5,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-14 07",
+ "report_hour": "2026-11-14 08",
  "kawish_upload_times": {
   "_date": "2026-11-14",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8866,7 +8866,9 @@
  ],
  "reels": {
   "date": "2026-11-14",
-  "done": []
+  "done": [
+   "08:00"
+  ]
  },
  "kawish_queue": [],
  "kawish_post": {
@@ -8875,13 +8877,6 @@
   "last": 1794566646.5710437
  },
  "tg_debug": [
-  {
-   "t": "11-14 01:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-14 01:50",
    "ok": true,
@@ -9154,54 +9149,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-14 08:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-14",
  "recent_posts": [
-  {
-   "t": 1794451344,
-   "h": "آن لائن دوائن جي تصديق لاءِ محفوظ دوا ايپ جاري",
-   "b": "ڊرگ ريگيوليٽري اٿارٽي آف پاڪستان يعني ڊراپ جعلي دوائن جي روڪٿام لاءِ دوائن جي تصديق جو هڪ ڊجيٽل سسٽم شروع ڪري",
-   "tt": [
-    "ايپ",
-    "تصديق",
-    "جاري",
-    "دوا",
-    "دوائن",
-    "لائن",
-    "محفوظ"
-   ],
-   "bt": [
-    "اباد",
-    "اسلام",
-    "اندي",
-    "اهي",
-    "اهي،",
-    "ايپ",
-    "ايپليڪيشن",
-    "اٿارٽي",
-    "تحت",
-    "تصديق",
-    "جاري",
-    "جعلي",
-    "دوا",
-    "دوائن",
-    "روڪٿام",
-    "ريگيوليٽري",
-    "سسٽم",
-    "شروع",
-    "لائن",
-    "محفوظ",
-    "موبائيل",
-    "نالي",
-    "يعني",
-    "پاڪستان",
-    "ڇڏيو",
-    "ڊجيٽل",
-    "ڊراپ",
-    "ڊرگ"
-   ]
-  },
   {
    "t": 1794452532,
    "h": "صبح جون سنڌ جون اهم خبرون",
@@ -13904,6 +13862,57 @@
     "گهٽتائي",
     "گهٽتائي،",
     "گهٽجي"
+   ]
+  },
+  {
+   "t": 1794625292,
+   "h": "صبح جون سنڌ جون اهم خبرون",
+   "b": "14 نومبر 2026 1️⃣ پاڪستان آءِ ايم ايف جون اڪثر شرطون پوريون ڪري ورتيون پهرين سهماسي دوران پاڪستان بين",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "صبح"
+   ],
+   "bt": [
+    "#14",
+    "اهم",
+    "اهن،",
+    "اهي",
+    "ايف",
+    "ايم",
+    "اڪثر",
+    "بين",
+    "حاصل",
+    "خبرون",
+    "دوران",
+    "رهيا",
+    "سرپلس",
+    "سنڌ",
+    "سهماسي",
+    "شرائط",
+    "شرطون",
+    "صبح",
+    "صوبن",
+    "فنڊ",
+    "مالي",
+    "مان",
+    "ناميارين",
+    "ناڪام",
+    "نقد",
+    "نومبر",
+    "هدف",
+    "ورتو",
+    "ورتيون",
+    "وصولين",
+    "ٽيڪس",
+    "پاڪستان",
+    "پهرين",
+    "پورو",
+    "پوريون",
+    "پيدا",
+    "چار",
+    "ڪرڻ"
    ]
   }
  ],
