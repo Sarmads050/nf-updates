@@ -1,6 +1,5 @@
 {
  "seen": {
-  "6f95a98cd0f5f469": 1794063674.695698,
   "aa7dab69e91a5f0a": 1794064871.046089,
   "6b1b09834e237782": 1794066064.5740757,
   "4e4d6a9aea7d4e6e": 1794072669.2588675,
@@ -2152,7 +2151,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 20:03",
+  "time": "2026-11-14 20:04",
   "items": 1,
   "sample": [
    "No Match in progress.."
@@ -7888,7 +7887,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 20:03",
+  "time": "2026-11-14 20:04",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -8038,7 +8037,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 123,
+   "ok": 124,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8046,23 +8045,23 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 121,
+   "ok": 122,
    "fail": 3,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 121,
+   "ok": 122,
    "fail": 3,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 0
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 120,
+   "ok": 121,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8070,7 +8069,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8078,14 +8077,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 123,
+   "ok": 124,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8094,9 +8093,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 124,
+   "fail": 125,
    "items": 15,
-   "fail_streak": 1500,
+   "fail_streak": 1501,
    "last_status": 404
   }
  },
@@ -8911,13 +8910,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 13:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 13:40",
    "ok": true,
    "n": 0,
@@ -9185,6 +9177,13 @@
   },
   {
    "t": "11-14 20:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 20:04",
    "ok": true,
    "n": 0,
    "ids": [],
