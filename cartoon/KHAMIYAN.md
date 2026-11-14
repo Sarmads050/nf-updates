@@ -51,6 +51,11 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-051] (ep020, 2026-11-13) Kitchen mein Ammi ke haath mein "ladle" hai lekin "hold" pose mein chamcha nazar hi nahi aata, aur woh halwa chalati hui nahi lagti (line 9-10) — naya "stir" pose: chamcha degchi mein, haath gol gol ghoomta hua.
 - [K-052] (ep020, 2026-11-13) Kitchen mein "approach" (Arsalan -> stove par Ammi) se Arsalan frame se bahar left chala gaya aur `two:AMMI` shot mein nazar hi nahi aaya; slots badal kar theek kiya — approach mein hamesha frame ke andar wali khali side chun-na.
 
+- [K-053] (ep021, 2026-11-14) Poori kahani sweater ki hai lekin koi sweater prop nahi — Abba jo "Dadi ka sweater" deta hai woh chhota jamni "bag" dabba lagta hai, aur gali mein Arsalan ka kurta wahi hara hai (sweater pehna hua nazar nahi aata) — naya "sweater" prop (tah kiya oon ka sweater, bunai ki lakeerein) aur character par "sweater" outfit layer (kameez ke upar bunai wala sweater).
+- [K-054] (ep021, 2026-11-14) "Baazu kohni tak aa rahe hain" (line 6) aur "chhota ho gaya" sirf baaton mein hai — chhota sweater pehne Arsalan ka koi visual nahi — "tight/chhota" outfit variant (chhoti aasteenein, upar chadha hua sweater).
+- [K-055] (ep021, 2026-11-14) Narrator kehta hai gali mein "sab thand se kaanp rahe thay" lekin Daniyal bilkul aaraam se khara hai — naya "shiver" emo (kaanpta jism, haath baghal mein, munh se bhaap ka chhota puff).
+- [K-056] (ep021, 2026-11-14) Aakhri group shot mein gali ke "right" slot par Mehak frame ke right kinare se lagi hui hai aur "explain" wala haath bahar kat jata hai — gali ke slots (cl/cr/right) ko thora center ki taraf karna.
+
 ## APPROVED
 
 ## DONE
