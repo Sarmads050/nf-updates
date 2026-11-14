@@ -1476,7 +1476,8 @@
   "dbf9e15e5e677789": 1794618668.800276,
   "162f6926dc379399": 1794619270.8931637,
   "42f815600c681232": 1794619280.261453,
-  "6e12b0ceda3d4c5c": 1794619280.2616692
+  "6e12b0ceda3d4c5c": 1794619280.2616692,
+  "70449d82d2949cd9": 1794619902.5403419
  },
  "pending": {
   "culture2026-11-13": {
@@ -2216,7 +2217,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 06:21",
+  "time": "2026-11-14 06:32",
   "items": 33,
   "sample": [
    "New South Wales 204/10 & 410/10 v South Australia 325/10 & 50/2 *",
@@ -7483,9 +7484,9 @@
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 65,
-  "fail": 118,
-  "limit": 119
+  "ok": 69,
+  "fail": 126,
+  "limit": 127
  },
  "posted_heads": [
   {
@@ -7810,7 +7811,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 06:21",
+  "time": "2026-11-14 06:32",
   "steps": []
  },
  "roundup_am": "2026-11-13",
@@ -7913,12 +7914,12 @@
  },
  "article_diag": {
   "date": "2026-11-14",
-  "tried": 12,
-  "decoded": 12,
-  "text": 11,
-  "story": 8
+  "tried": 13,
+  "decoded": 13,
+  "text": 12,
+  "story": 9
  },
- "ai_last_error": "06:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -7960,7 +7961,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7968,7 +7969,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 39,
+   "ok": 40,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7976,7 +7977,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 39,
+   "ok": 40,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7984,7 +7985,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7992,7 +7993,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8000,14 +8001,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8016,9 +8017,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 40,
+   "fail": 41,
    "items": 15,
-   "fail_streak": 1416,
+   "fail_streak": 1417,
    "last_status": 404
   }
  },
@@ -8175,8 +8176,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8225,8 +8226,8 @@
   "date": "2026-11-14",
   "count": 0,
   "last": 1794599470.2121172,
-  "city_i": 14,
-  "dry": 1794619267.1265512
+  "city_i": 18,
+  "dry": 1794619880.4325953
  },
  "gemini_day_dead": {
   "day": "2026-11-13",
@@ -8871,13 +8872,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 00:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 00:36",
    "ok": true,
    "n": 0,
@@ -9145,6 +9139,13 @@
   },
   {
    "t": "11-14 06:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 06:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13942,11 +13943,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-12 06:01",
-   "new": "سنڌ حڪومت پاران ڪڻڪ جي هارين لاءِ امداد منظور",
-   "old": "نوشهروفيروز جو اڄ | 11-11-2026"
-  },
-  {
    "t": "11-12 07:21",
    "new": "ڪراچي ۾ موسم خوشگوار، برسات جو امڪان",
    "old": "ڪراچي ۾ جمعي تي هلڪي برسات جو امڪان"
@@ -14090,6 +14086,11 @@
    "t": "11-14 06:21",
    "new": "پاڪستان ۽ سری لنڪا وچ ۾ ٽيسٽ ميچ ڊرا",
    "old": "پاڪستان ۽ سری لنڪا وچ ۾ ٽيسٽ ميچ ڊرا ٿي وئي"
+  },
+  {
+   "t": "11-14 06:31",
+   "new": "پنجاب ۾ ڪڻڪ جي پوکيءَ جو هدف حاصل",
+   "old": "پنجاب ۾ ڪڻڪ جي پوک جو هدف"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14110,7 +14111,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 8
+  "repeat": 9
  },
  "_dup": true
 }
