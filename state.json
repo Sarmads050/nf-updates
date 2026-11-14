@@ -1464,7 +1464,8 @@
   "afa8d8fdfc6d104d": 1794622876.4066803,
   "fd0bf7385e5cfcf6": 1794623473.586074,
   "557f0629eb2f0591": 1794623473.5860765,
-  "11da14e26b5761b0": 1794623473.5862513
+  "11da14e26b5761b0": 1794623473.5862513,
+  "8b74347365f38256": 1794624660.2375448
  },
  "pending": {
   "culture2026-11-13": {
@@ -2204,7 +2205,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 07:40",
+  "time": "2026-11-14 07:51",
   "items": 33,
   "sample": [
    "New South Wales 204/10 & 410/10 v South Australia 325/10 & 50/2 *",
@@ -7503,9 +7504,9 @@
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 80,
-  "fail": 144,
-  "limit": 145
+  "ok": 81,
+  "fail": 146,
+  "limit": 147
  },
  "posted_heads": [
   {
@@ -7830,7 +7831,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 07:40",
+  "time": "2026-11-14 07:51",
   "steps": []
  },
  "roundup_am": "2026-11-13",
@@ -7938,7 +7939,7 @@
   "text": 13,
   "story": 10
  },
- "ai_last_error": "07:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "07:50 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -7980,7 +7981,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7988,7 +7989,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 48,
+   "ok": 49,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7996,7 +7997,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 48,
+   "ok": 49,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8004,7 +8005,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8012,7 +8013,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8020,14 +8021,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8036,9 +8037,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 49,
+   "fail": 50,
    "items": 15,
-   "fail_streak": 1425,
+   "fail_streak": 1426,
    "last_status": 404
   }
  },
@@ -8195,8 +8196,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 4,
-  "old": 4,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8245,8 +8246,8 @@
   "date": "2026-11-14",
   "count": 0,
   "last": 1794599470.2121172,
-  "city_i": 16,
-  "dry": 1794623468.9199312
+  "city_i": 20,
+  "dry": 1794624657.0933611
  },
  "gemini_day_dead": {
   "day": "2026-11-13",
@@ -8875,13 +8876,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 01:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 01:40",
    "ok": true,
    "n": 0,
@@ -9149,6 +9143,13 @@
   },
   {
    "t": "11-14 07:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 07:50",
    "ok": true,
    "n": 0,
    "ids": [],
