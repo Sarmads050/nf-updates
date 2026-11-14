@@ -1462,7 +1462,18 @@
   "98a1bdef8df5bd37": 1794628268.6953218,
   "b34a55619df2bbc0": 1794629473.881021,
   "af3bb567b90af85a": 1794630675.4227052,
-  "48767b20646ad9af": 1794631278.674067
+  "48767b20646ad9af": 1794631278.674067,
+  "72673c8e078e2664": 1794631861.950875,
+  "5374736e7643e659": 1794631861.9508781,
+  "bf6ea7d21a019f6b": 1794631861.9508803,
+  "c80b3505a7a21813": 1794631872.9251654,
+  "718bac351d6de052": 1794631872.9251697,
+  "5470c26fac51efe1": 1794631872.9251707,
+  "1cbccb478b71cc52": 1794631872.9251716,
+  "432c05b462cec219": 1794631872.9251726,
+  "e1da1c4dc5b81e7b": 1794631872.925173,
+  "6f2864473b74727d": 1794631872.9251735,
+  "4ffe7cc319392a4d": 1794631872.9254112
  },
  "pending": {},
  "queue": [],
@@ -2174,7 +2185,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 09:41",
+  "time": "2026-11-14 09:51",
   "items": 33,
   "sample": [
    "New South Wales 204/10 & 410/10 v South Australia 325/10 & 50/2 *",
@@ -7473,9 +7484,9 @@
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 106,
-  "fail": 192,
-  "limit": 193
+  "ok": 112,
+  "fail": 204,
+  "limit": 205
  },
  "posted_heads": [
   {
@@ -7800,7 +7811,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 09:41",
+  "time": "2026-11-14 09:51",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -7903,12 +7914,12 @@
  },
  "article_diag": {
   "date": "2026-11-14",
-  "tried": 16,
-  "decoded": 16,
-  "text": 15,
-  "story": 12
+  "tried": 18,
+  "decoded": 18,
+  "text": 16,
+  "story": 13
  },
- "ai_last_error": "09:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "09:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -7950,7 +7961,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7958,7 +7969,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 60,
+   "ok": 61,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7966,7 +7977,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 60,
+   "ok": 61,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7974,7 +7985,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7982,7 +7993,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7990,14 +8001,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 61,
+   "ok": 62,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8006,9 +8017,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 61,
+   "fail": 62,
    "items": 15,
-   "fail_streak": 1437,
+   "fail_streak": 1438,
    "last_status": 404
   }
  },
@@ -8165,8 +8176,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 4,
-  "old": 4,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8214,8 +8225,8 @@
  "sindh_stream": {
   "date": "2026-11-14",
   "count": 1,
-  "last": 1794630673.1871352,
-  "city_i": 4,
+  "last": 1794631859.9355526,
+  "city_i": 8,
   "dry": 1794630063.0646238
  },
  "gemini_day_dead": {
@@ -8840,13 +8851,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 03:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 03:30",
    "ok": true,
    "n": 0,
@@ -9114,6 +9118,13 @@
   },
   {
    "t": "11-14 09:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 09:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13742,11 +13753,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-12 10:01",
-   "new": "قومي ڪريٽر فاطمه ثنا جو عورتن جي ڪريٽ تي زور",
-   "old": "پاڪستان ۾ برابرين جو مطالبو"
-  },
-  {
    "t": "11-12 13:14",
    "new": "سنڌ ۽ ڪراچي ۾ ھلڪي برسات جي اڳڪٿي",
    "old": "ڪراچي ۾ جمعي تي هلڪي برسات جو امڪان"
@@ -13890,6 +13896,11 @@
    "t": "11-14 08:21",
    "new": "پنجاب ۾ ڪڻڪ جي پوک جو رقبو وڌي ويو",
    "old": "پنجاب ۾ ڪڻڪ جي پوک جو هدف"
+  },
+  {
+   "t": "11-14 09:51",
+   "new": "پيٽروليم شين جون قيمتون گهٽ",
+   "old": "عوام کي رليف ڏيڻ لاءِ پيٽرول ليوي ۾ گهٽتائي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13906,10 +13917,11 @@
  "quality": {
   "date": "2026-11-14",
   "editor_fixed": 6,
-  "editor_rejected": 2,
+  "editor_rejected": 3,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
-  "repeat": 10
- }
+  "repeat": 11
+ },
+ "_dup": true
 }
