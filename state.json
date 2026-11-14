@@ -2171,7 +2171,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 22:11",
+  "time": "2026-11-14 22:20",
   "items": 34,
   "sample": [
    "Zimbabwe A 322/7 * v Ireland A 551/10",
@@ -7909,7 +7909,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 22:11",
+  "time": "2026-11-14 22:20",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -8059,7 +8059,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 137,
+   "ok": 138,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8067,7 +8067,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 135,
+   "ok": 136,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8075,7 +8075,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 135,
+   "ok": 136,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8083,7 +8083,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 134,
+   "ok": 135,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8091,7 +8091,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 138,
+   "ok": 139,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8099,14 +8099,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 138,
+   "ok": 139,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 137,
+   "ok": 138,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8115,9 +8115,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 138,
+   "fail": 139,
    "items": 15,
-   "fail_streak": 1514,
+   "fail_streak": 1515,
    "last_status": 404
   }
  },
@@ -8306,8 +8306,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 3,
-  "old": 3,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8973,13 +8973,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 15:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 16:00",
    "ok": true,
    "n": 0,
@@ -9247,6 +9240,13 @@
   },
   {
    "t": "11-14 22:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 22:20",
    "ok": true,
    "n": 0,
    "ids": [],
