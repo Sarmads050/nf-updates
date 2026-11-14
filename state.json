@@ -1452,7 +1452,9 @@
   "4529e6e226a6d812": 1794695487.7839494,
   "95eb76c9cdafbe3e": 1794695487.7839506,
   "4531b3947c570d8c": 1794695487.7839515,
-  "9586169fbd6143c5": 1794695487.7841415
+  "9586169fbd6143c5": 1794695487.7841415,
+  "7ca672739c8034f9": 1794700266.0233812,
+  "69c3ffc072318f26": 1794700266.0235586
  },
  "pending": {},
  "queue": [],
@@ -2177,7 +2179,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 04:42",
+  "time": "2026-11-15 04:51",
   "items": 20,
   "sample": [
    "Zimbabwe A 322/7 * v Ireland A 551/10",
@@ -7580,9 +7582,9 @@
  },
  "ai_usage": {
   "date": "2026-11-15",
-  "ok": 33,
-  "fail": 53,
-  "limit": 52
+  "ok": 35,
+  "fail": 57,
+  "limit": 56
  },
  "posted_heads": [
   {
@@ -7907,7 +7909,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 04:42",
+  "time": "2026-11-15 04:51",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -8010,12 +8012,12 @@
  },
  "article_diag": {
   "date": "2026-11-15",
-  "tried": 4,
-  "decoded": 4,
+  "tried": 5,
+  "decoded": 5,
   "text": 4,
   "story": 4
  },
- "ai_last_error": "03:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "04:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-15",
   "models": [
@@ -8057,7 +8059,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
-   "ok": 29,
+   "ok": 30,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8065,7 +8067,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 30,
+   "ok": 31,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8073,7 +8075,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 30,
+   "ok": 31,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8081,7 +8083,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8089,7 +8091,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8097,14 +8099,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8113,9 +8115,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 31,
+   "fail": 32,
    "items": 15,
-   "fail_streak": 1555,
+   "fail_streak": 1556,
    "last_status": 404
   }
  },
@@ -8304,8 +8306,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 16,
-  "old": 16,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8355,8 +8357,8 @@
   "date": "2026-11-15",
   "count": 0,
   "last": 1794684208.2471442,
-  "city_i": 22,
-  "dry": 1794699721.337296
+  "city_i": 4,
+  "dry": 1794700262.227364
  },
  "gemini_day_dead": {
   "day": "2026-11-14",
@@ -8977,13 +8979,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 22:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 22:40",
    "ok": true,
    "n": 0,
@@ -9251,6 +9246,13 @@
   },
   {
    "t": "11-15 04:41",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 04:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13692,11 +13694,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-13 16:22",
-   "new": "بابر اعظم سينچري ڪرڻ ۾ ٻيهر ناڪام",
-   "old": "راولپنڊي ٽيسٽ: روشني گهٽ ٿيڻ سبب راند اڳواٽ ختم"
-  },
-  {
    "t": "11-13 16:31",
    "new": "ڪراچي ۾ جمععي ڏينهن تي مينهن جو امڪان",
    "old": "سنڌ ۾ خشڪ موسم ۽ ڪراچي ۾ برسات جو امڪان"
@@ -13840,6 +13837,11 @@
    "t": "11-15 02:31",
    "new": "آءِ ايم ايف پاران پيٽرول جو سبسڊي ختم ڪرڻ جو مطالبو",
    "old": "حڪومت پاران آءِ ايم ايف جون شرطون پوريون"
+  },
+  {
+   "t": "11-15 04:51",
+   "new": "پاڪستان ۾ مهانگائي جو طوفان، روزمره جي شين جا اگھه وڌي ويا",
+   "old": "مهانگائي جي شرح ۾ گهٽتائي، سالاڻو اگهه 11 سيڪڙو کان وڌيڪ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13860,6 +13862,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 2
- }
+  "repeat": 3
+ },
+ "_dup": true
 }
