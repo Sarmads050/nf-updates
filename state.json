@@ -1440,7 +1440,18 @@
   "33b2974a66ebef72": 1794670870.1046028,
   "93a6c045cbd3f4aa": 1794670870.1046054,
   "c6030c2352d8deec": 1794672082.4386191,
-  "1053c211d4450ece": 1794672082.4386218
+  "1053c211d4450ece": 1794672082.4386218,
+  "f9c49b0b6a2e395a": 1794673273.283533,
+  "25491b7bcf1dee65": 1794673283.2502716,
+  "8d66886d8ffcb45d": 1794673283.2502744,
+  "50950cb2b92b0843": 1794673283.2502759,
+  "99fb15b748d87924": 1794673303.8695052,
+  "3c873e8c1d9dd07a": 1794673303.8695073,
+  "76cd2ccc6ec24501": 1794673303.8695085,
+  "57e765c84f2a6b4b": 1794673303.8695097,
+  "a4147d5ea0bf57e7": 1794673303.8695107,
+  "70223c3ba51d1e6c": 1794673303.8695114,
+  "eb53f25b7efd3601": 1794673303.8696775
  },
  "pending": {},
  "queue": [],
@@ -1458,7 +1469,7 @@
   "last_week": "",
   "last_check": "2026-11-14"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1513,7 +1524,7 @@
  "sindh_single": {
   "date": "2026-11-14",
   "count": 1,
-  "last": 1794664296.3938348,
+  "last": 1794673296.067153,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1571,20 +1582,8 @@
    "e64d0af6ded9d71b"
   ]
  },
- "last_post_id": "1444130002106066_122120978727503839",
+ "last_post_id": "1444130002106066_122120983389503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122120682111503839",
-   "title": "سعودي عرب کي پنهنجي ڌرتي بچائڻ جو پورو حق آهي: پاڪستان",
-   "t": 1794586290.8350892,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122120682111503839"
-  },
   {
    "id": "1444130002106066_122120687727503839",
    "title": "سنڌ جي سرڪاري کاتن ۾ اليڪٽرانڪ گاڏيون هلائڻ جو فيصلو",
@@ -1908,6 +1907,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122120978727503839"
+  },
+  {
+   "id": "1444130002106066_122120983389503839",
+   "title": "فيصل آباد ۾ زراعت کاتي پاران ڪڻڪ جي پوکيءَ لاءِ سپڊ سيڊر جي استعمال کي وڌايو پيو وڃي جنهن",
+   "t": 1794673361.1667635,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122120983389503839"
   }
  ],
  "share_sent": {
@@ -2158,7 +2167,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 21:10",
+  "time": "2026-11-14 21:22",
   "items": 34,
   "sample": [
    "Zimbabwe A 322/7 * v Ireland A 551/10",
@@ -2168,22 +2177,16 @@
  },
  "agri_news": {
   "date": "2026-11-14",
-  "count": 2,
-  "last": 1794629500.219178
+  "count": 3,
+  "last": 1794673361.166748
  },
  "all_posts": {
   "date": "2026-11-14",
-  "count": 30,
-  "last": 1794672186.60894
+  "count": 31,
+  "last": 1794673352.604447
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122117404077503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793770946
-   },
    {
     "id": "1444130002106066_122117407845503839",
     "sec": "sindh_stream",
@@ -4577,6 +4580,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1794672194
+   },
+   {
+    "id": "1444130002106066_122120983389503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1794673361
    }
   ]
  },
@@ -7569,15 +7578,11 @@
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 284,
-  "fail": 454,
-  "limit": 448
+  "ok": 295,
+  "fail": 474,
+  "limit": 468
  },
  "posted_heads": [
-  {
-   "h": "منهنجي زندگي ۾ ڪو بہ مرد ناهي، ثانيا مرزا افواهن تي خاموشي ٽوڙي ڇڏي",
-   "t": 1794465233
-  },
   {
    "h": "ملير: ٻن نياڻين سميت لاپتا ٿيل عورت جو لاش هٿ اچڻ وارو معاملو، پيءُ جي فرياد تي ڪيس داخل، مڙس گرفتار",
    "t": 1794466296
@@ -7893,10 +7898,14 @@
   {
    "h": "عالمي بينڪ سنڌ ۾صاف پاڻي ۽ صفائي جي منصوبن لاءِ 30 ڪروڙ ڊالر منظور ڪري ڇڏيا",
    "t": 1794672194
+  },
+  {
+   "h": "Faisalabad Agriculture Department promotes Super Seeders for wheat sowing",
+   "t": 1794673362
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 21:10",
+  "time": "2026-11-14 21:22",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -7999,12 +8008,12 @@
  },
  "article_diag": {
   "date": "2026-11-14",
-  "tried": 25,
-  "decoded": 25,
-  "text": 23,
+  "tried": 26,
+  "decoded": 26,
+  "text": 24,
   "story": 20
  },
- "ai_last_error": "21:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "21:22 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -8018,9 +8027,9 @@
  },
  "img_diag": {
   "date": "2026-11-14",
-  "tried": 26,
+  "tried": 27,
   "gemini": 0,
-  "pollinations": 19,
+  "pollinations": 20,
   "skip": 5,
   "fail": 4,
   "last_note": "golden film award trophy",
@@ -8046,7 +8055,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 131,
+   "ok": 132,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8054,7 +8063,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 129,
+   "ok": 130,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8062,7 +8071,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 129,
+   "ok": 130,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8070,7 +8079,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 128,
+   "ok": 129,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8078,7 +8087,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 132,
+   "ok": 133,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8086,14 +8095,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 132,
+   "ok": 133,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 131,
+   "ok": 132,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8102,9 +8111,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 132,
+   "fail": 133,
    "items": 15,
-   "fail_streak": 1508,
+   "fail_streak": 1509,
    "last_status": 404
   }
  },
@@ -8289,12 +8298,12 @@
   "date": "2026-11-14",
   "district": 1,
   "sindh": 18,
-  "pakistan": 8
+  "pakistan": 9
  },
  "report_acc": {
-  "posted": 0,
-  "found": 3,
-  "old": 3,
+  "posted": 1,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8342,9 +8351,9 @@
  "sindh_stream": {
   "date": "2026-11-14",
   "count": 13,
-  "last": 1794672070.9227622,
-  "city_i": 20,
-  "dry": 1794664263.2542062
+  "last": 1794673272.1541545,
+  "city_i": 24,
+  "dry": 1794673273.283536
  },
  "gemini_day_dead": {
   "day": "2026-11-14",
@@ -8911,6 +8920,14 @@
    "t": 1794672194,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "27d9bc045ee77635",
+   "h": "فيصل آباد ۾ ڪڻڪ جي پوکيءَ لاءِ سپڊ سيڊر جي ترغيب",
+   "x": "فيصل آباد ۾ زراعت کاتي پاران ڪڻڪ جي پوکيءَ لاءِ سپڊ سيڊر جي استعمال کي وڌايو پيو وڃي جنهن سان فصل جي پوکيءَ ۾ بهتري ايندي.",
+   "t": 1794673361,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8934,13 +8951,6 @@
   "last": 1794657690.5787365
  },
  "tg_debug": [
-  {
-   "t": "11-14 14:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-14 15:00",
    "ok": true,
@@ -9209,6 +9219,13 @@
   },
   {
    "t": "11-14 21:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 21:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13104,6 +13121,38 @@
     "ڪروڙ",
     "ڪيل"
    ]
+  },
+  {
+   "t": 1794673361,
+   "h": "فيصل آباد ۾ ڪڻڪ جي پوکيءَ لاءِ سپڊ سيڊر جي ترغيب",
+   "b": "فيصل آباد ۾ زراعت کاتي پاران ڪڻڪ جي پوکيءَ لاءِ سپڊ سيڊر جي استعمال کي وڌايو پيو وڃي جنهن سان فصل جي پوکيءَ ۾",
+   "tt": [
+    "اباد",
+    "ترغيب",
+    "سيڊر",
+    "سپڊ",
+    "فيصل",
+    "پوڪيء",
+    "ڪڻڪ"
+   ],
+   "bt": [
+    "اباد",
+    "استعمال",
+    "ايندي",
+    "بهتري",
+    "ترغيب",
+    "زراعت",
+    "سيڊر",
+    "سپڊ",
+    "فصل",
+    "فيصل",
+    "وڌايو",
+    "پاران",
+    "پوڪيء",
+    "پيو",
+    "ڪاتي",
+    "ڪڻڪ"
+   ]
   }
  ],
  "repeat_log": [
@@ -13271,7 +13320,7 @@
  },
  "quality": {
   "date": "2026-11-14",
-  "editor_fixed": 23,
+  "editor_fixed": 24,
   "editor_rejected": 3,
   "kawish_rejected": 2,
   "kawish_crosschecked": 0,
