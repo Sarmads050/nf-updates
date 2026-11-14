@@ -1435,7 +1435,11 @@
   "202603d5b656b2d7": 1794668628.3160422,
   "783fcf83d6cf1a4c": 1794669668.8310344,
   "ac2e21bfeb90fde2": 1794669668.831037,
-  "a0c4634c7f85fb96": 1794669668.8310392
+  "a0c4634c7f85fb96": 1794669668.8310392,
+  "e67480d625816034": 1794670870.104599,
+  "62c3c294fb5be1e8": 1794670870.1046014,
+  "33b2974a66ebef72": 1794670870.1046028,
+  "93a6c045cbd3f4aa": 1794670870.1046054
  },
  "pending": {},
  "queue": [],
@@ -2153,10 +2157,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 20:30",
-  "items": 1,
+  "time": "2026-11-14 20:41",
+  "items": 33,
   "sample": [
-   "No Match in progress.."
+   "Zimbabwe A 322/7 * v Ireland A 551/10",
+   "Afghanistan 159/6 * v Zimbabwe 339/10",
+   "Arunachal Pradesh 106/9 * v Manipur 167/9"
   ]
  },
  "agri_news": {
@@ -7562,9 +7568,9 @@
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 278,
-  "fail": 443,
-  "limit": 438
+  "ok": 279,
+  "fail": 445,
+  "limit": 440
  },
  "posted_heads": [
   {
@@ -7889,7 +7895,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 20:30",
+  "time": "2026-11-14 20:41",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -7997,7 +8003,7 @@
   "text": 23,
   "story": 20
  },
- "ai_last_error": "20:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "20:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -8039,7 +8045,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 127,
+   "ok": 128,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8047,7 +8053,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 125,
+   "ok": 126,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8055,7 +8061,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 125,
+   "ok": 126,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8063,7 +8069,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 124,
+   "ok": 125,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8071,7 +8077,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 128,
+   "ok": 129,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8079,14 +8085,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 128,
+   "ok": 129,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 127,
+   "ok": 128,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8095,9 +8101,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 128,
+   "fail": 129,
    "items": 15,
-   "fail_streak": 1504,
+   "fail_streak": 1505,
    "last_status": 404
   }
  },
@@ -8286,8 +8292,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 9,
-  "old": 9,
+  "found": 12,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8335,8 +8341,8 @@
  "sindh_stream": {
   "date": "2026-11-14",
   "count": 12,
-  "last": 1794669663.8269463,
-  "city_i": 12,
+  "last": 1794670867.9772553,
+  "city_i": 16,
   "dry": 1794664263.2542062
  },
  "gemini_day_dead": {
@@ -8920,13 +8926,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 14:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 14:20",
    "ok": true,
    "n": 0,
@@ -9194,6 +9193,13 @@
   },
   {
    "t": "11-14 20:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 20:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13040,11 +13046,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-13 08:21",
-   "new": "سنڌ | پيٹرول ۽ ډيزل جون قيمتون گھٽ",
-   "old": "صبح جون سنڌ جون اهم خبرون"
-  },
-  {
    "t": "11-13 10:21",
    "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽاتائي",
    "old": "صبح جون سنڌ جون اهم خبرون"
@@ -13188,6 +13189,11 @@
    "t": "11-14 20:03",
    "new": "سون جي اگهه ۾ 7 سئو روپين جي گهٽتائي",
    "old": "اڄ پاڪستان ۾ سون جي اگهه ۾ تبديلي"
+  },
+  {
+   "t": "11-14 20:41",
+   "new": "پاڪستان ۾ شگر جي مريضن جو انگ ساڍا 3 ڪروڙ کان ٽَپي ويو",
+   "old": "پاڪستان ۾ شگر جي مريضن جو انگ ساڍا 3 ڪروڙ کان وڌي ويو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13208,6 +13214,7 @@
   "kawish_rejected": 2,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
-  "repeat": 18
- }
+  "repeat": 19
+ },
+ "_dup": true
 }
