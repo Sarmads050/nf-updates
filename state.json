@@ -1438,7 +1438,9 @@
   "e67480d625816034": 1794670870.104599,
   "62c3c294fb5be1e8": 1794670870.1046014,
   "33b2974a66ebef72": 1794670870.1046028,
-  "93a6c045cbd3f4aa": 1794670870.1046054
+  "93a6c045cbd3f4aa": 1794670870.1046054,
+  "c6030c2352d8deec": 1794672082.4386191,
+  "1053c211d4450ece": 1794672082.4386218
  },
  "pending": {},
  "queue": [],
@@ -1456,7 +1458,7 @@
   "last_week": "",
   "last_check": "2026-11-14"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.5-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1569,20 +1571,8 @@
    "e64d0af6ded9d71b"
   ]
  },
- "last_post_id": "1444130002106066_122120970609503839",
+ "last_post_id": "1444130002106066_122120978727503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122120671569503839",
-   "title": "ننڊ جو اڻپورو معمول ڊپريشن جو مکيه سبب قرار",
-   "t": 1794582752.2127495,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122120671569503839"
-  },
   {
    "id": "1444130002106066_122120682111503839",
    "title": "سعودي عرب کي پنهنجي ڌرتي بچائڻ جو پورو حق آهي: پاڪستان",
@@ -1906,6 +1896,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122120970609503839"
+  },
+  {
+   "id": "1444130002106066_122120978727503839",
+   "title": "عالمي بينڪ جو سنڌ ۾ صفائي ۽ پاڻي جي منصوبن لاءِ فنڊز منظوري",
+   "t": 1794672194.698098,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122120978727503839"
   }
  ],
  "share_sent": {
@@ -2156,8 +2158,8 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 20:50",
-  "items": 33,
+  "time": "2026-11-14 21:03",
+  "items": 34,
   "sample": [
    "Zimbabwe A 322/7 * v Ireland A 551/10",
    "Afghanistan 159/6 * v Zimbabwe 339/10",
@@ -2171,17 +2173,11 @@
  },
  "all_posts": {
   "date": "2026-11-14",
-  "count": 29,
-  "last": 1794669802.0893118
+  "count": 30,
+  "last": 1794672186.60894
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122117400591503839",
-    "sec": "agri_news",
-    "cat": "agri_news",
-    "t": 1793769733
-   },
    {
     "id": "1444130002106066_122117404077503839",
     "sec": "sindh_stream",
@@ -4575,6 +4571,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1794669812
+   },
+   {
+    "id": "1444130002106066_122120978727503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1794672194
    }
   ]
  },
@@ -7567,15 +7569,11 @@
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 279,
-  "fail": 445,
-  "limit": 440
+  "ok": 284,
+  "fail": 454,
+  "limit": 448
  },
  "posted_heads": [
-  {
-   "h": "بجلي ورھائڻ وارين ڪمپنين جي نجڪاري جون تياريون، 2 ماڊل متعارف ڪرائڻ جي تجويز",
-   "t": 1794463940
-  },
   {
    "h": "منهنجي زندگي ۾ ڪو بہ مرد ناهي، ثانيا مرزا افواهن تي خاموشي ٽوڙي ڇڏي",
    "t": 1794465233
@@ -7891,10 +7889,14 @@
   {
    "h": "پاوري گرل دنانير ماسڪو ۾ بهترين اداڪارا جو ايوارڊ ماڻي ورتو",
    "t": 1794669812
+  },
+  {
+   "h": "عالمي بينڪ سنڌ ۾صاف پاڻي ۽ صفائي جي منصوبن لاءِ 30 ڪروڙ ڊالر منظور ڪري ڇڏيا",
+   "t": 1794672194
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 20:50",
+  "time": "2026-11-14 21:03",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -8002,7 +8004,7 @@
   "text": 23,
   "story": 20
  },
- "ai_last_error": "20:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "21:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -8016,9 +8018,9 @@
  },
  "img_diag": {
   "date": "2026-11-14",
-  "tried": 25,
+  "tried": 26,
   "gemini": 0,
-  "pollinations": 18,
+  "pollinations": 19,
   "skip": 5,
   "fail": 4,
   "last_note": "golden film award trophy",
@@ -8044,7 +8046,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 129,
+   "ok": 130,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8052,7 +8054,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 127,
+   "ok": 128,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8060,7 +8062,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 127,
+   "ok": 128,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8068,7 +8070,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 126,
+   "ok": 127,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8076,7 +8078,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 130,
+   "ok": 131,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8084,14 +8086,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 130,
+   "ok": 131,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 129,
+   "ok": 130,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8100,9 +8102,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 130,
+   "fail": 131,
    "items": 15,
-   "fail_streak": 1506,
+   "fail_streak": 1507,
    "last_status": 404
   }
  },
@@ -8286,18 +8288,18 @@
  "region_posts": {
   "date": "2026-11-14",
   "district": 1,
-  "sindh": 17,
+  "sindh": 18,
   "pakistan": 8
  },
  "report_acc": {
-  "posted": 1,
-  "found": 15,
-  "old": 15,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-14 20",
+ "report_hour": "2026-11-14 21",
  "kawish_upload_times": {
   "_date": "2026-11-14",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8339,9 +8341,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-14",
-  "count": 12,
-  "last": 1794670867.9772553,
-  "city_i": 16,
+  "count": 13,
+  "last": 1794672070.9227622,
+  "city_i": 20,
   "dry": 1794664263.2542062
  },
  "gemini_day_dead": {
@@ -8901,6 +8903,14 @@
    "t": 1794669812,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "8e0115ba62b0f360",
+   "h": "عالمي بئنڪ جو سنڌ ۾ صفائي ۽ پاڻي جي منصوبن لاءِ فنڊز جي منظوري",
+   "x": "عالمي بئنڪ سنڌ ۾ پيئڻ جي صاف پاڻي، صفائي ۽ صحت جي سڌاري وارن منصوبن لاءِ 30 ڪروڙ ڊالرن جي منظوري ڏئي ڇڏي آهي. جاري ڪيل پڌرائي موجب عالمي بئنڪ جي سهڪار سان شروع ٿيندڙ اسٽار واش ون منصوبي مان سنڌ جا 15 لک ماڻهو فائدو حاصل ڪري سگهندا. پڌرائي ۾ ڄاڻايو ويو آهي ته سنڌ ۾ 5 سالن کان ننڍي عمر جا اڌ کان وڌيڪ ٻار عمر جي حساب سان قد ۾ ننڍا آهن، جنهن جو وڏو سبب گندو پاڻي ۽ صفائيءَ جي اڻپوري سهولت آهي. اهي مسئلا ٻارن ۾ دستن ۽ خوراڪ جي کوٽ جو پڻ اهم سبب بڻجن ٿا.",
+   "t": 1794672194,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8924,13 +8934,6 @@
   "last": 1794657690.5787365
  },
  "tg_debug": [
-  {
-   "t": "11-14 14:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-14 14:40",
    "ok": true,
@@ -9199,6 +9202,13 @@
   },
   {
    "t": "11-14 20:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 21:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13041,6 +13051,59 @@
     "ڊائمنڊ",
     "ڪوٺائي"
    ]
+  },
+  {
+   "t": 1794672194,
+   "h": "عالمي بئنڪ جو سنڌ ۾ صفائي ۽ پاڻي جي منصوبن لاءِ فنڊز جي منظوري",
+   "b": "عالمي بئنڪ سنڌ ۾ پيئڻ جي صاف پاڻي، صفائي ۽ صحت جي سڌاري وارن منصوبن لاءِ 30 ڪروڙ ڊالرن جي منظوري ڏئي ڇڏي آهي.",
+   "tt": [
+    "بئنڪ",
+    "سنڌ",
+    "صفائي",
+    "عالمي",
+    "فنڊز",
+    "منصوبن",
+    "منظوري",
+    "پاڻي"
+   ],
+   "bt": [
+    "#15",
+    "#30",
+    "اسٽار",
+    "اهي",
+    "بئنڪ",
+    "جاري",
+    "حاصل",
+    "سنڌ",
+    "سهڪار",
+    "سڌاري",
+    "سگهندا",
+    "شروع",
+    "صاف",
+    "صحت",
+    "صفائي",
+    "عالمي",
+    "فائدو",
+    "فنڊز",
+    "مان",
+    "ماڻهو",
+    "منصوبن",
+    "منصوبي",
+    "منظوري",
+    "موجب",
+    "وارن",
+    "واش",
+    "پاڻي",
+    "پاڻي،",
+    "پيئڻ",
+    "پڌرائي",
+    "ٿيندڙ",
+    "ڇڏي",
+    "ڊالرن",
+    "ڏئي",
+    "ڪروڙ",
+    "ڪيل"
+   ]
   }
  ],
  "repeat_log": [
@@ -13208,12 +13271,11 @@
  },
  "quality": {
   "date": "2026-11-14",
-  "editor_fixed": 22,
+  "editor_fixed": 23,
   "editor_rejected": 3,
   "kawish_rejected": 2,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
   "repeat": 19
- },
- "_dup": true
+ }
 }
