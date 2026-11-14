@@ -1459,7 +1459,8 @@
   "def5a8422635fc6d": 1794691279.8763158,
   "b2c5c89383c321f8": 1794691279.8763163,
   "c362552921afc793": 1794691279.8763173,
-  "83f84ea08ae0052d": 1794691279.876318
+  "83f84ea08ae0052d": 1794691279.876318,
+  "3f6859955e256db9": 1794691881.3460422
  },
  "pending": {},
  "queue": [],
@@ -2185,7 +2186,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 02:21",
+  "time": "2026-11-15 02:32",
   "items": 20,
   "sample": [
    "Zimbabwe A 322/7 * v Ireland A 551/10",
@@ -7588,9 +7589,9 @@
  },
  "ai_usage": {
   "date": "2026-11-15",
-  "ok": 13,
-  "fail": 22,
-  "limit": 22
+  "ok": 18,
+  "fail": 32,
+  "limit": 32
  },
  "posted_heads": [
   {
@@ -7915,7 +7916,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 02:21",
+  "time": "2026-11-15 02:32",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -8018,12 +8019,12 @@
  },
  "article_diag": {
   "date": "2026-11-15",
-  "tried": 1,
-  "decoded": 1,
-  "text": 1,
-  "story": 1
+  "tried": 2,
+  "decoded": 2,
+  "text": 2,
+  "story": 2
  },
- "ai_last_error": "02:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "02:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-15",
   "models": [
@@ -8065,7 +8066,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
-   "ok": 16,
+   "ok": 17,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8073,7 +8074,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 15,
+   "ok": 16,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8081,7 +8082,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 15,
+   "ok": 16,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8089,7 +8090,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 16,
+   "ok": 17,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8097,7 +8098,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 16,
+   "ok": 17,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8105,14 +8106,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 16,
+   "ok": 17,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 16,
+   "ok": 17,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8121,9 +8122,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 16,
+   "fail": 17,
    "items": 15,
-   "fail_streak": 1540,
+   "fail_streak": 1541,
    "last_status": 404
   }
  },
@@ -8312,8 +8313,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 7,
-  "old": 7,
+  "found": 11,
+  "old": 11,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8363,8 +8364,8 @@
   "date": "2026-11-15",
   "count": 0,
   "last": 1794684208.2471442,
-  "city_i": 16,
-  "dry": 1794691262.69688
+  "city_i": 20,
+  "dry": 1794691875.1745393
  },
  "gemini_day_dead": {
   "day": "2026-11-14",
@@ -8985,13 +8986,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 20:04",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 20:10",
    "ok": true,
    "n": 0,
@@ -9259,6 +9253,13 @@
   },
   {
    "t": "11-15 02:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 02:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13707,11 +13708,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-13 11:41",
-   "new": "گهرو وزير محسن نقوي جو نوابشاهه جو دورو، صدر آصف زرداري سان ملاقات",
-   "old": "نوابشاهه ۾ زرداري ۽ محسن نقوي جي ملاقات، سياسي صورتحال تي غور"
-  },
-  {
    "t": "11-13 16:22",
    "new": "بابر اعظم سينچري ڪرڻ ۾ ٻيهر ناڪام",
    "old": "راولپنڊي ٽيسٽ: روشني گهٽ ٿيڻ سبب راند اڳواٽ ختم"
@@ -13855,6 +13851,11 @@
    "t": "11-15 00:23",
    "new": "عالمي بئنڪ پاران سنڌ جي ٻهراڙين لاءِ 30 ڪروڙ ڊالر منظور",
    "old": "عالمي بئنڪ جو سنڌ ۾ صفائي ۽ پاڻي جي منصوبن لاءِ فنڊز جي منظوري"
+  },
+  {
+   "t": "11-15 02:31",
+   "new": "آءِ ايم ايف پاران پيٽرول جو سبسڊي ختم ڪرڻ جو مطالبو",
+   "old": "حڪومت پاران آءِ ايم ايف جون شرطون پوريون"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13875,6 +13876,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 1
- }
+  "repeat": 2
+ },
+ "_dup": true
 }
