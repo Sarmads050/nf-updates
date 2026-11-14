@@ -1455,7 +1455,9 @@
   "572b4f27f72229ca": 1794674475.6790745,
   "3c5c9e896e9d5a63": 1794675678.3501265,
   "87c2ba4da59e7caa": 1794675678.3501287,
-  "0b148338161ab0b2": 1794675688.6424592
+  "0b148338161ab0b2": 1794675688.6424592,
+  "ef01df4a7ff2a4d9": 1794676264.3171353,
+  "4a19dba0ec47aaad": 1794676264.3173094
  },
  "pending": {},
  "queue": [],
@@ -1586,20 +1588,8 @@
    "e64d0af6ded9d71b"
   ]
  },
- "last_post_id": "1444130002106066_122120988009503839",
+ "last_post_id": "1444130002106066_122120993475503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122120711799503839",
-   "title": "هومو ناليدي نسل بابت حيران ڪندڙ انڪشاف، سڀ هڏا عورتن جا نڪتا",
-   "t": 1794593504.3642511,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122120711799503839"
-  },
   {
    "id": "1444130002106066_122120726703503839",
    "title": "28 سئو سال اڳ به ماڻهو ڀنگ جو نشو ڪندا هئا",
@@ -1921,6 +1911,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122120988009503839"
+  },
+  {
+   "id": "1444130002106066_122120993475503839",
+   "title": "خنجراب پاس تي شديد برفباري سبب ڪيترائي سياح اتي ڦاٽي پيا آهن",
+   "t": 1794676317.8855884,
+   "tags": [
+    "general",
+    "local"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122120993475503839"
   }
  ],
  "share_sent": {
@@ -2171,7 +2171,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 22:01",
+  "time": "2026-11-14 22:11",
   "items": 34,
   "sample": [
    "Zimbabwe A 322/7 * v Ireland A 551/10",
@@ -2186,17 +2186,11 @@
  },
  "all_posts": {
   "date": "2026-11-14",
-  "count": 32,
-  "last": 1794674543.6206398
+  "count": 33,
+  "last": 1794676311.629933
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122117413959503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793773594
-   },
    {
     "id": "1444130002106066_122117421267503839",
     "sec": "sindh_stream",
@@ -4590,13 +4584,19 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1794674552
+   },
+   {
+    "id": "1444130002106066_122120993475503839",
+    "sec": "public_news",
+    "cat": "weather_disaster",
+    "t": 1794676317
    }
   ]
  },
  "public_news": {
   "date": "2026-11-14",
-  "count": 4,
-  "last": 1794642096.279736
+  "count": 5,
+  "last": 1794676317.8855693
  },
  "trends": {
   "last": 1794667851.1759555,
@@ -7582,15 +7582,11 @@
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 302,
-  "fail": 484,
-  "limit": 479
+  "ok": 310,
+  "fail": 496,
+  "limit": 491
  },
  "posted_heads": [
-  {
-   "h": "انڪم ٽيڪس گوشوارن جي پاڻمرادو جاچ جو نئون نظام متعارف",
-   "t": 1794467513
-  },
   {
    "h": "نئن ٽڪر: اروڙ جي پراسرار پٿر جي تاريخي سڃاڻپ",
    "t": 1794468740
@@ -7906,10 +7902,14 @@
   {
    "h": "سگهه ۾ اڻ مَهي واڌ، ايندڙ ٽن سالن ۾ ”اَي آءِ“ انسانيت جو خاتمو ڪري سگهي ٿي: سائنسدان جيفري هنٽن",
    "t": 1794674552
+  },
+  {
+   "h": "Heavy Snowfall Leaves Tourists Stranded at Khunjerab Pass",
+   "t": 1794676318
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 22:01",
+  "time": "2026-11-14 22:11",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -8012,12 +8012,12 @@
  },
  "article_diag": {
   "date": "2026-11-14",
-  "tried": 26,
-  "decoded": 26,
-  "text": 24,
+  "tried": 27,
+  "decoded": 27,
+  "text": 25,
   "story": 20
  },
- "ai_last_error": "22:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "22:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -8031,9 +8031,9 @@
  },
  "img_diag": {
   "date": "2026-11-14",
-  "tried": 28,
+  "tried": 29,
   "gemini": 0,
-  "pollinations": 21,
+  "pollinations": 22,
   "skip": 5,
   "fail": 4,
   "last_note": "golden film award trophy",
@@ -8059,7 +8059,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 136,
+   "ok": 137,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8067,7 +8067,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 134,
+   "ok": 135,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8075,7 +8075,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 134,
+   "ok": 135,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8083,7 +8083,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 133,
+   "ok": 134,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8091,7 +8091,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8099,14 +8099,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 136,
+   "ok": 137,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8115,9 +8115,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 137,
+   "fail": 138,
    "items": 15,
-   "fail_streak": 1513,
+   "fail_streak": 1514,
    "last_status": 404
   }
  },
@@ -8125,7 +8125,7 @@
   "last": "2026-11-13",
   "idx": 4
  },
- "ai_last_model": "google/gemma-4-26b-a4b-it:free",
+ "ai_last_model": "google/gemma-4-31b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8302,12 +8302,12 @@
   "date": "2026-11-14",
   "district": 1,
   "sindh": 19,
-  "pakistan": 9
+  "pakistan": 10
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8940,6 +8940,14 @@
    "t": 1794674552,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "51b2584149d6a57d",
+   "h": "خنجراب پاس تي تيز برفباري، سياح ڦاسي پيا",
+   "x": "خنجراب پاس تي شديد برفباري سبب ڪيترائي سياح اتي ڦاسي پيا آهن.",
+   "t": 1794676317,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8964,13 +8972,6 @@
   "last": 1794657690.5787365
  },
  "tg_debug": [
-  {
-   "t": "11-14 15:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-14 15:50",
    "ok": true,
@@ -9239,6 +9240,13 @@
   },
   {
    "t": "11-14 22:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 22:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13210,6 +13218,35 @@
     "ڏاهي",
     "ڏاهپ"
    ]
+  },
+  {
+   "t": 1794676317,
+   "h": "خنجراب پاس تي تيز برفباري، سياح ڦاسي پيا",
+   "b": "خنجراب پاس تي شديد برفباري سبب ڪيترائي سياح اتي ڦاسي پيا آهن.",
+   "tt": [
+    "برفباري،",
+    "تيز",
+    "خنجراب",
+    "سياح",
+    "پاس",
+    "پيا",
+    "ڦاسي"
+   ],
+   "bt": [
+    "اتي",
+    "اهن",
+    "برفباري",
+    "برفباري،",
+    "تيز",
+    "خنجراب",
+    "سبب",
+    "سياح",
+    "شديد",
+    "پاس",
+    "پيا",
+    "ڦاسي",
+    "ڪيترائي"
+   ]
   }
  ],
  "repeat_log": [
@@ -13377,7 +13414,7 @@
  },
  "quality": {
   "date": "2026-11-14",
-  "editor_fixed": 25,
+  "editor_fixed": 26,
   "editor_rejected": 3,
   "kawish_rejected": 2,
   "kawish_crosschecked": 0,
