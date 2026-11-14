@@ -1468,7 +1468,8 @@
   "4ffe7cc319392a4d": 1794631872.9254112,
   "a104119f527fc3fa": 1794633066.6391342,
   "5e9cfda38c844f0d": 1794633066.639137,
-  "35ba1efe7cb48cb9": 1794633078.0870836
+  "35ba1efe7cb48cb9": 1794633078.0870836,
+  "7b81dcb4f217a4ab": 1794634323.1178498
  },
  "pending": {},
  "queue": [],
@@ -1541,7 +1542,7 @@
  "sindh_single": {
   "date": "2026-11-14",
   "count": 0,
-  "last": 1794626479.922743,
+  "last": 1794634345.488567,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2180,7 +2181,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 10:21",
+  "time": "2026-11-14 10:32",
   "items": 1,
   "sample": [
    "No Match in progress.."
@@ -4606,24 +4607,8 @@
   "last": 1794623499.0991912
  },
  "trends": {
-  "last": 1794623458.3194463,
+  "last": 1794634286.6577172,
   "terms": [
-   {
-    "term": "new zealand vs india",
-    "traffic": 20000,
-    "news": "Why Wellington's Weather Could Test India's Cricket Superstars",
-    "t": 1794020496,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "history",
-    "traffic": 100,
-    "news": "Who are the new faces in the US Senate?",
-    "t": 1794020496,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "axar patel",
     "traffic": 100,
@@ -7471,15 +7456,95 @@
     "t": 1794623458,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "faa flights grounded",
+    "traffic": 2000,
+    "news": "FAA says airlines can resume flights after hours-long ground stop, but delays and cancellations to continue",
+    "t": 1794634287,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "u19 asia cup 2026 schedule",
+    "traffic": 200,
+    "news": "BAN19 vs PAK19 Cricket Scorecard, 1st Semi-Final at Al Amarat, November 12, 2026",
+    "t": 1794634287,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "turkiye qatar bilateral military pact",
+    "traffic": 100,
+    "news": "Turkiye, Qatar sign defence agreement: Turkish presidency",
+    "t": 1794634287,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "new zealand cricket",
+    "traffic": 200,
+    "news": "India release spinner for pacer in Test squad to face Kiwis",
+    "t": 1794634287,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "kaviya maran",
+    "traffic": 100,
+    "news": "Anirudh Ravichander and Kavya Maran choose self-respect marriage in Greece: What it means",
+    "t": 1794634287,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "guatemala vs canada",
+    "traffic": 200,
+    "news": "Concentración Y Precisión: La Fórmula Que Propone Juan Carlos Plata Ante Canadá",
+    "t": 1794634287,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "treasury bill",
+    "traffic": 200,
+    "news": "SBP targets Rs7tr through T-bills, PIBs in Nov-Jan",
+    "t": 1794634287,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "colombia vs chile",
+    "traffic": 100,
+    "news": "La autocrítica de Néstor Lorenzo; “me encantaría haber jugado mejor, pero así se gana experiencia”",
+    "t": 1794634287,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "pakistan u-19 vs india u-19",
+    "traffic": 20000,
+    "news": "India vs Pakistan, U19 Asia Cup Final Live Score: Sehwag and Dravid in focus as India eye record-extending ninth Under-19 Asia Cup title",
+    "t": 1794634287,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "sara boustany",
+    "traffic": 200,
+    "news": "'The Body': Do Elise and Anya End Up Together? Their Season 1 Relationship, Explained",
+    "t": 1794634287,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 114,
-  "fail": 208,
-  "limit": 209
+  "ok": 117,
+  "fail": 214,
+  "limit": 215
  },
  "posted_heads": [
   {
@@ -7804,7 +7869,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 10:21",
+  "time": "2026-11-14 10:32",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -7912,7 +7977,7 @@
   "text": 16,
   "story": 13
  },
- "ai_last_error": "10:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:32 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -7954,7 +8019,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7962,7 +8027,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 64,
+   "ok": 65,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7970,7 +8035,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 64,
+   "ok": 65,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7978,7 +8043,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7986,7 +8051,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7994,14 +8059,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8010,9 +8075,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 65,
+   "fail": 66,
    "items": 15,
-   "fail_streak": 1441,
+   "fail_streak": 1442,
    "last_status": 404
   }
  },
@@ -8169,8 +8234,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8219,8 +8284,8 @@
   "date": "2026-11-14",
   "count": 1,
   "last": 1794633064.9841,
-  "city_i": 12,
-  "dry": 1794633066.6391392
+  "city_i": 16,
+  "dry": 1794634313.1135468
  },
  "gemini_day_dead": {
   "day": "2026-11-13",
@@ -8844,13 +8909,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 04:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 04:10",
    "ok": true,
    "n": 0,
@@ -9118,6 +9176,13 @@
   },
   {
    "t": "11-14 10:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 10:30",
    "ok": true,
    "n": 0,
    "ids": [],
