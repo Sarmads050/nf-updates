@@ -1473,7 +1473,10 @@
   "08c9455a29717b27": 1794614495.023259,
   "5a158e8531aff3be": 1794616257.7813253,
   "a56f02b92ab930e5": 1794616278.9879155,
-  "dbf9e15e5e677789": 1794618668.800276
+  "dbf9e15e5e677789": 1794618668.800276,
+  "162f6926dc379399": 1794619270.8931637,
+  "42f815600c681232": 1794619280.261453,
+  "6e12b0ceda3d4c5c": 1794619280.2616692
  },
  "pending": {
   "culture2026-11-13": {
@@ -2213,7 +2216,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 06:11",
+  "time": "2026-11-14 06:21",
   "items": 33,
   "sample": [
    "New South Wales 204/10 & 410/10 v South Australia 325/10 & 50/2 *",
@@ -7480,9 +7483,9 @@
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 60,
-  "fail": 108,
-  "limit": 109
+  "ok": 65,
+  "fail": 118,
+  "limit": 119
  },
  "posted_heads": [
   {
@@ -7807,7 +7810,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 06:11",
+  "time": "2026-11-14 06:21",
   "steps": []
  },
  "roundup_am": "2026-11-13",
@@ -7910,12 +7913,12 @@
  },
  "article_diag": {
   "date": "2026-11-14",
-  "tried": 11,
-  "decoded": 11,
-  "text": 10,
+  "tried": 12,
+  "decoded": 12,
+  "text": 11,
   "story": 8
  },
- "ai_last_error": "06:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -7957,7 +7960,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7965,7 +7968,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 38,
+   "ok": 39,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7973,7 +7976,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 38,
+   "ok": 39,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7981,7 +7984,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7989,7 +7992,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7997,14 +8000,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8013,9 +8016,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 39,
+   "fail": 40,
    "items": 15,
-   "fail_streak": 1415,
+   "fail_streak": 1416,
    "last_status": 404
   }
  },
@@ -8172,8 +8175,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 1,
-  "old": 1,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8222,8 +8225,8 @@
   "date": "2026-11-14",
   "count": 0,
   "last": 1794599470.2121172,
-  "city_i": 10,
-  "dry": 1794618663.6515772
+  "city_i": 14,
+  "dry": 1794619267.1265512
  },
  "gemini_day_dead": {
   "day": "2026-11-13",
@@ -8868,13 +8871,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 00:26",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 00:30",
    "ok": true,
    "n": 0,
@@ -9142,6 +9138,13 @@
   },
   {
    "t": "11-14 06:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 06:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13940,11 +13943,6 @@
  "repeat_log": [
   {
    "t": "11-12 06:01",
-   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
-   "old": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي"
-  },
-  {
-   "t": "11-12 06:01",
    "new": "سنڌ حڪومت پاران ڪڻڪ جي هارين لاءِ امداد منظور",
    "old": "نوشهروفيروز جو اڄ | 11-11-2026"
   },
@@ -14087,6 +14085,11 @@
    "t": "11-14 06:11",
    "new": "پاڪستان ۾ پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽات",
    "old": "صبح جون سنڌ جون اهم خبرون"
+  },
+  {
+   "t": "11-14 06:21",
+   "new": "پاڪستان ۽ سری لنڪا وچ ۾ ٽيسٽ ميچ ڊرا",
+   "old": "پاڪستان ۽ سری لنڪا وچ ۾ ٽيسٽ ميچ ڊرا ٿي وئي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14107,7 +14110,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 7
+  "repeat": 8
  },
  "_dup": true
 }
