@@ -1,6 +1,5 @@
 {
  "seen": {
-  "1d98b9f75f93f133": 1794052882.4825754,
   "2f1c61c73fdf30cb": 1794054073.4904022,
   "d2de454ebadb6f52": 1794054083.0406702,
   "2c8c604ef85f47b3": 1794054083.0406728,
@@ -1474,7 +1473,14 @@
   "c57544bd526d8781": 1794655856.488302,
   "292cfabc2590b207": 1794656482.4122534,
   "a4abcb1890a3bd87": 1794656482.4122558,
-  "e64d0af6ded9d71b": 1794656498.1708212
+  "e64d0af6ded9d71b": 1794656498.1708212,
+  "6e8c9edd56f32468": 1794658249.5580473,
+  "c5a553f7e5fa329f": 1794658267.695912,
+  "1eea119c5b3e47ca": 1794658267.6959145,
+  "4714d521e6e9e3d6": 1794658267.6959157,
+  "37402b4065dff3ff": 1794658267.6959167,
+  "0b0223dfe36ce47a": 1794658267.6959176,
+  "4c5551185d7fbee0": 1794658277.090234
  },
  "pending": {},
  "queue": [],
@@ -2190,7 +2196,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 17:01",
+  "time": "2026-11-14 17:11",
   "items": 1,
   "sample": [
    "No Match in progress.."
@@ -7551,9 +7557,9 @@
  },
  "ai_usage": {
   "date": "2026-11-14",
-  "ok": 235,
-  "fail": 375,
-  "limit": 368
+  "ok": 238,
+  "fail": 379,
+  "limit": 372
  },
  "posted_heads": [
   {
@@ -7890,7 +7896,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 17:01",
+  "time": "2026-11-14 17:11",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -7993,12 +7999,12 @@
  },
  "article_diag": {
   "date": "2026-11-14",
-  "tried": 23,
-  "decoded": 23,
-  "text": 21,
-  "story": 18
+  "tried": 24,
+  "decoded": 24,
+  "text": 22,
+  "story": 19
  },
- "ai_last_error": "17:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "17:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-14",
   "models": [
@@ -8040,7 +8046,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 105,
+   "ok": 106,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8048,7 +8054,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 104,
+   "ok": 105,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8056,7 +8062,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 104,
+   "ok": 105,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8064,7 +8070,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 102,
+   "ok": 103,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8072,7 +8078,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8080,14 +8086,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8096,9 +8102,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 106,
+   "fail": 107,
    "items": 15,
-   "fail_streak": 1482,
+   "fail_streak": 1483,
    "last_status": 404
   }
  },
@@ -8287,8 +8293,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8337,8 +8343,8 @@
   "date": "2026-11-14",
   "count": 8,
   "last": 1794656481.3718927,
-  "city_i": 8,
-  "dry": 1794656482.4122572
+  "city_i": 12,
+  "dry": 1794658257.7785137
  },
  "gemini_day_dead": {
   "day": "2026-11-14",
@@ -8919,13 +8925,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 10:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 10:50",
    "ok": true,
    "n": 0,
@@ -9193,6 +9192,13 @@
   },
   {
    "t": "11-14 17:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 17:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13143,11 +13149,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-13 05:37",
-   "new": "نوابشاهه ۾ محسن نقوي جي آصف زرداري سان ملاقات",
-   "old": "نوابشاهه ۾ زرداري ۽ محسن نقوي جي ملاقات، سياسي صورتحال تي غور"
-  },
-  {
    "t": "11-13 07:21",
    "new": "محفوظ دواؤں جي فراهمي طرف اهم قدم",
    "old": "آن لائن دوائن جي تصديق لاءِ محفوظ دوا ايپ جاري"
@@ -13291,6 +13292,11 @@
    "t": "11-14 14:21",
    "new": "پاڪستان ۾ پيٽرول سستو ٿيڻ جو امڪان",
    "old": "عوام کي رليف ڏيڻ لاءِ پيٽرول ليوي ۾ گهٽتائي"
+  },
+  {
+   "t": "11-14 17:11",
+   "new": "پنجاب ۾ ڪڻڪ جي پوک ۾ اضافو",
+   "old": "پنجاب ۾ ڪڻڪ جي پوک جو هدف"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13311,6 +13317,7 @@
   "kawish_rejected": 2,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
-  "repeat": 15
- }
+  "repeat": 16
+ },
+ "_dup": true
 }
