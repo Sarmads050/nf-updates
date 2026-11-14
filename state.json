@@ -1,6 +1,5 @@
 {
  "seen": {
-  "afaa0058c4a742e8": 1794087650.3685164,
   "e5580b201b11c08d": 1794088253.3085556,
   "8b97bd2f36fc9b00": 1794089464.5332553,
   "c6bc708e2385829c": 1794089464.5334933,
@@ -2187,7 +2186,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 02:43",
+  "time": "2026-11-15 02:54",
   "items": 20,
   "sample": [
    "Zimbabwe A 322/7 * v Ireland A 551/10",
@@ -7917,7 +7916,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 02:43",
+  "time": "2026-11-15 02:54",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -8068,14 +8067,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
    "ok": 18,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 17,
+   "ok": 18,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8083,7 +8082,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 17,
+   "ok": 18,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8091,7 +8090,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8099,7 +8098,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8107,14 +8106,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8123,9 +8122,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 18,
+   "fail": 19,
    "items": 15,
-   "fail_streak": 1542,
+   "fail_streak": 1543,
    "last_status": 404
   }
  },
@@ -8987,13 +8986,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 20:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 20:30",
    "ok": true,
    "n": 0,
@@ -9261,6 +9253,13 @@
   },
   {
    "t": "11-15 02:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 02:50",
    "ok": true,
    "n": 0,
    "ids": [],
