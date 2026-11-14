@@ -1,6 +1,5 @@
 {
  "seen": {
-  "185f978b917a066b": 1794061262.476247,
   "bf776d32c76db267": 1794062466.6198697,
   "b3f7274f8ad70170": 1794062475.6689825,
   "a668963df95a5621": 1794062475.6689856,
@@ -2162,7 +2161,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-14 19:21",
+  "time": "2026-11-14 19:31",
   "items": 1,
   "sample": [
    "No Match in progress.."
@@ -7850,7 +7849,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-14 19:21",
+  "time": "2026-11-14 19:31",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -8000,7 +7999,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-14",
-   "ok": 119,
+   "ok": 120,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8008,7 +8007,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-14",
-   "ok": 118,
+   "ok": 119,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8016,7 +8015,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-14",
-   "ok": 118,
+   "ok": 119,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8024,7 +8023,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 116,
+   "ok": 117,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8032,7 +8031,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8040,14 +8039,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-14",
-   "ok": 120,
+   "ok": 121,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-14",
-   "ok": 119,
+   "ok": 120,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8056,9 +8055,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-14",
    "ok": 0,
-   "fail": 120,
+   "fail": 121,
    "items": 15,
-   "fail_streak": 1496,
+   "fail_streak": 1497,
    "last_status": 404
   }
  },
@@ -8247,8 +8246,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 5,
-  "old": 5,
+  "found": 7,
+  "old": 7,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8872,13 +8871,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 13:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 13:06",
    "ok": true,
    "n": 0,
@@ -9146,6 +9138,13 @@
   },
   {
    "t": "11-14 19:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-14 19:30",
    "ok": true,
    "n": 0,
    "ids": [],
