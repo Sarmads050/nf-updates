@@ -1454,7 +1454,9 @@
   "3383d4324d2de9dd": 1794726089.1423402,
   "e31cafb30f984c09": 1794726664.3204188,
   "2ce009f9453e9907": 1794726664.3204217,
-  "64674f1a33bb3caa": 1794727265.462403
+  "64674f1a33bb3caa": 1794727265.462403,
+  "e3ac1291c84f7552": 1794727872.112901,
+  "7ce7ab26d6ec6bfc": 1794727872.1129043
  },
  "pending": {},
  "queue": [],
@@ -1585,20 +1587,8 @@
    "e64d0af6ded9d71b"
   ]
  },
- "last_post_id": "1444130002106066_122121224157503839",
+ "last_post_id": "1444130002106066_122121228231503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122120890653503839",
-   "title": "آمريڪا حملو ڪندڙ ڌر آهي، سفارتڪاري لاءِ پابنديون ختم ڪريو: ايراني سفير",
-   "t": 1794649306.9919043,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122120890653503839"
-  },
   {
    "id": "1444130002106066_122120902869503839",
    "title": "خيرپور: لغاري برادري پاران مک چوڪ تي ڌرڻو، ٽريفڪ معطل",
@@ -1915,6 +1905,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122121224157503839"
+  },
+  {
+   "id": "1444130002106066_122121228231503839",
+   "title": "پيٽروليم اگهن ۾ لاٿ جو عوام کي سڌو فائدو نه ملڻ الميو",
+   "t": 1794727904.7655888,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122121228231503839"
   }
  ],
  "share_sent": {
@@ -2171,18 +2173,18 @@
    },
    "wicket_posts": 5,
    "break_done": true,
-   "last_edit": 1794727579.6801407,
+   "last_edit": 1794728210.6972127,
    "batting": "Netherlands Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 12:26",
+  "time": "2026-11-15 12:36",
   "items": 19,
   "sample": [
-   "Zimbabwe A 322/7 * v Ireland A 551/10",
-   "Afghanistan 203/8 * v Zimbabwe 339/10",
+   "Zimbabwe A 327/8 * v Ireland A 551/10",
+   "Afghanistan 217/8 * v Zimbabwe 339/10",
    "Sydney Sixers Women 152/6 v Melbourne Renegades Women 156/8 *"
   ]
  },
@@ -2193,17 +2195,11 @@
  },
  "all_posts": {
   "date": "2026-11-15",
-  "count": 19,
-  "last": 1794726682.4169347
+  "count": 20,
+  "last": 1794727897.6400182
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122117502009503839",
-    "sec": "kawish",
-    "cat": "district",
-    "t": 1793791884
-   },
    {
     "id": "1444130002106066_122117507727503839",
     "sec": "kawish",
@@ -4597,6 +4593,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1794726690
+   },
+   {
+    "id": "1444130002106066_122121228231503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1794727904
    }
   ]
  },
@@ -7581,15 +7583,11 @@
  },
  "ai_usage": {
   "date": "2026-11-15",
-  "ok": 117,
-  "fail": 195,
-  "limit": 194
+  "ok": 122,
+  "fail": 203,
+  "limit": 202
  },
  "posted_heads": [
-  {
-   "h": "Sindh Ombudsman Regional Director Flags Poor Sanitation in Tando Adam - UrduPoint",
-   "t": 1794486836
-  },
   {
    "h": "اين ايف سي ايوارڊ تحت سنڌ کي 35 ارب رپيا ملندا",
    "t": 1794488002
@@ -7905,10 +7903,14 @@
   {
    "h": "ڪشمور: گڊو ۾ هٿياربند ڌاڙيلن جي گهر ۾ ڦرلٽ، گهر ڌڻي زخمي، 5 ڍور ڪاهي فرار",
    "t": 1794726691
+  },
+  {
+   "h": "پيٽروليم اگهن ۾ لاٿ جو عوام کي سڌو سنئون فائدو نه پهچڻ وارو الميو",
+   "t": 1794727905
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 12:26",
+  "time": "2026-11-15 12:36",
   "steps": []
  },
  "roundup_am": "2026-11-15",
@@ -8016,7 +8018,7 @@
   "text": 10,
   "story": 9
  },
- "ai_last_error": "12:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "12:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-15",
   "models": [
@@ -8030,9 +8032,9 @@
  },
  "img_diag": {
   "date": "2026-11-15",
-  "tried": 12,
+  "tried": 13,
   "gemini": 0,
-  "pollinations": 7,
+  "pollinations": 8,
   "skip": 2,
   "fail": 1,
   "last_note": "open street manhole",
@@ -8058,7 +8060,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
-   "ok": 73,
+   "ok": 74,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8066,7 +8068,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 76,
+   "ok": 77,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8074,7 +8076,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 76,
+   "ok": 77,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8082,7 +8084,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8090,7 +8092,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8098,14 +8100,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8114,9 +8116,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 77,
+   "fail": 78,
    "items": 15,
-   "fail_streak": 1601,
+   "fail_streak": 1602,
    "last_status": 404
   }
  },
@@ -8300,13 +8302,13 @@
  "region_posts": {
   "date": "2026-11-15",
   "district": 0,
-  "sindh": 4,
+  "sindh": 5,
   "pakistan": 7
  },
  "report_acc": {
-  "posted": 1,
-  "found": 8,
-  "old": 8,
+  "posted": 2,
+  "found": 12,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8354,9 +8356,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-15",
-  "count": 3,
-  "last": 1794726662.1297894,
-  "city_i": 24,
+  "count": 4,
+  "last": 1794727869.164203,
+  "city_i": 6,
   "dry": 1794726079.929885
  },
  "gemini_day_dead": {
@@ -8908,6 +8910,14 @@
    "t": 1794726690,
    "s": true,
    "r": 0
+  },
+  {
+   "k": "d5324a0fb0b12c53",
+   "h": "پيٽروليم اگهن ۾ لاٿ جو عوام کي سڌو فائدو نه ملڻ الميو",
+   "x": "ملڪ ۾ پيٽروليم شين جي اگهن ۾ واڌ ٿئي ٿي ته ان جو اثر بنا ڪنهن دير جي سڌو سنئون عوام تي پوي ٿو، پر جڏهن پيٽرول ۽ ڊيزل جا اگهه گهٽايا وڃن ٿا ته ان لاٿ جو فائدو عوام تائين سڌو سنئون ۽ فوري نٿو پهچي. پيٽروليم شين جي اگهن ۾ واڌ ۽ لاٿ جي حوالي سان عوام ڏانهن اختيار ڪيل اهو ٻٽو معيار هڪ اهڙو معاشي الميو بڻجي چڪو آهي، جنهن جو بار مسلسل عوام کي برداشت ڪرڻو پوي ٿو. حڪومت جڏهن به پيٽرول ۽ ڊيزل جا اگهه وڌائي ٿي ته ٽرانسپورٽر، واپاري، صنعتڪار ۽ مختلف ڪاروباري شعبا پنهنجا خرچ وڌڻ جو جواز ڄاڻائي ڀاڙا ۽ شين جا اگهه فوري طور تي وڌائي ڇڏيندا آهن. ان جي ابتڙ جڏهن اگهه گهٽجن ٿا ته ساڳيا ئي شعبا خاموشي اختيار ڪندا آهن ۽ عام واهتمامن کي ڪو به رليف نه ملندو آهي.",
+   "t": 1794727904,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8915,7 +8925,8 @@
   "done": [
    "08:00",
    "09:30",
-   "11:00"
+   "11:00",
+   "12:30"
   ]
  },
  "kawish_queue": [],
@@ -8925,20 +8936,6 @@
   "last": 1794657690.5787365
  },
  "tg_debug": [
-  {
-   "t": "11-15 08:09",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-15 08:11",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-15 08:20",
    "ok": true,
@@ -9200,6 +9197,20 @@
   },
   {
    "t": "11-15 12:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 12:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 12:36",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13367,6 +13378,50 @@
     "گهر",
     "گڊو"
    ]
+  },
+  {
+   "t": 1794727904,
+   "h": "پيٽروليم اگهن ۾ لاٿ جو عوام کي سڌو فائدو نه ملڻ الميو",
+   "b": "ملڪ ۾ پيٽروليم شين جي اگهن ۾ واڌ ٿئي ٿي ته ان جو اثر بنا ڪنهن دير جي سڌو سنئون عوام تي پوي ٿو، پر جڏهن پيٽرول",
+   "tt": [
+    "الميو",
+    "اگهن",
+    "سڌو",
+    "عوام",
+    "فائدو",
+    "لاٿ",
+    "ملڻ",
+    "پيٽروليم"
+   ],
+   "bt": [
+    "اثر",
+    "الميو",
+    "اگهن",
+    "اگهه",
+    "بنا",
+    "تائين",
+    "دير",
+    "سنئون",
+    "سڌو",
+    "شين",
+    "عوام",
+    "فائدو",
+    "فوري",
+    "لاٿ",
+    "ملڪ",
+    "ملڻ",
+    "نٿو",
+    "واڌ",
+    "وڃن",
+    "پهچي",
+    "پوي",
+    "پيٽرول",
+    "پيٽروليم",
+    "ٿئي",
+    "ٿو،",
+    "ڊيزل",
+    "گهٽايا"
+   ]
   }
  ],
  "repeat_log": [
@@ -13534,7 +13589,7 @@
  },
  "quality": {
   "date": "2026-11-15",
-  "editor_fixed": 8,
+  "editor_fixed": 9,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
