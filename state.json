@@ -1446,7 +1446,9 @@
   "d397f0103b0d0909": 1794719472.2048645,
   "dec8320115239d2b": 1794721877.7851686,
   "1e66d3aaa4622a65": 1794722471.9953141,
-  "39d2e6a0cff82eb1": 1794722479.5116925
+  "39d2e6a0cff82eb1": 1794722479.5116925,
+  "4d93f47cb34cc45d": 1794723668.030929,
+  "092599b65e6f4e79": 1794723668.0309324
  },
  "pending": {},
  "queue": [],
@@ -1577,7 +1579,7 @@
    "e64d0af6ded9d71b"
   ]
  },
- "last_post_id": "1444130002106066_122121201735503839",
+ "last_post_id": "1444130002106066_122121206583503839",
  "shareable": [
   {
    "id": "1444130002106066_122120877369503839",
@@ -2158,22 +2160,22 @@
   "httpwwwcricinfocomcienginematch1557552htmlcmpotcrss": {
    "post": "1444130002106066_122121184029503839",
    "wkts": {
-    "Pakistan Women|1": 6
+    "Pakistan Women|1": 7
    },
-   "wicket_posts": 4,
+   "wicket_posts": 5,
    "break_done": false,
-   "last_edit": 1794723370.0080462,
+   "last_edit": 1794723996.7234497,
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 11:16",
+  "time": "2026-11-15 11:26",
   "items": 19,
   "sample": [
    "Zimbabwe A 322/7 * v Ireland A 551/10",
-   "Afghanistan 160/6 * v Zimbabwe 339/10",
+   "Afghanistan 170/6 * v Zimbabwe 339/10",
    "Sydney Sixers Women 152/6 v Melbourne Renegades Women 156/8 *"
   ]
  },
@@ -2184,8 +2186,8 @@
  },
  "all_posts": {
   "date": "2026-11-15",
-  "count": 16,
-  "last": 1794722813.4909635
+  "count": 17,
+  "last": 1794723693.6332116
  },
  "perf": {
   "posts": [
@@ -7572,9 +7574,9 @@
  },
  "ai_usage": {
   "date": "2026-11-15",
-  "ok": 106,
-  "fail": 175,
-  "limit": 174
+  "ok": 107,
+  "fail": 177,
+  "limit": 176
  },
  "posted_heads": [
   {
@@ -7899,7 +7901,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 11:16",
+  "time": "2026-11-15 11:26",
   "steps": []
  },
  "roundup_am": "2026-11-15",
@@ -8007,7 +8009,7 @@
   "text": 10,
   "story": 9
  },
- "ai_last_error": "11:10 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "11:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-15",
   "models": [
@@ -8049,7 +8051,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
-   "ok": 66,
+   "ok": 67,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8057,7 +8059,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 69,
+   "ok": 70,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8065,7 +8067,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 69,
+   "ok": 70,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8073,7 +8075,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8081,7 +8083,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8089,14 +8091,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8105,9 +8107,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 70,
+   "fail": 71,
    "items": 15,
-   "fail_streak": 1594,
+   "fail_streak": 1595,
    "last_status": 404
   }
  },
@@ -8295,9 +8297,9 @@
   "pakistan": 7
  },
  "report_acc": {
-  "posted": 0,
-  "found": 4,
-  "old": 4,
+  "posted": 1,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8347,8 +8349,8 @@
   "date": "2026-11-15",
   "count": 2,
   "last": 1794721871.1527412,
-  "city_i": 22,
-  "dry": 1794720338.396599
+  "city_i": 4,
+  "dry": 1794723661.8535516
  },
  "gemini_day_dead": {
   "day": "2026-11-14",
@@ -8933,20 +8935,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-15 05:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-15 05:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-15 06:00",
    "ok": true,
    "n": 0,
@@ -9211,53 +9199,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-15 11:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 11:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-15",
  "recent_posts": [
-  {
-   "t": 1794550104,
-   "h": "منجهند جون خبرون | جمعو، 13 نومبر 2026",
-   "b": "1️⃣ فجيره ۾ خوفناڪ ٽريفڪ حادثو، 14 فوت فجيره ۾ ٽريفڪ حادثي دوران 14 ڄڻا فوت ۽ 30 زخمي ٿي پيا. 2️⃣ آمريڪي ڊالر",
-   "tt": [
-    "#13",
-    "جمعو،",
-    "خبرون",
-    "منجهند",
-    "نومبر"
-   ],
-   "bt": [
-    "#13",
-    "#14",
-    "#19",
-    "#30",
-    "امريڪي",
-    "اهم",
-    "بلند",
-    "ترين",
-    "جمعو،",
-    "حادثو،",
-    "حادثي",
-    "خبرون",
-    "خوفناڪ",
-    "دوران",
-    "زخمي",
-    "سطح",
-    "فجيره",
-    "فوت",
-    "مقابلي",
-    "منجهند",
-    "مهينن",
-    "ناتهن",
-    "نومبر",
-    "ٽريفڪ",
-    "پهچي",
-    "پيا",
-    "ڄڻا",
-    "ڊالر",
-    "ڪرنسين"
-   ]
-  },
   {
    "t": 1794551020,
    "h": "گئس مهانگي ٿيڻ جو امڪان",
@@ -13415,6 +13374,33 @@
    ],
    "bt": [
     "#93",
+    "ائوٽ،",
+    "اسڪور",
+    "رانديگر",
+    "هالينڊ",
+    "هاڻوڪو",
+    "وومين",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پاڪستان",
+    "پيون"
+   ]
+  },
+  {
+   "t": 1794723693,
+   "h": "وڪيٽ! پاڪستان وومين جو رانديگر آئوٽ، 7 وڪيٽون ڪري پيون",
+   "b": "هاڻوڪو اسڪور: پاڪستان وومين 123/7 🏏 هالينڊ وومين",
+   "tt": [
+    "ائوٽ،",
+    "رانديگر",
+    "وومين",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پاڪستان",
+    "پيون"
+   ],
+   "bt": [
+    "#123",
     "ائوٽ،",
     "اسڪور",
     "رانديگر",
