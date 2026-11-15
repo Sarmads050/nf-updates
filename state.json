@@ -1456,7 +1456,8 @@
   "64674f1a33bb3caa": 1794727265.462403,
   "e3ac1291c84f7552": 1794727872.112901,
   "7ce7ab26d6ec6bfc": 1794727872.1129043,
-  "7744bcb75017a4f1": 1794728454.5041032
+  "7744bcb75017a4f1": 1794728454.5041032,
+  "0e4f374519079954": 1794729063.6454978
  },
  "pending": {},
  "queue": [],
@@ -1587,20 +1588,8 @@
    "e64d0af6ded9d71b"
   ]
  },
- "last_post_id": "1444130002106066_122121230019503839",
+ "last_post_id": "1444130002106066_122121232053503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122120908581503839",
-   "title": "پاڪستان ۾ شگر جي مريضن جو انگ ساڍا 3 ڪروڙ کان وڌي ويو",
-   "t": 1794652914.935918,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122120908581503839"
-  },
   {
    "id": "1444130002106066_122120912163503839",
    "title": "نوشهري ۾ ٻڪرين جي چوري تان فائرنگ، 2 ڄڻا قتل",
@@ -1914,6 +1903,18 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122121230019503839"
+  },
+  {
+   "id": "1444130002106066_122121232053503839",
+   "title": "ٺٽو: ڪي ڊي اي ڪئنال ۾ ٻه ڄڻا ٻڏي ويا، پوليس اهلڪار گم",
+   "t": 1794729083.547359,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122121232053503839"
   }
  ],
  "share_sent": {
@@ -2170,18 +2171,18 @@
    },
    "wicket_posts": 5,
    "break_done": true,
-   "last_edit": 1794728796.7490778,
+   "last_edit": 1794729388.8760242,
    "batting": "Netherlands Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 12:46",
+  "time": "2026-11-15 12:56",
   "items": 19,
   "sample": [
-   "Zimbabwe A 329/9 * v Ireland A 551/10",
-   "Afghanistan 217/10 * v Zimbabwe 339/10",
+   "Zimbabwe A 329/10 * v Ireland A 551/10",
+   "Afghanistan 217/10 v Zimbabwe 4 & 339/10 *",
    "Sydney Sixers Women 152/6 v Melbourne Renegades Women 156/8 *"
   ]
  },
@@ -2192,17 +2193,11 @@
  },
  "all_posts": {
   "date": "2026-11-15",
-  "count": 21,
-  "last": 1794728487.7677526
+  "count": 22,
+  "last": 1794729072.8517528
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122117513805503839",
-    "sec": "kawish",
-    "cat": "district",
-    "t": 1793794282
-   },
    {
     "id": "1444130002106066_122117518251503839",
     "sec": "kawish",
@@ -4596,6 +4591,12 @@
     "sec": "public_news",
     "cat": "budget_tax_imf",
     "t": 1794728492
+   },
+   {
+    "id": "1444130002106066_122121232053503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1794729083
    }
   ]
  },
@@ -7580,15 +7581,11 @@
  },
  "ai_usage": {
   "date": "2026-11-15",
-  "ok": 130,
-  "fail": 217,
-  "limit": 216
+  "ok": 134,
+  "fail": 225,
+  "limit": 224
  },
  "posted_heads": [
-  {
-   "h": "عمران خان سان لطيف کوسي ۽ سلمان صفدر جون ملاقاتون",
-   "t": 1794489175
-  },
   {
    "h": "ڄامشورو مان گم ڄاڻايل ليڊي پوليس اهلڪار نمرا نور جو رجب کوسو سان پسند جو پرڻو، وڊيو بيان جاري، تحفظ جي اپيل",
    "t": 1794510172
@@ -7904,10 +7901,14 @@
   {
    "h": "IMF urges Pakistan to end petrol subsidy scheme",
    "t": 1794728492
+  },
+  {
+   "h": "ٺٽو: ڪي ڊي اي ڪئنال ۾ وهنجندي 2 ڄڻا ٻڏي ويا، هڪ کي بچايو ويو، ٻڏي ويل پوليس اهلڪار گم",
+   "t": 1794729083
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 12:46",
+  "time": "2026-11-15 12:56",
   "steps": []
  },
  "roundup_am": "2026-11-15",
@@ -8015,7 +8016,7 @@
   "text": 11,
   "story": 9
  },
- "ai_last_error": "12:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "12:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-15",
   "models": [
@@ -8029,10 +8030,10 @@
  },
  "img_diag": {
   "date": "2026-11-15",
-  "tried": 14,
+  "tried": 15,
   "gemini": 0,
   "pollinations": 9,
-  "skip": 2,
+  "skip": 3,
   "fail": 1,
   "last_note": "open street manhole",
   "mismatch": 670,
@@ -8057,7 +8058,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
-   "ok": 75,
+   "ok": 76,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8065,7 +8066,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 78,
+   "ok": 79,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8073,7 +8074,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 78,
+   "ok": 79,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8081,7 +8082,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 79,
+   "ok": 80,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8089,7 +8090,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 79,
+   "ok": 80,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8097,14 +8098,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 79,
+   "ok": 80,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 79,
+   "ok": 80,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8113,9 +8114,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 79,
+   "fail": 80,
    "items": 15,
-   "fail_streak": 1603,
+   "fail_streak": 1604,
    "last_status": 404
   }
  },
@@ -8299,13 +8300,13 @@
  "region_posts": {
   "date": "2026-11-15",
   "district": 0,
-  "sindh": 5,
+  "sindh": 6,
   "pakistan": 8
  },
  "report_acc": {
-  "posted": 3,
-  "found": 16,
-  "old": 16,
+  "posted": 4,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8353,9 +8354,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-15",
-  "count": 4,
-  "last": 1794727869.164203,
-  "city_i": 6,
+  "count": 5,
+  "last": 1794729061.3670104,
+  "city_i": 10,
   "dry": 1794726079.929885
  },
  "gemini_day_dead": {
@@ -8915,6 +8916,14 @@
    "t": 1794728492,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "aa568a551a98499d",
+   "h": "ٺٽو: ڪي ڊي اي ڪئنال ۾ ٻه ڄڻا ٻڏي ويا، پوليس اهلڪار گم",
+   "x": "ٺٽي ڀرسان ڪي ڊي اي ڪئنال ۾ وهنجندي 2 ڄڻا اونهي پاڻي ۾ ٻڏي ويا، جن مان مقامي ٽوٻن هڪ ڄڻي کي بچائي ورتو، جڏهن ته پوليس اهلڪار سميت ٻئي ڄڻي جي ڳولا جاري آهي. واقعو ڳوٺ حاجي جعفر ڪماڻ ڀرسان پيش آيو، جتي ڪراچي واسي افضل خان پٺاڻ ۽ پوليس اهلڪار نعمان پٺاڻ وهنجندي ٻڏي ويا. مقامي ٽوٻن افضل خان پٺاڻ کي بچائي ورتو، جڏهن ته نعمان پٺاڻ جو اڃا تائين پتو نه پئجي سگهيو آهي. واقعي بعد گم ٿيل پوليس اهلڪار جي وارثن ۾ پريشاني پکڙجي وئي آهي. وارثن ضلعي انتظاميا ٺٽي کان اپيل ڪئي آهي ته نعمان پٺاڻ جي فوري طور تي ڳولا ڪرائي وڃي.",
+   "t": 1794729083,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8933,20 +8942,6 @@
   "last": 1794657690.5787365
  },
  "tg_debug": [
-  {
-   "t": "11-15 08:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-15 08:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-15 09:00",
    "ok": true,
@@ -9208,6 +9203,20 @@
   },
   {
    "t": "11-15 12:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 12:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 12:56",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13409,6 +13418,59 @@
     "پيٽرول",
     "ڪرڻ"
    ]
+  },
+  {
+   "t": 1794729083,
+   "h": "ٺٽو: ڪي ڊي اي ڪئنال ۾ ٻه ڄڻا ٻڏي ويا، پوليس اهلڪار گم",
+   "b": "ٺٽي ڀرسان ڪي ڊي اي ڪئنال ۾ وهنجندي 2 ڄڻا اونهي پاڻي ۾ ٻڏي ويا، جن مان مقامي ٽوٻن هڪ ڄڻي کي بچائي ورتو، جڏهن",
+   "tt": [
+    "اهلڪار",
+    "ويا،",
+    "ٺٽو",
+    "ٻڏي",
+    "پوليس",
+    "ڄڻا",
+    "ڪئنال"
+   ],
+   "bt": [
+    "افضل",
+    "اهلڪار",
+    "اهي",
+    "اونهي",
+    "ايو،",
+    "بچائي",
+    "جاري",
+    "جتي",
+    "جعفر",
+    "حاجي",
+    "خان",
+    "سميت",
+    "مان",
+    "مقامي",
+    "نعمان",
+    "واسي",
+    "واقعو",
+    "ورتو،",
+    "وهنجندي",
+    "ويا،",
+    "ٺٽو",
+    "ٺٽي",
+    "ٻئي",
+    "ٻڏي",
+    "ٽوٻن",
+    "پاڻي",
+    "پوليس",
+    "پيش",
+    "پٺاڻ",
+    "ڀرسان",
+    "ڄڻا",
+    "ڄڻي",
+    "ڪئنال",
+    "ڪراچي",
+    "ڪماڻ",
+    "ڳولا",
+    "ڳوٺ"
+   ]
   }
  ],
  "repeat_log": [
@@ -13576,7 +13638,7 @@
  },
  "quality": {
   "date": "2026-11-15",
-  "editor_fixed": 10,
+  "editor_fixed": 11,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
