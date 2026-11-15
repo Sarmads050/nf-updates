@@ -1457,7 +1457,9 @@
   "9d2e59a959a34aac": 1794776485.4136734,
   "c1dca6e30332167f": 1794777654.505097,
   "3353fb12044e887e": 1794777680.6307175,
-  "39672ba1784836c6": 1794777680.6307197
+  "39672ba1784836c6": 1794777680.6307197,
+  "2744486c82aa5250": 1794778284.823583,
+  "10109f03f0131a51": 1794778284.8235853
  },
  "pending": {},
  "queue": [],
@@ -2195,11 +2197,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-16 02:21",
+  "time": "2026-11-16 02:31",
   "items": 35,
   "sample": [
-   "Zimbabwe A 329/10 & 214/3 * v Ireland A 551/10",
-   "Afghanistan 217/10 v Zimbabwe 339/10 & 169/7 *",
+   "Zimbabwe A 214/3 & 329/10 * v Ireland A 551/10",
+   "Afghanistan 217/10 v Zimbabwe 169/7 & 339/10 *",
    "Mashonaland Eagles 130/3 * v Mountaineers 126/10"
   ]
  },
@@ -4623,72 +4625,8 @@
   "last": 1794766922.9758646
  },
  "trends": {
-  "last": 1794766862.4171581,
+  "last": 1794778258.0220008,
   "terms": [
-   {
-    "term": "atlético vs barcelona",
-    "traffic": 1000,
-    "news": "El Atlético con y sin Cuti Romero: dos equipos distintos",
-    "t": 1794165656,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "birthday wishes",
-    "traffic": 100,
-    "news": "PM Modi, Chandrababu Naidu and other leaders greet Telangana CM Revanth Reddy on birthday",
-    "t": 1794165656,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "pl",
-    "traffic": 200,
-    "news": "Młodzi imigranci w Norwegii coraz częściej znajdują pracę. Nowe dane SSB pokazują jednak wyraźne różnice",
-    "t": 1794165656,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "villarreal vs getafe",
-    "traffic": 100,
-    "news": "Team A vs Team B Football Match Stats | Player & Team Statistics in Real-Time",
-    "t": 1794165656,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "riyadh saudi arabia",
-    "traffic": 200,
-    "news": "Live - Tensions remain high in Persian Gulf with tanker fire report, attacks on Riyadh",
-    "t": 1794165656,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "wwe smackdown",
-    "traffic": 100,
-    "news": "WWE SmackDown Review: Owens and Punk Tear Brooklyn Apart",
-    "t": 1794165656,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "alex eala",
-    "traffic": 100,
-    "news": "American Claire Liu wins Hong Kong Tennis Open for her 1st career WTA title",
-    "t": 1794165656,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "سعودی آرامکو",
-    "traffic": 100,
-    "news": "یک ساختمان اداری آرامکو در پی حمله حوثی‌ها آسیب دید",
-    "t": 1794165656,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "atlético madrid vs fc barcelona standings",
     "traffic": 2000,
@@ -7560,15 +7498,47 @@
     "t": 1794766862,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "belgium vs italy",
+    "traffic": 2000,
+    "news": "'It's more like a knockout match!' – Mark van Bommel issues passionate rallying cry ahead of Italy showdown",
+    "t": 1794778258,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "doomsday",
+    "traffic": 200,
+    "news": "‘Avengers: Doomsday’ Will Begin the End of 25 Years of Marvel Storytelling",
+    "t": 1794778258,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "ravenna fc",
+    "traffic": 100,
+    "news": "Ravenna FC 26-27 'Ronaldinho' Away Kit Released - Debuted by Ronaldinho",
+    "t": 1794778258,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "parivarik manuranjan",
+    "traffic": 100,
+    "news": "Pankaj Tripathi on Actors’ Fragility and Spirituality",
+    "t": 1794778258,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-16",
-  "ok": 14,
-  "fail": 27,
-  "limit": 26
+  "ok": 16,
+  "fail": 31,
+  "limit": 30
  },
  "posted_heads": [
   {
@@ -7893,7 +7863,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-16 02:21",
+  "time": "2026-11-16 02:31",
   "steps": []
  },
  "roundup_am": "2026-11-15",
@@ -8001,7 +7971,7 @@
   "text": 1,
   "story": 0
  },
- "ai_last_error": "02:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "02:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-16",
   "models": [
@@ -8043,7 +8013,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-16",
-   "ok": 14,
+   "ok": 15,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8051,7 +8021,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-16",
-   "ok": 14,
+   "ok": 15,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8059,7 +8029,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-16",
-   "ok": 14,
+   "ok": 15,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8067,7 +8037,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 15,
+   "ok": 16,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8075,7 +8045,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 15,
+   "ok": 16,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8083,14 +8053,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 15,
+   "ok": 16,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 15,
+   "ok": 16,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8099,9 +8069,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-16",
    "ok": 0,
-   "fail": 15,
+   "fail": 16,
    "items": 15,
-   "fail_streak": 1687,
+   "fail_streak": 1688,
    "last_status": 404
   }
  },
@@ -8322,8 +8292,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 6,
-  "old": 6,
+  "found": 9,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8374,8 +8344,8 @@
   "date": "2026-11-16",
   "count": 1,
   "last": 1794772874.836245,
-  "city_i": 12,
-  "dry": 1794777663.1133223
+  "city_i": 16,
+  "dry": 1794778268.4524472
  },
  "gemini_day_dead": {
   "day": "2026-11-15",
@@ -9011,13 +8981,6 @@
    "err": null
   },
   {
-   "t": "11-15 22:36",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-15 22:42",
    "ok": true,
    "n": 0,
@@ -9278,6 +9241,13 @@
   },
   {
    "t": "11-16 02:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-16 02:30",
    "ok": true,
    "n": 0,
    "ids": [],
