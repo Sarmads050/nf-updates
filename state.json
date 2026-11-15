@@ -1447,7 +1447,12 @@
   "7ca672739c8034f9": 1794700266.0233812,
   "69c3ffc072318f26": 1794700266.0235586,
   "2ad08fd55f892393": 1794700887.2982953,
-  "b30c5c9a3e23fe04": 1794701457.5867887
+  "b30c5c9a3e23fe04": 1794701457.5867887,
+  "f048add249b7f09b": 1794703867.8569007,
+  "b9581fda5109debe": 1794703867.8569028,
+  "e9e6cd8e90486483": 1794703867.856904,
+  "587bea90bedff866": 1794703867.8569052,
+  "5e58594d83968b91": 1794703867.8570683
  },
  "pending": {},
  "queue": [],
@@ -2171,7 +2176,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 05:40",
+  "time": "2026-11-15 05:51",
   "items": 20,
   "sample": [
    "Zimbabwe A 322/7 * v Ireland A 551/10",
@@ -7550,9 +7555,9 @@
  },
  "ai_usage": {
   "date": "2026-11-15",
-  "ok": 45,
-  "fail": 71,
-  "limit": 70
+  "ok": 48,
+  "fail": 77,
+  "limit": 76
  },
  "posted_heads": [
   {
@@ -7877,7 +7882,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 05:40",
+  "time": "2026-11-15 05:51",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -7980,12 +7985,12 @@
  },
  "article_diag": {
   "date": "2026-11-15",
-  "tried": 6,
-  "decoded": 6,
-  "text": 5,
-  "story": 5
+  "tried": 7,
+  "decoded": 7,
+  "text": 6,
+  "story": 6
  },
- "ai_last_error": "05:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "05:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-15",
   "models": [
@@ -8027,7 +8032,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
-   "ok": 35,
+   "ok": 36,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8035,7 +8040,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 36,
+   "ok": 37,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8043,7 +8048,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 36,
+   "ok": 37,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8051,7 +8056,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8059,7 +8064,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8067,14 +8072,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8083,9 +8088,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 37,
+   "fail": 38,
    "items": 15,
-   "fail_streak": 1561,
+   "fail_streak": 1562,
    "last_status": 404
   }
  },
@@ -8274,8 +8279,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 16,
-  "old": 16,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8325,8 +8330,8 @@
   "date": "2026-11-15",
   "count": 0,
   "last": 1794684208.2471442,
-  "city_i": 8,
-  "dry": 1794700877.7244606
+  "city_i": 12,
+  "dry": 1794703863.0840979
  },
  "gemini_day_dead": {
   "day": "2026-11-14",
@@ -8939,13 +8944,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 23:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-14 23:40",
    "ok": true,
    "n": 0,
@@ -9213,6 +9211,13 @@
   },
   {
    "t": "11-15 05:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 05:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13611,11 +13616,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-13 16:31",
-   "new": "ڪراچي ۾ جمععي ڏينهن تي مينهن جو امڪان",
-   "old": "سنڌ ۾ خشڪ موسم ۽ ڪراچي ۾ برسات جو امڪان"
-  },
-  {
    "t": "11-13 17:01",
    "new": "پيٽرول ۽ ڊيزل اگهن ۾ گهٽتائي",
    "old": "صبح جون سنڌ جون اهم خبرون"
@@ -13759,6 +13759,11 @@
    "t": "11-15 04:51",
    "new": "پاڪستان ۾ مهانگائي جو طوفان، روزمره جي شين جا اگھه وڌي ويا",
    "old": "مهانگائي جي شرح ۾ گهٽتائي، سالاڻو اگهه 11 سيڪڙو کان وڌيڪ"
+  },
+  {
+   "t": "11-15 05:51",
+   "new": "حيسڪو پاران ٻن ڪلاڪن جي واڌو لوڊشيڊنگ جو اعلان",
+   "old": "نوشهروفيروز جو اڄ | 14-11-2026"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13779,6 +13784,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 3
- }
+  "repeat": 4
+ },
+ "_dup": true
 }
