@@ -1456,7 +1456,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-14",
-  "count": 2
+  "count": 3
  },
  "last_digest": "2026-11-14",
  "alert_day": "2026-10-20",
@@ -1513,7 +1513,7 @@
    "نوشهروفيروز: شاديءَ جي ڄڃ ويل گهر مان چور لکين رپين جو سامان ۽ روپيا چورائي وئا"
   ]
  },
- "last_daily": "2026-11-14",
+ "last_daily": "2026-11-15",
  "roundup_pm": "2026-11-14",
  "replied": [],
  "q_index": 6,
@@ -1579,7 +1579,7 @@
    "e64d0af6ded9d71b"
   ]
  },
- "last_post_id": "1444130002106066_122121077319503839",
+ "last_post_id": "1444130002106066_122121096939503839",
  "shareable": [
   {
    "id": "1444130002106066_122120828823503839",
@@ -2172,12 +2172,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 06:51",
+  "time": "2026-11-15 07:02",
   "items": 19,
   "sample": [
    "Zimbabwe A 322/7 * v Ireland A 551/10",
    "Afghanistan 159/6 * v Zimbabwe 339/10",
-   "Sydney Sixers Women 152/6 v Melbourne Renegades Women 17 *"
+   "Sydney Sixers Women 152/6 v Melbourne Renegades Women 31/1 *"
   ]
  },
  "agri_news": {
@@ -2187,8 +2187,8 @@
  },
  "all_posts": {
   "date": "2026-11-15",
-  "count": 4,
-  "last": 1794701011.4673579
+  "count": 5,
+  "last": 1794708147.349902
  },
  "perf": {
   "posts": [
@@ -7551,9 +7551,9 @@
  },
  "ai_usage": {
   "date": "2026-11-15",
-  "ok": 53,
-  "fail": 87,
-  "limit": 86
+  "ok": 56,
+  "fail": 89,
+  "limit": 88
  },
  "posted_heads": [
   {
@@ -7878,7 +7878,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 06:51",
+  "time": "2026-11-15 07:02",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -7986,7 +7986,7 @@
   "text": 6,
   "story": 6
  },
- "ai_last_error": "06:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "07:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-15",
   "models": [
@@ -8000,13 +8000,13 @@
  },
  "img_diag": {
   "date": "2026-11-15",
-  "tried": 4,
+  "tried": 5,
   "gemini": 0,
-  "pollinations": 2,
+  "pollinations": 3,
   "skip": 0,
   "fail": 0,
-  "last_note": "women cricket bats and ball",
-  "mismatch": 665,
+  "last_note": "weather forecast and clock",
+  "mismatch": 666,
   "unverified": 1
  },
  "gemini_img": {
@@ -8029,14 +8029,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
    "ok": 42,
-   "fail": 2,
+   "fail": 3,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 43,
+   "ok": 44,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8044,7 +8044,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 43,
+   "ok": 44,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8052,7 +8052,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 44,
+   "ok": 45,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8060,7 +8060,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 44,
+   "ok": 45,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8068,14 +8068,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 44,
+   "ok": 45,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 44,
+   "ok": 45,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8084,9 +8084,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 44,
+   "fail": 45,
    "items": 15,
-   "fail_streak": 1568,
+   "fail_streak": 1569,
    "last_status": 404
   }
  },
@@ -8275,13 +8275,13 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 20,
-  "old": 20,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-15 06",
+ "report_hour": "2026-11-15 07",
  "kawish_upload_times": {
   "_date": "2026-11-15",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8940,13 +8940,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-15 00:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-15 00:50",
    "ok": true,
    "n": 0,
@@ -9218,80 +9211,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-15 07:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-15",
  "recent_posts": [
-  {
-   "t": 1794531720,
-   "h": "پاڪستان عورتن جي ڪرڪيٽ ٽيم بنگلاديش کي شڪست ڏئي ڇڏي",
-   "b": "بنگلاديش خلاف آءِ سي سي ايونٽ ميچ ۾ پاڪستاني عورتن جي ٽيم شاندار ڪارڪردگي ڏيکاريندي اٺ وڪيٽن سان ڪاميابي حاصل",
-   "tt": [
-    "بنگلاديش",
-    "شڪست",
-    "عورتن",
-    "ٽيم",
-    "پاڪستان",
-    "ڇڏي",
-    "ڏئي",
-    "ڪرڪيٽ"
-   ],
-   "bt": [
-    "ايونٽ",
-    "بنگلاديش",
-    "حاصل",
-    "خلاف",
-    "شاندار",
-    "شڪست",
-    "عورتن",
-    "ميچ",
-    "ورتي",
-    "وڪيٽن",
-    "ٽيم",
-    "پاڪستان",
-    "پاڪستاني",
-    "ڇڏي",
-    "ڏئي",
-    "ڏيڪاريندي",
-    "ڪارڪردگي",
-    "ڪاميابي",
-    "ڪرڪيٽ"
-   ]
-  },
-  {
-   "t": 1794533504,
-   "h": "پنجاب ۽ سنڌ ۾ پاڻي جي سخت کوٽ",
-   "b": "پنجاب ۽ سنڌ ۾ پاڻي جي سخت کوٽ کي منهن ڏيڻو پئجي رهيو آهي، جنهن سبب آبپاشي ۽ زرعي زمينن کي پاڻي پهچائڻ ۾ شديد",
-   "tt": [
-    "سخت",
-    "سنڌ",
-    "پاڻي",
-    "پنجاب",
-    "ڪوٽ"
-   ],
-   "bt": [
-    "ابپاشي",
-    "اهن",
-    "اهي،",
-    "رهيو",
-    "زرعي",
-    "زمينن",
-    "سبب",
-    "سخت",
-    "سنڌ",
-    "شديد",
-    "مشڪلاتون",
-    "منهن",
-    "ويون",
-    "پئجي",
-    "پاڻي",
-    "پنجاب",
-    "پهچائڻ",
-    "پيدا",
-    "ڏيڻو",
-    "ڪوٽ"
-   ]
-  },
   {
    "t": 1794535402,
    "h": "نوشهروفيروز جو اڄ | 13-11-2026",
@@ -13608,6 +13538,56 @@
     "ڪرڪيٽ",
     "ڪيڏيو"
    ]
+  },
+  {
+   "t": 1794708147,
+   "h": "نوشهروفيروز جو اڄ | 15-11-2026",
+   "b": "5 جُمادى الآخرة 1448ھ نماز جا وقت: فجر 05:27 | ظهر 12:12 | عصر 16:01 مغرب 17:37 | عشا 18:57 سج اڀرڻ 06:47 اڄ",
+   "tt": [
+    "#11",
+    "#15",
+    "نوشهروفيروز"
+   ],
+   "bt": [
+    "#1",
+    "#11",
+    "#12",
+    "#1448",
+    "#15",
+    "#16",
+    "#17",
+    "#18",
+    "#19",
+    "#27",
+    "#32",
+    "#37",
+    "#47",
+    "#5",
+    "#57",
+    "#6",
+    "1448ه",
+    "الاخره",
+    "اوهان",
+    "اڀرڻ",
+    "جمادى",
+    "سٺو",
+    "سڀني",
+    "ظهر",
+    "عشا",
+    "عصر",
+    "فجر",
+    "مغرب",
+    "موسم",
+    "نماز",
+    "نوشهروفيروز",
+    "وقت",
+    "ڏينهن",
+    "ڪجهه",
+    "ڪڪر",
+    "گذري",
+    "گرمي",
+    "گهٽ"
+   ]
   }
  ],
  "repeat_log": [
@@ -13770,7 +13750,7 @@
  "approve_next": 1792771906.5617883,
  "approve_last": 1792771860.5720606,
  "groq_disc": {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "model": "openai/gpt-oss-120b"
  },
  "quality": {
@@ -13781,6 +13761,5 @@
   "kawish_crosschecked": 0,
   "wrong_place": 0,
   "repeat": 4
- },
- "_dup": true
+ }
 }
