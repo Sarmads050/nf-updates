@@ -2186,12 +2186,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-16 03:50",
+  "time": "2026-11-16 04:01",
   "items": 32,
   "sample": [
-   "Afghanistan 217/10 v Zimbabwe 169/7 & 339/10 *",
+   "Afghanistan 217/10 v Zimbabwe 339/10 & 169/7 *",
    "South Africa v Bangladesh 327/6 *",
-   "United Tigers 88/10 v Yas Lions 90/2 *"
+   "United Tigers 88/10 v Yas Lions 90/2"
   ]
  },
  "agri_news": {
@@ -7852,7 +7852,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-16 03:50",
+  "time": "2026-11-16 04:01",
   "steps": []
  },
  "roundup_am": "2026-11-15",
@@ -8002,7 +8002,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-16",
-   "ok": 24,
+   "ok": 25,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8010,7 +8010,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-16",
-   "ok": 24,
+   "ok": 25,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8018,7 +8018,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-16",
-   "ok": 24,
+   "ok": 25,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8026,7 +8026,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8034,7 +8034,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8042,14 +8042,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8058,9 +8058,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-16",
    "ok": 0,
-   "fail": 25,
+   "fail": 26,
    "items": 15,
-   "fail_streak": 1697,
+   "fail_streak": 1698,
    "last_status": 404
   }
  },
@@ -8280,14 +8280,14 @@
   "pakistan": 2
  },
  "report_acc": {
-  "posted": 1,
-  "found": 15,
-  "old": 15,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-16 03",
+ "report_hour": "2026-11-16 04",
  "kawish_upload_times": {
   "_date": "2026-11-16",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8963,13 +8963,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-15 23:16",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-15 23:20",
    "ok": true,
    "n": 0,
@@ -9237,6 +9230,13 @@
   },
   {
    "t": "11-16 03:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-16 04:00",
    "ok": true,
    "n": 0,
    "ids": [],
