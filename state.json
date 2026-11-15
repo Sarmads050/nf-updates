@@ -1,16 +1,5 @@
 {
  "seen": {
-  "85d01d703c5bb830": 1794099697.3841786,
-  "624b4741cdc31f9e": 1794099718.8499858,
-  "0e8206ff14cbcfe8": 1794099718.8499892,
-  "6c6d23f12dacb04d": 1794099718.8499901,
-  "0a0c6ff279615d3f": 1794099718.8499908,
-  "0e93d3139d29a4f3": 1794099718.8499918,
-  "bb39260089baad17": 1794099718.8499932,
-  "a054cf311103dbb5": 1794099718.8499942,
-  "8022b295834415d7": 1794099718.849995,
-  "996fc1dff2657570": 1794099718.8499956,
-  "ea3193159a81253f": 1794099718.850183,
   "bb1935dc074c49dc": 1794101477.0291173,
   "1d1fe19412cafa09": 1794104471.5269697,
   "cd70a1f24b3118c6": 1794104481.0358572,
@@ -1454,7 +1443,9 @@
   "587bea90bedff866": 1794703867.8569052,
   "5e58594d83968b91": 1794703867.8570683,
   "366444f8150a4ea0": 1794704477.5114465,
-  "d8038945f1ce2e77": 1794704490.5397148
+  "d8038945f1ce2e77": 1794704490.5397148,
+  "52b0f17ebe8a12f7": 1794705055.5544474,
+  "c2e2ba1efa417d64": 1794705069.9944355
  },
  "pending": {},
  "queue": [],
@@ -2178,12 +2169,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 06:01",
+  "time": "2026-11-15 06:11",
   "items": 19,
   "sample": [
    "Zimbabwe A 322/7 * v Ireland A 551/10",
    "Afghanistan 159/6 * v Zimbabwe 339/10",
-   "Sydney Sixers Women 98/2 * v Melbourne Renegades Women"
+   "Sydney Sixers Women 115/3 * v Melbourne Renegades Women"
   ]
  },
  "agri_news": {
@@ -7557,9 +7548,9 @@
  },
  "ai_usage": {
   "date": "2026-11-15",
-  "ok": 50,
-  "fail": 81,
-  "limit": 80
+  "ok": 51,
+  "fail": 83,
+  "limit": 82
  },
  "posted_heads": [
   {
@@ -7884,7 +7875,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 06:01",
+  "time": "2026-11-15 06:11",
   "steps": []
  },
  "roundup_am": "2026-11-14",
@@ -7992,7 +7983,7 @@
   "text": 6,
   "story": 6
  },
- "ai_last_error": "06:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-15",
   "models": [
@@ -8034,7 +8025,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
-   "ok": 37,
+   "ok": 38,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8042,7 +8033,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 38,
+   "ok": 39,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8050,7 +8041,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 38,
+   "ok": 39,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8058,7 +8049,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8066,7 +8057,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8074,14 +8065,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8090,9 +8081,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 39,
+   "fail": 40,
    "items": 15,
-   "fail_streak": 1563,
+   "fail_streak": 1564,
    "last_status": 404
   }
  },
@@ -8281,8 +8272,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8332,8 +8323,8 @@
   "date": "2026-11-15",
   "count": 0,
   "last": 1794684208.2471442,
-  "city_i": 16,
-  "dry": 1794704474.1373847
+  "city_i": 20,
+  "dry": 1794705065.4936066
  },
  "gemini_day_dead": {
   "day": "2026-11-14",
@@ -8946,13 +8937,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-14 23:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-15 00:00",
    "ok": true,
    "n": 0,
@@ -9220,6 +9204,13 @@
   },
   {
    "t": "11-15 06:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 06:10",
    "ok": true,
    "n": 0,
    "ids": [],
