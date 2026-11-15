@@ -1,6 +1,5 @@
 {
  "seen": {
-  "87d00a57a9c08687": 1794142269.1728764,
   "bd892483a4b3ada3": 1794142869.2299545,
   "b3540adf5e41f743": 1794144055.2735271,
   "f8f347d8dd5808e7": 1794144075.3455937,
@@ -1466,7 +1465,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-14",
-  "count": 4
+  "count": 5
  },
  "last_digest": "2026-11-15",
  "alert_day": "2026-10-20",
@@ -1524,7 +1523,7 @@
   ]
  },
  "last_daily": "2026-11-15",
- "roundup_pm": "2026-11-14",
+ "roundup_pm": "2026-11-15",
  "replied": [],
  "q_index": 6,
  "last_question": "2026-11-13",
@@ -1590,7 +1589,7 @@
    "d44eb695becc2f18"
   ]
  },
- "last_post_id": "1444130002106066_122121295149503839",
+ "last_post_id": "1444130002106066_122121296595503839",
  "shareable": [
   {
    "id": "1444130002106066_122120983389503839",
@@ -2166,19 +2165,19 @@
    },
    "wicket_posts": 5,
    "break_done": true,
-   "last_edit": 1794747511.3320544,
+   "last_edit": 1794748025.698956,
    "batting": "Netherlands Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 17:58",
-  "items": 19,
+  "time": "2026-11-15 18:07",
+  "items": 21,
   "sample": [
-   "Zimbabwe A 161/3 & 329/10 * v Ireland A 551/10",
-   "Afghanistan 217/10 v Zimbabwe 339/10 & 162/5 *",
-   "Sydney Sixers Women 152/6 v Melbourne Renegades Women 156/8 *"
+   "Zimbabwe A 168/3 & 329/10 * v Ireland A 551/10",
+   "Afghanistan 217/10 v Zimbabwe 164/6 & 339/10 *",
+   "Diasqua Little Sai Wan Cricket Club 324/7 v Pakistan Association of Hong Kong 120/10 *"
   ]
  },
  "agri_news": {
@@ -2188,8 +2187,8 @@
  },
  "all_posts": {
   "date": "2026-11-15",
-  "count": 33,
-  "last": 1794747200.2456837
+  "count": 34,
+  "last": 1794747714.1977084
  },
  "perf": {
   "posts": [
@@ -7568,9 +7567,9 @@
  },
  "ai_usage": {
   "date": "2026-11-15",
-  "ok": 236,
-  "fail": 333,
-  "limit": 333
+  "ok": 237,
+  "fail": 335,
+  "limit": 335
  },
  "posted_heads": [
   {
@@ -7895,7 +7894,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 17:58",
+  "time": "2026-11-15 18:07",
   "steps": []
  },
  "roundup_am": "2026-11-15",
@@ -8003,7 +8002,7 @@
   "text": 17,
   "story": 12
  },
- "ai_last_error": "17:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-15",
   "models": [
@@ -8046,14 +8045,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
    "ok": 106,
-   "fail": 5,
+   "fail": 6,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 110,
+   "ok": 111,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8061,7 +8060,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 110,
+   "ok": 111,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8069,7 +8068,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8077,7 +8076,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8085,14 +8084,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8101,9 +8100,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 111,
+   "fail": 112,
    "items": 15,
-   "fail_streak": 1635,
+   "fail_streak": 1636,
    "last_status": 404
   }
  },
@@ -8319,18 +8318,18 @@
  "region_posts": {
   "date": "2026-11-15",
   "district": 3,
-  "sindh": 11,
+  "sindh": 12,
   "pakistan": 11
  },
  "report_acc": {
-  "posted": 4,
-  "found": 15,
-  "old": 15,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-15 17",
+ "report_hour": "2026-11-15 18",
  "kawish_upload_times": {
   "_date": "2026-11-15",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8973,20 +8972,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-15 14:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-15 14:56",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-15 15:00",
    "ok": true,
    "n": 0,
@@ -9247,6 +9232,20 @@
   },
   {
    "t": "11-15 17:58",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 18:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 18:07",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13199,6 +13198,54 @@
     "وومن",
     "ٻاهر",
     "ٽرافي"
+   ]
+  },
+  {
+   "t": 1794747714,
+   "h": "شام جون سنڌ جون اهم خبرون",
+   "b": "15 نومبر 2026 1️⃣ نادرا پاران ٻاهرين ملڪ رهندڙ پاڪستانين لاءِ بائامريڪا تصديق جو طريقو جاري نادرا ٻاهرين ملڪن",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "شام"
+   ],
+   "bt": [
+    "#15",
+    "اهم",
+    "اهي",
+    "ايپ",
+    "بائامريڪا",
+    "ترجمان",
+    "تصديق",
+    "جاري",
+    "جانشيني",
+    "حصول",
+    "خبرون",
+    "ذريعي",
+    "رهندڙ",
+    "سرٽيفڪيٽ",
+    "سنڌ",
+    "سگهن",
+    "شام",
+    "شهري",
+    "طريقو",
+    "ملڪ",
+    "ملڪن",
+    "موجب",
+    "نادرا",
+    "نومبر",
+    "ويٺي",
+    "وڌيڪ",
+    "ٻاهرين",
+    "ٻڌائي",
+    "پاران",
+    "پاڪ",
+    "پاڪستانين",
+    "ڇڏيو",
+    "ڪرائي",
+    "ڪرائڻ",
+    "گهر"
    ]
   }
  ],
