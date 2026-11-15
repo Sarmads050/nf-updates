@@ -1440,7 +1440,8 @@
   "d0dd7662bae60042": 1794707469.526816,
   "657e8264caf09610": 1794711073.321153,
   "6d99ee51ea563f07": 1794714673.8567467,
-  "ef6b4a2e519355f6": 1794714673.8568914
+  "ef6b4a2e519355f6": 1794714673.8568914,
+  "d86274be1c0019b9": 1794715867.2632618
  },
  "pending": {},
  "queue": [],
@@ -1571,18 +1572,8 @@
    "e64d0af6ded9d71b"
   ]
  },
- "last_post_id": "1444130002106066_122121128955503839",
+ "last_post_id": "1444130002106066_122121138507503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122120843889503839",
-   "title": "ڄاڻايل ڏينھن تي پاڪستان ۾ چانديءَ جو نئون اگهه سامهون اچي ويو",
-   "t": 1794635536.555017,
-   "tags": [
-    "business",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122120843889503839"
-  },
   {
    "id": "1444130002106066_122120848815503839",
    "title": "پاڪستان جي تاريخ ۾ پهريون ڀيرو پيٽرول تي رڪارڊ ليوي وصول",
@@ -1902,6 +1893,15 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122121128955503839"
+  },
+  {
+   "id": "1444130002106066_122121138507503839",
+   "title": "وفاقي وزير تربيلا ڊيم ايڪسٽينشن منصوبي تي جاري ڪمن جو جائزو ورتو ۽ واٽر پاور جي معاملن تي",
+   "t": 1794715918.8116524,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122121138507503839"
   }
  ],
  "share_sent": {
@@ -2161,7 +2161,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 09:01",
+  "time": "2026-11-15 09:11",
   "items": 19,
   "sample": [
    "Zimbabwe A 322/7 * v Ireland A 551/10",
@@ -2176,17 +2176,11 @@
  },
  "all_posts": {
   "date": "2026-11-15",
-  "count": 7,
-  "last": 1794714798.346682
+  "count": 8,
+  "last": 1794715913.1697052
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122117474487503839",
-    "sec": "cricket_news",
-    "cat": "cricket_news",
-    "t": 1793786590
-   },
    {
     "id": "1444130002106066_122117480223503839",
     "sec": "sindh_stream",
@@ -4580,13 +4574,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1794714804
+   },
+   {
+    "id": "1444130002106066_122121138507503839",
+    "sec": "public_news",
+    "cat": "water",
+    "t": 1794715918
    }
   ]
  },
  "public_news": {
   "date": "2026-11-15",
-  "count": 2,
-  "last": 1794692584.3318663
+  "count": 3,
+  "last": 1794715918.8116324
  },
  "trends": {
   "last": 1794712239.342207,
@@ -7548,15 +7548,11 @@
  },
  "ai_usage": {
   "date": "2026-11-15",
-  "ok": 67,
-  "fail": 105,
-  "limit": 104
+  "ok": 75,
+  "fail": 119,
+  "limit": 118
  },
  "posted_heads": [
-  {
-   "h": "نوشهروفيروز سول اسپتال ۾ سهولتن جي کوٽ خلاف شهرين جو احتجاج",
-   "t": 1794481315
-  },
   {
    "h": "نوشهروفيروز: نوجوان جو گهر ۾ پهچي آپگهات، لاش اسپتال منتقل",
    "t": 1794482506
@@ -7872,10 +7868,14 @@
   {
    "h": "Mohammad Yousaf and Sana Mir inducted into PCB Hall of Fame",
    "t": 1794714804
+  },
+  {
+   "h": "Minister reviews progress on Tarbela Dam extension project",
+   "t": 1794715919
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 09:01",
+  "time": "2026-11-15 09:12",
   "steps": []
  },
  "roundup_am": "2026-11-15",
@@ -7978,12 +7978,12 @@
  },
  "article_diag": {
   "date": "2026-11-15",
-  "tried": 8,
-  "decoded": 8,
-  "text": 6,
+  "tried": 9,
+  "decoded": 9,
+  "text": 7,
   "story": 6
  },
- "ai_last_error": "08:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "09:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-15",
   "models": [
@@ -7997,9 +7997,9 @@
  },
  "img_diag": {
   "date": "2026-11-15",
-  "tried": 6,
+  "tried": 7,
   "gemini": 0,
-  "pollinations": 3,
+  "pollinations": 4,
   "skip": 0,
   "fail": 0,
   "last_note": "cricket hall of fame",
@@ -8025,7 +8025,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
-   "ok": 53,
+   "ok": 54,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8033,7 +8033,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 56,
+   "ok": 57,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8041,7 +8041,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 56,
+   "ok": 57,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8049,7 +8049,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8057,7 +8057,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8065,14 +8065,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 57,
+   "ok": 58,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8081,9 +8081,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 57,
+   "fail": 58,
    "items": 15,
-   "fail_streak": 1581,
+   "fail_streak": 1582,
    "last_status": 404
   }
  },
@@ -8268,12 +8268,12 @@
   "date": "2026-11-15",
   "district": 0,
   "sindh": 1,
-  "pakistan": 5
+  "pakistan": 6
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8323,8 +8323,8 @@
   "date": "2026-11-15",
   "count": 0,
   "last": 1794684208.2471442,
-  "city_i": 20,
-  "dry": 1794714663.7085838
+  "city_i": 24,
+  "dry": 1794715863.178367
  },
  "gemini_day_dead": {
   "day": "2026-11-14",
@@ -8891,6 +8891,14 @@
    "t": 1794714804,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "61b5cf9bc32fd321",
+   "h": "تربيلا ڊيم ايڪسٽينشن منصوبي جي ترقي جو جائزو ورتو ويو",
+   "x": "وفاقي وزير تربيلا ڊيم ايڪسٽينشن منصوبي تي جاري ڪمن جو جائزو ورتو ۽ واٽر پاور جي معاملن تي بريفنگ ورتي. بيان: وفاقي وزير",
+   "t": 1794715918,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8906,13 +8914,6 @@
   "last": 1794657690.5787365
  },
  "tg_debug": [
-  {
-   "t": "11-15 02:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-15 02:50",
    "ok": true,
@@ -9181,6 +9182,13 @@
   },
   {
    "t": "11-15 09:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 09:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13370,6 +13378,39 @@
     "ٽيم",
     "ڪرڪيٽ"
    ]
+  },
+  {
+   "t": 1794715918,
+   "h": "تربيلا ڊيم ايڪسٽينشن منصوبي جي ترقي جو جائزو ورتو ويو",
+   "b": "وفاقي وزير تربيلا ڊيم ايڪسٽينشن منصوبي تي جاري ڪمن جو جائزو ورتو ۽ واٽر پاور جي معاملن تي بريفنگ ورتي. بيان:",
+   "tt": [
+    "ايڪسٽينشن",
+    "تربيلا",
+    "ترقي",
+    "جائزو",
+    "منصوبي",
+    "ورتو",
+    "ڊيم"
+   ],
+   "bt": [
+    "ايڪسٽينشن",
+    "بريفنگ",
+    "بيان",
+    "تربيلا",
+    "ترقي",
+    "جائزو",
+    "جاري",
+    "معاملن",
+    "منصوبي",
+    "واٽر",
+    "ورتو",
+    "ورتي",
+    "وزير",
+    "وفاقي",
+    "پاور",
+    "ڊيم",
+    "ڪمن"
+   ]
   }
  ],
  "repeat_log": [
@@ -13537,7 +13578,7 @@
  },
  "quality": {
   "date": "2026-11-15",
-  "editor_fixed": 3,
+  "editor_fixed": 4,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
