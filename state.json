@@ -1,9 +1,5 @@
 {
  "seen": {
-  "e6aeca85d5d1769c": 1794129737.4163902,
-  "bfc784e8a3974f0d": 1794129737.4163926,
-  "0866556cd6df54fe": 1794129737.4163938,
-  "3cb254ce3fe9aecf": 1794129737.4166627,
   "347c8e9de2a86a4c": 1794130284.877693,
   "6926525b684d85ce": 1794130284.877696,
   "ab35cf9bd791fee3": 1794130866.4805872,
@@ -1453,7 +1449,8 @@
   "d9bf7a34736aaa65": 1794732527.3245056,
   "cb344e82ecc319dc": 1794732527.3245075,
   "2a2795dc3a1c8d41": 1794732527.324688,
-  "d44eb695becc2f18": 1794732627.0969398
+  "d44eb695becc2f18": 1794732627.0969398,
+  "9af588a4adb45557": 1794735081.0787933
  },
  "pending": {},
  "queue": [],
@@ -1471,7 +1468,7 @@
   "last_week": "",
   "last_check": "2026-11-15"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2170,18 +2167,18 @@
    },
    "wicket_posts": 5,
    "break_done": true,
-   "last_edit": 1794734788.4304736,
+   "last_edit": 1794735411.672844,
    "batting": "Netherlands Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 14:26",
+  "time": "2026-11-15 14:36",
   "items": 19,
   "sample": [
-   "Zimbabwe A 329/10 & 65/1 * v Ireland A 551/10",
-   "Afghanistan 217/10 v Zimbabwe 339/10 & 38 *",
+   "Zimbabwe A 69/1 & 329/10 * v Ireland A 551/10",
+   "Afghanistan 217/10 v Zimbabwe 41/1 & 339/10 *",
    "Sydney Sixers Women 152/6 v Melbourne Renegades Women 156/8 *"
   ]
  },
@@ -7572,9 +7569,9 @@
  },
  "ai_usage": {
   "date": "2026-11-15",
-  "ok": 145,
-  "fail": 225,
-  "limit": 227
+  "ok": 148,
+  "fail": 227,
+  "limit": 231
  },
  "posted_heads": [
   {
@@ -7899,7 +7896,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 14:26",
+  "time": "2026-11-15 14:36",
   "steps": []
  },
  "roundup_am": "2026-11-15",
@@ -8007,7 +8004,7 @@
   "text": 12,
   "story": 10
  },
- "ai_last_error": "13:50 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "14:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-15",
   "models": [
@@ -8049,7 +8046,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
-   "ok": 85,
+   "ok": 86,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8057,7 +8054,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 88,
+   "ok": 89,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8065,7 +8062,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 88,
+   "ok": 89,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8073,7 +8070,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 89,
+   "ok": 90,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8081,7 +8078,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 89,
+   "ok": 90,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8089,14 +8086,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 89,
+   "ok": 90,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 89,
+   "ok": 90,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8105,9 +8102,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 89,
+   "fail": 90,
    "items": 15,
-   "fail_streak": 1613,
+   "fail_streak": 1614,
    "last_status": 404
   }
  },
@@ -8296,8 +8293,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 12,
-  "old": 12,
+  "found": 16,
+  "old": 16,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8346,8 +8343,8 @@
  "sindh_stream": {
   "date": "2026-11-15",
   "count": 6,
-  "last": 1794730262.1815035,
-  "city_i": 12,
+  "last": 1794735069.7017272,
+  "city_i": 16,
   "dry": 1794734468.39003
  },
  "gemini_day_dead": {
@@ -8355,7 +8352,9 @@
   "models": [
    "gemini-flash-latest",
    "gemini-3.7-flash",
-   "gemini-3.8-flash"
+   "gemini-3.8-flash",
+   "gemini-3.6-flash",
+   "gemini-3.5-flash"
   ]
  },
  "tg_done": [
@@ -8933,20 +8932,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-15 11:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-15 11:06",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-15 11:10",
    "ok": true,
    "n": 0,
@@ -9207,6 +9192,20 @@
   },
   {
    "t": "11-15 14:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 14:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 14:36",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13638,7 +13637,7 @@
  "quality": {
   "date": "2026-11-15",
   "editor_fixed": 11,
-  "editor_rejected": 2,
+  "editor_rejected": 3,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
