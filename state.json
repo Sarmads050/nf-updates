@@ -2193,18 +2193,18 @@
    },
    "wicket_posts": 5,
    "break_done": true,
-   "last_edit": 1794762987.4574337,
+   "last_edit": 1794763575.265821,
    "batting": "Netherlands Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 22:16",
+  "time": "2026-11-15 22:26",
   "items": 18,
   "sample": [
    "Zimbabwe A 214/3 & 329/10 * v Ireland A 551/10",
-   "Afghanistan 217/10 v Zimbabwe 169/7 & 339/10 *",
+   "Afghanistan 217/10 v Zimbabwe 339/10 & 169/7 *",
    "Thailand Women 82/10 * v Zimbabwe Women 110/5"
   ]
  },
@@ -7930,7 +7930,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 22:16",
+  "time": "2026-11-15 22:26",
   "steps": []
  },
  "roundup_am": "2026-11-15",
@@ -8080,15 +8080,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
-   "ok": 126,
+   "ok": 127,
    "fail": 11,
    "items": 10,
-   "fail_streak": 2,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 135,
+   "ok": 136,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8096,7 +8096,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 135,
+   "ok": 136,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8104,7 +8104,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8112,7 +8112,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8120,14 +8120,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 137,
+   "ok": 138,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8136,9 +8136,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 137,
+   "fail": 138,
    "items": 15,
-   "fail_streak": 1661,
+   "fail_streak": 1662,
    "last_status": 404
   }
  },
@@ -8359,8 +8359,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9043,20 +9043,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-15 19:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-15 19:07",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-15 19:10",
    "ok": true,
    "n": 0,
@@ -9317,6 +9303,20 @@
   },
   {
    "t": "11-15 22:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 22:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 22:26",
    "ok": true,
    "n": 0,
    "ids": [],
