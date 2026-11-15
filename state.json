@@ -1471,7 +1471,9 @@
   "9af7f1b2158d9f97": 1794752484.8637068,
   "8457976b9fc839d3": 1794752493.2933028,
   "5033d992e8a92f0f": 1794753066.4220817,
-  "b50a71041c4115b1": 1794753066.4222147
+  "b50a71041c4115b1": 1794753066.4222147,
+  "5d070cd3b92a5216": 1794753666.0789363,
+  "f1249a1c18b9eb25": 1794753666.07894
  },
  "pending": {},
  "queue": [],
@@ -1603,20 +1605,8 @@
    "d44eb695becc2f18"
   ]
  },
- "last_post_id": "1444130002106066_122121317553503839",
+ "last_post_id": "1444130002106066_122121319539503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122121003771503839",
-   "title": "زمزم جي کوهه جا سائنسي راز",
-   "t": 1794678802.8329039,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122121003771503839"
-  },
   {
    "id": "1444130002106066_122121012693503839",
    "title": "لاهور هڪ دفعو ٻيهر دنيا جي سڀ کان وڌيڪ آلوده شهرن جي فهرست ۾ پهرين نمبر تي اچي ويو آهي،",
@@ -1923,6 +1913,18 @@
     "local"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122121317553503839"
+  },
+  {
+   "id": "1444130002106066_122121319539503839",
+   "title": "فيسبوڪ ڪمپني تي 88 ڪروڙ 70 لک ڏنڊ لاڳو",
+   "t": 1794753809.5628452,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122121319539503839"
   }
  ],
  "share_sent": {
@@ -2179,14 +2181,14 @@
    },
    "wicket_posts": 5,
    "break_done": true,
-   "last_edit": 1794753418.564918,
+   "last_edit": 1794754114.2262375,
    "batting": "Netherlands Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 19:36",
+  "time": "2026-11-15 19:48",
   "items": 21,
   "sample": [
    "Zimbabwe A 214/3 & 329/10 * v Ireland A 551/10",
@@ -2201,17 +2203,11 @@
  },
  "all_posts": {
   "date": "2026-11-15",
-  "count": 38,
-  "last": 1794753109.5807166
+  "count": 39,
+  "last": 1794753803.516462
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122117656527503839",
-    "sec": "agri_news",
-    "cat": "agri_news",
-    "t": 1793826253
-   },
    {
     "id": "1444130002106066_122117671839503839",
     "sec": "public_news",
@@ -4605,6 +4601,12 @@
     "sec": "public_news",
     "cat": "weather_disaster",
     "t": 1794753113
+   },
+   {
+    "id": "1444130002106066_122121319539503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1794753809
    }
   ]
  },
@@ -7581,15 +7583,11 @@
  },
  "ai_usage": {
   "date": "2026-11-15",
-  "ok": 267,
-  "fail": 377,
-  "limit": 380
+  "ok": 273,
+  "fail": 383,
+  "limit": 387
  },
  "posted_heads": [
-  {
-   "h": "عائشہ باواڻي ڪاليج جي نالي جي تبديلي وارو تڪرار: آخر معاملو ڇا آهي؟",
-   "t": 1794549733
-  },
   {
    "h": "Gas utilities seek average price increase for FY27",
    "t": 1794551021
@@ -7905,10 +7903,14 @@
   {
    "h": "Dry Weather Expected Across Most of Sindh, PMD Says",
    "t": 1794753113
+  },
+  {
+   "h": "بنا اجازت جي گيلري تائين پهچ، فيسبوڪ ڪمپني تي 88 ڪروڙ 70 لک ڏنڊ",
+   "t": 1794753809
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 19:36",
+  "time": "2026-11-15 19:48",
   "steps": []
  },
  "roundup_am": "2026-11-15",
@@ -8016,7 +8018,7 @@
   "text": 19,
   "story": 14
  },
- "ai_last_error": "19:31 openrouter google/gemma-4-31b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily ra",
+ "ai_last_error": "19:41 openrouter google/gemma-4-31b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily ra",
  "gemini_disc": {
   "date": "2026-11-15",
   "models": [
@@ -8030,13 +8032,13 @@
  },
  "img_diag": {
   "date": "2026-11-15",
-  "tried": 30,
+  "tried": 31,
   "gemini": 0,
   "pollinations": 17,
   "skip": 9,
-  "fail": 1,
-  "last_note": "city municipal office building",
-  "mismatch": 674,
+  "fail": 2,
+  "last_note": "smartphone and digital data",
+  "mismatch": 676,
   "unverified": 1
  },
  "gemini_img": {
@@ -8058,15 +8060,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
-   "ok": 113,
+   "ok": 114,
    "fail": 8,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 120,
+   "ok": 121,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8074,7 +8076,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 120,
+   "ok": 121,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8082,7 +8084,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8090,7 +8092,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8098,14 +8100,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8114,9 +8116,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 121,
+   "fail": 122,
    "items": 15,
-   "fail_streak": 1645,
+   "fail_streak": 1646,
    "last_status": 404
   }
  },
@@ -8332,13 +8334,13 @@
  "region_posts": {
   "date": "2026-11-15",
   "district": 3,
-  "sindh": 14,
+  "sindh": 15,
   "pakistan": 13
  },
  "report_acc": {
-  "posted": 1,
-  "found": 9,
-  "old": 9,
+  "posted": 2,
+  "found": 12,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8386,9 +8388,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-15",
-  "count": 10,
-  "last": 1794752477.7896516,
-  "city_i": 24,
+  "count": 11,
+  "last": 1794753663.508086,
+  "city_i": 6,
   "dry": 1794752480.5489385
  },
  "gemini_day_dead": {
@@ -8972,6 +8974,14 @@
    "t": 1794753113,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "da4ba724692ff3bb",
+   "h": "فيس بڪ ڪمپني تي 88 ڪروڙ 70 لک ڊالر ڏنڊ لاڳو",
+   "x": "اٽلي جي ڊيٽا تحفظ واري اداري واهپيدارن جي اجازت کانسواءِ سندن موبائل فونن ۾ موجود تصويرن، وڊيوز ۽ ٻئي ڄاڻ تائين پهچ حاصل ڪرڻ تي فيس بڪ جي مالڪ ڪمپني ميٽا تي 88 ڪروڙ 70 لک ڊالر (لڳ ڀڳ 8 هزار 360 ڪروڙ پاڪستاني روپيا) ڏنڊ لاڳو ڪري ڇڏيو. اطالوي اختيارين موجب فيس بڪ ايپ وسيلي اينڊرائيڊ موبائل استعمال ڪندڙن جي تصويرن واري گيلري تائين پهچ حاصل ڪئي پئي وئي، پر واهپيدارن کي ان بابت مناسب ڄاڻ نه ڏني وئي ۽ نه ئي سندن رضامندي ورتي وئي. ان عمل سبب اٽلي ۾ ميٽا جا لڳ ڀڳ 2 ڪروڙ صارف متاثر ٿيا.",
+   "t": 1794753809,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -8994,20 +9004,6 @@
   "last": 1794745899.956635
  },
  "tg_debug": [
-  {
-   "t": "11-15 16:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-15 16:25",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-15 16:30",
    "ok": true,
@@ -9269,6 +9265,20 @@
   },
   {
    "t": "11-15 19:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 19:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 19:48",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13186,6 +13196,57 @@
     "ڏينهن",
     "گهڻن"
    ]
+  },
+  {
+   "t": 1794753809,
+   "h": "فيس بڪ ڪمپني تي 88 ڪروڙ 70 لک ڊالر ڏنڊ لاڳو",
+   "b": "اٽلي جي ڊيٽا تحفظ واري اداري واهپيدارن جي اجازت کانسواءِ سندن موبائل فونن ۾ موجود تصويرن، وڊيوز ۽ ٻئي ڄاڻ",
+   "tt": [
+    "#70",
+    "#88",
+    "فيس",
+    "لاڳو",
+    "ڊالر",
+    "ڏنڊ",
+    "ڪروڙ",
+    "ڪمپني"
+   ],
+   "bt": [
+    "#360",
+    "#70",
+    "#88",
+    "اجازت",
+    "اداري",
+    "اٽلي",
+    "تائين",
+    "تحفظ",
+    "تصويرن،",
+    "حاصل",
+    "روپيا",
+    "سندن",
+    "فونن",
+    "فيس",
+    "لاڳو",
+    "مالڪ",
+    "موبائل",
+    "موجود",
+    "ميٽا",
+    "هزار",
+    "واهپيدارن",
+    "وڊيوز",
+    "ٻئي",
+    "پاڪستاني",
+    "پهچ",
+    "ڄاڻ",
+    "ڇڏيو",
+    "ڊالر",
+    "ڊيٽا",
+    "ڏنڊ",
+    "ڪانسواء",
+    "ڪروڙ",
+    "ڪرڻ",
+    "ڪمپني"
+   ]
   }
  ],
  "repeat_log": [
@@ -13353,7 +13414,7 @@
  },
  "quality": {
   "date": "2026-11-15",
-  "editor_fixed": 23,
+  "editor_fixed": 24,
   "editor_rejected": 3,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
