@@ -1,10 +1,5 @@
 {
  "seen": {
-  "5eb7551f931c5b81": 1794126762.4877474,
-  "b0705da4c483dcc0": 1794126925.744808,
-  "ab4d1a20e0b2f057": 1794126925.7448115,
-  "e255b63b2730b2d0": 1794126925.744813,
-  "b75fcd90ade9cc39": 1794126925.745031,
   "e6aeca85d5d1769c": 1794129737.4163902,
   "bfc784e8a3974f0d": 1794129737.4163926,
   "0866556cd6df54fe": 1794129737.4163938,
@@ -1452,7 +1447,13 @@
   "0e4f374519079954": 1794729063.6454978,
   "61c19a65110e5e69": 1794730289.9777308,
   "5ac5c5b49161d4e8": 1794730289.9777331,
-  "37485ca20091cd66": 1794730289.9777355
+  "37485ca20091cd66": 1794730289.9777355,
+  "31b68745058c1831": 1794732315.1351893,
+  "43537fc160b5c12b": 1794732315.135192,
+  "d9bf7a34736aaa65": 1794732527.3245056,
+  "cb344e82ecc319dc": 1794732527.3245075,
+  "2a2795dc3a1c8d41": 1794732527.324688,
+  "d44eb695becc2f18": 1794732627.0969398
  },
  "pending": {},
  "queue": [],
@@ -1525,7 +1526,7 @@
  "sindh_single": {
   "date": "2026-11-15",
   "count": 0,
-  "last": 1794722491.830432,
+  "last": 1794732621.1182058,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1580,7 +1581,8 @@
    "dacbc5395b57225d",
    "3ab4a7b52ce113f3",
    "858149b00da6b4e8",
-   "e64d0af6ded9d71b"
+   "e64d0af6ded9d71b",
+   "d44eb695becc2f18"
   ]
  },
  "last_post_id": "1444130002106066_122121238575503839",
@@ -2168,18 +2170,18 @@
    },
    "wicket_posts": 5,
    "break_done": true,
-   "last_edit": 1794731819.8344169,
+   "last_edit": 1794732637.7332141,
    "batting": "Netherlands Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 13:36",
+  "time": "2026-11-15 13:50",
   "items": 19,
   "sample": [
-   "Zimbabwe A 34/1 & 329/10 * v Ireland A 551/10",
-   "Afghanistan 217/10 v Zimbabwe 339/10 & 15 *",
+   "Zimbabwe A 44/1 & 329/10 * v Ireland A 551/10",
+   "Afghanistan 217/10 v Zimbabwe 339/10 & 19 *",
    "Sydney Sixers Women 152/6 v Melbourne Renegades Women 156/8 *"
   ]
  },
@@ -7578,9 +7580,9 @@
  },
  "ai_usage": {
   "date": "2026-11-15",
-  "ok": 138,
+  "ok": 144,
   "fail": 225,
-  "limit": 224
+  "limit": 227
  },
  "posted_heads": [
   {
@@ -8008,12 +8010,12 @@
  },
  "article_diag": {
   "date": "2026-11-15",
-  "tried": 13,
-  "decoded": 13,
-  "text": 11,
-  "story": 9
+  "tried": 14,
+  "decoded": 14,
+  "text": 12,
+  "story": 10
  },
- "ai_last_error": "12:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "13:50 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-11-15",
   "models": [
@@ -8055,7 +8057,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
-   "ok": 80,
+   "ok": 81,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8063,7 +8065,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 83,
+   "ok": 84,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8071,7 +8073,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 83,
+   "ok": 84,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8079,7 +8081,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8087,7 +8089,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8095,14 +8097,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8111,9 +8113,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 84,
+   "fail": 85,
    "items": 15,
-   "fail_streak": 1608,
+   "fail_streak": 1609,
    "last_status": 404
   }
  },
@@ -8353,12 +8355,16 @@
   "date": "2026-11-15",
   "count": 6,
   "last": 1794730262.1815035,
-  "city_i": 14,
-  "dry": 1794726079.929885
+  "city_i": 18,
+  "dry": 1794732059.3034465
  },
  "gemini_day_dead": {
   "day": "2026-11-15",
-  "models": []
+  "models": [
+   "gemini-flash-latest",
+   "gemini-3.7-flash",
+   "gemini-3.8-flash"
+  ]
  },
  "tg_done": [
   92058696,
@@ -8934,13 +8940,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-15 10:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-15 10:20",
    "ok": true,
    "n": 0,
@@ -9208,6 +9207,13 @@
   },
   {
    "t": "11-15 13:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 13:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13475,16 +13481,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-13 17:01",
-   "new": "پيٽرول ۽ ڊيزل اگهن ۾ گهٽتائي",
-   "old": "صبح جون سنڌ جون اهم خبرون"
-  },
-  {
-   "t": "11-13 17:21",
-   "new": "پاڪستان ۽ سری لنڪا جو پهريون ٽيسٽ ميچ ڊرا",
-   "old": "راولپنڊي ٽيسٽ: روشني گهٽ ٿيڻ سبب راند اڳواٽ ختم"
-  },
-  {
    "t": "11-13 17:41",
    "new": "آئي آر ايس اي ريم اسٽيشنز مان پاڻي ڇڏيو",
    "old": "پنجاب ۽ سنڌ ۾ پاڻي جي سخت کوٽ"
@@ -13623,6 +13619,16 @@
    "t": "11-15 05:51",
    "new": "حيسڪو پاران ٻن ڪلاڪن جي واڌو لوڊشيڊنگ جو اعلان",
    "old": "نوشهروفيروز جو اڄ | 14-11-2026"
+  },
+  {
+   "t": "11-15 13:50",
+   "new": "آءِ سي سي وومينز ٽرافي: پاڪستان ۽ نيدرلينڊز ميچ",
+   "old": "LIVE | پاڪستان وومين بمقابلي هالينڊ وومين"
+  },
+  {
+   "t": "11-15 13:50",
+   "new": "سنڌ | آءِ ايم ايف پاران پاڪستان مان فيول سبسيڊي مرحليوار ختم ڪرڻ جو مط",
+   "old": "آءِ ايم ايف پاران پيٽرول سبسڊي ختم ڪرڻ جو زور"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13644,5 +13650,6 @@
   "kawish_crosschecked": 0,
   "wrong_place": 0,
   "repeat": 4
- }
+ },
+ "_dup": true
 }
