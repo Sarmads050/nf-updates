@@ -56,6 +56,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-055] (ep021, 2026-11-14) Narrator kehta hai gali mein "sab thand se kaanp rahe thay" lekin Daniyal bilkul aaraam se khara hai — naya "shiver" emo (kaanpta jism, haath baghal mein, munh se bhaap ka chhota puff).
 - [K-056] (ep021, 2026-11-14) Aakhri group shot mein gali ke "right" slot par Mehak frame ke right kinare se lagi hui hai aur "explain" wala haath bahar kat jata hai — gali ke slots (cl/cr/right) ko thora center ki taraf karna.
 
+- [K-057] (ep022, 2026-11-15) Poori kahani ludo ki hai lekin screen par na ludo board hai na daana — table khaali hai, aur "Dada jeb!" ke baad Abba jeb se daana nikaalte nazar nahi aate — naya "ludo" set piece (table par board + rangeen gotiyan) aur chhota "daana" prop, saath mein "jeb se nikaalna" action.
+- [K-058] (ep022, 2026-11-15) Farsh (floor_r) par khare Hashir ka sirf aadha sar doosron ke close-up mein neeche kinare se jhankta hai (Daniyal line 15, 0:52) — close-up mein toddler ya to poora frame mein ho ya bilkul bahar (crop ke hisaab se chhupana).
+- [K-059] (ep022, 2026-11-15) Sofa par baithi Ammi ka "explain"/"point_up" pose mein baazu lambi naranji pipe ki tarah side mein phail kar saath baithi Mehak ke upar aa jata hai (0:20, 1:06) — baithe hue explain pose mein haath apne seene ke saamne rakhna (K-011 jaisa fix).
+
 ## APPROVED
 
 ## DONE

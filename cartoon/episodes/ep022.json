@@ -5,7 +5,7 @@
  "title": "Ludo Ka Mukadma!",
  "topic": "Cold Sunday night family ludo - Abba's no-phone rule, loser makes chai; Abba losing to Mehak blames the dice, the dice disappears, toddler Hashir reveals 'Dada jeb!'; Abba makes chai and admits the phone-free night was the best",
  "music": "comic",
- "tempo": 1.1,
+ "tempo": 1.15,
  "lesson": "Phone rakho, saath baitho —<br>yehi asli jeet hai!",
  "caption": "Itwaar raat, phone band, ludo shuru! 🎲😂 Abba haar rahe thay... phir daana hi gayab ho gaya! Asli gawah nikla 2 saal ka Hashir. Aap ke ghar mein ludo mein sab se zyada beimani kaun karta hai? Comment mein batayein!",
  "hashtags": [
@@ -21,9 +21,9 @@
    "time": "night",
    "label": "Drawing Room • Raat",
    "cast": {
-    "ABBA": "sofa_l",
+    "ABBA": "sofa_r",
     "MEHAK": "sofa_c",
-    "AMMI": "sofa_r",
+    "AMMI": "sofa_l",
     "DANIYAL": "stand_r"
    },
    "props": {
@@ -137,13 +137,6 @@
      "how": "law student, mock-tragic, handing over his phone slowly",
      "shot": "two:DANIYAL",
      "pose": "give",
-     "before": [
-      {
-       "do": "approach",
-       "who": "DANIYAL",
-       "to": "ABBA"
-      }
-     ],
      "give": {
       "to": "ABBA",
       "prop": "phone",
@@ -176,25 +169,6 @@
       "MEHAK": "rest",
       "DANIYAL": "rest"
      }
-    },
-    {
-     "who": "MEHAK",
-     "to": "AMMI",
-     "emo": "happy",
-     "roman": "Manzoor! Main *laal gotiyan* lungi. Laal hamesha *jeetti* hain!",
-     "urdu": "منظور! میں لال گوٹیاں لوں گی۔ لال ہمیشہ جیتتی ہیں!",
-     "how": "14-year-old girl, excited, clapping",
-     "shot": "close",
-     "pose": "clap",
-     "gap": 0.4,
-     "react": {
-      "*": "happy"
-     },
-     "react_pose": {
-      "ABBA": "rest",
-      "AMMI": "rest",
-      "DANIYAL": "rest"
-     }
     }
    ]
   },
@@ -203,11 +177,11 @@
    "time": "night",
    "label": "Drawing Room • Aadhe Ghante Baad",
    "cast": {
-    "ABBA": "sofa_l",
+    "ABBA": "sofa_r",
     "MEHAK": "sofa_c",
-    "AMMI": "sofa_r",
+    "AMMI": "sofa_l",
     "DANIYAL": "stand_r",
-    "HASHIR": "floor_l"
+    "HASHIR": "floor_r"
    },
    "props": {},
    "lines": [
@@ -226,7 +200,14 @@
       "AMMI": "rest",
       "DANIYAL": "rest",
       "HASHIR": "rest"
-     }
+     },
+     "before": [
+      {
+       "do": "prop",
+       "who": "ABBA",
+       "prop": null
+      }
+     ]
     },
     {
      "who": "MEHAK",
@@ -376,7 +357,7 @@
      "roman": "Hashir beta, aap ne *daana* dekha hai? Chhota sa, *safaid* sa?",
      "urdu": "حاشر بیٹا، آپ نے دانہ دیکھا ہے؟ چھوٹا سا، سفید سا؟",
      "how": "mother, sweet voice to a 2-year-old",
-     "shot": "two:AMMI",
+     "shot": "group",
      "pose": "explain",
      "looks": {
       "HASHIR": "AMMI",
@@ -397,7 +378,7 @@
      "roman": "Dada... *jeb!* Dada *jeb!*",
      "urdu": "دادا... جیب! دادا جیب!",
      "how": "2-year-old toddler, giggling, pointing at grandfather",
-     "shot": "punch",
+     "shot": "group",
      "pose": "point_other",
      "joke": true,
      "gap": 0.6,
@@ -499,23 +480,6 @@
      },
      "react_pose": {
       "ABBA": "rest",
-      "MEHAK": "rest",
-      "DANIYAL": "rest"
-     }
-    },
-    {
-     "who": "ABBA",
-     "to": "door",
-     "emo": "tired",
-     "roman": "Haan bhai, yaad hai! Chai *paanch minute* mein *tayyar* ho jayegi.",
-     "urdu": "ہاں بھائی، یاد ہے! چائے پانچ منٹ میں تیار ہو جائے گی۔",
-     "how": "father at the stove, pretending to be tired, smiling",
-     "shot": "close",
-     "pose": "hold",
-     "looks": {
-      "MEHAK": "ABBA"
-     },
-     "react_pose": {
       "MEHAK": "rest",
       "DANIYAL": "rest"
      }
