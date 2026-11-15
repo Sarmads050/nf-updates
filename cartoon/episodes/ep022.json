@@ -1,0 +1,601 @@
+{
+ "id": "ep022",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 22,
+ "title": "Ludo Ka Mukadma!",
+ "topic": "Cold Sunday night family ludo - Abba's no-phone rule, loser makes chai; Abba losing to Mehak blames the dice, the dice disappears, toddler Hashir reveals 'Dada jeb!'; Abba makes chai and admits the phone-free night was the best",
+ "music": "comic",
+ "tempo": 1.1,
+ "lesson": "Phone rakho, saath baitho —<br>yehi asli jeet hai!",
+ "caption": "Itwaar raat, phone band, ludo shuru! 🎲😂 Abba haar rahe thay... phir daana hi gayab ho gaya! Asli gawah nikla 2 saal ka Hashir. Aap ke ghar mein ludo mein sab se zyada beimani kaun karta hai? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#LudoNight",
+  "#PakistaniFamily",
+  "#UrduCartoon",
+  "#SardiKiRaat"
+ ],
+ "scenes": [
+  {
+   "set": "living_room",
+   "time": "night",
+   "label": "Drawing Room • Raat",
+   "cast": {
+    "ABBA": "sofa_l",
+    "MEHAK": "sofa_c",
+    "AMMI": "sofa_r",
+    "DANIYAL": "stand_r"
+   },
+   "props": {
+    "DANIYAL": "phone"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Nawabshah ki thandi *Itwaar raat*... aur aaj Abba ne ghar mein ek *naya qanoon* banaya hai!",
+     "urdu": "نواب شاہ کی ٹھنڈی اتوار رات... اور آج ابا نے گھر میں ایک نیا قانون بنایا ہے!",
+     "how": "warm storyteller, playful, a little mysterious",
+     "shot": "wide",
+     "gap": 0.1,
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "AMMI": "rest",
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "front",
+     "emo": "proud",
+     "roman": "Aaj raat *koi phone nahi* chalega! Aaj poora ghar *ludo* khelega!",
+     "urdu": "آج رات کوئی فون نہیں چلے گا! آج پورا گھر لوڈو کھیلے گا!",
+     "how": "57-year-old father, announcing a rule like an office order, firm but happy",
+     "shot": "close",
+     "pose": "point_up",
+     "looks": {
+      "MEHAK": "ABBA",
+      "AMMI": "ABBA",
+      "DANIYAL": "ABBA"
+     },
+     "react": {
+      "DANIYAL": "surprised",
+      "MEHAK": "happy"
+     },
+     "react_pose": {
+      "MEHAK": "rest",
+      "AMMI": "rest",
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ABBA",
+     "emo": "surprised",
+     "roman": "*Objection*, Abba! Phone meri *bunyadi zaroorat* hai!",
+     "urdu": "آبجیکشن، ابا! فون میری بنیادی ضرورت ہے!",
+     "how": "20-year-old law student, dramatic courtroom protest",
+     "shot": "close",
+     "pose": "objection",
+     "looks": {
+      "ABBA": "DANIYAL"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "AMMI": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "DANIYAL",
+     "emo": "teasing",
+     "roman": "Humare zamane mein bunyadi zaroorat sirf *roti, chai aur ludo* thi!",
+     "urdu": "ہمارے زمانے میں بنیادی ضرورت صرف روٹی، چائے اور لوڈو تھی!",
+     "how": "father, proud old-school logic, slight smile",
+     "shot": "punch",
+     "pose": "wag",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "MEHAK": "laugh",
+      "AMMI": "laugh",
+      "DANIYAL": "sheepish"
+     },
+     "react_pose": {
+      "MEHAK": "rest",
+      "AMMI": "rest",
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "DANIYAL",
+     "emo": "calm",
+     "roman": "Daniyal beta, apna *phone* Abba ke hawale kar do.",
+     "urdu": "دانیال بیٹا، اپنا فون ابا کے حوالے کر دو۔",
+     "how": "50-year-old mother, calm and firm",
+     "shot": "two:AMMI",
+     "pose": "explain",
+     "looks": {
+      "DANIYAL": "AMMI"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ABBA",
+     "emo": "sad",
+     "roman": "Le lijiye, Abba. Aaj se main ek *bebas insaan* hoon.",
+     "urdu": "لے لیجیے، ابا۔ آج سے میں ایک بے بس انسان ہوں۔",
+     "how": "law student, mock-tragic, handing over his phone slowly",
+     "shot": "two:DANIYAL",
+     "pose": "give",
+     "before": [
+      {
+       "do": "approach",
+       "who": "DANIYAL",
+       "to": "ABBA"
+      }
+     ],
+     "give": {
+      "to": "ABBA",
+      "prop": "phone",
+      "at": 0.5
+     },
+     "react": {
+      "ABBA": "teasing"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "AMMI": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "front",
+     "emo": "teasing",
+     "roman": "Aur shart yeh hai: jo *haarega*, woh sab ke liye *chai* banayega!",
+     "urdu": "اور شرط یہ ہے: جو ہارے گا، وہ سب کے لیے چائے بنائے گا!",
+     "how": "mother, smiling, setting the bet",
+     "shot": "close",
+     "pose": "point_up",
+     "react": {
+      "ABBA": "proud",
+      "MEHAK": "happy"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Manzoor! Main *laal gotiyan* lungi. Laal hamesha *jeetti* hain!",
+     "urdu": "منظور! میں لال گوٹیاں لوں گی۔ لال ہمیشہ جیتتی ہیں!",
+     "how": "14-year-old girl, excited, clapping",
+     "shot": "close",
+     "pose": "clap",
+     "gap": 0.4,
+     "react": {
+      "*": "happy"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "AMMI": "rest",
+      "DANIYAL": "rest"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "night",
+   "label": "Drawing Room • Aadhe Ghante Baad",
+   "cast": {
+    "ABBA": "sofa_l",
+    "MEHAK": "sofa_c",
+    "AMMI": "sofa_r",
+    "DANIYAL": "stand_r",
+    "HASHIR": "floor_l"
+   },
+   "props": {},
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Aadhe ghante baad... *Mehak* jeet rahi thi, aur Abba ki *gotiyan* pit rahi thin!",
+     "urdu": "آدھے گھنٹے بعد... مہک جیت رہی تھی، اور ابا کی گوٹیاں پٹ رہی تھیں!",
+     "how": "storyteller, amused",
+     "shot": "wide",
+     "gap": 0.1,
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "AMMI": "rest",
+      "DANIYAL": "rest",
+      "HASHIR": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ABBA",
+     "emo": "laugh",
+     "roman": "*Chhakka!* Abba, aap ki aakhri goti bhi *kat gayi!*",
+     "urdu": "چھکا! ابا، آپ کی آخری گوٹی بھی کٹ گئی!",
+     "how": "girl, laughing, victorious",
+     "shot": "close",
+     "pose": "point_other",
+     "looks": {
+      "ABBA": "MEHAK"
+     },
+     "react": {
+      "ABBA": "surprised"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "AMMI": "rest",
+      "DANIYAL": "rest",
+      "HASHIR": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "MEHAK",
+     "emo": "surprised",
+     "roman": "Yeh daana hi *kharab* hai! Humare zamane ke daane *imaandar* hotay thay!",
+     "urdu": "یہ دانہ ہی خراب ہے! ہمارے زمانے کے دانے ایماندار ہوتے تھے!",
+     "how": "father, shocked and grumbling",
+     "shot": "close",
+     "pose": "head_hold",
+     "react": {
+      "MEHAK": "teasing"
+     },
+     "react_pose": {
+      "MEHAK": "rest",
+      "AMMI": "rest",
+      "DANIYAL": "rest",
+      "HASHIR": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "front",
+     "emo": "teasing",
+     "roman": "Your Honour, *haar* Abba rahe hain aur *ilzaam* daane par!",
+     "urdu": "یور آنر، ہار ابا رہے ہیں اور الزام دانے پر!",
+     "how": "law student, addressing an imaginary judge, cheeky",
+     "shot": "punch",
+     "pose": "objection",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "MEHAK": "laugh",
+      "AMMI": "laugh",
+      "ABBA": "sheepish"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "AMMI": "rest",
+      "HASHIR": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "calm",
+     "roman": "Chaliye, ab aap ki *baari* hai. Daana phenkiye.",
+     "urdu": "چلیے، اب آپ کی باری ہے۔ دانہ پھینکیے۔",
+     "how": "mother, patient, moving the game on",
+     "shot": "two:AMMI",
+     "pose": "explain",
+     "looks": {
+      "ABBA": "AMMI"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "DANIYAL": "rest",
+      "HASHIR": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "confused",
+     "roman": "Daana? Main ne to *nahi dekha*... shayad *qaaleen* mein gum gaya hai.",
+     "urdu": "دانہ؟ میں نے تو نہیں دیکھا... شاید قالین میں گم گیا ہے۔",
+     "how": "father, a little too innocent, avoiding eyes",
+     "shot": "close",
+     "pose": "shrug",
+     "react": {
+      "AMMI": "confused",
+      "MEHAK": "surprised"
+     },
+     "react_pose": {
+      "MEHAK": "rest",
+      "AMMI": "rest",
+      "DANIYAL": "rest",
+      "HASHIR": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "surprised",
+     "roman": "Ammi, daana abhi to *yahin* tha! Ab *gayab* ho gaya hai!",
+     "urdu": "امی، دانہ ابھی تو یہیں تھا! اب غائب ہو گیا ہے!",
+     "how": "girl, surprised, looking around",
+     "shot": "close",
+     "pose": "point_down",
+     "react_pose": {
+      "ABBA": "rest",
+      "AMMI": "rest",
+      "DANIYAL": "rest",
+      "HASHIR": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "front",
+     "emo": "focused",
+     "roman": "Objection! Jurm ki jagah se *saboot* gayab hai. Yeh *saazish* hai!",
+     "urdu": "آبجیکشن! جرم کی جگہ سے ثبوت غائب ہے۔ یہ سازش ہے!",
+     "how": "law student, detective mode, suspicious",
+     "shot": "close",
+     "pose": "explain",
+     "looks": {
+      "MEHAK": "DANIYAL"
+     },
+     "react": {
+      "ABBA": "sheepish"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "AMMI": "rest",
+      "HASHIR": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "HASHIR",
+     "emo": "warm",
+     "roman": "Hashir beta, aap ne *daana* dekha hai? Chhota sa, *safaid* sa?",
+     "urdu": "حاشر بیٹا، آپ نے دانہ دیکھا ہے؟ چھوٹا سا، سفید سا؟",
+     "how": "mother, sweet voice to a 2-year-old",
+     "shot": "two:AMMI",
+     "pose": "explain",
+     "looks": {
+      "HASHIR": "AMMI",
+      "MEHAK": "HASHIR",
+      "DANIYAL": "HASHIR"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "DANIYAL": "rest",
+      "HASHIR": "rest"
+     }
+    },
+    {
+     "who": "HASHIR",
+     "to": "ABBA",
+     "emo": "happy",
+     "roman": "Dada... *jeb!* Dada *jeb!*",
+     "urdu": "دادا... جیب! دادا جیب!",
+     "how": "2-year-old toddler, giggling, pointing at grandfather",
+     "shot": "punch",
+     "pose": "point_other",
+     "joke": true,
+     "gap": 0.6,
+     "sfx": [
+      "baby_giggle"
+     ],
+     "looks": {
+      "AMMI": "ABBA",
+      "MEHAK": "ABBA",
+      "DANIYAL": "ABBA"
+     },
+     "react": {
+      "ABBA": "sheepish",
+      "AMMI": "surprised",
+      "MEHAK": "laugh",
+      "DANIYAL": "surprised"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "AMMI": "rest",
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "roman": "Woh... main to daane ko *thand* se bacha raha tha!",
+     "urdu": "وہ... میں تو دانے کو ٹھنڈ سے بچا رہا تھا!",
+     "how": "father, caught red-handed, embarrassed little laugh",
+     "shot": "punch",
+     "pose": "scratch_head",
+     "joke": true,
+     "gap": 0.6,
+     "react": {
+      "*": "laugh"
+     },
+     "react_pose": {
+      "MEHAK": "rest",
+      "AMMI": "rest",
+      "DANIYAL": "rest",
+      "HASHIR": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "front",
+     "emo": "proud",
+     "roman": "Mulzim ne *jurm qabool* kar liya! Aaj ki *chai* Abba banayenge!",
+     "urdu": "ملزم نے جرم قبول کر لیا! آج کی چائے ابا بنائیں گے!",
+     "how": "law student, triumphant verdict",
+     "shot": "close",
+     "pose": "point_up",
+     "gap": 0.4,
+     "react": {
+      "MEHAK": "laugh",
+      "AMMI": "laugh",
+      "ABBA": "tired"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "AMMI": "rest",
+      "HASHIR": "rest"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "time": "night",
+   "label": "Kitchen • Raat",
+   "cast": {
+    "ABBA": "stove",
+    "MEHAK": "mid",
+    "DANIYAL": "right"
+   },
+   "props": {
+    "ABBA": "ladle"
+   },
+   "lines": [
+    {
+     "who": "AMMI",
+     "to": "door",
+     "emo": "teasing",
+     "roman": "Suniye! Shart yaad hai na? Chai mein *elaichi* zaroor daaliyega!",
+     "urdu": "سنیے! شرط یاد ہے نا؟ چائے میں الائچی ضرور ڈالیے گا!",
+     "how": "mother calling from the other room, teasing",
+     "shot": "wide",
+     "offscreen": true,
+     "looks": {
+      "ABBA": "door",
+      "MEHAK": "door",
+      "DANIYAL": "door"
+     },
+     "react": {
+      "MEHAK": "laugh"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest",
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "door",
+     "emo": "tired",
+     "roman": "Haan bhai, yaad hai! Chai *paanch minute* mein *tayyar* ho jayegi.",
+     "urdu": "ہاں بھائی، یاد ہے! چائے پانچ منٹ میں تیار ہو جائے گی۔",
+     "how": "father at the stove, pretending to be tired, smiling",
+     "shot": "close",
+     "pose": "hold",
+     "looks": {
+      "MEHAK": "ABBA"
+     },
+     "react_pose": {
+      "MEHAK": "rest",
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ABBA",
+     "emo": "warm",
+     "roman": "Abba, aap haare nahi. Aap ne aaj sab ko *ek saath* bitha diya.",
+     "urdu": "ابا، آپ ہارے نہیں۔ آپ نے آج سب کو ایک ساتھ بٹھا دیا۔",
+     "how": "daughter, soft and loving",
+     "shot": "close",
+     "pose": "explain",
+     "looks": {
+      "ABBA": "MEHAK",
+      "DANIYAL": "MEHAK"
+     },
+     "react": {
+      "ABBA": "warm"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "MEHAK",
+     "emo": "warm",
+     "roman": "Sach kahun? *Phone ke baghair* yeh raat sab se *achhi* guzri.",
+     "urdu": "سچ کہوں؟ فون کے بغیر یہ رات سب سے اچھی گزری۔",
+     "how": "father, warm, honest, soft voice",
+     "shot": "two:ABBA",
+     "pose": "rest",
+     "react": {
+      "MEHAK": "happy",
+      "DANIYAL": "happy"
+     },
+     "react_pose": {
+      "MEHAK": "rest",
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ABBA",
+     "emo": "teasing",
+     "roman": "To kal raat bhi ludo? Is dafa *daana* main sambhalunga!",
+     "urdu": "تو کل رات بھی لوڈو؟ اس دفعہ دانہ میں سنبھالوں گا!",
+     "how": "law student, cheeky",
+     "shot": "close",
+     "pose": "chest",
+     "looks": {
+      "ABBA": "DANIYAL"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "DANIYAL",
+     "emo": "teasing",
+     "roman": "Nahi! Daana ab *Hashir* sambhalega. Woh ghar ka sab se *imaandar gawah* hai!",
+     "urdu": "نہیں! دانہ اب حاشر سنبھالے گا۔ وہ گھر کا سب سے ایماندار گواہ ہے!",
+     "how": "father, laughing at himself, punchline",
+     "shot": "group",
+     "pose": "point_other",
+     "joke": true,
+     "gap": 0.8,
+     "react": {
+      "*": "laugh"
+     },
+     "react_pose": {
+      "MEHAK": "rest",
+      "DANIYAL": "rest"
+     }
+    }
+   ]
+  }
+ ]
+}
