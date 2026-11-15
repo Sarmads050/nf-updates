@@ -1450,7 +1450,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-14",
-  "count": 3
+  "count": 4
  },
  "last_digest": "2026-11-14",
  "alert_day": "2026-10-20",
@@ -1573,7 +1573,7 @@
    "e64d0af6ded9d71b"
   ]
  },
- "last_post_id": "1444130002106066_122121096939503839",
+ "last_post_id": "1444130002106066_122121107883503839",
  "shareable": [
   {
    "id": "1444130002106066_122120828823503839",
@@ -2166,12 +2166,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 07:51",
+  "time": "2026-11-15 08:10",
   "items": 19,
   "sample": [
    "Zimbabwe A 322/7 * v Ireland A 551/10",
    "Afghanistan 159/6 * v Zimbabwe 339/10",
-   "Sydney Sixers Women 152/6 v Melbourne Renegades Women 111/6 *"
+   "Sydney Sixers Women 152/6 v Melbourne Renegades Women 156/8 *"
   ]
  },
  "agri_news": {
@@ -2181,8 +2181,8 @@
  },
  "all_posts": {
   "date": "2026-11-15",
-  "count": 5,
-  "last": 1794708147.349902
+  "count": 6,
+  "last": 1794712234.0819907
  },
  "perf": {
   "posts": [
@@ -4594,48 +4594,8 @@
   "last": 1794692584.3318663
  },
  "trends": {
-  "last": 1794700866.0446513,
+  "last": 1794712239.342207,
   "terms": [
-   {
-    "term": "mom and son",
-    "traffic": 100,
-    "news": "Homicide Detectives Investigate Woman’s Death in Hawthorne",
-    "t": 1794098451,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "psg vs estac troyes standings",
-    "traffic": 2000,
-    "news": "Paris Saint-Germain makes a surprise decision regarding Achraf Hakimi",
-    "t": 1794098451,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "mls",
-    "traffic": 500,
-    "news": "Toronto FC ends the year with road loss in Philadelphia",
-    "t": 1794098451,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "pakistan petrol prices",
-    "traffic": 10000,
-    "news": "Trump Faces Major Political Setback as Democrats Gain Ground - Dus",
-    "t": 1794098451,
-    "cat": "fuel",
-    "sindh": false
-   },
-   {
-    "term": "nottingham forest vs man city standings",
-    "traffic": 10000,
-    "news": "City slump again as Arsenal extend Premier League lead",
-    "t": 1794098451,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "dana white",
     "traffic": 100,
@@ -7539,15 +7499,63 @@
     "t": 1794700866,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "australia vs england",
+    "traffic": 200,
+    "news": "Mahli Beardman's dream debut powers Australia to crushing win over England in Perth",
+    "t": 1794712239,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "petrol price today",
+    "traffic": 100,
+    "news": "Karachi goods carriers association announces 5% reduction in transport fares",
+    "t": 1794712239,
+    "cat": "fuel",
+    "sindh": true
+   },
+   {
+    "term": "jamaica vs mexico",
+    "traffic": 100,
+    "news": "¡Sorpresas! Este es el once de México vs Jamaica",
+    "t": 1794712239,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "india national cricket team vs new zealand national cricket team match scorecard",
+    "traffic": 5000,
+    "news": "India vs New Zealand Live score, 5th ODI: Rohit gone, Kohli follows as Fisher rocks India | Hindustan Times",
+    "t": 1794712239,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "india vs new zealand",
+    "traffic": 20000,
+    "news": "New Zealand v India Fifth ODI Tips: Don't expect another India batting flop in decider",
+    "t": 1794712239,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "پاکستان ٹیلی کمیونیکیشن اتھارٹی",
+    "traffic": 200,
+    "news": "موبائل صارفین کےلیے اہم خبر، سمز کے حوالے سے پی ٹی اے کا نیا فیصلہ",
+    "t": 1794712239,
+    "cat": "technology",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-15",
-  "ok": 57,
-  "fail": 91,
-  "limit": 90
+  "ok": 59,
+  "fail": 95,
+  "limit": 94
  },
  "posted_heads": [
   {
@@ -7872,10 +7880,10 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 07:51",
+  "time": "2026-11-15 08:10",
   "steps": []
  },
- "roundup_am": "2026-11-14",
+ "roundup_am": "2026-11-15",
  "group_shares": {
   "1": {
    "date": "2026-11-14",
@@ -7980,7 +7988,7 @@
   "text": 6,
   "story": 6
  },
- "ai_last_error": "07:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:10 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-15",
   "models": [
@@ -8022,7 +8030,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
-   "ok": 47,
+   "ok": 48,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8030,7 +8038,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 49,
+   "ok": 50,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8038,7 +8046,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 49,
+   "ok": 50,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8046,7 +8054,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8054,7 +8062,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8062,14 +8070,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 50,
+   "ok": 51,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8078,9 +8086,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 50,
+   "fail": 51,
    "items": 15,
-   "fail_streak": 1574,
+   "fail_streak": 1575,
    "last_status": 404
   }
  },
@@ -8264,7 +8272,7 @@
  "region_posts": {
   "date": "2026-11-15",
   "district": 0,
-  "sindh": 0,
+  "sindh": 1,
   "pakistan": 4
  },
  "report_acc": {
@@ -8924,7 +8932,9 @@
  ],
  "reels": {
   "date": "2026-11-15",
-  "done": []
+  "done": [
+   "08:00"
+  ]
  },
  "kawish_queue": [],
  "kawish_post": {
@@ -8933,13 +8943,6 @@
   "last": 1794657690.5787365
  },
  "tg_debug": [
-  {
-   "t": "11-15 01:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-15 01:40",
    "ok": true,
@@ -9212,217 +9215,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-15 08:09",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-15",
  "recent_posts": [
-  {
-   "t": 1794535402,
-   "h": "نوشهروفيروز جو اڄ | 13-11-2026",
-   "b": "3 جُمادى الآخرة 1448ھ نماز جا وقت: فجر 05:25 | ظهر 12:12 | عصر 16:02 مغرب 17:38 | عشا 18:58 سج اڀرڻ 06:45",
-   "tt": [
-    "#11",
-    "#13",
-    "نوشهروفيروز"
-   ],
-   "bt": [
-    "#11",
-    "#12",
-    "#13",
-    "#1448",
-    "#16",
-    "#17",
-    "#18",
-    "#2",
-    "#25",
-    "#38",
-    "#45",
-    "#5",
-    "#58",
-    "#6",
-    "1448ه",
-    "الاخره",
-    "اوهان",
-    "اڀرڻ",
-    "جمادى",
-    "سٺو",
-    "سڀني",
-    "ظهر",
-    "عشا",
-    "عصر",
-    "فجر",
-    "مغرب",
-    "نماز",
-    "نوشهروفيروز",
-    "وقت",
-    "ڏينهن",
-    "گذري"
-   ]
-  },
-  {
-   "t": 1794536532,
-   "h": "سرگوڌا ۾ کاڌن جا سرڪاري اگهه مقرر، مهانگي اگهه تي وڪري تي پابندي",
-   "b": "سرگودھا ۾ 12 نومبر 2026 تي زراعت کاتي جي واڌاري کاتي ضلعي اندر کاڌن (فرٽلائزر) جا اگهه مقرر ڪري ڇڏيا آهن.",
-   "tt": [
-    "اگهه",
-    "سرڪاري",
-    "سرگوڌا",
-    "مقرر،",
-    "مهانگي",
-    "وڪري",
-    "پابندي",
-    "ڪاڌن"
-   ],
-   "bt": [
-    "#12",
-    "اندر",
-    "اهن",
-    "اگهه",
-    "زراعت",
-    "سرڪاري",
-    "سرگودها",
-    "سرگوڌا",
-    "ضلعي",
-    "فرٽلائزر",
-    "مقرر",
-    "مقرر،",
-    "مهانگي",
-    "نومبر",
-    "واڌاري",
-    "وڪري",
-    "پابندي",
-    "ڇڏيا",
-    "ڪاتي",
-    "ڪاڌن"
-   ]
-  },
-  {
-   "t": 1794537728,
-   "h": "ڪراچي جي مکيه روڊن تان تجاوزات خلاف آپريشن شروع",
-   "b": "ڪراچي جي اهم روڊن تان ناجائز قبضا هٽائڻ جو فيصلو ڪيو ويو آهي ته جيئن ٽرئفڪ جي رواني کي بهتر بڻائي سگهجي ۽",
-   "tt": [
-    "اپريشن",
-    "تان",
-    "تجاوزات",
-    "خلاف",
-    "روڊن",
-    "شروع",
-    "مڪيه",
-    "ڪراچي"
-   ],
-   "bt": [
-    "اساني",
-    "اهم",
-    "اهي",
-    "اپريشن",
-    "بهتر",
-    "بڻائي",
-    "تان",
-    "تجاوزات",
-    "جيئن",
-    "حرڪت",
-    "خلاف",
-    "رواني",
-    "روڊن",
-    "سگهجي",
-    "شروع",
-    "عوامي",
-    "فيصلو",
-    "قبضا",
-    "مڪيه",
-    "ناجائز",
-    "هٽائڻ",
-    "ٽرئفڪ",
-    "ٽرانسپورٽ",
-    "پيدا",
-    "ٿئي",
-    "ڪراچي"
-   ]
-  },
-  {
-   "t": 1794538900,
-   "h": "صبح جون سنڌ جون اهم خبرون",
-   "b": "13 نومبر 2026 1️⃣ پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي حڪومت عوام کي رليف ڏيڻ لاءِ پيٹروليم شين جي قيمتن ۾",
-   "tt": [
-    "اهم",
-    "خبرون",
-    "سنڌ",
-    "صبح"
-   ],
-   "bt": [
-    "#13",
-    "#332",
-    "#360",
-    "اهم",
-    "اهي",
-    "اهي،",
-    "تحت",
-    "حڪومت",
-    "خبرون",
-    "رليف",
-    "رپيا",
-    "سستو",
-    "سنڌ",
-    "شين",
-    "صبح",
-    "عوام",
-    "قيمت",
-    "قيمتن",
-    "لٽر",
-    "مقرر",
-    "نئين",
-    "نومبر",
-    "واڌ",
-    "پيٹروليم",
-    "پيٽرول",
-    "ڊيزل",
-    "ڏيڻ",
-    "ڪانپوء",
-    "گهٽتائي"
-   ]
-  },
-  {
-   "t": 1794539285,
-   "h": "صبح جون خبرون | جمعو، 13 نومبر 2026",
-   "b": "1️⃣ زرداري ۽ محسن نقوي جي ملاقات نوابشاهه ۾ صدر زرداري ۽ گهرو وزير محسن نقوي وچ ۾ سياسي صورتحال تي غور ڪيو",
-   "tt": [
-    "#13",
-    "جمعو،",
-    "خبرون",
-    "صبح",
-    "نومبر"
-   ],
-   "bt": [
-    "#13",
-    "ادم",
-    "اومبدسمن",
-    "جمعو،",
-    "حالتن",
-    "خبرون",
-    "خراب",
-    "دورو",
-    "ريجنل",
-    "زرداري",
-    "سنڌ",
-    "سياسي",
-    "صبح",
-    "صدر",
-    "صفائي",
-    "صورتحال",
-    "غور",
-    "محسن",
-    "ملاقات",
-    "نقوي",
-    "نوابشاهه",
-    "نومبر",
-    "نوٽيس",
-    "ورتو",
-    "وزير",
-    "ٽنڊو",
-    "ڊائريڪٽر",
-    "گهرو"
-   ]
-  },
   {
    "t": 1794540807,
    "h": "صنائعي ۽ زرعي صارفين لاءِ بجلي مهانگي",
@@ -13581,6 +13384,53 @@
     "گذري",
     "گرمي",
     "گهٽ"
+   ]
+  },
+  {
+   "t": 1794712234,
+   "h": "صبح جون سنڌ جون اهم خبرون",
+   "b": "15 نومبر 2026 1️⃣ موٽروے ايم 5 روهري کان پنوں عاقل تائين بند شدید دھند جي ڪري مسافرن جي جان و مال جي حفاظت کي",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "صبح"
+   ],
+   "bt": [
+    "#15",
+    "اهم",
+    "اهي",
+    "ايم",
+    "بند",
+    "تائين",
+    "جان",
+    "حفاظت",
+    "خبرون",
+    "دهند",
+    "دوران",
+    "روشنيء",
+    "روهري",
+    "رڪندي",
+    "سفر",
+    "سنڌ",
+    "شديد",
+    "شهرين",
+    "صبح",
+    "ضروري",
+    "عاقل",
+    "غير",
+    "مال",
+    "مسافرن",
+    "موٽروي",
+    "نظر",
+    "نومبر",
+    "هدايت",
+    "ٽريفڪ",
+    "پاسو",
+    "پنوں",
+    "پوليس",
+    "ڏينهن",
+    "ڪان"
    ]
   }
  ],
