@@ -2196,18 +2196,18 @@
    },
    "wicket_posts": 5,
    "break_done": true,
-   "last_edit": 1794767763.9601033,
+   "last_edit": 1794768367.3752253,
    "batting": "Netherlands Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 23:36",
+  "time": "2026-11-15 23:46",
   "items": 35,
   "sample": [
-   "Zimbabwe A 329/10 & 214/3 * v Ireland A 551/10",
-   "Afghanistan 217/10 v Zimbabwe 339/10 & 169/7 *",
+   "Zimbabwe A 214/3 & 329/10 * v Ireland A 551/10",
+   "Afghanistan 217/10 v Zimbabwe 169/7 & 339/10 *",
    "Thailand Women 82/10 * v Zimbabwe Women 110/5"
   ]
  },
@@ -7901,7 +7901,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 23:36",
+  "time": "2026-11-15 23:46",
   "steps": []
  },
  "roundup_am": "2026-11-15",
@@ -8052,14 +8052,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
    "ok": 135,
-   "fail": 11,
+   "fail": 12,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 144,
+   "ok": 145,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8067,7 +8067,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 144,
+   "ok": 145,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8075,7 +8075,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 146,
+   "ok": 147,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8083,7 +8083,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 146,
+   "ok": 147,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8091,14 +8091,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 146,
+   "ok": 147,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 146,
+   "ok": 147,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8107,9 +8107,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 146,
+   "fail": 147,
    "items": 15,
-   "fail_streak": 1670,
+   "fail_streak": 1671,
    "last_status": 404
   }
  },
@@ -8330,8 +8330,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 9,
-  "old": 9,
+  "found": 12,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9014,20 +9014,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-15 20:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-15 20:36",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-15 20:40",
    "ok": true,
    "n": 0,
@@ -9288,6 +9274,20 @@
   },
   {
    "t": "11-15 23:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 23:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 23:46",
    "ok": true,
    "n": 0,
    "ids": [],
