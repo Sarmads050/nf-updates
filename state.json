@@ -1,7 +1,5 @@
 {
  "seen": {
-  "347c8e9de2a86a4c": 1794130284.877693,
-  "6926525b684d85ce": 1794130284.877696,
   "ab35cf9bd791fee3": 1794130866.4805872,
   "687218b21e1cc557": 1794131467.4643996,
   "7e436e5f306f7289": 1794131496.1352606,
@@ -1450,7 +1448,8 @@
   "cb344e82ecc319dc": 1794732527.3245075,
   "2a2795dc3a1c8d41": 1794732527.324688,
   "d44eb695becc2f18": 1794732627.0969398,
-  "9af588a4adb45557": 1794735081.0787933
+  "9af588a4adb45557": 1794735081.0787933,
+  "c3c254b4c2d20826": 1794735657.6245823
  },
  "pending": {},
  "queue": [],
@@ -2167,18 +2166,18 @@
    },
    "wicket_posts": 5,
    "break_done": true,
-   "last_edit": 1794735411.672844,
+   "last_edit": 1794735975.2197647,
    "batting": "Netherlands Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-15 14:36",
+  "time": "2026-11-15 14:46",
   "items": 19,
   "sample": [
-   "Zimbabwe A 69/1 & 329/10 * v Ireland A 551/10",
-   "Afghanistan 217/10 v Zimbabwe 41/1 & 339/10 *",
+   "Zimbabwe A 72/1 & 329/10 * v Ireland A 551/10",
+   "Afghanistan 217/10 v Zimbabwe 45/1 & 339/10 *",
    "Sydney Sixers Women 152/6 v Melbourne Renegades Women 156/8 *"
   ]
  },
@@ -7896,7 +7895,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-15 14:36",
+  "time": "2026-11-15 14:46",
   "steps": []
  },
  "roundup_am": "2026-11-15",
@@ -8046,7 +8045,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-15",
-   "ok": 86,
+   "ok": 87,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8054,7 +8053,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-15",
-   "ok": 89,
+   "ok": 90,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8062,7 +8061,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-15",
-   "ok": 89,
+   "ok": 90,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8070,7 +8069,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8078,7 +8077,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8086,14 +8085,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-15",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-15",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8102,9 +8101,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-15",
    "ok": 0,
-   "fail": 90,
+   "fail": 91,
    "items": 15,
-   "fail_streak": 1614,
+   "fail_streak": 1615,
    "last_status": 404
   }
  },
@@ -8293,8 +8292,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 16,
-  "old": 16,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8932,20 +8931,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-15 11:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-15 11:16",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-15 11:20",
    "ok": true,
    "n": 0,
@@ -9206,6 +9191,20 @@
   },
   {
    "t": "11-15 14:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 14:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-15 14:46",
    "ok": true,
    "n": 0,
    "ids": [],
