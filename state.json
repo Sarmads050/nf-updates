@@ -1,6 +1,5 @@
 {
  "seen": {
-  "88fd977576481d8e": 1794195072.6801896,
   "77fe13596a45857e": 1794196274.491898,
   "f662cf70144b341e": 1794196274.4920764,
   "5b9a68cdafdd56d5": 1794196881.3207912,
@@ -1445,7 +1444,8 @@
   "77509bd3b279afb1": 1794799272.776902,
   "2ec5d4dac885618c": 1794799272.7769024,
   "06457d7cb300250b": 1794799272.7769032,
-  "031eacba08796453": 1794799272.7770283
+  "031eacba08796453": 1794799272.7770283,
+  "8828edc846b7ce36": 1794801075.9496374
  },
  "pending": {},
  "queue": [],
@@ -1518,7 +1518,7 @@
  "sindh_single": {
   "date": "2026-11-16",
   "count": 0,
-  "last": 1794764618.2161677,
+  "last": 1794801070.793152,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1574,7 +1574,8 @@
    "3ab4a7b52ce113f3",
    "858149b00da6b4e8",
    "e64d0af6ded9d71b",
-   "d44eb695becc2f18"
+   "d44eb695becc2f18",
+   "8828edc846b7ce36"
   ]
  },
  "last_post_id": "1444130002106066_122121507375503839",
@@ -2172,10 +2173,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-16 08:31",
+  "time": "2026-11-16 08:54",
   "items": 31,
   "sample": [
-   "Afghanistan 217/10 v Zimbabwe 339/10 & 169/7 *",
+   "Afghanistan 217/10 v Zimbabwe 169/7 & 339/10 *",
    "South Africa v Bangladesh 327/6 *",
    "New South Wales v South Australia 236/3 *"
   ]
@@ -4600,32 +4601,8 @@
   "last": 1794799364.8343372
  },
  "trends": {
-  "last": 1794789660.4388516,
+  "last": 1794800690.032871,
   "terms": [
-   {
-    "term": "jensen huang",
-    "traffic": 200,
-    "news": "Nvidia probes whether CEO Huang was target of foreign spying as he admits affair",
-    "t": 1794188459,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "barcelona vs atlético madrid",
-    "traffic": 200,
-    "news": "El reto de Joan García contra el Atlético",
-    "t": 1794188459,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "barca vs",
-    "traffic": 500,
-    "news": "Calendario de fútbol europeo: Barça vs Atlético de Madrid",
-    "t": 1794188459,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "icc",
     "traffic": 1000,
@@ -7449,15 +7426,79 @@
     "t": 1794789660,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "خیبر پختونخوا",
+    "traffic": 100,
+    "news": "",
+    "t": 1794800690,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "today petrol price",
+    "traffic": 100,
+    "news": "Government announces new petroleum prices, cuts petrol by Rs2 Per litre",
+    "t": 1794800690,
+    "cat": "fuel",
+    "sindh": false
+   },
+   {
+    "term": "chengdu j-10",
+    "traffic": 100,
+    "news": "J-10C spotted with a likely modified Kh-29T — South China Morning Post",
+    "t": 1794800690,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "ronaldinho gaúcho",
+    "traffic": 200,
+    "news": "Ronaldinho fails to score 300th goal as comeback lasts 45 minutes",
+    "t": 1794800690,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "gold",
+    "traffic": 500,
+    "news": "Gold (XAU/USD) Price Forecast: Dollar Strength Extends Downside Targets",
+    "t": 1794800690,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "gold price",
+    "traffic": 100,
+    "news": "Wedding Season Gets a Little Easier as Gold Prices Decline",
+    "t": 1794800690,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "spacex starship rocket launch",
+    "traffic": 5000,
+    "news": "SpaceX pulls off first-ever spaceship ‘catch’",
+    "t": 1794800690,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "belgium national football team vs italy national football team standings",
+    "traffic": 2000,
+    "news": "How to watch Italy vs. Belgium soccer streaming for free today: Nations League live stream, TV channel, odds",
+    "t": 1794800690,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-16",
-  "ok": 71,
-  "fail": 115,
-  "limit": 114
+  "ok": 76,
+  "fail": 125,
+  "limit": 124
  },
  "posted_heads": [
   {
@@ -7782,7 +7823,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-16 08:31",
+  "time": "2026-11-16 08:54",
   "steps": []
  },
  "roundup_am": "2026-11-16",
@@ -7890,7 +7931,7 @@
   "text": 6,
   "story": 4
  },
- "ai_last_error": "08:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-16",
   "models": [
@@ -7933,14 +7974,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-16",
    "ok": 53,
-   "fail": 1,
+   "fail": 2,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-16",
-   "ok": 53,
+   "ok": 54,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7948,7 +7989,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-16",
-   "ok": 53,
+   "ok": 54,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7956,7 +7997,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7964,7 +8005,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7972,14 +8013,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7988,9 +8029,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-16",
    "ok": 0,
-   "fail": 54,
+   "fail": 55,
    "items": 15,
-   "fail_streak": 1726,
+   "fail_streak": 1727,
    "last_status": 404
   }
  },
@@ -8263,8 +8304,8 @@
   "date": "2026-11-16",
   "count": 1,
   "last": 1794772874.836245,
-  "city_i": 12,
-  "dry": 1794799262.4979224
+  "city_i": 16,
+  "dry": 1794800742.4600112
  },
  "gemini_day_dead": {
   "day": "2026-11-15",
@@ -8903,13 +8944,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-16 02:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-16 02:30",
    "ok": true,
    "n": 0,
@@ -9177,6 +9211,13 @@
   },
   {
    "t": "11-16 08:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-16 08:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13480,11 +13521,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-13 22:31",
-   "new": "صدر آصف علي زرداري جو نوابشاهه ۾ وارثن جي مزار تي حاضري",
-   "old": "نوابشاهه ۾ زرداري ۽ محسن نقوي جي ملاقات، سياسي صورتحال تي غور"
-  },
-  {
    "t": "11-14 00:51",
    "new": "نوابشاهه ۾ صدر ۽ نقوي وچ ۾ ملاقات، صوبائي معاملن تي بحث نه ٿيو",
    "old": "نوابشاهه ۾ زرداري ۽ محسن نقوي جي ملاقات، سياسي صورتحال تي غور"
@@ -13628,6 +13664,11 @@
    "t": "11-15 22:37",
    "new": "حيدرآباد جا واپاري گهٽجندڙ پيٽرول اگهن جا طلبگار",
    "old": "پيٽروليم اگهن ۾ لاٿ جو عوام کي سڌو فائدو نه ملڻ الميو"
+  },
+  {
+   "t": "11-16 08:51",
+   "new": "سنڌ | محرابپور ۽ ٻين علائقن ۾ بجلي جي معطلي جو اعلان",
+   "old": "صبح جون سنڌ جون اهم خبرون"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13648,6 +13689,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 0
- }
+  "repeat": 1
+ },
+ "_dup": true
 }
