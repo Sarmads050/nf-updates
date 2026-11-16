@@ -1,0 +1,651 @@
+{
+ "id": "ep023",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 23,
+ "title": "Project Kal Hai!",
+ "topic": "Monday night school project panic - Mehak says her 'water cycle' science model is due tomorrow (Tuesday) at 9 PM; bazaar closed so the family builds it from home things (old steel tray, cotton from the medicine box as clouds, blue shopper as sea), toddler Hamza grabs a cotton cloud; at 11 PM Faraz reads the diary: due Tuesday 24 November - next week",
+ "music": "comic",
+ "tempo": 1.15,
+ "lesson": "Diary poori parho,<br>kaam waqt par shuru karo!",
+ "caption": "Raat 9 baje: \"Ammi, kal mera project hai!\" 😱 Phir poore ghar ne mil kar ghar ki cheezon se model bana diya... lekin diary mein kuch aur hi likha tha! 😂 Aap ke ghar mein aakhri raat ka project kaun laata hai? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#SchoolProject",
+  "#PakistaniFamily",
+  "#UrduCartoon",
+  "#AmmiAbba"
+ ],
+ "scenes": [
+  {
+   "set": "living_room",
+   "time": "night",
+   "label": "Drawing Room • Raat 9 Baje",
+   "cast": {
+    "ABBA": "sofa_r",
+    "AMMI": "sofa_l"
+   },
+   "props": {
+    "ABBA": "newspaper",
+    "MEHAK": "book",
+    "FARAZ": "phone"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Nawabshah, *Monday raat 9 baje*... sab aaraam se baithe thay, ke achanak *cheekh* aayi!",
+     "urdu": "نواب شاہ، منڈے رات نو بجے... سب آرام سے بیٹھے تھے، کہ اچانک چیخ آئی!",
+     "how": "warm storyteller, playful, then sudden",
+     "shot": "wide",
+     "gap": 0.1,
+     "react_pose": {
+      "AMMI": "rest",
+      "ABBA": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "worried",
+     "roman": "Ammi! Kal *Tuesday* hai, aur kal mera *science project* jama hona hai!",
+     "urdu": "امی! کل ٹیوز ڈے ہے، اور کل میرا سائنس پراجیکٹ جمع ہونا ہے!",
+     "how": "14-year-old girl, panicking, fast",
+     "shot": "close",
+     "pose": "head_hold",
+     "before": [
+      {
+       "do": "enter",
+       "who": "MEHAK",
+       "slot": "stand_l"
+      },
+      {
+       "do": "sfx",
+       "name": "whoosh",
+       "wait": 0.2
+      }
+     ],
+     "looks": {
+      "AMMI": "MEHAK",
+      "ABBA": "MEHAK"
+     },
+     "react": {
+      "AMMI": "surprised",
+      "ABBA": "surprised"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "ABBA": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "surprised",
+     "roman": "Kal subah? Aur tum mujhe *raat ke 9 baje* bata rahi ho?",
+     "urdu": "کل صبح؟ اور تم مجھے رات کے نو بجے بتا رہی ہو؟",
+     "how": "mother, shocked and scolding, but loving",
+     "shot": "close",
+     "pose": "point_other",
+     "looks": {
+      "MEHAK": "AMMI"
+     },
+     "react": {
+      "MEHAK": "sheepish"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "roman": "Paani ka *chakkar* banana hai. Samandar, *baadal*, barish... sab kuch!",
+     "urdu": "پانی کا چکر بنانا ہے۔ سمندر، بادل، بارش... سب کچھ!",
+     "how": "girl, pleading, counting on fingers",
+     "shot": "close",
+     "pose": "plead",
+     "looks": {
+      "AMMI": "MEHAK",
+      "ABBA": "MEHAK"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "ABBA": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "MEHAK",
+     "emo": "teasing",
+     "roman": "Humare zamane mein project nahi hotay thay. Seedha *imtihaan* hota tha!",
+     "urdu": "ہمارے زمانے میں پراجیکٹ نہیں ہوتے تھے۔ سیدھا امتحان ہوتا تھا!",
+     "how": "57-year-old father, proud old-school tone",
+     "shot": "close",
+     "pose": "wag",
+     "looks": {
+      "MEHAK": "ABBA",
+      "AMMI": "ABBA"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "ABBA",
+     "emo": "worried",
+     "roman": "Abba, abhi *zamana* nahi... mera *project* bachaiye!",
+     "urdu": "ابا، ابھی زمانہ نہیں... میرا پراجیکٹ بچائیے!",
+     "how": "girl, desperate, comic",
+     "shot": "punch",
+     "pose": "plead",
+     "joke": true,
+     "gap": 0.6,
+     "looks": {
+      "ABBA": "MEHAK"
+     },
+     "react": {
+      "AMMI": "laugh",
+      "ABBA": "sheepish"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "ABBA": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "door",
+     "emo": "proud",
+     "roman": "Theek hai. *Faraz!* Ghar ka *engineer* kahan hai?",
+     "urdu": "ٹھیک ہے۔ فراز! گھر کا انجینئر کہاں ہے؟",
+     "how": "father, calling loudly toward the door, confident",
+     "shot": "close",
+     "pose": "beckon",
+     "looks": {
+      "MEHAK": "door",
+      "AMMI": "door"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "FARAZ",
+     "to": "ABBA",
+     "emo": "sheepish",
+     "roman": "Abba, main *computer* wala engineer hoon, *gatte* wala nahi!",
+     "urdu": "ابا، میں کمپیوٹر والا انجینئر ہوں، گتے والا نہیں!",
+     "how": "27-year-old son, half-laughing protest",
+     "shot": "punch",
+     "pose": "shrug",
+     "joke": true,
+     "gap": 0.6,
+     "before": [
+      {
+       "do": "enter",
+       "who": "FARAZ",
+       "slot": "stand_r"
+      }
+     ],
+     "looks": {
+      "ABBA": "FARAZ",
+      "MEHAK": "FARAZ",
+      "AMMI": "FARAZ"
+     },
+     "react": {
+      "AMMI": "laugh",
+      "MEHAK": "laugh"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "ABBA": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "focused",
+     "roman": "Bazaar band ho chuka hai. Jo kuch chahiye, *ghar mein* hi dhoondo!",
+     "urdu": "بازار بند ہو چکا ہے۔ جو کچھ چاہیے، گھر میں ہی ڈھونڈو!",
+     "how": "mother, taking charge, decisive",
+     "shot": "close",
+     "pose": "explain",
+     "looks": {
+      "MEHAK": "AMMI",
+      "FARAZ": "AMMI",
+      "ABBA": "AMMI"
+     },
+     "react": {
+      "MEHAK": "happy"
+     },
+     "react_pose": {
+      "FARAZ": "rest",
+      "ABBA": "rest",
+      "MEHAK": "rest"
+     }
+    }
+   ]
+  },
+  {
+   "set": "kitchen",
+   "time": "night",
+   "label": "Kitchen • Raat",
+   "cast": {
+    "AMMI": "stove",
+    "MEHAK": "mid",
+    "FARAZ": "right",
+    "HAMZA": "floor_r"
+   },
+   "props": {
+    "FARAZ": "bag",
+    "HAMZA": "toy",
+    "AMMI": "tray"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Aur phir kitchen mein shuru hua ghar ka sab se bara *talaashi mission*!",
+     "urdu": "اور پھر کچن میں شروع ہوا گھر کا سب سے بڑا تلاشی مشن!",
+     "how": "storyteller, amused, adventurous",
+     "shot": "wide",
+     "gap": 0.1,
+     "react_pose": {
+      "FARAZ": "rest",
+      "HAMZA": "rest",
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "warm",
+     "roman": "Yeh lo, purani *steel ki tray*. Model is ke upar banao.",
+     "urdu": "یہ لو، پرانی سٹیل کی ٹرے۔ ماڈل اس کے اوپر بناؤ۔",
+     "how": "mother, helpful, practical",
+     "shot": "close",
+     "pose": "hold",
+     "give": {
+      "to": "MEHAK",
+      "prop": "tray",
+      "at": 0.5
+     },
+     "looks": {
+      "MEHAK": "AMMI"
+     },
+     "react": {
+      "MEHAK": "happy"
+     },
+     "react_pose": {
+      "FARAZ": "rest",
+      "HAMZA": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "worried",
+     "roman": "Shukriya Ammi! Lekin *baadal* kis cheez se banayein?",
+     "urdu": "شکریہ امی! لیکن بادل کس چیز سے بنائیں؟",
+     "how": "girl, thankful then worried",
+     "shot": "close",
+     "pose": "think",
+     "looks": {
+      "AMMI": "MEHAK",
+      "FARAZ": "MEHAK"
+     },
+     "react_pose": {
+      "FARAZ": "rest",
+      "HAMZA": "rest",
+      "AMMI": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "proud",
+     "roman": "Dawai wale dabbe mein *rooi* hai. Safaid aur naram, bilkul *baadal*!",
+     "urdu": "دوائی والے ڈبے میں روئی ہے۔ سفید اور نرم، بالکل بادل!",
+     "how": "mother, proud of her idea",
+     "shot": "close",
+     "pose": "point_up",
+     "looks": {
+      "MEHAK": "AMMI"
+     },
+     "react": {
+      "MEHAK": "surprised"
+     },
+     "react_pose": {
+      "FARAZ": "rest",
+      "HAMZA": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "FARAZ",
+     "to": "MEHAK",
+     "emo": "happy",
+     "roman": "Aur samandar ke liye yeh *neela shopper* kaat kar bichha dete hain!",
+     "urdu": "اور سمندر کے لیے یہ نیلا شاپر کاٹ کر بچھا دیتے ہیں!",
+     "how": "brother, excited, tech-guy confidence",
+     "shot": "close",
+     "pose": "explain",
+     "looks": {
+      "MEHAK": "FARAZ",
+      "AMMI": "FARAZ"
+     },
+     "react": {
+      "MEHAK": "happy"
+     },
+     "react_pose": {
+      "HAMZA": "rest",
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "HAMZA",
+     "to": "front",
+     "emo": "laugh",
+     "roman": "*Baa-dal!* Hamza ka baadal!",
+     "urdu": "با-دل! حمزہ کا بادل!",
+     "how": "2-year-old toddler, giggling, half words",
+     "shot": "group",
+     "sfx": [
+      "baby_giggle"
+     ],
+     "looks": {
+      "AMMI": "HAMZA",
+      "MEHAK": "HAMZA",
+      "FARAZ": "HAMZA"
+     },
+     "react": {
+      "AMMI": "surprised",
+      "MEHAK": "surprised"
+     },
+     "react_pose": {
+      "FARAZ": "rest",
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "FARAZ",
+     "to": "AMMI",
+     "emo": "teasing",
+     "roman": "Lo! Ek *baadal* to barish se pehle hi *ur gaya*!",
+     "urdu": "لو! ایک بادل تو بارش سے پہلے ہی اڑ گیا!",
+     "how": "brother, cheeky comic timing",
+     "shot": "punch",
+     "pose": "point_down",
+     "joke": true,
+     "gap": 0.6,
+     "looks": {
+      "AMMI": "FARAZ"
+     },
+     "react": {
+      "AMMI": "laugh",
+      "MEHAK": "laugh"
+     },
+     "react_pose": {
+      "HAMZA": "rest",
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "warm",
+     "roman": "Hamza ko ek chhota sa tukra de do. Woh bhi *team* mein hai!",
+     "urdu": "حمزہ کو ایک چھوٹا سا ٹکڑا دے دو۔ وہ بھی ٹیم میں ہے!",
+     "how": "grandmother, soft and loving",
+     "shot": "close",
+     "pose": "explain",
+     "looks": {
+      "MEHAK": "AMMI"
+     },
+     "react": {
+      "MEHAK": "happy",
+      "HAMZA": "happy"
+     },
+     "react_pose": {
+      "FARAZ": "rest",
+      "HAMZA": "rest",
+      "MEHAK": "rest"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "night",
+   "label": "Drawing Room • Raat 11 Baje",
+   "cast": {
+    "ABBA": "sofa_r",
+    "MEHAK": "sofa_c",
+    "AMMI": "sofa_l",
+    "FARAZ": "stand_r",
+    "HAMZA": "floor_l"
+   },
+   "props": {
+    "MEHAK": "tray",
+    "FARAZ": "book",
+    "HAMZA": "toy"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Raat *11 baje*... model tayyar tha. Samandar, baadal aur barish, sab *apni jagah*!",
+     "urdu": "رات گیارہ بجے... ماڈل تیار تھا۔ سمندر، بادل اور بارش، سب اپنی جگہ!",
+     "how": "storyteller, satisfied, warm",
+     "shot": "wide",
+     "gap": 0.1,
+     "react_pose": {
+      "ABBA": "rest",
+      "FARAZ": "rest",
+      "HAMZA": "rest",
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "MEHAK",
+     "emo": "proud",
+     "roman": "Waah! Humare zamane mein bhi itna *achha* model kisi ka nahi tha!",
+     "urdu": "واہ! ہمارے زمانے میں بھی اتنا اچھا ماڈل کسی کا نہیں تھا!",
+     "how": "father, impressed, proud",
+     "shot": "close",
+     "pose": "clap",
+     "looks": {
+      "MEHAK": "ABBA"
+     },
+     "react": {
+      "MEHAK": "proud"
+     },
+     "react_pose": {
+      "FARAZ": "rest",
+      "HAMZA": "rest",
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "FARAZ",
+     "to": "front",
+     "emo": "focused",
+     "roman": "Ruko... diary mein likha hai: jama karna hai *Tuesday, 24 November*.",
+     "urdu": "رکو... ڈائری میں لکھا ہے: جمع کرنا ہے ٹیوز ڈے، چوبیس نومبر۔",
+     "how": "brother, reading slowly, suspicious",
+     "shot": "close",
+     "pose": "read",
+     "looks": {
+      "MEHAK": "FARAZ",
+      "AMMI": "FARAZ",
+      "ABBA": "FARAZ"
+     },
+     "react": {
+      "MEHAK": "confused"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "HAMZA": "rest",
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "surprised",
+     "roman": "Kal to *17 tareekh* hai!",
+     "urdu": "کل تو سترہ تاریخ ہے!",
+     "how": "mother, realising, wide-eyed",
+     "shot": "close",
+     "pose": "point_other",
+     "looks": {
+      "MEHAK": "AMMI"
+     },
+     "react": {
+      "MEHAK": "surprised"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "FARAZ": "rest",
+      "HAMZA": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "roman": "Yani project... *agle hafte* jama hona hai?",
+     "urdu": "یعنی پراجیکٹ... اگلے ہفتے جمع ہونا ہے؟",
+     "how": "girl, embarrassed, small voice",
+     "shot": "close",
+     "pose": "scratch_head",
+     "looks": {
+      "AMMI": "MEHAK",
+      "ABBA": "MEHAK"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "FARAZ": "rest",
+      "HAMZA": "rest",
+      "AMMI": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "front",
+     "emo": "laugh",
+     "roman": "Pehli dafa is ghar mein koi kaam *ek hafta pehle* poora hua hai!",
+     "urdu": "پہلی دفعہ اس گھر میں کوئی کام ایک ہفتہ پہلے پورا ہوا ہے!",
+     "how": "father, laughing loudly, delighted",
+     "shot": "punch",
+     "pose": "arms_up",
+     "joke": true,
+     "gap": 0.7,
+     "looks": {
+      "MEHAK": "ABBA",
+      "AMMI": "ABBA",
+      "FARAZ": "ABBA"
+     },
+     "react": {
+      "*": "laugh",
+      "MEHAK": "sheepish"
+     },
+     "react_pose": {
+      "FARAZ": "rest",
+      "HAMZA": "rest",
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "MEHAK",
+     "emo": "warm",
+     "roman": "Agli dafa diary *poori* parhna, aur kaam *waqt par* shuru karna.",
+     "urdu": "اگلی دفعہ ڈائری پوری پڑھنا، اور کام وقت پر شروع کرنا۔",
+     "how": "mother, gentle advice, smiling",
+     "shot": "close",
+     "pose": "explain",
+     "looks": {
+      "MEHAK": "AMMI"
+     },
+     "react": {
+      "MEHAK": "warm"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "FARAZ": "rest",
+      "HAMZA": "rest",
+      "MEHAK": "rest"
+     }
+    },
+    {
+     "who": "MEHAK",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Pakka, Ammi! Aur agle project mein *Hamza* mera assistant hoga!",
+     "urdu": "پکا، امی! اور اگلے پراجیکٹ میں حمزہ میرا اسسٹنٹ ہوگا!",
+     "how": "girl, cheerful, playful",
+     "shot": "close",
+     "pose": "point_down",
+     "looks": {
+      "AMMI": "MEHAK",
+      "HAMZA": "MEHAK"
+     },
+     "react": {
+      "HAMZA": "happy"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "FARAZ": "rest",
+      "HAMZA": "rest",
+      "AMMI": "rest"
+     }
+    },
+    {
+     "who": "HAMZA",
+     "to": "front",
+     "emo": "laugh",
+     "roman": "*Baa-dal!* Hamza... *assi-tant!*",
+     "urdu": "با-دل! حمزہ... اسّی-ٹنٹ!",
+     "how": "2-year-old toddler, proud, giggling, mispronouncing",
+     "shot": "group",
+     "pose": "arms_up",
+     "sfx": [
+      "baby_giggle"
+     ],
+     "joke": true,
+     "gap": 0.8,
+     "react": {
+      "*": "laugh"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "FARAZ": "rest",
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
+    }
+   ]
+  }
+ ]
+}
