@@ -1,6 +1,5 @@
 {
  "seen": {
-  "8f3dac3bb3ee6f6e": 1794265285.2300804,
   "ecff13e075f37a14": 1794267678.9979005,
   "e44c174d1343eda0": 1794268879.5099506,
   "721d87b4ce9a2e5d": 1794268879.509954,
@@ -2171,10 +2170,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 04:02",
+  "time": "2026-11-17 04:11",
   "items": 8,
   "sample": [
-   "Afghanistan 217/10 & 143/5 * v Zimbabwe 339/10 & 295/9",
+   "Afghanistan 217/10 & 143/5 * v Zimbabwe 295/9 & 339/10",
    "South Africa 287/4 * v Bangladesh 400/10",
    "Pakistan v Sri Lanka"
   ]
@@ -7805,7 +7804,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 04:02",
+  "time": "2026-11-17 04:11",
   "steps": []
  },
  "roundup_am": "2026-11-16",
@@ -7956,14 +7955,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 26,
+   "fail": 27,
    "items": 10,
-   "fail_streak": 36,
+   "fail_streak": 37,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7971,7 +7970,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7979,7 +7978,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7987,7 +7986,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7995,14 +7994,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 26,
+   "ok": 27,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8011,9 +8010,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 26,
+   "fail": 27,
    "items": 15,
-   "fail_streak": 1845,
+   "fail_streak": 1846,
    "last_status": 404
   }
  },
@@ -9109,13 +9108,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-16 23:26",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-16 23:30",
    "ok": true,
    "n": 0,
@@ -9383,6 +9375,13 @@
   },
   {
    "t": "11-17 04:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 04:10",
    "ok": true,
    "n": 0,
    "ids": [],
