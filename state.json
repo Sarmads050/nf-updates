@@ -1,12 +1,5 @@
 {
  "seen": {
-  "78426d261fd17c8a": 1794210651.8598661,
-  "c151d253fdb1ed75": 1794210651.8598902,
-  "d7ef5568950b507c": 1794210651.8599045,
-  "2013ca7418e605ca": 1794210669.0575716,
-  "e13cf3afeb13a6a9": 1794210669.0575745,
-  "29ee73da59a837b8": 1794210669.0575755,
-  "3021156fd8901933": 1794210678.8752408,
   "2749bf5e011eb0ae": 1794213384.4890797,
   "69262ade09c45520": 1794213384.4890816,
   "2beb1ccf10ad2162": 1794213384.4890833,
@@ -1440,7 +1433,10 @@
   "5775e508d9d3977b": 1794814864.2537115,
   "0ce4fcd6416b4b3b": 1794814864.2537124,
   "a69916675212f758": 1794814864.2537136,
-  "7b5db90315667e3b": 1794814864.2537153
+  "7b5db90315667e3b": 1794814864.2537153,
+  "c9fcd0b65ad1f6fa": 1794816193.068748,
+  "d985d6755d2e425d": 1794816415.062654,
+  "276a86eb17869cdb": 1794816415.0626576
  },
  "pending": {},
  "queue": [],
@@ -1468,7 +1464,7 @@
   "last_week": "",
   "last_check": "2026-11-16"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1583,7 +1579,7 @@
    "8828edc846b7ce36"
   ]
  },
- "last_post_id": "1444130002106066_122121673983503839",
+ "last_post_id": "1444130002106066_122121679197503839",
  "shareable": [
   {
    "id": "1444130002106066_122121292527503839",
@@ -2176,22 +2172,22 @@
    "post": "1444130002106066_122121604161503839",
    "wkts": {
     "Pakistan Women|1": 6,
-    "Zimbabwe Women|1": 4
+    "Zimbabwe Women|1": 8
    },
-   "wicket_posts": 6,
+   "wicket_posts": 8,
    "break_done": true,
-   "last_edit": 1794815776.1704805,
+   "last_edit": 1794816725.3626995,
    "batting": "Zimbabwe Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-16 12:56",
+  "time": "2026-11-16 13:12",
   "items": 31,
   "sample": [
-   "Afghanistan 217/10 v Zimbabwe 339/10 & 255/8 *",
-   "South Africa v Bangladesh 327/6 *",
+   "Afghanistan 217/10 v Zimbabwe 339/10 & 257/8 *",
+   "South Africa v Bangladesh 337/6 *",
    "New South Wales 108/10 * v South Australia 236/3"
   ]
  },
@@ -2202,8 +2198,8 @@
  },
  "all_posts": {
   "date": "2026-11-16",
-  "count": 27,
-  "last": 1794814897.5360389
+  "count": 29,
+  "last": 1794816729.9212754
  },
  "perf": {
   "posts": [
@@ -7478,8 +7474,8 @@
  },
  "ai_usage": {
   "date": "2026-11-16",
-  "ok": 138,
-  "fail": 233,
+  "ok": 140,
+  "fail": 234,
   "limit": 230
  },
  "posted_heads": [
@@ -7805,7 +7801,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-16 12:56",
+  "time": "2026-11-16 13:12",
   "steps": []
  },
  "roundup_am": "2026-11-16",
@@ -7913,7 +7909,7 @@
   "text": 9,
   "story": 7
  },
- "ai_last_error": "12:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "13:01 gemini-flash-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-16",
   "models": [
@@ -7955,7 +7951,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-16",
-   "ok": 76,
+   "ok": 77,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -7963,7 +7959,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-16",
-   "ok": 79,
+   "ok": 80,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7971,7 +7967,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-16",
-   "ok": 79,
+   "ok": 80,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7979,7 +7975,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7987,7 +7983,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7995,14 +7991,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8011,9 +8007,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-16",
    "ok": 0,
-   "fail": 80,
+   "fail": 81,
    "items": 15,
-   "fail_streak": 1752,
+   "fail_streak": 1753,
    "last_status": 404
   }
  },
@@ -8233,14 +8229,14 @@
   "pakistan": 8
  },
  "report_acc": {
-  "posted": 4,
-  "found": 8,
-  "old": 8,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-16 12",
+ "report_hour": "2026-11-16 13",
  "kawish_upload_times": {
   "_date": "2026-11-16",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8285,19 +8281,13 @@
  "sindh_stream": {
   "date": "2026-11-16",
   "count": 9,
-  "last": 1794814862.2864223,
-  "city_i": 24,
-  "dry": 1794807665.4393775
+  "last": 1794816102.1235209,
+  "city_i": 6,
+  "dry": 1794816193.0687516
  },
  "gemini_day_dead": {
-  "day": "2026-11-15",
-  "models": [
-   "gemini-flash-latest",
-   "gemini-3.7-flash",
-   "gemini-3.8-flash",
-   "gemini-3.6-flash",
-   "gemini-3.5-flash"
-  ]
+  "day": "2026-11-16",
+  "models": []
  },
  "tg_done": [
   92058696,
@@ -8977,20 +8967,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-16 09:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-16 09:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-16 09:30",
    "ok": true,
    "n": 0,
@@ -9255,65 +9231,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-16 13:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-16 13:12",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-16",
  "recent_posts": [
-  {
-   "t": 1794642734,
-   "h": "سنڌ هاءِ ڪورٽ بئنڪ قرض تي نيلامي خلاف درخواست رد ڪري ڇڏي",
-   "b": "سنڌ هاءِ ڪورٽ بئنڪ جو قرض واپس نه ڪرڻ سبب نيلام ڪيل ملڪيت واپس ڪرڻ واري درخواست رد ڪري ڇڏي آهي. عدالت نيلامي",
-   "tt": [
-    "بئنڪ",
-    "خلاف",
-    "درخواست",
-    "سنڌ",
-    "قرض",
-    "نيلامي",
-    "هاء",
-    "ڇڏي",
-    "ڪورٽ"
-   ],
-   "bt": [
-    "#30",
-    "امجد",
-    "اهي",
-    "بئنڪ",
-    "بئنڪنگ",
-    "برقرار",
-    "جسٽس",
-    "خلاف",
-    "داخل",
-    "درخواست",
-    "رڪيو",
-    "سبب",
-    "سنڌ",
-    "سهتو",
-    "عدالت",
-    "علي",
-    "فيصلو",
-    "فيصلي",
-    "قانوني",
-    "قرار",
-    "قرض",
-    "مدي",
-    "مقرر",
-    "ملڪيت",
-    "نيلام",
-    "نيلامي",
-    "هاء",
-    "واپس",
-    "پنهنجي",
-    "ڇڏي",
-    "ڏيندي",
-    "ڏينهن",
-    "ڪانپوء",
-    "ڪرڻ",
-    "ڪورٽ",
-    "ڪيل",
-    "گذرڻ"
-   ]
-  },
   {
    "t": 1794645873,
    "h": "نوان صوبا ٺاهڻ غير آئيني يا غير قانوني ناهي: مصطفيٰ ڪمال",
@@ -13841,6 +13776,62 @@
    "bt": [
     "#150",
     "#56",
+    "ائوٽ،",
+    "اسڪور",
+    "رانديگر",
+    "زمبابوي",
+    "هاڻوڪو",
+    "وومين",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پاڪستان",
+    "پيون"
+   ]
+  },
+  {
+   "t": 1794816421,
+   "h": "وڪيٽ! زمبابوي وومين جو رانديگر آئوٽ، 7 وڪيٽون ڪري پيون",
+   "b": "هاڻوڪو اسڪور: پاڪستان وومين 150/6 زمبابوي وومين 83/7 🏏",
+   "tt": [
+    "ائوٽ،",
+    "رانديگر",
+    "زمبابوي",
+    "وومين",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پيون"
+   ],
+   "bt": [
+    "#150",
+    "#83",
+    "ائوٽ،",
+    "اسڪور",
+    "رانديگر",
+    "زمبابوي",
+    "هاڻوڪو",
+    "وومين",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پاڪستان",
+    "پيون"
+   ]
+  },
+  {
+   "t": 1794816729,
+   "h": "وڪيٽ! زمبابوي وومين جو رانديگر آئوٽ، 8 وڪيٽون ڪري پيون",
+   "b": "هاڻوڪو اسڪور: پاڪستان وومين 150/6 زمبابوي وومين 87/8 🏏",
+   "tt": [
+    "ائوٽ،",
+    "رانديگر",
+    "زمبابوي",
+    "وومين",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پيون"
+   ],
+   "bt": [
+    "#150",
+    "#87",
     "ائوٽ،",
     "اسڪور",
     "رانديگر",
