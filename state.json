@@ -1442,7 +1442,10 @@
   "62c2c4aa7e1e340a": 1794808261.8188815,
   "22c9fab7977cb205": 1794808885.5295267,
   "509d9fdb118575ca": 1794810366.660523,
-  "f6884e91e54dc976": 1794810366.6605265
+  "f6884e91e54dc976": 1794810366.6605265,
+  "9cee41681af859bc": 1794811266.5246017,
+  "f92cc5856dd29eb4": 1794811266.5246038,
+  "2e7b6296c5dc28d3": 1794811266.5246062
  },
  "pending": {},
  "queue": [],
@@ -1575,18 +1578,8 @@
    "8828edc846b7ce36"
   ]
  },
- "last_post_id": "1444130002106066_122121646515503839",
+ "last_post_id": "1444130002106066_122121650313503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122121282105503839",
-   "title": "محرابپور ۾ جوابدار گرفتار، ھٿيار ھٿ",
-   "t": 1794743481.403846,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122121282105503839"
-  },
   {
    "id": "1444130002106066_122121285723503839",
    "title": "نوشھروفيروز ۾ نينگريءَ سان زيادتي جو ڪيس داخل",
@@ -1901,6 +1894,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122121646203503839"
+  },
+  {
+   "id": "1444130002106066_122121649563503839",
+   "title": "ڄامشورو ۾ درزي جي دڪان تي معمولي ڳالهه تان قتل",
+   "t": 1794811280.6860867,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122121649563503839"
   }
  ],
  "share_sent": {
@@ -2165,21 +2170,22 @@
   "httpwwwcricinfocomcienginematch1557556htmlcmpotcrss": {
    "post": "1444130002106066_122121604161503839",
    "wkts": {
-    "Pakistan Women|1": 6
+    "Pakistan Women|1": 6,
+    "Zimbabwe Women|1": 1
    },
    "wicket_posts": 3,
-   "break_done": false,
-   "last_edit": 1794811136.2898934,
-   "batting": "Pakistan Women",
+   "break_done": true,
+   "last_edit": 1794811585.818394,
+   "batting": "Zimbabwe Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-16 11:38",
+  "time": "2026-11-16 11:46",
   "items": 31,
   "sample": [
-   "Afghanistan 217/10 v Zimbabwe 187/8 & 339/10 *",
+   "Afghanistan 217/10 v Zimbabwe 339/10 & 193/8 *",
    "South Africa v Bangladesh 327/6 *",
    "New South Wales 108/10 * v South Australia 236/3"
   ]
@@ -2191,17 +2197,11 @@
  },
  "all_posts": {
   "date": "2026-11-16",
-  "count": 20,
-  "last": 1794810491.874401
+  "count": 22,
+  "last": 1794811645.8784442
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122117848887503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793879075
-   },
    {
     "id": "1444130002106066_122117853501503839",
     "sec": "sindh_stream",
@@ -4595,6 +4595,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1794810485
+   },
+   {
+    "id": "1444130002106066_122121649563503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1794811280
    }
   ]
  },
@@ -7499,15 +7505,11 @@
  },
  "ai_usage": {
   "date": "2026-11-16",
-  "ok": 122,
-  "fail": 206,
-  "limit": 204
+  "ok": 128,
+  "fail": 214,
+  "limit": 212
  },
  "posted_heads": [
-  {
-   "h": "اڄوڪي دور جي ناهي! 28 سئو سال اڳ به ماڻهو ڀنگ جو نشو ڪندا هئا، پر ڪيئن؟: ماهرن کي ثبوت هٿ",
-   "t": 1794595988
-  },
   {
    "h": "Gujrat Agriculture Department Urges Farmers to Avoid Crop Residue Burning",
    "t": 1794603155
@@ -7823,10 +7825,14 @@
   {
    "h": "خيبرپختونخوا ۾ ٿري ايم پي او تحت گرفتاريون، آئيني عدالت منع نامي ۾ ترميم ڪري ڇڏي",
    "t": 1794810486
+  },
+  {
+   "h": "ڄامشورو: درزي جي دڪان تي معمولي ڳالهه تان ڪاريگر جي ڀاءُ سکيا وٺندڙ نوجوان کي شيشي جو گلاس هڻي قتل ڪري ڇڏيو",
+   "t": 1794811280
   }
  ],
  "last_errors": {
-  "time": "2026-11-16 11:38",
+  "time": "2026-11-16 11:47",
   "steps": []
  },
  "roundup_am": "2026-11-16",
@@ -7934,7 +7940,7 @@
   "text": 9,
   "story": 7
  },
- "ai_last_error": "11:26 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "11:46 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-16",
   "models": [
@@ -7948,13 +7954,13 @@
  },
  "img_diag": {
   "date": "2026-11-16",
-  "tried": 15,
+  "tried": 17,
   "gemini": 0,
-  "pollinations": 11,
-  "skip": 3,
+  "pollinations": 12,
+  "skip": 4,
   "fail": 1,
-  "last_note": "legal documents and gavel",
-  "mismatch": 685,
+  "last_note": "cricket bat and ball",
+  "mismatch": 686,
   "unverified": 1
  },
  "gemini_img": {
@@ -7976,7 +7982,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-16",
-   "ok": 69,
+   "ok": 70,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7984,7 +7990,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-16",
-   "ok": 71,
+   "ok": 72,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7992,7 +7998,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-16",
-   "ok": 71,
+   "ok": 72,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8000,7 +8006,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8008,7 +8014,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8016,14 +8022,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8032,9 +8038,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-16",
    "ok": 0,
-   "fail": 72,
+   "fail": 73,
    "items": 15,
-   "fail_streak": 1744,
+   "fail_streak": 1745,
    "last_status": 404
   }
  },
@@ -8250,13 +8256,13 @@
  "region_posts": {
   "date": "2026-11-16",
   "district": 0,
-  "sindh": 7,
+  "sindh": 8,
   "pakistan": 8
  },
  "report_acc": {
-  "posted": 2,
-  "found": 4,
-  "old": 4,
+  "posted": 4,
+  "found": 7,
+  "old": 7,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8305,9 +8311,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-16",
-  "count": 6,
-  "last": 1794810364.797299,
-  "city_i": 12,
+  "count": 7,
+  "last": 1794811264.0979621,
+  "city_i": 16,
   "dry": 1794807665.4393775
  },
  "gemini_day_dead": {
@@ -8955,6 +8961,14 @@
    "t": 1794810485,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "86985f45234ca1b0",
+   "h": "ڄامشورو ۾ درزي جي دڪان تي معمولي ڳالهه تان قتل",
+   "x": "ڄامشورو جي ڪوٽڙي سائيٽ جي ڀٽائي ڪالوني ۾ درزي جي دڪان تي معمولي ڳالهه تان ڪاريگر ۽ سکيا وٺندڙ نوجوان وچ ۾ منهن ماري ٿي پئي. رپورٽ مطابق ڪاريگر جي ڀاءُ مبينا طور شيشي جو گلاس نوجوان جي مٿي ۾ وهائي ڪڍيو، جنهن سبب هو زخمي ٿي پيو ۽ بعد ۾ فوت ٿي ويو. فوتي نوجوان جي سڃاڻپ 32 ورهين جي اسرار علي ولد گلشير غوري طور ٿي آهي، جيڪو ڪوٽڙي جي غوثيه ڪالوني جو رهواسي هو ۽ ڀٽائي ڪالوني ۾ درزڪو ڪم سکي رهيو هو. اطلاع موجب نوجوان جي پنهنجي استاد سان معمولي ڳالهه تان منهن ماري ٿي، جنهن تي استاد جي ڀاءُ اهو حملو ڪيو.",
+   "t": 1794811280,
+   "s": true,
+   "r": 0
   }
  ],
  "reels": {
@@ -8972,20 +8986,6 @@
   "last": 1794745899.956635
  },
  "tg_debug": [
-  {
-   "t": "11-16 06:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-16 06:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-16 06:57",
    "ok": true,
@@ -9247,6 +9247,20 @@
   },
   {
    "t": "11-16 11:38",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-16 11:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-16 11:46",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13710,6 +13724,72 @@
     "پاڪستان",
     "پيون"
    ]
+  },
+  {
+   "t": 1794811280,
+   "h": "ڄامشورو ۾ درزي جي دڪان تي معمولي ڳالهه تان قتل",
+   "b": "ڄامشورو جي ڪوٽڙي سائيٽ جي ڀٽائي ڪالوني ۾ درزي جي دڪان تي معمولي ڳالهه تان ڪاريگر ۽ سکيا وٺندڙ نوجوان وچ ۾",
+   "tt": [
+    "تان",
+    "درزي",
+    "دڪان",
+    "قتل",
+    "معمولي",
+    "ڄامشورو",
+    "ڳالهه"
+   ],
+   "bt": [
+    "بعد",
+    "تان",
+    "درزي",
+    "دڪان",
+    "رپورٽ",
+    "زخمي",
+    "سائيٽ",
+    "سبب",
+    "سڪيا",
+    "شيشي",
+    "طور",
+    "فوت",
+    "قتل",
+    "ماري",
+    "مبينا",
+    "مطابق",
+    "معمولي",
+    "منهن",
+    "مٿي",
+    "نوجوان",
+    "وهائي",
+    "وٺندڙ",
+    "پئي",
+    "پيو",
+    "ڀاء",
+    "ڀٽائي",
+    "ڄامشورو",
+    "ڪاريگر",
+    "ڪالوني",
+    "ڪوٽڙي",
+    "ڪڍيو،",
+    "گلاس",
+    "ڳالهه"
+   ]
+  },
+  {
+   "t": 1794811645,
+   "h": "اننگز جو وقفو",
+   "b": "پاڪستان وومين 150/6 زمبابوي وومين 0/1 🏏",
+   "tt": [
+    "اننگز",
+    "وقفو"
+   ],
+   "bt": [
+    "#150",
+    "اننگز",
+    "زمبابوي",
+    "وقفو",
+    "وومين",
+    "پاڪستان"
+   ]
   }
  ],
  "repeat_log": [
@@ -13877,7 +13957,7 @@
  },
  "quality": {
   "date": "2026-11-16",
-  "editor_fixed": 12,
+  "editor_fixed": 13,
   "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
