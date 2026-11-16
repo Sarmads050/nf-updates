@@ -2165,10 +2165,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-16 23:46",
+  "time": "2026-11-16 23:57",
   "items": 10,
   "sample": [
-   "Afghanistan 143/5 & 217/10 * v Zimbabwe 295/9 & 339/10",
+   "Afghanistan 217/10 & 143/5 * v Zimbabwe 339/10 & 295/9",
    "South Africa 287/4 * v Bangladesh 400/10",
    "Bangladesh Women 129/8 v Netherlands Women 131/5 *"
   ]
@@ -7823,7 +7823,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-16 23:46",
+  "time": "2026-11-16 23:57",
   "steps": []
  },
  "roundup_am": "2026-11-16",
@@ -7974,14 +7974,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-16",
    "ok": 110,
-   "fail": 36,
+   "fail": 37,
    "items": 10,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-16",
-   "ok": 144,
+   "ok": 145,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7989,7 +7989,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-16",
-   "ok": 144,
+   "ok": 145,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7997,7 +7997,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 146,
+   "ok": 147,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8005,7 +8005,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 146,
+   "ok": 147,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8013,14 +8013,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 146,
+   "ok": 147,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 145,
+   "ok": 146,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8029,9 +8029,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-16",
    "ok": 0,
-   "fail": 146,
+   "fail": 147,
    "items": 15,
-   "fail_streak": 1818,
+   "fail_streak": 1819,
    "last_status": 404
   }
  },
@@ -9185,20 +9185,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-16 20:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-16 20:36",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-16 20:40",
    "ok": true,
    "n": 0,
@@ -9463,6 +9449,20 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-16 23:51",
+   "ok": false,
+   "n": 0,
+   "ids": [],
+   "err": "Bad Gateway"
+  },
+  {
+   "t": "11-16 23:57",
+   "ok": false,
+   "n": 0,
+   "ids": [],
+   "err": "Bad Gateway"
   }
  ],
  "recent_seeded": "2026-11-16",
