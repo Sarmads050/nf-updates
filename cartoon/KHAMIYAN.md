@@ -60,6 +60,11 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-058] (ep022, 2026-11-15) Farsh (floor_r) par khare Hashir ka sirf aadha sar doosron ke close-up mein neeche kinare se jhankta hai (Daniyal line 15, 0:52) — close-up mein toddler ya to poora frame mein ho ya bilkul bahar (crop ke hisaab se chhupana).
 - [K-059] (ep022, 2026-11-15) Sofa par baithi Ammi ka "explain"/"point_up" pose mein baazu lambi naranji pipe ki tarah side mein phail kar saath baithi Mehak ke upar aa jata hai (0:20, 1:06) — baithe hue explain pose mein haath apne seene ke saamne rakhna (K-011 jaisa fix).
 
+- [K-060] (ep023, 2026-11-16) Poori kahani "paani ka chakkar" model ki hai lekin model screen par nazar nahi aata — Mehak ke haath mein sirf chhoti khaali safaid plate hai (1:30 ke baad) — naya "model" prop: plate par neela samandar, rooi ke safaid baadal aur neeli boondein, itna bara ke saaf dikhe.
+- [K-061] (ep023, 2026-11-16) Hamza "Baa-dal!" keh kar rooi ka baadal uthata hai lekin us ke haath mein wahi purana khilona hai, rooi nahi — chhota "rooi/cotton" prop (naram safaid gola) jo give/prop se diya ja sake.
+- [K-062] (ep023, 2026-11-16) Mehak/Faraz ki "diary" (book prop) chhota neela dabba lagti hai, bilkul phone jaisi (0:12, 1:35) — book prop ko bara karna, safaid panne aur cover par lakeer, taa ke kitaab/diary saaf pehchani jaye.
+- [K-063] (ep023, 2026-11-16) Gemini awaazein 26 lines mein 140 s ki banin; 122 s mein laane ke liye tempo 1.20 karna para (awaaz thori tez lagti hai) — tts.py ke voice prompt mein "brisk natural pace" likhna, ya script 24 lines tak rakhna.
+
 ## APPROVED
 
 ## DONE
