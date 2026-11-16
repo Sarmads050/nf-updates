@@ -1373,7 +1373,8 @@
   "036ea832b6eb2e72": 1794862282.686644,
   "cda6b1af9905afca": 1794862282.6866453,
   "8e9702ba7e7a23b1": 1794862282.6866457,
-  "c7b1b8664ee5f373": 1794862282.6868439
+  "c7b1b8664ee5f373": 1794862282.6868439,
+  "9aea1214c32a5026": 1794865874.7241428
  },
  "pending": {},
  "queue": [],
@@ -2156,10 +2157,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 02:41",
+  "time": "2026-11-17 02:51",
   "items": 8,
   "sample": [
-   "Afghanistan 143/5 & 217/10 * v Zimbabwe 339/10 & 295/9",
+   "Afghanistan 217/10 & 143/5 * v Zimbabwe 339/10 & 295/9",
    "South Africa 287/4 * v Bangladesh 400/10",
    "Emirates Eagles 111/2 * v Royal Desert Champions 110/4"
   ]
@@ -7479,9 +7480,9 @@
  },
  "ai_usage": {
   "date": "2026-11-17",
-  "ok": 25,
-  "fail": 49,
-  "limit": 44
+  "ok": 30,
+  "fail": 59,
+  "limit": 54
  },
  "posted_heads": [
   {
@@ -7806,7 +7807,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 02:41",
+  "time": "2026-11-17 02:51",
   "steps": []
  },
  "roundup_am": "2026-11-16",
@@ -7909,12 +7910,12 @@
  },
  "article_diag": {
   "date": "2026-11-17",
-  "tried": 4,
-  "decoded": 4,
-  "text": 4,
-  "story": 3
+  "tried": 5,
+  "decoded": 5,
+  "text": 5,
+  "story": 4
  },
- "ai_last_error": "01:52 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "02:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-17",
   "models": [
@@ -7957,14 +7958,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 18,
+   "fail": 19,
    "items": 10,
-   "fail_streak": 28,
+   "fail_streak": 29,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7972,7 +7973,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7980,7 +7981,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7988,7 +7989,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7996,14 +7997,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8012,9 +8013,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 18,
+   "fail": 19,
    "items": 15,
-   "fail_streak": 1837,
+   "fail_streak": 1838,
    "last_status": 404
   }
  },
@@ -8432,8 +8433,8 @@
   "date": "2026-11-17",
   "count": 1,
   "last": 1794855695.1447184,
-  "city_i": 20,
-  "dry": 1794865297.950264
+  "city_i": 24,
+  "dry": 1794865865.641044
  },
  "gemini_day_dead": {
   "day": "2026-11-16",
@@ -9110,13 +9111,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-16 22:46",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-16 22:50",
    "ok": true,
    "n": 0,
@@ -9384,6 +9378,13 @@
   },
   {
    "t": "11-17 02:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 02:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14155,11 +14156,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-14 02:51",
-   "new": "پيٽرول اگهه ۾ ٻه روپيه ڪمي",
-   "old": "صبح جون سنڌ جون اهم خبرون"
-  },
-  {
    "t": "11-14 03:11",
    "new": "حڪومت پاران پيٽرول جي قيمت ۾ گهٽتائي",
    "old": "صبح جون سنڌ جون اهم خبرون"
@@ -14303,6 +14299,11 @@
    "t": "11-17 01:02",
    "new": "پاڪستان ۽ سری لنڪا وچ ۾ ٽيسٽ ميچ",
    "old": "پاڪستان ۽ سريلنڪا راولپنڊي ميچ لاءِ تيار"
+  },
+  {
+   "t": "11-17 02:51",
+   "new": "ملڪ ۾ سون جي اگهه ۾ لاٿ",
+   "old": "ملڪ ۾ سون جو في تولو 2 هزار رپيا سستو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14323,6 +14324,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 1
- }
+  "repeat": 2
+ },
+ "_dup": true
 }
