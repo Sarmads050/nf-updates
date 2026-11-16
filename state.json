@@ -1,9 +1,5 @@
 {
  "seen": {
-  "7cef2697f569f595": 1794207068.666711,
-  "a9c3ac442ec10406": 1794207068.666713,
-  "ebb916edda567fe2": 1794207068.6667147,
-  "dadf39687741956d": 1794207068.6667168,
   "5f06e57f49cedeaf": 1794207667.840714,
   "3519c3a5f618f2b2": 1794208268.1766555,
   "14ce789a9440b82d": 1794208268.1766593,
@@ -1445,7 +1441,8 @@
   "f6884e91e54dc976": 1794810366.6605265,
   "9cee41681af859bc": 1794811266.5246017,
   "f92cc5856dd29eb4": 1794811266.5246038,
-  "2e7b6296c5dc28d3": 1794811266.5246062
+  "2e7b6296c5dc28d3": 1794811266.5246062,
+  "2c80216017cdf2be": 1794812505.8087854
  },
  "pending": {},
  "queue": [],
@@ -1578,20 +1575,8 @@
    "8828edc846b7ce36"
   ]
  },
- "last_post_id": "1444130002106066_122121650313503839",
+ "last_post_id": "1444130002106066_122121667389503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122121285723503839",
-   "title": "نوشھروفيروز ۾ نينگريءَ سان زيادتي جو ڪيس داخل",
-   "t": 1794744683.2293851,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122121285723503839"
-  },
   {
    "id": "1444130002106066_122121289719503839",
    "title": "پنجاب ۾ نون صوبن جي پيدائش",
@@ -1906,6 +1891,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122121649563503839"
+  },
+  {
+   "id": "1444130002106066_122121667389503839",
+   "title": "فرانس ۾ وڏو سائبر حملو، 2 ڪروڙ 20 لک ماڻهن جو ڊيٽا خطري ۾",
+   "t": 1794812529.1805992,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122121667389503839"
   }
  ],
  "share_sent": {
@@ -2175,17 +2172,17 @@
    },
    "wicket_posts": 3,
    "break_done": true,
-   "last_edit": 1794812162.6773999,
+   "last_edit": 1794812837.0268862,
    "batting": "Zimbabwe Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-16 11:56",
+  "time": "2026-11-16 12:07",
   "items": 31,
   "sample": [
-   "Afghanistan 217/10 v Zimbabwe 202/8 & 339/10 *",
+   "Afghanistan 217/10 v Zimbabwe 339/10 & 207/8 *",
    "South Africa v Bangladesh 327/6 *",
    "New South Wales 108/10 * v South Australia 236/3"
   ]
@@ -2197,17 +2194,11 @@
  },
  "all_posts": {
   "date": "2026-11-16",
-  "count": 22,
-  "last": 1794811645.8784442
+  "count": 23,
+  "last": 1794812523.9385478
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122117853501503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793880275
-   },
    {
     "id": "1444130002106066_122117859411503839",
     "sec": "sindh_stream",
@@ -4601,6 +4592,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1794811280
+   },
+   {
+    "id": "1444130002106066_122121667389503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1794812529
    }
   ]
  },
@@ -7473,15 +7470,11 @@
  },
  "ai_usage": {
   "date": "2026-11-16",
-  "ok": 129,
-  "fail": 216,
-  "limit": 214
+  "ok": 132,
+  "fail": 223,
+  "limit": 220
  },
  "posted_heads": [
-  {
-   "h": "Gujrat Agriculture Department Urges Farmers to Avoid Crop Residue Burning",
-   "t": 1794603155
-  },
   {
    "h": "Govt meets IMF fiscal conditions",
    "t": 1794611028
@@ -7797,10 +7790,14 @@
   {
    "h": "ڄامشورو: درزي جي دڪان تي معمولي ڳالهه تان ڪاريگر جي ڀاءُ سکيا وٺندڙ نوجوان کي شيشي جو گلاس هڻي قتل ڪري ڇڏيو",
    "t": 1794811280
+  },
+  {
+   "h": "فرانس ۾ وڏو سائبر حملو، 2 ڪروڙ 20 لک ماڻهن جو ذاتي ڊيٽا خطري ۾ پئجي ويو",
+   "t": 1794812529
   }
  ],
  "last_errors": {
-  "time": "2026-11-16 11:56",
+  "time": "2026-11-16 12:07",
   "steps": []
  },
  "roundup_am": "2026-11-16",
@@ -7908,7 +7905,7 @@
   "text": 9,
   "story": 7
  },
- "ai_last_error": "11:50 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "12:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-16",
   "models": [
@@ -7922,10 +7919,10 @@
  },
  "img_diag": {
   "date": "2026-11-16",
-  "tried": 17,
+  "tried": 18,
   "gemini": 0,
   "pollinations": 12,
-  "skip": 4,
+  "skip": 5,
   "fail": 1,
   "last_note": "cricket bat and ball",
   "mismatch": 686,
@@ -7950,7 +7947,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-16",
-   "ok": 71,
+   "ok": 72,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -7958,7 +7955,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-16",
-   "ok": 73,
+   "ok": 74,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7966,7 +7963,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-16",
-   "ok": 73,
+   "ok": 74,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7974,7 +7971,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7982,7 +7979,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7990,14 +7987,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 74,
+   "ok": 75,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8006,9 +8003,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-16",
    "ok": 0,
-   "fail": 74,
+   "fail": 75,
    "items": 15,
-   "fail_streak": 1746,
+   "fail_streak": 1747,
    "last_status": 404
   }
  },
@@ -8224,18 +8221,18 @@
  "region_posts": {
   "date": "2026-11-16",
   "district": 0,
-  "sindh": 8,
+  "sindh": 9,
   "pakistan": 8
  },
  "report_acc": {
-  "posted": 4,
-  "found": 9,
-  "old": 9,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-16 11",
+ "report_hour": "2026-11-16 12",
  "kawish_upload_times": {
   "_date": "2026-11-16",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8279,9 +8276,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-16",
-  "count": 7,
-  "last": 1794811264.0979621,
-  "city_i": 16,
+  "count": 8,
+  "last": 1794812497.6882446,
+  "city_i": 20,
   "dry": 1794807665.4393775
  },
  "gemini_day_dead": {
@@ -8937,6 +8934,14 @@
    "t": 1794811280,
    "s": true,
    "r": 0
+  },
+  {
+   "k": "694643087a6d2dda",
+   "h": "فرانس ۾ وڏو سائبر حملو، 2 ڪروڙ 20 لک ماڻهن جو ڊيٽا خطري ۾",
+   "x": "فرانس ۾ وڏي سائبر حملي کانپوءِ لڳ ڀڳ 2 ڪروڙ 20 لک ماڻهن جي ذاتي معلومات چوري ٿيڻ يا متاثر ٿيڻ جو خدشو ظاهر ڪيو ويو آهي. ميڊيا رپورٽن موجب سائبر حملي ۾ طبي مرڪزن ۽ ليبارٽرين سان لاڳاپيل حساس معلومات پڻ ظاهر ٿيڻ جو امڪان آهي، جنهن سبب شهرين جي طبي رڪارڊ ۽ ٻين ذاتي معلومات جي تحفظ بابت خدشا وڌي ويا آهن. رپورٽن موجب هن وقت تائين اهو واضح ناهي ٿي سگهيو ته حقيقت ۾ ڪيتندن ماڻهن جو ڊيٽا چوري ٿيو آهي ۽ ڪهڙي نوعيت جي معلومات متاثر ٿي آهي. واقعي کانپوءِ فرانس جي لاڳاپيل اختيارين جاچ شروع ڪري ڇڏي آهي",
+   "t": 1794812529,
+   "s": true,
+   "r": 0
   }
  ],
  "reels": {
@@ -8954,20 +8959,6 @@
   "last": 1794745899.956635
  },
  "tg_debug": [
-  {
-   "t": "11-16 07:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-16 07:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-16 07:30",
    "ok": true,
@@ -9229,6 +9220,20 @@
   },
   {
    "t": "11-16 11:55",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-16 12:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-16 12:07",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13758,6 +13763,44 @@
     "وومين",
     "پاڪستان"
    ]
+  },
+  {
+   "t": 1794812529,
+   "h": "فرانس ۾ وڏو سائبر حملو، 2 ڪروڙ 20 لک ماڻهن جو ڊيٽا خطري ۾",
+   "b": "فرانس ۾ وڏي سائبر حملي کانپوءِ لڳ ڀڳ 2 ڪروڙ 20 لک ماڻهن جي ذاتي معلومات چوري ٿيڻ يا متاثر ٿيڻ جو خدشو ظاهر",
+   "tt": [
+    "#20",
+    "حملو،",
+    "خطري",
+    "سائبر",
+    "فرانس",
+    "ماڻهن",
+    "وڏو",
+    "ڊيٽا",
+    "ڪروڙ"
+   ],
+   "bt": [
+    "#20",
+    "اهي",
+    "حملو،",
+    "حملي",
+    "خدشو",
+    "خطري",
+    "ذاتي",
+    "سائبر",
+    "ظاهر",
+    "فرانس",
+    "ماڻهن",
+    "متاثر",
+    "معلومات",
+    "وڏو",
+    "وڏي",
+    "ٿيڻ",
+    "چوري",
+    "ڊيٽا",
+    "ڪانپوء",
+    "ڪروڙ"
+   ]
   }
  ],
  "repeat_log": [
@@ -13925,7 +13968,7 @@
  },
  "quality": {
   "date": "2026-11-16",
-  "editor_fixed": 13,
+  "editor_fixed": 14,
   "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
