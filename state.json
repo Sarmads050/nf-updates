@@ -1,6 +1,5 @@
 {
  "seen": {
-  "2993556c6750cf2c": 1794233465.6011426,
   "09344a7b0918d6da": 1794234672.8686433,
   "68fb81b388b25fa2": 1794235867.4821966,
   "4a713584f3800210": 1794235867.4822004,
@@ -1385,7 +1384,8 @@
   "08c3f048cbac6108": 1794828657.4260068,
   "b8062703340dce19": 1794829850.6950977,
   "186117f90259aace": 1794837709.037351,
-  "d967638a157f61cc": 1794837709.0373547
+  "d967638a157f61cc": 1794837709.0373547,
+  "186da62fd7cb6915": 1794838581.099304
  },
  "pending": {},
  "queue": [],
@@ -1537,20 +1537,8 @@
    "8828edc846b7ce36"
   ]
  },
- "last_post_id": "1444130002106066_122121772425503839",
+ "last_post_id": "1444130002106066_122121776985503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122121405807503839",
-   "title": "ناميارو ڪهاڻيڪار مشتاق ڪاملاڻي لاڏاڻو ڪري ويو",
-   "t": 1794772904.315221,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122121405807503839"
-  },
   {
    "id": "1444130002106066_122121431199503839",
    "title": "پيٽروليم شين جون قيمتون گهٽجڻ باوجود لاهور ۾ ٽرانسپورٽرن مسافرن کان وڌيڪ ڀاڙا وصول ڪرڻ جو",
@@ -1875,6 +1863,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122121772425503839"
+  },
+  {
+   "id": "1444130002106066_122121776985503839",
+   "title": "ٺٽو: دادو کينال ۾ گھوڙي پئجي فوت",
+   "t": 1794838607.846608,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122121776985503839"
   }
  ],
  "share_sent": {
@@ -2151,11 +2151,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-16 19:15",
+  "time": "2026-11-16 19:21",
   "items": 30,
   "sample": [
-   "Afghanistan 217/10 & 143/5 * v Zimbabwe 295/9 & 339/10",
-   "South Africa 206/1 * v Bangladesh 400/10",
+   "Afghanistan 143/5 & 217/10 * v Zimbabwe 295/9 & 339/10",
+   "South Africa 213/2 * v Bangladesh 400/10",
    "Vidarbha 162/2 * v Odisha 161/8"
   ]
  },
@@ -2166,17 +2166,11 @@
  },
  "all_posts": {
   "date": "2026-11-16",
-  "count": 44,
-  "last": 1794837870.0312467
+  "count": 45,
+  "last": 1794838603.0480013
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122117966283503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793904690
-   },
    {
     "id": "1444130002106066_122117982405503839",
     "sec": "sindh_stream",
@@ -4570,6 +4564,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1794837879
+   },
+   {
+    "id": "1444130002106066_122121776985503839",
+    "sec": "kawish",
+    "cat": "sindh",
+    "t": 1794838607
    }
   ]
  },
@@ -7458,9 +7458,9 @@
  },
  "ai_usage": {
   "date": "2026-11-16",
-  "ok": 217,
-  "fail": 326,
-  "limit": 324
+  "ok": 220,
+  "fail": 332,
+  "limit": 330
  },
  "posted_heads": [
   {
@@ -7782,10 +7782,14 @@
   {
    "h": "ڊاڪٽرن چون ٿا برين هيمرج ۽ دل جي دوري جو خطرو آهي، مهرباني ڪري عدالتي فيصلن تي عمل ڪرايو: عمران خان جو چيف جسٽس کي خط",
    "t": 1794837880
+  },
+  {
+   "h": "ٺٽو: دادو کينال ۾ گھوڙي پئجي فوت",
+   "t": 1794838607
   }
  ],
  "last_errors": {
-  "time": "2026-11-16 19:15",
+  "time": "2026-11-16 19:21",
   "steps": []
  },
  "roundup_am": "2026-11-16",
@@ -7893,7 +7897,7 @@
   "text": 11,
   "story": 9
  },
- "ai_last_error": "19:02 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "19:16 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-16",
   "models": [
@@ -7907,10 +7911,10 @@
  },
  "img_diag": {
   "date": "2026-11-16",
-  "tried": 33,
+  "tried": 34,
   "gemini": 0,
   "pollinations": 15,
-  "skip": 15,
+  "skip": 16,
   "fail": 3,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 692,
@@ -7936,14 +7940,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-16",
    "ok": 107,
-   "fail": 10,
+   "fail": 11,
    "items": 10,
-   "fail_streak": 5,
+   "fail_streak": 6,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-16",
-   "ok": 116,
+   "ok": 117,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7951,7 +7955,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-16",
-   "ok": 116,
+   "ok": 117,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7959,7 +7963,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 117,
+   "ok": 118,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7967,7 +7971,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 117,
+   "ok": 118,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7975,14 +7979,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 117,
+   "ok": 118,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 116,
+   "ok": 117,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7991,9 +7995,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-16",
    "ok": 0,
-   "fail": 117,
+   "fail": 118,
    "items": 15,
-   "fail_streak": 1789,
+   "fail_streak": 1790,
    "last_status": 404
   }
  },
@@ -8353,13 +8357,13 @@
  "region_posts": {
   "date": "2026-11-16",
   "district": 0,
-  "sindh": 23,
+  "sindh": 24,
   "pakistan": 10
  },
  "report_acc": {
-  "posted": 0,
-  "found": 1,
-  "old": 1,
+  "posted": 1,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9090,6 +9094,14 @@
    "t": 1794837879,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "4f1c414d48257e6b",
+   "h": "ٺٽو: دادو ڪئنال ۾ گھوڙي پوڻ سبب فوت",
+   "x": "ٺٽي جي دادو ڪئنال ۾ گھوڙي پئجي وڃڻ سبب فوت ٿي وئي. واقعي بعد مقامي ماڻهن گھوڙي کي ڪئنال مان ٻاهر ڪڍيو.",
+   "t": 1794838607,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9106,22 +9118,6 @@
   ]
  },
  "kawish_queue": [
-  {
-   "key": "5d35081520291ef5",
-   "page": 8,
-   "head": "ٺٽو: دادو کينال ۾ گھوڙي پئجي فوت",
-   "summary": "ٺٽي جي دادو کينال ۾ گھوڙي پئجي وڃڻ سبب فوت ٿي وئي. واقعي بعد مقامي ماڻهن گھوڙي کي ڪئنال مان ٻاهر ڪڍيو.",
-   "card": "ٺٽي جي دادو کينال ۾ گھوڙي پئجي وڃڻ سبب فوت ٿي وئي. واقعي بعد مقامي ماڻهن گھوڙي کي ڪئنال مان ٻاهر ڪڍيو.",
-   "printed": "پنج کينال دادو کينال ۾ گھوڙي پئي فوت ٺٽو",
-   "search_en": "Thatta Dadu canal horse dead",
-   "search_ur": "ٹھٹہ دادو کینাল گھوڑا ہلاک",
-   "district": false,
-   "sensitive": false,
-   "confidence": "high",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-11-16&pageno=8",
-   "message": "📰 ٺٽو: دادو کينال ۾ گھوڙي پئجي فوت\n\nٺٽي جي دادو کينال ۾ گھوڙي پئجي وڃڻ سبب فوت ٿي وئي. واقعي بعد مقامي ماڻهن گھوڙي کي ڪئنال مان ٻاهر ڪڍيو!\n\n📌 ذريعو: روزاني ڪاوش (صفحو 8)\n\n📲 Naushahro Feroze Updates | نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFerozeUpdates #NaushahroFeroze #NausheroFeroz #Padidan #نوشهروفيروز #نوشہروفیروز #پڊعيدن",
-   "added_day": "2026-11-16"
-  },
   {
    "key": "217d33f3f95633dd",
    "page": 8,
@@ -9141,24 +9137,10 @@
  ],
  "kawish_post": {
   "date": "2026-11-16",
-  "count": 10,
-  "last": 1794837082.8923705
+  "count": 11,
+  "last": 1794838607.8465848
  },
  "tg_debug": [
-  {
-   "t": "11-16 15:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-16 15:45",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-16 15:50",
    "ok": true,
@@ -9420,6 +9402,20 @@
   },
   {
    "t": "11-16 19:15",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-16 19:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-16 19:21",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13929,6 +13925,39 @@
     "چيف",
     "ڪورٽ"
    ]
+  },
+  {
+   "t": 1794838607,
+   "h": "ٺٽو: دادو ڪئنال ۾ گھوڙي پوڻ سبب فوت",
+   "b": "ٺٽي جي دادو ڪئنال ۾ گھوڙي پئجي وڃڻ سبب فوت ٿي وئي. واقعي بعد مقامي ماڻهن گھوڙي کي ڪئنال مان ٻاهر ڪڍيو.",
+   "tt": [
+    "دادو",
+    "سبب",
+    "فوت",
+    "ٺٽو",
+    "پوڻ",
+    "ڪئنال",
+    "گهوڙي"
+   ],
+   "bt": [
+    "بعد",
+    "دادو",
+    "سبب",
+    "فوت",
+    "مان",
+    "ماڻهن",
+    "مقامي",
+    "واقعي",
+    "وڃڻ",
+    "ٺٽو",
+    "ٺٽي",
+    "ٻاهر",
+    "پئجي",
+    "پوڻ",
+    "ڪئنال",
+    "ڪڍيو",
+    "گهوڙي"
+   ]
   }
  ],
  "repeat_log": [
@@ -14096,7 +14125,7 @@
  },
  "quality": {
   "date": "2026-11-16",
-  "editor_fixed": 28,
+  "editor_fixed": 29,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
