@@ -1439,11 +1439,22 @@
   "9cee41681af859bc": 1794811266.5246017,
   "f92cc5856dd29eb4": 1794811266.5246038,
   "2e7b6296c5dc28d3": 1794811266.5246062,
-  "2c80216017cdf2be": 1794812505.8087854
+  "2c80216017cdf2be": 1794812505.8087854,
+  "60cd06ab33cad79c": 1794814274.8393593
  },
  "pending": {},
  "queue": [],
- "jobs": [],
+ "jobs": [
+  {
+   "key": "60cd06ab33cad79c",
+   "title": "PPP has shut the doors to govt jobs for Karachi residents, says Miftah",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWHlpMk1MaVRuVUVUNFBDVF9JTjFERnQ3OHNqQkNPMGNSbWtLXzk2NXFhemZCLXVqWUl6bmVoREtRZHo5NlZIWVZCQzNQQU53T19iTUNMbnI2M0xRaFFpYzFaNmd1UE1QcVlsaUpzbUJqaDJlN0VNT0dmT0FTazZzRmpoOWY5ay1KLWdISEpMaUZPUQ?oc=5",
+   "domain": "arynews.tv",
+   "source": "ARYnews.tv",
+   "ts": 1794812241,
+   "local": false
+  }
+ ],
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-14",
@@ -2169,17 +2180,17 @@
    },
    "wicket_posts": 5,
    "break_done": true,
-   "last_edit": 1794814228.6826284,
+   "last_edit": 1794814581.7884364,
    "batting": "Zimbabwe Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-16 12:30",
+  "time": "2026-11-16 12:36",
   "items": 31,
   "sample": [
-   "Afghanistan 217/10 v Zimbabwe 339/10 & 231/8 *",
+   "Afghanistan 217/10 v Zimbabwe 239/8 & 339/10 *",
    "South Africa v Bangladesh 327/6 *",
    "New South Wales 108/10 * v South Australia 236/3"
   ]
@@ -7794,7 +7805,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-16 12:30",
+  "time": "2026-11-16 12:36",
   "steps": []
  },
  "roundup_am": "2026-11-16",
@@ -7944,15 +7955,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-16",
-   "ok": 73,
+   "ok": 74,
    "fail": 4,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-16",
-   "ok": 76,
+   "ok": 77,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7960,7 +7971,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-16",
-   "ok": 76,
+   "ok": 77,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7968,7 +7979,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7976,7 +7987,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7984,14 +7995,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8000,9 +8011,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-16",
    "ok": 0,
-   "fail": 77,
+   "fail": 78,
    "items": 15,
-   "fail_streak": 1749,
+   "fail_streak": 1750,
    "last_status": 404
   }
  },
@@ -8223,8 +8234,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 2,
-  "old": 2,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8946,7 +8957,8 @@
   "done": [
    "08:00",
    "09:30",
-   "11:00"
+   "11:00",
+   "12:30"
   ]
  },
  "kawish_queue": [],
@@ -8956,20 +8968,6 @@
   "last": 1794745899.956635
  },
  "tg_debug": [
-  {
-   "t": "11-16 08:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-16 08:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-16 08:30",
    "ok": true,
@@ -9231,6 +9229,20 @@
   },
   {
    "t": "11-16 12:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-16 12:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-16 12:36",
    "ok": true,
    "n": 0,
    "ids": [],
