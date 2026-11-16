@@ -5,7 +5,7 @@
  "title": "Project Kal Hai!",
  "topic": "Monday night school project panic - Mehak says her 'water cycle' science model is due tomorrow (Tuesday) at 9 PM; bazaar closed so the family builds it from home things (old steel tray, cotton from the medicine box as clouds, blue shopper as sea), toddler Hamza grabs a cotton cloud; at 11 PM Faraz reads the diary: due Tuesday 24 November - next week",
  "music": "comic",
- "tempo": 1.15,
+ "tempo": 1.2,
  "lesson": "Diary poori parho,<br>kaam waqt par shuru karo!",
  "caption": "Raat 9 baje: \"Ammi, kal mera project hai!\" 😱 Phir poore ghar ne mil kar ghar ki cheezon se model bana diya... lekin diary mein kuch aur hi likha tha! 😂 Aap ke ghar mein aakhri raat ka project kaun laata hai? Comment mein batayein!",
  "hashtags": [
@@ -246,7 +246,7 @@
    "props": {
     "FARAZ": "bag",
     "HAMZA": "toy",
-    "AMMI": "tray"
+    "AMMI": "plate"
    },
    "lines": [
     {
@@ -263,20 +263,27 @@
       "HAMZA": "rest",
       "AMMI": "rest",
       "MEHAK": "rest"
-     }
+     },
+     "before": [
+      {
+       "do": "prop",
+       "who": "MEHAK",
+       "prop": null
+      }
+     ]
     },
     {
      "who": "AMMI",
      "to": "MEHAK",
      "emo": "warm",
-     "roman": "Yeh lo, purani *steel ki tray*. Model is ke upar banao.",
-     "urdu": "یہ لو، پرانی سٹیل کی ٹرے۔ ماڈل اس کے اوپر بناؤ۔",
+     "roman": "Yeh lo, purani *steel ki plate*. Model is ke upar banao.",
+     "urdu": "یہ لو، پرانی سٹیل کی پلیٹ۔ ماڈل اس کے اوپر بناؤ۔",
      "how": "mother, helpful, practical",
      "shot": "close",
      "pose": "hold",
      "give": {
       "to": "MEHAK",
-      "prop": "tray",
+      "prop": "plate",
       "at": 0.5
      },
      "looks": {
@@ -439,7 +446,7 @@
     "HAMZA": "floor_l"
    },
    "props": {
-    "MEHAK": "tray",
+    "MEHAK": "plate",
     "FARAZ": "book",
     "HAMZA": "toy"
    },
@@ -459,7 +466,14 @@
       "HAMZA": "rest",
       "AMMI": "rest",
       "MEHAK": "rest"
-     }
+     },
+     "before": [
+      {
+       "do": "prop",
+       "who": "ABBA",
+       "prop": null
+      }
+     ]
     },
     {
      "who": "ABBA",
@@ -557,7 +571,7 @@
      "urdu": "پہلی دفعہ اس گھر میں کوئی کام ایک ہفتہ پہلے پورا ہوا ہے!",
      "how": "father, laughing loudly, delighted",
      "shot": "punch",
-     "pose": "arms_up",
+     "pose": "rest",
      "joke": true,
      "gap": 0.7,
      "looks": {
