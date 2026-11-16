@@ -1452,7 +1452,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-14",
-  "count": 5
+  "count": 6
  },
  "last_digest": "2026-11-15",
  "alert_day": "2026-10-20",
@@ -1509,7 +1509,7 @@
    "نوشهروفيروز: شاديءَ جي ڄڃ ويل گهر مان چور لکين رپين جو سامان ۽ روپيا چورائي وئا"
   ]
  },
- "last_daily": "2026-11-15",
+ "last_daily": "2026-11-16",
  "roundup_pm": "2026-11-15",
  "replied": [],
  "q_index": 6,
@@ -1576,7 +1576,7 @@
    "d44eb695becc2f18"
   ]
  },
- "last_post_id": "1444130002106066_122121461805503839",
+ "last_post_id": "1444130002106066_122121465597503839",
  "shareable": [
   {
    "id": "1444130002106066_122121230019503839",
@@ -2171,10 +2171,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-16 06:58",
+  "time": "2026-11-16 07:02",
   "items": 31,
   "sample": [
-   "Afghanistan 217/10 v Zimbabwe 169/7 & 339/10 *",
+   "Afghanistan 217/10 v Zimbabwe 339/10 & 169/7 *",
    "South Africa v Bangladesh 327/6 *",
    "New South Wales v South Australia 236/3 *"
   ]
@@ -2186,8 +2186,8 @@
  },
  "all_posts": {
   "date": "2026-11-16",
-  "count": 6,
-  "last": 1794793421.2494302
+  "count": 7,
+  "last": 1794794530.7032647
  },
  "perf": {
   "posts": [
@@ -7454,9 +7454,9 @@
  },
  "ai_usage": {
   "date": "2026-11-16",
-  "ok": 57,
-  "fail": 95,
-  "limit": 94
+  "ok": 59,
+  "fail": 97,
+  "limit": 96
  },
  "posted_heads": [
   {
@@ -7781,7 +7781,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-16 06:58",
+  "time": "2026-11-16 07:02",
   "steps": []
  },
  "roundup_am": "2026-11-15",
@@ -7889,7 +7889,7 @@
   "text": 5,
   "story": 3
  },
- "ai_last_error": "06:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "07:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-16",
   "models": [
@@ -7903,9 +7903,9 @@
  },
  "img_diag": {
   "date": "2026-11-16",
-  "tried": 6,
+  "tried": 7,
   "gemini": 0,
-  "pollinations": 4,
+  "pollinations": 5,
   "skip": 1,
   "fail": 0,
   "last_note": "electricity meter and bills",
@@ -7931,7 +7931,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-16",
-   "ok": 43,
+   "ok": 44,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7939,7 +7939,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-16",
-   "ok": 43,
+   "ok": 44,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7947,7 +7947,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-16",
-   "ok": 43,
+   "ok": 44,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7955,7 +7955,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 44,
+   "ok": 45,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7963,7 +7963,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 44,
+   "ok": 45,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7971,14 +7971,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 44,
+   "ok": 45,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 44,
+   "ok": 45,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7987,9 +7987,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-16",
    "ok": 0,
-   "fail": 44,
+   "fail": 45,
    "items": 15,
-   "fail_streak": 1716,
+   "fail_streak": 1717,
    "last_status": 404
   }
  },
@@ -8209,14 +8209,14 @@
   "pakistan": 5
  },
  "report_acc": {
-  "posted": 2,
-  "found": 15,
-  "old": 15,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-16 06",
+ "report_hour": "2026-11-16 07",
  "kawish_upload_times": {
   "_date": "2026-11-16",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8900,13 +8900,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-16 00:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-16 00:55",
    "ok": true,
    "n": 0,
@@ -9178,63 +9171,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-16 07:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-16",
  "recent_posts": [
-  {
-   "t": 1794621688,
-   "h": "نوشهروفيروز جو اڄ | 14-11-2026",
-   "b": "4 جُمادى الآخرة 1448ھ نماز جا وقت: فجر 05:26 | ظهر 12:12 | عصر 16:02 مغرب 17:37 | عشا 18:57 سج اڀرڻ 06:46 اڄ",
-   "tt": [
-    "#11",
-    "#14",
-    "نوشهروفيروز"
-   ],
-   "bt": [
-    "#10",
-    "#11",
-    "#12",
-    "#14",
-    "#1448",
-    "#16",
-    "#17",
-    "#18",
-    "#2",
-    "#22",
-    "#26",
-    "#34",
-    "#37",
-    "#46",
-    "#5",
-    "#57",
-    "#6",
-    "1448ه",
-    "الاخره",
-    "امڪان",
-    "اوهان",
-    "اڀرڻ",
-    "جمادى",
-    "سٺو",
-    "سڀني",
-    "ظهر",
-    "عشا",
-    "عصر",
-    "فجر",
-    "مغرب",
-    "موسم",
-    "مينهن",
-    "نماز",
-    "نوشهروفيروز",
-    "وقت",
-    "ڏينهن",
-    "ڪجهه",
-    "ڪڪر",
-    "گذري",
-    "گرمي",
-    "گهٽ"
-   ]
-  },
   {
    "t": 1794623499,
    "h": "مهانگائي جي شرح ۾ گهٽتائي، سالاڻو اگهه 11 سيڪڙو کان وڌيڪ",
@@ -13540,6 +13487,54 @@
     "ڪرب",
     "ڪرپشن"
    ]
+  },
+  {
+   "t": 1794794530,
+   "h": "نوشهروفيروز جو اڄ | 16-11-2026",
+   "b": "6 جُمادى الآخرة 1448ھ نماز جا وقت: فجر 05:27 | ظهر 12:12 | عصر 16:01 مغرب 17:37 | عشا 18:57 سج اڀرڻ 06:48 اڄ",
+   "tt": [
+    "#11",
+    "#16",
+    "نوشهروفيروز"
+   ],
+   "bt": [
+    "#1",
+    "#11",
+    "#12",
+    "#1448",
+    "#16",
+    "#17",
+    "#18",
+    "#27",
+    "#32",
+    "#37",
+    "#48",
+    "#5",
+    "#57",
+    "#6",
+    "1448ه",
+    "اسمان",
+    "الاخره",
+    "اوهان",
+    "اڀرڻ",
+    "جمادى",
+    "سٺو",
+    "سڀني",
+    "صاف",
+    "ظهر",
+    "عشا",
+    "عصر",
+    "فجر",
+    "مغرب",
+    "موسم",
+    "نماز",
+    "نوشهروفيروز",
+    "وقت",
+    "ڏينهن",
+    "گذري",
+    "گرمي",
+    "گهٽ"
+   ]
   }
  ],
  "repeat_log": [
@@ -13702,7 +13697,7 @@
  "approve_next": 1792771906.5617883,
  "approve_last": 1792771860.5720606,
  "groq_disc": {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "model": "openai/gpt-oss-120b"
  },
  "quality": {
