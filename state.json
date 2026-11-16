@@ -1382,7 +1382,8 @@
   "5f1d52f503e68783": 1794867089.8906891,
   "a84c5734bf3e3b51": 1794867089.8906896,
   "ece1b6aa0a269104": 1794867089.8906906,
-  "599c9147ec19b329": 1794867089.8908992
+  "599c9147ec19b329": 1794867089.8908992,
+  "06dd2fe2be2a6821": 1794867658.3086915
  },
  "pending": {},
  "queue": [],
@@ -2163,10 +2164,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 03:14",
+  "time": "2026-11-17 03:21",
   "items": 9,
   "sample": [
-   "Afghanistan 217/10 & 143/5 * v Zimbabwe 295/9 & 339/10",
+   "Afghanistan 217/10 & 143/5 * v Zimbabwe 339/10 & 295/9",
    "South Africa 287/4 * v Bangladesh 400/10",
    "Emirates Eagles 111/2 * v Royal Desert Champions 110/4"
   ]
@@ -4591,64 +4592,8 @@
   "last": 1794842568.8247802
  },
  "trends": {
-  "last": 1794856261.7059586,
+  "last": 1794867658.308839,
   "terms": [
-   {
-    "term": "james gunn",
-    "traffic": 100,
-    "news": "DC Studios Shakeup: James Gunn & Peter Safran Out, Former Marvel Exec Jeremy Latcham In",
-    "t": 1794255056,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "abu dhabi t10 league scorecard",
-    "traffic": 1000,
-    "news": "How to watch Abu Dhabi T10 League on DafaNews: Live stream, schedule for UAE cricket tournament",
-    "t": 1794255056,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "agastya nanda",
-    "traffic": 100,
-    "news": "Navya Naveli Nanda offers inside pictures from Amitabh Bachchan’s Diwali celebrations: Abhishek-Shweta Bac",
-    "t": 1794255056,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "love in disguise ep 7",
-    "traffic": 100,
-    "news": "Nam Ha-jun's 'Umbrella Senior' Role Sparks Jealousy",
-    "t": 1794255056,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "investment fund",
-    "traffic": 100,
-    "news": "Saudi-Pakistan private equity fund launched to lift investment",
-    "t": 1794255056,
-    "cat": "dollar_gold_business",
-    "sindh": false
-   },
-   {
-    "term": "abu dhabi t10 cricket league",
-    "traffic": 500,
-    "news": "PCB Imposes $10,000 NOC Fee for Abu Dhabi T10, Franchises Raise Concerns",
-    "t": 1794255056,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "afghanistan",
-    "traffic": 100,
-    "news": "UN Warns Of Worsening Humanitarian Crisis In Afghanistan As Winter Approaches",
-    "t": 1794255056,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "rdc vs ut",
     "traffic": 100,
@@ -7480,15 +7425,55 @@
     "t": 1794856262,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "gta 6",
+    "traffic": 200,
+    "news": "What sentence could GTA 6 hacker Arion Kurtaj get? No date yet, and his age at the time weighs heavily",
+    "t": 1794867658,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "switzerland vs scotland",
+    "traffic": 200,
+    "news": "Ukraine vs Georgia betting offers: Up to £50 in free bets for Tuesday's Nations League game",
+    "t": 1794867658,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "2027 grammys nominations",
+    "traffic": 2000,
+    "news": "Ella Langley Brings Country Into The Grammys’ General Field With Seven Nominations",
+    "t": 1794867658,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "gta 6 release date",
+    "traffic": 200,
+    "news": "A mention of a 120Hz mode has been found in the files of the PS5 Pro version of GTA 6.",
+    "t": 1794867658,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "abu dhabi t10 league",
+    "traffic": 200,
+    "news": "Abu Dhabi T10 Match Forecast: United Tigers vs Arabian Aces, 3rd Match",
+    "t": 1794867658,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-17",
-  "ok": 38,
-  "fail": 69,
-  "limit": 64
+  "ok": 39,
+  "fail": 71,
+  "limit": 66
  },
  "posted_heads": [
   {
@@ -7813,7 +7798,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 03:14",
+  "time": "2026-11-17 03:21",
   "steps": []
  },
  "roundup_am": "2026-11-16",
@@ -7921,7 +7906,7 @@
   "text": 6,
   "story": 5
  },
- "ai_last_error": "03:12 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "03:20 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-17",
   "models": [
@@ -7964,14 +7949,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 21,
+   "fail": 22,
    "items": 10,
-   "fail_streak": 31,
+   "fail_streak": 32,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7979,7 +7964,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7987,7 +7972,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7995,7 +7980,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8003,14 +7988,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8019,9 +8004,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 21,
+   "fail": 22,
    "items": 15,
-   "fail_streak": 1840,
+   "fail_streak": 1841,
    "last_status": 404
   }
  },
@@ -9117,13 +9102,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-16 23:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-16 23:06",
    "ok": true,
    "n": 0,
@@ -9391,6 +9369,13 @@
   },
   {
    "t": "11-17 03:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 03:20",
    "ok": true,
    "n": 0,
    "ids": [],
