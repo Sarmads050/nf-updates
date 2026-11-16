@@ -1,6 +1,5 @@
 {
  "seen": {
-  "fedcb75b67302887": 1794182425.5064147,
   "88e055a8ce37065d": 1794185472.017164,
   "2b72a39658c00827": 1794185472.0171669,
   "277386de5e9bf07e": 1794185472.0171678,
@@ -2187,10 +2186,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-16 04:51",
+  "time": "2026-11-16 05:01",
   "items": 31,
   "sample": [
-   "Afghanistan 217/10 v Zimbabwe 339/10 & 169/7 *",
+   "Afghanistan 217/10 v Zimbabwe 169/7 & 339/10 *",
    "South Africa v Bangladesh 327/6 *",
    "New South Wales v South Australia"
   ]
@@ -7853,7 +7852,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-16 04:51",
+  "time": "2026-11-16 05:01",
   "steps": []
  },
  "roundup_am": "2026-11-15",
@@ -8003,7 +8002,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-16",
-   "ok": 30,
+   "ok": 31,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8011,7 +8010,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-16",
-   "ok": 30,
+   "ok": 31,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8019,7 +8018,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-16",
-   "ok": 30,
+   "ok": 31,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8027,7 +8026,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8035,7 +8034,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8043,14 +8042,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 31,
+   "ok": 32,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8059,9 +8058,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-16",
    "ok": 0,
-   "fail": 31,
+   "fail": 32,
    "items": 15,
-   "fail_streak": 1703,
+   "fail_streak": 1704,
    "last_status": 404
   }
  },
@@ -8282,13 +8281,13 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 15,
-  "old": 15,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-16 04",
+ "report_hour": "2026-11-16 05",
  "kawish_upload_times": {
   "_date": "2026-11-16",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8334,8 +8333,8 @@
   "date": "2026-11-16",
   "count": 1,
   "last": 1794772874.836245,
-  "city_i": 16,
-  "dry": 1794786657.3973851
+  "city_i": 20,
+  "dry": 1794787277.6207626
  },
  "gemini_day_dead": {
   "day": "2026-11-15",
@@ -8964,13 +8963,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-15 23:46",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-15 23:50",
    "ok": true,
    "n": 0,
@@ -9238,6 +9230,13 @@
   },
   {
    "t": "11-16 04:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-16 05:00",
    "ok": true,
    "n": 0,
    "ids": [],
