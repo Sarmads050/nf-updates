@@ -1,6 +1,5 @@
 {
  "seen": {
-  "ecff13e075f37a14": 1794267678.9979005,
   "e44c174d1343eda0": 1794268879.5099506,
   "721d87b4ce9a2e5d": 1794268879.509954,
   "0ad9b0d49cfb1372": 1794268879.5099556,
@@ -1392,7 +1391,17 @@
   "dd40dc0136ff17c7": 1794870097.636676,
   "c90c2af2bfb86f17": 1794870097.636677,
   "32190a03480d3689": 1794870097.636678,
-  "14dce80f3a3fe95f": 1794870097.6368272
+  "14dce80f3a3fe95f": 1794870097.6368272,
+  "1d472e2637199f59": 1794873083.1220992,
+  "ca454e16796749a8": 1794873083.1221015,
+  "6777a70eeb33670d": 1794873083.122103,
+  "6cc8ad86f8f7f681": 1794873083.1221037,
+  "41dc179ef1d26e0d": 1794873083.1221051,
+  "e1bec98a4603134e": 1794873083.1222374,
+  "61df65caafb5db26": 1794873105.615255,
+  "0365c6faf62e1ba0": 1794873105.6152575,
+  "9d95137f1ed8a779": 1794873105.6152596,
+  "d2efcaea58f6925e": 1794873105.615434
  },
  "pending": {},
  "queue": [],
@@ -2170,10 +2179,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 04:40",
+  "time": "2026-11-17 04:51",
   "items": 8,
   "sample": [
-   "Afghanistan 217/10 & 143/5 * v Zimbabwe 295/9 & 339/10",
+   "Afghanistan 143/5 & 217/10 * v Zimbabwe 339/10 & 295/9",
    "South Africa 287/4 * v Bangladesh 400/10",
    "Pakistan v Sri Lanka"
   ]
@@ -7477,9 +7486,9 @@
  },
  "ai_usage": {
   "date": "2026-11-17",
-  "ok": 49,
-  "fail": 89,
-  "limit": 84
+  "ok": 54,
+  "fail": 99,
+  "limit": 94
  },
  "posted_heads": [
   {
@@ -7804,7 +7813,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 04:40",
+  "time": "2026-11-17 04:51",
   "steps": []
  },
  "roundup_am": "2026-11-16",
@@ -7907,12 +7916,12 @@
  },
  "article_diag": {
   "date": "2026-11-17",
-  "tried": 7,
-  "decoded": 7,
-  "text": 7,
-  "story": 6
+  "tried": 9,
+  "decoded": 9,
+  "text": 9,
+  "story": 8
  },
- "ai_last_error": "04:02 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "04:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-17",
   "models": [
@@ -7955,14 +7964,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 30,
+   "fail": 31,
    "items": 10,
-   "fail_streak": 40,
+   "fail_streak": 41,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7970,7 +7979,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7978,7 +7987,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7986,7 +7995,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7994,14 +8003,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 30,
+   "ok": 31,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8010,9 +8019,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 30,
+   "fail": 31,
    "items": 15,
-   "fail_streak": 1849,
+   "fail_streak": 1850,
    "last_status": 404
   }
  },
@@ -8430,8 +8439,8 @@
   "date": "2026-11-17",
   "count": 1,
   "last": 1794855695.1447184,
-  "city_i": 14,
-  "dry": 1794870093.4264317
+  "city_i": 18,
+  "dry": 1794873074.6266143
  },
  "gemini_day_dead": {
   "day": "2026-11-16",
@@ -9108,13 +9117,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-16 23:46",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-16 23:51",
    "ok": false,
    "n": 0,
@@ -9382,6 +9384,13 @@
   },
   {
    "t": "11-17 04:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 04:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14137,16 +14146,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-14 03:11",
-   "new": "حڪومت پاران پيٽرول جي قيمت ۾ گهٽتائي",
-   "old": "صبح جون سنڌ جون اهم خبرون"
-  },
-  {
-   "t": "11-14 04:51",
-   "new": "حڪومت پاران پيٽرول ۽ ڊيزل سستو",
-   "old": "صبح جون سنڌ جون اهم خبرون"
-  },
-  {
    "t": "11-14 06:11",
    "new": "پاڪستان ۾ پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽات",
    "old": "صبح جون سنڌ جون اهم خبرون"
@@ -14285,6 +14284,16 @@
    "t": "11-17 02:51",
    "new": "ملڪ ۾ سون جي اگهه ۾ لاٿ",
    "old": "ملڪ ۾ سون جو في تولو 2 هزار رپيا سستو"
+  },
+  {
+   "t": "11-17 04:51",
+   "new": "پيٽرول ۽ ڊيزل اگهن ۾ گهٽتائي",
+   "old": "پيٽرول ۽ ڊيزل اگهن ۾ گهٽتائي"
+  },
+  {
+   "t": "11-17 04:51",
+   "new": "پاڪستان وومين ٽيم زمبابوي کي شڪست ڏئي ڇڏي",
+   "old": "پاڪستان زمبابوي کي شڪست ڏئي ڇڏي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14305,6 +14314,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 2
- }
+  "repeat": 4
+ },
+ "_dup": true
 }
