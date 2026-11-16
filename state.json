@@ -1443,7 +1443,9 @@
   "031eacba08796453": 1794799272.7770283,
   "8828edc846b7ce36": 1794801075.9496374,
   "4a3383a4ba2707fe": 1794801332.2206151,
-  "17c4b3097460de96": 1794802272.773873
+  "17c4b3097460de96": 1794802272.773873,
+  "9fc233d185651828": 1794802864.3291938,
+  "be913cca06a1a1aa": 1794802864.3293881
  },
  "pending": {},
  "queue": [],
@@ -2169,10 +2171,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-16 09:11",
+  "time": "2026-11-16 09:21",
   "items": 31,
   "sample": [
-   "Afghanistan 217/10 v Zimbabwe 339/10 & 169/7 *",
+   "Afghanistan 217/10 v Zimbabwe 169/7 & 339/10 *",
    "South Africa v Bangladesh 327/6 *",
    "New South Wales v South Australia 236/3 *"
   ]
@@ -7492,9 +7494,9 @@
  },
  "ai_usage": {
   "date": "2026-11-16",
-  "ok": 83,
-  "fail": 137,
-  "limit": 136
+  "ok": 89,
+  "fail": 149,
+  "limit": 148
  },
  "posted_heads": [
   {
@@ -7819,7 +7821,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-16 09:11",
+  "time": "2026-11-16 09:21",
   "steps": []
  },
  "roundup_am": "2026-11-16",
@@ -7922,12 +7924,12 @@
  },
  "article_diag": {
   "date": "2026-11-16",
-  "tried": 7,
-  "decoded": 7,
-  "text": 7,
-  "story": 5
+  "tried": 8,
+  "decoded": 8,
+  "text": 8,
+  "story": 6
  },
- "ai_last_error": "09:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "09:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-16",
   "models": [
@@ -7969,7 +7971,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-16",
-   "ok": 56,
+   "ok": 57,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -7977,7 +7979,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-16",
-   "ok": 57,
+   "ok": 58,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7985,7 +7987,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-16",
-   "ok": 57,
+   "ok": 58,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -7993,7 +7995,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8001,7 +8003,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8009,14 +8011,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-16",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-16",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8025,9 +8027,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-16",
    "ok": 0,
-   "fail": 58,
+   "fail": 59,
    "items": 15,
-   "fail_streak": 1730,
+   "fail_streak": 1731,
    "last_status": 404
   }
  },
@@ -8248,8 +8250,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8300,8 +8302,8 @@
   "date": "2026-11-16",
   "count": 1,
   "last": 1794772874.836245,
-  "city_i": 24,
-  "dry": 1794802261.3071997
+  "city_i": 6,
+  "dry": 1794802860.6998882
  },
  "gemini_day_dead": {
   "day": "2026-11-15",
@@ -8948,13 +8950,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-16 03:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-16 03:04",
    "ok": true,
    "n": 0,
@@ -9222,6 +9217,13 @@
   },
   {
    "t": "11-16 09:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-16 09:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13737,7 +13739,7 @@
  "quality": {
   "date": "2026-11-16",
   "editor_fixed": 6,
-  "editor_rejected": 0,
+  "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
