@@ -1,9 +1,5 @@
 {
  "seen": {
-  "c5a653ffec704821": 1794297670.930555,
-  "64ea8d80c445fed7": 1794298446.6966724,
-  "67506a1487a27e79": 1794298446.6966755,
-  "2fce0578fb3ca6e5": 1794298446.696677,
   "a5f5764bd44209bb": 1794300264.5424955,
   "7e03155466971683": 1794300336.8252196,
   "4dc10130a216de4e": 1794300336.8252215,
@@ -1419,7 +1415,10 @@
   "19f56618cb91f829": 1794902548.965996,
   "c067baba75f990a9": 1794902548.965997,
   "c409539fdfb0bf6c": 1794902548.9659972,
-  "4353d0b0b37c1777": 1794902548.9661882
+  "4353d0b0b37c1777": 1794902548.9661882,
+  "344fcb941a90cb0a": 1794903312.8413575,
+  "d52574be100312cd": 1794903331.2421596,
+  "9657d67024389422": 1794903331.2424867
  },
  "pending": {},
  "queue": [],
@@ -1465,7 +1464,7 @@
   "last_week": "",
   "last_check": "2026-11-17"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-flash-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1582,7 +1581,7 @@
    "a80b88d54801d26d"
   ]
  },
- "last_post_id": "1444130002106066_122122024077503839",
+ "last_post_id": "1444130002106066_122122025007503839",
  "shareable": [
   {
    "id": "1444130002106066_122121747597503839",
@@ -2185,23 +2184,23 @@
   "httpwwwcricinfocomcienginematch1550712htmlcmpotcrss": {
    "post": "1444130002106066_122121972009503839",
    "wkts": {
-    "Sri Lanka|1": 8
+    "Sri Lanka|1": 10
    },
-   "wicket_posts": 7,
+   "wicket_posts": 8,
    "break_done": false,
-   "last_edit": 1794903272.04105,
+   "last_edit": 1794903635.7075324,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 13:14",
+  "time": "2026-11-17 13:20",
   "items": 8,
   "sample": [
-   "Afghanistan 217/10 & 193/6 * v Zimbabwe 295/9 & 339/10",
+   "Afghanistan 193/6 & 217/10 * v Zimbabwe 339/10 & 295/9",
    "South Africa 296/4 * v Bangladesh 400/10",
-   "Pakistan v Sri Lanka 97/8 *"
+   "Pakistan v Sri Lanka 98/10 *"
   ]
  },
  "agri_news": {
@@ -2211,8 +2210,8 @@
  },
  "all_posts": {
   "date": "2026-11-17",
-  "count": 31,
-  "last": 1794903276.272559
+  "count": 32,
+  "last": 1794903640.5517957
  },
  "perf": {
   "posts": [
@@ -7511,7 +7510,7 @@
  },
  "ai_usage": {
   "date": "2026-11-17",
-  "ok": 170,
+  "ok": 171,
   "fail": 293,
   "limit": 280
  },
@@ -7838,7 +7837,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 13:14",
+  "time": "2026-11-17 13:20",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -7989,14 +7988,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 2,
-   "fail": 79,
+   "fail": 80,
    "items": 10,
-   "fail_streak": 44,
+   "fail_streak": 45,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8004,7 +8003,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8012,7 +8011,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8020,7 +8019,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8028,14 +8027,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8044,9 +8043,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 81,
+   "fail": 82,
    "items": 15,
-   "fail_streak": 1900,
+   "fail_streak": 1901,
    "last_status": 404
   }
  },
@@ -8410,10 +8409,10 @@
   "pakistan": 11
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
+  "posted": 1,
+  "found": 1,
   "old": 0,
-  "irrelevant": 0,
+  "irrelevant": 1,
   "blocked": 0,
   "errors": []
  },
@@ -9181,20 +9180,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-17 09:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-17 09:58",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-17 10:00",
    "ok": true,
    "n": 0,
@@ -9455,6 +9440,20 @@
   },
   {
    "t": "11-17 13:14",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 13:14",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 13:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14341,6 +14340,35 @@
    ],
    "bt": [
     "#97",
+    "ائوٽ،",
+    "اسڪور",
+    "رانديگر",
+    "سري",
+    "لنڪا",
+    "هاڻوڪو",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پاڪستان",
+    "پيون"
+   ]
+  },
+  {
+   "t": 1794903640,
+   "h": "وڪيٽ! سري لنڪا جو رانديگر آئوٽ، 10 وڪيٽون ڪري پيون",
+   "b": "هاڻوڪو اسڪور: پاڪستان سري لنڪا 98/10 🏏",
+   "tt": [
+    "#10",
+    "ائوٽ،",
+    "رانديگر",
+    "سري",
+    "لنڪا",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پيون"
+   ],
+   "bt": [
+    "#10",
+    "#98",
     "ائوٽ،",
     "اسڪور",
     "رانديگر",
