@@ -1,6 +1,5 @@
 {
  "seen": {
-  "4ff41a7bd2cc2aeb": 1794288745.5732028,
   "c49e1e08f0aabe6e": 1794289262.9702728,
   "63a0378efde8eb0c": 1794289268.7628,
   "71c459308fb0d8d8": 1794290463.1329434,
@@ -1415,7 +1414,9 @@
   "42436d07195e6de1": 1794892869.5190122,
   "ee2663d817715058": 1794893469.8851838,
   "099a57cdc6363730": 1794893469.8851852,
-  "15a6a950ad7418f2": 1794893469.8851874
+  "15a6a950ad7418f2": 1794893469.8851874,
+  "fb4a70bee2159851": 1794894060.8884025,
+  "a80b88d54801d26d": 1794894085.5664608
  },
  "pending": {},
  "queue": [],
@@ -1427,6 +1428,15 @@
    "domain": "dawn.com",
    "source": "Dawn",
    "ts": 1794879753,
+   "local": false
+  },
+  {
+   "key": "fb4a70bee2159851",
+   "title": "Three Sindh Public Service Commission officials dismissed for violating recruitment rules",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaVFIY0pUamY3aEpZMEZrTGUxRHg1V3VKRXJxQTdjSHh1RzQ2LWVLbHBnOXZuYTAwcUgyZHRIMWpMWVdFc3Ewb3gxS01mY01BXzJ3SlNrMEYtaklzVUdRbXJRNEhBOEIyX1lVT3dFdXgzTEI4ZGJMWnNPLVNlZkR1aHlXZlBWY1ZYN0VUVVR2Z3hPUFNIN0gzWWlNeWEyaURqMWFXVktBSDBXcHJUUmdHS05HQUVqaGlXVmtmc1hkZ2Y?oc=5",
+   "domain": "dawn.com",
+   "source": "Dawn",
+   "ts": 1794891877,
    "local": false
   }
  ],
@@ -1443,7 +1453,7 @@
   "last_week": "",
   "last_check": "2026-11-17"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.5-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1497,8 +1507,8 @@
  "last_question": "2026-11-16",
  "sindh_single": {
   "date": "2026-11-17",
-  "count": 0,
-  "last": 1794885708.606158,
+  "count": 1,
+  "last": 1794894075.8665912,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1556,23 +1566,12 @@
    "e64d0af6ded9d71b",
    "d44eb695becc2f18",
    "8828edc846b7ce36",
-   "a450e386ad507023"
+   "a450e386ad507023",
+   "a80b88d54801d26d"
   ]
  },
- "last_post_id": "1444130002106066_122121992409503839",
+ "last_post_id": "1444130002106066_122121994593503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122121716829503839",
-   "title": "سنار جاگور ۾ زمين جي پراڻي دشمني تان ڌرين ۾ فائرنگ، 4 ڄڻا زخمي",
-   "t": 1794825110.5446863,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122121716829503839"
-  },
   {
    "id": "1444130002106066_122121722667503839",
    "title": "لاڙڪاڻو: ٽرئفڪ حادثي ۾ موٽرسائيڪل سوار فوت، هڪ زخمي",
@@ -1892,6 +1891,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122121992181503839"
+  },
+  {
+   "id": "1444130002106066_122121994467503839",
+   "title": "سنڌ لاءِ درآمدي گندم پهچي وئي سنڌ ۽ ڪراچي جي گندم بحران تي قابو پانے لاءِ رومانیہ کان",
+   "t": 1794894258.0430436,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122121994467503839"
   }
  ],
  "share_sent": {
@@ -2169,23 +2178,23 @@
   "httpwwwcricinfocomcienginematch1550712htmlcmpotcrss": {
    "post": "1444130002106066_122121972009503839",
    "wkts": {
-    "Sri Lanka|1": 3
+    "Sri Lanka|1": 4
    },
-   "wicket_posts": 2,
+   "wicket_posts": 3,
    "break_done": false,
-   "last_edit": 1794893821.2981696,
+   "last_edit": 1794894568.2951944,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 10:36",
+  "time": "2026-11-17 10:49",
   "items": 8,
   "sample": [
-   "Afghanistan 143/5 & 217/10 * v Zimbabwe 339/10 & 295/9",
+   "Afghanistan 217/10 & 143/5 * v Zimbabwe 295/9 & 339/10",
    "South Africa 287/4 * v Bangladesh 400/10",
-   "Pakistan v Sri Lanka 25/3 *"
+   "Pakistan v Sri Lanka 32/4 *"
   ]
  },
  "agri_news": {
@@ -2195,17 +2204,11 @@
  },
  "all_posts": {
   "date": "2026-11-17",
-  "count": 19,
-  "last": 1794893517.5247467
+  "count": 21,
+  "last": 1794894264.9318724
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122118147987503839",
-    "sec": "cricket_news",
-    "cat": "cricket_news",
-    "t": 1793956328
-   },
    {
     "id": "1444130002106066_122118154461503839",
     "sec": "sindh_stream",
@@ -4599,6 +4602,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1794893511
+   },
+   {
+    "id": "1444130002106066_122121994467503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1794894252
    }
   ]
  },
@@ -7503,9 +7512,9 @@
  },
  "ai_usage": {
   "date": "2026-11-17",
-  "ok": 134,
-  "fail": 234,
-  "limit": 228
+  "ok": 141,
+  "fail": 246,
+  "limit": 240
  },
  "posted_heads": [
   {
@@ -7830,7 +7839,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 10:37",
+  "time": "2026-11-17 10:49",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -7938,7 +7947,7 @@
   "text": 18,
   "story": 16
  },
- "ai_last_error": "10:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:42 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-17",
   "models": [
@@ -7952,9 +7961,9 @@
  },
  "img_diag": {
   "date": "2026-11-17",
-  "tried": 15,
+  "tried": 16,
   "gemini": 0,
-  "pollinations": 8,
+  "pollinations": 9,
   "skip": 3,
   "fail": 1,
   "last_note": "cricket bat and ball",
@@ -7981,14 +7990,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 2,
-   "fail": 64,
+   "fail": 65,
    "items": 10,
-   "fail_streak": 29,
+   "fail_streak": 30,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7996,7 +8005,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8004,7 +8013,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8012,7 +8021,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8020,14 +8029,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8036,9 +8045,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 66,
+   "fail": 67,
    "items": 15,
-   "fail_streak": 1885,
+   "fail_streak": 1886,
    "last_status": 404
   }
  },
@@ -8398,11 +8407,11 @@
  "region_posts": {
   "date": "2026-11-17",
   "district": 0,
-  "sindh": 5,
+  "sindh": 6,
   "pakistan": 10
  },
  "report_acc": {
-  "posted": 4,
+  "posted": 6,
   "found": 0,
   "old": 0,
   "irrelevant": 0,
@@ -9169,20 +9178,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-17 05:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-17 05:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-17 05:30",
    "ok": true,
    "n": 0,
@@ -9447,37 +9442,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-17 10:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 10:49",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-17",
  "recent_posts": [
-  {
-   "t": 1794720853,
-   "h": "وڪيٽ! پاڪستان وومين جو رانديگر آئوٽ، 3 وڪيٽون ڪري پيون",
-   "b": "هاڻوڪو اسڪور: پاڪستان وومين 44/3 🏏 هالينڊ وومين",
-   "tt": [
-    "ائوٽ،",
-    "رانديگر",
-    "وومين",
-    "وڪيٽ",
-    "وڪيٽون",
-    "پاڪستان",
-    "پيون"
-   ],
-   "bt": [
-    "#44",
-    "ائوٽ،",
-    "اسڪور",
-    "رانديگر",
-    "هالينڊ",
-    "هاڻوڪو",
-    "وومين",
-    "وڪيٽ",
-    "وڪيٽون",
-    "پاڪستان",
-    "پيون"
-   ]
-  },
   {
    "t": 1794721901,
    "h": "ملير: گڏاپ سٽي ٿاڻي مان جوابدار فرار، 3 اهلڪار ڪوارٽر گارڊ",
@@ -14336,6 +14318,83 @@
     "پاڪستان",
     "پيون"
    ]
+  },
+  {
+   "t": 1794894252,
+   "h": "سنڌ لاءِ درآمدي گندم پهچي وئي",
+   "b": "سنڌ ۽ ڪراچي جي گندم بحران تي قابو پائڻ لاءِ رومانیہ کان درآمدي گندم جو جهاز ڪراچي پورٽ تي لنگر انداز ٿي ويو",
+   "tt": [
+    "درامدي",
+    "سنڌ",
+    "پهچي",
+    "گندم"
+   ],
+   "bt": [
+    "اضافي",
+    "امد",
+    "اميد",
+    "انداز",
+    "اهي۔",
+    "اٽو",
+    "باوجود",
+    "بحران",
+    "جهاز",
+    "درامد",
+    "درامدي",
+    "ذخيرن",
+    "رليف",
+    "رومانيه",
+    "سنڌ",
+    "طرفان",
+    "عوام",
+    "قابو",
+    "لنگر",
+    "مارڪيٽ",
+    "مسلسل",
+    "ملڻ",
+    "مهگو",
+    "نئين",
+    "وڪرو",
+    "پئي",
+    "پائڻ",
+    "پهچي",
+    "پهچڻ",
+    "پورٽ",
+    "پيو",
+    "ٿئي۔",
+    "ڪان",
+    "ڪراچي",
+    "ڪهيپ",
+    "ڪيل",
+    "گندم"
+   ]
+  },
+  {
+   "t": 1794894264,
+   "h": "وڪيٽ! سري لنڪا جو رانديگر آئوٽ، 4 وڪيٽون ڪري پيون",
+   "b": "هاڻوڪو اسڪور: پاڪستان سري لنڪا 27/4 🏏",
+   "tt": [
+    "ائوٽ،",
+    "رانديگر",
+    "سري",
+    "لنڪا",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پيون"
+   ],
+   "bt": [
+    "#27",
+    "ائوٽ،",
+    "اسڪور",
+    "رانديگر",
+    "سري",
+    "لنڪا",
+    "هاڻوڪو",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پاڪستان",
+    "پيون"
+   ]
   }
  ],
  "repeat_log": [
@@ -14503,7 +14562,7 @@
  },
  "quality": {
   "date": "2026-11-17",
-  "editor_fixed": 12,
+  "editor_fixed": 13,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
