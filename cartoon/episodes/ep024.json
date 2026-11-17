@@ -1,0 +1,623 @@
+{
+ "id": "ep024",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 24,
+ "title": "Do Tamatar!",
+ "topic": "Tomato prices high + winter gas timings - Abba brings only two tomatoes, toddler Hamza takes the bag as his 'ball', Bhabi Sana makes the salan with dahi and imli instead; the two tomatoes saved in the fridge 'high security'",
+ "music": "comic",
+ "lesson": "Mehngai mein ghabrao nahi,<br>samajhdari se kaam chalao!",
+ "caption": "Abba bazaar se tamatar laye... poore DO! 🍅😂 Phir Hamza ne thaila ball samajh liya, aur Bhabi ki tarkeeb ne sab ka dil jeet liya. Aap ke ghar mein tamatar mehnge hon to kya banta hai? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#TamatarMehngay",
+  "#PakistaniFamily",
+  "#UrduCartoon",
+  "#AmmiAbba"
+ ],
+ "scenes": [
+  {
+   "set": "kitchen",
+   "time": "day",
+   "label": "Kitchen • Dopahar",
+   "cast": {
+    "AMMI": "stove",
+    "SANA": "right"
+   },
+   "props": {
+    "AMMI": "ladle",
+    "ABBA": "bag"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Nawabshah ke is ghar mein aaj kal sab se qeemti cheez *sona* nahi... *tamatar* hai!",
+     "urdu": "نواب شاہ کے اس گھر میں آج کل سب سے قیمتی چیز سونا نہیں... ٹماٹر ہے!",
+     "how": "warm storyteller, playful, slight pause before the last word",
+     "shot": "wide",
+     "gap": 0.2,
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "SANA",
+     "emo": "worried",
+     "roman": "Sana, *gas* aa gayi hai! Jaldi salan chadhao, warna gas phir chali jayegi.",
+     "urdu": "ثنا، گیس آ گئی ہے! جلدی سالن چڑھاؤ، ورنہ گیس پھر چلی جائے گی۔",
+     "how": "50-year-old mother, hurried, urgent",
+     "shot": "close",
+     "pose": "explain",
+     "react": {
+      "SANA": "focused"
+     },
+     "react_pose": {
+      "SANA": "rest"
+     },
+     "looks": {
+      "SANA": "AMMI"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "AMMI",
+     "emo": "worried",
+     "roman": "Ammi, masala tayyar hai, lekin *tamatar* to ek bhi nahi hai.",
+     "urdu": "امی، مصالحہ تیار ہے، لیکن ٹماٹر تو ایک بھی نہیں ہے۔",
+     "how": "young woman, polite, worried",
+     "shot": "close",
+     "pose": "shrug",
+     "react": {
+      "AMMI": "worried"
+     },
+     "react_pose": {
+      "AMMI": "rest"
+     },
+     "looks": {
+      "AMMI": "SANA"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "proud",
+     "roman": "Fikar na karo! Main bazaar se *tamatar* le aaya hoon.",
+     "urdu": "فکر نہ کرو! میں بازار سے ٹماٹر لے آیا ہوں۔",
+     "how": "57-year-old father, proud, cheerful entry",
+     "shot": "close",
+     "pose": "hold",
+     "sfx": [
+      "door"
+     ],
+     "before": [
+      {
+       "do": "enter",
+       "who": "ABBA",
+       "slot": "mid"
+      }
+     ],
+     "react": {
+      "AMMI": "happy",
+      "SANA": "happy"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest"
+     },
+     "looks": {
+      "AMMI": "ABBA",
+      "SANA": "ABBA"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "confused",
+     "roman": "Thaila to bilkul *halka* hai. Kitne laaye hain?",
+     "urdu": "تھیلا تو بالکل ہلکا ہے۔ کتنے لائے ہیں؟",
+     "how": "mother, suspicious, eyebrows up",
+     "shot": "close",
+     "pose": "point_other",
+     "react": {
+      "ABBA": "sheepish"
+     },
+     "react_pose": {
+      "SANA": "rest",
+      "ABBA": "rest"
+     },
+     "looks": {
+      "SANA": "AMMI",
+      "ABBA": "AMMI"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "roman": "Poore *do*! Dukandar ne aise diye, jaise *shaadi ka tohfa* ho!",
+     "urdu": "پورے دو! دکاندار نے ایسے دیے، جیسے شادی کا تحفہ ہو!",
+     "how": "father, half proud half embarrassed, comic",
+     "shot": "punch",
+     "pose": "rest",
+     "joke": true,
+     "gap": 0.7,
+     "give": {
+      "to": "AMMI",
+      "prop": "bag",
+      "at": 0.4
+     },
+     "react": {
+      "AMMI": "surprised",
+      "SANA": "laugh"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest"
+     },
+     "looks": {
+      "AMMI": "ABBA",
+      "SANA": "ABBA"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "SANA",
+     "emo": "proud",
+     "roman": "Humare zamane mein tamatar *tokri* bhar ke aate thay, koi ginta bhi nahi tha!",
+     "urdu": "ہمارے زمانے میں ٹماٹر ٹوکری بھر کے آتے تھے، کوئی گنتا بھی نہیں تھا!",
+     "how": "father, nostalgic old-school boast",
+     "shot": "close",
+     "pose": "wag",
+     "react": {
+      "SANA": "teasing",
+      "AMMI": "tired"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest"
+     },
+     "looks": {
+      "AMMI": "ABBA",
+      "SANA": "ABBA"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "worried",
+     "roman": "Aur aaj kal *gin kar* aate hain. Do tamatar mein poore ghar ka salan kaise banega?",
+     "urdu": "اور آج کل گن کر آتے ہیں۔ دو ٹماٹر میں پورے گھر کا سالن کیسے بنے گا؟",
+     "how": "mother, worried, sighing",
+     "shot": "close",
+     "pose": "head_hold",
+     "react": {
+      "ABBA": "sheepish",
+      "SANA": "focused"
+     },
+     "react_pose": {
+      "SANA": "rest",
+      "ABBA": "rest"
+     },
+     "looks": {
+      "SANA": "AMMI",
+      "ABBA": "AMMI"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "AMMI",
+     "emo": "teasing",
+     "roman": "Ammi, mere paas ek *tarkeeb* hai. Bas thora intezar kijiye!",
+     "urdu": "امی، میرے پاس ایک ترکیب ہے۔ بس تھوڑا انتظار کیجیے!",
+     "how": "young woman, smart, confident smile",
+     "shot": "close",
+     "pose": "point_up",
+     "react": {
+      "AMMI": "surprised",
+      "ABBA": "surprised"
+     },
+     "gap": 0.4,
+     "react_pose": {
+      "AMMI": "rest",
+      "ABBA": "rest"
+     },
+     "looks": {
+      "AMMI": "SANA",
+      "ABBA": "SANA"
+     }
+    }
+   ]
+  },
+  {
+   "set": "aangan",
+   "time": "day",
+   "label": "Aangan • Thori Der Baad",
+   "cast": {
+    "DANIYAL": "charpai_r",
+    "HAMZA": "floor_l"
+   },
+   "props": {
+    "DANIYAL": "book",
+    "HAMZA": "bag"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Lekin thori der baad... tamatar wala *thaila* hi *gayab* ho gaya!",
+     "urdu": "لیکن تھوڑی دیر بعد... ٹماٹر والا تھیلا ہی غائب ہو گیا!",
+     "how": "storyteller, mock-dramatic suspense",
+     "shot": "wide",
+     "gap": 0.2,
+     "react_pose": {
+      "HAMZA": "rest",
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "DANIYAL",
+     "emo": "worried",
+     "roman": "Daniyal! Tamatar ka *thaila* dekha hai? Kitchen se *gayab* hai!",
+     "urdu": "دانیال! ٹماٹر کا تھیلا دیکھا ہے؟ کچن سے غائب ہے!",
+     "how": "mother, panicking, calling out",
+     "shot": "close",
+     "pose": "head_hold",
+     "sfx": [
+      "whoosh"
+     ],
+     "before": [
+      {
+       "do": "enter",
+       "who": "AMMI",
+       "slot": "stand_l"
+      }
+     ],
+     "react": {
+      "DANIYAL": "surprised"
+     },
+     "react_pose": {
+      "HAMZA": "rest",
+      "DANIYAL": "rest"
+     },
+     "looks": {
+      "DANIYAL": "AMMI"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "AMMI",
+     "emo": "surprised",
+     "roman": "*Objection!* Ghar ki sab se qeemti cheez gayab? Main abhi *tafteesh* karta hoon!",
+     "urdu": "آبجیکشن! گھر کی سب سے قیمتی چیز غائب؟ میں ابھی تفتیش کرتا ہوں!",
+     "how": "20-year-old law student, over-dramatic courtroom voice",
+     "shot": "close",
+     "pose": "objection",
+     "react": {
+      "AMMI": "worried"
+     },
+     "react_pose": {
+      "HAMZA": "rest",
+      "AMMI": "rest"
+     },
+     "looks": {
+      "AMMI": "DANIYAL"
+     }
+    },
+    {
+     "who": "HAMZA",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Mela... *bawl*!",
+     "urdu": "میلا... بال!",
+     "how": "2-year-old toddler, giggling, cute half words",
+     "shot": "close",
+     "pose": "hold",
+     "sfx": [
+      "baby_giggle"
+     ],
+     "looks": {
+      "AMMI": "HAMZA",
+      "DANIYAL": "HAMZA"
+     },
+     "react": {
+      "AMMI": "surprised",
+      "DANIYAL": "surprised"
+     },
+     "gap": 0.3,
+     "react_pose": {
+      "DANIYAL": "rest",
+      "AMMI": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "AMMI",
+     "emo": "teasing",
+     "roman": "Mulzim mil gaya, Ammi! Lekin umar *do saal* hai... *zamanat* ho jayegi!",
+     "urdu": "ملزم مل گیا، امی! لیکن عمر دو سال ہے... ضمانت ہو جائے گی!",
+     "how": "law student, mock-serious verdict, comic",
+     "shot": "punch",
+     "pose": "point_down",
+     "joke": true,
+     "gap": 0.7,
+     "react": {
+      "AMMI": "laugh"
+     },
+     "react_pose": {
+      "HAMZA": "rest",
+      "AMMI": "rest"
+     },
+     "looks": {
+      "AMMI": "DANIYAL"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "HAMZA",
+     "emo": "warm",
+     "roman": "Hamza, meri jaan, yeh *ball* nahi hai. Yeh to aaj ka *salan* hai!",
+     "urdu": "حمزہ، میری جان، یہ بال نہیں ہے۔ یہ تو آج کا سالن ہے!",
+     "how": "grandmother, soft and loving, smiling",
+     "shot": "close",
+     "pose": "plead",
+     "react": {
+      "HAMZA": "happy"
+     },
+     "react_pose": {
+      "HAMZA": "rest",
+      "DANIYAL": "rest"
+     },
+     "looks": {
+      "DANIYAL": "AMMI"
+     }
+    },
+    {
+     "who": "HAMZA",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Lo... *Dadi*!",
+     "urdu": "لو... دادی!",
+     "how": "toddler, proud, sweet",
+     "shot": "close",
+     "pose": "rest",
+     "give": {
+      "to": "AMMI",
+      "prop": "bag",
+      "at": 0.3
+     },
+     "react": {
+      "AMMI": "laugh",
+      "DANIYAL": "laugh"
+     },
+     "gap": 0.4,
+     "react_pose": {
+      "DANIYAL": "rest",
+      "AMMI": "rest"
+     },
+     "looks": {
+      "DANIYAL": "HAMZA",
+      "AMMI": "HAMZA"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Ammi, tarkeeb yeh hai: salan mein *dahi* aur thori *imli* daal dete hain.",
+     "urdu": "امی، ترکیب یہ ہے: سالن میں دہی اور تھوڑی املی ڈال دیتے ہیں۔",
+     "how": "young woman, bright, explaining",
+     "shot": "close",
+     "pose": "explain",
+     "before": [
+      {
+       "do": "enter",
+       "who": "SANA",
+       "slot": "stand_c"
+      }
+     ],
+     "react": {
+      "AMMI": "focused"
+     },
+     "react_pose": {
+      "HAMZA": "rest",
+      "DANIYAL": "rest",
+      "AMMI": "rest"
+     },
+     "looks": {
+      "DANIYAL": "SANA",
+      "AMMI": "SANA"
+     }
+    },
+    {
+     "who": "SANA",
+     "to": "AMMI",
+     "emo": "warm",
+     "roman": "Khatta-pan bhi aa jayega, aur yeh do tamatar *kal* ke liye bach jayenge.",
+     "urdu": "کھٹا پن بھی آ جائے گا، اور یہ دو ٹماٹر کل کے لیے بچ جائیں گے۔",
+     "how": "young woman, calm, sensible",
+     "shot": "close",
+     "pose": "explain",
+     "react": {
+      "AMMI": "happy"
+     },
+     "react_pose": {
+      "HAMZA": "rest",
+      "DANIYAL": "rest",
+      "AMMI": "rest"
+     },
+     "looks": {
+      "DANIYAL": "SANA",
+      "AMMI": "SANA"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "SANA",
+     "emo": "proud",
+     "roman": "Waah Sana! Yeh hoti hai *M.A. pass* bahu ki *samajh*!",
+     "urdu": "واہ ثنا! یہ ہوتی ہے ایم اے پاس بہو کی سمجھ!",
+     "how": "mother-in-law, proudly praising, warm",
+     "shot": "close",
+     "pose": "clap",
+     "react": {
+      "SANA": "sheepish",
+      "DANIYAL": "happy"
+     },
+     "gap": 0.4,
+     "react_pose": {
+      "HAMZA": "rest",
+      "SANA": "rest",
+      "DANIYAL": "rest"
+     },
+     "looks": {
+      "SANA": "AMMI",
+      "DANIYAL": "AMMI"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "night",
+   "label": "Drawing Room • Raat Ka Khana",
+   "cast": {
+    "AMMI": "sofa_l",
+    "DANIYAL": "sofa_c",
+    "ABBA": "sofa_r",
+    "SANA": "stand_l"
+   },
+   "props": {
+    "ABBA": "plate",
+    "DANIYAL": "plate",
+    "SANA": "tray"
+   },
+   "lines": [
+    {
+     "who": "ABBA",
+     "to": "AMMI",
+     "emo": "happy",
+     "roman": "Waah! Aaj salan mein *tamatar* ka maza hi kuch aur hai!",
+     "urdu": "واہ! آج سالن میں ٹماٹر کا مزہ ہی کچھ اور ہے!",
+     "how": "father, delighted, savouring the food",
+     "shot": "close",
+     "pose": "hold",
+     "react": {
+      "AMMI": "teasing",
+      "SANA": "teasing",
+      "DANIYAL": "teasing"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest",
+      "DANIYAL": "rest"
+     },
+     "looks": {
+      "AMMI": "ABBA",
+      "SANA": "ABBA",
+      "DANIYAL": "ABBA"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ABBA",
+     "emo": "teasing",
+     "roman": "Suniye, is mein ek bhi tamatar nahi hai. Yeh Sana ka *dahi aur imli* wala salan hai!",
+     "urdu": "سنیے، اس میں ایک بھی ٹماٹر نہیں ہے۔ یہ ثنا کا دہی اور املی والا سالن ہے!",
+     "how": "wife, teasing, amused",
+     "shot": "close",
+     "pose": "explain",
+     "react": {
+      "ABBA": "surprised"
+     },
+     "react_pose": {
+      "SANA": "rest",
+      "DANIYAL": "rest",
+      "ABBA": "rest"
+     },
+     "looks": {
+      "SANA": "AMMI",
+      "DANIYAL": "AMMI",
+      "ABBA": "AMMI"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "SANA",
+     "emo": "proud",
+     "roman": "Kamaal hai! Humare zamane mein bhi itni *samajhdar* bahu nahi thi!",
+     "urdu": "کمال ہے! ہمارے زمانے میں بھی اتنی سمجھدار بہو نہیں تھی!",
+     "how": "father, warmly impressed",
+     "shot": "close",
+     "pose": "rest",
+     "react": {
+      "SANA": "happy",
+      "AMMI": "happy"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest",
+      "DANIYAL": "rest"
+     },
+     "looks": {
+      "AMMI": "ABBA",
+      "SANA": "ABBA",
+      "DANIYAL": "ABBA"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "DANIYAL",
+     "emo": "confused",
+     "roman": "To phir mere laaye hue *do tamatar* kahan hain?",
+     "urdu": "تو پھر میرے لائے ہوئے دو ٹماٹر کہاں ہیں؟",
+     "how": "father, curious",
+     "shot": "close",
+     "pose": "shrug",
+     "react": {
+      "DANIYAL": "teasing"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest",
+      "DANIYAL": "rest"
+     },
+     "looks": {
+      "AMMI": "ABBA",
+      "SANA": "ABBA",
+      "DANIYAL": "ABBA"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ABBA",
+     "emo": "teasing",
+     "roman": "Fridge mein, Abba. *Hamza* ki pahunch se door... *high security* mein!",
+     "urdu": "فریج میں، ابا۔ حمزہ کی پہنچ سے دور... ہائی سیکیورٹی میں!",
+     "how": "law student, whispering like a secret agent, comic",
+     "shot": "group",
+     "pose": "rest",
+     "joke": true,
+     "gap": 1.0,
+     "react": {
+      "*": "laugh"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "SANA": "rest",
+      "ABBA": "rest"
+     },
+     "looks": {
+      "AMMI": "DANIYAL",
+      "SANA": "DANIYAL",
+      "ABBA": "DANIYAL"
+     }
+    }
+   ]
+  }
+ ]
+}
