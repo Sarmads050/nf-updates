@@ -1,14 +1,5 @@
 {
  "seen": {
-  "a5f5764bd44209bb": 1794300264.5424955,
-  "7e03155466971683": 1794300336.8252196,
-  "4dc10130a216de4e": 1794300336.8252215,
-  "d282252f0a829739": 1794300363.5757046,
-  "1d49b28266b4b366": 1794300363.575706,
-  "2a3bf9ceb064f606": 1794300363.575707,
-  "905cd23dd5d814b5": 1794300363.5757086,
-  "9ca88252e59a3950": 1794300363.5757096,
-  "78a14894fa0b16ee": 1794300363.5757108,
   "1fde58439befe742": 1794301869.7210255,
   "2c548a62daa4cf1a": 1794301869.7210276,
   "b95e5647a03cab98": 1794301880.749795,
@@ -1421,7 +1412,10 @@
   "9657d67024389422": 1794903331.2424867,
   "a6322b74c4059c5e": 1794904266.9798245,
   "310e5973c660c5e6": 1794904266.9800346,
-  "3e244aade6d70a73": 1794904266.9800606
+  "3e244aade6d70a73": 1794904266.9800606,
+  "068e381c3e09449a": 1794905502.9714906,
+  "78a328e7f044a513": 1794905502.9714937,
+  "3a16186af281599d": 1794905530.5013027
  },
  "pending": {},
  "queue": [],
@@ -1521,8 +1515,8 @@
  "last_question": "2026-11-16",
  "sindh_single": {
   "date": "2026-11-17",
-  "count": 1,
-  "last": 1794894075.8665912,
+  "count": 2,
+  "last": 1794905525.2748346,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1581,23 +1575,12 @@
    "d44eb695becc2f18",
    "8828edc846b7ce36",
    "a450e386ad507023",
-   "a80b88d54801d26d"
+   "a80b88d54801d26d",
+   "3a16186af281599d"
   ]
  },
- "last_post_id": "1444130002106066_122122028403503839",
+ "last_post_id": "1444130002106066_122122031235503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122121747597503839",
-   "title": "گهوٽڪي: ٻارن جي جهيڙي مان چنگ آرشا سڙي تباهه",
-   "t": 1794833129.7607498,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122121747597503839"
-  },
   {
    "id": "1444130002106066_122121761973503839",
    "title": "حيدرآباد ۾ طبي امداد نه ملڻ خلاف احتجاج",
@@ -1910,6 +1893,16 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122122023063503839"
+  },
+  {
+   "id": "1444130002106066_122122031235503839",
+   "title": "ڊوميسائل ۽ پي آر سي هاڻي گهر ويٺي آن لائن حاصل ڪري سگهجن ٿا سنڌ جي چيف سيڪريٽري آصف حيدر",
+   "t": 1794905648.8123195,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122122031235503839"
   }
  ],
  "share_sent": {
@@ -2192,19 +2185,19 @@
    },
    "wicket_posts": 8,
    "break_done": true,
-   "last_edit": 1794905163.9407842,
+   "last_edit": 1794905954.199507,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 13:46",
+  "time": "2026-11-17 13:59",
   "items": 8,
   "sample": [
-   "Afghanistan 217/10 & 194/6 * v Zimbabwe 295/9 & 339/10",
-   "South Africa 322/4 * v Bangladesh 400/10",
-   "Pakistan 10 * v Sri Lanka 98/10"
+   "Afghanistan 208/6 & 217/10 * v Zimbabwe 339/10 & 295/9",
+   "South Africa 337/4 * v Bangladesh 400/10",
+   "Pakistan 20 * v Sri Lanka 98/10"
   ]
  },
  "agri_news": {
@@ -2214,17 +2207,11 @@
  },
  "all_posts": {
   "date": "2026-11-17",
-  "count": 33,
-  "last": 1794904684.4169538
+  "count": 34,
+  "last": 1794905643.4429471
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122118189429503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793965950
-   },
    {
     "id": "1444130002106066_122118195783503839",
     "sec": "sindh_stream",
@@ -4618,6 +4605,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1794902966
+   },
+   {
+    "id": "1444130002106066_122122031235503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1794905643
    }
   ]
  },
@@ -7514,9 +7507,9 @@
  },
  "ai_usage": {
   "date": "2026-11-17",
-  "ok": 173,
-  "fail": 295,
-  "limit": 283
+  "ok": 183,
+  "fail": 309,
+  "limit": 298
  },
  "posted_heads": [
   {
@@ -7841,7 +7834,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 13:46",
+  "time": "2026-11-17 13:59",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -7949,7 +7942,7 @@
   "text": 19,
   "story": 17
  },
- "ai_last_error": "13:37 gemini-3.5-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "13:52 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-17",
   "models": [
@@ -7963,13 +7956,13 @@
  },
  "img_diag": {
   "date": "2026-11-17",
-  "tried": 23,
+  "tried": 24,
   "gemini": 0,
-  "pollinations": 12,
+  "pollinations": 13,
   "skip": 7,
   "fail": 1,
-  "last_note": "cricket pitch with wickets",
-  "mismatch": 706,
+  "last_note": "smartphone and official documents",
+  "mismatch": 708,
   "unverified": 1
  },
  "gemini_img": {
@@ -7992,14 +7985,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 2,
-   "fail": 83,
+   "fail": 84,
    "items": 10,
-   "fail_streak": 48,
+   "fail_streak": 49,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8007,7 +8000,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8015,7 +8008,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8023,7 +8016,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8031,14 +8024,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 84,
+   "ok": 85,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8047,9 +8040,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 85,
+   "fail": 86,
    "items": 15,
-   "fail_streak": 1904,
+   "fail_streak": 1905,
    "last_status": 404
   }
  },
@@ -8057,7 +8050,7 @@
   "last": "2026-11-13",
   "idx": 4
  },
- "ai_last_model": "google/gemma-4-31b-it:free",
+ "ai_last_model": "google/gemma-4-26b-a4b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8409,13 +8402,13 @@
  "region_posts": {
   "date": "2026-11-17",
   "district": 1,
-  "sindh": 10,
+  "sindh": 11,
   "pakistan": 11
  },
  "report_acc": {
-  "posted": 2,
-  "found": 4,
-  "old": 3,
+  "posted": 3,
+  "found": 5,
+  "old": 4,
   "irrelevant": 1,
   "blocked": 0,
   "errors": []
@@ -8466,8 +8459,8 @@
  "sindh_stream": {
   "date": "2026-11-17",
   "count": 9,
-  "last": 1794902504.6968424,
-  "city_i": 16,
+  "last": 1794905461.6335602,
+  "city_i": 20,
   "dry": 1794902510.8717575
  },
  "gemini_day_dead": {
@@ -8475,7 +8468,8 @@
   "models": [
    "gemini-flash-latest",
    "gemini-3.8-flash",
-   "gemini-3.7-flash"
+   "gemini-3.7-flash",
+   "gemini-3.6-flash"
   ]
  },
  "tg_done": [
@@ -9188,20 +9182,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-17 10:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-17 10:36",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-17 10:40",
    "ok": true,
    "n": 0,
@@ -9462,6 +9442,20 @@
   },
   {
    "t": "11-17 13:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 13:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 13:59",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14347,6 +14341,58 @@
     "وقفو",
     "پاڪستان"
    ]
+  },
+  {
+   "t": 1794905643,
+   "h": "سنڌ | ڊوميسائل ۽ پي آر سي هاڻي گهر ويٺي آن لائن حاصل ڪري سگهجن ٿا",
+   "b": "سنڌ جي چيف سيڪريٽري آصف حيدر شاهه پاران اي ڊوميسائل ۽ پي آر سي پورٽل جو افتتاح ڪيو ويو آهي جنهن سان هاڻي",
+   "tt": [
+    "حاصل",
+    "سنڌ",
+    "سگهجن",
+    "لائن",
+    "هاڻي",
+    "ويٺي",
+    "ڊوميسائل",
+    "گهر"
+   ],
+   "bt": [
+    "اصف",
+    "افتتاح",
+    "افيسن",
+    "اهي",
+    "اپليڪيشن",
+    "حاصل",
+    "حيدر",
+    "درخواست",
+    "ذريعي",
+    "سنڌ",
+    "سيڪريٽري",
+    "سگهجن",
+    "سگهندا",
+    "شاهه",
+    "شهرين",
+    "لائن",
+    "لڳائڻا",
+    "ماڻهو",
+    "موبائل",
+    "مڪمل",
+    "نئين",
+    "هاڻي",
+    "ويٺي",
+    "پاران",
+    "پنهنجو",
+    "پورٽل",
+    "پوندا",
+    "چيف",
+    "چڪر",
+    "ڊوميسائل",
+    "ڏئي",
+    "ڪجهه",
+    "ڪرائي",
+    "ڪلاڪن",
+    "گهر"
+   ]
   }
  ],
  "repeat_log": [
@@ -14514,8 +14560,8 @@
  },
  "quality": {
   "date": "2026-11-17",
-  "editor_fixed": 18,
-  "editor_rejected": 0,
+  "editor_fixed": 19,
+  "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
