@@ -1446,7 +1446,9 @@
   "247c8350de76a494": 1794924121.4705367,
   "43c1a83854e57ec7": 1794924121.4705398,
   "e41e2ed68c2a128c": 1794925286.2739346,
-  "770acac298026f7c": 1794925286.273938
+  "770acac298026f7c": 1794925286.273938,
+  "afb901c7b93a6442": 1794926476.3643067,
+  "26ff3be7bdd0fce8": 1794926476.364309
  },
  "pending": {},
  "queue": [],
@@ -2214,14 +2216,14 @@
    },
    "wicket_posts": 10,
    "break_done": true,
-   "last_edit": 1794926167.2654426,
+   "last_edit": 1794926785.7400355,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 19:36",
+  "time": "2026-11-17 19:46",
   "items": 9,
   "sample": [
    "Afghanistan 360/10 & 217/10 * v Zimbabwe 339/10 & 295/9",
@@ -7592,9 +7594,9 @@
  },
  "ai_usage": {
   "date": "2026-11-17",
-  "ok": 306,
-  "fail": 479,
-  "limit": 465
+  "ok": 308,
+  "fail": 481,
+  "limit": 468
  },
  "posted_heads": [
   {
@@ -7919,7 +7921,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 19:36",
+  "time": "2026-11-17 19:46",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -8027,7 +8029,7 @@
   "text": 27,
   "story": 23
  },
- "ai_last_error": "19:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "19:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-17",
   "models": [
@@ -8070,14 +8072,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 3,
-   "fail": 118,
+   "fail": 119,
    "items": 10,
-   "fail_streak": 30,
+   "fail_streak": 31,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8085,7 +8087,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8093,7 +8095,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8101,7 +8103,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8109,14 +8111,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 119,
+   "ok": 120,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8125,9 +8127,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 121,
+   "fail": 122,
    "items": 15,
-   "fail_streak": 1940,
+   "fail_streak": 1941,
    "last_status": 404
   }
  },
@@ -8316,8 +8318,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8368,8 +8370,8 @@
  "sindh_stream": {
   "date": "2026-11-17",
   "count": 15,
-  "last": 1794925267.027424,
-  "city_i": 18,
+  "last": 1794926464.9942837,
+  "city_i": 22,
   "dry": 1794924121.4705422
  },
  "gemini_day_dead": {
@@ -9072,20 +9074,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-17 16:24",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-17 16:29",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-17 16:30",
    "ok": true,
    "n": 0,
@@ -9346,6 +9334,20 @@
   },
   {
    "t": "11-17 19:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 19:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 19:46",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14152,11 +14154,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-15 00:23",
-   "new": "عالمي بئنڪ پاران سنڌ جي ٻهراڙين لاءِ 30 ڪروڙ ڊالر منظور",
-   "old": "عالمي بئنڪ جو سنڌ ۾ صفائي ۽ پاڻي جي منصوبن لاءِ فنڊز جي منظوري"
-  },
-  {
    "t": "11-15 02:31",
    "new": "آءِ ايم ايف پاران پيٽرول جو سبسڊي ختم ڪرڻ جو مطالبو",
    "old": "حڪومت پاران آءِ ايم ايف جون شرطون پوريون"
@@ -14300,6 +14297,11 @@
    "t": "11-17 18:41",
    "new": "سنڌ جي ورهاست ڪئي ته ڪراچي ۾ رت وهندو: بلاول ڀٽو",
    "old": "نظام کي تباهه ڪرايو ويو آهي: بلاول ڀٽو"
+  },
+  {
+   "t": "11-17 19:41",
+   "new": "سنڌ جي ورهاڱي جي ڪوشش ڪئي وئي ته ڪراچي ۾ رت وهندو: بلاول ڀٽو",
+   "old": "نظام کي تباهه ڪرايو ويو آهي: بلاول ڀٽو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14320,6 +14322,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 17
- }
+  "repeat": 18
+ },
+ "_dup": true
 }
