@@ -65,6 +65,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-062] (ep023, 2026-11-16) Mehak/Faraz ki "diary" (book prop) chhota neela dabba lagti hai, bilkul phone jaisi (0:12, 1:35) — book prop ko bara karna, safaid panne aur cover par lakeer, taa ke kitaab/diary saaf pehchani jaye.
 - [K-063] (ep023, 2026-11-16) Gemini awaazein 26 lines mein 140 s ki banin; 122 s mein laane ke liye tempo 1.20 karna para (awaaz thori tez lagti hai) — tts.py ke voice prompt mein "brisk natural pace" likhna, ya script 24 lines tak rakhna.
 
+- [K-064] (ep024, 2026-11-17) Poori kahani "do tamatar" ki hai lekin screen par ek bhi tamatar nazar nahi aata — Abba ka thaila wahi chhota jamni dabba hai — naya "tamatar" prop (laal gol tamatar, hari dandi) aur "thaila" ke andar se jhankte 2 tamatar.
+- [K-065] (ep024, 2026-11-17) Scene 3 "raat ka khana" hai lekin sab ke haath mein khaali safaid plate hai aur table par salan ki degchi/roti nahi — naya "salan" plate prop (shorba + roti) aur table par handi.
+- [K-066] (ep024, 2026-11-17) Hamza (floor_l) jab Ammi ko thaila deta hai ("Lo... Dadi!") to Ammi ka sirf dhar dikhta hai, chehra frame se upar kat jata hai; aur Ammi ke close-up mein Hamza ka sirf aadha sar neeche se jhankta hai — toddler aur bare ke give/two-shot mein camera ko neeche bacche aur upar bare ka chehra dono fit karne wala "low two" shot banana.
+
 ## APPROVED
 
 ## DONE
