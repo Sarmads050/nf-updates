@@ -1,6 +1,5 @@
 {
  "seen": {
-  "e07b560bba841287": 1794283869.6298034,
   "06dc562d223acfc1": 1794285083.5291438,
   "146f38917bfddae5": 1794285083.529146,
   "c47214c1b378a193": 1794285083.5291471,
@@ -1403,7 +1402,8 @@
   "a450e386ad507023": 1794885710.4750602,
   "e73e35d83e5e9e5c": 1794887498.449323,
   "32ef577be41768cd": 1794887498.4494925,
-  "eb98e5b55b188b09": 1794888092.334463
+  "eb98e5b55b188b09": 1794888092.334463,
+  "aa660c765444d4d6": 1794889277.7417994
  },
  "pending": {},
  "queue": [],
@@ -2150,10 +2150,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 09:10",
+  "time": "2026-11-17 09:21",
   "items": 8,
   "sample": [
-   "Afghanistan 217/10 & 143/5 * v Zimbabwe 339/10 & 295/9",
+   "Afghanistan 217/10 & 143/5 * v Zimbabwe 295/9 & 339/10",
    "South Africa 287/4 * v Bangladesh 400/10",
    "Pakistan v Sri Lanka"
   ]
@@ -4578,48 +4578,8 @@
   "last": 1794887536.1996086
  },
  "trends": {
-  "last": 1794878459.6975188,
+  "last": 1794889261.6344109,
   "terms": [
-   {
-    "term": "allama iqbal international airport",
-    "traffic": 100,
-    "news": "Kundi inaugurates South Airways’ Peshawar-Lahore flight on Iqbal Day",
-    "t": 1794277256,
-    "cat": "transport_trade",
-    "sindh": false
-   },
-   {
-    "term": "gasoline",
-    "traffic": 100,
-    "news": "South Carolina gas prices fall as seasonal shifts drive relief at the pump: GasBuddy",
-    "t": 1794277256,
-    "cat": "fuel",
-    "sindh": false
-   },
-   {
-    "term": "government debt",
-    "traffic": 100,
-    "news": "Ranked: The World’s Biggest Economies vs. Debt in 2026",
-    "t": 1794277256,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "malaika arora",
-    "traffic": 200,
-    "news": "Sshura Khan praises stepson Arhaan Khan for being ‘incredible’ big brother to Sipaara, says he has set the bar high | Bollywood",
-    "t": 1794277256,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "nvidia ceo jensen huang alice huang",
-    "traffic": 2000,
-    "news": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Suspected Chinese Spy",
-    "t": 1794277256,
-    "cat": "technology",
-    "sindh": false
-   },
    {
     "term": "pak u19 vs nep u19",
     "traffic": 500,
@@ -7467,15 +7427,55 @@
     "t": 1794878459,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "sri lanka national cricket team vs pakistan national cricket team match scorecard",
+    "traffic": 20000,
+    "news": "Shaun Tait, Kusal Mendis want extra push for Pakistan-Sri Lanka series result",
+    "t": 1794889262,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "chi",
+    "traffic": 100,
+    "news": "Case in Toscana: tra lusso sfrenato per stranieri e crisi abitativa",
+    "t": 1794889262,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "canada vs guatemala",
+    "traffic": 200,
+    "news": "Luis Fernando Tena: \"Tenemos confianza y creemos en nuestras fuerzas\"",
+    "t": 1794889262,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "houthis",
+    "traffic": 200,
+    "news": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain",
+    "t": 1794889262,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "germany national football team vs netherlands national football team standings",
+    "traffic": 5000,
+    "news": "Germany thrash Netherlands to book quarterfinal spot",
+    "t": 1794889262,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-17",
-  "ok": 117,
-  "fail": 202,
-  "limit": 196
+  "ok": 119,
+  "fail": 206,
+  "limit": 200
  },
  "posted_heads": [
   {
@@ -7800,7 +7800,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 09:10",
+  "time": "2026-11-17 09:21",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -7908,7 +7908,7 @@
   "text": 17,
   "story": 15
  },
- "ai_last_error": "09:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "09:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-17",
   "models": [
@@ -7951,14 +7951,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 2,
-   "fail": 56,
+   "fail": 57,
    "items": 10,
-   "fail_streak": 21,
+   "fail_streak": 22,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7966,7 +7966,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7974,7 +7974,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7982,7 +7982,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7990,14 +7990,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8006,9 +8006,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 58,
+   "fail": 59,
    "items": 15,
-   "fail_streak": 1877,
+   "fail_streak": 1878,
    "last_status": 404
   }
  },
@@ -8426,8 +8426,8 @@
   "date": "2026-11-17",
   "count": 1,
   "last": 1794855695.1447184,
-  "city_i": 12,
-  "dry": 1794888082.6077332
+  "city_i": 16,
+  "dry": 1794889273.6363068
  },
  "gemini_day_dead": {
   "day": "2026-11-16",
@@ -9138,13 +9138,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-17 02:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-17 03:00",
    "ok": true,
    "n": 0,
@@ -9412,6 +9405,13 @@
   },
   {
    "t": "11-17 09:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 09:20",
    "ok": true,
    "n": 0,
    "ids": [],
