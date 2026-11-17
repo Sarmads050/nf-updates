@@ -20,7 +20,7 @@
    "time": "day",
    "label": "Kitchen • Dopahar",
    "cast": {
-    "AMMI": "stove",
+    "AMMI": "mid",
     "SANA": "right"
    },
    "props": {
@@ -96,7 +96,7 @@
       {
        "do": "enter",
        "who": "ABBA",
-       "slot": "mid"
+       "slot": "stove"
       }
      ],
      "react": {
@@ -236,12 +236,13 @@
    "time": "day",
    "label": "Aangan • Thori Der Baad",
    "cast": {
-    "DANIYAL": "charpai_r",
+    "DANIYAL": "charpai_c",
     "HAMZA": "floor_l"
    },
    "props": {
     "DANIYAL": "book",
-    "HAMZA": "bag"
+    "HAMZA": "bag",
+    "AMMI": null
    },
    "lines": [
     {
@@ -417,7 +418,7 @@
       {
        "do": "enter",
        "who": "SANA",
-       "slot": "stand_c"
+       "slot": "stand_r"
       }
      ],
      "react": {
@@ -486,15 +487,16 @@
    "time": "night",
    "label": "Drawing Room • Raat Ka Khana",
    "cast": {
-    "AMMI": "sofa_l",
-    "DANIYAL": "sofa_c",
+    "SANA": "sofa_l",
+    "AMMI": "sofa_c",
     "ABBA": "sofa_r",
-    "SANA": "stand_l"
+    "DANIYAL": "stand_r"
    },
    "props": {
     "ABBA": "plate",
     "DANIYAL": "plate",
-    "SANA": "tray"
+    "SANA": "plate",
+    "AMMI": null
    },
    "lines": [
     {
@@ -552,7 +554,7 @@
      "roman": "Kamaal hai! Humare zamane mein bhi itni *samajhdar* bahu nahi thi!",
      "urdu": "کمال ہے! ہمارے زمانے میں بھی اتنی سمجھدار بہو نہیں تھی!",
      "how": "father, warmly impressed",
-     "shot": "close",
+     "shot": "wide",
      "pose": "rest",
      "react": {
       "SANA": "happy",
@@ -576,7 +578,7 @@
      "roman": "To phir mere laaye hue *do tamatar* kahan hain?",
      "urdu": "تو پھر میرے لائے ہوئے دو ٹماٹر کہاں ہیں؟",
      "how": "father, curious",
-     "shot": "close",
+     "shot": "wide",
      "pose": "shrug",
      "react": {
       "DANIYAL": "teasing"
