@@ -1,6 +1,5 @@
 {
  "seen": {
-  "3254e48e9fa44b15": 1794287456.8216543,
   "86c2349774d205df": 1794288068.1039193,
   "4ff41a7bd2cc2aeb": 1794288745.5732028,
   "c49e1e08f0aabe6e": 1794289262.9702728,
@@ -1403,11 +1402,32 @@
   "f6bd710071d4f951": 1794891080.5326452,
   "341aa51245b54fa0": 1794892268.475338,
   "a5bc7fa35327b4b5": 1794892268.4753404,
-  "a07d271aa31ad607": 1794892268.4753423
+  "a07d271aa31ad607": 1794892268.4753423,
+  "6757729af63337d2": 1794892857.2200866,
+  "6067075549af6743": 1794892869.518846,
+  "12726ee06c19785c": 1794892869.5188487,
+  "9f59c7825d58144f": 1794892869.5188503,
+  "0d2f7144eb3efc96": 1794892869.5188513,
+  "b10d12138bcfb8e2": 1794892869.518852,
+  "07e8880ab15a5bdd": 1794892869.5188534,
+  "ebd81be037ed1709": 1794892869.5188541,
+  "8d17417bb1b038de": 1794892869.5188556,
+  "0433a93656a99516": 1794892869.5188565,
+  "42436d07195e6de1": 1794892869.5190122
  },
  "pending": {},
  "queue": [],
- "jobs": [],
+ "jobs": [
+  {
+   "key": "6757729af63337d2",
+   "title": "Three SPSC officials dismissed for violating recruitment rules",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaHIzeEhhaWhRS2drbnFSMF9LM0VFejRpSXZpUHNGUUs4dkhtTWh6TWJwbXV6MjNDZWVzNUpNMHZtUmRCVzNjNXdyelNaMFFZRGJaaWltRnlEUWlXOE1qcFVjVVVWeGFXcUI4dW52S25laS1nS1F3Q2FZLWtwNjJGQlE0djUyNWlGaWp6d0lqbVBKRXZxY0tvZWk4NV8?oc=5",
+   "domain": "dawn.com",
+   "source": "Dawn",
+   "ts": 1794879753,
+   "local": false
+  }
+ ],
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-17",
@@ -2151,19 +2171,19 @@
    },
    "wicket_posts": 1,
    "break_done": false,
-   "last_edit": 1794892592.4674983,
+   "last_edit": 1794893176.59683,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 10:16",
+  "time": "2026-11-17 10:26",
   "items": 8,
   "sample": [
-   "Afghanistan 143/5 & 217/10 * v Zimbabwe 295/9 & 339/10",
+   "Afghanistan 217/10 & 143/5 * v Zimbabwe 339/10 & 295/9",
    "South Africa 287/4 * v Bangladesh 400/10",
-   "Pakistan v Sri Lanka 20/2 *"
+   "Pakistan v Sri Lanka 21/2 *"
   ]
  },
  "agri_news": {
@@ -7481,9 +7501,9 @@
  },
  "ai_usage": {
   "date": "2026-11-17",
-  "ok": 127,
-  "fail": 222,
-  "limit": 216
+  "ok": 129,
+  "fail": 226,
+  "limit": 220
  },
  "posted_heads": [
   {
@@ -7808,7 +7828,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 10:16",
+  "time": "2026-11-17 10:26",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -7911,12 +7931,12 @@
  },
  "article_diag": {
   "date": "2026-11-17",
-  "tried": 19,
-  "decoded": 19,
-  "text": 17,
-  "story": 15
+  "tried": 20,
+  "decoded": 20,
+  "text": 18,
+  "story": 16
  },
- "ai_last_error": "10:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-17",
   "models": [
@@ -7959,14 +7979,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 2,
-   "fail": 62,
+   "fail": 63,
    "items": 10,
-   "fail_streak": 27,
+   "fail_streak": 28,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7974,7 +7994,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7982,7 +8002,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7990,7 +8010,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7998,14 +8018,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8014,9 +8034,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 64,
+   "fail": 65,
    "items": 15,
-   "fail_streak": 1883,
+   "fail_streak": 1884,
    "last_status": 404
   }
  },
@@ -9139,20 +9159,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-17 04:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-17 04:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-17 04:50",
    "ok": true,
    "n": 0,
@@ -9413,6 +9419,20 @@
   },
   {
    "t": "11-17 10:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 10:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 10:26",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14268,11 +14288,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-14 11:52",
-   "new": "ڪراچي ۾ يونيورسٽي روڊ حسن اسڪوائر کان نيپا تائين بند",
-   "old": "ڪراچي: يونيورسٽي روڊ حسن اسڪوائر کان نيپا تائين بند"
-  },
-  {
    "t": "11-14 12:31",
    "new": "پاڪستان آءِ ايم ايف جون چئن مان ٽي شرطون پوريون ڪري ورتيون",
    "old": "حڪومت پاران آءِ ايم ايف جون شرطون پوريون"
@@ -14416,6 +14431,11 @@
    "t": "11-17 08:21",
    "new": "سنڌ | پيٹرول ۽ گئس جي قيمتن ۾ گهٽات",
    "old": "پيٽرول ۽ ڊيزل اگهن ۾ گهٽتائي"
+  },
+  {
+   "t": "11-17 10:21",
+   "new": "شان ڊيٽز پاڪستان عورتن جي ڪرڪيٽ ٽيم جو ڪوچ مقرر",
+   "old": "شين ڊيٽز پاڪستان عورتن جي ڪرڪيٽ ٽيم جو ڪوچ مقرر"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14436,6 +14456,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 9
- }
+  "repeat": 10
+ },
+ "_dup": true
 }
