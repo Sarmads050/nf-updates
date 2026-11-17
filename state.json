@@ -1481,7 +1481,9 @@
   "f96cba4753fca4ac": 1794949294.3052406,
   "e4b79ce59e4e8bd6": 1794949294.3052433,
   "8b19d6acffd0e821": 1794949868.85642,
-  "89210c40a3a5b1d4": 1794949868.8565686
+  "89210c40a3a5b1d4": 1794949868.8565686,
+  "c6ee744e619aefde": 1794950474.4864953,
+  "4a0e46a10b046746": 1794950474.4866955
  },
  "pending": {},
  "queue": [],
@@ -1646,17 +1648,8 @@
    "602df4a52b63d468"
   ]
  },
- "last_post_id": "1444130002106066_122122193373503839",
+ "last_post_id": "1444130002106066_122122207623503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122121926895503839",
-   "title": "پرڏيهي وزير ۽ ايران جي هم منصب اسلام آباد ۾ ملاقات ڪري ٻطرفن لاڳاپن ۽ علائقائي صورتحال تي",
-   "t": 1794880380.3362076,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122121926895503839"
-  },
   {
    "id": "1444130002106066_122121931293503839",
    "title": "موسميات کاتي موجب اڱاري تي ملڪ جي اڪثر علائقن ۾ موسم خشڪ جڏهن ته مٿين علائقن ۾ سرد رهندي",
@@ -1970,6 +1963,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122122193373503839"
+  },
+  {
+   "id": "1444130002106066_122122207623503839",
+   "title": "قومی کرکٹر عامر جمال جو چوڻ آهي ته تيز بالنگ لاءِ سازگار پچز سان پاڪستان جي نوجوان بولرز",
+   "t": 1794950539.3071158,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122122207623503839"
   }
  ],
  "share_sent": {
@@ -2100,8 +2102,8 @@
  },
  "cricket_news": {
   "date": "2026-11-18",
-  "count": 1,
-  "last": 1794942754.9559991
+  "count": 2,
+  "last": 1794950539.3070958
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -2252,14 +2254,14 @@
    },
    "wicket_posts": 10,
    "break_done": true,
-   "last_edit": 1794950201.69034,
+   "last_edit": 1794950845.1142495,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 02:16",
+  "time": "2026-11-18 02:27",
   "items": 31,
   "sample": [
    "South Africa 386/7 * v Bangladesh 400/10",
@@ -2274,17 +2276,11 @@
  },
  "all_posts": {
   "date": "2026-11-18",
-  "count": 2,
-  "last": 1794946036.7694583
+  "count": 3,
+  "last": 1794950534.5999029
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122118307515503839",
-    "sec": "cricket_news",
-    "cat": "cricket_news",
-    "t": 1793994709
-   },
    {
     "id": "1444130002106066_122118318021503839",
     "sec": "agri_news",
@@ -4678,6 +4674,12 @@
     "sec": "public_news",
     "cat": "dollar_gold_business",
     "t": 1794946041
+   },
+   {
+    "id": "1444130002106066_122122207623503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1794950539
    }
   ]
  },
@@ -7654,15 +7656,11 @@
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 37,
-  "fail": 66,
-  "limit": 66
+  "ok": 46,
+  "fail": 83,
+  "limit": 82
  },
  "posted_heads": [
-  {
-   "h": "اسلام آباد کي خاص انتظامي حيثيت ڏيڻ جي تياري مڪمل",
-   "t": 1794750428
-  },
   {
    "h": "Gujar Khan Agriculture Department registers FIRs over counterfeit fertilizer sales",
    "t": 1794751360
@@ -7978,10 +7976,14 @@
   {
    "h": "Pakistan records $39 million current account surplus in October",
    "t": 1794946041
+  },
+  {
+   "h": "Aamir Jamal Says Pace-Friendly Pitches Will Help Pakistan’s Young Bowlers",
+   "t": 1794950539
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 02:16",
+  "time": "2026-11-18 02:27",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -8084,12 +8086,12 @@
  },
  "article_diag": {
   "date": "2026-11-18",
-  "tried": 6,
-  "decoded": 6,
-  "text": 6,
+  "tried": 7,
+  "decoded": 7,
+  "text": 7,
   "story": 6
  },
- "ai_last_error": "02:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "02:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8103,9 +8105,9 @@
  },
  "img_diag": {
   "date": "2026-11-18",
-  "tried": 2,
+  "tried": 3,
   "gemini": 0,
-  "pollinations": 1,
+  "pollinations": 2,
   "skip": 0,
   "fail": 0,
   "last_note": "Pakistani currency notes",
@@ -8131,7 +8133,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
-   "ok": 14,
+   "ok": 15,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8139,7 +8141,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 15,
+   "ok": 16,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8147,7 +8149,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 15,
+   "ok": 16,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8155,7 +8157,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 15,
+   "ok": 16,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8163,7 +8165,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 15,
+   "ok": 16,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8171,14 +8173,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 15,
+   "ok": 16,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 15,
+   "ok": 16,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8187,9 +8189,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 15,
+   "fail": 16,
    "items": 15,
-   "fail_streak": 1981,
+   "fail_streak": 1982,
    "last_status": 404
   }
  },
@@ -8374,12 +8376,12 @@
   "date": "2026-11-18",
   "district": 0,
   "sindh": 0,
-  "pakistan": 2
+  "pakistan": 3
  },
  "report_acc": {
-  "posted": 0,
-  "found": 1,
-  "old": 1,
+  "posted": 1,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8432,8 +8434,8 @@
   "date": "2026-11-18",
   "count": 0,
   "last": 1794942088.524519,
-  "city_i": 24,
-  "dry": 1794949859.843391
+  "city_i": 6,
+  "dry": 1794950464.8966193
  },
  "gemini_day_dead": {
   "day": "2026-11-17",
@@ -9056,6 +9058,14 @@
    "t": 1794946041,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "4f7218567d2be4a7",
+   "h": "پچز نوجوان بولرز جي مدد ڪنديون",
+   "x": "قومی ڪرڪٽر عامر جمال جو چوڻ آهي ته تيز بالنگ لاءِ سازگار پچز سان پاڪستان جي نوجوان بولرز کي فائدو ملندو! بيان: قومی کرکٹر عامر جمال",
+   "t": 1794950539,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9069,20 +9079,6 @@
   "last": 1794916276.0124743
  },
  "tg_debug": [
-  {
-   "t": "11-17 23:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-17 23:16",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-17 23:20",
    "ok": true,
@@ -9344,6 +9340,20 @@
   },
   {
    "t": "11-18 02:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 02:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 02:27",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14154,6 +14164,39 @@
     "ڪرنٽ",
     "گذريل"
    ]
+  },
+  {
+   "t": 1794950539,
+   "h": "پچز نوجوان بولرز جي مدد ڪنديون",
+   "b": "قومی ڪرڪٽر عامر جمال جو چوڻ آهي ته تيز بالنگ لاءِ سازگار پچز سان پاڪستان جي نوجوان بولرز کي فائدو ملندو!",
+   "tt": [
+    "بولرز",
+    "مدد",
+    "نوجوان",
+    "پچز",
+    "ڪنديون"
+   ],
+   "bt": [
+    "اهي",
+    "بالنگ",
+    "بولرز",
+    "بيان",
+    "تيز",
+    "جمال",
+    "سازگار",
+    "عامر",
+    "فائدو",
+    "قومي",
+    "مدد",
+    "ملندو",
+    "نوجوان",
+    "پاڪستان",
+    "پچز",
+    "چوڻ",
+    "ڪرڪٹر",
+    "ڪرڪٽر",
+    "ڪنديون"
+   ]
   }
  ],
  "repeat_log": [
@@ -14327,6 +14370,5 @@
   "kawish_crosschecked": 0,
   "wrong_place": 0,
   "repeat": 3
- },
- "_dup": true
+ }
 }
