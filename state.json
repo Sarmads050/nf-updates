@@ -1,10 +1,5 @@
 {
  "seen": {
-  "20a35e63b3c4d8b0": 1794294667.8177958,
-  "f4e0ea8601dfdbf0": 1794294667.8177984,
-  "7088d8954f12eeea": 1794294667.8178003,
-  "3e98830b7fc5fb19": 1794294667.8178012,
-  "d91e663a1e6cb424": 1794294667.817803,
   "87fcbb3662cef2be": 1794295779.0630333,
   "6c19949aa6fd6fe3": 1794295779.0630355,
   "58262f69b7774558": 1794295799.7901597,
@@ -1413,7 +1408,8 @@
   "b266a345c8b0fa24": 1794899466.666898,
   "078b18c78e146003": 1794899466.6668994,
   "c15affc1bd67e6fb": 1794899466.6669002,
-  "90206425e8c6d2d5": 1794899466.666902
+  "90206425e8c6d2d5": 1794899466.666902,
+  "ec69c93f5b517564": 1794900054.2957642
  },
  "pending": {},
  "queue": [],
@@ -1434,6 +1430,15 @@
    "domain": "dawn.com",
    "source": "Dawn",
    "ts": 1794891877,
+   "local": false
+  },
+  {
+   "key": "ec69c93f5b517564",
+   "title": "SPSC Announces New Jobs",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RMl9IRDA1ZHVBV2FXdW5wb0Jzbjk0NmpGQ1ZuS2RrZXdpNXBpVWl0ZldSMGEzOXIxZ2xhX1kxTjE3T05rRXMwOWVFNzBXN3IxV1Q3U3JwRW5SbVJHYV9HWlNSaXV2U1FVMkt30gFwQVVfeXFMTWNISDdLczhsTnQ2U3lGc0FyS3ZwLVBPcDlaZEZoMlpUVnJqM2xKQUwwUkQ3am1wbjFjb0pUUjQ2YjB6SjJhNnJKakZ5YTRNU19HdVhBWWVxMUN0WkNhclhkMVJ6eUprbnJiVG9TdjRwQw?oc=5",
+   "domain": "propakistani.pk",
+   "source": "ProPakistani",
+   "ts": 1794898679,
    "local": false
   }
  ],
@@ -2177,17 +2182,17 @@
    },
    "wicket_posts": 5,
    "break_done": false,
-   "last_edit": 1794899796.791003,
+   "last_edit": 1794900358.5892894,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 12:16",
+  "time": "2026-11-17 12:25",
   "items": 8,
   "sample": [
-   "Afghanistan 181/6 & 217/10 * v Zimbabwe 339/10 & 295/9",
+   "Afghanistan 217/10 & 187/6 * v Zimbabwe 295/9 & 339/10",
    "South Africa 287/4 * v Bangladesh 400/10",
    "Pakistan v Sri Lanka 85/6 *"
   ]
@@ -7834,7 +7839,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 12:16",
+  "time": "2026-11-17 12:25",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -7985,14 +7990,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 2,
-   "fail": 74,
+   "fail": 75,
    "items": 10,
-   "fail_streak": 39,
+   "fail_streak": 40,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8000,7 +8005,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8008,7 +8013,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8016,7 +8021,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8024,14 +8029,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8040,9 +8045,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 76,
+   "fail": 77,
    "items": 15,
-   "fail_streak": 1895,
+   "fail_streak": 1896,
    "last_status": 404
   }
  },
@@ -9190,20 +9195,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-17 08:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-17 08:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-17 08:40",
    "ok": true,
    "n": 0,
@@ -9464,6 +9455,20 @@
   },
   {
    "t": "11-17 12:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 12:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 12:25",
    "ok": true,
    "n": 0,
    "ids": [],
