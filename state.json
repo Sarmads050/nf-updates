@@ -1414,7 +1414,10 @@
   "e06ff81b6e487382": 1794880297.5149674,
   "bf0d9dc4baf7ca24": 1794880297.514969,
   "8b4da31a890320ee": 1794880297.5149696,
-  "c25e15c9ba78aa5b": 1794880297.5151472
+  "c25e15c9ba78aa5b": 1794880297.5151472,
+  "9083dd3f89e15021": 1794882082.5403144,
+  "fad07848f7fab015": 1794882082.5403163,
+  "baed60c7017657f0": 1794882082.5405064
  },
  "pending": {},
  "queue": [],
@@ -1566,20 +1569,8 @@
    "8828edc846b7ce36"
   ]
  },
- "last_post_id": "1444130002106066_122121928239503839",
+ "last_post_id": "1444130002106066_122121931293503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122121649563503839",
-   "title": "ڄامشورو ۾ درزي جي دڪان تي معمولي ڳالهه تان قتل",
-   "t": 1794811280.6860867,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122121649563503839"
-  },
   {
    "id": "1444130002106066_122121667389503839",
    "title": "فرانس ۾ وڏو سائبر حملو، 2 ڪروڙ 20 لک ماڻهن جو ڊيٽا خطري ۾",
@@ -1901,6 +1892,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122121926895503839"
+  },
+  {
+   "id": "1444130002106066_122121931293503839",
+   "title": "موسميات کاتي موجب اڱاري تي ملڪ جي اڪثر علائقن ۾ موسم خشڪ جڏهن ته مٿين علائقن ۾ سرد رهندي",
+   "t": 1794882165.4707787,
+   "tags": [
+    "general",
+    "local"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122121931293503839"
   }
  ],
  "share_sent": {
@@ -2186,10 +2187,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 07:11",
+  "time": "2026-11-17 07:22",
   "items": 8,
   "sample": [
-   "Afghanistan 217/10 & 143/5 * v Zimbabwe 295/9 & 339/10",
+   "Afghanistan 143/5 & 217/10 * v Zimbabwe 339/10 & 295/9",
    "South Africa 287/4 * v Bangladesh 400/10",
    "Pakistan v Sri Lanka"
   ]
@@ -2201,17 +2202,11 @@
  },
  "all_posts": {
   "date": "2026-11-17",
-  "count": 9,
-  "last": 1794880928.330783
+  "count": 10,
+  "last": 1794882160.3011124
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122118098973503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793941410
-   },
    {
     "id": "1444130002106066_122118106677503839",
     "sec": "sindh_single",
@@ -4605,13 +4600,19 @@
     "sec": "public_news",
     "cat": "transport_trade",
     "t": 1794880380
+   },
+   {
+    "id": "1444130002106066_122121931293503839",
+    "sec": "public_news",
+    "cat": "weather_disaster",
+    "t": 1794882165
    }
   ]
  },
  "public_news": {
   "date": "2026-11-17",
-  "count": 3,
-  "last": 1794880380.3361878
+  "count": 4,
+  "last": 1794882165.470757
  },
  "trends": {
   "last": 1794878459.6975188,
@@ -7509,15 +7510,11 @@
  },
  "ai_usage": {
   "date": "2026-11-17",
-  "ok": 90,
-  "fail": 156,
-  "limit": 150
+  "ok": 98,
+  "fail": 170,
+  "limit": 164
  },
  "posted_heads": [
-  {
-   "h": "Lahore Again Tops World’s Most Polluted Cities List",
-   "t": 1794681124
-  },
   {
    "h": "Pakistan's trade costs surge as freight rates hit $9,000",
    "t": 1794688314
@@ -7833,10 +7830,14 @@
   {
    "h": "Dar, Araghchi discuss regional situation, Pakistan-Iran ties in Islamabad",
    "t": 1794880380
+  },
+  {
+   "h": "PMD Forecasts Dry Weather Across Most of Pakistan on Tuesday, With Cold Conditions in Upper Regions",
+   "t": 1794882165
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 07:11",
+  "time": "2026-11-17 07:22",
   "steps": []
  },
  "roundup_am": "2026-11-16",
@@ -7939,12 +7940,12 @@
  },
  "article_diag": {
   "date": "2026-11-17",
-  "tried": 15,
-  "decoded": 15,
-  "text": 14,
+  "tried": 16,
+  "decoded": 16,
+  "text": 15,
   "story": 13
  },
- "ai_last_error": "07:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "07:22 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-17",
   "models": [
@@ -7958,9 +7959,9 @@
  },
  "img_diag": {
   "date": "2026-11-17",
-  "tried": 9,
+  "tried": 10,
   "gemini": 0,
-  "pollinations": 4,
+  "pollinations": 5,
   "skip": 1,
   "fail": 1,
   "last_note": "modern agricultural machinery",
@@ -7987,14 +7988,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 2,
-   "fail": 43,
+   "fail": 44,
    "items": 10,
-   "fail_streak": 8,
+   "fail_streak": 9,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8002,7 +8003,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8010,7 +8011,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8018,7 +8019,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8026,14 +8027,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8042,9 +8043,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 45,
+   "fail": 46,
    "items": 15,
-   "fail_streak": 1864,
+   "fail_streak": 1865,
    "last_status": 404
   }
  },
@@ -8405,10 +8406,10 @@
   "date": "2026-11-17",
   "district": 0,
   "sindh": 1,
-  "pakistan": 7
+  "pakistan": 8
  },
  "report_acc": {
-  "posted": 0,
+  "posted": 1,
   "found": 0,
   "old": 0,
   "irrelevant": 0,
@@ -8462,8 +8463,8 @@
   "date": "2026-11-17",
   "count": 1,
   "last": 1794855695.1447184,
-  "city_i": 20,
-  "dry": 1794880287.734457
+  "city_i": 24,
+  "dry": 1794882076.1676774
  },
  "gemini_day_dead": {
   "day": "2026-11-16",
@@ -9142,6 +9143,14 @@
    "t": 1794880380,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "48cbd2263a2954bd",
+   "h": "اڱاري تي ملڪ جي اڪثر حصن ۾ خشڪ موسم جو امڪان",
+   "x": "موسميات کاتي موجب اڱاري تي ملڪ جي اڪثر علائقن ۾ موسم خشڪ جڏهن ته مٿين علائقن ۾ سرد رهندي.",
+   "t": 1794882165,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9155,13 +9164,6 @@
   "last": 1794838607.8465848
  },
  "tg_debug": [
-  {
-   "t": "11-17 00:52",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-17 00:57",
    "ok": true,
@@ -9434,60 +9436,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-17 07:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-17",
  "recent_posts": [
-  {
-   "t": 1794708147,
-   "h": "نوشهروفيروز جو اڄ | 15-11-2026",
-   "b": "5 جُمادى الآخرة 1448ھ نماز جا وقت: فجر 05:27 | ظهر 12:12 | عصر 16:01 مغرب 17:37 | عشا 18:57 سج اڀرڻ 06:47 اڄ",
-   "tt": [
-    "#11",
-    "#15",
-    "نوشهروفيروز"
-   ],
-   "bt": [
-    "#1",
-    "#11",
-    "#12",
-    "#1448",
-    "#15",
-    "#16",
-    "#17",
-    "#18",
-    "#19",
-    "#27",
-    "#32",
-    "#37",
-    "#47",
-    "#5",
-    "#57",
-    "#6",
-    "1448ه",
-    "الاخره",
-    "اوهان",
-    "اڀرڻ",
-    "جمادى",
-    "سٺو",
-    "سڀني",
-    "ظهر",
-    "عشا",
-    "عصر",
-    "فجر",
-    "مغرب",
-    "موسم",
-    "نماز",
-    "نوشهروفيروز",
-    "وقت",
-    "ڏينهن",
-    "ڪجهه",
-    "ڪڪر",
-    "گذري",
-    "گرمي",
-    "گهٽ"
-   ]
-  },
   {
    "t": 1794712234,
    "h": "صبح جون سنڌ جون اهم خبرون",
@@ -14313,6 +14272,36 @@
     "گرمي",
     "گهٽ"
    ]
+  },
+  {
+   "t": 1794882165,
+   "h": "اڱاري تي ملڪ جي اڪثر حصن ۾ خشڪ موسم جو امڪان",
+   "b": "موسميات کاتي موجب اڱاري تي ملڪ جي اڪثر علائقن ۾ موسم خشڪ جڏهن ته مٿين علائقن ۾ سرد رهندي.",
+   "tt": [
+    "امڪان",
+    "اڪثر",
+    "اڱاري",
+    "حصن",
+    "خشڪ",
+    "ملڪ",
+    "موسم"
+   ],
+   "bt": [
+    "امڪان",
+    "اڪثر",
+    "اڱاري",
+    "حصن",
+    "خشڪ",
+    "رهندي",
+    "سرد",
+    "علائقن",
+    "ملڪ",
+    "موجب",
+    "موسم",
+    "موسميات",
+    "مٿين",
+    "ڪاتي"
+   ]
   }
  ],
  "repeat_log": [
@@ -14480,7 +14469,7 @@
  },
  "quality": {
   "date": "2026-11-17",
-  "editor_fixed": 7,
+  "editor_fixed": 8,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
