@@ -1478,7 +1478,8 @@
   "8b19d6acffd0e821": 1794949868.85642,
   "89210c40a3a5b1d4": 1794949868.8565686,
   "c6ee744e619aefde": 1794950474.4864953,
-  "4a0e46a10b046746": 1794950474.4866955
+  "4a0e46a10b046746": 1794950474.4866955,
+  "e74a955cde3ff3a1": 1794953482.647635
  },
  "pending": {},
  "queue": [],
@@ -1643,18 +1644,8 @@
    "602df4a52b63d468"
   ]
  },
- "last_post_id": "1444130002106066_122122207623503839",
+ "last_post_id": "1444130002106066_122122214721503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122121931293503839",
-   "title": "موسميات کاتي موجب اڱاري تي ملڪ جي اڪثر علائقن ۾ موسم خشڪ جڏهن ته مٿين علائقن ۾ سرد رهندي",
-   "t": 1794882165.4707787,
-   "tags": [
-    "general",
-    "local"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122121931293503839"
-  },
   {
    "id": "1444130002106066_122121962931503839",
    "title": "وزير اعظم ضلعي سطح تي ايس ايم اي سهولتي مرڪزن ۽ 300 ارب رپين جي برآمدي ماليات جي منظوري",
@@ -1967,6 +1958,16 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122122207623503839"
+  },
+  {
+   "id": "1444130002106066_122122214721503839",
+   "title": "پنجاب پيرا سرڪاري اگهن کان وڌيڪ اگهه وصول ڪندڙ کھاد جون دڪانن خلاف ڪارروائي ڪندي ڏنڊ عائد",
+   "t": 1794953636.2528715,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122122214721503839"
   }
  ],
  "share_sent": {
@@ -2249,14 +2250,14 @@
    },
    "wicket_posts": 10,
    "break_done": true,
-   "last_edit": 1794953175.6845753,
+   "last_edit": 1794953942.1435332,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 03:06",
+  "time": "2026-11-18 03:19",
   "items": 30,
   "sample": [
    "South Africa 386/7 * v Bangladesh 400/10",
@@ -2266,22 +2267,16 @@
  },
  "agri_news": {
   "date": "2026-11-18",
-  "count": 0,
-  "last": 1794876864.7763035
+  "count": 1,
+  "last": 1794953636.2528527
  },
  "all_posts": {
   "date": "2026-11-18",
-  "count": 3,
-  "last": 1794950534.5999029
+  "count": 4,
+  "last": 1794953631.51456
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122118318021503839",
-    "sec": "agri_news",
-    "cat": "agri_news",
-    "t": 1793997861
-   },
    {
     "id": "1444130002106066_122118325617503839",
     "sec": "public_news",
@@ -4675,6 +4670,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1794950539
+   },
+   {
+    "id": "1444130002106066_122122214721503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1794953636
    }
   ]
  },
@@ -7651,15 +7652,11 @@
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 46,
-  "fail": 83,
-  "limit": 82
+  "ok": 56,
+  "fail": 98,
+  "limit": 96
  },
  "posted_heads": [
-  {
-   "h": "Gujar Khan Agriculture Department registers FIRs over counterfeit fertilizer sales",
-   "t": 1794751360
-  },
   {
    "h": "Dry Weather Expected Across Most of Sindh, PMD Says",
    "t": 1794753113
@@ -7975,10 +7972,14 @@
   {
    "h": "Aamir Jamal Says Pace-Friendly Pitches Will Help Pakistan’s Young Bowlers",
    "t": 1794950539
+  },
+  {
+   "h": "Punjab PERA Fines Fertilizer Dealers for Charging Above Official Rates",
+   "t": 1794953636
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 03:06",
+  "time": "2026-11-18 03:19",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -8081,12 +8082,12 @@
  },
  "article_diag": {
   "date": "2026-11-18",
-  "tried": 7,
-  "decoded": 7,
-  "text": 7,
+  "tried": 8,
+  "decoded": 8,
+  "text": 8,
   "story": 6
  },
- "ai_last_error": "02:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "03:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8100,13 +8101,13 @@
  },
  "img_diag": {
   "date": "2026-11-18",
-  "tried": 3,
+  "tried": 4,
   "gemini": 0,
-  "pollinations": 2,
+  "pollinations": 3,
   "skip": 0,
   "fail": 0,
-  "last_note": "Pakistani currency notes",
-  "mismatch": 723,
+  "last_note": "fertilizer sacks and scales",
+  "mismatch": 725,
   "unverified": 1
  },
  "gemini_img": {
@@ -8128,7 +8129,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
-   "ok": 19,
+   "ok": 20,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8136,7 +8137,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8144,7 +8145,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8152,7 +8153,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8160,7 +8161,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8168,14 +8169,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8184,9 +8185,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 20,
+   "fail": 21,
    "items": 15,
-   "fail_streak": 1986,
+   "fail_streak": 1987,
    "last_status": 404
   }
  },
@@ -8371,12 +8372,12 @@
   "date": "2026-11-18",
   "district": 0,
   "sindh": 0,
-  "pakistan": 3
+  "pakistan": 4
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 1,
+  "old": 1,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8429,8 +8430,8 @@
   "date": "2026-11-18",
   "count": 0,
   "last": 1794942088.524519,
-  "city_i": 6,
-  "dry": 1794950464.8966193
+  "city_i": 10,
+  "dry": 1794953472.6092477
  },
  "gemini_day_dead": {
   "day": "2026-11-17",
@@ -9061,6 +9062,14 @@
    "t": 1794950539,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "65ae526e9704bf91",
+   "h": "پنجاب ۾ سرڪاري اگهه کان وڌيڪ اگهه وصول ڪندڙن تي ڏنڊ",
+   "x": "پنجاب ۾ سرڪاري اگهه کان وڌيڪ اگهه وصول ڪندڙ کھاد جي دڪانن خلاف ڪارروائي ڪندي ڏنڊ عائد ڪيو ويو آهي.",
+   "t": 1794953636,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9074,20 +9083,6 @@
   "last": 1794916276.0124743
  },
  "tg_debug": [
-  {
-   "t": "11-18 00:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 00:08",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-18 00:10",
    "ok": true,
@@ -9349,6 +9344,20 @@
   },
   {
    "t": "11-18 03:06",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 03:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 03:19",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14192,6 +14201,39 @@
     "ڪرڪٽر",
     "ڪنديون"
    ]
+  },
+  {
+   "t": 1794953636,
+   "h": "پنجاب ۾ سرڪاري اگهه کان وڌيڪ اگهه وصول ڪندڙن تي ڏنڊ",
+   "b": "پنجاب ۾ سرڪاري اگهه کان وڌيڪ اگهه وصول ڪندڙ کھاد جي دڪانن خلاف ڪارروائي ڪندي ڏنڊ عائد ڪيو ويو آهي.",
+   "tt": [
+    "اگهه",
+    "سرڪاري",
+    "وصول",
+    "وڌيڪ",
+    "پنجاب",
+    "ڏنڊ",
+    "ڪان",
+    "ڪندڙن"
+   ],
+   "bt": [
+    "اهي",
+    "اگهه",
+    "خلاف",
+    "دڪانن",
+    "سرڪاري",
+    "عائد",
+    "وصول",
+    "وڌيڪ",
+    "پنجاب",
+    "ڏنڊ",
+    "ڪارروائي",
+    "ڪان",
+    "ڪندي",
+    "ڪندڙ",
+    "ڪندڙن",
+    "ڪهاد"
+   ]
   }
  ],
  "repeat_log": [
@@ -14359,7 +14401,7 @@
  },
  "quality": {
   "date": "2026-11-18",
-  "editor_fixed": 2,
+  "editor_fixed": 3,
   "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
