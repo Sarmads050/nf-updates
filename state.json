@@ -2251,14 +2251,14 @@
    },
    "wicket_posts": 10,
    "break_done": true,
-   "last_edit": 1794939363.4322798,
+   "last_edit": 1794944773.0706255,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 00:36",
+  "time": "2026-11-18 00:46",
   "items": 27,
   "sample": [
    "Afghanistan 217/10 & 360/10 * v Zimbabwe 295/9 & 339/10",
@@ -4686,40 +4686,8 @@
   "last": 1794923120.6129694
  },
  "trends": {
-  "last": 1794933654.8953257,
+  "last": 1794944459.5902479,
   "terms": [
-   {
-    "term": "real madrid vs paris fc",
-    "traffic": 200,
-    "news": "Preview: Real Madrid Femenino vs Paris Women - prediction, team news, lineups",
-    "t": 1794333666,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "atonement",
-    "traffic": 100,
-    "news": "Keira Knightley’s unforgettable green ‘Atonement’ dress is going up for sale",
-    "t": 1794333666,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "love in disguise ep 8",
-    "traffic": 100,
-    "news": "Yim Si Wan And Seol In Ah Get Swept Up In An Unexpected Scandal In \"Love In Disguise\"",
-    "t": 1794333666,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "single day",
-    "traffic": 200,
-    "news": "Alo is celebrating Singles Day with 30% off sitewide — the 15 best deals to shop ahead of Black Friday",
-    "t": 1794333666,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "zero",
     "traffic": 100,
@@ -7631,15 +7599,63 @@
     "t": 1794933655,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "wales vs portugal",
+    "traffic": 2000,
+    "news": "UEFA Nations League Matchday 6 preview: Portugal at Wales, Denmark host Norway",
+    "t": 1794944460,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "denmark vs norway",
+    "traffic": 1000,
+    "news": "'We have our own goal machine' - Brian Riemer warns Erling Haaland and Norway as Denmark prepare for Nations League showdown",
+    "t": 1794944460,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "imran khan pakistan",
+    "traffic": 500,
+    "news": "Pakistan's imprisoned ex-leader Imran Khan appeals for urgent medical care",
+    "t": 1794944460,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "viral videos",
+    "traffic": 500,
+    "news": "'Pterodactyl' spotted flying over border as bizarre footage sparks 'Jurassic Park' panic",
+    "t": 1794944460,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "icloud login",
+    "traffic": 100,
+    "news": "Apple Services See Spike in User Issue Reports on Downdetector",
+    "t": 1794944460,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "togo vs algeria",
+    "traffic": 200,
+    "news": "Cruzeiro EC MG vs SE Palmeiras SP: Correct Score",
+    "t": 1794944460,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 19,
-  "fail": 36,
-  "limit": 36
+  "ok": 20,
+  "fail": 38,
+  "limit": 38
  },
  "posted_heads": [
   {
@@ -7964,7 +7980,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 00:36",
+  "time": "2026-11-18 00:46",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -8072,7 +8088,7 @@
   "text": 4,
   "story": 4
  },
- "ai_last_error": "00:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "00:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8115,14 +8131,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
    "ok": 4,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
-   "last_status": 200
+   "fail_streak": 1,
+   "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 4,
+   "ok": 5,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8130,7 +8146,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 4,
+   "ok": 5,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8138,7 +8154,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 4,
+   "ok": 5,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8146,7 +8162,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 4,
+   "ok": 5,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8154,14 +8170,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 4,
+   "ok": 5,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 4,
+   "ok": 5,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8170,9 +8186,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 4,
+   "fail": 5,
    "items": 15,
-   "fail_streak": 1970,
+   "fail_streak": 1971,
    "last_status": 404
   }
  },
@@ -8361,8 +8377,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9061,20 +9077,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-17 21:23",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-17 21:29",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-17 21:30",
    "ok": true,
    "n": 0,
@@ -9335,6 +9337,20 @@
   },
   {
    "t": "11-18 00:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 00:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 00:46",
    "ok": true,
    "n": 0,
    "ids": [],
