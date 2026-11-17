@@ -1575,20 +1575,8 @@
    "602df4a52b63d468"
   ]
  },
- "last_post_id": "1444130002106066_122122070841503839",
+ "last_post_id": "1444130002106066_122122074195503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122121787149503839",
-   "title": "بشريٰ بيبي جي علاج لاءِ اسلام آباد هاءِ ڪورٽ ۾ درخواست",
-   "t": 1794840262.2550106,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122121787149503839"
-  },
   {
    "id": "1444130002106066_122121793449503839",
    "title": "ايس پي ايس سي جي ڀرتين ۾ بي ضابطگيون ثابت، 3 آفيسر برطرف",
@@ -1897,6 +1885,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122122070721503839"
+  },
+  {
+   "id": "1444130002106066_122122074195503839",
+   "title": "حيدرآباد ۾ نوجوان نياڻي جو قتل",
+   "t": 1794916276.012522,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122122074195503839"
   }
  ],
  "share_sent": {
@@ -2179,17 +2179,17 @@
    },
    "wicket_posts": 10,
    "break_done": true,
-   "last_edit": 1794915957.2989604,
+   "last_edit": 1794916580.8813891,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 16:45",
+  "time": "2026-11-17 16:56",
   "items": 8,
   "sample": [
-   "Afghanistan 302/8 & 217/10 * v Zimbabwe 339/10 & 295/9",
+   "Afghanistan 217/10 & 306/8 * v Zimbabwe 295/9 & 339/10",
    "South Africa 386/7 * v Bangladesh 400/10",
    "Pakistan 121/3 * v Sri Lanka 98/10"
   ]
@@ -2201,17 +2201,11 @@
  },
  "all_posts": {
   "date": "2026-11-17",
-  "count": 41,
-  "last": 1794915158.6377678
+  "count": 42,
+  "last": 1794916264.8859499
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122118230805503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1793974308
-   },
    {
     "id": "1444130002106066_122118234927503839",
     "sec": "sindh_stream",
@@ -4605,6 +4599,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1794915153
+   },
+   {
+    "id": "1444130002106066_122122074195503839",
+    "sec": "kawish",
+    "cat": "sindh",
+    "t": 1794916276
    }
   ]
  },
@@ -7501,9 +7501,9 @@
  },
  "ai_usage": {
   "date": "2026-11-17",
-  "ok": 242,
-  "fail": 377,
-  "limit": 363
+  "ok": 244,
+  "fail": 379,
+  "limit": 365
  },
  "posted_heads": [
   {
@@ -7825,10 +7825,14 @@
   {
    "h": "نظام تباھ ناھي ٿيو، تباھ ڪرايو ويو آھي، ري سيٽ غير سياسي نہ سياسي ٿيڻ گھرجي: بلاول",
    "t": 1794915154
+  },
+  {
+   "h": "حيدرآباد ۾ نوجوان نياڻي جو قتل",
+   "t": 1794916276
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 16:45",
+  "time": "2026-11-17 16:56",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -7936,7 +7940,7 @@
   "text": 20,
   "story": 18
  },
- "ai_last_error": "16:32 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "16:50 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-17",
   "models": [
@@ -7950,10 +7954,10 @@
  },
  "img_diag": {
   "date": "2026-11-17",
-  "tried": 29,
+  "tried": 30,
   "gemini": 0,
   "pollinations": 15,
-  "skip": 8,
+  "skip": 9,
   "fail": 1,
   "last_note": "currency notes and calculator",
   "mismatch": 714,
@@ -7979,14 +7983,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 3,
-   "fail": 101,
+   "fail": 102,
    "items": 10,
-   "fail_streak": 13,
+   "fail_streak": 14,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 104,
+   "ok": 105,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7994,7 +7998,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 104,
+   "ok": 105,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8002,7 +8006,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 104,
+   "ok": 105,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8010,7 +8014,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 104,
+   "ok": 105,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8018,14 +8022,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 104,
+   "ok": 105,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 103,
+   "ok": 104,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8034,9 +8038,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 104,
+   "fail": 105,
    "items": 15,
-   "fail_streak": 1923,
+   "fail_streak": 1924,
    "last_status": 404
   }
  },
@@ -8044,7 +8048,7 @@
   "last": "2026-11-13",
   "idx": 4
  },
- "ai_last_model": "google/gemma-4-26b-a4b-it:free",
+ "ai_last_model": "google/gemma-4-31b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8220,13 +8224,13 @@
  "region_posts": {
   "date": "2026-11-17",
   "district": 1,
-  "sindh": 16,
+  "sindh": 17,
   "pakistan": 11
  },
  "report_acc": {
-  "posted": 2,
-  "found": 4,
-  "old": 4,
+  "posted": 3,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8966,6 +8970,14 @@
    "t": 1794915153,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "29b48f8e525d3226",
+   "h": "حيدرآباد ۾ نوجوان نياڻي جو قتل",
+   "x": "حيدرآباد ۾ سائيت ٿاڻي جي حد ۾ هڪ نوجوان نياڻي کي گولي هڻي قتل ڪيو ويو آهي. پوليس موجب جوابدار گهر ۾ گھڙي فائرنگ ڪئي جنهن جي نتيجي ۾ نياڻي موقعي تي فوت ٿي وئي. پوليس لاش تحويل ۾ وٺي اسپتال منتقل ڪيو ۽ واقعي جي جاچ شروع ڪري ڇڏي آهي. مقتولا جي وارثن انصاف جو مطالبو ڪيو آهي.",
+   "t": 1794916276,
+   "s": true,
+   "r": 0
   }
  ],
  "reels": {
@@ -8979,44 +8991,13 @@
    "15:30"
   ]
  },
- "kawish_queue": [
-  {
-   "key": "29b48f8e525d3226",
-   "page": 1,
-   "head": "حيدرآباد ۾ نوجوان نياڻي جو قتل",
-   "summary": "حيدرآباد ۾ سائيت ٿاڻي جي حد ۾ هڪ نوجوان نياڻي کي گولي هڻي قتل ڪيو ويو آهي. پوليس موجب جوابدار گهر ۾ گھڙي فائرنگ ڪئي جنهن جي نتيجي ۾ نياڻي موقعي تي ئي فوت ٿي وئي. پوليس لاش تحويل ۾ وٺي اسپتال منتقل ڪيو ۽ واقعي جي جاچ شروع ڪري ڇڏي آهي. مقتولا جي وارثن انصاف جو مطالبو ڪيو آهي.",
-   "card": "حيدرآباد جي سائيت ٿاڻي جي حد ۾ گهر اندر فائرنگ ڪري نوجوان نياڻي کي قتل ڪيو ويو، پوليس لاش اسپتال منتقل ڪري جاچ شروع ڪري ڇڏي.",
-   "printed": "حيدرآباد ۾ نوجوان نياڻي جو قتل حيدرآباد (رپورٽ)",
-   "search_en": "Hyderabad girl murdered firing",
-   "search_ur": "حیدرآباد لڑکی قتل فائرنگ",
-   "district": false,
-   "sensitive": true,
-   "confidence": "high",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-11-17&pageno=1",
-   "message": "📰 حيدرآباد ۾ نوجوان نياڻي جو قتل\n\nحيدرآباد ۾ سائيت ٿاڻي جي حد ۾ هڪ نوجوان نياڻي کي گولي هڻي قتل ڪيو ويو آهي. پوليس موجب جوابدار گهر ۾ گھڙي فائرنگ ڪئي جنهن جي نتيجي ۾ نياڻي موقعي تي ئي فوت ٿي وئي. پوليس لاش تحويل ۾ وٺي اسپتال منتقل ڪيو ۽ واقعي جي جاچ شروع ڪري ڇڏي آهي. مقتولا جي وارثن انصاف جو مطالبو ڪيو آهي!\n\n📌 ذريعو: روزاني ڪاوش (صفحو 1)\n\n📲 Naushahro Feroze Updates | نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFerozeUpdates #NaushahroFeroze #NausheroFeroz #Padidan #نوشهروفيروز #نوشہروفیروز #پڊعيدن",
-   "added_day": "2026-11-17"
-  }
- ],
+ "kawish_queue": [],
  "kawish_post": {
   "date": "2026-11-17",
-  "count": 0,
-  "last": 1794838607.8465848
+  "count": 1,
+  "last": 1794916276.0124743
  },
  "tg_debug": [
-  {
-   "t": "11-17 13:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-17 13:46",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-17 13:50",
    "ok": true,
@@ -9278,6 +9259,20 @@
   },
   {
    "t": "11-17 16:45",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 16:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 16:56",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14193,6 +14188,50 @@
     "پاڪستان",
     "پيون"
    ]
+  },
+  {
+   "t": 1794916276,
+   "h": "حيدرآباد ۾ نوجوان نياڻي جو قتل",
+   "b": "حيدرآباد ۾ سائيت ٿاڻي جي حد ۾ هڪ نوجوان نياڻي کي گولي هڻي قتل ڪيو ويو آهي. پوليس موجب جوابدار گهر ۾ گھڙي",
+   "tt": [
+    "حيدراباد",
+    "قتل",
+    "نوجوان",
+    "نياڻي"
+   ],
+   "bt": [
+    "اسپتال",
+    "انصاف",
+    "اهي",
+    "تحويل",
+    "جاچ",
+    "جوابدار",
+    "حيدراباد",
+    "سائيت",
+    "شروع",
+    "فائرنگ",
+    "فوت",
+    "قتل",
+    "لاش",
+    "مطالبو",
+    "مقتولا",
+    "منتقل",
+    "موجب",
+    "موقعي",
+    "نتيجي",
+    "نوجوان",
+    "نياڻي",
+    "هڻي",
+    "وارثن",
+    "واقعي",
+    "وٺي",
+    "پوليس",
+    "ٿاڻي",
+    "ڇڏي",
+    "گهر",
+    "گهڙي",
+    "گولي"
+   ]
   }
  ],
  "repeat_log": [
@@ -14360,7 +14399,7 @@
  },
  "quality": {
   "date": "2026-11-17",
-  "editor_fixed": 24,
+  "editor_fixed": 25,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
