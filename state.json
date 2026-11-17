@@ -1,7 +1,5 @@
 {
  "seen": {
-  "427483dab3ca4c18": 1794273670.6543,
-  "03ff6f6b74bceb1c": 1794273670.6545064,
   "5ca1c2dc8061c78d": 1794275469.9822385,
   "23ffe73c06934ba8": 1794275477.7049813,
   "9e7ed50f22b683e4": 1794275477.7051191,
@@ -1410,7 +1408,10 @@
   "92e0c18d0da0fb2d": 1794876701.477906,
   "9af85040a3e4a364": 1794878477.9099169,
   "15e3d1e123a38bfa": 1794878477.9099197,
-  "ac23eb3d8735d8fc": 1794878477.910073
+  "ac23eb3d8735d8fc": 1794878477.910073,
+  "b03f73058d55dcfd": 1794879085.485525,
+  "f3347fdaf7de34cc": 1794879085.485528,
+  "4615d5bef4b9cacc": 1794879085.485715
  },
  "pending": {},
  "queue": [],
@@ -2185,10 +2186,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 06:21",
+  "time": "2026-11-17 06:32",
   "items": 8,
   "sample": [
-   "Afghanistan 217/10 & 143/5 * v Zimbabwe 339/10 & 295/9",
+   "Afghanistan 143/5 & 217/10 * v Zimbabwe 339/10 & 295/9",
    "South Africa 287/4 * v Bangladesh 400/10",
    "Pakistan v Sri Lanka"
   ]
@@ -7508,9 +7509,9 @@
  },
  "ai_usage": {
   "date": "2026-11-17",
-  "ok": 75,
-  "fail": 130,
-  "limit": 124
+  "ok": 79,
+  "fail": 138,
+  "limit": 132
  },
  "posted_heads": [
   {
@@ -7835,7 +7836,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 06:21",
+  "time": "2026-11-17 06:32",
   "steps": []
  },
  "roundup_am": "2026-11-16",
@@ -7938,12 +7939,12 @@
  },
  "article_diag": {
   "date": "2026-11-17",
-  "tried": 12,
-  "decoded": 12,
-  "text": 11,
-  "story": 10
+  "tried": 13,
+  "decoded": 13,
+  "text": 12,
+  "story": 11
  },
- "ai_last_error": "06:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-17",
   "models": [
@@ -7986,14 +7987,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 2,
-   "fail": 38,
+   "fail": 39,
    "items": 10,
-   "fail_streak": 3,
+   "fail_streak": 4,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8001,7 +8002,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8009,7 +8010,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8017,7 +8018,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8025,14 +8026,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8041,9 +8042,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 40,
+   "fail": 41,
    "items": 15,
-   "fail_streak": 1859,
+   "fail_streak": 1860,
    "last_status": 404
   }
  },
@@ -8461,8 +8462,8 @@
   "date": "2026-11-17",
   "count": 1,
   "last": 1794855695.1447184,
-  "city_i": 8,
-  "dry": 1794878471.9578526
+  "city_i": 12,
+  "dry": 1794879075.2767556
  },
  "gemini_day_dead": {
   "day": "2026-11-16",
@@ -9147,13 +9148,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-17 00:36",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-17 00:40",
    "ok": true,
    "n": 0,
@@ -9421,6 +9415,13 @@
   },
   {
    "t": "11-17 06:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 06:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14210,11 +14211,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-14 06:21",
-   "new": "پاڪستان ۽ سری لنڪا وچ ۾ ٽيسٽ ميچ ڊرا",
-   "old": "پاڪستان ۽ سری لنڪا وچ ۾ ٽيسٽ ميچ ڊرا ٿي وئي"
-  },
-  {
    "t": "11-14 06:31",
    "new": "پنجاب ۾ ڪڻڪ جي پوکيءَ جو هدف حاصل",
    "old": "پنجاب ۾ ڪڻڪ جي پوک جو هدف"
@@ -14358,6 +14354,11 @@
    "t": "11-17 06:21",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽتائي",
    "old": "پيٽرول ۽ ڊيزل اگهن ۾ گهٽتائي"
+  },
+  {
+   "t": "11-17 06:31",
+   "new": "مهانگائي وچولي حد کان وڌيڪ رهڻ جو امڪان",
+   "old": "مهانگائي جي شرح بابت اسٽيٽ بئنڪ جي خوشخبري"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14378,7 +14379,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 5
+  "repeat": 6
  },
  "_dup": true
 }
