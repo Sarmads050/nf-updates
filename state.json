@@ -1411,7 +1411,9 @@
   "63d688bc92854246": 1794907266.4650202,
   "532e513e9e51fd16": 1794907901.2851348,
   "ed86200a4cfc1625": 1794907901.285138,
-  "194392bcda2b614f": 1794909078.526247
+  "194392bcda2b614f": 1794909078.526247,
+  "62ae6a47a78e6171": 1794910274.7160554,
+  "60ce34dbdee99ab3": 1794910274.7160587
  },
  "pending": {},
  "queue": [],
@@ -2181,19 +2183,19 @@
    },
    "wicket_posts": 8,
    "break_done": true,
-   "last_edit": 1794909981.8284087,
+   "last_edit": 1794910581.1456597,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 15:06",
+  "time": "2026-11-17 15:16",
   "items": 8,
   "sample": [
-   "Afghanistan 217/10 & 245/6 * v Zimbabwe 295/9 & 339/10",
+   "Afghanistan 217/10 & 249/6 * v Zimbabwe 295/9 & 339/10",
    "South Africa 386/7 * v Bangladesh 400/10",
-   "Pakistan 58 * v Sri Lanka 98/10"
+   "Pakistan 73 * v Sri Lanka 98/10"
   ]
  },
  "agri_news": {
@@ -7503,9 +7505,9 @@
  },
  "ai_usage": {
   "date": "2026-11-17",
-  "ok": 196,
-  "fail": 329,
-  "limit": 316
+  "ok": 198,
+  "fail": 331,
+  "limit": 319
  },
  "posted_heads": [
   {
@@ -7830,7 +7832,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 15:06",
+  "time": "2026-11-17 15:16",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -7938,7 +7940,7 @@
   "text": 19,
   "story": 17
  },
- "ai_last_error": "14:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "15:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-17",
   "models": [
@@ -7981,14 +7983,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 3,
-   "fail": 90,
+   "fail": 91,
    "items": 10,
-   "fail_streak": 2,
+   "fail_streak": 3,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -7996,7 +7998,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8004,7 +8006,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8012,7 +8014,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8020,14 +8022,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 92,
+   "ok": 93,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8036,9 +8038,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 93,
+   "fail": 94,
    "items": 15,
-   "fail_streak": 1912,
+   "fail_streak": 1913,
    "last_status": 404
   }
  },
@@ -8046,7 +8048,7 @@
   "last": "2026-11-13",
   "idx": 4
  },
- "ai_last_model": "google/gemma-4-31b-it:free",
+ "ai_last_model": "google/gemma-4-26b-a4b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8403,8 +8405,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 1,
+  "old": 1,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8455,8 +8457,8 @@
  "sindh_stream": {
   "date": "2026-11-17",
   "count": 11,
-  "last": 1794909066.320236,
-  "city_i": 10,
+  "last": 1794910263.5641437,
+  "city_i": 14,
   "dry": 1794902510.8717575
  },
  "gemini_day_dead": {
@@ -9188,20 +9190,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-17 11:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-17 11:56",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-17 12:00",
    "ok": true,
    "n": 0,
@@ -9462,6 +9450,20 @@
   },
   {
    "t": "11-17 15:06",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 15:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 15:16",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14449,11 +14451,6 @@
  "repeat_log": [
   {
    "t": "11-14 12:31",
-   "new": "پاڪستان آءِ ايم ايف جون چئن مان ٽي شرطون پوريون ڪري ورتيون",
-   "old": "حڪومت پاران آءِ ايم ايف جون شرطون پوريون"
-  },
-  {
-   "t": "11-14 12:31",
    "new": "پاڪستان ۾ سون جي اگهن ۾ تبديلي",
    "old": "سنڌ ۾ ٿرڊ پارٽي موٽر انشورنس پاليسين جو انگ 4 لک 52 هزار کان وڌي ويو"
   },
@@ -14596,6 +14593,11 @@
    "t": "11-17 10:21",
    "new": "شان ڊيٽز پاڪستان عورتن جي ڪرڪيٽ ٽيم جو ڪوچ مقرر",
    "old": "شين ڊيٽز پاڪستان عورتن جي ڪرڪيٽ ٽيم جو ڪوچ مقرر"
+  },
+  {
+   "t": "11-17 15:11",
+   "new": "ملير ۾ تيل چوري نيٽ ورڪ خلاف وڌيڪ گرفتاريون جو حڪم",
+   "old": "ڪراچي: گڏاپ ۾ سرنگهه ذريعي پارڪو لائين مان تيل چوري"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14616,6 +14618,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 10
- }
+  "repeat": 11
+ },
+ "_dup": true
 }
