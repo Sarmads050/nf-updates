@@ -1,16 +1,5 @@
 {
  "seen": {
-  "2e416161c97fbe4f": 1794316877.7160373,
-  "c145a3f74e1b50fe": 1794316877.7160394,
-  "9cdecdb2a5105097": 1794316877.7160404,
-  "378083e6293e5337": 1794316877.7160416,
-  "be1b86331f1cdda5": 1794316877.716042,
-  "de5f248f82a7d556": 1794316877.716043,
-  "42455eea19028edd": 1794316877.716044,
-  "df64f489dc5ed7a7": 1794316877.7160444,
-  "a29b83d753f79fb9": 1794316877.7160454,
-  "e7ab9e976a863740": 1794316877.716046,
-  "af662a97dc86bbaf": 1794316877.7160475,
   "1a7eae6ac57296c6": 1794318671.8914962,
   "b579c916c32b6bb7": 1794318671.8914983,
   "689cac462f90f67b": 1794318671.8914995,
@@ -1454,7 +1443,9 @@
   "f8122193606edd40": 1794921088.9253502,
   "ae6c4626d37dae8f": 1794921088.9253511,
   "d780945a9effd295": 1794921088.925352,
-  "acfa28f2f844bcc8": 1794921088.9254892
+  "acfa28f2f844bcc8": 1794921088.9254892,
+  "b78f2e2e2faabbeb": 1794922301.491751,
+  "d483bcf2f833499e": 1794922301.4917538
  },
  "pending": {},
  "queue": [],
@@ -1555,7 +1546,7 @@
  "sindh_single": {
   "date": "2026-11-17",
   "count": 3,
-  "last": 1794912798.8182306,
+  "last": 1794922314.354683,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2220,14 +2211,14 @@
    },
    "wicket_posts": 10,
    "break_done": true,
-   "last_edit": 1794921963.7016535,
+   "last_edit": 1794922621.166807,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-17 18:26",
+  "time": "2026-11-17 18:37",
   "items": 9,
   "sample": [
    "Afghanistan 217/10 & 360/10 * v Zimbabwe 339/10 & 295/9",
@@ -7542,9 +7533,9 @@
  },
  "ai_usage": {
   "date": "2026-11-17",
-  "ok": 288,
-  "fail": 450,
-  "limit": 436
+  "ok": 290,
+  "fail": 454,
+  "limit": 440
  },
  "posted_heads": [
   {
@@ -7869,7 +7860,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-17 18:26",
+  "time": "2026-11-17 18:37",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -7977,7 +7968,7 @@
   "text": 26,
   "story": 22
  },
- "ai_last_error": "18:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-17",
   "models": [
@@ -8020,14 +8011,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-17",
    "ok": 3,
-   "fail": 111,
+   "fail": 112,
    "items": 10,
-   "fail_streak": 23,
+   "fail_streak": 24,
    "last_status": 0
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-17",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8035,7 +8026,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-17",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8043,7 +8034,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8051,7 +8042,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8059,14 +8050,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-17",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-17",
-   "ok": 112,
+   "ok": 113,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8075,9 +8066,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-17",
    "ok": 0,
-   "fail": 114,
+   "fail": 115,
    "items": 15,
-   "fail_streak": 1933,
+   "fail_streak": 1934,
    "last_status": 404
   }
  },
@@ -8266,8 +8257,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 2,
-  "old": 2,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8319,8 +8310,8 @@
   "date": "2026-11-17",
   "count": 14,
   "last": 1794918072.2235436,
-  "city_i": 24,
-  "dry": 1794921078.560563
+  "city_i": 6,
+  "dry": 1794922285.1744912
  },
  "gemini_day_dead": {
   "day": "2026-11-17",
@@ -9018,7 +9009,8 @@
    "12:30",
    "14:00",
    "15:30",
-   "17:00"
+   "17:00",
+   "18:30"
   ]
  },
  "kawish_queue": [],
@@ -9028,20 +9020,6 @@
   "last": 1794916276.0124743
  },
  "tg_debug": [
-  {
-   "t": "11-17 15:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-17 15:26",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-17 15:30",
    "ok": true,
@@ -9303,6 +9281,20 @@
   },
   {
    "t": "11-17 18:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 18:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-17 18:36",
    "ok": true,
    "n": 0,
    "ids": [],
