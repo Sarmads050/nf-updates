@@ -1439,7 +1439,12 @@
   "60b73ac1d905c0ca": 1794961284.8213336,
   "08f44a098b63501c": 1794963680.2166207,
   "de691deb0b9c50f1": 1794963684.3094811,
-  "44331e78aac8f95f": 1794963684.3096213
+  "44331e78aac8f95f": 1794963684.3096213,
+  "bd39e963874cf5ec": 1794965475.6637652,
+  "b4ef202f64029324": 1794965475.6637676,
+  "f24def9aeece9863": 1794965486.1841142,
+  "a4399fd7db965b80": 1794965486.184116,
+  "20c69b1f5915b8eb": 1794965486.1843185
  },
  "pending": {},
  "queue": [],
@@ -2207,14 +2212,14 @@
    },
    "wicket_posts": 10,
    "break_done": true,
-   "last_edit": 1794965161.9453168,
+   "last_edit": 1794965805.350734,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 06:26",
+  "time": "2026-11-18 06:36",
   "items": 29,
   "sample": [
    "South Africa 386/7 * v Bangladesh 400/10",
@@ -7649,9 +7654,9 @@
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 87,
-  "fail": 148,
-  "limit": 144
+  "ok": 93,
+  "fail": 160,
+  "limit": 156
  },
  "posted_heads": [
   {
@@ -7976,7 +7981,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 06:26",
+  "time": "2026-11-18 06:36",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -8079,12 +8084,12 @@
  },
  "article_diag": {
   "date": "2026-11-18",
-  "tried": 12,
-  "decoded": 12,
-  "text": 12,
+  "tried": 13,
+  "decoded": 13,
+  "text": 13,
   "story": 9
  },
- "ai_last_error": "06:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8126,7 +8131,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
-   "ok": 37,
+   "ok": 38,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8134,7 +8139,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8142,7 +8147,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8150,7 +8155,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8158,7 +8163,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8166,14 +8171,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8182,9 +8187,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 40,
+   "fail": 41,
    "items": 15,
-   "fail_streak": 2006,
+   "fail_streak": 2007,
    "last_status": 404
   }
  },
@@ -8373,8 +8378,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8427,8 +8432,8 @@
   "date": "2026-11-18",
   "count": 0,
   "last": 1794942088.524519,
-  "city_i": 12,
-  "dry": 1794963671.438934
+  "city_i": 16,
+  "dry": 1794965466.6974769
  },
  "gemini_day_dead": {
   "day": "2026-11-17",
@@ -9089,20 +9094,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-18 03:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 03:19",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-18 03:20",
    "ok": true,
    "n": 0,
@@ -9363,6 +9354,20 @@
   },
   {
    "t": "11-18 06:25",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 06:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 06:36",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14258,11 +14263,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-15 17:41",
-   "new": "جام صاحب ۾ ساکي جام ڏاتار جو 755 هون عرس 16 نومبر تي شروع ٿيندو",
-   "old": "نوشهروفيروز جو اڄ | 15-11-2026"
-  },
-  {
    "t": "11-15 19:01",
    "new": "عُميمه سهيل قومي اسڪواڊ ۾ شامل",
    "old": "سائرا جبين ايمرجنگ نشنز ٽرافي مان ٻاهر"
@@ -14406,6 +14406,11 @@
    "t": "11-18 05:11",
    "new": "ملڪي ڪرنٽ اڪائونٽ سرپلس ٿي ويو",
    "old": "پاڪستان جو ڪرنٽ اڪائونٽ سرپلس"
+  },
+  {
+   "t": "11-18 06:31",
+   "new": "سنڌ ۾ ڪڻڪ جو سخت کوٽ جو خطرو",
+   "old": "سنڌ | سنڌ ۾ گندم جو بحران"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14426,6 +14431,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 4
- }
+  "repeat": 5
+ },
+ "_dup": true
 }
