@@ -1492,7 +1492,8 @@
   "c3caef8aa46b94af": 1795023667.0803592,
   "ff08a88243918e97": 1795025505.9942605,
   "a585893997501e95": 1795025505.994263,
-  "35767d3406d1bd29": 1795025505.9944701
+  "35767d3406d1bd29": 1795025505.9944701,
+  "454ec66ea6813b1b": 1795027879.3575935
  },
  "pending": {},
  "queue": [],
@@ -1652,19 +1653,8 @@
    "372c856ae4c1ea8f"
   ]
  },
- "last_post_id": "1444130002106066_122122457847503839",
+ "last_post_id": "1444130002106066_122122466169503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122122272615503839",
-   "title": "اڄ جون نوڪريون (نوشهروفيروز ۽ سنڌ)",
-   "t": 1794974539.9856718,
-   "tags": [
-    "jobs",
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122122272615503839"
-  },
   {
    "id": "1444130002106066_122122275549503839",
    "title": "زرعي جدت سنڌ ۽ پنجاب جي هارين کي هڪ پيج تي آندو آهي، جنهن سان زراعت جي ترقي کي هٿي ملندي",
@@ -1992,6 +1982,18 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122122457847503839"
+  },
+  {
+   "id": "1444130002106066_122122466169503839",
+   "title": "نظام جي سڌاري لاءِ عملي اڳڀرائي جي ضرورت آهي: بلاول ڀٽو",
+   "t": 1795027921.3258715,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122122466169503839"
   }
  ],
  "share_sent": {
@@ -2271,22 +2273,22 @@
    "wkts": {
     "Sri Lanka|1": 10,
     "Pakistan|1": 10,
-    "Sri Lanka|2": 10
+    "Sri Lanka|2": 3
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795027569.0757678,
+   "last_edit": 1795028226.2847052,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 23:46",
+  "time": "2026-11-18 23:57",
   "items": 19,
   "sample": [
-   "South Africa 557/10 v Bangladesh 400/10 & 100/5 *",
-   "Pakistan 325/10 v Sri Lanka 74/3 & 98/10 *",
+   "South Africa 557/10 v Bangladesh 100/5 & 400/10 *",
+   "Pakistan 325/10 v Sri Lanka 98/10 & 74/3 *",
    "United Arab Emirates Women 134/7 v Papua New Guinea Women 64/10 *"
   ]
  },
@@ -2297,17 +2299,11 @@
  },
  "all_posts": {
   "date": "2026-11-18",
-  "count": 45,
-  "last": 1795025650.573237
+  "count": 46,
+  "last": 1795027910.8031518
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122118569007503839",
-    "sec": "cricket_news",
-    "cat": "cricket_news",
-    "t": 1794063772
-   },
    {
     "id": "1444130002106066_122118572961503839",
     "sec": "sindh_stream",
@@ -4701,6 +4697,12 @@
     "sec": "public_news",
     "cat": "transport_trade",
     "t": 1795025659
+   },
+   {
+    "id": "1444130002106066_122122466169503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1795027921
    }
   ]
  },
@@ -7789,15 +7791,11 @@
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 403,
-  "fail": 636,
-  "limit": 630
+  "ok": 408,
+  "fail": 646,
+  "limit": 638
  },
  "posted_heads": [
-  {
-   "h": "راڻيپور: تيز رفتار موٽرسائيڪل جي ٽکر ۾ نوجوان زخمي",
-   "t": 1794829274
-  },
   {
    "h": "ميرپور خاص ۾ ٻن دڪانن ۾ چوري، سامان چوراتل",
    "t": 1794830519
@@ -8113,10 +8111,14 @@
   {
    "h": "Pakistan’s mango exports plunge 36pc as Middle East tensions disrupt key markets",
    "t": 1795025660
+  },
+  {
+   "h": "نظام جي سڌاري لاءِ عملي اڳڀرائي جي ضرورت",
+   "t": 1795027921
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 23:46",
+  "time": "2026-11-18 23:57",
   "steps": []
  },
  "roundup_am": "2026-11-18",
@@ -8224,7 +8226,7 @@
   "text": 37,
   "story": 30
  },
- "ai_last_error": "23:13 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "23:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8238,9 +8240,9 @@
  },
  "img_diag": {
   "date": "2026-11-18",
-  "tried": 39,
+  "tried": 40,
   "gemini": 0,
-  "pollinations": 24,
+  "pollinations": 25,
   "skip": 6,
   "fail": 3,
   "last_note": "underwater internet communication cable",
@@ -8266,7 +8268,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
-   "ok": 132,
+   "ok": 133,
    "fail": 13,
    "items": 10,
    "fail_streak": 0,
@@ -8274,7 +8276,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 145,
+   "ok": 146,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8282,7 +8284,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 145,
+   "ok": 146,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8290,7 +8292,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 145,
+   "ok": 146,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8298,7 +8300,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 145,
+   "ok": 146,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8306,14 +8308,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 145,
+   "ok": 146,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 145,
+   "ok": 146,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8322,9 +8324,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 145,
+   "fail": 146,
    "items": 15,
-   "fail_streak": 2111,
+   "fail_streak": 2112,
    "last_status": 404
   }
  },
@@ -8508,13 +8510,13 @@
  "region_posts": {
   "date": "2026-11-18",
   "district": 0,
-  "sindh": 25,
+  "sindh": 26,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 4,
-  "old": 4,
+  "posted": 2,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8565,9 +8567,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-18",
-  "count": 18,
-  "last": 1795023665.0931165,
-  "city_i": 18,
+  "count": 19,
+  "last": 1795027868.7861333,
+  "city_i": 22,
   "dry": 1795027264.738986
  },
  "gemini_day_dead": {
@@ -9191,6 +9193,14 @@
    "t": 1795025659,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "f31763e640f8c18b",
+   "h": "نظام جي سڌاري لاءِ عملي اڳڀرائي جي ضرورت آهي: بلاول ڀٽو",
+   "x": "پاڪستان جي سياست هن وقت اهڙي موڙ تي بيٺل آهي، جتي روايتي سياسي ڇڪتاڻ کان اڳتي وڌي ملڪ جي مستقبل بابت سنجيده فيصلن جي ضرورت محسوس ٿي رهي آهي. اهڙي صورتحال ۾ پاڪستان پيپلز پارٽيءَ جي چيئرمين بلاول ڀٽو زرداريءَ ڪراچي پريس ڪلب ۾ صحافين سان ڳالهائيندي نظام جي بنيادي سڌارن ۽ سياسي قوتن جي گڏيل ذميواريءَ جو سوال اٿاريو آهي. سندس خيالن جو مرڪز اهو آهي ته ملڪ کي درپيش بحرانن مان ڪڍڻ لاءِ رڳو حڪومتي فيصلن يا ڪنهن هڪ ڌر جي ڪوششن تي ڀاڙڻ بدران سياسي قيادت کي گڏيل طور اڳتي وڌڻو پوندو. بيان: پاڪستان پيپلز پارٽيءَ جو چيئرمين بلاول ڀٽو زرداري",
+   "t": 1795027921,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9215,20 +9225,6 @@
   "last": 1795005085.9964194
  },
  "tg_debug": [
-  {
-   "t": "11-18 20:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 20:39",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-18 20:40",
    "ok": true,
@@ -9490,6 +9486,20 @@
   },
   {
    "t": "11-18 23:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 23:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 23:57",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13826,6 +13836,52 @@
     "گهٽتائي",
     "گهٽجي"
    ]
+  },
+  {
+   "t": 1795027921,
+   "h": "نظام جي سڌاري لاءِ عملي اڳڀرائي جي ضرورت آهي: بلاول ڀٽو",
+   "b": "پاڪستان جي سياست هن وقت اهڙي موڙ تي بيٺل آهي، جتي روايتي سياسي ڇڪتاڻ کان اڳتي وڌي ملڪ جي مستقبل بابت سنجيده",
+   "tt": [
+    "اهي",
+    "اڳڀرائي",
+    "بلاول",
+    "سڌاري",
+    "ضرورت",
+    "عملي",
+    "نظام",
+    "ڀٽو"
+   ],
+   "bt": [
+    "اهي",
+    "اهي،",
+    "اهڙي",
+    "اڳتي",
+    "اڳڀرائي",
+    "بابت",
+    "بلاول",
+    "بيٺل",
+    "جتي",
+    "رهي",
+    "روايتي",
+    "سنجيده",
+    "سياست",
+    "سياسي",
+    "سڌاري",
+    "ضرورت",
+    "عملي",
+    "فيصلن",
+    "محسوس",
+    "مستقبل",
+    "ملڪ",
+    "موڙ",
+    "نظام",
+    "وقت",
+    "وڌي",
+    "پاڪستان",
+    "ڀٽو",
+    "ڇڪتاڻ",
+    "ڪان"
+   ]
   }
  ],
  "repeat_log": [
@@ -13993,7 +14049,7 @@
  },
  "quality": {
   "date": "2026-11-18",
-  "editor_fixed": 33,
+  "editor_fixed": 34,
   "editor_rejected": 4,
   "kawish_rejected": 1,
   "kawish_crosschecked": 0,
