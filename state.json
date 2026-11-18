@@ -1484,7 +1484,11 @@
   "632ce6b8f18bfcd7": 1795031496.7937698,
   "83fc5b0c8c7b9842": 1795031496.7937703,
   "fc3264b5450090b7": 1795031496.7937708,
-  "ebb0014bf03190b3": 1795031496.7940235
+  "ebb0014bf03190b3": 1795031496.7940235,
+  "ac25595543f40a4b": 1795034479.650249,
+  "12f3844ba8ec7393": 1795034479.6504042,
+  "932cf8f806a7205c": 1795034592.465134,
+  "e1977fc369f634cb": 1795034592.4651365
  },
  "pending": {},
  "queue": [],
@@ -2268,14 +2272,14 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795034172.3803465,
+   "last_edit": 1795034898.4394171,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-19 01:36",
+  "time": "2026-11-19 01:48",
   "items": 17,
   "sample": [
    "South Africa 557/10 v Bangladesh 400/10 & 100/5 *",
@@ -7774,9 +7778,9 @@
  },
  "ai_usage": {
   "date": "2026-11-19",
-  "ok": 10,
-  "fail": 18,
-  "limit": 18
+  "ok": 14,
+  "fail": 30,
+  "limit": 28
  },
  "posted_heads": [
   {
@@ -8101,7 +8105,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-19 01:36",
+  "time": "2026-11-19 01:48",
   "steps": []
  },
  "roundup_am": "2026-11-18",
@@ -8204,12 +8208,12 @@
  },
  "article_diag": {
   "date": "2026-11-19",
-  "tried": 1,
-  "decoded": 1,
-  "text": 1,
+  "tried": 2,
+  "decoded": 2,
+  "text": 2,
   "story": 0
  },
- "ai_last_error": "01:20 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "01:43 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-19",
   "models": [
@@ -8251,7 +8255,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-19",
-   "ok": 10,
+   "ok": 11,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8259,7 +8263,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-19",
-   "ok": 10,
+   "ok": 11,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8267,7 +8271,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-19",
-   "ok": 10,
+   "ok": 11,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8275,7 +8279,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 10,
+   "ok": 11,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8283,7 +8287,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 10,
+   "ok": 11,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8291,14 +8295,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 10,
+   "ok": 11,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 10,
+   "ok": 11,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8307,9 +8311,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-19",
    "ok": 0,
-   "fail": 10,
+   "fail": 11,
    "items": 15,
-   "fail_streak": 2123,
+   "fail_streak": 2124,
    "last_status": 404
   }
  },
@@ -8498,8 +8502,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8553,8 +8557,8 @@
   "date": "2026-11-19",
   "count": 0,
   "last": 1795027868.7861333,
-  "city_i": 4,
-  "dry": 1795031475.707182
+  "city_i": 8,
+  "dry": 1795034475.917542
  },
  "gemini_day_dead": {
   "day": "2026-11-18",
@@ -9199,20 +9203,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-18 22:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 22:38",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-18 22:40",
    "ok": true,
    "n": 0,
@@ -9473,6 +9463,20 @@
   },
   {
    "t": "11-19 01:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 01:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 01:48",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14237,11 +14241,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-17 17:41",
-   "new": "پاڪستان ۽ سری لنڪا وچ ۾ ٻيون ٽيسٽ ميچ",
-   "old": "LIVE | پاڪستان بمقابلي سري لنڪا"
-  },
-  {
    "t": "11-17 18:41",
    "new": "سنڌ جي ورهاست ڪئي ته ڪراچي ۾ رت وهندو: بلاول ڀٽو",
    "old": "نظام کي تباهه ڪرايو ويو آهي: بلاول ڀٽو"
@@ -14385,6 +14384,11 @@
    "t": "11-18 22:32",
    "new": "ملڪ ۾ انٽرنيٽ سروس متاثر",
    "old": "سنڌ | انٽرنيشنل سب ميرين ڪيبل ۾ خرابي، انٽرنيٽ صارفين کي مشڪلات"
+  },
+  {
+   "t": "11-19 01:43",
+   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
+   "old": "پيٽروليم شين جون قيمتون تبديل"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14405,6 +14409,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 0
- }
+  "repeat": 1
+ },
+ "_dup": true
 }
