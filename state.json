@@ -2277,14 +2277,14 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795028226.2847052,
+   "last_edit": 1795028573.2204707,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 23:57",
+  "time": "2026-11-19 00:02",
   "items": 19,
   "sample": [
    "South Africa 557/10 v Bangladesh 100/5 & 400/10 *",
@@ -8118,7 +8118,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 23:57",
+  "time": "2026-11-19 00:02",
   "steps": []
  },
  "roundup_am": "2026-11-18",
@@ -8268,7 +8268,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
-   "ok": 133,
+   "ok": 134,
    "fail": 13,
    "items": 10,
    "fail_streak": 0,
@@ -8276,7 +8276,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 146,
+   "ok": 147,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8284,7 +8284,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 146,
+   "ok": 147,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8292,7 +8292,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 146,
+   "ok": 147,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8300,7 +8300,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 146,
+   "ok": 147,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8308,14 +8308,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 146,
+   "ok": 147,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 146,
+   "ok": 147,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8324,9 +8324,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 146,
+   "fail": 147,
    "items": 15,
-   "fail_streak": 2112,
+   "fail_streak": 2113,
    "last_status": 404
   }
  },
@@ -9226,20 +9226,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-18 20:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 20:46",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-18 20:50",
    "ok": true,
    "n": 0,
@@ -9500,6 +9486,20 @@
   },
   {
    "t": "11-18 23:57",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 23:57",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 00:02",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14048,12 +14048,12 @@
   "model": "openai/gpt-oss-120b"
  },
  "quality": {
-  "date": "2026-11-18",
-  "editor_fixed": 34,
-  "editor_rejected": 4,
-  "kawish_rejected": 1,
+  "date": "2026-11-19",
+  "editor_fixed": 0,
+  "editor_rejected": 0,
+  "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 26
+  "repeat": 0
  }
 }
