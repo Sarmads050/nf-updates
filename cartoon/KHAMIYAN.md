@@ -69,6 +69,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-065] (ep024, 2026-11-17) Scene 3 "raat ka khana" hai lekin sab ke haath mein khaali safaid plate hai aur table par salan ki degchi/roti nahi — naya "salan" plate prop (shorba + roti) aur table par handi.
 - [K-066] (ep024, 2026-11-17) Hamza (floor_l) jab Ammi ko thaila deta hai ("Lo... Dadi!") to Ammi ka sirf dhar dikhta hai, chehra frame se upar kat jata hai; aur Ammi ke close-up mein Hamza ka sirf aadha sar neeche se jhankta hai — toddler aur bare ke give/two-shot mein camera ko neeche bacche aur upar bare ka chehra dono fit karne wala "low two" shot banana.
 
+- [K-067] (ep025, 2026-11-18) Poori kahani "chashme par chai ki bhaap" ki hai lekin Faraz ka chashma bilkul saaf dikhta hai, sheeshon par koi dhundlahat nahi (line 8-16) — naya "foggy_glasses" effect: chashme ke sheeshe safaid dhundle + cup se uthti bhaap, aur "saaf kar diya" line par sheeshe wapas saaf.
+- [K-068] (ep025, 2026-11-18) Narrator kehta hai "Faraz ne chai ka pehla ghoont liya" lekin Faraz cup seene ke paas pakre baitha rehta hai, peeta nazar nahi aata — naya "sip" pose (cup honton tak, aankhein band) jo line ke shuru mein chal sake.
+- [K-069] (ep025, 2026-11-18) "Van gate par khari hai!" (line 19) par sirf "bike" ki awaaz hai, van ka horn nahi — naya "horn" sfx (van/rickshaw ka horn) sfx list mein add karna.
+
 ## APPROVED
 
 ## DONE
