@@ -1477,7 +1477,12 @@
   "86f5b333edcd3d30": 1795013475.137254,
   "3ae1490a27558ef3": 1795013475.137255,
   "670301b824fbfe0a": 1795013475.137256,
-  "fb3ee774c837dda4": 1795013475.1372578
+  "fb3ee774c837dda4": 1795013475.1372578,
+  "cb6201e870da4019": 1795014692.3744886,
+  "97032d69c70c8be3": 1795014692.374492,
+  "64a7106e962b27c2": 1795014692.374493,
+  "7dcbc0ffaa75fb18": 1795014692.3744948,
+  "af706e076d01b066": 1795014745.3155446
  },
  "pending": {},
  "queue": [],
@@ -1514,7 +1519,7 @@
   "last_week": "",
   "last_check": "2026-11-18"
  },
- "gemini_model": "gemini-3.1-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1569,7 +1574,7 @@
  "sindh_single": {
   "date": "2026-11-18",
   "count": 1,
-  "last": 1795005736.9831004,
+  "last": 1795014706.9402187,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1632,7 +1637,8 @@
    "3a16186af281599d",
    "602df4a52b63d468",
    "02f7ab2883290abb",
-   "267315e917e756d9"
+   "267315e917e756d9",
+   "af706e076d01b066"
   ]
  },
  "last_post_id": "1444130002106066_122122415079503839",
@@ -2241,22 +2247,22 @@
    "wkts": {
     "Sri Lanka|1": 10,
     "Pakistan|1": 10,
-    "Sri Lanka|2": 3
+    "Sri Lanka|2": 10
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795014391.191914,
+   "last_edit": 1795015057.5586114,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 20:06",
+  "time": "2026-11-18 20:17",
   "items": 33,
   "sample": [
    "South Africa 557/10 v Bangladesh 100/5 & 400/10 *",
-   "Pakistan 325/10 v Sri Lanka 98/10 & 74/3 *",
+   "Pakistan 325/10 v Sri Lanka 74/3 & 98/10 *",
    "Chhattisgarh 228/4 v Odisha 177/8 *"
   ]
  },
@@ -7711,9 +7717,9 @@
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 347,
-  "fail": 537,
-  "limit": 539
+  "ok": 350,
+  "fail": 543,
+  "limit": 545
  },
  "posted_heads": [
   {
@@ -8038,7 +8044,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 20:06",
+  "time": "2026-11-18 20:17",
   "steps": []
  },
  "roundup_am": "2026-11-18",
@@ -8146,7 +8152,7 @@
   "text": 34,
   "story": 28
  },
- "ai_last_error": "19:51 gemini-3.5-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "20:12 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8188,7 +8194,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
-   "ok": 115,
+   "ok": 116,
    "fail": 8,
    "items": 10,
    "fail_streak": 0,
@@ -8196,7 +8202,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8204,7 +8210,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8212,7 +8218,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8220,7 +8226,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8228,14 +8234,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8244,9 +8250,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 123,
+   "fail": 124,
    "items": 15,
-   "fail_streak": 2089,
+   "fail_streak": 2090,
    "last_status": 404
   }
  },
@@ -8435,8 +8441,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 1,
+  "old": 1,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8488,8 +8494,8 @@
  "sindh_stream": {
   "date": "2026-11-18",
   "count": 13,
-  "last": 1795013462.03516,
-  "city_i": 18,
+  "last": 1795014669.1566184,
+  "city_i": 22,
   "dry": 1795009273.7955034
  },
  "gemini_day_dead": {
@@ -9105,20 +9111,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-18 16:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 17:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-18 17:01",
    "ok": true,
    "n": 0,
@@ -9383,6 +9375,20 @@
    "n": 0,
    "ids": [],
    "err": "{}"
+  },
+  {
+   "t": "11-18 20:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 20:17",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-18",
@@ -13565,16 +13571,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-17 15:11",
-   "new": "ملير ۾ تيل چوري نيٽ ورڪ خلاف وڌيڪ گرفتاريون جو حڪم",
-   "old": "ڪراچي: گڏاپ ۾ سرنگهه ذريعي پارڪو لائين مان تيل چوري"
-  },
-  {
-   "t": "11-17 15:53",
-   "new": "پاڪستان ویمنز ڪرڪيٽ ٽيم جو نئون ڪوچ مقرر",
-   "old": "شين ڊيٽز پاڪستان عورتن جي ڪرڪيٽ ٽيم جو ڪوچ مقرر"
-  },
-  {
    "t": "11-17 16:12",
    "new": "عمران خان جي حوالي سان ڌمڪي جو خط",
    "old": "عمران خان جو چيف جسٽس کي خط، برين هيمرج ۽ دل جي دوري جو خدشو"
@@ -13713,6 +13709,16 @@
    "t": "11-18 19:31",
    "new": "بجلي مهانگي ڪرڻ جون تياريون، في يونٽ 2.88 رپيا واڌ جو امڪان",
    "old": "بجلي جي اگهن ۾ واڌ جو امڪان"
+  },
+  {
+   "t": "11-18 20:11",
+   "new": "سون جي اگهن ۾ وڏي لاٿ، تولو 4 لک کان گهٽ",
+   "old": "وڪيٽ! پاڪستان جو رانديگر آئوٽ، 4 وڪيٽون ڪري پيون"
+  },
+  {
+   "t": "11-18 20:12",
+   "new": "سنڌ | پيٹرول ۽ ڈیزل جي قيمتن ۾ وڏي گهٽتائي",
+   "old": "پيٽروليم شين جون قيمتون تبديل"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13733,6 +13739,7 @@
   "kawish_rejected": 1,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 21
- }
+  "repeat": 23
+ },
+ "_dup": true
 }
