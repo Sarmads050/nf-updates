@@ -1467,7 +1467,10 @@
   "9d0b108fe61b6e14": 1794961284.8210032,
   "623ebffb0759427c": 1794961284.821006,
   "302182705e589301": 1794961284.8210077,
-  "60b73ac1d905c0ca": 1794961284.8213336
+  "60b73ac1d905c0ca": 1794961284.8213336,
+  "08f44a098b63501c": 1794963680.2166207,
+  "de691deb0b9c50f1": 1794963684.3094811,
+  "44331e78aac8f95f": 1794963684.3096213
  },
  "pending": {},
  "queue": [],
@@ -1632,20 +1635,8 @@
    "602df4a52b63d468"
   ]
  },
- "last_post_id": "1444130002106066_122122234485503839",
+ "last_post_id": "1444130002106066_122122241169503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122121974301503839",
-   "title": "ڪراچي: گڏاپ ۾ سرنگهه ذريعي پارڪو لائين مان تيل چوري",
-   "t": 1794891197.4033883,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122121974301503839"
-  },
   {
    "id": "1444130002106066_122121984507503839",
    "title": "ڏهرڪي: نالي مان ٻار جو لاş هٿ، انتظاميه خلاف احتجاج",
@@ -1956,6 +1947,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122122234485503839"
+  },
+  {
+   "id": "1444130002106066_122122241169503839",
+   "title": "حڪومت ملڪ ۾ جعلي ۽ بنا نمبر دوائن جي روڪٿام لاءِ سمورين دوائن تي 2ڊي بارڪوڊنگ ۽ سيرائليشن",
+   "t": 1794963733.966767,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122122241169503839"
   }
  ],
  "share_sent": {
@@ -2238,14 +2238,14 @@
    },
    "wicket_posts": 10,
    "break_done": true,
-   "last_edit": 1794963363.6200798,
+   "last_edit": 1794964039.052274,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 05:56",
+  "time": "2026-11-18 06:07",
   "items": 29,
   "sample": [
    "South Africa 386/7 * v Bangladesh 400/10",
@@ -2260,17 +2260,11 @@
  },
  "all_posts": {
   "date": "2026-11-18",
-  "count": 6,
-  "last": 1794961310.2535598
+  "count": 7,
+  "last": 1794963727.7752953
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122118341523503839",
-    "sec": "agri_news",
-    "cat": "agri_news",
-    "t": 1794006732
-   },
    {
     "id": "1444130002106066_122118358629503839",
     "sec": "agri_news",
@@ -4664,13 +4658,19 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1794961318
+   },
+   {
+    "id": "1444130002106066_122122241169503839",
+    "sec": "public_news",
+    "cat": "health",
+    "t": 1794963733
    }
   ]
  },
  "public_news": {
   "date": "2026-11-18",
-  "count": 2,
-  "last": 1794956651.526207
+  "count": 3,
+  "last": 1794963733.9667525
  },
  "trends": {
   "last": 1794955855.540929,
@@ -7680,15 +7680,11 @@
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 78,
-  "fail": 132,
-  "limit": 128
+  "ok": 87,
+  "fail": 148,
+  "limit": 144
  },
  "posted_heads": [
-  {
-   "h": "FPCCI Official Urges Lower Energy Costs, Simplified Taxes to Boost Pakistan’s Exports",
-   "t": 1794755554
-  },
   {
    "h": "اقتصادي سهڪار تنظيم جي پرڏيهي وزيرن جو ٻن ڏينهن وارو اجلاس اسلام آباد ۾ شروع",
    "t": 1794758044
@@ -8004,10 +8000,14 @@
   {
    "h": "Farming leads PM's youth loan drive",
    "t": 1794961318
+  },
+  {
+   "h": "Pakistan makes 2D barcoding and serialisation compulsory to curb fake medicines",
+   "t": 1794963734
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 05:56",
+  "time": "2026-11-18 06:07",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -8110,12 +8110,12 @@
  },
  "article_diag": {
   "date": "2026-11-18",
-  "tried": 11,
-  "decoded": 11,
-  "text": 11,
+  "tried": 12,
+  "decoded": 12,
+  "text": 12,
   "story": 9
  },
- "ai_last_error": "05:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8129,9 +8129,9 @@
  },
  "img_diag": {
   "date": "2026-11-18",
-  "tried": 6,
+  "tried": 7,
   "gemini": 0,
-  "pollinations": 4,
+  "pollinations": 5,
   "skip": 0,
   "fail": 0,
   "last_note": "electricity meter and bill",
@@ -8157,7 +8157,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
-   "ok": 34,
+   "ok": 35,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8165,7 +8165,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8173,7 +8173,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8181,7 +8181,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8189,7 +8189,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8197,14 +8197,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 37,
+   "ok": 38,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8213,9 +8213,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 37,
+   "fail": 38,
    "items": 15,
-   "fail_streak": 2003,
+   "fail_streak": 2004,
    "last_status": 404
   }
  },
@@ -8400,17 +8400,17 @@
   "date": "2026-11-18",
   "district": 0,
   "sindh": 0,
-  "pakistan": 6
+  "pakistan": 7
  },
  "report_acc": {
-  "posted": 1,
-  "found": 5,
-  "old": 5,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-18 05",
+ "report_hour": "2026-11-18 06",
  "kawish_upload_times": {
   "_date": "2026-11-18",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8458,8 +8458,8 @@
   "date": "2026-11-18",
   "count": 0,
   "last": 1794942088.524519,
-  "city_i": 8,
-  "dry": 1794961265.8512604
+  "city_i": 12,
+  "dry": 1794963671.438934
  },
  "gemini_day_dead": {
   "day": "2026-11-17",
@@ -9098,6 +9098,14 @@
    "t": 1794961318,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "076a76fb3dfd3a6d",
+   "h": "جعلي دوائن جي روڪٿام لاءِ بارڪوڊنگ لازمي",
+   "x": "حڪومت ملڪ ۾ جعلي ۽ بنا نمبر دوائن جي روڪٿام لاءِ سمورين دوائن تي 2ڊي بارڪوڊنگ ۽ سيرائليشن لازمي قرار ڏئي ڇڏي آهي!",
+   "t": 1794963733,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9111,20 +9119,6 @@
   "last": 1794916276.0124743
  },
  "tg_debug": [
-  {
-   "t": "11-18 02:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 02:46",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-18 02:50",
    "ok": true,
@@ -9386,6 +9380,20 @@
   },
   {
    "t": "11-18 05:56",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 06:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 06:07",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14246,6 +14254,36 @@
     "ڪيو،",
     "گذريل",
     "گهٽ"
+   ]
+  },
+  {
+   "t": 1794963733,
+   "h": "جعلي دوائن جي روڪٿام لاءِ بارڪوڊنگ لازمي",
+   "b": "حڪومت ملڪ ۾ جعلي ۽ بنا نمبر دوائن جي روڪٿام لاءِ سمورين دوائن تي 2ڊي بارڪوڊنگ ۽ سيرائليشن لازمي قرار ڏئي ڇڏي",
+   "tt": [
+    "بارڪوڊنگ",
+    "جعلي",
+    "دوائن",
+    "روڪٿام",
+    "لازمي"
+   ],
+   "bt": [
+    "2ڊي",
+    "اهي",
+    "بارڪوڊنگ",
+    "بنا",
+    "جعلي",
+    "حڪومت",
+    "دوائن",
+    "روڪٿام",
+    "سمورين",
+    "سيرائليشن",
+    "قرار",
+    "لازمي",
+    "ملڪ",
+    "نمبر",
+    "ڇڏي",
+    "ڏئي"
    ]
   }
  ],
