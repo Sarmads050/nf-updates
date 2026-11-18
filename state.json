@@ -1471,7 +1471,9 @@
   "c030a0bc1ab48ff7": 1795008112.910773,
   "318555d679aa006e": 1795008686.1199803,
   "6817df4306f1206a": 1795009283.802572,
-  "1a5ad1e674cd3fc1": 1795009283.8027542
+  "1a5ad1e674cd3fc1": 1795009283.8027542,
+  "b35807dcc76a4e35": 1795009892.6954284,
+  "afe739181765d02d": 1795009911.6569107
  },
  "pending": {},
  "queue": [],
@@ -2234,17 +2236,17 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795009641.5285664,
+   "last_edit": 1795010216.658579,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 18:47",
+  "time": "2026-11-18 18:56",
   "items": 31,
   "sample": [
-   "South Africa 557/10 v Bangladesh 400/10 & 73/4 *",
+   "South Africa 557/10 v Bangladesh 400/10 & 87/5 *",
    "Pakistan 325/10 v Sri Lanka 98/10 & 74/3 *",
    "Chhattisgarh 228/4 v Odisha 177/8 *"
   ]
@@ -7684,9 +7686,9 @@
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 331,
-  "fail": 513,
-  "limit": 516
+  "ok": 334,
+  "fail": 517,
+  "limit": 521
  },
  "posted_heads": [
   {
@@ -8023,7 +8025,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 18:47",
+  "time": "2026-11-18 18:56",
   "steps": []
  },
  "roundup_am": "2026-11-18",
@@ -8131,7 +8133,7 @@
   "text": 34,
   "story": 28
  },
- "ai_last_error": "18:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:51 openrouter google/gemma-4-31b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily ra",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8173,7 +8175,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
-   "ok": 108,
+   "ok": 109,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -8181,7 +8183,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8189,7 +8191,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8197,7 +8199,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8205,7 +8207,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8213,14 +8215,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 115,
+   "ok": 116,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8229,9 +8231,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 115,
+   "fail": 116,
    "items": 15,
-   "fail_streak": 2081,
+   "fail_streak": 2082,
    "last_status": 404
   }
  },
@@ -8420,8 +8422,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 4,
-  "old": 4,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8473,8 +8475,8 @@
  "sindh_stream": {
   "date": "2026-11-18",
   "count": 11,
-  "last": 1795002063.1392565,
-  "city_i": 24,
+  "last": 1795009869.393148,
+  "city_i": 6,
   "dry": 1795009273.7955034
  },
  "gemini_day_dead": {
@@ -9129,20 +9131,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-18 15:31",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 15:37",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-18 15:40",
    "ok": true,
    "n": 0,
@@ -9403,6 +9391,20 @@
   },
   {
    "t": "11-18 18:47",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 18:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 18:56",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13790,11 +13792,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-17 08:21",
-   "new": "سنڌ | پيٹرول ۽ گئس جي قيمتن ۾ گهٽات",
-   "old": "پيٽرول ۽ ڊيزل اگهن ۾ گهٽتائي"
-  },
-  {
    "t": "11-17 10:21",
    "new": "شان ڊيٽز پاڪستان عورتن جي ڪرڪيٽ ٽيم جو ڪوچ مقرر",
    "old": "شين ڊيٽز پاڪستان عورتن جي ڪرڪيٽ ٽيم جو ڪوچ مقرر"
@@ -13938,6 +13935,11 @@
    "t": "11-18 18:42",
    "new": "پاڪستان ۾ سون جي قيمت ۾ وڏي لاٿ",
    "old": "پاڪستان ۾ سوني جي اگهه ۾ تبديلي"
+  },
+  {
+   "t": "11-18 18:51",
+   "new": "بلاول جي بيان تي اليڪشن ڪميشن جو ردعمل",
+   "old": "صوبن بابت بحث روڪي نٿو سگهجي: عطا تارڙ جو بلاول کي جواب"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13958,7 +13960,7 @@
   "kawish_rejected": 1,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 19
+  "repeat": 20
  },
  "_dup": true
 }
