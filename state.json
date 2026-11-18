@@ -1,7 +1,5 @@
 {
  "seen": {
-  "ae0311f400e28bbc": 1794406925.1281788,
-  "fe1a59aa494c6226": 1794406925.1281822,
   "453915f3805cff39": 1794408093.457819,
   "de169441952f7464": 1794408135.9785097,
   "0bf5809db5b6b087": 1794408675.3123174,
@@ -1474,7 +1472,10 @@
   "61f7d42cd7d3ed39": 1795010480.2120893,
   "18739e07e68b0870": 1795011084.4777036,
   "9bb4097028b9a299": 1795011084.477707,
-  "55df2ff6638bcfd7": 1795011084.477709
+  "55df2ff6638bcfd7": 1795011084.477709,
+  "acb59da28f809d19": 1795012292.9572961,
+  "02016e9130ecb572": 1795012292.957299,
+  "d31c4d7ad1e43c0f": 1795012292.9573011
  },
  "pending": {},
  "queue": [],
@@ -2240,17 +2241,17 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795011968.4465384,
+   "last_edit": 1795012599.8558624,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 19:26",
+  "time": "2026-11-18 19:36",
   "items": 33,
   "sample": [
-   "South Africa 557/10 v Bangladesh 400/10 & 100/5 *",
+   "South Africa 557/10 v Bangladesh 100/5 & 400/10 *",
    "Pakistan 325/10 v Sri Lanka 74/3 & 98/10 *",
    "Chhattisgarh 228/4 v Odisha 177/8 *"
   ]
@@ -7706,9 +7707,9 @@
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 343,
-  "fail": 529,
-  "limit": 533
+  "ok": 344,
+  "fail": 531,
+  "limit": 535
  },
  "posted_heads": [
   {
@@ -8033,7 +8034,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 19:26",
+  "time": "2026-11-18 19:36",
   "steps": []
  },
  "roundup_am": "2026-11-18",
@@ -8141,7 +8142,7 @@
   "text": 34,
   "story": 28
  },
- "ai_last_error": "19:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "19:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8184,14 +8185,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
    "ok": 112,
-   "fail": 7,
+   "fail": 8,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8199,7 +8200,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8207,7 +8208,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8215,7 +8216,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8223,14 +8224,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8239,9 +8240,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 119,
+   "fail": 120,
    "items": 15,
-   "fail_streak": 2085,
+   "fail_streak": 2086,
    "last_status": 404
   }
  },
@@ -8430,8 +8431,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 2,
-  "old": 2,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8483,8 +8484,8 @@
  "sindh_stream": {
   "date": "2026-11-18",
   "count": 12,
-  "last": 1795011075.662234,
-  "city_i": 10,
+  "last": 1795012283.7543688,
+  "city_i": 14,
   "dry": 1795009273.7955034
  },
  "gemini_day_dead": {
@@ -9115,20 +9116,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-18 16:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 16:16",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-18 16:20",
    "ok": true,
    "n": 0,
@@ -9389,6 +9376,20 @@
   },
   {
    "t": "11-18 19:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 19:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 19:36",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13601,11 +13602,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-17 10:21",
-   "new": "شان ڊيٽز پاڪستان عورتن جي ڪرڪيٽ ٽيم جو ڪوچ مقرر",
-   "old": "شين ڊيٽز پاڪستان عورتن جي ڪرڪيٽ ٽيم جو ڪوچ مقرر"
-  },
-  {
    "t": "11-17 15:11",
    "new": "ملير ۾ تيل چوري نيٽ ورڪ خلاف وڌيڪ گرفتاريون جو حڪم",
    "old": "ڪراچي: گڏاپ ۾ سرنگهه ذريعي پارڪو لائين مان تيل چوري"
@@ -13749,6 +13745,11 @@
    "t": "11-18 18:51",
    "new": "بلاول جي بيان تي اليڪشن ڪميشن جو ردعمل",
    "old": "صوبن بابت بحث روڪي نٿو سگهجي: عطا تارڙ جو بلاول کي جواب"
+  },
+  {
+   "t": "11-18 19:31",
+   "new": "بجلي مهانگي ڪرڻ جون تياريون، في يونٽ 2.88 رپيا واڌ جو امڪان",
+   "old": "بجلي جي اگهن ۾ واڌ جو امڪان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13769,6 +13770,7 @@
   "kawish_rejected": 1,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 20
- }
+  "repeat": 21
+ },
+ "_dup": true
 }
