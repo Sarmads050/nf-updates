@@ -1438,7 +1438,16 @@
   "d5666e62abf863a4": 1794968543.2022133,
   "e1e6cc8839d86d5d": 1794968543.202392,
   "b695e87b2c564dd2": 1794968564.8605618,
-  "3f6b706ef4f2c28e": 1794968564.8606997
+  "3f6b706ef4f2c28e": 1794968564.8606997,
+  "9504d86b207a9fd2": 1794972083.0399597,
+  "01b6db197eb9489e": 1794972083.039962,
+  "53a03ceed157c0f2": 1794972083.0399632,
+  "05ebb2d909b19baf": 1794972083.039964,
+  "4d8c7eed89e263d9": 1794972083.0399652,
+  "c8763f97a469164a": 1794972083.0399659,
+  "8cd578c2441672ff": 1794972083.0399668,
+  "a2049dd1f64d66cb": 1794972083.0399675,
+  "230e6ed347ca8f56": 1794972083.0401814
  },
  "pending": {},
  "queue": [],
@@ -1539,7 +1548,7 @@
  "sindh_single": {
   "date": "2026-11-18",
   "count": 0,
-  "last": 1794922314.354683,
+  "last": 1794972133.805495,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2203,19 +2212,19 @@
    },
    "wicket_posts": 10,
    "break_done": true,
-   "last_edit": 1794971752.7013826,
+   "last_edit": 1794972447.6976128,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 08:15",
+  "time": "2026-11-18 08:27",
   "items": 29,
   "sample": [
    "South Africa 386/7 * v Bangladesh 400/10",
    "Pakistan 121/3 * v Sri Lanka 98/10",
-   "Chhattisgarh 37/2 * v Odisha"
+   "Chhattisgarh 110/3 * v Odisha"
   ]
  },
  "agri_news": {
@@ -7637,9 +7646,9 @@
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 115,
-  "fail": 196,
-  "limit": 192
+  "ok": 120,
+  "fail": 206,
+  "limit": 202
  },
  "posted_heads": [
   {
@@ -7964,7 +7973,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 08:15",
+  "time": "2026-11-18 08:27",
   "steps": []
  },
  "roundup_am": "2026-11-18",
@@ -8067,12 +8076,12 @@
  },
  "article_diag": {
   "date": "2026-11-18",
-  "tried": 16,
-  "decoded": 16,
-  "text": 15,
-  "story": 10
+  "tried": 17,
+  "decoded": 17,
+  "text": 16,
+  "story": 11
  },
- "ai_last_error": "08:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:22 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8114,7 +8123,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
-   "ok": 49,
+   "ok": 50,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8122,7 +8131,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8130,7 +8139,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8138,7 +8147,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8146,7 +8155,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8154,14 +8163,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8170,9 +8179,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 52,
+   "fail": 53,
    "items": 15,
-   "fail_streak": 2018,
+   "fail_streak": 2019,
    "last_status": 404
   }
  },
@@ -8361,8 +8370,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 1,
-  "old": 1,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8415,8 +8424,8 @@
   "date": "2026-11-18",
   "count": 0,
   "last": 1794942088.524519,
-  "city_i": 14,
-  "dry": 1794970281.75001
+  "city_i": 18,
+  "dry": 1794972078.4274523
  },
  "gemini_day_dead": {
   "day": "2026-11-17",
@@ -9079,20 +9088,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-18 05:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 05:16",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-18 05:20",
    "ok": true,
    "n": 0,
@@ -9353,6 +9348,20 @@
   },
   {
    "t": "11-18 08:15",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 08:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 08:27",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14198,11 +14207,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-15 22:37",
-   "new": "حيدرآباد جا واپاري گهٽجندڙ پيٽرول اگهن جا طلبگار",
-   "old": "پيٽروليم اگهن ۾ لاٿ جو عوام کي سڌو فائدو نه ملڻ الميو"
-  },
-  {
    "t": "11-16 08:51",
    "new": "سنڌ | محرابپور ۽ ٻين علائقن ۾ بجلي جي معطلي جو اعلان",
    "old": "صبح جون سنڌ جون اهم خبرون"
@@ -14346,6 +14350,11 @@
    "t": "11-18 07:22",
    "new": "ڪڻڪ جي اگهن ۾ واڌ جو امڪان",
    "old": "بجلي جي اگهن ۾ واڌ جو امڪان"
+  },
+  {
+   "t": "11-18 08:21",
+   "new": "پيٽرول جي قيمت ۾ ٽي رپيا گهٽايل",
+   "old": "پيٽرول اگهه ۾ گهٽتائي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14366,6 +14375,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 7
- }
+  "repeat": 8
+ },
+ "_dup": true
 }
