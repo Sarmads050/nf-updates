@@ -1464,7 +1464,9 @@
   "bd5c56bc118b5819": 1794959476.6805441,
   "f075445b4e6a2ac0": 1794959476.680547,
   "a4dc6576b2c27e3c": 1794959476.6805482,
-  "60e871fb60ff3dc9": 1794959476.6805494
+  "60e871fb60ff3dc9": 1794959476.6805494,
+  "cf35e6e5c236a1b5": 1794960683.9297066,
+  "c9a77b42a03e33f4": 1794960686.9968262
  },
  "pending": {},
  "queue": [],
@@ -1510,7 +1512,7 @@
   "last_week": "",
   "last_check": "2026-11-18"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.1-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2234,14 +2236,14 @@
    },
    "wicket_posts": 10,
    "break_done": true,
-   "last_edit": 1794960393.2959754,
+   "last_edit": 1794961016.2968383,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 05:06",
+  "time": "2026-11-18 05:16",
   "items": 29,
   "sample": [
    "South Africa 386/7 * v Bangladesh 400/10",
@@ -7676,9 +7678,9 @@
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 69,
-  "fail": 114,
-  "limit": 112
+  "ok": 72,
+  "fail": 122,
+  "limit": 118
  },
  "posted_heads": [
   {
@@ -8003,7 +8005,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 05:06",
+  "time": "2026-11-18 05:16",
   "steps": []
  },
  "roundup_am": "2026-11-17",
@@ -8106,12 +8108,12 @@
  },
  "article_diag": {
   "date": "2026-11-18",
-  "tried": 9,
-  "decoded": 9,
-  "text": 9,
-  "story": 7
+  "tried": 10,
+  "decoded": 10,
+  "text": 10,
+  "story": 8
  },
- "ai_last_error": "04:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "05:11 gemini-3.5-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8153,7 +8155,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
-   "ok": 29,
+   "ok": 30,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8161,7 +8163,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8169,7 +8171,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8177,7 +8179,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8185,7 +8187,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8193,14 +8195,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8209,9 +8211,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 32,
+   "fail": 33,
    "items": 15,
-   "fail_streak": 1998,
+   "fail_streak": 1999,
    "last_status": 404
   }
  },
@@ -8400,8 +8402,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 1,
+  "old": 1,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8454,8 +8456,8 @@
   "date": "2026-11-18",
   "count": 0,
   "last": 1794942088.524519,
-  "city_i": 22,
-  "dry": 1794960076.5567553
+  "city_i": 4,
+  "dry": 1794960676.4325564
  },
  "gemini_day_dead": {
   "day": "2026-11-17",
@@ -9108,20 +9110,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-18 01:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 01:55",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-18 02:00",
    "ok": true,
    "n": 0,
@@ -9382,6 +9370,20 @@
   },
   {
    "t": "11-18 05:06",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 05:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 05:16",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14256,11 +14258,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-15 13:50",
-   "new": "سنڌ | آءِ ايم ايف پاران پاڪستان مان فيول سبسيڊي مرحليوار ختم ڪرڻ جو مط",
-   "old": "آءِ ايم ايف پاران پيٽرول سبسڊي ختم ڪرڻ جو زور"
-  },
-  {
    "t": "11-15 17:41",
    "new": "جام صاحب ۾ ساکي جام ڏاتار جو 755 هون عرس 16 نومبر تي شروع ٿيندو",
    "old": "نوشهروفيروز جو اڄ | 15-11-2026"
@@ -14404,6 +14401,11 @@
    "t": "11-18 02:11",
    "new": "ملڪ ۾ ڪڻڪ جو اڻهند",
    "old": "سنڌ | سنڌ ۾ گندم جو بحران"
+  },
+  {
+   "t": "11-18 05:11",
+   "new": "ملڪي ڪرنٽ اڪائونٽ سرپلس ٿي ويو",
+   "old": "پاڪستان جو ڪرنٽ اڪائونٽ سرپلس"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14424,6 +14426,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 3
- }
+  "repeat": 4
+ },
+ "_dup": true
 }
