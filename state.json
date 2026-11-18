@@ -1,7 +1,5 @@
 {
  "seen": {
-  "4a9d65099af1b38b": 1794378668.6804671,
-  "6ae5b97d9c0be2f3": 1794378668.6804698,
   "fbb58b755dd458ea": 1794379859.7408683,
   "041af0882bb750a7": 1794379859.7408707,
   "9b959248f5734fb7": 1794379863.1064034,
@@ -1434,7 +1432,10 @@
   "9d5d4a1d569debb8": 1794981103.6260657,
   "e5cccd825a4577e6": 1794982864.51305,
   "b1410cca74b99e0a": 1794982864.5130532,
-  "0c3b3182dcb76e72": 1794982864.5130556
+  "0c3b3182dcb76e72": 1794982864.5130556,
+  "c93137fff299a712": 1794984050.7084773,
+  "9e83ce11a4b68227": 1794984060.6268215,
+  "a001f3b0d283cc48": 1794984060.6268237
  },
  "pending": {},
  "queue": [],
@@ -2181,18 +2182,18 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1794983767.1949463,
+   "last_edit": 1794984374.5019305,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 11:36",
+  "time": "2026-11-18 11:46",
   "items": 29,
   "sample": [
    "South Africa 386/7 * v Bangladesh 400/10",
-   "Pakistan 200/6 * v Sri Lanka 98/10",
+   "Pakistan 212/6 * v Sri Lanka 98/10",
    "Chhattisgarh 228/4 v Odisha 177/8 *"
   ]
  },
@@ -7623,9 +7624,9 @@
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 157,
-  "fail": 266,
-  "limit": 262
+  "ok": 158,
+  "fail": 268,
+  "limit": 264
  },
  "posted_heads": [
   {
@@ -7950,7 +7951,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 11:36",
+  "time": "2026-11-18 11:46",
   "steps": []
  },
  "roundup_am": "2026-11-18",
@@ -8058,7 +8059,7 @@
   "text": 18,
   "story": 13
  },
- "ai_last_error": "11:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "11:40 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8100,7 +8101,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
-   "ok": 69,
+   "ok": 70,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8108,7 +8109,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8116,7 +8117,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8124,7 +8125,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8132,7 +8133,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8140,14 +8141,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 72,
+   "ok": 73,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8156,9 +8157,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 72,
+   "fail": 73,
    "items": 15,
-   "fail_streak": 2038,
+   "fail_streak": 2039,
    "last_status": 404
   }
  },
@@ -8347,8 +8348,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8400,9 +8401,9 @@
  "sindh_stream": {
   "date": "2026-11-18",
   "count": 4,
-  "last": 1794982862.316483,
-  "city_i": 14,
-  "dry": 1794978094.4109466
+  "last": 1794984059.3064764,
+  "city_i": 18,
+  "dry": 1794984060.6268256
  },
  "gemini_day_dead": {
   "day": "2026-11-17",
@@ -9051,20 +9052,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-18 08:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 08:27",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-18 08:30",
    "ok": true,
    "n": 0,
@@ -9325,6 +9312,20 @@
   },
   {
    "t": "11-18 11:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 11:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 11:46",
    "ok": true,
    "n": 0,
    "ids": [],
