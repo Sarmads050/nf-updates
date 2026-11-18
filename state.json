@@ -1443,7 +1443,15 @@
   "e429c5eb469ab9f3": 1795000901.4788826,
   "1d71ca528da17389": 1795000901.4788837,
   "71d7d05267048f21": 1795000901.478885,
-  "4e2d39f1ee6101bf": 1795000901.4791484
+  "4e2d39f1ee6101bf": 1795000901.4791484,
+  "540670b34ec9689d": 1795001468.9030619,
+  "2921bf44f2d491f0": 1795001468.9030647,
+  "f90c4d930498d216": 1795001468.903066,
+  "9b6482bee3b7046c": 1795001468.9030666,
+  "6ce42db26ec9d97b": 1795001468.9030678,
+  "c972f4e997449fb8": 1795001468.903259,
+  "e1134518a2261d81": 1795001490.929861,
+  "eb448a26b798f652": 1795001490.9300451
  },
  "pending": {},
  "queue": [],
@@ -2198,18 +2206,18 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795001220.3924773,
+   "last_edit": 1795001799.3695776,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 16:26",
+  "time": "2026-11-18 16:36",
   "items": 31,
   "sample": [
-   "South Africa 557/10 v Bangladesh 400/10 & 5 *",
-   "Pakistan 325/10 v Sri Lanka 72/3 & 98/10 *",
+   "South Africa 557/10 v Bangladesh 400/10 & 11 *",
+   "Pakistan 325/10 v Sri Lanka 74/3 & 98/10 *",
    "Chhattisgarh 228/4 v Odisha 177/8 *"
   ]
  },
@@ -7648,9 +7656,9 @@
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 256,
-  "fail": 424,
-  "limit": 425
+  "ok": 263,
+  "fail": 437,
+  "limit": 438
  },
  "posted_heads": [
   {
@@ -7975,7 +7983,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 16:27",
+  "time": "2026-11-18 16:36",
   "steps": []
  },
  "roundup_am": "2026-11-18",
@@ -8078,12 +8086,12 @@
  },
  "article_diag": {
   "date": "2026-11-18",
-  "tried": 28,
-  "decoded": 28,
-  "text": 27,
-  "story": 21
+  "tried": 30,
+  "decoded": 30,
+  "text": 29,
+  "story": 23
  },
- "ai_last_error": "16:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "16:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8125,7 +8133,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
-   "ok": 94,
+   "ok": 95,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -8133,7 +8141,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8141,7 +8149,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8149,7 +8157,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8157,7 +8165,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8165,14 +8173,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8181,9 +8189,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 101,
+   "fail": 102,
    "items": 15,
-   "fail_streak": 2067,
+   "fail_streak": 2068,
    "last_status": 404
   }
  },
@@ -8191,7 +8199,7 @@
   "last": "2026-11-13",
   "idx": 4
  },
- "ai_last_model": "google/gemma-4-31b-it:free",
+ "ai_last_model": "google/gemma-4-26b-a4b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8372,8 +8380,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9079,20 +9087,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-18 13:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 13:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-18 13:21",
    "ok": true,
    "n": 0,
@@ -9353,6 +9347,20 @@
   },
   {
    "t": "11-18 16:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 16:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 16:36",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13741,16 +13749,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-17 04:51",
-   "new": "پيٽرول ۽ ڊيزل اگهن ۾ گهٽتائي",
-   "old": "پيٽرول ۽ ڊيزل اگهن ۾ گهٽتائي"
-  },
-  {
-   "t": "11-17 04:51",
-   "new": "پاڪستان وومين ٽيم زمبابوي کي شڪست ڏئي ڇڏي",
-   "old": "پاڪستان زمبابوي کي شڪست ڏئي ڇڏي"
-  },
-  {
    "t": "11-17 06:21",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽتائي",
    "old": "پيٽرول ۽ ڊيزل اگهن ۾ گهٽتائي"
@@ -13889,6 +13887,16 @@
    "t": "11-18 16:21",
    "new": "پاڪستان کيسريلنڪا خلاف اهم برتري حاصل",
    "old": "پاڪستان ۽ سري لنڪا وچ ۾ ٽيسٽ ميچ: ٻئي ڏينهن جو احوال"
+  },
+  {
+   "t": "11-18 16:31",
+   "new": "پاڪستان ۾ سونڊ جي قيمتن ۾ وڏي گهٽتائي",
+   "old": "پاڪستان ۾ سوني جي اگهه ۾ تبديلي"
+  },
+  {
+   "t": "11-18 16:31",
+   "new": "پاڪستان جي برتري برقرار",
+   "old": "پاڪستان ۽ سري لنڪا وچ ۾ ٽيسٽ ميچ: ٻئي ڏينهن جو احوال"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13909,7 +13917,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 13
+  "repeat": 15
  },
  "_dup": true
 }
