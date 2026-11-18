@@ -1,25 +1,5 @@
 {
  "seen": {
-  "334b2c24e2928a5f": 1794430694.190931,
-  "146e0f1b7275314d": 1794430694.1909337,
-  "e38cad632e9c33d1": 1794430694.190935,
-  "d442514a4c0098df": 1794430694.1909366,
-  "bccf975204514e78": 1794430694.1909373,
-  "8c7863b5526d5c27": 1794430694.190938,
-  "36d8b73ea867cef2": 1794430694.1909387,
-  "0235559370eaceaf": 1794430694.1909397,
-  "30658a23a9b3eabf": 1794430694.1909401,
-  "ff37c07b88c6b108": 1794430694.1912725,
-  "4ebffc2aec27bc97": 1794430717.747477,
-  "951d8ae56fcbea96": 1794430717.747479,
-  "292cca3b69f0deb9": 1794430717.74748,
-  "6b69a1fc91ea5439": 1794430717.747481,
-  "ebd005036ec9eb7b": 1794430717.7474818,
-  "4b488c23b0f38a68": 1794430717.7474825,
-  "cf080a2cc45dd757": 1794430717.7474837,
-  "598666f135eed74f": 1794430717.7474842,
-  "9c0abde835c529b7": 1794430717.747485,
-  "9567aececfdaa778": 1794430717.747669,
   "f24f52694289d9c9": 1794432057.6398327,
   "c6638a380a67b6ed": 1794433871.620002,
   "debac2bd2cbabf89": 1794433871.6200044,
@@ -1499,7 +1479,17 @@
   "139fdb37c616744f": 1795035073.2376623,
   "d78a4c111f85a3e1": 1795035073.2376633,
   "9b7b13f8bd8a9509": 1795035073.2378783,
-  "be22b414c950159c": 1795035087.0134482
+  "be22b414c950159c": 1795035087.0134482,
+  "017ed2bd308a7d7f": 1795035694.2116156,
+  "64df110b0e930b62": 1795035694.211618,
+  "a4467f1a028dea53": 1795035694.2116196,
+  "d9ef100b3fd77bf7": 1795035694.2116208,
+  "7e9a29bc4d782c5c": 1795035694.2116215,
+  "ef938e87457baed1": 1795035694.2116232,
+  "02e8d3ed3059ec1d": 1795035694.2116241,
+  "cfa1e794782caf98": 1795035694.2116249,
+  "de02ebb7b4f313eb": 1795035694.211626,
+  "85e4dd26d18031b2": 1795035694.2118077
  },
  "pending": {},
  "queue": [],
@@ -2283,17 +2273,17 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795035391.297896,
+   "last_edit": 1795036030.8238142,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-19 01:56",
-  "items": 17,
+  "time": "2026-11-19 02:07",
+  "items": 19,
   "sample": [
-   "South Africa 557/10 v Bangladesh 400/10 & 100/5 *",
+   "South Africa 557/10 v Bangladesh 100/5 & 400/10 *",
    "Pakistan 325/10 v Sri Lanka 74/3 & 98/10 *",
    "Zimbabwe A 292/9 v Ireland A 293/1 *"
   ]
@@ -7789,9 +7779,9 @@
  },
  "ai_usage": {
   "date": "2026-11-19",
-  "ok": 18,
-  "fail": 38,
-  "limit": 36
+  "ok": 22,
+  "fail": 46,
+  "limit": 44
  },
  "posted_heads": [
   {
@@ -8116,7 +8106,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-19 01:56",
+  "time": "2026-11-19 02:07",
   "steps": []
  },
  "roundup_am": "2026-11-18",
@@ -8219,12 +8209,12 @@
  },
  "article_diag": {
   "date": "2026-11-19",
-  "tried": 3,
-  "decoded": 3,
-  "text": 3,
-  "story": 1
+  "tried": 4,
+  "decoded": 4,
+  "text": 4,
+  "story": 2
  },
- "ai_last_error": "01:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "02:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-19",
   "models": [
@@ -8266,7 +8256,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-19",
-   "ok": 12,
+   "ok": 13,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8274,7 +8264,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-19",
-   "ok": 12,
+   "ok": 13,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8282,7 +8272,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-19",
-   "ok": 12,
+   "ok": 13,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8290,7 +8280,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 12,
+   "ok": 13,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8298,7 +8288,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 12,
+   "ok": 13,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8306,14 +8296,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 12,
+   "ok": 13,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 12,
+   "ok": 13,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8322,9 +8312,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-19",
    "ok": 0,
-   "fail": 12,
+   "fail": 13,
    "items": 15,
-   "fail_streak": 2125,
+   "fail_streak": 2126,
    "last_status": 404
   }
  },
@@ -8513,13 +8503,13 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 5,
-  "old": 5,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-19 01",
+ "report_hour": "2026-11-19 02",
  "kawish_upload_times": {
   "_date": "2026-11-19",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8568,8 +8558,8 @@
   "date": "2026-11-19",
   "count": 0,
   "last": 1795027868.7861333,
-  "city_i": 12,
-  "dry": 1795035068.7704713
+  "city_i": 16,
+  "dry": 1795035685.212704
  },
  "gemini_day_dead": {
   "day": "2026-11-18",
@@ -9214,20 +9204,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-18 22:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 22:56",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-18 23:00",
    "ok": true,
    "n": 0,
@@ -9488,6 +9464,20 @@
   },
   {
    "t": "11-19 01:56",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 02:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 02:07",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14252,11 +14242,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-17 19:41",
-   "new": "سنڌ جي ورهاڱي جي ڪوشش ڪئي وئي ته ڪراچي ۾ رت وهندو: بلاول ڀٽو",
-   "old": "نظام کي تباهه ڪرايو ويو آهي: بلاول ڀٽو"
-  },
-  {
    "t": "11-17 20:02",
    "new": "اسانکي سياسي قيدين کي آزاد ڪرڻو پوندو: بلاول ڀٽو",
    "old": "نظام کي تباهه ڪرايو ويو آهي: بلاول ڀٽو"
@@ -14400,6 +14385,11 @@
    "t": "11-19 01:51",
    "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
    "old": "پيٽرول اگهه ۾ گهٽتائي"
+  },
+  {
+   "t": "11-19 02:01",
+   "new": "پاڪستان ۾ انٽرنيٽ سروس متاثر",
+   "old": "سنڌ | انٽرنيشنل سب ميرين ڪيبل ۾ خرابي، انٽرنيٽ صارفين کي مشڪلات"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14420,7 +14410,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 2
+  "repeat": 3
  },
  "_dup": true
 }
