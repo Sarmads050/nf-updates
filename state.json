@@ -1,13 +1,5 @@
 {
  "seen": {
-  "a67402ba48f64adc": 1794385518.046775,
-  "f3608830c77bdd4c": 1794385518.046778,
-  "4e49c44ce1fd28ec": 1794385518.0467792,
-  "b9fe1e4e906968a1": 1794385666.4063087,
-  "f4eb5d0e4479b34d": 1794385666.406503,
-  "cec8aea989b5b965": 1794386240.675644,
-  "30e63d7c18938e02": 1794386580.8766506,
-  "790fc50b35305b8b": 1794386604.679691,
   "8435da5929f01a28": 1794387056.8969018,
   "5f132a94eab7c084": 1794387684.0283453,
   "43666bd477b868c3": 1794387684.0283477,
@@ -1427,7 +1419,15 @@
   "63ef0568400818aa": 1794987675.0112658,
   "1c649a3eac4072c1": 1794988262.9569182,
   "c1a50bd41b995851": 1794988262.957073,
-  "02012d308218ef76": 1794989498.8329163
+  "02012d308218ef76": 1794989498.8329163,
+  "c0b8972f0d6b1f65": 1794991583.518722,
+  "ce003fe4d767f378": 1794991695.4572177,
+  "a1d21fcca9930990": 1794991695.45722,
+  "2f8ba74783b49dd7": 1794991695.457221,
+  "6270c15962ffdc48": 1794991695.4572225,
+  "503e133ad9736e92": 1794991730.7284377,
+  "7caaccf133681aff": 1794991730.728441,
+  "2401f0f70ad5fc00": 1794991730.7284422
  },
  "pending": {},
  "queue": [],
@@ -2182,18 +2182,18 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1794990391.9900074,
+   "last_edit": 1794992036.3337853,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 13:26",
+  "time": "2026-11-18 13:53",
   "items": 30,
   "sample": [
-   "South Africa 413/7 * v Bangladesh 400/10",
-   "Pakistan 262/8 * v Sri Lanka 98/10",
+   "South Africa 433/7 * v Bangladesh 400/10",
+   "Pakistan 297/8 * v Sri Lanka 98/10",
    "Chhattisgarh 228/4 v Odisha 177/8 *"
   ]
  },
@@ -7624,9 +7624,9 @@
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 191,
-  "fail": 320,
-  "limit": 318
+  "ok": 193,
+  "fail": 323,
+  "limit": 321
  },
  "posted_heads": [
   {
@@ -7951,7 +7951,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 13:26",
+  "time": "2026-11-18 13:53",
   "steps": []
  },
  "roundup_am": "2026-11-18",
@@ -8059,7 +8059,7 @@
   "text": 21,
   "story": 15
  },
- "ai_last_error": "12:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "13:48 gemini-3.7-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8101,15 +8101,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
-   "ok": 77,
+   "ok": 78,
    "fail": 6,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8117,7 +8117,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8125,7 +8125,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8133,7 +8133,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8141,14 +8141,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 83,
+   "ok": 84,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8157,9 +8157,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 83,
+   "fail": 84,
    "items": 15,
-   "fail_streak": 2049,
+   "fail_streak": 2050,
    "last_status": 404
   }
  },
@@ -8401,13 +8401,17 @@
  "sindh_stream": {
   "date": "2026-11-18",
   "count": 6,
-  "last": 1794989460.1022081,
-  "city_i": 12,
-  "dry": 1794989498.832919
+  "last": 1794991591.7209399,
+  "city_i": 16,
+  "dry": 1794991695.457224
  },
  "gemini_day_dead": {
   "day": "2026-11-18",
-  "models": []
+  "models": [
+   "gemini-flash-latest",
+   "gemini-3.8-flash",
+   "gemini-3.7-flash"
+  ]
  },
  "tg_done": [
   92058696,
@@ -9047,20 +9051,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-18 10:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 10:16",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-18 10:20",
    "ok": true,
    "n": 0,
@@ -9321,6 +9311,20 @@
   },
   {
    "t": "11-18 13:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 13:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 13:53",
    "ok": true,
    "n": 0,
    "ids": [],
