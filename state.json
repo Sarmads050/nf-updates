@@ -1,8 +1,5 @@
 {
  "seen": {
-  "25faa75d3a2a1e1b": 1794390059.4479926,
-  "3cc93cb864f28022": 1794390068.6443858,
-  "cae9fa7dc69ac7dd": 1794390083.7081358,
   "2143a598f47bcc49": 1794391293.1805024,
   "7374eec55877200a": 1794392515.924274,
   "f24d8932fcbc6275": 1794392515.9242766,
@@ -1434,7 +1431,19 @@
   "3e7b3e122c26be99": 1794994849.7864845,
   "d886464ca625542b": 1794994872.0261319,
   "01ab676cf8cf8b58": 1794994872.0261347,
-  "665dd0f22da97f33": 1794994872.0261366
+  "665dd0f22da97f33": 1794994872.0261366,
+  "204954643b62f646": 1794995486.0007398,
+  "b9cd82ed28f52acb": 1794995497.03591,
+  "ffb8ab61a7a8129a": 1794995497.0359135,
+  "b6ec1c14ad8a8ffd": 1794995497.0359147,
+  "2915b422820bf18a": 1794995497.0359163,
+  "c835fb16ad4c0132": 1794995497.035917,
+  "f448b944def274ec": 1794995497.0359175,
+  "00891a7374f4a020": 1794995497.0359185,
+  "7b60fb448f54653e": 1794995497.0359197,
+  "2625f8edbe903fa1": 1794995497.0359206,
+  "ce86eef46271f5ff": 1794995497.0360649,
+  "8193656a57946d08": 1794995530.8676443
  },
  "pending": {},
  "queue": [],
@@ -2190,18 +2199,18 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1794995177.7808108,
+   "last_edit": 1794995837.1955495,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 14:46",
+  "time": "2026-11-18 14:57",
   "items": 30,
   "sample": [
-   "South Africa 493/7 * v Bangladesh 400/10",
-   "Pakistan 325/10 v Sri Lanka 98/10 & 4 *",
+   "South Africa 499/8 * v Bangladesh 400/10",
+   "Pakistan 325/10 v Sri Lanka 8/1 & 98/10 *",
    "Chhattisgarh 228/4 v Odisha 177/8 *"
   ]
  },
@@ -7632,9 +7641,9 @@
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 212,
-  "fail": 353,
-  "limit": 353
+  "ok": 221,
+  "fail": 369,
+  "limit": 370
  },
  "posted_heads": [
   {
@@ -7959,7 +7968,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 14:46",
+  "time": "2026-11-18 14:57",
   "steps": []
  },
  "roundup_am": "2026-11-18",
@@ -8062,12 +8071,12 @@
  },
  "article_diag": {
   "date": "2026-11-18",
-  "tried": 24,
-  "decoded": 24,
-  "text": 23,
-  "story": 17
+  "tried": 25,
+  "decoded": 25,
+  "text": 24,
+  "story": 18
  },
- "ai_last_error": "14:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "14:52 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8109,7 +8118,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
-   "ok": 84,
+   "ok": 85,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -8117,7 +8126,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8125,7 +8134,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8133,7 +8142,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8141,7 +8150,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8149,14 +8158,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 90,
+   "ok": 91,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8165,9 +8174,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 90,
+   "fail": 91,
    "items": 15,
-   "fail_streak": 2056,
+   "fail_streak": 2057,
    "last_status": 404
   }
  },
@@ -8356,8 +8365,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 2,
-  "old": 1,
+  "found": 3,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8409,8 +8418,8 @@
  "sindh_stream": {
   "date": "2026-11-18",
   "count": 7,
-  "last": 1794992485.7446938,
-  "city_i": 6,
+  "last": 1794995471.6269789,
+  "city_i": 10,
   "dry": 1794994861.6942637
  },
  "gemini_day_dead": {
@@ -9062,20 +9071,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-18 11:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 11:28",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-18 11:30",
    "ok": true,
    "n": 0,
@@ -9336,6 +9331,20 @@
   },
   {
    "t": "11-18 14:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 14:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 14:57",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13772,11 +13781,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-16 19:28",
-   "new": "لاڙڪاڻو: زمين جي پراڻي دشمني تان فائرنگ، هڪ ڄڻو زخمي",
-   "old": "سنار جاگور ۾ زمين جي پراڻي دشمني تان ڌرين ۾ فائرنگ، 4 ڄڻا زخمي"
-  },
-  {
    "t": "11-17 01:02",
    "new": "پاڪستان ۽ سری لنڪا وچ ۾ ٽيسٽ ميچ",
    "old": "پاڪستان ۽ سريلنڪا راولپنڊي ميچ لاءِ تيار"
@@ -13920,6 +13924,11 @@
    "t": "11-18 12:41",
    "new": "پاڪستان ۽ سری لنڪا جو ٻيون ٽيسٽ ميچ",
    "old": "وڪيٽ! پاڪستان جو رانديگر آئوٽ، 5 وڪيٽون ڪري پيون"
+  },
+  {
+   "t": "11-18 14:51",
+   "new": "پاڪستان کي بچائڻ لاءِ نوان صوبا ضروري آهن: مصطفيٰ ڪمال",
+   "old": "رات جون خبرون | اڱارو، 17 نومبر 2026"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13936,10 +13945,11 @@
  "quality": {
   "date": "2026-11-18",
   "editor_fixed": 17,
-  "editor_rejected": 2,
+  "editor_rejected": 3,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 10
- }
+  "repeat": 11
+ },
+ "_dup": true
 }
