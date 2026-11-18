@@ -1,11 +1,5 @@
 {
  "seen": {
-  "6ce8060e6676ef74": 1794375054.030073,
-  "d1487e161168f497": 1794375067.9429996,
-  "828b1f559b0e0c89": 1794375067.9430008,
-  "2c941efff1da5b2d": 1794375077.615647,
-  "380952303c49c420": 1794375077.61565,
-  "2682f51fff6a3a37": 1794375077.6157894,
   "51143ed480a151ba": 1794376266.9897323,
   "ba0837eef4536a11": 1794376266.9897366,
   "8ad175405501a072": 1794377473.666327,
@@ -1437,7 +1431,9 @@
   "3c8577a524eed980": 1794978083.4203842,
   "93602bd7083f4f1e": 1794978687.1119335,
   "39c99973f02f330b": 1794978687.1119363,
-  "ecc7b62cf422c3da": 1794979890.5702114
+  "ecc7b62cf422c3da": 1794979890.5702114,
+  "cee48968a772fecf": 1794980470.154002,
+  "02f7ab2883290abb": 1794980498.8551638
  },
  "pending": {},
  "queue": [],
@@ -1520,7 +1516,7 @@
  "sindh_single": {
   "date": "2026-11-18",
   "count": 0,
-  "last": 1794972133.805495,
+  "last": 1794980494.571387,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1581,7 +1577,8 @@
    "a450e386ad507023",
    "a80b88d54801d26d",
    "3a16186af281599d",
-   "602df4a52b63d468"
+   "602df4a52b63d468",
+   "02f7ab2883290abb"
   ]
  },
  "last_post_id": "1444130002106066_122122290753503839",
@@ -2183,19 +2180,19 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1794980225.7348301,
+   "last_edit": 1794980803.010149,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-18 10:37",
+  "time": "2026-11-18 10:46",
   "items": 29,
   "sample": [
    "South Africa 386/7 * v Bangladesh 400/10",
-   "Pakistan 157/4 * v Sri Lanka 98/10",
-   "Chhattisgarh 228/4 v Odisha 119/3 *"
+   "Pakistan 170/4 * v Sri Lanka 98/10",
+   "Chhattisgarh 228/4 v Odisha 141/5 *"
   ]
  },
  "agri_news": {
@@ -7625,9 +7622,9 @@
  },
  "ai_usage": {
   "date": "2026-11-18",
-  "ok": 145,
-  "fail": 248,
-  "limit": 244
+  "ok": 146,
+  "fail": 250,
+  "limit": 246
  },
  "posted_heads": [
   {
@@ -7952,7 +7949,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-18 10:37",
+  "time": "2026-11-18 10:46",
   "steps": []
  },
  "roundup_am": "2026-11-18",
@@ -8060,7 +8057,7 @@
   "text": 18,
   "story": 13
  },
- "ai_last_error": "10:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-18",
   "models": [
@@ -8102,7 +8099,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-18",
-   "ok": 63,
+   "ok": 64,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8110,7 +8107,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-18",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8118,7 +8115,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-18",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8126,7 +8123,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8134,7 +8131,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8142,14 +8139,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-18",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-18",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8158,9 +8155,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-18",
    "ok": 0,
-   "fail": 66,
+   "fail": 67,
    "items": 15,
-   "fail_streak": 2032,
+   "fail_streak": 2033,
    "last_status": 404
   }
  },
@@ -8349,8 +8346,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 3,
-  "old": 3,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9052,20 +9049,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-18 07:21",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-18 07:28",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-18 07:30",
    "ok": true,
    "n": 0,
@@ -9326,6 +9309,20 @@
   },
   {
    "t": "11-18 10:37",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 10:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-18 10:46",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14012,11 +14009,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-16 08:51",
-   "new": "سنڌ | محرابپور ۽ ٻين علائقن ۾ بجلي جي معطلي جو اعلان",
-   "old": "صبح جون سنڌ جون اهم خبرون"
-  },
-  {
    "t": "11-16 16:11",
    "new": "خيرپور مان ٻن سالن جو ٻار ننگر ۾ پئجي فوت",
    "old": "سوڀوديرو: ڊرينيج جي کليل نالي ۾ ڪري معصوم ٻار فوت"
@@ -14160,6 +14152,11 @@
    "t": "11-18 08:21",
    "new": "پيٽرول جي قيمت ۾ ٽي رپيا گهٽايل",
    "old": "پيٽرول اگهه ۾ گهٽتائي"
+  },
+  {
+   "t": "11-18 10:41",
+   "new": "سنڌ | بجلي جي قيمت ۾ واڌ جو امڪان",
+   "old": "بجلي جي اگهن ۾ واڌ جو امڪان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14180,6 +14177,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 8
- }
+  "repeat": 9
+ },
+ "_dup": true
 }
