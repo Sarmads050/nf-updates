@@ -1,9 +1,5 @@
 {
  "seen": {
-  "60aabd111d6bd0e0": 1794451266.5959709,
-  "37e18ea51a102e02": 1794451266.595972,
-  "8f2ab1234dfa35f0": 1794451266.5959728,
-  "30820f8e57015402": 1794451266.596082,
   "0e0f47a5b908afc9": 1794451852.4482455,
   "99e6d4ef55ac8d31": 1794453672.1658912,
   "f7923948e6e65db4": 1794453672.1658936,
@@ -1469,7 +1465,17 @@
   "19e3d0ce70874745": 1795055495.8835428,
   "c188bd879368d6a9": 1795055495.8835433,
   "0f9abc9ae3996940": 1795055495.8837428,
-  "882d082b92b9b190": 1795056053.858661
+  "882d082b92b9b190": 1795056053.858661,
+  "39c0eb9e87e58f36": 1795056675.6247063,
+  "a39d53b2b5a04fb8": 1795056675.6247091,
+  "dad6b313874119f4": 1795056675.62471,
+  "604f283fa031bf53": 1795056675.6247108,
+  "b908ef3ac0d40633": 1795056675.6247118,
+  "672567e9d303de1b": 1795056675.6247122,
+  "7d12ad2fc79dc277": 1795056675.6247132,
+  "99d92200dd46bb9b": 1795056675.624714,
+  "b611e3224ba3c7f3": 1795056675.6247149,
+  "4a229ebcb9a6fa58": 1795056675.624855
  },
  "pending": {},
  "queue": [],
@@ -2240,14 +2246,14 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795056382.7244027,
+   "last_edit": 1795056992.873634,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-19 07:46",
+  "time": "2026-11-19 07:56",
   "items": 17,
   "sample": [
    "South Africa 557/10 v Bangladesh 400/10 & 100/5 *",
@@ -7762,9 +7768,9 @@
  },
  "ai_usage": {
   "date": "2026-11-19",
-  "ok": 87,
-  "fail": 163,
-  "limit": 158
+  "ok": 89,
+  "fail": 167,
+  "limit": 162
  },
  "posted_heads": [
   {
@@ -8089,7 +8095,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-19 07:46",
+  "time": "2026-11-19 07:56",
   "steps": []
  },
  "roundup_am": "2026-11-18",
@@ -8192,12 +8198,12 @@
  },
  "article_diag": {
   "date": "2026-11-19",
-  "tried": 14,
+  "tried": 15,
   "decoded": 14,
   "text": 13,
   "story": 8
  },
- "ai_last_error": "07:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "07:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-19",
   "models": [
@@ -8240,14 +8246,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-19",
    "ok": 45,
-   "fail": 3,
+   "fail": 4,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-19",
-   "ok": 46,
+   "ok": 47,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8255,7 +8261,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-19",
-   "ok": 46,
+   "ok": 47,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8263,7 +8269,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8271,7 +8277,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8279,14 +8285,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 48,
+   "ok": 49,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8295,9 +8301,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-19",
    "ok": 0,
-   "fail": 48,
+   "fail": 49,
    "items": 15,
-   "fail_streak": 2161,
+   "fail_streak": 2162,
    "last_status": 404
   }
  },
@@ -8486,8 +8492,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 7,
-  "old": 6,
+  "found": 9,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8541,8 +8547,8 @@
   "date": "2026-11-19",
   "count": 0,
   "last": 1795027868.7861333,
-  "city_i": 24,
-  "dry": 1795056065.217832
+  "city_i": 6,
+  "dry": 1795056671.2169256
  },
  "gemini_day_dead": {
   "day": "2026-11-18",
@@ -9187,20 +9193,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-19 04:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-19 04:45",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-19 04:50",
    "ok": true,
    "n": 0,
@@ -9461,6 +9453,20 @@
   },
   {
    "t": "11-19 07:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 07:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 07:56",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14166,11 +14172,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-18 05:11",
-   "new": "ملڪي ڪرنٽ اڪائونٽ سرپلس ٿي ويو",
-   "old": "پاڪستان جو ڪرنٽ اڪائونٽ سرپلس"
-  },
-  {
    "t": "11-18 06:31",
    "new": "سنڌ ۾ ڪڻڪ جو سخت کوٽ جو خطرو",
    "old": "سنڌ | سنڌ ۾ گندم جو بحران"
@@ -14314,6 +14315,11 @@
    "t": "11-19 07:31",
    "new": "پيٽرول جي قيمت ۾ ٽن روپين گھٽتائي",
    "old": "پيٽروليم شين جون قيمتون تبديل"
+  },
+  {
+   "t": "11-19 07:51",
+   "new": "پاڪستان ۾ انٽرنيٽ سروس متاثر ٿين جو خطرو",
+   "old": "سنڌ | انٽرنيشنل سب ميرين ڪيبل ۾ خرابي، انٽرنيٽ صارفين کي مشڪلات"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14334,7 +14340,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 7
+  "repeat": 8
  },
  "_dup": true
 }
