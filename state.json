@@ -1,6 +1,5 @@
 {
  "seen": {
-  "4e247355140ddd81": 1794462053.3719268,
   "2fcc1d025249c4f8": 1794462683.2120447,
   "ddd0e905bdd1aeb8": 1794463869.9232507,
   "0401d44e3ef982b7": 1794463869.9232535,
@@ -1471,7 +1470,9 @@
   "dc566e3eaf6ab0cf": 1795065680.6657467,
   "22dfcb29d78439a0": 1795065726.499848,
   "7c7d6197e9c8c0ce": 1795065726.4998517,
-  "9bf9edad8a55cb50": 1795066301.3373175
+  "9bf9edad8a55cb50": 1795066301.3373175,
+  "c345ef3ada468aee": 1795067464.1200821,
+  "8345c77aeb5beffc": 1795067464.1200852
  },
  "pending": {},
  "queue": [],
@@ -1489,7 +1490,7 @@
   "last_week": "",
   "last_check": "2026-11-19"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-3.1-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1612,17 +1613,8 @@
    "372c856ae4c1ea8f"
   ]
  },
- "last_post_id": "1444130002106066_122122579809503839",
+ "last_post_id": "1444130002106066_122122583445503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122122344741503839",
-   "title": "پي ٽي اي پاران خانگي آءِ او ٽي نيٽ ورڪس جي رجسٽريشن لاءِ نوان ضابطا ۽ فيون طئي ڪيون پيون",
-   "t": 1794996278.739821,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122122344741503839"
-  },
   {
    "id": "1444130002106066_122122349739503839",
    "title": "پ پنجاب جي ورھاست تي قراردادون، سنڌ جي مخالفت ڇو؟ ملڪ احمد خان",
@@ -1939,6 +1931,18 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122122579809503839"
+  },
+  {
+   "id": "1444130002106066_122122583445503839",
+   "title": "ريفرنڊم بدران چونڊون ڪرايو: بلاول ڀٽو",
+   "t": 1795067603.2572813,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122122583445503839"
   }
  ],
  "share_sent": {
@@ -2222,18 +2226,18 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795067162.1734772,
+   "last_edit": 1795067908.8654203,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-19 10:46",
+  "time": "2026-11-19 10:58",
   "items": 17,
   "sample": [
    "South Africa 557/10 v Bangladesh 400/10 & 100/5 *",
-   "Pakistan 325/10 v Sri Lanka 125/4 & 98/10 *",
+   "Pakistan 325/10 v Sri Lanka 134/5 & 98/10 *",
    "New Zealand 243/5 * v India"
   ]
  },
@@ -2244,17 +2248,11 @@
  },
  "all_posts": {
   "date": "2026-11-19",
-  "count": 12,
-  "last": 1795066489.6096363
+  "count": 13,
+  "last": 1795067597.6042333
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122118706293503839",
-    "sec": "public_news",
-    "cat": "dollar_gold_business",
-    "t": 1794105713
-   },
    {
     "id": "1444130002106066_122118714927503839",
     "sec": "sindh_single",
@@ -4648,6 +4646,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1795066496
+   },
+   {
+    "id": "1444130002106066_122122583445503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1795067603
    }
   ]
  },
@@ -7792,15 +7796,11 @@
  },
  "ai_usage": {
   "date": "2026-11-19",
-  "ok": 125,
-  "fail": 229,
-  "limit": 225
+  "ok": 131,
+  "fail": 237,
+  "limit": 234
  },
  "posted_heads": [
-  {
-   "h": "Punjab to Complete 2 New Underpasses by December",
-   "t": 1794842569
-  },
   {
    "h": "Three-Day Urs of Sakhi Jam Datar Begins in Jam Sahib - UrduPoint",
    "t": 1794855772
@@ -8116,10 +8116,14 @@
   {
    "h": "Saqib Khan ruled out of further bowling in Rawalpindi Test",
    "t": 1795066496
+  },
+  {
+   "h": "ريفرنڊم بدران چونڊون ڪرايو، کٽي ٻيھر ثابت ڪندس تہ سنڌ مون کي ووٽ ڇو ڏنو: بلاول ڀٽو",
+   "t": 1795067603
   }
  ],
  "last_errors": {
-  "time": "2026-11-19 10:46",
+  "time": "2026-11-19 10:58",
   "steps": []
  },
  "roundup_am": "2026-11-19",
@@ -8227,7 +8231,7 @@
   "text": 16,
   "story": 11
  },
- "ai_last_error": "10:32 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-19",
   "models": [
@@ -8241,13 +8245,13 @@
  },
  "img_diag": {
   "date": "2026-11-19",
-  "tried": 11,
+  "tried": 12,
   "gemini": 0,
   "pollinations": 7,
   "skip": 1,
-  "fail": 0,
-  "last_note": "cricket ball and stumps",
-  "mismatch": 764,
+  "fail": 1,
+  "last_note": "ballot box and papers",
+  "mismatch": 766,
   "unverified": 2
  },
  "gemini_img": {
@@ -8269,7 +8273,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-19",
-   "ok": 59,
+   "ok": 60,
    "fail": 7,
    "items": 10,
    "fail_streak": 0,
@@ -8277,7 +8281,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-19",
-   "ok": 64,
+   "ok": 65,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8285,7 +8289,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-19",
-   "ok": 64,
+   "ok": 65,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8293,7 +8297,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8301,7 +8305,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8309,14 +8313,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8325,9 +8329,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-19",
    "ok": 0,
-   "fail": 66,
+   "fail": 67,
    "items": 15,
-   "fail_streak": 2179,
+   "fail_streak": 2180,
    "last_status": 404
   }
  },
@@ -8511,13 +8515,13 @@
  "region_posts": {
   "date": "2026-11-19",
   "district": 0,
-  "sindh": 1,
+  "sindh": 2,
   "pakistan": 9
  },
  "report_acc": {
-  "posted": 2,
-  "found": 11,
-  "old": 11,
+  "posted": 3,
+  "found": 14,
+  "old": 14,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8569,9 +8573,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-19",
-  "count": 1,
-  "last": 1795065662.4412956,
-  "city_i": 6,
+  "count": 2,
+  "last": 1795067461.7671251,
+  "city_i": 10,
   "dry": 1795065680.6657681
  },
  "gemini_day_dead": {
@@ -8582,7 +8586,8 @@
    "gemini-3.7-flash",
    "gemini-3.6-flash",
    "gemini-3.5-flash",
-   "gemini-flash-lite-latest"
+   "gemini-flash-lite-latest",
+   "gemini-3.5-flash-lite"
   ]
  },
  "tg_done": [
@@ -9172,6 +9177,14 @@
    "t": 1795066496,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "e6b5b870b6c1a684",
+   "h": "ريفرنڊم بدران چونڊون ڪرايو: بلاول ڀٽو",
+   "x": "پاڪستان پيپلز پارٽي جي چيئرمين بلاول ڀٽو زرداري سنڌ ۾ نون صوبن بابت ريفرنڊم ڪرائڻ واري بحث کي رد ڪندي مطالبو ڪيو آهي ته ريفرنڊم بدران چونڊ سڌارا آڻي ڇهن مهينن اندر ملڪ ۾ عام چونڊون ڪرايون وڃن، هو ٻيهر چونڊون کٽي ثابت ڪندو ته سنڌ جي عوام کيس ووٽ ڇو ڏنو آهي. خانگي ٽي وي سان ڳالهائيندي بلاول ڀٽو زرداري چيو ته صوبن جي معاملي تي ريفرنڊم ڪرائڻ بدران ملڪ ۾ سياسي ۽ جمهوري عمل کي مضبوط ڪيو وڃي. جيڪڏهن ڇهن مهينن اندر چونڊون ڪرايون ويون ته هو ٻيهر ڪاميابي حاصل ڪري عوام جي حمايت ثابت ڪندا. بيان: پاڪستان پيپلز پارٽي جو چيئرمين بلاول ڀٽو زرداري",
+   "t": 1795067603,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9188,20 +9201,6 @@
   "last": 1795005085.9964194
  },
  "tg_debug": [
-  {
-   "t": "11-19 07:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-19 07:36",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-19 07:40",
    "ok": true,
@@ -9467,87 +9466,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-19 10:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 10:58",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-19",
  "recent_posts": [
-  {
-   "t": 1794894252,
-   "h": "سنڌ لاءِ درآمدي گندم پهچي وئي",
-   "b": "سنڌ ۽ ڪراچي جي گندم بحران تي قابو پائڻ لاءِ رومانیہ کان درآمدي گندم جو جهاز ڪراچي پورٽ تي لنگر انداز ٿي ويو",
-   "tt": [
-    "درامدي",
-    "سنڌ",
-    "پهچي",
-    "گندم"
-   ],
-   "bt": [
-    "اضافي",
-    "امد",
-    "اميد",
-    "انداز",
-    "اهي۔",
-    "اٽو",
-    "باوجود",
-    "بحران",
-    "جهاز",
-    "درامد",
-    "درامدي",
-    "ذخيرن",
-    "رليف",
-    "رومانيه",
-    "سنڌ",
-    "طرفان",
-    "عوام",
-    "قابو",
-    "لنگر",
-    "مارڪيٽ",
-    "مسلسل",
-    "ملڻ",
-    "مهگو",
-    "نئين",
-    "وڪرو",
-    "پئي",
-    "پائڻ",
-    "پهچي",
-    "پهچڻ",
-    "پورٽ",
-    "پيو",
-    "ٿئي۔",
-    "ڪان",
-    "ڪراچي",
-    "ڪهيپ",
-    "ڪيل",
-    "گندم"
-   ]
-  },
-  {
-   "t": 1794894264,
-   "h": "وڪيٽ! سري لنڪا جو رانديگر آئوٽ، 4 وڪيٽون ڪري پيون",
-   "b": "هاڻوڪو اسڪور: پاڪستان سري لنڪا 27/4 🏏",
-   "tt": [
-    "ائوٽ،",
-    "رانديگر",
-    "سري",
-    "لنڪا",
-    "وڪيٽ",
-    "وڪيٽون",
-    "پيون"
-   ],
-   "bt": [
-    "#27",
-    "ائوٽ،",
-    "اسڪور",
-    "رانديگر",
-    "سري",
-    "لنڪا",
-    "هاڻوڪو",
-    "وڪيٽ",
-    "وڪيٽون",
-    "پاڪستان",
-    "پيون"
-   ]
-  },
   {
    "t": 1794895336,
    "h": "اداڪاره عائشه نور شوبز انڊسٽري ڇڏڻ جو سبب ٻڌائي ڇڏيو",
@@ -13856,6 +13792,58 @@
     "ڪرڪيٽ",
     "ڪڻڻ"
    ]
+  },
+  {
+   "t": 1795067603,
+   "h": "ريفرنڊم بدران چونڊون ڪرايو: بلاول ڀٽو",
+   "b": "پاڪستان پيپلز پارٽي جي چيئرمين بلاول ڀٽو زرداري سنڌ ۾ نون صوبن بابت ريفرنڊم ڪرائڻ واري بحث کي رد ڪندي مطالبو",
+   "tt": [
+    "بدران",
+    "بلاول",
+    "ريفرنڊم",
+    "ڀٽو",
+    "چونڊون",
+    "ڪرايو"
+   ],
+   "bt": [
+    "اندر",
+    "اهي",
+    "اڻي",
+    "بابت",
+    "بحث",
+    "بدران",
+    "بلاول",
+    "ثابت",
+    "ريفرنڊم",
+    "زرداري",
+    "سنڌ",
+    "سڌارا",
+    "صوبن",
+    "عام",
+    "عوام",
+    "مطالبو",
+    "ملڪ",
+    "مهينن",
+    "نون",
+    "ووٽ",
+    "وڃن،",
+    "ٻيهر",
+    "پارٽي",
+    "پاڪستان",
+    "پيپلز",
+    "ڀٽو",
+    "چونڊ",
+    "چونڊون",
+    "چيئرمين",
+    "ڇهن",
+    "ڪرائڻ",
+    "ڪرايو",
+    "ڪرايون",
+    "ڪندو",
+    "ڪندي",
+    "ڪيس",
+    "ڪٽي"
+   ]
   }
  ],
  "repeat_log": [
@@ -14023,7 +14011,7 @@
  },
  "quality": {
   "date": "2026-11-19",
-  "editor_fixed": 9,
+  "editor_fixed": 10,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
