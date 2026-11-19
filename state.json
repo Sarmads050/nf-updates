@@ -1570,7 +1570,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-19",
-  "count": 1
+  "count": 2
  },
  "last_digest": "2026-11-19",
  "alert_day": "2026-10-20",
@@ -1628,7 +1628,7 @@
   ]
  },
  "last_daily": "2026-11-19",
- "roundup_pm": "2026-11-18",
+ "roundup_pm": "2026-11-19",
  "replied": [],
  "q_index": 8,
  "last_question": "2026-11-18",
@@ -1704,7 +1704,7 @@
    "e1ddc4e1c5f6fc5c"
   ]
  },
- "last_post_id": "1444130002106066_122122676655503839",
+ "last_post_id": "1444130002106066_122122679847503839",
  "shareable": [
   {
    "id": "1444130002106066_122122449321503839",
@@ -2301,22 +2301,22 @@
    "wkts": {
     "Sri Lanka|1": 10,
     "Pakistan|1": 10,
-    "Sri Lanka|2": 9
+    "Sri Lanka|2": 10
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795093033.770192,
+   "last_edit": 1795093660.635352,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-19 17:57",
+  "time": "2026-11-19 18:07",
   "items": 17,
   "sample": [
-   "South Africa 557/10 & 12/1 * v Bangladesh 168/10 & 400/10",
-   "Pakistan 325/10 v Sri Lanka 98/10 & 309/9 *",
+   "South Africa 12/1 & 557/10 * v Bangladesh 400/10 & 168/10",
+   "Pakistan 325/10 v Sri Lanka 309/9 & 98/10 *",
    "New Zealand 243/5 * v India"
   ]
  },
@@ -2327,8 +2327,8 @@
  },
  "all_posts": {
   "date": "2026-11-19",
-  "count": 28,
-  "last": 1795092722.68088
+  "count": 29,
+  "last": 1795093350.0836947
  },
  "perf": {
   "posts": [
@@ -7899,9 +7899,9 @@
  },
  "ai_usage": {
   "date": "2026-11-19",
-  "ok": 282,
-  "fail": 456,
-  "limit": 453
+  "ok": 285,
+  "fail": 462,
+  "limit": 459
  },
  "posted_heads": [
   {
@@ -8226,7 +8226,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-19 17:57",
+  "time": "2026-11-19 18:07",
   "steps": []
  },
  "roundup_am": "2026-11-19",
@@ -8334,7 +8334,7 @@
   "text": 29,
   "story": 24
  },
- "ai_last_error": "17:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:02 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-19",
   "models": [
@@ -8376,7 +8376,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-19",
-   "ok": 98,
+   "ok": 99,
    "fail": 10,
    "items": 10,
    "fail_streak": 0,
@@ -8384,7 +8384,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-19",
-   "ok": 105,
+   "ok": 106,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8392,7 +8392,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-19",
-   "ok": 105,
+   "ok": 106,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8400,7 +8400,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8408,7 +8408,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8416,14 +8416,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 108,
+   "ok": 109,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8431,7 +8431,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-19",
-   "ok": 21,
+   "ok": 22,
    "fail": 87,
    "items": 15,
    "fail_streak": 0,
@@ -8602,18 +8602,18 @@
  "region_posts": {
   "date": "2026-11-19",
   "district": 0,
-  "sindh": 11,
+  "sindh": 12,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 25,
-  "old": 25,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-19 17",
+ "report_hour": "2026-11-19 18",
  "kawish_upload_times": {
   "_date": "2026-11-19",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9300,20 +9300,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-19 14:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-19 14:45",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-19 14:50",
    "ok": true,
    "n": 0,
@@ -9578,42 +9564,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-19 18:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 18:07",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-19",
  "recent_posts": [
-  {
-   "t": 1794920523,
-   "h": "شام جون سنڌ جون اهم خبرون",
-   "b": "17 نومبر 2026 1️⃣ بیرسٹر گوہر کا بانی پی ٹی آئی کو اسپتال منتقل کرنے کا مطالبہ چیئرمین پی ٹی آئی بیرسٹر",
-   "tt": [
-    "اهم",
-    "خبرون",
-    "سنڌ",
-    "شام"
-   ],
-   "bt": [
-    "#17",
-    "ائي",
-    "اسپتال",
-    "اهم",
-    "باني",
-    "بيرسٹر",
-    "جيل",
-    "خان",
-    "خبرون",
-    "سنڌ",
-    "شام",
-    "عمران",
-    "مطالبه",
-    "منتقل",
-    "نومبر",
-    "چيئرمين",
-    "ڪرديا۔",
-    "ڪرني",
-    "گوهر"
-   ]
-  },
   {
    "t": 1794921213,
    "h": "پاڪستان جي سريلنڪا خلاف پهرين اننگز ۾ شاندار راند",
@@ -13483,6 +13451,47 @@
     "ڌمڪين",
     "ڪرڻ",
     "گڏيل"
+   ]
+  },
+  {
+   "t": 1795093350,
+   "h": "شام جون سنڌ جون اهم خبرون",
+   "b": "19 نومبر 2026 1️⃣ سندھ ۽ ڪي پي جو انفرااسٹرڪچر ڊولپمينٽ سيس غيرقانوني قرار وفاقي آئيني عدالت سنڌ ۽ ڪي پي جو",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "شام"
+   ],
+   "bt": [
+    "#19",
+    "ائيني",
+    "اختيار",
+    "انفرااسٹرڪچر",
+    "اهم",
+    "اهي",
+    "حڪومت",
+    "خبرون",
+    "سنده",
+    "سنڌ",
+    "سيس",
+    "شام",
+    "صوبن",
+    "عائد",
+    "عدالت",
+    "غيرائيني",
+    "غيرقانوني",
+    "فيصلي",
+    "قرار",
+    "نومبر",
+    "وفاقي",
+    "ٻاهر",
+    "پنهنجي",
+    "ڇڏيو",
+    "ڊولپمينٽ",
+    "ڏئي",
+    "ڪان",
+    "ڪرڻ"
    ]
   }
  ],
