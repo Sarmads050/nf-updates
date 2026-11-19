@@ -1483,7 +1483,13 @@
   "e9c20c5af39e2bf3": 1795072271.482261,
   "a8db11c42eead853": 1795072271.4822638,
   "798de78dc0589c61": 1795072859.6922998,
-  "51b51bb14d0ac385": 1795072859.6926003
+  "51b51bb14d0ac385": 1795072859.6926003,
+  "b601ed963e634110": 1795073484.4418828,
+  "0d92ccfb197cfdde": 1795073484.4418862,
+  "d79a309eb235b4b7": 1795073484.4418879,
+  "16f23453630a2a79": 1795073484.4418888,
+  "63aa4ec11594ea36": 1795073484.4418895,
+  "e1ddc4e1c5f6fc5c": 1795073500.1197956
  },
  "pending": {},
  "queue": [],
@@ -1556,7 +1562,7 @@
  "sindh_single": {
   "date": "2026-11-19",
   "count": 0,
-  "last": 1795065743.3572102,
+  "last": 1795073498.6315994,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1621,7 +1627,8 @@
    "02f7ab2883290abb",
    "267315e917e756d9",
    "af706e076d01b066",
-   "372c856ae4c1ea8f"
+   "372c856ae4c1ea8f",
+   "e1ddc4e1c5f6fc5c"
   ]
  },
  "last_post_id": "1444130002106066_122122604169503839",
@@ -2233,22 +2240,22 @@
    "wkts": {
     "Sri Lanka|1": 10,
     "Pakistan|1": 10,
-    "Sri Lanka|2": 5
+    "Sri Lanka|2": 10
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795073163.6892765,
+   "last_edit": 1795073815.3161685,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-19 12:26",
+  "time": "2026-11-19 12:36",
   "items": 17,
   "sample": [
-   "South Africa 557/10 v Bangladesh 400/10 & 100/5 *",
-   "Pakistan 325/10 v Sri Lanka 98/10 & 167/5 *",
+   "South Africa 557/10 v Bangladesh 100/5 & 400/10 *",
+   "Pakistan 325/10 v Sri Lanka 167/5 & 98/10 *",
    "New Zealand 243/5 * v India"
   ]
  },
@@ -7807,9 +7814,9 @@
  },
  "ai_usage": {
   "date": "2026-11-19",
-  "ok": 155,
-  "fail": 269,
-  "limit": 266
+  "ok": 158,
+  "fail": 275,
+  "limit": 272
  },
  "posted_heads": [
   {
@@ -8134,7 +8141,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-19 12:26",
+  "time": "2026-11-19 12:36",
   "steps": []
  },
  "roundup_am": "2026-11-19",
@@ -8242,7 +8249,7 @@
   "text": 16,
   "story": 11
  },
- "ai_last_error": "12:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "12:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-19",
   "models": [
@@ -8284,7 +8291,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-19",
-   "ok": 68,
+   "ok": 69,
    "fail": 8,
    "items": 10,
    "fail_streak": 0,
@@ -8292,7 +8299,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-19",
-   "ok": 74,
+   "ok": 75,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8300,7 +8307,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-19",
-   "ok": 74,
+   "ok": 75,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8308,7 +8315,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8316,7 +8323,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8324,14 +8331,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8340,9 +8347,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-19",
    "ok": 0,
-   "fail": 76,
+   "fail": 77,
    "items": 15,
-   "fail_streak": 2189,
+   "fail_streak": 2190,
    "last_status": 404
   }
  },
@@ -8531,8 +8538,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 8,
-  "old": 8,
+  "found": 12,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8586,8 +8593,8 @@
   "date": "2026-11-19",
   "count": 6,
   "last": 1795072268.7641897,
-  "city_i": 4,
-  "dry": 1795065680.6657681
+  "city_i": 8,
+  "dry": 1795073474.1394372
  },
  "gemini_day_dead": {
   "day": "2026-11-18",
@@ -9203,7 +9210,8 @@
   "done": [
    "08:00",
    "09:30",
-   "11:00"
+   "11:00",
+   "12:30"
   ]
  },
  "kawish_queue": [],
@@ -9213,20 +9221,6 @@
   "last": 1795005085.9964194
  },
  "tg_debug": [
-  {
-   "t": "11-19 09:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-19 09:17",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-19 09:20",
    "ok": true,
@@ -9488,6 +9482,20 @@
   },
   {
    "t": "11-19 12:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 12:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 12:36",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13761,11 +13769,6 @@
  "repeat_log": [
   {
    "t": "11-18 07:22",
-   "new": "پيٽرول سستو ٿي ويو",
-   "old": "پيٽرول اگهه ۾ گهٽتائي"
-  },
-  {
-   "t": "11-18 07:22",
    "new": "ڪڻڪ جي اگهن ۾ واڌ جو امڪان",
    "old": "بجلي جي اگهن ۾ واڌ جو امڪان"
   },
@@ -13908,6 +13911,11 @@
    "t": "11-19 09:41",
    "new": "پاڪستان ۽ سری لنڪا وچ ۾ ٽيسٽ ميچ",
    "old": "پاڪستان ۽ سري لنڪا وچ ۾ ٽيسٽ ميچ: ٻئي ڏينهن جو احوال"
+  },
+  {
+   "t": "11-19 12:31",
+   "new": "سنڌ | برطانیہ ۾ رهندڙ پاڪستانين لاءِ اهم خبر",
+   "old": "سنڌ | انٽرنيشنل سب ميرين ڪيبل ۾ خرابي، انٽرنيٽ صارفين کي مشڪلات"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13928,6 +13936,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 9
- }
+  "repeat": 10
+ },
+ "_dup": true
 }
