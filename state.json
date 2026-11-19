@@ -1541,7 +1541,9 @@
   "734284c570059234": 1795099880.6970453,
   "2c892e08ab6e2316": 1795100468.8393345,
   "a71a90318ee6118c": 1795101144.1089265,
-  "41082bf5b7c4e6f5": 1795101699.2820807
+  "41082bf5b7c4e6f5": 1795101699.2820807,
+  "c0ede5d9cf0e4b91": 1795102289.9463186,
+  "94b6286707505017": 1795102289.9463215
  },
  "pending": {},
  "queue": [],
@@ -2316,14 +2318,14 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795102029.498853,
+   "last_edit": 1795102594.8013496,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-19 20:27",
+  "time": "2026-11-19 20:36",
   "items": 17,
   "sample": [
    "South Africa 557/10 & 12/1 * v Bangladesh 168/10 & 400/10",
@@ -7926,9 +7928,9 @@
  },
  "ai_usage": {
   "date": "2026-11-19",
-  "ok": 303,
-  "fail": 493,
-  "limit": 489
+  "ok": 304,
+  "fail": 495,
+  "limit": 491
  },
  "posted_heads": [
   {
@@ -8253,7 +8255,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-19 20:27",
+  "time": "2026-11-19 20:36",
   "steps": []
  },
  "roundup_am": "2026-11-19",
@@ -8361,7 +8363,7 @@
   "text": 30,
   "story": 25
  },
- "ai_last_error": "20:13 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "20:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-19",
   "models": [
@@ -8403,7 +8405,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-19",
-   "ok": 110,
+   "ok": 111,
    "fail": 13,
    "items": 10,
    "fail_streak": 0,
@@ -8411,7 +8413,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-19",
-   "ok": 120,
+   "ok": 121,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8419,7 +8421,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-19",
-   "ok": 120,
+   "ok": 121,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8427,7 +8429,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8435,7 +8437,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8443,14 +8445,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8458,7 +8460,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-19",
-   "ok": 35,
+   "ok": 36,
    "fail": 88,
    "items": 15,
    "fail_streak": 0,
@@ -8634,8 +8636,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 10,
-  "old": 9,
+  "found": 15,
+  "old": 14,
   "irrelevant": 1,
   "blocked": 0,
   "errors": []
@@ -8688,8 +8690,8 @@
  "sindh_stream": {
   "date": "2026-11-19",
   "count": 12,
-  "last": 1795101066.6178687,
-  "city_i": 18,
+  "last": 1795102281.880732,
+  "city_i": 22,
   "dry": 1795099880.6970472
  },
  "gemini_day_dead": {
@@ -9321,20 +9323,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-19 17:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-19 17:16",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-19 17:20",
    "ok": true,
    "n": 0,
@@ -9595,6 +9583,20 @@
   },
   {
    "t": "11-19 20:27",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 20:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 20:36",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13358,11 +13360,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-18 16:31",
-   "new": "پاڪستان جي برتري برقرار",
-   "old": "پاڪستان ۽ سري لنڪا وچ ۾ ٽيسٽ ميچ: ٻئي ڏينهن جو احوال"
-  },
-  {
    "t": "11-18 17:42",
    "new": "پاڪستان جي سيريز کمني تي نظر",
    "old": "پاڪستان ۽ سري لنڪا وچ ۾ ٽيسٽ ميچ: ٻئي ڏينهن جو احوال"
@@ -13506,6 +13503,11 @@
    "t": "11-19 19:21",
    "new": "سنڌ | سنڌ ۾ انفراسٹرکچر سيس بابت اهم فيصلو",
    "old": "شام جون سنڌ جون اهم خبرون"
+  },
+  {
+   "t": "11-19 20:31",
+   "new": "بلاول ڀٽو پاران ڇهن مهينن اندر عام چونڊون ڪرائڻ جو مطالبو",
+   "old": "ريفرنڊم بدران چونڊون ڪرايو: بلاول ڀٽو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13526,6 +13528,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 18
- }
+  "repeat": 19
+ },
+ "_dup": true
 }
