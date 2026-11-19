@@ -269,7 +269,7 @@
      "urdu": "آسان ٹوٹکا ہے! رات کو ناف میں دو بوند سرسوں کا تیل ڈال لینا۔",
      "how": "50-year-old mother, confident home-remedy expert",
      "shot": "close",
-     "pose": "explain",
+     "pose": "point_up",
      "react": {
       "DANIYAL": "confused",
       "SANA": "neutral"
@@ -458,7 +458,7 @@
    "props": {
     "ABBA": null,
     "MEHAK": "book",
-    "DANIYAL": "cup",
+    "DANIYAL": null,
     "AMMI": null
    },
    "lines": [
@@ -538,6 +538,13 @@
       "MEHAK": "DANIYAL",
       "ABBA": "DANIYAL"
      },
+     "before": [
+      {
+       "do": "prop",
+       "who": "DANIYAL",
+       "prop": "cup"
+      }
+     ],
      "joke": true,
      "gap": 0.7,
      "react_pose": {
@@ -552,7 +559,7 @@
      "roman": "Aur raat ko *naaf* mein tel daalna mat bhoolna, *wakeel sahab*!",
      "urdu": "اور رات کو ناف میں تیل ڈالنا مت بھولنا، وکیل صاحب!",
      "how": "mother, entering, playful reminder",
-     "shot": "close",
+     "shot": "group",
      "pose": "wag",
      "react": {
       "DANIYAL": "sheepish",
