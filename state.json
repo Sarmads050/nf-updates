@@ -2340,17 +2340,17 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795111572.967752,
+   "last_edit": 1795112164.1226656,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-19 23:06",
+  "time": "2026-11-19 23:16",
   "items": 16,
   "sample": [
-   "South Africa 12/1 & 557/10 * v Bangladesh 168/10 & 400/10",
+   "South Africa 12/1 & 557/10 * v Bangladesh 400/10 & 168/10",
    "Pakistan 325/10 v Sri Lanka 98/10 & 309/9 *",
    "New Zealand 243/5 * v India"
   ]
@@ -8253,7 +8253,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-19 23:06",
+  "time": "2026-11-19 23:16",
   "steps": []
  },
  "roundup_am": "2026-11-19",
@@ -8403,15 +8403,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-19",
-   "ok": 124,
+   "ok": 125,
    "fail": 16,
    "items": 10,
-   "fail_streak": 2,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-19",
-   "ok": 137,
+   "ok": 138,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8419,7 +8419,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-19",
-   "ok": 137,
+   "ok": 138,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8427,7 +8427,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 140,
+   "ok": 141,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8435,7 +8435,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 140,
+   "ok": 141,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8443,14 +8443,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 140,
+   "ok": 141,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 140,
+   "ok": 141,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8458,7 +8458,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-19",
-   "ok": 52,
+   "ok": 53,
    "fail": 88,
    "items": 15,
    "fail_streak": 0,
@@ -8634,8 +8634,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9330,20 +9330,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-19 20:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-19 20:06",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-19 20:10",
    "ok": true,
    "n": 0,
@@ -9604,6 +9590,20 @@
   },
   {
    "t": "11-19 23:06",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 23:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 23:16",
    "ok": true,
    "n": 0,
    "ids": [],
