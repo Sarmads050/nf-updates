@@ -73,6 +73,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-068] (ep025, 2026-11-18) Narrator kehta hai "Faraz ne chai ka pehla ghoont liya" lekin Faraz cup seene ke paas pakre baitha rehta hai, peeta nazar nahi aata — naya "sip" pose (cup honton tak, aankhein band) jo line ke shuru mein chal sake.
 - [K-069] (ep025, 2026-11-18) "Van gate par khari hai!" (line 19) par sirf "bike" ki awaaz hai, van ka horn nahi — naya "horn" sfx (van/rickshaw ka horn) sfx list mein add karna.
 
+- [K-070] (ep026, 2026-11-19) Poori kahani "phate hue honton" ki hai lekin Daniyal ke hont bilkul theek dikhte hain, aur "aah!" par sirf chehra udaas hota hai — naya "chapped" emo: honton par safaid sookhi daraarein, "aah" par haath munh ki taraf.
+- [K-071] (ep026, 2026-11-19) Bhabi "vaseline lagayein" kehti hain lekin vaseline ki koi dibbi nahi — sirf paani ka cup diya ja saka — naya chhota "dibbi/jar" prop (gol dibbi, dhakkan ke saath) jo give se diya ja sake.
+- [K-072] (ep026, 2026-11-19) Kitchen ke "mid" slot par khara Daniyal close-up mein stove wali Ammi ka aadha chehra dhak deta hai, aur "objection" ka utha hua baazu Ammi ke aage aa jata hai (0:33-0:40) — kitchen "mid" slot ko thora right karna, ya close-up mein saath wale ko frame se bahar rakhna.
+
 ## APPROVED
 
 ## DONE
