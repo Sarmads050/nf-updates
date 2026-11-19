@@ -1534,7 +1534,8 @@
   "d04fbef1921d21d7": 1795092682.1386623,
   "f9cc95b90d3c4306": 1795092682.1386628,
   "e721580e7b2c81fb": 1795092682.138664,
-  "9c8853baed43c49e": 1795092682.1388896
+  "9c8853baed43c49e": 1795092682.1388896,
+  "9b178bc5cd9cb603": 1795093879.342097
  },
  "pending": {},
  "queue": [],
@@ -2305,17 +2306,17 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795093660.635352,
+   "last_edit": 1795094183.9637935,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-19 18:07",
+  "time": "2026-11-19 18:16",
   "items": 17,
   "sample": [
-   "South Africa 12/1 & 557/10 * v Bangladesh 400/10 & 168/10",
+   "South Africa 557/10 & 12/1 * v Bangladesh 400/10 & 168/10",
    "Pakistan 325/10 v Sri Lanka 309/9 & 98/10 *",
    "New Zealand 243/5 * v India"
   ]
@@ -8226,7 +8227,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-19 18:07",
+  "time": "2026-11-19 18:16",
   "steps": []
  },
  "roundup_am": "2026-11-19",
@@ -8376,7 +8377,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-19",
-   "ok": 99,
+   "ok": 100,
    "fail": 10,
    "items": 10,
    "fail_streak": 0,
@@ -8384,7 +8385,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-19",
-   "ok": 106,
+   "ok": 107,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8392,7 +8393,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-19",
-   "ok": 106,
+   "ok": 107,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8400,7 +8401,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8408,7 +8409,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8416,14 +8417,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8432,10 +8433,10 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-19",
    "ok": 22,
-   "fail": 87,
+   "fail": 88,
    "items": 15,
-   "fail_streak": 0,
-   "last_status": 404
+   "fail_streak": 1,
+   "last_status": 200
   }
  },
  "culture": {
@@ -8607,8 +8608,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9300,20 +9301,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-19 14:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-19 14:56",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-19 15:00",
    "ok": true,
    "n": 0,
@@ -9574,6 +9561,20 @@
   },
   {
    "t": "11-19 18:07",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 18:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 18:16",
    "ok": true,
    "n": 0,
    "ids": [],
