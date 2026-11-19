@@ -1,20 +1,5 @@
 {
  "seen": {
-  "c63e565ca2ee5cf0": 1794523417.0519135,
-  "de451f1092794b70": 1794523417.0519154,
-  "babd990e09f17318": 1794523417.0519168,
-  "5fd4c09947d7ea00": 1794523417.0519176,
-  "cc7dcdada21f9139": 1794523417.0520434,
-  "ad6caaf4ad9cac1e": 1794523437.884669,
-  "6a1ae1f96c992899": 1794523437.8846707,
-  "ec39e1950383feb1": 1794523437.8846714,
-  "e6c181e1a5517e3e": 1794523437.8846722,
-  "e8b4eba530cd101e": 1794523437.884673,
-  "d5073fc230d8f298": 1794523437.8846745,
-  "b2fdcd143b151c4c": 1794523437.884675,
-  "830d72943acd9964": 1794523437.8846755,
-  "02f95bd1802d3803": 1794523437.884677,
-  "af5d85737b03c463": 1794523437.8848057,
   "95567e8594d3cd39": 1794526865.7995155,
   "0e089c92dc8988f6": 1794526865.7996893,
   "84136858ec192f27": 1794527468.2652829,
@@ -1556,7 +1541,19 @@
   "3181530c080a66d3": 1795122684.3334255,
   "ac9c6d267cf4ea3f": 1795122684.333426,
   "e362c0dc1d58e059": 1795122684.3335624,
-  "2c34538d4124837e": 1795125685.54866
+  "2c34538d4124837e": 1795125685.54866,
+  "49dec2807e4fa50d": 1795128665.983935,
+  "6871008cfa2dc5d5": 1795128665.983938,
+  "8e0509e68822fa5a": 1795128665.9839394,
+  "93aa1f9335fcb302": 1795128665.9839404,
+  "bad969f7115ca99b": 1795128665.983941,
+  "b02946a940b71d36": 1795128665.9839418,
+  "945848238250aa5f": 1795128665.9839432,
+  "7aad9c54dd17ef6f": 1795128665.983944,
+  "a5966962b58b49f5": 1795128665.9839447,
+  "810dcd262b988441": 1795128665.9841452,
+  "7f234814c93f1d92": 1795128683.6193876,
+  "b7649cd787e97a2f": 1795128683.6193902
  },
  "pending": {},
  "queue": [],
@@ -2348,14 +2345,14 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795128361.3806846,
+   "last_edit": 1795128988.3415644,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-20 03:45",
+  "time": "2026-11-20 03:56",
   "items": 34,
   "sample": [
    "South Africa 557/10 & 12/1 * v Bangladesh 168/10 & 400/10",
@@ -7902,9 +7899,9 @@
  },
  "ai_usage": {
   "date": "2026-11-20",
-  "ok": 38,
-  "fail": 64,
-  "limit": 64
+  "ok": 42,
+  "fail": 72,
+  "limit": 72
  },
  "posted_heads": [
   {
@@ -8229,7 +8226,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-20 03:46",
+  "time": "2026-11-20 03:56",
   "steps": []
  },
  "roundup_am": "2026-11-19",
@@ -8332,12 +8329,12 @@
  },
  "article_diag": {
   "date": "2026-11-20",
-  "tried": 4,
-  "decoded": 4,
-  "text": 4,
-  "story": 2
+  "tried": 5,
+  "decoded": 5,
+  "text": 5,
+  "story": 3
  },
- "ai_last_error": "03:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "03:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-20",
   "models": [
@@ -8380,14 +8377,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-20",
    "ok": 22,
-   "fail": 1,
+   "fail": 2,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-20",
-   "ok": 22,
+   "ok": 23,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8395,7 +8392,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-20",
-   "ok": 23,
+   "ok": 24,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8403,7 +8400,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 23,
+   "ok": 24,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8411,7 +8408,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 23,
+   "ok": 24,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8419,14 +8416,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 23,
+   "ok": 24,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 23,
+   "ok": 24,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8434,7 +8431,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-20",
-   "ok": 23,
+   "ok": 24,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8610,8 +8607,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 16,
-  "old": 16,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8666,8 +8663,8 @@
   "date": "2026-11-20",
   "count": 1,
   "last": 1795117881.6383905,
-  "city_i": 22,
-  "dry": 1795125681.090629
+  "city_i": 4,
+  "dry": 1795128661.9462156
  },
  "gemini_day_dead": {
   "day": "2026-11-19",
@@ -9304,20 +9301,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-20 00:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-20 00:36",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-20 00:40",
    "ok": true,
    "n": 0,
@@ -9578,6 +9561,20 @@
   },
   {
    "t": "11-20 03:45",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 03:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 03:56",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13812,11 +13809,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-18 18:22",
-   "new": "گهوري ۽ رضاالله پاران ميچ ۾ شاندار راند",
-   "old": "پاڪستان ۽ سري لنڪا وچ ۾ ٽيسٽ ميچ: ٻئي ڏينهن جو احوال"
-  },
-  {
    "t": "11-18 18:42",
    "new": "پاڪستان ۾ سون جي قيمت ۾ وڏي لاٿ",
    "old": "پاڪستان ۾ سوني جي اگهه ۾ تبديلي"
@@ -13960,6 +13952,11 @@
    "t": "11-20 00:02",
    "new": "پاڪستاني بيٽسمئن جو ٻئي ٽيسٽ ميچ بابت بيان",
    "old": "پاڪستاني ڪرڪيٽ ٽيم پنهنجي پوزيشن مضبوط ڪري ورتي"
+  },
+  {
+   "t": "11-20 03:51",
+   "new": "حڪومت پاران پيٽرول جي اگهه ۾ واڌ",
+   "old": "حڪومت پاران پيٽرول جي اگهن ۾ هڪ رپيو واڌ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13980,6 +13977,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 1
- }
+  "repeat": 2
+ },
+ "_dup": true
 }
