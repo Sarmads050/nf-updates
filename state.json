@@ -1511,7 +1511,9 @@
   "781d7d42e4d83c3f": 1795083848.3841164,
   "a1ec5597db636434": 1795083848.384119,
   "9d8a514474fccb39": 1795083848.3841202,
-  "c35d1caffb7441af": 1795083858.299658
+  "c35d1caffb7441af": 1795083858.299658,
+  "f8d3c26143af0fec": 1795084264.4143565,
+  "92a13fdf9fcce1b1": 1795084284.0358822
  },
  "pending": {},
  "queue": [],
@@ -1548,7 +1550,7 @@
   "last_week": "",
   "last_check": "2026-11-19"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.5-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2275,22 +2277,22 @@
    "wkts": {
     "Sri Lanka|1": 10,
     "Pakistan|1": 10,
-    "Sri Lanka|2": 6
+    "Sri Lanka|2": 10
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795084162.845,
+   "last_edit": 1795084588.247037,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-19 15:29",
+  "time": "2026-11-19 15:36",
   "items": 17,
   "sample": [
-   "South Africa 557/10 & 12/1 * v Bangladesh 400/10 & 168/10",
-   "Pakistan 325/10 v Sri Lanka 98/10 & 264/6 *",
+   "South Africa 12/1 & 557/10 * v Bangladesh 168/10 & 400/10",
+   "Pakistan 325/10 v Sri Lanka 268/7 & 98/10 *",
    "New Zealand 243/5 * v India"
   ]
  },
@@ -7857,9 +7859,9 @@
  },
  "ai_usage": {
   "date": "2026-11-19",
-  "ok": 209,
-  "fail": 364,
-  "limit": 362
+  "ok": 210,
+  "fail": 367,
+  "limit": 364
  },
  "posted_heads": [
   {
@@ -8184,7 +8186,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-19 15:29",
+  "time": "2026-11-19 15:36",
   "steps": []
  },
  "roundup_am": "2026-11-19",
@@ -8292,7 +8294,7 @@
   "text": 22,
   "story": 17
  },
- "ai_last_error": "15:24 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "15:31 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-19",
   "models": [
@@ -8334,7 +8336,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-19",
-   "ok": 83,
+   "ok": 84,
    "fail": 10,
    "items": 10,
    "fail_streak": 0,
@@ -8342,7 +8344,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-19",
-   "ok": 91,
+   "ok": 92,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8350,7 +8352,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-19",
-   "ok": 91,
+   "ok": 92,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8358,7 +8360,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8366,7 +8368,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8374,14 +8376,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-19",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-19",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8389,7 +8391,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-19",
-   "ok": 6,
+   "ok": 7,
    "fail": 87,
    "items": 15,
    "fail_streak": 0,
@@ -8581,8 +8583,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 5,
-  "old": 5,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9269,7 +9271,8 @@
    "09:30",
    "11:00",
    "12:30",
-   "14:00"
+   "14:00",
+   "15:30"
   ]
  },
  "kawish_queue": [],
@@ -9279,20 +9282,6 @@
   "last": 1795005085.9964194
  },
  "tg_debug": [
-  {
-   "t": "11-19 12:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-19 12:06",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-19 12:10",
    "ok": true,
@@ -9554,6 +9543,20 @@
   },
   {
    "t": "11-19 15:29",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 15:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-19 15:36",
    "ok": true,
    "n": 0,
    "ids": [],
