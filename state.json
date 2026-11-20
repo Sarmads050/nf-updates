@@ -2316,7 +2316,7 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795190800.1717982,
+   "last_edit": 1795191415.6230319,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
@@ -2329,17 +2329,17 @@
    },
    "wicket_posts": 0,
    "break_done": false,
-   "last_edit": 1795190801.4715686,
+   "last_edit": 1795191416.6277082,
    "batting": "Ireland Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-20 21:06",
+  "time": "2026-11-20 21:16",
   "items": 39,
   "sample": [
-   "Pakistan 90/2 & 325/10 * v Sri Lanka 316/10 & 98/10",
+   "Pakistan 90/2 & 325/10 * v Sri Lanka 98/10 & 316/10",
    "New Zealand 368/10 v India 159/1 *",
    "Kurunegala Youth Cricket Club 176/2 * v Burgher Recreation Club 336/10"
   ]
@@ -8202,7 +8202,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-20 21:06",
+  "time": "2026-11-20 21:16",
   "steps": []
  },
  "roundup_am": "2026-11-20",
@@ -8352,7 +8352,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-20",
-   "ok": 124,
+   "ok": 125,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -8360,7 +8360,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-20",
-   "ok": 129,
+   "ok": 130,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8368,7 +8368,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-20",
-   "ok": 130,
+   "ok": 131,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8376,7 +8376,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 130,
+   "ok": 131,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8384,7 +8384,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 130,
+   "ok": 131,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8392,14 +8392,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 130,
+   "ok": 131,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 130,
+   "ok": 131,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8408,9 +8408,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-20",
    "ok": 130,
-   "fail": 0,
+   "fail": 1,
    "items": 15,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   }
  },
@@ -8689,8 +8689,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8745,8 +8745,8 @@
   "date": "2026-11-20",
   "count": 16,
   "last": 1795189862.6149514,
-  "city_i": 12,
-  "dry": 1795187508.7932274
+  "city_i": 16,
+  "dry": 1795191065.33624
  },
  "gemini_day_dead": {
   "day": "2026-11-20",
@@ -9433,20 +9433,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-20 16:26",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-20 16:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-20 16:36",
    "ok": true,
    "n": 0,
@@ -9711,6 +9697,20 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-20 21:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 21:16",
+   "ok": false,
+   "n": 0,
+   "ids": [],
+   "err": "Bad Gateway"
   }
  ],
  "recent_seeded": "2026-11-20",
