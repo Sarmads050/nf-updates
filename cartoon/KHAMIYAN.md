@@ -77,6 +77,11 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-071] (ep026, 2026-11-19) Bhabi "vaseline lagayein" kehti hain lekin vaseline ki koi dibbi nahi — sirf paani ka cup diya ja saka — naya chhota "dibbi/jar" prop (gol dibbi, dhakkan ke saath) jo give se diya ja sake.
 - [K-072] (ep026, 2026-11-19) Kitchen ke "mid" slot par khara Daniyal close-up mein stove wali Ammi ka aadha chehra dhak deta hai, aur "objection" ka utha hua baazu Ammi ke aage aa jata hai (0:33-0:40) — kitchen "mid" slot ko thora right karna, ya close-up mein saath wale ko frame se bahar rakhna.
 
+- [K-073] (ep027, 2026-11-20) Toddler ko sofa par baithe bande ki taraf `approach` karwaya to Hamza baithe logon ki taangon ke peeche chala gaya, punchline "pa-ho!" par sirf jeans nazar aayi (preview mein pakra, Arsalan ko Hamza ki taraf bhej kar theek kiya) — approach mein toddler ko hamesha saamne wali (farsh) layer par rakhna.
+- [K-074] (ep027, 2026-11-20) Aangan mein Daniyal (stand_r) ke "objection" close-up mein utha hua baazu charpai_c par baithi Ammi ke chehre ke aage aa jata hai (0:58) — close-up mein ishare wala baazu bolne wale ke bahar wali side par uthana.
+- [K-075] (ep027, 2026-11-20) Aangan mein Abba (charpai_l) ke close-up "Manzoor!" (1:15) mein saath baithi Ammi (charpai_c) bari aur aage lagti hain, Abba thore chhup jate hain, aur left kinare par Arsalan ka tukra kata hua — charpai close-up ka crop bolne wale par center karna aur kinare ke adhe log hatana.
+- [K-076] (ep027, 2026-11-20) Kahani "Bachon ka aalmi din" ki hai lekin screen par is din ka koi nishaan nahi (banner, rangeen jhandiyan, ya Mehak ki banayi drawing) — aisi "din/tehwaar" episodes ke liye living_room mein optional "banner" set piece (deewar par likha kaghaz) banana.
+
 ## APPROVED
 
 ## DONE
