@@ -1,0 +1,672 @@
+{
+ "id": "ep027",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 27,
+ "title": "Bachon Ka Din!",
+ "topic": "20 November Universal Children's Day - Arsalan brings a list of demands (no homework, double pocket money), hires 'lawyer' Daniyal; Ammi: rights come with responsibilities (half homework = half pocket money); Abba lets the youngest child judge - toddler Hamza hands Arsalan his homework copy: 'pa-ho!'",
+ "music": "comic",
+ "tempo": 1.08,
+ "lesson": "Haq bhi, zimmedari bhi —<br>pehle homework, phir cartoon!",
+ "caption": "Aaj 20 November, bachon ka aalmi din! 🧒 Arsalan ki maangein: homework band, pocket money double 😂 Vakeel Daniyal bhi aa gaye... lekin judge nikle 2 saal ke Hamza! Aap bachpan mein kya maangte thay? Comment mein batayein!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#ChildrensDay",
+  "#BachonKaDin",
+  "#PakistaniFamily",
+  "#UrduCartoon"
+ ],
+ "scenes": [
+  {
+   "set": "living_room",
+   "time": "evening",
+   "label": "Drawing Room • Shaam",
+   "cast": {
+    "ABBA": "sofa_l",
+    "ARSALAN": "sofa_c"
+   },
+   "props": {
+    "ABBA": "newspaper",
+    "ARSALAN": "book"
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Aaj *20 November* hai, bachon ka *aalmi din*! Aur Arsalan ne *maangon ki list* bana li hai.",
+     "urdu": "آج بیس نومبر ہے، بچوں کا عالمی دن! اور ارسلان نے مانگوں کی لسٹ بنا لی ہے۔",
+     "how": "warm storyteller, playful",
+     "shot": "wide",
+     "gap": 0.2,
+     "react_pose": {
+      "ABBA": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "happy",
+     "roman": "Abba! Aaj *bachon ka din* hai. Meri *maangein* suniye!",
+     "urdu": "ابّا! آج بچوں کا دن ہے۔ میری مانگیں سنیے!",
+     "how": "17-year-old boy, excited, important announcement",
+     "shot": "close",
+     "pose": "hold",
+     "react": {
+      "ABBA": "surprised"
+     },
+     "looks": {
+      "ABBA": "ARSALAN"
+     },
+     "react_pose": {
+      "ABBA": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": [
+      [
+       0,
+       "neutral"
+      ],
+      [
+       0.5,
+       "calm"
+      ]
+     ],
+     "roman": "Achha? *Suna do*, beta. Main *akhbar* rakh deta hoon.",
+     "urdu": "اچھا؟ سنا دو بیٹا۔ میں اخبار رکھ دیتا ہوں۔",
+     "how": "57-year-old father, calm, slightly amused",
+     "shot": "close",
+     "pose": [
+      [
+       0,
+       "newspaper"
+      ],
+      [
+       0.5,
+       "rest"
+      ]
+     ],
+     "react": {
+      "ARSALAN": "happy"
+     },
+     "after": [
+      {
+       "do": "prop",
+       "who": "ABBA",
+       "prop": null
+      }
+     ],
+     "looks": {
+      "ARSALAN": "ABBA"
+     },
+     "react_pose": {
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "proud",
+     "roman": "Pehli maang: aaj raat *koi homework nahi*. Doosri: *pocket money double*!",
+     "urdu": "پہلی مانگ: آج رات کوئی ہوم ورک نہیں۔ دوسری: پاکٹ منی ڈبل!",
+     "how": "boy reading a list proudly like a speech",
+     "shot": "close",
+     "pose": "hold",
+     "react": {
+      "ABBA": "surprised"
+     },
+     "looks": {
+      "ABBA": "ARSALAN"
+     },
+     "react_pose": {
+      "ABBA": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "roman": "Humare zamane mein *bachon ka din* nahi hota tha... poora saal *Abba ka din* hota tha!",
+     "urdu": "ہمارے زمانے میں بچوں کا دن نہیں ہوتا تھا... پورا سال ابّا کا دن ہوتا تھا!",
+     "how": "old-school father, proud and funny, slow comic timing",
+     "shot": "punch",
+     "pose": "explain",
+     "react": {
+      "ARSALAN": "surprised"
+     },
+     "joke": true,
+     "gap": 0.7,
+     "looks": {
+      "ARSALAN": "ABBA"
+     },
+     "react_pose": {
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "door",
+     "emo": "worried",
+     "roman": "Ada *Daniyal*! Jaldi aayein, mujhe *vakeel* chahiye!",
+     "urdu": "اڈا دانیال! جلدی آئیں، مجھے وکیل چاہیے!",
+     "how": "boy calling loudly towards the door, panicked",
+     "shot": "close",
+     "pose": "beckon",
+     "react": {
+      "ABBA": "laugh"
+     },
+     "looks": {
+      "ABBA": "ARSALAN"
+     },
+     "react_pose": {
+      "ABBA": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ABBA",
+     "emo": "proud",
+     "roman": "Haazir hoon! Mera muakkil sirf apna *haq* maang raha hai, *my lord*!",
+     "urdu": "حاضر ہوں! میرا مؤکل صرف اپنا حق مانگ رہا ہے، مائی لارڈ!",
+     "how": "20-year-old law student, dramatic courtroom voice",
+     "shot": "close",
+     "pose": "objection",
+     "react": {
+      "ABBA": "tired",
+      "ARSALAN": "happy"
+     },
+     "before": [
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      },
+      {
+       "do": "enter",
+       "who": "DANIYAL",
+       "slot": "stand_r"
+      }
+     ],
+     "looks": {
+      "ABBA": "DANIYAL",
+      "ARSALAN": "DANIYAL"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "DANIYAL",
+     "emo": "calm",
+     "roman": "Theek hai. *Aangan* mein chalo, faisla *Ammi* ke saamne hoga.",
+     "urdu": "ٹھیک ہے۔ آنگن میں چلو، فیصلہ امی کے سامنے ہوگا۔",
+     "how": "father, calm, like a judge closing the hearing",
+     "shot": "close",
+     "pose": "thumb_back",
+     "react": {
+      "DANIYAL": "worried",
+      "ARSALAN": "worried"
+     },
+     "gap": 0.4,
+     "looks": {
+      "ARSALAN": "ABBA",
+      "DANIYAL": "ABBA"
+     },
+     "react_pose": {
+      "ARSALAN": "rest",
+      "DANIYAL": "rest"
+     }
+    }
+   ]
+  },
+  {
+   "set": "aangan",
+   "time": "evening",
+   "label": "Aangan • Shaam",
+   "cast": {
+    "ABBA": "charpai_l",
+    "AMMI": "charpai_c",
+    "ARSALAN": "stand_l",
+    "DANIYAL": "stand_r"
+   },
+   "props": {
+    "AMMI": "cup",
+    "ARSALAN": "book",
+    "ABBA": null,
+    "DANIYAL": null
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Aangan mein *adalat* lag gayi. Aur judge ki kursi par... *Ammi*!",
+     "urdu": "آنگن میں عدالت لگ گئی۔ اور جج کی کرسی پر... امی!",
+     "how": "warm storyteller, playful",
+     "shot": "wide",
+     "gap": 0.2,
+     "react_pose": {
+      "ABBA": "rest",
+      "ARSALAN": "rest",
+      "DANIYAL": "rest",
+      "AMMI": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "calm",
+     "roman": "Haq ke saath *zimmedari* bhi hoti hai. Kal ka *homework* kiya, Arsalan?",
+     "urdu": "حق کے ساتھ ذمہ داری بھی ہوتی ہے۔ کل کا ہوم ورک کیا، ارسلان؟",
+     "how": "50-year-old mother, calm but strict, a knowing look",
+     "shot": "close",
+     "pose": "explain",
+     "react": {
+      "ARSALAN": "sheepish"
+     },
+     "looks": {
+      "ABBA": "AMMI",
+      "ARSALAN": "AMMI",
+      "DANIYAL": "AMMI"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "ARSALAN": "rest",
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "AMMI",
+     "emo": "sheepish",
+     "roman": "Ammi... woh *aadha* ho gaya hai... matlab *pehla page*.",
+     "urdu": "امی... وہ آدھا ہو گیا ہے... مطلب پہلا پیج۔",
+     "how": "boy, guilty, small voice, comic pause",
+     "shot": "close",
+     "pose": "scratch_head",
+     "react": {
+      "AMMI": "teasing",
+      "ABBA": "laugh"
+     },
+     "joke": true,
+     "gap": 0.5,
+     "looks": {
+      "ABBA": "ARSALAN",
+      "DANIYAL": "ARSALAN",
+      "AMMI": "ARSALAN"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "DANIYAL": "rest",
+      "AMMI": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "AMMI",
+     "emo": "proud",
+     "roman": "Objection! Mera muakkil *aadhe kaam* ko bhi *poora* maanta hai!",
+     "urdu": "آبجیکشن! میرا مؤکل آدھے کام کو بھی پورا مانتا ہے!",
+     "how": "law student, dramatic, very serious",
+     "shot": "close",
+     "pose": "objection",
+     "react": {
+      "AMMI": "teasing"
+     },
+     "looks": {
+      "ABBA": "DANIYAL",
+      "ARSALAN": "DANIYAL",
+      "AMMI": "DANIYAL"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "ARSALAN": "rest",
+      "AMMI": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "DANIYAL",
+     "emo": "teasing",
+     "roman": "To phir *aadhi pocket money* ko bhi *poora* maan lo!",
+     "urdu": "تو پھر آدھی پاکٹ منی کو بھی پورا مان لو!",
+     "how": "mother, witty, quick comeback",
+     "shot": "punch",
+     "pose": "explain",
+     "react": {
+      "DANIYAL": "surprised",
+      "ARSALAN": "surprised",
+      "ABBA": "laugh"
+     },
+     "joke": true,
+     "gap": 0.7,
+     "looks": {
+      "ABBA": "AMMI",
+      "ARSALAN": "AMMI",
+      "DANIYAL": "AMMI"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "ARSALAN": "rest",
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "emo": "worried",
+     "roman": "Yeh *na-insaafi* hai! Aaj bachon ka din hai, faisla koi *bacha* kare!",
+     "urdu": "یہ ناانصافی ہے! آج بچوں کا دن ہے، فیصلہ کوئی بچہ کرے!",
+     "how": "boy protesting, half whining",
+     "shot": "close",
+     "pose": "plead",
+     "react": {
+      "ABBA": "teasing"
+     },
+     "looks": {
+      "ABBA": "ARSALAN",
+      "DANIYAL": "ARSALAN",
+      "AMMI": "ARSALAN"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "DANIYAL": "rest",
+      "AMMI": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "teasing",
+     "roman": "Manzoor! Ghar ka *sab se chhota bacha* faisla karega... *Hamza*!",
+     "urdu": "منظور! گھر کا سب سے چھوٹا بچہ فیصلہ کرے گا... حمزہ!",
+     "how": "father, playful announcement with a smile",
+     "shot": "close",
+     "pose": "explain",
+     "react": {
+      "ARSALAN": "surprised",
+      "AMMI": "happy"
+     },
+     "looks": {
+      "ARSALAN": "ABBA",
+      "DANIYAL": "ABBA",
+      "AMMI": "ABBA"
+     },
+     "react_pose": {
+      "ARSALAN": "rest",
+      "DANIYAL": "rest",
+      "AMMI": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ARSALAN",
+     "emo": "happy",
+     "roman": "Hamza to *do saal* ka hai, woh hamari baat maanega. *Jeet pakki*!",
+     "urdu": "حمزہ تو دو سال کا ہے، وہ ہماری بات مانے گا۔ جیت پکی!",
+     "how": "law student, confident whisper to his client",
+     "shot": "close",
+     "pose": "fist",
+     "react": {
+      "ARSALAN": "happy"
+     },
+     "gap": 0.4,
+     "looks": {
+      "ABBA": "DANIYAL",
+      "ARSALAN": "DANIYAL",
+      "AMMI": "DANIYAL"
+     },
+     "react_pose": {
+      "ABBA": "rest",
+      "ARSALAN": "rest",
+      "AMMI": "rest"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "night",
+   "label": "Drawing Room • Raat",
+   "cast": {
+    "ABBA": "sofa_l",
+    "AMMI": "sofa_r",
+    "HAMZA": "floor_l",
+    "ARSALAN": "sofa_c",
+    "DANIYAL": "stand_r"
+   },
+   "props": {
+    "HAMZA": "book",
+    "ARSALAN": null,
+    "AMMI": null,
+    "ABBA": null,
+    "DANIYAL": null
+   },
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "emo": "calm",
+     "roman": "Raat ko *adalat* drawing room mein lagi. Judge sahab ke haath mein Arsalan ki *homework copy* thi!",
+     "urdu": "رات کو عدالت ڈرائنگ روم میں لگی۔ جج صاحب کے ہاتھ میں ارسلان کی ہوم ورک کاپی تھی!",
+     "how": "warm storyteller, playful suspense",
+     "shot": "wide",
+     "gap": 0.2,
+     "react_pose": {
+      "AMMI": "rest",
+      "HAMZA": "rest",
+      "ABBA": "rest",
+      "DANIYAL": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "HAMZA",
+     "emo": "warm",
+     "roman": "Judge sahab! Bhai ko *mobile* chahiye ya *homework*? Bataiye!",
+     "urdu": "جج صاحب! بھائی کو موبائل چاہیے یا ہوم ورک؟ بتائیے!",
+     "how": "law student, sweet voice talking to a toddler",
+     "shot": "group",
+     "pose": "explain",
+     "react": {
+      "HAMZA": "happy"
+     },
+     "looks": {
+      "AMMI": "DANIYAL",
+      "HAMZA": "DANIYAL",
+      "ABBA": "DANIYAL",
+      "ARSALAN": "DANIYAL"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "HAMZA": "rest",
+      "ABBA": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "HAMZA",
+     "to": "ARSALAN",
+     "emo": "laugh",
+     "roman": "Bhai... *pa-ho*!",
+     "urdu": "بھائی... پڑھو!",
+     "how": "2-year-old toddler, cute broken word, giggling",
+     "shot": "punch",
+     "pose": "give",
+     "react": {
+      "*": "laugh",
+      "ARSALAN": "surprised",
+      "DANIYAL": "surprised"
+     },
+     "give": {
+      "to": "ARSALAN",
+      "prop": "book",
+      "at": 0.5
+     },
+     "sfx": [
+      "baby_giggle"
+     ],
+     "joke": true,
+     "gap": 0.7,
+     "before": [
+      {
+       "do": "move",
+       "who": "ARSALAN",
+       "slot": "stand_cl"
+      }
+     ],
+     "looks": {
+      "AMMI": "HAMZA",
+      "ABBA": "HAMZA",
+      "DANIYAL": "HAMZA",
+      "ARSALAN": "HAMZA"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "ABBA": "rest",
+      "DANIYAL": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "DANIYAL",
+     "emo": "sad",
+     "roman": "Mera *vakeel* bhi haar gaya... aur *judge* bhi Ammi ki taraf hai!",
+     "urdu": "میرا وکیل بھی ہار گیا... اور جج بھی امی کی طرف ہے!",
+     "how": "boy, comic despair",
+     "shot": "close",
+     "pose": "head_hold",
+     "react": {
+      "AMMI": "laugh",
+      "DANIYAL": "sheepish"
+     },
+     "looks": {
+      "AMMI": "ARSALAN",
+      "HAMZA": "ARSALAN",
+      "ABBA": "ARSALAN",
+      "DANIYAL": "ARSALAN"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "HAMZA": "rest",
+      "ABBA": "rest",
+      "DANIYAL": "rest"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "front",
+     "emo": "sheepish",
+     "roman": "Main pehla vakeel hoon jo *do saal ke judge* se case haar gaya!",
+     "urdu": "میں پہلا وکیل ہوں جو دو سال کے جج سے کیس ہار گیا!",
+     "how": "law student, embarrassed, self-mocking, comic",
+     "shot": "punch",
+     "pose": "facepalm",
+     "react": {
+      "*": "laugh"
+     },
+     "joke": true,
+     "gap": 0.6,
+     "looks": {
+      "AMMI": "DANIYAL",
+      "HAMZA": "DANIYAL",
+      "ABBA": "DANIYAL",
+      "ARSALAN": "DANIYAL"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "HAMZA": "rest",
+      "ABBA": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "ARSALAN",
+     "emo": "warm",
+     "roman": "Beta, *haq* bhi milega aur *pyaar* bhi. Bas pehle apni *zimmedari*.",
+     "urdu": "بیٹا، حق بھی ملے گا اور پیار بھی۔ بس پہلے اپنی ذمہ داری۔",
+     "how": "father, warm and soft, loving",
+     "shot": "close",
+     "pose": "explain",
+     "react": {
+      "ARSALAN": "warm"
+     },
+     "looks": {
+      "AMMI": "ABBA",
+      "HAMZA": "ABBA",
+      "DANIYAL": "ABBA",
+      "ARSALAN": "ABBA"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "HAMZA": "rest",
+      "DANIYAL": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "ARSALAN",
+     "emo": "happy",
+     "roman": "Homework khatam karo, phir *sab ke saath* ek ghanta *cartoon* dekhenge!",
+     "urdu": "ہوم ورک ختم کرو، پھر سب کے ساتھ ایک گھنٹہ کارٹون دیکھیں گے!",
+     "how": "mother, cheerful, loving",
+     "shot": "close",
+     "pose": "explain",
+     "react": {
+      "ARSALAN": "happy",
+      "HAMZA": "happy"
+     },
+     "looks": {
+      "HAMZA": "AMMI",
+      "ABBA": "AMMI",
+      "DANIYAL": "AMMI",
+      "ARSALAN": "AMMI"
+     },
+     "react_pose": {
+      "HAMZA": "rest",
+      "ABBA": "rest",
+      "DANIYAL": "rest",
+      "ARSALAN": "rest"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "front",
+     "emo": "happy",
+     "roman": "Deal pakki! Aur agle saal mera *vakeel*... *Hamza* hoga!",
+     "urdu": "ڈیل پکی! اور اگلے سال میرا وکیل... حمزہ ہوگا!",
+     "how": "boy, happy, cheeky punchline",
+     "shot": "group",
+     "pose": "point_other",
+     "react": {
+      "*": "laugh",
+      "DANIYAL": "sheepish"
+     },
+     "joke": true,
+     "gap": 0.8,
+     "looks": {
+      "AMMI": "ARSALAN",
+      "HAMZA": "ARSALAN",
+      "ABBA": "ARSALAN",
+      "DANIYAL": "ARSALAN"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "HAMZA": "rest",
+      "ABBA": "rest",
+      "DANIYAL": "rest"
+     }
+    }
+   ]
+  }
+ ]
+}
