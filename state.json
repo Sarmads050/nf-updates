@@ -1525,7 +1525,10 @@
   "e1244d184022faa4": 1795161907.8921895,
   "4321f3dc3fe72875": 1795162608.4964917,
   "ead7c437ba9ba780": 1795164199.485548,
-  "c3192295b3ad6598": 1795164223.6423652
+  "c3192295b3ad6598": 1795164223.6423652,
+  "b520e7d4e027e80f": 1795165280.8216546,
+  "a6b953e4b2cd46ca": 1795165307.7579067,
+  "d7175fc2b3d23d69": 1795165307.757912
  },
  "pending": {
   "culture2026-11-20": {
@@ -1692,18 +1695,8 @@
    "c4a2a5757d14447a"
   ]
  },
- "last_post_id": "1444130002106066_122122908285503839",
+ "last_post_id": "1444130002106066_122122911531503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122122634445503839",
-   "title": "ملڪ ۾ اڄ سوني اگهه ۾ واڌ رڪارڊ ڪئي وئي آهي، جنهن کان پوءِ نوان اگهه جاري ڪيا ويا آهن",
-   "t": 1795080756.942933,
-   "tags": [
-    "business",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122122634445503839"
-  },
   {
    "id": "1444130002106066_122122640193503839",
    "title": "ادارن جي ڪارڪردگي جانچڻ لاءِ نظام ٺھي چڪو: وزيراعظم",
@@ -2012,6 +2005,18 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122122908285503839"
+  },
+  {
+   "id": "1444130002106066_122122911531503839",
+   "title": "پنوعاقل ۾ اسپتال اندر نينڄاول ٻارڙي کي جانور جو چڪ",
+   "t": 1795165347.9761279,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122122911531503839"
   }
  ],
  "share_sent": {
@@ -2295,14 +2300,14 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795165107.9517348,
+   "last_edit": 1795165652.1997929,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-20 13:58",
+  "time": "2026-11-20 14:07",
   "items": 34,
   "sample": [
    "South Africa 557/10 & 12/1 * v Bangladesh 168/10 & 400/10",
@@ -2317,17 +2322,11 @@
  },
  "all_posts": {
   "date": "2026-11-20",
-  "count": 21,
-  "last": 1795164448.8590066
+  "count": 22,
+  "last": 1795165342.3636415
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122119060785503839",
-    "sec": "cricket_news",
-    "cat": "cricket_news",
-    "t": 1794204467
-   },
    {
     "id": "1444130002106066_122119067673503839",
     "sec": "public_news",
@@ -4721,6 +4720,12 @@
     "sec": "public_news",
     "cat": "technology",
     "t": 1795164454
+   },
+   {
+    "id": "1444130002106066_122122911531503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1795165347
    }
   ]
  },
@@ -7849,15 +7854,11 @@
  },
  "ai_usage": {
   "date": "2026-11-20",
-  "ok": 208,
-  "fail": 349,
-  "limit": 348
+  "ok": 213,
+  "fail": 360,
+  "limit": 360
  },
  "posted_heads": [
-  {
-   "h": "Pakistan makes 2D barcoding and serialisation compulsory to curb fake medicines",
-   "t": 1794963734
-  },
   {
    "h": "Petrol Price in Pakistan drops to Rs325 Per Litre after another Round of Relief",
    "t": 1794966114
@@ -8173,10 +8174,14 @@
   {
    "h": "$2 Billion 5G, Fiber Push at Stake as Telcos Ask PM Shehbaz for Cheaper Electricity",
    "t": 1795164454
+  },
+  {
+   "h": "پني عاقل جي هڪ اسپتال ۾ تازو ڄاول ٻارڙي کي جانور چڪ هڻي ماري ڇڏيو، اسپتال سيل",
+   "t": 1795165348
   }
  ],
  "last_errors": {
-  "time": "2026-11-20 13:58",
+  "time": "2026-11-20 14:07",
   "steps": []
  },
  "roundup_am": "2026-11-20",
@@ -8284,7 +8289,7 @@
   "text": 23,
   "story": 14
  },
- "ai_last_error": "13:46 gemini-3.5-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "14:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-20",
   "models": [
@@ -8298,10 +8303,10 @@
  },
  "img_diag": {
   "date": "2026-11-20",
-  "tried": 20,
+  "tried": 21,
   "gemini": 0,
   "pollinations": 12,
-  "skip": 5,
+  "skip": 6,
   "fail": 6,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 779,
@@ -8326,7 +8331,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-20",
-   "ok": 80,
+   "ok": 81,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -8334,7 +8339,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-20",
-   "ok": 85,
+   "ok": 86,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8342,7 +8347,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-20",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8350,7 +8355,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8358,7 +8363,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8366,14 +8371,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8381,7 +8386,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-20",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8552,18 +8557,18 @@
  "region_posts": {
   "date": "2026-11-20",
   "district": 0,
-  "sindh": 8,
+  "sindh": 9,
   "pakistan": 12
  },
  "report_acc": {
-  "posted": 1,
-  "found": 20,
-  "old": 20,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-20 13",
+ "report_hour": "2026-11-20 14",
  "kawish_upload_times": {
   "_date": "2026-11-20",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8611,9 +8616,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-20",
-  "count": 7,
-  "last": 1795164065.5749454,
-  "city_i": 10,
+  "count": 8,
+  "last": 1795165292.8572705,
+  "city_i": 14,
   "dry": 1795164199.4855506
  },
  "gemini_day_dead": {
@@ -8621,7 +8626,9 @@
   "models": [
    "gemini-3.7-flash",
    "gemini-flash-latest",
-   "gemini-3.8-flash"
+   "gemini-3.8-flash",
+   "gemini-3.5-flash",
+   "gemini-3.6-flash"
   ]
  },
  "tg_done": [
@@ -9235,6 +9242,14 @@
    "t": 1795164454,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "ce649e41e99c2631",
+   "h": "پنوعاقل ۾ اسپتال اندر نئين ڄاول ٻارڙي کي جانور جو چڪ",
+   "x": "سنڌ ۾ صحت جي سهولتن ۽ اسپتالن جي انتظامن بابت هڪ انتهائي افسوسناڪ واقعو سامهون آيو آهي، جتي سکر ضلعي جي تعلقي پنوعاقل ۾ قومي شاهراهه تي قائم خانگي اسپتال جي انڪيوبيٽر روم ۾ رکيل نئين ڄاول ٻار جو مبينا طور ٻلي يا ٻين جانورن جي چڪ پائڻ سبب موت ٿي ويو. واقعي نه رڳو متاثر خاندان کي ڏک ۾ مبتلا ڪيو، پر خانگي اسپتالن ۾ مريضن، خاص طور نون ڄاول ٻارن جي حفاظت بابت به سنگين سوال اٿاري ڇڏيا آهن. رپورٽن موجب، دادلوئي سان تعلق رکندڙ هڪ عورت کي ويم لاءِ خانگي اسپتال ۾ داخل ڪرايو ويو هو.",
+   "t": 1795165347,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9243,7 +9258,8 @@
    "08:00",
    "09:30",
    "11:00",
-   "12:30"
+   "12:30",
+   "14:00"
   ]
  },
  "kawish_queue": [],
@@ -9253,20 +9269,6 @@
   "last": 1795085774.8532135
  },
  "tg_debug": [
-  {
-   "t": "11-20 10:46",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-20 10:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-20 10:58",
    "ok": true,
@@ -9528,6 +9530,20 @@
   },
   {
    "t": "11-20 13:58",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 14:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 14:07",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13423,6 +13439,61 @@
     "ڪمرشل",
     "ڪين"
    ]
+  },
+  {
+   "t": 1795165347,
+   "h": "پنوعاقل ۾ اسپتال اندر نئين ڄاول ٻارڙي کي جانور جو چڪ",
+   "b": "سنڌ ۾ صحت جي سهولتن ۽ اسپتالن جي انتظامن بابت هڪ انتهائي افسوسناڪ واقعو سامهون آيو آهي، جتي سکر ضلعي جي تعلقي",
+   "tt": [
+    "اسپتال",
+    "اندر",
+    "جانور",
+    "نئين",
+    "ٻارڙي",
+    "پنوعاقل",
+    "ڄاول"
+   ],
+   "bt": [
+    "اسپتال",
+    "اسپتالن",
+    "افسوسناڪ",
+    "انتظامن",
+    "انتهائي",
+    "اندر",
+    "انڪيوبيٽر",
+    "اهي،",
+    "ايو",
+    "بابت",
+    "تعلقي",
+    "جانور",
+    "جانورن",
+    "جتي",
+    "خانگي",
+    "روم",
+    "رڪيل",
+    "سامهون",
+    "سبب",
+    "سنڌ",
+    "سهولتن",
+    "سڪر",
+    "شاهراهه",
+    "صحت",
+    "ضلعي",
+    "طور",
+    "قائم",
+    "قومي",
+    "مبينا",
+    "موت",
+    "نئين",
+    "واقعو",
+    "ٻار",
+    "ٻارڙي",
+    "ٻلي",
+    "ٻين",
+    "پائڻ",
+    "پنوعاقل",
+    "ڄاول"
+   ]
   }
  ],
  "repeat_log": [
@@ -13590,7 +13661,7 @@
  },
  "quality": {
   "date": "2026-11-20",
-  "editor_fixed": 14,
+  "editor_fixed": 15,
   "editor_rejected": 3,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
