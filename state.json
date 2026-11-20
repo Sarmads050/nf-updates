@@ -1,12 +1,5 @@
 {
  "seen": {
-  "d2b2c594eeba9d3d": 1794547256.785791,
-  "f711c2d909f52b88": 1794547256.7857933,
-  "bd806bfd721b027b": 1794547256.7857943,
-  "de86134f0ba7dea6": 1794547256.785795,
-  "628a4e5ece8f29c6": 1794547256.785796,
-  "40004da07f7dcb71": 1794547256.785983,
-  "3e171b37aeb312e2": 1794547278.224992,
   "bbd869051ba2e447": 1794548473.869302,
   "c1251ec25042d22d": 1794549688.6802945,
   "9d07f20e42761de8": 1794550874.2944515,
@@ -1536,7 +1529,12 @@
   "667a473b55e5a1f6": 1795151470.5821795,
   "d331e686307d5fde": 1795151470.5821838,
   "adf82c18d668e4b9": 1795151470.5824156,
-  "01a7c9514ee8f008": 1795151511.5733895
+  "01a7c9514ee8f008": 1795151511.5733895,
+  "0945fe1d5484aa46": 1795152672.4169903,
+  "ed83bb37fd1f76af": 1795152672.4169922,
+  "19cff0926e9ebcbb": 1795152676.0827186,
+  "f940c1ab7f22f16d": 1795152676.082721,
+  "d4324ddf667318c8": 1795152676.0829194
  },
  "pending": {
   "culture2026-11-20": {
@@ -1621,7 +1619,7 @@
  "sindh_single": {
   "date": "2026-11-20",
   "count": 0,
-  "last": 1795144901.3826256,
+  "last": 1795152691.7015462,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2296,14 +2294,14 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795152363.8711936,
+   "last_edit": 1795152999.232141,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-20 10:26",
+  "time": "2026-11-20 10:36",
   "items": 34,
   "sample": [
    "South Africa 557/10 & 12/1 * v Bangladesh 168/10 & 400/10",
@@ -7842,9 +7840,9 @@
  },
  "ai_usage": {
   "date": "2026-11-20",
-  "ok": 148,
-  "fail": 258,
-  "limit": 259
+  "ok": 153,
+  "fail": 268,
+  "limit": 269
  },
  "posted_heads": [
   {
@@ -8169,7 +8167,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-20 10:26",
+  "time": "2026-11-20 10:36",
   "steps": []
  },
  "roundup_am": "2026-11-20",
@@ -8272,12 +8270,12 @@
  },
  "article_diag": {
   "date": "2026-11-20",
-  "tried": 18,
-  "decoded": 18,
-  "text": 18,
-  "story": 10
+  "tried": 19,
+  "decoded": 19,
+  "text": 19,
+  "story": 11
  },
- "ai_last_error": "10:12 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-20",
   "models": [
@@ -8319,7 +8317,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-20",
-   "ok": 58,
+   "ok": 59,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -8327,7 +8325,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-20",
-   "ok": 63,
+   "ok": 64,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8335,7 +8333,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-20",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8343,7 +8341,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8351,7 +8349,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8359,14 +8357,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8374,7 +8372,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-20",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8550,8 +8548,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 8,
-  "old": 8,
+  "found": 12,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8605,9 +8603,9 @@
  "sindh_stream": {
   "date": "2026-11-20",
   "count": 2,
-  "last": 1795149662.763665,
-  "city_i": 18,
-  "dry": 1795151466.6553388
+  "last": 1795152670.7812634,
+  "city_i": 22,
+  "dry": 1795152672.416994
  },
  "gemini_day_dead": {
   "day": "2026-11-19",
@@ -9247,20 +9245,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-20 07:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-20 07:15",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-20 07:20",
    "ok": true,
    "n": 0,
@@ -9521,6 +9505,20 @@
   },
   {
    "t": "11-20 10:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 10:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 10:36",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13557,11 +13555,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-18 20:12",
-   "new": "سنڌ | پيٹرول ۽ ڈیزل جي قيمتن ۾ وڏي گهٽتائي",
-   "old": "پيٽروليم شين جون قيمتون تبديل"
-  },
-  {
    "t": "11-18 21:31",
    "new": "بلاول انتظامي يونٽن جي ڳالهه ڪري ٿو پر پ پ حڪومت جي ڪارڪردگي ٻڙي آهي: ",
    "old": "پيپلز پارٽي انتظامي يونٽن تي سياست ڪري رهي آهي: طلال چوڌري"
@@ -13705,6 +13698,11 @@
    "t": "11-20 10:11",
    "new": "لاهور ۾ سخت سموگ برقرار",
    "old": "لاهور دن جو سڀ کان آلوده شهر قرار"
+  },
+  {
+   "t": "11-20 10:31",
+   "new": "پاڪستان ۾ سون جي اگهه ۾ تبديلي",
+   "old": "پاڪستان ۾ اڄ سوني اگهه ۾ واڌ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13725,6 +13723,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 6
- }
+  "repeat": 7
+ },
+ "_dup": true
 }
