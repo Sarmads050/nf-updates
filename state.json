@@ -1558,7 +1558,9 @@
   "0d6bb8126089e891": 1795133106.7382793,
   "9e4c6693f6f83107": 1795135888.647124,
   "37c0a171c927cce0": 1795135888.647374,
-  "e7330cd38fd9fc3f": 1795137055.3020449
+  "e7330cd38fd9fc3f": 1795137055.3020449,
+  "ceb5ee6c51c00b4d": 1795137669.0533566,
+  "7c4506fdeb6f9859": 1795137669.0535336
  },
  "pending": {},
  "queue": [],
@@ -1622,7 +1624,7 @@
   "last_week": "",
   "last_check": "2026-11-20"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1748,20 +1750,8 @@
    "4727aac89d12a8a9"
   ]
  },
- "last_post_id": "1444130002106066_122122817301503839",
+ "last_post_id": "1444130002106066_122122822041503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122122559535503839",
-   "title": "ڪراچي ۾ پوليس اهلڪار تي واپاري کي اغوا ڪري ڀنگ وٺڻ جو الزام",
-   "t": 1795061521.284328,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122122559535503839"
-  },
   {
    "id": "1444130002106066_122122573611503839",
    "title": "پاڪستان جي کلي مارڪيٽ ۾ اڄ 19 نومبر 2026 تي پرڏيهي ڪرنسي جي تبادلي جا اگهه جاري ڪيا ويا",
@@ -2074,6 +2064,15 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122122817301503839"
+  },
+  {
+   "id": "1444130002106066_122122822041503839",
+   "title": "حڪومت ملڪي برآمدات کي وڌائڻ لاءِ اي ايف ايس سادي ڪرڻ جو پلان تيار ڪري ورتو آهي",
+   "t": 1795137723.5356917,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122122822041503839"
   }
  ],
  "share_sent": {
@@ -2357,14 +2356,14 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795137359.5335727,
+   "last_edit": 1795138028.915729,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-20 06:15",
+  "time": "2026-11-20 06:27",
   "items": 34,
   "sample": [
    "South Africa 557/10 & 12/1 * v Bangladesh 168/10 & 400/10",
@@ -2379,17 +2378,11 @@
  },
  "all_posts": {
   "date": "2026-11-20",
-  "count": 7,
-  "last": 1795135938.9252348
+  "count": 8,
+  "last": 1795137718.8447022
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122118980247503839",
-    "sec": "public_news",
-    "cat": "technology",
-    "t": 1794182576
-   },
    {
     "id": "1444130002106066_122118988719503839",
     "sec": "agri_news",
@@ -4783,13 +4776,19 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1795135943
+   },
+   {
+    "id": "1444130002106066_122122822041503839",
+    "sec": "public_news",
+    "cat": "transport_trade",
+    "t": 1795137723
    }
   ]
  },
  "public_news": {
   "date": "2026-11-20",
-  "count": 2,
-  "last": 1795129374.1170995
+  "count": 3,
+  "last": 1795137723.535673
  },
  "trends": {
   "last": 1795133071.4552834,
@@ -7895,15 +7894,11 @@
  },
  "ai_usage": {
   "date": "2026-11-20",
-  "ok": 87,
-  "fail": 154,
-  "limit": 155
+  "ok": 95,
+  "fail": 168,
+  "limit": 169
  },
  "posted_heads": [
-  {
-   "h": "Sanghar Deputy Commissioner Reviews Complaints Over Delayed Revenue Services - UrduPoint",
-   "t": 1794918156
-  },
   {
    "h": "GSP+ Boosts Pakistan's Exports; Loss of EU Trade Benefits Could Threaten Jobs and Industry",
    "t": 1794919474
@@ -8219,10 +8214,14 @@
   {
    "h": "Jamal and Abbas keep Pakistan on top despite Sri Lanka’s fightback",
    "t": 1795135943
+  },
+  {
+   "h": "Govt plans EFS simplification to boost exports",
+   "t": 1795137723
   }
  ],
  "last_errors": {
-  "time": "2026-11-20 06:15",
+  "time": "2026-11-20 06:27",
   "steps": []
  },
  "roundup_am": "2026-11-19",
@@ -8325,12 +8324,12 @@
  },
  "article_diag": {
   "date": "2026-11-20",
-  "tried": 11,
-  "decoded": 11,
-  "text": 11,
+  "tried": 12,
+  "decoded": 12,
+  "text": 12,
   "story": 7
  },
- "ai_last_error": "05:52 gemini-flash-lite-latest 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "06:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-20",
   "models": [
@@ -8344,9 +8343,9 @@
  },
  "img_diag": {
   "date": "2026-11-20",
-  "tried": 7,
+  "tried": 8,
   "gemini": 0,
-  "pollinations": 6,
+  "pollinations": 7,
   "skip": 1,
   "fail": 0,
   "last_note": "smog and hazy sky",
@@ -8372,7 +8371,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-20",
-   "ok": 35,
+   "ok": 36,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8380,7 +8379,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-20",
-   "ok": 38,
+   "ok": 39,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8388,7 +8387,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-20",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8396,7 +8395,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8404,7 +8403,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8412,14 +8411,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8427,7 +8426,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-20",
-   "ok": 39,
+   "ok": 40,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8599,12 +8598,12 @@
   "date": "2026-11-20",
   "district": 0,
   "sindh": 1,
-  "pakistan": 6
+  "pakistan": 7
  },
  "report_acc": {
-  "posted": 0,
-  "found": 4,
-  "old": 4,
+  "posted": 1,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8659,8 +8658,8 @@
   "date": "2026-11-20",
   "count": 1,
   "last": 1795117881.6383905,
-  "city_i": 24,
-  "dry": 1795135875.551869
+  "city_i": 6,
+  "dry": 1795137664.0813894
  },
  "gemini_day_dead": {
   "day": "2026-11-19",
@@ -8740,14 +8739,6 @@
   92058803
  ],
  "reel_pool": [
-  {
-   "k": "076a76fb3dfd3a6d",
-   "h": "جعلي دوائن جي روڪٿام لاءِ بارڪوڊنگ لازمي",
-   "x": "حڪومت ملڪ ۾ جعلي ۽ بنا نمبر دوائن جي روڪٿام لاءِ سمورين دوائن تي 2ڊي بارڪوڊنگ ۽ سيرائليشن لازمي قرار ڏئي ڇڏي آهي!",
-   "t": 1794963733,
-   "s": false,
-   "r": 0
-  },
   {
    "k": "c2d22bb2c4a333ae",
    "h": "پيٽرول اگهه ۾ گهٽتائي",
@@ -9283,6 +9274,14 @@
    "t": 1795135943,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "54b761771ec4a1f8",
+   "h": "برآمدات وڌائڻ لاءِ اي ايف ايس سادي ڪرڻ جو پلان",
+   "x": "حڪومت ملڪي برآمدات کي وڌائڻ لاءِ اي ايف ايس سادي ڪرڻ جو پلان تيار ڪري ورتو آهي!",
+   "t": 1795137723,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9296,20 +9295,6 @@
   "last": 1795085774.8532135
  },
  "tg_debug": [
-  {
-   "t": "11-20 03:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-20 03:16",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-20 03:20",
    "ok": true,
@@ -9575,40 +9560,24 @@
    "n": 0,
    "ids": [],
    "err": "Bad Gateway"
+  },
+  {
+   "t": "11-20 06:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 06:27",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-20",
  "recent_posts": [
-  {
-   "t": 1794963733,
-   "h": "جعلي دوائن جي روڪٿام لاءِ بارڪوڊنگ لازمي",
-   "b": "حڪومت ملڪ ۾ جعلي ۽ بنا نمبر دوائن جي روڪٿام لاءِ سمورين دوائن تي 2ڊي بارڪوڊنگ ۽ سيرائليشن لازمي قرار ڏئي ڇڏي",
-   "tt": [
-    "بارڪوڊنگ",
-    "جعلي",
-    "دوائن",
-    "روڪٿام",
-    "لازمي"
-   ],
-   "bt": [
-    "2ڊي",
-    "اهي",
-    "بارڪوڊنگ",
-    "بنا",
-    "جعلي",
-    "حڪومت",
-    "دوائن",
-    "روڪٿام",
-    "سمورين",
-    "سيرائليشن",
-    "قرار",
-    "لازمي",
-    "ملڪ",
-    "نمبر",
-    "ڇڏي",
-    "ڏئي"
-   ]
-  },
   {
    "t": 1794966114,
    "h": "پيٽرول اگهه ۾ گهٽتائي",
@@ -13784,6 +13753,34 @@
     "ڇڏي",
     "ڏياري",
     "ڪندي"
+   ]
+  },
+  {
+   "t": 1795137723,
+   "h": "برآمدات وڌائڻ لاءِ اي ايف ايس سادي ڪرڻ جو پلان",
+   "b": "حڪومت ملڪي برآمدات کي وڌائڻ لاءِ اي ايف ايس سادي ڪرڻ جو پلان تيار ڪري ورتو آهي!",
+   "tt": [
+    "ايس",
+    "ايف",
+    "برامدات",
+    "سادي",
+    "وڌائڻ",
+    "پلان",
+    "ڪرڻ"
+   ],
+   "bt": [
+    "اهي",
+    "ايس",
+    "ايف",
+    "برامدات",
+    "تيار",
+    "حڪومت",
+    "سادي",
+    "ملڪي",
+    "ورتو",
+    "وڌائڻ",
+    "پلان",
+    "ڪرڻ"
    ]
   }
  ],
