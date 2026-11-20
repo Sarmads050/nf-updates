@@ -1,6 +1,5 @@
 {
  "seen": {
-  "910344fc93da035d": 1794587486.3969555,
   "0adef8656dcee94e": 1794589874.2281823,
   "80afd731bc314699": 1794591078.6242857,
   "141bb94ca625851b": 1794591078.6242883,
@@ -1527,7 +1526,9 @@
   "52a949772e9ffedf": 1795188737.4784482,
   "1c571dc385be3e57": 1795188737.4784505,
   "523101ab2d36f978": 1795189874.5719419,
-  "71222d9ced6f7cbe": 1795189874.5719447
+  "71222d9ced6f7cbe": 1795189874.5719447,
+  "0ee043531f57b16c": 1795192851.9548404,
+  "cc8e8de2319b10fb": 1795192894.9195657
  },
  "pending": {
   "culture2026-11-20": {
@@ -1567,7 +1568,7 @@
   "last_week": "",
   "last_check": "2026-11-20"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1622,7 +1623,7 @@
  "sindh_single": {
   "date": "2026-11-20",
   "count": 1,
-  "last": 1795185119.8990955,
+  "last": 1795192873.362756,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1692,7 +1693,8 @@
    "ec58cbfec5550e59",
    "4727aac89d12a8a9",
    "c4a2a5757d14447a",
-   "90f9b9dd597c7312"
+   "90f9b9dd597c7312",
+   "cc8e8de2319b10fb"
   ]
  },
  "last_post_id": "1444130002106066_122123018169503839",
@@ -2315,7 +2317,7 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795192580.761546,
+   "last_edit": 1795193210.7015598,
    "batting": "Pakistan",
    "done": false,
    "seen_live": true
@@ -2328,17 +2330,17 @@
    },
    "wicket_posts": 0,
    "break_done": false,
-   "last_edit": 1795192581.7502332,
+   "last_edit": 1795193211.918975,
    "batting": "Ireland Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-20 21:36",
+  "time": "2026-11-20 21:46",
   "items": 38,
   "sample": [
-   "Pakistan 325/10 & 90/2 * v Sri Lanka 316/10 & 98/10",
+   "Pakistan 325/10 & 90/2 * v Sri Lanka 98/10 & 316/10",
    "New Zealand 368/10 v India 159/1 *",
    "Kurunegala Youth Cricket Club 176/2 * v Burgher Recreation Club 336/10"
   ]
@@ -7874,9 +7876,9 @@
  },
  "ai_usage": {
   "date": "2026-11-20",
-  "ok": 367,
-  "fail": 559,
-  "limit": 559
+  "ok": 370,
+  "fail": 565,
+  "limit": 565
  },
  "posted_heads": [
   {
@@ -8201,7 +8203,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-20 21:36",
+  "time": "2026-11-20 21:46",
   "steps": []
  },
  "roundup_am": "2026-11-20",
@@ -8309,7 +8311,7 @@
   "text": 28,
   "story": 19
  },
- "ai_last_error": "20:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "21:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-20",
   "models": [
@@ -8352,14 +8354,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-20",
    "ok": 127,
-   "fail": 6,
+   "fail": 7,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-20",
-   "ok": 132,
+   "ok": 133,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8367,7 +8369,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-20",
-   "ok": 133,
+   "ok": 134,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8375,7 +8377,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 133,
+   "ok": 134,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8383,7 +8385,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 133,
+   "ok": 134,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8391,14 +8393,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 133,
+   "ok": 134,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 133,
+   "ok": 134,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8406,7 +8408,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-20",
-   "ok": 132,
+   "ok": 133,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8688,8 +8690,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 15,
-  "old": 15,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8744,8 +8746,8 @@
   "date": "2026-11-20",
   "count": 16,
   "last": 1795189862.6149514,
-  "city_i": 24,
-  "dry": 1795192276.80874
+  "city_i": 6,
+  "dry": 1795192860.7304158
  },
  "gemini_day_dead": {
   "day": "2026-11-20",
@@ -9433,20 +9435,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-20 16:55",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-20 17:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-20 17:06",
    "ok": true,
    "n": 0,
@@ -9707,6 +9695,20 @@
   },
   {
    "t": "11-20 21:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 21:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 21:46",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13729,11 +13731,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-19 02:01",
-   "new": "پاڪستان ۾ انٽرنيٽ سروس متاثر",
-   "old": "سنڌ | انٽرنيشنل سب ميرين ڪيبل ۾ خرابي، انٽرنيٽ صارفين کي مشڪلات"
-  },
-  {
    "t": "11-19 02:11",
    "new": "پاڪستان ۾ سوني جي اگهه ۾ وڏي گهٽتائي",
    "old": "پاڪستان ۾ سوني جي اگهه ۾ تبديلي"
@@ -13877,6 +13874,11 @@
    "t": "11-20 18:21",
    "new": "اسان اڃا ڪجھ به ناهي حاصل ڪيو، بابراعظم",
    "old": "پاڪستان سری لنکا خلاف ٽيسٽ سيريز کاتي ورتي"
+  },
+  {
+   "t": "11-20 21:41",
+   "new": "سنڌ | سندھ جي سمنڊ ۾ تيل ۽ گيس جي ڳولا",
+   "old": "تيل ۽ گئس جي ڳولا وارو جديد تحقيقي جهاز ڪراچي پهچي ويو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13897,6 +13899,7 @@
   "kawish_rejected": 6,
   "kawish_crosschecked": 2,
   "wrong_place": 0,
-  "repeat": 12
- }
+  "repeat": 13
+ },
+ "_dup": true
 }
