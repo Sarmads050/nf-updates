@@ -1507,7 +1507,18 @@
   "6e4d5780020d198d": 1795179078.2274702,
   "6230c6830db737b3": 1795179078.2274709,
   "635397b2a64850d9": 1795179078.227668,
-  "c4302f6ada0371c3": 1795179667.603614
+  "c4302f6ada0371c3": 1795179667.603614,
+  "8aabd0da35e5f737": 1795180886.7402065,
+  "94f42fa0919020c9": 1795180895.5672863,
+  "ef67b9b7a4539647": 1795180895.56729,
+  "850da7de7f1c0f67": 1795180895.5672915,
+  "7f39d6878684d1bb": 1795180895.5672922,
+  "fb9feb5d98db8106": 1795180895.567293,
+  "3b68ff6d6884a8dd": 1795180895.5672936,
+  "20b48447a9ab223a": 1795180895.5672944,
+  "47318c510fbb25b6": 1795180895.567296,
+  "76459d39345fac05": 1795180895.5672967,
+  "cd6bc5fd2f611044": 1795180895.5674872
  },
  "pending": {
   "culture2026-11-20": {
@@ -2290,7 +2301,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-20 18:10",
+  "time": "2026-11-20 18:21",
   "items": 1,
   "sample": [
    "No Match in progress.."
@@ -7827,9 +7838,9 @@
  },
  "ai_usage": {
   "date": "2026-11-20",
-  "ok": 321,
-  "fail": 484,
-  "limit": 486
+  "ok": 327,
+  "fail": 496,
+  "limit": 498
  },
  "posted_heads": [
   {
@@ -8154,7 +8165,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-20 18:10",
+  "time": "2026-11-20 18:21",
   "steps": []
  },
  "roundup_am": "2026-11-20",
@@ -8257,12 +8268,12 @@
  },
  "article_diag": {
   "date": "2026-11-20",
-  "tried": 26,
-  "decoded": 26,
-  "text": 26,
-  "story": 17
+  "tried": 27,
+  "decoded": 27,
+  "text": 27,
+  "story": 18
  },
- "ai_last_error": "18:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-20",
   "models": [
@@ -8304,7 +8315,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-20",
-   "ok": 106,
+   "ok": 107,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -8312,7 +8323,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-20",
-   "ok": 111,
+   "ok": 112,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8320,7 +8331,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-20",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8328,7 +8339,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8336,7 +8347,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8344,14 +8355,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8359,7 +8370,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-20",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8641,8 +8652,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 5,
-  "old": 5,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8697,8 +8708,8 @@
   "date": "2026-11-20",
   "count": 12,
   "last": 1795176677.7598233,
-  "city_i": 20,
-  "dry": 1795179069.5652628
+  "city_i": 24,
+  "dry": 1795180883.019991
  },
  "gemini_day_dead": {
   "day": "2026-11-20",
@@ -9367,13 +9378,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-20 14:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-20 14:48",
    "ok": true,
    "n": 0,
@@ -9641,6 +9645,13 @@
   },
   {
    "t": "11-20 18:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 18:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13558,11 +13569,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-19 01:51",
-   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
-   "old": "پيٽرول اگهه ۾ گهٽتائي"
-  },
-  {
    "t": "11-19 02:01",
    "new": "پاڪستان ۾ انٽرنيٽ سروس متاثر",
    "old": "سنڌ | انٽرنيشنل سب ميرين ڪيبل ۾ خرابي، انٽرنيٽ صارفين کي مشڪلات"
@@ -13706,6 +13712,11 @@
    "t": "11-20 17:51",
    "new": "ٽيسٽ سيريز جي ڪاميابي ۾ نوجوان راندمين جو اهم ڪردار رهيو: بابر اعظم",
    "old": "پاڪستان سری لنکا خلاف ٽيسٽ سيريز کاتي ورتي"
+  },
+  {
+   "t": "11-20 18:21",
+   "new": "اسان اڃا ڪجھ به ناهي حاصل ڪيو، بابراعظم",
+   "old": "پاڪستان سری لنکا خلاف ٽيسٽ سيريز کاتي ورتي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13726,6 +13737,7 @@
   "kawish_rejected": 6,
   "kawish_crosschecked": 2,
   "wrong_place": 0,
-  "repeat": 11
- }
+  "repeat": 12
+ },
+ "_dup": true
 }
