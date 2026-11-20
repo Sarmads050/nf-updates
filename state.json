@@ -1,8 +1,5 @@
 {
  "seen": {
-  "98e9948f7987f9c7": 1794576066.8805826,
-  "0ce580f68a04f734": 1794576066.8805847,
-  "aecfc40455144860": 1794576073.868213,
   "1e85f84538488c8b": 1794576667.3743522,
   "2615423fe5ec2c83": 1794579117.4845695,
   "dcfde879aa768a22": 1794580274.461713,
@@ -1518,7 +1515,9 @@
   "20b48447a9ab223a": 1795180895.5672944,
   "47318c510fbb25b6": 1795180895.567296,
   "76459d39345fac05": 1795180895.5672967,
-  "cd6bc5fd2f611044": 1795180895.5674872
+  "cd6bc5fd2f611044": 1795180895.5674872,
+  "6dcb0376e981a3db": 1795181481.1386116,
+  "2bfca36e0fab6e2b": 1795181481.1388211
  },
  "pending": {
   "culture2026-11-20": {
@@ -1685,18 +1684,8 @@
    "c4a2a5757d14447a"
   ]
  },
- "last_post_id": "1444130002106066_122122978371503839",
+ "last_post_id": "1444130002106066_122122984425503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122122780803503839",
-   "title": "پاڪستان فلور ملز ايسوسيئيشن حڪومت کان مطالبو ڪيو آهي ته ملڪ ۾ ڪڻڪ جي معياري فراهمي کي",
-   "t": 1795122848.6175196,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122122780803503839"
-  },
   {
    "id": "1444130002106066_122122788975503839",
    "title": "محکمه موسميات موجب ايندڙ ڏينهن ۾ سنڌ جي اڪثر ضلعن ۾ موسم خشڪ رهندي",
@@ -2011,6 +2000,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122122968951503839"
+  },
+  {
+   "id": "1444130002106066_122122984425503839",
+   "title": "پاڪستان ۾ پيٽرول جي نون اگهن بابت تازه ترين اپڊيٽ سامه اچي وئي آهي، جنهن تحت نوان اگهه",
+   "t": 1795181638.0981398,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122122984425503839"
   }
  ],
  "share_sent": {
@@ -2301,7 +2299,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-20 18:21",
+  "time": "2026-11-20 18:33",
   "items": 1,
   "sample": [
    "No Match in progress.."
@@ -2314,17 +2312,11 @@
  },
  "all_posts": {
   "date": "2026-11-20",
-  "count": 35,
-  "last": 1795179729.7056668
+  "count": 36,
+  "last": 1795181628.6564186
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122119237221503839",
-    "sec": "kawish",
-    "cat": "district",
-    "t": 1794224487
-   },
    {
     "id": "1444130002106066_122119253265503839",
     "sec": "kawish",
@@ -4718,13 +4710,19 @@
     "sec": "public_news",
     "cat": "water",
     "t": 1795177944
+   },
+   {
+    "id": "1444130002106066_122122984425503839",
+    "sec": "public_news",
+    "cat": "fuel",
+    "t": 1795181638
    }
   ]
  },
  "public_news": {
   "date": "2026-11-20",
-  "count": 7,
-  "last": 1795177944.327263
+  "count": 8,
+  "last": 1795181638.0981193
  },
  "trends": {
   "last": 1795177862.6355827,
@@ -7838,15 +7836,11 @@
  },
  "ai_usage": {
   "date": "2026-11-20",
-  "ok": 327,
-  "fail": 496,
-  "limit": 498
+  "ok": 333,
+  "fail": 506,
+  "limit": 508
  },
  "posted_heads": [
-  {
-   "h": "Gold price in Pakistan for today, November 18, 2026",
-   "t": 1794993712
-  },
   {
    "h": "PTA Plans New Registration Rules and Fees for Private IoT Networks",
    "t": 1794996278
@@ -8162,10 +8156,14 @@
   {
    "h": "IRSA Releases 87,300 Cusecs of Water From Rim Stations",
    "t": 1795177944
+  },
+  {
+   "h": "Petrol Price Latest Update: What Are the New Rates in Pakistan? | 01PM HEADLINES",
+   "t": 1795181638
   }
  ],
  "last_errors": {
-  "time": "2026-11-20 18:21",
+  "time": "2026-11-20 18:34",
   "steps": []
  },
  "roundup_am": "2026-11-20",
@@ -8268,12 +8266,12 @@
  },
  "article_diag": {
   "date": "2026-11-20",
-  "tried": 27,
-  "decoded": 27,
-  "text": 27,
-  "story": 18
+  "tried": 28,
+  "decoded": 28,
+  "text": 28,
+  "story": 19
  },
- "ai_last_error": "18:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-20",
   "models": [
@@ -8287,11 +8285,11 @@
  },
  "img_diag": {
   "date": "2026-11-20",
-  "tried": 33,
+  "tried": 34,
   "gemini": 0,
-  "pollinations": 19,
+  "pollinations": 20,
   "skip": 9,
-  "fail": 8,
+  "fail": 10,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 787,
   "unverified": 2
@@ -8315,7 +8313,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-20",
-   "ok": 107,
+   "ok": 108,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -8323,7 +8321,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-20",
-   "ok": 112,
+   "ok": 113,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8331,7 +8329,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-20",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8339,7 +8337,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8347,7 +8345,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8355,14 +8353,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8370,7 +8368,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-20",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8648,12 +8646,12 @@
   "date": "2026-11-20",
   "district": 0,
   "sindh": 20,
-  "pakistan": 14
+  "pakistan": 15
  },
  "report_acc": {
-  "posted": 0,
-  "found": 10,
-  "old": 10,
+  "posted": 1,
+  "found": 15,
+  "old": 15,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8708,8 +8706,8 @@
   "date": "2026-11-20",
   "count": 12,
   "last": 1795176677.7598233,
-  "city_i": 24,
-  "dry": 1795180883.019991
+  "city_i": 6,
+  "dry": 1795181475.980013
  },
  "gemini_day_dead": {
   "day": "2026-11-20",
@@ -9356,6 +9354,14 @@
    "t": 1795177944,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "bb8a42d107b85514",
+   "h": "پاڪستان ۾ پيٽرول اگهاڻن بابت نون اگهن جو اعلان",
+   "x": "آج نيوز جي لائيو انگريزي رڪارڊر جمعي 20 نومبر 2026 تي پيٽرول جي قيمت بابت تازي اپڊيٽ جاري ڪئي آهي ته پاڪستان ۾ نوان اگهه ڇا آهن، جن جي خبر 01 پي ايم هيڊلائنز ۾ پيش ڪئي وئي. هي خبر 20 نومبر 2026 تي منجهند 01:50 تي شايع ڪئي وئي هئي. خبر ۾ پاڪستان اندر پيٽرول جي نون اگهن بابت ڄاڻ ڏني وئي آهي. پڙهندڙن کي وڌيڪ تازه ترين خبرون حاصل ڪرڻ لاءِ واٽس اپ چينل جوائن ڪرڻ ۽ نوٽيفڪيشنز الاؤ ڪرڻ جي هدايت پڻ ڪئي وئي آهي.",
+   "t": 1795181638,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9367,7 +9373,8 @@
    "12:30",
    "14:00",
    "15:30",
-   "17:00"
+   "17:00",
+   "18:30"
   ]
  },
  "kawish_queue": [],
@@ -9377,13 +9384,6 @@
   "last": 1795176093.813442
  },
  "tg_debug": [
-  {
-   "t": "11-20 14:48",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-20 14:50",
    "ok": true,
@@ -9652,6 +9652,13 @@
   },
   {
    "t": "11-20 18:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 18:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13565,6 +13572,55 @@
     "پرائمري",
     "ڪراچي"
    ]
+  },
+  {
+   "t": 1795181638,
+   "h": "پاڪستان ۾ پيٽرول اگهاڻن بابت نون اگهن جو اعلان",
+   "b": "آج نيوز جي لائيو انگريزي رڪارڊر جمعي 20 نومبر 2026 تي پيٽرول جي قيمت بابت تازي اپڊيٽ جاري ڪئي آهي ته پاڪستان",
+   "tt": [
+    "اعلان",
+    "اگهاڻن",
+    "اگهن",
+    "بابت",
+    "نون",
+    "پاڪستان",
+    "پيٽرول"
+   ],
+   "bt": [
+    "#1",
+    "#20",
+    "#50",
+    "اعلان",
+    "اندر",
+    "انگريزي",
+    "اهن،",
+    "اهي",
+    "ايم",
+    "اپڊيٽ",
+    "اگهاڻن",
+    "اگهن",
+    "اگهه",
+    "بابت",
+    "تازي",
+    "جاري",
+    "جمعي",
+    "خبر",
+    "رڪارڊر",
+    "شايع",
+    "قيمت",
+    "لائيو",
+    "منجهند",
+    "نوان",
+    "نومبر",
+    "نون",
+    "نيوز",
+    "هيڊلائنز",
+    "پاڪستان",
+    "پيش",
+    "پيٽرول",
+    "ڄاڻ",
+    "ڏني"
+   ]
   }
  ],
  "repeat_log": [
@@ -13732,12 +13788,11 @@
  },
  "quality": {
   "date": "2026-11-20",
-  "editor_fixed": 27,
+  "editor_fixed": 28,
   "editor_rejected": 4,
   "kawish_rejected": 6,
   "kawish_crosschecked": 2,
   "wrong_place": 0,
   "repeat": 12
- },
- "_dup": true
+ }
 }
