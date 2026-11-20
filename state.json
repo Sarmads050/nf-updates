@@ -1547,7 +1547,7 @@
   "last_week": "",
   "last_check": "2026-11-20"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.5-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1602,7 +1602,7 @@
  "sindh_single": {
   "date": "2026-11-20",
   "count": 0,
-  "last": 1795160482.21677,
+  "last": 1795177280.6328852,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2286,14 +2286,14 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795177024.364174,
+   "last_edit": 1795177631.3285322,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-20 17:17",
+  "time": "2026-11-20 17:27",
   "items": 34,
   "sample": [
    "South Africa 557/10 & 12/1 * v Bangladesh 168/10 & 400/10",
@@ -7824,9 +7824,9 @@
  },
  "ai_usage": {
   "date": "2026-11-20",
-  "ok": 302,
-  "fail": 449,
-  "limit": 452
+  "ok": 305,
+  "fail": 456,
+  "limit": 458
  },
  "posted_heads": [
   {
@@ -8151,7 +8151,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-20 17:17",
+  "time": "2026-11-20 17:27",
   "steps": []
  },
  "roundup_am": "2026-11-20",
@@ -8259,7 +8259,7 @@
   "text": 24,
   "story": 15
  },
- "ai_last_error": "17:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "17:21 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-20",
   "models": [
@@ -8301,7 +8301,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-20",
-   "ok": 100,
+   "ok": 101,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -8309,7 +8309,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-20",
-   "ok": 105,
+   "ok": 106,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8317,7 +8317,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-20",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8325,7 +8325,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8333,7 +8333,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8341,14 +8341,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8356,7 +8356,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-20",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8638,8 +8638,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 4,
-  "old": 4,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9364,49 +9364,13 @@
    "17:00"
   ]
  },
- "kawish_queue": [
-  {
-   "key": "6917d4f6dcef484c",
-   "page": 4,
-   "head": "صوبن جي حوالي سان سنڌ جي پيغام جو اٿڻ",
-   "summary": "سنڌ اندر صوبن جي حوالي سان مختلف سياسي اڳواڻن ۽ وڪيلن پنهنجا خيال ظاهر ڪيا آهن. اڳواڻن ۽ وڪيلن سنڌ ۾ نون صوبن بابت ريفرينڊم يا بحث کي رد ڪندي چيو آهي ته سنڌ جي وحدت تي ڪو به وار برداشت نه ڪيو ويندو. هنن جو چوڻ هو ته سنڌ هڪ آهي ۽ هڪ ئي رهندي، ۽ سنڌ جي بقا ۽ سلامتي لاءِ جدوجهد جاري رکي ويندي. ان سان گڏوگڏ، ڪجهه اڳواڻن اهو پڻ چيو آهي ته سنڌ کي نون صوبن جا مشورا ڏيندڙ اڳ ۾ پنهنجي صوبي ۾ نوان صوبا ٺاهي ڏيکارين، ڇو ته آئين موجب نئون صوبو ٺاهել لاءِ لاڳاپيل صوبائي اسيمبليءَ مان ٺهراءُ منظور ٿيڻ ضروري آهي.",
-   "card": "سنڌ ۾ صوبن جي حوالي سان سياسي اڳواڻن ۽ وڪيلن پنهنجا خيال ظاهر ڪندي نون صوبن بابت ريفرينڊم يا بحث کي رد ڪري ڇڏيو آهي. اڳواڻن چيو ته سنڌ جي وحدت تي ڪو به وار برداشت نه ڪيو ويندو ۽ سنڌ هڪ آهي ۽ هڪ ئي رهندي. هنن واضح ڪيو ته نئون صوبو ٺاهڻ لاءِ آئين تحت لاڳاپيل صوبائي اسيمبليءَ مان ٺهراءُ منظور ٿيڻ ضروري آهي.",
-   "printed": "صوبن جي حوالي سان سنڌ جي پيغام جو اٿڻ ",
-   "search_en": "Sindh province rights and resources statement",
-   "search_ur": "سندھ صوبائی حقوق اور وسائل بیان",
-   "district": false,
-   "sensitive": false,
-   "confidence": "high",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-11-20&pageno=4",
-   "message": "📰 صوبن جي حوالي سان سنڌ جي پيغام جو اٿڻ\n\nسنڌ اندر صوبن جي حوالي سان مختلف سياسي اڳواڻن ۽ وڪيلن پنهنجا خيال ظاهر ڪيا آهن. اڳواڻن ۽ وڪيلن سنڌ ۾ نون صوبن بابت ريفرينڊم يا بحث کي رد ڪندي چيو آهي ته سنڌ جي وحدت تي ڪو به وار برداشت نه ڪيو ويندو. هنن جو چوڻ هو ته سنڌ هڪ آهي ۽ هڪ ئي رهندي، ۽ سنڌ جي بقا ۽ سلامتي لاءِ جدوجهد جاري رکي ويندي. ان سان گڏوگڏ، ڪجهه اڳواڻن اهو پڻ چيو آهي ته سنڌ کي نون صوبن جا مشورا ڏيندڙ اڳ ۾ پنهنجي صوبي ۾ نوان صوبا ٺاهي ڏيکارين، ڇو ته آئين موجب نئون صوبو ٺاهել لاءِ لاڳاپيل صوبائي اسيمبليءَ مان ٺهراءُ منظور ٿيڻ ضروري آهي!\n\n📌 ذريعو: روزاني ڪاوش (صفحو 4) + پنھنجي اخبار + WTN سنڌي\n\n📲 Naushahro Feroze Updates | نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFerozeUpdates #NaushahroFeroze #NausheroFeroz #Padidan #نوشهروفيروز #نوشہروفیروز #پڊعيدن",
-   "extra_sources": [
-    "پنھنجي اخبار",
-    "WTN سنڌي"
-   ],
-   "crosschecked": true,
-   "added_day": "2026-11-20"
-  }
- ],
+ "kawish_queue": [],
  "kawish_post": {
   "date": "2026-11-20",
   "count": 6,
   "last": 1795176093.813442
  },
  "tg_debug": [
-  {
-   "t": "11-20 14:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-20 14:07",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-20 14:10",
    "ok": true,
@@ -9668,6 +9632,20 @@
   },
   {
    "t": "11-20 17:17",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 17:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 17:27",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13651,11 +13629,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-18 22:32",
-   "new": "ملڪ ۾ انٽرنيٽ سروس متاثر",
-   "old": "سنڌ | انٽرنيشنل سب ميرين ڪيبل ۾ خرابي، انٽرنيٽ صارفين کي مشڪلات"
-  },
-  {
    "t": "11-19 01:43",
    "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
    "old": "پيٽروليم شين جون قيمتون تبديل"
@@ -13799,6 +13772,11 @@
    "t": "11-20 11:21",
    "new": "پاڪستان سری لنکا خلاف سیریز کتي ورتي",
    "old": "پاڪستان کي ڪرڪيٽ سيريز کٽڻ لاءِ 90 رنسون درڪار"
+  },
+  {
+   "t": "11-20 17:21",
+   "new": "صوبن جي حوالي سان سنڌ جي پيغام جو اٿڻ",
+   "old": "سنڌ جي جاگرافيائي وحدت تي ڪ بہ سمجھوتو نہ ٿيندو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13819,6 +13797,7 @@
   "kawish_rejected": 6,
   "kawish_crosschecked": 2,
   "wrong_place": 0,
-  "repeat": 9
- }
+  "repeat": 10
+ },
+ "_dup": true
 }
