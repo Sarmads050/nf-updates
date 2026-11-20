@@ -1,11 +1,5 @@
 {
  "seen": {
-  "6512351c23aff250": 1794573669.9429767,
-  "e3629ae23474973b": 1794573669.9431973,
-  "38e2395cbc295e98": 1794573683.8069487,
-  "a67add3ae6d7f353": 1794573683.8072286,
-  "f1b2f053d1ae357d": 1794573696.787678,
-  "9c2477f0267d6206": 1794573696.7878978,
   "98e9948f7987f9c7": 1794576066.8805826,
   "0ce580f68a04f734": 1794576066.8805847,
   "aecfc40455144860": 1794576073.868213,
@@ -1501,7 +1495,18 @@
   "8cb7ec508aa5623f": 1795174855.108772,
   "041a1d4becf22ffe": 1795176680.085155,
   "c016ecb6933b0cea": 1795177890.4455545,
-  "38115feecf179996": 1795177890.445731
+  "38115feecf179996": 1795177890.445731,
+  "4f015b0617448038": 1795179057.06302,
+  "b4c11ecb4d1295ac": 1795179078.2274623,
+  "296cd762d09bfa72": 1795179078.227465,
+  "65dddd0f99658827": 1795179078.2274659,
+  "b9624c1583461859": 1795179078.2274668,
+  "1dc840432c8c9731": 1795179078.2274675,
+  "19f44e74737d22ad": 1795179078.2274685,
+  "0f3a21b940538b31": 1795179078.2274692,
+  "6e4d5780020d198d": 1795179078.2274702,
+  "6230c6830db737b3": 1795179078.2274709,
+  "635397b2a64850d9": 1795179078.227668
  },
  "pending": {
   "culture2026-11-20": {
@@ -2284,7 +2289,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-20 17:40",
+  "time": "2026-11-20 17:51",
   "items": 1,
   "sample": [
    "No Match in progress.."
@@ -7821,9 +7826,9 @@
  },
  "ai_usage": {
   "date": "2026-11-20",
-  "ok": 315,
-  "fail": 474,
-  "limit": 476
+  "ok": 318,
+  "fail": 480,
+  "limit": 482
  },
  "posted_heads": [
   {
@@ -8148,7 +8153,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-20 17:40",
+  "time": "2026-11-20 17:51",
   "steps": []
  },
  "roundup_am": "2026-11-20",
@@ -8251,12 +8256,12 @@
  },
  "article_diag": {
   "date": "2026-11-20",
-  "tried": 25,
-  "decoded": 25,
-  "text": 25,
-  "story": 16
+  "tried": 26,
+  "decoded": 26,
+  "text": 26,
+  "story": 17
  },
- "ai_last_error": "17:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "17:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-20",
   "models": [
@@ -8298,7 +8303,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-20",
-   "ok": 103,
+   "ok": 104,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -8306,7 +8311,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-20",
-   "ok": 108,
+   "ok": 109,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8314,7 +8319,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-20",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8322,7 +8327,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8330,7 +8335,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8338,14 +8343,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8353,7 +8358,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-20",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8635,8 +8640,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 16,
-  "old": 16,
+  "found": 21,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8691,8 +8696,8 @@
   "date": "2026-11-20",
   "count": 12,
   "last": 1795176677.7598233,
-  "city_i": 16,
-  "dry": 1795177873.7402964
+  "city_i": 20,
+  "dry": 1795179069.5652628
  },
  "gemini_day_dead": {
   "day": "2026-11-20",
@@ -9361,13 +9366,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-20 14:28",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-20 14:30",
    "ok": true,
    "n": 0,
@@ -9635,6 +9633,13 @@
   },
   {
    "t": "11-20 17:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 17:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13591,11 +13596,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-19 01:43",
-   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
-   "old": "پيٽروليم شين جون قيمتون تبديل"
-  },
-  {
    "t": "11-19 01:51",
    "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
    "old": "پيٽرول اگهه ۾ گهٽتائي"
@@ -13739,6 +13739,11 @@
    "t": "11-20 17:21",
    "new": "صوبن جي حوالي سان سنڌ جي پيغام جو اٿڻ",
    "old": "سنڌ جي جاگرافيائي وحدت تي ڪ بہ سمجھوتو نہ ٿيندو"
+  },
+  {
+   "t": "11-20 17:51",
+   "new": "ٽيسٽ سيريز جي ڪاميابي ۾ نوجوان راندمين جو اهم ڪردار رهيو: بابر اعظم",
+   "old": "پاڪستان سری لنکا خلاف ٽيسٽ سيريز کاتي ورتي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13759,6 +13764,7 @@
   "kawish_rejected": 6,
   "kawish_crosschecked": 2,
   "wrong_place": 0,
-  "repeat": 10
- }
+  "repeat": 11
+ },
+ "_dup": true
 }
