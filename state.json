@@ -1534,7 +1534,10 @@
   "ed83bb37fd1f76af": 1795152672.4169922,
   "19cff0926e9ebcbb": 1795152676.0827186,
   "f940c1ab7f22f16d": 1795152676.082721,
-  "d4324ddf667318c8": 1795152676.0829194
+  "d4324ddf667318c8": 1795152676.0829194,
+  "4ccdd85984b437a8": 1795153257.1730847,
+  "855a7bc0d5dd92b6": 1795153257.1730871,
+  "f077ad0f388da2ec": 1795153257.1733246
  },
  "pending": {
   "culture2026-11-20": {
@@ -2294,14 +2297,14 @@
    },
    "wicket_posts": 12,
    "break_done": true,
-   "last_edit": 1795152999.232141,
+   "last_edit": 1795153570.8072848,
    "batting": "Sri Lanka",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-20 10:36",
+  "time": "2026-11-20 10:46",
   "items": 34,
   "sample": [
    "South Africa 557/10 & 12/1 * v Bangladesh 168/10 & 400/10",
@@ -7840,9 +7843,9 @@
  },
  "ai_usage": {
   "date": "2026-11-20",
-  "ok": 153,
-  "fail": 268,
-  "limit": 269
+  "ok": 157,
+  "fail": 276,
+  "limit": 277
  },
  "posted_heads": [
   {
@@ -8167,7 +8170,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-20 10:36",
+  "time": "2026-11-20 10:46",
   "steps": []
  },
  "roundup_am": "2026-11-20",
@@ -8270,12 +8273,12 @@
  },
  "article_diag": {
   "date": "2026-11-20",
-  "tried": 19,
-  "decoded": 19,
-  "text": 19,
-  "story": 11
+  "tried": 20,
+  "decoded": 20,
+  "text": 20,
+  "story": 12
  },
- "ai_last_error": "10:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-20",
   "models": [
@@ -8317,7 +8320,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-20",
-   "ok": 59,
+   "ok": 60,
    "fail": 6,
    "items": 10,
    "fail_streak": 0,
@@ -8325,7 +8328,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-20",
-   "ok": 64,
+   "ok": 65,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8333,7 +8336,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-20",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8341,7 +8344,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8349,7 +8352,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8357,14 +8360,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-20",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-20",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8372,7 +8375,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-20",
-   "ok": 65,
+   "ok": 66,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8548,8 +8551,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 12,
-  "old": 12,
+  "found": 16,
+  "old": 16,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9245,20 +9248,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-20 07:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-20 07:28",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-20 07:30",
    "ok": true,
    "n": 0,
@@ -9519,6 +9508,20 @@
   },
   {
    "t": "11-20 10:36",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 10:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-20 10:46",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13555,11 +13558,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-18 21:31",
-   "new": "بلاول انتظامي يونٽن جي ڳالهه ڪري ٿو پر پ پ حڪومت جي ڪارڪردگي ٻڙي آهي: ",
-   "old": "پيپلز پارٽي انتظامي يونٽن تي سياست ڪري رهي آهي: طلال چوڌري"
-  },
-  {
    "t": "11-18 22:11",
    "new": "بجلي جي اگهاريٽيف ۾ اضافي جو امڪان",
    "old": "بجلي وڌيڪ مهانگي، صارفين تي 30 ارب رپين جو اضافي بار"
@@ -13703,6 +13701,11 @@
    "t": "11-20 10:31",
    "new": "پاڪستان ۾ سون جي اگهه ۾ تبديلي",
    "old": "پاڪستان ۾ اڄ سوني اگهه ۾ واڌ"
+  },
+  {
+   "t": "11-20 10:41",
+   "new": "آءِ ايم ايف پاران پاڪستاني معيشت تي خدشن جو اظهار",
+   "old": "آءِ ايم ايف جو پاڪستان کي ٽيڪس تناسب وڌائڻ تي زور"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13723,7 +13726,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 7
+  "repeat": 8
  },
  "_dup": true
 }
