@@ -497,7 +497,7 @@
      "roman": "Bhai... *pa-ho*!",
      "urdu": "بھائی... پڑھو!",
      "how": "2-year-old toddler, cute broken word, giggling",
-     "shot": "punch",
+     "shot": "group",
      "pose": "give",
      "react": {
       "*": "laugh",
@@ -516,9 +516,9 @@
      "gap": 0.7,
      "before": [
       {
-       "do": "move",
+       "do": "approach",
        "who": "ARSALAN",
-       "slot": "stand_cl"
+       "to": "HAMZA"
       }
      ],
      "looks": {
@@ -532,7 +532,14 @@
       "ABBA": "rest",
       "DANIYAL": "rest",
       "ARSALAN": "rest"
-     }
+     },
+     "after": [
+      {
+       "do": "move",
+       "who": "ARSALAN",
+       "slot": "sofa_c"
+      }
+     ]
     },
     {
      "who": "ARSALAN",
