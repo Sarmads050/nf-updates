@@ -9,7 +9,7 @@ from PIL import Image, ImageDraw, ImageFilter
 OUT = (42, 28, 32)
 K = 1.5          # world px per design unit (set by engine)
 SS = 2.0         # super-sampling factor
-HEAD = 0.88      # global head size (v2: less chibi, more natural proportions)
+HEAD = 0.97      # global head size (v2: less chibi, more natural proportions)
 BODY_H = 700     # body sprite height in units (v2: kameez hem below the hip)
 
 
@@ -255,7 +255,7 @@ class Toon:
         sh_ = sh_.filter(ImageFilter.GaussianBlur(int(18 * SS * K)))
         sh_.putalpha(Image.fromarray((np.asarray(sh_.getchannel("A")).astype(np.uint16) * np.asarray(mask) // 255).astype(np.uint8)))
         im.alpha_composite(sh_)
-        return outline(im, int(6 * SS * K))
+        return outline(im, int(5 * SS * K))
 
     def _face(self, d, cx, cy, fw, fh, fill):
         """v3: face with cheeks and a soft tapered jaw / chin instead of a plain egg"""
@@ -263,7 +263,7 @@ class Toon:
         if self.c["face"] == "toddler":
             d.ellipse(s(cx - fw, cy - fh, cx + fw, cy + fh), fill=fill)
             return
-        tp = {"oval": 0.2, "round": 0.12, "long": 0.26}.get(self.c["face"], 0.2)
+        tp = {"oval": 0.15, "round": 0.08, "long": 0.2}.get(self.c["face"], 0.2)
         pts = []
         for k in range(72):  # smooth egg: full cheeks, gently tapering jaw and soft chin
             a = 2 * math.pi * k / 72
@@ -291,8 +291,8 @@ class Toon:
         d = ImageDraw.Draw(im)
         s = self._s
         a = 60 if self.c["age"] in ("man", "old_man", "young") else 85
-        d.ellipse(s(110, 284, 160, 312), fill=(240, 120, 120, a))
-        d.ellipse(s(260, 284, 310, 312), fill=(240, 120, 120, a))
+        d.ellipse(s(102, 280, 166, 316), fill=(250, 130, 150, a))  # v4: softer, rosier cheeks
+        d.ellipse(s(254, 280, 318, 316), fill=(250, 130, 150, a))
         return im.filter(ImageFilter.GaussianBlur(int(7 * SS * K)))
 
     def head(self, emo, q, shape, blink, lx, ly):
@@ -319,13 +319,13 @@ class Toon:
             elif eo < 0.12:
                 d.arc(s(ex - 24, ey - 14, ex + 24, ey + 10), 20, 160, fill=OUT, width=W(5))
             else:
-                ry = 28 * eo * esz  # v3: bigger, more expressive eyes
-                rx = 29 * esz
+                ry = 30 * eo * esz  # v3: bigger, more expressive eyes
+                rx = 31 * esz
                 d.ellipse(s(ex - rx, ey - ry, ex + rx, ey + ry * 0.85), fill=(252, 250, 246), outline=OUT, width=W(3))
                 d.chord(s(ex - rx, ey - ry, ex + rx, ey + ry * 0.85), 180, 360, fill=(226, 222, 226))  # lid shadow on the eye white
                 d.ellipse(s(ex - rx * 0.98, ey - ry * 0.55, ex + rx * 0.98, ey + ry * 0.83), fill=(252, 250, 246))
                 px, py = ex + lx * 10, ey + ly * 7 * min(eo, 1)
-                ir = min(17.5 * esz, ry * 0.98)
+                ir = min(19 * esz, ry * 0.98)
                 iris = c.get("iris", (92, 52, 28))
                 d.ellipse(s(px - ir, py - ir, px + ir, py + ir), fill=shade(iris, 0.7))
                 d.ellipse(s(px - ir * 0.84, py - ir * 0.6, px + ir * 0.84, py + ir * 0.88), fill=iris)

@@ -1030,7 +1030,7 @@ def draw_char(cv, ox, oy, w, c):
     hs = C.get("hs", 1.0) * (art.HEAD if not C.get("toddler") else 0.95)
     q = lambda X, Y: ((X - ox) * K, (Y - oy) * K)
     lw = lambda v: max(1, int(v * K * s))
-    pants = C["pants"]
+    pants = C["pants"] if C["pants"] != C["shirt"] else art.shade(C["pants"], 0.9)  # v4: shalwar a touch darker than the kameez
     seated = c["mode"] != "stand" and c["stand"] < 0.5
     hip = T + 500 * s
     lying = c.get("sleep", 0) > 0
@@ -1089,21 +1089,37 @@ def draw_char(cv, ox, oy, w, c):
         body = body.crop((0, 0, body.width, min(body.height, int(560 * K * s))))
     p0 = q(x - 260 * s, T - 40 * s)
     cv.alpha_composite(body, (int(p0[0]), int(p0[1])))
-    if seated:  # lap seen from the front (v3): one soft lap shape with two knee bulges, no boxes/rings
+    if seated:  # v4 lap (front view): two separate thighs ending in neat knees, kameez front panel lying flat on top
+        kb = hip + 58 * s  # bottom of the knees
         for col, e in ((OUT, 5), (pants, 0)):
-            d.rounded_rectangle([*q(x - 150 * s - e * s, hip - 64 * s - e * s), *q(x + 150 * s + e * s, hip + 40 * s + e * s)], lw(50), fill=col)
             for sd in (-1, 1):
-                kx = x + sd * 76 * s
-                d.ellipse([*q(kx - 72 * s - e * s, hip - 6 * s - e * s), *q(kx + 72 * s + e * s, hip + 82 * s + e * s)], fill=col)
+                xi, xo = x + sd * 7 * s, x + sd * 126 * s
+                d.rounded_rectangle([*q(min(xi, xo) - e * s, hip - 56 * s - e * s), *q(max(xi, xo) + e * s, kb + e * s)], lw(44), fill=col)
         for sd in (-1, 1):
-            kx = x + sd * 76 * s
-            d.arc([*q(kx - 44 * s, hip + 8 * s), *q(kx + 44 * s, hip + 62 * s)], 210, 330, fill=art.shade(pants, 1.12), width=lw(4))  # knee light
-        d.line([q(x, hip - 40 * s), q(x, hip + 60 * s)], fill=art.shade(pants, 0.78), width=lw(4))  # gap between the knees
-        if C.get("kameez"):  # kameez falls over the lap, hem just above the knees
-            d.chord([*q(x - 166 * s, hip - 150 * s), *q(x + 166 * s, hip + 50 * s)], 0, 180, fill=C["shirt"])
-            d.arc([*q(x - 166 * s, hip - 150 * s), *q(x + 166 * s, hip + 50 * s)], 10, 170, fill=OUT, width=lw(5))
-            for k in (-50, 0, 50):
-                d.line([q(x + k * s, hip - 40 * s), q(x + k * 1.2 * s, hip + 26 * s)], fill=art.shade(C["shirt"], 0.86), width=lw(3))
+            kx = x + sd * 68 * s
+            d.arc([*q(kx - 40 * s, kb - 46 * s), *q(kx + 40 * s, kb - 6 * s)], 200, 340, fill=art.shade(pants, 1.13), width=lw(4))  # knee cap light
+            d.arc([*q(kx - 46 * s, kb - 30 * s), *q(kx + 46 * s, kb + 2 * s)], 30, 150, fill=art.shade(pants, 0.8), width=lw(3))  # knee underside
+        if C.get("kameez"):  # front panel: from the waist, lies on the thighs, soft curved hem just above the knees
+            sh_ = C["shirt"]
+            hem = hip + 14 * s
+            pts = []
+            for k in range(13):
+                u = k / 12
+                xx = x - 122 * s + 244 * s * u
+                pts.append((xx, hem + 10 * s * math.sin(math.pi * u)))
+            panel = [(x - 148 * s, hip - 170 * s), (x + 148 * s, hip - 170 * s), (x + 124 * s, hem - 6 * s)] + pts[::-1] + [(x - 124 * s, hem - 6 * s)]
+            sh_lay = Image.new("RGBA", cv.size, 0)  # soft shadow the hem throws on the knees
+            ImageDraw.Draw(sh_lay).polygon([q(px_, py_ + 14 * s) for px_, py_ in panel], fill=(30, 10, 20, 60))
+            cv.alpha_composite(sh_lay.filter(ImageFilter.GaussianBlur(max(1, int(8 * s * K)))))
+            d.polygon([q(*p_) for p_ in panel], fill=sh_, outline=OUT)
+            d.line([q(*p_) for p_ in pts], fill=OUT, width=lw(5))
+            for sd in (-1, 1):
+                d.line([q(x + sd * 124 * s, hem - 6 * s), q(x + sd * 146 * s, hip - 150 * s)], fill=OUT, width=lw(5))  # side slit edges
+            for k in (-60, 0, 60):  # gentle folds
+                d.line([q(x + k * 0.9 * s, hip - 60 * s), q(x + k * 1.05 * s, hem)], fill=art.shade(sh_, 0.87), width=lw(3))
+            d.line([q(x - 110 * s, hem - 8 * s), q(x + 110 * s, hem - 8 * s)], fill=art.shade(sh_, 0.82), width=lw(3))  # hem stitch
+        else:
+            d.line([q(x, hip - 30 * s), q(x, kb - 10 * s)], fill=art.shade(pants, 0.7), width=lw(4))
         if c["mode"] != "sofa":
             for sd in (-1, 1):
                 d.ellipse([*q(x + sd * 170 * s - 44 * s, hip + 30 * s), *q(x + sd * 170 * s + 44 * s, hip + 76 * s)], fill=(110, 70, 40), outline=OUT, width=lw(4))
@@ -1112,7 +1128,7 @@ def draw_char(cv, ox, oy, w, c):
     ang = c["ang"]
     if abs(ang) > 0.2:
         hi = hi.rotate(ang, resample=Image.BICUBIC, center=(210 * K * s * hs, 455 * K * s * hs))
-    neck = (x + c["lx"] * 4 * s, T + 90 * s + c["nod"] * 7 * s)
+    neck = (x + c["lx"] * 4 * s, T + 104 * s + c["nod"] * 7 * s)
     p0 = q(neck[0] - 210 * s * hs, neck[1] - 455 * s * hs)
     cv.alpha_composite(hi, (int(p0[0]), int(p0[1])))
     sleeve = C["shirt"]
@@ -1125,13 +1141,13 @@ def draw_char(cv, ox, oy, w, c):
         ex, ey, hx, hy = ik(sx, sy, hx, hy, 178 * s, 172 * s, sd)
         slv = sleeve if nm == "near" else art.shade(sleeve, 0.9)  # v2: far arm a touch darker (depth)
         fr_ = fore if nm == "near" else art.shade(fore, 0.93)
-        taper(d, q, lw, (sx, sy), (ex, ey), 56 * s, 46 * s, slv, 8 * s)
+        taper(d, q, lw, (sx, sy), (ex, ey), 50 * s, 40 * s, slv, 8 * s)
         if C["sleeve"] == "short":
-            taper(d, q, lw, (ex, ey), (hx, hy), 40 * s, 32 * s, fr_, 8 * s)
+            taper(d, q, lw, (ex, ey), (hx, hy), 36 * s, 28 * s, fr_, 8 * s)
             mx_, my_ = ex + (hx - ex) * 0.22, ey + (hy - ey) * 0.22
             taper(d, q, lw, (ex, ey), (mx_, my_), 48 * s, 46 * s, slv, 8 * s)
         else:
-            taper(d, q, lw, (ex, ey), (hx, hy), 46 * s, 38 * s, slv, 8 * s)
+            taper(d, q, lw, (ex, ey), (hx, hy), 41 * s, 33 * s, slv, 8 * s)
             cx_, cy_ = hx + (ex - hx) * 0.16, hy + (ey - hy) * 0.16  # cuff
             ux_, uy_ = hx - ex, hy - ey
             m_ = math.hypot(ux_, uy_) or 1
