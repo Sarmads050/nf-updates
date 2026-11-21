@@ -684,6 +684,26 @@ for fr in range(N):
         a, b = times[li]
     FR.append(dict(t=t, si=si, ch=ch, cam=cam[:3], li=li))
 print("pre-pass done", flush=True)
+if os.environ.get("EXPORT_TL"):  # low-poly 3D: hand the acted timeline to Blender (cartoon/lowpoly/scene3d.py)
+    def _clean(v):
+        if isinstance(v, float):
+            return round(v, 3)
+        if isinstance(v, (list, tuple)):
+            return [_clean(u) for u in v]
+        if isinstance(v, dict):
+            return {k: _clean(u) for k, u in v.items()}
+        return v
+    tl = dict(fps=FPS, n=N, total=TOTAL, t_end=T_END, chars={k: art.CHARS[k] for k in art.CHARS},
+              scenes=[dict(set=s_["name"], time=s_["time"], slots=s_["set"]["slots"],
+                           t0=s_["t0"]) for i, s_ in enumerate(SC)],
+              lines=[dict(who=l["who"], a=times[i][0], b=times[i][1], joke=bool(l.get("joke")), to=l.get("to")) for i, l in enumerate(LINES)],
+              frames=[dict(t=F["t"], si=F["si"], li=F["li"], cam=F["cam"],
+                           ch={w: {k: c[k] for k in ("x", "T", "s", "stand", "mode", "seat", "foot", "walking", "phase", "alpha", "emo", "q",
+                                                    "shape", "blink", "lx", "ly", "ang", "nod", "face", "pose", "prev", "tc", "prop", "sleep")}
+                               for w, c in F["ch"].items()}) for F in FR])
+    json.dump(_clean(tl), open(os.environ["EXPORT_TL"], "w"))
+    print("timeline exported", os.environ["EXPORT_TL"], flush=True)
+    sys.exit()
 
 # ============================================================== captions (one line at a time)
 from playwright.sync_api import sync_playwright
@@ -1253,10 +1273,18 @@ def zfont(n):
 
 
 # ============================================================== frame renderer
+LOWPOLY = os.environ.get("LOWPOLY")  # dir of Blender frames 00001.png... -> used as the picture, 2D titles/captions on top
+LP_FPS = float(os.environ.get("LOWPOLY_FPS", "15"))
+
+
 def render(fr):
     F = FR[fr]
     t = F["t"]
     sc = SC[F["si"]]
+    if LOWPOLY:
+        k_ = min(int(t * LP_FPS + 1e-6), int(N * LP_FPS / FPS) - 1) + 1
+        out = Image.open(f"{LOWPOLY}/{k_:05d}.png").convert("RGBA").resize((OW, OH), Image.BICUBIC)
+        return overlay(out, F, t, sc)
     world = sc["bg"].copy().convert("RGBA")
     sc["set"]["anim"](world, t)
     fg = Image.new("RGBA", (WW, WH), 0)
@@ -1284,6 +1312,10 @@ def render(fr):
     w_, h_ = 1080 / z, 1920 / z
     x0, y0 = clamp(cx - w_ / 2, 0, 1080 - w_), clamp(cy - h_ / 2, 0, 1920 - h_)
     out = world.crop((int(x0 * K), int(y0 * K), int((x0 + w_) * K), int((y0 + h_) * K))).resize((OW, OH), Image.BICUBIC)
+    return overlay(out, F, t, sc)
+
+
+def overlay(out, F, t, sc):
     out.alpha_composite(VIG)
     # scene transition flash
     for s in SC[1:]:
