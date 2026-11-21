@@ -1,7 +1,5 @@
 {
  "seen": {
-  "5a158e8531aff3be": 1794616257.7813253,
-  "a56f02b92ab930e5": 1794616278.9879155,
   "dbf9e15e5e677789": 1794618668.800276,
   "162f6926dc379399": 1794619270.8931637,
   "42f815600c681232": 1794619280.261453,
@@ -2373,7 +2371,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-21 05:31",
+  "time": "2026-11-21 05:41",
   "items": 14,
   "sample": [
    "New Zealand 368/10 v India 239/1 *",
@@ -4801,64 +4799,8 @@
   "last": 1795211561.7034888
  },
  "trends": {
-  "last": 1795210854.5422742,
+  "last": 1795221666.040912,
   "terms": [
-   {
-    "term": "argentina vs uruguay",
-    "traffic": 2000,
-    "news": "‍‍‍[LIVESTREAMs]TV!] Argentina vs Uruguay 𝕝𝕚𝕧𝕖 𝕊𝕥𝕣𝕖𝕒𝕞𝕤 ＯＮ Ｔｖ Ｃｈａｎｎｅｌ",
-    "t": 1794612658,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "flight radar",
-    "traffic": 100,
-    "news": "US grounds flights nationwide after air traffic control communications outage",
-    "t": 1794612658,
-    "cat": "transport_trade",
-    "sindh": false
-   },
-   {
-    "term": "portugal vs denmark",
-    "traffic": 100,
-    "news": "Referee who apologised after monumental mistake to officiate Portugal vs Denmark",
-    "t": 1794612658,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "slovenia vs switzerland",
-    "traffic": 100,
-    "news": "Slovenia Switzerland Nations League Soccer",
-    "t": 1794612658,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "toxic",
-    "traffic": 200,
-    "news": "What are anti-smog guns, and can they really help fight Delhi’s air pollution?",
-    "t": 1794612658,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "daayra movie",
-    "traffic": 100,
-    "news": "'Daayra' arrives on Netflix: Cast, plot, and more",
-    "t": 1794612658,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "portugal national football team",
-    "traffic": 100,
-    "news": "Thursday brings a cloudy day with morning fog and temperatures highs in the 50s",
-    "t": 1794612658,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "us flights grounded",
     "traffic": 500,
@@ -7930,15 +7872,47 @@
     "t": 1795210854,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "houthi attack saudi arabia",
+    "traffic": 200,
+    "news": "Houthi Attack Damages Saudi Capital’s Tallest Tower",
+    "t": 1795221666,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "hunger games",
+    "traffic": 200,
+    "news": "'The Hunger Games,' 'Cliff Booth' and This Week's Best Events",
+    "t": 1795221666,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "bayern munich vs 1. fc köln standings",
+    "traffic": 200,
+    "news": "Match report: Bundesliga, FC Bayern v 1. FC Köln",
+    "t": 1795221666,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "afghanistan",
+    "traffic": 100,
+    "news": "US-Israeli Aggression Root Cause of Persian Gulf Insecurity: Araqchi",
+    "t": 1795221666,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-21",
-  "ok": 50,
-  "fail": 82,
-  "limit": 82
+  "ok": 51,
+  "fail": 84,
+  "limit": 84
  },
  "posted_heads": [
   {
@@ -8263,7 +8237,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-21 05:31",
+  "time": "2026-11-21 05:41",
   "steps": []
  },
  "roundup_am": "2026-11-20",
@@ -8371,7 +8345,7 @@
   "text": 6,
   "story": 5
  },
- "ai_last_error": "05:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "05:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-21",
   "models": [
@@ -8413,7 +8387,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-21",
-   "ok": 33,
+   "ok": 34,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8421,7 +8395,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-21",
-   "ok": 34,
+   "ok": 35,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8429,7 +8403,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-21",
-   "ok": 34,
+   "ok": 35,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8437,7 +8411,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-21",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8445,7 +8419,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-21",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8453,14 +8427,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-21",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-21",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8468,7 +8442,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-21",
-   "ok": 35,
+   "ok": 36,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8750,8 +8724,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 12,
-  "old": 12,
+  "found": 16,
+  "old": 16,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8807,8 +8781,8 @@
   "date": "2026-11-21",
   "count": 1,
   "last": 1795204546.8881555,
-  "city_i": 12,
-  "dry": 1795221078.8523266
+  "city_i": 16,
+  "dry": 1795221676.2652495
  },
  "gemini_day_dead": {
   "day": "2026-11-20",
@@ -9469,13 +9443,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-21 00:09",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-21 00:10",
    "ok": true,
    "n": 0,
@@ -9743,6 +9710,13 @@
   },
   {
    "t": "11-21 05:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-21 05:40",
    "ok": true,
    "n": 0,
    "ids": [],
