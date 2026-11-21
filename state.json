@@ -1593,7 +1593,18 @@
   "f0ce6904a0aafd89": 1795299172.0304785,
   "21855647eba096dd": 1795299172.0304801,
   "9d7056c67ae5b9e6": 1795299172.0304806,
-  "56b674cb4eeff093": 1795299172.030675
+  "56b674cb4eeff093": 1795299172.030675,
+  "a4fdb6cc3c817796": 1795299652.7358487,
+  "e6cd6cb372b98869": 1795299666.1042233,
+  "a6cafc6d364ca5ea": 1795299682.789255,
+  "6ebbc1972c6114a4": 1795299682.7892582,
+  "94c2e62ce586f1e9": 1795299682.7892592,
+  "47f8a95456c96573": 1795299682.7892604,
+  "4a5e73b0baa94e7e": 1795299682.7892609,
+  "aeb67500302555ad": 1795299682.7892616,
+  "e9a91a4dc20f1576": 1795299682.7892623,
+  "4689de94efa04496": 1795299682.7892632,
+  "8ae90acf10c3285b": 1795299682.7894766
  },
  "pending": {},
  "queue": [],
@@ -2391,10 +2402,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-22 03:12",
+  "time": "2026-11-22 03:21",
   "items": 40,
   "sample": [
-   "New Zealand 368/10 v India 503/4 *",
+   "New Zealand 368/10 v India 511/4 *",
    "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 336/10 & 86/3 *",
    "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/9 *"
   ]
@@ -4819,64 +4830,8 @@
   "last": 1795296146.1468542
  },
  "trends": {
-  "last": 1795288259.9625986,
+  "last": 1795299652.7361627,
   "terms": [
-   {
-    "term": "portugal fc",
-    "traffic": 100,
-    "news": "FC Porto confirma favoritismo e segue em frente: eis os resultados do dia na Taça de Portugal Feminina",
-    "t": 1794689454,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "sweden vs bosnia and herzegovina",
-    "traffic": 200,
-    "news": "UEFA Streams!SOCCER: Sweden vs Bosnia LIVE Streams ON TV CHANNEL",
-    "t": 1794689454,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "abu jani",
-    "traffic": 200,
-    "news": "Sharvari paired her zardozi-embroidered Abu Jani Sandeep Khosla anarkali with statement chaandbalis",
-    "t": 1794689454,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "portugal football team",
-    "traffic": 200,
-    "news": "Cristiano Ronaldo appears to skip Portugal’s tribute as Al Nassr shares images of him training in Saudi Arabia",
-    "t": 1794689454,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "portugal match",
-    "traffic": 200,
-    "news": "Licensable picture: UEFA Nations League - Group A4 - Portugal v Denmark",
-    "t": 1794689454,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "vp",
-    "traffic": 100,
-    "news": "Did Indonesia’s vice-president just resign because he didn’t have a high school diploma?",
-    "t": 1794689454,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "gta vi ps5",
-    "traffic": 100,
-    "news": "How Long Will It Take You To Download GTA 6 Based On Your Internet Speeds?",
-    "t": 1794689454,
-    "cat": "technology",
-    "sindh": false
-   },
    {
     "term": "video",
     "traffic": 200,
@@ -7900,15 +7855,47 @@
     "t": 1795288260,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "real madrid vs celta vigo",
+    "traffic": 200,
+    "news": "Licensable picture: REAL MADRID C.F. Vs. REAL CLUB CELTA DE VIGO - 2026/27 National League 11.21.26",
+    "t": 1795299652,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "newcastle united f.c. vs arsenal f.c. standings",
+    "traffic": 5000,
+    "news": "Licensable picture: Newcastle United v Arsenal FC - Premier League 2026/27",
+    "t": 1795299652,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "real madrid vs celta",
+    "traffic": 10000,
+    "news": "Conexión letal de la 'BMV' para desatar al Madrid",
+    "t": 1795299652,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "ligue 1",
+    "traffic": 200,
+    "news": "Lille - Lyon : pourquoi le second but lyonnais a été annulé ?",
+    "t": 1795299652,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-22",
-  "ok": 37,
-  "fail": 70,
-  "limit": 68
+  "ok": 43,
+  "fail": 82,
+  "limit": 80
  },
  "posted_heads": [
   {
@@ -8233,7 +8220,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-22 03:12",
+  "time": "2026-11-22 03:21",
   "steps": []
  },
  "roundup_am": "2026-11-21",
@@ -8336,12 +8323,12 @@
  },
  "article_diag": {
   "date": "2026-11-22",
-  "tried": 6,
-  "decoded": 5,
-  "text": 4,
-  "story": 4
+  "tried": 7,
+  "decoded": 6,
+  "text": 5,
+  "story": 5
  },
- "ai_last_error": "03:12 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "03:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-22",
   "models": [
@@ -8383,7 +8370,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-22",
-   "ok": 19,
+   "ok": 20,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8391,7 +8378,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-22",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8399,7 +8386,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-22",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8407,7 +8394,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8415,7 +8402,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8423,14 +8410,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8438,7 +8425,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-22",
-   "ok": 20,
+   "ok": 21,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8678,8 +8665,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 4,
-  "old": 4,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8736,8 +8723,8 @@
   "date": "2026-11-22",
   "count": 0,
   "last": 1795295461.2316122,
-  "city_i": 14,
-  "dry": 1795299063.8309245
+  "city_i": 18,
+  "dry": 1795299662.5741
  },
  "gemini_day_dead": {
   "day": "2026-11-21",
@@ -9462,13 +9449,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-21 20:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-21 21:00",
    "ok": true,
    "n": 0,
@@ -9736,6 +9716,13 @@
   },
   {
    "t": "11-22 03:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-22 03:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14503,11 +14490,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-19 21:32",
-   "new": "سنڌ | پيٹرولیم مصنوعات جي قيمتن بابت حڪومت ۽ جماعت اسلامي جو غور",
-   "old": "پاڪستان ۾ پيٽرول جي اگهن ۾ گهٽتائي"
-  },
-  {
    "t": "11-20 00:02",
    "new": "پاڪستاني بيٽسمئن جو ٻئي ٽيسٽ ميچ بابت بيان",
    "old": "پاڪستاني ڪرڪيٽ ٽيم پنهنجي پوزيشن مضبوط ڪري ورتي"
@@ -14651,6 +14633,11 @@
    "t": "11-22 03:12",
    "new": "ڪراچي ۾ ڪڻڪ جو اگهه وڌي ويو",
    "old": "ڪراچي ۾ ڪڻڪ جو بحران شدت اختيار ڪري ويو"
+  },
+  {
+   "t": "11-22 03:21",
+   "new": "ڪراچي بندرگاهه تي ڪڻڪ پهچي وئي",
+   "old": "ڪراچي ۾ ڪڻڪ جو بحران شدت اختيار ڪري ويو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14671,7 +14658,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 3
+  "repeat": 4
  },
  "_dup": true
 }
