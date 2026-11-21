@@ -1,7 +1,5 @@
 {
  "seen": {
-  "0de1e21a76bc3c8f": 1794663674.1050801,
-  "6d78ea41ea1396dc": 1794663674.1050823,
   "f41f72e21c9c2224": 1794664253.5380797,
   "3e3d472f54dd4dc2": 1794664281.2540183,
   "fa609a51ac78a3f9": 1794664884.217821,
@@ -1594,7 +1592,8 @@
   "612e5712ad91848a": 1795267273.9888446,
   "2ca1b474ab5e7982": 1795267877.8698924,
   "3ecdae873c28c256": 1795268455.0320897,
-  "cb68c75f022bfa0e": 1795268458.544813
+  "cb68c75f022bfa0e": 1795268458.544813,
+  "3cb92760508ce947": 1795269087.0869606
  },
  "pending": {},
  "queue": [],
@@ -2379,11 +2378,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-21 18:41",
+  "time": "2026-11-21 18:51",
   "items": 14,
   "sample": [
    "New Zealand 368/10 v India 486/4 *",
-   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 86/3 & 336/10 *",
+   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 336/10 & 86/3 *",
    "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/9 *"
   ]
  },
@@ -7894,9 +7893,9 @@
  },
  "ai_usage": {
   "date": "2026-11-21",
-  "ok": 285,
-  "fail": 452,
-  "limit": 442
+  "ok": 286,
+  "fail": 454,
+  "limit": 444
  },
  "posted_heads": [
   {
@@ -8221,7 +8220,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-21 18:41",
+  "time": "2026-11-21 18:51",
   "steps": []
  },
  "roundup_am": "2026-11-21",
@@ -8329,7 +8328,7 @@
   "text": 20,
   "story": 16
  },
- "ai_last_error": "18:40 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-21",
   "models": [
@@ -8371,7 +8370,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-21",
-   "ok": 112,
+   "ok": 113,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8379,7 +8378,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-21",
-   "ok": 113,
+   "ok": 114,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8387,7 +8386,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-21",
-   "ok": 113,
+   "ok": 114,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8395,7 +8394,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-21",
-   "ok": 116,
+   "ok": 117,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8403,7 +8402,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-21",
-   "ok": 116,
+   "ok": 117,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8411,14 +8410,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-21",
-   "ok": 116,
+   "ok": 117,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-21",
-   "ok": 116,
+   "ok": 117,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8426,7 +8425,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-21",
-   "ok": 116,
+   "ok": 117,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8666,8 +8665,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 16,
-  "old": 16,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8723,8 +8722,8 @@
   "date": "2026-11-21",
   "count": 14,
   "last": 1795267870.5944474,
-  "city_i": 10,
-  "dry": 1795267877.8698957
+  "city_i": 14,
+  "dry": 1795269070.7505472
  },
  "gemini_day_dead": {
   "day": "2026-11-21",
@@ -9442,13 +9441,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-21 12:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-21 12:30",
    "ok": true,
    "n": 0,
@@ -9716,6 +9708,13 @@
   },
   {
    "t": "11-21 18:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-21 18:50",
    "ok": true,
    "n": 0,
    "ids": [],
