@@ -637,11 +637,15 @@ def solve_hands(F):
                 hp = hand.matrix_world.translation
                 ep = elb.matrix_world.translation
                 hit = False
+                pts = [hp, (hp + ep) / 2]
+                if F["ch"][k].get("prop") and sd == (F["ch"][k]["face"] if F["ch"][k]["face"] in (-1, 1) else 1):
+                    pts.append(hp + (hp - ep).normalized() * 0.12 * R["sc"])  # tip of the held prop (book/phone/cup)
                 for ok, kind, geo, rad in obst:
-                    for p in (hp, (hp + ep) / 2):
+                    for p in pts:
                         if kind == "head":
-                            if (p - geo).length < rad + 0.04 * R["sc"]:
-                                hit = True
+                            d_ = p - geo  # inside a head, or covering a face from the camera's side
+                            if (p - geo).length < rad + 0.04 * R["sc"] or (abs(d_.x) < rad * 0.75 and -rad * 0.6 < d_.z < rad * 0.8 and -0.5 < d_.y < 0):
+                                hit = "head"
                         else:
                             a0, a1 = geo
                             if ok == k:  # own body: only when the hand crosses the middle of the chest / lap
@@ -653,7 +657,12 @@ def solve_hands(F):
                             u = max(0.0, min(1.0, (p - a0).dot(ax) / max(ax.length_squared, 1e-6)))
                             if (p - (a0 + ax * u)).length < rad + 0.03:
                                 hit = True
-                if hit:
+                if hit == "head":  # bring the hand down and out to the side of the face
+                    shp.rotation_euler.x += D(10)
+                    shp.rotation_euler.y -= D(8) * sd
+                    elb.rotation_euler.x = min(0.0, elb.rotation_euler.x + D(14))
+                    moved = True
+                elif hit:
                     shp.rotation_euler.x -= D(9)          # swing the arm further forward (towards camera)
                     shp.rotation_euler.y -= D(6) * sd * (1 if it % 2 else 0)   # and a little outward
                     elb.rotation_euler.x = min(0.0, elb.rotation_euler.x + D(10))  # open the elbow
