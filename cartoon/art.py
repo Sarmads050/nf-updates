@@ -50,7 +50,7 @@ CHARS = {
                    who="a 29-year-old man, tired after work at a Chinese company, responsible elder brother, calm"),
     "SANA": dict(kameez=True, role="Bhabi", name="Bhabi Sana", age="woman", skin=SK2, face="oval", hair="dupatta", hair_col=(30, 20, 18),
                  cover=(46, 140, 100), cover2=(90, 190, 140), shirt=(250, 236, 214), pants=(250, 236, 214),
-                 collar="women", sleeve="long", scale=0.94, lashes=True, earrings=True, color="#8ff0c0",
+                 collar="women", sleeve="long", scale=0.94, lashes=True, earrings=True, nosepin=True, color="#8ff0c0",
                  voice="Aoede", who="a 25-year-old educated young woman, polite, smart and witty"),
     "HAMZA": dict(role="Twin", name="Hamza", age="toddler", skin=SK2, face="toddler", hair="tuft", hair_col=(40, 28, 24),
                   shirt=(226, 70, 70), pants=(60, 90, 160), collar="tee", sleeve="short", scale=0.5, hs=1.45, color="#ff8080",
@@ -64,7 +64,7 @@ CHARS = {
                   who="a 27-year-old computer science graduate, the tech guy of the house, clear and a bit nerdy"),
     "NIMRA": dict(kameez=True, role="Karachi wali Behan", name="Nimra Aapi", age="woman", skin=SK2, face="oval", hair="dupatta", hair_col=(34, 22, 20),
                   cover=(120, 60, 170), cover2=(170, 110, 220), shirt=(240, 200, 220), pants=(240, 200, 220),
-                  collar="women", sleeve="long", scale=0.93, lashes=True, earrings=True, color="#d6a8ff",
+                  collar="women", sleeve="long", scale=0.93, lashes=True, earrings="jhumka", lips=(200, 80, 110), color="#d6a8ff",
                   voice="Despina", who="a 24-year-old married elder sister living in Karachi, loving but bossy"),
     "DANIYAL": dict(kameez=True, role="Wakeel Bhai", name="Daniyal", age="young", skin=SK1, face="long", hair="curly", hair_col=(30, 24, 22),
                     shirt=(245, 245, 245), pants=(40, 40, 48), collar="band", extra=["waistcoat"], sleeve="long",
@@ -155,13 +155,24 @@ class Toon:
         if c.get("earrings"):
             for sd in (-1, 1):
                 d.ellipse(s(cx + sd * (fw + 1) - 7, cy + 40, cx + sd * (fw + 1) + 7, cy + 54), fill=(245, 200, 60))
-        d.ellipse(s(cx - fw, cy - fh, cx + fw, cy + fh), fill=sk)
-        if c.get("facial") == "beard":
-            d.chord(s(cx - fw, cy - fh, cx + fw, cy + fh), 0, 180, fill=c["fh_col"])
-            d.ellipse(s(cx - fw + 18, cy - fh, cx + fw - 18, cy + fh - 34), fill=sk)
+                if c["earrings"] == "jhumka":  # v3: little bell-shaped jhumka
+                    ex_ = cx + sd * (fw + 1)
+                    d.chord(s(ex_ - 14, cy + 52, ex_ + 14, cy + 84), 180, 360, fill=(240, 190, 50), outline=shade((240, 190, 50), 0.6))
+                    for k in range(3):
+                        d.ellipse(s(ex_ - 12 + k * 10, cy + 68, ex_ - 8 + k * 10, cy + 74), fill=(250, 230, 150))
+        self._face(d, cx, cy, fw, fh, sk)
+        if c.get("facial") == "beard":  # v3: beard follows the jaw line
+            bl = Image.new("RGBA", im.size, 0)
+            bd = ImageDraw.Draw(bl)
+            self._face(bd, cx, cy, fw, fh, c["fh_col"])
+            bd.rectangle(s(0, 0, 420, cy + 4), fill=(0, 0, 0, 0))
+            bd.ellipse(s(cx - fw + 22, cy - fh, cx + fw - 22, cy + fh - 40), fill=(0, 0, 0, 0))
+            im.alpha_composite(bl)
+            d = ImageDraw.Draw(im)
         if c.get("facial") == "light":
             band = Image.new("RGBA", im.size, 0)
-            ImageDraw.Draw(band).chord(s(cx - fw, cy - fh, cx + fw, cy + fh), 10, 170, fill=c["fh_col"] + (70,))
+            self._face(ImageDraw.Draw(band), cx, cy, fw, fh, c["fh_col"] + (70,))
+            ImageDraw.Draw(band).rectangle(s(0, 0, 420, cy + 10), fill=(0, 0, 0, 0))
             ImageDraw.Draw(band).ellipse(s(cx - fw + 14, cy - fh, cx + fw - 14, cy + fh - 26), fill=(0, 0, 0, 0))
             im.alpha_composite(band)
             d = ImageDraw.Draw(im)
@@ -174,7 +185,11 @@ class Toon:
             d.chord(s(cx - fw - 6, cy - fh - 14, cx + fw + 6, cy + 46), 180, 360, fill=hc)
             d.polygon(s(cx - fw - 4, cy - 44, cx - 70, cy - 82, cx + fw + 4, cy - 70, cx + fw + 6, cy - 36, cx - 50, cy - 64), fill=hc)
             d.line(s(cx - 40, cy - fh - 4, cx - 54, cy - 70), fill=shade(hc, 1.8), width=int(3 * SS * K))
-        elif h == "curly":
+        if h in ("side", "neat"):  # v3: side-parted hairline arch (forehead shows under the fringe)
+            top, bot = cy - fh + 44, cy - 52
+            d.chord(s(cx - fw * 0.6 + 14, top, cx + fw * 0.7 + 14, 2 * bot - top), 180, 360, fill=sk)
+            d.line(s(cx - 30, cy - fh - 10, cx - 44, cy - fh + 40), fill=shade(hc, 0.5), width=int(4 * SS * K))
+        if h == "curly":
             d.chord(s(cx - fw - 8, cy - fh - 10, cx + fw + 8, cy + 40), 180, 360, fill=hc)
             for k in range(11):
                 a = math.pi + k * math.pi / 10
@@ -207,16 +222,14 @@ class Toon:
             d.chord(s(cx - 30, bot - 30, cx + 30, bot + 30), 180, 360, fill=c["skin"])  # front cut-out of sindhi topi
             d.arc(s(cx - 30, bot - 30, cx + 30, bot + 30), 180, 360, fill=(40, 120, 70), width=int(5 * SS * K))
         elif h == "dupatta":
-            d.chord(s(cx - fw - 4, cy - fh - 10, cx + fw + 4, cy + 30), 180, 360, fill=hc)
-            d.line(s(cx, cy - fh - 6, cx + 6, cy - 98), fill=shade(hc, 1.8), width=int(4 * SS * K))
+            self._center_part(d, cx, cy, fw, fh, hc, sk)
             if c.get("grey_streak"):
                 d.arc(s(cx - fw + 6, cy - fh, cx + 40, cy + 20), 200, 260, fill=(200, 200, 205), width=int(10 * SS * K))
             d.arc(s(cx - fw - 42, cy - fh - 46, cx + fw + 42, cy + 152), 188, 352, fill=c["cover"], width=int(38 * SS * K))
             d.arc(s(cx - fw - 42, cy - fh - 46, cx + fw + 42, cy + 152), 198, 342, fill=c["cover2"], width=int(6 * SS * K))
         elif h == "plaits":
-            d.chord(s(cx - fw - 6, cy - fh - 10, cx + fw + 6, cy + 30), 180, 360, fill=hc)
-            d.line(s(cx, cy - fh - 6, cx + 4, cy - 96), fill=shade(hc, 1.8), width=int(4 * SS * K))
-            d.ellipse(s(cx + 50, cy - fh + 4, cx + 84, cy - fh + 26), fill=(250, 120, 170))  # hair clip
+            self._center_part(d, cx, cy, fw, fh, hc, sk)
+            d.ellipse(s(cx + 56, cy - fh + 10, cx + 90, cy - fh + 32), fill=(250, 120, 170))  # hair clip
         # v2: inner ear detail
         for sd in (-1, 1):
             ex0 = cx + sd * fw
@@ -243,6 +256,35 @@ class Toon:
         sh_.putalpha(Image.fromarray((np.asarray(sh_.getchannel("A")).astype(np.uint16) * np.asarray(mask) // 255).astype(np.uint8)))
         im.alpha_composite(sh_)
         return outline(im, int(6 * SS * K))
+
+    def _face(self, d, cx, cy, fw, fh, fill):
+        """v3: face with cheeks and a soft tapered jaw / chin instead of a plain egg"""
+        s = self._s
+        if self.c["face"] == "toddler":
+            d.ellipse(s(cx - fw, cy - fh, cx + fw, cy + fh), fill=fill)
+            return
+        tp = {"oval": 0.2, "round": 0.12, "long": 0.26}.get(self.c["face"], 0.2)
+        pts = []
+        for k in range(72):  # smooth egg: full cheeks, gently tapering jaw and soft chin
+            a = 2 * math.pi * k / 72
+            sa = math.sin(a)
+            narrow = 1 - tp * (max(0.0, sa) ** 2.2)
+            pts += [cx + fw * math.cos(a) * narrow, cy + fh * sa]
+        d.polygon(s(*pts), fill=fill)
+
+    def _center_part(self, d, cx, cy, fw, fh, hc, sk):
+        """v3: middle parting, hair swept to both sides, forehead visible (no helmet fringe)"""
+        s = self._s
+        d.chord(s(cx - fw - 6, cy - fh - 12, cx + fw + 6, cy + 40), 180, 360, fill=hc)
+        for sd in (-1, 1):  # side curtains down to the temples
+            d.polygon(s(cx + sd * (fw + 6), cy - 70, cx + sd * (fw + 8), cy + 10, cx + sd * (fw - 14), cy + 4, cx + sd * (fw - 30), cy - 60), fill=hc)
+        top, bot = cy - fh + 26, cy - 40
+        d.chord(s(cx - fw * 0.66, top, cx + fw * 0.66, 2 * bot - top), 180, 360, fill=sk)  # forehead (hairline arch)
+        d.line(s(cx, cy - fh - 8, cx, cy - fh + 24), fill=shade(hc, 0.55), width=int(4 * SS * K))  # parting
+        hl = shade(hc, 2.4) if sum(hc) < 200 else shade(hc, 1.15)
+        for sd in (-1, 1):  # glossy strands following the sweep
+            a0, a1 = (200, 240) if sd < 0 else (300, 340)
+            d.arc(s(cx - fw * 0.9 + sd * 30, cy - fh - 4, cx + fw * 0.9 + sd * 30, cy + 60), a0, a1, fill=hl, width=int(4 * SS * K))
 
     def _blush(self):
         im = Image.new("RGBA", self.base.size, 0)
@@ -277,21 +319,28 @@ class Toon:
             elif eo < 0.12:
                 d.arc(s(ex - 24, ey - 14, ex + 24, ey + 10), 20, 160, fill=OUT, width=W(5))
             else:
-                ry = 24 * eo * esz
-                rx = 26 * esz
-                d.ellipse(s(ex - rx, ey - ry, ex + rx, ey + ry * 0.85), fill=(255, 255, 255), outline=OUT, width=W(3))
+                ry = 28 * eo * esz  # v3: bigger, more expressive eyes
+                rx = 29 * esz
+                d.ellipse(s(ex - rx, ey - ry, ex + rx, ey + ry * 0.85), fill=(252, 250, 246), outline=OUT, width=W(3))
+                d.chord(s(ex - rx, ey - ry, ex + rx, ey + ry * 0.85), 180, 360, fill=(226, 222, 226))  # lid shadow on the eye white
+                d.ellipse(s(ex - rx * 0.98, ey - ry * 0.55, ex + rx * 0.98, ey + ry * 0.83), fill=(252, 250, 246))
                 px, py = ex + lx * 10, ey + ly * 7 * min(eo, 1)
-                ir = min(14 * esz, ry * 0.95)
-                d.ellipse(s(px - ir, py - ir, px + ir, py + ir), fill=(70, 40, 24))
-                d.ellipse(s(px - ir * 0.5, py - ir * 0.5, px + ir * 0.5, py + ir * 0.5), fill=(12, 8, 8))
-                d.ellipse(s(px + 2, py - ir * 0.7, px + 7, py - ir * 0.7 + 5), fill=(255, 255, 255))
+                ir = min(17.5 * esz, ry * 0.98)
+                iris = c.get("iris", (92, 52, 28))
+                d.ellipse(s(px - ir, py - ir, px + ir, py + ir), fill=shade(iris, 0.7))
+                d.ellipse(s(px - ir * 0.84, py - ir * 0.6, px + ir * 0.84, py + ir * 0.88), fill=iris)
+                d.chord(s(px - ir * 0.8, py - ir * 0.2, px + ir * 0.8, py + ir * 0.86), 0, 180, fill=shade(iris, 1.45))  # lit lower iris
+                d.ellipse(s(px - ir * 0.46, py - ir * 0.46, px + ir * 0.46, py + ir * 0.46), fill=(14, 8, 8))
+                d.ellipse(s(px + ir * 0.12, py - ir * 0.72, px + ir * 0.62, py - ir * 0.22), fill=(255, 255, 255))  # two catch-lights
+                d.ellipse(s(px - ir * 0.55, py + ir * 0.3, px - ir * 0.3, py + ir * 0.55), fill=(255, 255, 255))
                 if eo < 0.95:
-                    d.chord(s(ex - rx - 1, ey - 25, ex + rx + 1, ey + 25 - 30 * eo), 180, 360, fill=c["skin"])
-                d.arc(s(ex - rx - 1, ey - ry - 2, ex + rx + 1, ey + ry), 195, 345, fill=OUT, width=W(5))
-                if not tod:  # v2: upper eyelid crease
+                    d.chord(s(ex - rx - 1, ey - 29, ex + rx + 1, ey + 29 - 34 * eo), 180, 360, fill=c["skin"])
+                d.arc(s(ex - rx - 1, ey - ry - 2, ex + rx + 1, ey + ry), 192, 348, fill=OUT, width=W(7 if c.get("lashes") else 6))
+                d.arc(s(ex - rx * 0.8, ey - ry * 0.4, ex + rx * 0.8, ey + ry * 0.9), 40, 140, fill=shade(c["skin"], 0.72), width=W(2))  # lower lid
+                if c.get("wrinkles"):  # v2: upper eyelid crease (v3: only for elders)
                     d.arc(s(ex - rx + 2, ey - ry - 12, ex + rx - 2, ey + ry - 8), 210, 330, fill=shade(c["skin"], 0.8), width=W(3))
                 if c.get("lashes"):
-                    d.line(s(ex + side * 25, ey - ry * 0.6, ex + side * 33, ey - ry * 0.6 - 8), fill=OUT, width=W(4))
+                    d.polygon(s(ex + side * (rx - 4), ey - ry * 0.55, ex + side * (rx + 12), ey - ry * 0.75 - 8, ex + side * (rx + 2), ey - ry * 0.3), fill=OUT)
                 if c.get("eyebags"):
                     d.arc(s(ex - 20, ey + 6, ex + 20, ey + 26), 20, 160, fill=shade(c["skin"], 0.75), width=W(3))
             if c.get("wrinkles"):
@@ -321,6 +370,8 @@ class Toon:
             a0, a1 = (100, 250) if sd < 0 else (290, 80)
             d.arc(s(nx0 + sd * 15 - 7, ny0 + 30, nx0 + sd * 15 + 7, ny0 + 44), a0, a1, fill=nz, width=W(3))
             d.ellipse(s(nx0 + sd * 7 - 3, ny0 + 38, nx0 + sd * 7 + 3, ny0 + 43), fill=shade(c["skin"], 0.6))
+        if c.get("nosepin"):  # v3: tiny gold nose stud
+            d.ellipse(s(nx0 + 14, ny0 + 30, nx0 + 22, ny0 + 38), fill=(250, 215, 90), outline=(170, 120, 30))
         if c.get("wrinkles"):
             for sd in (-1, 1):
                 d.arc(s(cx + sd * 40 - 22 + fx, cy + 34, cx + sd * 40 + 22 + fx, cy + 90), 90 - sd * 60 - 25, 90 - sd * 60 + 25, fill=nz, width=W(3))
@@ -349,7 +400,7 @@ class Toon:
                 d.line(s(mx - 24, my + 2, mx + 4, my + 5, mx + 26, my - 8), fill=OUT, width=W(5), joint="curve")
             elif sm >= 0:
                 wd, dp = 22 + 10 * sm, 4 + 12 * sm
-                lipc = tuple(int(a * 0.75 + b * 0.25) for a, b in zip(shade(c["skin"], 0.85), (190, 70, 80)))
+                lipc = c.get("lips") or tuple(int(a * 0.75 + b * 0.25) for a, b in zip(shade(c["skin"], 0.85), (190, 70, 80)))
                 d.chord(s(mx - 13, my + dp - 4, mx + 13, my + dp + 9), 0, 180, fill=lipc)  # v2: lower lip
                 d.arc(s(mx - wd, my - dp - 4, mx + wd, my + dp), 15, 165, fill=OUT, width=W(5))
             else:
@@ -388,7 +439,21 @@ class Toon:
             d.line(s(140, 636, 380, 636), fill=shade(sh, 0.82), width=W(4))
         if c.get("belly"):
             d.ellipse(s(110, 300, 410, 590), fill=sh)
-        d.rounded_rectangle(s(x0, 40, x1, 560), W(100), fill=sh)
+        # v3: torso with sloped shoulders, gentle waist and a kameez flare (not a box)
+        prof = [(40, 62), (52, 120), (80, 150), (110, 164), (160, 168), (260, 164), (360, 160), (460, 166), (560, 172)]
+        if tod:
+            prof = [(40, 70), (60, 140), (100, 166), (560, 168)]
+        def hw(y):
+            for (y0, w0), (y1, w1) in zip(prof, prof[1:]):
+                if y0 <= y <= y1:
+                    u = (y - y0) / (y1 - y0)
+                    u = u * u * (3 - 2 * u)
+                    return w0 + (w1 - w0) * u
+            return prof[-1][1]
+        ys = list(range(40, 561, 10))
+        pts = [(260 - hw(y), y) for y in ys] + [(260 + hw(y), y) for y in reversed(ys)]
+        d.polygon(s(*[v for p_ in pts for v in p_]), fill=sh)
+        d.rounded_rectangle(s(260 - 172, 470, 260 + 172, 560), W(40), fill=sh)
         col = c["collar"]
         if col == "band":
             d.rectangle(s(222, 40, 298, 62), fill=shade(sh, 0.9))
