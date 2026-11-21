@@ -380,9 +380,8 @@ class Toon:
             # v5: big Sindhi elder moustache with curled tips
             d.polygon(s(mx - 66, my - 2, mx - 56, my - 20, mx - 30, my - 30, mx, my - 22, mx + 30, my - 30, mx + 56, my - 20, mx + 66, my - 2,
                         mx + 40, my - 10, mx, my - 8, mx - 40, my - 10), fill=c["fh_col"], outline=OUT)
-            for sd in (-1, 1):
-                d.arc(s(mx + sd * 62 - 12, my - 22, mx + sd * 62 + 12, my + 2), 0, 360, fill=OUT, width=W(3))
-                d.ellipse(s(mx + sd * 62 - 10, my - 20, mx + sd * 62 + 10, my), fill=c["fh_col"])
+            for sd in (-1, 1):  # drooping tips instead of round curls
+                d.polygon(s(mx + sd * 50, my - 14, mx + sd * 70, my + 4, mx + sd * 62, my + 16, mx + sd * 44, my - 4), fill=c["fh_col"], outline=OUT)
             d.line(s(mx - 30, my - 20, mx - 8, my - 14), fill=shade(c["fh_col"], 0.8), width=W(2))
             d.line(s(mx + 30, my - 20, mx + 8, my - 14), fill=shade(c["fh_col"], 0.8), width=W(2))
         RED, TEETH, TONGUE = (112, 28, 40), (252, 252, 252), (222, 96, 106)
