@@ -1,6 +1,5 @@
 {
  "seen": {
-  "4d2acb0ad9b9fcec": 1794627671.1881154,
   "98a1bdef8df5bd37": 1794628268.6953218,
   "b34a55619df2bbc0": 1794629473.881021,
   "af3bb567b90af85a": 1794630675.4227052,
@@ -1581,7 +1580,9 @@
   "c8c113918f6c3139": 1795231274.1234796,
   "569c3ae95c0b599c": 1795231274.1234803,
   "a34c6cd55e3a1aca": 1795231274.1236293,
-  "311418a520469a24": 1795231886.456311
+  "311418a520469a24": 1795231886.456311,
+  "0d9e86eb17144f5f": 1795233067.6279955,
+  "98bc5fd8b518f147": 1795233067.6279979
  },
  "pending": {
   "culture2026-11-20": {
@@ -2392,10 +2393,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-21 08:40",
+  "time": "2026-11-21 08:51",
   "items": 14,
   "sample": [
-   "New Zealand 368/10 v India 376/2 *",
+   "New Zealand 368/10 v India 386/2 *",
    "Kurunegala Youth Cricket Club 176/2 * v Burgher Recreation Club 336/10",
    "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 46/1 *"
   ]
@@ -4820,64 +4821,8 @@
   "last": 1795211561.7034888
  },
  "trends": {
-  "last": 1795221666.040912,
+  "last": 1795233054.203744,
   "terms": [
-   {
-    "term": "us flights grounded",
-    "traffic": 500,
-    "news": "US lifts nationwide flight shutdown caused by communications failure",
-    "t": 1794623458,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "iran",
-    "traffic": 500,
-    "news": "CENTCOM Denies Iranian Claim It Struck A US Radar In Bahrain",
-    "t": 1794623458,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "miss universe",
-    "traffic": 100,
-    "news": "Miss Universe 2026: 15 countries withdraw from pageant ahead of grand finale; here's what happened",
-    "t": 1794623458,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "us flights cancelled",
-    "traffic": 100,
-    "news": "Ground delays reported at LaGuardia due to weather",
-    "t": 1794623458,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "view once text messages whatsapp",
-    "traffic": 200,
-    "news": "WhatsApp's 'View Once' text messages feature is now available to beta users on Android - GSMArena.com news",
-    "t": 1794623458,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "egypt national football team vs malawi national football team standings",
-    "traffic": 1000,
-    "news": "Video: Egypt opens the Ali Maher era with a crushing victory, plus a brace for Salah",
-    "t": 1794623458,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "morocco national football team vs niger national football team standings",
-    "traffic": 2000,
-    "news": "Hakimi: PSG Hat-Trick and Morocco Brace in 14 Days",
-    "t": 1794623458,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "faa flights grounded",
     "traffic": 2000,
@@ -7925,15 +7870,55 @@
     "t": 1795221666,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "ramayana",
+    "traffic": 100,
+    "news": "'Ramayana: Rise of a Legend' box office collection day 16: Ranbir Kapoor, Yash film maintains strong hold",
+    "t": 1795233054,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "blind cricket",
+    "traffic": 500,
+    "news": "Pakistan seal Asia Cup glory after winning all three league matches",
+    "t": 1795233054,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "women's big bash league",
+    "traffic": 100,
+    "news": "WATCH: Maia Bouchier takes a stunning running catch to dismiss Olivia Porter as Adelaide Strikers edge Melbourne Renegades in last-ball thriller in WBBL|12",
+    "t": 1795233054,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "international cricket council",
+    "traffic": 200,
+    "news": "Shah Rukh Khan, Sachin Tendulkar unite to hail Jay Shah",
+    "t": 1795233054,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "پٹرولیم",
+    "traffic": 500,
+    "news": "",
+    "t": 1795233054,
+    "cat": "fuel",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-21",
-  "ok": 98,
-  "fail": 162,
-  "limit": 162
+  "ok": 100,
+  "fail": 166,
+  "limit": 166
  },
  "posted_heads": [
   {
@@ -8258,7 +8243,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-21 08:40",
+  "time": "2026-11-21 08:51",
   "steps": []
  },
  "roundup_am": "2026-11-21",
@@ -8366,7 +8351,7 @@
   "text": 13,
   "story": 11
  },
- "ai_last_error": "08:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-21",
   "models": [
@@ -8408,7 +8393,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-21",
-   "ok": 53,
+   "ok": 54,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8416,7 +8401,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-21",
-   "ok": 54,
+   "ok": 55,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8424,7 +8409,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-21",
-   "ok": 54,
+   "ok": 55,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8432,7 +8417,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-21",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8440,7 +8425,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-21",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8448,14 +8433,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-21",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-21",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8463,7 +8448,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-21",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8745,8 +8730,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 16,
-  "old": 16,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8802,8 +8787,8 @@
   "date": "2026-11-21",
   "count": 1,
   "last": 1795222264.419972,
-  "city_i": 12,
-  "dry": 1795231876.742877
+  "city_i": 16,
+  "dry": 1795233063.8144867
  },
  "gemini_day_dead": {
   "day": "2026-11-20",
@@ -9466,13 +9451,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-21 02:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-21 02:40",
    "ok": true,
    "n": 0,
@@ -9740,6 +9718,13 @@
   },
   {
    "t": "11-21 08:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-21 08:50",
    "ok": true,
    "n": 0,
    "ids": [],
