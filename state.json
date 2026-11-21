@@ -1,6 +1,5 @@
 {
  "seen": {
-  "c57544bd526d8781": 1794655856.488302,
   "292cfabc2590b207": 1794656482.4122534,
   "a4abcb1890a3bd87": 1794656482.4122558,
   "e64d0af6ded9d71b": 1794656498.1708212,
@@ -1737,17 +1736,8 @@
    "e4a7a2b156cb4b1c"
   ]
  },
- "last_post_id": "1444130002106066_122123261469503839",
+ "last_post_id": "1444130002106066_122123267031503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122123059287503839",
-   "title": "قومي اسيمبلي جي اسپيڪر اياز صادق پاڪستاني ڪرڪيٽ ٽيم کي سريلنڪا خلاف ٽيسٽ سيريز کٽڻ تي",
-   "t": 1795201457.5070045,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122123059287503839"
-  },
   {
    "id": "1444130002106066_122123070213503839",
    "title": "سکر ۾ پوليس جو مبينا مقابلو، هڪ جوابدار مارجي ويو",
@@ -2060,6 +2050,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122123261469503839"
+  },
+  {
+   "id": "1444130002106066_122123267031503839",
+   "title": "موضع ماڙي ناجهتو ۾ زمين جي تڪرار تان فائرنگ، 2 ڄڻا قتل",
+   "t": 1795261521.5760033,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122123267031503839"
   }
  ],
  "share_sent": {
@@ -2364,12 +2366,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-21 16:30",
+  "time": "2026-11-21 16:45",
   "items": 14,
   "sample": [
    "New Zealand 368/10 v India 486/4 *",
-   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 336/10 & 70/1 *",
-   "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 279/6 *"
+   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 80/2 & 336/10 *",
+   "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 283/7 *"
   ]
  },
  "agri_news": {
@@ -2379,17 +2381,11 @@
  },
  "all_posts": {
   "date": "2026-11-21",
-  "count": 33,
-  "last": 1795260179.475179
+  "count": 34,
+  "last": 1795261514.5185583
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122119531749503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794303099
-   },
    {
     "id": "1444130002106066_122119536525503839",
     "sec": "sindh_stream",
@@ -4783,6 +4779,12 @@
     "sec": "kawish",
     "cat": "sindh",
     "t": 1795260192
+   },
+   {
+    "id": "1444130002106066_122123267031503839",
+    "sec": "kawish",
+    "cat": "sindh",
+    "t": 1795261521
    }
   ]
  },
@@ -7887,9 +7889,9 @@
  },
  "ai_usage": {
   "date": "2026-11-21",
-  "ok": 247,
-  "fail": 391,
-  "limit": 382
+  "ok": 249,
+  "fail": 395,
+  "limit": 386
  },
  "posted_heads": [
   {
@@ -8223,10 +8225,14 @@
   {
    "h": "چاہيان ٿو شهباز شریف پورو دور ڪري، وزيراعظم نه گهرجي: حليم عادل شيخ",
    "t": 1795260192
+  },
+  {
+   "h": "موضع ماڙي ناجهتو ۾ زمين جي تڪرار تان فائرنگ، 2 ڄڻا قتل",
+   "t": 1795261521
   }
  ],
  "last_errors": {
-  "time": "2026-11-21 16:31",
+  "time": "2026-11-21 16:45",
   "steps": []
  },
  "roundup_am": "2026-11-21",
@@ -8334,7 +8340,7 @@
   "text": 18,
   "story": 14
  },
- "ai_last_error": "16:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "16:44 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-21",
   "models": [
@@ -8348,10 +8354,10 @@
  },
  "img_diag": {
   "date": "2026-11-21",
-  "tried": 30,
+  "tried": 31,
   "gemini": 0,
   "pollinations": 16,
-  "skip": 9,
+  "skip": 10,
   "fail": 5,
   "last_note": "microphones on a press conference desk",
   "mismatch": 813,
@@ -8376,7 +8382,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-21",
-   "ok": 101,
+   "ok": 102,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8384,7 +8390,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-21",
-   "ok": 100,
+   "ok": 101,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8392,7 +8398,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-21",
-   "ok": 100,
+   "ok": 101,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8400,7 +8406,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-21",
-   "ok": 103,
+   "ok": 104,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8408,7 +8414,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-21",
-   "ok": 103,
+   "ok": 104,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8416,14 +8422,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-21",
-   "ok": 103,
+   "ok": 104,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-21",
-   "ok": 103,
+   "ok": 104,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8431,7 +8437,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-21",
-   "ok": 103,
+   "ok": 104,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8666,13 +8672,13 @@
  "region_posts": {
   "date": "2026-11-21",
   "district": 1,
-  "sindh": 16,
+  "sindh": 17,
   "pakistan": 13
  },
  "report_acc": {
-  "posted": 1,
-  "found": 15,
-  "old": 15,
+  "posted": 2,
+  "found": 16,
+  "old": 16,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9400,6 +9406,14 @@
    "t": 1795260192,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "487ce1f6c914e8b4",
+   "h": "موضع ماڙي ناجهتو ۾ زمين جي تڪرار تان فائرنگ، 2 ڄڻا قتل",
+   "x": "ڪراچي جي موضع ماڙي ناجهتو ۾ زمين جي پراڻي تڪرار تان فائرنگ جي نتيجي ۾ ٻه ڄڻا قتل ٿي ويا آهن. واقعي جي اطلاع تي پوليس پهچي لاش اسپتال منتقل ڪري ڇڏيا آهن. واقعي بعد علائقي ۾ سوڳ ۽ ڏهڪاءُ واري صورتحال پيدا ٿي وئي آهي. پوليس واقعي جي جاچ شروع ڪري ڇڏي.",
+   "t": 1795261521,
+   "s": true,
+   "r": 0
   }
  ],
  "reels": {
@@ -9414,22 +9428,6 @@
   ]
  },
  "kawish_queue": [
-  {
-   "key": "487ce1f6c914e8b4",
-   "page": 1,
-   "head": "موضع ماڙي ناجهتو ۾ زمين جي تڪرار تان فائرنگ، 2 ڄڻا قتل",
-   "summary": "ڪراچي جي موضع ماڙي ناجهتو ۾ زمين جي پراڻي تڪرار تان فائرنگ جي نتيجي ۾ ٻه ڄڻا قتل ٿي ويا آهن. واقعي جي اطلاع تي پوليس پهچي لاش اسپتال منتقل ڪري ڇڏيا آهن. واقعي بعد علائقي ۾ سوڳ ۽ ڏهڪاءُ واري صورتحال پيدا ٿي وئي آهي. پوليس واقعي جي جاچ شروع ڪري ڇڏي آهي.",
-   "card": "ڪراچي جي موضع ماڙي ناجهتو ۾ زمين جي پراڻي تڪرار تان فائرنگ جي نتيجي ۾ ٻه ڄڻا قتل ٿي ويا. پوليس لاش اسپتال منتقل ڪري جاچ شروع ڪري ڇڏي.",
-   "printed": "موضع ماڙي ناجهتو ۾ زمين جي تڪرار تان فائرنگ، 2 ڄڻا قتل ڪراچي (رپورٽ)",
-   "search_en": "firing land dispute Karachi killed",
-   "search_ur": "کراچی زمین کا تنازع فائرنگ دو افراد قتل",
-   "district": false,
-   "sensitive": true,
-   "confidence": "high",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-11-21&pageno=1",
-   "message": "📰 موضع ماڙي ناجهتو ۾ زمين جي تڪرار تان فائرنگ، 2 ڄڻا قتل\n\nڪراچي جي موضع ماڙي ناجهتو ۾ زمين جي پراڻي تڪرار تان فائرنگ جي نتيجي ۾ ٻه ڄڻا قتل ٿي ويا آهن. واقعي جي اطلاع تي پوليس پهچي لاش اسپتال منتقل ڪري ڇڏيا آهن. واقعي بعد علائقي ۾ سوڳ ۽ ڏهڪاءُ واري صورتحال پيدا ٿي وئي آهي. پوليس واقعي جي جاچ شروع ڪري ڇڏي آهي!\n\n📌 ذريعو: روزاني ڪاوش (صفحو 1)\n\n📲 Naushahro Feroze Updates | نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFerozeUpdates #NaushahroFeroze #NausheroFeroz #Padidan #نوشهروفيروز #نوشہروفیروز #پڊعيدن",
-   "added_day": "2026-11-21"
-  },
   {
    "key": "15978e86825a9db3",
    "page": 8,
@@ -9465,17 +9463,10 @@
  ],
  "kawish_post": {
   "date": "2026-11-21",
-  "count": 3,
-  "last": 1795260192.1511576
+  "count": 4,
+  "last": 1795261521.5759678
  },
  "tg_debug": [
-  {
-   "t": "11-21 10:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-21 10:20",
    "ok": true,
@@ -9744,6 +9735,13 @@
   },
   {
    "t": "11-21 16:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-21 16:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13927,6 +13925,56 @@
     "ڪندي",
     "گهرجي"
    ]
+  },
+  {
+   "t": 1795261521,
+   "h": "موضع ماڙي ناجهتو ۾ زمين جي تڪرار تان فائرنگ، 2 ڄڻا قتل",
+   "b": "ڪراچي جي موضع ماڙي ناجهتو ۾ زمين جي پراڻي تڪرار تان فائرنگ جي نتيجي ۾ ٻه ڄڻا قتل ٿي ويا آهن. واقعي جي اطلاع",
+   "tt": [
+    "تان",
+    "تڪرار",
+    "زمين",
+    "فائرنگ،",
+    "قتل",
+    "ماڙي",
+    "موضع",
+    "ناجهتو",
+    "ڄڻا"
+   ],
+   "bt": [
+    "اسپتال",
+    "اطلاع",
+    "اهن",
+    "اهي",
+    "بعد",
+    "تان",
+    "تڪرار",
+    "جاچ",
+    "زمين",
+    "سوڳ",
+    "شروع",
+    "صورتحال",
+    "علائقي",
+    "فائرنگ",
+    "فائرنگ،",
+    "قتل",
+    "لاش",
+    "ماڙي",
+    "منتقل",
+    "موضع",
+    "ناجهتو",
+    "نتيجي",
+    "واقعي",
+    "پراڻي",
+    "پهچي",
+    "پوليس",
+    "پيدا",
+    "ڄڻا",
+    "ڇڏي",
+    "ڇڏيا",
+    "ڏهڪاء",
+    "ڪراچي"
+   ]
   }
  ],
  "repeat_log": [
@@ -14094,7 +14142,7 @@
  },
  "quality": {
   "date": "2026-11-21",
-  "editor_fixed": 22,
+  "editor_fixed": 23,
   "editor_rejected": 1,
   "kawish_rejected": 1,
   "kawish_crosschecked": 0,
