@@ -82,6 +82,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-075] (ep027, 2026-11-20) Aangan mein Abba (charpai_l) ke close-up "Manzoor!" (1:15) mein saath baithi Ammi (charpai_c) bari aur aage lagti hain, Abba thore chhup jate hain, aur left kinare par Arsalan ka tukra kata hua — charpai close-up ka crop bolne wale par center karna aur kinare ke adhe log hatana.
 - [K-076] (ep027, 2026-11-20) Kahani "Bachon ka aalmi din" ki hai lekin screen par is din ka koi nishaan nahi (banner, rangeen jhandiyan, ya Mehak ki banayi drawing) — aisi "din/tehwaar" episodes ke liye living_room mein optional "banner" set piece (deewar par likha kaghaz) banana.
 
+- [K-077] (ep028, 2026-11-21) Poori kahani voice note "record" karne ki hai lekin phone par recording ka koi nishaan nahi (mic, laal timer, lehrein) — "button daba kar rakhein" aur "ungli utha di, chala gaya" sirf baaton mein hain — naya `phone_rec` effect: phone ke upar chhota bubble (mic + chalta timer), aur ungli uthane par "sent ✓✓" ka chhota animation + whoosh.
+- [K-078] (ep028, 2026-11-21) "Doodh ubal kar gir gaya" kahani ki jaan hai lekin doodh, patili ya chulha kahin nazar nahi aata (Ammi khaali haath andar aati hain, 0:52) — naya "patili" prop (doodh ki degchi) + uffaan/jhaag ka effect, ya scene 2 se pehle kitchen ka 2 second ka insert shot.
+- [K-079] (ep028, 2026-11-21) Abba "facepalm" react pose mein phone wala haath hi maathe par le jate hain, phone seedha maathe par chipka lagta hai (group shot 1:00) — facepalm mein prop doosre (neeche wale) haath mein shift karna.
+
 ## APPROVED
 
 ## DONE

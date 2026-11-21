@@ -98,7 +98,7 @@
      "urdu": "جی ابّا۔ بٹن دبا کر رکھیں، بولیں، پھر چھوڑ دیں۔ بس!",
      "how": "27-year-old young man, patient tech support son, clear and friendly",
      "shot": "close",
-     "pose": "explain",
+     "pose": "rest",
      "looks": {
       "ABBA": "FARAZ"
      },
@@ -441,7 +441,8 @@
       "MEHAK": "laugh"
      },
      "react_pose": {
-      "AMMI": "facepalm"
+      "AMMI": "facepalm",
+      "MEHAK": "rest"
      }
     },
     {
@@ -459,6 +460,10 @@
      },
      "react": {
       "ABBA": "laugh"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "ABBA": "phone_look"
      }
     },
     {
@@ -474,6 +479,11 @@
       "ABBA": "warm",
       "AMMI": "warm",
       "MEHAK": "warm"
+     },
+     "react_pose": {
+      "AMMI": "rest",
+      "ABBA": "phone_look",
+      "MEHAK": "rest"
      }
     },
     {
@@ -484,12 +494,16 @@
      "urdu": "باتیں روز بھیجیے... لیکن پہلے چولہا بند کر کے!",
      "how": "50-year-old mother, loving tease, final punch",
      "shot": "group",
-     "pose": "wag",
+     "pose": "cross",
      "joke": true,
      "gap": 0.9,
      "react": {
       "ABBA": "laugh",
       "MEHAK": "laugh"
+     },
+     "react_pose": {
+      "ABBA": "phone_look",
+      "MEHAK": "rest"
      }
     }
    ]
