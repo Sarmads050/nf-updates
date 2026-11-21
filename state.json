@@ -1600,7 +1600,8 @@
   "a0a713b24c4a2125": 1795271478.9649894,
   "ddd580c7632dc0cf": 1795271478.9649918,
   "a17504276cc21e1e": 1795271478.964993,
-  "1dfe6bbd934fa652": 1795271478.9649947
+  "1dfe6bbd934fa652": 1795271478.9649947,
+  "58bf31ee29628aec": 1795272075.906543
  },
  "pending": {},
  "queue": [],
@@ -1672,8 +1673,8 @@
  "last_question": "2026-11-20",
  "sindh_single": {
   "date": "2026-11-21",
-  "count": 1,
-  "last": 1795264320.9624264,
+  "count": 2,
+  "last": 1795272065.3597693,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1746,21 +1747,12 @@
    "90f9b9dd597c7312",
    "cc8e8de2319b10fb",
    "e4a7a2b156cb4b1c",
-   "a90394c80e34f89b"
+   "a90394c80e34f89b",
+   "58bf31ee29628aec"
   ]
  },
- "last_post_id": "1444130002106066_122123300565503839",
+ "last_post_id": "1444130002106066_122123307309503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122123122413503839",
-   "title": "سنڌ جي وزير اعليٰ مراد علي شاهه ٿر ۽ عمرڪوٽ جي علائقن لاءِ پنج ارب ٽي ڪروڙ روپين جي ڏڪار",
-   "t": 1795224246.6294584,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122123122413503839"
-  },
   {
    "id": "1444130002106066_122123144265503839",
    "title": "پاڪستان سموريون ٽي ليگ ميچون کٽي ايشيا ڪپ جو اعزاز پنهنجي نالي ڪري ورتو",
@@ -2082,6 +2074,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122123300565503839"
+  },
+  {
+   "id": "1444130002106066_122123307309503839",
+   "title": "موسم سرما کان اڳ صحت جي حوالي سان هدايتون جاري نيشنل انسٽيٽيوٽ آف هيلٿ موسم سرما کان اڳ",
+   "t": 1795272102.2541182,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122123307309503839"
   }
  ],
  "share_sent": {
@@ -2386,11 +2388,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-21 19:31",
+  "time": "2026-11-21 19:41",
   "items": 15,
   "sample": [
    "New Zealand 368/10 v India 486/4 *",
-   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 86/3 & 336/10 *",
+   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 336/10 & 86/3 *",
    "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/9 *"
   ]
  },
@@ -2401,17 +2403,11 @@
  },
  "all_posts": {
   "date": "2026-11-21",
-  "count": 41,
-  "last": 1795270332.1058173
+  "count": 42,
+  "last": 1795272097.504375
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122119567941503839",
-    "sec": "kawish",
-    "cat": "district",
-    "t": 1794311483
-   },
    {
     "id": "1444130002106066_122119572243503839",
     "sec": "kawish",
@@ -4805,6 +4801,12 @@
     "sec": "public_news",
     "cat": "dollar_gold_business",
     "t": 1795270337
+   },
+   {
+    "id": "1444130002106066_122123307309503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1795272097
    }
   ]
  },
@@ -7901,9 +7903,9 @@
  },
  "ai_usage": {
   "date": "2026-11-21",
-  "ok": 295,
-  "fail": 470,
-  "limit": 460
+  "ok": 301,
+  "fail": 480,
+  "limit": 470
  },
  "posted_heads": [
   {
@@ -8228,7 +8230,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-21 19:31",
+  "time": "2026-11-21 19:41",
   "steps": []
  },
  "roundup_am": "2026-11-21",
@@ -8336,7 +8338,7 @@
   "text": 21,
   "story": 17
  },
- "ai_last_error": "19:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "19:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-21",
   "models": [
@@ -8350,9 +8352,9 @@
  },
  "img_diag": {
   "date": "2026-11-21",
-  "tried": 37,
+  "tried": 38,
   "gemini": 0,
-  "pollinations": 20,
+  "pollinations": 21,
   "skip": 12,
   "fail": 5,
   "last_note": "gold jewellery and rupee notes",
@@ -8378,7 +8380,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-21",
-   "ok": 117,
+   "ok": 118,
    "fail": 4,
    "items": 10,
    "fail_streak": 0,
@@ -8386,7 +8388,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-21",
-   "ok": 118,
+   "ok": 119,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8394,7 +8396,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-21",
-   "ok": 118,
+   "ok": 119,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8402,7 +8404,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-21",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8410,7 +8412,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-21",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8418,14 +8420,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-21",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-21",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8433,7 +8435,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-21",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8668,13 +8670,13 @@
  "region_posts": {
   "date": "2026-11-21",
   "district": 1,
-  "sindh": 22,
+  "sindh": 23,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 12,
-  "old": 12,
+  "posted": 2,
+  "found": 16,
+  "old": 16,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9449,13 +9451,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-21 13:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-21 13:20",
    "ok": true,
    "n": 0,
@@ -9723,6 +9718,13 @@
   },
   {
    "t": "11-21 19:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-21 19:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14039,6 +14041,59 @@
     "ڪان",
     "گهاٽو"
    ]
+  },
+  {
+   "t": 1795272097,
+   "h": "سنڌ | موسم سرما کان اڳ صحت جي حوالي سان هدايتون جاري",
+   "b": "نيشنل انسٽيٽيوٽ آف هيلٿ موسم سرما کان اڳ صحت جي حوالي سان ٽي هدايتون جاري ڪري ڇڏيون آهن. اداري پاران موسمي",
+   "tt": [
+    "جاري",
+    "حوالي",
+    "سرما",
+    "سنڌ",
+    "صحت",
+    "موسم",
+    "هدايتون",
+    "ڪان"
+   ],
+   "bt": [
+    "اداري",
+    "اسموگ",
+    "اسپتالن",
+    "انسٽيٽيوٽ",
+    "اهن",
+    "اهي",
+    "بيمارين",
+    "بچاء",
+    "تعداد",
+    "تياري",
+    "جاري",
+    "حوالي",
+    "خدشو",
+    "رڪڻ",
+    "سرما",
+    "سنڌ",
+    "صحت",
+    "ظاهر",
+    "فلو،",
+    "متوقع",
+    "مريضن",
+    "موسم",
+    "موسمي",
+    "مڪمل",
+    "نظر",
+    "نيشنل",
+    "هدايت",
+    "هدايتون",
+    "هيلٿ",
+    "واڌ",
+    "ويڪسين",
+    "پاران",
+    "پيش",
+    "پڪڙجڻ",
+    "ڇڏيون",
+    "ڪان"
+   ]
   }
  ],
  "repeat_log": [
@@ -14206,12 +14261,11 @@
  },
  "quality": {
   "date": "2026-11-21",
-  "editor_fixed": 28,
+  "editor_fixed": 29,
   "editor_rejected": 2,
   "kawish_rejected": 1,
   "kawish_crosschecked": 0,
   "wrong_place": 1,
   "repeat": 12
- },
- "_dup": true
+ }
 }
