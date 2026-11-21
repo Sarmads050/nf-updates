@@ -1,6 +1,5 @@
 {
  "seen": {
-  "2e7238f9eb3c0374": 1794692462.776104,
   "82a84d7d4c73b8e9": 1794695459.4879925,
   "87361d9cf6f003b1": 1794695487.783944,
   "865f8030f33bafb7": 1794695487.783947,
@@ -2379,11 +2378,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-22 02:40",
+  "time": "2026-11-22 02:50",
   "items": 38,
   "sample": [
    "New Zealand 368/10 v India 486/4 *",
-   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 86/3 & 336/10 *",
+   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 336/10 & 86/3 *",
    "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/9 *"
   ]
  },
@@ -8221,7 +8220,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-22 02:40",
+  "time": "2026-11-22 02:50",
   "steps": []
  },
  "roundup_am": "2026-11-21",
@@ -8371,7 +8370,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-22",
-   "ok": 16,
+   "ok": 17,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8379,7 +8378,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-22",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8387,7 +8386,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-22",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8395,7 +8394,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8403,7 +8402,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8411,14 +8410,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8426,7 +8425,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-22",
-   "ok": 17,
+   "ok": 18,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8666,8 +8665,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 16,
-  "old": 16,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9450,13 +9449,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-21 20:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-21 20:30",
    "ok": true,
    "n": 0,
@@ -9724,6 +9716,13 @@
   },
   {
    "t": "11-22 02:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-22 02:50",
    "ok": true,
    "n": 0,
    "ids": [],
