@@ -120,6 +120,10 @@ def set_living(time):
     c = coll("set_living_room")
     wall, floor = (236, 214, 176), (170, 120, 80)
     box((9, 0.2, 5), (0, 2.6, 2.4), wall, rough=0.9)                      # back wall
+    box((9, 8, 0.2), (0, 0, 4.4), shade(wall, 0.95))                      # ceiling
+    cyl(0.06, 0.5, (0, 0.6, 4.05), (90, 70, 60))                           # ceiling fan
+    for k in range(3):
+        box((0.9, 0.16, 0.02), (0.45 * math.cos(k * 2.09), 0.6 + 0.45 * math.sin(k * 2.09), 3.8), (110, 80, 60), rot=(0, 0, k * 2.09))
     box((0.2, 6, 5), (-3.3, 0, 2.4), shade(wall, 0.92))                    # side walls
     box((0.2, 6, 5), (3.3, 0, 2.4), shade(wall, 0.92))
     box((9, 0.22, 0.5), (0, 2.48, 0.25), (150, 110, 80))                   # skirting
@@ -162,9 +166,10 @@ def set_living(time):
         for j in range(4):
             box((0.12, 0.15, 0.12), (cx + 0.43 + (j % 2) * 0.24, sy + 0.32, 0.7 + (j // 2) * 0.17), rilli[(k + j + 1) % 5], rot=(D(-12), 0, D(45)))
     # low table with a plant
-    box((0.9, 0.5, 0.06), (0.15, -0.9, 0.42), (150, 100, 60))
-    for sx in (-0.3, 0.6):
-        box((0.06, 0.06, 0.4), (sx, -0.9, 0.2), (130, 85, 50))
+    box((0.7, 0.45, 0.06), (-2.45, 0.6, 0.42), (150, 100, 60))
+    for sx in (-2.7, -2.2):
+        box((0.06, 0.06, 0.4), (sx, 0.6, 0.2), (130, 85, 50))
+    cyl(0.07, 0.12, (-2.45, 0.6, 0.51), (250, 250, 250), verts=8)
     cyl(0.1, 0.18, (-2.7, 1.9, 0.09), (190, 100, 60))
     ico(0.32, (-2.7, 1.9, 0.5), (60, 140, 70), sub=1)
     return c
@@ -611,14 +616,14 @@ def place_camera(F, scene):
     else:
         tx, ty, hz = 0, 0.5, 1.3
     u = ease((z - 1.0) / 1.0)
-    tz = lerp(1.05, hz - 0.12, u)
+    tz = lerp(0.95, hz - 0.12, u)
     tx = lerp(tx * 0.6, tx, u)
-    dist = lerp(7.2, 3.4, u)
-    camz = lerp(1.55, hz + 0.05, u)
+    dist = lerp(5.0, 3.2, u)
+    camz = lerp(1.45, hz + 0.05, u)
     cam.location = (tx * 0.9, ty - dist, camz)
     d = Vector((tx, ty, tz)) - cam.location
     cam.rotation_euler = d.to_track_quat("-Z", "Y").to_euler()
-    cam_d.lens = lerp(24, 38, u) * (1 + 0.15 * max(0, z - 2.0))
+    cam_d.lens = lerp(26, 38, u) * (1 + 0.15 * max(0, z - 2.0))
 
 
 # ------------------------------------------------------------------ render loop
