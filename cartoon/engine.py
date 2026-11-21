@@ -1014,7 +1014,14 @@ def draw_hand(d, q, lw, hx, hy, ex, ey, s, skin, fing, side):
     ell(cx, cy, (24 if fing else 30) * s, 25 * s, OUT, 4 * s)
     ell(tx, ty, 15 * s, 9 * s, skin)
     ell(cx, cy, (24 if fing else 30) * s, 25 * s, skin)
-    if not fing:
+    if not fing:  # v5: four little finger tips instead of a plain mitten
+        for o in (-15, -5, 5, 15):
+            fx_, fy_ = cx + ux * 24 * s + px * o * s, cy + uy * 24 * s + py * o * s
+            ell(fx_, fy_, 9 * s, 6 * s, OUT, 3 * s)
+        for o in (-15, -5, 5, 15):
+            fx_, fy_ = cx + ux * 24 * s + px * o * s, cy + uy * 24 * s + py * o * s
+            ell(fx_, fy_, 9 * s, 6 * s, skin)
+        ell(cx, cy, 26 * s, 24 * s, skin)
         dk = art.shade(skin, 0.72)
         for o in (-11, 0, 11):
             a0 = (cx + ux * 14 * s + px * o * s, cy + uy * 14 * s + py * o * s)
@@ -1136,7 +1143,7 @@ def draw_char(cv, ox, oy, w, c):
     nh, fh, fl = hands(c, c["t"])
     face = c["face"]
     for nm, (rx, ry), sd in (("far", fh, -face), ("near", nh, face)):
-        sx, sy = x + sd * 136 * s, T + 82 * s
+        sx, sy = x + sd * 136 * s * C.get("build", 1.0), T + 82 * s
         hx, hy = x + rx, T + ry
         ex, ey, hx, hy = ik(sx, sy, hx, hy, 178 * s, 172 * s, sd)
         slv = sleeve if nm == "near" else art.shade(sleeve, 0.9)  # v2: far arm a touch darker (depth)

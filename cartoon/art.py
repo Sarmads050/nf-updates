@@ -35,20 +35,20 @@ def shade(c, f):
 # ----------------------------------------------------------------- characters
 SK1, SK2, SK3 = (214, 160, 118), (230, 180, 142), (198, 146, 104)
 CHARS = {
-    "ABBA": dict(kameez=True, role="Ghar ke Abba", name="Abba", age="old_man", skin=SK3, face="oval", hair="topi", hair_col=(200, 200, 205),
+    "ABBA": dict(build=1.04, kameez=True, role="Ghar ke Abba", name="Abba", age="old_man", skin=SK3, face="oval", hair="topi", hair_col=(200, 200, 205),
                  facial="mustache", fh_col=(215, 215, 218), wrinkles=2, shirt=(236, 230, 212), pants=(236, 230, 212),
                  collar="band", extra=["ajrak"], sleeve="long", scale=1.0, belly=True, brow_col=(190, 190, 195),
                  color="#ffcf6b", voice="Charon",
                  who="a 57-year-old Sindhi father, government office clerk, serious, slow and wise, deep warm voice"),
-    "AMMI": dict(kameez=True, role="Ghar ki Ammi", name="Ammi", age="old_woman", skin=SK2, face="round", hair="dupatta", hair_col=(40, 30, 28),
+    "AMMI": dict(build=1.13, embroidery=((250, 200, 60), (180, 30, 50)), kameez=True, role="Ghar ki Ammi", name="Ammi", age="old_woman", skin=SK2, face="round", hair="dupatta", hair_col=(40, 30, 28),
                  grey_streak=True, cover=(128, 32, 52), cover2=(170, 60, 80), wrinkles=1, shirt=(214, 120, 70),
                  pants=(214, 120, 70), collar="women", sleeve="long", scale=0.95, lashes=True, color="#ff9f80",
                  voice="Kore", who="a 50-year-old Sindhi mother and housewife, caring but strict, quick and expressive"),
-    "IMTIAZ": dict(role="Bara Bhai", name="Ada Imtiaz", age="man", skin=SK1, face="long", hair="side", hair_col=(26, 22, 22),
+    "IMTIAZ": dict(build=1.1, role="Bara Bhai", name="Ada Imtiaz", age="man", skin=SK1, face="long", hair="side", hair_col=(26, 22, 22),
                    facial="beard", fh_col=(30, 24, 24), shirt=(110, 120, 135), pants=(60, 64, 80), collar="polo",
                    sleeve="short", scale=1.03, eyebags=True, color="#9fd0ff", voice="Orus",
                    who="a 29-year-old man, tired after work at a Chinese company, responsible elder brother, calm"),
-    "SANA": dict(kameez=True, role="Bhabi", name="Bhabi Sana", age="woman", skin=SK2, face="oval", hair="dupatta", hair_col=(30, 20, 18),
+    "SANA": dict(build=0.92, embroidery=((40, 130, 90), (200, 60, 90)), kameez=True, role="Bhabi", name="Bhabi Sana", age="woman", skin=SK2, face="oval", hair="dupatta", hair_col=(30, 20, 18),
                  cover=(46, 140, 100), cover2=(90, 190, 140), shirt=(250, 236, 214), pants=(250, 236, 214),
                  collar="women", sleeve="long", scale=0.94, lashes=True, earrings=True, nosepin=True, color="#8ff0c0",
                  voice="Aoede", who="a 25-year-old educated young woman, polite, smart and witty"),
@@ -58,23 +58,23 @@ CHARS = {
     "HASHIR": dict(role="Twin", name="Hashir", age="toddler", skin=SK2, face="toddler", hair="tuft2", hair_col=(40, 28, 24),
                    shirt=(240, 200, 60), pants=(60, 90, 160), collar="tee", sleeve="short", scale=0.5, hs=1.45, color="#ffe066",
                    voice="Achird", toddler=True, who="a 2-year-old toddler boy who babbles half words, cheeky"),
-    "FARAZ": dict(kameez=True, role="Tech wala Bhai", name="Faraz", age="man", skin=SK1, face="oval", hair="neat", hair_col=(24, 20, 20), glasses=True,
+    "FARAZ": dict(build=0.97, kameez=True, role="Tech wala Bhai", name="Faraz", age="man", skin=SK1, face="oval", hair="neat", hair_col=(24, 20, 20), glasses=True,
                   facial="light", fh_col=(40, 30, 28), shirt=(90, 140, 200), pants=(50, 55, 75), collar="band",
                   extra=["lanyard"], sleeve="long", scale=1.0, color="#7fc8ff", voice="Iapetus",
                   who="a 27-year-old computer science graduate, the tech guy of the house, clear and a bit nerdy"),
-    "NIMRA": dict(kameez=True, role="Karachi wali Behan", name="Nimra Aapi", age="woman", skin=SK2, face="oval", hair="dupatta", hair_col=(34, 22, 20),
+    "NIMRA": dict(build=0.92, embroidery=((120, 60, 170), (250, 200, 60)), kameez=True, role="Karachi wali Behan", name="Nimra Aapi", age="woman", skin=SK2, face="oval", hair="dupatta", hair_col=(34, 22, 20),
                   cover=(120, 60, 170), cover2=(170, 110, 220), shirt=(240, 200, 220), pants=(240, 200, 220),
                   collar="women", sleeve="long", scale=0.93, lashes=True, earrings="jhumka", lips=(200, 80, 110), color="#d6a8ff",
                   voice="Despina", who="a 24-year-old married elder sister living in Karachi, loving but bossy"),
-    "DANIYAL": dict(kameez=True, role="Wakeel Bhai", name="Daniyal", age="young", skin=SK1, face="long", hair="curly", hair_col=(30, 24, 22),
+    "DANIYAL": dict(build=0.88, kameez=True, role="Wakeel Bhai", name="Daniyal", age="young", skin=SK1, face="long", hair="curly", hair_col=(30, 24, 22),
                     shirt=(245, 245, 245), pants=(40, 40, 48), collar="band", extra=["waistcoat"], sleeve="long",
                     scale=0.98, color="#c0c0ff", voice="Fenrir",
                     who="a 20-year-old law student, dramatic and theatrical, loves saying Objection"),
-    "ARSALAN": dict(role="Cricket wala Bhai", name="Arsalan", age="teen", skin=SK1, face="round", hair="spiky", hair_col=(22, 18, 18),
+    "ARSALAN": dict(build=0.95, role="Cricket wala Bhai", name="Arsalan", age="teen", skin=SK1, face="round", hair="spiky", hair_col=(22, 18, 18),
                     shirt=(30, 140, 70), shirt2=(240, 240, 240), pants=(30, 30, 40), collar="jersey", sleeve="short",
                     scale=0.95, color="#80e08a", voice="Puck",
                     who="a 17-year-old boy, cricket and mobile games lover, energetic, a bit lazy"),
-    "MEHAK": dict(kameez=True, role="Choti Behan", name="Mehak", age="girl", skin=SK2, face="round", hair="plaits", hair_col=(30, 20, 18),
+    "MEHAK": dict(build=0.88, kameez=True, role="Choti Behan", name="Mehak", age="girl", skin=SK2, face="round", hair="plaits", hair_col=(30, 20, 18),
                   shirt=(250, 150, 190), pants=(250, 150, 190), collar="women_print", sleeve="long", scale=0.84,
                   lashes=True, color="#ff9fc8", voice="Leda",
                   who="a 14-year-old girl in class 8, smart, talkative, loves teasing her brothers"),
@@ -377,7 +377,14 @@ class Toon:
                 d.arc(s(cx + sd * 40 - 22 + fx, cy + 34, cx + sd * 40 + 22 + fx, cy + 90), 90 - sd * 60 - 25, 90 - sd * 60 + 25, fill=nz, width=W(3))
         mx, my = cx + fx * 0.8, cy + 80 + fy * 0.6 + (-6 if tod else 0)
         if c.get("facial") == "mustache":
-            d.polygon(s(mx - 46, my - 6, mx - 30, my - 22, mx, my - 18, mx + 30, my - 22, mx + 46, my - 6, mx, my - 12), fill=c["fh_col"], outline=OUT)
+            # v5: big Sindhi elder moustache with curled tips
+            d.polygon(s(mx - 66, my - 2, mx - 56, my - 20, mx - 30, my - 30, mx, my - 22, mx + 30, my - 30, mx + 56, my - 20, mx + 66, my - 2,
+                        mx + 40, my - 10, mx, my - 8, mx - 40, my - 10), fill=c["fh_col"], outline=OUT)
+            for sd in (-1, 1):
+                d.arc(s(mx + sd * 62 - 12, my - 22, mx + sd * 62 + 12, my + 2), 0, 360, fill=OUT, width=W(3))
+                d.ellipse(s(mx + sd * 62 - 10, my - 20, mx + sd * 62 + 10, my), fill=c["fh_col"])
+            d.line(s(mx - 30, my - 20, mx - 8, my - 14), fill=shade(c["fh_col"], 0.8), width=W(2))
+            d.line(s(mx + 30, my - 20, mx + 8, my - 14), fill=shade(c["fh_col"], 0.8), width=W(2))
         RED, TEETH, TONGUE = (112, 28, 40), (252, 252, 252), (222, 96, 106)
         if "chew" in fl:  # K-009: puffed cheeks, lips pressed, small chewing mouth
             for sd in (-1, 1):
@@ -438,7 +445,7 @@ class Toon:
             d.rounded_rectangle(s(128, 380, 392, 650), W(26), fill=shade(sh, 0.97))
             d.line(s(140, 636, 380, 636), fill=shade(sh, 0.82), width=W(4))
         if c.get("belly"):
-            d.ellipse(s(110, 300, 410, 590), fill=sh)
+            d.ellipse(s(260 - 150 * c.get("build", 1), 300, 260 + 150 * c.get("build", 1), 590), fill=sh)
         # v3: torso with sloped shoulders, gentle waist and a kameez flare (not a box)
         prof = [(40, 62), (52, 120), (80, 150), (110, 164), (160, 168), (260, 164), (360, 160), (460, 166), (560, 172)]
         if tod:
@@ -450,10 +457,12 @@ class Toon:
                     u = u * u * (3 - 2 * u)
                     return w0 + (w1 - w0) * u
             return prof[-1][1]
+        bld = c.get("build", 1.0)
+        prof = [(y_, w_ * bld) for y_, w_ in prof]
         ys = list(range(40, 561, 10))
         pts = [(260 - hw(y), y) for y in ys] + [(260 + hw(y), y) for y in reversed(ys)]
         d.polygon(s(*[v for p_ in pts for v in p_]), fill=sh)
-        d.rounded_rectangle(s(260 - 172, 470, 260 + 172, 560), W(40), fill=sh)
+        d.rounded_rectangle(s(260 - 172 * bld, 470, 260 + 172 * bld, 560), W(40), fill=sh)
         col = c["collar"]
         if col == "band":
             d.rectangle(s(222, 40, 298, 62), fill=shade(sh, 0.9))
@@ -494,17 +503,42 @@ class Toon:
                 d.polygon(s(428, 90, 324, 40, 338, 545, 420, 520), fill=cv)
                 d.line(s(196, 40, 182, 545), fill=cv2, width=W(5))
                 d.line(s(324, 40, 338, 545), fill=cv2, width=W(5))
+        if c.get("embroidery"):  # v5: Sindhi gajj — mirror work + thread triangles on the front yoke and hem
+            th, th2 = c["embroidery"]
+            d.polygon(s(205, 60, 315, 60, 300, 250, 260, 290, 220, 250), fill=shade(sh, 0.93))
+            d.line(s(205, 60, 220, 250, 260, 290, 300, 250, 315, 60), fill=th, width=W(5))
+            for k in range(6):
+                yy = 90 + k * 30
+                for dx in ((-20, 20) if k < 5 else (0,)):
+                    xx = 260 + dx
+                    d.polygon(s(xx - 10, yy, xx + 10, yy, xx, yy + 14), fill=th2)
+                    d.ellipse(s(xx - 6, yy + 14, xx + 6, yy + 26), fill=(235, 240, 250), outline=th, width=W(2))
+            for k in range(9):  # hem band
+                xx = 120 + k * 35
+                d.polygon(s(xx, 610, xx + 16, 590, xx + 32, 610), fill=th)
+                d.ellipse(s(xx + 10, 612, xx + 22, 624), fill=(235, 240, 250), outline=th2, width=W(2))
         ex = c.get("extra", [])
-        if "ajrak" in ex:  # Sindhi ajrak shawl on shoulders
+        if "ajrak" in ex:  # v5 (K-026): wide Sindhi ajrak shawl over both shoulders, block print + indigo borders + fringe
+            AJ, IND, WH = (150, 28, 38), (28, 36, 92), (240, 236, 226)
             for sd in (-1, 1):
-                pts = s(260 + sd * 168, 70, 260 + sd * 90, 40, 260 + sd * 120, 330, 260 + sd * 168, 360)
-                d.polygon(pts, fill=(150, 30, 40))
-                for k in range(6):
-                    yy = 70 + k * 46
-                    xx = 260 + sd * (140 - k * 2)
-                    d.rectangle(s(xx - 10, yy, xx + 10, yy + 20), fill=(30, 40, 90))
-                    d.ellipse(s(xx - 4, yy + 6, xx + 4, yy + 14), fill=(240, 240, 240))
-                d.line(s(260 + sd * 90, 40, 260 + sd * 120, 330), fill=(30, 40, 90), width=W(8))
+                pts = s(260 + sd * 70, 44, 260 + sd * 178, 70, 260 + sd * 186, 440, 260 + sd * 96, 420)
+                d.polygon(pts, fill=AJ)
+                for row in range(9):  # block-print motifs
+                    for col in range(2):
+                        yy = 80 + row * 38
+                        xx = 260 + sd * (110 + col * 38 + row * 1.2)
+                        d.rectangle(s(xx - 12, yy - 12, xx + 12, yy + 12), fill=IND)
+                        d.ellipse(s(xx - 6, yy - 6, xx + 6, yy + 6), fill=AJ)
+                        d.ellipse(s(xx - 2, yy - 2, xx + 2, yy + 2), fill=WH)
+                d.line(s(260 + sd * 72, 48, 260 + sd * 98, 420), fill=IND, width=W(14))  # inner border
+                for k in range(10):
+                    yy = 60 + k * 37
+                    d.ellipse(s(260 + sd * (77 + k * 2.4) - 3, yy - 3, 260 + sd * (77 + k * 2.4) + 3, yy + 3), fill=WH)
+                d.line(s(260 + sd * 96, 420, 260 + sd * 186, 440), fill=IND, width=W(10))  # bottom border
+                for k in range(9):  # fringe
+                    xx = 260 + sd * (100 + k * 10)
+                    yy = 422 + k * 2.2
+                    d.line(s(xx, yy + 4, xx + sd * 2, yy + 26), fill=AJ, width=W(4))
         if "waistcoat" in ex:
             for sd in (-1, 1):
                 d.polygon(s(260 + sd * 10, 70, 260 + sd * 70, 40, 260 + sd * 166, 110, 260 + sd * 166, 560, 260 + sd * 12, 560), fill=(30, 30, 40))
@@ -521,8 +555,9 @@ class Toon:
         # cel shading: darker side + soft highlight, clipped to the clothes
         mask = im.getchannel("A")
         sh_ = Image.new("RGBA", im.size, 0)
-        ImageDraw.Draw(sh_).polygon(s(330, 0, 560, 0, 560, BODY_H, 360, BODY_H), fill=(20, 10, 30, 46))
-        sh_ = sh_.filter(ImageFilter.GaussianBlur(int(14 * SS * K)))
+        ImageDraw.Draw(sh_).polygon(s(345, 0, 560, 0, 560, BODY_H, 372, BODY_H), fill=(30, 10, 40, 52))  # v5: crisp cel shadow
+        ImageDraw.Draw(sh_).rectangle(s(0, 40, 560, 72), fill=(30, 10, 40, 40))  # shadow under the chin / collar
+        sh_ = sh_.filter(ImageFilter.GaussianBlur(int(2 * SS * K)))
         hl_ = Image.new("RGBA", im.size, 0)
         ImageDraw.Draw(hl_).ellipse(s(120, 60, 230, 260), fill=(255, 255, 255, 30))
         hl_ = hl_.filter(ImageFilter.GaussianBlur(int(20 * SS * K)))

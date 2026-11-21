@@ -1,0 +1,56 @@
+name: Cartoon weekly compilation (8+ min long video)
+
+# Joins the last N episode videos (from the cartoon-epNNN releases) into one long video
+# for YouTube (8+ minutes = mid-roll ads + watch hours). Result: release "cartoon-compilation-<date>".
+
+on:
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "Kitni aakhri episodes jorni hain"
+        default: "7"
+
+permissions:
+  contents: write
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Download last episodes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p comp
+          python3 - <<'EOF' > comp/list.txt
+          import json
+          eps = json.load(open("cartoon/episodes/index.json"))["episodes"]
+          for e in eps[-int("${{ inputs.count }}"):]:
+              print(e["id"])
+          EOF
+          : > comp/concat.txt
+          for EP in $(cat comp/list.txt); do
+            if gh release download "cartoon-$EP" -p "$EP.mp4" -D comp 2>/dev/null; then
+              echo "file '$EP.mp4'" >> comp/concat.txt
+            else
+              echo "skip $EP (no release video)"
+            fi
+          done
+          cat comp/concat.txt
+      - name: Join
+        run: |
+          cd comp
+          ffmpeg -v error -y -f concat -safe 0 -i concat.txt -c:v libx264 -preset veryfast -crf 21 -c:a aac -b:a 160k -movflags +faststart compilation.mp4
+          ffprobe -v error -show_entries format=duration -of csv=p=0 compilation.mp4
+      - name: Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="cartoon-compilation-$(date -u +%Y-%m-%d)"
+          gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$TAG" comp/compilation.mp4 --prerelease --title "Sindhi Ghar Ki Kahani - weekly compilation $(date -u +%Y-%m-%d)" --notes "Episodes: $(tr '\n' ' ' < comp/list.txt)"
+          echo "VIDEO: https://github.com/${{ github.repository }}/releases/download/$TAG/compilation.mp4"

@@ -74,7 +74,7 @@ CONNECTION RULES (v3, Nov 2026 research — viewers must feel "yeh to hamare gha
 4. Signature catchphrases (use the speaker's own once per episode where natural, so viewers start repeating them):
    ABBA "Humare zamane mein..." | AMMI "Main ne pehle hi kaha tha!" | DANIYAL "Objection, my lord!" | FARAZ "Restart kiya tha?" |
    ARSALAN "Bas ek over aur!" | MEHAK "Ammi ko bata doon?" | IMTIAZ "Hao hao" (Chinese 'achha') | SANA "Adi, sukoon se" | NIMRA "Karachi mein to..."
-5. Length 60-90 seconds (18-24 short lines). One problem, one twist, one punchline. Cut anything that does not set up or pay off the joke.
+5. Length 90-120 seconds (24-30 short lines, Sarmad's choice). One problem, a build-up of 2-3 escalating jokes, one big punchline. Cut anything that does not set up or pay off a joke.
 6. End on the punchline + a warm 1-line beat, then a CAPTION that asks viewers to TAG someone ("Apne ghar ke us bande ko tag karein jo...").
 
 === END OF PROMPT ===

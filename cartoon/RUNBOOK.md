@@ -24,7 +24,7 @@ never use real people's names, and keep facts in the story true (no invented sta
 
 ## 1. Write the script (as the MASTER_PROMPT head writer)
 - Use the topic chosen in 1a (never repeat a topic from index.json). Rotate characters and sets; use 2–5 characters.
-- **60–90 seconds = 18–24 lines in 2–3 scenes** (v3, Nov 2026: research says shorter story Shorts/Reels keep viewers till the end; follow MASTER_PROMPT CONNECTION RULES). Hook in line 1 — a character mid-conflict, not the narrator.
+- **90–120 seconds = 24–30 lines in 2–3 scenes** (Sarmad confirmed 2026-11-21: keep the ~2 minute length; follow MASTER_PROMPT CONNECTION RULES). Hook in line 1 — a character mid-conflict, not the narrator.
 - **The story must be easy to follow** (a viewer who has never seen the channel must understand it):
   1. Scene 1 (setup, ~20 s): line 1 is a CHARACTER already in the conflict (shout/question/reveal). Line 2 may be a single short `NARRATOR`
      line that says where we are and what the problem is (e.g. "Nawabshah mein aaj subah se ek hi sawal hai... gas cylinder khatam!").
@@ -102,7 +102,7 @@ Look at the PNGs in `<scratch>/epNNN_work/`. Check like a professional animator:
 speaker visible and not blocked in close-ups, nobody cut off at frame edge, caption matches speaker, title readable,
 gestures make sense, staging/eye-lines feel natural. Fix the JSON (slots, shots, poses) and re-preview.
 Then full render (~15–20 min for 2 minutes, 2 processes; run it in the background and wait for it): same command without PREVIEW.
-Check duration 55–95 s. Voices for ~28 lines take ~15 min in the workflow (it waits between calls for the free quota).
+Check duration 85–130 s. Voices for ~28 lines take ~15 min in the workflow (it waits between calls for the free quota).
 
 ## 5. Deliver
 1. Extract 6 frames across the video and look at them one last time.
@@ -111,10 +111,10 @@ Check duration 55–95 s. Voices for ~28 lines take ~15 min in the workflow (it 
    (ready to copy), and "YouTube Shorts + Facebook Reels par upload karein".
 4. Append the episode to `cartoon/episodes/index.json` (id, date, title, topic, set, cast), commit and push.
 
-## 5b. Auto-post (Instagram Reel + Facebook Reel at 19:30 PKT)
-Read `cartoon/POSTING.json`. If `enabled` is false or `instagram_username` is empty, skip this step (say in the delivery message:
-"Instagram auto-post abhi set nahi — cartoon wala Instagram account connect karein").
-Otherwise:
+## 5b. Public video link (EVERY day) + auto-post (Instagram Reel + Facebook Reel at 19:30 PKT)
+Always do step 1 (the weekly compilation needs every episode's release). Steps 2-3 only if `cartoon/POSTING.json` has
+`enabled` true and an `instagram_username`; otherwise say in the delivery message:
+"Instagram auto-post abhi set nahi — cartoon wala Instagram account connect karein".
 1. After the episode is pushed (voices in repo), dispatch the render+release workflow:
    `gh api -X POST repos/Sarmads050/nf-updates/actions/workflows/cartoon-publish.yml/dispatches -f ref=main -f 'inputs[episode]=epNNN'`
    and poll it like the voices workflow (~20 min). Then read the release with the GitHub MCP tool `get_release_by_tag` (tag `cartoon-epNNN`)
@@ -126,6 +126,20 @@ Otherwise:
    If Metricool has no such brand but vidIQ `vidiq_social_account_list` has that Instagram username with canPublish, use
    `vidiq_video_upload` (url) then `vidiq_instagram_publish_reel` instead (publishes immediately).
 3. Tell Sarmad in the delivery message: "Instagram par aaj 7:30 baje khud post ho jayegi" (or what failed).
+
+## 5c. Sunday: weekly compilation (earning — see cartoon/EARNING.md)
+If today is Sunday (PKT): after 5b, dispatch `cartoon-compilation.yml` with `-f 'inputs[count]=7'`, poll until done, read the release
+`cartoon-compilation-<YYYY-MM-DD UTC>` with `get_release_by_tag`, and add to the delivery message the download link plus a ready
+YouTube title ("Sindhi Ghar Ki Kahani | Hafte ki 7 kahaniyan | Episode A-B") and say: "YouTube par lambi video (Not made for kids) upload karein".
+
+## 5d. Monetization rules for every episode
+- Audience = Pakistani families (and Sindhi diaspora in Gulf/UK). Plots about grown-up family life; the twins are comic side
+  characters. Never kids' learning/nursery formats — YouTube setting is always "No, it's not made for kids".
+- Original audio only (no copyrighted songs) — music cuts Shorts revenue and >60 s Shorts with a claim get blocked.
+- Caption ends with a tag/share question; max 5 hashtags.
+- Sponsor-ready: when `cartoon/SPONSOR.json` has `active: true`, weave its product into ONE natural moment of the story (as in
+  the file's `brief`), add "#ad / Paid partnership" text to the caption, and remind Sarmad to tick YouTube "paid promotion"
+  and the Instagram "Paid partnership" label. Never make claims about the product beyond the brief.
 
 ## 6. Khamiyan report (Sarmad ki standing request — har episode ke baad)
 Sarmad wants every run to point out weaknesses it noticed and ASK before fixing them. He reviews and replies "han set kar do".
