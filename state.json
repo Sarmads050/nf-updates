@@ -1597,7 +1597,8 @@
   "e9a91a4dc20f1576": 1795299682.7892623,
   "4689de94efa04496": 1795299682.7892632,
   "8ae90acf10c3285b": 1795299682.7894766,
-  "a5c7777cc373e02d": 1795300277.2679698
+  "a5c7777cc373e02d": 1795300277.2679698,
+  "d767800008eb1bc0": 1795302665.4347954
  },
  "pending": {},
  "queue": [],
@@ -1747,20 +1748,8 @@
    "58bf31ee29628aec"
   ]
  },
- "last_post_id": "1444130002106066_122123399613503839",
+ "last_post_id": "1444130002106066_122123416401503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122123178003503839",
-   "title": "190 ملين پائونڊ ڪيس: عمران خان ۽ بشريٰ بي بي جون اپيلون ٻڌڻي لاءِ مقرر",
-   "t": 1795242081.4971895,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122123178003503839"
-  },
   {
    "id": "1444130002106066_122123184399503839",
    "title": "ايڪنامڪ ڪوآرڊينيشن ڪميٽي چئن لک سورهن هزار ٽن کنڊ برآمد ڪرڻ جي منظوري ڏئي ڇڏي آهي",
@@ -2082,6 +2071,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122123399613503839"
+  },
+  {
+   "id": "1444130002106066_122123416401503839",
+   "title": "ملڪ ۾ روزمره جي استعمال واريون شيون مهانگيون ٿيڻ سبب عوام کي سخت ڏکيائن کي منهن ڏيڻو پئجي",
+   "t": 1795302694.5306199,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122123416401503839"
   }
  ],
  "share_sent": {
@@ -2395,10 +2393,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-22 04:01",
+  "time": "2026-11-22 04:11",
   "items": 39,
   "sample": [
-   "New Zealand 368/10 v India 554/5 *",
+   "New Zealand 368/10 v India 561/5 *",
    "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 336/10 & 86/3 *",
    "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/9 *"
   ]
@@ -2410,17 +2408,11 @@
  },
  "all_posts": {
   "date": "2026-11-22",
-  "count": 3,
-  "last": 1795296140.7898548
+  "count": 4,
+  "last": 1795302688.7516716
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122119610433503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794319952
-   },
    {
     "id": "1444130002106066_122119679337503839",
     "sec": "sindh_stream",
@@ -4814,13 +4806,19 @@
     "sec": "public_news",
     "cat": "transport_trade",
     "t": 1795296146
+   },
+   {
+    "id": "1444130002106066_122123416401503839",
+    "sec": "public_news",
+    "cat": "inflation",
+    "t": 1795302694
    }
   ]
  },
  "public_news": {
   "date": "2026-11-22",
-  "count": 1,
-  "last": 1795296146.1468542
+  "count": 2,
+  "last": 1795302694.5305948
  },
  "trends": {
   "last": 1795299652.7361627,
@@ -7886,15 +7884,11 @@
  },
  "ai_usage": {
   "date": "2026-11-22",
-  "ok": 46,
-  "fail": 88,
-  "limit": 86
+  "ok": 54,
+  "fail": 102,
+  "limit": 100
  },
  "posted_heads": [
-  {
-   "h": "PFMA demands govt ensure supply of quality wheat",
-   "t": 1795122848
-  },
   {
    "h": "PMD Forecasts Dry Weather Across Most of Sindh",
    "t": 1795125736
@@ -8210,10 +8204,14 @@
   {
    "h": "Islamabad Expressway Service Road East project is 41% complete",
    "t": 1795296146
+  },
+  {
+   "h": "Rising Prices | Daily Essentials | Inflation in Pakistan - Aaj News",
+   "t": 1795302694
   }
  ],
  "last_errors": {
-  "time": "2026-11-22 04:01",
+  "time": "2026-11-22 04:11",
   "steps": []
  },
  "roundup_am": "2026-11-21",
@@ -8316,12 +8314,12 @@
  },
  "article_diag": {
   "date": "2026-11-22",
-  "tried": 8,
-  "decoded": 7,
-  "text": 6,
-  "story": 6
+  "tried": 9,
+  "decoded": 8,
+  "text": 7,
+  "story": 7
  },
- "ai_last_error": "03:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "04:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-22",
   "models": [
@@ -8335,9 +8333,9 @@
  },
  "img_diag": {
   "date": "2026-11-22",
-  "tried": 3,
+  "tried": 4,
   "gemini": 0,
-  "pollinations": 3,
+  "pollinations": 4,
   "skip": 0,
   "fail": 2,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
@@ -8363,7 +8361,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-22",
-   "ok": 24,
+   "ok": 25,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8371,7 +8369,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-22",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8379,7 +8377,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-22",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8387,7 +8385,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8395,7 +8393,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8403,14 +8401,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8418,7 +8416,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-22",
-   "ok": 25,
+   "ok": 26,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8654,12 +8652,12 @@
   "date": "2026-11-22",
   "district": 0,
   "sindh": 0,
-  "pakistan": 3
+  "pakistan": 4
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8716,8 +8714,8 @@
   "date": "2026-11-22",
   "count": 0,
   "last": 1795295461.2316122,
-  "city_i": 12,
-  "dry": 1795302098.5588262
+  "city_i": 16,
+  "dry": 1795302660.8940437
  },
  "gemini_day_dead": {
   "day": "2026-11-21",
@@ -8797,22 +8795,6 @@
   92058803
  ],
  "reel_pool": [
-  {
-   "k": "01e82b4f4720fbcb",
-   "h": "سنڌ جي اڪثر علائقن ۾ خشڪ موسم جي اڳڪٿي",
-   "x": "محکمه موسميات موجب ايندڙ ڏينهن ۾ سنڌ جي اڪثر ضلعن ۾ موسم خشڪ رهندي.",
-   "t": 1795125736,
-   "s": false,
-   "r": 0
-  },
-  {
-   "k": "b43dedbe548f1766",
-   "h": "پنجاب ۾ اسموگ مريضن جي انگ ۾ گهٽتائي",
-   "x": "پنجاب ۾ آلودگي خلاف قدمن جي وسعت بعد اسموگ سبب متاثر مريضن جي انگ ۾ 43 سيڪڙو گهٽتائي رپورٽ ڪئي وئي آهي!",
-   "t": 1795129374,
-   "s": false,
-   "r": 0
-  },
   {
    "k": "111b1ed80872620a",
    "h": "کاد جي اسمگلنگ ۽ اگھن ۾ واڌ خلاف نوٽيس",
@@ -9428,6 +9410,14 @@
    "t": 1795296146,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "f4732f0ef2c9d977",
+   "h": "مهانگائي خلاف عوام ۾ سخت بيچيني وڌي وئي",
+   "x": "آڄ نيوز تي مهانگائي، روزاني جي ضرورتن ۽ پاڪستان ۾ مهانگائي جي حوالي سان هڪ وڊيو شايع ڪئي وئي آهي. هي خبر 21 نومبر 2026 تي شام 6 لڳي ڪري 25 منٽن تي شايع ڪئي وئي.",
+   "t": 1795302694,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9441,13 +9431,6 @@
   "last": 1795263683.6887078
  },
  "tg_debug": [
-  {
-   "t": "11-21 21:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-21 21:50",
    "ok": true,
@@ -9720,68 +9703,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-22 04:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-22",
  "recent_posts": [
-  {
-   "t": 1795125736,
-   "h": "سنڌ جي اڪثر علائقن ۾ خشڪ موسم جي اڳڪٿي",
-   "b": "محکمه موسميات موجب ايندڙ ڏينهن ۾ سنڌ جي اڪثر ضلعن ۾ موسم خشڪ رهندي.",
-   "tt": [
-    "اڪثر",
-    "اڳڪٿي",
-    "خشڪ",
-    "سنڌ",
-    "علائقن",
-    "موسم"
-   ],
-   "bt": [
-    "ايندڙ",
-    "اڪثر",
-    "اڳڪٿي",
-    "خشڪ",
-    "رهندي",
-    "سنڌ",
-    "ضلعن",
-    "علائقن",
-    "محڪمه",
-    "موجب",
-    "موسم",
-    "موسميات",
-    "ڏينهن"
-   ]
-  },
-  {
-   "t": 1795129374,
-   "h": "پنجاب ۾ اسموگ مريضن جي انگ ۾ گهٽتائي",
-   "b": "پنجاب ۾ آلودگي خلاف قدمن جي وسعت بعد اسموگ سبب متاثر مريضن جي انگ ۾ 43 سيڪڙو گهٽتائي رپورٽ ڪئي وئي آهي!",
-   "tt": [
-    "اسموگ",
-    "انگ",
-    "مريضن",
-    "پنجاب",
-    "گهٽتائي"
-   ],
-   "bt": [
-    "#43",
-    "اسموگ",
-    "الودگي",
-    "انگ",
-    "اهي",
-    "بعد",
-    "خلاف",
-    "رپورٽ",
-    "سبب",
-    "سيڪڙو",
-    "قدمن",
-    "متاثر",
-    "مريضن",
-    "وسعت",
-    "پنجاب",
-    "گهٽتائي"
-   ]
-  },
   {
    "t": 1795133148,
    "h": "کاد جي اسمگلنگ ۽ اگھن ۾ واڌ خلاف نوٽيس",
@@ -14479,6 +14411,43 @@
     "ڪيريج",
     "گلبرگ"
    ]
+  },
+  {
+   "t": 1795302694,
+   "h": "مهانگائي خلاف عوام ۾ سخت بيچيني وڌي وئي",
+   "b": "آڄ نيوز تي مهانگائي، روزاني جي ضرورتن ۽ پاڪستان ۾ مهانگائي جي حوالي سان هڪ وڊيو شايع ڪئي وئي آهي. هي خبر 21",
+   "tt": [
+    "بيچيني",
+    "خلاف",
+    "سخت",
+    "عوام",
+    "مهانگائي",
+    "وڌي"
+   ],
+   "bt": [
+    "#21",
+    "#25",
+    "اهي",
+    "بيچيني",
+    "حوالي",
+    "خبر",
+    "خلاف",
+    "روزاني",
+    "سخت",
+    "شام",
+    "شايع",
+    "ضرورتن",
+    "عوام",
+    "لڳي",
+    "منٽن",
+    "مهانگائي",
+    "مهانگائي،",
+    "نومبر",
+    "نيوز",
+    "وڊيو",
+    "وڌي",
+    "پاڪستان"
+   ]
   }
  ],
  "repeat_log": [
@@ -14646,12 +14615,11 @@
  },
  "quality": {
   "date": "2026-11-22",
-  "editor_fixed": 3,
+  "editor_fixed": 4,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
   "repeat": 5
- },
- "_dup": true
+ }
 }
