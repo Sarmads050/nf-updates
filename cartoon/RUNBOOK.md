@@ -24,10 +24,10 @@ never use real people's names, and keep facts in the story true (no invented sta
 
 ## 1. Write the script (as the MASTER_PROMPT head writer)
 - Use the topic chosen in 1a (never repeat a topic from index.json). Rotate characters and sets; use 2–5 characters.
-- **90–120 seconds = 24–32 lines in 2–3 scenes** (Sarmad wants ~2 minute episodes). Hook in line 1.
+- **60–90 seconds = 18–24 lines in 2–3 scenes** (v3, Nov 2026: research says shorter story Shorts/Reels keep viewers till the end; follow MASTER_PROMPT CONNECTION RULES). Hook in line 1 — a character mid-conflict, not the narrator.
 - **The story must be easy to follow** (a viewer who has never seen the channel must understand it):
-  1. Scene 1 (setup, ~25 s): open with a 1–2 line `NARRATOR` intro that says where we are and what the problem is
-     (e.g. "Nawabshah ke is ghar mein aaj subah se ek hi sawal hai... gas cylinder khatam!"), then the characters show the problem.
+  1. Scene 1 (setup, ~20 s): line 1 is a CHARACTER already in the conflict (shout/question/reveal). Line 2 may be a single short `NARRATOR`
+     line that says where we are and what the problem is (e.g. "Nawabshah mein aaj subah se ek hi sawal hai... gas cylinder khatam!").
   2. Scene 2 (complication, ~40 s): a different set or a new character arrives; things get funnier/worse; the main joke builds here.
   3. Scene 3 (resolution, ~30 s): the problem is solved, the punchline lands (`"joke": true`), a warm small lesson, final laugh.
   - One clear problem per episode, cause → effect. Characters say each other's names/relations ("Abba", "Ada Faraz", "Ammi").
@@ -102,7 +102,7 @@ Look at the PNGs in `<scratch>/epNNN_work/`. Check like a professional animator:
 speaker visible and not blocked in close-ups, nobody cut off at frame edge, caption matches speaker, title readable,
 gestures make sense, staging/eye-lines feel natural. Fix the JSON (slots, shots, poses) and re-preview.
 Then full render (~15–20 min for 2 minutes, 2 processes; run it in the background and wait for it): same command without PREVIEW.
-Check duration 85–130 s. Voices for ~28 lines take ~15 min in the workflow (it waits between calls for the free quota).
+Check duration 55–95 s. Voices for ~28 lines take ~15 min in the workflow (it waits between calls for the free quota).
 
 ## 5. Deliver
 1. Extract 6 frames across the video and look at them one last time.
@@ -110,6 +110,22 @@ Check duration 85–130 s. Voices for ~28 lines take ~15 min in the workflow (it
 3. Send Sarmad a short Roman Urdu message: episode number + title, 1 line story summary, the posting caption and the 5 hashtags
    (ready to copy), and "YouTube Shorts + Facebook Reels par upload karein".
 4. Append the episode to `cartoon/episodes/index.json` (id, date, title, topic, set, cast), commit and push.
+
+## 5b. Auto-post (Instagram Reel + Facebook Reel at 19:30 PKT)
+Read `cartoon/POSTING.json`. If `enabled` is false or `instagram_username` is empty, skip this step (say in the delivery message:
+"Instagram auto-post abhi set nahi — cartoon wala Instagram account connect karein").
+Otherwise:
+1. After the episode is pushed (voices in repo), dispatch the render+release workflow:
+   `gh api -X POST repos/Sarmads050/nf-updates/actions/workflows/cartoon-publish.yml/dispatches -f ref=main -f 'inputs[episode]=epNNN'`
+   and poll it like the voices workflow (~20 min). Then read the release with the GitHub MCP tool `get_release_by_tag` (tag `cartoon-epNNN`)
+   — public video URL: `https://github.com/Sarmads050/nf-updates/releases/download/cartoon-epNNN/epNNN.mp4`.
+2. Metricool: `getBrandSettings`, pick the brand whose `networksData.instagramData` == POSTING.json `instagram_username`
+   (NEVER post to any other account, e.g. never to @quotations_and_quotes). `createScheduledPost` today at `post_time_pkt`
+   (timezone Asia/Karachi) with media [video URL], providers instagram (instagramData type REEL) and, if that brand has
+   facebookData and `facebook` is true, facebook (facebookData type REEL); text = caption + 5 hashtags; autoPublish true.
+   If Metricool has no such brand but vidIQ `vidiq_social_account_list` has that Instagram username with canPublish, use
+   `vidiq_video_upload` (url) then `vidiq_instagram_publish_reel` instead (publishes immediately).
+3. Tell Sarmad in the delivery message: "Instagram par aaj 7:30 baje khud post ho jayegi" (or what failed).
 
 ## 6. Khamiyan report (Sarmad ki standing request — har episode ke baad)
 Sarmad wants every run to point out weaknesses it noticed and ASK before fixing them. He reviews and replies "han set kar do".

@@ -2,7 +2,6 @@
 Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK section 6.
 
 ## PENDING
-- [K-005] (Sarmad, 2026-10-30) Kamar se neeche ka hissa real nahi lagta (patli seedhi taangein, gol joote, baithe huon ki god gaddi jaisi) — fix ready on branch `lower-v3` (kulhe, moti asli taangein, asli joote, shalwar ki silwatein, saaf god). Awaiting "han set kar do".
 - [K-006] (ep007, 2026-10-30) Desk par baithe Arsalan ke ghutne kaale gol dabbe lagte hain — desk/charpai par baithne ki pose behtar banana.
 - [K-007] (ep007, 2026-10-30) Bedroom close-up mein bolne wale ke saath wala character chhup jata hai — close-up frame thora chaura karna.
 - [K-012] (ep009, 2026-11-02) Pichle scene ka pose agle scene mein chala jata hai (Abba ka facepalm kitchen mein entry par bhi tha, aur Abba ka "wag" wala baazu agli line mein Mehak ke chehre ke aage aa gaya; abhi `react_pose` se haath se theek kiya) — har naye scene ke shuru mein aur jab koi bolna band kare to us ka ishare wala pose khud "rest" par reset karna (engine.py).
@@ -89,6 +88,8 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 ## APPROVED
 
 ## DONE
+- [K-005] (Sarmad, 2026-10-30) Kamar se neeche ka hissa real nahi lagta — DONE 2026-11-21 (Sarmad: "character redesign karo"): merged `lower-v3` (hips, natural legs, real shoes, shalwar folds, seated lap)
+- [K-080] (Sarmad, 2026-11-21) Characters redesign v3 — DONE 2026-11-21: smooth jaw/chin face, bigger eyes with 2-tone iris + 2 catch-lights, women centre-parted hair (no helmet fringe), Sana nose-pin, Nimra jhumke + lip colour, men side-part hairline, sloped shoulders/waist torso, camera shake+snap on every joke (art.py, engine.py)
 - [K-017] (ep010, 2026-11-03) Narrator kehta hai "mulzim abhi tak so raha tha" lekin Arsalan bed par seedha baitha jaagta nazar aata hai — bed par letne/sone ka naya "sleep" pose (aankhein band, chadar) banana. — DONE 2026-11-03 (Sarmad approved): new `sleep`/`wake` actions — character lies on the bed, head on the pillow, eyes shut, maroon razai with flowers, floating Zzz; `wake` sits up in 0.8 s (engine.py, check.py)
 - [K-008] (ep008, 2026-11-01) Plate/thaali mein khana (biryani, aloo) nazar nahi aata — "do aloo" ya "nau aloo" wali line par plate khaali si lagti hai — plate/tray prop mein biryani ka dher aur 2-3 aloo draw karna (aur "food" variant). — DONE 2026-11-01: biryani plate + thaali props (art.draw_food)
 - [K-009] (ep008, 2026-11-01) "Moonh bhara hua" (Daniyal line 13) sirf awaaz se pata chalta hai, chehre par chabane ki acting nahi — "chew" emotion add karna (phoole gaal + moonh band hil raha ho). — DONE 2026-11-01: "chew" emotion: puffed cheeks + small chewing mouth

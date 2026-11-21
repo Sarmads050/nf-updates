@@ -1,0 +1,50 @@
+name: Cartoon publish (render + public video link)
+
+# Renders an episode in GitHub Actions and attaches the mp4 to a GitHub release
+# "cartoon-<episode>". The release download link is public, so Metricool / vidIQ
+# can pick it up to schedule the Instagram Reel (+ Facebook Reel). Video is never committed.
+
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Episode id, e.g. ep028"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cartoon-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install --quiet numpy pillow playwright
+          python -m playwright install --with-deps chromium
+      - name: Render
+        run: |
+          mkdir -p out
+          cd cartoon && python engine.py "episodes/${{ inputs.episode }}.json" "episodes/out/${{ inputs.episode }}" "../out/${{ inputs.episode }}.mp4"
+      - name: Cover frame (2 s)
+        run: ffmpeg -v error -y -ss 2 -i "out/${{ inputs.episode }}.mp4" -frames:v 1 "out/${{ inputs.episode }}_cover.jpg"
+      - name: Release with public video link
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          EP="${{ inputs.episode }}"
+          TITLE=$(python -c "import json;print(json.load(open('cartoon/episodes/$EP.json'))['title'])")
+          gh release delete "cartoon-$EP" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "cartoon-$EP" "out/$EP.mp4" "out/${EP}_cover.jpg" --prerelease \
+            --title "Sindhi Ghar Ki Kahani $EP - $TITLE" --notes "Auto-post source video for $EP"
+          echo "VIDEO: https://github.com/${{ github.repository }}/releases/download/cartoon-$EP/$EP.mp4"
