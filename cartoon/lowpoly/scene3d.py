@@ -154,8 +154,8 @@ def set_living(time):
     box((0.5, 0.07, 0.4), (1.3, 2.47, 2.6), (240, 225, 200))
     # sofa (maroon) behind the sofa slots, with rilli cushions
     sy = depth(1360)
-    box((3.4, 0.8, 0.34), (0, sy + 0.18, 0.17), (130, 30, 45))                  # seat base
-    box((3.3, 0.7, 0.12), (0, sy + 0.15, 0.4), (160, 40, 55))                  # cushion
+    box((3.4, 0.8, 0.3), (0, sy + 0.18, 0.15), (130, 30, 45))                  # seat base
+    box((3.3, 0.7, 0.12), (0, sy + 0.15, 0.36), (160, 40, 55))                  # cushion (top 0.42)
     box((3.4, 0.25, 0.75), (0, sy + 0.55, 0.75), (130, 30, 45))                 # back
     for sx in (-1.8, 1.8):
         box((0.25, 0.85, 0.65), (sx, sy + 0.18, 0.4), (120, 25, 40))           # arms
@@ -276,8 +276,10 @@ def build_char(key):
     cyl(0.19 * bld, 0.58, (0, 0, 0.3), sh, torso, verts=8, r2=0.21 * bld)
     if C.get("belly"):
         ico(0.2 * bld, (0, -0.06, 0.22), sh, torso, sub=1, scale=(1, 0.9, 1))
+    skirt = None
     if C.get("kameez"):
-        cyl(0.26 * bld, 0.42, (0, 0, -0.18), sh, torso, verts=8, r2=0.2 * bld)
+        skirt = empty((0, 0, 0.03), torso, key + "_skirt")
+        cyl(0.26 * bld, 0.42, (0, 0, -0.21), sh, skirt, verts=8, r2=0.2 * bld)
         if C.get("embroidery"):  # sindhi gajj: gold/colour yoke with mirror bits
             th_, th2 = C["embroidery"]
             box((0.14, 0.02, 0.2), (0, -0.2 * bld, 0.46), th_, torso, rot=(D(-6), 0, 0))
@@ -429,7 +431,7 @@ def build_char(key):
         elif pn == "bag":
             box((0.18, 0.08, 0.16), (0, 0, -0.1), (150, 80, 120), pe)
         props[(pn, hsd)] = pe
-    CH[key] = dict(root=root, hips=hips, legs=legs, torso=torso, neck=neck, head=head, eyes=eyes, mouth=mouth, teeth=teeth,
+    CH[key] = dict(skirt=skirt, bld=bld, hs=hs, root=root, hips=hips, legs=legs, torso=torso, neck=neck, head=head, eyes=eyes, mouth=mouth, teeth=teeth,
                    smile=smile, arms=arms, props=props, col=col, sc=sc, hip_h=hip_h, tod=tod)
 
 
@@ -547,7 +549,7 @@ def apply(F):
         R["root"].rotation_euler = (0, 0, D(c["face"] * 7 + c["lx"] * 4))
         # sitting vs standing (stand in 0..1 blends)
         st = 1.0 if c["mode"] == "stand" else c["stand"]
-        seat_h = 0.47
+        seat_h = 0.53  # pelvis sits ON the cushion / charpai, not inside it
         R["hips"].location.z = lerp(seat_h, R["hip_h"], st)
         for i, (th, kn) in enumerate(R["legs"]):
             sw = math.sin(c["phase"] + i * math.pi) * 28 if c["walking"] else 0
@@ -556,6 +558,9 @@ def apply(F):
         breath = math.sin(t * 2.2) * 0.012
         R["torso"].scale = (1 + breath, 1 + breath, 1 + breath * 0.5)
         R["torso"].rotation_euler = (D(lerp(4, 0, st) + c["nod"] * 0.5), 0, 0)
+        if R["skirt"] is not None:  # seated: kameez lies on the lap instead of going down through the seat
+            R["skirt"].scale = (1, lerp(1.25, 1, st), lerp(0.32, 1, st))
+            R["skirt"].rotation_euler = (D(lerp(-35, 0, st)), 0, 0)
         # head acting: look, tilt, nod, talking bob
         bob = math.sin(t * 9) * 2.5 if c["q"] > 0 else 0
         R["head"].rotation_euler = (D(-c["ly"] * 8 + c["nod"] * 4 + bob), D(c["ang"] * 1.2), D(c["lx"] * 13))
@@ -597,6 +602,66 @@ def apply(F):
             hide_tree(pe, c.get("prop") != pn or hsd != face)
 
 
+def separate(F):
+    """keep standing people from walking into each other (push apart along X)"""
+    vis = [k for k in F["ch"] if k in CH and not CH[k]["root"].hide_render]
+    for _ in range(3):
+        for i, a in enumerate(vis):
+            for b in vis[i + 1:]:
+                A, B = CH[a]["root"].location, CH[b]["root"].location
+                dx, dy = B.x - A.x, B.y - A.y
+                need = 0.25 * (CH[a]["bld"] * CH[a]["sc"] + CH[b]["bld"] * CH[b]["sc"]) + 0.16
+                if abs(dy) < 0.45 and abs(dx) < need:
+                    push = (need - abs(dx)) / 2 * (1 if dx >= 0 else -1)
+                    A.x -= push
+                    B.x += push
+
+
+def solve_hands(F):
+    """no hand / prop inside a face or inside another body: swing the arm forward until it is clear"""
+    vis = [k for k in F["ch"] if k in CH and not CH[k]["root"].hide_render]
+    for it in range(6):
+        bpy.context.view_layer.update()
+        obst = []
+        for k in vis:
+            R = CH[k]
+            hd = R["head"].matrix_world.translation + Vector((0, 0, 0.17 * R["hs"] * R["sc"]))
+            obst.append((k, "head", hd, 0.2 * R["hs"] * R["sc"]))
+            a0 = R["hips"].matrix_world.translation
+            a1 = R["neck"].matrix_world.translation
+            obst.append((k, "body", (a0, a1), 0.2 * R["bld"] * R["sc"]))
+        moved = False
+        for k in vis:
+            R = CH[k]
+            for shp, elb, hand, sd in R["arms"]:
+                hp = hand.matrix_world.translation
+                ep = elb.matrix_world.translation
+                hit = False
+                for ok, kind, geo, rad in obst:
+                    for p in (hp, (hp + ep) / 2):
+                        if kind == "head":
+                            if (p - geo).length < rad + 0.04 * R["sc"]:
+                                hit = True
+                        else:
+                            a0, a1 = geo
+                            if ok == k:  # own body: only when the hand crosses the middle of the chest / lap
+                                loc = R["torso"].matrix_world.inverted() @ p
+                                if abs(loc.x) < 0.1 * R["bld"] and loc.y > -0.2 * R["bld"] and -0.5 < loc.z < 0.6:
+                                    hit = True
+                                continue
+                            ax = a1 - a0
+                            u = max(0.0, min(1.0, (p - a0).dot(ax) / max(ax.length_squared, 1e-6)))
+                            if (p - (a0 + ax * u)).length < rad + 0.03:
+                                hit = True
+                if hit:
+                    shp.rotation_euler.x -= D(9)          # swing the arm further forward (towards camera)
+                    shp.rotation_euler.y -= D(6) * sd * (1 if it % 2 else 0)   # and a little outward
+                    elb.rotation_euler.x = min(0.0, elb.rotation_euler.x + D(10))  # open the elbow
+                    moved = True
+        if not moved:
+            break
+
+
 def place_camera(F, scene):
     cx, cy, z = F["cam"]
     z = max(z, 1.0)
@@ -616,14 +681,14 @@ def place_camera(F, scene):
     else:
         tx, ty, hz = 0, 0.5, 1.3
     u = ease((z - 1.0) / 1.0)
-    tz = lerp(0.95, hz - 0.12, u)
+    tz = lerp(0.95, hz - 0.16, u)
     tx = lerp(tx * 0.6, tx, u)
-    dist = lerp(5.0, 3.2, u)
+    dist = lerp(5.0, 2.7, u)
     camz = lerp(1.45, hz + 0.05, u)
     cam.location = (tx * 0.9, ty - dist, camz)
     d = Vector((tx, ty, tz)) - cam.location
     cam.rotation_euler = d.to_track_quat("-Z", "Y").to_euler()
-    cam_d.lens = lerp(26, 38, u) * (1 + 0.15 * max(0, z - 2.0))
+    cam_d.lens = lerp(26, 40, u) * (1 + 0.15 * max(0, z - 2.0))
 
 
 # ------------------------------------------------------------------ render loop
@@ -647,6 +712,8 @@ for k in range(a, b):
         light_for(TL["scenes"][si]["time"])
         cur_si = si
     apply(F)
+    separate(F)
+    solve_hands(F)
     bpy.context.view_layer.update()
     place_camera(F, TL["scenes"][si])
     SCN.render.filepath = os.path.join(OUTD, f"{k + 1:05d}.png")
