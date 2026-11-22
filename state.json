@@ -1580,7 +1580,8 @@
   "bb1935dc074c49dc": 1795348275.2791517,
   "73807240cc704759": 1795348275.2791522,
   "1647f56d1dda14c8": 1795348275.2793076,
-  "4a833a1dfa482289": 1795348880.461844
+  "4a833a1dfa482289": 1795348880.461844,
+  "483e668c3779cbe7": 1795353678.1257796
  },
  "pending": {},
  "queue": [],
@@ -1662,8 +1663,8 @@
  "last_question": "2026-11-20",
  "sindh_single": {
   "date": "2026-11-22",
-  "count": 0,
-  "last": 1795344735.23798,
+  "count": 1,
+  "last": 1795353670.984064,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1739,21 +1740,12 @@
    "a90394c80e34f89b",
    "58bf31ee29628aec",
    "9ee807d8fd5bec4f",
-   "a967bb06fb8e8f56"
+   "a967bb06fb8e8f56",
+   "483e668c3779cbe7"
   ]
  },
- "last_post_id": "1444130002106066_122123633361503839",
+ "last_post_id": "1444130002106066_122123637429503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122123280153503839",
-   "title": "پاڪستان ۾ سون جي اگهن ۾ مسلسل چوٿين ڏينهن به گهٽتائي رڪارڊ ڪئي وئي آهي",
-   "t": 1795265608.616942,
-   "tags": [
-    "business",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122123280153503839"
-  },
   {
    "id": "1444130002106066_122123300565503839",
    "title": "ملڪ جو تجارتي خسارو 17 سيڪڙو کان وڌي ساڍا چوڏهن ارب ڊالرن تائين پهچي ويو آهي",
@@ -2057,6 +2049,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122123610771503839"
+  },
+  {
+   "id": "1444130002106066_122123637429503839",
+   "title": "پاڪستان ۽ عمان وچ ۾ پيٹرولیم مصنوعات جي معاهدي تي صحيحون پاڪستان ۽ عمان جي وچ ۾ توانائي",
+   "t": 1795353711.8135097,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122123637429503839"
   }
  ],
  "share_sent": {
@@ -2367,18 +2369,18 @@
    },
    "wicket_posts": 4,
    "break_done": true,
-   "last_edit": 1795353356.3589149,
+   "last_edit": 1795354016.8872137,
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-22 18:15",
+  "time": "2026-11-22 18:26",
   "items": 39,
   "sample": [
    "New Zealand 119/2 & 368/10 * v India 720/9",
-   "Kurunegala Youth Cricket Club 90/4 & 368/10 * v Burgher Recreation Club 311/6 & 336/10",
+   "Kurunegala Youth Cricket Club 368/10 & 90/4 * v Burgher Recreation Club 336/10 & 311/6",
    "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/10 & 198/10 *"
   ]
  },
@@ -2389,17 +2391,11 @@
  },
  "all_posts": {
   "date": "2026-11-22",
-  "count": 31,
-  "last": 1795352513.3474638
+  "count": 32,
+  "last": 1795353707.2282968
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122119835529503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794383646
-   },
    {
     "id": "1444130002106066_122119843941503839",
     "sec": "cricket_news",
@@ -4793,6 +4789,12 @@
     "sec": "public_news",
     "cat": "technology",
     "t": 1795348919
+   },
+   {
+    "id": "1444130002106066_122123637429503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1795353707
    }
   ]
  },
@@ -7833,9 +7835,9 @@
  },
  "ai_usage": {
   "date": "2026-11-22",
-  "ok": 220,
-  "fail": 349,
-  "limit": 341
+  "ok": 225,
+  "fail": 358,
+  "limit": 349
  },
  "posted_heads": [
   {
@@ -8160,7 +8162,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-22 18:15",
+  "time": "2026-11-22 18:26",
   "steps": []
  },
  "roundup_am": "2026-11-22",
@@ -8268,7 +8270,7 @@
   "text": 22,
   "story": 20
  },
- "ai_last_error": "18:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:21 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-22",
   "models": [
@@ -8282,9 +8284,9 @@
  },
  "img_diag": {
   "date": "2026-11-22",
-  "tried": 24,
+  "tried": 25,
   "gemini": 0,
-  "pollinations": 19,
+  "pollinations": 20,
   "skip": 3,
   "fail": 5,
   "last_note": "empty cricket stadium pitch",
@@ -8310,7 +8312,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-22",
-   "ok": 111,
+   "ok": 112,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8318,7 +8320,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-22",
-   "ok": 111,
+   "ok": 112,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8326,7 +8328,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-22",
-   "ok": 111,
+   "ok": 112,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8334,7 +8336,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8342,7 +8344,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8350,14 +8352,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8365,7 +8367,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-22",
-   "ok": 112,
+   "ok": 113,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8497,13 +8499,13 @@
  "region_posts": {
   "date": "2026-11-22",
   "district": 0,
-  "sindh": 9,
+  "sindh": 10,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 0,
-  "found": 4,
-  "old": 4,
+  "posted": 1,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8560,8 +8562,8 @@
   "date": "2026-11-22",
   "count": 7,
   "last": 1795347359.8770535,
-  "city_i": 18,
-  "dry": 1795351862.4854858
+  "city_i": 22,
+  "dry": 1795353658.1506295
  },
  "gemini_day_dead": {
   "day": "2026-11-22",
@@ -9230,20 +9232,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-22 15:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-22 15:06",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-22 15:10",
    "ok": true,
    "n": 0,
@@ -9508,48 +9496,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-22 18:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-22 18:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-22",
  "recent_posts": [
-  {
-   "t": 1795179729,
-   "h": "شام جون سنڌ جون اهم خبرون",
-   "b": "20 نومبر 2026 1️⃣ سنڌ ۾ پرائمري استادن جو احتجاج جاري ڪراچي ۾ پرائمري استادن سروس اسٽرڪچر ۽ ٻين مطالبن جي",
-   "tt": [
-    "اهم",
-    "خبرون",
-    "سنڌ",
-    "شام"
-   ],
-   "bt": [
-    "#20",
-    "احتجاج",
-    "استادن",
-    "اسيمبلي",
-    "اسٽرڪچر",
-    "اعتراف",
-    "الف",
-    "اهم",
-    "اهي",
-    "تعليم",
-    "جاري",
-    "خبرون",
-    "رڪيو",
-    "سروس",
-    "سنڌ",
-    "شام",
-    "صدر",
-    "فلور",
-    "مطالبن",
-    "مڃتا",
-    "نومبر",
-    "وزير",
-    "ٻين",
-    "پرائمري",
-    "ڪراچي"
-   ]
-  },
   {
    "t": 1795181638,
    "h": "پاڪستان ۾ پيٽرول اگهاڻن بابت نون اگهن جو اعلان",
@@ -13883,6 +13847,56 @@
     "گهرجي",
     "گڏجي"
    ]
+  },
+  {
+   "t": 1795353707,
+   "h": "سنڌ | پاڪستان ۽ عمان وچ ۾ پيٽروليم مصنوعات جي معاهدي تي صحيحون",
+   "b": "پاڪستان ۽ عمان جي وچ ۾ توانائي جي شعبي ۾ اهم اڳڀرائي ٿي آهي جنهن تحت پي ايس او ۽ عماني ڪمپني اوڪيو ٽريڊنگ وچ",
+   "tt": [
+    "سنڌ",
+    "صحيحون",
+    "عمان",
+    "مصنوعات",
+    "معاهدي",
+    "پاڪستان",
+    "پيٽروليم"
+   ],
+   "bt": [
+    "#200",
+    "اهم",
+    "اهي",
+    "اوڪيو",
+    "ايس",
+    "اڳڀرائي",
+    "تحت",
+    "توانائي",
+    "خريد",
+    "خريداري",
+    "دوران",
+    "سنڌ",
+    "سهولت",
+    "شعبي",
+    "صحيحون",
+    "طئي",
+    "عمان",
+    "عماني",
+    "فراهم",
+    "فروخت",
+    "مسقط",
+    "مصنوعات",
+    "معاهدو",
+    "معاهدي",
+    "ملاقات",
+    "ملين",
+    "ٽريڊنگ",
+    "پاڪستان",
+    "پيٽروليم",
+    "ٿيندڙ",
+    "ڊالر",
+    "ڪريڊٽ",
+    "ڪمپني",
+    "ڪندي"
+   ]
   }
  ],
  "repeat_log": [
@@ -14050,7 +14064,7 @@
  },
  "quality": {
   "date": "2026-11-22",
-  "editor_fixed": 17,
+  "editor_fixed": 18,
   "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
