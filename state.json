@@ -1586,7 +1586,14 @@
   "7c6e399b6a0f49f2": 1795344670.2823923,
   "479a5866208b72ed": 1795344704.9562874,
   "a44833db43b6804b": 1795345868.4105186,
-  "9840bba218784b61": 1795347366.2323847
+  "9840bba218784b61": 1795347366.2323847,
+  "bb096a9179a7aa03": 1795348275.2791455,
+  "8bcb9c5406be082f": 1795348275.279148,
+  "9e0ec56598656e8e": 1795348275.2791493,
+  "f176b10794384f34": 1795348275.2791505,
+  "bb1935dc074c49dc": 1795348275.2791517,
+  "73807240cc704759": 1795348275.2791522,
+  "1647f56d1dda14c8": 1795348275.2793076
  },
  "pending": {},
  "queue": [],
@@ -2374,18 +2381,18 @@
    },
    "wicket_posts": 4,
    "break_done": true,
-   "last_edit": 1795348053.2344854,
+   "last_edit": 1795348581.7093885,
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-22 16:47",
+  "time": "2026-11-22 16:56",
   "items": 39,
   "sample": [
-   "New Zealand 119/2 & 368/10 * v India 720/9",
-   "Kurunegala Youth Cricket Club 86/4 & 368/10 * v Burgher Recreation Club 336/10 & 311/6",
+   "New Zealand 368/10 & 119/2 * v India 720/9",
+   "Kurunegala Youth Cricket Club 90/4 & 368/10 * v Burgher Recreation Club 311/6 & 336/10",
    "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/10 & 198/10 *"
   ]
  },
@@ -7840,9 +7847,9 @@
  },
  "ai_usage": {
   "date": "2026-11-22",
-  "ok": 211,
-  "fail": 332,
-  "limit": 325
+  "ok": 213,
+  "fail": 336,
+  "limit": 329
  },
  "posted_heads": [
   {
@@ -8167,7 +8174,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-22 16:47",
+  "time": "2026-11-22 16:56",
   "steps": []
  },
  "roundup_am": "2026-11-22",
@@ -8270,12 +8277,12 @@
  },
  "article_diag": {
   "date": "2026-11-22",
-  "tried": 24,
-  "decoded": 23,
+  "tried": 25,
+  "decoded": 24,
   "text": 21,
   "story": 19
  },
- "ai_last_error": "16:36 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "16:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-22",
   "models": [
@@ -8317,7 +8324,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-22",
-   "ok": 102,
+   "ok": 103,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8325,7 +8332,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-22",
-   "ok": 102,
+   "ok": 103,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8333,7 +8340,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-22",
-   "ok": 102,
+   "ok": 103,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8341,7 +8348,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 103,
+   "ok": 104,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8349,7 +8356,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 103,
+   "ok": 104,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8357,14 +8364,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 103,
+   "ok": 104,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 103,
+   "ok": 104,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8372,7 +8379,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-22",
-   "ok": 103,
+   "ok": 104,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8509,8 +8516,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 16,
-  "old": 16,
+  "found": 21,
+  "old": 21,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8567,8 +8574,8 @@
   "date": "2026-11-22",
   "count": 7,
   "last": 1795347359.8770535,
-  "city_i": 16,
-  "dry": 1795345859.512381
+  "city_i": 20,
+  "dry": 1795348258.3252351
  },
  "gemini_day_dead": {
   "day": "2026-11-22",
@@ -9244,20 +9251,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-22 13:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-22 13:37",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-22 13:40",
    "ok": true,
    "n": 0,
@@ -9518,6 +9511,20 @@
   },
   {
    "t": "11-22 16:47",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-22 16:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-22 16:56",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14034,11 +14041,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-20 10:31",
-   "new": "پاڪستان ۾ سون جي اگهه ۾ تبديلي",
-   "old": "پاڪستان ۾ اڄ سوني اگهه ۾ واڌ"
-  },
-  {
    "t": "11-20 10:41",
    "new": "آءِ ايم ايف پاران پاڪستاني معيشت تي خدشن جو اظهار",
    "old": "آءِ ايم ايف جو پاڪستان کي ٽيڪس تناسب وڌائڻ تي زور"
@@ -14182,6 +14184,11 @@
    "t": "11-22 15:52",
    "new": "پاڪستان عورتن جي ڪرڪيٽ ٽيم اسکاٽ لينڊ کي شڪست ڏئي ڇڏي",
    "old": "LIVE | پاڪستان وومين بمقابلي اسڪاٽلينڊ وومين"
+  },
+  {
+   "t": "11-22 16:51",
+   "new": "مونيما ۽ گل شاندار بيٽنگ سان پاڪستان کي سوڀ ڏياري",
+   "old": "LIVE | پاڪستان وومين بمقابلي اسڪاٽلينڊ وومين"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14202,6 +14209,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 10
- }
+  "repeat": 11
+ },
+ "_dup": true
 }
