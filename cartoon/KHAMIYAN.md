@@ -84,6 +84,11 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-078] (ep028, 2026-11-21) "Doodh ubal kar gir gaya" kahani ki jaan hai lekin doodh, patili ya chulha kahin nazar nahi aata (Ammi khaali haath andar aati hain, 0:52) — naya "patili" prop (doodh ki degchi) + uffaan/jhaag ka effect, ya scene 2 se pehle kitchen ka 2 second ka insert shot.
 - [K-079] (ep028, 2026-11-21) Abba "facepalm" react pose mein phone wala haath hi maathe par le jate hain, phone seedha maathe par chipka lagta hai (group shot 1:00) — facepalm mein prop doosre (neeche wale) haath mein shift karna.
 
+- [K-083] (ep029, 2026-11-22) Drawing room mein Abba ka "newspaper" pose: dono baazu safaid lakdi ki tarah akhbar ke aage cross ho jate hain aur akhbar god mein chhota sa lagta hai (0:10-0:25) — newspaper pose mein akhbar chehre/seene ke saamne bara khula ho, haath us ke kinaron par.
+- [K-084] (ep029, 2026-11-22) Aangan ke charpai_l/charpai_c slots par Mehak aur Bhabi Sana khari nazar aati hain jab ke charpai side mein khaali hai (scene 2 wide shot) — charpai slots ko charpai ke upar baithne wali jagah par lana (ya charpai ko un ke neeche khiskana).
+- [K-085] (ep029, 2026-11-22) Kahani "plate ko dholak bana kar bajane" ki hai lekin Hashir aur Abba plate sirf pakarte hain, bajate nazar nahi aate (sirf "clink" awaaz) — naya "drum" pose: plate god/farsh par, dono haath taal par upar-neeche.
+- [K-086] (ep029, 2026-11-22) Is dafa bhi Bhabi Sana ki saari lines aur Ammi ki ek line "edge" backup awaaz mein bani (Gemini quota) — Sana ki backup awaaz ko us ki Gemini awaaz ke qareeb pitch/speed par set karna.
+
 ## APPROVED
 
 ## DONE
