@@ -1,6 +1,5 @@
 {
  "seen": {
-  "86cae0825fe03068": 1794736935.6851265,
   "167e3495d78c2161": 1794738067.729996,
   "227a02979ac309c7": 1794738067.7299993,
   "fa2fb32acc323f7d": 1794739271.0770888,
@@ -1593,7 +1592,10 @@
   "8c5acea083a8f294": 1795339277.5413017,
   "455bec7dc2c74bde": 1795339277.5413032,
   "234107a8fb81082e": 1795339277.541483,
-  "31cc99a00900c3f3": 1795341070.7590513
+  "31cc99a00900c3f3": 1795341070.7590513,
+  "08173d295b8da255": 1795342280.6752126,
+  "11a9b4439a48f1ae": 1795342280.6752148,
+  "ef31c5fff76f5397": 1795342280.6752162
  },
  "pending": {},
  "queue": [],
@@ -2386,19 +2388,19 @@
    },
    "wicket_posts": 4,
    "break_done": true,
-   "last_edit": 1795341976.2186847,
+   "last_edit": 1795342586.9652588,
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-22 15:06",
+  "time": "2026-11-22 15:16",
   "items": 39,
   "sample": [
-   "New Zealand 119/2 & 368/10 * v India 720/9",
-   "Kurunegala Youth Cricket Club 1 & 368/10 * v Burgher Recreation Club 336/10 & 311/6",
-   "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/10 & 174/6 *"
+   "New Zealand 368/10 & 119/2 * v India 720/9",
+   "Kurunegala Youth Cricket Club 3/1 & 368/10 * v Burgher Recreation Club 336/10 & 311/6",
+   "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 182/7 & 287/10 *"
   ]
  },
  "agri_news": {
@@ -7836,9 +7838,9 @@
  },
  "ai_usage": {
   "date": "2026-11-22",
-  "ok": 178,
-  "fail": 282,
-  "limit": 275
+  "ok": 179,
+  "fail": 284,
+  "limit": 277
  },
  "posted_heads": [
   {
@@ -8163,7 +8165,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-22 15:06",
+  "time": "2026-11-22 15:16",
   "steps": []
  },
  "roundup_am": "2026-11-22",
@@ -8271,7 +8273,7 @@
   "text": 17,
   "story": 16
  },
- "ai_last_error": "14:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "15:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-22",
   "models": [
@@ -8313,7 +8315,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-22",
-   "ok": 92,
+   "ok": 93,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8321,7 +8323,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-22",
-   "ok": 92,
+   "ok": 93,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8329,7 +8331,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-22",
-   "ok": 92,
+   "ok": 93,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8337,7 +8339,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8345,7 +8347,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8353,14 +8355,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8368,7 +8370,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-22",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8608,8 +8610,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 5,
+  "old": 5,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8666,8 +8668,8 @@
   "date": "2026-11-22",
   "count": 6,
   "last": 1795341061.144161,
-  "city_i": 14,
-  "dry": 1795340457.9487593
+  "city_i": 18,
+  "dry": 1795342266.112813
  },
  "gemini_day_dead": {
   "day": "2026-11-22",
@@ -9366,20 +9368,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-22 11:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-22 11:56",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-22 12:00",
    "ok": true,
    "n": 0,
@@ -9640,6 +9628,20 @@
   },
   {
    "t": "11-22 15:06",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-22 15:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-22 15:16",
    "ok": true,
    "n": 0,
    "ids": [],
