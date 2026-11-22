@@ -1571,7 +1571,17 @@
   "846664899fc351cc": 1795374700.6173549,
   "45ebb6a574d9c115": 1795374700.6173553,
   "9886f29fd78b2ba0": 1795374700.617356,
-  "77e1bfb298aab199": 1795374700.617573
+  "77e1bfb298aab199": 1795374700.617573,
+  "3d006cda704ff605": 1795377685.2072265,
+  "f47cdf846b1f616c": 1795377685.2072291,
+  "7c606773cc6ce45e": 1795377685.207231,
+  "180c1e450a423e50": 1795377685.2072318,
+  "4f25260acfb2fa14": 1795377685.2072327,
+  "d5b91aed98c07998": 1795377685.2072332,
+  "a6e69b29596292ac": 1795377685.207234,
+  "0ef920a0d0f4792c": 1795377685.2072346,
+  "46a4fdd96e56a2e8": 1795377685.2072353,
+  "dab25677a7217d51": 1795377685.2072375
  },
  "pending": {},
  "queue": [],
@@ -2365,15 +2375,24 @@
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
+  },
+  "httpwwwcricinfocomcienginematch1557569htmlcmpotcrss": {
+   "post": null,
+   "wkts": {},
+   "wicket_posts": 0,
+   "break_done": false,
+   "last_edit": 0,
+   "batting": null,
+   "done": false
   }
  },
  "cricket_feed": {
-  "time": "2026-11-23 00:56",
+  "time": "2026-11-23 01:01",
   "items": 12,
   "sample": [
    "New Zealand 368/10 & 119/2 * v India 720/9",
    "New South Wales v Queensland 249/7 *",
-   "Netherlands Women 57/10 v Sri Lanka Women 58/1 *"
+   "Nepal 123/4 * v United Arab Emirates 121/10"
   ]
  },
  "agri_news": {
@@ -7867,9 +7886,9 @@
  },
  "ai_usage": {
   "date": "2026-11-23",
-  "ok": 23,
-  "fail": 44,
-  "limit": 42
+  "ok": 25,
+  "fail": 48,
+  "limit": 46
  },
  "posted_heads": [
   {
@@ -8194,7 +8213,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-23 00:56",
+  "time": "2026-11-23 01:01",
   "steps": []
  },
  "roundup_am": "2026-11-22",
@@ -8302,7 +8321,7 @@
   "text": 5,
   "story": 5
  },
- "ai_last_error": "00:50 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "01:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-23",
   "models": [
@@ -8344,7 +8363,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-23",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8352,7 +8371,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-23",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8360,7 +8379,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-23",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8368,7 +8387,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8376,7 +8395,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8384,14 +8403,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8399,7 +8418,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-23",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8535,14 +8554,14 @@
   "pakistan": 1
  },
  "report_acc": {
-  "posted": 1,
-  "found": 15,
-  "old": 15,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-23 00",
+ "report_hour": "2026-11-23 01",
  "kawish_upload_times": {
   "_date": "2026-11-23",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8594,8 +8613,8 @@
  "sindh_stream": {
   "date": "2026-11-23",
   "count": 0,
-  "last": 1795374085.6520526,
-  "city_i": 14,
+  "last": 1795377681.792937,
+  "city_i": 18,
   "dry": 1795373558.8780513
  },
  "gemini_day_dead": {
@@ -9209,13 +9228,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-22 21:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-22 21:55",
    "ok": true,
    "n": 0,
@@ -9483,6 +9495,13 @@
   },
   {
    "t": "11-23 00:55",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 01:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13770,11 +13789,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-20 21:41",
-   "new": "سنڌ | سندھ جي سمنڊ ۾ تيل ۽ گيس جي ڳولا",
-   "old": "تيل ۽ گئس جي ڳولا وارو جديد تحقيقي جهاز ڪراچي پهچي ويو"
-  },
-  {
    "t": "11-21 00:01",
    "new": "پاڪستان ۾ سوني اگهه ۾ وڏي گهٽتائي",
    "old": "پاڪستان ۾ سون جي قيمت ۾ گهٽتائي"
@@ -13918,6 +13932,11 @@
    "t": "11-23 00:11",
    "new": "پاڪستان وومينز ٽرافي کتي ورتي",
    "old": "LIVE | پاڪستان وومين بمقابلي اسڪاٽلينڊ وومين"
+  },
+  {
+   "t": "11-23 01:01",
+   "new": "سنڌ ورھائيندڙ ڪلچرل فيسٽيول ۾ اچي ڏسن: مراد شاهه",
+   "old": "سنڌ جي ورهاست خلاف وحدت سنڌ مارچ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13938,6 +13957,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 5
- }
+  "repeat": 6
+ },
+ "_dup": true
 }
