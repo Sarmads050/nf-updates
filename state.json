@@ -1594,7 +1594,8 @@
   "c0a41818a8a456f0": 1795314076.854211,
   "a3dbdccb3cf67dac": 1795314684.191483,
   "b825cc223267ff64": 1795314684.1914861,
-  "8e08667b33686f58": 1795317828.6017
+  "8e08667b33686f58": 1795317828.6017,
+  "0545e6a924903548": 1795321874.9077713
  },
  "pending": {},
  "queue": [],
@@ -1744,20 +1745,8 @@
    "58bf31ee29628aec"
   ]
  },
- "last_post_id": "1444130002106066_122123459697503839",
+ "last_post_id": "1444130002106066_122123479917503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122123196213503839",
-   "title": "لياقت ڀٽي قتل ڪيس: 3 جوابدار گرفتار، سيڪيورٽي گارڊ به شامل",
-   "t": 1795248636.4284854,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122123196213503839"
-  },
   {
    "id": "1444130002106066_122123203875503839",
    "title": "پاڪستان ڪرڪيٽ بورڊ نوان سينٽرل ڪانٽريڪٽ جاري ڪري ڇڏيا آهن، جنهن ۾ محمد رضوان، شان مسعود ۽",
@@ -2075,6 +2064,16 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122123459697503839"
+  },
+  {
+   "id": "1444130002106066_122123479917503839",
+   "title": "پاڪستان ۾ آمريڪي ڊالر، برطانوي پائونڊ، يورو ۽ سعودي ريال سميت اهم پرڏيهي ڪرنسين جا نوان",
+   "t": 1795321975.3155608,
+   "tags": [
+    "business",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122123479917503839"
   }
  ],
  "share_sent": {
@@ -2388,11 +2387,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-22 09:21",
+  "time": "2026-11-22 09:32",
   "items": 39,
   "sample": [
-   "New Zealand 368/10 & 68/2 * v India 720/9",
-   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 86/3 & 336/10 *",
+   "New Zealand 80/2 & 368/10 * v India 720/9",
+   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 90/3 & 336/10 *",
    "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/10 *"
   ]
  },
@@ -2403,17 +2402,11 @@
  },
  "all_posts": {
   "date": "2026-11-22",
-  "count": 9,
-  "last": 1795317863.0001347
+  "count": 10,
+  "last": 1795321969.3511646
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122119703733503839",
-    "sec": "public_news",
-    "cat": "inflation",
-    "t": 1794350564
-   },
    {
     "id": "1444130002106066_122119711965503839",
     "sec": "agri_news",
@@ -4807,13 +4800,19 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1795317867
+   },
+   {
+    "id": "1444130002106066_122123479917503839",
+    "sec": "public_news",
+    "cat": "dollar_gold_business",
+    "t": 1795321975
    }
   ]
  },
  "public_news": {
   "date": "2026-11-22",
-  "count": 2,
-  "last": 1795302694.5305948
+  "count": 3,
+  "last": 1795321975.31554
  },
  "trends": {
   "last": 1795311061.246716,
@@ -7879,15 +7878,11 @@
  },
  "ai_usage": {
   "date": "2026-11-22",
-  "ok": 90,
-  "fail": 166,
-  "limit": 164
+  "ok": 99,
+  "fail": 180,
+  "limit": 178
  },
  "posted_heads": [
-  {
-   "h": "Jamal and Abbas keep Pakistan on top despite Sri Lanka’s fightback",
-   "t": 1795135943
-  },
   {
    "h": "Govt plans EFS simplification to boost exports",
    "t": 1795137723
@@ -8203,10 +8198,14 @@
   {
    "h": "Wheat prices hit record high in Hyderabad",
    "t": 1795317867
+  },
+  {
+   "h": "Currency Rates Today in Pakistan: US Dollar, Pound Euro, Riyal Latest Updates - 22 Nov 2026",
+   "t": 1795321975
   }
  ],
  "last_errors": {
-  "time": "2026-11-22 09:21",
+  "time": "2026-11-22 09:32",
   "steps": []
  },
  "roundup_am": "2026-11-22",
@@ -8309,12 +8308,12 @@
  },
  "article_diag": {
   "date": "2026-11-22",
-  "tried": 13,
-  "decoded": 12,
-  "text": 11,
-  "story": 10
+  "tried": 14,
+  "decoded": 13,
+  "text": 12,
+  "story": 11
  },
- "ai_last_error": "08:24 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "09:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-22",
   "models": [
@@ -8328,13 +8327,13 @@
  },
  "img_diag": {
   "date": "2026-11-22",
-  "tried": 8,
+  "tried": 9,
   "gemini": 0,
-  "pollinations": 8,
+  "pollinations": 9,
   "skip": 0,
   "fail": 2,
-  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
-  "mismatch": 819,
+  "last_note": "foreign currency exchange rates",
+  "mismatch": 820,
   "unverified": 2
  },
  "gemini_img": {
@@ -8356,7 +8355,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-22",
-   "ok": 58,
+   "ok": 59,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8364,7 +8363,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-22",
-   "ok": 58,
+   "ok": 59,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8372,7 +8371,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-22",
-   "ok": 58,
+   "ok": 59,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8380,7 +8379,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8388,7 +8387,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8396,14 +8395,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8411,7 +8410,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-22",
-   "ok": 59,
+   "ok": 60,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8647,12 +8646,12 @@
   "date": "2026-11-22",
   "district": 0,
   "sindh": 2,
-  "pakistan": 6
+  "pakistan": 7
  },
  "report_acc": {
-  "posted": 0,
-  "found": 8,
-  "old": 8,
+  "posted": 1,
+  "found": 12,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8709,8 +8708,8 @@
   "date": "2026-11-22",
   "count": 1,
   "last": 1795309276.5225093,
-  "city_i": 22,
-  "dry": 1795321269.8944705
+  "city_i": 4,
+  "dry": 1795321871.4933105
  },
  "gemini_day_dead": {
   "day": "2026-11-21",
@@ -8790,14 +8789,6 @@
   92058803
  ],
  "reel_pool": [
-  {
-   "k": "fab187fd2266e44b",
-   "h": "پاڪستان ۾ سون جي قيمت ۾ گهٽتائي",
-   "x": "پاڪستان ۾ سون جي قيمت ۾ ڪمي آئي آهي ۽ فی توله سون سوين رپيا سستو ٿي ويو آهي.",
-   "t": 1795147005,
-   "s": false,
-   "r": 0
-  },
   {
    "k": "91c39728811612f6",
    "h": "نوابشاهه ۾ ايس اي ايف اسڪولن جو تعليمي ميلو",
@@ -9405,12 +9396,21 @@
    "t": 1795317867,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "32ef289c87df10d8",
+   "h": "پاڪستان ۾ ڊالر ۽ پرڏيهي ڪرنسيءَ جي اگهن ۾ تبديلي",
+   "x": "٢٢ نومبر ٢٠٢٦ تي لاهور ۾ پاڪستان اندر پرڏيهي ڪرنسين جا اگهه گهڻو ڪري ستابا رهيا، جتي آمريڪي ڊالر ٢٧٧.٣٠ روپين تي برقرار آهي. برطانوي پائونڊ اسٽرلنگ جي خريداري جو اگهه ٣٦٣.٥٤ روپيا ۽ وڪري جو اگهه ٣٦٩.١٣ روپيا آهي. يورو جي خريداري جو اگهه ٣٠٤.٤١ روپيا ۽ وڪري جو اگهه ٣٠٩.١٢ روپيا آهي، جيڪو پاڪستان جي صرافي مارڪيٽ ۾ اعليٰ قدر رکندڙ پرڏيهي ڪرنسين ۾ شامل آهي. سعودي ريال جي خريداري ٧٣.٩٥ روپين ۽ وڪري ٧٤.٤٥ روپين ۾ ٿي رهي آهي، جڏهن ته متحده عرب امارات جو درهم ٧٥.٥٥ روپين ۾ خريد ۽ ٧٦.٢٠ روپين ۾ وڪرو پيو ٿئي. قطري ريال جو خريداري اگهه ٧٥.٣٥ روپيا ۽ وڪري جو اگهه ٧٦.٨٥ روپيا آهي. ان دوران عماني ريال ۽ بحريني دينار جا مٽاسٽا جا اگهه اڃا تائين تمام گهڻا اعليٰ آهن. بحريني دينار جو وڪري جو اگهه ٧٤٨.٨٥ روپيا آهي، جڏهن ته عماني ريال جو اگهه ٧٣٤.١٦ روپيا آهي.",
+   "t": 1795321975,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
   "date": "2026-11-22",
   "done": [
-   "08:00"
+   "08:00",
+   "09:30"
   ]
  },
  "kawish_queue": [],
@@ -9420,13 +9420,6 @@
   "last": 1795263683.6887078
  },
  "tg_debug": [
-  {
-   "t": "11-22 03:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-22 03:20",
    "ok": true,
@@ -9699,34 +9692,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-22 09:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-22",
  "recent_posts": [
-  {
-   "t": 1795147005,
-   "h": "پاڪستان ۾ سون جي قيمت ۾ گهٽتائي",
-   "b": "پاڪستان ۾ سون جي قيمت ۾ ڪمي آئي آهي ۽ فی توله سون سوين رپيا سستو ٿي ويو آهي.",
-   "tt": [
-    "سون",
-    "قيمت",
-    "پاڪستان",
-    "گهٽتائي"
-   ],
-   "bt": [
-    "ائي",
-    "اهي",
-    "توله",
-    "رپيا",
-    "سستو",
-    "سون",
-    "سوين",
-    "قيمت",
-    "پاڪستان",
-    "ڪمي",
-    "گهٽتائي"
-   ]
-  },
   {
    "t": 1795149480,
    "h": "صبح جون خبرون | جمعو، 20 نومبر 2026",
@@ -14386,6 +14362,50 @@
     "ڪير",
     "ڪڻڪ"
    ]
+  },
+  {
+   "t": 1795321975,
+   "h": "پاڪستان ۾ ڊالر ۽ پرڏيهي ڪرنسيءَ جي اگهن ۾ تبديلي",
+   "b": "٢٢ نومبر ٢٠٢٦ تي لاهور ۾ پاڪستان اندر پرڏيهي ڪرنسين جا اگهه گهڻو ڪري ستابا رهيا، جتي آمريڪي ڊالر ٢٧٧.٣٠ روپين",
+   "tt": [
+    "اگهن",
+    "تبديلي",
+    "پاڪستان",
+    "پرڏيهي",
+    "ڊالر",
+    "ڪرنسيء"
+   ],
+   "bt": [
+    "#22",
+    "#277.30",
+    "#363.54",
+    "#369.13",
+    "اسٽرلنگ",
+    "امريڪي",
+    "اندر",
+    "اهي",
+    "اگهن",
+    "اگهه",
+    "برطانوي",
+    "برقرار",
+    "تبديلي",
+    "جتي",
+    "خريداري",
+    "رهيا،",
+    "روپيا",
+    "روپين",
+    "ستابا",
+    "لاهور",
+    "نومبر",
+    "وڪري",
+    "پائونڊ",
+    "پاڪستان",
+    "پرڏيهي",
+    "ڊالر",
+    "ڪرنسيء",
+    "ڪرنسين",
+    "گهڻو"
+   ]
   }
  ],
  "repeat_log": [
@@ -14553,7 +14573,7 @@
  },
  "quality": {
   "date": "2026-11-22",
-  "editor_fixed": 5,
+  "editor_fixed": 6,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
