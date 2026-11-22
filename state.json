@@ -1,6 +1,5 @@
 {
  "seen": {
-  "d0dd7662bae60042": 1794707469.526816,
   "657e8264caf09610": 1794711073.321153,
   "6d99ee51ea563f07": 1794714673.8567467,
   "ef6b4a2e519355f6": 1794714673.8568914,
@@ -1602,7 +1601,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-21",
-  "count": 2
+  "count": 3
  },
  "last_digest": "2026-11-21",
  "alert_day": "2026-10-20",
@@ -1659,7 +1658,7 @@
    "نوشهروفيروز: شاديءَ جي ڄڃ ويل گهر مان چور لکين رپين جو سامان ۽ روپيا چورائي وئا"
   ]
  },
- "last_daily": "2026-11-21",
+ "last_daily": "2026-11-22",
  "roundup_pm": "2026-11-21",
  "replied": [],
  "q_index": 1,
@@ -1744,7 +1743,7 @@
    "58bf31ee29628aec"
   ]
  },
- "last_post_id": "1444130002106066_122123435733503839",
+ "last_post_id": "1444130002106066_122123442633503839",
  "shareable": [
   {
    "id": "1444130002106066_122123190585503839",
@@ -2390,10 +2389,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-22 06:51",
+  "time": "2026-11-22 07:01",
   "items": 39,
   "sample": [
-   "New Zealand 368/10 v India 720/9 *",
+   "New Zealand 4/1 & 368/10 * v India 720/9",
    "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 86/3 & 336/10 *",
    "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/9 *"
   ]
@@ -2405,8 +2404,8 @@
  },
  "all_posts": {
   "date": "2026-11-22",
-  "count": 6,
-  "last": 1795309309.9254098
+  "count": 7,
+  "last": 1795312880.3124
  },
  "perf": {
   "posts": [
@@ -7881,9 +7880,9 @@
  },
  "ai_usage": {
   "date": "2026-11-22",
-  "ok": 76,
-  "fail": 142,
-  "limit": 140
+  "ok": 78,
+  "fail": 144,
+  "limit": 142
  },
  "posted_heads": [
   {
@@ -8208,7 +8207,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-22 06:51",
+  "time": "2026-11-22 07:01",
   "steps": []
  },
  "roundup_am": "2026-11-21",
@@ -8316,7 +8315,7 @@
   "text": 10,
   "story": 9
  },
- "ai_last_error": "06:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "07:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-22",
   "models": [
@@ -8330,9 +8329,9 @@
  },
  "img_diag": {
   "date": "2026-11-22",
-  "tried": 6,
+  "tried": 7,
   "gemini": 0,
-  "pollinations": 6,
+  "pollinations": 7,
   "skip": 0,
   "fail": 2,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
@@ -8358,7 +8357,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-22",
-   "ok": 42,
+   "ok": 43,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8366,7 +8365,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-22",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8374,7 +8373,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-22",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8382,7 +8381,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8390,7 +8389,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8398,14 +8397,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8413,7 +8412,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-22",
-   "ok": 43,
+   "ok": 44,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8653,13 +8652,13 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 20,
-  "old": 20,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-22 06",
+ "report_hour": "2026-11-22 07",
  "kawish_upload_times": {
   "_date": "2026-11-22",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9429,13 +9428,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-22 00:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-22 00:40",
    "ok": true,
    "n": 0,
@@ -9707,38 +9699,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-22 07:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-22",
  "recent_posts": [
-  {
-   "t": 1795137723,
-   "h": "برآمدات وڌائڻ لاءِ اي ايف ايس سادي ڪرڻ جو پلان",
-   "b": "حڪومت ملڪي برآمدات کي وڌائڻ لاءِ اي ايف ايس سادي ڪرڻ جو پلان تيار ڪري ورتو آهي!",
-   "tt": [
-    "ايس",
-    "ايف",
-    "برامدات",
-    "سادي",
-    "وڌائڻ",
-    "پلان",
-    "ڪرڻ"
-   ],
-   "bt": [
-    "اهي",
-    "ايس",
-    "ايف",
-    "برامدات",
-    "تيار",
-    "حڪومت",
-    "سادي",
-    "ملڪي",
-    "ورتو",
-    "وڌائڻ",
-    "پلان",
-    "ڪرڻ"
-   ]
-  },
   {
    "t": 1795140177,
    "h": "نوشهروفيروز جو اڄ | 20-11-2026",
@@ -14459,6 +14430,57 @@
     "گرلز",
     "گرلس"
    ]
+  },
+  {
+   "t": 1795312880,
+   "h": "نوشهروفيروز جو اڄ | 22-11-2026",
+   "b": "12 جُمادى الآخرة 1448ھ نماز جا وقت: فجر 05:31 | ظهر 12:14 | عصر 15:59 مغرب 17:35 | عشا 18:56 سج اڀرڻ 06:52 اڄ",
+   "tt": [
+    "#11",
+    "#22",
+    "نوشهروفيروز"
+   ],
+   "bt": [
+    "#11",
+    "#12",
+    "#14",
+    "#1448",
+    "#15",
+    "#16",
+    "#17",
+    "#18",
+    "#22",
+    "#30",
+    "#31",
+    "#35",
+    "#5",
+    "#52",
+    "#56",
+    "#59",
+    "#6",
+    "1448ه",
+    "اسمان",
+    "الاخره",
+    "اوهان",
+    "اڀرڻ",
+    "جمادى",
+    "سٺو",
+    "سڀني",
+    "صاف",
+    "ظهر",
+    "عشا",
+    "عصر",
+    "فجر",
+    "مغرب",
+    "موسم",
+    "نماز",
+    "نوشهروفيروز",
+    "وقت",
+    "ڏينهن",
+    "گذري",
+    "گرمي",
+    "گهٽ"
+   ]
   }
  ],
  "repeat_log": [
@@ -14621,7 +14643,7 @@
  "approve_next": 1792771906.5617883,
  "approve_last": 1792771860.5720606,
  "groq_disc": {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "model": "openai/gpt-oss-120b"
  },
  "quality": {
@@ -14632,6 +14654,5 @@
   "kawish_crosschecked": 0,
   "wrong_place": 0,
   "repeat": 6
- },
- "_dup": true
+ }
 }
