@@ -1,6 +1,5 @@
 {
  "seen": {
-  "fa2fb32acc323f7d": 1794739271.0770888,
   "0fb4caccd43f0921": 1794740222.836827,
   "004eea575cc7e2cb": 1794740222.83683,
   "f73fed4d4156b741": 1794740222.8368313,
@@ -1595,7 +1594,9 @@
   "11a9b4439a48f1ae": 1795342280.6752148,
   "ef31c5fff76f5397": 1795342280.6752162,
   "9ec2ce76a1aa1dda": 1795343477.365235,
-  "0b257b1ce801eaa1": 1795344055.320977
+  "0b257b1ce801eaa1": 1795344055.320977,
+  "7c6e399b6a0f49f2": 1795344670.2823923,
+  "479a5866208b72ed": 1795344704.9562874
  },
  "pending": {},
  "queue": [],
@@ -1678,7 +1679,7 @@
  "sindh_single": {
   "date": "2026-11-22",
   "count": 0,
-  "last": 1795335798.4518843,
+  "last": 1795344735.23798,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2385,19 +2386,19 @@
    },
    "wicket_posts": 4,
    "break_done": true,
-   "last_edit": 1795344388.2626228,
+   "last_edit": 1795345047.754002,
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-22 15:46",
+  "time": "2026-11-22 15:57",
   "items": 39,
   "sample": [
-   "New Zealand 368/10 & 119/2 * v India 720/9",
-   "Kurunegala Youth Cricket Club 368/10 & 22/2 * v Burgher Recreation Club 311/6 & 336/10",
-   "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 198/10 & 287/10 *"
+   "New Zealand 119/2 & 368/10 * v India 720/9",
+   "Kurunegala Youth Cricket Club 368/10 & 39/2 * v Burgher Recreation Club 336/10 & 311/6",
+   "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/10 & 198/10 *"
   ]
  },
  "agri_news": {
@@ -7851,9 +7852,9 @@
  },
  "ai_usage": {
   "date": "2026-11-22",
-  "ok": 189,
-  "fail": 299,
-  "limit": 290
+  "ok": 198,
+  "fail": 315,
+  "limit": 306
  },
  "posted_heads": [
   {
@@ -8178,7 +8179,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-22 15:46",
+  "time": "2026-11-22 15:57",
   "steps": []
  },
  "roundup_am": "2026-11-22",
@@ -8281,12 +8282,12 @@
  },
  "article_diag": {
   "date": "2026-11-22",
-  "tried": 21,
-  "decoded": 20,
-  "text": 18,
-  "story": 17
+  "tried": 23,
+  "decoded": 22,
+  "text": 20,
+  "story": 19
  },
- "ai_last_error": "15:41 gemini-3.5-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "15:52 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-22",
   "models": [
@@ -8328,7 +8329,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-22",
-   "ok": 96,
+   "ok": 97,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8336,7 +8337,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-22",
-   "ok": 96,
+   "ok": 97,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8344,7 +8345,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-22",
-   "ok": 96,
+   "ok": 97,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8352,7 +8353,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8360,7 +8361,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8368,14 +8369,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8383,7 +8384,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-22",
-   "ok": 97,
+   "ok": 98,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8520,8 +8521,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 20,
-  "old": 20,
+  "found": 25,
+  "old": 25,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8577,8 +8578,8 @@
  "sindh_stream": {
   "date": "2026-11-22",
   "count": 6,
-  "last": 1795341061.144161,
-  "city_i": 4,
+  "last": 1795344665.637086,
+  "city_i": 8,
   "dry": 1795343469.2238126
  },
  "gemini_day_dead": {
@@ -9271,20 +9272,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-22 12:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-22 12:38",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-22 12:40",
    "ok": true,
    "n": 0,
@@ -9545,6 +9532,20 @@
   },
   {
    "t": "11-22 15:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-22 15:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-22 15:57",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14203,11 +14204,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-20 10:11",
-   "new": "لاهور ۾ سخت سموگ برقرار",
-   "old": "لاهور دن جو سڀ کان آلوده شهر قرار"
-  },
-  {
    "t": "11-20 10:31",
    "new": "پاڪستان ۾ سون جي اگهه ۾ تبديلي",
    "old": "پاڪستان ۾ اڄ سوني اگهه ۾ واڌ"
@@ -14351,6 +14347,11 @@
    "t": "11-22 13:24",
    "new": "سنڌ | جعلي دوائن جي خاتمي لاءِ ”محفوظ دوا“ ائپ آندي پئي وڃي",
    "old": "جعلي دوائن جي روڪٿام لاءِ ايپ جو افتتاح"
+  },
+  {
+   "t": "11-22 15:52",
+   "new": "پاڪستان عورتن جي ڪرڪيٽ ٽيم اسکاٽ لينڊ کي شڪست ڏئي ڇڏي",
+   "old": "LIVE | پاڪستان وومين بمقابلي اسڪاٽلينڊ وومين"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14367,10 +14368,11 @@
  "quality": {
   "date": "2026-11-22",
   "editor_fixed": 16,
-  "editor_rejected": 0,
+  "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 9
- }
+  "repeat": 10
+ },
+ "_dup": true
 }
