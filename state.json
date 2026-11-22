@@ -2397,12 +2397,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-23 03:50",
+  "time": "2026-11-23 04:01",
   "items": 11,
   "sample": [
-   "New Zealand 368/10 & 132/3 * v India 720/9",
+   "New Zealand 368/10 & 137/3 * v India 720/9",
    "New South Wales v Queensland 249/7 *",
-   "Dubai Capitals 112/10 * v Abu Dhabi Knight Riders 167/6"
+   "Dubai Capitals 112/10 v Abu Dhabi Knight Riders 167/6"
   ]
  },
  "agri_news": {
@@ -4825,40 +4825,8 @@
   "last": 1795383231.626454
  },
  "trends": {
-  "last": 1795377054.510085,
+  "last": 1795388464.4027896,
   "terms": [
-   {
-    "term": "belgium vs italy",
-    "traffic": 2000,
-    "news": "'It's more like a knockout match!' – Mark van Bommel issues passionate rallying cry ahead of Italy showdown",
-    "t": 1794778258,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "doomsday",
-    "traffic": 200,
-    "news": "‘Avengers: Doomsday’ Will Begin the End of 25 Years of Marvel Storytelling",
-    "t": 1794778258,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "ravenna fc",
-    "traffic": 100,
-    "news": "Ravenna FC 26-27 'Ronaldinho' Away Kit Released - Debuted by Ronaldinho",
-    "t": 1794778258,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "parivarik manuranjan",
-    "traffic": 100,
-    "news": "Pankaj Tripathi on Actors’ Fragility and Spirituality",
-    "t": 1794778258,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "salman khan",
     "traffic": 100,
@@ -7890,15 +7858,39 @@
     "t": 1795377054,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "musadik malik",
+    "traffic": 1000,
+    "news": "Musadik takes Delhi by storm",
+    "t": 1795388464,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "gta vi review metacritic",
+    "traffic": 100,
+    "news": "Game Critics Defend Professional Reviews Amid GTA VI Debate",
+    "t": 1795388464,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "liverpool f.c. vs manchester united f.c. standings",
+    "traffic": 20000,
+    "news": "Pochettino backs Manchester United players after Liverpool thrashing, rejects relegation talk",
+    "t": 1795388464,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-23",
-  "ok": 52,
-  "fail": 91,
-  "limit": 88
+  "ok": 53,
+  "fail": 93,
+  "limit": 90
  },
  "posted_heads": [
   {
@@ -8223,7 +8215,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-23 03:50",
+  "time": "2026-11-23 04:01",
   "steps": []
  },
  "roundup_am": "2026-11-22",
@@ -8331,7 +8323,7 @@
   "text": 8,
   "story": 8
  },
- "ai_last_error": "03:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "04:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-23",
   "models": [
@@ -8373,7 +8365,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-23",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8381,7 +8373,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-23",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8389,7 +8381,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-23",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8397,7 +8389,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8405,7 +8397,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8413,14 +8405,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8428,7 +8420,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-23",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8564,14 +8556,14 @@
   "pakistan": 3
  },
  "report_acc": {
-  "posted": 1,
-  "found": 15,
-  "old": 15,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-23 03",
+ "report_hour": "2026-11-23 04",
  "kawish_upload_times": {
   "_date": "2026-11-23",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9222,13 +9214,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-22 23:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-22 23:26",
    "ok": true,
    "n": 0,
@@ -9496,6 +9481,13 @@
   },
   {
    "t": "11-23 03:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 04:00",
    "ok": true,
    "n": 0,
    "ids": [],
