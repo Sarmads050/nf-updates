@@ -256,7 +256,7 @@
      "who": "HASHIR",
      "to": "front",
      "emo": "laugh",
-     "pose": "arms_up",
+     "pose": "hold",
      "shot": "close",
      "sfx": [
       "clink",
@@ -336,6 +336,11 @@
       "door"
      ],
      "before": [
+      {
+       "do": "prop",
+       "who": "ABBA",
+       "prop": null
+      },
       {
        "do": "enter",
        "who": "ABBA",
