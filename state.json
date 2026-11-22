@@ -1,8 +1,5 @@
 {
  "seen": {
-  "190c82d690d6e48e": 1794717077.102009,
-  "81783e05ad7ebc4c": 1794717092.0452383,
-  "7e3257ca88622e99": 1794717092.0454612,
   "a4d08061a077a004": 1794718267.1600106,
   "cae24bcd03560941": 1794718267.1600132,
   "62d0e03974dca967": 1794719472.2046924,
@@ -1595,7 +1592,8 @@
   "a3dbdccb3cf67dac": 1795314684.191483,
   "b825cc223267ff64": 1795314684.1914861,
   "8e08667b33686f58": 1795317828.6017,
-  "0545e6a924903548": 1795321874.9077713
+  "0545e6a924903548": 1795321874.9077713,
+  "edfee9c93abd684b": 1795322451.5538228
  },
  "pending": {},
  "queue": [],
@@ -2387,12 +2385,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-22 09:32",
+  "time": "2026-11-22 09:40",
   "items": 39,
   "sample": [
-   "New Zealand 80/2 & 368/10 * v India 720/9",
-   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 90/3 & 336/10 *",
-   "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/10 *"
+   "New Zealand 368/10 & 84/2 * v India 720/9",
+   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 93/3 & 336/10 *",
+   "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/10 & 9 *"
   ]
  },
  "agri_news": {
@@ -4815,56 +4813,8 @@
   "last": 1795321975.31554
  },
  "trends": {
-  "last": 1795311061.246716,
+  "last": 1795322451.5539393,
   "terms": [
-   {
-    "term": "australia vs england",
-    "traffic": 200,
-    "news": "Mahli Beardman's dream debut powers Australia to crushing win over England in Perth",
-    "t": 1794712239,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "petrol price today",
-    "traffic": 100,
-    "news": "Karachi goods carriers association announces 5% reduction in transport fares",
-    "t": 1794712239,
-    "cat": "fuel",
-    "sindh": true
-   },
-   {
-    "term": "jamaica vs mexico",
-    "traffic": 100,
-    "news": "¡Sorpresas! Este es el once de México vs Jamaica",
-    "t": 1794712239,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "india national cricket team vs new zealand national cricket team match scorecard",
-    "traffic": 5000,
-    "news": "India vs New Zealand Live score, 5th ODI: Rohit gone, Kohli follows as Fisher rocks India | Hindustan Times",
-    "t": 1794712239,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "india vs new zealand",
-    "traffic": 20000,
-    "news": "New Zealand v India Fifth ODI Tips: Don't expect another India batting flop in decider",
-    "t": 1794712239,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "پاکستان ٹیلی کمیونیکیشن اتھارٹی",
-    "traffic": 200,
-    "news": "موبائل صارفین کےلیے اہم خبر، سمز کے حوالے سے پی ٹی اے کا نیا فیصلہ",
-    "t": 1794712239,
-    "cat": "technology",
-    "sindh": false
-   },
    {
     "term": "measles elimination status",
     "traffic": 100,
@@ -7872,15 +7822,39 @@
     "t": 1795311061,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "devon conway",
+    "traffic": 500,
+    "news": "KL Rahul's big revelation: What changed his batting?",
+    "t": 1795322451,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "tom latham",
+    "traffic": 500,
+    "news": "Tom Latham equals Virender Sehwag in unwanted batting record list after first over duck against India",
+    "t": 1795322451,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "test cricket",
+    "traffic": 500,
+    "news": "Rahul and company help India take lead against NZ",
+    "t": 1795322451,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-22",
-  "ok": 99,
-  "fail": 180,
-  "limit": 178
+  "ok": 100,
+  "fail": 182,
+  "limit": 180
  },
  "posted_heads": [
   {
@@ -8205,7 +8179,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-22 09:32",
+  "time": "2026-11-22 09:40",
   "steps": []
  },
  "roundup_am": "2026-11-22",
@@ -8313,7 +8287,7 @@
   "text": 12,
   "story": 11
  },
- "ai_last_error": "09:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "09:40 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-22",
   "models": [
@@ -8355,7 +8329,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-22",
-   "ok": 59,
+   "ok": 60,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8363,7 +8337,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-22",
-   "ok": 59,
+   "ok": 60,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8371,7 +8345,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-22",
-   "ok": 59,
+   "ok": 60,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8379,7 +8353,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8387,7 +8361,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8395,14 +8369,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8410,7 +8384,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-22",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8650,8 +8624,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 12,
-  "old": 12,
+  "found": 16,
+  "old": 16,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9421,13 +9395,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-22 03:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-22 03:30",
    "ok": true,
    "n": 0,
@@ -9695,6 +9662,13 @@
   },
   {
    "t": "11-22 09:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-22 09:40",
    "ok": true,
    "n": 0,
    "ids": [],
