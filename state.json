@@ -1,8 +1,5 @@
 {
  "seen": {
-  "bb3b1b373316c4fc": 1794705665.809584,
-  "778f69ee4aa231cd": 1794705665.8095863,
-  "c67302ac796867a6": 1794705665.8095875,
   "d0dd7662bae60042": 1794707469.526816,
   "657e8264caf09610": 1794711073.321153,
   "6d99ee51ea563f07": 1794714673.8567467,
@@ -1589,7 +1586,11 @@
   "0be9e9183c7cc120": 1795306870.1844728,
   "a1cf0bea902d7375": 1795306891.4570825,
   "88fd9139192368d2": 1795309281.0057325,
-  "416d32dcf51b2e29": 1795310451.7762213
+  "416d32dcf51b2e29": 1795310451.7762213,
+  "940df0088642243e": 1795311079.2955801,
+  "69cb4c07862f7e5b": 1795311079.2955828,
+  "b2228e99ed36813b": 1795311088.7325716,
+  "5ed5a73453dfe97c": 1795311088.7327442
  },
  "pending": {},
  "queue": [],
@@ -2385,11 +2386,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-22 06:20",
+  "time": "2026-11-22 06:31",
   "items": 39,
   "sample": [
-   "New Zealand 368/10 v India 679/6 *",
-   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 86/3 & 336/10 *",
+   "New Zealand 368/10 v India 701/8 *",
+   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 336/10 & 86/3 *",
    "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/9 *"
   ]
  },
@@ -4813,56 +4814,8 @@
   "last": 1795302694.5305948
  },
  "trends": {
-  "last": 1795299652.7361627,
+  "last": 1795311061.246716,
   "terms": [
-   {
-    "term": "video",
-    "traffic": 200,
-    "news": "When Disaster Hit Next Door in Flatbush",
-    "t": 1794700866,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "movie box office",
-    "traffic": 100,
-    "news": "‘Ebenezer’ review: Johnny Depp is a cartoonish Scrooge in Ti West’s underwhelming, unnecessary Dickens adaptation",
-    "t": 1794700866,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "haiti vs usa",
-    "traffic": 200,
-    "news": "Live updates: USMNT lead Haiti as Mauricio Pochettino's farewell tour begins",
-    "t": 1794700866,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "portugal national football team vs denmark national football team standings",
-    "traffic": 5000,
-    "news": "Riemer again leaves Froholdt on bench for Portugal-clash: See the Danish starting lineup",
-    "t": 1794700866,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "carlos forbs",
-    "traffic": 100,
-    "news": "Entire team wore No.7, even the mascots: Portugal's beautiful tribute to Cristiano Ronaldo",
-    "t": 1794700866,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "nico paz",
-    "traffic": 100,
-    "news": "Nico Paz, el único héroe en este «post» Lío Messi",
-    "t": 1794700866,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "australia vs england",
     "traffic": 200,
@@ -7870,15 +7823,63 @@
     "t": 1795299652,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "preventive detention",
+    "traffic": 200,
+    "news": "Ordinances tighten executive grip on K-P",
+    "t": 1795311061,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "5th circuit proxy voting ruling",
+    "traffic": 100,
+    "news": "Congress Proxy-Voting Found Unconstitutional by Fifth Circuit",
+    "t": 1795311061,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "rising stars asia cup schedule",
+    "traffic": 200,
+    "news": "ACC Men's Asia Cup Rising Stars 2026 match predictions: Pakistan A vs UAE and India A vs Nepal – November 20",
+    "t": 1795311061,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "inter miami vs columbus",
+    "traffic": 2000,
+    "news": "Columbus Inter Miami Soccer",
+    "t": 1795311061,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "real madrid vs rc celta de vigo standings",
+    "traffic": 2000,
+    "news": "Licensable picture: Real Madrid v RC Celta de Vigo - LaLiga EA Sports 2026/27",
+    "t": 1795311061,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "real madrid match",
+    "traffic": 100,
+    "news": "Durán : « Match complet, mais le Real a du talent et te met à l’épreuve »",
+    "t": 1795311061,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-22",
-  "ok": 68,
-  "fail": 126,
-  "limit": 124
+  "ok": 75,
+  "fail": 140,
+  "limit": 138
  },
  "posted_heads": [
   {
@@ -8203,7 +8204,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-22 06:20",
+  "time": "2026-11-22 06:31",
   "steps": []
  },
  "roundup_am": "2026-11-21",
@@ -8306,12 +8307,12 @@
  },
  "article_diag": {
   "date": "2026-11-22",
-  "tried": 11,
-  "decoded": 10,
-  "text": 9,
+  "tried": 12,
+  "decoded": 11,
+  "text": 10,
   "story": 9
  },
- "ai_last_error": "06:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-22",
   "models": [
@@ -8353,7 +8354,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-22",
-   "ok": 39,
+   "ok": 40,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8361,7 +8362,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-22",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8369,7 +8370,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-22",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8377,7 +8378,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8385,7 +8386,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8393,14 +8394,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8408,7 +8409,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-22",
-   "ok": 40,
+   "ok": 41,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8648,8 +8649,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 8,
-  "old": 8,
+  "found": 12,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8706,8 +8707,8 @@
   "date": "2026-11-22",
   "count": 1,
   "last": 1795309276.5225093,
-  "city_i": 10,
-  "dry": 1795306860.7999022
+  "city_i": 14,
+  "dry": 1795311074.5837345
  },
  "gemini_day_dead": {
   "day": "2026-11-21",
@@ -9424,13 +9425,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-22 00:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-22 00:10",
    "ok": true,
    "n": 0,
@@ -9698,6 +9692,13 @@
   },
   {
    "t": "11-22 06:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-22 06:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14458,11 +14459,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-20 03:51",
-   "new": "حڪومت پاران پيٽرول جي اگهه ۾ واڌ",
-   "old": "حڪومت پاران پيٽرول جي اگهن ۾ هڪ رپيو واڌ"
-  },
-  {
    "t": "11-20 04:58",
    "new": "پنجاب ۾ اسموگ خلاف قدمن سان صحت ۽ ماحول بهتر ٿيڻ لڳو",
    "old": "پنجاب ۾ اسموگ مريضن جي انگ ۾ گهٽتائي"
@@ -14606,6 +14602,11 @@
    "t": "11-22 03:31",
    "new": "پاڪستان ۾ سون ۽ چانديءَ جي اگهن ۾ تبديلي",
    "old": "پاڪستان ۾ سون جي اگهن ۾ لاڳاتار گهٽتائي"
+  },
+  {
+   "t": "11-22 06:31",
+   "new": "بابر ۽ آغا پي سي بي جي نئين ڪانٽريڪٽ ۾ شامل",
+   "old": "پي سي بي پاران سينٽرل ڪانٽريڪٽ جو اعلان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14626,6 +14627,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 5
- }
+  "repeat": 6
+ },
+ "_dup": true
 }
