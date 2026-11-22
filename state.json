@@ -1593,7 +1593,8 @@
   "421c4bb9fa0c3b31": 1795324259.1280782,
   "be9bf18896b69618": 1795324259.1280806,
   "ace5c3e231f1f911": 1795325482.9630673,
-  "9ee807d8fd5bec4f": 1795325504.3149135
+  "9ee807d8fd5bec4f": 1795325504.3149135,
+  "310ec48d1c4812f4": 1795326671.4419725
  },
  "pending": {},
  "queue": [],
@@ -2385,19 +2386,19 @@
    },
    "wicket_posts": 1,
    "break_done": false,
-   "last_edit": 1795326363.7149842,
+   "last_edit": 1795326976.8566694,
    "batting": "Scotland Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-22 10:46",
+  "time": "2026-11-22 10:56",
   "items": 39,
   "sample": [
    "New Zealand 368/10 & 119/2 * v India 720/9",
-   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 336/10 & 139/4 *",
-   "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/10 & 49/3 *"
+   "Kurunegala Youth Cricket Club 368/10 v Burgher Recreation Club 336/10 & 148/4 *",
+   "Nugegoda Sports Welfare Club 618/7 v Nondescripts Cricket Club 287/10 & 64/3 *"
   ]
  },
  "agri_news": {
@@ -7859,9 +7860,9 @@
  },
  "ai_usage": {
   "date": "2026-11-22",
-  "ok": 110,
-  "fail": 196,
-  "limit": 194
+  "ok": 111,
+  "fail": 198,
+  "limit": 196
  },
  "posted_heads": [
   {
@@ -8186,7 +8187,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-22 10:46",
+  "time": "2026-11-22 10:56",
   "steps": []
  },
  "roundup_am": "2026-11-22",
@@ -8294,7 +8295,7 @@
   "text": 12,
   "story": 11
  },
- "ai_last_error": "10:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-22",
   "models": [
@@ -8336,7 +8337,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-22",
-   "ok": 66,
+   "ok": 67,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8344,7 +8345,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-22",
-   "ok": 66,
+   "ok": 67,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8352,7 +8353,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-22",
-   "ok": 66,
+   "ok": 67,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8360,7 +8361,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8368,7 +8369,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8376,14 +8377,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-22",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-22",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8391,7 +8392,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-22",
-   "ok": 67,
+   "ok": 68,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8631,8 +8632,8 @@
  },
  "report_acc": {
   "posted": 3,
-  "found": 16,
-  "old": 16,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8689,8 +8690,8 @@
   "date": "2026-11-22",
   "count": 2,
   "last": 1795324257.063576,
-  "city_i": 20,
-  "dry": 1795325472.9451392
+  "city_i": 24,
+  "dry": 1795326659.9444242
  },
  "gemini_day_dead": {
   "day": "2026-11-21",
@@ -9394,20 +9395,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-22 05:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-22 05:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-22 05:20",
    "ok": true,
    "n": 0,
@@ -9668,6 +9655,20 @@
   },
   {
    "t": "11-22 10:46",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-22 10:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-22 10:56",
    "ok": true,
    "n": 0,
    "ids": [],
