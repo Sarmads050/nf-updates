@@ -1648,7 +1648,9 @@
   "1ce0cf3ead68154f": 1795437070.9264517,
   "3e80f39a760155d6": 1795438277.8815567,
   "e10c88c1c93cccad": 1795438277.881559,
-  "5f19105e83b5ad1e": 1795438277.8815608
+  "5f19105e83b5ad1e": 1795438277.8815608,
+  "87e63d7637c385ab": 1795439490.7236218,
+  "3e52487982dba1f3": 1795439490.7236247
  },
  "pending": {},
  "queue": [],
@@ -2469,14 +2471,14 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1795439218.4329836,
+   "last_edit": 1795439796.493162,
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-23 18:06",
+  "time": "2026-11-23 18:16",
   "items": 9,
   "sample": [
    "New South Wales 195/7 * v Queensland 278/10",
@@ -7991,9 +7993,9 @@
  },
  "ai_usage": {
   "date": "2026-11-23",
-  "ok": 274,
-  "fail": 371,
-  "limit": 369
+  "ok": 276,
+  "fail": 377,
+  "limit": 373
  },
  "posted_heads": [
   {
@@ -8318,7 +8320,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-23 18:06",
+  "time": "2026-11-23 18:16",
   "steps": []
  },
  "roundup_am": "2026-11-23",
@@ -8426,7 +8428,7 @@
   "text": 22,
   "story": 21
  },
- "ai_last_error": "18:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-23",
   "models": [
@@ -8468,7 +8470,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-23",
-   "ok": 110,
+   "ok": 111,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8476,7 +8478,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-23",
-   "ok": 110,
+   "ok": 111,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8484,7 +8486,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-23",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8492,7 +8494,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8500,7 +8502,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8508,14 +8510,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8523,7 +8525,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-23",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8666,8 +8668,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8724,8 +8726,8 @@
  "sindh_stream": {
   "date": "2026-11-23",
   "count": 11,
-  "last": 1795438262.0374956,
-  "city_i": 24,
+  "last": 1795439466.0873685,
+  "city_i": 6,
   "dry": 1795435292.3286011
  },
  "gemini_day_dead": {
@@ -9267,20 +9269,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-23 14:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-23 14:55",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-23 15:00",
    "ok": true,
    "n": 0,
@@ -9541,6 +9529,20 @@
   },
   {
    "t": "11-23 18:06",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 18:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 18:16",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13474,11 +13476,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-21 14:43",
-   "new": "پي سي بي نئين سينٽرل ڪنٽريڪٽ جو اعلان ڪري ڇڏيو",
-   "old": "پي سي بي پاران سينٽرل ڪانٽريڪٽ جو اعلان"
-  },
-  {
    "t": "11-21 14:45",
    "new": "سنڌ | سندھ جي نوجوانن لاءِ گهر ويٺي روزگار جا موقعا",
    "old": "سنڌ حڪومت جو وڏو فيصلو، نوجوان گهر ويٺي ڊالر ڪمائندا"
@@ -13622,6 +13619,11 @@
    "t": "11-23 16:13",
    "new": "سنڌ ۾ ڏڪار متاثرن لاءِ امدادي پيڪيج جي منظوري",
    "old": "ٿر ۽ عمرڪوٽ لاءِ برساتي امداد جاري ڪرڻ جي هدايت"
+  },
+  {
+   "t": "11-23 18:11",
+   "new": "سنڌ يوٿ ڪارڊ جو افتتاح، نوجوانن کي آسان قرض ملندا",
+   "old": "بلاول ڀٽو پاران سنڌ يوٿ ڪارڊ جو افتتاح"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13642,6 +13644,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 14
- }
+  "repeat": 15
+ },
+ "_dup": true
 }
