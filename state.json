@@ -1,6 +1,5 @@
 {
  "seen": {
-  "33d3164230ff9cf4": 1794842469.5412111,
   "4e9f8a26fcff718f": 1794855697.6327062,
   "ef6ad051a8e64bb8": 1794855697.6327085,
   "c9f33c3a8c318774": 1794855697.6327105,
@@ -1654,7 +1653,18 @@
   "7846e616434e07b2": 1795446675.8987415,
   "e4f2ae7817f607ea": 1795446675.8987439,
   "c16f12c684e09152": 1795446675.8987458,
-  "3d56ccc4032f67d5": 1795446675.8987482
+  "3d56ccc4032f67d5": 1795446675.8987482,
+  "0b0c9be37b15bd7c": 1795447871.9632468,
+  "7db8dc03f2f648a7": 1795447887.3976378,
+  "3e787af05832a39d": 1795447887.3976412,
+  "a11ad06097b0df87": 1795447887.3976421,
+  "b9f2c1ec9bcffa27": 1795447887.397643,
+  "dfd3d7eb65d3a20c": 1795447887.3976445,
+  "92ae4d7e9b41dbb2": 1795447887.3976452,
+  "a66fa4933761b7fe": 1795447887.3976464,
+  "ab8c22cde4b8274a": 1795447887.397647,
+  "b91d5e9db1fa2618": 1795447887.3976476,
+  "30dc9dc5474b9316": 1795447887.3976486
  },
  "pending": {},
  "queue": [],
@@ -1746,7 +1756,7 @@
  "sindh_single": {
   "date": "2026-11-23",
   "count": 2,
-  "last": 1795440065.4812255,
+  "last": 1795447900.7257912,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2476,14 +2486,14 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1795447565.4062629,
+   "last_edit": 1795448223.682428,
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-23 20:26",
+  "time": "2026-11-23 20:37",
   "items": 11,
   "sample": [
    "New South Wales 195/7 * v Queensland 278/10",
@@ -8022,9 +8032,9 @@
  },
  "ai_usage": {
   "date": "2026-11-23",
-  "ok": 304,
-  "fail": 464,
-  "limit": 431
+  "ok": 308,
+  "fail": 472,
+  "limit": 439
  },
  "posted_heads": [
   {
@@ -8349,7 +8359,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-23 20:26",
+  "time": "2026-11-23 20:37",
   "steps": []
  },
  "roundup_am": "2026-11-23",
@@ -8457,7 +8467,7 @@
   "text": 25,
   "story": 22
  },
- "ai_last_error": "20:12 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "20:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-23",
   "models": [
@@ -8499,7 +8509,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-23",
-   "ok": 124,
+   "ok": 125,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8507,7 +8517,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-23",
-   "ok": 124,
+   "ok": 125,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8515,7 +8525,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-23",
-   "ok": 125,
+   "ok": 126,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8523,7 +8533,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 125,
+   "ok": 126,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8531,7 +8541,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 125,
+   "ok": 126,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8539,14 +8549,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 125,
+   "ok": 126,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 125,
+   "ok": 126,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8554,7 +8564,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-23",
-   "ok": 125,
+   "ok": 126,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8697,8 +8707,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 16,
-  "old": 16,
+  "found": 24,
+  "old": 24,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8755,9 +8765,9 @@
  "sindh_stream": {
   "date": "2026-11-23",
   "count": 13,
-  "last": 1795446665.3484478,
-  "city_i": 8,
-  "dry": 1795441865.060497
+  "last": 1795447870.871857,
+  "city_i": 12,
+  "dry": 1795447871.9632492
  },
  "gemini_day_dead": {
   "day": "2026-11-23",
@@ -9308,20 +9318,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-23 17:07",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-23 17:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-23 17:19",
    "ok": true,
    "n": 0,
@@ -9582,6 +9578,20 @@
   },
   {
    "t": "11-23 20:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 20:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 20:37",
    "ok": true,
    "n": 0,
    "ids": [],
