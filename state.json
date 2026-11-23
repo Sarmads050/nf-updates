@@ -1,7 +1,5 @@
 {
  "seen": {
-  "3db610fadb3a7441": 1794818032.3231244,
-  "f1a74f974f22c81f": 1794818032.3232768,
   "90fdcaf2418b8a3a": 1794818796.238938,
   "46a1376b9a610322": 1794820268.2927804,
   "65b2649a12b852dc": 1794821580.649499,
@@ -1607,7 +1605,12 @@
   "25ad39f41d545506": 1795422752.0484495,
   "5e8122537d79ea1d": 1795422778.5852473,
   "43b502235b2165ae": 1795422848.7862086,
-  "248a50edc276f10c": 1795422848.7864509
+  "248a50edc276f10c": 1795422848.7864509,
+  "311ab71fad7d5c51": 1795423348.3891003,
+  "de9a90fd97c5f0a2": 1795423359.7142384,
+  "2244d3d4ea613178": 1795423375.781738,
+  "a03be63f38ee4c6a": 1795423380.7283406,
+  "a7e425f697e35bc0": 1795423385.4588473
  },
  "pending": {},
  "queue": [],
@@ -1635,7 +1638,7 @@
   "last_week": "",
   "last_check": "2026-11-23"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2412,19 +2415,19 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1795423315.2732368,
+   "last_edit": 1795423698.004065,
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-23 13:41",
+  "time": "2026-11-23 13:48",
   "items": 10,
   "sample": [
-   "New Zealand 239/5 & 368/10 * v India 720/9",
+   "New Zealand 368/10 & 239/5 * v India 720/9",
    "New South Wales 195/7 * v Queensland 278/10",
-   "Western Australia v Tasmania 238/5 *"
+   "Western Australia v Tasmania 245/5 *"
   ]
  },
  "agri_news": {
@@ -7950,9 +7953,9 @@
  },
  "ai_usage": {
   "date": "2026-11-23",
-  "ok": 160,
+  "ok": 166,
   "fail": 242,
-  "limit": 237
+  "limit": 239
  },
  "posted_heads": [
   {
@@ -8277,7 +8280,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-23 13:41",
+  "time": "2026-11-23 13:48",
   "steps": []
  },
  "roundup_am": "2026-11-23",
@@ -8385,7 +8388,7 @@
   "text": 16,
   "story": 15
  },
- "ai_last_error": "13:20 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "13:42 gemini-3.5-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-11-23",
   "models": [
@@ -8427,7 +8430,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-23",
-   "ok": 83,
+   "ok": 84,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8435,7 +8438,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-23",
-   "ok": 83,
+   "ok": 84,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8443,7 +8446,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-23",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8451,7 +8454,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8459,7 +8462,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8467,14 +8470,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8482,7 +8485,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-23",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8619,9 +8622,9 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 6,
-  "old": 2,
-  "irrelevant": 3,
+  "found": 16,
+  "old": 7,
+  "irrelevant": 8,
   "blocked": 0,
   "errors": []
  },
@@ -8686,7 +8689,9 @@
   "models": [
    "gemini-3.7-flash",
    "gemini-flash-latest",
-   "gemini-3.8-flash"
+   "gemini-3.8-flash",
+   "gemini-3.6-flash",
+   "gemini-3.5-flash"
   ]
  },
  "tg_done": [
@@ -9239,20 +9244,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-23 10:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-23 10:26",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-23 10:30",
    "ok": true,
    "n": 0,
@@ -9513,6 +9504,20 @@
   },
   {
    "t": "11-23 13:41",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 13:42",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 13:48",
    "ok": true,
    "n": 0,
    "ids": [],
