@@ -1688,7 +1688,12 @@
   "15ef87c998d33610": 1795471294.1751344,
   "9da766faa1d4456a": 1795471294.175269,
   "a7ddeb204bf0702c": 1795471863.0017915,
-  "31fe330e3ef061c6": 1795471871.2971888
+  "31fe330e3ef061c6": 1795471871.2971888,
+  "a8fd7986fb37db5d": 1795474920.53434,
+  "fb75dc540b8b09ed": 1795474920.5343435,
+  "ed2e7dff2b041b73": 1795474920.5343447,
+  "2e6d3218563c4668": 1795474920.5343454,
+  "61a13311bf33f75d": 1795474920.534552
  },
  "pending": {},
  "queue": [],
@@ -1873,18 +1878,8 @@
    "6a3a0bd3189d4a1d"
   ]
  },
- "last_post_id": "1444130002106066_122124041553503839",
+ "last_post_id": "1444130002106066_122124047241503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122123807667503839",
-   "title": "موسمياتی څِکڻ واري کاتي ملڪ ۾ ايندڙ ڏينهن دوران برساتن جي کوٽ جاري رهڻ جو چتاءُ جاري ڪري",
-   "t": 1795406522.985815,
-   "tags": [
-    "general",
-    "local"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122123807667503839"
-  },
   {
    "id": "1444130002106066_122123830281503839",
    "title": "اسان کي ورهائجڻ بدران متحد ٿيڻ جي ضرورت آهي: مراد علي شاهه",
@@ -2200,6 +2195,15 @@
     "jobs"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124041553503839"
+  },
+  {
+   "id": "1444130002106066_122124047241503839",
+   "title": "حڪومت جي نئين ضابطي سبب دوائن جي قيمتن ۾ 99 سيڪڙو تائين واڌ ٿي آهي، جنهن سبب عام ماڻهن",
+   "t": 1795475048.8629305,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124047241503839"
   }
  ],
  "share_sent": {
@@ -2530,8 +2534,8 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-24 03:51",
-  "items": 27,
+  "time": "2026-11-24 04:04",
+  "items": 26,
   "sample": [
    "New South Wales 195/7 * v Queensland 278/10",
    "Western Australia v Tasmania 295/6 *",
@@ -2545,17 +2549,11 @@
  },
  "all_posts": {
   "date": "2026-11-24",
-  "count": 4,
-  "last": 1795471982.8694293
+  "count": 5,
+  "last": 1795475044.7346718
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122120166477503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794473248
-   },
    {
     "id": "1444130002106066_122120169999503839",
     "sec": "agri_news",
@@ -4949,13 +4947,19 @@
     "sec": "public_news",
     "cat": "education_jobs",
     "t": 1795471988
+   },
+   {
+    "id": "1444130002106066_122124047241503839",
+    "sec": "public_news",
+    "cat": "health",
+    "t": 1795475048
    }
   ]
  },
  "public_news": {
   "date": "2026-11-24",
-  "count": 2,
-  "last": 1795471988.104681
+  "count": 3,
+  "last": 1795475048.8629098
  },
  "trends": {
   "last": 1795466459.1691751,
@@ -8077,15 +8081,11 @@
  },
  "ai_usage": {
   "date": "2026-11-24",
-  "ok": 30,
-  "fail": 70,
-  "limit": 60
+  "ok": 35,
+  "fail": 86,
+  "limit": 70
  },
  "posted_heads": [
-  {
-   "h": "لياقت ڀٽي قتل ڪيس: 3 محافظ گرفتار، اهم انڪشافن جو امڪان",
-   "t": 1795248636
-  },
   {
    "h": "Mohammad Rizwan, Shan Masood, Saim Ayub dropped as PCB unveils central contracts",
    "t": 1795250639
@@ -8401,10 +8401,14 @@
   {
    "h": "SIUT Announces Paid Fellowship Training Program for 2027",
    "t": 1795471988
+  },
+  {
+   "h": "Medicine prices soar up to 99% after deregulation",
+   "t": 1795475049
   }
  ],
  "last_errors": {
-  "time": "2026-11-24 03:51",
+  "time": "2026-11-24 04:04",
   "steps": []
  },
  "roundup_am": "2026-11-23",
@@ -8507,12 +8511,12 @@
  },
  "article_diag": {
   "date": "2026-11-24",
-  "tried": 4,
-  "decoded": 4,
-  "text": 4,
+  "tried": 5,
+  "decoded": 5,
+  "text": 5,
   "story": 1
  },
- "ai_last_error": "03:12 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "04:02 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-24",
   "models": [
@@ -8526,13 +8530,13 @@
  },
  "img_diag": {
   "date": "2026-11-24",
-  "tried": 3,
+  "tried": 4,
   "gemini": 0,
-  "pollinations": 3,
+  "pollinations": 4,
   "skip": 0,
   "fail": 0,
-  "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
-  "mismatch": 856,
+  "last_note": "medicine pills and prescription",
+  "mismatch": 857,
   "unverified": 2
  },
  "gemini_img": {
@@ -8554,7 +8558,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-24",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8562,7 +8566,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-24",
-   "ok": 23,
+   "ok": 24,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8570,7 +8574,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-24",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8578,7 +8582,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8586,7 +8590,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8594,14 +8598,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8609,7 +8613,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-24",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8748,17 +8752,17 @@
   "date": "2026-11-24",
   "district": 0,
   "sindh": 0,
-  "pakistan": 3
+  "pakistan": 4
  },
  "report_acc": {
-  "posted": 1,
-  "found": 45,
-  "old": 45,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-24 03",
+ "report_hour": "2026-11-24 04",
  "kawish_upload_times": {
   "_date": "2026-11-24",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8812,8 +8816,8 @@
   "date": "2026-11-24",
   "count": 0,
   "last": 1795470676.6783714,
-  "city_i": 10,
-  "dry": 1795470081.154729
+  "city_i": 14,
+  "dry": 1795474873.2284966
  },
  "gemini_day_dead": {
   "day": "2026-11-23",
@@ -9340,6 +9344,14 @@
    "t": 1795471988,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "d8afd37b7253b4ac",
+   "h": "دوائن جي قيمتن ۾ 99٪ واڌ",
+   "x": "حڪومت جي نئين ضابطي سبب دوائن جي قيمتن ۾ 99 سيڪڙو تائين واڌ ٿي آهي، جنهن سبب عام ماڻهن لاءِ دوائن جي خريداري مشڪل ٿي وئي!",
+   "t": 1795475048,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9353,13 +9365,6 @@
   "last": 1795263683.6887078
  },
  "tg_debug": [
-  {
-   "t": "11-23 23:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-23 23:16",
    "ok": true,
@@ -9628,6 +9633,13 @@
   },
   {
    "t": "11-24 03:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-24 04:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13720,6 +13732,36 @@
     "ڊزائين",
     "ڪليل"
    ]
+  },
+  {
+   "t": 1795475048,
+   "h": "دوائن جي قيمتن ۾ 99٪ واڌ",
+   "b": "حڪومت جي نئين ضابطي سبب دوائن جي قيمتن ۾ 99 سيڪڙو تائين واڌ ٿي آهي، جنهن سبب عام ماڻهن لاءِ دوائن جي خريداري",
+   "tt": [
+    "#99",
+    "99٪",
+    "دوائن",
+    "قيمتن",
+    "واڌ"
+   ],
+   "bt": [
+    "#99",
+    "99٪",
+    "اهي،",
+    "تائين",
+    "حڪومت",
+    "خريداري",
+    "دوائن",
+    "سبب",
+    "سيڪڙو",
+    "ضابطي",
+    "عام",
+    "قيمتن",
+    "ماڻهن",
+    "مشڪل",
+    "نئين",
+    "واڌ"
+   ]
   }
  ],
  "repeat_log": [
@@ -13882,7 +13924,7 @@
  "approve_next": 1792771906.5617883,
  "approve_last": 1792771860.5720606,
  "groq_disc": {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "model": "openai/gpt-oss-120b"
  },
  "quality": {
