@@ -1,6 +1,5 @@
 {
  "seen": {
-  "443a4cdccf9aaae4": 1794858761.4578016,
   "67c4167c78d9bf20": 1794859302.9548147,
   "7565ef91c0860ef7": 1794859302.9548185,
   "fc9ca82fcdcbf14e": 1794859302.9548197,
@@ -1868,7 +1867,7 @@
    "6a3a0bd3189d4a1d"
   ]
  },
- "last_post_id": "1444130002106066_122124011067503839",
+ "last_post_id": "1444130002106066_122124018111503839",
  "shareable": [
   {
    "id": "1444130002106066_122123767965503839",
@@ -2519,17 +2518,17 @@
    "break_done": true,
    "last_edit": 1795463772.651068,
    "batting": "Pakistan Women",
-   "done": false,
+   "done": true,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-24 00:56",
+  "time": "2026-11-24 01:01",
   "items": 28,
   "sample": [
    "New South Wales 195/7 * v Queensland 278/10",
    "Western Australia v Tasmania 295/6 *",
-   "Pakistan Women 136/9 * v Sri Lanka Women 140/6"
+   "Pakistan Women 136/9 v Sri Lanka Women 140/6"
   ]
  },
  "agri_news": {
@@ -2539,8 +2538,8 @@
  },
  "all_posts": {
   "date": "2026-11-24",
-  "count": 1,
-  "last": 1795461771.1169755
+  "count": 2,
+  "last": 1795464090.9308596
  },
  "perf": {
   "posts": [
@@ -8063,9 +8062,9 @@
  },
  "ai_usage": {
   "date": "2026-11-24",
-  "ok": 5,
-  "fail": 13,
-  "limit": 10
+  "ok": 6,
+  "fail": 15,
+  "limit": 12
  },
  "posted_heads": [
   {
@@ -8390,7 +8389,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-24 00:56",
+  "time": "2026-11-24 01:01",
   "steps": []
  },
  "roundup_am": "2026-11-23",
@@ -8498,7 +8497,7 @@
   "text": 1,
   "story": 0
  },
- "ai_last_error": "00:22 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "01:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-24",
   "models": [
@@ -8540,7 +8539,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-24",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8548,7 +8547,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-24",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8556,7 +8555,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-24",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8564,7 +8563,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8572,7 +8571,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8580,14 +8579,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8595,7 +8594,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-24",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8737,14 +8736,14 @@
   "pakistan": 1
  },
  "report_acc": {
-  "posted": 1,
-  "found": 47,
-  "old": 47,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-24 00",
+ "report_hour": "2026-11-24 01",
  "kawish_upload_times": {
   "_date": "2026-11-24",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9340,13 +9339,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-23 21:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-23 21:56",
    "ok": true,
    "n": 0,
@@ -9614,6 +9606,13 @@
   },
   {
    "t": "11-24 00:56",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-24 01:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13701,6 +13700,36 @@
     "ڊالرن",
     "ڏهه",
     "ڪان"
+   ]
+  },
+  {
+   "t": 1795464090,
+   "h": "مئچ ختم | پاڪستان وومين بمقابلي سري لنڪا وومين",
+   "b": "پاڪستان وومين 136/9 سري لنڪا وومين 140/6 سري لنڪا پاڪستان کي چار وڪيٽن سان شڪست ڏئي ڇڏي.",
+   "tt": [
+    "بمقابلي",
+    "ختم",
+    "سري",
+    "لنڪا",
+    "مئچ",
+    "وومين",
+    "پاڪستان"
+   ],
+   "bt": [
+    "#136",
+    "#140",
+    "بمقابلي",
+    "ختم",
+    "سري",
+    "شڪست",
+    "لنڪا",
+    "مئچ",
+    "وومين",
+    "وڪيٽن",
+    "پاڪستان",
+    "چار",
+    "ڇڏي",
+    "ڏئي"
    ]
   }
  ],
