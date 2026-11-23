@@ -1651,7 +1651,8 @@
   "5f19105e83b5ad1e": 1795438277.8815608,
   "87e63d7637c385ab": 1795439490.7236218,
   "3e52487982dba1f3": 1795439490.7236247,
-  "6a3a0bd3189d4a1d": 1795440079.7183511
+  "6a3a0bd3189d4a1d": 1795440079.7183511,
+  "ce945cec19672805": 1795440686.2134395
  },
  "pending": {},
  "queue": [],
@@ -1688,7 +1689,7 @@
   "last_week": "",
   "last_check": "2026-11-23"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2473,15 +2474,15 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1795440385.4599555,
+   "last_edit": 1795440993.0636153,
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-23 18:26",
-  "items": 9,
+  "time": "2026-11-23 18:36",
+  "items": 10,
   "sample": [
    "New South Wales 195/7 * v Queensland 278/10",
    "Western Australia v Tasmania 295/6 *",
@@ -7995,9 +7996,9 @@
  },
  "ai_usage": {
   "date": "2026-11-23",
-  "ok": 277,
-  "fail": 380,
-  "limit": 375
+  "ok": 280,
+  "fail": 386,
+  "limit": 381
  },
  "posted_heads": [
   {
@@ -8322,7 +8323,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-23 18:26",
+  "time": "2026-11-23 18:36",
   "steps": []
  },
  "roundup_am": "2026-11-23",
@@ -8430,7 +8431,7 @@
   "text": 22,
   "story": 21
  },
- "ai_last_error": "18:21 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "18:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-23",
   "models": [
@@ -8472,7 +8473,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-23",
-   "ok": 112,
+   "ok": 113,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8480,7 +8481,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-23",
-   "ok": 112,
+   "ok": 113,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8488,7 +8489,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-23",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8496,7 +8497,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8504,7 +8505,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8512,14 +8513,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8527,7 +8528,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-23",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8670,8 +8671,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 20,
-  "old": 20,
+  "found": 30,
+  "old": 30,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8728,8 +8729,8 @@
  "sindh_stream": {
   "date": "2026-11-23",
   "count": 11,
-  "last": 1795439466.0873685,
-  "city_i": 6,
+  "last": 1795440670.6600993,
+  "city_i": 10,
   "dry": 1795435292.3286011
  },
  "gemini_day_dead": {
@@ -9260,7 +9261,8 @@
    "12:30",
    "14:00",
    "15:30",
-   "17:00"
+   "17:00",
+   "18:30"
   ]
  },
  "kawish_queue": [],
@@ -9270,20 +9272,6 @@
   "last": 1795263683.6887078
  },
  "tg_debug": [
-  {
-   "t": "11-23 15:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-23 15:16",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-23 15:20",
    "ok": true,
@@ -9545,6 +9533,20 @@
   },
   {
    "t": "11-23 18:26",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 18:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 18:36",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13478,11 +13480,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-21 17:31",
-   "new": "پاڪستان ۾ جهاز جو ٻارڻ موٽرسائيڪل جي پيٽرول کان سستو",
-   "old": "پيٽرول کانپوءِ جهازن جي ٻارڻ، گاسليٽ ۽ ڊيزل جا اگهه گهٽايا ويا"
-  },
-  {
    "t": "11-21 19:31",
    "new": "ڀارت سنڌو درياهه جو پاڻيءَ وارو ٺاهه معطل نٿو ڪري سگهي: اسحاق ڊار",
    "old": "ڀارت سان ڳالهين جي بحالي نئين دهلي جي رويي سان مشروط آهي: اسحاق ڊار"
@@ -13626,6 +13623,11 @@
    "t": "11-23 18:21",
    "new": "سنڌ | نادرا جو يونين ڪونسل ۾ اهم سهولت جو آغاز",
    "old": "شام جون سنڌ جون اهم خبرون"
+  },
+  {
+   "t": "11-23 18:31",
+   "new": "سنڌ يوٿ ڪارڊ جي رجسٽريشن شروع، سهولتون ملنديون",
+   "old": "بلاول ڀٽو پاران سنڌ يوٿ ڪارڊ جو افتتاح"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13646,7 +13648,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 16
+  "repeat": 17
  },
  "_dup": true
 }
