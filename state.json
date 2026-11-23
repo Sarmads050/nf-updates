@@ -1,8 +1,5 @@
 {
  "seen": {
-  "c9fcd0b65ad1f6fa": 1794816193.068748,
-  "d985d6755d2e425d": 1794816415.062654,
-  "276a86eb17869cdb": 1794816415.0626576,
   "3db610fadb3a7441": 1794818032.3231244,
   "f1a74f974f22c81f": 1794818032.3232768,
   "90fdcaf2418b8a3a": 1794818796.238938,
@@ -1593,7 +1590,18 @@
   "08c45387657f7a32": 1795416965.4094276,
   "eb2abd60b670347e": 1795418456.3361537,
   "bf6cded70f7209b0": 1795419084.8224487,
-  "3e89b445beddf505": 1795419084.822452
+  "3e89b445beddf505": 1795419084.822452,
+  "79e6f9fce7d7aadb": 1795421450.3854847,
+  "156e24001e97779d": 1795421603.3581398,
+  "3809f068ea25b1e2": 1795421916.0361888,
+  "c854f03fdad37ec9": 1795421916.036192,
+  "f1fc0e8f4a9cdc6b": 1795421916.0361931,
+  "eefd318e4b7bbb7c": 1795421916.036194,
+  "423ebd4df0173aaf": 1795421916.036195,
+  "8f6c110d68e87c45": 1795421916.0361955,
+  "85daf9b0a5262971": 1795421916.0361965,
+  "8552f2e29ea230ca": 1795421916.036197,
+  "43a0b34db495f246": 1795421916.0361986
  },
  "pending": {},
  "queue": [],
@@ -1621,7 +1629,7 @@
   "last_week": "",
   "last_check": "2026-11-23"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1757,18 +1765,8 @@
    "f5984d03515fba8a"
   ]
  },
- "last_post_id": "1444130002106066_122123856831503839",
+ "last_post_id": "1444130002106066_122123862891503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122123479917503839",
-   "title": "پاڪستان ۾ آمريڪي ڊالر، برطانوي پائونڊ، يورو ۽ سعودي ريال سميت اهم پرڏيهي ڪرنسين جا نوان",
-   "t": 1795321975.3155608,
-   "tags": [
-    "business",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122123479917503839"
-  },
   {
    "id": "1444130002106066_122123495739503839",
    "title": "سنڌ يونيورسٽي جي زمين تي قبضا، معاملو نيب تائين پهچي ويو",
@@ -2077,6 +2075,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122123851215503839"
+  },
+  {
+   "id": "1444130002106066_122123862681503839",
+   "title": "نوشهرو فيروز: پٽ جي پسند جي شادي کانپوءِ فائرنگ ۾ پيءُ قتل",
+   "t": 1795422121.1728904,
+   "tags": [
+    "local",
+    "padidan"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122123862681503839"
   }
  ],
  "share_sent": {
@@ -2396,22 +2404,22 @@
    "post": "1444130002106066_122123822295503839",
    "wkts": {
     "Sri Lanka Women|1": 6,
-    "Pakistan Women|1": 6
+    "Pakistan Women|1": 9
    },
-   "wicket_posts": 10,
+   "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1795421179.5894217,
+   "last_edit": 1795422123.3318381,
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-23 13:06",
+  "time": "2026-11-23 13:22",
   "items": 10,
   "sample": [
-   "New Zealand 368/10 & 239/5 * v India 720/9",
-   "New South Wales 193/7 * v Queensland 278/10",
+   "New Zealand 239/5 & 368/10 * v India 720/9",
+   "New South Wales 195/7 * v Queensland 278/10",
    "Western Australia v Tasmania 185/5 *"
   ]
  },
@@ -2422,17 +2430,11 @@
  },
  "all_posts": {
   "date": "2026-11-23",
-  "count": 25,
-  "last": 1795420575.2319293
+  "count": 27,
+  "last": 1795422126.6851897
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122119965195503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794412383
-   },
    {
     "id": "1444130002106066_122120004339503839",
     "sec": "agri_news",
@@ -4826,6 +4828,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1795419223
+   },
+   {
+    "id": "1444130002106066_122123862681503839",
+    "sec": "sindh_stream",
+    "cat": "district",
+    "t": 1795422121
    }
   ]
  },
@@ -4835,56 +4843,8 @@
   "last": 1795406522.9857981
  },
  "trends": {
-  "last": 1795410655.5503998,
+  "last": 1795421603.358485,
   "terms": [
-   {
-    "term": "فیصل نصیر",
-    "traffic": 200,
-    "news": "AI music used in UK's oldest carnival 'disappointing'",
-    "t": 1794811856,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "bangladesh women's national cricket team vs netherlands women's national cricket team match scorecard",
-    "traffic": 200,
-    "news": "Lewas name 14 for emerging nations tournament",
-    "t": 1794811856,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "pakistan vs zimbabwe",
-    "traffic": 10000,
-    "news": "Zimbabwe Women vs Pakistan Women Match 14 T20 - ICC Women's Emerging Nations Trophy, 2026 Live Scorecard",
-    "t": 1794811856,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "deportation",
-    "traffic": 100,
-    "news": "EU countries to announce deportation hub deal with Rwanda",
-    "t": 1794811856,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "mtv roadies",
-    "traffic": 100,
-    "news": "Roadies gang leader Bani J reacts to online backlash; says 'Itni negativity ke saath log mujhe comments mein spam kar rahe'",
-    "t": 1794811856,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "pakistan super league",
-    "traffic": 100,
-    "news": "Multan Sultans Set to Sign English Star as PSL 12 Direct Signing",
-    "t": 1794811856,
-    "cat": "cricket",
-    "sindh": false
-   },
    {
     "term": "gta 5",
     "traffic": 200,
@@ -7900,21 +7860,97 @@
     "t": 1795410656,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "south africa vs bangladesh",
+    "traffic": 5000,
+    "news": "South Africa vs Bangladesh, 2nd Test: Injuries won't take the sting out of Centurion Test",
+    "t": 1795421603,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "ramayana movie",
+    "traffic": 200,
+    "news": "Ramayana Box Office Collection Day 18: Ranbir Kapoor's Film Earns More Than Dhurandhar 2 In India On 3rd Sunday",
+    "t": 1795421603,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "new zealand national cricket team",
+    "traffic": 50000,
+    "news": "New Zealand battle to 239-5 to draw first Test against India",
+    "t": 1795421603,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "gta vi endings",
+    "traffic": 200,
+    "news": "Source that predicted accurate GTA 6 ending resurfaces claiming next Rockstar game will be L.A. Noire sequel",
+    "t": 1795421603,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "24k gold rate in pakistan today",
+    "traffic": 1000,
+    "news": "Gold and silver prices decline in local and international markets",
+    "t": 1795421603,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "hong kong vs afghanistan a",
+    "traffic": 5000,
+    "news": "Afghanistan A vs Hong Kong Live Streaming: When And Where To Watch Asia Cup Rising Stars Match?",
+    "t": 1795421603,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "audit",
+    "traffic": 500,
+    "news": "Govt plans overhaul of audit oversight system to address regulatory weaknesses",
+    "t": 1795421603,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "umar nurmagomedov",
+    "traffic": 500,
+    "news": "Islam Makhachev Doubles Down on Merab Dvalishvili Assault",
+    "t": 1795421603,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "uswah drama",
+    "traffic": 200,
+    "news": "Uswah Episode 59 Review: Essa-Fariya Henna, Uswah Wants Bond to Stay",
+    "t": 1795421603,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "podcast",
+    "traffic": 100,
+    "news": "NPR's Senior Podcast Challenge: Early entries we love",
+    "t": 1795421603,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-23",
-  "ok": 142,
-  "fail": 237,
-  "limit": 234
+  "ok": 148,
+  "fail": 242,
+  "limit": 237
  },
  "posted_heads": [
-  {
-   "h": "تيل ۽ گئس جي ڳولا وارو جديد تحقيقي سامونڊي جهاز ڪراچي پهچي ويو",
-   "t": 1795188820
-  },
   {
    "h": "رياست سياست ۾ مداخلت بند ڪري، جتي آهيو اتي بيهو بس، اسان نڪتاسين ته نه ٿڪباسين نه پوئتي هٽنداسين: مولانا",
    "t": 1795190062
@@ -8230,6 +8266,10 @@
   {
    "h": "ڪراچي ۾ فلسطيني فنڪارا جي پرفارمنس، خوابن ۽ دردن جي عڪاسي",
    "t": 1795419223
+  },
+  {
+   "h": "Man Killed in Shooting After Son’s Love Marriage in Naushahro Feroze - UrduPoint",
+   "t": 1795422121
   }
  ],
  "last_errors": {
@@ -8336,12 +8376,12 @@
  },
  "article_diag": {
   "date": "2026-11-23",
-  "tried": 15,
-  "decoded": 15,
-  "text": 14,
-  "story": 13
+  "tried": 16,
+  "decoded": 16,
+  "text": 15,
+  "story": 14
  },
- "ai_last_error": "12:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "13:20 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
  "gemini_disc": {
   "date": "2026-11-23",
   "models": [
@@ -8355,10 +8395,10 @@
  },
  "img_diag": {
   "date": "2026-11-23",
-  "tried": 13,
+  "tried": 14,
   "gemini": 0,
   "pollinations": 9,
-  "skip": 0,
+  "skip": 1,
   "fail": 3,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 849,
@@ -8383,7 +8423,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-23",
-   "ok": 80,
+   "ok": 81,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8391,7 +8431,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-23",
-   "ok": 80,
+   "ok": 81,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8399,7 +8439,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-23",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8407,7 +8447,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8415,7 +8455,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8423,14 +8463,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8438,7 +8478,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-23",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8569,7 +8609,7 @@
  "gemini_off_alert": "2026-10-19",
  "region_posts": {
   "date": "2026-11-23",
-  "district": 0,
+  "district": 1,
   "sindh": 5,
   "pakistan": 7
  },
@@ -8632,19 +8672,17 @@
  },
  "sindh_stream": {
   "date": "2026-11-23",
-  "count": 4,
-  "last": 1795419082.268708,
-  "city_i": 22,
+  "count": 5,
+  "last": 1795421805.8764527,
+  "city_i": 4,
   "dry": 1795416965.4094303
  },
  "gemini_day_dead": {
-  "day": "2026-11-22",
+  "day": "2026-11-23",
   "models": [
    "gemini-3.7-flash",
-   "gemini-3.8-flash",
    "gemini-flash-latest",
-   "gemini-3.6-flash",
-   "gemini-3.5-flash"
+   "gemini-3.8-flash"
   ]
  },
  "tg_done": [
@@ -8715,22 +8753,6 @@
   92058803
  ],
  "reel_pool": [
-  {
-   "k": "7251f624c1d1f2d3",
-   "h": "سنڌ جي ملاحن جو وجود ۽ روزگار خطري هيٺ",
-   "x": "مهاڻن جو عالمي ڏينهن هر سال 21 نومبر تي ملهايو ويندو آهي. انھي ڏينهن تي مهاڻن، آبي وسيلن، سامونڊي حيات ۽ پاڻيءَ سان جڙيل ماڻهن جي حقن تي ڳالهه ٻولهه ڪئي ويندي آهي. پر سنڌ جي ملاحن لاءِ هي ڏينهن رڳو هڪ عالمي مناسبت ناهي، پر پنهنجي وجود، روزگار ۽ مستقبل بابت اڀرندڙ سوالن جو ڏينهن پڻ آهي. جڏهن درياهه کي سمنڊ تائين پهچڻ نه ڏنو وڃي، سمنڊ زمين کي ڳڙڪائڻ لڳي، مڇي گهٽجڻ لڳي ۽ روزگار جي تلاش ۾ نڪتل ماڻهو سرحد پار ڪرڻ جي الزام ۾ گرفتار ٿي وڃن، ته پوءِ سوال پيدا ٿئي ٿو ته ملاح آخر ڪهڙي ڳالهه جو جشن ملهائين!",
-   "t": 1795246937,
-   "s": true,
-   "r": 0
-  },
-  {
-   "k": "75645dc27f863a79",
-   "h": "لياقت ڀٽي قتل ڪيس: 3 جوابدار گرفتار، سيڪيورٽي گارڊ به شامل",
-   "x": "حافظ آباد پوليس ملاڪنڊ ۾ ڪارروائي ڪندي اڳوڻي مملڪتي وزير لياقت عباس ڀٽي جي قتل ڪيس ۾ نامزد ٽن جوابدارن کي گرفتار ڪري ورتو آهي. پوليس موجب، گرفتار جوابدارن ۾ مقتول جو اڳوڻو سيڪيورٽي گارڊ پڻ شامل آهي، جڏهن ته جوابدارن جي قبضي مان ڦر ڪيل ٽي گاڏيون ۽ هٿيار به هٿ ڪيا ويا آهن. پوليس جو چوڻ آهي ته جوابدارن کي گاڏين ۾ لڳل سيڪيورٽي سسٽم جي مدد سان ٽريس ڪيو ويو. شروعاتي جاچ موجب، مک جوابدار مقتول وٽ سيڪيورٽي گارڊ طور ڪم ڪندو هو. ايف آءِ آر موجب، 18 ۽ 19 نومبر جي وچ واري رات جوابدارن پيٽرول پمپ سان لاڳاپيل رهائش گاهه تي حملو ڪيو.",
-   "t": 1795248636,
-   "s": true,
-   "r": 0
-  },
   {
    "k": "d635593bcf522c3f",
    "h": "پي سي بي پاران سينٽرل ڪانٽريڪٽ جو اعلان",
@@ -9178,6 +9200,14 @@
    "t": 1795419223,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "f8ba7547412c97c4",
+   "h": "نوشهرو فيروز: پٽ جي پسند جي شادي کانپوءِ فائرنگ ۾ پيءُ قتل",
+   "x": "نوشهرو فيروز ۾ ابڙن ويجهو نامعلوم هٿياربندن گهر تي حملو ڪري پسند جي شادي ڪندڙ نوجوان جي پيءُ کي گوليون هڻي قتل ڪري ڇڏيو. پوليس موجب مبينا طور دلهن جي مائٽن غلام سرور ٽڳڙ جي گهر ۾ گهڙي فائرنگ ڪئي، جنهن جي نتيجي ۾ هو موقعي تي ئي مارجي ويو. مقتول غلام مجتبا ٽڳڙ جو پيءُ هو، جنهن ٽي ڏينهن اڳ لاڙڪاڻي جي عدالت ۾ پسند جي شادي ڪئي هئي. سومر ڏينهن پيش آيل هن واقعي سبب علائقي ۾ خوف ۽ هراس پکڙجي ويو. واقعي بعد پوليس ترت پهچي جاچ شروع ڪري ڏني آهي. پوليس اختيارين موجب مبينا جوابدارن جو پتو لڳائڻ ۽ کين گرفتار ڪرڻ لاءِ ڪوششون جاري آهن.",
+   "t": 1795422121,
+   "s": true,
+   "r": 1
   }
  ],
  "reels": {
@@ -9196,13 +9226,6 @@
   "last": 1795263683.6887078
  },
  "tg_debug": [
-  {
-   "t": "11-23 09:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-23 09:50",
    "ok": true,
@@ -9475,62 +9498,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-23 13:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-23",
  "recent_posts": [
-  {
-   "t": 1795248636,
-   "h": "لياقت ڀٽي قتل ڪيس: 3 جوابدار گرفتار، سيڪيورٽي گارڊ به شامل",
-   "b": "حافظ آباد پوليس ملاڪنڊ ۾ ڪارروائي ڪندي اڳوڻي مملڪتي وزير لياقت عباس ڀٽي جي قتل ڪيس ۾ نامزد ٽن جوابدارن کي",
-   "tt": [
-    "جوابدار",
-    "سيڪيورٽي",
-    "شامل",
-    "قتل",
-    "لياقت",
-    "ڀٽي",
-    "ڪيس",
-    "گارڊ",
-    "گرفتار،"
-   ],
-   "bt": [
-    "اباد",
-    "اهن",
-    "اهي",
-    "اهي،",
-    "اڳوڻو",
-    "اڳوڻي",
-    "جوابدار",
-    "جوابدارن",
-    "حافظ",
-    "سيڪيورٽي",
-    "شامل",
-    "عباس",
-    "قبضي",
-    "قتل",
-    "لياقت",
-    "مان",
-    "مقتول",
-    "ملاڪنڊ",
-    "مملڪتي",
-    "موجب،",
-    "نامزد",
-    "هٿيار",
-    "ورتو",
-    "وزير",
-    "پوليس",
-    "ڀٽي",
-    "ڪارروائي",
-    "ڪندي",
-    "ڪيس",
-    "ڪيل",
-    "گارڊ",
-    "گاڏيون",
-    "گرفتار",
-    "گرفتار،"
-   ]
-  },
   {
    "t": 1795250639,
    "h": "پي سي بي پاران سينٽرل ڪانٽريڪٽ جو اعلان",
@@ -13459,6 +13437,85 @@
    "bt": [
     "#140",
     "#84",
+    "ائوٽ،",
+    "اسڪور",
+    "رانديگر",
+    "سري",
+    "لنڪا",
+    "هاڻوڪو",
+    "وومين",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پاڪستان",
+    "پيون"
+   ]
+  },
+  {
+   "t": 1795422121,
+   "h": "نوشهرو فيروز: پٽ جي پسند جي شادي کانپوءِ فائرنگ ۾ پيءُ قتل",
+   "b": "نوشهرو فيروز ۾ ابڙن ويجهو نامعلوم هٿياربندن گهر تي حملو ڪري پسند جي شادي ڪندڙ نوجوان جي پيءُ کي گوليون هڻي",
+   "tt": [
+    "شادي",
+    "فائرنگ",
+    "فيروز",
+    "قتل",
+    "نوشهرو",
+    "پسند",
+    "پيء",
+    "ڪانپوء"
+   ],
+   "bt": [
+    "ابڙن",
+    "حملو",
+    "دلهن",
+    "سرور",
+    "شادي",
+    "طور",
+    "غلام",
+    "فائرنگ",
+    "فيروز",
+    "قتل",
+    "مائٽن",
+    "مارجي",
+    "مبينا",
+    "موجب",
+    "موقعي",
+    "نامعلوم",
+    "نتيجي",
+    "نوجوان",
+    "نوشهرو",
+    "هٿياربندن",
+    "هڻي",
+    "ويجهو",
+    "ٽڳڙ",
+    "پسند",
+    "پوليس",
+    "پيء",
+    "ڇڏيو",
+    "ڪئي،",
+    "ڪانپوء",
+    "ڪندڙ",
+    "گهر",
+    "گهڙي",
+    "گوليون"
+   ]
+  },
+  {
+   "t": 1795422126,
+   "h": "وڪيٽ! پاڪستان وومين جو رانديگر آئوٽ، 9 وڪيٽون ڪري پيون",
+   "b": "هاڻوڪو اسڪور: پاڪستان وومين 136/9 🏏 سري لنڪا وومين 140/6",
+   "tt": [
+    "ائوٽ،",
+    "رانديگر",
+    "وومين",
+    "وڪيٽ",
+    "وڪيٽون",
+    "پاڪستان",
+    "پيون"
+   ],
+   "bt": [
+    "#136",
+    "#140",
     "ائوٽ،",
     "اسڪور",
     "رانديگر",
