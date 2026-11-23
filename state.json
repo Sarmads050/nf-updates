@@ -1596,11 +1596,22 @@
   "1c1b396b35c5e227": 1795414870.1547487,
   "29ee94527e7a86d4": 1795416059.898513,
   "6017fd142c7c74b8": 1795416965.4094248,
-  "08c45387657f7a32": 1795416965.4094276
+  "08c45387657f7a32": 1795416965.4094276,
+  "eb2abd60b670347e": 1795418456.3361537
  },
  "pending": {},
  "queue": [],
- "jobs": [],
+ "jobs": [
+  {
+   "key": "eb2abd60b670347e",
+   "title": "ASF Announces 1,000+ Jobs",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13clNrb2Z4ajd2d1RHa2laN3FueG9pMENRcVlOLXQwUnRRVFUxd3dSTlUza1R3LU45SU9Tb29WYUlWU3haSVNxcXhiUmN5a3J2WTFCNXloN19MUGo2aHh2aHE3NWZVcGJiOTdz0gFwQVVfeXFMUHNSMWlkTFFBdlZrS3hQbVlwMGt5MXplYVYtYzA3YjhEVjdrSVhQMW5lcnhjZ3ZCemF5N1hfWEhqR0FNNmU0WE1tYjYxTmtFTE1FNFp2aGxjR05mLXcyZmxrMWNPMURDRncwS1FhMjd3UA?oc=5",
+   "domain": "propakistani.pk",
+   "source": "ProPakistani",
+   "ts": 1795417075,
+   "local": false
+  }
+ ],
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-23",
@@ -2391,19 +2402,19 @@
    },
    "wicket_posts": 8,
    "break_done": true,
-   "last_edit": 1795418236.10798,
+   "last_edit": 1795418761.6686885,
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-23 12:17",
+  "time": "2026-11-23 12:25",
   "items": 10,
   "sample": [
-   "New Zealand 368/10 & 239/5 * v India 720/9",
+   "New Zealand 239/5 & 368/10 * v India 720/9",
    "New South Wales 167/5 * v Queensland 278/10",
-   "Western Australia v Tasmania 147/4 *"
+   "Western Australia v Tasmania 151/4 *"
   ]
  },
  "agri_news": {
@@ -8224,7 +8235,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-23 12:17",
+  "time": "2026-11-23 12:26",
   "steps": []
  },
  "roundup_am": "2026-11-23",
@@ -8374,7 +8385,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-23",
-   "ok": 75,
+   "ok": 76,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8382,7 +8393,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-23",
-   "ok": 75,
+   "ok": 76,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8390,7 +8401,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-23",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8398,7 +8409,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8406,7 +8417,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8414,14 +8425,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8429,7 +8440,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-23",
-   "ok": 76,
+   "ok": 77,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8566,8 +8577,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 2,
-  "old": 2,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9195,20 +9206,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-23 08:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-23 08:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-23 08:20",
    "ok": true,
    "n": 0,
@@ -9469,6 +9466,20 @@
   },
   {
    "t": "11-23 12:17",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 12:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 12:25",
    "ok": true,
    "n": 0,
    "ids": [],
