@@ -1,9 +1,5 @@
 {
  "seen": {
-  "33023ade705b0f78": 1794839320.4828022,
-  "0ce423e3c65dd10a": 1794839320.4828045,
-  "2c129cb94157fea1": 1794839320.4828062,
-  "022bafe66f6a2ad6": 1794839320.482808,
   "a87c3e733f1d0791": 1794840224.7794135,
   "d34b45e979b2904e": 1794841869.3597107,
   "6863831d0d7b31c5": 1794841869.3597133,
@@ -1655,7 +1651,11 @@
   "8822af8f580e928b": 1795443419.0631793,
   "d871899d8d9e5a41": 1795443419.0631826,
   "32ad530859f58e31": 1795443419.0631835,
-  "94b8c8495b43115e": 1795443419.063352
+  "94b8c8495b43115e": 1795443419.063352,
+  "a8b7c6156dbbb405": 1795444357.0249317,
+  "cc64990c30d26f20": 1795444357.0249352,
+  "906f8439dc0aab2b": 1795444357.0249362,
+  "f56d3887e16b34e0": 1795444357.0249376
  },
  "pending": {},
  "queue": [],
@@ -1692,7 +1692,7 @@
   "last_week": "",
   "last_check": "2026-11-23"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1831,20 +1831,8 @@
    "6a3a0bd3189d4a1d"
   ]
  },
- "last_post_id": "1444130002106066_122123947509503839",
+ "last_post_id": "1444130002106066_122123950089503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122123681973503839",
-   "title": "تعليم کان وانجهيل نڌڻڪو نسل ۽ معاشرتي نظام",
-   "t": 1795365705.9336905,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122123681973503839"
-  },
   {
    "id": "1444130002106066_122123684979503839",
    "title": "ٽنڊو آدم ۾ پنڪ گرلز گيمز لاءِ ٽرائل، 800 رانديگرياڻين حصو ورتو",
@@ -2154,6 +2142,18 @@
     "local"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122123947509503839"
+  },
+  {
+   "id": "1444130002106066_122123950089503839",
+   "title": "اجازت ملي يا نه ريلي ضرور ڪڍنداسين: فاروق ستار",
+   "t": 1795444482.2671938,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122123950089503839"
   }
  ],
  "share_sent": {
@@ -2477,14 +2477,14 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1795444286.50079,
+   "last_edit": 1795444789.9889894,
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-23 19:31",
+  "time": "2026-11-23 19:39",
   "items": 11,
   "sample": [
    "New South Wales 195/7 * v Queensland 278/10",
@@ -2499,17 +2499,11 @@
  },
  "all_posts": {
   "date": "2026-11-23",
-  "count": 43,
-  "last": 1795443655.8091426
+  "count": 44,
+  "last": 1795444472.4407508
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122120129541503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794461504
-   },
    {
     "id": "1444130002106066_122120132067503839",
     "sec": "sindh_stream",
@@ -4903,6 +4897,12 @@
     "sec": "public_news",
     "cat": "weather_disaster",
     "t": 1795443660
+   },
+   {
+    "id": "1444130002106066_122123950089503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1795444482
    }
   ]
  },
@@ -8023,15 +8023,11 @@
  },
  "ai_usage": {
   "date": "2026-11-23",
-  "ok": 295,
-  "fail": 435,
-  "limit": 413
+  "ok": 300,
+  "fail": 445,
+  "limit": 421
  },
  "posted_heads": [
-  {
-   "h": "پاڪستان گڏيل قومن ۾ ڀارتي بيان کي بي بنياد قرار ڏئي رد ڪري ڇڏيو",
-   "t": 1795236706
-  },
   {
    "h": "Internet provider expects submarine cable repairs to be completed by Dec 6",
    "t": 1795237467
@@ -8347,10 +8343,14 @@
   {
    "h": "Lahore Tops World’s Most Polluted Cities List as Breathing Becomes Impossible",
    "t": 1795443660
+  },
+  {
+   "h": "اجازت ملي يا نه ريلي ضرور ڪڍنداسين، امن امان جي ذميواري سنڌ حڪومت جي آهي: فاروق ستار",
+   "t": 1795444482
   }
  ],
  "last_errors": {
-  "time": "2026-11-23 19:31",
+  "time": "2026-11-23 19:39",
   "steps": []
  },
  "roundup_am": "2026-11-23",
@@ -8458,7 +8458,7 @@
   "text": 24,
   "story": 22
  },
- "ai_last_error": "19:26 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "19:32 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-23",
   "models": [
@@ -8472,11 +8472,11 @@
  },
  "img_diag": {
   "date": "2026-11-23",
-  "tried": 30,
+  "tried": 31,
   "gemini": 0,
-  "pollinations": 21,
+  "pollinations": 22,
   "skip": 2,
-  "fail": 13,
+  "fail": 14,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 856,
   "unverified": 2
@@ -8500,7 +8500,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-23",
-   "ok": 118,
+   "ok": 119,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8508,7 +8508,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-23",
-   "ok": 118,
+   "ok": 119,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8516,7 +8516,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-23",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8524,7 +8524,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8532,7 +8532,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8540,14 +8540,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8555,7 +8555,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-23",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8693,13 +8693,13 @@
  "region_posts": {
   "date": "2026-11-23",
   "district": 1,
-  "sindh": 14,
+  "sindh": 15,
   "pakistan": 14
  },
  "report_acc": {
-  "posted": 0,
-  "found": 10,
-  "old": 10,
+  "posted": 1,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8755,9 +8755,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-23",
-  "count": 11,
-  "last": 1795442725.5827348,
-  "city_i": 18,
+  "count": 12,
+  "last": 1795444344.8183823,
+  "city_i": 22,
   "dry": 1795441865.060497
  },
  "gemini_day_dead": {
@@ -9277,6 +9277,14 @@
    "t": 1795443660,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "91eff130bacc7e36",
+   "h": "اجازت ملي يا نه، ريلي ضرور ڪڍنداسين: فاروق ستار",
+   "x": "ڪراچي (ويب ڊيسڪ) ايم ڪيو ايم پاڪستان جي اڳواڻ فاروق ستار چيو آهي ته اجازت ڏني وڃي يا نه، ريلي ضرور ڪڍي ويندي، امن امان برقرار رکڻ جي ذميواري سنڌ حڪومت جي آهي، جيڪڏهن حڪومت اها ذميواري نٿي نڀائي سگهي ته استعيفيٰ ڏئي. وحدت سنڌ مارچ ۾ اردو ڳالهائيندڙن جي شرڪت بابت فاروق ستار چيو ته اها سٺي ڳالهه آهي. هن چيو ته جڏهن اسان ريلي ڪڍنداسين ته ان ۾ سنڌي، بلوچ، پختون ۽ مهاجر به شرڪت ڪندا. بيان: ايم ڪيو ايم پاڪستان جو اڳواڻ فاروق ستار",
+   "t": 1795444482,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9299,20 +9307,6 @@
   "last": 1795263683.6887078
  },
  "tg_debug": [
-  {
-   "t": "11-23 16:06",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-23 16:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-23 16:19",
    "ok": true,
@@ -9574,6 +9568,20 @@
   },
   {
    "t": "11-23 19:31",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 19:31",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 19:39",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13461,6 +13469,63 @@
     "ٿيو،",
     "ڪان"
    ]
+  },
+  {
+   "t": 1795444482,
+   "h": "اجازت ملي يا نه، ريلي ضرور ڪڍنداسين: فاروق ستار",
+   "b": "ڪراچي (ويب ڊيسڪ) ايم ڪيو ايم پاڪستان جي اڳواڻ فاروق ستار چيو آهي ته اجازت ڏني وڃي يا نه، ريلي ضرور ڪڍي ويندي،",
+   "tt": [
+    "اجازت",
+    "ريلي",
+    "ستار",
+    "ضرور",
+    "فاروق",
+    "ملي",
+    "نه،",
+    "ڪڍنداسين"
+   ],
+   "bt": [
+    "اجازت",
+    "اردو",
+    "استعيفي",
+    "امان",
+    "امن",
+    "اهي",
+    "اهي،",
+    "ايم",
+    "اڳواڻ",
+    "بابت",
+    "برقرار",
+    "جيڪڏهن",
+    "حڪومت",
+    "ذميواري",
+    "ريلي",
+    "رڪڻ",
+    "ستار",
+    "سنڌ",
+    "سٺي",
+    "سگهي",
+    "شرڪت",
+    "ضرور",
+    "فاروق",
+    "مارچ",
+    "ملي",
+    "نه،",
+    "نٿي",
+    "نڀائي",
+    "وحدت",
+    "ويب",
+    "ويندي،",
+    "پاڪستان",
+    "ڊيسڪ",
+    "ڏئي",
+    "ڏني",
+    "ڪراچي",
+    "ڪڍنداسين",
+    "ڪڍي",
+    "ڳالهائيندڙن",
+    "ڳالهه"
+   ]
   }
  ],
  "repeat_log": [
@@ -13628,7 +13693,7 @@
  },
  "quality": {
   "date": "2026-11-23",
-  "editor_fixed": 24,
+  "editor_fixed": 25,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
