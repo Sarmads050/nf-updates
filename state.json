@@ -1,6 +1,5 @@
 {
  "seen": {
-  "0b8cef32d84921f1": 1794805283.2266614,
   "734fd78d1098bc9d": 1794806474.162383,
   "c6b4dce96ebf560d": 1794806474.162387,
   "0f7784bdeda8e213": 1794807654.097741,
@@ -1600,7 +1599,9 @@
   "d08ca1d66744cc74": 1795408274.2698932,
   "ffb0e193e3dff7ef": 1795408866.5165827,
   "c9789fc3e8e359f3": 1795410081.44556,
-  "bf185a46e1521921": 1795410081.4455624
+  "bf185a46e1521921": 1795410081.4455624,
+  "1a647cb719c8b049": 1795410662.0596108,
+  "caa47d3d075ec596": 1795410688.3770998
  },
  "pending": {},
  "queue": [],
@@ -1754,7 +1755,7 @@
    "f5984d03515fba8a"
   ]
  },
- "last_post_id": "1444130002106066_122123807667503839",
+ "last_post_id": "1444130002106066_122123822295503839",
  "shareable": [
   {
    "id": "1444130002106066_122123416401503839",
@@ -2383,21 +2384,24 @@
    "seen_live": true
   },
   "httpwwwcricinfocomcienginematch1557569htmlcmpotcrss": {
-   "post": null,
-   "wkts": {},
+   "post": "1444130002106066_122123822295503839",
+   "wkts": {
+    "Sri Lanka Women|1": 10
+   },
    "wicket_posts": 0,
    "break_done": false,
-   "last_edit": 0,
-   "batting": null,
-   "done": false
+   "last_edit": 1795410998.2671146,
+   "batting": "Sri Lanka Women",
+   "done": false,
+   "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-23 10:01",
+  "time": "2026-11-23 10:16",
   "items": 10,
   "sample": [
    "New Zealand 368/10 & 239/5 * v India 720/9",
-   "New South Wales 102/2 * v Queensland 278/10",
+   "New South Wales 105/2 * v Queensland 278/10",
    "Western Australia v Tasmania 68/1 *"
   ]
  },
@@ -2408,8 +2412,8 @@
  },
  "all_posts": {
   "date": "2026-11-23",
-  "count": 9,
-  "last": 1795406515.0656307
+  "count": 10,
+  "last": 1795410691.8028169
  },
  "perf": {
   "posts": [
@@ -4821,72 +4825,8 @@
   "last": 1795406522.9857981
  },
  "trends": {
-  "last": 1795399274.2790818,
+  "last": 1795410655.5503998,
   "terms": [
-   {
-    "term": "خیبر پختونخوا",
-    "traffic": 100,
-    "news": "",
-    "t": 1794800690,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "today petrol price",
-    "traffic": 100,
-    "news": "Government announces new petroleum prices, cuts petrol by Rs2 Per litre",
-    "t": 1794800690,
-    "cat": "fuel",
-    "sindh": false
-   },
-   {
-    "term": "chengdu j-10",
-    "traffic": 100,
-    "news": "J-10C spotted with a likely modified Kh-29T — South China Morning Post",
-    "t": 1794800690,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "ronaldinho gaúcho",
-    "traffic": 200,
-    "news": "Ronaldinho fails to score 300th goal as comeback lasts 45 minutes",
-    "t": 1794800690,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "gold",
-    "traffic": 500,
-    "news": "Gold (XAU/USD) Price Forecast: Dollar Strength Extends Downside Targets",
-    "t": 1794800690,
-    "cat": "dollar_gold_business",
-    "sindh": false
-   },
-   {
-    "term": "gold price",
-    "traffic": 100,
-    "news": "Wedding Season Gets a Little Easier as Gold Prices Decline",
-    "t": 1794800690,
-    "cat": "dollar_gold_business",
-    "sindh": false
-   },
-   {
-    "term": "spacex starship rocket launch",
-    "traffic": 5000,
-    "news": "SpaceX pulls off first-ever spaceship ‘catch’",
-    "t": 1794800690,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "belgium national football team vs italy national football team standings",
-    "traffic": 2000,
-    "news": "How to watch Italy vs. Belgium soccer streaming for free today: Nations League live stream, TV channel, odds",
-    "t": 1794800690,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "فیصل نصیر",
     "traffic": 200,
@@ -7894,15 +7834,71 @@
     "t": 1795399274,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "sri lanka women's national cricket team vs pakistan women's national cricket team match scorecard",
+    "traffic": 10000,
+    "news": "Sri Lanka crush Netherlands to reign unbeaten",
+    "t": 1795410656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "daryl mitchell",
+    "traffic": 20000,
+    "news": "Stats: India's highest away total comes with a historic Test first",
+    "t": 1795410656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "gold price today in pakistan",
+    "traffic": 500,
+    "news": "Gold and silver prices decline in local and international markets",
+    "t": 1795410656,
+    "cat": "dollar_gold_business",
+    "sindh": false
+   },
+   {
+    "term": "ai math riemann hypothesis",
+    "traffic": 200,
+    "news": "Anthropic Mathematician Claims to Have Solved Math’s Most Famous Problem",
+    "t": 1795410656,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "bahrain",
+    "traffic": 500,
+    "news": "Iran denies reports of US-Israeli missile strike on Qeshm Island",
+    "t": 1795410656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "گاڑی",
+    "traffic": 500,
+    "news": "",
+    "t": 1795410656,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "search",
+    "traffic": 200,
+    "news": "Seven body bags recovered, 50 missing after Indonesia factory fire",
+    "t": 1795410656,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-23",
-  "ok": 104,
-  "fail": 179,
-  "limit": 176
+  "ok": 111,
+  "fail": 193,
+  "limit": 190
  },
  "posted_heads": [
   {
@@ -8227,7 +8223,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-23 10:01",
+  "time": "2026-11-23 10:16",
   "steps": []
  },
  "roundup_am": "2026-11-23",
@@ -8330,12 +8326,12 @@
  },
  "article_diag": {
   "date": "2026-11-23",
-  "tried": 14,
-  "decoded": 14,
-  "text": 13,
+  "tried": 15,
+  "decoded": 15,
+  "text": 14,
   "story": 13
  },
- "ai_last_error": "10:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-23",
   "models": [
@@ -8377,7 +8373,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-23",
-   "ok": 61,
+   "ok": 62,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8385,7 +8381,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-23",
-   "ok": 61,
+   "ok": 62,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8393,7 +8389,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-23",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8401,7 +8397,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8409,7 +8405,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8417,14 +8413,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8432,7 +8428,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-23",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8568,9 +8564,9 @@
   "pakistan": 7
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 2,
+  "old": 2,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9229,20 +9225,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-23 03:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-23 03:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-23 04:00",
    "ok": true,
    "n": 0,
@@ -9507,184 +9489,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-23 10:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 10:16",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-23",
  "recent_posts": [
-  {
-   "t": 1795234962,
-   "h": "پاڪستان جو يو اين اي گورنمينٽ انڊيڪس ۾ درجو بهتر",
-   "b": "پاڪستان گڏيل قومن جي اي گورنمينٽ رئنڪنگ ۾ 17 درجا ترقي ڪندي 194 ملڪن مان 119 هين نمبر تي اچي ويو آهي.",
-   "tt": [
-    "انڊيڪس",
-    "اين",
-    "بهتر",
-    "درجو",
-    "پاڪستان",
-    "گورنمينٽ"
-   ],
-   "bt": [
-    "#119",
-    "#17",
-    "#194",
-    "انڊيڪس",
-    "اهي",
-    "اين",
-    "اچي",
-    "بهتر",
-    "ترقي",
-    "درجا",
-    "درجو",
-    "رئنڪنگ",
-    "قومن",
-    "مان",
-    "ملڪن",
-    "نمبر",
-    "هين",
-    "پاڪستان",
-    "ڪندي",
-    "گورنمينٽ",
-    "گڏيل"
-   ]
-  },
-  {
-   "t": 1795235817,
-   "h": "صبح جون خبرون | ڇنڇر، 21 نومبر 2026",
-   "b": "1️⃣ پاڪستان جو اي گورمينٽ انڊيڪس ۾ درجو بهتر پاڪستان گڏيل قومن جي اي گورمينٽ رئنڪنگ ۾ سترہ درجا ترقي ڪندي هڪ",
-   "tt": [
-    "#21",
-    "خبرون",
-    "صبح",
-    "نومبر",
-    "ڇنڇر،"
-   ],
-   "bt": [
-    "#21",
-    "اقبال",
-    "انڊيڪس",
-    "اهي",
-    "اوڻانويه",
-    "بابراعظم",
-    "بهتر",
-    "ترقي",
-    "خبرون",
-    "خراب",
-    "درجا",
-    "درجو",
-    "رئنڪنگ",
-    "سئو",
-    "سابق",
-    "سبب",
-    "ستره",
-    "صبح",
-    "فارم",
-    "قاسم",
-    "قومن",
-    "مڪيه",
-    "نمبر",
-    "نومبر",
-    "هين",
-    "وقت",
-    "ويرات",
-    "پاڪستان",
-    "پهچي",
-    "ڀيٽ",
-    "چوڻ",
-    "ڇنڇر،",
-    "ڏڪين",
-    "ڪرڪيٽر",
-    "ڪرڻ",
-    "ڪندي",
-    "ڪوهلي",
-    "گورمينٽ",
-    "گڏيل"
-   ]
-  },
-  {
-   "t": 1795236705,
-   "h": "پاڪستان جو گڏيل قومن ۾ ڀارتي بيان کي رد",
-   "b": "اسلام آباد (ويب ڊيسڪ): پاڪستان گڏيل قومن ۾ ڀارت جي بي بنياد بيان کي چٽن لفظن ۾ رد ڪندي ان کي اندروني معاملن ۾",
-   "tt": [
-    "بيان",
-    "قومن",
-    "پاڪستان",
-    "ڀارتي",
-    "گڏيل"
-   ],
-   "bt": [
-    "اباد",
-    "ادارن",
-    "اسلام",
-    "افيس",
-    "الزام",
-    "اندروني",
-    "اهن",
-    "اهي",
-    "بدران",
-    "بنياد",
-    "بيان",
-    "ترجمان",
-    "دهشتگردي",
-    "قرار",
-    "قومن",
-    "لفظن",
-    "مداخلت",
-    "معاملن",
-    "موجب،",
-    "هنيا",
-    "ويب",
-    "پاڪستان",
-    "پاڪستاني",
-    "پاڻي",
-    "پرڏيهي",
-    "ڀارت",
-    "ڀارتي",
-    "چٽن",
-    "ڊيسڪ",
-    "ڪندي",
-    "ڪوڙا",
-    "گڏيل",
-    "ڳالهائڻ"
-   ]
-  },
-  {
-   "t": 1795237467,
-   "h": "سنڌ ۾ سمنڊ هيٺان ڪيبل جي مرمت ڊسمبر جي شروعات تائين مڪمل ٿيندي",
-   "b": "انٽرنيٽ فراهم ڪندڙ ڪمپني جو چوڻ آهي ته سمنڊ هيٺان ڪيبل جي مرمت جو ڪم 6 ڊسمبر تائين مڪمل ٿي ويندو، جنهن کان",
-   "tt": [
-    "تائين",
-    "سمنڊ",
-    "سنڌ",
-    "شروعات",
-    "مرمت",
-    "مڪمل",
-    "هيٺان",
-    "ڊسمبر",
-    "ڪيبل"
-   ],
-   "bt": [
-    "انٽرنيٽ",
-    "اهي",
-    "بهتر",
-    "تائين",
-    "رفتار",
-    "سمنڊ",
-    "سنڌ",
-    "شروعات",
-    "فراهم",
-    "مرمت",
-    "مڪمل",
-    "هيٺان",
-    "ويندو،",
-    "پوء",
-    "چوڻ",
-    "ڊسمبر",
-    "ڪان",
-    "ڪمپني",
-    "ڪندڙ",
-    "ڪيبل"
-   ]
-  },
   {
    "t": 1795238811,
    "h": "نصيرآباد ۾ مسافر خانو نه هجڻ سبب مسافر سخت پريشان",
@@ -13591,14 +13413,38 @@
     "ڪاتي",
     "ڪوٽ"
    ]
+  },
+  {
+   "t": 1795410691,
+   "h": "LIVE | پاڪستان وومين بمقابلي سري لنڪا وومين",
+   "b": "پاڪستان وومين سري لنڪا وومين 16 🏏 تازو: 10:11 AM هي پوسٽ پاڻمرادو اپڊيٽ ٿيندي رهندي",
+   "tt": [
+    "live",
+    "بمقابلي",
+    "سري",
+    "لنڪا",
+    "وومين",
+    "پاڪستان"
+   ],
+   "bt": [
+    "#10",
+    "#11",
+    "#16",
+    "live",
+    "اپڊيٽ",
+    "بمقابلي",
+    "تازو",
+    "رهندي",
+    "سري",
+    "لنڪا",
+    "وومين",
+    "پاڪستان",
+    "پاڻمرادو",
+    "پوسٽ"
+   ]
   }
  ],
  "repeat_log": [
-  {
-   "t": "11-21 08:17",
-   "new": "موبائل نيٽ ورڪ جي سروي شروع",
-   "old": "صبح جون سنڌ جون اهم خبرون"
-  },
   {
    "t": "11-21 08:21",
    "new": "پيٽرل اگهه ۾ گهٽات ۽ ڊيزل مهانگو",
@@ -13743,6 +13589,11 @@
    "t": "11-23 09:31",
    "new": "پاکستان ۾ سوني جي قيمت ۾ واڌ",
    "old": "اڄ پاڪستان ۾ سون جي قيمت"
+  },
+  {
+   "t": "11-23 10:11",
+   "new": "لاهور دنيا جو سڀ کان وڌيڪ آلوده شهر",
+   "old": "لاهور دنيا جو سڀ کان گندو شهر بڻجي ويو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13763,7 +13614,6 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 9
- },
- "_dup": true
+  "repeat": 10
+ }
 }
