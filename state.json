@@ -1,6 +1,5 @@
 {
  "seen": {
-  "9aea1214c32a5026": 1794865874.7241428,
   "32f93edefa145fa2": 1794867089.8906806,
   "20bf3ccc01cbc051": 1794867089.8906834,
   "1f7b045d618f6c5c": 1794867089.8906848,
@@ -1695,7 +1694,10 @@
   "eecca0bec82cb565": 1795470703.495189,
   "0c1d82b9e5f8c702": 1795470703.49519,
   "5444975221e688c4": 1795470703.4951906,
-  "2d9f56778088d4b0": 1795470703.495191
+  "2d9f56778088d4b0": 1795470703.495191,
+  "f6b3e8e4d6826549": 1795471294.1751318,
+  "15ef87c998d33610": 1795471294.1751344,
+  "9da766faa1d4456a": 1795471294.175269
  },
  "pending": {},
  "queue": [],
@@ -2536,8 +2538,8 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-24 02:51",
-  "items": 26,
+  "time": "2026-11-24 03:02",
+  "items": 27,
   "sample": [
    "New South Wales 195/7 * v Queensland 278/10",
    "Western Australia v Tasmania 295/6 *",
@@ -8083,9 +8085,9 @@
  },
  "ai_usage": {
   "date": "2026-11-24",
-  "ok": 20,
-  "fail": 44,
-  "limit": 40
+  "ok": 22,
+  "fail": 54,
+  "limit": 46
  },
  "posted_heads": [
   {
@@ -8410,7 +8412,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-24 02:51",
+  "time": "2026-11-24 03:02",
   "steps": []
  },
  "roundup_am": "2026-11-23",
@@ -8513,12 +8515,12 @@
  },
  "article_diag": {
   "date": "2026-11-24",
-  "tried": 2,
-  "decoded": 2,
-  "text": 2,
+  "tried": 3,
+  "decoded": 3,
+  "text": 3,
   "story": 0
  },
- "ai_last_error": "02:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "03:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-24",
   "models": [
@@ -8560,7 +8562,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-24",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8568,7 +8570,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-24",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8576,7 +8578,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-24",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8584,7 +8586,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8592,7 +8594,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8600,14 +8602,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8615,7 +8617,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-24",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8758,13 +8760,13 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 45,
-  "old": 45,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-24 02",
+ "report_hour": "2026-11-24 03",
  "kawish_upload_times": {
   "_date": "2026-11-24",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9360,13 +9362,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-23 22:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-23 22:57",
    "ok": true,
    "n": 0,
@@ -9634,6 +9629,13 @@
   },
   {
    "t": "11-24 02:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-24 03:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13739,11 +13741,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-21 19:31",
-   "new": "ڀارت سنڌو درياهه جو پاڻيءَ وارو ٺاهه معطل نٿو ڪري سگهي: اسحاق ڊار",
-   "old": "ڀارت سان ڳالهين جي بحالي نئين دهلي جي رويي سان مشروط آهي: اسحاق ڊار"
-  },
-  {
    "t": "11-21 20:51",
    "new": "سنڌ، بلوچستان ۽ ڏکڻ پنجاب ۾ ڏڪار جو خدشو",
    "old": "سنڌ | سنڌ ۾ خشڪ سالي جو خطرو، هاءِ الرٽ جاري"
@@ -13887,6 +13884,11 @@
    "t": "11-23 18:31",
    "new": "سنڌ يوٿ ڪارڊ جي رجسٽريشن شروع، سهولتون ملنديون",
    "old": "بلاول ڀٽو پاران سنڌ يوٿ ڪارڊ جو افتتاح"
+  },
+  {
+   "t": "11-24 03:02",
+   "new": "مائڪ هيسن جو پاڪستاني رانديگرن جي واکاڻ",
+   "old": "هيشين جي پاڪستاني نوجوان رانداڳرن جي واکاڻ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13907,6 +13909,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 0
- }
+  "repeat": 1
+ },
+ "_dup": true
 }
