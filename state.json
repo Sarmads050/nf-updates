@@ -1,7 +1,5 @@
 {
  "seen": {
-  "30daeb5642f77b60": 1794787884.219522,
-  "19763811fe7a6aca": 1794787884.2198026,
   "c5240658221ad671": 1794791471.739828,
   "da3af7e82468db8d": 1794793271.259611,
   "d420cf1e4747e34c": 1794793271.2596138,
@@ -2397,11 +2395,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-23 05:11",
+  "time": "2026-11-23 05:20",
   "items": 10,
   "sample": [
-   "New Zealand 368/10 & 157/4 * v India 720/9",
-   "New South Wales v Queensland 266/8 *",
+   "New Zealand 157/4 & 368/10 * v India 720/9",
+   "New South Wales v Queensland 272/8 *",
    "Western Australia v Tasmania"
   ]
  },
@@ -8215,7 +8213,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-23 05:11",
+  "time": "2026-11-23 05:20",
   "steps": []
  },
  "roundup_am": "2026-11-22",
@@ -8365,7 +8363,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-23",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8373,7 +8371,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-23",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8381,7 +8379,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-23",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8389,7 +8387,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8397,7 +8395,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8405,14 +8403,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8420,7 +8418,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-23",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8557,8 +8555,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 2,
-  "old": 2,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9214,13 +9212,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-22 23:57",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-23 00:00",
    "ok": true,
    "n": 0,
@@ -9488,6 +9479,13 @@
   },
   {
    "t": "11-23 05:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 05:20",
    "ok": true,
    "n": 0,
    "ids": [],
