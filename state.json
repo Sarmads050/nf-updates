@@ -1,8 +1,5 @@
 {
  "seen": {
-  "9cee41681af859bc": 1794811266.5246017,
-  "f92cc5856dd29eb4": 1794811266.5246038,
-  "2e7b6296c5dc28d3": 1794811266.5246062,
   "2c80216017cdf2be": 1794812505.8087854,
   "60cd06ab33cad79c": 1794814274.8393593,
   "510a0d13f0266162": 1794814864.2537088,
@@ -1598,7 +1595,9 @@
   "681e422996732456": 1795414870.154744,
   "e4824dfbff2b061a": 1795414870.1547463,
   "1c1b396b35c5e227": 1795414870.1547487,
-  "29ee94527e7a86d4": 1795416059.898513
+  "29ee94527e7a86d4": 1795416059.898513,
+  "6017fd142c7c74b8": 1795416965.4094248,
+  "08c45387657f7a32": 1795416965.4094276
  },
  "pending": {},
  "queue": [],
@@ -1752,7 +1751,7 @@
    "f5984d03515fba8a"
   ]
  },
- "last_post_id": "1444130002106066_122123841717503839",
+ "last_post_id": "1444130002106066_122123845053503839",
  "shareable": [
   {
    "id": "1444130002106066_122123459697503839",
@@ -2388,23 +2387,24 @@
   "httpwwwcricinfocomcienginematch1557569htmlcmpotcrss": {
    "post": "1444130002106066_122123822295503839",
    "wkts": {
-    "Sri Lanka Women|1": 6
+    "Sri Lanka Women|1": 6,
+    "Pakistan Women|1": 1
    },
    "wicket_posts": 5,
-   "break_done": false,
-   "last_edit": 1795416484.86361,
-   "batting": "Sri Lanka Women",
+   "break_done": true,
+   "last_edit": 1795417179.693047,
+   "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-23 11:48",
+  "time": "2026-11-23 11:59",
   "items": 10,
   "sample": [
    "New Zealand 368/10 & 239/5 * v India 720/9",
-   "New South Wales 149/4 * v Queensland 278/10",
-   "Western Australia v Tasmania 131/4 *"
+   "New South Wales 161/4 * v Queensland 278/10",
+   "Western Australia v Tasmania 146/4 *"
   ]
  },
  "agri_news": {
@@ -2414,8 +2414,8 @@
  },
  "all_posts": {
   "date": "2026-11-23",
-  "count": 18,
-  "last": 1795416175.4621484
+  "count": 19,
+  "last": 1795417304.9088933
  },
  "perf": {
   "posts": [
@@ -7898,9 +7898,9 @@
  },
  "ai_usage": {
   "date": "2026-11-23",
-  "ok": 132,
-  "fail": 225,
-  "limit": 222
+  "ok": 137,
+  "fail": 229,
+  "limit": 226
  },
  "posted_heads": [
   {
@@ -8333,7 +8333,7 @@
   "text": 14,
   "story": 13
  },
- "ai_last_error": "11:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "11:59 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-23",
   "models": [
@@ -8347,13 +8347,13 @@
  },
  "img_diag": {
   "date": "2026-11-23",
-  "tried": 11,
+  "tried": 12,
   "gemini": 0,
   "pollinations": 8,
   "skip": 0,
   "fail": 1,
-  "last_note": "Markhor themed fashion dress",
-  "mismatch": 846,
+  "last_note": "cricket bat and ball",
+  "mismatch": 849,
   "unverified": 2
  },
  "gemini_img": {
@@ -8375,7 +8375,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-23",
-   "ok": 72,
+   "ok": 73,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8383,7 +8383,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-23",
-   "ok": 72,
+   "ok": 73,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8391,7 +8391,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-23",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8399,7 +8399,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8407,7 +8407,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8415,14 +8415,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8430,7 +8430,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-23",
-   "ok": 73,
+   "ok": 74,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8625,9 +8625,9 @@
  "sindh_stream": {
   "date": "2026-11-23",
   "count": 3,
-  "last": 1795416058.1206949,
-  "city_i": 14,
-  "dry": 1795410081.4455643
+  "last": 1795416962.8740022,
+  "city_i": 18,
+  "dry": 1795416965.4094303
  },
  "gemini_day_dead": {
   "day": "2026-11-22",
@@ -9196,13 +9196,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-23 07:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-23 07:20",
    "ok": true,
    "n": 0,
@@ -9470,6 +9463,13 @@
   },
   {
    "t": "11-23 11:48",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 11:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13445,6 +13445,24 @@
     "ڇڏيو",
     "ڪان",
     "ڪيل"
+   ]
+  },
+  {
+   "t": 1795417304,
+   "h": "اننگز جو وقفو",
+   "b": "پاڪستان وومين 8/1 🏏 سري لنڪا وومين 140/6",
+   "tt": [
+    "اننگز",
+    "وقفو"
+   ],
+   "bt": [
+    "#140",
+    "اننگز",
+    "سري",
+    "لنڪا",
+    "وقفو",
+    "وومين",
+    "پاڪستان"
    ]
   }
  ],
