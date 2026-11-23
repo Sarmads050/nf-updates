@@ -1,8 +1,5 @@
 {
  "seen": {
-  "da3af7e82468db8d": 1794793271.259611,
-  "d420cf1e4747e34c": 1794793271.2596138,
-  "619cb842ca1f4b45": 1794793271.2597487,
   "fca107ff13e0bcdb": 1794797468.2153184,
   "e5ec7b5fb39242df": 1794799254.0286415,
   "59f8af06c015327b": 1794799272.7768981,
@@ -1606,7 +1603,11 @@
   "002a2f65007f344e": 1795396881.6009037,
   "ec7ef7f500b4b2fe": 1795396881.6009047,
   "731da91b8d97032d": 1795396881.6009054,
-  "cf35e90d75a79909": 1795396881.6010525
+  "cf35e90d75a79909": 1795396881.6010525,
+  "abc098c5a262322e": 1795398667.6979144,
+  "affc17cdfedbe5cd": 1795398667.6977324,
+  "387021d2f3425182": 1795398667.697734,
+  "73f93f1201b98ba3": 1795398680.6202369
  },
  "pending": {},
  "queue": [],
@@ -2407,10 +2408,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-23 06:40",
+  "time": "2026-11-23 06:51",
   "items": 10,
   "sample": [
-   "New Zealand 194/5 & 368/10 * v India 720/9",
+   "New Zealand 368/10 & 195/5 * v India 720/9",
    "New South Wales 2 * v Queensland 278/10",
    "Western Australia v Tasmania"
   ]
@@ -7898,9 +7899,9 @@
  },
  "ai_usage": {
   "date": "2026-11-23",
-  "ok": 78,
-  "fail": 131,
-  "limit": 128
+  "ok": 82,
+  "fail": 139,
+  "limit": 136
  },
  "posted_heads": [
   {
@@ -8225,7 +8226,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-23 06:40",
+  "time": "2026-11-23 06:51",
   "steps": []
  },
  "roundup_am": "2026-11-22",
@@ -8328,12 +8329,12 @@
  },
  "article_diag": {
   "date": "2026-11-23",
-  "tried": 11,
-  "decoded": 11,
-  "text": 10,
-  "story": 10
+  "tried": 12,
+  "decoded": 12,
+  "text": 11,
+  "story": 11
  },
- "ai_last_error": "06:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-23",
   "models": [
@@ -8376,14 +8377,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-23",
    "ok": 42,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-23",
-   "ok": 41,
+   "ok": 42,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8391,7 +8392,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-23",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8399,7 +8400,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8407,7 +8408,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8415,14 +8416,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8430,7 +8431,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-23",
-   "ok": 42,
+   "ok": 43,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8567,8 +8568,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 8,
-  "old": 8,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8626,8 +8627,8 @@
   "date": "2026-11-23",
   "count": 0,
   "last": 1795377681.792937,
-  "city_i": 4,
-  "dry": 1795396863.5034516
+  "city_i": 8,
+  "dry": 1795398663.5323384
  },
  "gemini_day_dead": {
   "day": "2026-11-22",
@@ -9232,13 +9233,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-23 00:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-23 00:45",
    "ok": true,
    "n": 0,
@@ -9506,6 +9500,13 @@
   },
   {
    "t": "11-23 06:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 06:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13717,11 +13718,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-21 00:01",
-   "new": "پاڪستان ۾ سوني اگهه ۾ وڏي گهٽتائي",
-   "old": "پاڪستان ۾ سون جي قيمت ۾ گهٽتائي"
-  },
-  {
    "t": "11-21 03:41",
    "new": "پاڪستان ۾ سون جي اگهه ۾ وڏي گهٽتائي",
    "old": "پاڪستان ۾ سون جي قيمت ۾ گهٽتائي"
@@ -13865,6 +13861,11 @@
    "t": "11-23 01:01",
    "new": "سنڌ ورھائيندڙ ڪلچرل فيسٽيول ۾ اچي ڏسن: مراد شاهه",
    "old": "سنڌ جي ورهاست خلاف وحدت سنڌ مارچ"
+  },
+  {
+   "t": "11-23 06:51",
+   "new": "لاهور ۾ وايوپرڌوشن خطرناڪ حد تائين پهچي وئي",
+   "old": "لاهور دنيا جو سڀ کان گندو شهر بڻجي ويو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -13885,6 +13886,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 6
- }
+  "repeat": 7
+ },
+ "_dup": true
 }
