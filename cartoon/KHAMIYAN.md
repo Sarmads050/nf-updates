@@ -89,6 +89,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-085] (ep029, 2026-11-22) Kahani "plate ko dholak bana kar bajane" ki hai lekin Hashir aur Abba plate sirf pakarte hain, bajate nazar nahi aate (sirf "clink" awaaz) — naya "drum" pose: plate god/farsh par, dono haath taal par upar-neeche.
 - [K-086] (ep029, 2026-11-22) Is dafa bhi Bhabi Sana ki saari lines aur Ammi ki ek line "edge" backup awaaz mein bani (Gemini quota) — Sana ki backup awaaz ko us ki Gemini awaaz ke qareeb pitch/speed par set karna.
 
+- [K-087] (ep030, 2026-11-23) Poori kahani "paanch kilo matar" ki hai lekin screen par ek bhi matar/phali nazar nahi aati — Daniyal ka thaila wahi chhota jamni dabba hai aur sab ke haath mein khaali safaid plate hai — naya "matar" prop: hari phaliyon se bhara thaila, aur plate mein hare daane + side mein chhilkon ka dher.
+- [K-088] (ep030, 2026-11-23) "Poora ghar matar chheelne baith gaya" (0:40-1:05) lekin koi chheelta nazar nahi aata, sab plate pakre baithe rehte hain — naya "shell" pose: plate god mein, dono haath plate ke upar chhoti chhoti harkat (phali torna), beech beech mein daana plate mein girna.
+- [K-089] (ep030, 2026-11-23) Bhabi Sana "freezer mein rakh lenge" kehti hain lekin fridge band hi rehta hai, aur chulhe par matar ubalne ki degchi nahi dikhti — kitchen mein naya "fridge_open" action (darwaza khulna, andar thandi roshni, shopper andar rakhna).
+
 ## APPROVED
 
 ## DONE

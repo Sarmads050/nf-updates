@@ -21,9 +21,9 @@
    "time": "day",
    "label": "Aangan • Subah",
    "cast": {
-    "MEHAK": "charpai_l",
     "ABBA": "charpai_c",
-    "AMMI": "stand_c",
+    "MEHAK": "charpai_r",
+    "AMMI": "stand_l",
     "DANIYAL": "stand_r"
    },
    "props": {
@@ -324,7 +324,7 @@
      "who": "AMMI",
      "to": "front",
      "emo": "angry",
-     "pose": "facepalm",
+     "pose": "shrug",
      "shot": "group",
      "roman": "Main ne pehle hi kaha tha! *Paanch kilo* ek din mein khatam nahi honge!",
      "urdu": "میں نے پہلے ہی کہا تھا! پانچ کلو ایک دن میں ختم نہیں ہوں گے!",
@@ -342,7 +342,7 @@
    "label": "Kitchen • Raat",
    "cast": {
     "SANA": "stove",
-    "AMMI": "right"
+    "AMMI": "mid"
    },
    "props": {
     "SANA": "ladle",
@@ -369,7 +369,7 @@
      "who": "AMMI",
      "to": "SANA",
      "emo": "confused",
-     "pose": "think",
+     "pose": "shrug",
      "shot": "close",
      "roman": "Freezer mein? *Kharab* to nahi ho jayenge, Sana?",
      "urdu": "فریزر میں؟ خراب تو نہیں ہو جائیں گے، ثنا؟",
@@ -426,7 +426,7 @@
       {
        "do": "enter",
        "who": "DANIYAL",
-       "slot": "left"
+       "slot": "right"
       }
      ],
      "looks": {
