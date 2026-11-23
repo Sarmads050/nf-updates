@@ -1675,7 +1675,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-23",
-  "count": 0
+  "count": 1
  },
  "last_digest": "2026-11-23",
  "alert_day": "2026-10-20",
@@ -1733,7 +1733,7 @@
   ]
  },
  "last_daily": "2026-11-23",
- "roundup_pm": "2026-11-22",
+ "roundup_pm": "2026-11-23",
  "replied": [],
  "q_index": 1,
  "last_question": "2026-11-20",
@@ -1823,7 +1823,7 @@
    "9e8bd7cdaa4230c2"
   ]
  },
- "last_post_id": "1444130002106066_122123926779503839",
+ "last_post_id": "1444130002106066_122123929365503839",
  "shareable": [
   {
    "id": "1444130002106066_122123610771503839",
@@ -2469,14 +2469,14 @@
    },
    "wicket_posts": 11,
    "break_done": true,
-   "last_edit": 1795438655.7922063,
+   "last_edit": 1795439218.4329836,
    "batting": "Pakistan Women",
    "done": false,
    "seen_live": true
   }
  },
  "cricket_feed": {
-  "time": "2026-11-23 17:57",
+  "time": "2026-11-23 18:06",
   "items": 9,
   "sample": [
    "New South Wales 195/7 * v Queensland 278/10",
@@ -2491,8 +2491,8 @@
  },
  "all_posts": {
   "date": "2026-11-23",
-  "count": 40,
-  "last": 1795438340.7445414
+  "count": 41,
+  "last": 1795438904.9635196
  },
  "perf": {
   "posts": [
@@ -7991,9 +7991,9 @@
  },
  "ai_usage": {
   "date": "2026-11-23",
-  "ok": 272,
-  "fail": 367,
-  "limit": 365
+  "ok": 274,
+  "fail": 371,
+  "limit": 369
  },
  "posted_heads": [
   {
@@ -8318,7 +8318,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-23 17:57",
+  "time": "2026-11-23 18:06",
   "steps": []
  },
  "roundup_am": "2026-11-23",
@@ -8426,7 +8426,7 @@
   "text": 22,
   "story": 21
  },
- "ai_last_error": "17:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-23",
   "models": [
@@ -8468,7 +8468,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-23",
-   "ok": 109,
+   "ok": 110,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8476,7 +8476,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-23",
-   "ok": 109,
+   "ok": 110,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8484,7 +8484,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-23",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8492,7 +8492,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8500,7 +8500,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8508,14 +8508,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-23",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-23",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8523,7 +8523,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-23",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8661,18 +8661,18 @@
  "region_posts": {
   "date": "2026-11-23",
   "district": 1,
-  "sindh": 13,
+  "sindh": 14,
   "pakistan": 12
  },
  "report_acc": {
-  "posted": 3,
-  "found": 50,
-  "old": 48,
-  "irrelevant": 2,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
+  "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-23 17",
+ "report_hour": "2026-11-23 18",
  "kawish_upload_times": {
   "_date": "2026-11-23",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9267,20 +9267,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-23 14:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
-   "t": "11-23 14:48",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-23 14:50",
    "ok": true,
    "n": 0,
@@ -9545,34 +9531,24 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-23 18:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-23 18:06",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-23",
  "recent_posts": [
-  {
-   "t": 1795265608,
-   "h": "پاڪستان ۾ سون جي اگهن ۾ لاڳاتار گهٽتائي",
-   "b": "پاڪستان ۾ سون جي اگهن ۾ مسلسل چوٿين ڏينهن به گهٽتائي رڪارڊ ڪئي وئي آهي.",
-   "tt": [
-    "اگهن",
-    "سون",
-    "لاڳاتار",
-    "پاڪستان",
-    "گهٽتائي"
-   ],
-   "bt": [
-    "اهي",
-    "اگهن",
-    "رڪارڊ",
-    "سون",
-    "لاڳاتار",
-    "مسلسل",
-    "پاڪستان",
-    "چوٿين",
-    "ڏينهن",
-    "گهٽتائي"
-   ]
-  },
   {
    "t": 1795266131,
    "h": "شام جون سنڌ جون اهم خبرون",
@@ -13445,6 +13421,54 @@
     "چيئرمين",
     "ڏئي",
     "ڪان"
+   ]
+  },
+  {
+   "t": 1795438904,
+   "h": "شام جون سنڌ جون اهم خبرون",
+   "b": "23 نومبر 2026 1️⃣ نادرا پاران سرٽيفڪيٽن جي انجيراج لاءِ بائاميرٽڪ تصديق شروع نادرا طرفان پيدائش، وفات، شادي ۽",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "شام"
+   ],
+   "bt": [
+    "#23",
+    "اغاز",
+    "انجيراج",
+    "اندراج",
+    "اهم",
+    "اهي،",
+    "بائاميرٽڪ",
+    "بڻائڻ",
+    "تحت",
+    "تصديق",
+    "حيدراباد،",
+    "خبرون",
+    "سرٽيفڪيٽن",
+    "سميت",
+    "سنڌ",
+    "سڪهر،",
+    "شادي",
+    "شام",
+    "شروع",
+    "شفاف",
+    "ضلعن",
+    "طرفان",
+    "طلاق",
+    "لاڙڪانا،",
+    "مختلف",
+    "نادرا",
+    "نظام",
+    "نوابشاهه",
+    "نومبر",
+    "وفات،",
+    "يونين",
+    "پاران",
+    "پيدائش،",
+    "ڪراچي،",
+    "ڪونسل"
    ]
   }
  ],
