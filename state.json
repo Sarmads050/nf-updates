@@ -1677,7 +1677,8 @@
   "d23f749676755f97": 1795509100.5786743,
   "2bb9c888e02533ca": 1795509100.5786755,
   "482e79f697f63b7d": 1795509191.309531,
-  "6a43d8e8144f2652": 1795509657.9025137
+  "6a43d8e8144f2652": 1795509657.9025137,
+  "7dbd45fac066d19f": 1795510278.228066
  },
  "pending": {},
  "queue": [],
@@ -1846,20 +1847,8 @@
    "16efb872414d431b"
   ]
  },
- "last_post_id": "1444130002106066_122124165051503839",
+ "last_post_id": "1444130002106066_122124167445503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122123926779503839",
-   "title": "وڙهندا ۽ نفرت پکيڙيندا رهياسين ته بحرانن کي منهن نه ڏئي سگهنداسين: بلاول ڀٽو",
-   "t": 1795438350.619927,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122123926779503839"
-  },
   {
    "id": "1444130002106066_122123940873503839",
    "title": "آر ايس آر پاران 88 هزار 300 ڪيوسڪ پاڻي جاري ڪيو ويو آهي جڏهن ته پاڻي جي آمد 46 هزار 200",
@@ -2163,6 +2152,18 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124165051503839"
+  },
+  {
+   "id": "1444130002106066_122124167445503839",
+   "title": "دادو ۾ تعليم کاتي جي آفيسرن ۾ تڪرار، جاچ جي سفارش",
+   "t": 1795510299.666802,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124167445503839"
   }
  ],
  "share_sent": {
@@ -2493,12 +2494,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-24 13:40",
+  "time": "2026-11-24 13:51",
   "items": 26,
   "sample": [
-   "New South Wales 303/10 v Queensland 278/10 & 106/2 *",
-   "Western Australia 138/4 * v Tasmania 342/10",
-   "South Africa 121/1 * v Bangladesh 91/10"
+   "New South Wales 303/10 v Queensland 106/2 & 278/10 *",
+   "Western Australia 140/4 * v Tasmania 342/10",
+   "South Africa 133/1 * v Bangladesh 91/10"
   ]
  },
  "agri_news": {
@@ -2508,17 +2509,11 @@
  },
  "all_posts": {
   "date": "2026-11-24",
-  "count": 24,
-  "last": 1795509469.17936
+  "count": 25,
+  "last": 1795510294.484413
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122120352621503839",
-    "sec": "agri_news",
-    "cat": "agri_news",
-    "t": 1794523472
-   },
    {
     "id": "1444130002106066_122120368965503839",
     "sec": "public_news",
@@ -4912,6 +4907,12 @@
     "sec": "public_news",
     "cat": "transport_trade",
     "t": 1795509473
+   },
+   {
+    "id": "1444130002106066_122124167445503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1795510299
    }
   ]
  },
@@ -8040,15 +8041,11 @@
  },
  "ai_usage": {
   "date": "2026-11-24",
-  "ok": 151,
-  "fail": 296,
-  "limit": 272
+  "ok": 157,
+  "fail": 304,
+  "limit": 280
  },
  "posted_heads": [
-  {
-   "h": "Pakistan's trade deficit widens 17.16% to $14.77bn",
-   "t": 1795270338
-  },
   {
    "h": "زهريلي کائڻ سبب هڪ ئي ڪٽنب جا 5 ڀاتي فوت، ڌيءَ تي زهر ملائڻ جا الزام",
    "t": 1795273923
@@ -8364,10 +8361,14 @@
   {
    "h": "Agreement signed to outsource Karachi and Lahore airports",
    "t": 1795509473
+  },
+  {
+   "h": "دادو ۾ تعليم کاتي جي ٻن سينيئر آفيسرن وچ ۾ تڪرار، جاچ ڪميٽي جوڙڻ جي سفارش",
+   "t": 1795510299
   }
  ],
  "last_errors": {
-  "time": "2026-11-24 13:40",
+  "time": "2026-11-24 13:51",
   "steps": []
  },
  "roundup_am": "2026-11-24",
@@ -8475,7 +8476,7 @@
   "text": 16,
   "story": 11
  },
- "ai_last_error": "13:36 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "13:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-24",
   "models": [
@@ -8489,9 +8490,9 @@
  },
  "img_diag": {
   "date": "2026-11-24",
-  "tried": 21,
+  "tried": 22,
   "gemini": 0,
-  "pollinations": 12,
+  "pollinations": 13,
   "skip": 4,
   "fail": 6,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
@@ -8517,7 +8518,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-24",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8525,7 +8526,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-24",
-   "ok": 83,
+   "ok": 84,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8533,7 +8534,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-24",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8541,7 +8542,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8549,7 +8550,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8557,14 +8558,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8572,7 +8573,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-24",
-   "ok": 84,
+   "ok": 85,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8583,7 +8584,7 @@
   "last": "2026-11-20",
   "idx": 5
  },
- "ai_last_model": "google/gemma-4-26b-a4b-it:free",
+ "ai_last_model": "google/gemma-4-31b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8710,13 +8711,13 @@
  "region_posts": {
   "date": "2026-11-24",
   "district": 0,
-  "sindh": 8,
+  "sindh": 9,
   "pakistan": 13
  },
  "report_acc": {
-  "posted": 2,
-  "found": 32,
-  "old": 32,
+  "posted": 3,
+  "found": 40,
+  "old": 40,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8773,9 +8774,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-24",
-  "count": 5,
-  "last": 1795509071.8058648,
-  "city_i": 20,
+  "count": 6,
+  "last": 1795510273.9234304,
+  "city_i": 24,
   "dry": 1795509100.5786772
  },
  "gemini_day_dead": {
@@ -9327,6 +9328,14 @@
    "t": 1795509472,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "1d973fa7815054fa",
+   "h": "دادو ۾ تعليم کاتي جي آفيسرن ۾ تڪرار، جاچ جي سفارش",
+   "x": "دادو ۾ تعليم کاتي جي ٻن سينيئر آفيسرن وچ ۾ انتظامي معاملن تان شروع ٿيل تڪرار ميڊيا تائين پهچي ويو آهي. ڊائريڪٽر پرائمري ايجوڪيشن حيدرآباد معاملي جو نوٽيس وٺندي سيڪريٽري تعليم سنڌ کي غيرجانبدار جاچ لاءِ سينيئر آفيسرن تي مشتمل ڪميٽي جوڙڻ جي سفارش ڪري ڇڏي آهي. ڊي اي او پرائمري دادو محمد انور اوڍانو ۽ ٽي اي او في ميل پرائمري جوهي شهجهان شاهه پاران هڪ ٻئي خلاف ميڊيا تي بيان ڏيڻ تي ڊائريڪٽر ڳڻتي ظاهر ڪئي آهي. سندس چوڻ هو ته اهڙي عمل سان تعليم کاتي جي ساک متاثر ٿي آهي.",
+   "t": 1795510299,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9345,13 +9354,6 @@
   "last": 1795263683.6887078
  },
  "tg_debug": [
-  {
-   "t": "11-24 07:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-24 07:30",
    "ok": true,
@@ -9620,6 +9622,13 @@
   },
   {
    "t": "11-24 13:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-24 13:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13643,6 +13652,54 @@
     "ڪراچي",
     "ڪرڻ"
    ]
+  },
+  {
+   "t": 1795510299,
+   "h": "دادو ۾ تعليم کاتي جي آفيسرن ۾ تڪرار، جاچ جي سفارش",
+   "b": "دادو ۾ تعليم کاتي جي ٻن سينيئر آفيسرن وچ ۾ انتظامي معاملن تان شروع ٿيل تڪرار ميڊيا تائين پهچي ويو آهي.",
+   "tt": [
+    "افيسرن",
+    "تعليم",
+    "تڪرار،",
+    "جاچ",
+    "دادو",
+    "سفارش",
+    "ڪاتي"
+   ],
+   "bt": [
+    "افيسرن",
+    "انتظامي",
+    "اهي",
+    "ايجوڪيشن",
+    "تائين",
+    "تان",
+    "تعليم",
+    "تڪرار",
+    "تڪرار،",
+    "جاچ",
+    "جوڙڻ",
+    "حيدراباد",
+    "دادو",
+    "سفارش",
+    "سنڌ",
+    "سينيئر",
+    "سيڪريٽري",
+    "شروع",
+    "غيرجانبدار",
+    "مشتمل",
+    "معاملن",
+    "معاملي",
+    "ميڊيا",
+    "نوٽيس",
+    "وٺندي",
+    "پرائمري",
+    "پهچي",
+    "ٿيل",
+    "ڇڏي",
+    "ڊائريڪٽر",
+    "ڪاتي",
+    "ڪميٽي"
+   ]
   }
  ],
  "repeat_log": [
@@ -13810,7 +13867,7 @@
  },
  "quality": {
   "date": "2026-11-24",
-  "editor_fixed": 14,
+  "editor_fixed": 15,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
