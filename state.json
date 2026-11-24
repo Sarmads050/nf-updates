@@ -1,6 +1,5 @@
 {
  "seen": {
-  "aa660c765444d4d6": 1794889277.7417994,
   "107e3412de5c1dd3": 1794889883.1472116,
   "f6bd710071d4f951": 1794891080.5326452,
   "341aa51245b54fa0": 1794892268.475338,
@@ -1687,7 +1686,8 @@
   "caa0bdad3813565e": 1795490490.385215,
   "efcbea187d58ceb6": 1795492262.8287628,
   "d8159c5100efed79": 1795493463.1117613,
-  "12c28b2be93ea63d": 1795494077.571182
+  "12c28b2be93ea63d": 1795494077.571182,
+  "eff9c3884f387673": 1795494679.5146177
  },
  "pending": {},
  "queue": [],
@@ -2493,11 +2493,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-24 09:21",
+  "time": "2026-11-24 09:31",
   "items": 26,
   "sample": [
    "New South Wales 303/10 v Queensland 278/10 & 74/2 *",
-   "Western Australia 12 * v Tasmania 342/10",
+   "Western Australia 24/1 * v Tasmania 342/10",
    "South Africa 88/1 * v Bangladesh 91/10"
   ]
  },
@@ -8048,9 +8048,9 @@
  },
  "ai_usage": {
   "date": "2026-11-24",
-  "ok": 95,
-  "fail": 188,
-  "limit": 168
+  "ok": 97,
+  "fail": 192,
+  "limit": 172
  },
  "posted_heads": [
   {
@@ -8375,7 +8375,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-24 09:21",
+  "time": "2026-11-24 09:31",
   "steps": []
  },
  "roundup_am": "2026-11-24",
@@ -8478,12 +8478,12 @@
  },
  "article_diag": {
   "date": "2026-11-24",
-  "tried": 12,
-  "decoded": 12,
-  "text": 11,
-  "story": 6
+  "tried": 13,
+  "decoded": 13,
+  "text": 12,
+  "story": 7
  },
- "ai_last_error": "09:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "09:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-24",
   "models": [
@@ -8525,7 +8525,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-24",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8533,7 +8533,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-24",
-   "ok": 57,
+   "ok": 58,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8541,7 +8541,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-24",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8549,7 +8549,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8557,7 +8557,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8565,14 +8565,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8580,7 +8580,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-24",
-   "ok": 58,
+   "ok": 59,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8723,8 +8723,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 18,
-  "old": 18,
+  "found": 27,
+  "old": 27,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8783,8 +8783,8 @@
   "date": "2026-11-24",
   "count": 0,
   "last": 1795470676.6783714,
-  "city_i": 4,
-  "dry": 1795494069.325787
+  "city_i": 8,
+  "dry": 1795494674.8315096
  },
  "gemini_day_dead": {
   "day": "2026-11-23",
@@ -9332,7 +9332,8 @@
  "reels": {
   "date": "2026-11-24",
   "done": [
-   "08:00"
+   "08:00",
+   "09:30"
   ]
  },
  "kawish_queue": [],
@@ -9342,13 +9343,6 @@
   "last": 1795263683.6887078
  },
  "tg_debug": [
-  {
-   "t": "11-24 03:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-24 03:10",
    "ok": true,
@@ -9617,6 +9611,13 @@
   },
   {
    "t": "11-24 09:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-24 09:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13866,11 +13867,6 @@
  "repeat_log": [
   {
    "t": "11-22 03:12",
-   "new": "مرد ڪرڪيٽرن لاءِ مرڪزي قراردادن جو اعلان",
-   "old": "منجهند جون خبرون | ڇنڇر، 21 نومبر 2026"
-  },
-  {
-   "t": "11-22 03:12",
    "new": "ڪراچي ۾ ڪڻڪ جو اگهه وڌي ويو",
    "old": "ڪراچي ۾ ڪڻڪ جو بحران شدت اختيار ڪري ويو"
   },
@@ -14013,6 +14009,11 @@
    "t": "11-24 08:51",
    "new": "سوني جي اگهن ۾ واڌ",
    "old": "پاڪستان ۾ سون جي اگهن ۾ وڏو واڌارو"
+  },
+  {
+   "t": "11-24 09:31",
+   "new": "پاڪستان ۾ اڄ ڪرنسي اگهه جاري",
+   "old": "پاڪستان ۾ اڄوڪا ڪرنسي اگھ جاري"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14033,6 +14034,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 3
- }
+  "repeat": 4
+ },
+ "_dup": true
 }
