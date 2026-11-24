@@ -1687,7 +1687,8 @@
   "30f6c17590c2f9e3": 1795487493.7955103,
   "17a4b9691d632582": 1795487493.7955117,
   "d35775a235435346": 1795487493.7956526,
-  "caa0bdad3813565e": 1795490490.385215
+  "caa0bdad3813565e": 1795490490.385215,
+  "efcbea187d58ceb6": 1795492262.8287628
  },
  "pending": {},
  "queue": [],
@@ -2537,11 +2538,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-24 08:41",
+  "time": "2026-11-24 08:51",
   "items": 26,
   "sample": [
-   "New South Wales 303/10 v Queensland 278/10 & 56/1 *",
-   "Western Australia v Tasmania 324/7 *",
+   "New South Wales 303/10 v Queensland 71/1 & 278/10 *",
+   "Western Australia v Tasmania 342/8 *",
    "South Africa 88/1 * v Bangladesh 91/10"
   ]
  },
@@ -8092,9 +8093,9 @@
  },
  "ai_usage": {
   "date": "2026-11-24",
-  "ok": 82,
-  "fail": 164,
-  "limit": 144
+  "ok": 85,
+  "fail": 170,
+  "limit": 150
  },
  "posted_heads": [
   {
@@ -8419,7 +8420,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-24 08:41",
+  "time": "2026-11-24 08:51",
   "steps": []
  },
  "roundup_am": "2026-11-24",
@@ -8522,12 +8523,12 @@
  },
  "article_diag": {
   "date": "2026-11-24",
-  "tried": 10,
-  "decoded": 10,
-  "text": 9,
-  "story": 4
+  "tried": 11,
+  "decoded": 11,
+  "text": 10,
+  "story": 5
  },
- "ai_last_error": "08:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-24",
   "models": [
@@ -8569,7 +8570,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-24",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8577,7 +8578,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-24",
-   "ok": 52,
+   "ok": 53,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8585,7 +8586,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-24",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8593,7 +8594,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8601,7 +8602,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8609,14 +8610,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8624,7 +8625,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-24",
-   "ok": 53,
+   "ok": 54,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8767,8 +8768,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 36,
-  "old": 36,
+  "found": 45,
+  "old": 45,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8827,8 +8828,8 @@
   "date": "2026-11-24",
   "count": 0,
   "last": 1795470676.6783714,
-  "city_i": 10,
-  "dry": 1795491663.427659
+  "city_i": 14,
+  "dry": 1795492258.201344
  },
  "gemini_day_dead": {
   "day": "2026-11-23",
@@ -9387,13 +9388,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-24 02:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-24 02:20",
    "ok": true,
    "n": 0,
@@ -9661,6 +9655,13 @@
   },
   {
    "t": "11-24 08:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-24 08:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13877,11 +13878,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-22 02:01",
-   "new": "ٽرانس ورلڊ ڪيبل جي مرمت 6 ڊسمبر تائين مڪمل ٿيڻ جو امڪان",
-   "old": "سنڌ ۾ سمنڊ هيٺان ڪيبل جي مرمت ڊسمبر جي شروعات تائين مڪمل ٿيندي"
-  },
-  {
    "t": "11-22 03:12",
    "new": "مرد ڪرڪيٽرن لاءِ مرڪزي قراردادن جو اعلان",
    "old": "منجهند جون خبرون | ڇنڇر، 21 نومبر 2026"
@@ -14025,6 +14021,11 @@
    "t": "11-24 07:21",
    "new": "پاڪستان عورتن جي ڪرڪيٽ ٽيم کي شڪست",
    "old": "پاڪستان جي هار سبب نيدرلينڊز ۽ آئرلينڊ وچ ۾ ميچ طئي"
+  },
+  {
+   "t": "11-24 08:51",
+   "new": "سوني جي اگهن ۾ واڌ",
+   "old": "پاڪستان ۾ سون جي اگهن ۾ وڏو واڌارو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14045,6 +14046,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 2
- }
+  "repeat": 3
+ },
+ "_dup": true
 }
