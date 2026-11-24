@@ -1,7 +1,5 @@
 {
  "seen": {
-  "62ae6a47a78e6171": 1794910274.7160554,
-  "60ce34dbdee99ab3": 1794910274.7160587,
   "5ef1485d63bbdbb3": 1794911509.1687484,
   "47eecbbae57e46d8": 1794912717.4392467,
   "6e745c41dbfc81e6": 1794912717.439249,
@@ -1684,7 +1682,8 @@
   "781d3f1822c3d219": 1795513872.8760872,
   "7741481bf6f4da42": 1795513872.8760884,
   "40724ba86d4fe948": 1795513889.9963014,
-  "560f0b7ea131a082": 1795515072.2670496
+  "560f0b7ea131a082": 1795515072.2670496,
+  "365759a8b7db32f9": 1795515653.8831093
  },
  "pending": {},
  "queue": [],
@@ -1696,6 +1695,15 @@
    "domain": "dawn.com",
    "source": "Dawn",
    "ts": 1795484889,
+   "local": false
+  },
+  {
+   "key": "365759a8b7db32f9",
+   "title": "Sindh Youth Card 2026: How to Apply Online",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdE4zaGZQV2g1VWgxZjQ0TlRwa0FPY0FfZEdNalZWTVJaSXRCajdIbVZ3a0tCNWFsV1F0NkFwcU5neTRFOWREVzVIeGJ6UVA4eUxRZnA2MjAyMG5FMUttYWktaDRMREpLMElGY0F2WmFtdjRGR05KME5BME1yaXVfZlFfONIBiAFBVV95cUxPcEZFbjlHaGZCZHJKS1lVNmpzQTJKU1FmamQwSkNmVU91cUVnWmc1TnRfU1JscDJRRGlfS0VvOF9KdlliX0ZDdlN3b250enZxaWRpdTlsbTRvRVBtTGNDWlNxeWd3YmZaT1V4Ym1VR3hJODBicVU3Nl9LeVlUT2Z2R1JOTDV2U1ZS?oc=5",
+   "domain": "propakistani.pk",
+   "source": "ProPakistani",
+   "ts": 1795508936,
    "local": false
   }
  ],
@@ -2502,12 +2510,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-24 15:11",
+  "time": "2026-11-24 15:20",
   "items": 26,
   "sample": [
-   "New South Wales 303/10 v Queensland 106/2 & 278/10 *",
+   "New South Wales 303/10 v Queensland 278/10 & 106/2 *",
    "Western Australia 197/5 * v Tasmania 342/10",
-   "South Africa 220/3 * v Bangladesh 91/10"
+   "South Africa 228/3 * v Bangladesh 91/10"
   ]
  },
  "agri_news": {
@@ -8384,7 +8392,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-24 15:11",
+  "time": "2026-11-24 15:20",
   "steps": []
  },
  "roundup_am": "2026-11-24",
@@ -8534,7 +8542,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-24",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8542,7 +8550,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-24",
-   "ok": 92,
+   "ok": 93,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8550,7 +8558,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-24",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8558,7 +8566,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8566,7 +8574,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8574,14 +8582,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8589,7 +8597,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-24",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8732,8 +8740,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 10,
-  "old": 10,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9372,13 +9380,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-24 08:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-24 08:55",
    "ok": true,
    "n": 0,
@@ -9646,6 +9647,13 @@
   },
   {
    "t": "11-24 15:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-24 15:20",
    "ok": true,
    "n": 0,
    "ids": [],
