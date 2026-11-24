@@ -1654,7 +1654,9 @@
   "0ad69e5f5dea9405": 1795533071.5992496,
   "1c02f6f0f80d26d6": 1795534307.4456522,
   "1b73edfd83e48186": 1795534307.4456549,
-  "68213849e865395e": 1795534856.023605
+  "68213849e865395e": 1795534856.023605,
+  "0f6e5b6c04a87b6c": 1795535474.3368728,
+  "e426d13e6e2fd196": 1795535474.336877
  },
  "pending": {},
  "queue": [],
@@ -1691,7 +1693,7 @@
   "last_week": "",
   "last_check": "2026-11-24"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1833,18 +1835,8 @@
    "40724ba86d4fe948"
   ]
  },
- "last_post_id": "1444130002106066_122124251241503839",
+ "last_post_id": "1444130002106066_122124262023503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124095439503839",
-   "title": "ايچ اي سي پاران آن لائن درجي جي تصديق لاءِ نئون آپشن آندو ويو هائر ايجوڪيشن ڪميشن آن لائن",
-   "t": 1795490566.800538,
-   "tags": [
-    "general",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124095439503839"
-  },
   {
    "id": "1444130002106066_122124101373503839",
    "title": "اڄ جون نوڪريون (نوشهروفيروز ۽ سنڌ)",
@@ -2170,6 +2162,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124251241503839"
+  },
+  {
+   "id": "1444130002106066_122124262023503839",
+   "title": "لاڙ جو مشهور فنڪار استاد بادل راهي لاڏاڻو ڪري ويو",
+   "t": 1795535637.489133,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124262023503839"
   }
  ],
  "share_sent": {
@@ -2500,12 +2504,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-24 20:41",
+  "time": "2026-11-24 20:53",
   "items": 27,
   "sample": [
    "New South Wales 303/10 v Queensland 278/10 & 106/2 *",
    "Western Australia 197/5 * v Tasmania 342/10",
-   "South Africa 473/6 * v Bangladesh 91/10"
+   "South Africa 483/6 * v Bangladesh 91/10"
   ]
  },
  "agri_news": {
@@ -2515,17 +2519,11 @@
  },
  "all_posts": {
   "date": "2026-11-24",
-  "count": 42,
-  "last": 1795533159.5351663
+  "count": 43,
+  "last": 1795535622.3315136
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122120587389503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794561093
-   },
    {
     "id": "1444130002106066_122120593473503839",
     "sec": "sindh_stream",
@@ -4919,6 +4917,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1795533175
+   },
+   {
+    "id": "1444130002106066_122124262023503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1795535637
    }
   ]
  },
@@ -8071,15 +8075,11 @@
  },
  "ai_usage": {
   "date": "2026-11-24",
-  "ok": 268,
-  "fail": 502,
-  "limit": 444
+  "ok": 271,
+  "fail": 510,
+  "limit": 451
  },
  "posted_heads": [
-  {
-   "h": "هاري ڪارڊ جي حاصلات کان حقيقي هاري محروم ڇو؟",
-   "t": 1795331601
-  },
   {
    "h": "Pakistan to 'launch' medicine verification app on Nov 24 to curb counterfeit drugs",
    "t": 1795332830
@@ -8395,10 +8395,14 @@
   {
    "h": "مان هن وقت رياستي گهيري ۾ آهيان، لاهور ۾ وڪيلن کي خطاب ڪرڻ نه ڏنو ويو: مولانا فضل الرحمان",
    "t": 1795533175
+  },
+  {
+   "h": "لاڙ جو سريلو فنڪار استاد بادل راهي لاڏاڻو ڪري ويو، سنڌ سوڳوار",
+   "t": 1795535637
   }
  ],
  "last_errors": {
-  "time": "2026-11-24 20:41",
+  "time": "2026-11-24 20:53",
   "steps": []
  },
  "roundup_am": "2026-11-24",
@@ -8506,7 +8510,7 @@
   "text": 19,
   "story": 13
  },
- "ai_last_error": "20:31 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "20:52 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-24",
   "models": [
@@ -8520,10 +8524,10 @@
  },
  "img_diag": {
   "date": "2026-11-24",
-  "tried": 38,
+  "tried": 39,
   "gemini": 0,
   "pollinations": 20,
-  "skip": 9,
+  "skip": 10,
   "fail": 13,
   "last_note": "cricket ball and sweets",
   "mismatch": 875,
@@ -8548,7 +8552,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-24",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8556,7 +8560,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-24",
-   "ok": 124,
+   "ok": 125,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8564,7 +8568,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-24",
-   "ok": 125,
+   "ok": 126,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8572,7 +8576,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8580,7 +8584,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8588,14 +8592,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8603,7 +8607,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-24",
-   "ok": 127,
+   "ok": 128,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8758,13 +8762,13 @@
  "region_posts": {
   "date": "2026-11-24",
   "district": 0,
-  "sindh": 24,
+  "sindh": 25,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 41,
-  "old": 40,
+  "posted": 2,
+  "found": 51,
+  "old": 50,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8821,9 +8825,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-24",
-  "count": 18,
-  "last": 1795534284.6989083,
-  "city_i": 16,
+  "count": 19,
+  "last": 1795535463.4339814,
+  "city_i": 20,
   "dry": 1795534307.4456565
  },
  "gemini_day_dead": {
@@ -9447,6 +9451,14 @@
    "t": 1795533175,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "3da9db964ebe510c",
+   "h": "لاڙ جو مشهور فنڪار استاد بادل راهي لاڏاڻو ڪري ويو",
+   "x": "سنڌ جو ناليووار فنڪار ۽ استاد بادل راهي ڊگهي عرصي تائين بيمار رهڻ کانپوءِ اڄ لاڏاڻو ڪري ويو، جنهن جي وڇوڙي تي سڄي سنڌ ۾ ڏک جي لهر ڇانيل آهي. استاد بادل راهي لاڙ جو مشهور فنڪار هو، جنهن جا ڪيترائي شاگرد آهن. هن ٽيليويزن ۽ ريڊيو تي پنهنجي فن جو مظاهرو ڪيو، جڏهن ته سندس ڪيترائي ڪلام پڻ مقبول ٿيا. استاد بادل راهي جي گائيڪي جون هڪ سئو کان وڌيڪ ڪيسٽون رليز ٿيون، پر سندس زندگي غربت ۾ گذري. هو گهڻي وقت کان بيمار هو. هن پنهنجي پونئيرن ۾ چار پٽ، ٻه ڌيئرون ۽ هڪ گهرواري سوڳوار ڇڏيا آهن!",
+   "t": 1795535637,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9470,13 +9482,6 @@
   "last": 1795522324.4058306
  },
  "tg_debug": [
-  {
-   "t": "11-24 14:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-24 14:30",
    "ok": true,
@@ -9745,6 +9750,13 @@
   },
   {
    "t": "11-24 20:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-24 20:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14023,6 +14035,56 @@
     "ڪرڻ",
     "ڪيس",
     "گهيري"
+   ]
+  },
+  {
+   "t": 1795535637,
+   "h": "لاڙ جو مشهور فنڪار استاد بادل راهي لاڏاڻو ڪري ويو",
+   "b": "سنڌ جو ناليووار فنڪار ۽ استاد بادل راهي ڊگهي عرصي تائين بيمار رهڻ کانپوءِ اڄ لاڏاڻو ڪري ويو، جنهن جي وڇوڙي تي",
+   "tt": [
+    "استاد",
+    "بادل",
+    "راهي",
+    "فنڪار",
+    "لاڏاڻو",
+    "لاڙ",
+    "مشهور"
+   ],
+   "bt": [
+    "استاد",
+    "اهن",
+    "اهي",
+    "بادل",
+    "بيمار",
+    "تائين",
+    "راهي",
+    "رهڻ",
+    "ريڊيو",
+    "سندس",
+    "سنڌ",
+    "سڄي",
+    "شاگرد",
+    "عرصي",
+    "فنڪار",
+    "لاڏاڻو",
+    "لاڙ",
+    "لهر",
+    "مشهور",
+    "مظاهرو",
+    "مقبول",
+    "ناليووار",
+    "هو،",
+    "ويو،",
+    "وڇوڙي",
+    "ٽيليويزن",
+    "پنهنجي",
+    "ٿيا",
+    "ڇانيل",
+    "ڊگهي",
+    "ڪانپوء",
+    "ڪلام",
+    "ڪيترائي",
+    "ڪيو،"
    ]
   }
  ],
