@@ -1612,7 +1612,28 @@
   "0f6e5b6c04a87b6c": 1795535474.3368728,
   "e426d13e6e2fd196": 1795535474.336877,
   "0262a7d8161a5ffc": 1795546961.033419,
-  "cbd6fc12b68a73d9": 1795546961.0335844
+  "cbd6fc12b68a73d9": 1795546961.0335844,
+  "7c006f35279e7eb9": 1795549865.3862534,
+  "18424018308e2f96": 1795549909.411379,
+  "f9f641cfc4c9bd73": 1795549909.4113822,
+  "01b2e2ea1ed8dd66": 1795549909.4113834,
+  "931da7d8639d38e3": 1795549909.4113846,
+  "c4fc407bdf9a5fec": 1795549909.4113853,
+  "720b109a4598d8d4": 1795549909.411386,
+  "07780848787fffaa": 1795549909.411387,
+  "6800613420032241": 1795549909.4113877,
+  "c54acf6f89bbc700": 1795549909.4113884,
+  "78d200f3de73373d": 1795549909.4113889,
+  "53d79f6614f8adc8": 1795549918.021866,
+  "2d2c9cbd8a292e9f": 1795549918.0218678,
+  "0222ba44bc8a30a8": 1795549918.0218685,
+  "7ad236b101ac3d5c": 1795549918.0218694,
+  "4bb9cdc1a200f6ed": 1795549918.0218701,
+  "85dbc4c427bf752b": 1795549918.0218709,
+  "017a0905038cfc44": 1795549918.0218728,
+  "95f2d3fea96bdb90": 1795549918.0218737,
+  "b1593f8ff5326fc7": 1795549918.0218751,
+  "e4feca0d26195d6b": 1795549918.0220907
  },
  "pending": {},
  "queue": [],
@@ -1649,7 +1670,7 @@
   "last_week": "",
   "last_check": "2026-11-25"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2458,10 +2479,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 00:41",
+  "time": "2026-11-25 00:52",
   "items": 9,
   "sample": [
-   "New South Wales 303/10 v Queensland 106/2 & 278/10 *",
+   "New South Wales 303/10 v Queensland 278/10 & 106/2 *",
    "Western Australia 197/5 * v Tasmania 342/10",
    "South Africa 494/7 * v Bangladesh 91/10"
   ]
@@ -8021,9 +8042,9 @@
  },
  "ai_usage": {
   "date": "2026-11-25",
-  "ok": 5,
-  "fail": 19,
-  "limit": 12
+  "ok": 13,
+  "fail": 39,
+  "limit": 28
  },
  "posted_heads": [
   {
@@ -8348,7 +8369,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 00:41",
+  "time": "2026-11-25 00:52",
   "steps": []
  },
  "roundup_am": "2026-11-24",
@@ -8451,12 +8472,12 @@
  },
  "article_diag": {
   "date": "2026-11-25",
-  "tried": 1,
-  "decoded": 1,
-  "text": 1,
-  "story": 0
+  "tried": 3,
+  "decoded": 3,
+  "text": 3,
+  "story": 2
  },
- "ai_last_error": "00:04 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "00:52 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8498,7 +8519,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8506,7 +8527,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8514,7 +8535,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8522,7 +8543,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8530,7 +8551,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8538,14 +8559,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8553,7 +8574,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 5,
+   "ok": 6,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8713,8 +8734,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 40,
-  "old": 40,
+  "found": 50,
+  "old": 50,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8774,8 +8795,8 @@
   "date": "2026-11-25",
   "count": 0,
   "last": 1795543917.5203447,
-  "city_i": 22,
-  "dry": 1795546260.7599092
+  "city_i": 4,
+  "dry": 1795549861.5325906
  },
  "gemini_day_dead": {
   "day": "2026-11-24",
@@ -9404,13 +9425,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-24 18:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-24 18:30",
    "ok": true,
    "n": 0,
@@ -9678,6 +9692,13 @@
   },
   {
    "t": "11-25 00:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 00:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14198,16 +14219,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-22 03:21",
-   "new": "ڪراچي بندرگاهه تي ڪڻڪ پهچي وئي",
-   "old": "ڪراچي ۾ ڪڻڪ جو بحران شدت اختيار ڪري ويو"
-  },
-  {
-   "t": "11-22 03:31",
-   "new": "پاڪستان ۾ سون ۽ چانديءَ جي اگهن ۾ تبديلي",
-   "old": "پاڪستان ۾ سون جي اگهن ۾ لاڳاتار گهٽتائي"
-  },
-  {
    "t": "11-22 06:31",
    "new": "بابر ۽ آغا پي سي بي جي نئين ڪانٽريڪٽ ۾ شامل",
    "old": "پي سي بي پاران سينٽرل ڪانٽريڪٽ جو اعلان"
@@ -14346,6 +14357,16 @@
    "t": "11-24 16:11",
    "new": "سنڌ ۽ ڏکڻ پاڪستان ۾ ڏڪار جو خطرو",
    "old": "سنڌ ۾ خشڪ سالي جو الرٽ جاري"
+  },
+  {
+   "t": "11-25 00:51",
+   "new": "حڪومت طرفان ضابطا هٽائڻ بعد دواين جي اگهن ۾ واڌ گهٽجي وئي",
+   "old": "دوائن جي قيمتن ۾ 99٪ واڌ"
+  },
+  {
+   "t": "11-25 00:52",
+   "new": "شهید بینظیرآباد ۾ سست ڀاڻ جي فراهمي جو حڪم",
+   "old": "شهيد بينظير آباد: ڊي سي جو سرڪاري قيمتن تي ڀاڻ جي فراهمي جو حڪم"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14366,6 +14387,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 0
- }
+  "repeat": 2
+ },
+ "_dup": true
 }
