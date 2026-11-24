@@ -1678,7 +1678,8 @@
   "913f56f3952c30e7": 1795500064.4660537,
   "d7f6868aaedc55fd": 1795500665.6487498,
   "86b21861dbf7e452": 1795500665.648753,
-  "9c5c5b57ca1ac70a": 1795500665.6487553
+  "9c5c5b57ca1ac70a": 1795500665.6487553,
+  "16efb872414d431b": 1795501296.1695633
  },
  "pending": {},
  "queue": [],
@@ -1750,8 +1751,8 @@
  "last_question": "2026-11-23",
  "sindh_single": {
   "date": "2026-11-24",
-  "count": 1,
-  "last": 1795490488.6652288,
+  "count": 2,
+  "last": 1795501268.8726737,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1833,23 +1834,12 @@
    "415fd448b16f18a0",
    "9e8bd7cdaa4230c2",
    "6a3a0bd3189d4a1d",
-   "caa0bdad3813565e"
+   "caa0bdad3813565e",
+   "16efb872414d431b"
   ]
  },
- "last_post_id": "1444130002106066_122124138957503839",
+ "last_post_id": "1444130002106066_122124140787503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122123900925503839",
-   "title": "وزيراعظم شهباز شريف جو روس جو تاريخي دورو",
-   "t": 1795431105.7980404,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122123900925503839"
-  },
   {
    "id": "1444130002106066_122123906199503839",
    "title": "سندھ ۾ گيس جي اڻ اعلانيل لوڊشيڊنگ خلاف تحريك التوا پيش سندھ اسيمبلي جي اجلاس ۾ گيس جي اڻ",
@@ -2157,6 +2147,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124138957503839"
+  },
+  {
+   "id": "1444130002106066_122124140787503839",
+   "title": "پاڪستان ۾ جهينگا فارمنگ کي هٿي ڏيڻ لاءِ اهم قدم وفاقي حڪومت ملڪ ۾ جهينگا فارمنگ جي فروغ",
+   "t": 1795501440.5243537,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124140787503839"
   }
  ],
  "share_sent": {
@@ -2487,11 +2487,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-24 11:11",
+  "time": "2026-11-24 11:24",
   "items": 26,
   "sample": [
-   "New South Wales 303/10 v Queensland 106/2 & 278/10 *",
-   "Western Australia 61/1 * v Tasmania 342/10",
+   "New South Wales 303/10 v Queensland 278/10 & 106/2 *",
+   "Western Australia 70/1 * v Tasmania 342/10",
    "South Africa 88/1 * v Bangladesh 91/10"
   ]
  },
@@ -2502,17 +2502,11 @@
  },
  "all_posts": {
   "date": "2026-11-24",
-  "count": 18,
-  "last": 1795500694.328917
+  "count": 19,
+  "last": 1795501434.8859472
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122120223843503839",
-    "sec": "kawish",
-    "cat": "sindh",
-    "t": 1794488002
-   },
    {
     "id": "1444130002106066_122120227749503839",
     "sec": "kawish",
@@ -4906,6 +4900,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1795500700
+   },
+   {
+    "id": "1444130002106066_122124140787503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1795501434
    }
   ]
  },
@@ -8034,9 +8034,9 @@
  },
  "ai_usage": {
   "date": "2026-11-24",
-  "ok": 121,
-  "fail": 241,
-  "limit": 222
+  "ok": 123,
+  "fail": 250,
+  "limit": 230
  },
  "posted_heads": [
   {
@@ -8361,7 +8361,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-24 11:11",
+  "time": "2026-11-24 11:24",
   "steps": []
  },
  "roundup_am": "2026-11-24",
@@ -8469,7 +8469,7 @@
   "text": 14,
   "story": 9
  },
- "ai_last_error": "11:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "11:22 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-24",
   "models": [
@@ -8483,10 +8483,10 @@
  },
  "img_diag": {
   "date": "2026-11-24",
-  "tried": 15,
+  "tried": 16,
   "gemini": 0,
   "pollinations": 11,
-  "skip": 1,
+  "skip": 2,
   "fail": 2,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 863,
@@ -8511,7 +8511,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-24",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8519,7 +8519,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-24",
-   "ok": 68,
+   "ok": 69,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8527,7 +8527,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-24",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8535,7 +8535,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8543,7 +8543,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8551,14 +8551,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8566,7 +8566,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-24",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8704,13 +8704,13 @@
  "region_posts": {
   "date": "2026-11-24",
   "district": 0,
-  "sindh": 4,
+  "sindh": 5,
   "pakistan": 11
  },
  "report_acc": {
-  "posted": 1,
-  "found": 9,
-  "old": 9,
+  "posted": 2,
+  "found": 18,
+  "old": 18,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9349,13 +9349,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-24 04:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-24 05:00",
    "ok": true,
    "n": 0,
@@ -9627,37 +9620,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-24 11:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-24",
  "recent_posts": [
-  {
-   "t": 1795328478,
-   "h": "وڪيٽ! اسڪاٽلينڊ وومين جو رانديگر آئوٽ، 5 وڪيٽون ڪري پيون",
-   "b": "هاڻوڪو اسڪور: پاڪستان وومين اسڪاٽلينڊ وومين 123/5 🏏",
-   "tt": [
-    "ائوٽ،",
-    "اسڪاٽلينڊ",
-    "رانديگر",
-    "وومين",
-    "وڪيٽ",
-    "وڪيٽون",
-    "پيون"
-   ],
-   "bt": [
-    "#123",
-    "ائوٽ،",
-    "اسڪاٽلينڊ",
-    "اسڪور",
-    "رانديگر",
-    "هاڻوڪو",
-    "وومين",
-    "وڪيٽ",
-    "وڪيٽون",
-    "پاڪستان",
-    "پيون"
-   ]
-  },
   {
    "t": 1795329214,
    "h": "پاڪ ايران 10 ارب ڊالرن جو واپاري معاهدو",
@@ -13746,6 +13719,60 @@
     "ڪارروائي",
     "ڪروڙ",
     "ڪندي"
+   ]
+  },
+  {
+   "t": 1795501434,
+   "h": "سنڌ | پاڪستان ۾ جهينگا فارمنگ کي هٿي ڏيڻ لاءِ اهم قدم",
+   "b": "وفاقي حڪومت ملڪ ۾ جهينگا فارمنگ جي فروغ لاءِ هڪ جامع روڊ ميپ تيار ڪري رهي آهي. ان مقصد لاءِ هڪ ذيلي ڪميٽي",
+   "tt": [
+    "اهم",
+    "جهينگا",
+    "سنڌ",
+    "فارمنگ",
+    "قدم",
+    "هٿي",
+    "پاڪستان",
+    "ڏيڻ"
+   ],
+   "bt": [
+    "اهم",
+    "اهي",
+    "برامدات",
+    "بڻائڻ",
+    "تيار",
+    "جامع",
+    "جهينگا",
+    "جيڪا",
+    "حڪومت",
+    "حڪومتن",
+    "ذيلي",
+    "رهي",
+    "روڊ",
+    "سفارشون",
+    "سنڌ",
+    "سيڙپڪاري",
+    "شعبي",
+    "صنعت",
+    "صوبائي",
+    "فارمنگ",
+    "فروغ",
+    "قائم",
+    "قدم",
+    "مرتب",
+    "مضبوط",
+    "مقصد",
+    "ملڪ",
+    "منصوبي",
+    "ميپ",
+    "هٿي",
+    "وفاقي",
+    "وڌائڻ",
+    "پاڪستان",
+    "پيداوار،",
+    "ڏيڻ",
+    "ڪميٽي",
+    "گڏجي"
    ]
   }
  ],
