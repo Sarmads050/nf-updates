@@ -93,6 +93,10 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-088] (ep030, 2026-11-23) "Poora ghar matar chheelne baith gaya" (0:40-1:05) lekin koi chheelta nazar nahi aata, sab plate pakre baithe rehte hain — naya "shell" pose: plate god mein, dono haath plate ke upar chhoti chhoti harkat (phali torna), beech beech mein daana plate mein girna.
 - [K-089] (ep030, 2026-11-23) Bhabi Sana "freezer mein rakh lenge" kehti hain lekin fridge band hi rehta hai, aur chulhe par matar ubalne ki degchi nahi dikhti — kitchen mein naya "fridge_open" action (darwaza khulna, andar thandi roshni, shopper andar rakhna).
 
+- [K-090] (ep031, 2026-11-24) Poori kahani "aakhri paratha" ki hai lekin plate khaali safaid hai, paratha nazar hi nahi aata, aur "aadha chand" (kata hua paratha) bhi sirf baaton mein hai — naya "paratha" prop (sunehra gol, tehon wala, ghee ki chamak) aur "paratha_bite" variant (ek kona kata hua).
+- [K-091] (ep031, 2026-11-24) Raat wale scene mein Ammi "aata" deti hain lekin woh wahi chhota jamni "bag" dabba hai, aur Arsalan aata goondhta nazar nahi aata — naya "aata" thaila prop + "goondhna" pose (parat saamne, dono haath aate mein upar-neeche).
+- [K-092] (ep031, 2026-11-24) Drawing room mein stand_r par khare Imtiaz ke saamne stand_cr par Arsalan enter hua to bolne wala Imtiaz peeche chhup gaya (preview mein pakra, slots badal kar theek kiya) — check.py mein warning: jab do khare log aage-peeche wale slots (stand_cr + stand_r) par hon aur peeche wala bole.
+
 ## APPROVED
 
 ## DONE
