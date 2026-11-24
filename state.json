@@ -1,6 +1,5 @@
 {
  "seen": {
-  "64d8e86d03d1579b": 1794879688.244268,
   "9bfdfda66549253c": 1794880297.5149646,
   "e06ff81b6e487382": 1794880297.5149674,
   "bf0d9dc4baf7ca24": 1794880297.514969,
@@ -1681,7 +1680,9 @@
   "43271cd670dbe9a2": 1795482698.8140974,
   "a2d517fb36809ca0": 1795482698.8140981,
   "6ccfdd332b0429f1": 1795482698.814229,
-  "f0e2bfa2c7917091": 1795484472.7936754
+  "f0e2bfa2c7917091": 1795484472.7936754,
+  "be81db9982e13ac3": 1795485050.5714269,
+  "15177a1717e9dce8": 1795485068.8954017
  },
  "pending": {},
  "queue": [],
@@ -1720,6 +1721,15 @@
    "domain": "brecorder.com",
    "source": "Business Recorder",
    "ts": 1795477847,
+   "local": false
+  },
+  {
+   "key": "be81db9982e13ac3",
+   "title": "Digital gateway launched for youth to access banking, education and jobs",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPamJHY0s3R25mLW1CVkVNeTVNNFR6OG1uRUJseUlwa2tIRTlpMDlhd0JKZHdrOU9BSUFla2VETkdDSEpKVS1fUFRNbHZWOFgyLTVVZmN1ZlNvaHp3eUswY3J5WGNVYUkxWHpheHBia0V4WDZfaGcwSUt6Y3pia2s5anNJNFJuUTQ3U210akVURGxWRTlfTHNCUEllblZmTjZYQ1BXTnV1NWk?oc=5",
+   "domain": "dawn.com",
+   "source": "Dawn",
+   "ts": 1795484889,
    "local": false
   }
  ],
@@ -2524,7 +2534,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-24 06:41",
+  "time": "2026-11-24 06:51",
   "items": 26,
   "sample": [
    "New South Wales 303/10 * v Queensland 278/10",
@@ -8039,9 +8049,9 @@
  },
  "ai_usage": {
   "date": "2026-11-24",
-  "ok": 61,
-  "fail": 130,
-  "limit": 112
+  "ok": 62,
+  "fail": 132,
+  "limit": 114
  },
  "posted_heads": [
   {
@@ -8366,7 +8376,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-24 06:41",
+  "time": "2026-11-24 06:51",
   "steps": []
  },
  "roundup_am": "2026-11-23",
@@ -8474,7 +8484,7 @@
   "text": 8,
   "story": 3
  },
- "ai_last_error": "06:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-24",
   "models": [
@@ -8516,7 +8526,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-24",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8524,7 +8534,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-24",
-   "ok": 40,
+   "ok": 41,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8532,7 +8542,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-24",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8540,7 +8550,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8548,7 +8558,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8556,14 +8566,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8571,7 +8581,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-24",
-   "ok": 41,
+   "ok": 42,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8714,8 +8724,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 36,
-  "old": 36,
+  "found": 45,
+  "old": 45,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8774,8 +8784,8 @@
   "date": "2026-11-24",
   "count": 0,
   "last": 1795470676.6783714,
-  "city_i": 8,
-  "dry": 1795484462.944498
+  "city_i": 12,
+  "dry": 1795485058.6170864
  },
  "gemini_day_dead": {
   "day": "2026-11-23",
@@ -9324,13 +9334,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-24 00:36",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-24 00:40",
    "ok": true,
    "n": 0,
@@ -9598,6 +9601,13 @@
   },
   {
    "t": "11-24 06:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-24 06:50",
    "ok": true,
    "n": 0,
    "ids": [],
