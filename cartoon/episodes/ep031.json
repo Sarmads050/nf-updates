@@ -169,7 +169,7 @@
    "label": "Drawing Room • Subah",
    "cast": {
     "ABBA": "sofa_l",
-    "IMTIAZ": "stand_r"
+    "IMTIAZ": "stand_cr"
    },
    "props": {
     "ABBA": "newspaper",
@@ -216,7 +216,7 @@
       {
        "do": "enter",
        "who": "ARSALAN",
-       "slot": "stand_cr"
+       "slot": "stand_r"
       }
      ],
      "give": {
@@ -243,7 +243,7 @@
      "urdu": "لیکن... اس پراٹھے کا آدھا چاند کیسے بن گیا؟",
      "how": "29-year-old man, tired office worker, confused, looking at the plate",
      "emo": "confused",
-     "pose": "scratch_head",
+     "pose": "rest",
      "shot": "close",
      "react": {
       "ARSALAN": "chew",
@@ -267,6 +267,9 @@
      "react": {
       "IMTIAZ": "surprised",
       "ABBA": "angry"
+     },
+     "react_pose": {
+      "IMTIAZ": "rest"
      }
     },
     {
@@ -279,6 +282,9 @@
      "pose": "wag",
      "react": {
       "ARSALAN": "sheepish"
+     },
+     "react_pose": {
+      "IMTIAZ": "rest"
      }
     },
     {
@@ -358,7 +364,12 @@
      "how": "warm storyteller, mysterious",
      "emo": "calm",
      "shot": "wide",
-     "gap": 0.2
+     "gap": 0.2,
+     "react_pose": {
+      "ARSALAN": "rest",
+      "AMMI": "rest",
+      "MEHAK": "rest"
+     }
     },
     {
      "who": "AMMI",
