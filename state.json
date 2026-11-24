@@ -1,15 +1,5 @@
 {
  "seen": {
-  "3014cde81d46de86": 1794921088.9253423,
-  "553c11a49ae84b7c": 1794921088.9253442,
-  "54a5c402f898fe7b": 1794921088.9253454,
-  "2e6cbcb2db4d7830": 1794921088.9253466,
-  "2c65e8841d655f18": 1794921088.925348,
-  "f7c5bf216d4cdf55": 1794921088.9253488,
-  "f8122193606edd40": 1794921088.9253502,
-  "ae6c4626d37dae8f": 1794921088.9253511,
-  "d780945a9effd295": 1794921088.925352,
-  "acfa28f2f844bcc8": 1794921088.9254892,
   "b78f2e2e2faabbeb": 1794922301.491751,
   "d483bcf2f833499e": 1794922301.4917538,
   "4825dd11f7c04e13": 1794922880.9788187,
@@ -1660,7 +1650,8 @@
   "63b2ffed2737627c": 1795524689.0199149,
   "fbfa29806807e3e6": 1795524689.0199163,
   "42e84e99e0d1c0ed": 1795524689.0199172,
-  "51a006253c5f82f5": 1795524689.0199192
+  "51a006253c5f82f5": 1795524689.0199192,
+  "93285511ad02f11e": 1795526459.4051158
  },
  "pending": {},
  "queue": [],
@@ -2492,12 +2483,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-24 18:10",
+  "time": "2026-11-24 18:21",
   "items": 27,
   "sample": [
    "New South Wales 303/10 v Queensland 278/10 & 106/2 *",
    "Western Australia 197/5 * v Tasmania 342/10",
-   "South Africa 355/5 * v Bangladesh 91/10"
+   "South Africa 356/5 * v Bangladesh 91/10"
   ]
  },
  "agri_news": {
@@ -8064,8 +8055,8 @@
  "ai_usage": {
   "date": "2026-11-24",
   "ok": 239,
-  "fail": 434,
-  "limit": 395
+  "fail": 439,
+  "limit": 397
  },
  "posted_heads": [
   {
@@ -8390,7 +8381,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-24 18:10",
+  "time": "2026-11-24 18:21",
   "steps": []
  },
  "roundup_am": "2026-11-24",
@@ -8498,7 +8489,7 @@
   "text": 18,
   "story": 13
  },
- "ai_last_error": "18:02 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:21 gemini-3.1-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-24",
   "models": [
@@ -8540,7 +8531,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-24",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8548,7 +8539,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-24",
-   "ok": 110,
+   "ok": 111,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8556,7 +8547,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-24",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8564,7 +8555,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8572,7 +8563,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8580,14 +8571,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8595,7 +8586,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-24",
-   "ok": 111,
+   "ok": 112,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8755,8 +8746,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 10,
-  "old": 10,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8814,8 +8805,8 @@
  "sindh_stream": {
   "date": "2026-11-24",
   "count": 12,
-  "last": 1795524672.9708292,
-  "city_i": 6,
+  "last": 1795525905.0023124,
+  "city_i": 10,
   "dry": 1795523475.320311
  },
  "gemini_day_dead": {
@@ -9413,13 +9404,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-24 11:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-24 11:50",
    "ok": true,
    "n": 0,
@@ -9687,6 +9671,13 @@
   },
   {
    "t": "11-24 18:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-24 18:20",
    "ok": true,
    "n": 0,
    "ids": [],
