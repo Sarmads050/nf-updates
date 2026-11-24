@@ -1,6 +1,5 @@
 {
  "seen": {
-  "6c2b7da24a5c93d1": 1794919866.9792023,
   "3014cde81d46de86": 1794921088.9253423,
   "553c11a49ae84b7c": 1794921088.9253442,
   "54a5c402f898fe7b": 1794921088.9253454,
@@ -1688,7 +1687,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-24",
-  "count": 1
+  "count": 2
  },
  "last_digest": "2026-11-24",
  "alert_day": "2026-10-20",
@@ -1746,7 +1745,7 @@
   ]
  },
  "last_daily": "2026-11-24",
- "roundup_pm": "2026-11-23",
+ "roundup_pm": "2026-11-24",
  "replied": [],
  "q_index": 2,
  "last_question": "2026-11-23",
@@ -1840,7 +1839,7 @@
    "40724ba86d4fe948"
   ]
  },
- "last_post_id": "1444130002106066_122124219549503839",
+ "last_post_id": "1444130002106066_122124221403503839",
  "shareable": [
   {
    "id": "1444130002106066_122124041553503839",
@@ -2493,12 +2492,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-24 17:53",
-  "items": 26,
+  "time": "2026-11-24 18:02",
+  "items": 27,
   "sample": [
-   "New South Wales 303/10 v Queensland 278/10 & 106/2 *",
+   "New South Wales 303/10 v Queensland 106/2 & 278/10 *",
    "Western Australia 197/5 * v Tasmania 342/10",
-   "South Africa 326/5 * v Bangladesh 91/10"
+   "South Africa 342/5 * v Bangladesh 91/10"
   ]
  },
  "agri_news": {
@@ -2508,8 +2507,8 @@
  },
  "all_posts": {
   "date": "2026-11-24",
-  "count": 35,
-  "last": 1795524820.9552605
+  "count": 36,
+  "last": 1795525361.7316022
  },
  "perf": {
   "posts": [
@@ -8065,8 +8064,8 @@
  "ai_usage": {
   "date": "2026-11-24",
   "ok": 239,
-  "fail": 427,
-  "limit": 391
+  "fail": 434,
+  "limit": 395
  },
  "posted_heads": [
   {
@@ -8391,7 +8390,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-24 17:53",
+  "time": "2026-11-24 18:02",
   "steps": []
  },
  "roundup_am": "2026-11-24",
@@ -8499,7 +8498,7 @@
   "text": 18,
   "story": 13
  },
- "ai_last_error": "17:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:02 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-24",
   "models": [
@@ -8541,7 +8540,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-24",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8549,7 +8548,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-24",
-   "ok": 108,
+   "ok": 109,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8557,7 +8556,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-24",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8565,7 +8564,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8573,7 +8572,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8581,14 +8580,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8596,7 +8595,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-24",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8751,18 +8750,18 @@
  "region_posts": {
   "date": "2026-11-24",
   "district": 0,
-  "sindh": 17,
+  "sindh": 18,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 2,
-  "found": 50,
-  "old": 50,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-24 17",
+ "report_hour": "2026-11-24 18",
  "kawish_upload_times": {
   "_date": "2026-11-24",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9414,13 +9413,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-24 11:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-24 11:30",
    "ok": true,
    "n": 0,
@@ -9692,52 +9684,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-24 18:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-24",
  "recent_posts": [
-  {
-   "t": 1795352513,
-   "h": "شام جون سنڌ جون اهم خبرون",
-   "b": "22 نومبر 2026 1️⃣ ڪراچي ۾ ترقياتي ڪم ۽ روڊن جي تعمير مئيور ڪراچي مرتضيٰ وہاب چيو آهي ته شهر ۾ هن سال 165",
-   "tt": [
-    "اهم",
-    "خبرون",
-    "سنڌ",
-    "شام"
-   ],
-   "bt": [
-    "#165",
-    "#22",
-    "امن",
-    "اهم",
-    "اهي",
-    "ترقياتي",
-    "تعمير",
-    "جتي",
-    "خبرون",
-    "روڊن",
-    "سال",
-    "سنڌ",
-    "سڀني",
-    "سڑڪون",
-    "شام",
-    "شهر",
-    "فروغ",
-    "قيام",
-    "مئيور",
-    "مرتضي",
-    "ملندو",
-    "نومبر",
-    "وهاب",
-    "وينديون",
-    "ڪاروبار",
-    "ڪراچي",
-    "ڪرڻ",
-    "گهرجي",
-    "گڏجي"
-   ]
-  },
   {
    "t": 1795353707,
    "h": "سنڌ | پاڪستان ۽ عمان وچ ۾ پيٽروليم مصنوعات جي معاهدي تي صحيحون",
@@ -13732,6 +13689,61 @@
     "ڪندڙ",
     "ڪڍي،",
     "ڳالهه"
+   ]
+  },
+  {
+   "t": 1795525361,
+   "h": "شام جون سنڌ جون اهم خبرون",
+   "b": "24 نومبر 2026 1️⃣ سوشل میڈیا پروٹیکشن ریگولیٹری اتھارٹی کا قیام وزیر داخلہ محسن نقوی نے سوشل میڈیا پروٹیکشن",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "شام"
+   ],
+   "bt": [
+    "#24",
+    "اتهارٹي",
+    "اعلان",
+    "اميز",
+    "اهم",
+    "اور",
+    "اينڈ",
+    "تقارير،",
+    "تمام",
+    "جائي",
+    "جائي،",
+    "حڪمت",
+    "خاموش",
+    "خبرون",
+    "داخله",
+    "دهشتگردي،",
+    "رجسٹر",
+    "ريگوليٹري",
+    "سنڌ",
+    "سوشل",
+    "شام",
+    "عملي",
+    "فارمز",
+    "فيڪ",
+    "قيام",
+    "لائسنس",
+    "ليڪن",
+    "محسن",
+    "ميڈيا",
+    "ميں",
+    "نفرت",
+    "نقوي",
+    "نهيں",
+    "نومبر",
+    "نيوز",
+    "وزير",
+    "پروٹيڪشن",
+    "پليٹ",
+    "ڈيجيٹل",
+    "ڪرايا",
+    "ڪسي",
+    "ڪيا،"
    ]
   }
  ],
