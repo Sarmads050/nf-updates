@@ -1,7 +1,5 @@
 {
  "seen": {
-  "567fbfc9052b3979": 1794927715.5289714,
-  "a9fa79e7f0439505": 1794927715.528974,
   "bda942cff97306b9": 1794928874.8787382,
   "e934d14f9ff3a99f": 1794928874.8787415,
   "80b7bcaa7ddb73f8": 1794942103.3775475,
@@ -1654,7 +1652,8 @@
   "70f859be057a1faa": 1795531034.1005752,
   "38f429fefbbd464e": 1795531034.1005774,
   "08a382d94a904982": 1795531879.0248485,
-  "e48d7a1b1af606af": 1795531879.024852
+  "e48d7a1b1af606af": 1795531879.024852,
+  "0ad69e5f5dea9405": 1795533071.5992496
  },
  "pending": {},
  "queue": [],
@@ -1691,7 +1690,7 @@
   "last_week": "",
   "last_check": "2026-11-24"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1833,17 +1832,8 @@
    "40724ba86d4fe948"
   ]
  },
- "last_post_id": "1444130002106066_122124247455503839",
+ "last_post_id": "1444130002106066_122124251241503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124086961503839",
-   "title": "حومت پيٽرول جي قيمت ۾ ٽي رپيا گهٽتائي ڪري ڇڏي آهي جنهن بعد نئون اگهه 319 رپيا ليٽر ٿي ويو",
-   "t": 1795487521.8163364,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124086961503839"
-  },
   {
    "id": "1444130002106066_122124095439503839",
    "title": "ايچ اي سي پاران آن لائن درجي جي تصديق لاءِ نئون آپشن آندو ويو هائر ايجوڪيشن ڪميشن آن لائن",
@@ -2167,6 +2157,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124247455503839"
+  },
+  {
+   "id": "1444130002106066_122124251241503839",
+   "title": "مولانا فضل الرحمان کي لاهور ۾ وڪيلن کي خطاب ڪرڻ کان روڪيو ويو",
+   "t": 1795533175.2919686,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124251241503839"
   }
  ],
  "share_sent": {
@@ -2497,12 +2499,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-24 20:01",
+  "time": "2026-11-24 20:12",
   "items": 27,
   "sample": [
-   "New South Wales 303/10 v Queensland 278/10 & 106/2 *",
+   "New South Wales 303/10 v Queensland 106/2 & 278/10 *",
    "Western Australia 197/5 * v Tasmania 342/10",
-   "South Africa 424/6 * v Bangladesh 91/10"
+   "South Africa 437/6 * v Bangladesh 91/10"
   ]
  },
  "agri_news": {
@@ -2512,17 +2514,11 @@
  },
  "all_posts": {
   "date": "2026-11-24",
-  "count": 41,
-  "last": 1795532031.0504746
+  "count": 42,
+  "last": 1795533159.5351663
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122120584317503839",
-    "sec": "sindh_stream",
-    "cat": "district",
-    "t": 1794559890
-   },
    {
     "id": "1444130002106066_122120587389503839",
     "sec": "sindh_stream",
@@ -4916,6 +4912,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1795532035
+   },
+   {
+    "id": "1444130002106066_122124251241503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1795533175
    }
   ]
  },
@@ -8068,15 +8070,11 @@
  },
  "ai_usage": {
   "date": "2026-11-24",
-  "ok": 262,
-  "fail": 487,
-  "limit": 433
+  "ok": 266,
+  "fail": 497,
+  "limit": 440
  },
  "posted_heads": [
-  {
-   "h": "$10 Billion Iran Pakistan Trade Deal Enters Final Stage",
-   "t": 1795329214
-  },
   {
    "h": "هاري ڪارڊ جي حاصلات کان حقيقي هاري محروم ڇو؟",
    "t": 1795331601
@@ -8392,10 +8390,14 @@
   {
    "h": "Shaheed Benazirabad DC orders steady fertilizer supply at official prices - UrduPoint",
    "t": 1795532035
+  },
+  {
+   "h": "مان هن وقت رياستي گهيري ۾ آهيان، لاهور ۾ وڪيلن کي خطاب ڪرڻ نه ڏنو ويو: مولانا فضل الرحمان",
+   "t": 1795533175
   }
  ],
  "last_errors": {
-  "time": "2026-11-24 20:01",
+  "time": "2026-11-24 20:12",
   "steps": []
  },
  "roundup_am": "2026-11-24",
@@ -8503,7 +8505,7 @@
   "text": 19,
   "story": 13
  },
- "ai_last_error": "19:52 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "20:12 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-24",
   "models": [
@@ -8517,9 +8519,9 @@
  },
  "img_diag": {
   "date": "2026-11-24",
-  "tried": 37,
+  "tried": 38,
   "gemini": 0,
-  "pollinations": 19,
+  "pollinations": 20,
   "skip": 9,
   "fail": 13,
   "last_note": "cricket ball and sweets",
@@ -8545,7 +8547,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-24",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8553,7 +8555,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-24",
-   "ok": 120,
+   "ok": 121,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8561,7 +8563,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-24",
-   "ok": 121,
+   "ok": 122,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8569,7 +8571,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8577,7 +8579,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8585,14 +8587,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8600,7 +8602,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-24",
-   "ok": 123,
+   "ok": 124,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8611,7 +8613,7 @@
   "last": "2026-11-20",
   "idx": 5
  },
- "ai_last_model": "google/gemma-4-31b-it:free",
+ "ai_last_model": "google/gemma-4-26b-a4b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8755,13 +8757,13 @@
  "region_posts": {
   "date": "2026-11-24",
   "district": 0,
-  "sindh": 23,
+  "sindh": 24,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 11,
+  "old": 11,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8818,9 +8820,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-24",
-  "count": 17,
-  "last": 1795531864.8371933,
-  "city_i": 8,
+  "count": 18,
+  "last": 1795533059.8520238,
+  "city_i": 12,
   "dry": 1795523475.320311
  },
  "gemini_day_dead": {
@@ -9436,6 +9438,14 @@
    "t": 1795532035,
    "s": true,
    "r": 7
+  },
+  {
+   "k": "ef87fb647e1e93db",
+   "h": "مولانا فضل الرحمان کي لاهور ۾ وڪيلن کي خطاب ڪرڻ کان روڪيو ويو",
+   "x": "جمعيت علماءِ اسلام (ف) جي سربراهه مولانا فضل الرحمان چيو آهي ته هو هن وقت رياستي گهيري ۾ آهي. هن چيو ته لاهور شهر رياستي رنڊڪن سان ڀريل آهي، جنهن سبب کيس وڪيلن کي خطاب ڪرڻ کان روڪيو ويو آهي. مولانا فضل الرحمان هڪ وڊيو پيغام ۾ چيو ته لاهور بار ڪائونسل کيس هڪ تقريب ۾ شرڪت جي دعوت ڏني هئي، پر افسوس آهي ته هو رياستي گهيري ۾ هئڻ سبب اتي پهچي نه سگهيو. هن وڌيڪ چيو ته هڪ پرامن شهري کي دانشورن جي محفل ۾ وڃڻ کان روڪيو پيو وڃي. هن پنهنجي بيان ۾ چيو ته کيس ڪنهن حڪمران يا رياستي اداري کان وطن سان وفاداري جو سرٽيفڪيٽ گهرجي! بيان: مولانا فضل الرحمان، سربراهه جمعيت علماءِ اسلام (ف)",
+   "t": 1795533175,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9459,13 +9469,6 @@
   "last": 1795522324.4058306
  },
  "tg_debug": [
-  {
-   "t": "11-24 13:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-24 13:50",
    "ok": true,
@@ -9734,6 +9737,13 @@
   },
   {
    "t": "11-24 20:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-24 20:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13971,6 +13981,47 @@
     "ڏني",
     "ڪمشنر",
     "ڪيل"
+   ]
+  },
+  {
+   "t": 1795533175,
+   "h": "مولانا فضل الرحمان کي لاهور ۾ وڪيلن کي خطاب ڪرڻ کان روڪيو ويو",
+   "b": "جمعيت علماءِ اسلام (ف) جي سربراهه مولانا فضل الرحمان چيو آهي ته هو هن وقت رياستي گهيري ۾ آهي. هن چيو ته لاهور",
+   "tt": [
+    "الرحمان",
+    "خطاب",
+    "روڪيو",
+    "فضل",
+    "لاهور",
+    "مولانا",
+    "وڪيلن",
+    "ڪان",
+    "ڪرڻ"
+   ],
+   "bt": [
+    "اسلام",
+    "الرحمان",
+    "اهي",
+    "اهي،",
+    "جمعيت",
+    "خطاب",
+    "رنڊڪن",
+    "روڪيو",
+    "رياستي",
+    "سبب",
+    "سربراهه",
+    "شهر",
+    "علماء",
+    "فضل",
+    "لاهور",
+    "مولانا",
+    "وقت",
+    "وڪيلن",
+    "ڀريل",
+    "ڪان",
+    "ڪرڻ",
+    "ڪيس",
+    "گهيري"
    ]
   }
  ],
