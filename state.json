@@ -1,8 +1,5 @@
 {
  "seen": {
-  "7dfdd5f984c6da1b": 1794895300.9577785,
-  "641ad2ce19e25d1c": 1794895300.9577813,
-  "603b25ecbc1532df": 1794895300.9577837,
   "2ed6dfbe3c1e01ab": 1794896482.191769,
   "4aef1a637abfb1e1": 1794896482.1917715,
   "4016657b108662d7": 1794896482.191774,
@@ -1678,7 +1675,10 @@
   "aa69d3d4f75afef0": 1795498302.113644,
   "0a1da89b03e4eae0": 1795498302.113787,
   "32aac791aefed9d8": 1795499468.7128973,
-  "913f56f3952c30e7": 1795500064.4660537
+  "913f56f3952c30e7": 1795500064.4660537,
+  "d7f6868aaedc55fd": 1795500665.6487498,
+  "86b21861dbf7e452": 1795500665.648753,
+  "9c5c5b57ca1ac70a": 1795500665.6487553
  },
  "pending": {},
  "queue": [],
@@ -1836,20 +1836,8 @@
    "caa0bdad3813565e"
   ]
  },
- "last_post_id": "1444130002106066_122124136023503839",
+ "last_post_id": "1444130002106066_122124138957503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122123895171503839",
-   "title": "سلمان خان کان ايشوريا راءِ کي خطرو هو: باڊي گارڊ جو انڪشاف",
-   "t": 1795429963.3219037,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122123895171503839"
-  },
   {
    "id": "1444130002106066_122123900925503839",
    "title": "وزيراعظم شهباز شريف جو روس جو تاريخي دورو",
@@ -2157,6 +2145,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124136023503839"
+  },
+  {
+   "id": "1444130002106066_122124138957503839",
+   "title": "شڪارپور: جعلي ڀاڻ جي ڪارخاني تي ڇاپو، هڪ ڪروڙ جو ڀاڻ هٿ",
+   "t": 1795500700.501462,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124138957503839"
   }
  ],
  "share_sent": {
@@ -2487,11 +2487,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-24 11:01",
+  "time": "2026-11-24 11:11",
   "items": 26,
   "sample": [
-   "New South Wales 303/10 v Queensland 278/10 & 106/2 *",
-   "Western Australia 51/1 * v Tasmania 342/10",
+   "New South Wales 303/10 v Queensland 106/2 & 278/10 *",
+   "Western Australia 61/1 * v Tasmania 342/10",
    "South Africa 88/1 * v Bangladesh 91/10"
   ]
  },
@@ -2502,17 +2502,11 @@
  },
  "all_posts": {
   "date": "2026-11-24",
-  "count": 17,
-  "last": 1795499567.3290465
+  "count": 18,
+  "last": 1795500694.328917
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122120218923503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794486836
-   },
    {
     "id": "1444130002106066_122120223843503839",
     "sec": "kawish",
@@ -4906,6 +4900,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1795499572
+   },
+   {
+    "id": "1444130002106066_122124138957503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1795500700
    }
   ]
  },
@@ -4915,48 +4915,8 @@
   "last": 1795498384.0222178
  },
  "trends": {
-  "last": 1795489326.2420716,
+  "last": 1795500650.5177152,
   "terms": [
-   {
-    "term": "sri lanka national cricket team vs pakistan national cricket team match scorecard",
-    "traffic": 20000,
-    "news": "Shaun Tait, Kusal Mendis want extra push for Pakistan-Sri Lanka series result",
-    "t": 1794889262,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "chi",
-    "traffic": 100,
-    "news": "Case in Toscana: tra lusso sfrenato per stranieri e crisi abitativa",
-    "t": 1794889262,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "canada vs guatemala",
-    "traffic": 200,
-    "news": "Luis Fernando Tena: \"Tenemos confianza y creemos en nuestras fuerzas\"",
-    "t": 1794889262,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "houthis",
-    "traffic": 200,
-    "news": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain",
-    "t": 1794889262,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "germany national football team vs netherlands national football team standings",
-    "traffic": 5000,
-    "news": "Germany thrash Netherlands to book quarterfinal spot",
-    "t": 1794889262,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "سری لنکا بمقابلہ پاک",
     "traffic": 100,
@@ -8036,21 +7996,49 @@
     "t": 1795489326,
     "cat": "weather_disaster",
     "sindh": false
+   },
+   {
+    "term": "pakistan u19",
+    "traffic": 1000,
+    "news": "PCB announces Pakistan Under-19 squads for England series",
+    "t": 1795500650,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "kaziah liz mejo",
+    "traffic": 100,
+    "news": "First Malayali at Miss Universe: Kaziah Liz Mejo’s Gown rooted in Kerala",
+    "t": 1795500650,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "uae vs india a",
+    "traffic": 5000,
+    "news": "India A Cricket Team Vs United Arab Emirates National Cricket Team Match Scorecard",
+    "t": 1795500650,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "سٹی 42",
+    "traffic": 200,
+    "news": "",
+    "t": 1795500650,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-24",
-  "ok": 116,
-  "fail": 231,
-  "limit": 212
+  "ok": 121,
+  "fail": 241,
+  "limit": 222
  },
  "posted_heads": [
-  {
-   "h": "چاہيان ٿو شهباز شریف پورو دور ڪري، وزيراعظم نه گهرجي: حليم عادل شيخ",
-   "t": 1795260192
-  },
   {
    "h": "موضع ماڙي ناجهتو ۾ زمين جي تڪرار تان فائرنگ، 2 ڄڻا قتل",
    "t": 1795261521
@@ -8366,10 +8354,14 @@
   {
    "h": "جنگين ۽ موسمياتي تبديلين سبب 73 لک ماڻهن جي خوراڪ خطري ۾: ڊبليو ايف پي",
    "t": 1795499572
+  },
+  {
+   "h": "شڪارپور: جعلي ڀاڻ جي ڪارخاني تي ڇاپو، هڪ ڪروڙ روپين جو ڀاڻ هٿ، هڪ ڄڻو گرفتار",
+   "t": 1795500700
   }
  ],
  "last_errors": {
-  "time": "2026-11-24 11:01",
+  "time": "2026-11-24 11:11",
   "steps": []
  },
  "roundup_am": "2026-11-24",
@@ -8477,7 +8469,7 @@
   "text": 14,
   "story": 9
  },
- "ai_last_error": "10:52 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "11:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-24",
   "models": [
@@ -8491,10 +8483,10 @@
  },
  "img_diag": {
   "date": "2026-11-24",
-  "tried": 14,
+  "tried": 15,
   "gemini": 0,
   "pollinations": 11,
-  "skip": 0,
+  "skip": 1,
   "fail": 2,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 863,
@@ -8519,7 +8511,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-24",
-   "ok": 68,
+   "ok": 69,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8527,7 +8519,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-24",
-   "ok": 67,
+   "ok": 68,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8535,7 +8527,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-24",
-   "ok": 68,
+   "ok": 69,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8543,7 +8535,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 68,
+   "ok": 69,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8551,7 +8543,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 68,
+   "ok": 69,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8559,14 +8551,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-24",
-   "ok": 68,
+   "ok": 69,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-24",
-   "ok": 68,
+   "ok": 69,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8574,7 +8566,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-24",
-   "ok": 68,
+   "ok": 69,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8712,13 +8704,13 @@
  "region_posts": {
   "date": "2026-11-24",
   "district": 0,
-  "sindh": 3,
+  "sindh": 4,
   "pakistan": 11
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 9,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8775,9 +8767,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-24",
-  "count": 1,
-  "last": 1795499466.2168324,
-  "city_i": 10,
+  "count": 2,
+  "last": 1795500662.1545331,
+  "city_i": 14,
   "dry": 1795498285.5500472
  },
  "gemini_day_dead": {
@@ -9331,6 +9323,14 @@
    "t": 1795499572,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "630835d2689f6857",
+   "h": "شڪارپور: مبينا جعلي ڀاڻ جي ڪارخاني تي ڇاپو، هڪ ڪروڙ جو ڀاڻ هٿ",
+   "x": "شڪارپور جي جنو واري علائقي ۾ حساس ادارن جي نشاندهي تي ضلعي انتظاميا وڏي ڪارروائي ڪندي مبينا جعلي ڀاڻ ٺاهيندڙ ڪارخانو سيل ڪري ڇڏيو آهي. ڪارروائي دوران هڪ ڪروڙ روپين جي ماليت جون 4,660 ٻوريون مبينا جعلي ڀاڻ هٿ ڪري ضبط ڪيون ويون آهن. مختيارڪار ساجد چنو موجب شير محمد شيخ جي ڪارخاني تي ڇاپو هڻي مبينا جعلي ڀاڻ ۽ ڀاڻ ٺاهڻ واري مشينري پڻ ضبط ڪئي وئي آهي. ڪارروائي دوران ڪارخاني جي منشي سرفراز کي گرفتار ڪيو ويو آهي. انتظاميا جو چوڻ آهي ته ڪارخانو ۽ مشينري سيل ڪري وڌيڪ قانوني ڪارروائي شروع ڪئي وئي آهي.",
+   "t": 1795500700,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9348,13 +9348,6 @@
   "last": 1795263683.6887078
  },
  "tg_debug": [
-  {
-   "t": "11-24 04:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-24 04:50",
    "ok": true,
@@ -9627,109 +9620,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-24 11:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-24",
  "recent_posts": [
-  {
-   "t": 1795327583,
-   "h": "منجهند جون خبرون | آچر، 22 نومبر 2026",
-   "b": "1️⃣ سنڌ يونيورسٽي زمين قبضا، نيب جاچ شروع نيب سنڌ يونيورسٽي جي زمينن تي مبينا قبضي ۽ غيرقانوني وڪري جي جاچ",
-   "tt": [
-    "#22",
-    "اچر،",
-    "خبرون",
-    "منجهند",
-    "نومبر"
-   ],
-   "bt": [
-    "#22",
-    "امريڪي",
-    "اهي",
-    "اچر،",
-    "برقرار",
-    "جاچ",
-    "خبرون",
-    "رهيو",
-    "روپين",
-    "زمين",
-    "زمينن",
-    "ستر",
-    "ستو",
-    "سنڌ",
-    "شروع",
-    "غيرقانوني",
-    "قبضا،",
-    "قبضي",
-    "لاهور",
-    "مارڪيٽ",
-    "مبينا",
-    "منجهند",
-    "نومبر",
-    "نيب",
-    "وڪري",
-    "يونيورسٽي",
-    "پاڪستان",
-    "پرڏيهي",
-    "ڊالر",
-    "ڊڪي",
-    "ڪرنسيون"
-   ]
-  },
-  {
-   "t": 1795327593,
-   "h": "وڪيٽ! اسڪاٽلينڊ وومين جو رانديگر آئوٽ، 3 وڪيٽون ڪري پيون",
-   "b": "هاڻوڪو اسڪور: پاڪستان وومين اسڪاٽلينڊ وومين 110/3 🏏",
-   "tt": [
-    "ائوٽ،",
-    "اسڪاٽلينڊ",
-    "رانديگر",
-    "وومين",
-    "وڪيٽ",
-    "وڪيٽون",
-    "پيون"
-   ],
-   "bt": [
-    "#110",
-    "ائوٽ،",
-    "اسڪاٽلينڊ",
-    "اسڪور",
-    "رانديگر",
-    "هاڻوڪو",
-    "وومين",
-    "وڪيٽ",
-    "وڪيٽون",
-    "پاڪستان",
-    "پيون"
-   ]
-  },
-  {
-   "t": 1795327862,
-   "h": "وڪيٽ! اسڪاٽلينڊ وومين جو رانديگر آئوٽ، 4 وڪيٽون ڪري پيون",
-   "b": "هاڻوڪو اسڪور: پاڪستان وومين اسڪاٽلينڊ وومين 110/4 🏏",
-   "tt": [
-    "ائوٽ،",
-    "اسڪاٽلينڊ",
-    "رانديگر",
-    "وومين",
-    "وڪيٽ",
-    "وڪيٽون",
-    "پيون"
-   ],
-   "bt": [
-    "#110",
-    "ائوٽ،",
-    "اسڪاٽلينڊ",
-    "اسڪور",
-    "رانديگر",
-    "هاڻوڪو",
-    "وومين",
-    "وڪيٽ",
-    "وڪيٽون",
-    "پاڪستان",
-    "پيون"
-   ]
-  },
   {
    "t": 1795328478,
    "h": "وڪيٽ! اسڪاٽلينڊ وومين جو رانديگر آئوٽ، 5 وڪيٽون ڪري پيون",
@@ -13800,6 +13701,52 @@
     "ڊبليو",
     "ڪروڙ"
    ]
+  },
+  {
+   "t": 1795500700,
+   "h": "شڪارپور: مبينا جعلي ڀاڻ جي ڪارخاني تي ڇاپو، هڪ ڪروڙ جو ڀاڻ هٿ",
+   "b": "شڪارپور جي جنو واري علائقي ۾ حساس ادارن جي نشاندهي تي ضلعي انتظاميا وڏي ڪارروائي ڪندي مبينا جعلي ڀاڻ ٺاهيندڙ",
+   "tt": [
+    "جعلي",
+    "شڪارپور",
+    "مبينا",
+    "ڀاڻ",
+    "ڇاپو،",
+    "ڪارخاني",
+    "ڪروڙ"
+   ],
+   "bt": [
+    "#660",
+    "ادارن",
+    "انتظاميا",
+    "اهن",
+    "اهي",
+    "جعلي",
+    "جنو",
+    "حساس",
+    "دوران",
+    "روپين",
+    "سيل",
+    "شڪارپور",
+    "ضبط",
+    "ضلعي",
+    "علائقي",
+    "ماليت",
+    "مبينا",
+    "نشاندهي",
+    "ويون",
+    "وڏي",
+    "ٺاهيندڙ",
+    "ٻوريون",
+    "ڀاڻ",
+    "ڇاپو،",
+    "ڇڏيو",
+    "ڪارخانو",
+    "ڪارخاني",
+    "ڪارروائي",
+    "ڪروڙ",
+    "ڪندي"
+   ]
   }
  ],
  "repeat_log": [
@@ -13967,7 +13914,7 @@
  },
  "quality": {
   "date": "2026-11-24",
-  "editor_fixed": 10,
+  "editor_fixed": 11,
   "editor_rejected": 0,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
