@@ -1,11 +1,5 @@
 {
  "seen": {
-  "73564b05f1e21c9a": 1795023133.4535494,
-  "02ed8ff9490ff992": 1795023133.4535527,
-  "ecf9da2f66d7f114": 1795023133.453554,
-  "b142b15afe391b27": 1795023133.4535546,
-  "703c279245270012": 1795023133.4537644,
-  "5d88253417f5408f": 1795023186.48787,
   "c3caef8aa46b94af": 1795023667.0803592,
   "ff08a88243918e97": 1795025505.9942605,
   "a585893997501e95": 1795025505.994263,
@@ -1633,7 +1627,16 @@
   "8c589ccfd7c65f58": 1795624880.780118,
   "dc4134048ba2f859": 1795626165.720305,
   "675dd737e8dcdf85": 1795627265.855087,
-  "f5ac6be37f9ffb82": 1795627265.85509
+  "f5ac6be37f9ffb82": 1795627265.85509,
+  "c2fa02a340f769cc": 1795628482.8900273,
+  "4efc88e7fa972a0b": 1795628482.8900301,
+  "9fdc1614e703c4f4": 1795628482.8900309,
+  "4a5ec9e7550a4361": 1795628482.8900318,
+  "4d9b933c9ae5c1f0": 1795628482.8900325,
+  "ee4c69a8a9f615a9": 1795628482.8900332,
+  "bb0bd5c9320c33cd": 1795628482.8900337,
+  "b2c6b25479f1cbf5": 1795628482.8900347,
+  "d80307666ed57e2a": 1795628482.890036
  },
  "pending": {},
  "queue": [],
@@ -1651,7 +1654,7 @@
   "last_week": "",
   "last_check": "2026-11-25"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1797,17 +1800,8 @@
    "dc4134048ba2f859"
   ]
  },
- "last_post_id": "1444130002106066_122124590319503839",
+ "last_post_id": "1444130002106066_122124598317503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124408201503839",
-   "title": "ممالڪ جي نئين بجيٽ ۾ ملازمن جي تنخواهن، نون ٽيڪس سلب ۽ وِٿهولڊنگ ٽيڪس بابت تفصيل سامهون",
-   "t": 1795577000.467614,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124408201503839"
-  },
   {
    "id": "1444130002106066_122124420579503839",
    "title": "صوبن کند جي شعبي کي آزاد ڪرڻ تي اتفاق ڪري ورتو آهي جنهن سان مارڪيٽ ۾ نوان قدم کليا ويندا",
@@ -2128,6 +2122,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124590319503839"
+  },
+  {
+   "id": "1444130002106066_122124598317503839",
+   "title": "ستين سنڌ گيمز: خيرپور سپريئر سائنس ڪاليج ڪرڪيٽ ٽورنامينٽ کٽي ورتي",
+   "t": 1795628511.8100164,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124598317503839"
   }
  ],
  "share_sent": {
@@ -2458,10 +2464,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 22:32",
+  "time": "2026-11-25 22:41",
   "items": 8,
   "sample": [
-   "Western Australia 439/10 v Tasmania 342/10 & 42/2 *",
+   "Western Australia 439/10 v Tasmania 42/2 & 342/10 *",
    "South Africa 494/7 v Bangladesh 184/10 & 91/10 *",
    "South Australia 287/10 v Victoria 275/3 *"
   ]
@@ -2473,17 +2479,11 @@
  },
  "all_posts": {
   "date": "2026-11-25",
-  "count": 43,
-  "last": 1795626262.4548023
+  "count": 44,
+  "last": 1795628507.1218598
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122120978727503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794672194
-   },
    {
     "id": "1444130002106066_122120983389503839",
     "sec": "agri_news",
@@ -4877,6 +4877,12 @@
     "sec": "sindh_single",
     "cat": "sindh",
     "t": 1795626262
+   },
+   {
+    "id": "1444130002106066_122124598317503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1795628511
    }
   ]
  },
@@ -8021,15 +8027,11 @@
  },
  "ai_usage": {
   "date": "2026-11-25",
-  "ok": 303,
-  "fail": 645,
-  "limit": 500
+  "ok": 308,
+  "fail": 654,
+  "limit": 508
  },
  "posted_heads": [
-  {
-   "h": "وڙهندا ۽ نفرت پکيڙيندا رهياسين ته بحرانن کي منهن نه ڏئي سگهنداسين، نوجوان حساب وٺندا: بلاول ڀٽو",
-   "t": 1795438350
-  },
   {
    "h": "IRSA Releases 88,300 Cusecs of Water Amid 46,200-Cusec Inflow",
    "t": 1795442021
@@ -8345,10 +8347,14 @@
   {
    "h": "Nawabshah college marks Eid Milad-un-Nabi with student naats and prayers - UrduPoint",
    "t": 1795624944
+  },
+  {
+   "h": "ستين سنڌ گيمز: خيرپور سپريئر سائنس ڪاليج ڪرڪيٽ ٽورنامينٽ کٽي ورتي: پير ڳوٺ کي شڪست",
+   "t": 1795628511
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 22:32",
+  "time": "2026-11-25 22:41",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8456,7 +8462,7 @@
   "text": 27,
   "story": 24
  },
- "ai_last_error": "22:32 gemini-3.1-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "22:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8470,9 +8476,9 @@
  },
  "img_diag": {
   "date": "2026-11-25",
-  "tried": 40,
+  "tried": 41,
   "gemini": 0,
-  "pollinations": 18,
+  "pollinations": 19,
   "skip": 8,
   "fail": 17,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
@@ -8498,7 +8504,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 138,
+   "ok": 139,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8506,7 +8512,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 138,
+   "ok": 139,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8514,7 +8520,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 138,
+   "ok": 139,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8522,7 +8528,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 138,
+   "ok": 139,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8530,7 +8536,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 138,
+   "ok": 139,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8538,14 +8544,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 138,
+   "ok": 139,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 138,
+   "ok": 139,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8553,7 +8559,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 138,
+   "ok": 139,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8692,13 +8698,13 @@
  "region_posts": {
   "date": "2026-11-25",
   "district": 2,
-  "sindh": 24,
+  "sindh": 25,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 0,
-  "found": 6,
-  "old": 6,
+  "posted": 1,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8756,9 +8762,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-25",
-  "count": 20,
-  "last": 1795627258.5270517,
-  "city_i": 18,
+  "count": 21,
+  "last": 1795628466.4530177,
+  "city_i": 22,
   "dry": 1795626077.8850722
  },
  "gemini_day_dead": {
@@ -9422,6 +9428,14 @@
    "t": 1795624943,
    "s": false,
    "r": 8
+  },
+  {
+   "k": "968ba3e4793022c5",
+   "h": "ستين سنڌ گيمز: خيرپور سپريئر سائنس ڪاليج ڪرڪيٽ ٽورنامينٽ کٽي ورتي",
+   "x": "ستين سنڌ ڪاليج گيمز 2026-27ع جي سلسلي ۾ گورنمينٽ سپريئر سائنس ڪاليج خيرپور جي اهتمام هيٺ منعقد ٿيل انٽرا ڊسٽرڪٽ خيرپور ڪرڪيٽ ٽورنامينٽ جو فائنل گورنمينٽ سپريئر سائنس ڪاليج خيرپور کٽي ضلعي چيمپيئن بڻجي ويو. فائنل مقابلو گورنمينٽ بوائز ڊگري ڪاليج پير جو ڳوٺ ۽ گورنمينٽ سپريئر سائنس ڪاليج خيرپور جي ٽيمن وچ ۾ ٿيو، جنهن ۾ سپريئر سائنس ڪاليج خيرپور ٽاس کٽي پهريان بيٽنگ ڪندي مقرر اوورن ۾ 132 رنسون ٺاهيون.",
+   "t": 1795628511,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9446,13 +9460,6 @@
   "last": 1795616374.0692692
  },
  "tg_debug": [
-  {
-   "t": "11-25 16:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-25 16:10",
    "ok": true,
@@ -9721,6 +9728,13 @@
   },
   {
    "t": "11-25 22:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 22:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14062,6 +14076,51 @@
     "ڪان",
     "ڪرڻ"
    ]
+  },
+  {
+   "t": 1795628511,
+   "h": "ستين سنڌ گيمز: خيرپور سپريئر سائنس ڪاليج ڪرڪيٽ ٽورنامينٽ کٽي ورتي",
+   "b": "ستين سنڌ ڪاليج گيمز 2026-27ع جي سلسلي ۾ گورنمينٽ سپريئر سائنس ڪاليج خيرپور جي اهتمام هيٺ منعقد ٿيل انٽرا",
+   "tt": [
+    "خيرپور",
+    "سائنس",
+    "ستين",
+    "سنڌ",
+    "سپريئر",
+    "ورتي",
+    "ٽورنامينٽ",
+    "ڪاليج",
+    "ڪرڪيٽ",
+    "ڪٽي",
+    "گيمز"
+   ],
+   "bt": [
+    "#27",
+    "27ع",
+    "انٽرا",
+    "اهتمام",
+    "بڻجي",
+    "خيرپور",
+    "سائنس",
+    "ستين",
+    "سلسلي",
+    "سنڌ",
+    "سپريئر",
+    "ضلعي",
+    "فائنل",
+    "منعقد",
+    "هيٺ",
+    "ورتي",
+    "ٽورنامينٽ",
+    "ٿيل",
+    "چيمپيئن",
+    "ڊسٽرڪٽ",
+    "ڪاليج",
+    "ڪرڪيٽ",
+    "ڪٽي",
+    "گورنمينٽ",
+    "گيمز"
+   ]
   }
  ],
  "repeat_log": [
@@ -14229,7 +14288,7 @@
  },
  "quality": {
   "date": "2026-11-25",
-  "editor_fixed": 34,
+  "editor_fixed": 35,
   "editor_rejected": 2,
   "kawish_rejected": 2,
   "kawish_crosschecked": 0,
