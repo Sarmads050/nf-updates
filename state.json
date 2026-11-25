@@ -1,6 +1,5 @@
 {
  "seen": {
-  "bf59dbd09668ebcc": 1794996075.55509,
   "8a488f62906c4481": 1794997191.4225283,
   "e48c04d76a4768ce": 1794997213.8860562,
   "aadcaac845425701": 1794997213.8860598,
@@ -1662,7 +1661,9 @@
   "e5a4f2ef4d89c1ac": 1795599679.350108,
   "dad140938edf2609": 1795600269.0527413,
   "88e7a34c308c26fe": 1795600269.0527444,
-  "9e04be8bebb56260": 1795600269.05294
+  "9e04be8bebb56260": 1795600269.05294,
+  "23738d1c477f533a": 1795601462.8944252,
+  "fc0d856c217f2d34": 1795601462.8944285
  },
  "pending": {},
  "queue": [],
@@ -1680,7 +1681,7 @@
   "last_week": "",
   "last_check": "2026-11-25"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.5-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1823,20 +1824,8 @@
    "4f52d3c2e3b1259a"
   ]
  },
- "last_post_id": "1444130002106066_122124493581503839",
+ "last_post_id": "1444130002106066_122124498153503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124227835503839",
-   "title": "ڪراچي ۾ وڪيلن جي ريلي، سي ايم هائوس ويجهو ڌرڻو",
-   "t": 1795527339.8215256,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124227835503839"
-  },
   {
    "id": "1444130002106066_122124235179503839",
    "title": "وزيراعظم شهباز شريف پاران وفاقي وزيرن جي بيان بازي جو نوٽيس",
@@ -2146,6 +2135,18 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124493581503839"
+  },
+  {
+   "id": "1444130002106066_122124498153503839",
+   "title": "ڪراچي: بلوچ ڪالوني ويجهو ڇهه ماڙ عمارت ڊهي پئي",
+   "t": 1795601485.7663405,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124498153503839"
   }
  ],
  "share_sent": {
@@ -2476,12 +2477,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 15:01",
+  "time": "2026-11-25 15:11",
   "items": 8,
   "sample": [
-   "New South Wales 152/8 & 303/10 * v Queensland 306/6 & 278/10",
-   "Western Australia 439/10 v Tasmania 342/10 & 42/2 *",
-   "South Africa 494/7 v Bangladesh 91/10 & 88/3 *"
+   "New South Wales 303/10 & 152/8 * v Queensland 278/10 & 306/6",
+   "Western Australia 439/10 v Tasmania 42/2 & 342/10 *",
+   "South Africa 494/7 v Bangladesh 102/3 & 91/10 *"
   ]
  },
  "agri_news": {
@@ -2491,17 +2492,11 @@
  },
  "all_posts": {
   "date": "2026-11-25",
-  "count": 25,
-  "last": 1795600315.4176435
+  "count": 26,
+  "last": 1795601478.079696
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122120865213503839",
-    "sec": "public_news",
-    "cat": "dollar_gold_business",
-    "t": 1794642096
-   },
    {
     "id": "1444130002106066_122120867181503839",
     "sec": "sindh_stream",
@@ -4895,6 +4890,12 @@
     "sec": "public_news",
     "cat": "fuel",
     "t": 1795600318
+   },
+   {
+    "id": "1444130002106066_122124498153503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1795601485
    }
   ]
  },
@@ -8047,15 +8048,11 @@
  },
  "ai_usage": {
   "date": "2026-11-25",
-  "ok": 195,
-  "fail": 352,
-  "limit": 327
+  "ok": 198,
+  "fail": 359,
+  "limit": 333
  },
  "posted_heads": [
-  {
-   "h": "مس يونيورس مقابلي ۾ پاڪستاني حسينہ جو منفرد لباس ڌيان جو مرڪز بڻجي ويو",
-   "t": 1795416179
-  },
   {
    "h": "ڪراچي ۾ فلسطيني فنڪارا جي پرفارمنس، خوابن ۽ دردن جي عڪاسي",
    "t": 1795419223
@@ -8371,10 +8368,14 @@
   {
    "h": "Petrol price drops by Re1, diesel by Rs4 per litre",
    "t": 1795600319
+  },
+  {
+   "h": "ڪراچي: بلوچ ڪالوني ويجهو 6 ماڙ عمارت ڊهي پئي، هڪ ڄڻو فوت ۽ ڪيترائي زخمي",
+   "t": 1795601485
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 15:01",
+  "time": "2026-11-25 15:11",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8482,7 +8483,7 @@
   "text": 22,
   "story": 21
  },
- "ai_last_error": "14:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "15:11 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8496,10 +8497,10 @@
  },
  "img_diag": {
   "date": "2026-11-25",
-  "tried": 24,
+  "tried": 25,
   "gemini": 0,
   "pollinations": 12,
-  "skip": 5,
+  "skip": 6,
   "fail": 9,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 891,
@@ -8524,7 +8525,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8532,7 +8533,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8540,7 +8541,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8548,7 +8549,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8556,7 +8557,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8564,14 +8565,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8579,7 +8580,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 93,
+   "ok": 94,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8734,13 +8735,13 @@
  "region_posts": {
   "date": "2026-11-25",
   "district": 1,
-  "sindh": 9,
+  "sindh": 10,
   "pakistan": 14
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8798,9 +8799,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-25",
-  "count": 9,
-  "last": 1795597858.823704,
-  "city_i": 10,
+  "count": 10,
+  "last": 1795601460.7272327,
+  "city_i": 14,
   "dry": 1795600263.959924
  },
  "gemini_day_dead": {
@@ -9472,6 +9473,14 @@
    "t": 1795600318,
    "s": true,
    "r": 0
+  },
+  {
+   "k": "f36aded2bd5e169e",
+   "h": "ڪراچي: بلوچ ڪالوني ويجهو ڇهه ماڙ عمارت ڊهي پئي",
+   "x": "ڪراچي جي علائقي بلوچ ڪالوني ويجهو ڪراچي ايڊمنسٽريشن سوسائٽي بلاڪ 4 ۾ هڪ ڇهه ماڙ اڏاوت هيٺ عمارت جو وڏو حصو اوچتو ڊهي پيو، جنهن جي نتيجي ۾ هڪ ڄڻو فوت ۽ ڪيترائي ماڻهو زخمي ٿي پيا آهن. اطلاع ملندي ئي ريسڪيو 1122، ايڌي، ڇيپا ۽ پوليس جون ٽيمون واقعي واري هنڌ پهچي ويون ۽ امدادي ڪارروايون شروع ڪري ڇڏيون. ريسڪيو عملدارن موجب ملبي هيٺان هڪ لاش ۽ زخمين کي ڪڍي جناح اسپتال منتقل ڪيو ويو آهي، جڏهن ته ٻاهر بيٺل ڪيتريون ئي گاڏيون ۽ موٽرسائيڪلون به ملبي هيٺان دٻجي تباهه ٿي ويون.",
+   "t": 1795601485,
+   "s": true,
+   "r": 0
   }
  ],
  "reels": {
@@ -9491,13 +9500,6 @@
   "last": 1795522324.4058306
  },
  "tg_debug": [
-  {
-   "t": "11-25 08:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-25 08:50",
    "ok": true,
@@ -9766,6 +9768,13 @@
   },
   {
    "t": "11-25 15:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 15:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14164,6 +14173,68 @@
     "گهٽات",
     "گيس"
    ]
+  },
+  {
+   "t": 1795601485,
+   "h": "ڪراچي: بلوچ ڪالوني ويجهو ڇهه ماڙ عمارت ڊهي پئي",
+   "b": "ڪراچي جي علائقي بلوچ ڪالوني ويجهو ڪراچي ايڊمنسٽريشن سوسائٽي بلاڪ 4 ۾ هڪ ڇهه ماڙ اڏاوت هيٺ عمارت جو وڏو حصو",
+   "tt": [
+    "بلوچ",
+    "عمارت",
+    "ماڙ",
+    "ويجهو",
+    "پئي",
+    "ڇهه",
+    "ڊهي",
+    "ڪالوني",
+    "ڪراچي"
+   ],
+   "bt": [
+    "#1122",
+    "1122،",
+    "اطلاع",
+    "امدادي",
+    "اهن",
+    "اوچتو",
+    "ايڊمنسٽريشن",
+    "ايڌي،",
+    "اڏاوت",
+    "بلاڪ",
+    "بلوچ",
+    "حصو",
+    "ريسڪيو",
+    "زخمي",
+    "سوسائٽي",
+    "شروع",
+    "علائقي",
+    "عمارت",
+    "فوت",
+    "ماڙ",
+    "ماڻهو",
+    "ملندي",
+    "نتيجي",
+    "هنڌ",
+    "هيٺ",
+    "واقعي",
+    "ويجهو",
+    "ويون",
+    "وڏو",
+    "ٽيمون",
+    "پئي",
+    "پهچي",
+    "پوليس",
+    "پيا",
+    "پيو،",
+    "ڄڻو",
+    "ڇهه",
+    "ڇيپا",
+    "ڇڏيون",
+    "ڊهي",
+    "ڪارروايون",
+    "ڪالوني",
+    "ڪراچي",
+    "ڪيترائي"
+   ]
   }
  ],
  "repeat_log": [
@@ -14331,7 +14402,7 @@
  },
  "quality": {
   "date": "2026-11-25",
-  "editor_fixed": 21,
+  "editor_fixed": 22,
   "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
