@@ -1660,7 +1660,8 @@
   "88e7a34c308c26fe": 1795600269.0527444,
   "9e04be8bebb56260": 1795600269.05294,
   "23738d1c477f533a": 1795601462.8944252,
-  "fc0d856c217f2d34": 1795601462.8944285
+  "fc0d856c217f2d34": 1795601462.8944285,
+  "d46f3e03ee83dd7a": 1795602687.350756
  },
  "pending": {},
  "queue": [],
@@ -1733,7 +1734,7 @@
  "sindh_single": {
   "date": "2026-11-25",
   "count": 0,
-  "last": 1795594446.5698638,
+  "last": 1795602702.0495973,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2474,12 +2475,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 15:20",
+  "time": "2026-11-25 15:31",
   "items": 8,
   "sample": [
    "New South Wales 303/10 & 152/8 * v Queensland 278/10 & 306/6",
-   "Western Australia 439/10 v Tasmania 342/10 & 42/2 *",
-   "South Africa 494/7 v Bangladesh 91/10 & 109/3 *"
+   "Western Australia 439/10 v Tasmania 42/2 & 342/10 *",
+   "South Africa 494/7 v Bangladesh 109/3 & 91/10 *"
   ]
  },
  "agri_news": {
@@ -8045,9 +8046,9 @@
  },
  "ai_usage": {
   "date": "2026-11-25",
-  "ok": 199,
-  "fail": 361,
-  "limit": 335
+  "ok": 201,
+  "fail": 365,
+  "limit": 339
  },
  "posted_heads": [
   {
@@ -8372,7 +8373,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 15:20",
+  "time": "2026-11-25 15:31",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8480,7 +8481,7 @@
   "text": 22,
   "story": 21
  },
- "ai_last_error": "15:20 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "15:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8522,7 +8523,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8530,7 +8531,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8538,7 +8539,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8546,7 +8547,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8554,7 +8555,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8562,14 +8563,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8577,7 +8578,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8706,8 +8707,8 @@
    "23-11-2026",
    "24-11-2026"
   ],
-  "last_try": 1795600862.9832873,
-  "last_try_note": "15:01 abhi nahi mila",
+  "last_try": 1795602667.0572667,
+  "last_try_note": "15:31 abhi nahi mila",
   "paper": {
    "date": "24-11-2026",
    "read": [
@@ -8737,8 +8738,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 12,
-  "old": 12,
+  "found": 18,
+  "old": 18,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8797,8 +8798,8 @@
  "sindh_stream": {
   "date": "2026-11-25",
   "count": 10,
-  "last": 1795601460.7272327,
-  "city_i": 14,
+  "last": 1795602683.3599994,
+  "city_i": 18,
   "dry": 1795600263.959924
  },
  "gemini_day_dead": {
@@ -9487,7 +9488,8 @@
    "09:30",
    "11:00",
    "12:30",
-   "14:00"
+   "14:00",
+   "15:30"
   ]
  },
  "kawish_queue": [],
@@ -9497,13 +9499,6 @@
   "last": 1795522324.4058306
  },
  "tg_debug": [
-  {
-   "t": "11-25 09:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-25 09:10",
    "ok": true,
@@ -9772,6 +9767,13 @@
   },
   {
    "t": "11-25 15:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 15:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14237,11 +14239,6 @@
  "repeat_log": [
   {
    "t": "11-23 00:02",
-   "new": "مُنيربا ۽ گل جي شاندار بيٽنگ",
-   "old": "LIVE | پاڪستان وومين بمقابلي اسڪاٽلينڊ وومين"
-  },
-  {
-   "t": "11-23 00:02",
    "new": "حيدرآباد ۾ ڪڻڪ جي فراهمي جو بحران",
    "old": "حيدرآباد ۾ ڪڻڪ جا اگهه وڌي ويا"
   },
@@ -14384,6 +14381,11 @@
    "t": "11-25 11:11",
    "new": "پهرين پاڪستاني خلاباز ونگ ڪمانڊر محمد ذيشان علي خلا ڏانهن روانو",
    "old": "نوشهروفيروز جو اڄ | 25-11-2026"
+  },
+  {
+   "t": "11-25 15:31",
+   "new": "ڪراچي ۾ 6 ماڙ عمارت ڊھي پئي",
+   "old": "ڪراچي: بلوچ ڪالوني ويجهو ڇهه ماڙ عمارت ڊهي پئي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14404,6 +14406,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 10
- }
+  "repeat": 11
+ },
+ "_dup": true
 }
