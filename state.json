@@ -1648,7 +1648,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-25",
-  "count": 0
+  "count": 1
  },
  "last_digest": "2026-11-25",
  "alert_day": "2026-10-20",
@@ -1658,7 +1658,7 @@
   "last_week": "",
   "last_check": "2026-11-25"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.1-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1706,7 +1706,7 @@
   ]
  },
  "last_daily": "2026-11-25",
- "roundup_pm": "2026-11-24",
+ "roundup_pm": "2026-11-25",
  "replied": [],
  "q_index": 2,
  "last_question": "2026-11-23",
@@ -1802,7 +1802,7 @@
    "0b5eb3c7011e6c26"
   ]
  },
- "last_post_id": "1444130002106066_122124532659503839",
+ "last_post_id": "1444130002106066_122124536955503839",
  "shareable": [
   {
    "id": "1444130002106066_122124311145503839",
@@ -2450,12 +2450,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 17:50",
-  "items": 8,
+  "time": "2026-11-25 18:02",
+  "items": 9,
   "sample": [
-   "New South Wales 152/8 & 303/10 * v Queensland 306/6 & 278/10",
    "Western Australia 439/10 v Tasmania 42/2 & 342/10 *",
-   "South Africa 494/7 v Bangladesh 91/10 & 184/10 *"
+   "South Africa 494/7 v Bangladesh 184/10 & 91/10 *",
+   "South Australia 287/10 v Victoria 275/3 *"
   ]
  },
  "agri_news": {
@@ -2465,8 +2465,8 @@
  },
  "all_posts": {
   "date": "2026-11-25",
-  "count": 32,
-  "last": 1795610641.024399
+  "count": 33,
+  "last": 1795611710.710492
  },
  "perf": {
   "posts": [
@@ -8021,9 +8021,9 @@
  },
  "ai_usage": {
   "date": "2026-11-25",
-  "ok": 242,
-  "fail": 424,
-  "limit": 392
+  "ok": 243,
+  "fail": 428,
+  "limit": 394
  },
  "posted_heads": [
   {
@@ -8348,7 +8348,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 17:50",
+  "time": "2026-11-25 18:02",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8456,7 +8456,7 @@
   "text": 23,
   "story": 22
  },
- "ai_last_error": "17:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:01 gemini-3.5-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8498,7 +8498,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8506,7 +8506,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8514,7 +8514,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8522,7 +8522,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8530,7 +8530,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8538,14 +8538,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8553,7 +8553,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 110,
+   "ok": 111,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8682,8 +8682,8 @@
    "23-11-2026",
    "24-11-2026"
   ],
-  "last_try": 1795609861.0548763,
-  "last_try_note": "17:31 abhi nahi mila",
+  "last_try": 1795611721.9737742,
+  "last_try_note": "18:02 abhi nahi mila",
   "paper": {
    "date": "24-11-2026",
    "read": [
@@ -8708,18 +8708,18 @@
  "region_posts": {
   "date": "2026-11-25",
   "district": 1,
-  "sindh": 15,
+  "sindh": 16,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 2,
-  "found": 10,
-  "old": 10,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-25 17",
+ "report_hour": "2026-11-25 18",
  "kawish_upload_times": {
   "_date": "2026-11-25",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9468,13 +9468,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-25 11:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-25 11:30",
    "ok": true,
    "n": 0,
@@ -9746,102 +9739,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-25 18:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-25",
  "recent_posts": [
-  {
-   "t": 1795438350,
-   "h": "وڙهندا ۽ نفرت پکيڙيندا رهياسين ته بحرانن کي منهن نه ڏئي سگهنداسين: بلاول ڀٽو",
-   "b": "پاڪستان پيپلز پارٽي جي چيئرمين بلاول ڀٽو زرداري چيو آهي ته جيڪڏهن اسان ويڙهه ۽ نفرت پکيڙيندا رهنداسين ته",
-   "tt": [
-    "بحرانن",
-    "بلاول",
-    "رهياسين",
-    "سگهنداسين",
-    "منهن",
-    "نفرت",
-    "وڙهندا",
-    "پڪيڙيندا",
-    "ڀٽو",
-    "ڏئي"
-   ],
-   "bt": [
-    "اسان",
-    "اهي",
-    "بحرانن",
-    "بلاول",
-    "جيڪڏهن",
-    "حساب",
-    "رهنداسين",
-    "رهياسين",
-    "زرداري",
-    "سگهنداسين",
-    "سگهنداسين،",
-    "منهن",
-    "نفرت",
-    "نوجوان",
-    "ويڙهه",
-    "وٺندا",
-    "وڙهندا",
-    "پارٽي",
-    "پاڪستان",
-    "پيپلز",
-    "پڪيڙيندا",
-    "ڀٽو",
-    "چيئرمين",
-    "ڏئي",
-    "ڪان"
-   ]
-  },
-  {
-   "t": 1795438904,
-   "h": "شام جون سنڌ جون اهم خبرون",
-   "b": "23 نومبر 2026 1️⃣ نادرا پاران سرٽيفڪيٽن جي انجيراج لاءِ بائاميرٽڪ تصديق شروع نادرا طرفان پيدائش، وفات، شادي ۽",
-   "tt": [
-    "اهم",
-    "خبرون",
-    "سنڌ",
-    "شام"
-   ],
-   "bt": [
-    "#23",
-    "اغاز",
-    "انجيراج",
-    "اندراج",
-    "اهم",
-    "اهي،",
-    "بائاميرٽڪ",
-    "بڻائڻ",
-    "تحت",
-    "تصديق",
-    "حيدراباد،",
-    "خبرون",
-    "سرٽيفڪيٽن",
-    "سميت",
-    "سنڌ",
-    "سڪهر،",
-    "شادي",
-    "شام",
-    "شروع",
-    "شفاف",
-    "ضلعن",
-    "طرفان",
-    "طلاق",
-    "لاڙڪانا،",
-    "مختلف",
-    "نادرا",
-    "نظام",
-    "نوابشاهه",
-    "نومبر",
-    "وفات،",
-    "يونين",
-    "پاران",
-    "پيدائش،",
-    "ڪراچي،",
-    "ڪونسل"
-   ]
-  },
   {
    "t": 1795441694,
    "h": "شام جون خبرون | سومر، 23 نومبر 2026",
@@ -14023,6 +13931,48 @@
     "ٽاپ،",
     "ٿيندا",
     "ڏنيون",
+    "ڪارڊ"
+   ]
+  },
+  {
+   "t": 1795611710,
+   "h": "شام جون سنڌ جون اهم خبرون",
+   "b": "25 نومبر 2026 1️⃣ سنڌ يوتھ ڪارڊ: نوجوانن لاءِ روزگار ۽ اسڪالرشپ جا موقعا صوبائي وزير شرجيل انعام ميمڻ اعلان",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "شام"
+   ],
+   "bt": [
+    "#25",
+    "اسڪالرشپ",
+    "اسڪالرشپس،",
+    "اعلان",
+    "اليڪٽرڪ",
+    "انعام",
+    "اهم",
+    "اهي",
+    "بائڪس",
+    "خبرون",
+    "ذريعي",
+    "روزگار",
+    "سنڌ",
+    "شام",
+    "شرجيل",
+    "صوبائي",
+    "فراهم",
+    "ليپ",
+    "ملازمتن",
+    "موقعا",
+    "موقعا،",
+    "ميمڻ",
+    "نوجوانن",
+    "نومبر",
+    "وزير",
+    "ويندا",
+    "يوته",
+    "ٽاپ",
     "ڪارڊ"
    ]
   }
