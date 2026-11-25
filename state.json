@@ -1671,7 +1671,10 @@
   "2611e318956af181": 1795584682.0045793,
   "806df1628eb099d6": 1795585862.431771,
   "ce8e91c78ad60f35": 1795585862.4317741,
-  "4f52d3c2e3b1259a": 1795586485.1541893
+  "4f52d3c2e3b1259a": 1795586485.1541893,
+  "7aa7407a9753600e": 1795587071.4737175,
+  "255789717b23be84": 1795587071.4737196,
+  "c804f57694467a27": 1795587071.4737213
  },
  "pending": {},
  "queue": [],
@@ -2489,11 +2492,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 11:01",
+  "time": "2026-11-25 11:11",
   "items": 8,
   "sample": [
-   "New South Wales 303/10 & 105/6 * v Queensland 306/6 & 278/10",
-   "Western Australia 344/6 * v Tasmania 342/10",
+   "New South Wales 303/10 & 105/6 * v Queensland 278/10 & 306/6",
+   "Western Australia 352/6 * v Tasmania 342/10",
    "South Africa 494/7 * v Bangladesh 91/10"
   ]
  },
@@ -8068,9 +8071,9 @@
  },
  "ai_usage": {
   "date": "2026-11-25",
-  "ok": 148,
-  "fail": 274,
-  "limit": 252
+  "ok": 149,
+  "fail": 276,
+  "limit": 254
  },
  "posted_heads": [
   {
@@ -8395,7 +8398,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 11:01",
+  "time": "2026-11-25 11:11",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8503,7 +8506,7 @@
   "text": 20,
   "story": 19
  },
- "ai_last_error": "11:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "11:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8545,7 +8548,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8553,7 +8556,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8561,7 +8564,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8569,7 +8572,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8577,7 +8580,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8585,14 +8588,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8600,7 +8603,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 69,
+   "ok": 70,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8760,8 +8763,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 9,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8820,8 +8823,8 @@
  "sindh_stream": {
   "date": "2026-11-25",
   "count": 4,
-  "last": 1795585859.543651,
-  "city_i": 20,
+  "last": 1795587069.2659562,
+  "city_i": 24,
   "dry": 1795582268.3919055
  },
  "gemini_day_dead": {
@@ -9521,13 +9524,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-25 04:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-25 04:50",
    "ok": true,
    "n": 0,
@@ -9795,6 +9791,13 @@
   },
   {
    "t": "11-25 11:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 11:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14550,11 +14553,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-23 00:01",
-   "new": "مهانگائي جو طوفان، عام واھپي جون شيون مهانگيون",
-   "old": "نوشهروفيروز جو اڄ | 22-11-2026"
-  },
-  {
    "t": "11-23 00:02",
    "new": "مُنيربا ۽ گل جي شاندار بيٽنگ",
    "old": "LIVE | پاڪستان وومين بمقابلي اسڪاٽلينڊ وومين"
@@ -14698,6 +14696,11 @@
    "t": "11-25 11:01",
    "new": "سنڌ | شوگر سيڪٽر لاءِ نئين قومي پاليسي جي منظوري",
    "old": "صوبن جو ڪمند جي شعبي کي آزاد ڪرڻ تي اتفاق"
+  },
+  {
+   "t": "11-25 11:11",
+   "new": "پهرين پاڪستاني خلاباز ونگ ڪمانڊر محمد ذيشان علي خلا ڏانهن روانو",
+   "old": "نوشهروفيروز جو اڄ | 25-11-2026"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14718,7 +14721,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 9
+  "repeat": 10
  },
  "_dup": true
 }
