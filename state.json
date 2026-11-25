@@ -1642,7 +1642,17 @@
   "d75ccd60245b10b2": 1795646468.285994,
   "63b05a74410cc3b1": 1795646468.2859948,
   "f56581690dc3c622": 1795646468.2859957,
-  "6955f844f692cc74": 1795646468.2861574
+  "6955f844f692cc74": 1795646468.2861574,
+  "0423e0f561134f27": 1795647679.3308585,
+  "ba1c5bfab0144281": 1795647679.3308618,
+  "5307576f3e9b831c": 1795647679.3308635,
+  "0c96f03ea29145ff": 1795647679.3308642,
+  "a029c4775046c1f1": 1795647679.3308656,
+  "09758a17091c928c": 1795647679.3308666,
+  "8f11ef4ae850791a": 1795647679.3308678,
+  "a14748a9a297dc6b": 1795647679.330869,
+  "83960422f7e3d469": 1795647679.3308706,
+  "67955e5091668911": 1795647679.3310363
  },
  "pending": {},
  "queue": [],
@@ -1660,7 +1670,7 @@
   "last_week": "",
   "last_check": "2026-11-26"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.1-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2470,12 +2480,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-26 03:51",
-  "items": 25,
+  "time": "2026-11-26 04:01",
+  "items": 24,
   "sample": [
    "Western Australia 439/10 v Tasmania 42/2 & 342/10 *",
    "South Australia 287/10 v Victoria 275/3 *",
-   "Dubai Capitals 164/7 v Desert Vipers 119/10 *"
+   "Uttarakhand v Mumbai"
   ]
  },
  "agri_news": {
@@ -4898,56 +4908,8 @@
   "last": 1795637633.0201523
  },
  "trends": {
-  "last": 1795636251.821503,
+  "last": 1795647663.0328372,
   "terms": [
-   {
-    "term": "rockstar games",
-    "traffic": 100,
-    "news": "‘A Night in Vice City’ at Kaseya Center is here. ‘We’re trading Miami entirely for Vice City’",
-    "t": 1795033256,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "fatah 3 supersonic cruise missile",
-    "traffic": 200,
-    "news": "Licensable video: Pakistan launches Fatah-3 supersonic cruise missile",
-    "t": 1795033256,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "real madrid vs inter",
-    "traffic": 200,
-    "news": "Real Madrid Femenino v Inter: where to watch on TV and live stream",
-    "t": 1795033256,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "indian air force rafale fleet losses",
-    "traffic": 1000,
-    "news": "India’s Rafale Fleet Listed at 32, Raising Readiness Questions After Pakistan Clash",
-    "t": 1795033256,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "wwe monday night raw",
-    "traffic": 100,
-    "news": "Cody Rhodes vs. CM Punk Feud Coming Soon, Cruz Montana Gets WWE Stamp of Approval, More Raw Fallout",
-    "t": 1795033256,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "pakistan internet",
-    "traffic": 200,
-    "news": "International submarine cable develops fault: PTA",
-    "t": 1795033256,
-    "cat": "technology",
-    "sindh": false
-   },
    {
     "term": "yashasvi jaiswal",
     "traffic": 100,
@@ -8019,15 +7981,39 @@
     "t": 1795636252,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "thanks giving day",
+    "traffic": 100,
+    "news": "Thanksgiving weather live updates: Travel disruption expected as storms and flooding forecast",
+    "t": 1795647663,
+    "cat": "weather_disaster",
+    "sindh": false
+   },
+   {
+    "term": "champions league standings",
+    "traffic": 500,
+    "news": "Real Madrid vs PSV Eindhoven - Highlights",
+    "t": 1795647663,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "sabah fk vs fc barcelona standings",
+    "traffic": 5000,
+    "news": "Anthony Gordon starts in Baku as Barça make five changes",
+    "t": 1795647663,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-26",
-  "ok": 33,
-  "fail": 73,
-  "limit": 60
+  "ok": 36,
+  "fail": 81,
+  "limit": 66
  },
  "posted_heads": [
   {
@@ -8352,7 +8338,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-26 03:51",
+  "time": "2026-11-26 04:01",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8455,12 +8441,12 @@
  },
  "article_diag": {
   "date": "2026-11-26",
-  "tried": 6,
-  "decoded": 6,
-  "text": 6,
-  "story": 3
+  "tried": 7,
+  "decoded": 7,
+  "text": 7,
+  "story": 4
  },
- "ai_last_error": "03:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "04:01 gemini-3.5-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-26",
   "models": [
@@ -8502,7 +8488,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-26",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8510,7 +8496,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-26",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8518,7 +8504,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-26",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8526,7 +8512,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8534,7 +8520,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8542,14 +8528,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8557,7 +8543,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-26",
-   "ok": 24,
+   "ok": 25,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8701,13 +8687,13 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 10,
-  "old": 10,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-26 03",
+ "report_hour": "2026-11-26 04",
  "kawish_upload_times": {
   "_date": "2026-11-26",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8763,8 +8749,8 @@
   "date": "2026-11-26",
   "count": 1,
   "last": 1795633866.8569803,
-  "city_i": 18,
-  "dry": 1795647059.2997565
+  "city_i": 22,
+  "dry": 1795647673.3294942
  },
  "gemini_day_dead": {
   "day": "2026-11-25",
@@ -9449,13 +9435,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-25 21:15",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-25 21:30",
    "ok": true,
    "n": 0,
@@ -9723,6 +9702,13 @@
   },
   {
    "t": "11-26 03:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-26 04:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14470,11 +14456,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-23 08:21",
-   "new": "سنڌ | سنڌ سميت سڄي ملڪ لاءِ 8 لک ٽِن گندم درآمد ڪرڻ جو فيصلو",
-   "old": "ڪڻڪ جي بحران خلاف نوان قدم کڻڻ جو اعلان"
-  },
-  {
    "t": "11-23 09:31",
    "new": "پاکستان ۾ سوني جي قيمت ۾ واڌ",
    "old": "اڄ پاڪستان ۾ سون جي قيمت"
@@ -14618,6 +14599,11 @@
    "t": "11-26 03:41",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽتائي ڪئي وئي",
    "old": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات"
+  },
+  {
+   "t": "11-26 04:01",
+   "new": "پاڪستان ۾ سون جي قيمت ۾ وڏي لاٿ",
+   "old": "ملڪ ۾ سون جي اگهه ۾ وڏي لاٿ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14638,7 +14624,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 3
+  "repeat": 4
  },
  "_dup": true
 }
