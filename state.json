@@ -1,7 +1,5 @@
 {
  "seen": {
-  "cf35e6e5c236a1b5": 1794960683.9297066,
-  "c9a77b42a03e33f4": 1794960686.9968262,
   "9d0b108fe61b6e14": 1794961284.8210032,
   "623ebffb0759427c": 1794961284.821006,
   "302182705e589301": 1794961284.8210077,
@@ -2487,10 +2485,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 05:10",
+  "time": "2026-11-25 05:31",
   "items": 8,
   "sample": [
-   "New South Wales 303/10 v Queensland 159/2 & 278/10 *",
+   "New South Wales 303/10 v Queensland 278/10 & 168/2 *",
    "Western Australia 197/5 * v Tasmania 342/10",
    "South Africa 494/7 * v Bangladesh 91/10"
   ]
@@ -8401,7 +8399,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 05:10",
+  "time": "2026-11-25 05:31",
   "steps": []
  },
  "roundup_am": "2026-11-24",
@@ -8551,7 +8549,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8559,7 +8557,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8567,7 +8565,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8575,7 +8573,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8583,7 +8581,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8591,14 +8589,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8606,7 +8604,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 33,
+   "ok": 34,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8766,8 +8764,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 11,
-  "old": 11,
+  "found": 12,
+  "old": 12,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8827,8 +8825,8 @@
   "date": "2026-11-25",
   "count": 1,
   "last": 1795550475.9343507,
-  "city_i": 24,
-  "dry": 1795563068.1704588
+  "city_i": 6,
+  "dry": 1795566349.702847
  },
  "gemini_day_dead": {
   "day": "2026-11-24",
@@ -9473,13 +9471,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-24 22:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-24 23:00",
    "ok": true,
    "n": 0,
@@ -9747,6 +9738,13 @@
   },
   {
    "t": "11-25 05:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 05:20",
    "ok": true,
    "n": 0,
    "ids": [],
