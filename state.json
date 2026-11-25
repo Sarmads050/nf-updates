@@ -1,8 +1,5 @@
 {
  "seen": {
-  "08f44a098b63501c": 1794963680.2166207,
-  "de691deb0b9c50f1": 1794963684.3094811,
-  "44331e78aac8f95f": 1794963684.3096213,
   "bd39e963874cf5ec": 1794965475.6637652,
   "b4ef202f64029324": 1794965475.6637676,
   "f24def9aeece9863": 1794965486.1841142,
@@ -1658,7 +1655,17 @@
   "6467e4dc9f10ca15": 1795566797.9356017,
   "1a234ae2738b6d1c": 1795566797.9357562,
   "1fae1f53196ba26a": 1795568478.4633515,
-  "2453e57d0b7d3697": 1795568478.463558
+  "2453e57d0b7d3697": 1795568478.463558,
+  "924aefa80806b9bb": 1795569071.932139,
+  "3d942c65a5a84ca7": 1795569071.9321418,
+  "02d9d36f2b41cfb4": 1795569071.9321432,
+  "27648966ac07b6e4": 1795569071.932144,
+  "70299ef195167ac3": 1795569071.932145,
+  "ee942cc3191fe183": 1795569071.9321456,
+  "5d91bc10aa41ae3d": 1795569071.9321465,
+  "9ea68830158f6a40": 1795569071.9321475,
+  "77d42c5f655d1ef9": 1795569071.9321482,
+  "ef20ecd99ef57822": 1795569071.9323423
  },
  "pending": {},
  "queue": [],
@@ -2501,10 +2508,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 06:01",
+  "time": "2026-11-25 06:11",
   "items": 8,
   "sample": [
-   "New South Wales 303/10 v Queensland 278/10 & 206/3 *",
+   "New South Wales 303/10 v Queensland 278/10 & 214/3 *",
    "Western Australia 197/5 * v Tasmania 342/10",
    "South Africa 494/7 * v Bangladesh 91/10"
   ]
@@ -8032,9 +8039,9 @@
  },
  "ai_usage": {
   "date": "2026-11-25",
-  "ok": 62,
-  "fail": 130,
-  "limit": 108
+  "ok": 67,
+  "fail": 141,
+  "limit": 118
  },
  "posted_heads": [
   {
@@ -8359,7 +8366,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 06:01",
+  "time": "2026-11-25 06:11",
   "steps": []
  },
  "roundup_am": "2026-11-24",
@@ -8462,12 +8469,12 @@
  },
  "article_diag": {
   "date": "2026-11-25",
-  "tried": 11,
-  "decoded": 11,
-  "text": 11,
-  "story": 10
+  "tried": 12,
+  "decoded": 12,
+  "text": 12,
+  "story": 11
  },
- "ai_last_error": "06:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8509,7 +8516,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8517,7 +8524,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8525,7 +8532,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8533,7 +8540,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8541,7 +8548,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8549,14 +8556,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8564,7 +8571,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8724,8 +8731,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8785,8 +8792,8 @@
   "date": "2026-11-25",
   "count": 1,
   "last": 1795550475.9343507,
-  "city_i": 14,
-  "dry": 1795568472.4750926
+  "city_i": 18,
+  "dry": 1795569064.3415945
  },
  "gemini_day_dead": {
   "day": "2026-11-24",
@@ -9431,13 +9438,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-24 23:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-24 23:50",
    "ok": true,
    "n": 0,
@@ -9705,6 +9705,13 @@
   },
   {
    "t": "11-25 06:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 06:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14348,11 +14355,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-22 11:21",
-   "new": "پيٽروليم شين جي اگهن ۾ گهٽات.",
-   "old": "پيٽرول کانپوءِ جهازن جي ٻارڻ، گاسليٽ ۽ ڊيزل جا اگهه گهٽايا ويا"
-  },
-  {
    "t": "11-22 13:24",
    "new": "سنڌ | جعلي دوائن جي خاتمي لاءِ ”محفوظ دوا“ ائپ آندي پئي وڃي",
    "old": "جعلي دوائن جي روڪٿام لاءِ ايپ جو افتتاح"
@@ -14496,6 +14498,11 @@
    "t": "11-25 06:01",
    "new": "پاڪستان ۾ سون جي اگهه جو طريقيڪار",
    "old": "پاڪستان ۾ پرڏيهي ڪرنسي ۽ سون جا اگهه"
+  },
+  {
+   "t": "11-25 06:11",
+   "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
+   "old": "پيٽرول اگهن ۾ گهٽتائي جو اعلان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14516,7 +14523,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 4
+  "repeat": 5
  },
  "_dup": true
 }
