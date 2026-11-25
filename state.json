@@ -1,7 +1,5 @@
 {
  "seen": {
-  "93602bd7083f4f1e": 1794978687.1119335,
-  "39c99973f02f330b": 1794978687.1119363,
   "ecc7b62cf422c3da": 1794979890.5702114,
   "cee48968a772fecf": 1794980470.154002,
   "02f7ab2883290abb": 1794980498.8551638,
@@ -2488,11 +2486,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 10:12",
+  "time": "2026-11-25 10:20",
   "items": 8,
   "sample": [
    "New South Wales 303/10 & 96/4 * v Queensland 278/10 & 306/6",
-   "Western Australia 291/6 * v Tasmania 342/10",
+   "Western Australia 296/6 * v Tasmania 342/10",
    "South Africa 494/7 * v Bangladesh 91/10"
   ]
  },
@@ -8394,7 +8392,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 10:12",
+  "time": "2026-11-25 10:20",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8544,7 +8542,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8552,7 +8550,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8560,7 +8558,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8568,7 +8566,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8576,7 +8574,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8584,14 +8582,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8599,7 +8597,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 63,
+   "ok": 64,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8759,8 +8757,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 10,
-  "old": 10,
+  "found": 20,
+  "old": 20,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9503,13 +9501,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-25 03:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-25 04:00",
    "ok": true,
    "n": 0,
@@ -9777,6 +9768,13 @@
   },
   {
    "t": "11-25 10:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 10:20",
    "ok": true,
    "n": 0,
    "ids": [],
