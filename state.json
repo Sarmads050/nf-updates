@@ -1,11 +1,5 @@
 {
  "seen": {
-  "f26c423ccd2ac7a8": 1795008072.611668,
-  "585417a28a5879cd": 1795008072.6118574,
-  "ec143655ba148b85": 1795008112.9105172,
-  "cd9784c8bb7cd3fd": 1795008112.9105198,
-  "d9fd16d6f689b3a6": 1795008112.9105206,
-  "c030a0bc1ab48ff7": 1795008112.910773,
   "318555d679aa006e": 1795008686.1199803,
   "6817df4306f1206a": 1795009283.802572,
   "1a5ad1e674cd3fc1": 1795009283.8027542,
@@ -1643,7 +1637,10 @@
   "0b5eb3c7011e6c26": 1795610507.3202035,
   "866079c94051604f": 1795612268.9359126,
   "cf8a88758b6c2fd4": 1795612268.9359148,
-  "bf43951f29b5fbab": 1795612268.9359174
+  "bf43951f29b5fbab": 1795612268.9359174,
+  "f79366ec54135bc6": 1795613591.9858575,
+  "627d7b5fa5788e40": 1795613591.9858603,
+  "7043a757b9faddc8": 1795613591.9858632
  },
  "pending": {},
  "queue": [],
@@ -1661,7 +1658,7 @@
   "last_week": "",
   "last_check": "2026-11-25"
  },
- "gemini_model": "gemini-flash-lite-latest",
+ "gemini_model": "gemini-3.1-flash-lite",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2456,10 +2453,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 18:20",
+  "time": "2026-11-25 18:35",
   "items": 9,
   "sample": [
-   "Western Australia 439/10 v Tasmania 342/10 & 42/2 *",
+   "Western Australia 439/10 v Tasmania 42/2 & 342/10 *",
    "South Africa 494/7 v Bangladesh 184/10 & 91/10 *",
    "South Australia 287/10 v Victoria 275/3 *"
   ]
@@ -4884,80 +4881,8 @@
   "last": 1795608312.2778523
  },
  "trends": {
-  "last": 1795602052.336748,
+  "last": 1795613485.3839476,
   "terms": [
-   {
-    "term": "bilawal bhutto",
-    "traffic": 500,
-    "news": "Bilawal calls for political reset, says system's failure must be debated",
-    "t": 1794999673,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "gold rate today",
-    "traffic": 200,
-    "news": "Gold, Silver Prices Down To The Price Of iPhone 17 Pro, iPhone 18 Pro; Check Details",
-    "t": 1794999673,
-    "cat": "dollar_gold_business",
-    "sindh": false
-   },
-   {
-    "term": "gold price in pakistan",
-    "traffic": 1000,
-    "news": "Gold falls as upcoming Fed rate hike weighs",
-    "t": 1794999673,
-    "cat": "dollar_gold_business",
-    "sindh": false
-   },
-   {
-    "term": "twitch",
-    "traffic": 200,
-    "news": "How To Stream Twitch On Your TV",
-    "t": 1794999673,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "pakistan vs srilanka",
-    "traffic": 100,
-    "news": "Pakistan pacers put hosts in command on opening day of second Test",
-    "t": 1794999673,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "anne hathaway",
-    "traffic": 200,
-    "news": "Pregnant Anne Hathaway talks parenting struggles ahead of third childbirth",
-    "t": 1794999673,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "kagiso rabada",
-    "traffic": 1000,
-    "news": "Bangladesh vs South Africa Day 1 Highlights as Hridoy Smashes 137",
-    "t": 1794999673,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "gta vi metacritic",
-    "traffic": 500,
-    "news": "GTA 6's first player ratings surface early via PlayStation Store, oops",
-    "t": 1794999673,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "donald trump",
-    "traffic": 100,
-    "news": "Apec summit live: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’ in speech",
-    "t": 1794999673,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "zoom",
     "traffic": 200,
@@ -8021,15 +7946,71 @@
     "t": 1795602052,
     "cat": "agriculture",
     "sindh": false
+   },
+   {
+    "term": "british airways",
+    "traffic": 100,
+    "news": "British Airways flight declares emergency off Irish coast due to technical issue",
+    "t": 1795613485,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "harbhajan singh",
+    "traffic": 100,
+    "news": "ICC Told To Stop 'Shameful' Behavior Of India, Pakistan Cricketers In Rising Asia Cup",
+    "t": 1795613485,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "jennifer barreto",
+    "traffic": 500,
+    "news": "Licensable video: Miss Universe celebrates 75 years with 116 contestants vying for the crown",
+    "t": 1795613485,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "iranian rial",
+    "traffic": 100,
+    "news": "Hemmaty: Sanctioning Iran’s Currency Exchange Shows U.S. Has Run Out of Options",
+    "t": 1795613485,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "pete edochie",
+    "traffic": 200,
+    "news": "Fitaccen jarumin fina finai, Pete Edochie ya rasu yana da shekara 79",
+    "t": 1795613485,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "سعودی عرب",
+    "traffic": 100,
+    "news": "",
+    "t": 1795613485,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "seth rollins",
+    "traffic": 100,
+    "news": "Seth Rollins, El Grande Americano confirmed as final entrants for USA vs. Mexico Survivor Series match",
+    "t": 1795613485,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-25",
-  "ok": 248,
-  "fail": 439,
-  "limit": 402
+  "ok": 251,
+  "fail": 449,
+  "limit": 408
  },
  "posted_heads": [
   {
@@ -8354,7 +8335,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 18:20",
+  "time": "2026-11-25 18:35",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8457,12 +8438,12 @@
  },
  "article_diag": {
   "date": "2026-11-25",
-  "tried": 25,
-  "decoded": 24,
-  "text": 23,
-  "story": 22
+  "tried": 26,
+  "decoded": 25,
+  "text": 24,
+  "story": 23
  },
- "ai_last_error": "18:11 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "18:33 gemini-3.5-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8504,7 +8485,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8512,7 +8493,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8520,7 +8501,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8528,7 +8509,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8536,7 +8517,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8544,14 +8525,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8559,7 +8540,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 113,
+   "ok": 114,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8719,8 +8700,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 4,
-  "old": 4,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8779,8 +8760,8 @@
  "sindh_stream": {
   "date": "2026-11-25",
   "count": 15,
-  "last": 1795612260.3383813,
-  "city_i": 6,
+  "last": 1795613516.3133504,
+  "city_i": 10,
   "dry": 1795610480.583443
  },
  "gemini_day_dead": {
@@ -9455,7 +9436,8 @@
    "12:30",
    "14:00",
    "15:30",
-   "17:00"
+   "17:00",
+   "18:30"
   ]
  },
  "kawish_queue": [],
@@ -9465,13 +9447,6 @@
   "last": 1795522324.4058306
  },
  "tg_debug": [
-  {
-   "t": "11-25 11:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-25 12:00",
    "ok": true,
@@ -9740,6 +9715,13 @@
   },
   {
    "t": "11-25 18:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 18:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14026,11 +14008,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-23 00:02",
-   "new": "حيدرآباد ۾ ڪڻڪ جي فراهمي جو بحران",
-   "old": "حيدرآباد ۾ ڪڻڪ جا اگهه وڌي ويا"
-  },
-  {
    "t": "11-23 00:11",
    "new": "پاڪستان وومينز ٽرافي کتي ورتي",
    "old": "LIVE | پاڪستان وومين بمقابلي اسڪاٽلينڊ وومين"
@@ -14174,6 +14151,11 @@
    "t": "11-25 15:31",
    "new": "ڪراچي ۾ 6 ماڙ عمارت ڊھي پئي",
    "old": "ڪراچي: بلوچ ڪالوني ويجهو ڇهه ماڙ عمارت ڊهي پئي"
+  },
+  {
+   "t": "11-25 18:35",
+   "new": "نوابشاهه: فوڊ اٿارٽي پاران 200 ڪارٽن خراب جوس ضبط",
+   "old": "بجلي جي وڌندڙ بلن ۽ ٽئڪسن تي عوام پريشان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14194,6 +14176,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 11
- }
+  "repeat": 12
+ },
+ "_dup": true
 }
