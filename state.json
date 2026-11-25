@@ -1668,7 +1668,19 @@
   "02eb10a55c4774b7": 1795593073.0180502,
   "a7e5a0af22991f6c": 1795593073.0180514,
   "76d25cbea63c3927": 1795593073.018052,
-  "46488b9d3cb5862e": 1795593073.0180538
+  "46488b9d3cb5862e": 1795593073.0180538,
+  "2830fcb29b32b050": 1795594382.0434434,
+  "02973efa1dbf876c": 1795594382.0434453,
+  "a1038ccbf9444ba5": 1795594432.5636022,
+  "88cb0829b0cf8b8c": 1795594432.5636053,
+  "93ddf11a16f67d72": 1795594432.5636065,
+  "a92c8c2bcb9bd3ac": 1795594432.5636075,
+  "8f2fccd58af4b441": 1795594432.5636084,
+  "9eefb525bb80abd5": 1795594432.5636096,
+  "7ab7760d610d339e": 1795594432.5636103,
+  "2d7c226e6821dfe9": 1795594432.563611,
+  "d5d02cf9ece85fbe": 1795594432.563612,
+  "cfcd7031a4af5a95": 1795594432.563613
  },
  "pending": {},
  "queue": [],
@@ -1686,7 +1698,7 @@
   "last_week": "",
   "last_check": "2026-11-25"
  },
- "gemini_model": "gemini-3.1-flash-lite",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1741,7 +1753,7 @@
  "sindh_single": {
   "date": "2026-11-25",
   "count": 0,
-  "last": 1795586483.7294953,
+  "last": 1795594446.5698638,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2488,12 +2500,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 13:01",
+  "time": "2026-11-25 13:15",
   "items": 8,
   "sample": [
-   "New South Wales 303/10 & 152/8 * v Queensland 306/6 & 278/10",
-   "Western Australia 425/8 * v Tasmania 342/10",
-   "South Africa 494/7 * v Bangladesh 91/10"
+   "New South Wales 152/8 & 303/10 * v Queensland 278/10 & 306/6",
+   "Western Australia 429/8 * v Tasmania 342/10",
+   "South Africa 494/7 v Bangladesh 6 & 91/10 *"
   ]
  },
  "agri_news": {
@@ -8059,8 +8071,8 @@
  },
  "ai_usage": {
   "date": "2026-11-25",
-  "ok": 170,
-  "fail": 318,
+  "ok": 173,
+  "fail": 325,
   "limit": 296
  },
  "posted_heads": [
@@ -8386,7 +8398,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 13:01",
+  "time": "2026-11-25 13:15",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8494,7 +8506,7 @@
   "text": 20,
   "story": 19
  },
- "ai_last_error": "12:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "13:15 gemini-3.7-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8536,7 +8548,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8544,7 +8556,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8552,7 +8564,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8560,7 +8572,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8568,7 +8580,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8576,14 +8588,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8591,7 +8603,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8751,8 +8763,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8811,21 +8823,13 @@
  "sindh_stream": {
   "date": "2026-11-25",
   "count": 9,
-  "last": 1795593065.0349169,
-  "city_i": 22,
-  "dry": 1795582268.3919055
+  "last": 1795594261.829813,
+  "city_i": 4,
+  "dry": 1795594382.0434473
  },
  "gemini_day_dead": {
-  "day": "2026-11-24",
-  "models": [
-   "gemini-flash-latest",
-   "gemini-3.7-flash",
-   "gemini-3.8-flash",
-   "gemini-3.6-flash",
-   "gemini-3.5-flash",
-   "gemini-flash-lite-latest",
-   "gemini-3.5-flash-lite"
-  ]
+  "day": "2026-11-25",
+  "models": []
  },
  "tg_done": [
   92058696,
@@ -9521,13 +9525,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-25 06:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-25 06:50",
    "ok": true,
    "n": 0,
@@ -9795,6 +9792,13 @@
   },
   {
    "t": "11-25 13:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 13:10",
    "ok": true,
    "n": 0,
    "ids": [],
