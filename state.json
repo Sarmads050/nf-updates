@@ -1638,7 +1638,8 @@
   "c4470cee439de15b": 1795624880.7801123,
   "b0d45883df4585db": 1795624880.780115,
   "9d095f9f014eab35": 1795624880.7801163,
-  "8c589ccfd7c65f58": 1795624880.780118
+  "8c589ccfd7c65f58": 1795624880.780118,
+  "dc4134048ba2f859": 1795626165.720305
  },
  "pending": {},
  "queue": [],
@@ -1710,8 +1711,8 @@
  "last_question": "2026-11-25",
  "sindh_single": {
   "date": "2026-11-25",
-  "count": 2,
-  "last": 1795618468.817316,
+  "count": 3,
+  "last": 1795626090.842838,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1798,21 +1799,12 @@
    "40724ba86d4fe948",
    "4f52d3c2e3b1259a",
    "0b5eb3c7011e6c26",
-   "83d717cbab9e3149"
+   "83d717cbab9e3149",
+   "dc4134048ba2f859"
   ]
  },
- "last_post_id": "1444130002106066_122124585627503839",
+ "last_post_id": "1444130002106066_122124590319503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124396747503839",
-   "title": "ملڪ کي درپيش پاڻيءَ جي سخت بحران سبب زراعت کي بچائڻ لاءِ مائڪرو آبپاش جو نظام ضروري قرار",
-   "t": 1795573334.45275,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124396747503839"
-  },
   {
    "id": "1444130002106066_122124408201503839",
    "title": "ممالڪ جي نئين بجيٽ ۾ ملازمن جي تنخواهن، نون ٽيڪس سلب ۽ وِٿهولڊنگ ٽيڪس بابت تفصيل سامهون",
@@ -2132,6 +2124,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124585627503839"
+  },
+  {
+   "id": "1444130002106066_122124590319503839",
+   "title": "نوشهرو فیروز سميت چونڊيل ضلعن ۾ سول رجسٽريشن لاءِ بايو ميٽرڪ تصديق لاڳو نادرا پاران",
+   "t": 1795626267.918326,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124590319503839"
   }
  ],
  "share_sent": {
@@ -2462,11 +2464,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 21:52",
+  "time": "2026-11-25 22:04",
   "items": 8,
   "sample": [
-   "Western Australia 439/10 v Tasmania 342/10 & 42/2 *",
-   "South Africa 494/7 v Bangladesh 91/10 & 184/10 *",
+   "Western Australia 439/10 v Tasmania 42/2 & 342/10 *",
+   "South Africa 494/7 v Bangladesh 184/10 & 91/10 *",
    "South Australia 287/10 v Victoria 275/3 *"
   ]
  },
@@ -2477,17 +2479,11 @@
  },
  "all_posts": {
   "date": "2026-11-25",
-  "count": 42,
-  "last": 1795624939.4788089
+  "count": 43,
+  "last": 1795626262.4548023
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122120970609503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794669812
-   },
    {
     "id": "1444130002106066_122120978727503839",
     "sec": "sindh_stream",
@@ -4881,6 +4877,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1795624943
+   },
+   {
+    "id": "1444130002106066_122124590319503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1795626262
    }
   ]
  },
@@ -8025,9 +8027,9 @@
  },
  "ai_usage": {
   "date": "2026-11-25",
-  "ok": 295,
-  "fail": 612,
-  "limit": 484
+  "ok": 301,
+  "fail": 623,
+  "limit": 494
  },
  "posted_heads": [
   {
@@ -8352,7 +8354,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 21:52",
+  "time": "2026-11-25 22:04",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8460,7 +8462,7 @@
   "text": 26,
   "story": 24
  },
- "ai_last_error": "21:52 gemini-3.1-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "22:03 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8474,9 +8476,9 @@
  },
  "img_diag": {
   "date": "2026-11-25",
-  "tried": 39,
+  "tried": 40,
   "gemini": 0,
-  "pollinations": 17,
+  "pollinations": 18,
   "skip": 8,
   "fail": 17,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
@@ -8502,7 +8504,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8510,7 +8512,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8518,7 +8520,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8526,7 +8528,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8534,7 +8536,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8542,14 +8544,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8557,7 +8559,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 134,
+   "ok": 135,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8696,18 +8698,18 @@
  "region_posts": {
   "date": "2026-11-25",
   "district": 2,
-  "sindh": 23,
+  "sindh": 24,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 8,
-  "old": 8,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-25 21",
+ "report_hour": "2026-11-25 22",
  "kawish_upload_times": {
   "_date": "2026-11-25",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -8762,8 +8764,8 @@
   "date": "2026-11-25",
   "count": 20,
   "last": 1795624870.5189342,
-  "city_i": 10,
-  "dry": 1795610480.583443
+  "city_i": 14,
+  "dry": 1795626077.8850722
  },
  "gemini_day_dead": {
   "day": "2026-11-25",
@@ -9451,13 +9453,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-25 15:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-25 15:30",
    "ok": true,
    "n": 0,
@@ -9729,6 +9724,13 @@
    "n": 0,
    "ids": [],
    "err": "Bad Gateway"
+  },
+  {
+   "t": "11-25 22:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-25",
@@ -14006,6 +14008,66 @@
     "ڪرڻ",
     "گهريون"
    ]
+  },
+  {
+   "t": 1795626262,
+   "h": "سنڌ | نوشهرو فيروز سميت چونڊيل ضلعن ۾ سول رجسٽريشن لاءِ بايو ميٽرڪ تصديق لاڳو",
+   "b": "نادرا پاران پيدائش، موت، شادي ۽ طلاق جي اندراج جي عمل کي شفاف بڻائڻ لاءِ چونڊيل ضلعن جي يونين ڪائونسلن ۾ بايو",
+   "tt": [
+    "بايو",
+    "تصديق",
+    "رجسٽريشن",
+    "سميت",
+    "سنڌ",
+    "سول",
+    "ضلعن",
+    "فيروز",
+    "لاڳو",
+    "ميٽرڪ",
+    "نوشهرو",
+    "چونڊيل"
+   ],
+   "bt": [
+    "اجرا",
+    "اندراج",
+    "اهي",
+    "بايو",
+    "بڻائڻ",
+    "تحت",
+    "تصديق",
+    "رجسٽريشن",
+    "سرٽيفڪيٽ",
+    "سميت",
+    "سنڌ",
+    "سول",
+    "شادي",
+    "شفاف",
+    "شهرين",
+    "ضلعن",
+    "طلاق",
+    "عمل",
+    "فيروز",
+    "لاڳو",
+    "موت،",
+    "ميٽرڪ",
+    "مڪمل",
+    "نئون",
+    "نئين",
+    "نادرا",
+    "نافذ",
+    "نظام",
+    "نوشهرو",
+    "هوندي",
+    "يونين",
+    "ٻين",
+    "پاران",
+    "پهريان",
+    "پيدائش،",
+    "چونڊيل",
+    "ڪائونسلن",
+    "ڪان",
+    "ڪرڻ"
+   ]
   }
  ],
  "repeat_log": [
@@ -14173,7 +14235,7 @@
  },
  "quality": {
   "date": "2026-11-25",
-  "editor_fixed": 33,
+  "editor_fixed": 34,
   "editor_rejected": 2,
   "kawish_rejected": 2,
   "kawish_crosschecked": 0,
