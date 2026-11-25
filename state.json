@@ -1633,7 +1633,17 @@
   "714b316945e218b4": 1795643472.531342,
   "85865af4541ddb70": 1795643472.5313427,
   "a34d6eabf2c1dec1": 1795643472.5313435,
-  "9775acf1e2a23561": 1795643472.531576
+  "9775acf1e2a23561": 1795643472.531576,
+  "99530a9cd894f23f": 1795646468.2859876,
+  "fb7190394fa5f435": 1795646468.2859905,
+  "d393d4e8aead9e01": 1795646468.2859912,
+  "5fcf61159c9558a0": 1795646468.285992,
+  "b6ef181f34d03503": 1795646468.2859924,
+  "983fdbcf8f30eb7b": 1795646468.285993,
+  "d75ccd60245b10b2": 1795646468.285994,
+  "63b05a74410cc3b1": 1795646468.2859948,
+  "f56581690dc3c622": 1795646468.2859957,
+  "6955f844f692cc74": 1795646468.2861574
  },
  "pending": {},
  "queue": [],
@@ -2461,7 +2471,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-26 03:30",
+  "time": "2026-11-26 03:41",
   "items": 25,
   "sample": [
    "Western Australia 439/10 v Tasmania 42/2 & 342/10 *",
@@ -8016,9 +8026,9 @@
  },
  "ai_usage": {
   "date": "2026-11-26",
-  "ok": 29,
-  "fail": 65,
-  "limit": 52
+  "ok": 33,
+  "fail": 73,
+  "limit": 60
  },
  "posted_heads": [
   {
@@ -8343,7 +8353,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-26 03:30",
+  "time": "2026-11-26 03:41",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8446,12 +8456,12 @@
  },
  "article_diag": {
   "date": "2026-11-26",
-  "tried": 5,
-  "decoded": 5,
-  "text": 5,
-  "story": 2
+  "tried": 6,
+  "decoded": 6,
+  "text": 6,
+  "story": 3
  },
- "ai_last_error": "02:51 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "03:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-26",
   "models": [
@@ -8493,7 +8503,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-26",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8501,7 +8511,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-26",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8509,7 +8519,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-26",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8517,7 +8527,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8525,7 +8535,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8533,14 +8543,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8548,7 +8558,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-26",
-   "ok": 22,
+   "ok": 23,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8692,8 +8702,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 6,
-  "old": 6,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8754,8 +8764,8 @@
   "date": "2026-11-26",
   "count": 1,
   "last": 1795633866.8569803,
-  "city_i": 10,
-  "dry": 1795643460.7379215
+  "city_i": 14,
+  "dry": 1795646459.4681544
  },
  "gemini_day_dead": {
   "day": "2026-11-25",
@@ -9440,13 +9450,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-25 21:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-25 21:09",
    "ok": true,
    "n": 0,
@@ -9714,6 +9717,13 @@
   },
   {
    "t": "11-26 03:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-26 03:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14461,11 +14471,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-23 06:51",
-   "new": "لاهور ۾ وايوپرڌوشن خطرناڪ حد تائين پهچي وئي",
-   "old": "لاهور دنيا جو سڀ کان گندو شهر بڻجي ويو"
-  },
-  {
    "t": "11-23 08:21",
    "new": "سنڌ | سنڌ سميت سڄي ملڪ لاءِ 8 لک ٽِن گندم درآمد ڪرڻ جو فيصلو",
    "old": "ڪڻڪ جي بحران خلاف نوان قدم کڻڻ جو اعلان"
@@ -14609,6 +14614,11 @@
    "t": "11-26 00:02",
    "new": "سنڌ ۾ ڪڻڪ جو نئون اگهه ۽ واڌارو",
    "old": "سنڌ حڪومت پاران اٽي جا نوان اگهه مقرر"
+  },
+  {
+   "t": "11-26 03:41",
+   "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽتائي ڪئي وئي",
+   "old": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14629,6 +14639,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 2
- }
+  "repeat": 3
+ },
+ "_dup": true
 }
