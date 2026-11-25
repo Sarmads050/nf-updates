@@ -1,6 +1,5 @@
 {
  "seen": {
-  "9d5d4a1d569debb8": 1794981103.6260657,
   "e5cccd825a4577e6": 1794982864.51305,
   "b1410cca74b99e0a": 1794982864.5130532,
   "0c3b3182dcb76e72": 1794982864.5130556,
@@ -1671,7 +1670,8 @@
   "ba791cef1e4e065b": 1795584682.0045774,
   "2611e318956af181": 1795584682.0045793,
   "806df1628eb099d6": 1795585862.431771,
-  "ce8e91c78ad60f35": 1795585862.4317741
+  "ce8e91c78ad60f35": 1795585862.4317741,
+  "4f52d3c2e3b1259a": 1795586485.1541893
  },
  "pending": {},
  "queue": [],
@@ -1744,7 +1744,7 @@
  "sindh_single": {
   "date": "2026-11-25",
   "count": 0,
-  "last": 1795578080.9953084,
+  "last": 1795586483.7294953,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1828,7 +1828,8 @@
    "6a3a0bd3189d4a1d",
    "caa0bdad3813565e",
    "16efb872414d431b",
-   "40724ba86d4fe948"
+   "40724ba86d4fe948",
+   "4f52d3c2e3b1259a"
   ]
  },
  "last_post_id": "1444130002106066_122124439329503839",
@@ -2488,11 +2489,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 10:51",
+  "time": "2026-11-25 11:01",
   "items": 8,
   "sample": [
-   "New South Wales 99/5 & 303/10 * v Queensland 306/6 & 278/10",
-   "Western Australia 333/6 * v Tasmania 342/10",
+   "New South Wales 303/10 & 105/6 * v Queensland 306/6 & 278/10",
+   "Western Australia 344/6 * v Tasmania 342/10",
    "South Africa 494/7 * v Bangladesh 91/10"
   ]
  },
@@ -8067,9 +8068,9 @@
  },
  "ai_usage": {
   "date": "2026-11-25",
-  "ok": 146,
-  "fail": 270,
-  "limit": 248
+  "ok": 148,
+  "fail": 274,
+  "limit": 252
  },
  "posted_heads": [
   {
@@ -8394,7 +8395,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 10:51",
+  "time": "2026-11-25 11:01",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8502,7 +8503,7 @@
   "text": 20,
   "story": 19
  },
- "ai_last_error": "10:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "11:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8544,7 +8545,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 68,
+   "ok": 69,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8552,7 +8553,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 68,
+   "ok": 69,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8560,7 +8561,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 68,
+   "ok": 69,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8568,7 +8569,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 68,
+   "ok": 69,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8576,7 +8577,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 68,
+   "ok": 69,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8584,14 +8585,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 68,
+   "ok": 69,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 68,
+   "ok": 69,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8599,7 +8600,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 68,
+   "ok": 69,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8758,14 +8759,14 @@
   "pakistan": 12
  },
  "report_acc": {
-  "posted": 3,
-  "found": 47,
-  "old": 47,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-25 10",
+ "report_hour": "2026-11-25 11",
  "kawish_upload_times": {
   "_date": "2026-11-25",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9508,7 +9509,8 @@
   "date": "2026-11-25",
   "done": [
    "08:00",
-   "09:30"
+   "09:30",
+   "11:00"
   ]
  },
  "kawish_queue": [],
@@ -9518,13 +9520,6 @@
   "last": 1795522324.4058306
  },
  "tg_debug": [
-  {
-   "t": "11-25 04:38",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-25 04:40",
    "ok": true,
@@ -9793,6 +9788,13 @@
   },
   {
    "t": "11-25 10:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 11:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14549,11 +14551,6 @@
  "repeat_log": [
   {
    "t": "11-23 00:01",
-   "new": "سنڌ جي ورهاست قبول ناهي: نواز خان زنئور",
-   "old": "سنڌ جي ورهاست خلاف وحدت سنڌ مارچ"
-  },
-  {
-   "t": "11-23 00:01",
    "new": "مهانگائي جو طوفان، عام واھپي جون شيون مهانگيون",
    "old": "نوشهروفيروز جو اڄ | 22-11-2026"
   },
@@ -14696,6 +14693,11 @@
    "t": "11-25 09:11",
    "new": "اڄوڪي ڏهاڙي تي سون جي اگهن ۾ تبديلي",
    "old": "سوني جي قيمت ۾ واڌ"
+  },
+  {
+   "t": "11-25 11:01",
+   "new": "سنڌ | شوگر سيڪٽر لاءِ نئين قومي پاليسي جي منظوري",
+   "old": "صوبن جو ڪمند جي شعبي کي آزاد ڪرڻ تي اتفاق"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14716,6 +14718,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 8
- }
+  "repeat": 9
+ },
+ "_dup": true
 }
