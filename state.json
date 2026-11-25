@@ -1,7 +1,5 @@
 {
  "seen": {
-  "2f583b98ec7c2e34": 1794999700.0215569,
-  "405d5e5ebed5915e": 1794999700.0215597,
   "15c6b759ae3e02ce": 1795000874.2418435,
   "a202fd8943a7beea": 1795000878.690798,
   "46cd06dcf090941d": 1795000901.4788764,
@@ -1662,7 +1660,10 @@
   "d058de32a7873379": 1795603879.699251,
   "03bc959fabc3360e": 1795603879.699254,
   "120fefecb3fd3a9c": 1795603879.6992555,
-  "12651eaa9debd996": 1795603879.6992579
+  "12651eaa9debd996": 1795603879.6992579,
+  "e8ce3f163d1397c0": 1795605085.0746794,
+  "14f16b9447388be7": 1795605085.0746808,
+  "8ea1ab9c3fd37644": 1795605085.0746834
  },
  "pending": {},
  "queue": [],
@@ -1823,20 +1824,8 @@
    "4f52d3c2e3b1259a"
   ]
  },
- "last_post_id": "1444130002106066_122124507543503839",
+ "last_post_id": "1444130002106066_122124512313503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124240969503839",
-   "title": "پاڪستان خلاف دبئي ٽيسٽ ۾ بال ٽيمپرنگ جو انڪشاف",
-   "t": 1795529667.0601795,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124240969503839"
-  },
   {
    "id": "1444130002106066_122124244461503839",
    "title": "پرائمري استادن جا مطالبا مڃيا ويا، احتجاج ختم",
@@ -2146,6 +2135,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124507543503839"
+  },
+  {
+   "id": "1444130002106066_122124512313503839",
+   "title": "ڊاڪٽر تنوير عباسيءَ کي وڇڙئي 27 ورهيه وهامي ويا",
+   "t": 1795605145.7357113,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124512313503839"
   }
  ],
  "share_sent": {
@@ -2476,12 +2477,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 16:01",
+  "time": "2026-11-25 16:12",
   "items": 8,
   "sample": [
-   "New South Wales 152/8 & 303/10 * v Queensland 306/6 & 278/10",
-   "Western Australia 439/10 v Tasmania 342/10 & 42/2 *",
-   "South Africa 494/7 v Bangladesh 91/10 & 120/3 *"
+   "New South Wales 152/8 & 303/10 * v Queensland 278/10 & 306/6",
+   "Western Australia 439/10 v Tasmania 42/2 & 342/10 *",
+   "South Africa 494/7 v Bangladesh 91/10 & 128/4 *"
   ]
  },
  "agri_news": {
@@ -2491,17 +2492,11 @@
  },
  "all_posts": {
   "date": "2026-11-25",
-  "count": 27,
-  "last": 1795604011.7693722
+  "count": 28,
+  "last": 1795605135.7439036
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122120877369503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794645873
-   },
    {
     "id": "1444130002106066_122120890653503839",
     "sec": "sindh_stream",
@@ -4895,6 +4890,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1795604023
+   },
+   {
+    "id": "1444130002106066_122124512313503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1795605145
    }
   ]
  },
@@ -8047,15 +8048,11 @@
  },
  "ai_usage": {
   "date": "2026-11-25",
-  "ok": 208,
-  "fail": 371,
-  "limit": 345
+  "ok": 213,
+  "fail": 380,
+  "limit": 353
  },
  "posted_heads": [
-  {
-   "h": "Man Killed in Shooting After Son’s Love Marriage in Naushahro Feroze - UrduPoint",
-   "t": 1795422121
-  },
   {
    "h": "Currency Rates Today in Pakistan: US Dollar, Pound Euro, Riyal Latest Updates - 23 Nov 2026",
    "t": 1795423009
@@ -8371,10 +8368,14 @@
   {
    "h": "ايم ڪيو ايم پاڪستان پاران 29 نومبر تي ڪراچي ۾ ريلي ۽ جلسي جي اجازت لاءِ درخواست ڏئي ڇڏي",
    "t": 1795604023
+  },
+  {
+   "h": "شاعر، محقق ۽ دانشور ڊاڪٽر تنوير عباسيءَ کي وڇڙئي 27 ورهيه وهامي ويا",
+   "t": 1795605145
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 16:01",
+  "time": "2026-11-25 16:12",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8482,7 +8483,7 @@
   "text": 22,
   "story": 21
  },
- "ai_last_error": "15:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "16:11 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8496,9 +8497,9 @@
  },
  "img_diag": {
   "date": "2026-11-25",
-  "tried": 26,
+  "tried": 27,
   "gemini": 0,
-  "pollinations": 12,
+  "pollinations": 13,
   "skip": 6,
   "fail": 9,
   "last_note": "rally banners and stage",
@@ -8524,7 +8525,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8532,7 +8533,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8540,7 +8541,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8548,7 +8549,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8556,7 +8557,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8564,14 +8565,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8579,7 +8580,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 99,
+   "ok": 100,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8708,8 +8709,8 @@
    "23-11-2026",
    "24-11-2026"
   ],
-  "last_try": 1795602667.0572667,
-  "last_try_note": "15:31 abhi nahi mila",
+  "last_try": 1795605066.4111326,
+  "last_try_note": "16:11 abhi nahi mila",
   "paper": {
    "date": "24-11-2026",
    "read": [
@@ -8734,13 +8735,13 @@
  "region_posts": {
   "date": "2026-11-25",
   "district": 1,
-  "sindh": 11,
+  "sindh": 12,
   "pakistan": 14
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 4,
+  "old": 4,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8798,9 +8799,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-25",
-  "count": 11,
-  "last": 1795603866.950956,
-  "city_i": 22,
+  "count": 12,
+  "last": 1795605080.5561483,
+  "city_i": 4,
   "dry": 1795600263.959924
  },
  "gemini_day_dead": {
@@ -9464,6 +9465,14 @@
    "t": 1795604023,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "4d07d7fc144cc5fe",
+   "h": "ڊاڪٽر تنوير عباسيءَ کي وڇڙئي 27 ورهيه وهامي ويا",
+   "x": "شاعر، محقق، دانشور ۽ لطيفيات توڙي سچل شناسيءَ جي حوالي سان سڃاڻپ رکندڙ ڊاڪٽر تنوير عباسيءَ جي 27هين ورسي ملهائي پئي وڃي. ڊاڪٽر تنوير عباسي شاعري، تحقيق ۽ علمي خدمتن وسيلي سنڌي ادب ۾ پنهنجي منفرد سڃاڻپ پيدا ڪئي. ان کانسواءِ ڊاڪٽر تنوير عباسيءَ جو شاهه عبداللطيف ڀٽائي، سچل سرمست ۽ ٻين ڪلاسيڪي شاعرن تي ڪيل تحقيقي ڪم سنڌي ادب جو اهم علمي سرمايو آهي. ڪراچي مان جاري ڪيل تفصيلن موجب سندس ياد ۾ مختلف تقريبون پڻ منعقد ڪيون پيون وڃن.",
+   "t": 1795605145,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9484,13 +9493,6 @@
   "last": 1795522324.4058306
  },
  "tg_debug": [
-  {
-   "t": "11-25 09:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-25 09:50",
    "ok": true,
@@ -9759,6 +9761,13 @@
   },
   {
    "t": "11-25 16:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 16:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14068,6 +14077,54 @@
     "ڪمشنر",
     "ڪڍڻ"
    ]
+  },
+  {
+   "t": 1795605145,
+   "h": "ڊاڪٽر تنوير عباسيءَ کي وڇڙئي 27 ورهيه وهامي ويا",
+   "b": "شاعر، محقق، دانشور ۽ لطيفيات توڙي سچل شناسيءَ جي حوالي سان سڃاڻپ رکندڙ ڊاڪٽر تنوير عباسيءَ جي 27هين ورسي",
+   "tt": [
+    "#27",
+    "تنوير",
+    "عباسيء",
+    "ورهيه",
+    "وهامي",
+    "وڇڙئي",
+    "ڊاڪٽر"
+   ],
+   "bt": [
+    "#27",
+    "27هين",
+    "ادب",
+    "تحقيق",
+    "تنوير",
+    "توڙي",
+    "حوالي",
+    "خدمتن",
+    "دانشور",
+    "رڪندڙ",
+    "سنڌي",
+    "سڃاڻپ",
+    "سچل",
+    "شاعر،",
+    "شاعري،",
+    "شناسيء",
+    "عباسي",
+    "عباسيء",
+    "علمي",
+    "لطيفيات",
+    "محقق،",
+    "ملهائي",
+    "منفرد",
+    "ورسي",
+    "ورهيه",
+    "وسيلي",
+    "وهامي",
+    "وڇڙئي",
+    "پئي",
+    "پنهنجي",
+    "پيدا",
+    "ڊاڪٽر"
+   ]
   }
  ],
  "repeat_log": [
@@ -14235,7 +14292,7 @@
  },
  "quality": {
   "date": "2026-11-25",
-  "editor_fixed": 23,
+  "editor_fixed": 24,
   "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
