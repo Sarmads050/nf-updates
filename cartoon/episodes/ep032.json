@@ -1,0 +1,456 @@
+{
+ "id": "ep032",
+ "series": "Sindhi Ghar Ki Kahani",
+ "episode": 32,
+ "title": "Nayi Razai Kis Ki?",
+ "topic": "Cold November nights in Sindh - only one new razai; Daniyal and Arsalan fight over it, Ammi makes turns and promises a second one; next night the new razai is missing - Abba took it from the sun thinking it was his; the second new razai was in the boys' almari all along; share it",
+ "music": "comic",
+ "tempo": 1.15,
+ "lesson": "Mil kar odho —<br>sardi bhi kam, ladai bhi kam!",
+ "caption": "Sardi aate hi har ghar mein ek hi jung: nayi razai kis ki? 😂🛏️ Daniyal ka mukadma, Arsalan ka qabza... aur razai Abba le gaye! Apne us bhai/behan ko tag karein jo hamesha aap ki razai kheench leta hai!",
+ "hashtags": [
+  "#SindhiGharKiKahani",
+  "#NayiRazai",
+  "#DesiGhar",
+  "#PakistaniFamily",
+  "#UrduCartoon"
+ ],
+ "scenes": [
+  {
+   "set": "bedroom",
+   "time": "night",
+   "label": "Bedroom • Raat",
+   "cast": {
+    "ARSALAN": "bed",
+    "DANIYAL": "stand_c"
+   },
+   "props": {},
+   "lines": [
+    {
+     "who": "DANIYAL",
+     "to": "ARSALAN",
+     "roman": "*Objection, my lord!* Yeh *nayi razai* mere naam par hai!",
+     "urdu": "آبجیکشن، مائی لارڈ! یہ نئی رضائی میرے نام پر ہے!",
+     "how": "20-year-old law student, dramatic, loud, outraged, courtroom style",
+     "emo": "angry",
+     "pose": "objection",
+     "shot": "close",
+     "sfx": [
+      "whoosh"
+     ],
+     "before": [
+      {
+       "do": "sleep",
+       "who": "ARSALAN"
+      }
+     ],
+     "after": [
+      {
+       "do": "wake",
+       "who": "ARSALAN",
+       "dur": 0.8
+      }
+     ]
+    },
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "roman": "Nawabshah ki raatein *thandi* ho gayi hain... aur ghar mein nayi razai *sirf ek* hai!",
+     "urdu": "نوابشاہ کی راتیں ٹھنڈی ہو گئی ہیں... اور گھر میں نئی رضائی صرف ایک ہے!",
+     "how": "warm storyteller, playful",
+     "emo": "calm",
+     "shot": "wide",
+     "gap": 0.2
+    },
+    {
+     "who": "ARSALAN",
+     "to": "DANIYAL",
+     "roman": "Daniyal bhai, main *pehle* bed par leta tha. Pehle aao, pehle pao!",
+     "urdu": "دانیال بھائی، میں پہلے بیڈ پر لیٹا تھا۔ پہلے آؤ، پہلے پاؤ!",
+     "how": "17-year-old teen boy, cheeky, sleepy but smug",
+     "emo": "teasing",
+     "pose": "chest",
+     "react": {
+      "DANIYAL": "angry"
+     },
+     "looks": {
+      "DANIYAL": "ARSALAN"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ARSALAN",
+     "roman": "Yeh *qabza* gair-qanooni hai! Main subah *adalat* jaunga!",
+     "urdu": "یہ قبضہ غیر قانونی ہے! میں صبح عدالت جاؤں گا!",
+     "how": "20-year-old law student, dramatic, loud, furious, fist raised",
+     "emo": "angry",
+     "pose": "fist",
+     "react": {
+      "ARSALAN": "teasing"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "DANIYAL",
+     "roman": "Adalat subah khulegi na? Tab tak main *so jata hoon!*",
+     "urdu": "عدالت صبح کھلے گی نا؟ تب تک میں سو جاتا ہوں!",
+     "how": "17-year-old teen boy, cheeky, yawning, cheeky punchline",
+     "emo": "teasing",
+     "pose": "wave",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.6,
+     "sfx": [
+      "boing"
+     ],
+     "react": {
+      "DANIYAL": "angry"
+     },
+     "react_pose": {
+      "DANIYAL": "facepalm"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "DANIYAL",
+     "roman": "Kya *shor* macha rakha hai? Poora mohalla jaag jayega!",
+     "urdu": "کیا شور مچا رکھا ہے؟ پورا محلہ جاگ جائے گا!",
+     "how": "50-year-old mother, sleepy, scolding, firm",
+     "emo": "angry",
+     "pose": "hands_hips",
+     "shot": "close",
+     "before": [
+      {
+       "do": "sfx",
+       "name": "door",
+       "wait": 0.2
+      },
+      {
+       "do": "enter",
+       "who": "AMMI",
+       "slot": "stand_r"
+      }
+     ],
+     "looks": {
+      "DANIYAL": "AMMI",
+      "ARSALAN": "AMMI"
+     },
+     "react": {
+      "*": "sheepish"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "AMMI",
+     "roman": "Ammi, mujhe *insaaf* chahiye! Razai ka faisla kijiye!",
+     "urdu": "امی، مجھے انصاف چاہیے! رضائی کا فیصلہ کیجیے!",
+     "how": "20-year-old law student, dramatic, loud, pleading dramatically",
+     "emo": "worried",
+     "pose": "plead"
+    },
+    {
+     "who": "AMMI",
+     "to": "DANIYAL",
+     "roman": "Aaj *Arsalan* ki baari, kal *Daniyal* ki. Aur kal main *doosri razai* bhi le aaungi.",
+     "urdu": "آج ارسلان کی باری، کل دانیال کی۔ اور کل میں دوسری رضائی بھی لے آؤں گی۔",
+     "how": "50-year-old mother, calm, final decision",
+     "emo": "calm",
+     "pose": "explain",
+     "react": {
+      "ARSALAN": "happy",
+      "DANIYAL": "sad"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ARSALAN",
+     "roman": "Theek hai... lekin kal yeh razai *meri hai*, sirf meri!",
+     "urdu": "ٹھیک ہے... لیکن کل یہ رضائی میری ہے، صرف میری!",
+     "how": "20-year-old law student, dramatic, loud, sulking, not really listening",
+     "emo": "angry",
+     "pose": "point_other",
+     "react": {
+      "ARSALAN": "teasing"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "DANIYAL",
+     "roman": "Aaj aap purani razai lein, bhai... us mein *muft ka AC* laga hai!",
+     "urdu": "آج آپ پرانی رضائی لیں، بھائی... اس میں مفت کا اے سی لگا ہے!",
+     "how": "17-year-old teen boy, cheeky, teasing, punchline",
+     "emo": "laugh",
+     "pose": "thumb_back",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.7,
+     "sfx": [
+      "boing"
+     ],
+     "react": {
+      "AMMI": "laugh",
+      "DANIYAL": "angry"
+     }
+    }
+   ]
+  },
+  {
+   "set": "living_room",
+   "time": "night",
+   "label": "Drawing Room • Agli Raat",
+   "cast": {
+    "ABBA": "sofa_l",
+    "ARSALAN": "stand_cl",
+    "DANIYAL": "stand_cr"
+   },
+   "props": {},
+   "lines": [
+    {
+     "who": "NARRATOR",
+     "to": "front",
+     "roman": "*Agli raat*... Daniyal ki baari. Lekin nayi razai *gayab* hai!",
+     "urdu": "اگلی رات... دانیال کی باری۔ لیکن نئی رضائی غائب ہے!",
+     "how": "warm storyteller, mysterious",
+     "emo": "calm",
+     "shot": "wide",
+     "before": [
+      {
+       "do": "sleep",
+       "who": "ABBA"
+      }
+     ],
+     "gap": 0.2
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ARSALAN",
+     "roman": "Arsalan! Meri razai kahan *chhupayi*? Sach batao!",
+     "urdu": "ارسلان! میری رضائی کہاں چھپائی؟ سچ بتاؤ!",
+     "how": "20-year-old law student, dramatic, loud, suspicious detective",
+     "emo": "angry",
+     "pose": "point_other",
+     "shot": "two",
+     "looks": {
+      "ARSALAN": "DANIYAL"
+     },
+     "react": {
+      "ARSALAN": "worried"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "DANIYAL",
+     "roman": "Sach mein bhai, maine *nahi* li! Subah Ammi ne usay *dhoop* mein daala tha.",
+     "urdu": "سچ میں بھائی، میں نے نہیں لی! صبح امی نے اسے دھوپ میں ڈالا تھا۔",
+     "how": "17-year-old teen boy, cheeky, innocent, defending himself",
+     "emo": "worried",
+     "pose": "plead"
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ABBA",
+     "roman": "Ruko... *sofa* par yeh kaun so raha hai?",
+     "urdu": "رکو... صوفے پر یہ کون سو رہا ہے؟",
+     "how": "20-year-old law student, dramatic, loud, whispering, suspicious",
+     "emo": "confused",
+     "pose": "point_other",
+     "looks": {
+      "ARSALAN": "ABBA"
+     },
+     "react": {
+      "ARSALAN": "surprised"
+     }
+    },
+    {
+     "who": "ARSALAN",
+     "to": "ABBA",
+     "roman": "Yeh to *Abba* hain... aur *hamari nayi razai* mein!",
+     "urdu": "یہ تو ابا ہیں... اور ہماری نئی رضائی میں!",
+     "how": "17-year-old teen boy, cheeky, shocked whisper",
+     "emo": "surprised",
+     "pose": "point_other",
+     "shot": "wide",
+     "looks": {
+      "DANIYAL": "ABBA"
+     },
+     "react": {
+      "DANIYAL": "surprised"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ABBA",
+     "roman": "Abba! Yeh to *daaka* hai! *Objection!*",
+     "urdu": "ابا! یہ تو ڈاکا ہے! آبجیکشن!",
+     "how": "20-year-old law student, dramatic, loud, loud dramatic outburst",
+     "emo": "angry",
+     "pose": "objection",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.4,
+     "sfx": [
+      "sting"
+     ],
+     "after": [
+      {
+       "do": "wake",
+       "who": "ABBA",
+       "dur": 0.8
+      }
+     ]
+    },
+    {
+     "who": "ABBA",
+     "to": "DANIYAL",
+     "roman": "Kya hua? Dhoop mein *nayi razai* pari thi... main samjha *meri* hai!",
+     "urdu": "کیا ہوا؟ دھوپ میں نئی رضائی پڑی تھی... میں سمجھا میری ہے!",
+     "how": "57-year-old father, deep voice, sleepy, just woke up, innocent",
+     "emo": "tired",
+     "pose": "scratch_head",
+     "shot": "close",
+     "looks": {
+      "DANIYAL": "ABBA",
+      "ARSALAN": "ABBA"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "DANIYAL",
+     "roman": "Aur *humare zamane mein* nayi cheez pehle ghar ke *bare* ko milti thi!",
+     "urdu": "اور ہمارے زمانے میں نئی چیز پہلے گھر کے بڑے کو ملتی تھی!",
+     "how": "57-year-old father, deep voice, proud, old-school advice",
+     "emo": "proud",
+     "pose": "point_up"
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ABBA",
+     "roman": "Abba, yeh case ab *bari adalat* mein jayega!",
+     "urdu": "ابا، یہ کیس اب بڑی عدالت میں جائے گا!",
+     "how": "20-year-old law student, dramatic, loud, dramatic lawyer",
+     "emo": "angry",
+     "pose": "fist",
+     "react": {
+      "ABBA": "teasing"
+     }
+    },
+    {
+     "who": "ABBA",
+     "to": "DANIYAL",
+     "roman": "Bari adalat abhi *kitchen* mein hai. Bula lo!",
+     "urdu": "بڑی عدالت ابھی کچن میں ہے۔ بلا لو!",
+     "how": "57-year-old father, deep voice, dry humour, punchline",
+     "emo": "teasing",
+     "pose": "thumb_back",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.6,
+     "sfx": [
+      "boing"
+     ],
+     "react": {
+      "ARSALAN": "laugh",
+      "DANIYAL": "sheepish"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "DANIYAL",
+     "roman": "*Main ne pehle hi kaha tha!* Doosri nayi razai shaam ko aa gayi... tumhari *almari* mein hai!",
+     "urdu": "میں نے پہلے ہی کہا تھا! دوسری نئی رضائی شام کو آ گئی... تمہاری الماری میں ہے!",
+     "how": "50-year-old mother, amused, scolding lightly",
+     "emo": "teasing",
+     "pose": "wag",
+     "shot": "close",
+     "before": [
+      {
+       "do": "enter",
+       "who": "AMMI",
+       "slot": "stand_r"
+      }
+     ],
+     "looks": {
+      "DANIYAL": "AMMI",
+      "ARSALAN": "AMMI",
+      "ABBA": "AMMI"
+     },
+     "react": {
+      "DANIYAL": "surprised",
+      "ARSALAN": "surprised"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "AMMI",
+     "roman": "Almari mein? Aur hum *poore ghar* mein dhoond rahe thay!",
+     "urdu": "الماری میں؟ اور ہم پورے گھر میں ڈھونڈ رہے تھے!",
+     "how": "20-year-old law student, dramatic, loud, embarrassed, sheepish",
+     "emo": "sheepish",
+     "pose": "facepalm"
+    },
+    {
+     "who": "ARSALAN",
+     "to": "DANIYAL",
+     "roman": "Bhai, aap ne Ammi ki baat suni hi nahi... *objection overruled!*",
+     "urdu": "بھائی، آپ نے امی کی بات سنی ہی نہیں... آبجیکشن اوور رولڈ!",
+     "how": "17-year-old teen boy, cheeky, teasing his brother with his own catchphrase",
+     "emo": "laugh",
+     "pose": "point_other",
+     "shot": "punch",
+     "joke": true,
+     "gap": 0.6,
+     "sfx": [
+      "boing"
+     ],
+     "react": {
+      "AMMI": "laugh",
+      "ABBA": "laugh",
+      "DANIYAL": "sheepish"
+     }
+    },
+    {
+     "who": "AMMI",
+     "to": "DANIYAL",
+     "roman": "Yeh razai *Abba ki*. Aur almari wali tum dono ki... *mil kar* odhna!",
+     "urdu": "یہ رضائی ابا کی۔ اور الماری والی تم دونوں کی... مل کر اوڑھنا!",
+     "how": "50-year-old mother, warm, loving, final",
+     "emo": "warm",
+     "pose": "explain",
+     "react": {
+      "ABBA": "happy"
+     }
+    },
+    {
+     "who": "DANIYAL",
+     "to": "ARSALAN",
+     "roman": "Theek hai... lekin razai ke beech mein *line* khinchegi!",
+     "urdu": "ٹھیک ہے... لیکن رضائی کے بیچ میں لائن کھنچے گی!",
+     "how": "20-year-old law student, dramatic, loud, teasing, still dramatic",
+     "emo": "teasing",
+     "pose": "point_down"
+    },
+    {
+     "who": "ABBA",
+     "to": "front",
+     "roman": "*Humare zamane mein* chaar bhai ek razai mein sote thay... aur *chup* rehte thay!",
+     "urdu": "ہمارے زمانے میں چار بھائی ایک رضائی میں سوتے تھے... اور چپ رہتے تھے!",
+     "how": "57-year-old father, deep voice, warm, laughing, lying back down",
+     "emo": "laugh",
+     "pose": "rest",
+     "shot": "group",
+     "joke": true,
+     "gap": 0.9,
+     "react": {
+      "*": "laugh"
+     },
+     "after": [
+      {
+       "do": "sleep",
+       "who": "ABBA"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
