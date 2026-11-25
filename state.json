@@ -1638,7 +1638,8 @@
   "c0905375bba3c035": 1795617711.3718503,
   "de39859b108581ca": 1795617711.3718524,
   "3053443b0907641a": 1795617711.3718534,
-  "b754f0e018ca1725": 1795617711.3718553
+  "b754f0e018ca1725": 1795617711.3718553,
+  "83d717cbab9e3149": 1795618470.6264036
  },
  "pending": {},
  "queue": [],
@@ -1656,7 +1657,7 @@
   "last_week": "",
   "last_check": "2026-11-25"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1710,8 +1711,8 @@
  "last_question": "2026-11-23",
  "sindh_single": {
   "date": "2026-11-25",
-  "count": 1,
-  "last": 1795610495.3645911,
+  "count": 2,
+  "last": 1795618468.817316,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1797,22 +1798,12 @@
    "16efb872414d431b",
    "40724ba86d4fe948",
    "4f52d3c2e3b1259a",
-   "0b5eb3c7011e6c26"
+   "0b5eb3c7011e6c26",
+   "83d717cbab9e3149"
   ]
  },
- "last_post_id": "1444130002106066_122124563073503839",
+ "last_post_id": "1444130002106066_122124564855503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124360633503839",
-   "title": "ج جناح ميڊيڪل اينڊ سائنس يونيورسٽي فارمڊي، نرسنگ ۽ الائيڊ هيلٿ سائنسز جي مختلف پروگرامن ۾",
-   "t": 1795560187.9438286,
-   "tags": [
-    "education",
-    "general",
-    "jobs"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124360633503839"
-  },
   {
    "id": "1444130002106066_122124368553503839",
    "title": "بجلي جي بلن ۾ واڌ ۽ مختلف ٽئڪسن جي ڪري عام شهرين کي سخت مشڪلاتن کي منهن ڏيڻو پئجي رهيو آهي",
@@ -2125,6 +2116,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124563073503839"
+  },
+  {
+   "id": "1444130002106066_122124564855503839",
+   "title": "سندھ حکومت پاران اٽي جا نوان اگهه مقرر حڪومتِ سنڌ صوبي بھر ۾ اٽي جا نوان سرڪاري اگهه مقرر",
+   "t": 1795618587.7390654,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124564855503839"
   }
  ],
  "share_sent": {
@@ -2455,10 +2456,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 19:43",
+  "time": "2026-11-25 19:56",
   "items": 9,
   "sample": [
-   "Western Australia 439/10 v Tasmania 342/10 & 42/2 *",
+   "Western Australia 439/10 v Tasmania 42/2 & 342/10 *",
    "South Africa 494/7 v Bangladesh 91/10 & 184/10 *",
    "South Australia 287/10 v Victoria 275/3 *"
   ]
@@ -2470,17 +2471,11 @@
  },
  "all_posts": {
   "date": "2026-11-25",
-  "count": 37,
-  "last": 1795617787.8481016
+  "count": 38,
+  "last": 1795618580.4393272
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122120932815503839",
-    "sec": "cricket_news",
-    "cat": "cricket_news",
-    "t": 1794659601
-   },
    {
     "id": "1444130002106066_122120943849503839",
     "sec": "sindh_stream",
@@ -4874,6 +4869,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1795617796
+   },
+   {
+    "id": "1444130002106066_122124564855503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1795618580
    }
   ]
  },
@@ -8010,9 +8011,9 @@
  },
  "ai_usage": {
   "date": "2026-11-25",
-  "ok": 274,
-  "fail": 496,
-  "limit": 435
+  "ok": 279,
+  "fail": 507,
+  "limit": 442
  },
  "posted_heads": [
   {
@@ -8337,7 +8338,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 19:43",
+  "time": "2026-11-25 19:56",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8445,7 +8446,7 @@
   "text": 24,
   "story": 23
  },
- "ai_last_error": "19:42 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "19:54 openrouter google/gemma-4-31b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily ra",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8459,11 +8460,11 @@
  },
  "img_diag": {
   "date": "2026-11-25",
-  "tried": 35,
+  "tried": 36,
   "gemini": 0,
-  "pollinations": 16,
+  "pollinations": 17,
   "skip": 7,
-  "fail": 13,
+  "fail": 14,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 902,
   "unverified": 3
@@ -8487,7 +8488,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8495,7 +8496,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8503,7 +8504,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8511,7 +8512,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8519,7 +8520,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8527,14 +8528,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8542,7 +8543,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 121,
+   "ok": 122,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8553,7 +8554,7 @@
   "last": "2026-11-20",
   "idx": 5
  },
- "ai_last_model": "google/gemma-4-31b-it:free",
+ "ai_last_model": "google/gemma-4-26b-a4b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8654,8 +8655,8 @@
    "23-11-2026",
    "24-11-2026"
   ],
-  "last_try": 1795615948.8264954,
-  "last_try_note": "19:31 mila",
+  "last_try": 1795617254.7917268,
+  "last_try_note": "19:51 mila",
   "paper": {
    "date": "25-11-2026",
    "read": [
@@ -8681,13 +8682,13 @@
  "region_posts": {
   "date": "2026-11-25",
   "district": 2,
-  "sindh": 19,
+  "sindh": 20,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 2,
-  "found": 8,
-  "old": 8,
+  "posted": 3,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9434,13 +9435,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-25 13:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-25 13:20",
    "ok": true,
    "n": 0,
@@ -9708,6 +9702,13 @@
   },
   {
    "t": "11-25 19:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 19:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -13930,6 +13931,57 @@
     "ڪانپوء",
     "گرام"
    ]
+  },
+  {
+   "t": 1795618580,
+   "h": "سنڌ حڪومت پاران اٽي جا نوان اگهه مقرر",
+   "b": "حڪومت سنڌ صوبي بھر ۾ اٽي جا نوان سرڪاري اگهه مقرر ڪري ڇڏيا آهن. محکمہ خوراک سنڌ پاران جاري ڪيل نوٽيفڪيشن",
+   "tt": [
+    "اٽي",
+    "اگهه",
+    "حڪومت",
+    "سنڌ",
+    "مقرر",
+    "نوان",
+    "پاران"
+   ],
+   "bt": [
+    "#10",
+    "#1450",
+    "#31",
+    "العمل",
+    "اهن",
+    "اهي",
+    "اٽي",
+    "اگهه",
+    "برقرار",
+    "بهر",
+    "تائين",
+    "جاري",
+    "جنوري",
+    "حڪومت",
+    "خوراڪ",
+    "رهندا",
+    "رپيا",
+    "سرڪاري",
+    "سنڌ",
+    "صوبي",
+    "طور",
+    "فوري",
+    "قيمت",
+    "محڪمه",
+    "مطابق",
+    "مقرر",
+    "نافذ",
+    "نوان",
+    "نوٽيفڪيشن",
+    "پاران",
+    "پرچون",
+    "ٿيلي",
+    "ڇڏيا",
+    "ڪلو",
+    "ڪيل"
+   ]
   }
  ],
  "repeat_log": [
@@ -14097,7 +14149,7 @@
  },
  "quality": {
   "date": "2026-11-25",
-  "editor_fixed": 31,
+  "editor_fixed": 32,
   "editor_rejected": 2,
   "kawish_rejected": 2,
   "kawish_crosschecked": 0,
