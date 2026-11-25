@@ -22,7 +22,7 @@
    "label": "Bedroom • Raat",
    "cast": {
     "ARSALAN": "bed",
-    "DANIYAL": "stand_c"
+    "DANIYAL": "stand_r"
    },
    "props": {},
    "lines": [
@@ -128,7 +128,7 @@
       {
        "do": "enter",
        "who": "AMMI",
-       "slot": "stand_r"
+       "slot": "stand_c"
       }
      ],
      "looks": {
@@ -199,9 +199,9 @@
    "time": "night",
    "label": "Drawing Room • Agli Raat",
    "cast": {
-    "ABBA": "sofa_l",
-    "ARSALAN": "stand_cl",
-    "DANIYAL": "stand_cr"
+    "ABBA": "sofa_r",
+    "ARSALAN": "stand_l",
+    "DANIYAL": "stand_cl"
    },
    "props": {},
    "lines": [
@@ -406,6 +406,9 @@
       "AMMI": "laugh",
       "ABBA": "laugh",
       "DANIYAL": "sheepish"
+     },
+     "react_pose": {
+      "DANIYAL": "rest"
      }
     },
     {
