@@ -1,14 +1,5 @@
 {
  "seen": {
-  "15c6b759ae3e02ce": 1795000874.2418435,
-  "a202fd8943a7beea": 1795000878.690798,
-  "46cd06dcf090941d": 1795000901.4788764,
-  "1de4f0bc186ef2c1": 1795000901.47888,
-  "7b295b518e48fc06": 1795000901.4788818,
-  "e429c5eb469ab9f3": 1795000901.4788826,
-  "1d71ca528da17389": 1795000901.4788837,
-  "71d7d05267048f21": 1795000901.478885,
-  "4e2d39f1ee6101bf": 1795000901.4791484,
   "540670b34ec9689d": 1795001468.9030619,
   "2921bf44f2d491f0": 1795001468.9030647,
   "f90c4d930498d216": 1795001468.903066,
@@ -2477,12 +2468,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 16:24",
+  "time": "2026-11-25 16:32",
   "items": 8,
   "sample": [
-   "New South Wales 303/10 & 152/8 * v Queensland 278/10 & 306/6",
+   "New South Wales 152/8 & 303/10 * v Queensland 278/10 & 306/6",
    "Western Australia 439/10 v Tasmania 342/10 & 42/2 *",
-   "South Africa 494/7 v Bangladesh 91/10 & 143/4 *"
+   "South Africa 494/7 v Bangladesh 91/10 & 147/4 *"
   ]
  },
  "agri_news": {
@@ -8049,8 +8040,8 @@
  "ai_usage": {
   "date": "2026-11-25",
   "ok": 213,
-  "fail": 380,
-  "limit": 353
+  "fail": 384,
+  "limit": 355
  },
  "posted_heads": [
   {
@@ -8375,7 +8366,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 16:24",
+  "time": "2026-11-25 16:32",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8483,7 +8474,7 @@
   "text": 22,
   "story": 21
  },
- "ai_last_error": "16:11 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "16:31 gemini-3.5-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8525,7 +8516,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8533,7 +8524,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8541,7 +8532,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8549,7 +8540,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8557,7 +8548,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8565,14 +8556,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8580,7 +8571,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8740,8 +8731,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 4,
-  "old": 4,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8800,8 +8791,8 @@
  "sindh_stream": {
   "date": "2026-11-25",
   "count": 12,
-  "last": 1795605080.5561483,
-  "city_i": 4,
+  "last": 1795605752.9313004,
+  "city_i": 8,
   "dry": 1795600263.959924
  },
  "gemini_day_dead": {
@@ -9494,13 +9485,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-25 10:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-25 10:10",
    "ok": true,
    "n": 0,
@@ -9768,6 +9752,13 @@
   },
   {
    "t": "11-25 16:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 16:30",
    "ok": true,
    "n": 0,
    "ids": [],
