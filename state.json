@@ -1,7 +1,5 @@
 {
  "seen": {
-  "9821518d29847f75": 1795015883.3106315,
-  "1c95a59addd992b0": 1795015883.3106358,
   "fad7ba5d2be0b1f7": 1795017080.3120835,
   "880f0a56e717c981": 1795018284.6197927,
   "324618376be10b2d": 1795019493.7708187,
@@ -2456,7 +2454,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 20:34",
+  "time": "2026-11-25 20:41",
   "items": 9,
   "sample": [
    "Western Australia 439/10 v Tasmania 42/2 & 342/10 *",
@@ -8012,8 +8010,8 @@
  "ai_usage": {
   "date": "2026-11-25",
   "ok": 284,
-  "fail": 535,
-  "limit": 452
+  "fail": 540,
+  "limit": 454
  },
  "posted_heads": [
   {
@@ -8338,7 +8336,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 20:34",
+  "time": "2026-11-25 20:41",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8446,7 +8444,7 @@
   "text": 24,
   "story": 23
  },
- "ai_last_error": "20:34 gemini-3.1-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "20:41 gemini-3.1-flash-lite 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8488,7 +8486,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8496,7 +8494,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8504,7 +8502,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8512,7 +8510,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8520,7 +8518,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8528,14 +8526,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8543,7 +8541,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 126,
+   "ok": 127,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8687,8 +8685,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 6,
-  "old": 6,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8747,8 +8745,8 @@
  "sindh_stream": {
   "date": "2026-11-25",
   "count": 18,
-  "last": 1795620282.6513348,
-  "city_i": 8,
+  "last": 1795620701.9141881,
+  "city_i": 12,
   "dry": 1795610480.583443
  },
  "gemini_day_dead": {
@@ -9436,13 +9434,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-25 14:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-25 14:10",
    "ok": true,
    "n": 0,
@@ -9710,6 +9701,13 @@
   },
   {
    "t": "11-25 20:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 20:40",
    "ok": true,
    "n": 0,
    "ids": [],
