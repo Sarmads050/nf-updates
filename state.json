@@ -1663,7 +1663,13 @@
   "20a5057a21e4e106": 1795573290.893264,
   "6a0334670aaab7f9": 1795573290.8934772,
   "343366ba9ce82543": 1795576870.6274023,
-  "dca47ac9c2b9ab5c": 1795578664.8075457
+  "dca47ac9c2b9ab5c": 1795578664.8075457,
+  "6b1d279682f21dee": 1795579858.160667,
+  "a8abed9c29b0d6ce": 1795579871.2223077,
+  "c1215f917071d17d": 1795579871.2223098,
+  "8e6002e65b7289fc": 1795579871.2223115,
+  "be779596cb604188": 1795579871.2225418,
+  "42ef50fe6df0b5dd": 1795579889.8510354
  },
  "pending": {},
  "queue": [],
@@ -2480,11 +2486,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-25 09:01",
+  "time": "2026-11-25 09:11",
   "items": 8,
   "sample": [
-   "New South Wales 36/1 & 303/10 * v Queensland 306/6 & 278/10",
-   "Western Australia 251/6 * v Tasmania 342/10",
+   "New South Wales 303/10 & 49/2 * v Queensland 278/10 & 306/6",
+   "Western Australia 259/6 * v Tasmania 342/10",
    "South Africa 494/7 * v Bangladesh 91/10"
   ]
  },
@@ -8059,9 +8065,9 @@
  },
  "ai_usage": {
   "date": "2026-11-25",
-  "ok": 108,
-  "fail": 208,
-  "limit": 184
+  "ok": 112,
+  "fail": 216,
+  "limit": 192
  },
  "posted_heads": [
   {
@@ -8386,7 +8392,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-25 09:01",
+  "time": "2026-11-25 09:11",
   "steps": []
  },
  "roundup_am": "2026-11-25",
@@ -8489,12 +8495,12 @@
  },
  "article_diag": {
   "date": "2026-11-25",
-  "tried": 17,
-  "decoded": 17,
-  "text": 17,
-  "story": 16
+  "tried": 18,
+  "decoded": 18,
+  "text": 18,
+  "story": 17
  },
- "ai_last_error": "09:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "09:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-25",
   "models": [
@@ -8536,7 +8542,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-25",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8544,7 +8550,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-25",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8552,7 +8558,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-25",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8560,7 +8566,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8568,7 +8574,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8576,14 +8582,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-25",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-25",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8591,7 +8597,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-25",
-   "ok": 56,
+   "ok": 57,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8751,8 +8757,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 10,
+  "old": 10,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8812,8 +8818,8 @@
   "date": "2026-11-25",
   "count": 1,
   "last": 1795550475.9343507,
-  "city_i": 10,
-  "dry": 1795579278.2797108
+  "city_i": 14,
+  "dry": 1795579867.0700328
  },
  "gemini_day_dead": {
   "day": "2026-11-24",
@@ -9468,13 +9474,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-25 02:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-25 02:50",
    "ok": true,
    "n": 0,
@@ -9742,6 +9741,13 @@
   },
   {
    "t": "11-25 09:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-25 09:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14392,11 +14398,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-22 16:51",
-   "new": "مونيما ۽ گل شاندار بيٽنگ سان پاڪستان کي سوڀ ڏياري",
-   "old": "LIVE | پاڪستان وومين بمقابلي اسڪاٽلينڊ وومين"
-  },
-  {
    "t": "11-23 00:01",
    "new": "سنڌ جي ورهاست قبول ناهي: نواز خان زنئور",
    "old": "سنڌ جي ورهاست خلاف وحدت سنڌ مارچ"
@@ -14540,6 +14541,11 @@
    "t": "11-25 07:21",
    "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي",
    "old": "پيٽرول اگهن ۾ گهٽتائي جو اعلان"
+  },
+  {
+   "t": "11-25 09:11",
+   "new": "اڄوڪي ڏهاڙي تي سون جي اگهن ۾ تبديلي",
+   "old": "سوني جي قيمت ۾ واڌ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14560,6 +14566,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 7
- }
+  "repeat": 8
+ },
+ "_dup": true
 }
