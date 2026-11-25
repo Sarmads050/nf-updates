@@ -97,6 +97,11 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-091] (ep031, 2026-11-24) Raat wale scene mein Ammi "aata" deti hain lekin woh wahi chhota jamni "bag" dabba hai, aur Arsalan aata goondhta nazar nahi aata — naya "aata" thaila prop + "goondhna" pose (parat saamne, dono haath aate mein upar-neeche).
 - [K-092] (ep031, 2026-11-24) Drawing room mein stand_r par khare Imtiaz ke saamne stand_cr par Arsalan enter hua to bolne wala Imtiaz peeche chhup gaya (preview mein pakra, slots badal kar theek kiya) — check.py mein warning: jab do khare log aage-peeche wale slots (stand_cr + stand_r) par hon aur peeche wala bole.
 
+- [K-093] (ep032, 2026-11-25) Daniyal ki saari 10 lines "edge" backup awaaz mein banin (baqi sab Gemini) — Daniyal ki backup awaaz ko us ki Gemini awaaz ke qareeb (pitch/speed) set karna, ya script raat ko pehle push kar ke voices banana (K-016).
+- [K-094] (ep032, 2026-11-25) "wake" ke baad Abba sofa par seedhe baith jate hain aur nayi razai gayab ho jati hai, jab ke kahani razai ki hi hai (scene 2) — wake ke baad razai god/kandhon par lipti rahe, jab tak koi use le na le.
+- [K-095] (ep032, 2026-11-25) Ammi kehti hain doosri razai "almari mein" hai lekin bedroom mein koi almari nahi, aur nayi razai ko haath mein pakarne ka koi prop nahi — bedroom mein lakdi ki almari (set piece) aur tah ki hui "razai" hand prop banana.
+- [K-096] (ep032, 2026-11-25) Bedroom mein Ammi (stand_c) aayin to bed par baithe Arsalan ke aage khari ho kar us ka aadha jism dhak deti hain (0:20-0:35) — K-038 wala "bedside" slot ab zaroori hai.
+
 ## APPROVED
 
 ## DONE
