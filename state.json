@@ -1,15 +1,5 @@
 {
  "seen": {
-  "39c0eb9e87e58f36": 1795056675.6247063,
-  "a39d53b2b5a04fb8": 1795056675.6247091,
-  "dad6b313874119f4": 1795056675.62471,
-  "604f283fa031bf53": 1795056675.6247108,
-  "b908ef3ac0d40633": 1795056675.6247118,
-  "672567e9d303de1b": 1795056675.6247122,
-  "7d12ad2fc79dc277": 1795056675.6247132,
-  "99d92200dd46bb9b": 1795056675.624714,
-  "b611e3224ba3c7f3": 1795056675.6247149,
-  "4a229ebcb9a6fa58": 1795056675.624855,
   "a39e2c861a573950": 1795057303.6428342,
   "a2d0387be45e8a6a": 1795059067.560337,
   "06b9dea33efa38ed": 1795059087.729148,
@@ -1657,7 +1647,7 @@
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-25",
-  "count": 3
+  "count": 4
  },
  "last_digest": "2026-11-25",
  "alert_day": "2026-10-20",
@@ -1813,7 +1803,7 @@
    "dc4134048ba2f859"
   ]
  },
- "last_post_id": "1444130002106066_122124697965503839",
+ "last_post_id": "1444130002106066_122124700215503839",
  "shareable": [
   {
    "id": "1444130002106066_122124467253503839",
@@ -2466,12 +2456,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-26 07:51",
+  "time": "2026-11-26 08:01",
   "items": 24,
   "sample": [
-   "Western Australia 439/10 v Tasmania 342/10 & 54/2 *",
-   "South Australia 287/10 v Victoria 378/8 *",
-   "Uttarakhand v Mumbai"
+   "Western Australia 439/10 v Tasmania 342/10 & 58/3 *",
+   "South Australia 287/10 v Victoria 390/8 *",
+   "Uttarakhand v Mumbai 71/1 *"
   ]
  },
  "agri_news": {
@@ -2481,8 +2471,8 @@
  },
  "all_posts": {
   "date": "2026-11-26",
-  "count": 11,
-  "last": 1795661507.5175214
+  "count": 12,
+  "last": 1795662101.366096
  },
  "perf": {
   "posts": [
@@ -8045,9 +8035,9 @@
  },
  "ai_usage": {
   "date": "2026-11-26",
-  "ok": 95,
-  "fail": 176,
-  "limit": 162
+  "ok": 96,
+  "fail": 178,
+  "limit": 164
  },
  "posted_heads": [
   {
@@ -8372,10 +8362,10 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-26 07:51",
+  "time": "2026-11-26 08:01",
   "steps": []
  },
- "roundup_am": "2026-11-25",
+ "roundup_am": "2026-11-26",
  "group_shares": {
   "1": {
    "date": "2026-11-25",
@@ -8480,7 +8470,7 @@
   "text": 16,
   "story": 12
  },
- "ai_last_error": "07:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-26",
   "models": [
@@ -8522,7 +8512,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-26",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8530,7 +8520,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-26",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8538,7 +8528,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-26",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8546,7 +8536,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 48,
+   "ok": 49,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8554,7 +8544,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8562,14 +8552,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8577,7 +8567,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-26",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8716,18 +8706,18 @@
  "region_posts": {
   "date": "2026-11-26",
   "district": 0,
-  "sindh": 1,
+  "sindh": 2,
   "pakistan": 9
  },
  "report_acc": {
-  "posted": 2,
-  "found": 15,
-  "old": 14,
-  "irrelevant": 1,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
+  "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-26 07",
+ "report_hour": "2026-11-26 08",
  "kawish_upload_times": {
   "_date": "2026-11-26",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9461,7 +9451,9 @@
  ],
  "reels": {
   "date": "2026-11-26",
-  "done": []
+  "done": [
+   "08:00"
+  ]
  },
  "kawish_queue": [],
  "kawish_post": {
@@ -9470,13 +9462,6 @@
   "last": 1795616374.0692692
  },
  "tg_debug": [
-  {
-   "t": "11-26 01:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-26 01:40",
    "ok": true,
@@ -9745,6 +9730,13 @@
   },
   {
    "t": "11-26 07:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-26 08:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14512,6 +14504,61 @@
     "ڪلب",
     "ڪيو،",
     "ڪڻڪ"
+   ]
+  },
+  {
+   "t": 1795662101,
+   "h": "صبح جون سنڌ جون اهم خبرون",
+   "b": "26 نومبر 2026 1️⃣ چين جي خلائي اسٽيشن تي پاڪستاني کاڌا چين جي خلائي مشن تي ويندڙ پاڪستاني خلا باز ذیشان علي",
+   "tt": [
+    "اهم",
+    "خبرون",
+    "سنڌ",
+    "صبح"
+   ],
+   "bt": [
+    "#100",
+    "#26",
+    "اتي",
+    "اسٽيشن",
+    "اندوز",
+    "اهم",
+    "اهن",
+    "باز",
+    "بيف",
+    "تجربا",
+    "تيار",
+    "حلال",
+    "خبرون",
+    "خلا",
+    "خلائي",
+    "ذيشان",
+    "روايتي",
+    "سائنسي",
+    "سنڌ",
+    "شامل",
+    "صبح",
+    "علي",
+    "قورمه",
+    "لطف",
+    "ليمب",
+    "مان",
+    "مختلف",
+    "مشن",
+    "نهاري،",
+    "نومبر",
+    "ويندڙ",
+    "وڌيڪ",
+    "ٻيا",
+    "پاڪستاني",
+    "پڪوان",
+    "ٿيندا",
+    "چين",
+    "ڪان",
+    "ڪاڌا",
+    "ڪاڌن",
+    "ڪندا",
+    "گڏجي"
    ]
   }
  ],
