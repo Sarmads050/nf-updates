@@ -1595,11 +1595,22 @@
   "8457be153f4e5543": 1795713066.8265839,
   "eba3dec383e5f313": 1795713066.8265848,
   "3db71318fb0ee4e2": 1795713066.826586,
-  "f1070aa596a2be9c": 1795713066.8265877
+  "f1070aa596a2be9c": 1795713066.8265877,
+  "0cb2edc65656d9b5": 1795717251.6317637
  },
  "pending": {},
  "queue": [],
- "jobs": [],
+ "jobs": [
+  {
+   "key": "0cb2edc65656d9b5",
+   "title": "Sindh Police reviewing next steps in constable recruitment amid district vacancy mismatch",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZWZWMmtPRkdCbXZIMkI0b1lVbjRHVjVjSzhzdm83d1JSQzJkekhva1k1bDgyRUwtblpFZzhGWTlKSVkzdUlYNVZiVVlaUVhaVmYxZ1UxamlxeEhNUWpfWlRrT1BXNjc3bW5adU92ZE9xRTdBckRJYURpVHdRN0RpVXJDdUpPOGZlLS11QWdPQzRqemZtbzF1Ti1CUFI?oc=5",
+   "domain": "urdupoint.com",
+   "source": "UrduPoint",
+   "ts": 1795695303,
+   "local": false
+  }
+ ],
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-26",
@@ -1763,17 +1774,8 @@
    "471a0ab3dffb2df9"
   ]
  },
- "last_post_id": "1444130002106066_122124888351503839",
+ "last_post_id": "1444130002106066_122124894963503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124735741503839",
-   "title": "سنڌ ايگريڪلچر يونيورسٽي ٽنڊوڄام انب جي برآمد کي وڌائڻ لاءِ فروٽ پروٽيڪشن پيپر بيگ يونٽ",
-   "t": 1795669912.1041737,
-   "tags": [
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124735741503839"
-  },
   {
    "id": "1444130002106066_122124741657503839",
    "title": "ايشيائي ترقياتي بئنڪ پاران پاڪستان لاءِ 25 ڪروڙ ڊالر قرض جي منظوري",
@@ -2096,6 +2098,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124888351503839"
+  },
+  {
+   "id": "1444130002106066_122124894963503839",
+   "title": "بدين: سجاول روڊ تي ٽرڪ ۽ موٽرسائيڪل جي ٽکر ۾ نوجوان قتل",
+   "t": 1795717267.9184244,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124894963503839"
   }
  ],
  "share_sent": {
@@ -2426,10 +2440,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-26 23:10",
+  "time": "2026-11-26 23:21",
   "items": 25,
   "sample": [
-   "South Australia 287/10 & 136/2 * v Victoria 417/10",
+   "South Australia 136/2 & 287/10 * v Victoria 417/10",
    "Uttarakhand 123/10 * v Mumbai 209/10",
    "Madhya Pradesh 157/7 v Puducherry 158/8 *"
   ]
@@ -2441,17 +2455,11 @@
  },
  "all_posts": {
   "date": "2026-11-26",
-  "count": 47,
-  "last": 1795715463.0592508
+  "count": 48,
+  "last": 1795717262.7261798
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122121446559503839",
-    "sec": "agri_news",
-    "cat": "agri_news",
-    "t": 1794787920
-   },
    {
     "id": "1444130002106066_122121456855503839",
     "sec": "public_news",
@@ -4845,6 +4853,12 @@
     "sec": "kawish",
     "cat": "sindh",
     "t": 1795715469
+   },
+   {
+    "id": "1444130002106066_122124894963503839",
+    "sec": "kawish",
+    "cat": "sindh",
+    "t": 1795717267
    }
   ]
  },
@@ -7933,9 +7947,9 @@
  },
  "ai_usage": {
   "date": "2026-11-26",
-  "ok": 311,
-  "fail": 503,
-  "limit": 482
+  "ok": 314,
+  "fail": 509,
+  "limit": 488
  },
  "posted_heads": [
   {
@@ -8265,10 +8279,14 @@
   {
    "h": "ميرپورخاص: زمين جي تڪرار تان هٿياربندن جي فائرنگ، 2ڻا قتل، 3 زخمي",
    "t": 1795715470
+  },
+  {
+   "h": "بدين: سجاول روڊ تي ٽرڪ ۽ موٽرسائيڪل جي ٽکر ۾ نوجوان قتل",
+   "t": 1795717268
   }
  ],
  "last_errors": {
-  "time": "2026-11-26 23:10",
+  "time": "2026-11-26 23:21",
   "steps": []
  },
  "roundup_am": "2026-11-26",
@@ -8376,7 +8394,7 @@
   "text": 23,
   "story": 18
  },
- "ai_last_error": "22:50 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "23:20 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-26",
   "models": [
@@ -8390,10 +8408,10 @@
  },
  "img_diag": {
   "date": "2026-11-26",
-  "tried": 45,
+  "tried": 46,
   "gemini": 0,
   "pollinations": 26,
-  "skip": 12,
+  "skip": 13,
   "fail": 15,
   "last_note": "smartphone and bathroom door",
   "mismatch": 923,
@@ -8418,7 +8436,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-26",
-   "ok": 133,
+   "ok": 134,
    "fail": 9,
    "items": 10,
    "fail_streak": 0,
@@ -8426,7 +8444,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-26",
-   "ok": 141,
+   "ok": 142,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8434,7 +8452,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-26",
-   "ok": 142,
+   "ok": 143,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8442,7 +8460,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 140,
+   "ok": 141,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8450,7 +8468,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 142,
+   "ok": 143,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8458,14 +8476,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 142,
+   "ok": 143,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 142,
+   "ok": 143,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8473,7 +8491,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-26",
-   "ok": 142,
+   "ok": 143,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8836,13 +8854,13 @@
  "region_posts": {
   "date": "2026-11-26",
   "district": 6,
-  "sindh": 25,
+  "sindh": 26,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 0,
-  "found": 8,
-  "old": 8,
+  "posted": 1,
+  "found": 16,
+  "old": 16,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9599,6 +9617,14 @@
    "t": 1795715469,
    "s": true,
    "r": 0
+  },
+  {
+   "k": "5e98e8ed04c202a3",
+   "h": "بدين: سجاول روڊ تي ٽرڪ ۽ موٽرسائيڪل جي ٽڪر ۾ نوجوان جاں بحق",
+   "x": "بدين ۾ سجاول روڊ تي ٽرڪ ۽ موٽرسائيڪل ۾ خوفناڪ ٽڪر ٿي پيو، جنهن جي نتيجي ۾ هڪ نوجوان موٽرسائيڪل سوار موقعي تي ئي جاں بحق ٿي ويو. اطلاع ملڻ تي پوليس پهچي لاش اسپتال منتقل ڪيو. مقتول جي سڃاڻپ ساجد طور ٿي.",
+   "t": 1795717267,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9617,22 +9643,6 @@
   ]
  },
  "kawish_queue": [
-  {
-   "key": "aae816263d0f3396",
-   "page": 8,
-   "head": "بدين: سجاول روڊ تي ٽرڪ ۽ موٽرسائيڪل جي ٽکر ۾ نوجوان قتل",
-   "summary": "بدين ۾ سجاول روڊ تي ٽرڪ ۽ موٽرسائيڪل ۾ خوفناڪ ٽڪر ٿي پيو، جنهن جي نتيجي ۾ هڪ نوجوان موٽرسائيڪل سوار موقعي تي ئي جاں بحق ٿي ويو. اطلاع ملڻ تي پوليس پهچي لاش اسپتال منتقل ڪيو. مقتول جي سڃاڻپ ساجد طور ٿي آهي.",
-   "card": "بدين ۾ سجاول روڊ تي ٽرڪ ۽ موٽرسائيڪل جي ٽڪر ۾ نوجوان ساجد جاں بحق ٿي ويو.",
-   "printed": "بدين: سجاول روڊ تي ٽرڪ ۽ موٽرسائيڪل جي ٽکر ۾ نوجوان قتل بدين (نمائندو)",
-   "search_en": "Badin truck motorcycle accident youth killed",
-   "search_ur": "بدین ٹرک موٹرسائیکل حادثہ نوجوان جاں بحق",
-   "district": false,
-   "sensitive": true,
-   "confidence": "high",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-11-26&pageno=8",
-   "message": "📰 بدين: سجاول روڊ تي ٽرڪ ۽ موٽرسائيڪل جي ٽکر ۾ نوجوان قتل\n\nبدين ۾ سجاول روڊ تي ٽرڪ ۽ موٽرسائيڪل ۾ خوفناڪ ٽڪر ٿي پيو، جنهن جي نتيجي ۾ هڪ نوجوان موٽرسائيڪل سوار موقعي تي ئي جاں بحق ٿي ويو. اطلاع ملڻ تي پوليس پهچي لاش اسپتال منتقل ڪيو. مقتول جي سڃاڻپ ساجد طور ٿي آهي!\n\n📌 ذريعو: روزاني ڪاوش (صفحو 8)\n\n📲 Naushahro Feroze Updates | نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFerozeUpdates #NaushahroFeroze #NausheroFeroz #Padidan #نوشهروفيروز #نوشہروفیروز #پڊعيدن",
-   "added_day": "2026-11-26"
-  },
   {
    "key": "b9f65dc89ea8b472",
    "page": 8,
@@ -9732,17 +9742,10 @@
  ],
  "kawish_post": {
   "date": "2026-11-26",
-  "count": 6,
-  "last": 1795715469.9964118
+  "count": 7,
+  "last": 1795717267.9183793
  },
  "tg_debug": [
-  {
-   "t": "11-26 16:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-26 16:50",
    "ok": true,
@@ -10011,6 +10014,13 @@
   },
   {
    "t": "11-26 23:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-26 23:20",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14563,6 +14573,49 @@
     "ٿاڻي",
     "ڄڻا"
    ]
+  },
+  {
+   "t": 1795717267,
+   "h": "بدين: سجاول روڊ تي ٽرڪ ۽ موٽرسائيڪل جي ٽڪر ۾ نوجوان جاں بحق",
+   "b": "بدين ۾ سجاول روڊ تي ٽرڪ ۽ موٽرسائيڪل ۾ خوفناڪ ٽڪر ٿي پيو، جنهن جي نتيجي ۾ هڪ نوجوان موٽرسائيڪل سوار موقعي تي",
+   "tt": [
+    "بحق",
+    "بدين",
+    "جاں",
+    "روڊ",
+    "سجاول",
+    "موٽرسائيڪل",
+    "نوجوان",
+    "ٽرڪ",
+    "ٽڪر"
+   ],
+   "bt": [
+    "اسپتال",
+    "اطلاع",
+    "بحق",
+    "بدين",
+    "جاں",
+    "خوفناڪ",
+    "روڊ",
+    "ساجد",
+    "سجاول",
+    "سوار",
+    "سڃاڻپ",
+    "طور",
+    "لاش",
+    "مقتول",
+    "ملڻ",
+    "منتقل",
+    "موقعي",
+    "موٽرسائيڪل",
+    "نتيجي",
+    "نوجوان",
+    "ٽرڪ",
+    "ٽڪر",
+    "پهچي",
+    "پوليس",
+    "پيو،"
+   ]
   }
  ],
  "repeat_log": [
@@ -14730,7 +14783,7 @@
  },
  "quality": {
   "date": "2026-11-26",
-  "editor_fixed": 36,
+  "editor_fixed": 37,
   "editor_rejected": 2,
   "kawish_rejected": 2,
   "kawish_crosschecked": 0,
