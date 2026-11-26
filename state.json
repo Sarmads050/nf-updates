@@ -1650,7 +1650,11 @@
   "6342ba2603bd8a5f": 1795672882.8324478,
   "38eb6aa0cfc71c21": 1795672882.8324504,
   "ea1d6a840dccf921": 1795672882.8324528,
-  "ff45808ed42b2bff": 1795673474.6834657
+  "ff45808ed42b2bff": 1795673474.6834657,
+  "6f37eca596087a1e": 1795674935.32915,
+  "e4ff45260772af77": 1795674935.329152,
+  "86570bc4bccb87dc": 1795674935.3291538,
+  "a7e7531f12e5178e": 1795674935.3291554
  },
  "pending": {},
  "queue": [],
@@ -2464,11 +2468,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-26 11:20",
-  "items": 24,
+  "time": "2026-11-26 11:35",
+  "items": 25,
   "sample": [
-   "Western Australia 439/10 v Tasmania 342/10 & 177/5 *",
-   "South Australia 104 & 287/10 * v Victoria 417/10",
+   "Western Australia 439/10 v Tasmania 342/10 & 187/6 *",
+   "South Australia 287/10 & 112 * v Victoria 417/10",
    "Uttarakhand 123/10 * v Mumbai 209/10"
   ]
  },
@@ -8011,9 +8015,9 @@
  },
  "ai_usage": {
   "date": "2026-11-26",
-  "ok": 140,
-  "fail": 259,
-  "limit": 244
+  "ok": 142,
+  "fail": 263,
+  "limit": 248
  },
  "posted_heads": [
   {
@@ -8338,7 +8342,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-26 11:20",
+  "time": "2026-11-26 11:35",
   "steps": []
  },
  "roundup_am": "2026-11-26",
@@ -8446,7 +8450,7 @@
   "text": 19,
   "story": 15
  },
- "ai_last_error": "11:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "11:35 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-26",
   "models": [
@@ -8488,7 +8492,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-26",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8496,7 +8500,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-26",
-   "ok": 69,
+   "ok": 70,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8504,7 +8508,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-26",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8512,7 +8516,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 68,
+   "ok": 69,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8520,7 +8524,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8528,14 +8532,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8543,7 +8547,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-26",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8748,8 +8752,8 @@
  "sindh_stream": {
   "date": "2026-11-26",
   "count": 4,
-  "last": 1795672880.374431,
-  "city_i": 10,
+  "last": 1795674931.1611214,
+  "city_i": 14,
   "dry": 1795668103.0595405
  },
  "gemini_day_dead": {
@@ -9457,13 +9461,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-26 05:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-26 05:10",
    "ok": true,
    "n": 0,
@@ -9731,6 +9728,13 @@
   },
   {
    "t": "11-26 11:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-26 11:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14452,11 +14456,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-23 13:33",
-   "new": "نوشهروفيروز ۾ پٽ جي پسند جي شاديءَ کانپوءِ فائرنگ جي واقعي ۾ هڪ شخص قت",
-   "old": "نوشهرو فيروز: پٽ جي پسند جي شادي کانپوءِ فائرنگ ۾ پيءُ قتل"
-  },
-  {
    "t": "11-23 14:11",
    "new": "پاڪستان ۾ درآمدي ڪارون سستيون",
    "old": "پاڪستان ۾ امپورٽڊ گاڏين جون قيمتون گهٽجي وينديون"
@@ -14600,6 +14599,11 @@
    "t": "11-26 10:11",
    "new": "سنڌ يونيورسٽي ۾ ٻن شاگرد ڌرين ۾ جهيڙو، هڪ زخمي",
    "old": "سنڌ يونيورسٽي جي هاسٽل ۾ جهيڙو ۽ فائرنگ، شاگرد زخمي"
+  },
+  {
+   "t": "11-26 11:35",
+   "new": "ڪراچي عمارت سانحو: وڏي وزير پاران اعليٰ آفيسرن خلاف ڪارروائي",
+   "old": "ڪراچي: بلوچ ڪالوني ويجهو ڇهه ماڙ عمارت ڊهي پئي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14620,6 +14624,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 7
- }
+  "repeat": 8
+ },
+ "_dup": true
 }
