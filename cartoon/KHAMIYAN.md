@@ -102,6 +102,11 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-095] (ep032, 2026-11-25) Ammi kehti hain doosri razai "almari mein" hai lekin bedroom mein koi almari nahi, aur nayi razai ko haath mein pakarne ka koi prop nahi — bedroom mein lakdi ki almari (set piece) aur tah ki hui "razai" hand prop banana.
 - [K-096] (ep032, 2026-11-25) Bedroom mein Ammi (stand_c) aayin to bed par baithe Arsalan ke aage khari ho kar us ka aadha jism dhak deti hain (0:20-0:35) — K-038 wala "bedside" slot ab zaroori hai.
 
+- [K-097] (ep033, 2026-11-26) Poori kahani "tanki khaali, ek balti" ki hai lekin screen par na balti hai, na mug, na nalka/motor — sab sirf baaton mein — naye "balti" aur "mug" props (neeli plastic balti, paani ke saath) aur aangan mein deewar par nalka + chhoti paani ki motor (set piece).
+- [K-098] (ep033, 2026-11-26) Ammi "motor ghoon ghoon karti hai" kehti hain aur Faraz motor chalane jata hai, lekin motor ya behte paani ki koi awaaz nahi (sirf "ding"/"light_on") — naye sfx: "motor" (ghoon-ghoon hum) aur "water" (nalke se girta paani).
+- [K-099] (ep033, 2026-11-26) Drawing room mein Imtiaz (stand_l) ka "shrug" pose: dono baazu chaure phail kar saath khari Bhabi Sana ke chehre/seene ke aage aa jate hain (0:58-1:05) — shrug mein baazu jism ke qareeb rakhna jab saath koi khara ho.
+- [K-100] (ep033, 2026-11-26) Aangan mein charpai par baithi Sana ki line (Ammi stand_l ko) par "auto" shot ne Ammi ko beech mein rakha aur bolne wali Sana peeche chhup gayi (preview mein pakra; charpai_c par shift + `close:SANA` se theek kiya) — auto shot mein hamesha bolne wale ko frame ke center/aage rakhna.
+
 ## APPROVED
 
 ## DONE

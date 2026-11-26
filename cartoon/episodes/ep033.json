@@ -79,7 +79,7 @@
      "urdu": "پھر مسئلہ موٹر کا نہیں ہے۔ لائن میں پانی ہی نہیں آیا!",
      "how": "27-year-old tech-savvy son, patient, slightly exasperated, figuring it out",
      "emo": "focused",
-     "pose": "think"
+     "pose": "rest"
     },
     {
      "who": "FARAZ",
@@ -143,7 +143,7 @@
     "SANA": "stand_cl"
    },
    "props": {
-    "ABBA": "newspaper"
+    "ABBA": null
    },
    "lines": [
     {
@@ -210,7 +210,7 @@
      "urdu": "ہمارے زمانے میں ایک بالٹی میں نہا بھی لیتے تھے، اور کپڑے بھی دھو لیتے تھے!",
      "how": "57-year-old father, deep warm voice, old-school, proud, lecturing, lowering newspaper",
      "emo": "proud",
-     "pose": "point_up",
+     "pose": "wag",
      "shot": "close:ABBA",
      "react": {
       "IMTIAZ": "tired"
@@ -269,10 +269,13 @@
    "cast": {
     "AMMI": "stand_l",
     "FARAZ": "stand_r",
-    "ABBA": "charpai_c",
-    "SANA": "charpai_l"
+    "ABBA": "charpai_r",
+    "SANA": "charpai_c"
    },
-   "props": {},
+   "props": {
+    "FARAZ": null,
+    "ABBA": null
+   },
    "lines": [
     {
      "who": "FARAZ",
@@ -281,7 +284,7 @@
      "urdu": "امی! لائن میں پانی آ گیا! میں ابھی موٹر چلاتا ہوں۔",
      "how": "27-year-old tech-savvy son, patient, slightly exasperated, excited, relieved",
      "emo": "happy",
-     "pose": "point_up",
+     "pose": "thumb_back",
      "shot": "close",
      "sfx": [
       "ding"
@@ -318,7 +321,8 @@
      "urdu": "اور نہاتے وقت بالٹی اور مگ... اس سے پانی بھی بچے گا۔",
      "how": "25-year-old educated young wife, polite, calm and smart, calm, helpful",
      "emo": "warm",
-     "pose": "explain"
+     "pose": "explain",
+     "shot": "close:SANA"
     },
     {
      "who": "IMTIAZ",
