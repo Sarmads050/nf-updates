@@ -1,6 +1,5 @@
 {
  "seen": {
-  "a71a90318ee6118c": 1795101144.1089265,
   "41082bf5b7c4e6f5": 1795101699.2820807,
   "c0ede5d9cf0e4b91": 1795102289.9463186,
   "94b6286707505017": 1795102289.9463215,
@@ -1582,7 +1581,9 @@
   "35776a18d3a1aedd": 1795705261.5809815,
   "f1f139fde05777fe": 1795705278.4717891,
   "e99b18d3968030cc": 1795705278.471792,
-  "734a160b6957cce7": 1795705278.4717941
+  "734a160b6957cce7": 1795705278.4717941,
+  "299c74239f14b262": 1795706464.5733125,
+  "471a0ab3dffb2df9": 1795706486.3156679
  },
  "pending": {},
  "queue": [],
@@ -1653,8 +1654,8 @@
  "last_question": "2026-11-25",
  "sindh_single": {
   "date": "2026-11-26",
-  "count": 3,
-  "last": 1795697501.834197,
+  "count": 4,
+  "last": 1795706479.1519563,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1746,21 +1747,12 @@
    "ed6badfdf9682559",
    "ff45808ed42b2bff",
    "7e7f499efbbb3d69",
-   "9620f1f731ae6250"
+   "9620f1f731ae6250",
+   "471a0ab3dffb2df9"
   ]
  },
- "last_post_id": "1444130002106066_122124854655503839",
+ "last_post_id": "1444130002106066_122124858111503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124666747503839",
-   "title": "پنجاب زرعي کاتي ايندڙ ڪپهه جي فصل کي گلابي سنساٽ کان بچائڻ لاءِ سياري ۾ ضروري اپاءَ وٺڻ",
-   "t": 1795651362.726189,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124666747503839"
-  },
   {
    "id": "1444130002106066_122124677091503839",
    "title": "انٽربنڪ مارڪيٽ ۾ ڊالر جي مٽاسٽا جي اگهه ۾ تبديلي رڪارڊ ڪئي وئي آهي، جنهن جو ڪاروبار تي",
@@ -2073,6 +2065,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124854655503839"
+  },
+  {
+   "id": "1444130002106066_122124858111503839",
+   "title": "سندھ حکومت جو آٹے جي معيار ۽ وزن تي اهم فيصلو سندھ حڪومت آٹے جي معيار ۽ وزن جي نگراني",
+   "t": 1795706575.9781287,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124858111503839"
   }
  ],
  "share_sent": {
@@ -2403,11 +2405,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-26 20:11",
+  "time": "2026-11-26 20:22",
   "items": 26,
   "sample": [
-   "Western Australia 439/10 & 137/6 * v Tasmania 238/10 & 342/10",
-   "South Australia 136/2 & 287/10 * v Victoria 417/10",
+   "Western Australia 137/6 & 439/10 * v Tasmania 342/10 & 238/10",
+   "South Australia 287/10 & 136/2 * v Victoria 417/10",
    "Uttarakhand 123/10 * v Mumbai 209/10"
   ]
  },
@@ -2418,17 +2420,11 @@
  },
  "all_posts": {
   "date": "2026-11-26",
-  "count": 38,
-  "last": 1795705355.6046
+  "count": 39,
+  "last": 1795706568.77591
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122121326991503839",
-    "sec": "public_news",
-    "cat": "transport_trade",
-    "t": 1794755554
-   },
    {
     "id": "1444130002106066_122121340005503839",
     "sec": "sindh_stream",
@@ -4822,6 +4818,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1795705363
+   },
+   {
+    "id": "1444130002106066_122124858111503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1795706568
    }
   ]
  },
@@ -7942,9 +7944,9 @@
  },
  "ai_usage": {
   "date": "2026-11-26",
-  "ok": 253,
-  "fail": 449,
-  "limit": 426
+  "ok": 260,
+  "fail": 459,
+  "limit": 436
  },
  "posted_heads": [
   {
@@ -8269,7 +8271,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-26 20:11",
+  "time": "2026-11-26 20:22",
   "steps": []
  },
  "roundup_am": "2026-11-26",
@@ -8377,7 +8379,7 @@
   "text": 23,
   "story": 18
  },
- "ai_last_error": "20:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "20:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-26",
   "models": [
@@ -8391,11 +8393,11 @@
  },
  "img_diag": {
   "date": "2026-11-26",
-  "tried": 36,
+  "tried": 37,
   "gemini": 0,
-  "pollinations": 23,
+  "pollinations": 24,
   "skip": 7,
-  "fail": 12,
+  "fail": 13,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 921,
   "unverified": 4
@@ -8419,7 +8421,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-26",
-   "ok": 121,
+   "ok": 122,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8427,7 +8429,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-26",
-   "ok": 123,
+   "ok": 124,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8435,7 +8437,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-26",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8443,7 +8445,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 122,
+   "ok": 123,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8451,7 +8453,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8459,14 +8461,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8474,7 +8476,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-26",
-   "ok": 124,
+   "ok": 125,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8485,7 +8487,7 @@
   "last": "2026-11-20",
   "idx": 5
  },
- "ai_last_model": "google/gemma-4-26b-a4b-it:free",
+ "ai_last_model": "google/gemma-4-31b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8613,13 +8615,13 @@
  "region_posts": {
   "date": "2026-11-26",
   "district": 2,
-  "sindh": 20,
+  "sindh": 21,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 0,
-  "found": 8,
-  "old": 8,
+  "posted": 1,
+  "found": 16,
+  "old": 16,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8679,9 +8681,9 @@
  "sindh_stream": {
   "date": "2026-11-26",
   "count": 16,
-  "last": 1795705276.3619778,
-  "city_i": 16,
-  "dry": 1795702871.7400813
+  "last": 1795706461.756647,
+  "city_i": 20,
+  "dry": 1795706464.5733151
  },
  "gemini_day_dead": {
   "day": "2026-11-26",
@@ -9352,13 +9354,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-26 13:45",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-26 13:50",
    "ok": true,
    "n": 0,
@@ -9630,51 +9625,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-26 20:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-26",
  "recent_posts": [
-  {
-   "t": 1795533175,
-   "h": "مولانا فضل الرحمان کي لاهور ۾ وڪيلن کي خطاب ڪرڻ کان روڪيو ويو",
-   "b": "جمعيت علماءِ اسلام (ف) جي سربراهه مولانا فضل الرحمان چيو آهي ته هو هن وقت رياستي گهيري ۾ آهي. هن چيو ته لاهور",
-   "tt": [
-    "الرحمان",
-    "خطاب",
-    "روڪيو",
-    "فضل",
-    "لاهور",
-    "مولانا",
-    "وڪيلن",
-    "ڪان",
-    "ڪرڻ"
-   ],
-   "bt": [
-    "اسلام",
-    "الرحمان",
-    "اهي",
-    "اهي،",
-    "جمعيت",
-    "خطاب",
-    "رنڊڪن",
-    "روڪيو",
-    "رياستي",
-    "سبب",
-    "سربراهه",
-    "شهر",
-    "علماء",
-    "فضل",
-    "لاهور",
-    "مولانا",
-    "وقت",
-    "وڪيلن",
-    "ڀريل",
-    "ڪان",
-    "ڪرڻ",
-    "ڪيس",
-    "گهيري"
-   ]
-  },
   {
    "t": 1795535637,
    "h": "لاڙ جو مشهور فنڪار استاد بادل راهي لاڏاڻو ڪري ويو",
@@ -13862,6 +13823,56 @@
     "پاڪستان",
     "ڪانپوء"
    ]
+  },
+  {
+   "t": 1795706568,
+   "h": "سنڌ حڪومت جو آٽي جي معيار ۽ وزن تي اهم فيصلو",
+   "b": "سنڌ حڪومت آٽي جي معيار ۽ وزن جي نگراني لاءِ ضلعي سطح تي ڪميٽيون تشكيل ڏيڻ جو فيصلو ڪيو آهي. ان مقصد لاءِ",
+   "tt": [
+    "اهم",
+    "اٽي",
+    "حڪومت",
+    "سنڌ",
+    "فيصلو",
+    "معيار",
+    "وزن"
+   ],
+   "bt": [
+    "اهم",
+    "اهي",
+    "ايسوسي",
+    "ايشن",
+    "اٽي",
+    "اٿارٽي",
+    "بنايون",
+    "تشكيل",
+    "جاچ",
+    "حڪومت",
+    "خوراڪ،",
+    "سطح",
+    "سنڌ",
+    "ضلعي",
+    "فلور",
+    "فوڊ",
+    "فيصلو",
+    "مارڪيٽ",
+    "محڪمه",
+    "مشتمل",
+    "معيار",
+    "مقرر",
+    "مقصد",
+    "ملز",
+    "نمائندن",
+    "نگراني",
+    "وزن",
+    "وينديون",
+    "وڪرو",
+    "ٿيندڙ",
+    "ڏيڻ",
+    "ڪميٽيون",
+    "ڪنديون",
+    "گڏيل"
+   ]
   }
  ],
  "repeat_log": [
@@ -14029,7 +14040,7 @@
  },
  "quality": {
   "date": "2026-11-26",
-  "editor_fixed": 31,
+  "editor_fixed": 32,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
