@@ -2440,12 +2440,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-26 23:21",
-  "items": 25,
+  "time": "2026-11-26 23:31",
+  "items": 26,
   "sample": [
-   "South Australia 136/2 & 287/10 * v Victoria 417/10",
-   "Uttarakhand 123/10 * v Mumbai 209/10",
-   "Madhya Pradesh 157/7 v Puducherry 158/8 *"
+   "South Australia 287/10 & 136/2 * v Victoria 417/10",
+   "Uttarakhand 123/10 v Mumbai 209/10",
+   "Madhya Pradesh 157/7 v Puducherry 158/8"
   ]
  },
  "agri_news": {
@@ -8286,7 +8286,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-26 23:21",
+  "time": "2026-11-26 23:31",
   "steps": []
  },
  "roundup_am": "2026-11-26",
@@ -8436,7 +8436,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-26",
-   "ok": 134,
+   "ok": 135,
    "fail": 9,
    "items": 10,
    "fail_streak": 0,
@@ -8444,7 +8444,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-26",
-   "ok": 142,
+   "ok": 143,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8452,7 +8452,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-26",
-   "ok": 143,
+   "ok": 144,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8460,7 +8460,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 141,
+   "ok": 142,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8468,7 +8468,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 143,
+   "ok": 144,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8476,14 +8476,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 143,
+   "ok": 144,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 143,
+   "ok": 144,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8491,7 +8491,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-26",
-   "ok": 143,
+   "ok": 144,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8859,8 +8859,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 16,
-  "old": 16,
+  "found": 24,
+  "old": 24,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9747,13 +9747,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-26 16:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-26 17:00",
    "ok": true,
    "n": 0,
@@ -10021,6 +10014,13 @@
   },
   {
    "t": "11-26 23:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-26 23:30",
    "ok": true,
    "n": 0,
    "ids": [],
