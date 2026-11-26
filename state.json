@@ -1764,18 +1764,8 @@
    "471a0ab3dffb2df9"
   ]
  },
- "last_post_id": "1444130002106066_122124866847503839",
+ "last_post_id": "1444130002106066_122124870855503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124697965503839",
-   "title": "پنجاب ڪابينا جي 148 نڪتي ايجنڊا ۾ ڪڻڪ جا اگهه ۽ ٻيا اهم معاملا غور هيٺ آهن",
-   "t": 1795661514.0042863,
-   "tags": [
-    "agri",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124697965503839"
-  },
   {
    "id": "1444130002106066_122124706647503839",
    "title": "فوڊ ايگ 2026 نمائش دوران پاڪستاني چانورن جي برآمد ڪندڙ کي 7.5 ملين ڊالرن جو وڏو آرڊر ملي",
@@ -2090,6 +2080,16 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124866847503839"
+  },
+  {
+   "id": "1444130002106066_122124870855503839",
+   "title": "ڪنڊيارو: شهر ۾ چوري ۽ ڌاڙن جو سلسلو جاري، شهرين ۾ بيچيني",
+   "t": 1795710687.2209318,
+   "tags": [
+    "local",
+    "padidan"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124870855503839"
   }
  ],
  "share_sent": {
@@ -2420,7 +2420,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-26 21:20",
+  "time": "2026-11-26 21:31",
   "items": 25,
   "sample": [
    "South Australia 287/10 & 136/2 * v Victoria 417/10",
@@ -2435,17 +2435,11 @@
  },
  "all_posts": {
   "date": "2026-11-26",
-  "count": 42,
-  "last": 1795709477.1136613
+  "count": 43,
+  "last": 1795710681.1175814
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122121352635503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794761563
-   },
    {
     "id": "1444130002106066_122121381051503839",
     "sec": "public_news",
@@ -4839,6 +4833,12 @@
     "sec": "kawish",
     "cat": "district",
     "t": 1795709485
+   },
+   {
+    "id": "1444130002106066_122124870855503839",
+    "sec": "kawish",
+    "cat": "district",
+    "t": 1795710687
    }
   ]
  },
@@ -7959,9 +7959,9 @@
  },
  "ai_usage": {
   "date": "2026-11-26",
-  "ok": 292,
-  "fail": 477,
-  "limit": 454
+  "ok": 295,
+  "fail": 483,
+  "limit": 460
  },
  "posted_heads": [
   {
@@ -8291,10 +8291,14 @@
   {
    "h": "مورو: نيشنل هاءِ وي تي ٽرڪ ۽ ڪار ۾ ٽڪر، هڪ ڄڻو زخمي",
    "t": 1795709485
+  },
+  {
+   "h": "ڪنڊيارو: شهر ۾ چوري ۽ ڌاڙن جو سلسلو جاري، شهرين ۾ بيچيني",
+   "t": 1795710687
   }
  ],
  "last_errors": {
-  "time": "2026-11-26 21:20",
+  "time": "2026-11-26 21:31",
   "steps": []
  },
  "roundup_am": "2026-11-26",
@@ -8402,7 +8406,7 @@
   "text": 23,
   "story": 18
  },
- "ai_last_error": "21:10 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "21:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-26",
   "models": [
@@ -8416,10 +8420,10 @@
  },
  "img_diag": {
   "date": "2026-11-26",
-  "tried": 40,
+  "tried": 41,
   "gemini": 0,
   "pollinations": 25,
-  "skip": 9,
+  "skip": 10,
   "fail": 14,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 921,
@@ -8444,7 +8448,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-26",
-   "ok": 126,
+   "ok": 127,
    "fail": 5,
    "items": 10,
    "fail_streak": 0,
@@ -8452,7 +8456,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-26",
-   "ok": 130,
+   "ok": 131,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8460,7 +8464,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-26",
-   "ok": 131,
+   "ok": 132,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8468,7 +8472,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 129,
+   "ok": 130,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8476,7 +8480,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 131,
+   "ok": 132,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8484,14 +8488,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 131,
+   "ok": 132,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 131,
+   "ok": 132,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8499,7 +8503,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-26",
-   "ok": 131,
+   "ok": 132,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8861,14 +8865,14 @@
  "gemini_off_alert": "2026-10-19",
  "region_posts": {
   "date": "2026-11-26",
-  "district": 4,
+  "district": 5,
   "sindh": 22,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 16,
-  "old": 16,
+  "posted": 2,
+  "found": 24,
+  "old": 24,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9585,6 +9589,14 @@
    "t": 1795709485,
    "s": false,
    "r": 3
+  },
+  {
+   "k": "9c85669ff070505e",
+   "h": "ڪنڊيارو: شهر ۾ چوري ۽ ڌاڙن جو سلسلو جاري، شهرين ۾ بيچيني",
+   "x": "ڪنڊيارو شهر ۽ آس پاس جي علائقن ۾ چوري ۽ ڌاڙن جا واقعا وڌي ويا آهن، جن جي نتيجي ۾ شهرين ۾ سخت بيچيني ۽ خوف و هراس ڦهجي ويو آهي. شهرين اعلى اختيارين کان مطالبو ڪيو آهي ته پوليس کي حڪم ڏئي امن امان بحال ڪيو وڃي.",
+   "t": 1795710687,
+   "s": false,
+   "r": 4
   }
  ],
  "reels": {
@@ -9598,26 +9610,11 @@
    "15:30",
    "17:00",
    "18:30",
-   "20:00"
+   "20:00",
+   "21:30"
   ]
  },
  "kawish_queue": [
-  {
-   "key": "9c85669ff070505e",
-   "page": 8,
-   "head": "ڪنڊيارو: شهر ۾ چوري ۽ ڌاڙن جو سلسلو جاري، شهرين ۾ بيچيني",
-   "summary": "ڪنڊيارو شهر ۽ آس پاس جي علائقن ۾ چوري ۽ ڌاڙن جا واقعا وڌي ويا آهن، جن جي نتيجي ۾ شهرين ۾ سخت بيچيني ۽ خوف و هراس ڦهجي ويو آهي. شهرين اعلى اختيارين کان مطالبو ڪيو آهي ته پوليس کي حڪم ڏئي امن امان بحال ڪيو وڃի.",
-   "card": "ڪنڊيارو ۾ چوري ۽ ڌاڙن جا واقعا وڌڻ خلاف شهرين ۾ بيچيني پکڙجي وئي.",
-   "printed": "ڪنڊيارو: شهر ۾ چوري ۽ ڌاڙن جو سلسلو جاري، شهرين ۾ بيچيني ڪنڊيارو (رپورٽ)",
-   "search_en": "Kandiaro theft robbery incidents citizens concerned",
-   "search_ur": "کنڈیارو چوری ڈکیتی کے واقعات شہریوں میں تشویش",
-   "district": true,
-   "sensitive": false,
-   "confidence": "high",
-   "link": "https://www.thekawish.com/beta/index.php?date=2026-11-26&pageno=8",
-   "message": "📰 ڪنڊيارو: شهر ۾ چوري ۽ ڌاڙن جو سلسلو جاري، شهرين ۾ بيچيني\n\nڪنڊيارو شهر ۽ آس پاس جي علائقن ۾ چوري ۽ ڌاڙن جا واقعا وڌي ويا آهن، جن جي نتيجي ۾ شهرين ۾ سخت بيچيني ۽ خوف و هراس ڦهجي ويو آهي. شهرين اعلى اختيارين کان مطالبو ڪيو آهي ته پوليس کي حڪم ڏئي امن امان بحال ڪيو وڃի!\n\n📌 ذريعو: روزاني ڪاوش (صفحو 8)\n\n📲 Naushahro Feroze Updates | نوشهروفيروز جون تازيون خبرون سڀ کان پهرين ڏسڻ لاءِ پيج کي Follow ڪريو ۽ دوستن سان Share ڪريو!\n\n#NaushahroFerozeUpdates #NaushahroFeroze #NausheroFeroz #Padidan #نوشهروفيروز #نوشہروفیروز #پڊعيدن",
-   "added_day": "2026-11-26"
-  },
   {
    "key": "78fa911df1bccd35",
    "page": 4,
@@ -9797,17 +9794,10 @@
  ],
  "kawish_post": {
   "date": "2026-11-26",
-  "count": 2,
-  "last": 1795709485.2592304
+  "count": 3,
+  "last": 1795710687.2208889
  },
  "tg_debug": [
-  {
-   "t": "11-26 14:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-26 15:00",
    "ok": true,
@@ -10076,6 +10066,13 @@
   },
   {
    "t": "11-26 21:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-26 21:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14393,6 +14390,52 @@
     "ڪار",
     "ڪجه"
    ]
+  },
+  {
+   "t": 1795710687,
+   "h": "ڪنڊيارو: شهر ۾ چوري ۽ ڌاڙن جو سلسلو جاري، شهرين ۾ بيچيني",
+   "b": "ڪنڊيارو شهر ۽ آس پاس جي علائقن ۾ چوري ۽ ڌاڙن جا واقعا وڌي ويا آهن، جن جي نتيجي ۾ شهرين ۾ سخت بيچيني ۽ خوف و",
+   "tt": [
+    "بيچيني",
+    "جاري،",
+    "سلسلو",
+    "شهر",
+    "شهرين",
+    "چوري",
+    "ڌاڙن",
+    "ڪنڊيارو"
+   ],
+   "bt": [
+    "اختيارين",
+    "اعلى",
+    "امان",
+    "امن",
+    "اهن،",
+    "اهي",
+    "بحال",
+    "بيچيني",
+    "جاري،",
+    "حڪم",
+    "خوف",
+    "سخت",
+    "سلسلو",
+    "شهر",
+    "شهرين",
+    "علائقن",
+    "مطالبو",
+    "نتيجي",
+    "هراس",
+    "واقعا",
+    "وڌي",
+    "پاس",
+    "پوليس",
+    "چوري",
+    "ڌاڙن",
+    "ڏئي",
+    "ڦهجي",
+    "ڪان",
+    "ڪنڊيارو"
+   ]
   }
  ],
  "repeat_log": [
@@ -14560,7 +14603,7 @@
  },
  "quality": {
   "date": "2026-11-26",
-  "editor_fixed": 34,
+  "editor_fixed": 35,
   "editor_rejected": 2,
   "kawish_rejected": 2,
   "kawish_crosschecked": 0,
