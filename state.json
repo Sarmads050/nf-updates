@@ -1,10 +1,5 @@
 {
  "seen": {
-  "0e1c3c310b3ca53a": 1795083835.1004925,
-  "781d7d42e4d83c3f": 1795083848.3841164,
-  "a1ec5597db636434": 1795083848.384119,
-  "9d8a514474fccb39": 1795083848.3841202,
-  "c35d1caffb7441af": 1795083858.299658,
   "f8d3c26143af0fec": 1795084264.4143565,
   "92a13fdf9fcce1b1": 1795084284.0358822,
   "6aa0c59562859ab1": 1795085239.4302657,
@@ -1625,7 +1620,9 @@
   "173cd741e8a169ab": 1795686675.529755,
   "69e5a7e0679302cb": 1795686675.5297563,
   "94acf365413e9371": 1795686675.5299125,
-  "eddac5022cf03d89": 1795687877.810998
+  "eddac5022cf03d89": 1795687877.810998,
+  "621c561f2333f999": 1795689057.823179,
+  "9620f1f731ae6250": 1795689107.7953446
  },
  "pending": {},
  "queue": [],
@@ -1697,8 +1694,8 @@
  "last_question": "2026-11-25",
  "sindh_single": {
   "date": "2026-11-26",
-  "count": 2,
-  "last": 1795681061.1853244,
+  "count": 3,
+  "last": 1795689096.5763118,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1789,21 +1786,12 @@
    "dc4134048ba2f859",
    "ed6badfdf9682559",
    "ff45808ed42b2bff",
-   "7e7f499efbbb3d69"
+   "7e7f499efbbb3d69",
+   "9620f1f731ae6250"
   ]
  },
- "last_post_id": "1444130002106066_122124793545503839",
+ "last_post_id": "1444130002106066_122124798261503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124590319503839",
-   "title": "نوشهرو فیروز سميت چونڊيل ضلعن ۾ سول رجسٽريشن لاءِ بايو ميٽرڪ تصديق لاڳو نادرا پاران",
-   "t": 1795626267.918326,
-   "tags": [
-    "general",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124590319503839"
-  },
   {
    "id": "1444130002106066_122124598317503839",
    "title": "ستين سنڌ گيمز: خيرپور سپريئر سائنس ڪاليج ڪرڪيٽ ٽورنامينٽ کٽي ورتي",
@@ -2107,6 +2095,16 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124793545503839"
+  },
+  {
+   "id": "1444130002106066_122124798261503839",
+   "title": "سنڌ حڪومت جو لوڪل گورنمينٽ بابت اهم اعلان سنڌ حڪومت سڀني ضلعن لاءِ لوڪل گورنمينٽ جي حوالي",
+   "t": 1795689142.7693686,
+   "tags": [
+    "general",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124798261503839"
   }
  ],
  "share_sent": {
@@ -2437,10 +2435,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-26 15:20",
+  "time": "2026-11-26 15:32",
   "items": 25,
   "sample": [
-   "Western Australia 136/6 & 439/10 * v Tasmania 342/10 & 238/10",
+   "Western Australia 137/6 & 439/10 * v Tasmania 238/10 & 342/10",
    "South Australia 287/10 & 136/2 * v Victoria 417/10",
    "Uttarakhand 123/10 * v Mumbai 209/10"
   ]
@@ -2452,17 +2450,11 @@
  },
  "all_posts": {
   "date": "2026-11-26",
-  "count": 30,
-  "last": 1795687952.5797858
+  "count": 31,
+  "last": 1795689138.3531892
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122121292527503839",
-    "sec": "public_news",
-    "cat": "education_jobs",
-    "t": 1794746515
-   },
    {
     "id": "1444130002106066_122121295149503839",
     "sec": "cricket_news",
@@ -4856,6 +4848,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1795687959
+   },
+   {
+    "id": "1444130002106066_122124798261503839",
+    "sec": "sindh_single",
+    "cat": "sindh",
+    "t": 1795689138
    }
   ]
  },
@@ -7968,9 +7966,9 @@
  },
  "ai_usage": {
   "date": "2026-11-26",
-  "ok": 198,
-  "fail": 360,
-  "limit": 340
+  "ok": 204,
+  "fail": 369,
+  "limit": 348
  },
  "posted_heads": [
   {
@@ -8295,7 +8293,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-26 15:20",
+  "time": "2026-11-26 15:32",
   "steps": []
  },
  "roundup_am": "2026-11-26",
@@ -8403,7 +8401,7 @@
   "text": 22,
   "story": 17
  },
- "ai_last_error": "15:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "15:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-26",
   "models": [
@@ -8417,9 +8415,9 @@
  },
  "img_diag": {
   "date": "2026-11-26",
-  "tried": 29,
+  "tried": 30,
   "gemini": 0,
-  "pollinations": 18,
+  "pollinations": 19,
   "skip": 5,
   "fail": 9,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
@@ -8445,7 +8443,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-26",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8453,7 +8451,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-26",
-   "ok": 94,
+   "ok": 95,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8461,7 +8459,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-26",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8469,7 +8467,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 93,
+   "ok": 94,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8477,7 +8475,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8485,14 +8483,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8500,7 +8498,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-26",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8612,8 +8610,8 @@
    "23-11-2026",
    "24-11-2026"
   ],
-  "last_try": 1795687262.65144,
-  "last_try_note": "15:01 abhi nahi mila",
+  "last_try": 1795689067.4894524,
+  "last_try_note": "15:31 abhi nahi mila",
   "paper": {
    "date": "25-11-2026",
    "read": [
@@ -8639,14 +8637,14 @@
  "region_posts": {
   "date": "2026-11-26",
   "district": 1,
-  "sindh": 13,
+  "sindh": 14,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 6,
-  "old": 6,
-  "irrelevant": 0,
+  "posted": 2,
+  "found": 10,
+  "old": 9,
+  "irrelevant": 1,
   "blocked": 0,
   "errors": []
  },
@@ -8706,8 +8704,8 @@
   "date": "2026-11-26",
   "count": 11,
   "last": 1795687866.5530064,
-  "city_i": 18,
-  "dry": 1795686666.001201
+  "city_i": 22,
+  "dry": 1795689082.6099532
  },
  "gemini_day_dead": {
   "day": "2026-11-26",
@@ -9403,7 +9401,8 @@
    "09:30",
    "11:00",
    "12:30",
-   "14:00"
+   "14:00",
+   "15:30"
   ]
  },
  "kawish_queue": [],
@@ -9413,13 +9412,6 @@
   "last": 1795616374.0692692
  },
  "tg_debug": [
-  {
-   "t": "11-26 09:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-26 09:10",
    "ok": true,
@@ -9688,6 +9680,13 @@
   },
   {
    "t": "11-26 15:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-26 15:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14240,6 +14239,54 @@
     "ڪرڻ",
     "گهٽتائي"
    ]
+  },
+  {
+   "t": 1795689138,
+   "h": "سنڌ حڪومت جو لوڪل گورنمينٽ بابت اهم اعلان",
+   "b": "سنڌ حڪومت سڀني ضلعن لاءِ لوڪل گورنمينٽ جي حوالي سان هڪ ڪميٽي ٺاهڻ جو فيصلو ڪيو آهي، جنهن ۾ سول سوسائٽي، بزنس",
+   "tt": [
+    "اعلان",
+    "اهم",
+    "بابت",
+    "حڪومت",
+    "سنڌ",
+    "لوڪل",
+    "گورنمينٽ"
+   ],
+   "bt": [
+    "اعلان",
+    "اهم",
+    "اهي",
+    "اهي،",
+    "بااختيار",
+    "بابت",
+    "بزنس",
+    "بڻائڻ",
+    "حوالي",
+    "حڪومت",
+    "سنڌ",
+    "سوسائٽي،",
+    "سول",
+    "سڀني",
+    "صحافين",
+    "ضلعن",
+    "فارمرز",
+    "فيصلو",
+    "لوڪل",
+    "ليبر،",
+    "مقرر",
+    "مقصد",
+    "ملاقاتون",
+    "وقت",
+    "وينديون",
+    "وڌيڪ",
+    "ٺاهڻ",
+    "چونڊون",
+    "ڪرائڻ",
+    "ڪميونيٽي،",
+    "ڪميٽي",
+    "گورنمينٽ"
+   ]
   }
  ],
  "repeat_log": [
@@ -14407,7 +14454,7 @@
  },
  "quality": {
   "date": "2026-11-26",
-  "editor_fixed": 25,
+  "editor_fixed": 26,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
