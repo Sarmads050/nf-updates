@@ -1,15 +1,5 @@
 {
  "seen": {
-  "7c57fdb4502cf615": 1795117884.0297549,
-  "d69d5c7dc4108a20": 1795117884.0297577,
-  "df61331a4d839c68": 1795117884.0297587,
-  "9442ab136ca28037": 1795117884.0297596,
-  "17bb333f6687ab6b": 1795117884.0297606,
-  "a48f249c9f0745df": 1795117884.0297616,
-  "ff8bffa8f3a94a0a": 1795117884.0297623,
-  "515262e4fbf7ec35": 1795117884.0297625,
-  "11bfe477cba8f30f": 1795117884.0297632,
-  "3a29d0ab03c58b3e": 1795117884.0297651,
   "5f37ec4f229cb581": 1795121478.3127766,
   "b6119c44c2f19baa": 1795121487.1461682,
   "adaefa75ad78a818": 1795121487.1461701,
@@ -1583,7 +1573,8 @@
   "e26e6264ea583557": 1795722066.3632596,
   "014d320b56771e7d": 1795722066.3632607,
   "22c187de8205d300": 1795722066.363262,
-  "98d652b7217afe0a": 1795722066.3632636
+  "98d652b7217afe0a": 1795722066.3632636,
+  "e7438e6a8ac17361": 1795723265.9460838
  },
  "pending": {},
  "queue": [],
@@ -1595,6 +1586,15 @@
    "domain": "urdupoint.com",
    "source": "UrduPoint",
    "ts": 1795695303,
+   "local": false
+  },
+  {
+   "key": "e7438e6a8ac17361",
+   "title": "Peshawar High Court bars deportation of Afghan female medical students",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQc1dRS0tpbXNKUDU0cUZ1TXJlZ3Zrb3lHNFdaenlYaXJOZlI2c213WTNiclBQeHFMVlFvcV9FemZHMWFPaGhWc1RudGpfMHZnRV9BMmUtc0dhczM1MEJHaWVvVVFYcGV2WDRWS2kyWnpSa25HSDl5SnBOaWRxdmNNUEF1RmRKNWtRWEp6dmVickJTV054MXY0QTgxd0p1VFV0UXFFd2FWZS1RTXJxQmtmQnFPakE?oc=5",
+   "domain": "pakistantoday.com.pk",
+   "source": "Pakistan Today",
+   "ts": 1795701456,
    "local": false
   }
  ],
@@ -2427,7 +2427,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 00:50",
+  "time": "2026-11-27 01:01",
   "items": 9,
   "sample": [
    "South Australia 287/10 & 136/2 * v Victoria 417/10",
@@ -8261,7 +8261,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 00:50",
+  "time": "2026-11-27 01:01",
   "steps": []
  },
  "roundup_am": "2026-11-26",
@@ -8411,7 +8411,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8419,7 +8419,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8427,7 +8427,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8435,7 +8435,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8443,7 +8443,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8451,14 +8451,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8466,7 +8466,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
-   "ok": 6,
+   "ok": 7,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8833,14 +8833,14 @@
   "pakistan": 0
  },
  "report_acc": {
-  "posted": 1,
-  "found": 40,
-  "old": 40,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-27 00",
+ "report_hour": "2026-11-27 01",
  "kawish_upload_times": {
   "_date": "2026-11-27",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9623,13 +9623,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-26 18:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-26 18:40",
    "ok": true,
    "n": 0,
@@ -9897,6 +9890,13 @@
   },
   {
    "t": "11-27 00:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 01:00",
    "ok": true,
    "n": 0,
    "ids": [],
