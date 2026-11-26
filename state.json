@@ -1641,7 +1641,13 @@
   "f71cd5432e7d9448": 1795678291.392579,
   "03201e1458c8d1ac": 1795678291.3925824,
   "58ed81b0a4041b2b": 1795679464.3876698,
-  "36e6b746ebb71297": 1795679464.3876724
+  "36e6b746ebb71297": 1795679464.3876724,
+  "8b4e2a52e413fe3b": 1795680824.414404,
+  "9d400e1c5efe0965": 1795680824.414406,
+  "5963851c5a4f6e46": 1795680824.4144077,
+  "105d80008b571c03": 1795680824.414409,
+  "78542716ab17484c": 1795680824.4144113,
+  "7e7f499efbbb3d69": 1795681249.3985305
  },
  "pending": {},
  "queue": [],
@@ -1659,7 +1665,7 @@
   "last_week": "",
   "last_check": "2026-11-26"
  },
- "gemini_model": "gemini-3.1-flash-lite",
+ "gemini_model": "gemini-3.6-flash",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1714,7 +1720,7 @@
  "sindh_single": {
   "date": "2026-11-26",
   "count": 2,
-  "last": 1795673472.966018,
+  "last": 1795681061.1853244,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1804,7 +1810,8 @@
    "83d717cbab9e3149",
    "dc4134048ba2f859",
    "ed6badfdf9682559",
-   "ff45808ed42b2bff"
+   "ff45808ed42b2bff",
+   "7e7f499efbbb3d69"
   ]
  },
  "last_post_id": "1444130002106066_122124766035503839",
@@ -2457,10 +2464,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-26 13:01",
+  "time": "2026-11-26 13:23",
   "items": 25,
   "sample": [
-   "Western Australia 439/10 v Tasmania 214/7 & 342/10 *",
+   "Western Australia 439/10 v Tasmania 342/10 & 222/7 *",
    "South Australia 136/2 & 287/10 * v Victoria 417/10",
    "Uttarakhand 123/10 * v Mumbai 209/10"
   ]
@@ -8004,9 +8011,9 @@
  },
  "ai_usage": {
   "date": "2026-11-26",
-  "ok": 156,
-  "fail": 295,
-  "limit": 278
+  "ok": 160,
+  "fail": 302,
+  "limit": 280
  },
  "posted_heads": [
   {
@@ -8331,7 +8338,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-26 13:01",
+  "time": "2026-11-26 13:23",
   "steps": []
  },
  "roundup_am": "2026-11-26",
@@ -8439,7 +8446,7 @@
   "text": 19,
   "story": 15
  },
- "ai_last_error": "12:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "13:22 gemini-3.7-flash 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
  "gemini_disc": {
   "date": "2026-11-26",
   "models": [
@@ -8481,7 +8488,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-26",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8489,7 +8496,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-26",
-   "ok": 79,
+   "ok": 80,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8497,7 +8504,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-26",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8505,7 +8512,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 78,
+   "ok": 79,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8513,7 +8520,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8521,14 +8528,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8536,7 +8543,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-26",
-   "ok": 80,
+   "ok": 81,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8680,8 +8687,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8741,21 +8748,13 @@
  "sindh_stream": {
   "date": "2026-11-26",
   "count": 8,
-  "last": 1795679462.264295,
-  "city_i": 8,
+  "last": 1795680664.1462872,
+  "city_i": 12,
   "dry": 1795668103.0595405
  },
  "gemini_day_dead": {
-  "day": "2026-11-25",
-  "models": [
-   "gemini-3.8-flash",
-   "gemini-3.7-flash",
-   "gemini-flash-latest",
-   "gemini-3.6-flash",
-   "gemini-3.5-flash",
-   "gemini-flash-lite-latest",
-   "gemini-3.5-flash-lite"
-  ]
+  "day": "2026-11-26",
+  "models": []
  },
  "tg_done": [
   92058696,
@@ -9451,13 +9450,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-26 06:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-26 06:40",
    "ok": true,
    "n": 0,
@@ -9725,6 +9717,13 @@
   },
   {
    "t": "11-26 13:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-26 13:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14383,16 +14382,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-23 14:11",
-   "new": "پاڪستان ۾ درآمدي ڪارون سستيون",
-   "old": "پاڪستان ۾ امپورٽڊ گاڏين جون قيمتون گهٽجي وينديون"
-  },
-  {
-   "t": "11-23 16:13",
-   "new": "سنڌ ۾ ڏڪار متاثرن لاءِ امدادي پيڪيج جي منظوري",
-   "old": "ٿر ۽ عمرڪوٽ لاءِ برساتي امداد جاري ڪرڻ جي هدايت"
-  },
-  {
    "t": "11-23 18:11",
    "new": "سنڌ يوٿ ڪارڊ جو افتتاح، نوجوانن کي آسان قرض ملندا",
    "old": "بلاول ڀٽو پاران سنڌ يوٿ ڪارڊ جو افتتاح"
@@ -14531,6 +14520,16 @@
    "t": "11-26 11:35",
    "new": "ڪراچي عمارت سانحو: وڏي وزير پاران اعليٰ آفيسرن خلاف ڪارروائي",
    "old": "ڪراچي: بلوچ ڪالوني ويجهو ڇهه ماڙ عمارت ڊهي پئي"
+  },
+  {
+   "t": "11-26 13:17",
+   "new": "سنڌ کي زبردستي ورهائڻ سان رت وهڻ جو خطرو: بلاول ڀٽو",
+   "old": "ڪنهن جي حڪم تي نوان صوبا يا آئيني ترميم ممڪن ناهي: بلاول ڀٽو"
+  },
+  {
+   "t": "11-26 13:23",
+   "new": "سنڌ | ڊيزل جي قيمتن ۾ گھٽتائي بعد سڄي ملڪ ۾ مال برداري جي ڪراين ۾ 5 سي",
+   "old": "سنڌ | پيٽروليم شين جي قيمتن ۾ گهٽتائي بعد مال بردار ٽرانسپورٽ جي ڪرائن"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14551,6 +14550,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 8
- }
+  "repeat": 10
+ },
+ "_dup": true
 }
