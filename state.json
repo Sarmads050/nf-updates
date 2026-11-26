@@ -1619,7 +1619,9 @@
   "c032cb7253781915": 1795732315.3063502,
   "ca4052f6fa86b976": 1795732315.306577,
   "521b7feced7e807a": 1795732867.465819,
-  "eb231d115f8ccfff": 1795732875.3637674
+  "eb231d115f8ccfff": 1795732875.3637674,
+  "8a4ee8ce98393baa": 1795736472.4187992,
+  "5b3d257ed8fdfd92": 1795736475.5334074
  },
  "pending": {},
  "queue": [],
@@ -2466,11 +2468,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 04:31",
+  "time": "2026-11-27 04:41",
   "items": 9,
   "sample": [
    "South Australia 287/10 & 136/2 * v Victoria 417/10",
-   "New Zealand 51 * v India",
+   "New Zealand 66 * v India",
    "Karnali Province Under-19s v Lumbini Province Under-19s"
   ]
  },
@@ -4894,48 +4896,8 @@
   "last": 1795728726.4392715
  },
  "trends": {
-  "last": 1795725651.5396485,
+  "last": 1795736455.4904113,
   "terms": [
-   {
-    "term": "gta grand theft auto",
-    "traffic": 1000,
-    "news": "‘Grand Theft Auto VI’ is an astonishing American epic",
-    "t": 1795122072,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "abu dhabi t10",
-    "traffic": 1000,
-    "news": "Karma Developers partners with Emirates Eagles as front and back jersey sponsor for Abu Dhabi T10 2026",
-    "t": 1795122072,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "pakistan submarine cable",
-    "traffic": 1000,
-    "news": "Pakistan undersea cable failure causes internet outage near Strait of Hormuz — fault detected offshore weeks after Iran threatened infrastructure in the region",
-    "t": 1795122072,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "ella langley",
-    "traffic": 100,
-    "news": "At CMAs, Ella's Avalanche Is a Testament to the Genre",
-    "t": 1795122072,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "anthropic stock",
-    "traffic": 2000,
-    "news": "Anthropic IPO: Surge in share price eases after trading started with firm valued ~$2tn",
-    "t": 1795122072,
-    "cat": "dollar_gold_business",
-    "sindh": false
-   },
    {
     "term": "asif ali zardari",
     "traffic": 200,
@@ -8007,15 +7969,31 @@
     "t": 1795725651,
     "cat": "cricket",
     "sindh": false
+   },
+   {
+    "term": "ring",
+    "traffic": 100,
+    "news": "At least 31 killed in fuel tanker fire near Cairo, Egyptian authorities say",
+    "t": 1795736455,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "new zealand national cricket team vs india national cricket team match scorecard",
+    "traffic": 20000,
+    "news": "Gambhir, Gill chase their defining SENA win in Christchurch",
+    "t": 1795736455,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-27",
-  "ok": 49,
-  "fail": 90,
-  "limit": 90
+  "ok": 55,
+  "fail": 102,
+  "limit": 102
  },
  "posted_heads": [
   {
@@ -8340,7 +8318,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 04:31",
+  "time": "2026-11-27 04:41",
   "steps": []
  },
  "roundup_am": "2026-11-26",
@@ -8443,12 +8421,12 @@
  },
  "article_diag": {
   "date": "2026-11-27",
-  "tried": 7,
-  "decoded": 7,
-  "text": 7,
-  "story": 5
+  "tried": 8,
+  "decoded": 8,
+  "text": 8,
+  "story": 6
  },
- "ai_last_error": "03:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "04:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-27",
   "models": [
@@ -8491,14 +8469,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
    "ok": 24,
-   "fail": 4,
+   "fail": 5,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8506,7 +8484,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8514,7 +8492,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8522,7 +8500,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8530,14 +8508,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8545,7 +8523,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
-   "ok": 28,
+   "ok": 29,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8913,8 +8891,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 27,
-  "old": 27,
+  "found": 36,
+  "old": 36,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8976,8 +8954,8 @@
   "date": "2026-11-27",
   "count": 1,
   "last": 1795722064.1359074,
-  "city_i": 12,
-  "dry": 1795735872.151755
+  "city_i": 16,
+  "dry": 1795736464.164182
  },
  "gemini_day_dead": {
   "day": "2026-11-26",
@@ -9702,13 +9680,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-26 22:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-26 22:20",
    "ok": true,
    "n": 0,
@@ -9976,6 +9947,13 @@
   },
   {
    "t": "11-27 04:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 04:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14961,11 +14939,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-25 00:51",
-   "new": "حڪومت طرفان ضابطا هٽائڻ بعد دواين جي اگهن ۾ واڌ گهٽجي وئي",
-   "old": "دوائن جي قيمتن ۾ 99٪ واڌ"
-  },
-  {
    "t": "11-25 00:52",
    "new": "شهید بینظیرآباد ۾ سست ڀاڻ جي فراهمي جو حڪم",
    "old": "شهيد بينظير آباد: ڊي سي جو سرڪاري قيمتن تي ڀاڻ جي فراهمي جو حڪم"
@@ -15109,6 +15082,11 @@
    "t": "11-27 03:31",
    "new": "پاڪستان ۾ سون جي اگهه ۾ وڏي واڌ",
    "old": "ملڪ ۾ سون جي اگهن ۾ واڌ"
+  },
+  {
+   "t": "11-27 04:41",
+   "new": "پاڪستان ۾ سون جي اگهه ۾ واڌ",
+   "old": "ملڪ ۾ سون جي اگهن ۾ واڌ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -15129,6 +15107,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 2
- }
+  "repeat": 3
+ },
+ "_dup": true
 }
