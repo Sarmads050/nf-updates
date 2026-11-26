@@ -1,6 +1,5 @@
 {
  "seen": {
-  "2954e76ed607446a": 1795064755.6577942,
   "dc566e3eaf6ab0cf": 1795065680.6657467,
   "22dfcb29d78439a0": 1795065726.499848,
   "7c7d6197e9c8c0ce": 1795065726.4998517,
@@ -1651,7 +1650,12 @@
   "f11c66c9b10a1e42": 1795668106.9343808,
   "351a1ed3eb6b8b9b": 1795668666.3742816,
   "f2b9e4369862768c": 1795668666.3742843,
-  "66f3f06ac8db2f19": 1795668666.3742864
+  "66f3f06ac8db2f19": 1795668666.3742864,
+  "856a088daefe3cf4": 1795669876.7271562,
+  "d5853f00743c4477": 1795669881.002462,
+  "e9cb1ea19b3d2457": 1795669881.0024652,
+  "e006283f1c85630e": 1795669881.002467,
+  "c09a6025cab29592": 1795669881.002623
  },
  "pending": {},
  "queue": [],
@@ -1816,20 +1820,8 @@
    "ed6badfdf9682559"
   ]
  },
- "last_post_id": "1444130002106066_122124724587503839",
+ "last_post_id": "1444130002106066_122124735741503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124507543503839",
-   "title": "ايم ڪيو ايم پاڪستان پاران 29 نومبر تي ڪراچي ۾ ريلي جي درخواست",
-   "t": 1795604023.672016,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124507543503839"
-  },
   {
    "id": "1444130002106066_122124512313503839",
    "title": "ڊاڪٽر تنوير عباسيءَ کي وڇڙئي 27 ورهيه وهامي ويا",
@@ -2136,6 +2128,15 @@
     "padidan"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124724587503839"
+  },
+  {
+   "id": "1444130002106066_122124735741503839",
+   "title": "سنڌ ايگريڪلچر يونيورسٽي ٽنڊوڄام انب جي برآمد کي وڌائڻ لاءِ فروٽ پروٽيڪشن پيپر بيگ يونٽ",
+   "t": 1795669912.1041737,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122124735741503839"
   }
  ],
  "share_sent": {
@@ -2466,12 +2467,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-26 10:01",
+  "time": "2026-11-26 10:11",
   "items": 24,
   "sample": [
    "Western Australia 439/10 v Tasmania 133/4 & 342/10 *",
-   "South Australia 28 & 287/10 * v Victoria 417/10",
-   "Uttarakhand 29/3 * v Mumbai 210/10"
+   "South Australia 287/10 & 61 * v Victoria 417/10",
+   "Uttarakhand 77/5 * v Mumbai 210/10"
   ]
  },
  "agri_news": {
@@ -2481,17 +2482,11 @@
  },
  "all_posts": {
   "date": "2026-11-26",
-  "count": 16,
-  "last": 1795668689.1678414
+  "count": 17,
+  "last": 1795669907.237397
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122121190089503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794721901
-   },
    {
     "id": "1444130002106066_122121224157503839",
     "sec": "sindh_stream",
@@ -4885,97 +4880,23 @@
     "sec": "sindh_stream",
     "cat": "district",
     "t": 1795668694
+   },
+   {
+    "id": "1444130002106066_122124735741503839",
+    "sec": "public_news",
+    "cat": "transport_trade",
+    "t": 1795669912
    }
   ]
  },
  "public_news": {
   "date": "2026-11-26",
-  "count": 5,
-  "last": 1795666405.013069
+  "count": 6,
+  "last": 1795669912.1041584
  },
  "trends": {
-  "last": 1795658604.2418828,
+  "last": 1795669856.4194705,
   "terms": [
-   {
-    "term": "sunrise",
-    "traffic": 200,
-    "news": "The Hunger Games: Sunrise on the Reaping review – surreally awful prequel to the Katniss Everdeen era",
-    "t": 1795055465,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "nz vs ind",
-    "traffic": 5000,
-    "news": "New Zealand, India lean on seam for first Test in Wellington",
-    "t": 1795055465,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "the world ahead 2027",
-    "traffic": 500,
-    "news": "Costly food, AI bust, Taiwan and other shocks the world should fear in 2027",
-    "t": 1795055465,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "new zealand vs india",
-    "traffic": 20000,
-    "news": "Tom Latham joins list of most ducks by openers in Test cricket",
-    "t": 1795055465,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "face",
-    "traffic": 100,
-    "news": "Russia and China are not America’s friends. Why does Trump think they are?",
-    "t": 1795055465,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "litton das",
-    "traffic": 2000,
-    "news": "Bangladesh batter explains emotional century celebration",
-    "t": 1795055465,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "argentina national football team",
-    "traffic": 100,
-    "news": "Germany vs Netherlands: Nations League – preview, team news, predictions",
-    "t": 1795055465,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "akash deep",
-    "traffic": 1000,
-    "news": "Akash Deep Rebuilds His Test Career After Nine Month Injury",
-    "t": 1795055465,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "flow",
-    "traffic": 100,
-    "news": "\"No sane person questions whether AI works\" — but an AI bubble appears ready to pop.",
-    "t": 1795055465,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "aishwarya rai",
-    "traffic": 200,
-    "news": "Aishwarya Rai's Cannes gown, Katrina Kaif's Kay Beauty win big at PETA India Vegan Fashion Awards",
-    "t": 1795055465,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "russell brand",
     "traffic": 200,
@@ -8039,21 +7960,65 @@
     "t": 1795658604,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "ios 27",
+    "traffic": 100,
+    "news": "Apple explains how iCloud+ raises Apple Intelligence and Siri AI limits",
+    "t": 1795669856,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "inter milan vs vfb stuttgart standings",
+    "traffic": 200,
+    "news": "Licensable picture: UEFA Champions League - Inter Milan v VFB Stuttgart",
+    "t": 1795669856,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "matthew short",
+    "traffic": 500,
+    "news": "Rawalpindiz secure Matthew Short as direct signing; Hyderabad Kingsmen opt out",
+    "t": 1795669856,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "norse atlantic airways",
+    "traffic": 1000,
+    "news": "Norse Atlantic flights suspended after warning finances 'critical'",
+    "t": 1795669856,
+    "cat": "transport_trade",
+    "sindh": false
+   },
+   {
+    "term": "deandra dottin",
+    "traffic": 100,
+    "news": "Cricket world erupts after batter dudded by rare rule breach in 'never seen' WBBL drama",
+    "t": 1795669856,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "pak vs wi",
+    "traffic": 500,
+    "news": "Pakistan Women’s cricket: Inconsistency, overdependence and a growing list of concerns",
+    "t": 1795669856,
+    "cat": "cricket",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-26",
-  "ok": 119,
-  "fail": 221,
-  "limit": 206
+  "ok": 127,
+  "fail": 235,
+  "limit": 220
  },
  "posted_heads": [
-  {
-   "h": "Inflation Puts Meat and Fish Beyond Many Citizens’ Reach",
-   "t": 1795481033
-  },
   {
    "h": "CM orders authorities to double wheat, flour supplies",
    "t": 1795482737
@@ -8369,10 +8334,14 @@
   {
    "h": "محرابپور ۾ بااثر جي مبينا زيادتين خلاف پيرسن عورت جو معصوم نياڻي سان گڏ احتجاج، انصاف جي اپيل",
    "t": 1795668695
+  },
+  {
+   "h": "SAU sets up Fruit Protection Paper Bag Unit to boost mango exports",
+   "t": 1795669912
   }
  ],
  "last_errors": {
-  "time": "2026-11-26 10:01",
+  "time": "2026-11-26 10:11",
   "steps": []
  },
  "roundup_am": "2026-11-26",
@@ -8475,12 +8444,12 @@
  },
  "article_diag": {
   "date": "2026-11-26",
-  "tried": 19,
+  "tried": 20,
   "decoded": 19,
   "text": 19,
   "story": 15
  },
- "ai_last_error": "09:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-26",
   "models": [
@@ -8494,9 +8463,9 @@
  },
  "img_diag": {
   "date": "2026-11-26",
-  "tried": 15,
+  "tried": 16,
   "gemini": 0,
-  "pollinations": 9,
+  "pollinations": 10,
   "skip": 1,
   "fail": 4,
   "last_note": "foreign currency notes",
@@ -8522,7 +8491,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-26",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8531,14 +8500,14 @@
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-26",
    "ok": 62,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
-   "last_status": 0
+   "fail_streak": 1,
+   "last_status": 403
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-26",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8546,7 +8515,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 60,
+   "ok": 61,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8554,7 +8523,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8562,14 +8531,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8577,7 +8546,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-26",
-   "ok": 62,
+   "ok": 63,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8717,12 +8686,12 @@
   "date": "2026-11-26",
   "district": 1,
   "sindh": 3,
-  "pakistan": 11
+  "pakistan": 12
  },
  "report_acc": {
-  "posted": 0,
-  "found": 0,
-  "old": 0,
+  "posted": 1,
+  "found": 3,
+  "old": 3,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8782,8 +8751,8 @@
  "sindh_stream": {
   "date": "2026-11-26",
   "count": 2,
-  "last": 1795668663.0779667,
-  "city_i": 16,
+  "last": 1795669874.817951,
+  "city_i": 20,
   "dry": 1795668103.0595405
  },
  "gemini_day_dead": {
@@ -8866,14 +8835,6 @@
   92058803
  ],
  "reel_pool": [
-  {
-   "k": "096534217a04a048",
-   "h": "پاڪستان ۾ پرڏيهي ڪرنسي ۽ سون جا اگهه",
-   "x": "ڪراچي ۾ 24 نومبر 2026 تي پرڏيهي ڪرنسي جي مٽاسٽا جا اگهه جاري ڪيا ويا آهن، جنهن تحت آمريڪي ڊالر جي خريداري جو اگهه 277.15 روپيا ۽ وڪري جو اگهه 279.9 روپيا رهيو. اوپن مارڪيٽ ۾ يورو جي خريداري جو اگهه 304.33 روپيا ۽ وڪري جو اگهه 309.04 روپيا هو، جڏهن ته برطانوي پائونڊ اسٽرلنگ جا اگهه ترتيبوار 363.45 ۽ 369.04 روپيا هئا. يو اي اي درهم جو اگهه 75.6 کان 76.25 روپيا ۽ سعودي ريال جو اگهه 73.95 کان 74.45 روپيا رڪارڊ ڪيو ويو. ٻين اهم ڪرنسين ۾ آسٽريليا جو ڊالر 185.28 کان 193.86 روپيا، ڪينيڊا جو ڊالر 193.47 کان 200.21 روپيا ۽ سوئس فرئنڪ 333.48 کان 339 روپين ۾ کاتو. جاپاني ين جو اگهه 1.74 کان 1.84 روپيا رهيو، جڏهن ته ڪويت دينار 880.45 کان 892.55 روپيا، عماني ريال 719.86 کان 731.9 روپيا ۽ قطري ريال 75.25 کان 76.85 روپين ۾ هليو. ڪرنسي جي مٽاسٽا جا اگهه پاڪستان جي معيشت ۾ اهم ڪردار ادا ڪن ٿا ۽ بين الاقوامي واپار، مهانگائي، پرڏيهي ترسيلات ۽ سيڙپڪاري جي وهڪري تي اثرانداز ٿين ٿا!",
-   "t": 1795496649,
-   "s": false,
-   "r": 0
-  },
   {
    "k": "cb8bf905d14dc375",
    "h": "علي بابا پاران پاڪستان ۾ آرٽيفيشل انٽيليجنس مقابلي جو اعلان",
@@ -9473,6 +9434,14 @@
    "t": 1795668694,
    "s": true,
    "r": 5
+  },
+  {
+   "k": "5c1c65b486f2cb74",
+   "h": "ايس اي يو پاران انب جي برآمد لاءِ پيپر بيگ يونٽ قائم",
+   "x": "سنڌ ايگريڪلچر يونيورسٽي ٽنڊوڄام انب جي برآمد کي وڌائڻ لاءِ فروٽ پروٽيڪشن پيپر بيگ يونٽ قائم ڪري ڇڏيو آهي.",
+   "t": 1795669912,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9489,13 +9458,6 @@
   "last": 1795616374.0692692
  },
  "tg_debug": [
-  {
-   "t": "11-26 03:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-26 03:50",
    "ok": true,
@@ -9768,44 +9730,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-26 10:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-26",
  "recent_posts": [
-  {
-   "t": 1795496649,
-   "h": "پاڪستان ۾ پرڏيهي ڪرنسي ۽ سون جا اگهه",
-   "b": "ڪراچي ۾ 24 نومبر 2026 تي پرڏيهي ڪرنسي جي مٽاسٽا جا اگهه جاري ڪيا ويا آهن، جنهن تحت آمريڪي ڊالر جي خريداري جو",
-   "tt": [
-    "اگهه",
-    "سون",
-    "پاڪستان",
-    "پرڏيهي",
-    "ڪرنسي"
-   ],
-   "bt": [
-    "#24",
-    "#277.15",
-    "#279.9",
-    "امريڪي",
-    "اهن،",
-    "اگهه",
-    "تحت",
-    "جاري",
-    "خريداري",
-    "رهيو",
-    "روپيا",
-    "سون",
-    "مٽاسٽا",
-    "نومبر",
-    "وڪري",
-    "پاڪستان",
-    "پرڏيهي",
-    "ڊالر",
-    "ڪراچي",
-    "ڪرنسي"
-   ]
-  },
   {
    "t": 1795498384,
    "h": "علي بابا پاران پاڪستان ۾ آرٽيفيشل انٽيليجنس مقابلي جو اعلان",
@@ -14510,14 +14445,43 @@
     "گڏجي",
     "ڳوٺ"
    ]
+  },
+  {
+   "t": 1795669912,
+   "h": "ايس اي يو پاران انب جي برآمد لاءِ پيپر بيگ يونٽ قائم",
+   "b": "سنڌ ايگريڪلچر يونيورسٽي ٽنڊوڄام انب جي برآمد کي وڌائڻ لاءِ فروٽ پروٽيڪشن پيپر بيگ يونٽ قائم ڪري ڇڏيو آهي.",
+   "tt": [
+    "انب",
+    "ايس",
+    "برامد",
+    "بيگ",
+    "قائم",
+    "يونٽ",
+    "پاران",
+    "پيپر"
+   ],
+   "bt": [
+    "انب",
+    "اهي",
+    "ايس",
+    "ايگريڪلچر",
+    "برامد",
+    "بيگ",
+    "سنڌ",
+    "فروٽ",
+    "قائم",
+    "وڌائڻ",
+    "يونيورسٽي",
+    "يونٽ",
+    "ٽنڊوڄام",
+    "پاران",
+    "پروٽيڪشن",
+    "پيپر",
+    "ڇڏيو"
+   ]
   }
  ],
  "repeat_log": [
-  {
-   "t": "11-23 10:21",
-   "new": "پاڪستان جو وڌيڪ 8 لک ٽن ڪڻڪ درآمد ڪرڻ جو فيصلو",
-   "old": "ڪڻڪ جي بحران خلاف نوان قدم کڻڻ جو اعلان"
-  },
   {
    "t": "11-23 13:33",
    "new": "نوشهروفيروز ۾ پٽ جي پسند جي شاديءَ کانپوءِ فائرنگ جي واقعي ۾ هڪ شخص قت",
@@ -14662,6 +14626,11 @@
    "t": "11-26 09:41",
    "new": "پيٽرول ۽ ڊيزل جي اگهن ۾ 5 رپيا في ليٽر تائين لاٿ",
    "old": "پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽات"
+  },
+  {
+   "t": "11-26 10:11",
+   "new": "سنڌ يونيورسٽي ۾ ٻن شاگرد ڌرين ۾ جهيڙو، هڪ زخمي",
+   "old": "سنڌ يونيورسٽي جي هاسٽل ۾ جهيڙو ۽ فائرنگ، شاگرد زخمي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14682,6 +14651,6 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 6
+  "repeat": 7
  }
 }
