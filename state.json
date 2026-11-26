@@ -1,6 +1,5 @@
 {
  "seen": {
-  "ec58cbfec5550e59": 1795098102.1792233,
   "ecad4018363c914a": 1795099880.6970427,
   "734284c570059234": 1795099880.6970453,
   "2c892e08ab6e2316": 1795100468.8393345,
@@ -1579,7 +1578,8 @@
   "1f8acc134fbe87c4": 1795699253.1461906,
   "222b39812dfe94b1": 1795701067.746467,
   "55ba6e8bbb9dc60b": 1795702253.7108839,
-  "c44d1062dd1ddf89": 1795702871.740078
+  "c44d1062dd1ddf89": 1795702871.740078,
+  "2c28332420de410c": 1795703458.7104366
  },
  "pending": {},
  "queue": [],
@@ -2397,11 +2397,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-26 19:21",
+  "time": "2026-11-26 19:31",
   "items": 26,
   "sample": [
-   "Western Australia 439/10 & 137/6 * v Tasmania 342/10 & 238/10",
-   "South Australia 287/10 & 136/2 * v Victoria 417/10",
+   "Western Australia 137/6 & 439/10 * v Tasmania 342/10 & 238/10",
+   "South Australia 136/2 & 287/10 * v Victoria 417/10",
    "Uttarakhand 123/10 * v Mumbai 209/10"
   ]
  },
@@ -4825,72 +4825,8 @@
   "last": 1795686883.1358204
  },
  "trends": {
-  "last": 1795692661.328694,
+  "last": 1795703462.3955328,
   "terms": [
-   {
-    "term": "hailey bieber rhode",
-    "traffic": 100,
-    "news": "Hailey Bieber, Jennifer Lawrence, Jordyn Woods and more attend the WWD's 2026 Beauty Inc Awards",
-    "t": 1795088461,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "nasa voyager 1",
-    "traffic": 200,
-    "news": "NASA Voyager 1 probe believed to have reached 'light-day' milestone",
-    "t": 1795088461,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "afg vs sl",
-    "traffic": 100,
-    "news": "Sri Lanka A vs Afghanistan A Live Streaming: When And Where To Watch Rising Stars Asia Cup On TV, Online?",
-    "t": 1795088461,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "gta vi xbox series s",
-    "traffic": 500,
-    "news": "GTA 6: PS5 vs PS5 Pro, Xbox Series X and Series S: Which Console Plays Best?",
-    "t": 1795088461,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "hakeem jeffries",
-    "traffic": 100,
-    "news": "‘Israel Forever’: Democrats Nominate Jeffries as His Gaza Record Draws Scrutiny",
-    "t": 1795088461,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "simon harmer",
-    "traffic": 1000,
-    "news": "Mahmud: We couldn't create pressure against South Africa's tailenders",
-    "t": 1795088461,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "asim munir",
-    "traffic": 200,
-    "news": "Field Marshal Asim Munir reviews security situation, operations in Turbat",
-    "t": 1795088461,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "gemini 4 neon",
-    "traffic": 10000,
-    "news": "Gemini 4 Argon arrives first to cybersecurity defenders",
-    "t": 1795088461,
-    "cat": "technology",
-    "sindh": false
-   },
    {
     "term": "ms dhoni",
     "traffic": 200,
@@ -7922,15 +7858,87 @@
     "t": 1795692661,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "mi emirates vs abu dhabi knight riders",
+    "traffic": 1000,
+    "news": "Abu Dhabi Knight Riders vs MI Emirates Live Streaming: When And Where To Watch ILT20 2026 Match?",
+    "t": 1795703462,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "dawn",
+    "traffic": 500,
+    "news": "CM Murad orders removal of SBCA chief, suspension of 16 officers over Karachi building collapse",
+    "t": 1795703462,
+    "cat": "none",
+    "sindh": true
+   },
+   {
+    "term": "sultan azlan shah cup",
+    "traffic": 100,
+    "news": "Pakistan beat South Korea 3-2 in Sultan Azlan Shah Cup 2026",
+    "t": 1795703462,
+    "cat": "cricket",
+    "sindh": false
+   },
+   {
+    "term": "harshit rana",
+    "traffic": 2000,
+    "news": "India A vs United Arab Emirates, Match 11 Match Graphs Stats– Wickets, Runs, Score Details",
+    "t": 1795703462,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "news",
+    "traffic": 200,
+    "news": "Black Friday deals are live: Apple, Dyson, Ugg, Ring, Hoka and more of the biggest sales of 2026",
+    "t": 1795703462,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "motorway update",
+    "traffic": 100,
+    "news": "Serious collision on M61 motorway in Chorley leaves two hospitalised | News - Hits Radio (Lancashire)",
+    "t": 1795703462,
+    "cat": "transport_trade",
+    "sindh": false
+   },
+   {
+    "term": "2026",
+    "traffic": 1000,
+    "news": "Season 2026 reflections: The biggest risers",
+    "t": 1795703462,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "joshua kutryk",
+    "traffic": 200,
+    "news": "Canadian astronaut Joshua Kutryk watches the birth of daughter Katherine Grace from the International Spa",
+    "t": 1795703462,
+    "cat": "technology",
+    "sindh": false
+   },
+   {
+    "term": "united kingdom",
+    "traffic": 100,
+    "news": "Net migration to UK falls to lowest level since 1997 excluding pandemic",
+    "t": 1795703462,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-26",
-  "ok": 245,
-  "fail": 435,
-  "limit": 412
+  "ok": 246,
+  "fail": 437,
+  "limit": 414
  },
  "posted_heads": [
   {
@@ -8255,7 +8263,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-26 19:21",
+  "time": "2026-11-26 19:31",
   "steps": []
  },
  "roundup_am": "2026-11-26",
@@ -8363,7 +8371,7 @@
   "text": 23,
   "story": 18
  },
- "ai_last_error": "19:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "19:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-26",
   "models": [
@@ -8405,7 +8413,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-26",
-   "ok": 117,
+   "ok": 118,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8413,7 +8421,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-26",
-   "ok": 118,
+   "ok": 119,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8421,7 +8429,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-26",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8429,7 +8437,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 117,
+   "ok": 118,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8437,7 +8445,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8445,14 +8453,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8460,7 +8468,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-26",
-   "ok": 119,
+   "ok": 120,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8604,8 +8612,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 18,
-  "old": 17,
+  "found": 27,
+  "old": 25,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9361,13 +9369,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-26 13:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-26 13:10",
    "ok": true,
    "n": 0,
@@ -9635,6 +9636,13 @@
   },
   {
    "t": "11-26 19:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-26 19:30",
    "ok": true,
    "n": 0,
    "ids": [],
