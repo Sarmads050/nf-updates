@@ -1,8 +1,5 @@
 {
  "seen": {
-  "c3783378a68a3e1d": 1795090281.7168758,
-  "d0a885de4ba36302": 1795090281.7168787,
-  "61aa1449742e8d95": 1795090281.7168794,
   "64b6391a2d52a6b2": 1795090878.6872144,
   "2ef8556f21f03775": 1795090878.6872172,
   "64aacbdaaa25f710": 1795090878.6872184,
@@ -2413,10 +2410,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-26 17:11",
+  "time": "2026-11-26 17:20",
   "items": 26,
   "sample": [
-   "Western Australia 439/10 & 137/6 * v Tasmania 342/10 & 238/10",
+   "Western Australia 137/6 & 439/10 * v Tasmania 238/10 & 342/10",
    "South Australia 287/10 & 136/2 * v Victoria 417/10",
    "Uttarakhand 123/10 * v Mumbai 209/10"
   ]
@@ -8271,7 +8268,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-26 17:11",
+  "time": "2026-11-26 17:20",
   "steps": []
  },
  "roundup_am": "2026-11-26",
@@ -8421,7 +8418,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-26",
-   "ok": 105,
+   "ok": 106,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8429,7 +8426,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-26",
-   "ok": 105,
+   "ok": 106,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8437,7 +8434,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-26",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8445,7 +8442,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 104,
+   "ok": 105,
    "fail": 2,
    "items": 10,
    "fail_streak": 0,
@@ -8453,7 +8450,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8461,14 +8458,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-26",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-26",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8476,7 +8473,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-26",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8620,8 +8617,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 8,
-  "old": 8,
+  "found": 16,
+  "old": 16,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9384,13 +9381,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-26 10:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-26 11:00",
    "ok": true,
    "n": 0,
@@ -9658,6 +9648,13 @@
   },
   {
    "t": "11-26 17:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-26 17:20",
    "ok": true,
    "n": 0,
    "ids": [],
