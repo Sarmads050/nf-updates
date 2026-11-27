@@ -1,7 +1,5 @@
 {
  "seen": {
-  "ad6df7284bce9c7b": 1795174274.6582477,
-  "079f161eb7bc83fb": 1795174274.658251,
   "8cb7ec508aa5623f": 1795174855.108772,
   "041a1d4becf22ffe": 1795176680.085155,
   "c016ecb6933b0cea": 1795177890.4455545,
@@ -1633,7 +1631,10 @@
   "2c8c1b0f0f62bd85": 1795778482.661701,
   "39e1b6f15e8d0fd3": 1795778482.6617033,
   "e66fa7a32fbb5a09": 1795778482.6617057,
-  "1a4893eab3d0866e": 1795779080.6273637
+  "1a4893eab3d0866e": 1795779080.6273637,
+  "d8191b1a41da37ad": 1795779652.8193822,
+  "9864e2cad898c8b0": 1795779675.5275009,
+  "1b252a598513d281": 1795779675.5275044
  },
  "pending": {
   "culture2026-11-27": {
@@ -1657,6 +1658,15 @@
    "domain": "propakistani.pk",
    "source": "ProPakistani",
    "ts": 1795684584,
+   "local": false
+  },
+  {
+   "key": "d8191b1a41da37ad",
+   "title": "Supreme Court of Pakistan Announces Jobs",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcW0yWjJFU2VUVTNyLXBicmwzZVhCdjBTWVBCTzIwd0pxRGpydWlWNHdzZkloeERWVmJ5ZzdBWEh5ZzM1TXdPb1NtNzE5Z185QkQ5WTlZYVpmSEUxbkFySEJWQkZhZW9aTnYzblRVZ0diUldKby1ubXdlV1RER29DUm130gGHAUFVX3lxTE1GbmNnMGNCWU1fa3dncFVGX296N1FSdVRYOFZ2UkVSNzllUExaLUgwa0pmeGZoUDE2UVE0Nm1MYk1qOVJnbkZENml3aVZaOVdEcl9yN1E3ckdUZERoQmRzZ1V2WVBlSmxMYXdqNTN1bXY2aXJ0M1dYTjZ2US1WUUVBRk9TVExsYw?oc=5",
+   "domain": "propakistani.pk",
+   "source": "ProPakistani",
+   "ts": 1795778775,
    "local": false
   }
  ],
@@ -1824,18 +1834,8 @@
    "1a4893eab3d0866e"
   ]
  },
- "last_post_id": "1444130002106066_122125074873503839",
+ "last_post_id": "1444130002106066_122125078509503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124879795503839",
-   "title": "اڪشي ڪمار جي زال ٽوئنڪل کنا فون تي شڪايتون ڪري ڇڏيون",
-   "t": 1795713206.4542701,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124879795503839"
-  },
   {
    "id": "1444130002106066_122124885069503839",
    "title": "خودڪشي وارا عمل ۽ اسان جي سماجي ذميواري",
@@ -2140,6 +2140,18 @@
     "sindh"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122125074873503839"
+  },
+  {
+   "id": "1444130002106066_122125078509503839",
+   "title": "لاڙڪاڻي: ننڍن صوبن جي حقن جي ڳالهه ڪرڻ جي سزا ڏني پئي وڃي",
+   "t": 1795779703.681756,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122125078509503839"
   }
  ],
  "share_sent": {
@@ -2470,10 +2482,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 16:31",
+  "time": "2026-11-27 16:41",
   "items": 9,
   "sample": [
-   "South Australia 277/10 & 287/10 v Victoria 102/7 & 417/10 *",
+   "South Australia 287/10 & 277/10 v Victoria 417/10 & 102/7 *",
    "New Zealand 246/5 * v India",
    "Karnali Province Under-19s 78/10 * v Lumbini Province Under-19s 223/10"
   ]
@@ -2485,17 +2497,11 @@
  },
  "all_posts": {
   "date": "2026-11-27",
-  "count": 26,
-  "last": 1795778502.3679857
+  "count": 27,
+  "last": 1795779691.9656837
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122121766689503839",
-    "sec": "kawish",
-    "cat": "sindh",
-    "t": 1794837082
-   },
    {
     "id": "1444130002106066_122121772425503839",
     "sec": "sindh_stream",
@@ -4889,6 +4895,12 @@
     "sec": "sindh_stream",
     "cat": "sindh",
     "t": 1795778509
+   },
+   {
+    "id": "1444130002106066_122125078509503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1795779703
    }
   ]
  },
@@ -8033,15 +8045,11 @@
  },
  "ai_usage": {
   "date": "2026-11-27",
-  "ok": 248,
-  "fail": 431,
-  "limit": 424
+  "ok": 251,
+  "fail": 435,
+  "limit": 428
  },
  "posted_heads": [
-  {
-   "h": "Petrol price drops by Re1, diesel by Rs4 per litre",
-   "t": 1795600319
-  },
   {
    "h": "ڪراچي: بلوچ ڪالوني ويجهو 6 ماڙ عمارت ڊهي پئي، هڪ ڄڻو فوت ۽ ڪيترائي زخمي",
    "t": 1795601485
@@ -8357,10 +8365,14 @@
   {
    "h": "Nawabshah Deputy Commissioner Orders Immediate Evacuation of Tayyaba Centre - UrduPoint",
    "t": 1795778509
+  },
+  {
+   "h": "ننڍن صوبن جي حقن ۽ نون صوبن جي مخالفت جي سزا ڏني پئي وڃي: راشد محمود سومرو",
+   "t": 1795779704
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 16:31",
+  "time": "2026-11-27 16:41",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8468,7 +8480,7 @@
   "text": 24,
   "story": 19
  },
- "ai_last_error": "16:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "16:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-27",
   "models": [
@@ -8482,10 +8494,10 @@
  },
  "img_diag": {
   "date": "2026-11-27",
-  "tried": 25,
+  "tried": 26,
   "gemini": 0,
   "pollinations": 14,
-  "skip": 5,
+  "skip": 6,
   "fail": 14,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
   "mismatch": 933,
@@ -8510,7 +8522,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
-   "ok": 70,
+   "ok": 71,
    "fail": 32,
    "items": 10,
    "fail_streak": 0,
@@ -8518,7 +8530,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 102,
+   "ok": 103,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8526,7 +8538,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 102,
+   "ok": 103,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8534,7 +8546,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 102,
+   "ok": 103,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8542,7 +8554,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 102,
+   "ok": 103,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8550,14 +8562,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 102,
+   "ok": 103,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 99,
+   "ok": 100,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8566,9 +8578,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
    "ok": 61,
-   "fail": 41,
+   "fail": 42,
    "items": 15,
-   "fail_streak": 26,
+   "fail_streak": 27,
    "last_status": 503
   }
  },
@@ -8576,7 +8588,7 @@
   "last": "2026-11-27",
   "idx": 6
  },
- "ai_last_model": "google/gemma-4-26b-a4b-it:free",
+ "ai_last_model": "google/gemma-4-31b-it:free",
  "probe": {
   "date": "2026-10-18",
   "targets": [
@@ -8928,13 +8940,13 @@
  "region_posts": {
   "date": "2026-11-27",
   "district": 1,
-  "sindh": 9,
+  "sindh": 10,
   "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 24,
-  "old": 24,
+  "posted": 2,
+  "found": 32,
+  "old": 32,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8994,9 +9006,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-27",
-  "count": 9,
-  "last": 1795778476.4300146,
-  "city_i": 8,
+  "count": 10,
+  "last": 1795779661.831954,
+  "city_i": 12,
   "dry": 1795776080.361539
  },
  "gemini_day_dead": {
@@ -9692,6 +9704,14 @@
    "t": 1795778509,
    "s": true,
    "r": 7
+  },
+  {
+   "k": "b01e7efa2decf3ea",
+   "h": "لاڙڪاڻو: ننڍن صوبن جي حقن جي ڳالهه ڪرڻ جي سزا ڏني پئي وڃي، علامه راشد محمود سومرو",
+   "x": "جمعيت علماءَ اسلام (ف) سنڌ جي جنرل سيڪريٽري علامه راشد محمود سومرو چيو آهي ته ننڍن صوبن جي حقن جي ڳالهه ڪرڻ ۽ نون صوبن جي قيام جي مخالفت ڪرڻ جي سزا ڏني پئي وڃي. لاڙڪاڻي ۾ جي يو آءِ سربراهه مولانا فضل الرحمان جي مبينا نظربندي ۽ پارٽي اڳواڻن جي گرفتارين خلاف راشد محمود سومري جي اڳواڻي ۾ احتجاجي مظاهرو ڪيو ويو. مظاهرين دودائي روڊ تي ڌرڻو هڻي روڊ بند ڪري ڇڏيو ۽ سخت نعريبازي ڪئي. ان موقعي تي راشد محمود سومري چيو ته مولانا فضل الرحمان جي آزادي ۽ گرفتار اڳواڻن جي رهائي تائين احتجاج جاري رهندو. بيان: جمعيت علماءَ اسلام (ف) سنڌ جي جنرل سيڪريٽري علامه راشد محمود سومرو",
+   "t": 1795779703,
+   "s": true,
+   "r": 0
   }
  ],
  "reels": {
@@ -9712,13 +9732,6 @@
   "last": 1795719086.4943764
  },
  "tg_debug": [
-  {
-   "t": "11-27 10:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-27 10:20",
    "ok": true,
@@ -9987,6 +10000,13 @@
   },
   {
    "t": "11-27 16:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 16:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14518,6 +14538,53 @@
     "ڪمشنر",
     "ڪچري"
    ]
+  },
+  {
+   "t": 1795779703,
+   "h": "لاڙڪاڻو: ننڍن صوبن جي حقن جي ڳالهه ڪرڻ جي سزا ڏني پئي وڃي، علامه راشد محمود سومر",
+   "b": "جمعيت علماءَ اسلام (ف) سنڌ جي جنرل سيڪريٽري علامه راشد محمود سومرو چيو آهي ته ننڍن صوبن جي حقن جي ڳالهه ڪرڻ ۽",
+   "tt": [
+    "حقن",
+    "راشد",
+    "سزا",
+    "سومرو",
+    "صوبن",
+    "علامه",
+    "لاڙڪاڻو",
+    "محمود",
+    "ننڍن",
+    "وڃي،",
+    "پئي",
+    "ڏني",
+    "ڪرڻ",
+    "ڳالهه"
+   ],
+   "bt": [
+    "اسلام",
+    "اهي",
+    "جمعيت",
+    "جنرل",
+    "حقن",
+    "راشد",
+    "سزا",
+    "سنڌ",
+    "سومرو",
+    "سيڪريٽري",
+    "صوبن",
+    "علامه",
+    "علماء",
+    "قيام",
+    "لاڙڪاڻو",
+    "محمود",
+    "مخالفت",
+    "ننڍن",
+    "نون",
+    "وڃي،",
+    "پئي",
+    "ڏني",
+    "ڪرڻ",
+    "ڳالهه"
+   ]
   }
  ],
  "repeat_log": [
@@ -14685,12 +14752,11 @@
  },
  "quality": {
   "date": "2026-11-27",
-  "editor_fixed": 20,
+  "editor_fixed": 21,
   "editor_rejected": 4,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
   "repeat": 13
- },
- "_dup": true
+ }
 }
