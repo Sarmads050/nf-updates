@@ -1,6 +1,5 @@
 {
  "seen": {
-  "4321f3dc3fe72875": 1795162608.4964917,
   "ead7c437ba9ba780": 1795164199.485548,
   "c3192295b3ad6598": 1795164223.6423652,
   "b520e7d4e027e80f": 1795165280.8216546,
@@ -2447,7 +2446,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 13:19",
+  "time": "2026-11-27 13:20",
   "items": 9,
   "sample": [
    "South Australia 287/10 & 277/10 v Victoria 417/10 & 102/7 *",
@@ -8353,7 +8352,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 13:19",
+  "time": "2026-11-27 13:20",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8504,14 +8503,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
    "ok": 56,
-   "fail": 25,
+   "fail": 26,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8519,7 +8518,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8527,7 +8526,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8535,7 +8534,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8543,14 +8542,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 81,
+   "ok": 82,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 78,
+   "ok": 79,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8559,9 +8558,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
    "ok": 61,
-   "fail": 20,
+   "fail": 21,
    "items": 15,
-   "fail_streak": 5,
+   "fail_streak": 6,
    "last_status": 503
   }
  },
@@ -8926,8 +8925,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 9,
-  "old": 9,
+  "found": 18,
+  "old": 18,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9692,13 +9691,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 06:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 06:57",
    "ok": true,
    "n": 0,
@@ -9966,6 +9958,13 @@
   },
   {
    "t": "11-27 13:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 13:20",
    "ok": true,
    "n": 0,
    "ids": [],
