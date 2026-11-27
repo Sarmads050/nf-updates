@@ -1621,7 +1621,13 @@
   "73dcf6c9ee0551fb": 1795756264.9116068,
   "0ffdfb90a6596ae9": 1795756863.896557,
   "edfa927cb87bf974": 1795756863.8963315,
-  "406da84f10034205": 1795756876.6498141
+  "406da84f10034205": 1795756876.6498141,
+  "11f14c63764cc98c": 1795757479.6970336,
+  "3d313b2d61ac18f0": 1795757479.6970363,
+  "737e5ed05973d47f": 1795757479.6970372,
+  "1728d1e890bac752": 1795757479.6970384,
+  "21011f30850c3d2c": 1795757479.6970391,
+  "d0350e983318c16c": 1795757479.6970408
  },
  "pending": {
   "culture2026-11-27": {
@@ -1801,20 +1807,8 @@
    "471a0ab3dffb2df9"
   ]
  },
- "last_post_id": "1444130002106066_122125006137503839",
+ "last_post_id": "1444130002106066_122125008039503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124805185503839",
-   "title": "مولانا فضل الرحمان جو ملڪ گير احتجاج ۽ شاهراهون بند ڪرڻ جو سڏ",
-   "t": 1795690915.1020348,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124805185503839"
-  },
   {
    "id": "1444130002106066_122124813591503839",
    "title": "سنڌ حڪومت پاران 29 نومبر تي ايم ڪيو ايم کي ريلي جي اجازت نه ڏيڻ جو فيصلو",
@@ -2122,6 +2116,18 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122125006137503839"
+  },
+  {
+   "id": "1444130002106066_122125008039503839",
+   "title": "ڪراچي ۾ عمارت ڪرڻ سان فوت ٿيلن جو انگ 6 ٿي ويو",
+   "t": 1795757506.5741374,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122125008039503839"
   }
  ],
  "share_sent": {
@@ -2452,12 +2458,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 10:21",
+  "time": "2026-11-27 10:31",
   "items": 9,
   "sample": [
-   "South Australia 277/10 & 287/10 v Victoria 417/10 & 17/3 *",
-   "New Zealand 240/5 * v India",
-   "Karnali Province Under-19s v Lumbini Province Under-19s 105/3 *"
+   "South Australia 277/10 & 287/10 v Victoria 417/10 & 27/4 *",
+   "New Zealand 246/5 * v India",
+   "Karnali Province Under-19s v Lumbini Province Under-19s 113/4 *"
   ]
  },
  "agri_news": {
@@ -2467,17 +2473,11 @@
  },
  "all_posts": {
   "date": "2026-11-27",
-  "count": 15,
-  "last": 1795756907.014193
+  "count": 16,
+  "last": 1795757499.606045
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122121694437503839",
-    "sec": "public_news",
-    "cat": "dollar_gold_business",
-    "t": 1794820479
-   },
    {
     "id": "1444130002106066_122121712077503839",
     "sec": "kawish",
@@ -4871,6 +4871,12 @@
     "sec": "public_news",
     "cat": "electricity_gas",
     "t": 1795756914
+   },
+   {
+    "id": "1444130002106066_122125008039503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1795757506
    }
   ]
  },
@@ -8031,15 +8037,11 @@
  },
  "ai_usage": {
   "date": "2026-11-27",
-  "ok": 149,
-  "fail": 262,
-  "limit": 262
+  "ok": 154,
+  "fail": 272,
+  "limit": 272
  },
  "posted_heads": [
-  {
-   "h": "Fatima Sana returns to lead Pakistan on tour of West Indies",
-   "t": 1795581113
-  },
   {
    "h": "PTA proposes solar power for telecom towers facing frequent outages",
    "t": 1795582403
@@ -8355,10 +8357,14 @@
   {
    "h": "FESCO, GEPCO and IESCO bidding expected in Q1 2027",
    "t": 1795756914
+  },
+  {
+   "h": "ڪراچي: عمارت ڪرڻ سبب فوت ٿيلن جو انگ 6 ٿي ويو، 13 ڄڻا اڃا تائين ملبي هيٺ دٻيل",
+   "t": 1795757507
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 10:21",
+  "time": "2026-11-27 10:31",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8466,7 +8472,7 @@
   "text": 16,
   "story": 13
  },
- "ai_last_error": "10:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-27",
   "models": [
@@ -8480,10 +8486,10 @@
  },
  "img_diag": {
   "date": "2026-11-27",
-  "tried": 14,
+  "tried": 15,
   "gemini": 0,
   "pollinations": 9,
-  "skip": 1,
+  "skip": 2,
   "fail": 8,
   "last_note": "cricket bat and ball",
   "mismatch": 930,
@@ -8508,7 +8514,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
-   "ok": 46,
+   "ok": 47,
    "fail": 18,
    "items": 10,
    "fail_streak": 0,
@@ -8516,7 +8522,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8524,7 +8530,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8532,7 +8538,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8540,7 +8546,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8548,14 +8554,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 64,
+   "ok": 65,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 61,
+   "ok": 62,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8564,9 +8570,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
    "ok": 60,
-   "fail": 4,
+   "fail": 5,
    "items": 15,
-   "fail_streak": 4,
+   "fail_streak": 5,
    "last_status": 502
   }
  },
@@ -8926,13 +8932,13 @@
  "region_posts": {
   "date": "2026-11-27",
   "district": 0,
-  "sindh": 3,
+  "sindh": 4,
   "pakistan": 11
  },
  "report_acc": {
-  "posted": 2,
-  "found": 16,
-  "old": 16,
+  "posted": 3,
+  "found": 24,
+  "old": 24,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8992,9 +8998,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-27",
-  "count": 2,
-  "last": 1795756262.6072514,
-  "city_i": 20,
+  "count": 3,
+  "last": 1795757475.6336622,
+  "city_i": 24,
   "dry": 1795755685.9546797
  },
  "gemini_day_dead": {
@@ -9698,6 +9704,14 @@
    "t": 1795756914,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "84208b157e906db8",
+   "h": "ڪراچي ۾ عمارت ڪرڻ سان فوت ٿيلن جو انگ 6 ٿي ويو",
+   "x": "ڪراچي جي ايڊمنسٽريٽو ايمپلائيز ڪوآپريٽو سوسائٽي ۾ عمارت ڪرڻ واري واقعي ۾ فوت ٿيلن جو انگ وڌي 6 ٿي ويو آهي، جڏهن ته 14 ڄڻا زخمي ۽ 13 ڄڻا اڃا تائين گم آهن. ريسڪيو 1122 موجب ملبي مان وڌيڪ 2 لاش ڪڍيا ويا آهن، جڏهن ته ٻين ماڻهن جي ڳولا لاءِ سرچ اينڊ ريسڪيو آپريشن جاري آهي. ريسڪيو اختيارين جو چوڻ آهي ته آپريشن دوران احتياط کان ڪم ورتو پيو وڃي، ڳري مشينري بدران هٿرادو طريقي سان ملبي جي ڳولا تي وڌيڪ ڌيان ڏنو پيو وڃي، ڇاڪاڻ ته مشينري جي استعمال سان ملبي هيٺ دٻيل لاشن کي نقصان پهچڻ جو خطرو آهي.",
+   "t": 1795757506,
+   "s": true,
+   "r": 0
   }
  ],
  "reels": {
@@ -9714,13 +9728,6 @@
   "last": 1795719086.4943764
  },
  "tg_debug": [
-  {
-   "t": "11-27 04:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-27 04:10",
    "ok": true,
@@ -9989,6 +9996,13 @@
   },
   {
    "t": "11-27 10:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 10:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14762,6 +14776,58 @@
     "ڪمپنين",
     "ڪندڙ"
    ]
+  },
+  {
+   "t": 1795757506,
+   "h": "ڪراچي ۾ عمارت ڪرڻ سان فوت ٿيلن جو انگ 6 ٿي ويو",
+   "b": "ڪراچي جي ايڊمنسٽريٽو ايمپلائيز ڪوآپريٽو سوسائٽي ۾ عمارت ڪرڻ واري واقعي ۾ فوت ٿيلن جو انگ وڌي 6 ٿي ويو آهي،",
+   "tt": [
+    "انگ",
+    "عمارت",
+    "فوت",
+    "ٿيلن",
+    "ڪراچي",
+    "ڪرڻ"
+   ],
+   "bt": [
+    "#1122",
+    "#13",
+    "#14",
+    "انگ",
+    "اهن",
+    "اهن،",
+    "اهي",
+    "اهي،",
+    "ايمپلائيز",
+    "اينڊ",
+    "ايڊمنسٽريٽو",
+    "اپريشن",
+    "اڃا",
+    "تائين",
+    "جاري",
+    "ريسڪيو",
+    "زخمي",
+    "سرچ",
+    "سوسائٽي",
+    "عمارت",
+    "فوت",
+    "لاش",
+    "مان",
+    "ماڻهن",
+    "ملبي",
+    "موجب",
+    "واقعي",
+    "وڌي",
+    "وڌيڪ",
+    "ٻين",
+    "ٿيلن",
+    "ڄڻا",
+    "ڪراچي",
+    "ڪرڻ",
+    "ڪواپريٽو",
+    "ڪڍيا",
+    "ڳولا"
+   ]
   }
  ],
  "repeat_log": [
@@ -14929,7 +14995,7 @@
  },
  "quality": {
   "date": "2026-11-27",
-  "editor_fixed": 11,
+  "editor_fixed": 12,
   "editor_rejected": 3,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
