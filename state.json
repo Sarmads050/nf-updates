@@ -1636,7 +1636,9 @@
   "0083eddadf9c7db4": 1795780896.1749322,
   "509584a13626878a": 1795782126.9813993,
   "e965794017764ed2": 1795782126.9814024,
-  "85bf68cf46aff17c": 1795782126.9814048
+  "85bf68cf46aff17c": 1795782126.9814048,
+  "d6ee218b0258ee5c": 1795783938.6977465,
+  "b3c79f38adafa730": 1795783938.6977491
  },
  "pending": {
   "culture2026-11-27": {
@@ -2484,7 +2486,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 17:41",
+  "time": "2026-11-27 17:52",
   "items": 9,
   "sample": [
    "South Australia 277/10 & 287/10 v Victoria 102/7 & 417/10 *",
@@ -8063,9 +8065,9 @@
  },
  "ai_usage": {
   "date": "2026-11-27",
-  "ok": 264,
-  "fail": 451,
-  "limit": 445
+  "ok": 267,
+  "fail": 457,
+  "limit": 451
  },
  "posted_heads": [
   {
@@ -8390,7 +8392,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 17:41",
+  "time": "2026-11-27 17:52",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8498,7 +8500,7 @@
   "text": 24,
   "story": 19
  },
- "ai_last_error": "17:22 openrouter google/gemma-4-31b-it:free 429 {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"google/gemma-4-31b-it:free is temporarily ra",
+ "ai_last_error": "17:52 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-27",
   "models": [
@@ -8541,14 +8543,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
    "ok": 75,
-   "fail": 34,
+   "fail": 35,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8556,7 +8558,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8564,7 +8566,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8573,21 +8575,21 @@
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
    "ok": 105,
-   "fail": 4,
+   "fail": 5,
    "items": 10,
-   "fail_streak": 4,
+   "fail_streak": 5,
    "last_status": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 106,
+   "ok": 107,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8595,7 +8597,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
-   "ok": 66,
+   "ok": 67,
    "fail": 43,
    "items": 15,
    "fail_streak": 0,
@@ -8963,8 +8965,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 35,
-  "old": 35,
+  "found": 43,
+  "old": 43,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9025,8 +9027,8 @@
  "sindh_stream": {
   "date": "2026-11-27",
   "count": 12,
-  "last": 1795782125.1310916,
-  "city_i": 24,
+  "last": 1795783934.1372452,
+  "city_i": 6,
   "dry": 1795783309.8229287
  },
  "gemini_day_dead": {
@@ -9744,13 +9746,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 11:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 11:30",
    "ok": true,
    "n": 0,
@@ -10018,6 +10013,13 @@
   },
   {
    "t": "11-27 17:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 17:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14487,11 +14489,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-25 18:35",
-   "new": "نوابشاهه: فوڊ اٿارٽي پاران 200 ڪارٽن خراب جوس ضبط",
-   "old": "بجلي جي وڌندڙ بلن ۽ ٽئڪسن تي عوام پريشان"
-  },
-  {
    "t": "11-26 00:02",
    "new": "پاڪستان عورتن جي ڪرڪيٽ ٽيم جو اعلان",
    "old": "فاطمه ثناء ويسٽ انڊيز دوري تي قومي ٽيم جي قيادت ڪندي"
@@ -14635,6 +14632,11 @@
    "t": "11-27 16:31",
    "new": "سنڌ | پيٹرول ۽ ڊيزل جي قيمتن بابت اهم معاهدو",
    "old": "پيٽرول رليف پيڪيج ۾ 1000 سي سي تائين گاڏيون شامل ڪرڻ جو امڪان"
+  },
+  {
+   "t": "11-27 17:52",
+   "new": "سون جي اگهه ۾ وڏي واڌ",
+   "old": "ملڪ ۾ سون جي اگهن ۾ واڌ"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14655,6 +14657,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 13
- }
+  "repeat": 14
+ },
+ "_dup": true
 }
