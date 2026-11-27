@@ -1,6 +1,5 @@
 {
  "seen": {
-  "8f03ec0b803eca80": 1795149692.6180372,
   "667a473b55e5a1f6": 1795151470.5821795,
   "d331e686307d5fde": 1795151470.5821838,
   "adf82c18d668e4b9": 1795151470.5824156,
@@ -1621,7 +1620,8 @@
   "0379603cc8fff6bf": 1795754465.8961787,
   "cc8d4f7e6ad522e4": 1795754472.9224932,
   "387dc516744b3990": 1795754472.922495,
-  "8fa0711c49864bf6": 1795754472.922671
+  "8fa0711c49864bf6": 1795754472.922671,
+  "237f6165a4a882f4": 1795755064.1881638
  },
  "pending": {
   "culture2026-11-27": {
@@ -1801,20 +1801,8 @@
    "471a0ab3dffb2df9"
   ]
  },
- "last_post_id": "1444130002106066_122124998793503839",
+ "last_post_id": "1444130002106066_122125000485503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124793545503839",
-   "title": "پيٽروليم ليوي جي خاتمي ۽ اگهن ۾ گهٽتائي جو امڪان",
-   "t": 1795687959.3616617,
-   "tags": [
-    "general",
-    "local",
-    "padidan",
-    "sindh"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124793545503839"
-  },
   {
    "id": "1444130002106066_122124798261503839",
    "title": "سنڌ حڪومت جو لوڪل گورنمينٽ بابت اهم اعلان سنڌ حڪومت سڀني ضلعن لاءِ لوڪل گورنمينٽ جي حوالي",
@@ -2124,6 +2112,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122124998793503839"
+  },
+  {
+   "id": "1444130002106066_122125000485503839",
+   "title": "پيڪڪ چيف واپارين کي عالمي مارڪيٽن ۾ پنهنجو پير مضبوط ڪرڻ ۽ مقابلي جي صلاحيت وڌائڻ جي اپيل",
+   "t": 1795755094.1841068,
+   "tags": [
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122125000485503839"
   }
  ],
  "share_sent": {
@@ -2454,12 +2451,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 09:41",
+  "time": "2026-11-27 09:51",
   "items": 9,
   "sample": [
-   "South Australia 287/10 & 277/10 v Victoria 10/2 & 417/10 *",
-   "New Zealand 213/5 * v India",
-   "Karnali Province Under-19s v Lumbini Province Under-19s 72/2 *"
+   "South Australia 277/10 & 287/10 v Victoria 417/10 & 11/3 *",
+   "New Zealand 221/5 * v India",
+   "Karnali Province Under-19s v Lumbini Province Under-19s 77/2 *"
   ]
  },
  "agri_news": {
@@ -2469,17 +2466,11 @@
  },
  "all_posts": {
   "date": "2026-11-27",
-  "count": 12,
-  "last": 1795754500.590974
+  "count": 13,
+  "last": 1795755088.958777
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122121667389503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794812529
-   },
    {
     "id": "1444130002106066_122121673809503839",
     "sec": "sindh_stream",
@@ -4873,13 +4864,19 @@
     "sec": "agri_news",
     "cat": "agri_news",
     "t": 1795754505
+   },
+   {
+    "id": "1444130002106066_122125000485503839",
+    "sec": "public_news",
+    "cat": "transport_trade",
+    "t": 1795755094
    }
   ]
  },
  "public_news": {
   "date": "2026-11-27",
-  "count": 4,
-  "last": 1795751016.5589986
+  "count": 5,
+  "last": 1795755094.1840892
  },
  "trends": {
   "last": 1795747256.3130956,
@@ -8033,15 +8030,11 @@
  },
  "ai_usage": {
   "date": "2026-11-27",
-  "ok": 125,
-  "fail": 218,
-  "limit": 218
+  "ok": 130,
+  "fail": 226,
+  "limit": 226
  },
  "posted_heads": [
-  {
-   "h": "Micro-irrigation and Pakistan’s water crisis",
-   "t": 1795573334
-  },
   {
    "h": "The FY27 Budget and Your Salary: New Tax Slabs, How Withholding Works and Who Saves",
    "t": 1795577000
@@ -8357,10 +8350,14 @@
   {
    "h": "Lahore Grain Market Rates",
    "t": 1795754506
+  },
+  {
+   "h": "Stronger foothold in global markets: PACCC chief urges traders to boost competitiveness",
+   "t": 1795755094
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 09:41",
+  "time": "2026-11-27 09:51",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8463,12 +8460,12 @@
  },
  "article_diag": {
   "date": "2026-11-27",
-  "tried": 16,
+  "tried": 17,
   "decoded": 16,
   "text": 14,
   "story": 12
  },
- "ai_last_error": "09:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "09:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-27",
   "models": [
@@ -8482,9 +8479,9 @@
  },
  "img_diag": {
   "date": "2026-11-27",
-  "tried": 11,
+  "tried": 12,
   "gemini": 0,
-  "pollinations": 7,
+  "pollinations": 8,
   "skip": 0,
   "fail": 8,
   "last_note": "cricket bat and ball",
@@ -8511,14 +8508,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
    "ok": 43,
-   "fail": 17,
+   "fail": 18,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 2,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8526,7 +8523,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8534,7 +8531,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8542,7 +8539,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8550,7 +8547,7 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 60,
+   "ok": 61,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
@@ -8558,18 +8555,18 @@
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
    "ok": 60,
-   "fail": 0,
+   "fail": 1,
    "items": 10,
-   "fail_streak": 0,
-   "last_status": 502
+   "fail_streak": 1,
+   "last_status": 403
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
    "ok": 60,
-   "fail": 0,
+   "fail": 1,
    "items": 15,
-   "fail_streak": 0,
-   "last_status": 200
+   "fail_streak": 1,
+   "last_status": 403
   }
  },
  "culture": {
@@ -8929,12 +8926,12 @@
   "date": "2026-11-27",
   "district": 0,
   "sindh": 2,
-  "pakistan": 9
+  "pakistan": 10
  },
  "report_acc": {
-  "posted": 2,
-  "found": 32,
-  "old": 31,
+  "posted": 3,
+  "found": 40,
+  "old": 39,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8996,8 +8993,8 @@
   "date": "2026-11-27",
   "count": 1,
   "last": 1795722064.1359074,
-  "city_i": 8,
-  "dry": 1795754462.5899637
+  "city_i": 12,
+  "dry": 1795755061.1268768
  },
  "gemini_day_dead": {
   "day": "2026-11-26",
@@ -9692,6 +9689,14 @@
    "t": 1795754505,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "0b0a6a656db3428a",
+   "h": "گلوبل مارڪيٽن ۾ واڌ لاءِ واپارين تي زور",
+   "x": "پيڪڪ چيف واپارين کي عالمي مارڪيٽن ۾ پنهنجو پير مضبوط ڪرڻ ۽ مقابلي جي صلاحيت وڌائڻ جي اپيل ڪئي آهي. بيان: پيڪڪ جو چيف",
+   "t": 1795755094,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9708,13 +9713,6 @@
   "last": 1795719086.4943764
  },
  "tg_debug": [
-  {
-   "t": "11-27 03:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-27 03:30",
    "ok": true,
@@ -9983,6 +9981,13 @@
   },
   {
    "t": "11-27 09:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 09:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14744,6 +14749,38 @@
     "ڪلوگرام",
     "ڪنڊ"
    ]
+  },
+  {
+   "t": 1795755094,
+   "h": "گلوبل مارڪيٽن ۾ واڌ لاءِ واپارين تي زور",
+   "b": "پيڪڪ چيف واپارين کي عالمي مارڪيٽن ۾ پنهنجو پير مضبوط ڪرڻ ۽ مقابلي جي صلاحيت وڌائڻ جي اپيل ڪئي آهي. بيان: پيڪڪ",
+   "tt": [
+    "زور",
+    "مارڪيٽن",
+    "واپارين",
+    "واڌ",
+    "گلوبل"
+   ],
+   "bt": [
+    "اهي",
+    "اپيل",
+    "بيان",
+    "زور",
+    "صلاحيت",
+    "عالمي",
+    "مارڪيٽن",
+    "مضبوط",
+    "مقابلي",
+    "واپارين",
+    "واڌ",
+    "وڌائڻ",
+    "پنهنجو",
+    "پير",
+    "پيڪڪ",
+    "چيف",
+    "ڪرڻ",
+    "گلوبل"
+   ]
   }
  ],
  "repeat_log": [
@@ -14911,7 +14948,7 @@
  },
  "quality": {
   "date": "2026-11-27",
-  "editor_fixed": 9,
+  "editor_fixed": 10,
   "editor_rejected": 3,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
