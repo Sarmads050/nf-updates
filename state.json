@@ -1,7 +1,5 @@
 {
  "seen": {
-  "6dcb0376e981a3db": 1795181481.1386116,
-  "2bfca36e0fab6e2b": 1795181481.1388211,
   "939a93c16dfde3d6": 1795182654.0228925,
   "4c6f40aa06ab0137": 1795182654.0232153,
   "3def61d56be3f2ce": 1795182673.7985718,
@@ -1616,7 +1614,9 @@
   "85bf68cf46aff17c": 1795782126.9814048,
   "d6ee218b0258ee5c": 1795783938.6977465,
   "b3c79f38adafa730": 1795783938.6977491,
-  "a7a8db22b7b00c63": 1795785718.3470278
+  "a7a8db22b7b00c63": 1795785718.3470278,
+  "d76b601280b49426": 1795786992.2448018,
+  "e1fc71f6561e2267": 1795786992.2448049
  },
  "pending": {
   "culture2026-11-27": {
@@ -2464,12 +2464,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 18:32",
-  "items": 11,
+  "time": "2026-11-27 18:43",
+  "items": 10,
   "sample": [
-   "South Australia 287/10 & 277/10 v Victoria 417/10 & 102/7 *",
    "New Zealand 246/5 * v India",
-   "Karnali Province Under-19s 78/10 * v Lumbini Province Under-19s 223/10"
+   "Karnali Province Under-19s 78/10 * v Lumbini Province Under-19s 223/10",
+   "Gandaki Province Under-19s 120/10 v Madhesh Province Under-19s 123/3 *"
   ]
  },
  "agri_news": {
@@ -8043,9 +8043,9 @@
  },
  "ai_usage": {
   "date": "2026-11-27",
-  "ok": 277,
-  "fail": 475,
-  "limit": 469
+  "ok": 279,
+  "fail": 479,
+  "limit": 473
  },
  "posted_heads": [
   {
@@ -8370,7 +8370,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 18:32",
+  "time": "2026-11-27 18:43",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8478,7 +8478,7 @@
   "text": 24,
   "story": 19
  },
- "ai_last_error": "18:32 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "18:43 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-27",
   "models": [
@@ -8520,7 +8520,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
-   "ok": 78,
+   "ok": 79,
    "fail": 36,
    "items": 10,
    "fail_streak": 0,
@@ -8528,7 +8528,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8536,7 +8536,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8544,7 +8544,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8553,21 +8553,21 @@
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
    "ok": 105,
-   "fail": 9,
+   "fail": 10,
    "items": 10,
-   "fail_streak": 9,
+   "fail_streak": 10,
    "last_status": 0
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 114,
+   "ok": 115,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 111,
+   "ok": 112,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8575,7 +8575,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
-   "ok": 71,
+   "ok": 72,
    "fail": 43,
    "items": 15,
    "fail_streak": 0,
@@ -8912,8 +8912,8 @@
    "24-11-2026",
    "26-11-2026"
   ],
-  "last_try": 1795784578.1683335,
-  "last_try_note": "18:04 abhi nahi mila",
+  "last_try": 1795786889.7535322,
+  "last_try_note": "18:42 abhi nahi mila",
   "paper": {
    "date": "26-11-2026",
    "read": [
@@ -8943,8 +8943,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 24,
-  "old": 24,
+  "found": 32,
+  "old": 32,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9005,8 +9005,8 @@
  "sindh_stream": {
   "date": "2026-11-27",
   "count": 13,
-  "last": 1795785716.0468001,
-  "city_i": 10,
+  "last": 1795786989.5788488,
+  "city_i": 14,
   "dry": 1795783309.8229287
  },
  "gemini_day_dead": {
@@ -9725,13 +9725,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 12:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 12:20",
    "ok": true,
    "n": 0,
@@ -9999,6 +9992,13 @@
   },
   {
    "t": "11-27 18:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 18:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14424,11 +14424,6 @@
  "repeat_log": [
   {
    "t": "11-26 00:02",
-   "new": "پاڪستان عورتن جي ڪرڪيٽ ٽيم جو اعلان",
-   "old": "فاطمه ثناء ويسٽ انڊيز دوري تي قومي ٽيم جي قيادت ڪندي"
-  },
-  {
-   "t": "11-26 00:02",
    "new": "سنڌ ۾ ڪڻڪ جو نئون اگهه ۽ واڌارو",
    "old": "سنڌ حڪومت پاران اٽي جا نوان اگهه مقرر"
   },
@@ -14571,6 +14566,11 @@
    "t": "11-27 17:52",
    "new": "سون جي اگهه ۾ وڏي واڌ",
    "old": "ملڪ ۾ سون جي اگهن ۾ واڌ"
+  },
+  {
+   "t": "11-27 18:43",
+   "new": "بلاول ڀٽو پاران رڳو ڏکڻ پنجاب صوبي جي حمايت جو اعلان",
+   "old": "پيپلز پارٽي پنجاب ۽ سنڌ بابت هڪ موقف رکي ٿي: بلاول ڀٽو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14591,6 +14591,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 14
- }
+  "repeat": 15
+ },
+ "_dup": true
 }
