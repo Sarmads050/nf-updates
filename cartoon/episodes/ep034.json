@@ -39,7 +39,7 @@
      "how": "50-year-old mother, firm, loving, shouting, commanding",
      "emo": "angry",
      "pose": "point_other",
-     "shot": "close",
+     "shot": "close:AMMI",
      "sfx": [
       "whoosh"
      ],
@@ -79,6 +79,7 @@
      "how": "50-year-old mother, firm, loving, strict, no-nonsense",
      "emo": "angry",
      "pose": "wag",
+     "shot": "close:AMMI",
      "react": {
       "ARSALAN": "sad"
      }
@@ -144,7 +145,7 @@
    "time": "day",
    "label": "Larkon Ka Kamra • Dopahar",
    "cast": {
-    "ARSALAN": "stand_l",
+    "ARSALAN": "desk",
     "DANIYAL": "stand_c"
    },
    "props": {},
@@ -205,16 +206,9 @@
      "to": "ARSALAN",
      "roman": "Ek minute... bas *ek page* parh leta hoon.",
      "urdu": "ایک منٹ... بس ایک پیج پڑھ لیتا ہوں۔",
-     "how": "20-year-old law student, dramatic, absorbed, sitting down",
+     "how": "20-year-old law student, dramatic, absorbed, starting to read",
      "emo": "focused",
-     "pose": "read",
-     "before": [
-      {
-       "do": "move",
-       "who": "DANIYAL",
-       "slot": "bed"
-      }
-     ]
+     "pose": "read"
     },
     {
      "who": "NARRATOR",
@@ -249,7 +243,7 @@
       {
        "do": "enter",
        "who": "AMMI",
-       "slot": "stand_r"
+       "slot": "stand_l"
       }
      ],
      "react": {
