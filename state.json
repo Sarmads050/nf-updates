@@ -1,9 +1,5 @@
 {
  "seen": {
-  "2aeebbc7413f23d1": 1795144881.381092,
-  "3f873909ec280c8f": 1795144888.7716062,
-  "f748ad4c6b33ebf0": 1795144888.771609,
-  "c4a2a5757d14447a": 1795144904.6348655,
   "649b7a9414dbc8fc": 1795145479.9875202,
   "8e41892e58419245": 1795145479.98771,
   "415d69ffa84557f4": 1795145494.0760522,
@@ -1619,7 +1615,9 @@
   "f0c1a60145eb499c": 1795747284.5564795,
   "4b56149aed715a35": 1795747284.556722,
   "672bf4e4d02b62ac": 1795749077.3288126,
-  "18945463beef96f8": 1795749674.002148
+  "18945463beef96f8": 1795749674.002148,
+  "7cb6fd1c23b17823": 1795750290.9921863,
+  "764887facaaef7f4": 1795750290.9921887
  },
  "pending": {},
  "queue": [],
@@ -2462,11 +2460,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 08:21",
+  "time": "2026-11-27 08:31",
   "items": 9,
   "sample": [
-   "South Australia 287/10 & 242/7 * v Victoria 417/10",
-   "New Zealand 133/4 * v India",
+   "South Australia 255/8 & 287/10 * v Victoria 417/10",
+   "New Zealand 140/4 * v India",
    "Karnali Province Under-19s v Lumbini Province Under-19s"
   ]
  },
@@ -8041,9 +8039,9 @@
  },
  "ai_usage": {
   "date": "2026-11-27",
-  "ok": 99,
-  "fail": 178,
-  "limit": 178
+  "ok": 101,
+  "fail": 182,
+  "limit": 182
  },
  "posted_heads": [
   {
@@ -8368,7 +8366,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 08:21",
+  "time": "2026-11-27 08:31",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8476,7 +8474,7 @@
   "text": 13,
   "story": 11
  },
- "ai_last_error": "08:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-27",
   "models": [
@@ -8518,7 +8516,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
-   "ok": 38,
+   "ok": 39,
    "fail": 14,
    "items": 10,
    "fail_streak": 0,
@@ -8526,7 +8524,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8534,7 +8532,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8542,7 +8540,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8550,7 +8548,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8558,14 +8556,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8573,7 +8571,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
-   "ok": 52,
+   "ok": 53,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8941,8 +8939,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 14,
-  "old": 14,
+  "found": 21,
+  "old": 21,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9004,8 +9002,8 @@
   "date": "2026-11-27",
   "count": 1,
   "last": 1795722064.1359074,
-  "city_i": 14,
-  "dry": 1795749661.7599714
+  "city_i": 18,
+  "dry": 1795750272.7075465
  },
  "gemini_day_dead": {
   "day": "2026-11-26",
@@ -9716,13 +9714,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 02:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 02:10",
    "ok": true,
    "n": 0,
@@ -9990,6 +9981,13 @@
   },
   {
    "t": "11-27 08:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 08:30",
    "ok": true,
    "n": 0,
    "ids": [],
