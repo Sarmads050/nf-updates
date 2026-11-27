@@ -1,19 +1,5 @@
 {
  "seen": {
-  "fbad62261a0feec0": 1795168922.6316636,
-  "9169e0ad1ef0d2cc": 1795168922.6394904,
-  "f69348d6e68bd575": 1795168922.6408646,
-  "150cca6398d48602": 1795168922.642671,
-  "2bc4fe3282aae025": 1795168922.6440778,
-  "01b5fc134d1ee7ca": 1795168922.6454163,
-  "1da736dda4a47896": 1795168922.6466482,
-  "24aadbb103dbd07f": 1795168922.6478417,
-  "5ad4e911a370ff1c": 1795168922.6492546,
-  "eb824f29728f918f": 1795168922.6504636,
-  "d8e7e5946db5bf48": 1795169106.0819218,
-  "7881db241fbe8292": 1795169106.0837224,
-  "869f25c7a584cd42": 1795169106.085059,
-  "6917d4f6dcef484c": 1795169106.0865684,
   "2d284f21d8270d5d": 1795172518.4311283,
   "8e1b811407a60471": 1795172518.4311311,
   "7bb447f27f12f96d": 1795172518.4311337,
@@ -1639,7 +1625,8 @@
   "81b85c5c46b27d51": 1795773080.7682831,
   "6570ccaa02571075": 1795773080.7682838,
   "2ebb4a6929b66860": 1795773080.7682846,
-  "6b7ed1cd05579055": 1795773080.7684681
+  "6b7ed1cd05579055": 1795773080.7684681,
+  "76eef7749e6272e2": 1795774272.778754
  },
  "pending": {
   "culture2026-11-27": {
@@ -2475,10 +2462,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 15:01",
+  "time": "2026-11-27 15:11",
   "items": 9,
   "sample": [
-   "South Australia 277/10 & 287/10 v Victoria 417/10 & 102/7 *",
+   "South Australia 277/10 & 287/10 v Victoria 102/7 & 417/10 *",
    "New Zealand 246/5 * v India",
    "Karnali Province Under-19s 78/10 * v Lumbini Province Under-19s 223/10"
   ]
@@ -8038,9 +8025,9 @@
  },
  "ai_usage": {
   "date": "2026-11-27",
-  "ok": 215,
-  "fail": 370,
-  "limit": 366
+  "ok": 216,
+  "fail": 372,
+  "limit": 368
  },
  "posted_heads": [
   {
@@ -8365,7 +8352,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 15:01",
+  "time": "2026-11-27 15:11",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8473,7 +8460,7 @@
   "text": 21,
   "story": 17
  },
- "ai_last_error": "14:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "15:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-27",
   "models": [
@@ -8515,15 +8502,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
-   "ok": 62,
+   "ok": 63,
    "fail": 30,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 92,
+   "ok": 93,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8531,7 +8518,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 92,
+   "ok": 93,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8539,7 +8526,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 92,
+   "ok": 93,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8547,7 +8534,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 92,
+   "ok": 93,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8555,14 +8542,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 92,
+   "ok": 93,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 89,
+   "ok": 90,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8571,9 +8558,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
    "ok": 61,
-   "fail": 31,
+   "fail": 32,
    "items": 15,
-   "fail_streak": 16,
+   "fail_streak": 17,
    "last_status": 503
   }
  },
@@ -8938,8 +8925,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9001,8 +8988,8 @@
   "date": "2026-11-27",
   "count": 7,
   "last": 1795773068.0405018,
-  "city_i": 10,
-  "dry": 1795772462.1921077
+  "city_i": 14,
+  "dry": 1795774264.77647
  },
  "gemini_day_dead": {
   "day": "2026-11-27",
@@ -9709,13 +9696,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 08:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 08:40",
    "ok": true,
    "n": 0,
@@ -9983,6 +9963,13 @@
   },
   {
    "t": "11-27 15:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 15:10",
    "ok": true,
    "n": 0,
    "ids": [],
