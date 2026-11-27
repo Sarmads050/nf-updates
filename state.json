@@ -1,8 +1,5 @@
 {
  "seen": {
-  "b520e7d4e027e80f": 1795165280.8216546,
-  "a6b953e4b2cd46ca": 1795165307.7579067,
-  "d7175fc2b3d23d69": 1795165307.757912,
   "a767acad53b75e49": 1795166489.812704,
   "3a65395967b57f31": 1795166489.8127062,
   "2264f440eeecdc9c": 1795166489.8127074,
@@ -1624,7 +1621,20 @@
   "d6a2c020d1add02d": 1795769488.8835802,
   "85f3a47fa1a5a3b1": 1795769488.8835807,
   "3b3a476cb082ff9d": 1795769488.8835814,
-  "08a55895093f95e6": 1795769488.8835838
+  "08a55895093f95e6": 1795769488.8835838,
+  "51ac39b876480831": 1795770683.1394846,
+  "4edd66809bc8aefd": 1795770683.1394885,
+  "9f3c63ae3a3a151b": 1795770683.13949,
+  "a618ec3ff9fc77de": 1795770683.1394906,
+  "284c8ca0cc52805e": 1795770683.1394916,
+  "571f06737d75201e": 1795770683.1395097,
+  "775703caa11ccbac": 1795770683.1395109,
+  "6fcca7881a809ab9": 1795770683.1395116,
+  "d58c1d278d983b80": 1795770683.1395118,
+  "2fe2fcf932d44426": 1795770683.1396348,
+  "aee43bf028168dcf": 1795770701.1055796,
+  "eefe3262ead18700": 1795770701.1055813,
+  "f3bf9294c518d41a": 1795770701.1057127
  },
  "pending": {
   "culture2026-11-27": {
@@ -1654,7 +1664,7 @@
   "last_week": "",
   "last_check": "2026-11-27"
  },
- "gemini_model": "gemini-3.6-flash",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -1708,7 +1718,7 @@
  "sindh_single": {
   "date": "2026-11-27",
   "count": 0,
-  "last": 1795759309.3032787,
+  "last": 1795770718.0169864,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2453,12 +2463,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 14:01",
+  "time": "2026-11-27 14:12",
   "items": 9,
   "sample": [
-   "South Australia 287/10 & 277/10 v Victoria 102/7 & 417/10 *",
+   "South Australia 287/10 & 277/10 v Victoria 417/10 & 102/7 *",
    "New Zealand 246/5 * v India",
-   "Karnali Province Under-19s 68/9 * v Lumbini Province Under-19s 223/10"
+   "Karnali Province Under-19s 78/10 * v Lumbini Province Under-19s 223/10"
   ]
  },
  "agri_news": {
@@ -8016,9 +8026,9 @@
  },
  "ai_usage": {
   "date": "2026-11-27",
-  "ok": 192,
-  "fail": 333,
-  "limit": 327
+  "ok": 200,
+  "fail": 345,
+  "limit": 341
  },
  "posted_heads": [
   {
@@ -8343,7 +8353,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 14:01",
+  "time": "2026-11-27 14:12",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8446,12 +8456,12 @@
  },
  "article_diag": {
   "date": "2026-11-27",
-  "tried": 20,
-  "decoded": 19,
-  "text": 17,
-  "story": 14
+  "tried": 22,
+  "decoded": 21,
+  "text": 19,
+  "story": 16
  },
- "ai_last_error": "13:51 gemini-3.8-flash 429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error,",
+ "ai_last_error": "14:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-27",
   "models": [
@@ -8493,7 +8503,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
-   "ok": 59,
+   "ok": 60,
    "fail": 27,
    "items": 10,
    "fail_streak": 0,
@@ -8501,7 +8511,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8509,7 +8519,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8517,7 +8527,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8525,7 +8535,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8533,14 +8543,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 86,
+   "ok": 87,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 83,
+   "ok": 84,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8549,9 +8559,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
    "ok": 61,
-   "fail": 25,
+   "fail": 26,
    "items": 15,
-   "fail_streak": 10,
+   "fail_streak": 11,
    "last_status": 503
   }
  },
@@ -8916,8 +8926,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 8,
+  "old": 8,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8979,15 +8989,17 @@
   "date": "2026-11-27",
   "count": 7,
   "last": 1795769479.6372457,
-  "city_i": 12,
-  "dry": 1795755685.9546797
+  "city_i": 16,
+  "dry": 1795770660.2793286
  },
  "gemini_day_dead": {
   "day": "2026-11-27",
   "models": [
    "gemini-3.7-flash",
    "gemini-flash-latest",
-   "gemini-3.8-flash"
+   "gemini-3.8-flash",
+   "gemini-3.6-flash",
+   "gemini-3.5-flash"
   ]
  },
  "tg_done": [
@@ -9693,13 +9705,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 07:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 07:40",
    "ok": true,
    "n": 0,
@@ -9967,6 +9972,13 @@
   },
   {
    "t": "11-27 14:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 14:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14616,11 +14628,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-25 09:11",
-   "new": "اڄوڪي ڏهاڙي تي سون جي اگهن ۾ تبديلي",
-   "old": "سوني جي قيمت ۾ واڌ"
-  },
-  {
    "t": "11-25 11:01",
    "new": "سنڌ | شوگر سيڪٽر لاءِ نئين قومي پاليسي جي منظوري",
    "old": "صوبن جو ڪمند جي شعبي کي آزاد ڪرڻ تي اتفاق"
@@ -14764,6 +14771,11 @@
    "t": "11-27 12:51",
    "new": "جي يو آءِ جي سڏ تي ملڪ ۾ احتجاج ختم، ٽريفڪ بحال",
    "old": "مولانا فضل الرحمان جو ملڪ گير احتجاج ۽ شاهراهون بند ڪرڻ جو سڏ"
+  },
+  {
+   "t": "11-27 14:11",
+   "new": "پيٽروليم لشڪ ۽ رليف تي غور",
+   "old": "پيٽروليم ليوي جي خاتمي ۽ اگهن ۾ گهٽتائي جو امڪان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14780,10 +14792,11 @@
  "quality": {
   "date": "2026-11-27",
   "editor_fixed": 15,
-  "editor_rejected": 3,
+  "editor_rejected": 4,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 9
- }
+  "repeat": 10
+ },
+ "_dup": true
 }
