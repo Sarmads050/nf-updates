@@ -107,6 +107,11 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-099] (ep033, 2026-11-26) Drawing room mein Imtiaz (stand_l) ka "shrug" pose: dono baazu chaure phail kar saath khari Bhabi Sana ke chehre/seene ke aage aa jate hain (0:58-1:05) — shrug mein baazu jism ke qareeb rakhna jab saath koi khara ho.
 - [K-100] (ep033, 2026-11-26) Aangan mein charpai par baithi Sana ki line (Ammi stand_l ko) par "auto" shot ne Ammi ko beech mein rakha aur bolne wali Sana peeche chhup gayi (preview mein pakra; charpai_c par shift + `close:SANA` se theek kiya) — auto shot mein hamesha bolne wale ko frame ke center/aage rakhna.
 
+- [K-101] (ep034, 2026-11-27) Kahani "safai ka din" ki hai lekin screen par na jhaaroo hai na dhool/kachra — Ammi "jhaaroo haath mein!" kehti hain aur sab ke haath khaali hain — naya "jhaaroo" prop (lambi Sindhi jhaaroo) aur "pocha/kapra" prop, aur bed ke neeche se nikalti dhool ka chhota puff effect.
+- [K-102] (ep034, 2026-11-27) Drawing room mein Ammi (stand_l) par `shot: "close:AMMI"` dene par bhi camera Arsalan (sofa_l) par center raha aur Ammi left kinare par aadhi kati rahin (0:01, 0:12) — close:CHAR mein crop ko us character par center karna aur stand_l ko thora andar (K-020).
+- [K-103] (ep034, 2026-11-27) Bedroom ka "bed" slot stand_l/stand_c ke bilkul peeche hai: Daniyal ko bed par bithaya to woh khare Arsalan ke peeche chhup gaya (preview mein pakra, use khara rakh kar theek kiya) — bed slot ko thora right/upar karna ya check.py mein warning dena.
+- [K-104] (ep034, 2026-11-27) "read" pose mein khare Daniyal ki kitaab kamar ke paas chhota neela dabba rehti hai aur nazar seedhi saamne — parhta hua nahi lagta — read pose mein kitaab seene ke saamne khuli ho aur aankhein neeche.
+
 ## APPROVED
 
 ## DONE
