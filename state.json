@@ -1628,7 +1628,10 @@
   "6b7ed1cd05579055": 1795773080.7684681,
   "76eef7749e6272e2": 1795774272.778754,
   "71dba7bd3d63597b": 1795774888.2416015,
-  "b64d5e335633c5dd": 1795774888.241999
+  "b64d5e335633c5dd": 1795774888.241999,
+  "9b178bc5cd9cb603": 1795776062.9605043,
+  "05242e94a1defa46": 1795776080.3615355,
+  "fdf10387b77a4dda": 1795776089.0574071
  },
  "pending": {
   "culture2026-11-27": {
@@ -1818,18 +1821,8 @@
    "471a0ab3dffb2df9"
   ]
  },
- "last_post_id": "1444130002106066_122125061067503839",
+ "last_post_id": "1444130002106066_122125067469503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122124866847503839",
-   "title": "مورو: نيشنل هاءِ وي تي ٽرڪ ۽ ڪار ۾ ٽڪر، هڪ ڄڻو زخمي",
-   "t": 1795709485.2592719,
-   "tags": [
-    "local",
-    "padidan"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122124866847503839"
-  },
   {
    "id": "1444130002106066_122124870855503839",
    "title": "ڪنڊيارو: شهر ۾ چوري ۽ ڌاڙن جو سلسلو جاري، شهرين ۾ بيچيني",
@@ -2133,6 +2126,15 @@
     "general"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122125061067503839"
+  },
+  {
+   "id": "1444130002106066_122125067469503839",
+   "title": "قومي ڪرڪيٽر عامر جمال پاڪستاني ٽم ۾ شاندار واپسي جو ڪريڊٽ ڊوميسٽڪ ڪرڪيٽ کي ڏنو آهي",
+   "t": 1795776136.5696583,
+   "tags": [
+    "cricket"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122125067469503839"
   }
  ],
  "share_sent": {
@@ -2263,8 +2265,8 @@
  },
  "cricket_news": {
   "date": "2026-11-27",
-  "count": 1,
-  "last": 1795753338.3892953
+  "count": 2,
+  "last": 1795776136.56964
  },
  "cricket": {
   "httpwwwcricinfocomcienginematch1550713htmlcmpotcrss": {
@@ -2463,10 +2465,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 15:31",
+  "time": "2026-11-27 15:42",
   "items": 9,
   "sample": [
-   "South Australia 287/10 & 277/10 v Victoria 102/7 & 417/10 *",
+   "South Australia 277/10 & 287/10 v Victoria 102/7 & 417/10 *",
    "New Zealand 246/5 * v India",
    "Karnali Province Under-19s 78/10 * v Lumbini Province Under-19s 223/10"
   ]
@@ -2478,17 +2480,11 @@
  },
  "all_posts": {
   "date": "2026-11-27",
-  "count": 23,
-  "last": 1795775045.107082
+  "count": 24,
+  "last": 1795776130.9496124
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122121741825503839",
-    "sec": "kawish",
-    "cat": "sindh",
-    "t": 1794831705
-   },
    {
     "id": "1444130002106066_122121747597503839",
     "sec": "kawish",
@@ -4882,6 +4878,12 @@
     "sec": "public_news",
     "cat": "electricity_gas",
     "t": 1795775051
+   },
+   {
+    "id": "1444130002106066_122125067469503839",
+    "sec": "cricket_news",
+    "cat": "cricket_news",
+    "t": 1795776136
    }
   ]
  },
@@ -8026,15 +8028,11 @@
  },
  "ai_usage": {
   "date": "2026-11-27",
-  "ok": 224,
-  "fail": 388,
-  "limit": 382
+  "ok": 233,
+  "fail": 405,
+  "limit": 398
  },
  "posted_heads": [
-  {
-   "h": "گھٽ عمر ڊرائيورن جون گاڏيون، موٽرسائيڪلون ۽ رڪشا بند ڪرڻ جو حڪم",
-   "t": 1795591940
-  },
   {
    "h": "ڪراچي جي ھوا صحت لاءِ ھاڃيڪار، دنيا جو ٽيون گدلو شهر قرار",
    "t": 1795593130
@@ -8350,10 +8348,14 @@
   {
    "h": "PD proposes ‘FFCA’ mechanism to cap power tariff hike to Re0.83/unit",
    "t": 1795775052
+  },
+  {
+   "h": "Aamer Jamal credits domestic cricket for Pakistan comeback",
+   "t": 1795776136
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 15:31",
+  "time": "2026-11-27 15:42",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8456,12 +8458,12 @@
  },
  "article_diag": {
   "date": "2026-11-27",
-  "tried": 25,
-  "decoded": 24,
-  "text": 22,
+  "tried": 26,
+  "decoded": 25,
+  "text": 23,
   "story": 18
  },
- "ai_last_error": "15:22 gemini-flash-lite-latest 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later",
+ "ai_last_error": "15:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-27",
   "models": [
@@ -8475,9 +8477,9 @@
  },
  "img_diag": {
   "date": "2026-11-27",
-  "tried": 22,
+  "tried": 23,
   "gemini": 0,
-  "pollinations": 12,
+  "pollinations": 13,
   "skip": 4,
   "fail": 14,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
@@ -8503,15 +8505,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
-   "ok": 64,
+   "ok": 65,
    "fail": 31,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8519,7 +8521,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8527,7 +8529,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8535,7 +8537,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8543,14 +8545,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 95,
+   "ok": 96,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 92,
+   "ok": 93,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8559,9 +8561,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
    "ok": 61,
-   "fail": 34,
+   "fail": 35,
    "items": 15,
-   "fail_streak": 19,
+   "fail_streak": 20,
    "last_status": 503
   }
  },
@@ -8895,8 +8897,8 @@
    "24-11-2026",
    "26-11-2026"
   ],
-  "last_try": 1795773675.1080084,
-  "last_try_note": "15:01 abhi nahi mila",
+  "last_try": 1795776062.960664,
+  "last_try_note": "15:41 abhi nahi mila",
   "paper": {
    "date": "26-11-2026",
    "read": [
@@ -8922,12 +8924,12 @@
   "date": "2026-11-27",
   "district": 1,
   "sindh": 7,
-  "pakistan": 14
+  "pakistan": 15
  },
  "report_acc": {
-  "posted": 1,
-  "found": 24,
-  "old": 24,
+  "posted": 2,
+  "found": 32,
+  "old": 32,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8988,9 +8990,9 @@
  "sindh_stream": {
   "date": "2026-11-27",
   "count": 7,
-  "last": 1795773068.0405018,
-  "city_i": 18,
-  "dry": 1795774865.083846
+  "last": 1795776077.7819126,
+  "city_i": 22,
+  "dry": 1795776080.361539
  },
  "gemini_day_dead": {
   "day": "2026-11-27",
@@ -9677,6 +9679,14 @@
    "t": 1795775051,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "05c39b84aaa26c44",
+   "h": "عامر جمال جو قومي ڪرڪيٽ ۾ شاندار واپسي تي بيان",
+   "x": "قومي ڪرڪيٽر عامر جمال پاڪستاني ٽيم ۾ شاندار واپسي جو ڪريڊٽ ڊوميسٽڪ ڪرڪيٽ کي ڏنو آهي!",
+   "t": 1795776136,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9697,13 +9707,6 @@
   "last": 1795719086.4943764
  },
  "tg_debug": [
-  {
-   "t": "11-27 09:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-27 09:10",
    "ok": true,
@@ -9976,58 +9979,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-27 15:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-27",
  "recent_posts": [
-  {
-   "t": 1795603173,
-   "h": "شام جون خبرون | اربع، 25 نومبر 2026",
-   "b": "1️⃣ گئس ڪمپنين جي جوڙجڪ ۾ تبديلي جو غور ملڪ ۾ گئس شعبي جو گردش قرض وڌڻ سبب سوئي ڪمپنين کي الڳ ڪرڻ تي غور ڪيو",
-   "tt": [
-    "#25",
-    "اربع،",
-    "خبرون",
-    "شام",
-    "نومبر"
-   ],
-   "bt": [
-    "#25",
-    "اربع،",
-    "اعلان",
-    "الڳ",
-    "اهي",
-    "ايس",
-    "ايم",
-    "تبديلي",
-    "تعليمي",
-    "جناح",
-    "جوڙجڪ",
-    "خبرون",
-    "داخلائن",
-    "سال",
-    "سبب",
-    "سنڌ",
-    "سوئي",
-    "شام",
-    "شعبي",
-    "غور",
-    "قرض",
-    "ملڪ",
-    "ميڊيڪل",
-    "نومبر",
-    "هزار",
-    "وڌڻ",
-    "يونيورسٽي",
-    "پيو",
-    "ڇويهه",
-    "ڇڏيو",
-    "ڪرڻ",
-    "ڪمپنين",
-    "گئس",
-    "گردش"
-   ]
-  },
   {
    "t": 1795604023,
    "h": "ايم ڪيو ايم پاڪستان پاران 29 نومبر تي ڪراچي ۾ ريلي جي درخواست",
@@ -14521,6 +14483,35 @@
     "ڪرڻ",
     "ڪوسٽ"
    ]
+  },
+  {
+   "t": 1795776136,
+   "h": "عامر جمال جو قومي ڪرڪيٽ ۾ شاندار واپسي تي بيان",
+   "b": "قومي ڪرڪيٽر عامر جمال پاڪستاني ٽيم ۾ شاندار واپسي جو ڪريڊٽ ڊوميسٽڪ ڪرڪيٽ کي ڏنو آهي!",
+   "tt": [
+    "بيان",
+    "جمال",
+    "شاندار",
+    "عامر",
+    "قومي",
+    "واپسي",
+    "ڪرڪيٽ"
+   ],
+   "bt": [
+    "اهي",
+    "بيان",
+    "جمال",
+    "شاندار",
+    "عامر",
+    "قومي",
+    "واپسي",
+    "ٽيم",
+    "پاڪستاني",
+    "ڊوميسٽڪ",
+    "ڪريڊٽ",
+    "ڪرڪيٽ",
+    "ڪرڪيٽر"
+   ]
   }
  ],
  "repeat_log": [
@@ -14688,7 +14679,7 @@
  },
  "quality": {
   "date": "2026-11-27",
-  "editor_fixed": 17,
+  "editor_fixed": 18,
   "editor_rejected": 4,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
