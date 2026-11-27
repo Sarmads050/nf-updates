@@ -1596,7 +1596,27 @@
   "b1c9c2b4caae107c": 1795812672.642451,
   "e7794bff67d38b96": 1795812672.6424518,
   "2037d52e9786c967": 1795812672.6424522,
-  "165aaea52241040f": 1795812672.6424537
+  "165aaea52241040f": 1795812672.6424537,
+  "415d69ffa84557f4": 1795816267.1183226,
+  "2ad08fd55f892393": 1795816267.118325,
+  "de7b52356e8db3ca": 1795816267.118327,
+  "23d0d822eeae97e7": 1795816267.1183276,
+  "28b740eee3c33957": 1795816267.1183283,
+  "53ed9fee5023cd07": 1795816267.1183286,
+  "e5815dd57ba82d14": 1795816267.1183293,
+  "13bb11552eaa2e53": 1795816267.1183305,
+  "42096cebdc4319a4": 1795816267.1183312,
+  "2938a55f1b0f5dbc": 1795816267.1183321,
+  "198383408c387605": 1795816278.5760343,
+  "2bc8acd06d1e5179": 1795816278.5760365,
+  "a529f81280f67e93": 1795816278.5760372,
+  "4e0b736283f9a5e2": 1795816278.5760386,
+  "ff1f82897ad4ca4c": 1795816278.5760393,
+  "c4aa311b0ede16ec": 1795816278.5760403,
+  "894a491bb804d623": 1795816278.5760407,
+  "7da7f940ea4389c4": 1795816278.576042,
+  "76897a8d3556ef9d": 1795816278.5760427,
+  "7533963c09a804b0": 1795816278.5762372
  },
  "pending": {
   "culture2026-11-27": {
@@ -2465,7 +2485,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 02:40",
+  "time": "2026-11-28 02:51",
   "items": 9,
   "sample": [
    "New Zealand 246/5 * v India",
@@ -8020,9 +8040,9 @@
  },
  "ai_usage": {
   "date": "2026-11-28",
-  "ok": 19,
-  "fail": 28,
-  "limit": 28
+  "ok": 25,
+  "fail": 40,
+  "limit": 40
  },
  "posted_heads": [
   {
@@ -8347,7 +8367,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 02:40",
+  "time": "2026-11-28 02:51",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8450,12 +8470,12 @@
  },
  "article_diag": {
   "date": "2026-11-28",
-  "tried": 1,
-  "decoded": 1,
-  "text": 1,
-  "story": 1
+  "tried": 2,
+  "decoded": 2,
+  "text": 2,
+  "story": 2
  },
- "ai_last_error": "02:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "02:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-28",
   "models": [
@@ -8498,14 +8518,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
    "ok": 12,
-   "fail": 6,
+   "fail": 7,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8513,7 +8533,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8521,7 +8541,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 17,
+   "ok": 18,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8529,7 +8549,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8537,14 +8557,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8552,7 +8572,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 18,
+   "ok": 19,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8712,8 +8732,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 24,
-  "old": 24,
+  "found": 29,
+  "old": 29,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8776,8 +8796,8 @@
   "date": "2026-11-28",
   "count": 2,
   "last": 1795812670.4742548,
-  "city_i": 6,
-  "dry": 1795806078.7637875
+  "city_i": 10,
+  "dry": 1795816258.737475
  },
  "gemini_day_dead": {
   "day": "2026-11-27",
@@ -9502,13 +9522,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 20:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 20:30",
    "ok": true,
    "n": 0,
@@ -9776,6 +9789,13 @@
   },
   {
    "t": "11-28 02:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-28 02:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14730,7 +14750,7 @@
  "quality": {
   "date": "2026-11-28",
   "editor_fixed": 2,
-  "editor_rejected": 0,
+  "editor_rejected": 1,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
