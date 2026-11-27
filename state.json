@@ -1628,7 +1628,9 @@
   "eccb503722333dd2": 1795771270.8549788,
   "a6b401d65b45e068": 1795771270.8549814,
   "41ae1f69e0cec6ea": 1795771270.855167,
-  "851222b6addd3105": 1795771279.3048604
+  "851222b6addd3105": 1795771279.3048604,
+  "e8673fbff7d0485d": 1795772468.906418,
+  "aa701cc687e4e8b7": 1795772468.906421
  },
  "pending": {
   "culture2026-11-27": {
@@ -1658,7 +1660,7 @@
   "last_week": "",
   "last_check": "2026-11-27"
  },
- "gemini_model": "gemini-3.5-flash-lite",
+ "gemini_model": "gemini-flash-lite-latest",
  "job_links": [
   "https://www.ilmkidunya.com/jobs/technician-lab-jobs-in-pphi-sindh-242409",
   "https://www.ilmkidunya.com/jobs/it-infrastructure-head-jobs-in-punjab-social-protection-authority-242317",
@@ -2457,10 +2459,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 14:31",
+  "time": "2026-11-27 14:41",
   "items": 9,
   "sample": [
-   "South Australia 287/10 & 277/10 v Victoria 417/10 & 102/7 *",
+   "South Australia 277/10 & 287/10 v Victoria 102/7 & 417/10 *",
    "New Zealand 246/5 * v India",
    "Karnali Province Under-19s 78/10 * v Lumbini Province Under-19s 223/10"
   ]
@@ -8020,9 +8022,9 @@
  },
  "ai_usage": {
   "date": "2026-11-27",
-  "ok": 205,
-  "fail": 351,
-  "limit": 348
+  "ok": 206,
+  "fail": 353,
+  "limit": 350
  },
  "posted_heads": [
   {
@@ -8347,7 +8349,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 14:31",
+  "time": "2026-11-27 14:41",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8455,7 +8457,7 @@
   "text": 20,
   "story": 17
  },
- "ai_last_error": "14:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "14:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-27",
   "models": [
@@ -8498,14 +8500,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
    "ok": 61,
-   "fail": 28,
+   "fail": 29,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 2,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 89,
+   "ok": 90,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8513,7 +8515,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 89,
+   "ok": 90,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8521,7 +8523,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 89,
+   "ok": 90,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8529,7 +8531,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 89,
+   "ok": 90,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8537,14 +8539,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 89,
+   "ok": 90,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 86,
+   "ok": 87,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8553,9 +8555,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
    "ok": 61,
-   "fail": 28,
+   "fail": 29,
    "items": 15,
-   "fail_streak": 13,
+   "fail_streak": 14,
    "last_status": 503
   }
  },
@@ -8920,8 +8922,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 24,
-  "old": 24,
+  "found": 32,
+  "old": 32,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8983,8 +8985,8 @@
   "date": "2026-11-27",
   "count": 7,
   "last": 1795769479.6372457,
-  "city_i": 24,
-  "dry": 1795771896.7009025
+  "city_i": 6,
+  "dry": 1795772462.1921077
  },
  "gemini_day_dead": {
   "day": "2026-11-27",
@@ -9699,13 +9701,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 08:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 08:10",
    "ok": true,
    "n": 0,
@@ -9973,6 +9968,13 @@
   },
   {
    "t": "11-27 14:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 14:40",
    "ok": true,
    "n": 0,
    "ids": [],
