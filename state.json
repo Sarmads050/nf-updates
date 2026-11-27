@@ -1708,7 +1708,7 @@
  "sindh_single": {
   "date": "2026-11-27",
   "count": 0,
-  "last": 1795706479.1519563,
+  "last": 1795748547.8436394,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2460,10 +2460,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 07:51",
+  "time": "2026-11-27 08:02",
   "items": 9,
   "sample": [
-   "South Australia 229/6 & 287/10 * v Victoria 417/10",
+   "South Australia 287/10 & 233/6 * v Victoria 417/10",
    "New Zealand 131/4 * v India",
    "Karnali Province Under-19s v Lumbini Province Under-19s"
   ]
@@ -8039,9 +8039,9 @@
  },
  "ai_usage": {
   "date": "2026-11-27",
-  "ok": 90,
-  "fail": 160,
-  "limit": 160
+  "ok": 97,
+  "fail": 174,
+  "limit": 174
  },
  "posted_heads": [
   {
@@ -8366,10 +8366,10 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 07:51",
+  "time": "2026-11-27 08:02",
   "steps": []
  },
- "roundup_am": "2026-11-26",
+ "roundup_am": "2026-11-27",
  "group_shares": {
   "1": {
    "date": "2026-11-26",
@@ -8474,7 +8474,7 @@
   "text": 13,
   "story": 11
  },
- "ai_last_error": "07:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:02 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-27",
   "models": [
@@ -8517,14 +8517,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
    "ok": 36,
-   "fail": 13,
+   "fail": 14,
    "items": 10,
-   "fail_streak": 2,
+   "fail_streak": 3,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8532,7 +8532,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8540,7 +8540,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8548,7 +8548,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8556,14 +8556,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8571,7 +8571,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
-   "ok": 49,
+   "ok": 50,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8934,18 +8934,18 @@
  "region_posts": {
   "date": "2026-11-27",
   "district": 0,
-  "sindh": 1,
+  "sindh": 2,
   "pakistan": 6
  },
  "report_acc": {
-  "posted": 1,
-  "found": 43,
-  "old": 43,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-27 07",
+ "report_hour": "2026-11-27 08",
  "kawish_upload_times": {
   "_date": "2026-11-27",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9002,8 +9002,8 @@
   "date": "2026-11-27",
   "count": 1,
   "last": 1795722064.1359074,
-  "city_i": 24,
-  "dry": 1795747860.5121763
+  "city_i": 6,
+  "dry": 1795748530.9490602
  },
  "gemini_day_dead": {
   "day": "2026-11-26",
@@ -9702,7 +9702,9 @@
  ],
  "reels": {
   "date": "2026-11-27",
-  "done": []
+  "done": [
+   "08:00"
+  ]
  },
  "kawish_queue": [],
  "kawish_post": {
@@ -9711,13 +9713,6 @@
   "last": 1795719086.4943764
  },
  "tg_debug": [
-  {
-   "t": "11-27 01:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-27 01:40",
    "ok": true,
@@ -9986,6 +9981,13 @@
   },
   {
    "t": "11-27 07:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 08:00",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -15036,6 +15038,5 @@
   "kawish_crosschecked": 0,
   "wrong_place": 0,
   "repeat": 4
- },
- "_dup": true
+ }
 }
