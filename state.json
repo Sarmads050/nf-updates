@@ -2447,12 +2447,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 12:31",
+  "time": "2026-11-27 12:41",
   "items": 9,
   "sample": [
-   "South Australia 287/10 & 277/10 v Victoria 98/7 & 417/10 *",
+   "South Australia 287/10 & 277/10 v Victoria 417/10 & 102/7 *",
    "New Zealand 246/5 * v India",
-   "Karnali Province Under-19s v Lumbini Province Under-19s 223/10 *"
+   "Karnali Province Under-19s 1 * v Lumbini Province Under-19s 223/10"
   ]
  },
  "agri_news": {
@@ -8353,7 +8353,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 12:31",
+  "time": "2026-11-27 12:41",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8504,14 +8504,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
    "ok": 54,
-   "fail": 23,
+   "fail": 24,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8519,7 +8519,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8527,7 +8527,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8535,7 +8535,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8543,14 +8543,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 77,
+   "ok": 78,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 74,
+   "ok": 75,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8559,9 +8559,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
    "ok": 61,
-   "fail": 16,
+   "fail": 17,
    "items": 15,
-   "fail_streak": 1,
+   "fail_streak": 2,
    "last_status": 502
   }
  },
@@ -8926,8 +8926,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 26,
-  "old": 26,
+  "found": 35,
+  "old": 35,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9704,13 +9704,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 06:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 06:20",
    "ok": true,
    "n": 0,
@@ -9978,6 +9971,13 @@
   },
   {
    "t": "11-27 12:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 12:40",
    "ok": true,
    "n": 0,
    "ids": [],
