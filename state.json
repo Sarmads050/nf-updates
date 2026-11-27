@@ -1,8 +1,5 @@
 {
  "seen": {
-  "4ccdd85984b437a8": 1795153257.1730847,
-  "855a7bc0d5dd92b6": 1795153257.1730871,
-  "f077ad0f388da2ec": 1795153257.1733246,
   "7b743f3b479db8c1": 1795153868.1147282,
   "626e9e8a2cbf04c5": 1795154746.270147,
   "2669181b13b0965a": 1795154746.2701492,
@@ -2454,12 +2451,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 10:42",
+  "time": "2026-11-27 10:50",
   "items": 9,
   "sample": [
-   "South Australia 287/10 & 277/10 v Victoria 32/4 & 417/10 *",
+   "South Australia 287/10 & 277/10 v Victoria 417/10 & 42/4 *",
    "New Zealand 246/5 * v India",
-   "Karnali Province Under-19s v Lumbini Province Under-19s 128/4 *"
+   "Karnali Province Under-19s v Lumbini Province Under-19s 146/4 *"
   ]
  },
  "agri_news": {
@@ -4882,56 +4879,8 @@
   "last": 1795758155.2609768
  },
  "trends": {
-  "last": 1795747256.3130956,
+  "last": 1795758650.8147602,
   "terms": [
-   {
-    "term": "gta6 cheat codes",
-    "traffic": 100,
-    "news": "GTA 6 cheats: How to unlock cash, unlimited ammo and more",
-    "t": 1795144255,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "shubman gill",
-    "traffic": 100,
-    "news": "DRS controversy adds to India’s woes as New Zealand mount strong fightback",
-    "t": 1795144255,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "kl rahul",
-    "traffic": 200,
-    "news": "Nicholls, Phillips rally New Zealand after Bumrah burst",
-    "t": 1795144255,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "cai",
-    "traffic": 100,
-    "news": "US, China, Russia sign ‘peace declaration’ after historic Trump, Xi, Putin meeting",
-    "t": 1795144255,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "art theft",
-    "traffic": 100,
-    "news": "Woman who stole former Tottenham star’s art collection jailed",
-    "t": 1795144255,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "anshul kamboj",
-    "traffic": 200,
-    "news": "India vs New Zealand | Preferring Anshul Kamboj over Mohammed Siraj, a decision that defies logic",
-    "t": 1795144255,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "sri lanka national cricket team vs pakistan national cricket team",
     "traffic": 10000,
@@ -8027,15 +7976,63 @@
     "t": 1795747256,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "motor spirit price change ogra",
+    "traffic": 1000,
+    "news": "Govt cuts petrol, diesel prices for third time this week",
+    "t": 1795758650,
+    "cat": "fuel",
+    "sindh": false
+   },
+   {
+    "term": "duran duran guitarist andy taylor",
+    "traffic": 100,
+    "news": "Duran Duran guitarist and songwriter Andy Taylor dies at 65",
+    "t": 1795758650,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "teams",
+    "traffic": 100,
+    "news": "Enmarket Arena to host Savannah Shootout high school hoops event",
+    "t": 1795758650,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "موسم سرما",
+    "traffic": 500,
+    "news": "",
+    "t": 1795758650,
+    "cat": "weather_disaster",
+    "sindh": false
+   },
+   {
+    "term": "storm",
+    "traffic": 100,
+    "news": "Thanksgiving storms live updates: Heavy rains, winds and king tides batter coastal areas as severe weather threatens holiday travel; 67 million under coastal flood alerts",
+    "t": 1795758650,
+    "cat": "weather_disaster",
+    "sindh": false
+   },
+   {
+    "term": "inji vellam",
+    "traffic": 100,
+    "news": "Pre-release Talk: Mani Ratnam’s ‘Inji Vellam’",
+    "t": 1795758650,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-27",
-  "ok": 164,
-  "fail": 288,
-  "limit": 288
+  "ok": 165,
+  "fail": 290,
+  "limit": 290
  },
  "posted_heads": [
   {
@@ -8360,7 +8357,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 10:42",
+  "time": "2026-11-27 10:50",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8468,7 +8465,7 @@
   "text": 17,
   "story": 14
  },
- "ai_last_error": "10:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "10:50 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-27",
   "models": [
@@ -8511,14 +8508,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
    "ok": 48,
-   "fail": 18,
+   "fail": 19,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8526,7 +8523,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8534,7 +8531,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8542,7 +8539,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8550,14 +8547,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 66,
+   "ok": 67,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 63,
+   "ok": 64,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8566,9 +8563,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
    "ok": 60,
-   "fail": 6,
+   "fail": 7,
    "items": 15,
-   "fail_streak": 6,
+   "fail_streak": 7,
    "last_status": 502
   }
  },
@@ -8933,8 +8930,8 @@
  },
  "report_acc": {
   "posted": 4,
-  "found": 32,
-  "old": 32,
+  "found": 40,
+  "old": 40,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9725,13 +9722,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 04:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 04:30",
    "ok": true,
    "n": 0,
@@ -9999,6 +9989,13 @@
   },
   {
    "t": "11-27 10:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 10:50",
    "ok": true,
    "n": 0,
    "ids": [],
