@@ -2475,12 +2475,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 01:51",
+  "time": "2026-11-28 02:01",
   "items": 10,
   "sample": [
    "New Zealand 246/5 * v India",
    "Zimbabwe A 279/5 * v Ireland A 278/9",
-   "Bangladesh A 232/8 v Pakistan A 233/5 *"
+   "Bangladesh A 232/8 v Pakistan A 233/5"
   ]
  },
  "agri_news": {
@@ -4903,64 +4903,8 @@
   "last": 1795806219.1545072
  },
  "trends": {
-  "last": 1795802468.6273975,
+  "last": 1795813281.4262426,
   "terms": [
-   {
-    "term": "al-ahli vs al-nassr",
-    "traffic": 10000,
-    "news": "Ivan Toney, Bento, Ibanez, Felix: Where Al Ahli vs Al Nassr will be won or lost",
-    "t": 1795199470,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "2027 hyundai elantra hybrid",
-    "traffic": 200,
-    "news": "2027 Hyundai Elantra Sedan’s Radial Redesign Leaves Gas, Hybrid Engines Relatively Unchanged",
-    "t": 1795199470,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "icc world test championship",
-    "traffic": 2000,
-    "news": "Pakistan secure WTC27 series win over Sri Lanka",
-    "t": 1795199470,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "imam-ul-haq",
-    "traffic": 100,
-    "news": "Imam-ul-Haq returns to Yorkshire for 2027 season",
-    "t": 1795199470,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "saudi arabia news",
-    "traffic": 200,
-    "news": "Iran war live: Houthis demand evacuation of Saudi ports after Hodeidah hit",
-    "t": 1795199470,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "hug",
-    "traffic": 200,
-    "news": "Prince Harry ‘squeezing American accents’ out of Archie and Lilibet",
-    "t": 1795199470,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "aishwarya rai bachchan",
-    "traffic": 200,
-    "news": "Aishwarya Rai Bachchan’s former bodyguard makes shocking claim of 'keeping her safe from' Salman Khan",
-    "t": 1795199470,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "abu dhabi t10 league final",
     "traffic": 1000,
@@ -8032,15 +7976,63 @@
     "t": 1795802468,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "mitti de baway drama",
+    "traffic": 200,
+    "news": "Mubashir Mehmood on finding himself in Joji and the success of 'Mitti De Baway'",
+    "t": 1795813281,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "nottm forest vs chelsea",
+    "traffic": 2000,
+    "news": "Chelsea projected lineup vs Nottingham Forest: Will Moises Caicedo play?",
+    "t": 1795813281,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "francesca albanese",
+    "traffic": 100,
+    "news": "UN Expert Costa Rica",
+    "t": 1795813281,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "dubai capitals vs sharjah warriors standings",
+    "traffic": 10000,
+    "news": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
+    "t": 1795813281,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "cricbuzz live",
+    "traffic": 100,
+    "news": "Full Scorecard of Yas Lions vs UAE Bulls, Abu Dhabi T10 2026, Final - Score Report | ESPN.com",
+    "t": 1795813281,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "javokhir sindarov",
+    "traffic": 200,
+    "news": "Can Gukesh Deliver A Rajinikanth-Style Blockbuster?",
+    "t": 1795813281,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-28",
-  "ok": 18,
-  "fail": 26,
-  "limit": 26
+  "ok": 19,
+  "fail": 28,
+  "limit": 28
  },
  "posted_heads": [
   {
@@ -8365,7 +8357,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 01:51",
+  "time": "2026-11-28 02:01",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8473,7 +8465,7 @@
   "text": 1,
   "story": 1
  },
- "ai_last_error": "01:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "02:01 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-28",
   "models": [
@@ -8516,14 +8508,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
    "ok": 8,
-   "fail": 5,
+   "fail": 6,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 13,
+   "ok": 14,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8531,7 +8523,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 13,
+   "ok": 14,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8539,7 +8531,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 13,
+   "ok": 14,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8547,7 +8539,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 13,
+   "ok": 14,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8555,14 +8547,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 13,
+   "ok": 14,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 13,
+   "ok": 14,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8570,7 +8562,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 13,
+   "ok": 14,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8729,14 +8721,14 @@
   "pakistan": 1
  },
  "report_acc": {
-  "posted": 1,
-  "found": 28,
-  "old": 28,
+  "posted": 0,
+  "found": 0,
+  "old": 0,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
  },
- "report_hour": "2026-11-28 01",
+ "report_hour": "2026-11-28 02",
  "kawish_upload_times": {
   "_date": "2026-11-28",
   "19-10-2026": "2026-10-19 19:10 PKT",
@@ -9520,13 +9512,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 19:30",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 19:40",
    "ok": true,
    "n": 0,
@@ -9794,6 +9779,13 @@
   },
   {
    "t": "11-28 01:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-28 02:00",
    "ok": true,
    "n": 0,
    "ids": [],
