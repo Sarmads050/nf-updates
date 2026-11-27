@@ -1607,7 +1607,17 @@
   "2a1c1492ad67a817": 1795746097.757605,
   "d1166b43847b8058": 1795746097.7576065,
   "6245acebd2414d5e": 1795746097.7576077,
-  "d0165c7a3acad3dc": 1795746097.757784
+  "d0165c7a3acad3dc": 1795746097.757784,
+  "d0dbf3f38f4af42b": 1795747284.5564694,
+  "1dc7aeaedfc3b515": 1795747284.5564728,
+  "2070e11daa81ad96": 1795747284.5564742,
+  "5d75c2e3855fc4d6": 1795747284.556475,
+  "51a1aefce05b7b9e": 1795747284.5564759,
+  "057b3406e043de40": 1795747284.5564766,
+  "5b72432cd65aa985": 1795747284.556478,
+  "a21b74265ed0f6b5": 1795747284.5564787,
+  "f0c1a60145eb499c": 1795747284.5564795,
+  "4b56149aed715a35": 1795747284.556722
  },
  "pending": {},
  "queue": [],
@@ -2450,11 +2460,11 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 07:31",
+  "time": "2026-11-27 07:41",
   "items": 9,
   "sample": [
    "South Australia 222/6 & 287/10 * v Victoria 417/10",
-   "New Zealand 123/4 * v India",
+   "New Zealand 131/4 * v India",
    "Karnali Province Under-19s v Lumbini Province Under-19s"
   ]
  },
@@ -4878,16 +4888,8 @@
   "last": 1795739600.3370895
  },
  "trends": {
-  "last": 1795736455.4904113,
+  "last": 1795747256.3130956,
   "terms": [
-   {
-    "term": "asif ali zardari",
-    "traffic": 200,
-    "news": "New Provinces in Pakistan Under Discussion",
-    "t": 1795133071,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "gta6 cheat codes",
     "traffic": 100,
@@ -7967,15 +7969,79 @@
     "t": 1795736455,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "rachin ravindra",
+    "traffic": 100,
+    "news": "KL Rahul's leaping gully catch removes Rachin Ravindra on Day 5 at Wellington",
+    "t": 1795747256,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "akash deep",
+    "traffic": 200,
+    "news": "Gambhir, Gill chase their defining SENA win in Christchurch",
+    "t": 1795747256,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "new zealand vs india",
+    "traffic": 20000,
+    "news": "New Zealand 77-1 at lunch after being sent in by India on Day 1 of the 2nd cricket test",
+    "t": 1795747256,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "برق",
+    "traffic": 200,
+    "news": "اشتباكات عنيفة توقف مباراة ناديين من تركيا وإسرائيل",
+    "t": 1795747256,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "اسلام آباد",
+    "traffic": 200,
+    "news": "",
+    "t": 1795747256,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "lion",
+    "traffic": 100,
+    "news": "Lions to 'move forward' after latest Thanksgiving heartbreak",
+    "t": 1795747256,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "black friday",
+    "traffic": 100,
+    "news": "Amazon's $36 smokeless mini tabletop fire pit is perfect for chilly evenings on the patio",
+    "t": 1795747256,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "olympiacos f.c. vs ac milan standings",
+    "traffic": 1000,
+    "news": "SENSATIONAL COMEBACK IN PIRAEUS",
+    "t": 1795747256,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-27",
-  "ok": 87,
-  "fail": 154,
-  "limit": 154
+  "ok": 90,
+  "fail": 160,
+  "limit": 160
  },
  "posted_heads": [
   {
@@ -8300,7 +8366,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 07:31",
+  "time": "2026-11-27 07:41",
   "steps": []
  },
  "roundup_am": "2026-11-26",
@@ -8403,12 +8469,12 @@
  },
  "article_diag": {
   "date": "2026-11-27",
-  "tried": 12,
-  "decoded": 12,
-  "text": 12,
-  "story": 10
+  "tried": 13,
+  "decoded": 13,
+  "text": 13,
+  "story": 11
  },
- "ai_last_error": "07:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "07:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-27",
   "models": [
@@ -8451,14 +8517,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
    "ok": 36,
-   "fail": 11,
+   "fail": 12,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 47,
+   "ok": 48,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8466,7 +8532,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 47,
+   "ok": 48,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8474,7 +8540,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 47,
+   "ok": 48,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8482,7 +8548,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 47,
+   "ok": 48,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8490,14 +8556,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 47,
+   "ok": 48,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 47,
+   "ok": 48,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8505,7 +8571,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
-   "ok": 47,
+   "ok": 48,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8873,8 +8939,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 27,
-  "old": 27,
+  "found": 36,
+  "old": 36,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8936,8 +9002,8 @@
   "date": "2026-11-27",
   "count": 1,
   "last": 1795722064.1359074,
-  "city_i": 16,
-  "dry": 1795746067.5534887
+  "city_i": 20,
+  "dry": 1795747271.8512108
  },
  "gemini_day_dead": {
   "day": "2026-11-26",
@@ -9646,13 +9712,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 01:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 01:20",
    "ok": true,
    "n": 0,
@@ -9920,6 +9979,13 @@
   },
   {
    "t": "11-27 07:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 07:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14801,11 +14867,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-25 00:52",
-   "new": "شهید بینظیرآباد ۾ سست ڀاڻ جي فراهمي جو حڪم",
-   "old": "شهيد بينظير آباد: ڊي سي جو سرڪاري قيمتن تي ڀاڻ جي فراهمي جو حڪم"
-  },
-  {
    "t": "11-25 05:33",
    "new": "پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽاتائي",
    "old": "پيٽرول اگهن ۾ گهٽتائي جو اعلان"
@@ -14949,6 +15010,11 @@
    "t": "11-27 04:41",
    "new": "پاڪستان ۾ سون جي اگهه ۾ واڌ",
    "old": "ملڪ ۾ سون جي اگهن ۾ واڌ"
+  },
+  {
+   "t": "11-27 07:41",
+   "new": "پيٽرول ۽ ڊيزل جي اگھن ۾ گھٽتائي",
+   "old": "پيٽرول ۽ ڊيزل جي اگهن ۾ معمولي گهٽتائي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14969,6 +15035,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 3
- }
+  "repeat": 4
+ },
+ "_dup": true
 }
