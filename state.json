@@ -2496,10 +2496,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 03:13",
+  "time": "2026-11-28 03:32",
   "items": 9,
   "sample": [
-   "New Zealand 251/6 * v India",
+   "New Zealand 260/6 * v India",
    "Sharjah Warriorz 130/3 * v Dubai Capitals 126/10",
    "Sudur Paschim Province Under-19s v Karnali Province Under-19s"
   ]
@@ -8378,7 +8378,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 03:13",
+  "time": "2026-11-28 03:32",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8529,14 +8529,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
    "ok": 12,
-   "fail": 9,
+   "fail": 10,
    "items": 10,
-   "fail_streak": 3,
+   "fail_streak": 4,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8544,7 +8544,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8552,7 +8552,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 20,
+   "ok": 21,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8560,7 +8560,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8568,14 +8568,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8583,7 +8583,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 21,
+   "ok": 22,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8807,8 +8807,8 @@
   "date": "2026-11-28",
   "count": 2,
   "last": 1795812670.4742548,
-  "city_i": 18,
-  "dry": 1795817583.6708078
+  "city_i": 22,
+  "dry": 1795818366.9038572
  },
  "gemini_day_dead": {
   "day": "2026-11-27",
@@ -9533,13 +9533,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 20:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 21:00",
    "ok": true,
    "n": 0,
@@ -9807,6 +9800,13 @@
   },
   {
    "t": "11-28 03:12",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-28 03:20",
    "ok": true,
    "n": 0,
    "ids": [],
