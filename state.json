@@ -1632,7 +1632,8 @@
   "b33497bcf5237200": 1795777304.204666,
   "2c8c1b0f0f62bd85": 1795778482.661701,
   "39e1b6f15e8d0fd3": 1795778482.6617033,
-  "e66fa7a32fbb5a09": 1795778482.6617057
+  "e66fa7a32fbb5a09": 1795778482.6617057,
+  "1a4893eab3d0866e": 1795779080.6273637
  },
  "pending": {
   "culture2026-11-27": {
@@ -1726,7 +1727,7 @@
  "sindh_single": {
   "date": "2026-11-27",
   "count": 0,
-  "last": 1795770718.0169864,
+  "last": 1795779077.3807943,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1819,7 +1820,8 @@
    "ff45808ed42b2bff",
    "7e7f499efbbb3d69",
    "9620f1f731ae6250",
-   "471a0ab3dffb2df9"
+   "471a0ab3dffb2df9",
+   "1a4893eab3d0866e"
   ]
  },
  "last_post_id": "1444130002106066_122125074873503839",
@@ -2468,10 +2470,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-27 16:21",
+  "time": "2026-11-27 16:31",
   "items": 9,
   "sample": [
-   "South Australia 277/10 & 287/10 v Victoria 417/10 & 102/7 *",
+   "South Australia 277/10 & 287/10 v Victoria 102/7 & 417/10 *",
    "New Zealand 246/5 * v India",
    "Karnali Province Under-19s 78/10 * v Lumbini Province Under-19s 223/10"
   ]
@@ -8031,9 +8033,9 @@
  },
  "ai_usage": {
   "date": "2026-11-27",
-  "ok": 245,
-  "fail": 425,
-  "limit": 418
+  "ok": 248,
+  "fail": 431,
+  "limit": 424
  },
  "posted_heads": [
   {
@@ -8358,7 +8360,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-27 16:21",
+  "time": "2026-11-27 16:31",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8466,7 +8468,7 @@
   "text": 24,
   "story": 19
  },
- "ai_last_error": "16:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "16:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-27",
   "models": [
@@ -8508,15 +8510,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-27",
-   "ok": 69,
+   "ok": 70,
    "fail": 32,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-27",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8524,7 +8526,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-27",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8532,7 +8534,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8540,7 +8542,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8548,14 +8550,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-27",
-   "ok": 101,
+   "ok": 102,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-27",
-   "ok": 98,
+   "ok": 99,
    "fail": 3,
    "items": 10,
    "fail_streak": 0,
@@ -8564,9 +8566,9 @@
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-27",
    "ok": 61,
-   "fail": 40,
+   "fail": 41,
    "items": 15,
-   "fail_streak": 25,
+   "fail_streak": 26,
    "last_status": 503
   }
  },
@@ -8931,8 +8933,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 16,
-  "old": 16,
+  "found": 24,
+  "old": 24,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9711,13 +9713,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 10:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 10:10",
    "ok": true,
    "n": 0,
@@ -9985,6 +9980,13 @@
   },
   {
    "t": "11-27 16:20",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-27 16:30",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14520,11 +14522,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-25 15:31",
-   "new": "ڪراچي ۾ 6 ماڙ عمارت ڊھي پئي",
-   "old": "ڪراچي: بلوچ ڪالوني ويجهو ڇهه ماڙ عمارت ڊهي پئي"
-  },
-  {
    "t": "11-25 18:35",
    "new": "نوابشاهه: فوڊ اٿارٽي پاران 200 ڪارٽن خراب جوس ضبط",
    "old": "بجلي جي وڌندڙ بلن ۽ ٽئڪسن تي عوام پريشان"
@@ -14668,6 +14665,11 @@
    "t": "11-27 14:51",
    "new": "سنڌ حڪومت پاران ايم ڪيو ايم کي ريلي جي اجازت نہ ملي",
    "old": "سنڌ حڪومت پاران 29 نومبر تي ايم ڪيو ايم کي ريلي جي اجازت نه ڏيڻ جو فيص"
+  },
+  {
+   "t": "11-27 16:31",
+   "new": "سنڌ | پيٹرول ۽ ڊيزل جي قيمتن بابت اهم معاهدو",
+   "old": "پيٽرول رليف پيڪيج ۾ 1000 سي سي تائين گاڏيون شامل ڪرڻ جو امڪان"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14688,6 +14690,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 12
- }
+  "repeat": 13
+ },
+ "_dup": true
 }
