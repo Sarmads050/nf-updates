@@ -1633,7 +1633,8 @@
   "c3c1dcc839d6ae01": 1795846263.9042645,
   "eac2a6bdaa9ac49f": 1795846263.9042664,
   "b295fe35af2e2712": 1795846271.6679587,
-  "550eddb3c80829c2": 1795846271.6681538
+  "550eddb3c80829c2": 1795846271.6681538,
+  "017b15354b8e9915": 1795846858.1897547
  },
  "pending": {},
  "queue": [],
@@ -2463,12 +2464,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 11:11",
+  "time": "2026-11-28 11:20",
   "items": 9,
   "sample": [
    "New Zealand 356/10 v India 116/6 *",
-   "Sudur Paschim Province Under-19s 68/10 v Karnali Province Under-19s 47/3 *",
-   "Gandaki Province Under-19s 174/7 * v Koshi Province Under-19s"
+   "Sudur Paschim Province Under-19s 68/10 v Karnali Province Under-19s 51/5 *",
+   "Gandaki Province Under-19s 177/8 * v Koshi Province Under-19s"
   ]
  },
  "agri_news": {
@@ -4891,48 +4892,8 @@
   "last": 1795842219.641136
  },
  "trends": {
-  "last": 1795835458.6009128,
+  "last": 1795846853.420731,
   "terms": [
-   {
-    "term": "ramayana",
-    "traffic": 100,
-    "news": "'Ramayana: Rise of a Legend' box office collection day 16: Ranbir Kapoor, Yash film maintains strong hold",
-    "t": 1795233054,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "blind cricket",
-    "traffic": 500,
-    "news": "Pakistan seal Asia Cup glory after winning all three league matches",
-    "t": 1795233054,
-    "cat": "cricket",
-    "sindh": false
-   },
-   {
-    "term": "women's big bash league",
-    "traffic": 100,
-    "news": "WATCH: Maia Bouchier takes a stunning running catch to dismiss Olivia Porter as Adelaide Strikers edge Melbourne Renegades in last-ball thriller in WBBL|12",
-    "t": 1795233054,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "international cricket council",
-    "traffic": 200,
-    "news": "Shah Rukh Khan, Sachin Tendulkar unite to hail Jay Shah",
-    "t": 1795233054,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "پٹرولیم",
-    "traffic": 500,
-    "news": "",
-    "t": 1795233054,
-    "cat": "fuel",
-    "sindh": false
-   },
    {
     "term": "lasith croospulle",
     "traffic": 200,
@@ -7980,15 +7941,63 @@
     "t": 1795835458,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "petrol prices",
+    "traffic": 200,
+    "news": "Pakistan Petroleum Levy | Government Jamaat-e-Islami Talks | Farmers Relief - Aaj News",
+    "t": 1795846853,
+    "cat": "fuel",
+    "sindh": false
+   },
+   {
+    "term": "dhruv jurel",
+    "traffic": 5000,
+    "news": "Blundell, bowlers give Black Caps upper hand against India in Christchurch",
+    "t": 1795846853,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "روزنامہ جنگ",
+    "traffic": 500,
+    "news": "کم عمر بچی ہلاکت کیس ؛ملزمان کے جسمانی ریمانڈ میں ایک دن کی توسیع",
+    "t": 1795846853,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "ایران",
+    "traffic": 100,
+    "news": "",
+    "t": 1795846853,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "gladiators",
+    "traffic": 100,
+    "news": "Gladiators loses five athletes before start of new series",
+    "t": 1795846853,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "gurnoor brar",
+    "traffic": 100,
+    "news": "Gurnoor Brar Hails Shubman Gill's Captaincy, Reveals Dale Steyn As Childhood Bowling Inspiration",
+    "t": 1795846853,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-28",
-  "ok": 169,
-  "fail": 306,
-  "limit": 306
+  "ok": 171,
+  "fail": 310,
+  "limit": 310
  },
  "posted_heads": [
   {
@@ -8313,7 +8322,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 11:11",
+  "time": "2026-11-28 11:20",
   "steps": []
  },
  "roundup_am": "2026-11-28",
@@ -8421,7 +8430,7 @@
   "text": 23,
   "story": 16
  },
- "ai_last_error": "11:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "11:20 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-28",
   "models": [
@@ -8464,14 +8473,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
    "ok": 36,
-   "fail": 34,
+   "fail": 35,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8479,7 +8488,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8487,7 +8496,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 69,
+   "ok": 70,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8495,7 +8504,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8503,14 +8512,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8518,7 +8527,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 70,
+   "ok": 71,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8678,8 +8687,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 10,
-  "old": 10,
+  "found": 19,
+  "old": 19,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9448,13 +9457,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-28 04:50",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-28 05:00",
    "ok": true,
    "n": 0,
@@ -9722,6 +9724,13 @@
   },
   {
    "t": "11-28 11:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-28 11:20",
    "ok": true,
    "n": 0,
    "ids": [],
