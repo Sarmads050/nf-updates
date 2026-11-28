@@ -1,6 +1,5 @@
 {
  "seen": {
-  "311418a520469a24": 1795231886.456311,
   "0d9e86eb17144f5f": 1795233067.6279955,
   "98bc5fd8b518f147": 1795233067.6279979,
   "7875fe39b4b81568": 1795234862.5068333,
@@ -1622,7 +1621,12 @@
   "4a3abcfc1646adec": 1795833703.2317388,
   "c98bcea23f2c71ee": 1795833703.2319047,
   "5044e2e1d1e42ac4": 1795834935.8432553,
-  "51021c4999a1271f": 1795836072.7791042
+  "51021c4999a1271f": 1795836072.7791042,
+  "26468efdfdebc0ef": 1795837272.1442008,
+  "d99373355f45c11e": 1795837272.1442018,
+  "3210ac00f78ca5fa": 1795837272.144203,
+  "bfeecf01d4895636": 1795837272.1442034,
+  "ce007c9be0177a91": 1795837272.1443071
  },
  "pending": {
   "culture2026-11-27": {
@@ -2497,12 +2501,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 08:30",
+  "time": "2026-11-28 08:41",
   "items": 9,
   "sample": [
-   "New Zealand 356/10 v India 68/3 *",
-   "Sudur Paschim Province Under-19s v Karnali Province Under-19s",
-   "Gandaki Province Under-19s v Koshi Province Under-19s"
+   "New Zealand 356/10 v India 72/3 *",
+   "Sudur Paschim Province Under-19s 5/2 * v Karnali Province Under-19s",
+   "Gandaki Province Under-19s 9 * v Koshi Province Under-19s"
   ]
  },
  "agri_news": {
@@ -8020,9 +8024,9 @@
  },
  "ai_usage": {
   "date": "2026-11-28",
-  "ok": 106,
-  "fail": 190,
-  "limit": 190
+  "ok": 108,
+  "fail": 194,
+  "limit": 194
  },
  "posted_heads": [
   {
@@ -8347,7 +8351,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 08:31",
+  "time": "2026-11-28 08:41",
   "steps": []
  },
  "roundup_am": "2026-11-28",
@@ -8450,12 +8454,12 @@
  },
  "article_diag": {
   "date": "2026-11-28",
-  "tried": 15,
-  "decoded": 14,
-  "text": 14,
-  "story": 12
+  "tried": 16,
+  "decoded": 15,
+  "text": 15,
+  "story": 13
  },
- "ai_last_error": "08:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-28",
   "models": [
@@ -8497,7 +8501,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
-   "ok": 28,
+   "ok": 29,
    "fail": 26,
    "items": 10,
    "fail_streak": 0,
@@ -8505,7 +8509,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8513,7 +8517,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8521,7 +8525,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 53,
+   "ok": 54,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8529,7 +8533,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8537,14 +8541,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8552,7 +8556,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 54,
+   "ok": 55,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8712,8 +8716,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 26,
-  "old": 26,
+  "found": 35,
+  "old": 35,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8776,8 +8780,8 @@
   "date": "2026-11-28",
   "count": 2,
   "last": 1795812670.4742548,
-  "city_i": 6,
-  "dry": 1795836065.628715
+  "city_i": 10,
+  "dry": 1795837266.6632736
  },
  "gemini_day_dead": {
   "day": "2026-11-27",
@@ -9472,13 +9476,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-28 02:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-28 02:20",
    "ok": true,
    "n": 0,
@@ -9746,6 +9743,13 @@
   },
   {
    "t": "11-28 08:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-28 08:40",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14267,11 +14271,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-26 16:31",
-   "new": "سنڌ جي بلدياتي نظام ۾ تبديليءَ جو فيصلو",
-   "old": "سنڌ حڪومت جو لوڪل گورنمينٽ بابت اهم اعلان"
-  },
-  {
    "t": "11-26 17:11",
    "new": "نظام کي ري سيٽ ڪرڻو آهي ته جمهوري انداز اختيار ڪيو: بلاول ڀٽو",
    "old": "ڪنهن جي حڪم تي نوان صوبا يا آئيني ترميم ممڪن ناهي: بلاول ڀٽو"
@@ -14415,6 +14414,11 @@
    "t": "11-28 06:51",
    "new": "پاڪستان جي پاڻي ۽ زراعت لاءِ ڊالر منظور",
    "old": "پاڪستان ۾ پاڻي ۽ زراعت جي ترقي لاءِ قرض منظور"
+  },
+  {
+   "t": "11-28 08:41",
+   "new": "پيٽرل اگها سستا",
+   "old": "پيٽرول اگهه ۾ هڪ رپيو گهٽتائي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14435,6 +14439,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 8
- }
+  "repeat": 9
+ },
+ "_dup": true
 }
