@@ -1,17 +1,5 @@
 {
  "seen": {
-  "68e12ed9451fbdd4": 1795250528.2933602,
-  "725aff5921f927fd": 1795250528.293364,
-  "59d9e076a79936da": 1795250528.2933657,
-  "f8e03978ac54bf09": 1795250528.2933671,
-  "f558c5743457255b": 1795250528.2933679,
-  "a1f1699bb0c8bff7": 1795250528.293369,
-  "c8f78485ac2e2419": 1795250528.2933698,
-  "d43d4b2c26ed903c": 1795250528.2933707,
-  "f4261a9e2614132c": 1795250528.2933717,
-  "97936ab005a87deb": 1795250528.29358,
-  "09ab6684a2c9ae9d": 1795250679.0064392,
-  "b1345acab52f1f14": 1795250679.0066442,
   "7631d8e1cbaeefd7": 1795251695.8381379,
   "dda15e8e05e55218": 1795251695.8381407,
   "b90c835393b99c7f": 1795251705.1751473,
@@ -1634,11 +1622,25 @@
   "9915416c22a3f0af": 1795853549.5457752,
   "adebccddb1e815c5": 1795853549.5457766,
   "a7a0178ca2b5f780": 1795854755.310452,
-  "71bbbd68502247fb": 1795854755.3104553
+  "71bbbd68502247fb": 1795854755.3104553,
+  "7e27f8f4b8b013fc": 1795855853.3324823,
+  "dbd70937c0f74489": 1795855890.4548056,
+  "079d5b4fd25b9aad": 1795855911.2303083,
+  "271974b1f96a899d": 1795855911.2303107
  },
  "pending": {},
  "queue": [],
- "jobs": [],
+ "jobs": [
+  {
+   "key": "7e27f8f4b8b013fc",
+   "title": "Sindh CM vows further empowerment of local governments",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5NYmRDRU5RZ2laY0VGVldJeHM0UzZJZkdfMTZUVXR5alJueWNCN0lUOUdiSjFrSUI0YkdDMmV4LWF5bDR6bW1USjBacktaMEhXdzZwU1o3OGdJa1ZGRWUxM0VPelBpMjJaMDNYeWFyMEQzblZCZkM1dnJ3?oc=5",
+   "domain": "arynews.tv",
+   "source": "ARYnews.tv",
+   "ts": 1795689482,
+   "local": false
+  }
+ ],
  "tg_offset": 92058804,
  "daily": {
   "date": "2026-11-28",
@@ -2466,12 +2468,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 13:40",
+  "time": "2026-11-28 13:51",
   "items": 9,
   "sample": [
    "New Zealand 356/10 v India 116/6 *",
    "Sudur Paschim Province Under-19s 68/10 v Karnali Province Under-19s 67/10 *",
-   "Gandaki Province Under-19s 191/10 v Koshi Province Under-19s 110/3 *"
+   "Gandaki Province Under-19s 191/10 v Koshi Province Under-19s 119/3 *"
   ]
  },
  "agri_news": {
@@ -7997,7 +7999,7 @@
  },
  "ai_usage": {
   "date": "2026-11-28",
-  "ok": 205,
+  "ok": 207,
   "fail": 361,
   "limit": 358
  },
@@ -8324,7 +8326,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 13:40",
+  "time": "2026-11-28 13:51",
   "steps": []
  },
  "roundup_am": "2026-11-28",
@@ -8474,15 +8476,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
-   "ok": 44,
+   "ok": 45,
    "fail": 41,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8490,7 +8492,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8498,7 +8500,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 84,
+   "ok": 85,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8506,7 +8508,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8514,14 +8516,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8529,7 +8531,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 85,
+   "ok": 86,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8689,8 +8691,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 38,
-  "old": 38,
+  "found": 48,
+  "old": 48,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8753,8 +8755,8 @@
   "date": "2026-11-28",
   "count": 8,
   "last": 1795854672.1043253,
-  "city_i": 20,
-  "dry": 1795846263.904268
+  "city_i": 24,
+  "dry": 1795855863.2371705
  },
  "gemini_day_dead": {
   "day": "2026-11-28",
@@ -9466,13 +9468,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-28 07:13",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-28 07:20",
    "ok": true,
    "n": 0,
@@ -9740,6 +9735,13 @@
   },
   {
    "t": "11-28 13:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-28 13:50",
    "ok": true,
    "n": 0,
    "ids": [],
