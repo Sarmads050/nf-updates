@@ -1624,7 +1624,13 @@
   "96fe54662dc7096c": 1795866079.7066374,
   "c9875e2c6a994f6a": 1795866079.7066386,
   "1b44eeae448fdbf1": 1795866089.3487742,
-  "6dc58b6dbad0f79c": 1795866665.7144215
+  "6dc58b6dbad0f79c": 1795866665.7144215,
+  "486f8fd810ac8693": 1795867873.67966,
+  "1ca95785a6bab0c9": 1795867873.6796627,
+  "b4491b91e9bd0e0f": 1795867873.6796634,
+  "fd1867d7a6a3285e": 1795867873.6796644,
+  "6d8b3f3e34622ab2": 1795867873.6796663,
+  "a09cb92b5d9fc57b": 1795867893.8457518
  },
  "pending": {},
  "queue": [],
@@ -1706,7 +1712,7 @@
  "sindh_single": {
   "date": "2026-11-28",
   "count": 1,
-  "last": 1795859486.0745661,
+  "last": 1795867888.5959194,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -1802,7 +1808,8 @@
    "471a0ab3dffb2df9",
    "1a4893eab3d0866e",
    "5044e2e1d1e42ac4",
-   "7e94d98be10d0042"
+   "7e94d98be10d0042",
+   "a09cb92b5d9fc57b"
   ]
  },
  "last_post_id": "1444130002106066_122125340037503839",
@@ -2455,7 +2462,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 17:01",
+  "time": "2026-11-28 17:11",
   "items": 9,
   "sample": [
    "New Zealand 356/10 v India 116/6 *",
@@ -7978,9 +7985,9 @@
  },
  "ai_usage": {
   "date": "2026-11-28",
-  "ok": 284,
-  "fail": 450,
-  "limit": 448
+  "ok": 293,
+  "fail": 468,
+  "limit": 466
  },
  "posted_heads": [
   {
@@ -8305,7 +8312,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 17:01",
+  "time": "2026-11-28 17:11",
   "steps": []
  },
  "roundup_am": "2026-11-28",
@@ -8413,7 +8420,7 @@
   "text": 28,
   "story": 21
  },
- "ai_last_error": "16:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "17:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-28",
   "models": [
@@ -8455,15 +8462,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
-   "ok": 58,
+   "ok": 59,
    "fail": 48,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8471,7 +8478,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8479,7 +8486,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 105,
+   "ok": 106,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8487,7 +8494,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8495,14 +8502,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 106,
+   "ok": 107,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8510,7 +8517,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 105,
+   "ok": 106,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8653,8 +8660,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 9,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8716,8 +8723,8 @@
  "sindh_stream": {
   "date": "2026-11-28",
   "count": 11,
-  "last": 1795866071.3717935,
-  "city_i": 20,
+  "last": 1795867871.8245506,
+  "city_i": 24,
   "dry": 1795866079.7066402
  },
  "gemini_day_dead": {
@@ -9435,13 +9442,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-28 10:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-28 10:50",
    "ok": true,
    "n": 0,
@@ -9709,6 +9709,13 @@
   },
   {
    "t": "11-28 17:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-28 17:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14055,11 +14062,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-27 03:21",
-   "new": "حڪومت پاران پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽتائي",
-   "old": "پيٽرول ۽ ڊيزل جي اگهن ۾ معمولي گهٽتائي"
-  },
-  {
    "t": "11-27 03:31",
    "new": "پاڪستان ۾ سون جي اگهه ۾ وڏي واڌ",
    "old": "ملڪ ۾ سون جي اگهن ۾ واڌ"
@@ -14203,6 +14205,11 @@
    "t": "11-28 15:51",
    "new": "مهانگائي ۽ اٽي جي اگهن ۾ واڌ جاري",
    "old": "ملڪ ۾ اٽي جي اگهن ۾ واڌ، حيدرآباد سڀ کان مهانگو"
+  },
+  {
+   "t": "11-28 17:11",
+   "new": "خريدارن لاءِ خوشخبري، سون هزارين رپيا سستو ٿي ويو",
+   "old": "اڄ پاڪستان ۾ سون جي اگهه ۾ تبديلي"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14219,10 +14226,11 @@
  "quality": {
   "date": "2026-11-28",
   "editor_fixed": 24,
-  "editor_rejected": 3,
+  "editor_rejected": 4,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 14
- }
+  "repeat": 15
+ },
+ "_dup": true
 }
