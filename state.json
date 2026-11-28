@@ -1,6 +1,5 @@
 {
  "seen": {
-  "bc160e4094ae7b80": 1795242063.2674546,
   "1ea306fba8191a10": 1795243282.3800008,
   "8863f0dffc22d77e": 1795244479.6048868,
   "2270acd89bf73944": 1795244479.6048906,
@@ -1634,7 +1633,8 @@
   "eac2a6bdaa9ac49f": 1795846263.9042664,
   "b295fe35af2e2712": 1795846271.6679587,
   "550eddb3c80829c2": 1795846271.6681538,
-  "017b15354b8e9915": 1795846858.1897547
+  "017b15354b8e9915": 1795846858.1897547,
+  "f5b1893939aa5ba1": 1795847477.1607118
  },
  "pending": {},
  "queue": [],
@@ -1804,17 +1804,8 @@
    "5044e2e1d1e42ac4"
   ]
  },
- "last_post_id": "1444130002106066_122125276179503839",
+ "last_post_id": "1444130002106066_122125278453503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122125067469503839",
-   "title": "قومي ڪرڪيٽر عامر جمال پاڪستاني ٽم ۾ شاندار واپسي جو ڪريڊٽ ڊوميسٽڪ ڪرڪيٽ کي ڏنو آهي",
-   "t": 1795776136.5696583,
-   "tags": [
-    "cricket"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122125067469503839"
-  },
   {
    "id": "1444130002106066_122125071135503839",
    "title": "بلاول ۽ مريم صوبن جي ورهاست نٿا چاهين: شوڪت يوسفزئي",
@@ -2134,6 +2125,18 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122125276179503839"
+  },
+  {
+   "id": "1444130002106066_122125278453503839",
+   "title": "آبنائي ھرمز ۾ 300 بحري جھاز ۽ 6 ھزار ملاح ڦاٿل",
+   "t": 1795847506.5360734,
+   "tags": [
+    "general",
+    "local",
+    "padidan",
+    "sindh"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122125278453503839"
   }
  ],
  "share_sent": {
@@ -2464,12 +2467,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 11:20",
+  "time": "2026-11-28 11:31",
   "items": 9,
   "sample": [
    "New Zealand 356/10 v India 116/6 *",
-   "Sudur Paschim Province Under-19s 68/10 v Karnali Province Under-19s 51/5 *",
-   "Gandaki Province Under-19s 177/8 * v Koshi Province Under-19s"
+   "Sudur Paschim Province Under-19s 68/10 v Karnali Province Under-19s 56/7 *",
+   "Gandaki Province Under-19s 184/9 * v Koshi Province Under-19s"
   ]
  },
  "agri_news": {
@@ -2479,17 +2482,11 @@
  },
  "all_posts": {
   "date": "2026-11-28",
-  "count": 16,
-  "last": 1795846302.3962667
+  "count": 17,
+  "last": 1795847498.8619008
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122122014933503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794900709
-   },
    {
     "id": "1444130002106066_122122023063503839",
     "sec": "cricket_news",
@@ -4883,6 +4880,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1795846306
+   },
+   {
+    "id": "1444130002106066_122125278453503839",
+    "sec": "sindh_stream",
+    "cat": "sindh",
+    "t": 1795847506
    }
   ]
  },
@@ -7995,15 +7998,11 @@
  },
  "ai_usage": {
   "date": "2026-11-28",
-  "ok": 171,
-  "fail": 310,
-  "limit": 310
+  "ok": 176,
+  "fail": 318,
+  "limit": 318
  },
  "posted_heads": [
-  {
-   "h": "Rice exporter gets USD7.5m order at FoodAg 2026",
-   "t": 1795663354
-  },
   {
    "h": "Currency Rates Today in Pakistan: US Dollar, Pound Euro, Riyal Latest Updates - 26 Nov 2026",
    "t": 1795666405
@@ -8319,10 +8318,14 @@
   {
    "h": "Babar Didn’t Speak to Me for Three Weeks After I Said He Was Playing for Himself, Arthur Reveals",
    "t": 1795846307
+  },
+  {
+   "h": "آبنائي ھرمز ۾ 300 بحري جھاز ۽ 6 ھزار ملاح ڦاٿل آھن: عالمي تنظيم",
+   "t": 1795847506
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 11:20",
+  "time": "2026-11-28 11:31",
   "steps": []
  },
  "roundup_am": "2026-11-28",
@@ -8430,7 +8433,7 @@
   "text": 23,
   "story": 16
  },
- "ai_last_error": "11:20 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "11:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-28",
   "models": [
@@ -8444,9 +8447,9 @@
  },
  "img_diag": {
   "date": "2026-11-28",
-  "tried": 15,
+  "tried": 16,
   "gemini": 0,
-  "pollinations": 11,
+  "pollinations": 12,
   "skip": 2,
   "fail": 10,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
@@ -8472,15 +8475,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
-   "ok": 36,
+   "ok": 37,
    "fail": 35,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 71,
+   "ok": 72,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8488,7 +8491,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 71,
+   "ok": 72,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8496,7 +8499,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 70,
+   "ok": 71,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8504,7 +8507,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 71,
+   "ok": 72,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8512,14 +8515,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 71,
+   "ok": 72,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 71,
+   "ok": 72,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8527,7 +8530,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 71,
+   "ok": 72,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8682,13 +8685,13 @@
  "region_posts": {
   "date": "2026-11-28",
   "district": 1,
-  "sindh": 2,
+  "sindh": 3,
   "pakistan": 11
  },
  "report_acc": {
-  "posted": 1,
-  "found": 19,
-  "old": 19,
+  "posted": 2,
+  "found": 29,
+  "old": 29,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8749,9 +8752,9 @@
  },
  "sindh_stream": {
   "date": "2026-11-28",
-  "count": 2,
-  "last": 1795846262.8871918,
-  "city_i": 14,
+  "count": 3,
+  "last": 1795847474.672828,
+  "city_i": 18,
   "dry": 1795846263.904268
  },
  "gemini_day_dead": {
@@ -9439,6 +9442,14 @@
    "t": 1795846306,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "4bdd7face76734ec",
+   "h": "آبنائي هرمز ۾ 300 بحري جهاز ۽ 6 هزار ملاح ڦاٿل",
+   "x": "ايران جنگ شروع ٿيڻ کانپوءِ دنيا جي اهم سامونڊي گذرگاهه آبنائي هرمز ۾ لڳ ڀڳ 300 بحري جهاز ۽ 6 هزار ملاح ڦاسي پيا آهن، جڏهن ته سامونڊي آمدرفت ۾ وڏي گهٽتائي سبب عالمي واپار ۽ رسد جو نظام پڻ متاثر ٿيڻ جو خدشو وڌي ويو آهي. العربيه موجب، عالمي بحري تنظيم آبنائي هرمز ۾ سامونڊي آمدرفت کي درپيش خطرن تي ڳڻتي ظاهر ڪندي چيو آهي ته تڪرارن دوران جهازن جي اچ وڃ کي دٻاءُ وجهڻ لاءِ هٿيار طور استعمال نه ڪيو وڃي.",
+   "t": 1795847506,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9456,13 +9467,6 @@
   "last": 1795801969.152985
  },
  "tg_debug": [
-  {
-   "t": "11-28 05:00",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-28 05:10",
    "ok": true,
@@ -9735,67 +9739,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-28 11:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-28",
  "recent_posts": [
-  {
-   "t": 1795673568,
-   "h": "سنڌ | پيٽروليم شين جي قيمتن ۾ گهٽتائي بعد مال بردار ٽرانسپورٽ جي ڪرائن ۾ 5 سيڪڙو",
-   "b": "ملڪ ۾ پيٽرول ۽ ڊيزل جي قيمتن ۾ گهٽتائي کانپوءِ آل پاڪستان گڊز ٽرانسپورٽ اتحاد مال بردار گاڏين جي ڪرائن ۾ 5",
-   "tt": [
-    "بردار",
-    "بعد",
-    "سنڌ",
-    "سيڪڙو",
-    "شين",
-    "قيمتن",
-    "مال",
-    "ٽرانسپورٽ",
-    "پيٽروليم",
-    "ڪرائن",
-    "گهٽتائي"
-   ],
-   "bt": [
-    "#20",
-    "اتحاد",
-    "اعلان",
-    "اعواڻ",
-    "اهي",
-    "اگهن",
-    "بردار",
-    "بعد",
-    "دوران",
-    "رليف",
-    "رڪندي",
-    "سنڌ",
-    "سيڪڙو",
-    "شهزاد",
-    "شين",
-    "صدر",
-    "عوام",
-    "فيصلو",
-    "قيمتن",
-    "مال",
-    "ملڪ",
-    "موجب",
-    "نظر",
-    "ٽرانسپورٽ",
-    "پاڪستان",
-    "پيٽرول",
-    "پيٽروليم",
-    "ڇڏيو",
-    "ڊيزل",
-    "ڏينهن",
-    "ڏيڻ",
-    "ڪانپوء",
-    "ڪرائن",
-    "گاڏين",
-    "گذريل",
-    "گهٽتائي",
-    "گڊز"
-   ]
-  },
   {
    "t": 1795675879,
    "h": "مڙس جو تشدد ثابت، عدالت زال کي حق مھر جي حقدار قرار ڏئي ڇڏيو",
@@ -14098,6 +14052,55 @@
     "ڪيڏڻ",
     "ڳالهايو"
    ]
+  },
+  {
+   "t": 1795847506,
+   "h": "آبنائي هرمز ۾ 300 بحري جهاز ۽ 6 هزار ملاح ڦاٿل",
+   "b": "ايران جنگ شروع ٿيڻ کانپوءِ دنيا جي اهم سامونڊي گذرگاهه آبنائي هرمز ۾ لڳ ڀڳ 300 بحري جهاز ۽ 6 هزار ملاح ڦاسي",
+   "tt": [
+    "#300",
+    "ابنائي",
+    "بحري",
+    "جهاز",
+    "ملاح",
+    "هرمز",
+    "هزار",
+    "ڦاٿل"
+   ],
+   "bt": [
+    "#300",
+    "ابنائي",
+    "امدرفت",
+    "اهم",
+    "اهن،",
+    "اهي",
+    "ايران",
+    "بحري",
+    "جنگ",
+    "جهاز",
+    "خدشو",
+    "دنيا",
+    "رسد",
+    "سامونڊي",
+    "سبب",
+    "شروع",
+    "عالمي",
+    "متاثر",
+    "ملاح",
+    "نظام",
+    "هرمز",
+    "هزار",
+    "واپار",
+    "وڌي",
+    "وڏي",
+    "پيا",
+    "ٿيڻ",
+    "ڦاسي",
+    "ڦاٿل",
+    "ڪانپوء",
+    "گذرگاهه",
+    "گهٽتائي"
+   ]
   }
  ],
  "repeat_log": [
@@ -14265,7 +14268,7 @@
  },
  "quality": {
   "date": "2026-11-28",
-  "editor_fixed": 12,
+  "editor_fixed": 13,
   "editor_rejected": 3,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
