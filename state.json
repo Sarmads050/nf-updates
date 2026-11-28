@@ -1,12 +1,5 @@
 {
  "seen": {
-  "a7d4f0846630f3c2": 1795257682.342862,
-  "487ce1f6c914e8b4": 1795257682.3499787,
-  "9e7e217b0fec0fa5": 1795257814.1467826,
-  "95e3ce2b768a453d": 1795257814.1479952,
-  "15978e86825a9db3": 1795257814.1489346,
-  "10458b6305acad5c": 1795257814.1499984,
-  "5e9c86cf005d23f7": 1795257814.15161,
   "3524a736311dd7c0": 1795258246.7510047,
   "4c4f3bb9be6c9cea": 1795259462.2674823,
   "a4154db09ee34272": 1795259462.2674842,
@@ -1621,7 +1614,8 @@
   "fe4769ea73eaafd0": 1795861278.1417172,
   "191ea6b4ec6e9280": 1795861278.141718,
   "294fe716a17b69b4": 1795861278.1418965,
-  "2b2f8273de82bc52": 1795862271.3315763
+  "2b2f8273de82bc52": 1795862271.3315763,
+  "a955fb0ba0e0da6d": 1795863058.653582
  },
  "pending": {},
  "queue": [],
@@ -2458,7 +2452,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 15:41",
+  "time": "2026-11-28 15:51",
   "items": 9,
   "sample": [
    "New Zealand 356/10 v India 116/6 *",
@@ -7981,9 +7975,9 @@
  },
  "ai_usage": {
   "date": "2026-11-28",
-  "ok": 257,
-  "fail": 408,
-  "limit": 406
+  "ok": 260,
+  "fail": 414,
+  "limit": 412
  },
  "posted_heads": [
   {
@@ -8308,7 +8302,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 15:41",
+  "time": "2026-11-28 15:51",
   "steps": []
  },
  "roundup_am": "2026-11-28",
@@ -8411,12 +8405,12 @@
  },
  "article_diag": {
   "date": "2026-11-28",
-  "tried": 26,
-  "decoded": 25,
-  "text": 25,
-  "story": 18
+  "tried": 27,
+  "decoded": 26,
+  "text": 26,
+  "story": 19
  },
- "ai_last_error": "15:37 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "15:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-28",
   "models": [
@@ -8458,7 +8452,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
-   "ok": 53,
+   "ok": 54,
    "fail": 45,
    "items": 10,
    "fail_streak": 0,
@@ -8466,7 +8460,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 98,
+   "ok": 99,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8474,7 +8468,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 98,
+   "ok": 99,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8482,7 +8476,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 97,
+   "ok": 98,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8490,7 +8484,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 98,
+   "ok": 99,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8498,14 +8492,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 98,
+   "ok": 99,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 98,
+   "ok": 99,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8513,7 +8507,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 98,
+   "ok": 99,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8656,8 +8650,8 @@
  },
  "report_acc": {
   "posted": 1,
-  "found": 40,
-  "old": 40,
+  "found": 50,
+  "old": 50,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -9429,13 +9423,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-28 09:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-28 09:30",
    "ok": true,
    "n": 0,
@@ -9703,6 +9690,13 @@
   },
   {
    "t": "11-28 15:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-28 15:50",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14032,11 +14026,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-26 22:10",
-   "new": "سرمئي پوري ۽ مهانگائي",
-   "old": "پيٽرول سستو ٿيڻ باوجود مهانگائي برقرار"
-  },
-  {
    "t": "11-27 03:21",
    "new": "حڪومت پاران پيٽرول ۽ ڊيزل جي اگهن ۾ گهٽتائي",
    "old": "پيٽرول ۽ ڊيزل جي اگهن ۾ معمولي گهٽتائي"
@@ -14180,6 +14169,11 @@
    "t": "11-28 15:37",
    "new": "اھڙو معاشي بحران اڳ ناھي ڏٺو: بلاول ڀٽو",
    "old": "ڏکڻ پنجاب کي الڳ صوبو بڻائڻ جي حمايت ڪريون ٿا: بلاول ڀٽو"
+  },
+  {
+   "t": "11-28 15:51",
+   "new": "مهانگائي ۽ اٽي جي اگهن ۾ واڌ جاري",
+   "old": "ملڪ ۾ اٽي جي اگهن ۾ واڌ، حيدرآباد سڀ کان مهانگو"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14200,7 +14194,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 13
+  "repeat": 14
  },
  "_dup": true
 }
