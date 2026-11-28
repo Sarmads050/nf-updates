@@ -1,8 +1,5 @@
 {
  "seen": {
-  "42a5a154fe42cfab": 1795264286.5141401,
-  "02c6d7b2b8308d6d": 1795264286.514327,
-  "a90394c80e34f89b": 1795264322.9374254,
   "d8cd73b2dade701a": 1795265471.848289,
   "1a2b3b32356acbfb": 1795265471.848292,
   "98bf3f4c2d5c59cc": 1795265471.8482938,
@@ -2460,7 +2457,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 17:31",
+  "time": "2026-11-28 17:41",
   "items": 9,
   "sample": [
    "New Zealand 356/10 v India 116/6 *",
@@ -8310,7 +8307,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 17:31",
+  "time": "2026-11-28 17:41",
   "steps": []
  },
  "roundup_am": "2026-11-28",
@@ -8460,15 +8457,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
-   "ok": 60,
+   "ok": 61,
    "fail": 49,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8476,7 +8473,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8484,7 +8481,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 108,
+   "ok": 109,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8492,7 +8489,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8500,14 +8497,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 109,
+   "ok": 110,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8515,7 +8512,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 108,
+   "ok": 109,
    "fail": 1,
    "items": 15,
    "fail_streak": 0,
@@ -8658,8 +8655,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 24,
-  "old": 24,
+  "found": 32,
+  "old": 32,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8722,8 +8719,8 @@
   "date": "2026-11-28",
   "count": 11,
   "last": 1795867871.8245506,
-  "city_i": 6,
-  "dry": 1795869071.2938623
+  "city_i": 10,
+  "dry": 1795869661.2713819
  },
  "gemini_day_dead": {
   "day": "2026-11-28",
@@ -9440,13 +9437,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-28 11:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-28 11:20",
    "ok": true,
    "n": 0,
@@ -9714,6 +9704,13 @@
   },
   {
    "t": "11-28 17:30",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-28 17:40",
    "ok": true,
    "n": 0,
    "ids": [],
