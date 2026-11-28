@@ -1,6 +1,5 @@
 {
  "seen": {
-  "4393db545f116b63": 1795219265.6226864,
   "32666411c0507a62": 1795219860.7199724,
   "6abde5a160481268": 1795220471.4996288,
   "0010438f81f51dc3": 1795220471.499634,
@@ -1625,7 +1624,9 @@
   "e06029a26d8e2fd8": 1795821694.060573,
   "a38ec3666f69b805": 1795821694.060574,
   "5b648cafac40ae60": 1795821694.0605748,
-  "92af47ca78a480af": 1795821694.0607922
+  "92af47ca78a480af": 1795821694.0607922,
+  "b5d3ad979418cb24": 1795824671.4314702,
+  "e1134518a2261d81": 1795824671.4314728
  },
  "pending": {
   "culture2026-11-27": {
@@ -2494,10 +2495,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 05:01",
+  "time": "2026-11-28 05:11",
   "items": 8,
   "sample": [
-   "New Zealand 325/8 * v India",
+   "New Zealand 330/8 * v India",
    "Sudur Paschim Province Under-19s v Karnali Province Under-19s",
    "Gandaki Province Under-19s v Koshi Province Under-19s"
   ]
@@ -4922,80 +4923,8 @@
   "last": 1795818865.3262272
  },
  "trends": {
-  "last": 1795813281.4262426,
+  "last": 1795824651.3983588,
   "terms": [
-   {
-    "term": "abu dhabi t10 league final",
-    "traffic": 1000,
-    "news": "Azam Khan stars as UAE Bulls clinch Abu Dhabi T10 title",
-    "t": 1795210854,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "athletic vs espanyol",
-    "traffic": 100,
-    "news": "Athletic vs Espanyol: horario y dónde ver hoy por TV gratis y online el partido de LaLiga 2026/27 a través de DAZN",
-    "t": 1795210854,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "anthropic ipo stocks",
-    "traffic": 200,
-    "news": "Anthropic's post-debut stumble delivers reality check for AI trade",
-    "t": 1795210854,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "al-ahli saudi fc vs al-nassr standings",
-    "traffic": 2000,
-    "news": "Cristiano Ronaldo rested and ready as Al Nassr resume title defence against Al Ahli",
-    "t": 1795210854,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "bitcoin price usd",
-    "traffic": 100,
-    "news": "Peter Brandt says BTC historically fell at least 75% after each bull market peak",
-    "t": 1795210854,
-    "cat": "dollar_gold_business",
-    "sindh": false
-   },
-   {
-    "term": "riemann hypothesis",
-    "traffic": 200,
-    "news": "Anthropic Mathematician Says AI Has Solved the Most Famous Problem in Math",
-    "t": 1795210854,
-    "cat": "technology",
-    "sindh": false
-   },
-   {
-    "term": "bayern vs köln",
-    "traffic": 2000,
-    "news": "Fußball-Bundesliga: Auflagen in München: Kölner Fans reisen vorzeitig wieder ab",
-    "t": 1795210854,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "gta 6 ending",
-    "traffic": 100,
-    "news": "GTA 6 Live Coverage: News, Reviews, and More",
-    "t": 1795210854,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "al nassr",
-    "traffic": 2000,
-    "news": "Cristiano Ronaldo moves to within 14 of 1,000 career goals, but misses a penalty and loses to Ibanez and Demiral",
-    "t": 1795210854,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "houthi attack saudi arabia",
     "traffic": 200,
@@ -8043,15 +7972,39 @@
     "t": 1795813281,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "tom blundell",
+    "traffic": 20000,
+    "news": "Akash Deep burst checks New Zealand, but Latham, Blundell fifties tilt Day 1 their way",
+    "t": 1795824651,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "nottingham forest vs chelsea f.c. standings",
+    "traffic": 2000,
+    "news": "Chelsea rocked by Forest in Premier League as pressure on Alonso mounts",
+    "t": 1795824651,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "commemorative coin",
+    "traffic": 500,
+    "news": "Pakistan marks Hindu spiritual leader Mata Sahib Hasi Devi's bicentenary with Rs200 coin",
+    "t": 1795824651,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-28",
-  "ok": 48,
-  "fail": 82,
-  "limit": 82
+  "ok": 50,
+  "fail": 86,
+  "limit": 86
  },
  "posted_heads": [
   {
@@ -8376,7 +8329,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 05:01",
+  "time": "2026-11-28 05:11",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8484,7 +8437,7 @@
   "text": 5,
   "story": 4
  },
- "ai_last_error": "04:21 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "05:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-28",
   "models": [
@@ -8526,15 +8479,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
-   "ok": 16,
+   "ok": 17,
    "fail": 16,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8542,7 +8495,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8550,7 +8503,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 31,
+   "ok": 32,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8558,7 +8511,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8566,14 +8519,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8581,7 +8534,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 32,
+   "ok": 33,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8741,8 +8694,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8805,8 +8758,8 @@
   "date": "2026-11-28",
   "count": 2,
   "last": 1795812670.4742548,
-  "city_i": 8,
-  "dry": 1795821665.2547925
+  "city_i": 12,
+  "dry": 1795824662.6849215
  },
  "gemini_day_dead": {
   "day": "2026-11-27",
@@ -9523,13 +9476,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 22:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 22:50",
    "ok": true,
    "n": 0,
@@ -9797,6 +9743,13 @@
   },
   {
    "t": "11-28 05:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-28 05:10",
    "ok": true,
    "n": 0,
    "ids": [],
