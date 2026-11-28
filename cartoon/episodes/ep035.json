@@ -96,7 +96,10 @@
      "urdu": "اور میری میں تین چمچ چینی... یہ میری فائنل ڈیمانڈ ہے!",
      "how": "20-year-old law student, dramatic, funny, dramatic, like a lawyer in court",
      "emo": "proud",
-     "pose": "objection"
+     "pose": "objection",
+     "react_pose": {
+      "AMMI": "rest"
+     }
     },
     {
      "who": "MEHAK",
@@ -105,7 +108,10 @@
      "urdu": "اور میری آدھا دودھ، آدھی چائے... اور اوپر ملائی نہیں!",
      "how": "14-year-old girl, cheeky, smart, quick, giggling, adding her order",
      "emo": "teasing",
-     "pose": "point_up"
+     "pose": "point_up",
+     "react_pose": {
+      "AMMI": "rest"
+     }
     },
     {
      "who": "SANA",
@@ -123,6 +129,9 @@
      ],
      "react": {
       "*": "laugh"
+     },
+     "react_pose": {
+      "AMMI": "rest"
      }
     }
    ]
@@ -150,7 +159,11 @@
      "gap": 0.2,
      "sfx": [
       "clink"
-     ]
+     ],
+     "react_pose": {
+      "MEHAK": "rest",
+      "SANA": "hold"
+     }
     },
     {
      "who": "SANA",
@@ -162,6 +175,9 @@
      "pose": "hold",
      "looks": {
       "MEHAK": "SANA"
+     },
+     "react_pose": {
+      "MEHAK": "rest"
      }
     },
     {
