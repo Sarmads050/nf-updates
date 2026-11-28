@@ -1626,7 +1626,11 @@
   "d99373355f45c11e": 1795837272.1442018,
   "3210ac00f78ca5fa": 1795837272.144203,
   "bfeecf01d4895636": 1795837272.1442034,
-  "ce007c9be0177a91": 1795837272.1443071
+  "ce007c9be0177a91": 1795837272.1443071,
+  "714ff7e68a67bd8b": 1795837867.4365594,
+  "c2466ce546c55842": 1795837878.258283,
+  "6677e82c389c7006": 1795837878.2582858,
+  "3f91887d34b8825f": 1795837878.2585163
  },
  "pending": {
   "culture2026-11-27": {
@@ -1836,18 +1840,8 @@
    "5044e2e1d1e42ac4"
   ]
  },
- "last_post_id": "1444130002106066_122125251417503839",
+ "last_post_id": "1444130002106066_122125255647503839",
  "shareable": [
-  {
-   "id": "1444130002106066_122125009365503839",
-   "title": "ملڪ ۾ اڄ آمريڪي ڊالر، برطانوي پائونڊ، يورو ۽ سعودي ريال جا نوان اگهه جاري ڪيا ويا آهن",
-   "t": 1795758155.2609956,
-   "tags": [
-    "business",
-    "general"
-   ],
-   "url": "https://www.facebook.com/122107077483503839/posts/122125009365503839"
-  },
   {
    "id": "1444130002106066_122125020411503839",
    "title": "پيٽرول رليف پيڪيج ۾ 1000 سي سي تائين گاڏيون شامل ڪرڻ جو امڪان",
@@ -2171,6 +2165,16 @@
     "cricket"
    ],
    "url": "https://www.facebook.com/122107077483503839/posts/122125251417503839"
+  },
+  {
+   "id": "1444130002106066_122125255647503839",
+   "title": "ملڪ ۾ اٽي جي قيمتن ۾ واڌ بعد اي سي سي ڪڻڪ جي امپورٽ جو حد اڍائي کروڙ ٽن تائين وڌائي ڇڏيو",
+   "t": 1795837916.874798,
+   "tags": [
+    "agri",
+    "general"
+   ],
+   "url": "https://www.facebook.com/122107077483503839/posts/122125255647503839"
   }
  ],
  "share_sent": {
@@ -2501,32 +2505,26 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 08:41",
+  "time": "2026-11-28 08:51",
   "items": 9,
   "sample": [
-   "New Zealand 356/10 v India 72/3 *",
-   "Sudur Paschim Province Under-19s 5/2 * v Karnali Province Under-19s",
-   "Gandaki Province Under-19s 9 * v Koshi Province Under-19s"
+   "New Zealand 356/10 v India 83/3 *",
+   "Sudur Paschim Province Under-19s 10/3 * v Karnali Province Under-19s",
+   "Gandaki Province Under-19s 11 * v Koshi Province Under-19s"
   ]
  },
  "agri_news": {
   "date": "2026-11-28",
-  "count": 2,
-  "last": 1795833741.8904123
+  "count": 3,
+  "last": 1795837916.8747764
  },
  "all_posts": {
   "date": "2026-11-28",
-  "count": 9,
-  "last": 1795836160.235178
+  "count": 10,
+  "last": 1795837911.7649727
  },
  "perf": {
   "posts": [
-   {
-    "id": "1444130002106066_122121992181503839",
-    "sec": "sindh_stream",
-    "cat": "sindh",
-    "t": 1794893511
-   },
    {
     "id": "1444130002106066_122121994467503839",
     "sec": "sindh_single",
@@ -4920,6 +4918,12 @@
     "sec": "cricket_news",
     "cat": "cricket_news",
     "t": 1795836166
+   },
+   {
+    "id": "1444130002106066_122125255647503839",
+    "sec": "agri_news",
+    "cat": "agri_news",
+    "t": 1795837916
    }
   ]
  },
@@ -8024,15 +8028,11 @@
  },
  "ai_usage": {
   "date": "2026-11-28",
-  "ok": 108,
-  "fail": 194,
-  "limit": 194
+  "ok": 120,
+  "fail": 216,
+  "limit": 216
  },
  "posted_heads": [
-  {
-   "h": "Punjab Agriculture Department advises winter measures to curb pink bollworm in next cotton crop",
-   "t": 1795651362
-  },
   {
    "h": "Dollar's rate in interbank market",
    "t": 1795654994
@@ -8348,10 +8348,14 @@
   {
    "h": "Hasan Nawaz, Farhan Yousaf Drive Pakistan to Asia Cup Final",
    "t": 1795836166
+  },
+  {
+   "h": "As flour prices climb, ECC raises wheat import ceiling to 2.5 million tonnes",
+   "t": 1795837917
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 08:41",
+  "time": "2026-11-28 08:51",
   "steps": []
  },
  "roundup_am": "2026-11-28",
@@ -8454,12 +8458,12 @@
  },
  "article_diag": {
   "date": "2026-11-28",
-  "tried": 16,
-  "decoded": 15,
-  "text": 15,
+  "tried": 17,
+  "decoded": 16,
+  "text": 16,
   "story": 13
  },
- "ai_last_error": "08:41 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-28",
   "models": [
@@ -8473,9 +8477,9 @@
  },
  "img_diag": {
   "date": "2026-11-28",
-  "tried": 9,
+  "tried": 10,
   "gemini": 0,
-  "pollinations": 7,
+  "pollinations": 8,
   "skip": 1,
   "fail": 7,
   "last_note": "pollinations 503 {\"status\":503,\"success\":false,\"error\":{\"code\":\"SERVICE_UNAVAILABLE\",\"message\":\"The Classic API is at its limit right now",
@@ -8502,14 +8506,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
    "ok": 29,
-   "fail": 26,
+   "fail": 27,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8517,7 +8521,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8525,7 +8529,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 54,
+   "ok": 55,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8533,7 +8537,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8541,14 +8545,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8556,7 +8560,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 55,
+   "ok": 56,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8712,12 +8716,12 @@
   "date": "2026-11-28",
   "district": 0,
   "sindh": 2,
-  "pakistan": 6
+  "pakistan": 7
  },
  "report_acc": {
-  "posted": 1,
-  "found": 35,
-  "old": 35,
+  "posted": 2,
+  "found": 43,
+  "old": 43,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8780,8 +8784,8 @@
   "date": "2026-11-28",
   "count": 2,
   "last": 1795812670.4742548,
-  "city_i": 10,
-  "dry": 1795837266.6632736
+  "city_i": 14,
+  "dry": 1795837863.235549
  },
  "gemini_day_dead": {
   "day": "2026-11-27",
@@ -9460,6 +9464,14 @@
    "t": 1795836166,
    "s": false,
    "r": 0
+  },
+  {
+   "k": "cd33b2704c93f892",
+   "h": "ڪڻڪ جي امپورٽ جي حد مقرر",
+   "x": "ملڪ ۾ اٽي جي قيمتن ۾ واڌ بعد اي سي سي ڪڻڪ جي امپورٽ جي حد اڍائي ڪروڙ ٽن تائين وڌائي ڇڏيو آهي.",
+   "t": 1795837916,
+   "s": false,
+   "r": 0
   }
  ],
  "reels": {
@@ -9475,13 +9487,6 @@
   "last": 1795801969.152985
  },
  "tg_debug": [
-  {
-   "t": "11-28 02:20",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
   {
    "t": "11-28 02:30",
    "ok": true,
@@ -9754,56 +9759,17 @@
    "n": 0,
    "ids": [],
    "err": null
+  },
+  {
+   "t": "11-28 08:50",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
   }
  ],
  "recent_seeded": "2026-11-28",
  "recent_posts": [
-  {
-   "t": 1795664619,
-   "h": "سنڌ | سندھ ۾ آٽي جي اگهن ۾ گهٽتائي جو امڪان",
-   "b": "ڪراچي بندرگاهه تي درآمدي ڪڻڪ جا جهاز پهچڻ جو سلسلو جاري آهي جنهن سان صوبي ۾ سرڪاري ڪڻڪ جي فراهمي بهتر ٿيندي.",
-   "tt": [
-    "امڪان",
-    "اٽي",
-    "اگهن",
-    "سنده",
-    "سنڌ",
-    "گهٽتائي"
-   ],
-   "bt": [
-    "اجازت",
-    "امڪان",
-    "اهي",
-    "اٽي",
-    "اگهن",
-    "بندرگاهه",
-    "بهتر",
-    "جاري",
-    "جهاز",
-    "درامدي",
-    "روزاني",
-    "سرڪاري",
-    "سلسلو",
-    "سنئون",
-    "سنده",
-    "سنڌ",
-    "سڌو",
-    "صوبي",
-    "فراهمي",
-    "فلور",
-    "فوڊ",
-    "ملز",
-    "هدايت",
-    "هزار",
-    "پهچڻ",
-    "ڊپارٽمينٽ",
-    "ڏني",
-    "ڪراچي",
-    "ڪڻڪ",
-    "ڪڻڻ",
-    "گهٽتائي"
-   ]
-  },
   {
    "t": 1795666405,
    "h": "پاڪستان ۾ ڊالر ۽ پرڏيهي ڪرنسي جا اگهه",
@@ -14267,6 +14233,32 @@
     "ڏينهن",
     "ڪيڏيل"
    ]
+  },
+  {
+   "t": 1795837916,
+   "h": "ڪڻڪ جي امپورٽ جي حد مقرر",
+   "b": "ملڪ ۾ اٽي جي قيمتن ۾ واڌ بعد اي سي سي ڪڻڪ جي امپورٽ جي حد اڍائي ڪروڙ ٽن تائين وڌائي ڇڏيو آهي.",
+   "tt": [
+    "امپورٽ",
+    "مقرر",
+    "ڪڻڪ"
+   ],
+   "bt": [
+    "امپورٽ",
+    "اهي",
+    "اٽي",
+    "اڍائي",
+    "بعد",
+    "تائين",
+    "قيمتن",
+    "مقرر",
+    "ملڪ",
+    "واڌ",
+    "وڌائي",
+    "ڇڏيو",
+    "ڪروڙ",
+    "ڪڻڪ"
+   ]
   }
  ],
  "repeat_log": [
@@ -14434,12 +14426,11 @@
  },
  "quality": {
   "date": "2026-11-28",
-  "editor_fixed": 7,
+  "editor_fixed": 8,
   "editor_rejected": 2,
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
   "repeat": 9
- },
- "_dup": true
+ }
 }
