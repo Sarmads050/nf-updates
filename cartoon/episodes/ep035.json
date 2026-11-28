@@ -60,7 +60,11 @@
      "how": "warm storyteller, playful, setting the scene",
      "emo": "calm",
      "shot": "wide",
-     "gap": 0.2
+     "gap": 0.2,
+     "react_pose": {
+      "AMMI": "rest",
+      "DANIYAL": "rest"
+     }
     },
     {
      "who": "SANA",
@@ -69,7 +73,11 @@
      "urdu": "ٹھیک ہے! سب بتائیں، کس کو کیسی چائے چاہیے؟",
      "how": "25-year-old young woman, polite, smart, warm, cheerful, ready to take orders",
      "emo": "happy",
-     "pose": "explain"
+     "pose": "explain",
+     "react_pose": {
+      "AMMI": "rest",
+      "DANIYAL": "rest"
+     }
     },
     {
      "who": "ABBA",
@@ -78,7 +86,11 @@
      "urdu": "میری کڑک، ڈبل پتی۔ ہمارے زمانے میں چائے کڑک ہی ہوتی تھی!",
      "how": "57-year-old father, serious but soft, old-school, proud, lecturing, behind the newspaper",
      "emo": "proud",
-     "pose": "newspaper"
+     "pose": "newspaper",
+     "react_pose": {
+      "AMMI": "rest",
+      "DANIYAL": "rest"
+     }
     },
     {
      "who": "AMMI",
@@ -110,7 +122,8 @@
      "emo": "teasing",
      "pose": "point_up",
      "react_pose": {
-      "AMMI": "rest"
+      "AMMI": "rest",
+      "DANIYAL": "rest"
      }
     },
     {
@@ -131,7 +144,8 @@
       "*": "laugh"
      },
      "react_pose": {
-      "AMMI": "rest"
+      "AMMI": "rest",
+      "DANIYAL": "rest"
      }
     }
    ]
@@ -317,7 +331,10 @@
      "shot": "close:DANIYAL",
      "sfx": [
       "sting"
-     ]
+     ],
+     "react_pose": {
+      "AMMI": "hold"
+     }
     },
     {
      "who": "MEHAK",
@@ -330,6 +347,9 @@
      "gap": 0.5,
      "react": {
       "*": "surprised"
+     },
+     "react_pose": {
+      "DANIYAL": "hold"
      }
     },
     {
@@ -351,6 +371,9 @@
       "ABBA": "SANA",
       "AMMI": "SANA",
       "DANIYAL": "SANA"
+     },
+     "react_pose": {
+      "DANIYAL": "hold"
      }
     },
     {
@@ -364,6 +387,9 @@
      "shot": "close:ABBA",
      "react": {
       "AMMI": "teasing"
+     },
+     "react_pose": {
+      "DANIYAL": "hold"
      }
     },
     {
@@ -383,6 +409,9 @@
      "react": {
       "*": "laugh",
       "ABBA": "sheepish"
+     },
+     "react_pose": {
+      "DANIYAL": "hold"
      }
     },
     {
@@ -401,7 +430,11 @@
      "urdu": "میں تمہارے لیے نئی چائے بنا دیتی ہوں۔ اڈی، سکون سے!",
      "how": "25-year-old young woman, polite, smart, warm, warm, kind smile",
      "emo": "warm",
-     "pose": "explain"
+     "pose": "explain",
+     "react_pose": {
+      "DANIYAL": "hold",
+      "AMMI": "hold"
+     }
     },
     {
      "who": "MEHAK",
@@ -416,6 +449,10 @@
      "react": {
       "DANIYAL": "surprised",
       "*": "laugh"
+     },
+     "react_pose": {
+      "DANIYAL": "hold",
+      "AMMI": "hold"
      }
     },
     {
@@ -430,6 +467,10 @@
      "react": {
       "SANA": "happy",
       "*": "happy"
+     },
+     "react_pose": {
+      "DANIYAL": "hold",
+      "AMMI": "hold"
      }
     }
    ]
