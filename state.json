@@ -2510,10 +2510,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 08:02",
+  "time": "2026-11-28 08:11",
   "items": 9,
   "sample": [
-   "New Zealand 356/10 v India 59/3 *",
+   "New Zealand 356/10 v India 60/3 *",
    "Sudur Paschim Province Under-19s v Karnali Province Under-19s",
    "Gandaki Province Under-19s v Koshi Province Under-19s"
   ]
@@ -4938,40 +4938,8 @@
   "last": 1795832501.9480755
  },
  "trends": {
-  "last": 1795824651.3983588,
+  "last": 1795835458.6009128,
   "terms": [
-   {
-    "term": "houthi attack saudi arabia",
-    "traffic": 200,
-    "news": "Houthi Attack Damages Saudi Capital’s Tallest Tower",
-    "t": 1795221666,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "hunger games",
-    "traffic": 200,
-    "news": "'The Hunger Games,' 'Cliff Booth' and This Week's Best Events",
-    "t": 1795221666,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "bayern munich vs 1. fc köln standings",
-    "traffic": 200,
-    "news": "Match report: Bundesliga, FC Bayern v 1. FC Köln",
-    "t": 1795221666,
-    "cat": "none",
-    "sindh": false
-   },
-   {
-    "term": "afghanistan",
-    "traffic": 100,
-    "news": "US-Israeli Aggression Root Cause of Persian Gulf Insecurity: Araqchi",
-    "t": 1795221666,
-    "cat": "none",
-    "sindh": false
-   },
    {
     "term": "ramayana",
     "traffic": 100,
@@ -8011,15 +7979,63 @@
     "t": 1795824651,
     "cat": "none",
     "sindh": false
+   },
+   {
+    "term": "shubman gill",
+    "traffic": 200,
+    "news": "From Jasprit Bumrah to Test Cap No. 321 - Gurnoor Brar",
+    "t": 1795835458,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "kyle jamieson",
+    "traffic": 100,
+    "news": "[Watch] Yashasvi Jaiswal takes a screamer of a catch to send Kyle Jamieson packing, India's short-ball ploy works",
+    "t": 1795835458,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "matt henry",
+    "traffic": 200,
+    "news": "Yashasvi Jaiswal overtakes Virat Kohli for unwanted WTC record after Christchurch duck",
+    "t": 1795835458,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "bronson reed",
+    "traffic": 500,
+    "news": "Condolences Pour In From Robert Griffin III & Others As WWE Star Tragically Passes Away at 38 From Medical Complications",
+    "t": 1795835458,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "columbus vs inter miami",
+    "traffic": 2000,
+    "news": "November 28, 2026: Los Angeles F vs Saint Louis: First Half Winner Soccer Prediction Market",
+    "t": 1795835458,
+    "cat": "none",
+    "sindh": false
+   },
+   {
+    "term": "black",
+    "traffic": 100,
+    "news": "Black Friday deals are live: 175+ sales worth grabbing before Cyber Monday",
+    "t": 1795835458,
+    "cat": "none",
+    "sindh": false
    }
   ],
   "ai_ok": true
  },
  "ai_usage": {
   "date": "2026-11-28",
-  "ok": 98,
-  "fail": 176,
-  "limit": 176
+  "ok": 99,
+  "fail": 178,
+  "limit": 178
  },
  "posted_heads": [
   {
@@ -8344,7 +8360,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 08:02",
+  "time": "2026-11-28 08:11",
   "steps": []
  },
  "roundup_am": "2026-11-28",
@@ -8452,7 +8468,7 @@
   "text": 13,
   "story": 11
  },
- "ai_last_error": "08:02 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "08:10 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-28",
   "models": [
@@ -8494,7 +8510,7 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
-   "ok": 26,
+   "ok": 27,
    "fail": 25,
    "items": 10,
    "fail_streak": 0,
@@ -8502,7 +8518,7 @@
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8510,7 +8526,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8518,7 +8534,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 50,
+   "ok": 51,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8526,7 +8542,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8534,14 +8550,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8549,7 +8565,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 51,
+   "ok": 52,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8709,8 +8725,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 9,
+  "old": 9,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8773,8 +8789,8 @@
   "date": "2026-11-28",
   "count": 2,
   "last": 1795812670.4742548,
-  "city_i": 20,
-  "dry": 1795834910.5139592
+  "city_i": 24,
+  "dry": 1795835468.7824512
  },
  "gemini_day_dead": {
   "day": "2026-11-27",
@@ -9477,13 +9493,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-28 01:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-28 01:50",
    "ok": true,
    "n": 0,
@@ -9751,6 +9760,13 @@
   },
   {
    "t": "11-28 08:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-28 08:10",
    "ok": true,
    "n": 0,
    "ids": [],
