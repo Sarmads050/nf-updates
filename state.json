@@ -1,14 +1,5 @@
 {
  "seen": {
-  "40834d2f6ee071dd": 1795254215.2970793,
-  "af935c352fc39228": 1795254215.2970822,
-  "bcd82d16cf47c1ae": 1795254215.2970834,
-  "a44369c134db7381": 1795254215.2970843,
-  "555dd42e0affdb7b": 1795254215.2970855,
-  "4a9397c5b65c16c4": 1795254215.2970865,
-  "62c842520128b721": 1795254215.2970874,
-  "915950966425f609": 1795254215.297276,
-  "e4a7a2b156cb4b1c": 1795254307.9366364,
   "91ab52630f198dc9": 1795254670.734952,
   "b258e32793f1759a": 1795255877.0889614,
   "610a02084b1597a2": 1795255877.0889676,
@@ -1709,7 +1700,7 @@
  "sindh_single": {
   "date": "2026-11-28",
   "count": 1,
-  "last": 1795851085.7888627,
+  "last": 1795859486.0745661,
   "used": [
    "f0e315bbf5358e4c",
    "38db7f5995e31068",
@@ -2467,12 +2458,12 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 14:40",
+  "time": "2026-11-28 14:51",
   "items": 9,
   "sample": [
    "New Zealand 356/10 v India 116/6 *",
    "Sudur Paschim Province Under-19s 68/10 v Karnali Province Under-19s 67/10 *",
-   "Gandaki Province Under-19s 191/10 v Koshi Province Under-19s 164/4 *"
+   "Gandaki Province Under-19s 191/10 v Koshi Province Under-19s 177/6 *"
   ]
  },
  "agri_news": {
@@ -7990,9 +7981,9 @@
  },
  "ai_usage": {
   "date": "2026-11-28",
-  "ok": 221,
-  "fail": 376,
-  "limit": 374
+  "ok": 222,
+  "fail": 378,
+  "limit": 376
  },
  "posted_heads": [
   {
@@ -8317,7 +8308,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 14:40",
+  "time": "2026-11-28 14:51",
   "steps": []
  },
  "roundup_am": "2026-11-28",
@@ -8425,7 +8416,7 @@
   "text": 24,
   "story": 17
  },
- "ai_last_error": "14:31 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "14:51 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-28",
   "models": [
@@ -8468,14 +8459,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
    "ok": 48,
-   "fail": 43,
+   "fail": 44,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 91,
+   "ok": 92,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8483,7 +8474,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 91,
+   "ok": 92,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8491,7 +8482,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 90,
+   "ok": 91,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8499,7 +8490,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 91,
+   "ok": 92,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8507,14 +8498,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 91,
+   "ok": 92,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 91,
+   "ok": 92,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8522,7 +8513,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 91,
+   "ok": 92,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8682,8 +8673,8 @@
  },
  "report_acc": {
   "posted": 2,
-  "found": 39,
-  "old": 38,
+  "found": 48,
+  "old": 47,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8746,8 +8737,8 @@
   "date": "2026-11-28",
   "count": 9,
   "last": 1795858277.506362,
-  "city_i": 14,
-  "dry": 1795857064.523249
+  "city_i": 18,
+  "dry": 1795859461.8791158
  },
  "gemini_day_dead": {
   "day": "2026-11-28",
@@ -9454,13 +9445,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-28 08:10",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-28 08:20",
    "ok": true,
    "n": 0,
@@ -9728,6 +9712,13 @@
   },
   {
    "t": "11-28 14:40",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-28 14:50",
    "ok": true,
    "n": 0,
    "ids": [],
