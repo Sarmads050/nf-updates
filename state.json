@@ -1629,7 +1629,8 @@
   "61ba19b39fac0377": 1795827717.6707685,
   "61362d17f71eb840": 1795827717.6707692,
   "e93c6eb3a651377e": 1795827717.6707697,
-  "4ba3bad3b4f5c4cf": 1795827717.6709747
+  "4ba3bad3b4f5c4cf": 1795827717.6709747,
+  "c769857587fb9d28": 1795828281.9771216
  },
  "pending": {
   "culture2026-11-27": {
@@ -2498,10 +2499,10 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 06:02",
+  "time": "2026-11-28 06:11",
   "items": 8,
   "sample": [
-   "New Zealand 340/8 * v India",
+   "New Zealand 344/8 * v India",
    "Sudur Paschim Province Under-19s v Karnali Province Under-19s",
    "Gandaki Province Under-19s v Koshi Province Under-19s"
   ]
@@ -8005,9 +8006,9 @@
  },
  "ai_usage": {
   "date": "2026-11-28",
-  "ok": 61,
-  "fail": 108,
-  "limit": 108
+  "ok": 63,
+  "fail": 112,
+  "limit": 112
  },
  "posted_heads": [
   {
@@ -8332,7 +8333,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 06:02",
+  "time": "2026-11-28 06:11",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8435,12 +8436,12 @@
  },
  "article_diag": {
   "date": "2026-11-28",
-  "tried": 9,
-  "decoded": 8,
-  "text": 8,
-  "story": 7
+  "tried": 10,
+  "decoded": 9,
+  "text": 9,
+  "story": 8
  },
- "ai_last_error": "06:02 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
+ "ai_last_error": "06:11 openrouter thinkingmachines/inkling-small:free 404 {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: thin",
  "gemini_disc": {
   "date": "2026-11-28",
   "models": [
@@ -8482,15 +8483,15 @@
  "source_health": {
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
-   "ok": 21,
+   "ok": 22,
    "fail": 17,
    "items": 10,
-   "fail_streak": 1,
+   "fail_streak": 0,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8498,7 +8499,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8506,7 +8507,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 37,
+   "ok": 38,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8514,7 +8515,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8522,14 +8523,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8537,7 +8538,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 38,
+   "ok": 39,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -8697,8 +8698,8 @@
  },
  "report_acc": {
   "posted": 0,
-  "found": 0,
-  "old": 0,
+  "found": 6,
+  "old": 6,
   "irrelevant": 0,
   "blocked": 0,
   "errors": []
@@ -8761,8 +8762,8 @@
   "date": "2026-11-28",
   "count": 2,
   "last": 1795812670.4742548,
-  "city_i": 10,
-  "dry": 1795827678.9342437
+  "city_i": 14,
+  "dry": 1795828261.6127396
  },
  "gemini_day_dead": {
   "day": "2026-11-27",
@@ -9479,13 +9480,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-27 23:40",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-27 23:50",
    "ok": true,
    "n": 0,
@@ -9753,6 +9747,13 @@
   },
   {
    "t": "11-28 06:00",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-28 06:10",
    "ok": true,
    "n": 0,
    "ids": [],
@@ -14486,11 +14487,6 @@
  ],
  "repeat_log": [
   {
-   "t": "11-26 11:35",
-   "new": "ڪراچي عمارت سانحو: وڏي وزير پاران اعليٰ آفيسرن خلاف ڪارروائي",
-   "old": "ڪراچي: بلوچ ڪالوني ويجهو ڇهه ماڙ عمارت ڊهي پئي"
-  },
-  {
    "t": "11-26 13:17",
    "new": "سنڌ کي زبردستي ورهائڻ سان رت وهڻ جو خطرو: بلاول ڀٽو",
    "old": "ڪنهن جي حڪم تي نوان صوبا يا آئيني ترميم ممڪن ناهي: بلاول ڀٽو"
@@ -14634,6 +14630,11 @@
    "t": "11-28 06:02",
    "new": "اي سي سي ڪڻڪ جي درآمد ۾ واڌ ڪري ڇڏي",
    "old": "ڪڻڪ جي درآمد بابت حڪومت جو غور"
+  },
+  {
+   "t": "11-28 06:11",
+   "new": "کنڊ جي چيس فنڊ جو آڊٽ ڪرڻ جو مطالبو",
+   "old": "ڪڻڪ جي درآمد بابت حڪومت جو غور"
   }
  ],
  "tg_bot_id": 8610497682,
@@ -14654,7 +14655,7 @@
   "kawish_rejected": 0,
   "kawish_crosschecked": 0,
   "wrong_place": 0,
-  "repeat": 5
+  "repeat": 6
  },
  "_dup": true
 }
