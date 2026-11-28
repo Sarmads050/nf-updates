@@ -112,6 +112,11 @@ Format: `- [K-NNN] (episode, date) problem — proposed fix`. See RUNBOOK sectio
 - [K-103] (ep034, 2026-11-27) Bedroom ka "bed" slot stand_l/stand_c ke bilkul peeche hai: Daniyal ko bed par bithaya to woh khare Arsalan ke peeche chhup gaya (preview mein pakra, use khara rakh kar theek kiya) — bed slot ko thora right/upar karna ya check.py mein warning dena.
 - [K-104] (ep034, 2026-11-27) "read" pose mein khare Daniyal ki kitaab kamar ke paas chhota neela dabba rehti hai aur nazar seedhi saamne — parhta hua nahi lagta — read pose mein kitaab seene ke saamne khuli ho aur aankhein neeche.
 
+- [K-105] (ep035, 2026-11-28) Kahani "cup badal gaye" ki hai lekin chaaron cup bilkul ek jaise safaid hain, chai ka rang (kadak gehri, pheeki, doodh wali halki) nazar nahi aata — viewer ko swap sirf awaaz se samajh aata hai — "cup" prop ke rang wale variants (kadak = gehra bhoora, doodh-pati = halka, upar bhaap) taa ke tray par farq dikhe.
+- [K-106] (ep035, 2026-11-28) Mehak "darwaze par tray ghoom gayi" kehti hai lekin tray ghoomne ka koi visual nahi; aur sab ko cup tray se khud-ba-khud haath mein mil jate hain (koi uthata nazar nahi aata) — "turn" action (tray haath mein ghoomti hui, whoosh) aur "take_from_tray" action (character haath barha kar tray se cup uthaye).
+- [K-107] (ep035, 2026-11-28) Sofa par baithe Daniyal (sofa_r) ka close-up (line 1, 6) itna bara hai ke saath khari Mehak (stand_r) aur Bhabi line 7 ke close-up mein kinare par aadhi kat jati hai, Daniyal frame bhar leta hai — close:CHAR mein bolne wale ko center par rakh kar thora chaura crop.
+- [K-108] (ep035, 2026-11-28) Kahani mein sab "pehla ghoont" le kar react karte hain lekin koi cup munh tak nahi le jata (K-068 wala "sip" pose abhi tak nahi bana, is episode mein 3 dafa zaroorat pari) — "sip" pose banana: cup honton tak, phir react.
+
 ## APPROVED
 
 ## DONE
