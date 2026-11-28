@@ -2507,7 +2507,7 @@
   }
  },
  "cricket_feed": {
-  "time": "2026-11-28 07:10",
+  "time": "2026-11-28 07:14",
   "items": 9,
   "sample": [
    "New Zealand 356/10 v India 33/2 *",
@@ -8341,7 +8341,7 @@
   }
  ],
  "last_errors": {
-  "time": "2026-11-28 07:10",
+  "time": "2026-11-28 07:14",
   "steps": []
  },
  "roundup_am": "2026-11-27",
@@ -8492,14 +8492,14 @@
   "https://pahenjiakhbar.com/feed/": {
    "date": "2026-11-28",
    "ok": 25,
-   "fail": 20,
+   "fail": 21,
    "items": 10,
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_status": 200
   },
   "https://wtnsindhi.com/feed/": {
    "date": "2026-11-28",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8507,7 +8507,7 @@
   },
   "https://sindhvoice.com/feed/": {
    "date": "2026-11-28",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8515,7 +8515,7 @@
   },
   "https://www.awamiawaz.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 44,
+   "ok": 45,
    "fail": 1,
    "items": 10,
    "fail_streak": 0,
@@ -8523,7 +8523,7 @@
   },
   "https://www.ktnnews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8531,14 +8531,14 @@
   },
   "https://www.express.pk/feed/": {
    "date": "2026-11-28",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 50,
    "fail_streak": 0
   },
   "https://urdu.arynews.tv/feed/": {
    "date": "2026-11-28",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 10,
    "fail_streak": 0,
@@ -8546,7 +8546,7 @@
   },
   "https://arynews.tv/tag/naushahro-feroze/feed/": {
    "date": "2026-11-28",
-   "ok": 45,
+   "ok": 46,
    "fail": 0,
    "items": 15,
    "fail_streak": 0,
@@ -9488,13 +9488,6 @@
  },
  "tg_debug": [
   {
-   "t": "11-28 00:41",
-   "ok": true,
-   "n": 0,
-   "ids": [],
-   "err": null
-  },
-  {
    "t": "11-28 00:50",
    "ok": true,
    "n": 0,
@@ -9762,6 +9755,13 @@
   },
   {
    "t": "11-28 07:10",
+   "ok": true,
+   "n": 0,
+   "ids": [],
+   "err": null
+  },
+  {
+   "t": "11-28 07:13",
    "ok": true,
    "n": 0,
    "ids": [],
